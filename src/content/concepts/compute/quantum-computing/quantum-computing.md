@@ -4,40 +4,10 @@ slug: quantum-computing
 canonical_name: Quantum Computing
 aliases: []
 kind: technology
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - compute
 - quantum-computing
 related_concepts: []
-companies_using:
-- alice-bob
-- bleximo
-- classiq
-- d-wave-quantum
-- eleqtron
-- equal1
-- fujitsu-quantum
-- google-quantum-ai
-- ibm-quantum
-- infleqtion
-- ionq
-- iqm-quantum-computers
-- microsoft-azure-quantum
-- multiverse-computing
-- origin-quantum
-- oxford-ionics
-- pasqal
-- planqc
-- psiquantum
-- quantinuum
-- quantum-motion
-- quera-computing
-- quobly
-- rigetti-computing
-- xanadu
-ideas_referencing: []
 sources:
 - '[[2023-10-19-e20-the-state-of-privacy-enhancing]]'
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
@@ -77,18 +47,11 @@ last_reorg_date: '2026-05-13'
 sources_7d: 12
 sources_30d: 41
 ---
-
-
-# Quantum Computing
-
-*Kind: technology · Attio deal count: 24*
-
 ## Physics / mechanism
 
 Quantum computers exploit quantum mechanical phenomena — superposition, entanglement, interference — to process information in ways classical bits cannot. The fundamental unit is the qubit; physical implementations include superconducting transmons (IBM, Google), trapped ions (IonQ, Quantinuum), photonic qubits (PsiQuantum, QuiX), neutral atoms (Atom Computing, Pasqal), and silicon spin qubits (Intel, Silicon Quantum Computing). Key figures of merit: qubit count, gate fidelity (best superconducting: ~99.9% two-qubit), coherence time (microseconds to milliseconds depending on modality), and error correction overhead. Current NISQ-era machines (100–1000 physical qubits) remain pre-fault-tolerant; fault-tolerant systems likely require millions of physical qubits per logical qubit under surface code. No demonstrated quantum advantage on commercially relevant problems yet.
 
 ## Competitive landscape
-
 
 | Modality | Qubit fidelity | Scalability path | Fab dependency |
 |---|---|---|---|
@@ -96,13 +59,6 @@ Quantum computers exploit quantum mechanical phenomena — superposition, entang
 | Trapped ion | ~99.9%+ 2Q | Photonic interconnects | Low fab, high photonics |
 | Photonic | High entanglement fidelity | Room-temp operation possible | Silicon photonics foundry-compatible |
 | Silicon spin | ~99.5% 2Q | CMOS-native, densest integration | Direct CMOS foundry leverage |
-
-## Cloudberry relevance
-
-Classical HPC (GPU clusters, TPUs) competes for near-term workloads. Neuromorphic and analog computing address overlapping optimization use cases. Quantum annealing (D-Wave) targets narrow combinatorial problems. Photonic accelerators eat some quantum-claimed workloads without cryogenic overhead.
-
-
-Cloudberry's angle is infrastructure, not algorithms. Silicon spin and photonic qubit modalities run through standard or near-standard CMOS and silicon photonics fabs — directly in GlobalFoundries' wheelhouse. Deal-flow targets: qubit foundry process IP, cryo-CMOS control ASICs, photonic interconnect components for modular QPU architectures. Lunar Ventures' software-layer exposure complements hardware bets. Watch silicon spin closely — the fab stack is closest to what GF already runs.
 
 ## Companies using
 

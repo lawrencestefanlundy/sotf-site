@@ -4,15 +4,10 @@ slug: lithography-tools
 canonical_name: Lithography Tools
 aliases: []
 kind: category
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - manufacturing
 - lithography
 related_concepts: []
-companies_using: []
-ideas_referencing: []
 sources: []
 frontier:
 - ''
@@ -25,11 +20,7 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 ---
-
-
-# Lithography Tools
-
-*Kind: category · Stub leader page for `concepts/semiconductors/lithography/`*
+*Stub leader page for `concepts/semiconductors/lithography/`*
 
 EUV, DUV, high-NA, immersion, mask-aligner, nanoimprint lithography systems and consumables.
 

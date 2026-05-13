@@ -1,6 +1,7 @@
 ---
 import Base from "../../../layouts/Base.astro";
 import { getCollection } from "astro:content";
+import { macroBySlug, mesoBySlug } from "../../../data/taxonomy";
 
 export async function getStaticPaths() {
   const concepts = await getCollection("concepts");
@@ -19,39 +20,40 @@ const { macro, meso } = Astro.params;
 const concepts = await getCollection("concepts");
 const inMeso = concepts.filter((c) => c.id.startsWith(`${macro}/${meso}/`));
 
-const MACRO_NAMES: Record<string, string> = {
-  "compute": "Compute",
-  "memory": "Memory",
-  "sensing": "Sensing",
-  "communications": "Communications",
-  "energy-power": "Energy & Power",
-  "manufacturing": "Manufacturing",
-  "materials": "Materials",
-  "photonic-systems": "Photonic Systems",
-  "life-frontier": "Life & Frontier",
-};
-const macroName = MACRO_NAMES[macro as string] ?? macro;
-const mesoName = (meso as string).replace(/-/g, " ");
+const macroEntry = macroBySlug(macro as string);
+const mesoEntry = mesoBySlug(macro as string, meso as string);
+const macroName = macroEntry?.name ?? macro;
+const mesoName = mesoEntry?.name ?? (meso as string).replace(/-/g, " ");
+const mesoBlurb = mesoEntry?.blurb;
+
+const sorted = [...inMeso].sort((a, b) =>
+  a.data.canonical_name.localeCompare(b.data.canonical_name)
+);
 ---
 
 <Base title={`${mesoName} · ${macroName}`}>
   <div class="breadcrumb">
     <a href="/">Now</a> &nbsp;/&nbsp; <a href={`/${macro}/`}>{macroName}</a> &nbsp;/&nbsp; {mesoName}
   </div>
-  <h1>{mesoName}</h1>
-  <p><em>Synthesis pending. {inMeso.length} concepts in this cluster.</em></p>
+  <section class="hero">
+    <h1>{mesoName}</h1>
+    {mesoBlurb && <p>{mesoBlurb}</p>}
+    <div class="meta" style="margin-top: 0.8rem;">{inMeso.length} concept{inMeso.length === 1 ? "" : "s"} in this cluster</div>
+  </section>
 
-  <div class="grid-3" style="margin-top: 1.5rem;">
-    {inMeso.sort((a, b) => a.data.canonical_name.localeCompare(b.data.canonical_name)).map((c) => (
-      <a href={`/${c.id}/`} class="card">
-        <h2>{c.data.canonical_name}</h2>
-        {c.data.sources_30d > 0 && (
-          <div class="meta">+{c.data.sources_30d} sources in 30d</div>
-        )}
-        {c.data.frontier && c.data.frontier.length > 0 && (
-          <div class="meta">{c.data.frontier.length} open frontier{c.data.frontier.length > 1 ? "s" : ""}</div>
-        )}
-      </a>
-    ))}
-  </div>
+  <section>
+    <div class="grid-3">
+      {sorted.map((c) => (
+        <a href={`/${c.id}/`} class="card">
+          <h2>{c.data.canonical_name}</h2>
+          {c.data.sources_30d > 0 && (
+            <div class="meta">+{c.data.sources_30d} sources in 30d</div>
+          )}
+          {(!c.data.sources_30d && c.data.frontier && c.data.frontier.length > 0) && (
+            <div class="meta">{c.data.frontier.length} frontier question{c.data.frontier.length > 1 ? "s" : ""}</div>
+          )}
+        </a>
+      ))}
+    </div>
+  </section>
 </Base>

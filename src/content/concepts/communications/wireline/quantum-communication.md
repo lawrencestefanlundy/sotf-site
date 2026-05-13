@@ -4,15 +4,10 @@ slug: quantum-communication
 canonical_name: Quantum Communication
 aliases: []
 kind: category
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - communications
 - wireline
 related_concepts: []
-companies_using: []
-ideas_referencing: []
 sources: []
 frontier:
 - ''
@@ -30,10 +25,7 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 ---
-
-# Quantum Communication
-
-*Kind: category · Stub leader page for `concepts/quantum/communication/`*
+*Stub leader page for `concepts/quantum/communication/`*
 
 QKD, quantum repeaters, quantum networks, post-quantum cryptography.
 

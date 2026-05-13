@@ -7,9 +7,6 @@ aliases:
 - lead zirconate titanate
 - Pb(Zr,Ti)O3
 kind: technology
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - materials
 - functional-layers
@@ -19,8 +16,6 @@ related_concepts:
 - ferroelectric-memory-share
 - electro-optic-modulators
 - silicon-photonics
-companies_using: []
-ideas_referencing: []
 sources: []
 frontier:
 - Lead-content regulatory risk — does RoHS / EU Critical Raw Materials Act limit PZT production for telecom by 2028?
@@ -39,10 +34,7 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 ---
-
-# Lead Zirconate Titanate (PZT) Photonics
-
-*Kind: technology · Strong piezoelectric + electro-optic ferroelectric for Si-integrated modulators*
+*Strong piezoelectric + electro-optic ferroelectric for Si-integrated modulators*
 
 ## Physics / mechanism
 
@@ -53,10 +45,6 @@ The photonic angle: PZT thin films on silicon (PZT-on-SOI, PZT-on-SiN) integrate
 ## Competitive landscape
 
 EpiPhotonics (US, IBM Zurich derivative) is the lead commercialisation effort for PZT-on-SOI modulators. IBM Zurich, Princeton, and several European groups have published PZT-on-Si EO demonstrators. Lead-content regulatory pressure (RoHS) is a real constraint that limits some markets.
-
-## Cloudberry relevance
-
-Adjacent via **Photonics Material Class War** — PZT is one of several emerging EO materials competing with TFLN and BTO. The lead-content question matters for European deployment — sovereignty-aligned alternatives like ScAlN may win in EU regulatory environments where PZT cannot.
 
 ## Frontier (open questions)
 

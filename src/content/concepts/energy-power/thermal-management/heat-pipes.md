@@ -4,39 +4,10 @@ slug: heat-pipes
 canonical_name: Heat Pipes
 aliases: []
 kind: technology
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - energy-power
 - thermal-management
 related_concepts: []
-companies_using:
-- aavid-boyd-corporation
-- advanced-cooling-technologies-act
-- aesir-technologies
-- amulaire-thermal-technology
-- be-quiet-listan-gmbh
-- calyos
-- celsia-technologies
-- cooler-master-asia-rd-vapor-x
-- cooler-master
-- delta-electronics
-- enertron
-- fujikura
-- furukawa-electric
-- holo-industries
-- laird-thermal-systems
-- noctua
-- novark-technologies
-- shinko-electric-industries
-- thermacore-modine-manufacturing
-- thermal-corp
-- tn-nhit-vit-tnv-cooltech-vietnam
-- vert-rotors
-- wakefield-vette
-- zalman-tech
-ideas_referencing: []
 sources: []
 frontier:
 - ''
@@ -49,12 +20,6 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 ---
-
-
-# Heat Pipes
-
-*Kind: technology*
-
 ## Physics / mechanism
 
 A heat pipe is a sealed evacuated vessel containing a working fluid that transfers heat via phase-change cycling: evaporation at the heat source (evaporator), vapour transport along a pressure gradient, condensation at the heat sink, and capillary-driven liquid return through a wick structure. Thermal conductivity effective values reach 10,000–100,000 W/m·K, dwarfing copper (~400 W/m·K). Key parameters: working fluid selection (water, ammonia, sodium for high-temp), wick permeability, vapour space pressure drop, and tilt sensitivity. State of the art includes sintered-powder and axially-grooved wicks operating at <0.1°C/W thermal resistance; loop heat pipes (LHPs) and oscillating heat pipes (OHPs) push performance in orientation-agnostic or ultra-compact geometries.
@@ -62,17 +27,6 @@ A heat pipe is a sealed evacuated vessel containing a working fluid that transfe
 ## Competitive landscape
 
 Competing passive thermal solutions include vapour chambers (2D heat spreading, better for planar sources), solid spreaders (pyrolytic graphite, diamond composites), and active liquid cooling loops. For chip-scale applications, microfluidic cold plates and immersion cooling are increasingly competitive above ~300 W/cm². Adjacent: thermoelectric modules (active, lower COP), thermosyphons (gravity-dependent, simpler). OHPs are gaining ground in space and AI accelerator cooling due to no moving parts and high heat flux tolerance.
-
-## Cloudberry relevance
-
-| Approach | Heat flux ceiling | Form factor | Moving parts |
-|---|---|---|---|
-| Heat pipe | ~200 W/cm² | Flexible routing | None |
-| Vapour chamber | ~500 W/cm² | Planar only | None |
-| Liquid cold plate | >1000 W/cm² | Rigid, bulky | Pump required |
-
-
-Thermal management is a hard constraint in advanced packaging, photonic integrated circuits, and power semiconductors — all Cloudberry territory. GF-process nodes and wide-bandgap power devices generate localised heat fluxes that conventional spreaders can't handle. Deal-flow angles: startups commercialising OHPs or additive-manufactured heat pipes for chiplet stacks, photonic module cooling, or EV power modules. Lunar Ventures' deep-tech hardware thesis aligns with materials-innovation plays in novel wick structures or high-temperature alkali-metal variants for space and defence.
 
 ## Companies using
 

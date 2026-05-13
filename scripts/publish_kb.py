@@ -31,6 +31,7 @@ import yaml
 
 KB = Path.home() / "kb"
 KB_CONCEPTS = KB / "concepts"
+KB_COMPANIES = KB / "companies"
 SITE = Path.home() / "projects" / "sotf-site"
 OUT = SITE / "src" / "content" / "concepts"
 BACK_REFS = KB / "scripts" / "back_refs.json"
@@ -54,6 +55,10 @@ STRIP_FIELDS = {
     "sensitivity", "internal_only", "calibration", "attio_id",
     "first_mention_date", "round_size_eur", "target_raise", "valuation_usd",
     "valuation_str", "total_raised_usd", "total_raised_str",
+    # Internal-only routing flags
+    "domain",       # [cloudberry, sotf, lunar] — internal routing
+    "companies_using",  # internal company tracking (separate from public mentions)
+    "ideas_referencing", # internal idea-page back-refs
 }
 
 
@@ -149,21 +154,226 @@ def strip_dataview_blocks(body: str) -> str:
     return pattern.sub("<!-- dataview block stripped for public site -->", body)
 
 
-def strip_private_wikilinks(body: str) -> str:
-    """Replace wikilinks to private slugs with plain text.
+_private_pattern_cache: re.Pattern | None = None
 
-    Public slugs (concepts in the new public macros, tours, writing) stay as
-    wikilinks; everything else (companies, ideas, people, private sources) becomes
-    plain bold text.
+
+def _build_private_pattern() -> re.Pattern:
+    """Compile one big regex that matches any reference to a Cloudberry-internal company.
+
+    A company is internal if its KB page has a non-empty `attio_id` (Attio CRM-tracked).
+    Public incumbents (Apple, TSMC, Samsung, etc.) have empty attio_id and are safe to mention.
+
+    Conflict resolution: when the same form (slug / canonical / alias) appears under BOTH
+    a private and a public company in the KB (e.g. `nilt` and `nil-technology-nilt` both
+    canonicalise to "NILT"), the form is treated as PUBLIC — safer than dropping legit
+    paragraphs about widely-known companies. This is the right call because the KB has
+    duplicate records for some entities and we don't want false-positive deletions.
+
+    Matches: slug form (lowercase, in wikilinks or bare), canonical_name, multi-word aliases.
+    Excludes: single-character / very-short aliases that could match English words.
     """
-    # Build public-slug allowlist: every concept in a public macro
-    public_slugs = set()
+    global _private_pattern_cache
+    if _private_pattern_cache is not None:
+        return _private_pattern_cache
+
+    private_forms: set[str] = set()
+    public_forms: set[str] = set()
+
+    def _collect(fm: dict) -> set[str]:
+        forms: set[str] = set()
+        slug = fm.get("slug")
+        canonical = fm.get("canonical_name") or ""
+        aliases = fm.get("aliases") or []
+        if slug:
+            forms.add(slug)
+        if canonical:
+            forms.add(canonical)
+        for a in aliases:
+            if isinstance(a, str) and len(a) >= 4:
+                forms.add(a)
+        return forms
+
+    if KB_COMPANIES.exists():
+        for p in KB_COMPANIES.glob("*.md"):
+            try:
+                text = p.read_text(encoding="utf-8", errors="ignore")
+                m = re.match(r"^---\n(.*?)\n---", text, re.DOTALL)
+                if not m:
+                    continue
+                fm = yaml.safe_load(m.group(1)) or {}
+            except Exception:
+                continue
+            attio_id = (fm.get("attio_id") or "").strip()
+            target = private_forms if attio_id else public_forms
+            target |= _collect(fm)
+
+    # Conflict resolution: any form that also appears under a public company → exclude
+    truly_private = private_forms - public_forms
+
+    if not truly_private:
+        _private_pattern_cache = re.compile(r"(?!x)x")  # match nothing
+        return _private_pattern_cache
+
+    # Sort longest-first so multi-word names match before substrings
+    escaped = sorted((re.escape(f) for f in truly_private), key=len, reverse=True)
+    pattern = r"\b(?:" + "|".join(escaped) + r")\b"
+    _private_pattern_cache = re.compile(pattern)
+    return _private_pattern_cache
+
+
+def strip_private_company_paragraphs(body: str) -> str:
+    """Drop entire paragraphs that mention Cloudberry-internal companies.
+
+    Mentions can be wikilinks `[[cnuic]]`, canonical names "Cnuic", or aliases "CNUIC".
+    Done at publish-time. Underlying KB keeps everything; only the public surface is stripped.
+    """
+    pattern = _build_private_pattern()
+    paragraphs = re.split(r"\n\s*\n", body)
+    kept = [p for p in paragraphs if not pattern.search(p)]
+    body = "\n\n".join(kept)
+    body = re.sub(r"\n{3,}", "\n\n", body)
+    return body
+
+
+def strip_leading_template_noise(body: str) -> str:
+    """Strip body-template noise that duplicates layout chrome:
+
+    1. Leading `# Title` H1 — the page layout already renders the title from frontmatter.canonical_name
+    2. `*Kind: technology*` italic line — redundant on a tech-concepts site
+    3. `*Kind: technology · <rest>*` — strip the prefix, keep <rest> as the summary
+    4. `· Attio deal count: \\d+` anywhere — internal Attio reference
+
+    Done at publish-time. Underlying KB keeps the originals.
+    """
+    # Drop "Attio deal count" anywhere it leaks
+    body = re.sub(r"\s*·\s*Attio deal count:\s*\d+", "", body)
+    body = re.sub(r"Attio deal count:\s*\d+", "", body)
+
+    # Process the leading lines: skip blanks; strip first H1 if present;
+    # strip "*Kind:*" line (or convert to summary line).
+    lines = body.split("\n")
+    out_lines = []
+    state = "leading"
+    for line in lines:
+        if state == "leading":
+            stripped = line.strip()
+            if stripped == "":
+                # Skip leading blank lines silently
+                continue
+            # 1. Leading H1: drop it
+            if re.match(r"^# [^\n]+$", stripped):
+                continue
+            # 2. *Kind: X*  →  drop entirely
+            m_pure = re.match(r"^\*Kind:\s*[^·*]+\*$", stripped)
+            if m_pure:
+                continue
+            # 3. *Kind: X · Y*  →  keep just *Y*
+            m_summary = re.match(r"^\*Kind:\s*[^·]+·\s*(.+?)\*$", stripped)
+            if m_summary:
+                summary = m_summary.group(1).strip()
+                if summary:
+                    out_lines.append(f"*{summary}*")
+                state = "body"
+                continue
+            # Anything else marks the start of real body content
+            out_lines.append(line)
+            state = "body"
+        else:
+            out_lines.append(line)
+
+    return "\n".join(out_lines)
+
+
+def strip_cloudberry_content(body: str) -> str:
+    """Remove Cloudberry-internal content from a concept body.
+
+    Two-pass strip:
+    1. Whole ## sections whose heading starts with "Cloudberry" (e.g. "## Cloudberry relevance",
+       "## Cloudberry vantage", "## Cloudberry view") — removed heading + content up to the
+       next ## heading or end of file.
+    2. Any remaining paragraph (separated by blank lines) that mentions "Cloudberry" — dropped
+       in full.
+
+    Done at publish-time so the underlying KB keeps the Cloudberry framing for internal use.
+    """
+    # Pass 1: section-level strip
+    body = re.sub(
+        r"^##+\s+Cloudberry[^\n]*\n.*?(?=^##+\s|\Z)",
+        "",
+        body,
+        flags=re.MULTILINE | re.DOTALL,
+    )
+    # Pass 2: paragraph-level strip (any paragraph that mentions Cloudberry)
+    paragraphs = re.split(r"\n\s*\n", body)
+    paragraphs = [p for p in paragraphs if "cloudberry" not in p.lower()]
+    body = "\n\n".join(paragraphs)
+    # Tidy any triple-blank-lines created by removals
+    body = re.sub(r"\n{3,}", "\n\n", body)
+    return body
+
+
+_public_slug_paths_cache: dict[str, str] | None = None
+
+
+def _public_slug_paths() -> dict[str, str]:
+    """Build slug → "macro/meso/slug" path map for every public concept.
+
+    Used by the wikilink resolver to turn `[[maskless-lithography]]` into
+    `[Maskless Lithography](/manufacturing/lithography/maskless-lithography/)`.
+    """
+    global _public_slug_paths_cache
+    if _public_slug_paths_cache is not None:
+        return _public_slug_paths_cache
+    out: dict[str, str] = {}
     for macro in PUBLIC_MACROS:
         macro_dir = KB_CONCEPTS / macro
         if not macro_dir.exists():
             continue
         for f in macro_dir.rglob("*.md"):
-            public_slugs.add(f.stem)
+            if f.name.startswith("_"):
+                continue
+            rel = f.relative_to(KB_CONCEPTS)
+            parts = rel.with_suffix("").parts
+            if len(parts) == 3:
+                out[f.stem] = "/".join(parts)
+    _public_slug_paths_cache = out
+    return out
+
+
+_canonical_name_cache: dict[str, str] | None = None
+
+
+def _canonical_names() -> dict[str, str]:
+    """Build slug → canonical_name map by reading frontmatter of every public concept."""
+    global _canonical_name_cache
+    if _canonical_name_cache is not None:
+        return _canonical_name_cache
+    out: dict[str, str] = {}
+    for macro in PUBLIC_MACROS:
+        macro_dir = KB_CONCEPTS / macro
+        if not macro_dir.exists():
+            continue
+        for f in macro_dir.rglob("*.md"):
+            if f.name.startswith("_"):
+                continue
+            try:
+                text = f.read_text(encoding="utf-8", errors="ignore")
+                fm, _ = parse_fm(text)
+                if fm:
+                    out[f.stem] = fm.get("canonical_name") or f.stem
+            except Exception:
+                continue
+    _canonical_name_cache = out
+    return out
+
+
+def strip_private_wikilinks(body: str) -> str:
+    """Resolve wikilinks:
+       - Public concept slug → markdown link `[Canonical Name](/macro/meso/slug/)`
+       - Everything else → plain bold text (private companies, ideas, people, etc.)
+    """
+    slug_paths = _public_slug_paths()
+    canonical = _canonical_names()
 
     def repl(m):
         inner = m.group(1)
@@ -174,11 +384,14 @@ def strip_private_wikilinks(body: str) -> str:
             display = display.strip()
         else:
             slug = inner.strip()
-            display = slug.replace("-", " ").title()
-        if slug in public_slugs:
-            return m.group(0)  # leave wikilink as-is
-        # Private: render display name as plain bold
-        return f"**{display}**"
+            display = ""
+
+        if slug in slug_paths:
+            label = display or canonical.get(slug) or slug.replace("-", " ").title()
+            return f"[{label}](/{slug_paths[slug]}/)"
+        # Private — render display or de-slugged name as plain bold
+        label = display or slug.replace("-", " ").title()
+        return f"**{label}**"
 
     return re.sub(r"\[\[([^\]]+)\]\]", repl, body)
 
@@ -197,8 +410,11 @@ def filter_concept(fm: dict, body: str, slug: str) -> tuple[dict, str]:
     out["sources_7d"] = freshness["sources_7d"]
     out["sources_30d"] = freshness["sources_30d"]
 
-    # Strip Dataview blocks (useless on public site) + private wikilinks
+    # Strip noise + Cloudberry + private-company paragraphs + leading template lines + private wikilinks
     new_body = strip_dataview_blocks(body)
+    new_body = strip_cloudberry_content(new_body)
+    new_body = strip_private_company_paragraphs(new_body)
+    new_body = strip_leading_template_noise(new_body)
     new_body = strip_private_wikilinks(new_body)
 
     return out, new_body

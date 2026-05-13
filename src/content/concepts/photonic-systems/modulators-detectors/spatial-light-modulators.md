@@ -11,9 +11,6 @@ aliases:
 - digital micromirror device
 - liquid crystal on silicon
 kind: technology
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - photonic-systems
 - modulators-detectors
@@ -29,24 +26,6 @@ related_concepts:
 - barium-titanate
 - lithium-niobate-tfln
 - indium-phosphide
-companies_using:
-- hamamatsu-photonics
-- neurophos
-- altro-photonics
-- texas-instruments-dlp
-- holoeye-photonics
-- boulder-nonlinear-systems
-- meadowlark-optics
-- forth-dimension-displays
-- jasper-display
-- pacific-light-technologies
-- himax-technologies
-- olix
-- coherix
-- envisics
-ideas_referencing:
-- '[[parallel-foci-2pp-scaling]]'
-- '[[slm-material-class-race]]'
 sources: []
 frontier:
 - III/V SLM miniaturisation — Microsoft has multiple papers; what is current pixel pitch and refresh rate ceiling?
@@ -64,10 +43,7 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 2
 ---
-
-# Spatial Light Modulators (SLMs)
-
-*Kind: technology · Cross-cutting photonic component appearing in 26+ concept pages.*
+*Cross-cutting photonic component appearing in 26+ concept pages.*
 
 ## Physics / mechanism
 
@@ -97,23 +73,6 @@ Adjacent material classes:
 - Copper-based metamaterial (Neurophos) — novel, GHz, bespoke fabrication
 - III/V quantum-well SLM (Microsoft research) — aspirational, no production
 - Photonic-IC active grating arrays — emerging, could blur SLM/modulator distinction
-
-## Cloudberry relevance
-
-**Direct deals touching SLMs:**
-- ****Coherix**** (UK, optical compute, live 2026-05-07) — fully custom telecoms-grade holographic SLM repurposed for ONN inference; Envisics-lineage IP. Counter-data point to the "LCOS ages out" framing in **Slm Material Class Race** — telecoms-LCOS for compute is alive in 2026 even if III/V displaces in the long run. See **2026 05 06 Coherix Introduction**.
-- ****Neurophos**** (US, photonic compute) — uses copper-based metamaterial as SLM; Geometry diligencing
-- ****Altro Photonics**** (UK, BTO/SiN heterogeneous) — BTO is for modulators not SLM proper; Altro should not be expected to solve SLM problem
-- ****Memo Lightspring**** (passed) — flash-TPP scaling depends on SLM-driven parallel foci; current SOTA 49 foci, 100K aspirational
-- ****Opdo**** (passed) — xolography uses DMD-based projection (TI DLP)
-
-**The SLM material race is the binding fab problem in photonic compute.** Modulators (BTO, TFLN, polymer) are the easier component. SLMs need: fast switching (GHz desired), production-scale arrays (1M+ pixels), continuous phase, and yield. Today no single technology solves all four.
-
-**GF context:** unclear if GlobalFoundries has III/V-on-Si capability that could bear on this. Worth a question to LP relationship.
-
-**Cloudberry idea seeds:**
-- ****Parallel Foci 2Pp Scaling**** — SLM throughput as binding constraint on flash-TPP
-- ****Slm Material Class Race**** — LCOS vs DMD vs metamaterial vs III-V backplane
 
 ## Companies using
 

@@ -4,39 +4,10 @@ slug: quantum-sensing
 canonical_name: Quantum Sensing
 aliases: []
 kind: technology
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - sensing
 - quantum-sensing
 related_concepts: []
-companies_using:
-- aivon-subsidiary-of-becker-hickl
-- aosense
-- aquark-technologies
-- atomionics
-- bosch-quantum-sensing-division
-- cerca-magnetics
-- fraunhofer-iof-quantum-optics-jena-spin-outs
-- humboldt-universitt-spin-off-hqs-eleqtron
-- m-squared-lasers
-- menten-ai-qzabre
-- muquans-ixblue-exail
-- nomad-atomics
-- nu-quantum
-- q-next-argonne-spin-off-infleqtion
-- q-next-vector-atomic
-- qant
-- qlm-technology
-- quantum-brilliance
-- quside
-- quspin
-- rohde-schwarz-quantum-technology-unit
-- sentons-sbquantum
-- syrlinks-thales-spin-out
-- twinleaf
-ideas_referencing: []
 sources:
 - '[[2024-12-16-willow-and-the-race-to-quantum-advantage]]'
 - '[[2026-05-02-nv-center-quantum-sensing-review-sciencedirect-2022]]'
@@ -59,17 +30,11 @@ last_reorg_date: '2026-05-13'
 sources_7d: 3
 sources_30d: 8
 ---
-
-# Quantum Sensing
-
-*Kind: technology · Attio deal count: 10*
-
 ## Physics / mechanism
 
 Quantum sensing exploits quantum mechanical properties—superposition, entanglement, squeezing—to measure physical quantities with precision beyond classical limits. Primary modalities: atomic interferometers (gravimeters, gyroscopes), nitrogen-vacancy (NV) centres in diamond (magnetometry, thermometry), optical atomic clocks, and squeezed-light interferometers. Key figure of merit is sensitivity floor, often expressed as shot-noise or standard quantum limit (SQL). NV magnetometers reach ~1 pT/√Hz at room temperature; atom interferometers achieve gravimetric sensitivity ~10⁻⁹ g/√Hz. DARPA, NIST, PTB driving SOA. Commercial readiness is modality-dependent: optical clocks and MEMS-hybrid gravimeters nearest to deployment; entanglement-enhanced sensors remain largely lab-stage.
 
 ## Competitive landscape
-
 
 Classical alternatives—SQUID magnetometers, MEMS accelerometers, fluxgate sensors—compete on cost and form factor, not sensitivity. Quantum wins at extreme precision: subsurface mapping, inertial navigation without GPS, medical imaging (MEG/MRI enhancement). Adjacent: photonic integrated circuits (PIC-based sensor readout), cryogenic electronics for coherence preservation, precision MEMS as hybrid classical-quantum front-ends.
 
@@ -78,9 +43,6 @@ Classical alternatives—SQUID magnetometers, MEMS accelerometers, fluxgate sens
 | NV-diamond magnetometer | ~1 pT/√Hz | Pilot / early commercial |
 | Atom interferometer gravimeter | ~10⁻⁹ g/√Hz | Field deployable |
 | SQUID (classical baseline) | ~1 fT/√Hz | Mature, cryogenic |
-
-## Cloudberry relevance
-Photonic readout and control electronics are the semiconductor layer inside every quantum sensor—direct deal-flow for Cloudberry. GF's silicon photonics and RF process nodes are plausible fabrication substrate for integrated sensor ASICs. Watch for spinouts from national labs (NPL, PTB, Fraunhofer) commercialising NV or atom-interferometer platforms needing Series A capital and fab partnerships. Defence, energy-transition subsurface, and autonomy (GPS-denied navigation) are the near-term revenue vectors worth diligencing.
 
 ## Companies using
 

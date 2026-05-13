@@ -4,15 +4,10 @@ slug: edge-ai-infra
 canonical_name: Edge AI Infrastructure
 aliases: []
 kind: category
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - compute
 - ai-edge
 related_concepts: []
-companies_using: []
-ideas_referencing: []
 sources: []
 frontier:
 - ''
@@ -33,10 +28,7 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 ---
-
-# Edge AI Infrastructure
-
-*Kind: category · Stub leader page for `concepts/ai-infrastructure/edge/`*
+*Stub leader page for `concepts/ai-infrastructure/edge/`*
 
 AI compute at the edge — embedded inference, on-device LLMs, accelerator IP for low-power deployment.
 

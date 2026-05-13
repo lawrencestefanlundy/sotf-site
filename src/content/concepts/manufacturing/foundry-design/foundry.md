@@ -4,15 +4,10 @@ slug: foundry
 canonical_name: Semiconductor Foundries
 aliases: []
 kind: category
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - manufacturing
 - foundry-design
 related_concepts: []
-companies_using: []
-ideas_referencing: []
 sources: []
 frontier:
 - ''
@@ -31,10 +26,7 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 ---
-
-# Semiconductor Foundries
-
-*Kind: category · Stub leader page for `concepts/semiconductors/foundry/`*
+*Stub leader page for `concepts/semiconductors/foundry/`*
 
 Pure-play and IDM foundries — TSMC, Samsung, GlobalFoundries, UMC, SMIC, Tower, X-FAB, specialty fabs.
 

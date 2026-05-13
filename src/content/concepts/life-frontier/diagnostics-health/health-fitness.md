@@ -4,40 +4,10 @@ slug: health-fitness
 canonical_name: Health & Fitness
 aliases: []
 kind: market
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - life-frontier
 - diagnostics-health
 related_concepts: []
-companies_using:
-- 8fit
-- amazfit-zepp-health
-- athletica
-- corti
-- exer-health
-- fiit
-- freeletics
-- future
-- garmin
-- gympass-wellhub
-- huel
-- humanoo
-- kaia-health
-- keep
-- numan
-- nurvv
-- oura
-- peloton
-- polar-electro
-- strava
-- supersapiens
-- suunto
-- whoop
-- zenjump-formerly-urban-sports-club
-- zwift
-ideas_referencing: []
 sources: []
 frontier:
 - ''
@@ -50,18 +20,11 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 1
 ---
-
-
-# Health & Fitness
-
-*Kind: market · Attio deal count: 2*
-
 ## Physics / mechanism
 
 Health & fitness as a market spans preventive care, diagnostics, wearables, performance optimization, and chronic disease management. Global market ~$5.5T (2024), with wearables alone at ~$95B growing >15% CAGR. Key parameters: sensor accuracy (PPG, ECG, SpO2, continuous glucose), latency from measurement to actionable signal, and data density per milliwatt of power consumption. State of the art: Apple Watch-class devices achieve medical-grade AFib detection; CGMs like Dexcom G7 achieve MARD <9%. The critical bottleneck shifts from hardware toward signal processing, edge inference, and heterogeneous sensor fusion at the chip level.
 
 ## Competitive landscape
-
 
 The real competitive axis is where intelligence sits — cloud vs. edge vs. on-sensor. Consumer platforms (Apple, Garmin, Samsung) dominate hardware integration. Pure-play medtech (Medtronic, Abbott) owns clinical-grade sensing. Emerging challengers operate at the semiconductor and photonics layer.
 
@@ -70,9 +33,6 @@ The real competitive axis is where intelligence sits — cloud vs. edge vs. on-s
 | Consumer wearable (optical PPG) | Scale, UX | Accuracy, regulatory ceiling |
 | Implantable / medical-grade | Clinical validity | Cost, friction, reimbursement |
 | Photonic / spectroscopic sensing | Non-invasive, multi-analyte | Power, miniaturization, calibration |
-
-## Cloudberry relevance
-Cloudberry's angle is the enabling layer: low-power ASICs for biosignal processing, photonic biosensors (near-IR spectroscopy for non-invasive glucose, lactate, hydration), and advanced packaging enabling sensor-compute co-integration. GlobalFoundries' 45CLO and 22FDX nodes are directly relevant for ultra-low-power analog front-ends. Lunar Ventures' software-adjacent portfolio could surface signal-processing IP. Deal-flow focus: fabless semi teams building application-specific biosensor SoCs, photonic chip startups targeting clinical-grade non-invasive sensing.
 
 ## Companies using
 

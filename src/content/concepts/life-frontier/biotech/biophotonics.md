@@ -4,39 +4,10 @@ slug: biophotonics
 canonical_name: Biophotonics
 aliases: []
 kind: technology
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - life-frontier
 - biotech
 related_concepts: []
-companies_using:
-- aeye-health
-- biopixs
-- cercacor-masimo
-- cerephex-deep-light
-- cytoviva
-- genalyte-now-lumos-diagnostics
-- hamamatsu-photonics
-- ii-vi-incorporated-coherent
-- imec
-- inscoper
-- intraop-medical
-- leica-microsystems-danaher
-- lightpath-technologies
-- lumenis
-- medlumics
-- modulight
-- nanexa
-- photon-force
-- photonicare
-- snibe-diagnostics
-- solaro-therapeutics
-- spectrascience
-- veracyte
-- zeiss-carl-zeiss-meditec
-ideas_referencing: []
 sources: []
 frontier:
 - ''
@@ -49,18 +20,11 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 ---
-
-
-# Biophotonics
-
-*Kind: technology · Attio deal count: 23*
-
 ## Physics / mechanism
 
 Biophotonics is the application of photonic techniques — light generation, detection, and manipulation — to biological systems. Core mechanisms span fluorescence imaging (FLIM, FRET), Raman spectroscopy, optical coherence tomography (OCT), and photoplethysmography (PPG). Key parameters: wavelength selection (NIR "biological window" 650–1350 nm minimises tissue scattering), photon budget, signal-to-noise ratio, and spatial resolution (diffraction-limited ~200 nm for confocal; sub-100 nm for STED/PALM). State of the art: single-molecule detection in vivo, chip-scale OCT with <5 µm axial resolution, and wearable PPG sensors achieving clinical-grade SpO₂ accuracy. Photonic integrated circuits (PICs) are collapsing system cost and size, enabling point-of-care diagnostics.
 
 ## Competitive landscape
-
 
 Competing and adjacent approaches include electrical biosensing (electrochemical, impedance — lower cost, lower specificity), MRI/CT (gold standard imaging but bulky, expensive, ionising for CT), and ultrasound (portable, no photons, inferior molecular contrast). Within photonics, free-space optics competes with fibre and integrated approaches on cost/form-factor axes.
 
@@ -69,9 +33,6 @@ Competing and adjacent approaches include electrical biosensing (electrochemical
 | PIC-based OCT | 1–5 µm | Low | High |
 | Raman spectroscopy | Diffraction-limited | High | Medium |
 | Electrochemical sensing | N/A | Medium | High |
-
-## Cloudberry relevance
-Cloudberry's photonics and advanced materials thesis maps directly onto PIC-based biophotonic instruments — the same SiN/SiO₂ and III-V platforms used in datacom are being fabbed for lab-on-chip diagnostics. GlobalFoundries' silicon photonics process nodes are a credible manufacturing path for volume biophotonic ASICs. Deal-flow angles: fabless diagnostics startups needing foundry access, photonic sensor IP plays, and materials companies supplying low-loss waveguide substrates for implantable or wearable devices.
 
 ## Companies using
 

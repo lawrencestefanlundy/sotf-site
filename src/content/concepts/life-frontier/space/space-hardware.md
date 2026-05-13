@@ -4,15 +4,10 @@ slug: space-hardware
 canonical_name: Space Hardware Substrates
 aliases: []
 kind: category
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - life-frontier
 - space
 related_concepts: []
-companies_using: []
-ideas_referencing: []
 sources: []
 frontier:
 - ''
@@ -30,11 +25,7 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 ---
-
-
-# Space Hardware Substrates
-
-*Kind: category · Stub leader page for `concepts/space/hardware/`*
+*Stub leader page for `concepts/space/hardware/`*
 
 Radiation-hardened semiconductors, structural materials, attitude control, power systems for spacecraft.
 

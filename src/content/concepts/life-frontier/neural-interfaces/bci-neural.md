@@ -4,15 +4,10 @@ slug: bci-neural
 canonical_name: BCI & Neural Interfaces
 aliases: []
 kind: category
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - life-frontier
 - neural-interfaces
 related_concepts: []
-companies_using: []
-ideas_referencing: []
 sources: []
 frontier:
 - ''
@@ -31,10 +26,7 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 ---
-
-# BCI & Neural Interfaces
-
-*Kind: category · Stub leader page for `concepts/biotech/bci-neural/`*
+*Stub leader page for `concepts/biotech/bci-neural/`*
 
 Brain-computer interfaces and neural interface technology — invasive, non-invasive, bioelectronic medicine, hearables, AR/VR neural inputs.
 

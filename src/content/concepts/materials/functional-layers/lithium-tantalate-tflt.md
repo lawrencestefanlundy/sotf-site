@@ -8,9 +8,6 @@ aliases:
 - TFLT
 - thin-film lithium tantalate
 kind: technology
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - materials
 - functional-layers
@@ -18,8 +15,6 @@ related_concepts:
 - lithium-niobate-tfln
 - electro-optic-modulators
 - piezoelectric
-companies_using: []
-ideas_referencing: []
 sources: []
 frontier:
 - Does TFLT's better thermal stability (vs TFLN) drive adoption in high-power or wide-temperature-range applications?
@@ -37,10 +32,7 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 ---
-
-# Thin-Film Lithium Tantalate (TFLT)
-
-*Kind: technology · TFLN cousin with better thermal + lower-cost wafer supply*
+*TFLN cousin with better thermal + lower-cost wafer supply*
 
 ## Physics / mechanism
 
@@ -51,10 +43,6 @@ In thin-film form (TFLT-on-insulator), it competes directly with TFLN. The pitch
 ## Competitive landscape
 
 Research stage commercially. Several universities and small companies in China and the US working on TFLT modulators. Soitec has published TFLT-on-insulator wafer development. As of 2026, no commercial photonic foundry has TFLT in its PDK.
-
-## Cloudberry relevance
-
-Watchlist material adjacent to [[lithium-niobate-tfln]]. If TFLN wins the modulator segment per **Photonics Material Class War**, TFLT is the second-source variant. If TFLN supply / cost / IP becomes a constraint, TFLT may scale.
 
 ## Frontier (open questions)
 

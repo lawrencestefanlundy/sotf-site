@@ -4,38 +4,10 @@ slug: glass-interposers
 canonical_name: Glass Interposers
 aliases: []
 kind: technology
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - manufacturing
 - packaging
 related_concepts: []
-companies_using:
-- 3d-glass-solutions-3dgs
-- absolics
-- agc-inc
-- averatek
-- corning
-- else-nutrition-amosense
-- fraunhofer-izm
-- hoya-corporation
-- ibiden
-- intel
-- lightium
-- miics-partners
-- mosaic-microsystems
-- nippon-electric-glass-neg
-- plan-optik-ag
-- samsung-electronics
-- samtec
-- schott-ag
-- shinko-electric-industries
-- sk-hynix
-- tsmc
-- unimicron-technology
-- viavi-solutions
-ideas_referencing: []
 sources: []
 frontier:
 - ''
@@ -48,11 +20,6 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 ---
-
-# Glass Interposers
-
-*Kind: technology*
-
 ## Physics / mechanism
 
 Glass interposers are passive silicon-free substrates—typically borosilicate or alumino-borosilicate glass—used to route signals between chiplets in advanced 2.5D/3D packages. Glass offers lower dielectric constant (Dk ~4–5 vs. organic ~3.5–4 but with far better dimensional stability) and near-zero CTE mismatch with silicon (~3 ppm/°C). Through-glass vias (TGVs) are laser-drilled or etched to ≤10 µm diameter with aspect ratios up to 10:1, enabling wiring densities approaching silicon interposers at lower cost. Insertion loss at 50 GHz is typically 0.1–0.3 dB/cm. Intel's EMIB and Corning/Absolics are pushing panel-scale glass at 510×515 mm, targeting HPC and AI packaging by 2025–2026.
@@ -60,17 +27,6 @@ Glass interposers are passive silicon-free substrates—typically borosilicate o
 ## Competitive landscape
 
 Silicon interposers (TSMC CoWoS) remain the benchmark for density but cost $200–400/tile and require fab capacity. Organic substrates (ABF, Ajinomoto) are cheap but dimensionally unstable at fine pitch. Glass sits between: better flatness and RF than organic, lower cost and easier panel-scale than silicon. Photonic integration is an emerging differentiator—glass is optically transparent, enabling hybrid electronic-photonic interposers organic and silicon cannot match.
-
-## Cloudberry relevance
-
-| Substrate | Line/Space | RF loss | Cost/cm² | Panel-scale |
-|-----------|-----------|---------|----------|-------------|
-| Silicon | 1/1 µm | Low | High | No |
-| Glass | 2/2 µm | Very low | Medium | Yes |
-| Organic | 8/8 µm | Medium | Low | Yes |
-
-
-Cloudberry cares because glass interposers sit at the intersection of photonics, advanced packaging, and materials—all core verticals. Deal-flow angles: TGV equipment makers, glass composition startups, and co-design EDA tools. GlobalFoundries has no leading-edge node but competes aggressively in packaging adjacencies; a glass interposer position complements that. Photonic co-integration on glass is a credible wedge for Lunar-stage companies building optical compute interconnect.
 
 ## Companies using
 

@@ -4,40 +4,10 @@ slug: semiconductor-equipment
 canonical_name: Semiconductor Equipment
 aliases: []
 kind: technology
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - manufacturing
 - equipment-processes
 related_concepts: []
-companies_using:
-- acm-research
-- advanced-energy-industries
-- applied-materials
-- asml
-- atlant-3d-nanosystems
-- axcelis-technologies
-- bruker
-- comet-group
-- hitachi-high-tech
-- intevac
-- kla-corporation
-- lam-research
-- morphotonics
-- mycronic
-- naura-technology-group
-- nova-ltd
-- onto-innovation
-- plasma-therm
-- salience-labs
-- screen-semiconductor-solutions
-- semsysco
-- suss-microtec
-- tokyo-electron-tel
-- vaxxinano-now-part-of-inpria-jsr
-- veeco-instruments
-ideas_referencing: []
 sources:
 - '[[2025-12-30-us-eases-semiconductor-equipment-rules-for-samsung-sk-hynix-]]'
 - '[[2024-bis-export-controls-china-semis]]'
@@ -54,11 +24,6 @@ last_reorg_date: '2026-05-13'
 sources_7d: 1
 sources_30d: 3
 ---
-
-# Semiconductor Equipment
-
-*Kind: technology · Attio deal count: 42*
-
 ## Physics / mechanism
 
 Semiconductor equipment encompasses the machines used to fabricate, inspect, and test integrated circuits — spanning lithography, deposition, etch, metrology, and ion implantation. Lithography (ASML EUV at 13.5 nm wavelength, ~$380M per High-NA system) defines the patterning floor; CVD/ALD tools deposit films at atomic precision (sub-Å thickness control); plasma etch defines feature geometry at <2 nm tolerances. The equipment market runs ~$110B annually, growing ~8% CAGR, dominated by ASML (litho), Applied Materials, Lam Research, and KLA (process control). Leading-edge nodes (3 nm/2 nm) require >1,000 process steps, making equipment yield and uptime existential for fabs.
@@ -72,9 +37,6 @@ The primary competitive axis is incumbency: ASML's EUV monopoly is essentially u
 | EUV lithography | Production | Monopoly |
 | Nanoimprint (Canon) | Early production | Niche |
 | Chinese domestic etch/dep | Mature node | Rising |
-
-## Cloudberry relevance
-Cloudberry's angle: equipment for compound semiconductors (SiC, GaN, InP) is structurally underserved by the big three — ALD, MOCVD, and epi tooling for photonics and power devices represent fundable white space. GlobalFoundries' fab operations surface real equipment pain points, giving LP-level diligence access. Pipeline interest in metrology and process control startups serving specialty foundries over leading-edge logic.
 
 ## Companies using
 

@@ -4,15 +4,10 @@ slug: photonic-compute-memory
 canonical_name: Photonic Compute & Memory
 aliases: []
 kind: category
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - photonic-systems
 - photonic-compute
 related_concepts: []
-companies_using: []
-ideas_referencing: []
 sources: []
 frontier:
 - ''
@@ -25,10 +20,7 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 ---
-
-# Photonic Compute & Memory
-
-*Kind: category · Stub leader page for `concepts/photonics/compute-memory/`*
+*Stub leader page for `concepts/photonics/compute-memory/`*
 
 Optical computing and photonic memory architectures — diffractive, photonic processor, optical memory.
 

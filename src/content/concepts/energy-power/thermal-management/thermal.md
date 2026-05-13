@@ -4,15 +4,10 @@ slug: thermal
 canonical_name: Thermal Management Materials
 aliases: []
 kind: category
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - energy-power
 - thermal-management
 related_concepts: []
-companies_using: []
-ideas_referencing: []
 sources: []
 frontier:
 - ''
@@ -36,11 +31,7 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 ---
-
-
-# Thermal Management Materials
-
-*Kind: category · Stub leader page for `concepts/advanced-materials/thermal/`*
+*Stub leader page for `concepts/advanced-materials/thermal/`*
 
 Materials and structures that move, store, or block heat. Heat pipes, thermal interface materials, diamond heat spreaders, graphene films.
 

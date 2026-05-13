@@ -10,9 +10,6 @@ aliases:
 - GST
 - chalcogenide photonics
 kind: technology
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - materials
 - advanced-materials
@@ -21,9 +18,6 @@ related_concepts:
 - pcm-phase-change-memory
 - silicon-nitride
 - in-memory-computing
-companies_using: []
-ideas_referencing:
-- '[[mid-ir-photonic-sensing]]'
 sources: []
 frontier:
 - Does GeSbTe (GST) phase-change photonics reach commercial deployment as programmable photonic switches by 2030?
@@ -43,10 +37,7 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 ---
-
-# Chalcogenide Glass
-
-*Kind: technology · Mid-IR transparent waveguide + phase-change programmable photonics*
+*Mid-IR transparent waveguide + phase-change programmable photonics*
 
 ## Physics / mechanism
 
@@ -59,10 +50,6 @@ Chalcogenide glasses contain group VI elements (S, Se, Te) bonded with As, Ge, o
 ## Competitive landscape
 
 Mid-IR ChG production: IRflex, CorActive, Schott (specialty fibre + bulk), no integrated photonic foundry. Programmable photonics with GST: Oxford (Bhaskaran group), EPFL, IBM Zurich, Cambridge (Wright group). Commercial scale-up: Salience Labs (Oxford spinout, photonic compute), Lightelligence and Lightmatter (different photonic compute approaches but adjacent thesis).
-
-## Cloudberry relevance
-
-Direct via **Mid Ir Photonic Sensing** — chalcogenide is the most credible mid-IR waveguide material. Cross-pollinates [[in-memory-computing]] via GST programmable-photonics → optical compute. Pre-seed radar: Oxford (Bhaskaran) and EPFL groups produce most of the candidate-founder pool.
 
 ## Frontier (open questions)
 

@@ -4,39 +4,10 @@ slug: memory
 canonical_name: Memory
 aliases: []
 kind: technology
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - memory
 - volatile
 related_concepts: []
-companies_using:
-- axelera-ai
-- crossbar
-- ememory-technology
-- enfabrica
-- everspin-technologies
-- gigio-formerly-nyriad
-- innoflux-semron
-- kioxia
-- micron-technology
-- montage-technology
-- mythic
-- netsol-technologies-cxmt-changxin-memory-technologies
-- panmnesia
-- pio-formerly-picoeta
-- rain-neuromorphics
-- rambus
-- samsung-semiconductor
-- silo-ai-silo-memory
-- sk-hynix
-- syntiant
-- tetramem
-- untether-ai
-- weebit-nano
-- western-digital
-ideas_referencing: []
 sources:
 - '[[2023-09-18-e15-in-conversation-with-wisear-on]]'
 - '[[2025-09-23-the-compute-gradient]]'
@@ -80,7 +51,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 121
+mention_count: 122
 descendants:
 - dram
 - feram
@@ -95,21 +66,14 @@ descendants:
 - sram
 - storage-class-memory
 last_reorg_date: '2026-05-13'
-sources_7d: 14
+sources_7d: 15
 sources_30d: 46
 ---
-
-
-# Memory
-
-*Kind: technology · Attio deal count: 10*
-
 ## Physics / mechanism
 
 Memory stores binary state via a physical mechanism that can be written, held, and read non-destructively. DRAM uses capacitor charge (leaks, needs refresh every ~64 ms, ~10 ns latency, ~50 fJ/bit). SRAM uses cross-coupled inverters (faster, ~1 ns, ~1 pJ/bit, no refresh, large cell area). NAND flash exploits floating-gate or charge-trap transistor threshold-voltage shift (non-volatile, ~100 µs program, ~100K erase cycles). Emerging NVM candidates — MRAM, RRAM, PCM, FeRAM — target the gap: non-volatile + byte-addressable + sub-100 ns write. MRAM (STT or SOT) is closest to production at scale; GlobalFoundries offers embedded MRAM (eMRAM) on 22FDX.
 
 ## Competitive landscape
-
 
 DRAM and NAND dominate by volume (Samsung, SK Hynix, Micron). SRAM is embedded in logic; no standalone market. The contested space is storage-class memory and embedded NVM for edge AI / IoT. PCM (Intel Optane, now discontinued) showed the latency-density trade-off is hard to commercialise. FeRAM (Infineon, TI) wins in ultra-low-power write cycles. RRAM competes on process simplicity. The real battle is embedded NVM for MCUs and neuromorphic inference accelerators.
 
@@ -118,9 +82,6 @@ DRAM and NAND dominate by volume (Samsung, SK Hynix, Micron). SRAM is embedded i
 | SRAM | ~1 ns | No | Unlimited |
 | eMRAM | ~10 ns | Yes | 10⁸ cycles |
 | FeRAM | ~50 ns | Yes | 10¹⁴ cycles |
-
-## Cloudberry relevance
-GF's 22FDX eMRAM is a direct portfolio context — fabless startups building edge-AI chips or secure microcontrollers on 22FDX need an NVM strategy. Cloudberry should track FeRAM and MRAM IP plays (materials, process integration), especially companies targeting automotive or industrial MCUs where data-retention and endurance specs disqualify NAND. Neuromorphic compute startups in the Lunar pipeline that treat memory as compute (in-memory inference) are a natural overlap.
 
 ## Companies using
 

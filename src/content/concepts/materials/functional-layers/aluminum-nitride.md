@@ -7,9 +7,6 @@ aliases:
 - aluminium nitride
 - AlN-on-sapphire
 kind: technology
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - materials
 - functional-layers
@@ -19,8 +16,6 @@ related_concepts:
 - silicon-nitride
 - piezoelectric
 - electro-optic-modulators
-companies_using: []
-ideas_referencing: []
 sources: []
 frontier:
 - Does AlN reach 0.1 dB/cm waveguide loss at scale, or stay at ~1 dB/cm prototype demonstrations?
@@ -41,10 +36,7 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 ---
-
-# Aluminum Nitride (AlN)
-
-*Kind: technology · Wide-bandgap photonic + piezoelectric platform with UV transparency*
+*Wide-bandgap photonic + piezoelectric platform with UV transparency*
 
 ## Physics / mechanism
 
@@ -56,11 +48,7 @@ CMOS-fab compatibility is decent: AlN deposits via sputtering at moderate temper
 
 AlN photonic waveguides have been demonstrated since 2012 (Yale group, IBM Zurich). Best loss ~0.5–1 dB/cm. Commercial photonic platforms: none yet. RF/MEMS commercial: Soitec (POI substrates), Skyworks, Qorvo, Broadcom for FBARs.
 
-ScAlN (scandium-doped AlN) has emerged as the higher-performance variant — adding Sc increases piezoelectric and electro-optic coefficients 5–10× over pure AlN. ScAlN also exhibits ferroelectricity at certain compositions, opening additional functionality. See [[scandium-aluminum-nitride]].
-
-## Cloudberry relevance
-
-Adjacent via **Photonics Material Class War** — the multi-platform thesis includes AlN as a niche emerging platform. UV applications are an underexplored vertical. Pre-seed radar should track researchers in the Yale, IBM Zurich, and Soitec ecosystems for spinout signals.
+ScAlN (scandium-doped AlN) has emerged as the higher-performance variant — adding Sc increases piezoelectric and electro-optic coefficients 5–10× over pure AlN. ScAlN also exhibits ferroelectricity at certain compositions, opening additional functionality. See [Scandium Aluminum Nitride (ScAlN)](/materials/functional-layers/scandium-aluminum-nitride/).
 
 ## Frontier (open questions)
 

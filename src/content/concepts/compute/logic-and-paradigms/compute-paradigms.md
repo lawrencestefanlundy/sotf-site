@@ -4,15 +4,10 @@ slug: compute-paradigms
 canonical_name: Compute Paradigms
 aliases: []
 kind: category
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - compute
 - logic-and-paradigms
 related_concepts: []
-companies_using: []
-ideas_referencing: []
 sources: []
 frontier:
 - ''
@@ -34,10 +29,7 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 ---
-
-# Compute Paradigms
-
-*Kind: category · Stub leader page for `concepts/compute-paradigms/`*
+*Stub leader page for `concepts/compute-paradigms/`*
 
 Non-Boolean / non-conventional compute architectures — analog, thermodynamic, Ising, reversible, nanomechanical, biological.
 

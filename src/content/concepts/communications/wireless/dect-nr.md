@@ -6,40 +6,10 @@ aliases:
 - nr+
 - dect nr
 kind: technology
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - communications
 - wireless
 related_concepts: []
-companies_using:
-- aastra-mitel
-- abeeway-actility-subsidiary
-- askey-computer
-- centurylink-lumen-consumer-division
-- dect-forum
-- dsp-group-acquired-by-synaptics
-- enocean
-- evvr
-- frequentis
-- gigaset
-- grandstream-networks
-- jovial-technology
-- mobiveil
-- nordic-semiconductor
-- panasonic
-- rtx-as
-- sercomm
-- snom-technology
-- spectralink
-- synaptics
-- tonmind
-- unify-mitel-subsidiary
-- wirepas
-- yealink
-ideas_referencing:
-- '[[dect-nr-protocol-bet]]'
 sources:
 - '[[2025-08-29-from-smart-cities-to-pro-audio-dect-nr-and-its-potential-for]]'
 - '[[2024-02-21-how-dect-nr-revolutionizes-smart-building-connectivity---ee-]]'
@@ -68,17 +38,11 @@ last_reorg_date: '2026-05-13'
 sources_7d: 1
 sources_30d: 1
 ---
-
-# DECT NR+
-
-*Kind: technology · Attio deal count: 0*
-
 ## Physics / mechanism
 
 DECT NR+ (Digital Enhanced Cordless Telecommunications New Radio+) is a ULE (Ultra Low Energy) wireless standard operating in the 1.88–1.93 GHz DECT band. Unlike cellular or Wi-Fi, it operates license-free globally, uses a TDMA/FDMA channel structure with 1.728 MHz channel spacing, and supports mesh networking natively. Peak data rate ~25 Mbps per node; latency sub-10 ms; range 300 m LOS. Key differentiator: deterministic MAC layer enabling industrial-grade reliability (99.999% target). ETSI TS 103 636 standardised 2020–2022. Chipsets now shipping from u-blox (NORA-W series context aside), Spark Microsystems, and Nordic exploring roadmap adjacency. Primarily targets IIoT, smart grid, industrial automation.
 
 ## Competitive landscape
-
 
 DECT NR+ competes and overlaps with:
 
@@ -87,12 +51,6 @@ DECT NR+ competes and overlaps with:
 | DECT NR+ | 1.9 GHz | Mesh, infrastructure-free | <10 ms | License-free |
 | Wi-Fi HaLow (802.11ah) | 900 MHz | Star/AP-dependent | ~20 ms | License-free |
 | Zigbee/Thread | 2.4 GHz | Mesh | 20–50 ms | License-free |
-
-## Cloudberry relevance
-Matter/Thread is the consumer IoT default; Wi-Fi HaLow wins on range/penetration in sub-GHz. DECT NR+'s real competition is private 5G (URLLC) where determinism matters—but private 5G requires spectrum licensing and infrastructure CAPEX that prices out mid-tier industrial deployments.
-
-
-For Cloudberry, the angle is chipset and RF front-end supply chain. DECT NR+ requires custom baseband + PA combinations optimised for the 1.9 GHz band—a small, underserved design space where fabless startups building on GF 22FDX (low-power RF-capable node) have a credible wedge. Spark Microsystems (UWB-adjacent, low-power RF) is worth tracking as a comparable. Industrial wireless infrastructure buildout in Europe—a Cloudberry LP geography—makes this a plausible pipeline signal over a 2–4 year horizon.
 
 ## Companies using
 

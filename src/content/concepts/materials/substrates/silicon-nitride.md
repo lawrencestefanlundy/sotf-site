@@ -6,39 +6,10 @@ aliases:
 - sin
 - silicon-nitride
 kind: material
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - materials
 - substrates
 related_concepts: []
-companies_using:
-- ayar-labs
-- epigram
-- fraunhofer-hhi
-- globalfoundries
-- illusense
-- imec
-- ligentec
-- lionix-international
-- lumentum
-- macom-technology-solutions
-- nexus-photonics
-- phoxene
-- poet-technologies
-- psiquantum
-- quix-quantum
-- rockley-photonics
-- scintil-photonics
-- si-ware-systems
-- siphox
-- surfilter-suzhou
-- surya-informatics-formerly-effect-photonics
-- teraxion
-- tower-semiconductor
-- xanadu
-ideas_referencing: []
 sources:
 - '[[2023-07-27-e10-pushing-moores-law-to-the-limit]]'
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
@@ -56,17 +27,11 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 4
 ---
-
-# Silicon Nitride
-
-*Kind: material · Attio deal count: 0*
-
 ## Physics / mechanism
 
 Silicon nitride (Si₃N₄) is a wide-bandgap ceramic dielectric (bandgap ~5 eV) with exceptional mechanical hardness (~30 GPa), thermal stability (>1400°C), and low optical absorption in the visible through mid-IR. In photonics, stoichiometric Si₃N₄ waveguides exhibit propagation losses <0.1 dB/m at 1550 nm, negligible two-photon absorption at telecom wavelengths, and a moderate Kerr nonlinearity (n₂ ≈ 2.4 × 10⁻¹⁹ m²/W) — enabling frequency combs, LiDAR PICs, and low-noise microwave photonics. In semiconductors, LPCVD Si₃N₄ films serve as hard masks, etch stops, and stress-engineering layers (tensile ~1 GPa). Damascene-process Si₃N₄ photonics (EPFL/Ligentec lineage) is the current state of the art for ultra-low-loss PICs.
 
 ## Competitive landscape
-
 
 Silicon nitride competes with silicon-on-insulator (SOI) for photonic integration — SOI wins on CMOS compatibility and high-index contrast but loses on two-photon absorption and loss at visible wavelengths. Lithium niobate (TFLN) competes for electro-optic modulation (Pockels effect) where Si₃N₄ has no native EO response. Aluminium nitride (AlN) offers EO capability plus UV transparency. Silica (SiO₂) planar waveguides offer lower loss but massive footprint. For structural/ceramic applications, SiC and Al₂O₃ are the principal substitutes.
 
@@ -75,9 +40,6 @@ Silicon nitride competes with silicon-on-insulator (SOI) for photonic integratio
 | Si₃N₄ | <0.1 dB/m | No | Partial |
 | SOI | ~1–2 dB/cm | No | Yes |
 | TFLN | ~0.3 dB/cm | Yes | No |
-
-## Cloudberry relevance
-Si₃N₄ photonics is a direct deal-flow lens for Cloudberry: foundries like Ligentec and IMEC offer MPW runs that early-stage PIC startups depend on, and GlobalFoundries has signalled PIC roadmap interest. LiDAR, optical gyroscopes, optical coherence tomography, and AI co-packaged optics are all exit-relevant end markets. Lunar Ventures' software-layer bets may surface fabless PIC startups needing Si₃N₄ process access — a useful warm-introduction angle when founders are selecting foundry partners.
 
 ## Companies using
 

@@ -4,39 +4,10 @@ slug: photoresists
 canonical_name: Photoresists (incl. EUV resists)
 aliases: []
 kind: material
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - manufacturing
 - lithography
 related_concepts: []
-companies_using:
-- asml
-- beijing-kehua-microelectronics
-- brewer-science
-- dongjin-semichem
-- dupont-electronics-formerly-dow-electronic-materials
-- emd-electronics-merck-us-subsidiary
-- enf-technology
-- exciton-technology
-- fujifilm-electronic-materials
-- imec
-- inpria-corporation-acquired-by-jsr
-- irresistible-materials
-- jiangsu-nata-opto-electronic-material
-- jsr-corporation
-- kavlico-em-resist-spin-out-research-tue
-- lam-research
-- merck-kgaa-semiconductor-materials
-- microchemicals-gmbh
-- nano-c
-- phio-pharmaceuticals-excluded-adding-allresist-gmbh
-- samsung-sdi-chemical-division
-- shin-etsu-chemical
-- sumitomo-chemical
-- tokyo-ohka-kogyo-tok
-ideas_referencing: []
 sources: []
 frontier:
 - ''
@@ -49,12 +20,6 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 ---
-
-
-# Photoresists (incl. EUV resists)
-
-*Kind: material*
-
 ## Physics / mechanism
 
 Photoresists are radiation-sensitive polymer films deposited on wafers; exposure to light (or electrons) triggers a chemical change—either chain scission (positive tone) or cross-linking (negative tone)—that makes exposed or unexposed regions selectively soluble in developer. EUV resists (13.5 nm) operate via chemically amplified resist (CAR) chemistry or newer metal-oxide resist (MOR) platforms (e.g., Inpria/JSR tin-oxide). Key parameters: sensitivity (mJ/cm²), resolution (sub-10 nm features), and line-edge roughness (LER, target <2 nm 3σ). CARs battle the RLS trilemma—resolution, LER, and sensitivity cannot all be optimized simultaneously. MORs absorb EUV photons ~10× more efficiently than polymer CARs, enabling lower dose and better resolution, but etch selectivity and outgassing remain open problems. High-NA EUV (0.55 NA, ASML EXE series) tightens specs further: resists need <1.5 nm LER at ≤20 mJ/cm² sensitivity.
@@ -62,17 +27,6 @@ Photoresists are radiation-sensitive polymer films deposited on wafers; exposure
 ## Competitive landscape
 
 The primary competitive axis is CAR vs. MOR vs. directed self-assembly (DSA) as a resolution-enhancement layer. DSA (block copolymers, e.g., Brewer Science, EMD) can pitch-multiply but requires guiding patterns. Dry-deposited resists (Applied Materials Centura Sculpta platform) bypass spin-coat uniformity limits. E-beam resists (PMMA, HSQ) offer sub-5 nm resolution but lack throughput for HVM.
-
-## Cloudberry relevance
-
-| Approach | Resolution | Throughput | Maturity |
-|---|---|---|---|
-| EUV CAR | ~14 nm hp | High | HVM now |
-| Metal-oxide (MOR) | ~8 nm hp | Medium | Early HVM |
-| DSA | ~10 nm hp | Medium | Limited HVM |
-
-
-Resist is a recurring bottleneck at every node transition—scarce qualified suppliers (JSR, TOK, Shin-Etsu, DuPont, Merck KGaA) create structural pricing power and switching-cost moats. For Cloudberry, investable angles include: novel MOR chemistries or dry-resist deposition startups reducing HVM risk at high-NA EUV; developer and process-control tooling adjacent to resist performance; and materials companies serving GF's differentiated nodes (RF, FDX, photonics) where non-leading-edge resists still require specialization. Lunar Ventures' deep-tech network may surface European polymer/materials spinouts early.
 
 ## Companies using
 

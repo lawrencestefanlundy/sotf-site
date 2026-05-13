@@ -76,9 +76,9 @@ for (const rel of concept.data.related_concepts ?? []) {
   </article>
 
   {concept.data.related_concepts && concept.data.related_concepts.length > 0 && (
-    <section style="margin-top: 2rem;">
-      <h3>Related concepts</h3>
-      <ul>
+    <section>
+      <h2>Related concepts</h2>
+      <ul class="related-list">
         {concept.data.related_concepts.map((rel) => {
           const otherMacro = slugToMacro.get(rel);
           if (otherMacro) {
@@ -87,12 +87,11 @@ for (const rel of concept.data.related_concepts ?? []) {
               <li>
                 <a href={`/${other?.id}/`}>{other?.data.canonical_name ?? rel.replace(/-/g, " ")}</a>
                 {otherMacro !== macro && (
-                  <span class="meta"> &nbsp;({MACRO_NAMES[otherMacro] ?? otherMacro})</span>
+                  <span class="meta"> &nbsp;{MACRO_NAMES[otherMacro] ?? otherMacro}</span>
                 )}
               </li>
             );
           } else {
-            // Slug not in public corpus — render plain
             return <li>{rel.replace(/-/g, " ")}</li>;
           }
         })}
@@ -101,9 +100,9 @@ for (const rel of concept.data.related_concepts ?? []) {
   )}
 
   {concept.data.frontier && concept.data.frontier.length > 0 && (
-    <section style="margin-top: 2rem;">
-      <h3>Frontier questions</h3>
-      <ul>
+    <section>
+      <h2>Frontier questions</h2>
+      <ul class="frontier-list">
         {concept.data.frontier.map((q: string) => <li>{q}</li>)}
       </ul>
     </section>

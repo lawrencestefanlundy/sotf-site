@@ -4,15 +4,10 @@ slug: diagnostics
 canonical_name: Diagnostics
 aliases: []
 kind: category
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - life-frontier
 - diagnostics-health
 related_concepts: []
-companies_using: []
-ideas_referencing: []
 sources: []
 frontier:
 - ''
@@ -31,10 +26,7 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 ---
-
-# Diagnostics
-
-*Kind: category · Stub leader page for `concepts/biotech/diagnostics/`*
+*Stub leader page for `concepts/biotech/diagnostics/`*
 
 Diagnostic platforms — point-of-care, lab-on-chip, breath analysis, mass spectrometry, lateral flow.
 

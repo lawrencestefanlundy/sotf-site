@@ -6,39 +6,10 @@ aliases:
 - bto
 - batio3
 kind: material
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - materials
 - functional-layers
 related_concepts: []
-companies_using:
-- ceracomp
-- ceresist
-- creedd
-- ferroperm-piezoceramics
-- gooch-housego
-- hc-materials-corporation
-- kyocera-corporation
-- meggitt-sensing-systems
-- mides-medical
-- murata-manufacturing
-- nanomotion-novanta-subsidiary
-- noliac-cts-corporation-subsidiary
-- pi-ceramic-physik-instrumente
-- piezo-technologies
-- polar-photonics
-- sakai-chemical-industry
-- samsung-electro-mechanics
-- smart-material-corp
-- solvay-now-syensqo
-- taiyo-yuden
-- tdk-corporation
-- vishay-intertechnology
-- wuhan-university-of-technology-spin-off-wutech-materials
-- yageo-corporation
-ideas_referencing: []
 sources:
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2026-05-02-hybrid-bto-sin-ultra-low-power-tuning-acs-photonics]]'
@@ -56,11 +27,6 @@ last_reorg_date: '2026-05-13'
 sources_7d: 1
 sources_30d: 7
 ---
-
-# Barium Titanate
-
-*Kind: material · Attio deal count: 0*
-
 ## Physics / mechanism
 
 Barium Titanate (BaTiO3, BTO) is a ferroelectric oxide with one of the largest known Pockels coefficients (>358 pm/V on optimised platforms vs. ~30 pm/V for lithium niobate). Used as a thin-film electro-optic layer integrated with silicon photonics or silicon nitride, BTO modulators show VπL of 0.2 V·cm and tuning at sub-µW power — orders of magnitude better than LN. Frequency response measured continuously from 100 MHz to 330 GHz. Foundry-compatible processes for BTO thin films on oxide insulators are advancing rapidly; the gating step is a production-grade, qualified BTO process at a major foundry (UCL/Altro is targeting GlobalFoundries collaboration). 2-3 BTO startups emerging every 6 months.
@@ -84,7 +50,6 @@ Barium Titanate (BaTiO3, BTO) is a ferroelectric oxide with one of the largest k
 ## Frontier (open questions)
 
 - *To be added.*
-
 
 ## Primer (web-enriched)
 

@@ -4,15 +4,10 @@ slug: fusion
 canonical_name: Fusion Energy
 aliases: []
 kind: category
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - energy-power
 - energy-generation
 related_concepts: []
-companies_using: []
-ideas_referencing: []
 sources: []
 frontier:
 - ''
@@ -32,10 +27,7 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 ---
-
-# Fusion Energy
-
-*Kind: category · Stub leader page for `concepts/energy/fusion/`*
+*Stub leader page for `concepts/energy/fusion/`*
 
 Magnetic confinement, inertial, magnetised target, magneto-inertial, and pulsed fusion approaches.
 

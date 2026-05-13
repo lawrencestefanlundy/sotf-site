@@ -1,0 +1,71 @@
+---
+import Base from "../layouts/Base.astro";
+---
+
+<Base title="Search" description="Search the State of the Future reference">
+  <section class="hero">
+    <h1>Search</h1>
+    <p>Full-text search across the concept corpus.</p>
+  </section>
+
+  <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+  <div id="search" style="margin-top: 1.5rem;"></div>
+  <p id="search-fallback" style="display:none; font-family: ui-monospace, monospace; color: #12121299;">
+    Search index not yet built. Run <code>npm run build</code>.
+  </p>
+  <script src="/pagefind/pagefind-ui.js" is:inline defer></script>
+  <script is:inline>
+    window.addEventListener("DOMContentLoaded", () => {
+      if (typeof PagefindUI !== "undefined") {
+        new PagefindUI({
+          element: "#search",
+          showSubResults: true,
+          showImages: false,
+          resetStyles: false,
+        });
+      } else {
+        const fallback = document.getElementById("search-fallback");
+        if (fallback) fallback.style.display = "block";
+      }
+    });
+  </script>
+
+  <style is:global>
+    .pagefind-ui {
+      --pagefind-ui-primary: #073429;
+      --pagefind-ui-text: #121212;
+      --pagefind-ui-background: #fff7f4;
+      --pagefind-ui-border: #1212121f;
+      --pagefind-ui-tag: #fff0ea;
+      --pagefind-ui-border-width: 1px;
+      --pagefind-ui-border-radius: 0px;
+      --pagefind-ui-font: "EB Garamond", Georgia, serif;
+      --pagefind-ui-image-side-length: 0;
+    }
+    .pagefind-ui__search-input {
+      font-family: "JetBrains Mono", ui-monospace, monospace !important;
+      font-size: 0.95rem !important;
+      padding: 0.7rem 0.9rem !important;
+      border: 1px solid #121212 !important;
+      background: #fff7f4 !important;
+    }
+    .pagefind-ui__result-title a {
+      font-family: "EB Garamond", Georgia, serif !important;
+      font-weight: 700 !important;
+      color: #121212 !important;
+      text-decoration: none !important;
+    }
+    .pagefind-ui__result-title a:hover {
+      text-decoration: underline !important;
+      text-decoration-color: #121212 !important;
+    }
+    .pagefind-ui__result-excerpt {
+      font-family: "EB Garamond", Georgia, serif !important;
+      color: #12121299 !important;
+    }
+    .pagefind-ui__result {
+      border-bottom: 1px solid #1212121f !important;
+      padding: 0.85rem 0 !important;
+    }
+  </style>
+</Base>

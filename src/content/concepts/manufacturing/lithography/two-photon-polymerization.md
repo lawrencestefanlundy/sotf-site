@@ -7,38 +7,10 @@ aliases:
 - tpp
 - two-photon polymerisation
 kind: technology
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - manufacturing
 - lithography
 related_concepts: []
-companies_using:
-- 4pico-lithotec
-- bmf-boston-micro-fabrication
-- carima
-- cellink-bico-group
-- cubicure
-- draconis-manufacturing
-- femtika
-- heidelberg-instruments
-- inkbit
-- jabil-additive-manufacturing-division
-- laser-laboratorium-gttingen-llg
-- liqcreate
-- luxinar-laser-lines-photonics-cluster
-- microlight3d
-- mimetech
-- multiphoton-optics
-- nanoscribe
-- photon-lines
-- shining3d
-- superlens-technology
-- upnano
-- voxel-innovations-formerly-exaddon
-- voxel8-fortify
-ideas_referencing: []
 sources: []
 frontier:
 - ''
@@ -51,12 +23,6 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 2
 ---
-
-
-# Two-Photon Polymerization
-
-*Kind: technology · Attio deal count: 0*
-
 ## Physics / mechanism
 
 Two-photon polymerization (2PP, also TPP) uses a focused femtosecond laser to selectively cross-link a photopolymer at the focal volume — sub-micron 3D resolution. In photonic packaging it's used for **photonic wire bonding**: directly writing polymer waveguide bonds between photonic ICs and fibres/lenses. Best lab-stage prototypes show <1.6 dB insertion loss and aggregate data rates of 5+ Tbps. The structural reliability question is the bottleneck: Telcordia GR-468 / HTOL / TC / HAST qualification historically takes 7-15 years for new optical materials, and polymer 2PP bond reliability is bounded by CTE mismatch, moisture sensitivity, and thermal-cycle aging. Pre-seed companies have at most ~3000 hours of aging data.
@@ -80,7 +46,6 @@ Two-photon polymerization (2PP, also TPP) uses a focused femtosecond laser to se
 ## Frontier (open questions)
 
 - *To be added.*
-
 
 ## Primer (web-enriched)
 

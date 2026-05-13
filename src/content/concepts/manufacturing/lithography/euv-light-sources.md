@@ -5,40 +5,10 @@ canonical_name: EUV Light Sources
 aliases:
 - euv
 kind: technology
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - manufacturing
 - lithography
 related_concepts: []
-companies_using:
-- adlyte
-- arcnl-advanced-research-center-for-nanolithography
-- asml
-- beijing-rslaser-opto-electronics-technology
-- coherent-ii-vi-heritage
-- cymer-asml-subsidiary
-- energetiq-technology-hamamatsu-subsidiary
-- euv-labs
-- fraunhofer-iof
-- gigaphoton
-- hamamatsu-photonics
-- inpria-jsr-subsidiary
-- intel-foundry
-- kmlabs
-- laser-zentrum-hannover-lzh
-- laserium-formerly-part-of-arcnl-spin-off-ecosystem
-- physorg-sige-semiconductor-tlaloc-photonics
-- plasma-app
-- rigaku
-- samsung-semiconductor
-- smee-shanghai-micro-electronics-equipment
-- trumpf
-- tsmc
-- ushio
-- zeiss-smt
-ideas_referencing: []
 sources:
 - '[[2023-07-27-e10-pushing-moores-law-to-the-limit]]'
 - '[[2023-10-06-e18-the-state-of-silent-speech-and]]'
@@ -64,15 +34,7 @@ last_reorg_date: '2026-05-13'
 sources_7d: 2
 sources_30d: 6
 ---
-
-
-# EUV Light Sources
-
-*Kind: technology · Attio deal count: 0*
-
 ## Physics / mechanism
-
-EUV light sources at 13.5nm wavelength are critical for both lithography (HVM at <2nm logic nodes) and inspection/metrology (mask blanks, aerial image inspection). High-NA EUV lithography (ASML) deploying for HVM 2026-2027. The brightness gap for I&M is the bottleneck: production needs 10x current source intensity. Approaches: laser-produced plasma (LPP, ASML/Cymer dominant), discharge-produced plasma (DPP), electrodeless Z-pinch (Energetiq), free-electron laser. Cloudberry deal L2X Labs (Israel) uses LLNL exclusive licence + proprietary debris mitigation, currently 10 W/mm²/sr at 2 kHz vs target 100 W/mm²/sr. EUV equipment market valued $8.66B (2024), 14.9% CAGR through 2034.
 
 ## Competitive landscape
 
@@ -94,12 +56,9 @@ EUV light sources at 13.5nm wavelength are critical for both lithography (HVM at
 
 - *To be added.*
 
-
 ## Primer (web-enriched)
 
 *Sourced 2026-05-02. See `sources/web/` for full citations.*
-
-EUV light sources at 13.5nm wavelength are critical for both lithography (HVM at <2nm logic nodes) and inspection/metrology (mask blanks, aerial image inspection). High-NA EUV lithography (ASML) deploying for HVM 2026-2027. The brightness gap for I&M is the bottleneck: production needs 10x current source intensity. Approaches: laser-produced plasma (LPP, ASML/Cymer dominant), discharge-produced plasma (DPP), electrodeless Z-pinch (Energetiq), free-electron laser. Cloudberry deal L2X Labs (Israel) uses LLNL exclusive licence + proprietary debris mitigation, currently 10 W/mm²/sr at 2 kHz vs target 100 W/mm²/sr. EUV equipment market valued $8.66B (2024), 14.9% CAGR through 2034.
 
 ## Further reading
 

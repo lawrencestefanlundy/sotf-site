@@ -4,40 +4,10 @@ slug: lithography
 canonical_name: Lithography
 aliases: []
 kind: technology
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - manufacturing
 - lithography
 related_concepts: []
-companies_using:
-- applied-materials
-- asml
-- canon-semiconductor-equipment
-- entegris
-- eulitha
-- euv-lithography-euvl-foundation-imec
-- heidelberg-instruments
-- inpria
-- intel-foundry
-- irresistible-materials
-- jsr-corporation
-- kla-corporation
-- lam-research
-- morphotonics
-- multibeam-corporation
-- mycronic
-- nikon-precision
-- onto-innovation
-- print-rite-jiangfeng-electronics
-- samsung-foundry
-- shin-etsu-chemical
-- smee-shanghai-micro-electronics-equipment
-- tsmc
-- vistec-electron-beam
-- zeiss-smt
-ideas_referencing: []
 sources:
 - '[[2023-07-27-e10-pushing-moores-law-to-the-limit]]'
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
@@ -76,18 +46,11 @@ last_reorg_date: '2026-05-13'
 sources_7d: 3
 sources_30d: 7
 ---
-
-
-# Lithography
-
-*Kind: technology · Attio deal count: 5*
-
 ## Physics / mechanism
 
 Lithography is the patterning process that defines transistor features, interconnects, and devices on semiconductor wafers by projecting light (or particle beams) through a mask onto photoresist-coated substrates. Resolution is governed by the Rayleigh criterion: R = k₁λ/NA, where k₁ is a process-dependent factor, λ is wavelength, and NA is numerical aperture. EUV (13.5 nm wavelength) is current leading-edge, enabling sub-5 nm nodes at ~200 wafers/hour on ASML's NXE/EXE platforms. Deep-UV (193 nm immersion) remains dominant for mature nodes. Overlay accuracy, dose uniformity, and mask defectivity are the binding constraints at leading edge. High-NA EUV (0.55 NA) is entering HVM, pushing single-exposure resolution below 8 nm half-pitch.
 
 ## Competitive landscape
-
 
 | Technique | Wavelength / Method | Node range | Key players |
 |---|---|---|---|
@@ -96,13 +59,6 @@ Lithography is the patterning process that defines transistor features, intercon
 | High-NA EUV | 13.5 nm, 0.55 NA | <2 nm | ASML only |
 | Nanoimprint (NIL) | Contact mechanical | ~14 nm | Canon, EV Group |
 | e-beam direct-write | Electron beam | Mask-making, R&D | IMS, Raith |
-
-## Cloudberry relevance
-
-Nanoimprint is the credible disruptor for cost-sensitive nodes; e-beam matters for mask inspection and advanced packaging. Multi-patterning extends DUV life but inflates process steps and cost. Directed self-assembly (DSA) remains pre-commercial.
-
-
-GlobalFoundries competes on differentiated nodes (22FDX, 45CLO for photonics) where DUV suffices—lithography cost-per-wafer and overlay at those nodes directly affects LP fund portfolio economics. Cloudberry deal-flow angles: photomask materials, resist chemistry (EUV requires new CAR/MOR formulations), metrology and inspection hardware, and fab-adjacent software for OPC/SMO. Startups improving EUV resist sensitivity or NIL throughput are fundable; photonic IC fabs using deep-UV for waveguide definition are direct pipeline candidates.
 
 ## Companies using
 

@@ -5,39 +5,10 @@ canonical_name: Co-Packaged Optics
 aliases:
 - cpo
 kind: technology
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - manufacturing
 - packaging
 related_concepts: []
-companies_using:
-- ayar-labs
-- baya-systems
-- broadcom
-- celestial-ai
-- celestica
-- cisco-acacia-communications
-- credo-semiconductor
-- effect-photonics
-- foxconn-hon-hai-precision
-- hisense-broadband
-- hyperlight
-- ii-vi-coherent
-- innolight-technology
-- intel
-- lightmatter
-- lumentum
-- marvell-technology
-- mitsubishi-electric
-- photondelta-portfolio-smart-photonics
-- poet-technologies
-- ranovus
-- salience-labs
-- scintil-photonics
-- sicoya
-ideas_referencing: []
 sources:
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
@@ -60,12 +31,6 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 6
 ---
-
-
-# Co-Packaged Optics
-
-*Kind: technology · Attio deal count: 0*
-
 ## Physics / mechanism
 
 Co-packaged optics (CPO) integrates optical I/O directly with the switch/compute ASIC, replacing pluggable optical modules. The market is forecast to reach ~$5.5B by 2027 and >$20B by 2036 (37% CAGR per IDTechEx). The defining contest is **material class for the in-package waveguides and bonds**: polymer (cheap, low-CTE-mismatch, but Telcordia-qualification-unproven for production AI interconnect) vs inorganic (TFLN, BTO, SiN — higher cost, higher reliability bar, foundry-compatible). Real volume deployment is 2027-2028 timeframe. NVIDIA, Broadcom, and the major foundries each have distinct platform strategies.
@@ -89,7 +54,6 @@ Co-packaged optics (CPO) integrates optical I/O directly with the switch/compute
 ## Frontier (open questions)
 
 - *To be added.*
-
 
 ## Primer (web-enriched)
 

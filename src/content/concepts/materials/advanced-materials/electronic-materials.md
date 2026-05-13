@@ -4,15 +4,10 @@ slug: electronic-materials
 canonical_name: Electronic Materials
 aliases: []
 kind: category
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - materials
 - advanced-materials
 related_concepts: []
-companies_using: []
-ideas_referencing: []
 sources: []
 frontier:
 - ''
@@ -28,10 +23,7 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 ---
-
-# Electronic Materials
-
-*Kind: category · Stub leader page for `concepts/advanced-materials/electronic/`*
+*Stub leader page for `concepts/advanced-materials/electronic/`*
 
 Materials with electronic function — semiconductor substrates, conductors, dielectrics, magnetics.
 

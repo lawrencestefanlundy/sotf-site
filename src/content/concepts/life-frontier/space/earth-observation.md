@@ -4,15 +4,10 @@ slug: earth-observation
 canonical_name: Earth Observation
 aliases: []
 kind: category
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - life-frontier
 - space
 related_concepts: []
-companies_using: []
-ideas_referencing: []
 sources: []
 frontier:
 - ''
@@ -30,10 +25,7 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 ---
-
-# Earth Observation
-
-*Kind: category · Stub leader page for `concepts/space/earth-observation/`*
+*Stub leader page for `concepts/space/earth-observation/`*
 
 SAR, optical, hyperspectral, GHG-monitoring satellite systems and payloads.
 

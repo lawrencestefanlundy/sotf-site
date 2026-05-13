@@ -4,15 +4,10 @@ slug: packaging
 canonical_name: Semiconductor Packaging
 aliases: []
 kind: category
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - manufacturing
 - packaging
 related_concepts: []
-companies_using: []
-ideas_referencing: []
 sources: []
 frontier:
 - ''
@@ -36,11 +31,7 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 ---
-
-
-# Semiconductor Packaging
-
-*Kind: category · Stub leader page for `concepts/semiconductors/packaging/`*
+*Stub leader page for `concepts/semiconductors/packaging/`*
 
 Advanced packaging substrates and processes — CoWoS, X-Cube, Foveros, hybrid bonding, FOWLP, glass interposers.
 

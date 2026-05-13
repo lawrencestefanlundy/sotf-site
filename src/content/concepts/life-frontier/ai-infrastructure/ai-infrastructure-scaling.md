@@ -4,15 +4,10 @@ slug: ai-infrastructure-scaling
 canonical_name: AI Infrastructure Scaling
 aliases: []
 kind: category
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - life-frontier
 - ai-infrastructure
 related_concepts: []
-companies_using: []
-ideas_referencing: []
 sources: []
 frontier:
 - ''
@@ -32,10 +27,7 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 ---
-
-# AI Infrastructure Scaling
-
-*Kind: category · Stub leader page for `concepts/ai-infrastructure/scaling/`*
+*Stub leader page for `concepts/ai-infrastructure/scaling/`*
 
 Datacentre-scale AI infrastructure — GW-scale power, cooling, real estate, dark fibre, hyperscaler architecture.
 

@@ -4,15 +4,10 @@ slug: energy-materials
 canonical_name: Energy Materials
 aliases: []
 kind: category
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - energy-power
 - energy-storage
 related_concepts: []
-companies_using: []
-ideas_referencing: []
 sources: []
 frontier:
 - ''
@@ -25,10 +20,7 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 ---
-
-# Energy Materials
-
-*Kind: category · Stub leader page for `concepts/advanced-materials/energy/`*
+*Stub leader page for `concepts/advanced-materials/energy/`*
 
 Materials for energy generation, storage, and conversion — batteries, electrolysers, fuel cells, photovoltaics.
 

@@ -8,9 +8,6 @@ aliases:
 - diffractive optical neural network
 - holographic ONN
 kind: technology
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - photonic-systems
 - photonic-compute
@@ -19,12 +16,6 @@ related_concepts:
 - holographic-volumetric-displays
 - free-space-optics
 - metasurfaces-flat-optics
-companies_using:
-- coherix
-ideas_referencing:
-- '[[slm-material-class-race]]'
-- '[[neuromorphic-edge-ai-2030]]'
-- '[[photonics-material-class-war]]'
 sources: []
 frontier:
 - Reconfigurable D2NN with telecoms-grade SLM — production-ready or still bench? (Coherix claim, 2026-05-06).
@@ -44,14 +35,9 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 1
 ---
-
-# Diffractive Deep Neural Networks (D2NN)
-
-*Kind: technology · Architecture class within [[optical-neural-networks|ONNs]].*
+*Architecture class within [ONNs](/photonic-systems/photonic-compute/optical-neural-networks/).*
 
 ## Physics / mechanism
-
-D2NN ("diffractive deep neural network") is an architecture where the neural-network forward pass is performed by **diffraction of coherent light through a stack of phase-modulating elements**, rather than by guided-wave matrix multiplication on a photonic IC. Each layer of the network is a 2D pattern of phase shifts (a hologram). Light propagates from input plane through the cascade, accumulating the network's transformation, and the output plane reads out the inference.
 
 | Implementation | Phase-shift element | Reconfigurable? | Status |
 |---|---|---|---|
@@ -81,15 +67,9 @@ D2NN ("diffractive deep neural network") is an architecture where the neural-net
 
 ## Why this matters now (2026)
 
-The D2NN architecture has been a research curiosity for ~8 years. The bet **Coherix** makes (2026 spinout from **Envisics**) is that **(a) reconfigurable SLM-driven D2NNs with a production-grade [[spatial-light-modulators|SLM]] hardware base are now commercialisable**, and **(b) the energy story (data movement is free in light propagation) wins on energy/inference at deployable form factors**. The "telecoms-grade holographic SLM" claim is the load-bearing IP, inherited from **Envisics**'s holographic-display lineage.
+The D2NN architecture has been a research curiosity for ~8 years. The bet **Coherix** makes (2026 spinout from **Envisics**) is that **(a) reconfigurable SLM-driven D2NNs with a production-grade [SLM](/photonic-systems/modulators-detectors/spatial-light-modulators/) hardware base are now commercialisable**, and **(b) the energy story (data movement is free in light propagation) wins on energy/inference at deployable form factors**. The "telecoms-grade holographic SLM" claim is the load-bearing IP, inherited from **Envisics**'s holographic-display lineage.
 
 Open question: most demonstrated D2NN benchmarks are CNN-shaped (image classification, denoising). Transformer matmul (where most current AI inference cycles go) maps less obviously. The Coherix deck includes ODE solving and time-series, which suggests they may be pitching a workload-class beachhead away from transformers.
-
-## Cloudberry relevance
-
-- ****Coherix**** (live, 2026-05-07) — direct D2NN-class deal; only Cloudberry-pipeline company in this architecture class.
-- Adjacent: **Neurophos** (metamaterial SLM for compute, but architecture not strictly D2NN), **Salience Labs** (analog PCM + photonic, different family).
-- IP base sits between Ozcan-UCLA originating publications and Envisics-lineage holographic patents — diligence question for Coherix is which side they sit on / license from.
 
 ## Companies using
 

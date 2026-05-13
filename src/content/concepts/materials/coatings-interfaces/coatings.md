@@ -4,15 +4,10 @@ slug: coatings
 canonical_name: Functional Coatings
 aliases: []
 kind: category
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - materials
 - coatings-interfaces
 related_concepts: []
-companies_using: []
-ideas_referencing: []
 sources: []
 frontier:
 - ''
@@ -31,10 +26,7 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 ---
-
-# Functional Coatings
-
-*Kind: category · Stub leader page for `concepts/advanced-materials/coatings/`*
+*Stub leader page for `concepts/advanced-materials/coatings/`*
 
 Functional thin-film coatings — barrier, optical, conformal, anti-corrosion. Includes ALD, CVD, iCVD process materials.
 

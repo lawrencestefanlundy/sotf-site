@@ -4,15 +4,10 @@ slug: energy-storage
 canonical_name: Energy Storage
 aliases: []
 kind: category
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - energy-power
 - energy-storage
 related_concepts: []
-companies_using: []
-ideas_referencing: []
 sources: []
 frontier:
 - ''
@@ -25,11 +20,7 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 ---
-
-
-# Energy Storage
-
-*Kind: category · Stub leader page for `concepts/energy/storage/`*
+*Stub leader page for `concepts/energy/storage/`*
 
 Stationary and mobile energy storage — batteries, flow batteries, thermal storage, gravity storage.
 

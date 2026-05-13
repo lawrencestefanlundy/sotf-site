@@ -7,9 +7,6 @@ aliases:
 - hafnia photonic
 - ferroelectric HfO2
 kind: technology
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - materials
 - functional-layers
@@ -19,8 +16,6 @@ related_concepts:
 - electro-optic-modulators
 - gallium-foundries
 - 22fdx
-companies_using: []
-ideas_referencing: []
 sources: []
 frontier:
 - Does HfO₂ ferroelectric (Si-doped or Zr-doped) reach commercially-relevant Pockels coefficient at production scale?
@@ -39,10 +34,7 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 ---
-
-# Hafnium Oxide (HfO₂) Photonics
-
-*Kind: technology · CMOS-native dielectric emerging as photonic EO + ferroelectric memory platform*
+*CMOS-native dielectric emerging as photonic EO + ferroelectric memory platform*
 
 ## Physics / mechanism
 
@@ -53,10 +45,6 @@ The strategic pitch: any process that can deposit HfO₂ for FETs can also depos
 ## Competitive landscape
 
 Research stage for photonics. Production for FeFET memory: GF 22FDX-FeFET (commercially available since 2024), Sony, NaMLab spin-offs. Photonic modulator demonstrators: IMEC, Fraunhofer IPMS. Integration with the same fab line that serves FeFET memory is the unique-selling-point.
-
-## Cloudberry relevance
-
-Cross-pollinates **Ferroelectric Memory Share** (HfO₂-FeFET as memory, HfO₂-photonic as modulator share fab tooling). Adjacent to **Photonics Material Class War** as the CMOS-native challenger to BTO/TFLN. GF mandate alignment is direct — GF 22FDX is the lead production node.
 
 ## Frontier (open questions)
 

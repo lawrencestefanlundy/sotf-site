@@ -4,15 +4,10 @@ slug: biomaterials
 canonical_name: Biomaterials
 aliases: []
 kind: category
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - life-frontier
 - biotech
 related_concepts: []
-companies_using: []
-ideas_referencing: []
 sources: []
 frontier:
 - ''
@@ -29,10 +24,7 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 ---
-
-# Biomaterials
-
-*Kind: category · Stub leader page for `concepts/biotech/biomaterials/`*
+*Stub leader page for `concepts/biotech/biomaterials/`*
 
 Materials for biological systems — tissue engineering, regenerative medicine, structural biopolymers.
 

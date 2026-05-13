@@ -4,38 +4,10 @@ slug: xolography
 canonical_name: Xolography
 aliases: []
 kind: technology
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - manufacturing
 - lithography
 related_concepts: []
-companies_using:
-- 3d-systems
-- axolotis-formerly-daqri-spin-out-concept
-- azul-3d
-- bmf-boston-micro-fabrication
-- carbon
-- cubicure
-- ditto-formerly-glassomer-spin-concepts
-- femtika
-- formlabs
-- glassomer
-- holo
-- inkbit
-- liqcreate
-- luxexcel
-- meltio
-- miicraft-young-optics-group
-- nanoscribe
-- nexa3d
-- photocentric
-- readily3d
-- sprintray
-- upnano
-- xolo-gmbh-xolography-originator
-ideas_referencing: []
 sources:
 - '[[2026-05-02-xolography-for-rapid-volumetric-production-adv-materials-202]]'
 - '[[2026-05-02-linear-volumetric-am-of-zirconia-via-xolography-sciencedirec]]'
@@ -52,12 +24,6 @@ last_reorg_date: '2026-05-13'
 sources_7d: 1
 sources_30d: 5
 ---
-
-
-# Xolography
-
-*Kind: technology · Attio deal count: 0*
-
 ## Physics / mechanism
 
 Xolography is volumetric additive manufacturing using two intersecting light beams of distinct wavelengths in a dual-photoinitiator photopolymer — polymerization happens only at the intersection, enabling layer-free 3D printing of objects (no staircase artefacts). Commercialized by Xolo (Berlin, founded ex-Karpathy lab, Stephan Kuehr previous at 3YOURMIND, $30M raised). Optical applications include microoptics, microlens arrays, freeform macroscopic optics, contact/intraocular lenses. Surface quality is optical-grade as-printed (no polishing). The technique is polymer-bound, sharing the same material-class question as 2PP for reliability-qualified photonics: cheap and fast vs. uncertain Telcordia path. Adjacent work in zirconia and SiOC ceramic xolography — but ceramic processing is years from production.
@@ -81,7 +47,6 @@ Xolography is volumetric additive manufacturing using two intersecting light bea
 ## Frontier (open questions)
 
 - *To be added.*
-
 
 ## Primer (web-enriched)
 

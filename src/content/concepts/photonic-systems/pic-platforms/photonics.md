@@ -6,55 +6,10 @@ aliases:
 - photonics-optics
 - Photonics & Optics
 kind: theme
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - photonic-systems
 - pic-platforms
 related_concepts: []
-companies_using:
-- aifotec
-- ayar-labs
-- bright-photonics
-- effect-photonics
-- hyperlight
-- ii-vi-finisar-now-coherent
-- ii-vi-incorporated-coherent-corp
-- imec
-- infinera
-- leti-cea-leti
-- ligentec
-- lionix-international
-- lumentum
-- luminous-computing
-- openlight-photonics
-- photon-spot-pixel-photonics
-- phoxene
-- poet-technologies
-- psiquantum
-- quix-quantum
-- rockley-photonics
-- scantinel-photonics
-- smart-photonics
-- sron-vlc-photonics
-- xanadu
-- aeva-technologies
-- classiq-technologies
-- exail-ixblue-photonics
-- fraunhofer-hhi
-- hamamatsu-photonics
-- ii-vi-incorporated-coherent
-- ii-vi-viavi-solutions
-- interlune
-- ipronics-now-salto-photonics
-- lightmatter
-- optalysys
-- photondelta
-- ranovus
-- sicoya
-- siphotonics-tsmc-photonics
-ideas_referencing: []
 sources:
 - '[[2025-09-23-the-compute-gradient]]'
 - '[[2025-04-23-what-if-ai-can-already-feel]]'
@@ -88,7 +43,7 @@ last_updated: '2026-05-07'
 tags:
 - concept
 - theme
-mention_count: 275
+mention_count: 276
 descendants:
 - additive-manufacturing
 - aluminum-nitride
@@ -150,17 +105,11 @@ last_reorg_date: '2026-05-13'
 sources_7d: 7
 sources_30d: 18
 ---
-
-# Photonics
-
-*Kind: theme · Attio deal count: 155*
-
 ## Physics / mechanism
 
 Photonics is the generation, manipulation, and detection of photons—typically across UV, visible, NIR, and mid-IR spectra. Unlike electronics, signal carriers have zero rest mass, enabling propagation at *c* with negligible resistive loss. Key parameters: wavelength (λ), refractive index (n), group velocity dispersion (GVD), insertion loss (dB), and extinction ratio (dB). Platform state-of-the-art: silicon photonics achieves ~1 dB/cm waveguide loss at 1550 nm, InP lasers hit sub-100 kHz linewidth, LiNbO₃ modulators reach >100 GHz bandwidth. Co-packaged optics in datacenter switching is pushing integration density toward 1.6 Tb/s per package. Quantum photonics and mid-IR sensing are the frontier growth vectors.
 
 ## Competitive landscape
-
 
 Silicon photonics (SiPh) competes with and complements III-V (InP, GaAs), polymer waveguides, and emerging platforms like silicon nitride (SiN) and thin-film LiNbO₃. Each trades off loss, nonlinearity, active gain, and CMOS foundry compatibility differently.
 
@@ -169,12 +118,6 @@ Silicon photonics (SiPh) competes with and complements III-V (InP, GaAs), polyme
 | Silicon (SiPh) | ~1–2 | No (indirect bandgap) | Yes |
 | Silicon Nitride | ~0.1 | No | Yes |
 | InP / III-V | ~2–5 | Yes | No |
-
-## Cloudberry relevance
-Mid-IR sensing competes with electrochemical and MEMS-based approaches. For compute interconnects, copper and co-packaged optics are direct substitutes until ~3.2 Tb/s thresholds.
-
-
-Photonics is a primary thesis vector for Cloudberry given the GlobalFoundries LP relationship—GF runs a commercial SiPh platform (GF Fotonix, 300 mm) directly relevant to portfolio co-development. Deal-flow angles: integrated LiDAR, optical compute interconnects, quantum photonic chips, and photonic sensing for industrial/defense. Lunar Ventures' seed exposure in deep-tech creates upstream sourcing. Key diligence edge: fab access lets Cloudberry pressure-test tapeout readiness and NRE economics earlier than generalist VCs.
 
 ## Companies using
 
@@ -198,14 +141,13 @@ Photonics is a primary thesis vector for Cloudberry given the GlobalFoundries LP
 
 # Photonics & Optics
 
-*Kind: technology · Attio deal count: 89*
+*Kind: technology*
 
 ## Physics / mechanism
 
 Photonics exploits photons rather than electrons as information or energy carriers. Core physics: Maxwell's equations govern propagation; waveguide confinement via total internal reflection (silicon-on-insulator rib waveguides, ~450 nm × 220 nm cross-sections); modulation via Pockels effect (LiNbO₃, BTO) or plasma dispersion (Si). Key figures of merit: insertion loss (target <1 dB/cm), electro-optic bandwidth (>100 GHz demonstrated in thin-film LiNbO₃), extinction ratio (>20 dB), and V_π·L (sub-1 V·cm now achievable). Silicon photonics dominates datacentre interconnect at 400G–1.6T; III-V (InP, GaAs) leads coherent and sensing; emerging platforms include SiN (ultralow loss, ~0.1 dB/m), lithium niobate on insulator (LNOI), and BTO-on-Si. Photonic integrated circuits (PICs) are manufactured on 200/300 mm CMOS-compatible lines, enabling co-integration with electronics.
 
 ## Competitive landscape
-
 
 Competing carrier: RF/microwave electronics dominate sub-100 GHz comms but hit energy and bandwidth walls above that. Competing photonic platforms pit silicon photonics (low cost, CMOS-native) against InP (monolithic laser integration, higher cost) and polymer waveguides (flexible, lossy). For sensing, MEMs and RF radar compete with LiDAR and optical coherence. Quantum photonics (single-photon sources, entangled pairs) is an adjacent but distinct segment.
 
@@ -214,9 +156,6 @@ Competing carrier: RF/microwave electronics dominate sub-100 GHz comms but hit e
 | Si photonics | ~2 dB/cm | ~50 GHz | Heterogeneous bonding |
 | LNOI | ~0.3 dB/cm | >100 GHz | Hybrid |
 | InP | ~1–2 dB/cm | >100 GHz | Monolithic |
-
-## Cloudberry relevance
-GlobalFoundries operates a qualified silicon photonics process (GF Fotonix, 300 mm), creating direct pipeline relevance—startups fabbing PICs on GF are natural Cloudberry deal-flow. Key angles: datacentre optical interconnect (AI cluster scale-out drives co-packaged optics), LiDAR for autonomy, photonic biosensing, and quantum PIC infrastructure. Lunar Ventures' deep-tech network surfaces pre-seed photonics IP spinouts. Watch for LNOI and BTO modulator startups seeking qualified foundry access—a structural gap GF adjacency can fill.
 
 ## Companies using
 

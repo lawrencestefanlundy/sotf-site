@@ -4,15 +4,10 @@ slug: trust
 canonical_name: Trust & Security in AI Infrastructure
 aliases: []
 kind: category
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - life-frontier
 - trust
 related_concepts: []
-companies_using: []
-ideas_referencing: []
 sources: []
 frontier:
 - ''
@@ -36,10 +31,7 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 ---
-
-# Trust & Security in AI Infrastructure
-
-*Kind: category · Stub leader page for `concepts/ai-infrastructure/trust/`*
+*Stub leader page for `concepts/ai-infrastructure/trust/`*
 
 Security, privacy, attestation, and governance layers for AI infrastructure. Confidential compute, MPC, ZKP, sovereign AI.
 

@@ -4,15 +4,10 @@ slug: photonic-imaging
 canonical_name: Photonic Imaging
 aliases: []
 kind: category
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - sensing
 - imaging
 related_concepts: []
-companies_using: []
-ideas_referencing: []
 sources: []
 frontier:
 - ''
@@ -29,10 +24,7 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 ---
-
-# Photonic Imaging
-
-*Kind: category · Stub leader page for `concepts/photonics/imaging/`*
+*Stub leader page for `concepts/photonics/imaging/`*
 
 LiDAR, hyperspectral imaging, time-of-flight, structured light, computational photography.
 

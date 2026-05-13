@@ -1,10 +1,10 @@
 ---
 import Base from "../../layouts/Base.astro";
 import { getCollection } from "astro:content";
+import { macroBySlug, mesosForMacro } from "../../data/taxonomy";
 
 export async function getStaticPaths() {
   const concepts = await getCollection("concepts");
-  // Distinct macro slugs (first segment of concept.id)
   const macros = new Set(concepts.map((c) => c.id.split("/")[0]));
   return [...macros].map((m) => ({ params: { macro: m } }));
 }
@@ -13,40 +13,39 @@ const { macro } = Astro.params;
 const concepts = await getCollection("concepts");
 const inMacro = concepts.filter((c) => c.id.startsWith(`${macro}/`));
 
-// Group by meso (second segment)
-const mesoMap = new Map<string, typeof inMacro>();
-for (const c of inMacro) {
-  const meso = c.id.split("/")[1];
-  if (!mesoMap.has(meso)) mesoMap.set(meso, []);
-  mesoMap.get(meso)!.push(c);
-}
-const mesos = [...mesoMap.entries()].sort((a, b) => a[0].localeCompare(b[0]));
+// Distinct meso slugs present in the corpus (defensive — should match taxonomy.ts)
+const presentMesoSlugs = new Set(inMacro.map((c) => c.id.split("/")[1]));
 
-const MACRO_NAMES: Record<string, string> = {
-  "compute": "Compute",
-  "memory": "Memory",
-  "sensing": "Sensing",
-  "communications": "Communications",
-  "energy-power": "Energy & Power",
-  "manufacturing": "Manufacturing",
-  "materials": "Materials",
-  "photonic-systems": "Photonic Systems",
-  "life-frontier": "Life & Frontier",
-};
-const macroName = MACRO_NAMES[macro as string] ?? macro;
+const macroEntry = macroBySlug(macro as string);
+const macroName = macroEntry?.name ?? macro;
+const macroBlurb = macroEntry?.blurb;
+
+// Mesos for this macro, with concept counts
+const mesos = mesosForMacro(macro as string)
+  .filter((m) => presentMesoSlugs.has(m.slug))
+  .map((m) => ({
+    ...m,
+    count: inMacro.filter((c) => c.id.startsWith(`${macro}/${m.slug}/`)).length,
+  }));
 ---
 
 <Base title={macroName}>
   <div class="breadcrumb"><a href="/">Now</a> &nbsp;/&nbsp; {macroName}</div>
-  <h1>{macroName}</h1>
-  <p>{inMacro.length} concepts across {mesos.length} clusters.</p>
+  <section class="hero">
+    <h1>{macroName}</h1>
+    {macroBlurb && <p>{macroBlurb}</p>}
+    <div class="meta" style="margin-top: 0.8rem;">{inMacro.length} concepts across {mesos.length} clusters</div>
+  </section>
 
-  <div class="grid-3" style="margin-top: 1.5rem;">
-    {mesos.map(([meso, items]) => (
-      <a href={`/${macro}/${meso}/`} class="card">
-        <h2>{meso.replace(/-/g, " ")}</h2>
-        <div class="meta">{items.length} concepts</div>
-      </a>
-    ))}
-  </div>
+  <section>
+    <div class="grid-3">
+      {mesos.map((m) => (
+        <a href={`/${macro}/${m.slug}/`} class="card">
+          <h2>{m.name}</h2>
+          <div class="meta">{m.count} concept{m.count === 1 ? "" : "s"}</div>
+          <p>{m.blurb}</p>
+        </a>
+      ))}
+    </div>
+  </section>
 </Base>

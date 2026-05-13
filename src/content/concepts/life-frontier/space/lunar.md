@@ -4,15 +4,10 @@ slug: lunar
 canonical_name: Lunar Economy
 aliases: []
 kind: category
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - life-frontier
 - space
 related_concepts: []
-companies_using: []
-ideas_referencing: []
 sources: []
 frontier:
 - ''
@@ -31,10 +26,7 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 ---
-
-# Lunar Economy
-
-*Kind: category · Stub leader page for `concepts/space/lunar/`*
+*Stub leader page for `concepts/space/lunar/`*
 
 Lunar landers, surface infrastructure, ISRU, regolith mining, lunar PNT, surface communications.
 

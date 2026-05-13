@@ -4,15 +4,10 @@ slug: synbio
 canonical_name: Synthetic Biology
 aliases: []
 kind: category
-domain:
-- cloudberry
-- sotf
 parent_concepts:
 - life-frontier
 - biotech
 related_concepts: []
-companies_using: []
-ideas_referencing: []
 sources: []
 frontier:
 - ''
@@ -31,10 +26,7 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 ---
-
-# Synthetic Biology
-
-*Kind: category · Stub leader page for `concepts/biotech/synbio/`*
+*Stub leader page for `concepts/biotech/synbio/`*
 
 Engineered biology — synthetic genomics, cell-free systems, bio-foundries, designer organisms.
 

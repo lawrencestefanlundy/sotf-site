@@ -1,0 +1,43 @@
+---
+import Base from "../layouts/Base.astro";
+import { getCollection } from "astro:content";
+
+// Build the 9-macro display from concepts collection.
+// Macro slug = first segment of concept id, e.g. "compute/logic-and-paradigms/cpu-soc".
+const concepts = await getCollection("concepts");
+
+const MACROS: { slug: string; name: string; blurb: string }[] = [
+  { slug: "compute",          name: "Compute",          blurb: "Logic, AI accelerators, alt paradigms, quantum compute, edge AI." },
+  { slug: "memory",           name: "Memory",           blurb: "DRAM, HBM, NAND, and novel — MRAM, RRAM, PCM, photonic, memcapacitor." },
+  { slug: "sensing",          name: "Sensing",          blurb: "Imaging, ranging, MEMS, quantum sensing — how machines measure the world." },
+  { slug: "communications",   name: "Communications",   blurb: "Wireless, wireline, optical interconnect — how things talk to each other." },
+  { slug: "energy-power",     name: "Energy & Power",   blurb: "Power electronics, batteries, fusion, storage, thermal — the substrate of everything." },
+  { slug: "manufacturing",    name: "Manufacturing",    blurb: "Lithography, packaging, equipment, foundry — how chips are made." },
+  { slug: "materials",        name: "Materials",        blurb: "Substrates, functional layers, advanced materials — what chips are made of." },
+  { slug: "photonic-systems", name: "Photonic Systems", blurb: "PIC platforms, light sources, modulators, metasurfaces — light as the carrier." },
+  { slug: "life-frontier",    name: "Life & Frontier",  blurb: "Biotech, neural interfaces, space, AI infra, trust — the edges of the stack." },
+];
+
+function countForMacro(slug: string): number {
+  return concepts.filter((c) => c.id.startsWith(`${slug}/`)).length;
+}
+---
+
+<Base title="Now" description="Lawrence Lundy-Bryan — deep-tech reference">
+  <section>
+    <h1>State of the Future</h1>
+    <p>A public reference layer for the technology graph Lawrence Lundy-Bryan tracks across Cloudberry VC, the Substack, and Lunar Ventures. {concepts.length} concepts across nine macro domains, updated nightly from the underlying KB.</p>
+  </section>
+
+  <section style="margin-top: 2.5rem;">
+    <div class="grid-3">
+      {MACROS.map((m) => (
+        <a href={`/${m.slug}/`} class="card">
+          <h2>{m.name}</h2>
+          <div class="meta">{countForMacro(m.slug)} concepts</div>
+          <p>{m.blurb}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,161 @@
+/* Placeholder styles — broadsheet visual style comes in Phase 3.
+   For now: legible, unstyled-ish, enough to make navigation testable. */
+
+:root {
+  --color-fg: #0f172a;       /* slate-900 */
+  --color-fg-muted: #64748b; /* slate-500 */
+  --color-bg: #f8fafc;       /* slate-50 */
+  --color-accent: #0f766e;   /* teal-700 */
+  --color-border: #e2e8f0;   /* slate-200 */
+  --font-serif: "EB Garamond", Georgia, serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, "JetBrains Mono", monospace;
+  --max-w: 70rem;
+}
+
+* { box-sizing: border-box; }
+
+html, body { margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-fg);
+  background: var(--color-bg);
+  line-height: 1.55;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--color-border);
+  background: white;
+}
+
+.site-header nav {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.site-title {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  color: var(--color-fg);
+  text-decoration: none;
+}
+
+.site-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.site-nav a {
+  color: var(--color-fg-muted);
+  text-decoration: none;
+}
+
+.site-nav a:hover {
+  color: var(--color-accent);
+}
+
+main {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  margin-top: 1.5rem;
+}
+
+h1 { font-size: 2.2rem; line-height: 1.1; }
+h2 { font-size: 1.6rem; }
+h3 { font-size: 1.2rem; }
+
+a { color: var(--color-accent); }
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+@media (max-width: 800px) {
+  .grid-3 { grid-template-columns: 1fr; }
+}
+
+.card {
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: 1.25rem;
+  background: white;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s ease;
+}
+
+.card:hover {
+  border-color: var(--color-accent);
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  font-family: var(--font-serif);
+}
+
+.card .meta {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-fg-muted);
+  letter-spacing: 0.02em;
+}
+
+.crosscuts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  color: var(--color-fg-muted);
+  margin: 0.5rem 0 1rem;
+}
+
+.crosscuts strong {
+  color: var(--color-fg);
+  font-weight: 500;
+}
+
+.crosscuts .pill {
+  background: var(--color-border);
+  color: var(--color-fg);
+  padding: 0.15rem 0.5rem;
+  border-radius: 2px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+}
+
+.breadcrumb {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-fg-muted);
+  letter-spacing: 0.02em;
+  margin-bottom: 0.5rem;
+}
+
+.breadcrumb a { color: var(--color-fg-muted); }
+
+.site-footer {
+  border-top: 1px solid var(--color-border);
+  padding: 2rem 1.5rem;
+  text-align: center;
+  color: var(--color-fg-muted);
+  font-size: 0.85rem;
+}

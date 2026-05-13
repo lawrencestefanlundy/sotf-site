@@ -1,0 +1,109 @@
+---
+type: concept
+slug: advanced-packaging
+canonical_name: Advanced Packaging
+aliases: []
+kind: technology
+domain:
+- cloudberry
+- sotf
+parent_concepts:
+- manufacturing
+- packaging
+related_concepts: []
+companies_using:
+- 3dic-ab
+- absolics
+- adeia-formerly-xperi
+- amkor-technology
+- ase-group-advanced-semiconductor-engineering
+- besi-be-semiconductor-industries
+- deca-technologies
+- evg-ev-group
+- fraunhofer-izm
+- imec
+- integra-technologies
+- intel-foundry-foveros
+- kuprion
+- marvell-technology-co-packaged-optics-division
+- micron-technology
+- multibeam-corporation
+- nanium-now-amkor-portugal
+- nepes
+- powertech-technology-inc-pti
+- samsung-foundry
+- sige-semiconductor-pallidus
+- sk-hynix
+- swave-photonics
+- tsmc
+- unimicron
+ideas_referencing: []
+sources:
+- '[[2023-10-06-e18-the-state-of-silent-speech-and]]'
+- '[[2025-12-02-the-future-of-computing-is-glass]]'
+- '[[2023-08-31-e13-chiplets-how-chip-lego-is-driving]]'
+- '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
+- '[[2024-10-29-deploy-intelligence-too-cheap-to]]'
+- '[[2023-11-20-e21-can-we-make-enough-ai-chips]]'
+- '[[2025-12-19-lfg-for-semiconductors]]'
+- '[[2024-10-22-state-of-the-future-part-deux]]'
+- '[[2026-02-12-how-to-invest-in-ai-sovereignty-sovereign]]'
+- '[[2025-04-30-has-the-time-come-to-take-mortal]]'
+- '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
+- '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
+- '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
+- '[[2024-yole-advanced-packaging-2024]]'
+- '[[2024-tsmc-cowos-roadmap-disclosure]]'
+frontier:
+- ''
+last_updated: '2026-05-04'
+tags:
+- concept
+- technology
+mention_count: 60
+descendants: []
+last_reorg_date: '2026-05-13'
+sources_7d: 2
+sources_30d: 8
+---
+
+# Advanced Packaging
+
+*Kind: technology · Attio deal count: 25*
+
+## Physics / mechanism
+
+Advanced packaging integrates multiple chiplets, dies, or subsystems into a single module by stacking or tiling them with high-density interconnects—bypassing the reticle-size and yield limits of monolithic SoCs. Key mechanisms: 2.5D interposers (silicon or organic) route signals laterally between dies; 3D stacking bonds dies vertically via through-silicon vias (TSVs) or hybrid bonding. Hybrid bonding achieves <1 µm pitch (vs. ~100 µm for flip-chip bumps), cutting interconnect energy to ~0.1 pJ/bit. Bandwidth density reaches 1–10 TB/s/mm² in leading implementations. Key enablers: wafer-level fan-out, die-to-wafer bonding, redistribution layers (RDL). TSMC CoWoS, Intel EMIB/Foveros, Samsung X-Cube, and ASE/Amkor on the OSAT side define the current envelope.
+
+## Competitive landscape
+
+
+Monolithic scaling (continued 2nm/1.6nm) competes at the process level but hits cost and yield walls above ~200 mm² die area. PCB-level MCMs are the low-density legacy alternative. Key differentiators across approaches:
+
+| Approach | Interconnect pitch | Bandwidth density | Integration flexibility |
+|---|---|---|---|
+| Hybrid bonding (3D) | <1 µm | >1 TB/s/mm² | Die-to-wafer only |
+| Silicon interposer (2.5D) | 10–40 µm | ~100 GB/s/mm² | Heterogeneous mix |
+| Organic substrate / fan-out | 2–10 µm | ~10 GB/s/mm² | Cost-optimised |
+
+## Cloudberry relevance
+Adjacent: chiplet ecosystems (UCIe standard), photonic integration (co-packaged optics), embedded die in PCB.
+
+
+Advanced packaging is a primary deal-flow lens for Cloudberry. The GF-LP fund's GlobalFoundries relationship is directly relevant—GF offers silicon interposer and FO-WLP flows, giving portfolio companies qualified packaging options without TSMC dependency. Co-packaged optics (CPO) is an acute near-term angle: photonic chiplets need low-loss, high-density electrical-optical co-integration that only advanced packaging enables. Target companies: EDA/design tools for chiplet disaggregation, novel bonding materials, and fabless teams building heterogeneous AI-inference or sensing modules that rely on packaging rather than leading-edge nodes.
+
+## Companies using
+
+<!-- dataview block stripped for public site -->
+
+## Connected ideas
+
+<!-- dataview block stripped for public site -->
+
+## Sources
+
+<!-- dataview block stripped for public site -->
+
+## Frontier (open questions)
+
+- *To be added.*

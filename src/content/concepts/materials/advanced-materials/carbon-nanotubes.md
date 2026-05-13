@@ -1,0 +1,92 @@
+---
+type: concept
+slug: carbon-nanotubes
+canonical_name: Carbon Nanotubes
+aliases: []
+kind: technology
+domain:
+- cloudberry
+- sotf
+parent_concepts:
+- materials
+- advanced-materials
+related_concepts: []
+companies_using:
+- applied-carbon-nanotube-technologies-applied-cnt
+- arkema
+- cabot-corporation
+- canatu
+- carbice-corporation
+- carbon-nanotube-technologies-cntt
+- chasm-advanced-materials
+- cnano-technology
+- dexcraft
+- influit-energy
+- meijo-nano-carbon
+- microbond-nanocomposites
+- molecular-rebar-design
+- nano-c
+- nanocomp-technologies-huntsman
+- nanocyl
+- nanostar
+- ocsial
+- showa-denko-resonac
+- skeleton-technologies
+- southwest-nanotechnologies-swent
+- tuball-anode-ocsial-subsidiary
+- zeon-corporation
+ideas_referencing: []
+sources:
+- '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
+- '[[2025-07-01-a-primer-carbon-nanotubes]]'
+- '[[2026-02-02-photonic-engines-for-data-centers]]'
+- '[[2025-04-30-has-the-time-come-to-take-mortal]]'
+frontier:
+- ''
+last_updated: '2026-05-04'
+tags:
+- concept
+- technology
+mention_count: 10
+last_reorg_date: '2026-05-13'
+sources_7d: 1
+sources_30d: 1
+---
+
+# Carbon Nanotubes
+
+*Kind: technology · Attio deal count: 4*
+
+## Physics / mechanism
+
+Single-walled carbon nanotubes (SWCNTs) are rolled graphene sheets; chirality vector (n,m) determines whether they're metallic or semiconducting. Semiconducting SWCNTs have bandgaps ~0.4–1.2 eV (diameter-tunable), carrier mobilities up to ~10,000 cm²/V·s, and current-carrying capacity ~10⁹ A/cm²—well beyond copper or silicon. Multi-walled CNTs (MWCNTs) sacrifice electrical precision for mechanical performance: tensile strength ~60 GPa, Young's modulus ~1 TPa. State of the art: IBM/MIT demonstrated 14,000-CNT-transistor chips at sub-10 nm effective gate length; Carbonics and SiCarbon are pushing RF and logic CNTFETs toward tape-out. Chirality-sorted, 99.9% semiconducting purity is now achievable at small scale via gel chromatography and aqueous two-phase separation.
+
+## Competitive landscape
+
+
+Competing approaches in the post-silicon transistor race: GaN and SiC own high-power RF and power electronics now; III-V (InGaAs, GaAs) leads high-frequency RF with mature fab infrastructure; 2D materials (MoS₂, WSe₂) offer monolayer channel thickness but suffer contact resistance and wafer-scale uniformity problems. Graphene is faster but zero-bandgap, requiring engineered confinement. Against copper interconnects, CNT vias compete with Ru and Co from Applied Materials and Lam Research at sub-20 nm nodes.
+
+| Material | Mobility (cm²/V·s) | Bandgap | Fab maturity |
+|---|---|---|---|
+| SWCNT | ~10,000 | Tunable 0.4–1.2 eV | Pre-production |
+| MoS₂ | ~200 | ~1.8 eV | Lab-scale |
+| InGaAs | ~12,000 | 0.36 eV | HVM (III-V fabs) |
+
+## Cloudberry relevance
+GlobalFoundries is actively evaluating CNT vias for 12LP+ and below—direct pipeline relevance. Deal-flow angles: materials suppliers achieving wafer-scale chirality separation, EDA tooling for CNT process design kits, and fabless designers targeting CNT RF front-ends. Lunar Ventures' software-first portfolio is adjacent if CNT logic reaches tape-out at a foundry partner. Watch Carbonics (DARPA-backed RF), and any spin-outs from Strano (MIT) or Wong (Stanford) groups reaching Series A.
+
+## Companies using
+
+<!-- dataview block stripped for public site -->
+
+## Connected ideas
+
+<!-- dataview block stripped for public site -->
+
+## Sources
+
+<!-- dataview block stripped for public site -->
+
+## Frontier (open questions)
+
+- *To be added.*

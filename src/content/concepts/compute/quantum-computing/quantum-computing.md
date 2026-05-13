@@ -1,0 +1,121 @@
+---
+type: concept
+slug: quantum-computing
+canonical_name: Quantum Computing
+aliases: []
+kind: technology
+domain:
+- cloudberry
+- sotf
+parent_concepts:
+- compute
+- quantum-computing
+related_concepts: []
+companies_using:
+- alice-bob
+- bleximo
+- classiq
+- d-wave-quantum
+- eleqtron
+- equal1
+- fujitsu-quantum
+- google-quantum-ai
+- ibm-quantum
+- infleqtion
+- ionq
+- iqm-quantum-computers
+- microsoft-azure-quantum
+- multiverse-computing
+- origin-quantum
+- oxford-ionics
+- pasqal
+- planqc
+- psiquantum
+- quantinuum
+- quantum-motion
+- quera-computing
+- quobly
+- rigetti-computing
+- xanadu
+ideas_referencing: []
+sources:
+- '[[2023-10-19-e20-the-state-of-privacy-enhancing]]'
+- '[[2025-12-02-the-future-of-computing-is-glass]]'
+- '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
+- '[[2023-05-24-launching-state-of-the-future]]'
+- '[[2023-07-14-e08-optical-computing]]'
+- '[[2023-04-04-learnings-from-a-deep-tech-horizon]]'
+- '[[2025-10-09-a-specific-theory-of-sovereign-ai]]'
+- '[[2024-11-20-nuclear-fusion-the-state-of-play]]'
+- '[[2024-12-16-willow-and-the-race-to-quantum-advantage]]'
+- '[[2024-12-04-cubits-in-a-fridge-why-is-nobody]]'
+- '[[2026-02-12-how-to-invest-in-ai-sovereignty-sovereign]]'
+- '[[2025-04-30-has-the-time-come-to-take-mortal]]'
+- '[[2023-08-25-e12-nanomechanical-computing-gears]]'
+- '[[2026-01-22-ai-chips-computeram-and-the-future]]'
+- '[[2025-12-09-gallium-nitride-photonics-w-james]]'
+- '[[2025-03-05-occupational-downgrading]]'
+- '[[2026-04-21-quantum-101]]'
+- '[[2025-12-18-qubitsolve-secures-12-million-nsf-sbir-grant-to-accelerate-q]]'
+frontier:
+- ''
+last_updated: '2026-05-04'
+tags:
+- concept
+- technology
+mention_count: 88
+descendants:
+- bosonic-cat-qubits
+- neutral-atom-qubits
+- nv-diamond-spin-qubits
+- photonic-quantum-computing
+- silicon-spin-qubits
+- superconducting-qubits
+- topological-qubits
+- trapped-ion
+last_reorg_date: '2026-05-13'
+sources_7d: 12
+sources_30d: 41
+---
+
+
+# Quantum Computing
+
+*Kind: technology · Attio deal count: 24*
+
+## Physics / mechanism
+
+Quantum computers exploit quantum mechanical phenomena — superposition, entanglement, interference — to process information in ways classical bits cannot. The fundamental unit is the qubit; physical implementations include superconducting transmons (IBM, Google), trapped ions (IonQ, Quantinuum), photonic qubits (PsiQuantum, QuiX), neutral atoms (Atom Computing, Pasqal), and silicon spin qubits (Intel, Silicon Quantum Computing). Key figures of merit: qubit count, gate fidelity (best superconducting: ~99.9% two-qubit), coherence time (microseconds to milliseconds depending on modality), and error correction overhead. Current NISQ-era machines (100–1000 physical qubits) remain pre-fault-tolerant; fault-tolerant systems likely require millions of physical qubits per logical qubit under surface code. No demonstrated quantum advantage on commercially relevant problems yet.
+
+## Competitive landscape
+
+
+| Modality | Qubit fidelity | Scalability path | Fab dependency |
+|---|---|---|---|
+| Superconducting | ~99.9% 2Q | Cryo CMOS integration | Heavy — advanced node packaging |
+| Trapped ion | ~99.9%+ 2Q | Photonic interconnects | Low fab, high photonics |
+| Photonic | High entanglement fidelity | Room-temp operation possible | Silicon photonics foundry-compatible |
+| Silicon spin | ~99.5% 2Q | CMOS-native, densest integration | Direct CMOS foundry leverage |
+
+## Cloudberry relevance
+
+Classical HPC (GPU clusters, TPUs) competes for near-term workloads. Neuromorphic and analog computing address overlapping optimization use cases. Quantum annealing (D-Wave) targets narrow combinatorial problems. Photonic accelerators eat some quantum-claimed workloads without cryogenic overhead.
+
+
+Cloudberry's angle is infrastructure, not algorithms. Silicon spin and photonic qubit modalities run through standard or near-standard CMOS and silicon photonics fabs — directly in GlobalFoundries' wheelhouse. Deal-flow targets: qubit foundry process IP, cryo-CMOS control ASICs, photonic interconnect components for modular QPU architectures. Lunar Ventures' software-layer exposure complements hardware bets. Watch silicon spin closely — the fab stack is closest to what GF already runs.
+
+## Companies using
+
+<!-- dataview block stripped for public site -->
+
+## Connected ideas
+
+<!-- dataview block stripped for public site -->
+
+## Sources
+
+<!-- dataview block stripped for public site -->
+
+## Frontier (open questions)
+
+- *To be added.*

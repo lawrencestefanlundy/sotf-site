@@ -1,0 +1,111 @@
+---
+import Base from "../../../layouts/Base.astro";
+import { getCollection, render } from "astro:content";
+
+export async function getStaticPaths() {
+  const concepts = await getCollection("concepts");
+  return concepts
+    .filter((c) => c.id.split("/").length === 3)
+    .map((c) => {
+      const [macro, meso, slug] = c.id.split("/");
+      return {
+        params: { macro, meso, slug },
+        props: { concept: c },
+      };
+    });
+}
+
+const { concept } = Astro.props;
+const { macro, meso, slug } = Astro.params;
+const { Content } = await render(concept);
+
+const MACRO_NAMES: Record<string, string> = {
+  "compute": "Compute",
+  "memory": "Memory",
+  "sensing": "Sensing",
+  "communications": "Communications",
+  "energy-power": "Energy & Power",
+  "manufacturing": "Manufacturing",
+  "materials": "Materials",
+  "photonic-systems": "Photonic Systems",
+  "life-frontier": "Life & Frontier",
+};
+const macroName = MACRO_NAMES[macro as string] ?? macro;
+const mesoName = (meso as string).replace(/-/g, " ");
+
+// Build cross-cuts: macros (other than this one) that this concept's related_concepts touch.
+const allConcepts = await getCollection("concepts");
+const slugToMacro = new Map<string, string>();
+for (const c of allConcepts) slugToMacro.set(c.data.slug, c.id.split("/")[0]);
+
+const crossCutMacros = new Set<string>();
+for (const rel of concept.data.related_concepts ?? []) {
+  const otherMacro = slugToMacro.get(rel);
+  if (otherMacro && otherMacro !== macro) crossCutMacros.add(otherMacro);
+}
+---
+
+<Base title={concept.data.canonical_name}>
+  <div class="breadcrumb">
+    <a href="/">Now</a> &nbsp;/&nbsp;
+    <a href={`/${macro}/`}>{macroName}</a> &nbsp;/&nbsp;
+    <a href={`/${macro}/${meso}/`}>{mesoName}</a> &nbsp;/&nbsp;
+    {concept.data.canonical_name}
+  </div>
+
+  <h1>{concept.data.canonical_name}</h1>
+
+  {crossCutMacros.size > 0 && (
+    <div class="crosscuts">
+      <strong>Cross-cuts:</strong>
+      {[...crossCutMacros].map((m) => (
+        <a class="pill" href={`/${m}/`}>{MACRO_NAMES[m] ?? m}</a>
+      ))}
+    </div>
+  )}
+
+  {(concept.data.sources_30d > 0 || concept.data.last_updated) && (
+    <div class="meta" style="margin-bottom: 1rem;">
+      {concept.data.last_updated && `last updated ${concept.data.last_updated}`}
+      {concept.data.sources_30d > 0 && ` · +${concept.data.sources_30d} sources in last 30d`}
+    </div>
+  )}
+
+  <article>
+    <Content />
+  </article>
+
+  {concept.data.related_concepts && concept.data.related_concepts.length > 0 && (
+    <section style="margin-top: 2rem;">
+      <h3>Related concepts</h3>
+      <ul>
+        {concept.data.related_concepts.map((rel) => {
+          const otherMacro = slugToMacro.get(rel);
+          if (otherMacro) {
+            const other = allConcepts.find((c) => c.data.slug === rel);
+            return (
+              <li>
+                <a href={`/${other?.id}/`}>{other?.data.canonical_name ?? rel.replace(/-/g, " ")}</a>
+                {otherMacro !== macro && (
+                  <span class="meta"> &nbsp;({MACRO_NAMES[otherMacro] ?? otherMacro})</span>
+                )}
+              </li>
+            );
+          } else {
+            // Slug not in public corpus — render plain
+            return <li>{rel.replace(/-/g, " ")}</li>;
+          }
+        })}
+      </ul>
+    </section>
+  )}
+
+  {concept.data.frontier && concept.data.frontier.length > 0 && (
+    <section style="margin-top: 2rem;">
+      <h3>Frontier questions</h3>
+      <ul>
+        {concept.data.frontier.map((q: string) => <li>{q}</li>)}
+      </ul>
+    </section>
+  )}
+</Base>

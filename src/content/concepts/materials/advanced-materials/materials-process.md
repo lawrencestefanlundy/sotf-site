@@ -1,0 +1,132 @@
+---
+type: concept
+slug: materials-process
+canonical_name: Materials & Process
+aliases: []
+kind: technology
+domain:
+- cloudberry
+- sotf
+parent_concepts:
+- materials
+- advanced-materials
+related_concepts: []
+companies_using:
+- 6k-inc
+- aixtron
+- aledia
+- applied-materials
+- asml
+- beneq
+- entegris
+- fermioniq
+- forge-nano
+- imec
+- iqst-iqm-quantum-computers
+- lam-research
+- nanosys
+- newsight-imaging
+- nexwafe
+- pallidus
+- paragraf
+- porotech
+- saule-technologies
+- semsysco
+- sicrystal-rohm-group
+- siltronic
+- soitec
+- spark-thermionics
+- umicore
+ideas_referencing: []
+sources: []
+frontier:
+- ''
+last_updated: '2026-05-04'
+tags:
+- concept
+- technology
+mention_count: 71
+descendants:
+- 2d-materials
+- ald-atomic-layer-deposition
+- aluminium-oxide
+- aluminium-scandium-nitride
+- aluminum-nitride
+- barium-titanate
+- cadmium-telluride
+- carbon-nanotubes
+- chalcogenide-glass
+- cmp-chemical-mechanical-planarisation
+- compound-semiconductors
+- diamond
+- ferroelectric-hfo2
+- gallium-arsenide
+- gallium-oxide
+- gan
+- ge-on-si-mid-ir
+- graphene
+- graphene-2d-materials
+- hafnium-oxide-photonic
+- hbn-hexagonal-boron-nitride
+- high-k-dielectrics
+- indium-phosphide
+- initiated-cvd-icvd
+- lithium-niobate-tfln
+- lithium-tantalate-tflt
+- low-k-dielectrics
+- mocvd-mbe
+- mxenes
+- piezoelectric
+- polymer-waveguides
+- pvd-sputtering
+- pzt-piezoelectric-photonic
+- ru-w-co-metallisation
+- scandium-aluminum-nitride
+- sic
+- silicon-carbide-photonics
+- silicon-nitride
+- thin-films-coatings
+- tmds-mos2-wse2
+- topological-insulators
+last_reorg_date: '2026-05-13'
+sources_7d: 0
+sources_30d: 2
+---
+
+# Materials & Process
+
+*Kind: technology · Attio deal count: 71*
+
+## Physics / mechanism
+
+Materials and process engineering defines the physical boundary conditions of every device. At its core: deposition (CVD, ALD, PVD, MBE), etch (RIE, DRIE, wet), doping (ion implantation, diffusion), and planarization (CMP) control film composition, thickness, stress, and interface quality. Key parameters are carrier mobility, dielectric constant (k), breakdown field, thermal conductivity, and defect density. CMOS front-end nodes push gate-oxide EOT below 0.5 nm; advanced packaging moves to hybrid bonding with Cu-Cu interconnects at <1 µm pitch. Compound semiconductors (GaN, SiC, InP, GaAs) operate at breakdown fields 3–10× silicon, enabling RF, power, and photonic applications inaccessible to bulk Si.
+
+## Competitive landscape
+
+
+GaN-on-Si competes with SiC for power switching below 1.2 kV; SiC dominates above. InP competes with silicon photonics for coherent optical links above 400G where loss and modulation bandwidth matter. ALD competes with MOCVD for conformal high-k deposition in 3D geometries. Novel material classes—2D materials (MoS₂, hBN), perovskites, diamond—are pre-commercial but threaten incumbent materials at specific performance nodes.
+
+| Approach | Strength | Weakness |
+|---|---|---|
+| SiC power | High voltage, mature fab | Cost, wafer size |
+| GaN-on-Si | CMOS-compatible, cost | Reliability at high voltage |
+| Silicon photonics | Ecosystem, scale | Modulator efficiency, laser integration |
+
+## Cloudberry relevance
+GlobalFoundries runs differentiated nodes (22FDX, 45RFSOI, SiGe BiCMOS) where materials IP is the moat—not geometry scaling. Cloudberry's deal-flow naturally surfaces companies needing process development partnerships or novel material integration. Startups building on III-V, wide-bandgap, or photonic platforms need fab access and process know-how; LP relationships with GF create a structural advantage in evaluating and de-risking those bets.
+
+## Companies using
+
+<!-- dataview block stripped for public site -->
+
+## Connected ideas
+
+<!-- dataview block stripped for public site -->
+
+## Sources
+
+<!-- dataview block stripped for public site -->
+
+## Frontier (open questions)
+
+- *To be added.*

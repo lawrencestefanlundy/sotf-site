@@ -1,0 +1,57 @@
+---
+import Base from "../../../layouts/Base.astro";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const concepts = await getCollection("concepts");
+  const pairs = new Set<string>();
+  for (const c of concepts) {
+    const [macro, meso] = c.id.split("/");
+    if (macro && meso) pairs.add(`${macro}/${meso}`);
+  }
+  return [...pairs].map((p) => {
+    const [macro, meso] = p.split("/");
+    return { params: { macro, meso } };
+  });
+}
+
+const { macro, meso } = Astro.params;
+const concepts = await getCollection("concepts");
+const inMeso = concepts.filter((c) => c.id.startsWith(`${macro}/${meso}/`));
+
+const MACRO_NAMES: Record<string, string> = {
+  "compute": "Compute",
+  "memory": "Memory",
+  "sensing": "Sensing",
+  "communications": "Communications",
+  "energy-power": "Energy & Power",
+  "manufacturing": "Manufacturing",
+  "materials": "Materials",
+  "photonic-systems": "Photonic Systems",
+  "life-frontier": "Life & Frontier",
+};
+const macroName = MACRO_NAMES[macro as string] ?? macro;
+const mesoName = (meso as string).replace(/-/g, " ");
+---
+
+<Base title={`${mesoName} · ${macroName}`}>
+  <div class="breadcrumb">
+    <a href="/">Now</a> &nbsp;/&nbsp; <a href={`/${macro}/`}>{macroName}</a> &nbsp;/&nbsp; {mesoName}
+  </div>
+  <h1>{mesoName}</h1>
+  <p><em>Synthesis pending. {inMeso.length} concepts in this cluster.</em></p>
+
+  <div class="grid-3" style="margin-top: 1.5rem;">
+    {inMeso.sort((a, b) => a.data.canonical_name.localeCompare(b.data.canonical_name)).map((c) => (
+      <a href={`/${c.id}/`} class="card">
+        <h2>{c.data.canonical_name}</h2>
+        {c.data.sources_30d > 0 && (
+          <div class="meta">+{c.data.sources_30d} sources in 30d</div>
+        )}
+        {c.data.frontier && c.data.frontier.length > 0 && (
+          <div class="meta">{c.data.frontier.length} open frontier{c.data.frontier.length > 1 ? "s" : ""}</div>
+        )}
+      </a>
+    ))}
+  </div>
+</Base>

@@ -1,0 +1,39 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description ?? "State of the Future — public KB"} />
+    <title>{title} · State of the Future</title>
+    <link rel="stylesheet" href="/styles/site.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav>
+        <a href="/" class="site-title">State of the Future</a>
+        <ul class="site-nav">
+          <li><a href="/">Now</a></li>
+          <li><a href="/concepts/">Concepts</a></li>
+          <li><a href="/tours/">Tours</a></li>
+          <li><a href="/writing/">Writing</a></li>
+          <li><a href="/atlas/">Atlas</a></li>
+          <li><a href="/about/">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <p>State of the Future — Lawrence Lundy-Bryan</p>
+    </footer>
+  </body>
+</html>

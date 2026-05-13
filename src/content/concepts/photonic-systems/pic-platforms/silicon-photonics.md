@@ -1,0 +1,91 @@
+---
+type: concept
+slug: silicon-photonics
+canonical_name: Silicon Photonics
+aliases: []
+kind: technology
+domain:
+- cloudberry
+- sotf
+parent_concepts:
+- photonic-systems
+- pic-platforms
+related_concepts: []
+companies_using:
+- ayar-labs
+- broadcom
+- cisco-acacia-communications
+- elenion-technologies-acquired-by-nokia
+- hyperlight
+- ii-vi-coherent-corp
+- imec
+- intel
+- ipronics
+- lightelligence
+- lionix-international
+- lumentum
+- luminous-computing
+- marvell-technology
+- photondelta
+- poet-technologies
+- ranovus
+- rockley-photonics
+- sicoya-hhi-fraunhofer
+- sicoya
+- siphox
+- teramount
+- tsmc
+- vlc-photonics
+- xanadu
+ideas_referencing: []
+sources: []
+frontier:
+- ''
+last_updated: '2026-05-04'
+tags:
+- concept
+- technology
+mention_count: 0
+last_reorg_date: '2026-05-13'
+sources_7d: 0
+sources_30d: 0
+---
+
+# Silicon Photonics
+
+*Kind: technology*
+
+## Physics / mechanism
+
+Silicon photonics integrates optical components—waveguides, modulators, photodetectors, multiplexers—onto silicon substrates using CMOS-compatible fab processes (typically 45 nm SOI or 300 mm wafers at GlobalFoundries, Intel, TSMC). Light is confined via total internal reflection in Si/SiO₂ waveguides (Δn ≈ 2). Key bottleneck: silicon's indirect bandgap forces hybrid III-V integration (InP, GaAs) or Ge for efficient lasing and detection. State-of-art transceivers hit 400 Gbps–1.6 Tbps per module; insertion loss <1 dB/cm waveguide propagation; modulator bandwidth >50 GHz (carrier-depletion Mach-Zehnder or ring resonator). Leading fabs: GlobalFoundries 45SPCLO, Intel Foundry, IMEC.
+
+## Competitive landscape
+
+InP photonic integrated circuits offer superior gain and native laser integration but are expensive, small-wafer (4"), and not CMOS-compatible. Lithium niobate on insulator (LNOI) delivers best-in-class modulator performance (Vπ <1 V, bandwidth >100 GHz) but lacks integration density. Polymer photonics suits low-cost sensing. Silicon nitride (Si₃N₄) fills low-loss, visible-wavelength, and nonlinear niches.
+
+## Cloudberry relevance
+
+| Platform | Laser integration | Loss | CMOS-compat |
+|---|---|---|---|
+| Silicon photonics | Hybrid/bonded | Medium | Yes |
+| InP PIC | Native | Low | No |
+| LNOI | Hybrid | Very low | Partial |
+
+
+GlobalFoundries' 45SPCLO node is a direct deal-flow lens—portfolio companies building datacenter optical I/O, LiDAR ASICs, quantum photonic chips, or optical compute interconnects are natural Cloudberry targets. Lunar Ventures' early-stage software/hardware crossover also surfaces SiPho-enabled sensing and compute startups. Key diligence lever: fab access and packaging (photonic wire bonding, 2.5D co-packaging) increasingly differentiates fundable teams from science projects.
+
+## Companies using
+
+<!-- dataview block stripped for public site -->
+
+## Connected ideas
+
+<!-- dataview block stripped for public site -->
+
+## Sources
+
+<!-- dataview block stripped for public site -->
+
+## Frontier (open questions)
+
+- *To be added.*

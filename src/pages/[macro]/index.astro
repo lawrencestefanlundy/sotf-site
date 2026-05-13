@@ -1,0 +1,52 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const concepts = await getCollection("concepts");
+  // Distinct macro slugs (first segment of concept.id)
+  const macros = new Set(concepts.map((c) => c.id.split("/")[0]));
+  return [...macros].map((m) => ({ params: { macro: m } }));
+}
+
+const { macro } = Astro.params;
+const concepts = await getCollection("concepts");
+const inMacro = concepts.filter((c) => c.id.startsWith(`${macro}/`));
+
+// Group by meso (second segment)
+const mesoMap = new Map<string, typeof inMacro>();
+for (const c of inMacro) {
+  const meso = c.id.split("/")[1];
+  if (!mesoMap.has(meso)) mesoMap.set(meso, []);
+  mesoMap.get(meso)!.push(c);
+}
+const mesos = [...mesoMap.entries()].sort((a, b) => a[0].localeCompare(b[0]));
+
+const MACRO_NAMES: Record<string, string> = {
+  "compute": "Compute",
+  "memory": "Memory",
+  "sensing": "Sensing",
+  "communications": "Communications",
+  "energy-power": "Energy & Power",
+  "manufacturing": "Manufacturing",
+  "materials": "Materials",
+  "photonic-systems": "Photonic Systems",
+  "life-frontier": "Life & Frontier",
+};
+const macroName = MACRO_NAMES[macro as string] ?? macro;
+---
+
+<Base title={macroName}>
+  <div class="breadcrumb"><a href="/">Now</a> &nbsp;/&nbsp; {macroName}</div>
+  <h1>{macroName}</h1>
+  <p>{inMacro.length} concepts across {mesos.length} clusters.</p>
+
+  <div class="grid-3" style="margin-top: 1.5rem;">
+    {mesos.map(([meso, items]) => (
+      <a href={`/${macro}/${meso}/`} class="card">
+        <h2>{meso.replace(/-/g, " ")}</h2>
+        <div class="meta">{items.length} concepts</div>
+      </a>
+    ))}
+  </div>
+</Base>

@@ -66,12 +66,12 @@ The MVM mechanism in either route is the same: weights map to per-cell capacitan
 | Approach | TOPS/W (demonstrated) | Precision | Manufacturing readiness | Endurance | Notes |
 |---|---|---|---|---|---|
 | **Memcapacitor (CapRAM-class)** | Targets 100+ | 4–6 bit native | Standard CMOS + 3D monolithic | High (charge-trapping) | Lead device-class for **Memcapacitor Compute Memory Bound Ai** thesis |
-| [RRAM / ReRAM](/memory/non-volatile-novel/rram-reram/) (analog) | 100+ | 4 bit effective | Custom integration | Limited (drift, endurance) | Mythic M1076; conductance variability is the binding constraint |
-| [Phase-Change Memory (PCM)](/memory/non-volatile-novel/pcm-phase-change-memory/) | 50–100 | 3-4 bit effective | IBM Almaden has it; commercial limited | Constrained by melt-cycle physics | Phase-change physics caps cycle count |
-| [MRAM (STT/SOT-MRAM)](/memory/non-volatile-novel/mram/) (analog) | 5–20 | Full digital | Production at GF, Samsung | High | Great cache; limited compute density |
+| [RRAM / ReRAM](/sotf-site/memory/non-volatile-novel/rram-reram/) (analog) | 100+ | 4 bit effective | Custom integration | Limited (drift, endurance) | Mythic M1076; conductance variability is the binding constraint |
+| [Phase-Change Memory (PCM)](/sotf-site/memory/non-volatile-novel/pcm-phase-change-memory/) | 50–100 | 3-4 bit effective | IBM Almaden has it; commercial limited | Constrained by melt-cycle physics | Phase-change physics caps cycle count |
+| [MRAM (STT/SOT-MRAM)](/sotf-site/memory/non-volatile-novel/mram/) (analog) | 5–20 | Full digital | Production at GF, Samsung | High | Great cache; limited compute density |
 | FeFET | Targets 50-100 | 4-6 bit | GF 22FDX-FeFET available; Sony research | Improving | Closest peer to memcapacitor; loses on 3D growth + 22FDX-only |
-| [SRAM](/memory/volatile/sram/) IMC (digital) | 10-50 | 8-bit native | Production-ready | High | Conservative baseline; EnCharge EN100 |
-| Near-memory ([HBM (High-Bandwidth Memory)](/memory/volatile/hbm/) + PIM) | 5-20 | Full | Production-ready | High | Samsung/SK Hynix PIM products; not array-level compute |
+| [SRAM](/sotf-site/memory/volatile/sram/) IMC (digital) | 10-50 | 8-bit native | Production-ready | High | Conservative baseline; EnCharge EN100 |
+| Near-memory ([HBM (High-Bandwidth Memory)](/sotf-site/memory/volatile/hbm/) + PIM) | 5-20 | Full | Production-ready | High | Samsung/SK Hynix PIM products; not array-level compute |
 
 **Why memcapacitor specifically beats the analog NVM peers.** Compared to RRAM/PCM, memcapacitor doesn't have the variability problem (capacitance modulation is more deterministic than conductance modulation in filamentary devices) or the endurance problem (charge-trapping at the standard CMOS interface is a mature physics). Compared to MRAM, it scales density via 3D rather than relying on lithography. Compared to FeFET — its closest peer on paper — memcapacitor's CapRAM realisation has a 3D monolithic growth path that FeFET hasn't demonstrated; FeFET also concentrates at GF 22FDX which is single-source.
 

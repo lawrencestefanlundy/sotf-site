@@ -29,11 +29,12 @@ const mesoBlurb = mesoEntry?.blurb;
 const sorted = [...inMeso].sort((a, b) =>
   a.data.canonical_name.localeCompare(b.data.canonical_name)
 );
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
 ---
 
 <Base title={`${mesoName} · ${macroName}`}>
   <div class="breadcrumb">
-    <a href="/">Now</a> &nbsp;/&nbsp; <a href={`/${macro}/`}>{macroName}</a> &nbsp;/&nbsp; {mesoName}
+    <a href={`${BASE}/`}>Now</a> &nbsp;/&nbsp; <a href={`${BASE}/${macro}/`}>{macroName}</a> &nbsp;/&nbsp; {mesoName}
   </div>
   <section class="hero">
     <h1>{mesoName}</h1>
@@ -44,7 +45,7 @@ const sorted = [...inMeso].sort((a, b) =>
   <section>
     <div class="grid-3">
       {sorted.map((c) => (
-        <a href={`/${c.id}/`} class="card">
+        <a href={`${BASE}/${c.id}/`} class="card">
           <h2>{c.data.canonical_name}</h2>
           {c.data.sources_30d > 0 && (
             <div class="meta">+{c.data.sources_30d} sources in 30d</div>

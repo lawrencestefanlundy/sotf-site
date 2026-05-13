@@ -43,13 +43,14 @@ for (const rel of concept.data.related_concepts ?? []) {
   const otherMacro = slugToMacro.get(rel);
   if (otherMacro && otherMacro !== macro) crossCutMacros.add(otherMacro);
 }
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
 ---
 
 <Base title={concept.data.canonical_name}>
   <div class="breadcrumb">
-    <a href="/">Now</a> &nbsp;/&nbsp;
-    <a href={`/${macro}/`}>{macroName}</a> &nbsp;/&nbsp;
-    <a href={`/${macro}/${meso}/`}>{mesoName}</a> &nbsp;/&nbsp;
+    <a href={`${BASE}/`}>Now</a> &nbsp;/&nbsp;
+    <a href={`${BASE}/${macro}/`}>{macroName}</a> &nbsp;/&nbsp;
+    <a href={`${BASE}/${macro}/${meso}/`}>{mesoName}</a> &nbsp;/&nbsp;
     {concept.data.canonical_name}
   </div>
 
@@ -59,7 +60,7 @@ for (const rel of concept.data.related_concepts ?? []) {
     <div class="crosscuts">
       <strong>Cross-cuts:</strong>
       {[...crossCutMacros].map((m) => (
-        <a class="pill" href={`/${m}/`}>{MACRO_NAMES[m] ?? m}</a>
+        <a class="pill" href={`${BASE}/${m}/`}>{MACRO_NAMES[m] ?? m}</a>
       ))}
     </div>
   )}
@@ -85,7 +86,7 @@ for (const rel of concept.data.related_concepts ?? []) {
             const other = allConcepts.find((c) => c.data.slug === rel);
             return (
               <li>
-                <a href={`/${other?.id}/`}>{other?.data.canonical_name ?? rel.replace(/-/g, " ")}</a>
+                <a href={`${BASE}/${other?.id}/`}>{other?.data.canonical_name ?? rel.replace(/-/g, " ")}</a>
                 {otherMacro !== macro && (
                   <span class="meta"> &nbsp;{MACRO_NAMES[otherMacro] ?? otherMacro}</span>
                 )}

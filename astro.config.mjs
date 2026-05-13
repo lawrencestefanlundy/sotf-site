@@ -3,10 +3,12 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-  // Set to stateofthefuture.io once DNS is cut. For now the GH Pages default
-  // works at https://lawrencestefanlundy.github.io/sotf-site/ — but we don't
-  // want the /sotf-site/ base because we'll cut the domain straight to it.
-  site: 'https://stateofthefuture.io',
+  // Preview lives at https://lawrencestefanlundy.github.io/sotf-site/ until DNS
+  // is cut to stateofthefuture.io. Toggling `base` so internal links resolve
+  // under the /sotf-site/ subpath. After DNS cutover: remove `base`, change
+  // `site` to https://stateofthefuture.io, restore public/CNAME, rebuild.
+  site: 'https://lawrencestefanlundy.github.io',
+  base: '/sotf-site',
 
   prefetch: {
     prefetchAll: true,

@@ -35,7 +35,7 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 1
 ---
-*Architecture class within [ONNs](/photonic-systems/photonic-compute/optical-neural-networks/).*
+*Architecture class within [ONNs](/sotf-site/photonic-systems/photonic-compute/optical-neural-networks/).*
 
 ## Physics / mechanism
 
@@ -67,7 +67,7 @@ sources_30d: 1
 
 ## Why this matters now (2026)
 
-The D2NN architecture has been a research curiosity for ~8 years. The bet **Coherix** makes (2026 spinout from **Envisics**) is that **(a) reconfigurable SLM-driven D2NNs with a production-grade [SLM](/photonic-systems/modulators-detectors/spatial-light-modulators/) hardware base are now commercialisable**, and **(b) the energy story (data movement is free in light propagation) wins on energy/inference at deployable form factors**. The "telecoms-grade holographic SLM" claim is the load-bearing IP, inherited from **Envisics**'s holographic-display lineage.
+The D2NN architecture has been a research curiosity for ~8 years. The bet **Coherix** makes (2026 spinout from **Envisics**) is that **(a) reconfigurable SLM-driven D2NNs with a production-grade [SLM](/sotf-site/photonic-systems/modulators-detectors/spatial-light-modulators/) hardware base are now commercialisable**, and **(b) the energy story (data movement is free in light propagation) wins on energy/inference at deployable form factors**. The "telecoms-grade holographic SLM" claim is the load-bearing IP, inherited from **Envisics**'s holographic-display lineage.
 
 Open question: most demonstrated D2NN benchmarks are CNN-shaped (image classification, denoising). Transformer matmul (where most current AI inference cycles go) maps less obviously. The Coherix deck includes ODE solving and time-series, which suggests they may be pitching a workload-class beachhead away from transformers.
 

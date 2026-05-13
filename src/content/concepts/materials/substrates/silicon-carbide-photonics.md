@@ -47,8 +47,8 @@ The materials-processing path is unique among emerging photonic platforms: SiC h
 Lab demonstrators only as of 2026. Commercial production: zero foundries. Active research: Marko Lončar group (Harvard), HRL Labs (US), Princeton (Englund/Awschalom-derived programmes), Linköping University (Sweden, the SiC PIC pioneer). Best-demonstrated waveguide loss ~1–2 dB/cm for 4H-SiC-on-insulator; the trajectory is comparable to where TFLN was in 2018–2019.
 
 Closest peers:
-- [Diamond](/materials/substrates/diamond/) for quantum (NV centres) — even better quantum coherence but worse manufacturing path
-- [Silicon Nitride](/materials/substrates/silicon-nitride/) for low-loss visible — much more mature but no native quantum emitters
+- [Diamond](/sotf-site/materials/substrates/diamond/) for quantum (NV centres) — even better quantum coherence but worse manufacturing path
+- [Silicon Nitride](/sotf-site/materials/substrates/silicon-nitride/) for low-loss visible — much more mature but no native quantum emitters
 - **Gallium Nitride** for wide-bandgap photonics — different application focus
 
 ## Frontier (open questions)

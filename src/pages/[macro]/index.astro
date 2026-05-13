@@ -27,10 +27,11 @@ const mesos = mesosForMacro(macro as string)
     ...m,
     count: inMacro.filter((c) => c.id.startsWith(`${macro}/${m.slug}/`)).length,
   }));
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
 ---
 
 <Base title={macroName}>
-  <div class="breadcrumb"><a href="/">Now</a> &nbsp;/&nbsp; {macroName}</div>
+  <div class="breadcrumb"><a href={`${BASE}/`}>Now</a> &nbsp;/&nbsp; {macroName}</div>
   <section class="hero">
     <h1>{macroName}</h1>
     {macroBlurb && <p>{macroBlurb}</p>}
@@ -40,7 +41,7 @@ const mesos = mesosForMacro(macro as string)
   <section>
     <div class="grid-3">
       {mesos.map((m) => (
-        <a href={`/${macro}/${m.slug}/`} class="card">
+        <a href={`${BASE}/${macro}/${m.slug}/`} class="card">
           <h2>{m.name}</h2>
           <div class="meta">{m.count} concept{m.count === 1 ? "" : "s"}</div>
           <p>{m.blurb}</p>

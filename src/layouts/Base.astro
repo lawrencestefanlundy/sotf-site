@@ -6,6 +6,7 @@ interface Props {
   description?: string;
 }
 const { title, description } = Astro.props;
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
 ---
 
 <!doctype html>
@@ -24,14 +25,14 @@ const { title, description } = Astro.props;
   <body>
     <header class="site-header">
       <nav>
-        <a href="/" class="site-title">State of the Future</a>
+        <a href={`${BASE}/`} class="site-title">State of the Future</a>
         <ul class="site-nav">
-          <li><a href="/">Now</a></li>
-          <li><a href="/tours/">Tours</a></li>
-          <li><a href="/writing/">Writing</a></li>
-          <li><a href="/atlas/">Atlas</a></li>
-          <li><a href="/search/">Search</a></li>
-          <li><a href="/about/">About</a></li>
+          <li><a href={`${BASE}/`}>Now</a></li>
+          <li><a href={`${BASE}/tours/`}>Tours</a></li>
+          <li><a href={`${BASE}/writing/`}>Writing</a></li>
+          <li><a href={`${BASE}/atlas/`}>Atlas</a></li>
+          <li><a href={`${BASE}/search/`}>Search</a></li>
+          <li><a href={`${BASE}/about/`}>About</a></li>
         </ul>
       </nav>
     </header>

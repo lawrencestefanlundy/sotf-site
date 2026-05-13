@@ -8,6 +8,7 @@ const concepts = await getCollection("concepts");
 function countForMacro(slug: string): number {
   return concepts.filter((c) => c.id.startsWith(`${slug}/`)).length;
 }
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
 ---
 
 <Base title="Now" description="Lawrence Lundy-Bryan — deep-tech reference">
@@ -19,7 +20,7 @@ function countForMacro(slug: string): number {
   <section>
     <div class="grid-3">
       {MACROS.map((m) => (
-        <a href={`/${m.slug}/`} class="card">
+        <a href={`${BASE}/${m.slug}/`} class="card">
           <h2>{m.name}</h2>
           <div class="meta">{countForMacro(m.slug)} concepts</div>
           <p>{m.blurb}</p>

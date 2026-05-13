@@ -46,7 +46,7 @@ Most of these are positioned for terrestrial AI/data-centre markets first, but t
 
 ## Adjacent themes
 
-- **[Lunar Teleoperation](/life-frontier/space/lunar-teleoperation/)** — operating teleoperated systems on the Moon needs lunar-grade compute + sensors.
+- **[Lunar Teleoperation](/sotf-site/life-frontier/space/lunar-teleoperation/)** — operating teleoperated systems on the Moon needs lunar-grade compute + sensors.
 - **EU space sovereignty** — IPCEI funds for European space-grade manufacturing.
 
 ## Frontier

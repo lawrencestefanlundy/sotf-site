@@ -37,7 +37,7 @@ last_reorg_date: '2026-05-13'
 sources_7d: 1
 sources_30d: 1
 ---
-*child of [Metasurfaces & Flat Optics](/photonic-systems/metasurfaces/metasurfaces-flat-optics/)*
+*child of [Metasurfaces & Flat Optics](/sotf-site/photonic-systems/metasurfaces/metasurfaces-flat-optics/)*
 
 ## Physics / mechanism
 

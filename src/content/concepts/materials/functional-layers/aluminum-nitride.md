@@ -48,7 +48,7 @@ CMOS-fab compatibility is decent: AlN deposits via sputtering at moderate temper
 
 AlN photonic waveguides have been demonstrated since 2012 (Yale group, IBM Zurich). Best loss ~0.5–1 dB/cm. Commercial photonic platforms: none yet. RF/MEMS commercial: Soitec (POI substrates), Skyworks, Qorvo, Broadcom for FBARs.
 
-ScAlN (scandium-doped AlN) has emerged as the higher-performance variant — adding Sc increases piezoelectric and electro-optic coefficients 5–10× over pure AlN. ScAlN also exhibits ferroelectricity at certain compositions, opening additional functionality. See [Scandium Aluminum Nitride (ScAlN)](/materials/functional-layers/scandium-aluminum-nitride/).
+ScAlN (scandium-doped AlN) has emerged as the higher-performance variant — adding Sc increases piezoelectric and electro-optic coefficients 5–10× over pure AlN. ScAlN also exhibits ferroelectricity at certain compositions, opening additional functionality. See [Scandium Aluminum Nitride (ScAlN)](/sotf-site/materials/functional-layers/scandium-aluminum-nitride/).
 
 ## Frontier (open questions)
 

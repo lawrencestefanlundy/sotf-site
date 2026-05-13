@@ -36,6 +36,11 @@ SITE = Path.home() / "projects" / "sotf-site"
 OUT = SITE / "src" / "content" / "concepts"
 BACK_REFS = KB / "scripts" / "back_refs.json"
 
+# Base path the site is served from. Matches the `base` in astro.config.mjs.
+# Reads from SOTF_BASE env var so the build + nightly cron can swap between
+# "/sotf-site" (GitHub Pages subpath preview) and "" (apex once DNS is cut).
+BASE_PATH = os.environ.get("SOTF_BASE", "/sotf-site").rstrip("/")
+
 # Macros that are public (frameworks + markets stay private — internal lenses)
 PUBLIC_MACROS = {
     "compute", "memory", "sensing", "communications", "energy-power",
@@ -388,7 +393,7 @@ def strip_private_wikilinks(body: str) -> str:
 
         if slug in slug_paths:
             label = display or canonical.get(slug) or slug.replace("-", " ").title()
-            return f"[{label}](/{slug_paths[slug]}/)"
+            return f"[{label}]({BASE_PATH}/{slug_paths[slug]}/)"
         # Private — render display or de-slugged name as plain bold
         label = display or slug.replace("-", " ").title()
         return f"**{label}**"

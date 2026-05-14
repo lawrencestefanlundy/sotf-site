@@ -16,12 +16,7 @@ tags:
 - concept
 - technology
 mention_count: 0
-descendants:
-- electric-propulsion
-- in-space-propulsion
-- nuclear-thermal-propulsion
-- reusable-launch
-- space-propulsion
+descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0

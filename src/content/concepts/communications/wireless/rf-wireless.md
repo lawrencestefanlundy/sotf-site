@@ -16,25 +16,10 @@ tags:
 - concept
 - technology
 mention_count: 44
-descendants:
-- 5g-nr-advanced
-- beamforming-ics
-- communications
-- communications-equipment
-- dect-nr
-- direct-to-cell-leo
-- leo-mega-constellations
-- mmwave
-- networking-wireless
-- optical-inter-satellite-links
-- phased-array-antennas
-- software-defined-radio
-- space-communications
-- sub-thz-6g
-- timing-clock-generation
+descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 2
+sources_30d: 1
 ---
 ## Physics / mechanism
 

@@ -17,6 +17,23 @@ tags:
 - technology
 mention_count: 5
 last_reorg_date: '2026-05-13'
+descendants:
+- beccs
+- carbon
+- ccus
+- closed-loop-geothermal
+- deep-geothermal
+- direct-air-capture
+- fusion
+- fusion-frc
+- fusion-inertial-confinement
+- fusion-magnetic-confinement
+- fusion-stellarators
+- fusion-z-pinch
+- geothermal
+- mineralisation
+- ocean-alkalinity
+- wave-tidal
 sources_7d: 0
 sources_30d: 0
 ---

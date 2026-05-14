@@ -24,14 +24,7 @@ tags:
 - concept
 - framework
 mention_count: 12
-descendants:
-- ai-accelerator-ip
-- edge-ai
-- edge-ai-infra
-- iot-connected-devices
-- iot-embedded
-- on-device-llm-inference
-- tinyml
+descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 1
 sources_30d: 2

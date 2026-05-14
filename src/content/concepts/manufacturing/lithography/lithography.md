@@ -35,10 +35,12 @@ descendants:
 - e-beam-lithography
 - euv-light-sources
 - high-na-euv-lithography
+- lithography
 - lithography-tools
 - mask-blank-manufacturing
 - maskless-lithography
 - nanoimprint-lithography
+- photonic-manufacturing
 - photoresists
 - two-photon-polymerization
 - xolography

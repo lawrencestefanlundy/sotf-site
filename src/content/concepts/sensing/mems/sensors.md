@@ -36,7 +36,7 @@ tags:
 - technology
 mention_count: 118
 last_reorg_date: '2026-05-13'
-sources_7d: 8
+sources_7d: 6
 sources_30d: 20
 ---
 ## Physics / mechanism

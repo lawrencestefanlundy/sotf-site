@@ -7,7 +7,7 @@ aliases:
 kind: material
 parent_concepts:
 - energy-power
-- thermal-management
+- ai-thermal-management
 related_concepts: []
 sources:
 - '[[2024-yole-thermal-management-2024]]'

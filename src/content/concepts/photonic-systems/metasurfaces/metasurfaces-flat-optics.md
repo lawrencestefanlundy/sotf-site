@@ -9,7 +9,7 @@ aliases:
 kind: technology
 parent_concepts:
 - photonic-systems
-- metasurfaces
+- metasurfaces-flat-optics
 related_concepts:
 - metalens
 - metamaterials
@@ -18,6 +18,9 @@ related_concepts:
 - e-beam-lithography
 descendants:
 - metalens
+- metamaterials
+- metasurfaces-flat-optics
+- wafer-level-optics
 sources: []
 frontier:
 - ''

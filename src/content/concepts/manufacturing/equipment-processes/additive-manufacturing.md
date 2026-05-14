@@ -23,15 +23,7 @@ tags:
 - concept
 - technology
 mention_count: 29
-descendants:
-- biophotonics
-- diamond-turning
-- ion-beam-figuring
-- metalens
-- metamaterials
-- metasurfaces-flat-optics
-- photonic-manufacturing
-- wafer-level-optics
+descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 1

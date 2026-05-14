@@ -20,13 +20,7 @@ tags:
 - concept
 - technology
 mention_count: 5
-descendants:
-- atomic-clocks
-- nv-diamond-sensing
-- quantum-gravimetry
-- quantum-imaging
-- quantum-magnetometry
-- quantum-sensing
+descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 1
 sources_30d: 2

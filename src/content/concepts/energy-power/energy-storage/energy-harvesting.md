@@ -17,22 +17,7 @@ tags:
 - concept
 - technology
 mention_count: 14
-descendants:
-- batteries-energy-storage
-- energy-generation
-- energy-harvesting
-- energy-materials
-- energy-power
-- flow-batteries
-- lithium-sulphur-batteries
-- pem-electrolysers
-- perovskite-solar
-- renewable-electricity
-- sodium-ion-batteries
-- solar-photovoltaic
-- solid-oxide-fuel-cells
-- solid-state-batteries
-- tandem-solar-cells
+descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 2

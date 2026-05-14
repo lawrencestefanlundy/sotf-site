@@ -16,14 +16,7 @@ tags:
 - concept
 - category
 mention_count: 0
-descendants:
-- ai-accelerator-ip
-- edge-ai
-- edge-ai-infra
-- iot-connected-devices
-- iot-embedded
-- on-device-llm-inference
-- tinyml
+descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0

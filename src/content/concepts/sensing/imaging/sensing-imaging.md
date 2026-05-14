@@ -16,20 +16,7 @@ tags:
 - concept
 - technology
 mention_count: 116
-descendants:
-- cmos-image-sensors
-- event-based-vision
-- hyperspectral-sensing
-- imaging-vision
-- ingaas-swir-sensors
-- lidar
-- mems
-- microbolometer-thermal-ir
-- mmwave-radar
-- sensors
-- spad-arrays
-- spectral-sensing
-- time-of-flight
+descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0

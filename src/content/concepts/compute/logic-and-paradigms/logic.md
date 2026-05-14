@@ -17,17 +17,7 @@ tags:
 - concept
 - technology
 mention_count: 74
-descendants:
-- ai-accelerator
-- backside-power-delivery
-- cfet
-- chiplets
-- cpu-soc
-- cryo-cmos
-- fd-soi
-- gaa-nanosheet
-- risc-v
-- ucie
+descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0

@@ -7,7 +7,7 @@ aliases:
 kind: material
 parent_concepts:
 - energy-power
-- thermal-management
+- ai-thermal-management
 related_concepts: []
 sources: []
 frontier:

@@ -16,10 +16,7 @@ tags:
 - concept
 - technology
 mention_count: 0
-descendants:
-- compressed-air-energy-storage
-- gravity-thermal-storage
-- long-duration-storage
+descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0

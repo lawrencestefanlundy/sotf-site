@@ -16,12 +16,7 @@ tags:
 - concept
 - category
 mention_count: 0
-descendants:
-- 3d-printed-bioscaffolds
-- biocompatible-polymers
-- drug-delivery-substrates
-- hydrogels
-- polyoxazoline-bioink
+descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0

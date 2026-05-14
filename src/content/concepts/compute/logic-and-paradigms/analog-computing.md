@@ -25,8 +25,7 @@ tags:
 - concept
 - technology
 mention_count: 11
-descendants:
-- memcapacitor
+descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0

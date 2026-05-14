@@ -16,13 +16,7 @@ tags:
 - concept
 - category
 mention_count: 0
-descendants:
-- electric-motors-drives
-- gan-on-si
-- power-electronics
-- power-management-ic
-- solid-state-circuit-breakers
-- wireless-power-transfer
+descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0

@@ -6,7 +6,7 @@ aliases: []
 kind: technology
 parent_concepts:
 - photonic-systems
-- metasurfaces
+- metasurfaces-flat-optics
 related_concepts: []
 sources: []
 frontier:

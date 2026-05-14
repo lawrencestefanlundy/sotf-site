@@ -27,9 +27,12 @@ tags:
 mention_count: 16
 descendants:
 - diffractive-deep-neural-networks
-- spatial-light-modulators
+- optical-neural-networks
+- photonic-compute
+- photonic-compute-memory
+- photonic-tensor-cores
 last_reorg_date: '2026-05-13'
-sources_7d: 2
+sources_7d: 1
 sources_30d: 3
 ---
 ## Physics / mechanism

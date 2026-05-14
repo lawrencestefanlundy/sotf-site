@@ -16,13 +16,7 @@ tags:
 - concept
 - category
 mention_count: 0
-descendants:
-- ai-grade-datacentre-real-estate
-- ai-machine-learning
-- dark-fibre-submarine-cables
-- datacentre-cloud-infrastructure
-- gw-scale-power-delivery
-- liquid-cooling-datacentre
+descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0

@@ -6,7 +6,7 @@ aliases: []
 kind: technology
 parent_concepts:
 - energy-power
-- thermal-management
+- ai-thermal-management
 related_concepts: []
 sources:
 - '[[2024-10-29-deploy-intelligence-too-cheap-to]]'

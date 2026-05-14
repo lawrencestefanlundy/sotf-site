@@ -16,12 +16,7 @@ tags:
 - concept
 - material
 mention_count: 0
-descendants:
-- anti-reflection-coatings
-- coatings
-- diffusion-barriers
-- hydrophobic-oleophobic-coatings
-- optical-coatings
+descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0

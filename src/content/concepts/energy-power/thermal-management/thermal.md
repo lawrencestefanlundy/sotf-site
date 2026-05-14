@@ -6,7 +6,7 @@ aliases: []
 kind: category
 parent_concepts:
 - energy-power
-- thermal-management
+- ai-thermal-management
 related_concepts: []
 sources: []
 frontier:
@@ -16,17 +16,7 @@ tags:
 - concept
 - category
 mention_count: 0
-descendants:
-- ceramics-composites
-- diamond-heat-spreader
-- graphene-thermal-films
-- heat-pipes
-- liquid-cooling
-- phase-change-materials
-- thermal-interface-materials
-- thermal-management
-- thermoelectric
-- vapor-chambers
+descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0

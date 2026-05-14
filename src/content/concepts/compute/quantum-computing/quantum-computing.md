@@ -36,15 +36,21 @@ tags:
 mention_count: 88
 descendants:
 - bosonic-cat-qubits
+- cryogenic-control-electronics
 - neutral-atom-qubits
 - nv-diamond-spin-qubits
+- photonic-quantum
 - photonic-quantum-computing
+- quantum-compilers
+- quantum-computing
+- quantum-error-correction
+- quantum-software
 - silicon-spin-qubits
 - superconducting-qubits
 - topological-qubits
 - trapped-ion
 last_reorg_date: '2026-05-13'
-sources_7d: 12
+sources_7d: 10
 sources_30d: 41
 ---
 ## Physics / mechanism

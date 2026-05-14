@@ -16,11 +16,7 @@ tags:
 - concept
 - category
 mention_count: 0
-descendants:
-- aerospace-defense
-- rad-hard-ics
-- space-grade-fpgas
-- space-hardware-substrates
+descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0

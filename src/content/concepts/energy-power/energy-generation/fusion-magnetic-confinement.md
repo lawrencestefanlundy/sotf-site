@@ -16,13 +16,7 @@ tags:
 - concept
 - technology
 mention_count: 0
-descendants:
-- fusion
-- fusion-frc
-- fusion-inertial-confinement
-- fusion-magnetic-confinement
-- fusion-stellarators
-- fusion-z-pinch
+descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0

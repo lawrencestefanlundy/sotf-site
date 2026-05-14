@@ -24,6 +24,7 @@ descendants:
 - fowlp
 - glass-interposers
 - hybrid-bonding
+- packaging
 - photonic-wire-bonding
 - substrate-bt-abf
 - tsv-through-silicon-via

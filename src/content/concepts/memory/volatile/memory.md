@@ -58,6 +58,7 @@ descendants:
 - hbm
 - in-memory-computing
 - memcapacitor
+- memory
 - mram
 - nand-flash
 - pcm-phase-change-memory
@@ -66,8 +67,8 @@ descendants:
 - sram
 - storage-class-memory
 last_reorg_date: '2026-05-13'
-sources_7d: 15
-sources_30d: 46
+sources_7d: 12
+sources_30d: 45
 ---
 ## Physics / mechanism
 

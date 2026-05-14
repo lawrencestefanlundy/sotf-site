@@ -24,6 +24,15 @@ tags:
 - technology
 mention_count: 26
 last_reorg_date: '2026-05-13'
+descendants:
+- electric-motors-drives
+- gan-on-si
+- gw-scale-power-delivery
+- power
+- power-electronics
+- power-management-ic
+- solid-state-circuit-breakers
+- wireless-power-transfer
 sources_7d: 3
 sources_30d: 4
 ---

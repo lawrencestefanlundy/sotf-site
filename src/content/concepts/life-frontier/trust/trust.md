@@ -24,8 +24,8 @@ descendants:
 - homomorphic-encryption
 - multi-party-computation
 - security-cyber
-- sovereign-ai
 - tee
+- trust
 - zero-knowledge-proofs
 last_reorg_date: '2026-05-13'
 sources_7d: 0

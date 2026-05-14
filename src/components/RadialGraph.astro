@@ -1,0 +1,135 @@
+---
+/**
+ * Per-page radial neighborhood graph.
+ * Renders a hub-and-spoke SVG: current concept in centre, related concepts on a ring.
+ * Inspired by Visualizing SEP — hierarchy + overlay graph.
+ *
+ * Pure SVG (no JS dependency for the picture itself — links are <a>).
+ * Caps at ~12 neighbours visible; if more, fall back to a compact list.
+ */
+type Neighbor = {
+  slug: string;
+  name: string;
+  path: string;
+  macro: string;
+};
+
+interface Props {
+  centre: string;
+  neighbors: Neighbor[];
+}
+const { centre, neighbors } = Astro.props;
+
+const visible = neighbors.slice(0, 12);
+const n = visible.length;
+
+// Macro → accent colour (slate variants — single teal for centre)
+const MACRO_FILLS: Record<string, string> = {
+  "compute":          "#1e293b",
+  "memory":           "#334155",
+  "sensing":          "#475569",
+  "communications":   "#0f766e",
+  "energy-power":     "#57534e",
+  "manufacturing":    "#292524",
+  "materials":        "#78716c",
+  "photonic-systems": "#0f172a",
+  "life-frontier":    "#3f3f46",
+};
+
+// Geometry — laid out on a circle
+const cx = 220;
+const cy = 200;
+const r = 140;            // node ring radius
+const centreR = 26;       // centre dot radius
+const nodeR = 6;          // neighbour dot radius
+
+function pointOnRing(i: number): { x: number; y: number; angle: number } {
+  // Start at top (−90°), distribute clockwise
+  const angle = -Math.PI / 2 + (i / n) * 2 * Math.PI;
+  return { x: cx + r * Math.cos(angle), y: cy + r * Math.sin(angle), angle };
+}
+---
+
+{visible.length > 0 && (
+  <figure class="radial-graph">
+    <svg viewBox="0 0 440 400" role="img" aria-label={`Concept neighborhood for ${centre}`}>
+      {/* Spokes — drawn first so they sit under the nodes */}
+      {visible.map((_, i) => {
+        const p = pointOnRing(i);
+        return <line x1={cx} y1={cy} x2={p.x} y2={p.y} stroke="#1212121f" stroke-width="1" />;
+      })}
+
+      {/* Neighbour nodes — each is a clickable <a> with a <circle> + label */}
+      {visible.map((node, i) => {
+        const p = pointOnRing(i);
+        // Label position: pulled outward, anchored based on side of circle
+        const labelOffset = 14;
+        const lx = cx + (r + labelOffset) * Math.cos(p.angle);
+        const ly = cy + (r + labelOffset) * Math.sin(p.angle);
+        const anchor = Math.cos(p.angle) < -0.3 ? "end" : Math.cos(p.angle) > 0.3 ? "start" : "middle";
+        const baseline = Math.sin(p.angle) > 0.5 ? "hanging" : Math.sin(p.angle) < -0.5 ? "auto" : "middle";
+        return (
+          <a href={node.path}>
+            <circle cx={p.x} cy={p.y} r={nodeR} fill={MACRO_FILLS[node.macro] ?? "#334155"} />
+            <text x={lx} y={ly} text-anchor={anchor} dominant-baseline={baseline}>
+              {node.name}
+            </text>
+          </a>
+        );
+      })}
+
+      {/* Centre node — current concept */}
+      <circle cx={cx} cy={cy} r={centreR} fill="#073429" />
+      <text x={cx} y={cy} text-anchor="middle" dominant-baseline="middle" class="centre-label">
+        {centre.length > 12 ? centre.slice(0, 11) + "…" : centre}
+      </text>
+    </svg>
+    {neighbors.length > visible.length && (
+      <figcaption class="meta">
+        Showing {visible.length} of {neighbors.length} neighbours.
+      </figcaption>
+    )}
+  </figure>
+)}
+
+<style>
+  .radial-graph {
+    margin: 0 0 1.5rem;
+    padding: 0.5rem 0 0.25rem;
+    background: #fff0ea;
+    border: 1px solid #1212121f;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+  .radial-graph svg {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+  .radial-graph svg text {
+    font-family: "JetBrains Mono", ui-monospace, monospace;
+    font-size: 10px;
+    fill: #121212cc;
+  }
+  .radial-graph svg .centre-label {
+    fill: #fff7f4;
+    font-size: 9px;
+    letter-spacing: 0;
+  }
+  .radial-graph svg a circle {
+    transition: r 0.12s, fill 0.12s;
+  }
+  .radial-graph svg a:hover circle {
+    r: 9;
+    fill: #073429;
+  }
+  .radial-graph svg a:hover text {
+    fill: #073429;
+    font-weight: 500;
+  }
+  .radial-graph figcaption {
+    padding: 0.35rem 0.75rem;
+    border-top: 1px solid #1212121f;
+  }
+</style>

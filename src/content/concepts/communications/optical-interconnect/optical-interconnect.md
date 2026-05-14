@@ -26,6 +26,28 @@ descendants:
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 2
+recent_mentions:
+- slug: 2026-02-02-photonic-engines-for-data-centers
+  title: Photonic "Engines" for Data Centers
+  date: '2026-02-02'
+  kind: substack
+- slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
+  title: Carbon Nanotubes in the Datacentre
+  date: '2025-11-25'
+  kind: substack
+- slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
+  title: 'UK Opportunity in AI: Compound Semiconductors'
+  date: '2025-09-10'
+  kind: substack
+- slug: 2025-04-16-the-state-of-photonic-computing
+  title: 'Photonic Computing: A Primer'
+  date: '2025-04-16'
+  kind: substack
+- slug: 2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth
+  title: '🔮E14: The Real AI Bottleneck: High Bandwidth Memory (HBM)'
+  date: '2023-09-08'
+  kind: substack
+neighbors: []
 ---
 ## Physics / mechanism
 

@@ -29,6 +29,40 @@ mention_count: 50
 last_reorg_date: '2026-05-13'
 sources_7d: 5
 sources_30d: 14
+recent_mentions:
+- slug: 2026-04-15-any-color-you-like-nist-scientists-create-any-wavelength-las
+  title: 'Any Color You Like: NIST Scientists Create ‘Any Wavelength’ Lasers in Tiny Circuits for Light'
+  date: '2026-04-15'
+  kind: web
+- slug: 2026-02-12-how-to-invest-in-ai-sovereignty-sovereign
+  title: How to Invest in AI Sovereignty — Sovereign Albion w/ Andrew Bennett
+  date: '2026-02-12'
+  kind: substack
+- slug: 2026-02-02-photonic-engines-for-data-centers
+  title: Photonic "Engines" for Data Centers
+  date: '2026-02-02'
+  kind: substack
+- slug: 2025-12-19-lfg-for-semiconductors
+  title: LFG (for semiconductors)
+  date: '2025-12-19'
+  kind: substack
+- slug: 2025-12-09-gallium-nitride-photonics-w-james
+  title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
+  date: '2025-12-09'
+  kind: substack
+- slug: 2025-12-02-the-future-of-computing-is-glass
+  title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
+  date: '2025-12-02'
+  kind: substack
+- slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
+  title: 'UK Opportunity in AI: Compound Semiconductors'
+  date: '2025-09-10'
+  kind: substack
+- slug: 2025-07-01-a-primer-carbon-nanotubes
+  title: 'A Primer: Carbon Nanotubes'
+  date: '2025-07-01'
+  kind: substack
+neighbors: []
 ---
 ## Physics / mechanism
 

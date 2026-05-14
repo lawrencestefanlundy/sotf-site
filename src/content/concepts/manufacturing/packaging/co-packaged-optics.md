@@ -30,6 +30,40 @@ mention_count: 24
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 5
+recent_mentions:
+- slug: 2026-05-02-cpo-market-to-grow-at-37-cagr-semiconductor-today
+  title: CPO market to grow at 37% CAGR (Semiconductor Today)
+  date: '2026-05-02'
+  kind: web
+- slug: 2026-05-02-co-packaged-optics-2026-2036-idtechex
+  title: Co-Packaged Optics 2026-2036 (IDTechEx)
+  date: '2026-05-02'
+  kind: web
+- slug: 2026-05-02-cpo-market-and-tech-update-cignal-ai-feb-2025
+  title: CPO market and tech update (Cignal AI, Feb 2025)
+  date: '2026-05-02'
+  kind: web
+- slug: 2026-05-02-cpo-book-semianalysis
+  title: CPO Book (SemiAnalysis)
+  date: '2026-05-02'
+  kind: web
+- slug: 2026-02-02-photonic-engines-for-data-centers
+  title: Photonic "Engines" for Data Centers
+  date: '2026-02-02'
+  kind: substack
+- slug: 2025-12-02-the-future-of-computing-is-glass
+  title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
+  date: '2025-12-02'
+  kind: substack
+- slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
+  title: Carbon Nanotubes in the Datacentre
+  date: '2025-11-25'
+  kind: substack
+- slug: 2025-04-16-the-state-of-photonic-computing
+  title: 'Photonic Computing: A Primer'
+  date: '2025-04-16'
+  kind: substack
+neighbors: []
 ---
 ## Physics / mechanism
 

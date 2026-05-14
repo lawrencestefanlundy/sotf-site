@@ -1,0 +1,68 @@
+---
+import Base from "../layouts/Base.astro";
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
+---
+
+<Base title="About" description="About State of the Future">
+  <div class="breadcrumb"><a href={`${BASE}/`}>Now</a> &nbsp;/&nbsp; About</div>
+  <section class="hero">
+    <h1>About</h1>
+    <p>
+      State of the Future is Lawrence Lundy-Bryan's public reference layer on deep tech &mdash; the
+      technology graph he tracks across Cloudberry VC (where he's a GP), the State of the Future
+      Substack, Lunar Ventures (where he's a Venture Partner), and a portfolio of angel investments.
+    </p>
+  </section>
+
+  <article style="margin-top: 1.5rem;">
+    <h2>What this site is</h2>
+    <p>
+      A public reference layer for ~345 deep-tech concepts &mdash; semiconductors, photonics,
+      materials, energy, biotech, space, quantum &mdash; organised into 9 macro domains and 42
+      mesos. Each concept page covers physics or mechanism, competitive landscape, frontier
+      questions, and the recent sources citing it.
+    </p>
+    <p>
+      The substrate is a private knowledge base updated daily from ingested papers, granola call
+      transcripts, news, Substack archives, and investment memos. A nightly publish pipeline
+      filters out the internal stuff (deal flow, founder names, IC notes) and emits a public-safe
+      snapshot of the concept layer. The rest of the site &mdash; the cross-cuts surfaces, the
+      neighborhood graphs, the atlas, the tours &mdash; is rendered from that snapshot.
+    </p>
+
+    <h2>Why this format</h2>
+    <p>
+      Most VC writing is essays. Most analyst writing is paywalled. The middle ground &mdash;
+      structured, opinionated, free, cross-referenced &mdash; barely exists. The reference layer
+      below this paragraph is the attempt at it. The narrative layer (the Substack, accessible via
+      <a href={`${BASE}/writing/`}>Writing</a>) draws on the references.
+    </p>
+    <p>
+      The structural pattern is borrowed from the Stanford Encyclopedia of Philosophy: a
+      hierarchical taxonomy you can drill into, plus a graph view (the
+      <a href={`${BASE}/atlas/`}>Atlas</a>) that makes the interconnection visible. Every concept
+      page has a small neighborhood graph at the top showing what it connects to.
+    </p>
+
+    <h2>How to follow</h2>
+    <p>
+      Subscribe to <a href="https://stateofthefuture.substack.com" rel="noopener">State of the
+      Future on Substack</a> for the weekly dispatch and longer essays. The reference layer here
+      updates nightly &mdash; no need to subscribe.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      <a href="mailto:lawrence@stateofthefuture.io">lawrence@stateofthefuture.io</a> &nbsp;·&nbsp;
+      <a href="https://www.linkedin.com/in/lawrencelundy/" rel="noopener">LinkedIn</a>
+    </p>
+
+    <h2>Colophon</h2>
+    <p class="meta">
+      Built with Astro. Type: EB Garamond + JetBrains Mono. Palette: cream-peach, ink, deep teal.
+      Visual reference: worksinprogress.co. Static-rendered, deployed via GitHub Pages, rebuilt
+      nightly from the underlying knowledge base. Source:
+      <a href="https://github.com/lawrencestefanlundy/sotf-site" rel="noopener">github.com/lawrencestefanlundy/sotf-site</a>.
+    </p>
+  </article>
+</Base>

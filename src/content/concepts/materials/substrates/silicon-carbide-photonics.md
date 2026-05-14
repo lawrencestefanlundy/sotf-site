@@ -33,6 +33,24 @@ mention_count: 0
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
+recent_mentions: []
+neighbors:
+- slug: silicon-nitride
+  name: Silicon Nitride
+  path: /sotf-site/materials/substrates/silicon-nitride/
+  macro: materials
+- slug: diamond
+  name: Diamond
+  path: /sotf-site/materials/substrates/diamond/
+  macro: materials
+- slug: sic
+  name: SiC
+  path: /sotf-site/materials/substrates/sic/
+  macro: materials
+- slug: quantum-computing
+  name: Quantum Computing
+  path: /sotf-site/compute/quantum-computing/quantum-computing/
+  macro: compute
 ---
 *Wide-bandgap waveguide platform with quantum + high-power + mid-IR potential*
 

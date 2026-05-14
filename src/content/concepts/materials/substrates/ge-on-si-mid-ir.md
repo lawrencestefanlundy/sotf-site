@@ -32,6 +32,20 @@ mention_count: 0
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
+recent_mentions: []
+neighbors:
+- slug: silicon-photonics
+  name: Silicon Photonics
+  path: /sotf-site/photonic-systems/pic-platforms/silicon-photonics/
+  macro: photonic-systems
+- slug: chalcogenide-glass
+  name: Chalcogenide Glass
+  path: /sotf-site/materials/advanced-materials/chalcogenide-glass/
+  macro: materials
+- slug: quantum-cascade-lasers
+  name: Quantum Cascade Lasers
+  path: /sotf-site/photonic-systems/light-sources/quantum-cascade-lasers/
+  macro: photonic-systems
 ---
 *CMOS-fab-compatible mid-IR waveguide platform for gas / breath / hyperspectral sensing*
 

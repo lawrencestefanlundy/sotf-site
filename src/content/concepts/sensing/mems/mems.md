@@ -27,6 +27,24 @@ descendants:
 - spectral-sensing
 sources_7d: 1
 sources_30d: 7
+recent_mentions:
+- slug: 2025-12-19-lfg-for-semiconductors
+  title: LFG (for semiconductors)
+  date: '2025-12-19'
+  kind: substack
+- slug: 2025-04-16-the-state-of-photonic-computing
+  title: 'Photonic Computing: A Primer'
+  date: '2025-04-16'
+  kind: substack
+- slug: 2023-08-31-e13-chiplets-how-chip-lego-is-driving
+  title: '🔮 E13: Chiplets - How Chip Lego is Driving AI Progress'
+  date: '2023-08-31'
+  kind: substack
+- slug: 2023-08-25-e12-nanomechanical-computing-gears
+  title: '🔮E12: Nanomechanical Computing- Gears of Space War? Old Ideas at New Scales'
+  date: '2023-08-25'
+  kind: substack
+neighbors: []
 ---
 ## Physics / mechanism
 

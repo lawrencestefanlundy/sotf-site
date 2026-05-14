@@ -34,6 +34,32 @@ mention_count: 0
 last_reorg_date: '2026-05-13'
 sources_7d: 1
 sources_30d: 1
+recent_mentions: []
+neighbors:
+- slug: maskless-lithography
+  name: Maskless Lithography
+  path: /sotf-site/manufacturing/lithography/maskless-lithography/
+  macro: manufacturing
+- slug: e-beam-lithography
+  name: E-Beam Lithography
+  path: /sotf-site/manufacturing/lithography/e-beam-lithography/
+  macro: manufacturing
+- slug: duv-immersion-lithography
+  name: DUV / Immersion Lithography
+  path: /sotf-site/manufacturing/lithography/duv-immersion-lithography/
+  macro: manufacturing
+- slug: metalens
+  name: Metalens
+  path: /sotf-site/photonic-systems/metasurfaces/metalens/
+  macro: photonic-systems
+- slug: metasurfaces-flat-optics
+  name: Metasurfaces & Flat Optics
+  path: /sotf-site/photonic-systems/metasurfaces/metasurfaces-flat-optics/
+  macro: photonic-systems
+- slug: metamaterials
+  name: Metamaterials
+  path: /sotf-site/photonic-systems/metasurfaces/metamaterials/
+  macro: photonic-systems
 ---
 ## Physics / mechanism
 

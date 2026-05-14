@@ -1,0 +1,48 @@
+---
+type: concept
+slug: lunar-landers
+canonical_name: Lunar Landers (Astrobotic, Intuitive Machines, ispace)
+aliases: []
+kind: technology
+parent_concepts:
+- life-frontier
+- lunar
+related_concepts: []
+sources: []
+frontier:
+- ''
+last_updated: '2026-05-04'
+tags:
+- concept
+- technology
+mention_count: 0
+descendants: []
+last_reorg_date: '2026-05-14'
+sources_7d: 0
+sources_30d: 0
+recent_mentions: []
+neighbors: []
+---
+## Physics / mechanism
+
+Lunar landers are robotic spacecraft designed to soft-land payloads on the lunar surface. Propulsive descent uses throttleable bipropellant or monopropellant engines (Astrobotic's Peregrine used MMH/MON-3, IM-1 used LOX/methane at ~4.9 kN thrust). Key parameters: delta-v budget ~1.8–2.0 km/s for trans-lunar injection to touchdown, thrust-to-weight ratio at ignition ~1.2–1.5, landing accuracy (current: hectometre-scale, target: sub-10 m for CLPS later missions). Guidance uses terrain-relative navigation fusing LIDAR, IMU, and optical flow. Payload mass fractions are low: typically 10–20% of wet mass. ispace M1 carried ~30 kg to lunar orbit. IM-1 delivered ~130 kg to the surface, though landed at ~30° tilt.
+
+## Competitive landscape
+
+Three primary commercial lander primes are competing: Astrobotic (Peregrine failed, Griffin pending), Intuitive Machines (IM-1 partial success, IM-2/IM-3 manifested), ispace (M1 failed, M2 scheduled 2025). Blue Origin and SpaceX (Starship HLS) address crewed/large-cargo segments. Japanese JAXA SLIM demonstrated precision landing (3 m accuracy) using hazard-avoidance vision. Key differentiation axes are payload capacity, landing accuracy, and mission cost per kg.
+
+## Companies using
+
+<!-- dataview block stripped for public site -->
+
+## Connected ideas
+
+<!-- dataview block stripped for public site -->
+
+## Sources
+
+<!-- dataview block stripped for public site -->
+
+## Frontier (open questions)
+
+- *To be added.*

@@ -20,6 +20,20 @@ descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 2
+recent_mentions:
+- slug: 2025-12-15-department-of-commerce-awards-chips-incentives-to-a-subsidia
+  title: Department of Commerce Awards CHIPS Incentives to a Subsidiary of Korea Zinc (Crucible Metals) to Support a State-of-the-Art Smelter and Critical Minerals Processing Facility in the United States - National Institute of Standards and Technology (.gov)
+  date: '2025-12-15'
+  kind: web
+- slug: 2025-12-07-globalfoundries-gfs-revisiting-valuation-after-major-chips-a
+  title: 'GlobalFoundries (GFS): Revisiting Valuation After Major CHIPS Act Backing and Trusted US Foundry Status - Yahoo Finance'
+  date: '2025-12-07'
+  kind: web
+- slug: 2024-04-22-the-challenging-economics-of-battery-recycling---latitude-me
+  title: The challenging economics of battery recycling - Latitude Media
+  date: '2024-04-22'
+  kind: web
+neighbors: []
 ---
 ## Physics / mechanism
 

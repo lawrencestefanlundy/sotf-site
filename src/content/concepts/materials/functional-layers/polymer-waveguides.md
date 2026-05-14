@@ -37,6 +37,20 @@ mention_count: 0
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
+recent_mentions: []
+neighbors:
+- slug: two-photon-polymerization
+  name: Two-Photon Polymerization
+  path: /sotf-site/manufacturing/lithography/two-photon-polymerization/
+  macro: manufacturing
+- slug: xolography
+  name: Xolography
+  path: /sotf-site/manufacturing/lithography/xolography/
+  macro: manufacturing
+- slug: co-packaged-optics
+  name: Co-Packaged Optics
+  path: /sotf-site/manufacturing/packaging/co-packaged-optics/
+  macro: manufacturing
 ---
 *Cheap, conformal, 3D-printable photonic medium with reliability question*
 

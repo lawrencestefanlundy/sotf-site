@@ -19,6 +19,36 @@ mention_count: 30
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 1
+recent_mentions:
+- slug: 2026-02-13-us-firm-korean-unit-to-pay-252m-over-illegal-chip-exports-to
+  title: US firm, Korean unit to pay $252M over illegal chip exports to China - The Korea Times
+  date: '2026-02-13'
+  kind: web
+- slug: 2025-05-19-us-department-of-commerce-rescinds-biden-administrations-ai-
+  title: U.S. Department of Commerce Rescinds Biden Administration’s AI Diffusion Export Control Rule and Issues New Guidance on Huawei, Chips for AI Purposes, and Diligence Expectations - Crowell & Moring LLP
+  date: '2025-05-19'
+  kind: web
+- slug: 2024-07-11-strategic-interdependence---phenomenal-world
+  title: Strategic Interdependence - Phenomenal World
+  date: '2024-07-11'
+  kind: web
+- slug: 2022-12-07-china-semiconductor-regulations--episode-ii-the-curious-case
+  title: China Semiconductor Regulations -Episode II The Curious Case of the American in a Chinese Chip Company - JD Supra
+  date: '2022-12-07'
+  kind: web
+- slug: 2022-10-19-seismic-shifts-underway-in-global-semiconductor-market-as-us
+  title: Seismic shifts underway in global semiconductor market as US accelerates decoupling from China - The Strategist | ASPI's analysis and commentary site
+  date: '2022-10-19'
+  kind: web
+- slug: 2021-04-14-with-phytium-on-us-entity-list-alchip-halts-its-orders---tai
+  title: With Phytium on US entity list, Alchip halts its orders - Taipei Times
+  date: '2021-04-14'
+  kind: web
+- slug: 2021-03-05-we-strive-to-continuously-deliver-an-efficient-iot-architect
+  title: '''We strive to continuously deliver an efficient IoT architecture, i.e. the one ensuring unicity and authenticity of device, integrity of the firmware installed on it, and confidentiality of data.'' - Industrial Engineering News Europe'
+  date: '2021-03-05'
+  kind: web
+neighbors: []
 ---
 ## Physics / mechanism
 

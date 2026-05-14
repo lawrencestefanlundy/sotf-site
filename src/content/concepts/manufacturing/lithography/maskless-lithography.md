@@ -48,6 +48,48 @@ mention_count: 0
 last_reorg_date: '2026-05-13'
 sources_7d: 1
 sources_30d: 1
+recent_mentions: []
+neighbors:
+- slug: e-beam-lithography
+  name: E-Beam Lithography
+  path: /sotf-site/manufacturing/lithography/e-beam-lithography/
+  macro: manufacturing
+- slug: nanoimprint-lithography
+  name: Nanoimprint Lithography
+  path: /sotf-site/manufacturing/lithography/nanoimprint-lithography/
+  macro: manufacturing
+- slug: duv-immersion-lithography
+  name: DUV / Immersion Lithography
+  path: /sotf-site/manufacturing/lithography/duv-immersion-lithography/
+  macro: manufacturing
+- slug: high-na-euv-lithography
+  name: High-NA EUV Lithography
+  path: /sotf-site/manufacturing/lithography/high-na-euv-lithography/
+  macro: manufacturing
+- slug: mask-blank-manufacturing
+  name: Mask Blank Manufacturing
+  path: /sotf-site/manufacturing/lithography/mask-blank-manufacturing/
+  macro: manufacturing
+- slug: two-photon-polymerization
+  name: Two-Photon Polymerization
+  path: /sotf-site/manufacturing/lithography/two-photon-polymerization/
+  macro: manufacturing
+- slug: xolography
+  name: Xolography
+  path: /sotf-site/manufacturing/lithography/xolography/
+  macro: manufacturing
+- slug: metalens
+  name: Metalens
+  path: /sotf-site/photonic-systems/metasurfaces/metalens/
+  macro: photonic-systems
+- slug: metasurfaces-flat-optics
+  name: Metasurfaces & Flat Optics
+  path: /sotf-site/photonic-systems/metasurfaces/metasurfaces-flat-optics/
+  macro: photonic-systems
+- slug: metamaterials
+  name: Metamaterials
+  path: /sotf-site/photonic-systems/metasurfaces/metamaterials/
+  macro: photonic-systems
 ---
 *Direct-write patterning without photomasks — multiple physical mechanisms (e-beam, optical/DMD, X-ray) competing for specialty + low-volume + photonic-IC segments.*
 

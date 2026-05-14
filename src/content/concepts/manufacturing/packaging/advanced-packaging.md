@@ -35,6 +35,40 @@ descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 1
 sources_30d: 8
+recent_mentions:
+- slug: 2026-05-13-nasa-outlines-preliminary-artemis-iii-mission-plans
+  title: NASA Outlines Preliminary Artemis III Mission Plans
+  date: '2026-05-13'
+  kind: web
+- slug: 2026-02-12-how-to-invest-in-ai-sovereignty-sovereign
+  title: How to Invest in AI Sovereignty — Sovereign Albion w/ Andrew Bennett
+  date: '2026-02-12'
+  kind: substack
+- slug: 2025-12-19-lfg-for-semiconductors
+  title: LFG (for semiconductors)
+  date: '2025-12-19'
+  kind: substack
+- slug: 2025-12-03-out-of-bankruptcy-wolfspeed-welcomes-nearly-700m-fund---utic
+  title: Out of bankruptcy, Wolfspeed, welcomes nearly $700M fund - Utica Observer Dispatch
+  date: '2025-12-03'
+  kind: web
+- slug: 2025-12-02-the-future-of-computing-is-glass
+  title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
+  date: '2025-12-02'
+  kind: substack
+- slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
+  title: Carbon Nanotubes in the Datacentre
+  date: '2025-11-25'
+  kind: substack
+- slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
+  title: 'UK Opportunity in AI: Compound Semiconductors'
+  date: '2025-09-10'
+  kind: substack
+- slug: 2025-08-28-intel-receives-57-billion-in-chips-act-grants-under-the-deal
+  title: Intel Receives $5.7 Billion in CHIPS Act Grants Under the Deal With President Trump as Team Blue Bets Big on Its Foundry Division - Wccftech
+  date: '2025-08-28'
+  kind: web
+neighbors: []
 ---
 ## Physics / mechanism
 

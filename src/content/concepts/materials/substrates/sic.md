@@ -24,6 +24,28 @@ mention_count: 21
 last_reorg_date: '2026-05-13'
 sources_7d: 2
 sources_30d: 4
+recent_mentions:
+- slug: 2024-trendforce-foundry-2024
+  title: TrendForce — Global Foundry Industry Outlook 2024-2026
+  date: '2024-11-15'
+  kind: web
+- slug: 2024-omdia-power-electronics-forecast
+  title: Omdia — Power Semiconductors Long-Term Forecast 2024
+  date: '2024-11-01'
+  kind: web
+- slug: 2024-yole-power-sic-2024
+  title: Yole Group — Power SiC 2024 Market Analysis
+  date: '2024-09-15'
+  kind: web
+- slug: 2024-yole-power-gan-2024
+  title: Yole Group — Power GaN 2024 Market Analysis
+  date: '2024-09-15'
+  kind: web
+- slug: 2023-07-27-e10-pushing-moores-law-to-the-limit
+  title: '🔮E10: Pushing Moore''s Law to the Limit with High-NA EUV (aka Nanoscale Chip Printing)'
+  date: '2023-07-27'
+  kind: substack
+neighbors: []
 ---
 ## Physics / mechanism
 

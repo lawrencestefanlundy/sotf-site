@@ -42,6 +42,52 @@ tags:
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 2
+recent_mentions: []
+neighbors:
+- slug: holographic-volumetric-displays
+  name: Holographic / Volumetric Displays
+  path: /sotf-site/photonic-systems/displays/holographic-volumetric-displays/
+  macro: photonic-systems
+- slug: optical-neural-networks
+  name: Optical Neural Networks
+  path: /sotf-site/photonic-systems/photonic-compute/optical-neural-networks/
+  macro: photonic-systems
+- slug: two-photon-polymerization
+  name: Two-Photon Polymerization
+  path: /sotf-site/manufacturing/lithography/two-photon-polymerization/
+  macro: manufacturing
+- slug: xolography
+  name: Xolography
+  path: /sotf-site/manufacturing/lithography/xolography/
+  macro: manufacturing
+- slug: wafer-level-optics
+  name: Wafer-Level Optics
+  path: /sotf-site/photonic-systems/metasurfaces/wafer-level-optics/
+  macro: photonic-systems
+- slug: displays
+  name: Displays
+  path: /sotf-site/photonic-systems/displays/displays/
+  macro: photonic-systems
+- slug: arvr
+  name: AR/VR
+  path: /sotf-site/life-frontier/neural-interfaces/arvr/
+  macro: life-frontier
+- slug: metasurfaces-flat-optics
+  name: Metasurfaces & Flat Optics
+  path: /sotf-site/photonic-systems/metasurfaces/metasurfaces-flat-optics/
+  macro: photonic-systems
+- slug: barium-titanate
+  name: Barium Titanate
+  path: /sotf-site/materials/functional-layers/barium-titanate/
+  macro: materials
+- slug: lithium-niobate-tfln
+  name: Lithium Niobate (TFLN)
+  path: /sotf-site/materials/functional-layers/lithium-niobate-tfln/
+  macro: materials
+- slug: indium-phosphide
+  name: Indium Phosphide (InP)
+  path: /sotf-site/materials/substrates/indium-phosphide/
+  macro: materials
 ---
 *Cross-cutting photonic component appearing in 26+ concept pages.*
 

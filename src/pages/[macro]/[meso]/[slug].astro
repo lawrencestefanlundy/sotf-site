@@ -1,5 +1,6 @@
 ---
 import Base from "../../../layouts/Base.astro";
+import RadialGraph from "../../../components/RadialGraph.astro";
 import { getCollection, render } from "astro:content";
 
 export async function getStaticPaths() {
@@ -72,9 +73,28 @@ const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
     </div>
   )}
 
+  {concept.data.neighbors && concept.data.neighbors.length > 0 && (
+    <RadialGraph centre={concept.data.canonical_name} neighbors={concept.data.neighbors} />
+  )}
+
   <article>
     <Content />
   </article>
+
+  {concept.data.recent_mentions && concept.data.recent_mentions.length > 0 && (
+    <section>
+      <h2>Recent mentions</h2>
+      <ul class="recent-mentions">
+        {concept.data.recent_mentions.map((s) => (
+          <li>
+            <span class="meta">{s.date}</span>
+            <span class="title">{s.title}</span>
+            <span class="meta">{s.kind}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
 
   {concept.data.related_concepts && concept.data.related_concepts.length > 0 && (
     <section>

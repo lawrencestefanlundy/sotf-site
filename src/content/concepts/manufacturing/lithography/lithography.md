@@ -47,6 +47,40 @@ descendants:
 last_reorg_date: '2026-05-13'
 sources_7d: 3
 sources_30d: 7
+recent_mentions:
+- slug: 2026-05-02-euv-lithography-wikipedia
+  title: EUV Lithography Wikipedia
+  date: '2026-05-02'
+  kind: web
+- slug: 2026-05-02-asml-euv-lithography-systems
+  title: ASML EUV lithography systems
+  date: '2026-05-02'
+  kind: web
+- slug: 2026-05-02-two-photon-lithography-for-integrated-photonic-packaging-lig
+  title: 'Two-photon lithography for integrated photonic packaging (Light: AM 2023)'
+  date: '2026-05-02'
+  kind: web
+- slug: 2025-12-19-lfg-for-semiconductors
+  title: LFG (for semiconductors)
+  date: '2025-12-19'
+  kind: substack
+- slug: 2025-12-02-the-future-of-computing-is-glass
+  title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
+  date: '2025-12-02'
+  kind: substack
+- slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
+  title: 'UK Opportunity in AI: Compound Semiconductors'
+  date: '2025-09-10'
+  kind: substack
+- slug: 2025-02-12-wen-babelfish-feat-aron-of-semron
+  title: 'Edge AI: Analog Chips (feat. Aron Kirschen, SEMRON)'
+  date: '2025-02-12'
+  kind: substack
+- slug: 2025-01-06-radiant-acquires-nilt
+  title: Radiant Opto-Electronics Corporation Completes Acquisition of NIL Technology
+  date: '2025-01-06'
+  kind: web
+neighbors: []
 ---
 ## Physics / mechanism
 

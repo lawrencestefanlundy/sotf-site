@@ -1,0 +1,38 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getCollection, render } from "astro:content";
+
+export async function getStaticPaths() {
+  const tours = await getCollection("tours");
+  return tours.map((t) => ({
+    params: { slug: t.id },
+    props: { tour: t },
+  }));
+}
+
+const { tour } = Astro.props;
+const { Content } = await render(tour);
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
+---
+
+<Base title={tour.data.title}>
+  <div class="breadcrumb">
+    <a href={`${BASE}/`}>Now</a> &nbsp;/&nbsp; <a href={`${BASE}/tours/`}>Tours</a> &nbsp;/&nbsp; {tour.data.title}
+  </div>
+
+  <section class="hero">
+    <h1>{tour.data.title}</h1>
+    {tour.data.subtitle && <p>{tour.data.subtitle}</p>}
+    <div class="meta" style="margin-top: 0.8rem;">
+      {tour.data.published_date && <span>{String(tour.data.published_date)}</span>}
+      {tour.data.duration_minutes && <span> &nbsp;·&nbsp; {tour.data.duration_minutes} min read</span>}
+      {tour.data.concepts_visited && tour.data.concepts_visited.length > 0 && (
+        <span> &nbsp;·&nbsp; {tour.data.concepts_visited.length} concepts visited</span>
+      )}
+    </div>
+  </section>
+
+  <article>
+    <Content />
+  </article>
+</Base>

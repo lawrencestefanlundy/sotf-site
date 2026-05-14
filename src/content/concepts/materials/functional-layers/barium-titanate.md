@@ -26,6 +26,28 @@ mention_count: 11
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 7
+recent_mentions:
+- slug: 2026-05-02-hybrid-bto-sin-ultra-low-power-tuning-acs-photonics
+  title: Hybrid BTO-SiN ultra-low power tuning (ACS Photonics)
+  date: '2026-05-02'
+  kind: web
+- slug: 2026-05-02-self-buffered-bto-epitaxy-on-oxide-insulator-light-sci-app-2
+  title: 'Self-buffered BTO epitaxy on oxide insulator (Light: Sci & App 2025)'
+  date: '2026-05-02'
+  kind: web
+- slug: 2026-05-02-bto-permittivity-pockels-coefficients-mhz-thz-nature-materia
+  title: BTO permittivity & Pockels coefficients MHz-THz (Nature Materials 2025)
+  date: '2026-05-02'
+  kind: web
+- slug: 2026-05-02-bto-pockels-modulator-on-silicon-photonics-jlt-2019
+  title: BTO Pockels modulator on silicon photonics (JLT 2019)
+  date: '2026-05-02'
+  kind: web
+- slug: 2026-02-02-photonic-engines-for-data-centers
+  title: Photonic "Engines" for Data Centers
+  date: '2026-02-02'
+  kind: substack
+neighbors: []
 ---
 ## Physics / mechanism
 

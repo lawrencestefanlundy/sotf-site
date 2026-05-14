@@ -48,6 +48,40 @@ descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 7
 sources_30d: 18
+recent_mentions:
+- slug: 2026-05-02-return-of-lithium-niobate-photonics-spectra-jan-2026
+  title: Return of Lithium Niobate (Photonics Spectra Jan 2026)
+  date: '2026-05-02'
+  kind: web
+- slug: 2026-05-02-hybrid-bto-sin-ultra-low-power-tuning-acs-photonics
+  title: Hybrid BTO-SiN ultra-low power tuning (ACS Photonics)
+  date: '2026-05-02'
+  kind: web
+- slug: 2026-05-02-bto-pockels-modulator-on-silicon-photonics-jlt-2019
+  title: BTO Pockels modulator on silicon photonics (JLT 2019)
+  date: '2026-05-02'
+  kind: web
+- slug: 2026-02-12-how-to-invest-in-ai-sovereignty-sovereign
+  title: How to Invest in AI Sovereignty — Sovereign Albion w/ Andrew Bennett
+  date: '2026-02-12'
+  kind: substack
+- slug: 2026-02-02-photonic-engines-for-data-centers
+  title: Photonic "Engines" for Data Centers
+  date: '2026-02-02'
+  kind: substack
+- slug: 2026-01-24-warning-from-the-photonics-industry-europes-lead-is-at-risk-
+  title: 'Warning from the photonics industry: Europe’s lead is at risk - ioplus.nl'
+  date: '2026-01-24'
+  kind: web
+- slug: 2026-01-09-inside-the-gaos-review-of-chips-act-manufacturing-investment
+  title: Inside the GAO’s Review of CHIPS Act Manufacturing Investments - Optics & Photonics News
+  date: '2026-01-09'
+  kind: web
+- slug: 2025-12-19-lfg-for-semiconductors
+  title: LFG (for semiconductors)
+  date: '2025-12-19'
+  kind: substack
+neighbors: []
 ---
 ## Physics / mechanism
 

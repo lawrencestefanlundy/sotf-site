@@ -27,6 +27,40 @@ descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 1
+recent_mentions:
+- slug: 2026-05-13-nasa-supported-space-tech-advances-earthly-construction
+  title: NASA-Supported Space Tech Advances Earthly Construction
+  date: '2026-05-13'
+  kind: web
+- slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
+  title: Carbon Nanotubes in the Datacentre
+  date: '2025-11-25'
+  kind: substack
+- slug: 2025-08-18-nist-awards-over-18-million-to-small-businesses-advancing-ai
+  title: NIST Awards Over $1.8 Million to Small Businesses Advancing AI, Semiconductors, Additive Manufacturing and More
+  date: '2025-08-18'
+  kind: web
+- slug: 2024-10-22-state-of-the-future-part-deux
+  title: 'An AI Thesis: State of the Future! Part Deux'
+  date: '2024-10-22'
+  kind: substack
+- slug: 2024-09-13-bis-adopts-additional-controls-on-quantum-semiconductor-and-
+  title: BIS Adopts Additional Controls on Quantum, Semiconductor and Additive Manufacturing Technologies in Concert with International Partners - Mayer Brown
+  date: '2024-09-13'
+  kind: web
+- slug: 2024-09-11-bis-imposes-new-export-controls-on-quantum-semiconductor-and
+  title: BIS Imposes New Export Controls on Quantum, Semiconductor and Additive Manufacturing Technologies - globaltradeandsanctionslaw.com
+  date: '2024-09-11'
+  kind: web
+- slug: 2022-05-09-elementum-funded-by-darpa-to-develop-am-process-for-rhenium-
+  title: Elementum funded by DARPA to develop AM process for rhenium - Metal Additive Manufacturing magazine
+  date: '2022-05-09'
+  kind: web
+- slug: 2021-02-04-meta-additive-awarded-innovate-uk-smart-grant-for-bjt-proces
+  title: Meta Additive awarded Innovate UK SMART Grant for BJT process - Metal Additive Manufacturing magazine
+  date: '2021-02-04'
+  kind: web
+neighbors: []
 ---
 ## Physics / mechanism
 

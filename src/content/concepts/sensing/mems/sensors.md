@@ -38,6 +38,40 @@ mention_count: 118
 last_reorg_date: '2026-05-13'
 sources_7d: 6
 sources_30d: 20
+recent_mentions:
+- slug: 2026-05-12-darpa-sbir-profusa-implantable-biosensors---col-matt-hepburn
+  title: 'DARPA SBIR: Profusa Implantable Biosensors - COL Matt Hepburn (Tz3cFR1ktT) - fathomjournal.org'
+  date: '2026-05-12'
+  kind: web
+- slug: 2026-05-08-nasa-fuel-cell-tests-pave-way-for-energy-storage-on-moon
+  title: NASA Fuel Cell Tests Pave Way for Energy Storage on Moon
+  date: '2026-05-08'
+  kind: web
+- slug: 2026-05-06-putting-the-super-into-a-supersite-for-earth-observation
+  title: Putting the ‘super’ into a supersite for Earth observation
+  date: '2026-05-06'
+  kind: web
+- slug: 2025-12-19-lfg-for-semiconductors
+  title: LFG (for semiconductors)
+  date: '2025-12-19'
+  kind: substack
+- slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
+  title: Carbon Nanotubes in the Datacentre
+  date: '2025-11-25'
+  kind: substack
+- slug: 2025-09-23-the-compute-gradient
+  title: The Compute Gradient
+  date: '2025-09-23'
+  kind: substack
+- slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
+  title: 'UK Opportunity in AI: Compound Semiconductors'
+  date: '2025-09-10'
+  kind: substack
+- slug: 2025-07-01-a-primer-carbon-nanotubes
+  title: 'A Primer: Carbon Nanotubes'
+  date: '2025-07-01'
+  kind: substack
+neighbors: []
 ---
 ## Physics / mechanism
 

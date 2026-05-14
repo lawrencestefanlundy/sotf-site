@@ -34,6 +34,20 @@ descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
+recent_mentions: []
+neighbors:
+- slug: scandium-aluminum-nitride
+  name: Scandium Aluminum Nitride (ScAlN)
+  path: /sotf-site/materials/functional-layers/scandium-aluminum-nitride/
+  macro: materials
+- slug: silicon-nitride
+  name: Silicon Nitride
+  path: /sotf-site/materials/substrates/silicon-nitride/
+  macro: materials
+- slug: piezoelectric
+  name: Piezoelectric
+  path: /sotf-site/materials/functional-layers/piezoelectric/
+  macro: materials
 ---
 *Wide-bandgap photonic + piezoelectric platform with UV transparency*
 

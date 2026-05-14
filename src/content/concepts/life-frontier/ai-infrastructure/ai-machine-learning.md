@@ -19,6 +19,20 @@ mention_count: 26
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
+recent_mentions:
+- slug: 2025-09-09-meet-the-semi-finalists-of-the-2026-european-capital-of-inno
+  title: Meet the semi-finalists of the 2026 European Capital of Innovation Awards! - European Innovation Council
+  date: '2025-09-09'
+  kind: web
+- slug: 2025-01-22-accelerating-40-groundbreaking-technologies-from-lab-to-mark
+  title: accelerating 40 groundbreaking technologies from lab to market readiness - European Innovation Council
+  date: '2025-01-22'
+  kind: web
+- slug: 2024-10-30-eic-accelerator-challenges-2025---european-innovation-counci
+  title: EIC Accelerator Challenges 2025 - European Innovation Council
+  date: '2024-10-30'
+  kind: web
+neighbors: []
 ---
 ## Physics / mechanism
 

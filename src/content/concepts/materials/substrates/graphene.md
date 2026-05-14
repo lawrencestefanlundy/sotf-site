@@ -29,6 +29,40 @@ mention_count: 36
 last_reorg_date: '2026-05-13'
 sources_7d: 3
 sources_30d: 13
+recent_mentions:
+- slug: 2026-02-06-eth-zurich-spinout-chiral-bags-12m-to-scale-robotic-platform
+  title: ETH Zurich spinout Chiral bags $12M to scale robotic platform for graphene chip integration - Tech Funding News
+  date: '2026-02-06'
+  kind: web
+- slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
+  title: Carbon Nanotubes in the Datacentre
+  date: '2025-11-25'
+  kind: substack
+- slug: 2025-07-01-a-primer-carbon-nanotubes
+  title: 'A Primer: Carbon Nanotubes'
+  date: '2025-07-01'
+  kind: substack
+- slug: 2024-10-29-deploy-intelligence-too-cheap-to
+  title: Deploy! Intelligence too cheap to meter @ $0.0001 per million tokens.
+  date: '2024-10-29'
+  kind: substack
+- slug: 2024-10-22-state-of-the-future-part-deux
+  title: 'An AI Thesis: State of the Future! Part Deux'
+  date: '2024-10-22'
+  kind: substack
+- slug: 2024-yole-thermal-management-2024
+  title: Yole Group — Thermal Management 2024 Market Analysis
+  date: '2024-10-01'
+  kind: web
+- slug: 2024-idtechex-thermal-interface-materials-2026-2036
+  title: 'IDTechEx — Thermal Interface Materials 2026-2036: Technologies, Markets and Forecasts'
+  date: '2024-08-15'
+  kind: web
+- slug: 2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth
+  title: '🔮E14: The Real AI Bottleneck: High Bandwidth Memory (HBM)'
+  date: '2023-09-08'
+  kind: substack
+neighbors: []
 ---
 ## Physics / mechanism
 

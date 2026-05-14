@@ -19,6 +19,8 @@ mention_count: 25
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 2
+recent_mentions: []
+neighbors: []
 ---
 ## Physics / mechanism
 

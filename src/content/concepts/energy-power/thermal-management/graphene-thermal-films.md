@@ -22,6 +22,16 @@ mention_count: 4
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
+recent_mentions:
+- slug: 2024-yole-thermal-management-2024
+  title: Yole Group — Thermal Management 2024 Market Analysis
+  date: '2024-10-01'
+  kind: web
+- slug: 2024-idtechex-thermal-interface-materials-2026-2036
+  title: 'IDTechEx — Thermal Interface Materials 2026-2036: Technologies, Markets and Forecasts'
+  date: '2024-08-15'
+  kind: web
+neighbors: []
 ---
 ## Physics / mechanism
 

@@ -24,6 +24,24 @@ mention_count: 5
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 4
+recent_mentions:
+- slug: 2026-05-02-gleason-group-at-mit
+  title: Gleason Group at MIT
+  date: '2026-05-02'
+  kind: web
+- slug: 2026-05-02-designing-surfaces-and-devices-with-icvd-adv-materials-2024
+  title: Designing Surfaces and Devices with iCVD (Adv. Materials 2024)
+  date: '2026-05-02'
+  kind: web
+- slug: 2026-05-02-initiated-cvd-overview-wiley-analytical-science-2024
+  title: Initiated CVD overview (Wiley Analytical Science 2024)
+  date: '2026-05-02'
+  kind: web
+- slug: 2026-05-02-conformal-polymer-cvd-llnl
+  title: Conformal Polymer CVD (LLNL)
+  date: '2026-05-02'
+  kind: web
+neighbors: []
 ---
 ## Physics / mechanism
 

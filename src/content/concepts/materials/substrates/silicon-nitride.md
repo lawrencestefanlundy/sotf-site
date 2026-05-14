@@ -26,6 +26,28 @@ mention_count: 15
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 4
+recent_mentions:
+- slug: 2026-05-02-hybrid-bto-sin-ultra-low-power-tuning-acs-photonics
+  title: Hybrid BTO-SiN ultra-low power tuning (ACS Photonics)
+  date: '2026-05-02'
+  kind: web
+- slug: 2025-12-09-gallium-nitride-photonics-w-james
+  title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
+  date: '2025-12-09'
+  kind: substack
+- slug: 2025-12-02-the-future-of-computing-is-glass
+  title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
+  date: '2025-12-02'
+  kind: substack
+- slug: 2024-12-16-willow-and-the-race-to-quantum-advantage
+  title: Willow and The Race to Quantum Advantage (Feat. Kris Kaczmarek)
+  date: '2024-12-16'
+  kind: substack
+- slug: 2023-07-27-e10-pushing-moores-law-to-the-limit
+  title: '🔮E10: Pushing Moore''s Law to the Limit with High-NA EUV (aka Nanoscale Chip Printing)'
+  date: '2023-07-27'
+  kind: substack
+neighbors: []
 ---
 ## Physics / mechanism
 

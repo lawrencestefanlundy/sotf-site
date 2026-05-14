@@ -35,6 +35,36 @@ descendants:
 - wireless-power-transfer
 sources_7d: 3
 sources_30d: 4
+recent_mentions:
+- slug: 2026-02-19-the-rise-of-grid-power-electronics-with-drew-baglino---latit
+  title: The rise of grid power electronics with Drew Baglino - Latitude Media
+  date: '2026-02-19'
+  kind: web
+- slug: 2025-12-09-gallium-nitride-photonics-w-james
+  title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
+  date: '2025-12-09'
+  kind: substack
+- slug: 2025-09-11-power-electronics-researchers-awarded-15m-to-advance-energy-
+  title: Power electronics researchers awarded $1.5M to advance energy technologies - University of Colorado Boulder
+  date: '2025-09-11'
+  kind: web
+- slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
+  title: 'UK Opportunity in AI: Compound Semiconductors'
+  date: '2025-09-10'
+  kind: substack
+- slug: 2025-07-01-a-primer-carbon-nanotubes
+  title: 'A Primer: Carbon Nanotubes'
+  date: '2025-07-01'
+  kind: substack
+- slug: 2024-omdia-power-electronics-forecast
+  title: Omdia — Power Semiconductors Long-Term Forecast 2024
+  date: '2024-11-01'
+  kind: web
+- slug: 2024-yole-power-gan-2024
+  title: Yole Group — Power GaN 2024 Market Analysis
+  date: '2024-09-15'
+  kind: web
+neighbors: []
 ---
 ## Physics / mechanism
 

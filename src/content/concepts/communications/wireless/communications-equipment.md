@@ -19,6 +19,24 @@ mention_count: 47
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
+recent_mentions:
+- slug: 2026-05-13-nasa-outlines-preliminary-artemis-iii-mission-plans
+  title: NASA Outlines Preliminary Artemis III Mission Plans
+  date: '2026-05-13'
+  kind: web
+- slug: 2023-09-04-survey-shows-growing-need-for-multi-network-access---elektor
+  title: Survey Shows Growing Need for Multi-Network Access - Elektor Magazine
+  date: '2023-09-04'
+  kind: web
+- slug: 2020-06-17-why-5g-nr-u-is-such-an-important-chapter-in-cellular-connect
+  title: Why 5G NR-U is such an ‘important chapter’ in cellular connectivity - RCR Wireless News
+  date: '2020-06-17'
+  kind: web
+- slug: 2019-07-22-huawei
+  title: Huawei
+  date: '2019-07-22'
+  kind: web
+neighbors: []
 ---
 ## Physics / mechanism
 

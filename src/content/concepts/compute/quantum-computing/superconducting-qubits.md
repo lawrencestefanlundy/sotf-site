@@ -23,6 +23,24 @@ mention_count: 19
 last_reorg_date: '2026-05-13'
 sources_7d: 1
 sources_30d: 3
+recent_mentions:
+- slug: 2025-09-18-qphox-and-rigetti-awarded-58m-contract-from-afrl-to-enable-o
+  title: QphoX and Rigetti awarded $5.8M Contract from AFRL to enable optical networks of superconducting qubits - TU Delft
+  date: '2025-09-18'
+  kind: web
+- slug: 2024-12-04-cubits-in-a-fridge-why-is-nobody
+  title: Silicon Spin Quantum Computing (Feat. Himadri Majumdar, SemiQon)
+  date: '2024-12-04'
+  kind: substack
+- slug: 2024-11-20-nuclear-fusion-the-state-of-play
+  title: 'Nuclear Fusion: A Primer'
+  date: '2024-11-20'
+  kind: substack
+- slug: 2023-05-24-launching-state-of-the-future
+  title: '💡 E01: Launching State of the Future: The Worlds First Deep Tech Tracker'
+  date: '2023-05-24'
+  kind: substack
+neighbors: []
 ---
 ## Physics / mechanism
 

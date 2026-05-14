@@ -19,6 +19,12 @@ mention_count: 37
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
+recent_mentions:
+- slug: 2026-05-12-darpa-sbir-profusa-implantable-biosensors---col-matt-hepburn
+  title: 'DARPA SBIR: Profusa Implantable Biosensors - COL Matt Hepburn (Tz3cFR1ktT) - fathomjournal.org'
+  date: '2026-05-12'
+  kind: web
+neighbors: []
 ---
 ## Physics / mechanism
 

@@ -23,6 +23,24 @@ mention_count: 16
 last_reorg_date: '2026-05-13'
 sources_7d: 2
 sources_30d: 2
+recent_mentions:
+- slug: 2026-02-12-how-to-invest-in-ai-sovereignty-sovereign
+  title: How to Invest in AI Sovereignty — Sovereign Albion w/ Andrew Bennett
+  date: '2026-02-12'
+  kind: substack
+- slug: 2025-12-09-gallium-nitride-photonics-w-james
+  title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
+  date: '2025-12-09'
+  kind: substack
+- slug: 2025-09-23-the-compute-gradient
+  title: The Compute Gradient
+  date: '2025-09-23'
+  kind: substack
+- slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
+  title: 'UK Opportunity in AI: Compound Semiconductors'
+  date: '2025-09-10'
+  kind: substack
+neighbors: []
 ---
 ## Physics / mechanism
 

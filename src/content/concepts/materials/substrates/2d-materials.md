@@ -20,6 +20,12 @@ mention_count: 19
 last_reorg_date: '2026-05-13'
 sources_7d: 1
 sources_30d: 4
+recent_mentions:
+- slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
+  title: Carbon Nanotubes in the Datacentre
+  date: '2025-11-25'
+  kind: substack
+neighbors: []
 ---
 ## Physics / mechanism
 

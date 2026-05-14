@@ -37,6 +37,40 @@ mention_count: 18
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 1
+recent_mentions:
+- slug: 2026-05-07-stratum-9-launches-first-industrial-grade-dect-nr-gateway---
+  title: STRATUM 9 Launches First Industrial-Grade DECT NR+ Gateway - openPR.com
+  date: '2026-05-07'
+  kind: web
+- slug: 2026-04-01-non-cellular-5g-for-pro-av-dect-nr---avnetwork
+  title: 'Non-Cellular 5G for Pro AV: DECT NR+ - AVNetwork'
+  date: '2026-04-01'
+  kind: web
+- slug: 2026-03-24-dect-nr-a-wireless-solution-for-real-time-audio---audioxpres
+  title: 'DECT NR+: A Wireless Solution for Real-Time Audio? - audioXpress'
+  date: '2026-03-24'
+  kind: web
+- slug: 2025-12-15-coming-soon-to-pro-av-dect-nr---avnetwork
+  title: 'Coming Soon to Pro AV: DECT NR+ - AVNetwork'
+  date: '2025-12-15'
+  kind: web
+- slug: 2025-11-04-sennheiser-promotes-dect-nr-next-generation-wireless-technol
+  title: Sennheiser Promotes DECT NR+ Next-Generation Wireless Technology at DECT World 2025 - audioXpress
+  date: '2025-11-04'
+  kind: web
+- slug: 2025-11-03-sennheiser-experts-to-explore-dect-nr-opportunities-at-dect-
+  title: Sennheiser experts to explore DECT NR+ opportunities at DECT World 2025 - Inavate
+  date: '2025-11-03'
+  kind: web
+- slug: 2025-10-23-merci-project-takes-dect-nr-from-vision-to-reality---sennhei
+  title: MERCI project takes DECT NR+ from vision to reality - Sennheiser
+  date: '2025-10-23'
+  kind: web
+- slug: 2025-08-29-from-smart-cities-to-pro-audio-dect-nr-and-its-potential-for
+  title: From Smart Cities to Pro Audio – DECT NR+ and its potential for NR+ Audio - Embedded Computing Design
+  date: '2025-08-29'
+  kind: web
+neighbors: []
 ---
 ## Physics / mechanism
 

@@ -33,6 +33,12 @@ mention_count: 0
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
+recent_mentions: []
+neighbors:
+- slug: silicon-photonics
+  name: Silicon Photonics
+  path: /sotf-site/photonic-systems/pic-platforms/silicon-photonics/
+  macro: photonic-systems
 ---
 *CMOS-native dielectric emerging as photonic EO + ferroelectric memory platform*
 

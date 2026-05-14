@@ -1,0 +1,25 @@
+---
+import Base from "../layouts/Base.astro";
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
+---
+
+<Base title="Writing" description="Substack archive — State of the Future">
+  <div class="breadcrumb"><a href={`${BASE}/`}>Now</a> &nbsp;/&nbsp; Writing</div>
+  <section class="hero">
+    <h1>Writing</h1>
+    <p>The Substack archive — essays, interviews, the weekly dispatch. The narrative layer that draws on the reference layer in the rest of this site.</p>
+  </section>
+
+  <section style="margin-top: 1.5rem;">
+    <p>
+      Read the full archive at <a href="https://stateofthefuture.substack.com" rel="noopener">stateofthefuture.substack.com</a> &mdash;
+      once DNS is cut to point this site at the apex, the Substack reading domain will move to
+      <code>read.stateofthefuture.io</code> for unified branding.
+    </p>
+    <p class="meta" style="margin-top: 1rem;">
+      Archive integration with this site (filterable card grid, in-line links to concept pages cited
+      in each essay) is in the plan for Phase 6. For now, the canonical archive lives at the
+      Substack reading domain.
+    </p>
+  </section>
+</Base>

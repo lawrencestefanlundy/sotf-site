@@ -23,6 +23,24 @@ mention_count: 6
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 1
+recent_mentions:
+- slug: 2025-12-09-gallium-nitride-photonics-w-james
+  title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
+  date: '2025-12-09'
+  kind: substack
+- slug: 2025-01-23-eth-zurich-spinout-raises-42m-to-scale-trapped-ion-quantum-c
+  title: ETH Zurich spinout raises $4.2m to scale trapped ion quantum computer - eeNews Europe
+  date: '2025-01-23'
+  kind: web
+- slug: 2024-12-16-willow-and-the-race-to-quantum-advantage
+  title: Willow and The Race to Quantum Advantage (Feat. Kris Kaczmarek)
+  date: '2024-12-16'
+  kind: substack
+- slug: 2024-12-04-cubits-in-a-fridge-why-is-nobody
+  title: Silicon Spin Quantum Computing (Feat. Himadri Majumdar, SemiQon)
+  date: '2024-12-04'
+  kind: substack
+neighbors: []
 ---
 ## Physics / mechanism
 

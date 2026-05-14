@@ -28,6 +28,36 @@ descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 1
 sources_30d: 2
+recent_mentions:
+- slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
+  title: 'UK Opportunity in AI: Compound Semiconductors'
+  date: '2025-09-10'
+  kind: substack
+- slug: 2025-02-12-wen-babelfish-feat-aron-of-semron
+  title: 'Edge AI: Analog Chips (feat. Aron Kirschen, SEMRON)'
+  date: '2025-02-12'
+  kind: substack
+- slug: 2024-yole-advanced-packaging-2024
+  title: Yole Group — Advanced Packaging 2024 Market Analysis
+  date: '2024-12-01'
+  kind: web
+- slug: 2024-10-29-deploy-intelligence-too-cheap-to
+  title: Deploy! Intelligence too cheap to meter @ $0.0001 per million tokens.
+  date: '2024-10-29'
+  kind: substack
+- slug: 2024-10-22-state-of-the-future-part-deux
+  title: 'An AI Thesis: State of the Future! Part Deux'
+  date: '2024-10-22'
+  kind: substack
+- slug: 2023-07-23-analog-computing-the-once-and-future
+  title: '🔮 E09: Analog Computing: The Once and Future King'
+  date: '2023-07-23'
+  kind: substack
+- slug: 2023-06-23-e05-the-future-of-edge-ai-brain-inspired
+  title: '🔮 E05: Neuromorphic Computing & The Future of Edge AI'
+  date: '2023-06-23'
+  kind: substack
+neighbors: []
 ---
 ## Physics / mechanism
 

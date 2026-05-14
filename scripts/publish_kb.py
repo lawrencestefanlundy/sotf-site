@@ -93,6 +93,45 @@ def load_back_refs() -> dict:
         return {}
 
 
+def public_sources_for_concept(slug: str, limit: int = 8) -> list[dict]:
+    """Return recent public sources mentioning this concept.
+
+    Reads ~/kb/sources/{public-kinds}/*.md, checks frontmatter
+    concepts_mentioned arrays, filters to those mentioning `slug`.
+    Returns up to `limit` most recent (by date in filename or frontmatter).
+    Each entry: {slug, title, date, kind}
+    """
+    matches = []
+    for kind in PUBLIC_SOURCE_KINDS:
+        d = KB / "sources" / kind
+        if not d.exists():
+            continue
+        for p in d.glob("*.md"):
+            try:
+                text = p.read_text(encoding="utf-8", errors="ignore")
+                fm, _ = parse_fm(text)
+                if not fm:
+                    continue
+                mentioned = fm.get("concepts_mentioned") or []
+                if slug not in mentioned:
+                    continue
+                title = fm.get("title") or p.stem
+                date_str = str(fm.get("date") or "")
+                # Fallback to filename prefix YYYY-MM-DD
+                m = re.match(r"^(\d{4})-(\d{2})-(\d{2})", p.stem)
+                sort_key = date_str or (m.group(0) if m else "")
+                matches.append({
+                    "slug": p.stem,
+                    "title": title.strip(),
+                    "date": sort_key,
+                    "kind": kind,
+                })
+            except Exception:
+                continue
+    matches.sort(key=lambda x: x["date"], reverse=True)
+    return matches[:limit]
+
+
 def source_is_public(source_ref: str) -> bool:
     """Resolve a wikilink-style source reference to its actual file and check kind.
 
@@ -415,6 +454,26 @@ def filter_concept(fm: dict, body: str, slug: str) -> tuple[dict, str]:
     out["sources_7d"] = freshness["sources_7d"]
     out["sources_30d"] = freshness["sources_30d"]
 
+    # Build recent-mentions list (public sources only, last ~8)
+    out["recent_mentions"] = public_sources_for_concept(slug, limit=8)
+
+    # Build the neighborhood for the per-page radial graph.
+    # Just the related-concept slugs that are also public; layout happens client-side.
+    slug_paths = _public_slug_paths()
+    canon = _canonical_names()
+    neighbors = []
+    for rel in (fm.get("related_concepts") or []):
+        if not isinstance(rel, str):
+            continue
+        if rel in slug_paths:
+            neighbors.append({
+                "slug": rel,
+                "name": canon.get(rel, rel.replace("-", " ").title()),
+                "path": f"{BASE_PATH}/{slug_paths[rel]}/",
+                "macro": slug_paths[rel].split("/")[0],
+            })
+    out["neighbors"] = neighbors[:20]  # cap for the radial
+
     # Strip noise + Cloudberry + private-company paragraphs + leading template lines + private wikilinks
     new_body = strip_dataview_blocks(body)
     new_body = strip_cloudberry_content(new_body)
@@ -454,6 +513,62 @@ def emit_concept(p: Path, dry_run: bool = False) -> dict:
     return {"slug": p.stem, "status": "emitted", "macro": macro, "meso": meso, "sources_30d": out_fm.get("sources_30d", 0)}
 
 
+def emit_atlas_data(dry_run: bool = False) -> dict:
+    """Walk all public concepts, build nodes+edges for the full atlas view.
+
+    Output JSON shape:
+      { nodes: [{slug, name, macro, path, deg}], edges: [{a, b}] }
+    `deg` is the degree (number of public neighbours) — used for node sizing.
+    """
+    slug_paths = _public_slug_paths()
+    canon = _canonical_names()
+    nodes_by_slug: dict[str, dict] = {}
+    edges_set: set[tuple[str, str]] = set()
+
+    for slug, path in slug_paths.items():
+        f = KB_CONCEPTS / f"{path}.md"
+        try:
+            text = f.read_text(encoding="utf-8", errors="ignore")
+            fm, _ = parse_fm(text)
+        except Exception:
+            continue
+        if not fm:
+            continue
+        macro = path.split("/")[0]
+        nodes_by_slug[slug] = {
+            "slug": slug,
+            "name": canon.get(slug, slug),
+            "macro": macro,
+            "path": f"{BASE_PATH}/{path}/",
+            "deg": 0,
+        }
+        for rel in fm.get("related_concepts") or []:
+            if not isinstance(rel, str):
+                continue
+            if rel in slug_paths:
+                a, b = sorted([slug, rel])
+                edges_set.add((a, b))
+
+    # Compute degree
+    for a, b in edges_set:
+        if a in nodes_by_slug:
+            nodes_by_slug[a]["deg"] += 1
+        if b in nodes_by_slug:
+            nodes_by_slug[b]["deg"] += 1
+
+    out = {
+        "nodes": sorted(nodes_by_slug.values(), key=lambda x: x["slug"]),
+        "edges": [{"a": a, "b": b} for a, b in sorted(edges_set)],
+    }
+
+    if not dry_run:
+        atlas_path = SITE / "src" / "data" / "atlas.json"
+        atlas_path.parent.mkdir(parents=True, exist_ok=True)
+        atlas_path.write_text(json.dumps(out, ensure_ascii=False), encoding="utf-8")
+
+    return out
+
+
 def main():
     dry_run = "--dry-run" in sys.argv
 
@@ -473,10 +588,14 @@ def main():
     skipped_private = sum(1 for r in rows if "private" in r.get("status", ""))
     skipped_other = sum(1 for r in rows if "skipped" in r.get("status", "") and "private" not in r["status"])
 
+    # Atlas data — corpus-wide graph for /atlas/
+    atlas = emit_atlas_data(dry_run=dry_run)
+
     print(f"publish_kb.py summary ({'DRY RUN' if dry_run else 'APPLY'}):")
     print(f"  • {emitted} concepts emitted")
     print(f"  • {skipped_private} skipped (private macro — frameworks/markets)")
     print(f"  • {skipped_other} skipped (other)")
+    print(f"  • atlas: {len(atlas['nodes'])} nodes, {len(atlas['edges'])} edges")
 
     # Distribution by macro
     from collections import Counter

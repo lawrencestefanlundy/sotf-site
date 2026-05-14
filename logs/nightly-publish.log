@@ -16,3 +16,21 @@ By macro:
   photonic-systems       34
   life-frontier          67
 No changes since last publish — skipping commit + push.
+
+=== 2026-05-14 07:30:14 BST — nightly publish ===
+publish_kb.py summary (APPLY):
+  • 345 concepts emitted
+  • 0 skipped (private macro — frameworks/markets)
+  • 29 skipped (other)
+
+By macro:
+  compute                40
+  memory                 13
+  sensing                21
+  communications         25
+  energy-power           54
+  manufacturing          47
+  materials              44
+  photonic-systems       34
+  life-frontier          67
+Pushed snapshot. GitHub Action will rebuild + redeploy.

@@ -23,6 +23,24 @@ mention_count: 7
 last_reorg_date: '2026-05-13'
 sources_7d: 1
 sources_30d: 5
+recent_mentions:
+- slug: 2026-05-02-xolography-for-rapid-volumetric-production-adv-materials-202
+  title: Xolography for rapid volumetric production (Adv. Materials 2025)
+  date: '2026-05-02'
+  kind: web
+- slug: 2026-05-02-linear-volumetric-am-of-zirconia-via-xolography-sciencedirec
+  title: Linear volumetric AM of zirconia via xolography (ScienceDirect)
+  date: '2026-05-02'
+  kind: web
+- slug: 2026-05-02-xolo-applications-optics
+  title: 'Xolo applications: optics'
+  date: '2026-05-02'
+  kind: web
+- slug: 2026-05-02-continuous-volumetric-3d-printing-in-flow-adv-materials-2024
+  title: Continuous volumetric 3D printing in flow (Adv. Materials 2024)
+  date: '2026-05-02'
+  kind: web
+neighbors: []
 ---
 ## Physics / mechanism
 

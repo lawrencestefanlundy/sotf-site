@@ -33,6 +33,20 @@ mention_count: 0
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
+recent_mentions: []
+neighbors:
+- slug: barium-titanate
+  name: Barium Titanate
+  path: /sotf-site/materials/functional-layers/barium-titanate/
+  macro: materials
+- slug: piezoelectric
+  name: Piezoelectric
+  path: /sotf-site/materials/functional-layers/piezoelectric/
+  macro: materials
+- slug: silicon-photonics
+  name: Silicon Photonics
+  path: /sotf-site/photonic-systems/pic-platforms/silicon-photonics/
+  macro: photonic-systems
 ---
 *Strong piezoelectric + electro-optic ferroelectric for Si-integrated modulators*
 

@@ -22,6 +22,20 @@ mention_count: 9
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 1
+recent_mentions:
+- slug: 2025-12-16-draft-nist-guidelines-rethink-cybersecurity-for-the-ai-era
+  title: Draft NIST Guidelines Rethink Cybersecurity for the AI Era
+  date: '2025-12-16'
+  kind: web
+- slug: 2023-10-19-e20-the-state-of-privacy-enhancing
+  title: Understanding Privacy Enhancing Technology (Feat. Karim Eldefrawy, Confidencial.io)
+  date: '2023-10-19'
+  kind: substack
+- slug: 2023-08-25-e12-nanomechanical-computing-gears
+  title: '🔮E12: Nanomechanical Computing- Gears of Space War? Old Ideas at New Scales'
+  date: '2023-08-25'
+  kind: substack
+neighbors: []
 ---
 ## Physics / mechanism
 

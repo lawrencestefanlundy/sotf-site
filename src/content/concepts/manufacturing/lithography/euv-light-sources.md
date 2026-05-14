@@ -33,6 +33,40 @@ mention_count: 20
 last_reorg_date: '2026-05-13'
 sources_7d: 2
 sources_30d: 6
+recent_mentions:
+- slug: 2026-05-02-euv-lithography-wikipedia
+  title: EUV Lithography Wikipedia
+  date: '2026-05-02'
+  kind: web
+- slug: 2026-05-02-energetiq-euv-light-sources
+  title: Energetiq EUV light sources
+  date: '2026-05-02'
+  kind: web
+- slug: 2026-05-02-laser-produced-plasma-euv-development-sciencedirect
+  title: Laser-produced plasma EUV development (ScienceDirect)
+  date: '2026-05-02'
+  kind: web
+- slug: 2026-05-02-asml-euv-lithography-systems
+  title: ASML EUV lithography systems
+  date: '2026-05-02'
+  kind: web
+- slug: 2025-12-19-lfg-for-semiconductors
+  title: LFG (for semiconductors)
+  date: '2025-12-19'
+  kind: substack
+- slug: 2024-bis-export-controls-china-semis
+  title: BIS Export Controls — China Semiconductor Restrictions (Oct 2022 / Oct 2023 / Dec 2024 rounds)
+  date: '2024-12-02'
+  kind: web
+- slug: 2024-asml-investor-day-export-controls
+  title: ASML Investor Day 2024 — China Export Control Commentary and Forecasts
+  date: '2024-11-14'
+  kind: web
+- slug: 2024-10-29-deploy-intelligence-too-cheap-to
+  title: Deploy! Intelligence too cheap to meter @ $0.0001 per million tokens.
+  date: '2024-10-29'
+  kind: substack
+neighbors: []
 ---
 ## Physics / mechanism
 

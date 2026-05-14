@@ -29,6 +29,20 @@ descendants:
 last_reorg_date: '2026-05-13'
 sources_7d: 3
 sources_30d: 8
+recent_mentions:
+- slug: 2026-05-02-nv-center-quantum-sensing-review-sciencedirect-2022
+  title: NV center quantum sensing review (ScienceDirect 2022)
+  date: '2026-05-02'
+  kind: web
+- slug: 2025-09-10-in-quantum-sensing-what-beats-beating-noise-meeting-noise-ha
+  title: In Quantum Sensing, What Beats Beating Noise? Meeting Noise Halfway.
+  date: '2025-09-10'
+  kind: web
+- slug: 2024-12-16-willow-and-the-race-to-quantum-advantage
+  title: Willow and The Race to Quantum Advantage (Feat. Kris Kaczmarek)
+  date: '2024-12-16'
+  kind: substack
+neighbors: []
 ---
 ## Physics / mechanism
 

@@ -19,6 +19,20 @@ mention_count: 108
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 3
+recent_mentions:
+- slug: 2026-04-09-the-rise-of-flexible-data-centers---latitude-media
+  title: The rise of flexible data centers - Latitude Media
+  date: '2026-04-09'
+  kind: web
+- slug: 2025-10-29-how-the-worlds-first-flexible-ai-factory-will-work-in-tandem
+  title: How the world’s first flexible AI factory will work in tandem with the grid - Latitude Media
+  date: '2025-10-29'
+  kind: web
+- slug: 2025-06-25-distinguishing-signal-from-noise-in-the-data-center-market--
+  title: Distinguishing signal from noise in the data center market - Latitude Media
+  date: '2025-06-25'
+  kind: web
+neighbors: []
 ---
 ## Physics / mechanism
 

@@ -23,6 +23,24 @@ mention_count: 10
 last_reorg_date: '2026-05-13'
 sources_7d: 1
 sources_30d: 1
+recent_mentions:
+- slug: 2026-02-02-photonic-engines-for-data-centers
+  title: Photonic "Engines" for Data Centers
+  date: '2026-02-02'
+  kind: substack
+- slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
+  title: Carbon Nanotubes in the Datacentre
+  date: '2025-11-25'
+  kind: substack
+- slug: 2025-07-01-a-primer-carbon-nanotubes
+  title: 'A Primer: Carbon Nanotubes'
+  date: '2025-07-01'
+  kind: substack
+- slug: 2025-04-30-has-the-time-come-to-take-mortal
+  title: Has the time come to take Mortal Computing seriously?
+  date: '2025-04-30'
+  kind: substack
+neighbors: []
 ---
 ## Physics / mechanism
 

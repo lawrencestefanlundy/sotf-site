@@ -21,6 +21,16 @@ mention_count: 8
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
+recent_mentions:
+- slug: 2025-01-07-fund-frontier-expeditions-otherwise
+  title: Fund Frontier Expeditions otherwise just buy the "Magnificent Seven"
+  date: '2025-01-07'
+  kind: substack
+- slug: 2023-05-25-interview-ben-mildenhall-co-inventor
+  title: '☎️ Interview: Ben Mildenhall, Co-Inventor of Neural Radiance Fields (NeRFs) on the State of the Neural Rendering, Generative AI, and the Metaverse #007'
+  date: '2023-05-25'
+  kind: substack
+neighbors: []
 ---
 ## Physics / mechanism
 

@@ -1,0 +1,47 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getCollection } from "astro:content";
+
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
+const tours = await getCollection("tours");
+const sorted = tours.sort((a, b) => {
+  const ad = String(a.data.published_date || "");
+  const bd = String(b.data.published_date || "");
+  return bd.localeCompare(ad);
+});
+---
+
+<Base title="Tours">
+  <div class="breadcrumb"><a href={`${BASE}/`}>Now</a> &nbsp;/&nbsp; Tours</div>
+  <section class="hero">
+    <h1>Tours</h1>
+    <p>Curated narrative walkthroughs through the concept corpus. Each tour visits 8&ndash;15 concepts in a specific narrative order — the way to read the underlying graph as a story.</p>
+  </section>
+
+  {sorted.length === 0 ? (
+    <section>
+      <p class="meta" style="margin-top: 2rem;">
+        No tours published yet. First tour drafts are in the plan: <em>The Lithography Squeeze (2026)</em>,
+        <em>Why photonic packaging is the binding constraint</em>, <em>The metalens consolidation cycle</em>,
+        and seven more.
+      </p>
+    </section>
+  ) : (
+    <section>
+      <div class="grid-3">
+        {sorted.map((t) => (
+          <a href={`${BASE}/tours/${t.id}/`} class="card">
+            <h2>{t.data.title}</h2>
+            {t.data.subtitle && <div class="meta">{t.data.subtitle}</div>}
+            {t.data.published_date && (
+              <div class="meta">{String(t.data.published_date)}</div>
+            )}
+            {t.data.duration_minutes && (
+              <div class="meta">{t.data.duration_minutes} min read</div>
+            )}
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+</Base>

@@ -31,6 +31,40 @@ mention_count: 28
 last_reorg_date: '2026-05-13'
 sources_7d: 2
 sources_30d: 9
+recent_mentions:
+- slug: 2026-05-02-nv-center-quantum-sensing-review-sciencedirect-2022
+  title: NV center quantum sensing review (ScienceDirect 2022)
+  date: '2026-05-02'
+  kind: web
+- slug: 2026-05-02-high-sensitivity-nv-diamond-resonator-comm-materials-2025
+  title: High-sensitivity NV diamond resonator (Comm. Materials 2025)
+  date: '2026-05-02'
+  kind: web
+- slug: 2026-05-02-quantumdiamonds-iq-capital
+  title: QuantumDiamonds (IQ Capital)
+  date: '2026-05-02'
+  kind: web
+- slug: 2026-05-02-nv-center-wikipedia
+  title: NV center (Wikipedia)
+  date: '2026-05-02'
+  kind: web
+- slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
+  title: Carbon Nanotubes in the Datacentre
+  date: '2025-11-25'
+  kind: substack
+- slug: 2025-10-20-diamond-semiconductors-how-far-to-industrialization---36kr
+  title: 'Diamond Semiconductors: How Far to Industrialization? - 36Kr'
+  date: '2025-10-20'
+  kind: web
+- slug: 2025-07-01-a-primer-carbon-nanotubes
+  title: 'A Primer: Carbon Nanotubes'
+  date: '2025-07-01'
+  kind: substack
+- slug: 2024-12-16-willow-and-the-race-to-quantum-advantage
+  title: Willow and The Race to Quantum Advantage (Feat. Kris Kaczmarek)
+  date: '2024-12-16'
+  kind: substack
+neighbors: []
 ---
 ## Physics / mechanism
 

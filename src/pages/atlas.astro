@@ -1,0 +1,249 @@
+---
+import Base from "../layouts/Base.astro";
+import atlas from "../data/atlas.json";
+
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
+
+// Macro → fill color (same palette as RadialGraph)
+const MACRO_FILLS: Record<string, string> = {
+  "compute":          "#1e293b",
+  "memory":           "#334155",
+  "sensing":          "#475569",
+  "communications":   "#0f766e",
+  "energy-power":     "#57534e",
+  "manufacturing":    "#292524",
+  "materials":        "#78716c",
+  "photonic-systems": "#0f172a",
+  "life-frontier":    "#3f3f46",
+};
+const MACRO_NAMES: Record<string, string> = {
+  "compute": "Compute",
+  "memory": "Memory",
+  "sensing": "Sensing",
+  "communications": "Communications",
+  "energy-power": "Energy & Power",
+  "manufacturing": "Manufacturing",
+  "materials": "Materials",
+  "photonic-systems": "Photonic Systems",
+  "life-frontier": "Life & Frontier",
+};
+
+// Inline the atlas data as JSON-script so the client can read without an extra fetch
+const data = {
+  nodes: atlas.nodes,
+  edges: atlas.edges,
+  macroFills: MACRO_FILLS,
+};
+---
+
+<Base title="Atlas" description="Full corpus interactive map">
+  <div class="breadcrumb"><a href={`${BASE}/`}>Now</a> &nbsp;/&nbsp; Atlas</div>
+  <section class="hero">
+    <h1>Atlas</h1>
+    <p>The full corpus as a single map. {atlas.nodes.length} concepts, {atlas.edges.length} connections. Node size by degree; colour by macro. Drag to pan, scroll to zoom, click to open.</p>
+  </section>
+
+  <div class="atlas-legend">
+    {Object.entries(MACRO_NAMES).map(([slug, name]) => (
+      <span class="legend-chip">
+        <span class="dot" style={`background:${MACRO_FILLS[slug]}`}></span>
+        {name}
+      </span>
+    ))}
+  </div>
+
+  <div id="atlas-container">
+    <svg id="atlas-svg" viewBox="0 0 1200 800" role="img" aria-label="Concept atlas"></svg>
+    <p id="atlas-status" class="meta">Computing layout…</p>
+  </div>
+
+  <script type="application/json" id="atlas-data" set:html={JSON.stringify(data)}></script>
+
+  <script is:inline>
+    (function () {
+      const dataEl = document.getElementById("atlas-data");
+      if (!dataEl) return;
+      const { nodes, edges, macroFills } = JSON.parse(dataEl.textContent || "{}");
+      const svg = document.getElementById("atlas-svg");
+      const status = document.getElementById("atlas-status");
+      if (!svg || !nodes || nodes.length === 0) return;
+
+      const W = 1200, H = 800;
+
+      // ── Force-directed layout (vanilla, no library) ───────────────────────
+      // Single-component approx: charge repulsion + spring links + gravity to centre.
+      const nodeById = {};
+      for (const n of nodes) {
+        n.x = W / 2 + (Math.random() - 0.5) * 80;
+        n.y = H / 2 + (Math.random() - 0.5) * 80;
+        n.vx = 0; n.vy = 0;
+        nodeById[n.slug] = n;
+      }
+      const links = edges
+        .map(e => ({ source: nodeById[e.a], target: nodeById[e.b] }))
+        .filter(l => l.source && l.target);
+
+      const ITERATIONS = 300;
+      const K = 30;          // spring length
+      const REPEL = 800;     // repulsion strength
+      const GRAVITY = 0.02;
+      const FRICTION = 0.85;
+
+      function step() {
+        // Repulsion
+        for (let i = 0; i < nodes.length; i++) {
+          for (let j = i + 1; j < nodes.length; j++) {
+            const a = nodes[i], b = nodes[j];
+            let dx = a.x - b.x, dy = a.y - b.y;
+            let d2 = dx * dx + dy * dy + 0.01;
+            const f = REPEL / d2;
+            const d = Math.sqrt(d2);
+            const ux = dx / d, uy = dy / d;
+            a.vx += ux * f; a.vy += uy * f;
+            b.vx -= ux * f; b.vy -= uy * f;
+          }
+        }
+        // Spring
+        for (const l of links) {
+          const dx = l.target.x - l.source.x, dy = l.target.y - l.source.y;
+          const d = Math.sqrt(dx * dx + dy * dy) + 0.01;
+          const f = (d - K) * 0.05;
+          const ux = dx / d, uy = dy / d;
+          l.source.vx += ux * f; l.source.vy += uy * f;
+          l.target.vx -= ux * f; l.target.vy -= uy * f;
+        }
+        // Gravity + integration
+        for (const n of nodes) {
+          n.vx += (W / 2 - n.x) * GRAVITY;
+          n.vy += (H / 2 - n.y) * GRAVITY;
+          n.vx *= FRICTION;
+          n.vy *= FRICTION;
+          n.x += n.vx;
+          n.y += n.vy;
+        }
+      }
+      for (let i = 0; i < ITERATIONS; i++) step();
+
+      // ── Render to SVG ─────────────────────────────────────────────────────
+      const NS = "http://www.w3.org/2000/svg";
+      const gEdges = document.createElementNS(NS, "g");
+      const gNodes = document.createElementNS(NS, "g");
+      const gZoom = document.createElementNS(NS, "g");
+      gZoom.appendChild(gEdges);
+      gZoom.appendChild(gNodes);
+      svg.appendChild(gZoom);
+
+      for (const l of links) {
+        const ln = document.createElementNS(NS, "line");
+        ln.setAttribute("x1", l.source.x);
+        ln.setAttribute("y1", l.source.y);
+        ln.setAttribute("x2", l.target.x);
+        ln.setAttribute("y2", l.target.y);
+        ln.setAttribute("stroke", "#12121214");
+        ln.setAttribute("stroke-width", "1");
+        gEdges.appendChild(ln);
+      }
+      for (const n of nodes) {
+        const a = document.createElementNS(NS, "a");
+        a.setAttribute("href", n.path);
+        const r = Math.min(8, 2 + Math.sqrt(n.deg));
+        const c = document.createElementNS(NS, "circle");
+        c.setAttribute("cx", n.x);
+        c.setAttribute("cy", n.y);
+        c.setAttribute("r", r);
+        c.setAttribute("fill", macroFills[n.macro] || "#334155");
+        c.setAttribute("stroke", "#fff7f4");
+        c.setAttribute("stroke-width", "1");
+        const title = document.createElementNS(NS, "title");
+        title.textContent = n.name + " (" + n.macro + ")";
+        a.appendChild(title);
+        a.appendChild(c);
+        gNodes.appendChild(a);
+      }
+
+      // ── Pan + zoom ───────────────────────────────────────────────────────
+      let zoom = 1;
+      let panX = 0, panY = 0;
+      let dragging = false;
+      let dragStart = { x: 0, y: 0 };
+
+      function applyTransform() {
+        gZoom.setAttribute("transform", `translate(${panX} ${panY}) scale(${zoom})`);
+      }
+
+      svg.addEventListener("wheel", function (e) {
+        e.preventDefault();
+        const factor = e.deltaY < 0 ? 1.1 : 0.9;
+        const rect = svg.getBoundingClientRect();
+        const mx = ((e.clientX - rect.left) / rect.width) * W;
+        const my = ((e.clientY - rect.top) / rect.height) * H;
+        panX = mx - (mx - panX) * factor;
+        panY = my - (my - panY) * factor;
+        zoom *= factor;
+        applyTransform();
+      }, { passive: false });
+
+      svg.addEventListener("mousedown", function (e) {
+        if (e.target.tagName === "circle") return;
+        dragging = true;
+        dragStart.x = e.clientX - panX;
+        dragStart.y = e.clientY - panY;
+      });
+      window.addEventListener("mousemove", function (e) {
+        if (!dragging) return;
+        panX = e.clientX - dragStart.x;
+        panY = e.clientY - dragStart.y;
+        applyTransform();
+      });
+      window.addEventListener("mouseup", function () { dragging = false; });
+
+      if (status) status.style.display = "none";
+    })();
+  </script>
+
+  <style>
+    #atlas-container {
+      border: 1px solid #1212121f;
+      background: #fff0ea;
+      margin: 1rem 0 2rem;
+      position: relative;
+    }
+    #atlas-svg {
+      display: block;
+      width: 100%;
+      height: 70vh;
+      max-height: 800px;
+      cursor: grab;
+    }
+    #atlas-svg:active { cursor: grabbing; }
+    #atlas-status {
+      position: absolute;
+      top: 0.6rem;
+      right: 0.8rem;
+      padding: 0.25rem 0.6rem;
+      background: #fff7f4;
+      border: 1px solid #1212121f;
+      font-size: 0.7rem;
+    }
+    .atlas-legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem 1.2rem;
+      margin: 1rem 0 0.5rem;
+      font-family: "JetBrains Mono", ui-monospace, monospace;
+      font-size: 0.75rem;
+      color: #12121299;
+    }
+    .legend-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .legend-chip .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      display: inline-block;
+    }
+  </style>
+</Base>

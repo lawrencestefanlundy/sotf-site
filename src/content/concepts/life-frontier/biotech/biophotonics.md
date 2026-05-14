@@ -19,6 +19,16 @@ mention_count: 23
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
+recent_mentions:
+- slug: 2026-05-12-darpa-sbir-profusa-implantable-biosensors---col-matt-hepburn
+  title: 'DARPA SBIR: Profusa Implantable Biosensors - COL Matt Hepburn (Tz3cFR1ktT) - fathomjournal.org'
+  date: '2026-05-12'
+  kind: web
+- slug: 2023-09-19-bow-project-progressing-nanomaterials-in-biotechnology---eur
+  title: 'BOW project: Progressing nanomaterials in biotechnology - European Innovation Council'
+  date: '2023-09-19'
+  kind: web
+neighbors: []
 ---
 ## Physics / mechanism
 

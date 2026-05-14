@@ -23,6 +23,24 @@ mention_count: 15
 last_reorg_date: '2026-05-13'
 sources_7d: 1
 sources_30d: 4
+recent_mentions:
+- slug: 2025-12-02-the-future-of-computing-is-glass
+  title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
+  date: '2025-12-02'
+  kind: substack
+- slug: 2024-12-16-willow-and-the-race-to-quantum-advantage
+  title: Willow and The Race to Quantum Advantage (Feat. Kris Kaczmarek)
+  date: '2024-12-16'
+  kind: substack
+- slug: 2024-12-04-cubits-in-a-fridge-why-is-nobody
+  title: Silicon Spin Quantum Computing (Feat. Himadri Majumdar, SemiQon)
+  date: '2024-12-04'
+  kind: substack
+- slug: 2023-07-14-e08-optical-computing
+  title: '🔮E08: Optical Computing'
+  date: '2023-07-14'
+  kind: substack
+neighbors: []
 ---
 ## Physics / mechanism
 

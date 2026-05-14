@@ -323,3 +323,32 @@ article blockquote {
   font-family: 'EB Garamond', Georgia, serif;
   color: var(--ink-80);
 }
+
+.recent-mentions {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.6rem 0 0;
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 13px;
+}
+.recent-mentions li {
+  display: grid;
+  grid-template-columns: 100px 1fr 80px;
+  gap: 0.75rem;
+  align-items: baseline;
+  border-bottom: 1px solid var(--rule);
+  padding: 0.6rem 0;
+}
+.recent-mentions li:last-child { border-bottom: none; }
+.recent-mentions .title {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 16px;
+  color: var(--ink);
+}
+.recent-mentions .meta {
+  color: var(--ink-50);
+  letter-spacing: 0.04em;
+}
+@media (max-width: 700px) {
+  .recent-mentions li { grid-template-columns: 1fr; gap: 0.2rem; }
+}

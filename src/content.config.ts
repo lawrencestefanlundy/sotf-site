@@ -27,6 +27,22 @@ const concepts = defineCollection({
       sources: z.array(z.string()).default([]),
       sources_7d: z.number().default(0),
       sources_30d: z.number().default(0),
+      recent_mentions: z
+        .array(z.object({
+          slug: z.string(),
+          title: z.string(),
+          date: z.string(),
+          kind: z.string(),
+        }))
+        .default([]),
+      neighbors: z
+        .array(z.object({
+          slug: z.string(),
+          name: z.string(),
+          path: z.string(),
+          macro: z.string(),
+        }))
+        .default([]),
       frontier: z.array(z.string()).default([]),
       last_updated: z.union([z.string(), z.date()]).optional(),
       last_reorg_date: z.union([z.string(), z.date()]).optional(),

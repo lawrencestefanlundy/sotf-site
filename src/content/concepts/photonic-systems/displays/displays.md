@@ -17,7 +17,12 @@ tags:
 - technology
 mention_count: 44
 last_reorg_date: '2026-05-14'
-sources_7d: 1
+descendants:
+- displays
+- holographic-volumetric-displays
+- micro-leds
+- oled
+sources_7d: 0
 sources_30d: 2
 recent_mentions: []
 neighbors: []

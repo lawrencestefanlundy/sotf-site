@@ -25,7 +25,7 @@ descendants:
 - mems
 - sensors
 - spectral-sensing
-sources_7d: 1
+sources_7d: 0
 sources_30d: 7
 recent_mentions:
 - slug: 2025-12-19-lfg-for-semiconductors

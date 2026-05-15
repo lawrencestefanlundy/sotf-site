@@ -32,6 +32,10 @@ recent_mentions:
   title: AMD reportedly hits U.S. regulatory roadblock for China-tailored chip - CNBC
   date: '2024-03-05'
   kind: web
+- slug: 2019-02-03-season-4-episode-2-arm-softbank
+  title: Season 4, Episode 2: ARM & SoftBank
+  date: '2019-02-03'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

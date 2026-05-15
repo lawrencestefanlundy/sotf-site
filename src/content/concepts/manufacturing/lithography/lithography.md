@@ -45,7 +45,7 @@ descendants:
 - two-photon-polymerization
 - xolography
 last_reorg_date: '2026-05-13'
-sources_7d: 3
+sources_7d: 0
 sources_30d: 7
 recent_mentions:
 - slug: 2026-05-02-euv-lithography-wikipedia

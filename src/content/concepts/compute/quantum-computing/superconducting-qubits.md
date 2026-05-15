@@ -21,7 +21,7 @@ tags:
 - technology
 mention_count: 19
 last_reorg_date: '2026-05-13'
-sources_7d: 1
+sources_7d: 0
 sources_30d: 3
 recent_mentions:
 - slug: 2025-09-18-qphox-and-rigetti-awarded-58m-contract-from-afrl-to-enable-o

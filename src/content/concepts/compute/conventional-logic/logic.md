@@ -38,6 +38,10 @@ recent_mentions:
   title: US Drops New Export Controls on the Chinese Semiconductor, Advanced Computing, and Supercomputer Industries - ArentFox Schiff
   date: '2022-10-10'
   kind: web
+- slug: 2019-02-03-season-4-episode-2-arm-softbank
+  title: Season 4, Episode 2: ARM & SoftBank
+  date: '2019-02-03'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

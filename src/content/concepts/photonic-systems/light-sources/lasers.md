@@ -27,8 +27,8 @@ tags:
 - technology
 mention_count: 50
 last_reorg_date: '2026-05-13'
-sources_7d: 5
-sources_30d: 14
+sources_7d: 1
+sources_30d: 13
 recent_mentions:
 - slug: 2026-04-15-any-color-you-like-nist-scientists-create-any-wavelength-las
   title: 'Any Color You Like: NIST Scientists Create ‘Any Wavelength’ Lasers in Tiny Circuits for Light'

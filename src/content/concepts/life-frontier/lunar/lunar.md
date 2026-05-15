@@ -16,7 +16,12 @@ tags:
 - concept
 - category
 mention_count: 0
-descendants: []
+descendants:
+- isru-in-situ-resource-utilisation
+- lunar
+- lunar-landers
+- lunar-surface-power
+- lunar-teleoperation
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0

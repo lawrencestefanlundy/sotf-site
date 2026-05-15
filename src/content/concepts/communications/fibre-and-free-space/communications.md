@@ -53,7 +53,7 @@ descendants:
 - sub-thz-6g
 - timing-clock-generation
 last_reorg_date: '2026-05-14'
-sources_7d: 6
+sources_7d: 1
 sources_30d: 19
 recent_mentions:
 - slug: 2026-04-24-i-am-artemis-peter-rossoni

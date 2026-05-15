@@ -19,7 +19,7 @@ mention_count: 71
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 2
+sources_30d: 1
 recent_mentions:
 - slug: 2025-12-15-department-of-commerce-awards-chips-incentives-to-a-subsidia
   title: Department of Commerce Awards CHIPS Incentives to a Subsidiary of Korea Zinc (Crucible Metals) to Support a State-of-the-Art Smelter and Critical Minerals Processing Facility in the United States - National Institute of Standards and Technology (.gov)

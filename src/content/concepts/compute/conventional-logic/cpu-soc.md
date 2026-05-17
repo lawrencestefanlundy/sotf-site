@@ -36,6 +36,10 @@ recent_mentions:
   title: Season 4, Episode 2: ARM & SoftBank
   date: '2019-02-03'
   kind: web
+- slug: 2017-11-20-episode-48-qualcomm---broadcom
+  title: Episode 48: Qualcomm - Broadcom
+  date: '2017-11-20'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

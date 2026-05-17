@@ -30,6 +30,14 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 1
 recent_mentions:
+- slug: 2026-05-16-ainews-cerebras-60b-ipo-slowly-then-all-at-once
+  title: '[AINews] Cerebras'' $60B IPO: Slowly, then All at Once'
+  date: '2026-05-16'
+  kind: web
+- slug: 2026-05-15-weekly-dose-of-optimism-193
+  title: 'Weekly Dose of Optimism #193'
+  date: '2026-05-15'
+  kind: web
 - slug: 2025-12-02-the-future-of-computing-is-glass
   title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
   date: '2025-12-02'
@@ -37,6 +45,10 @@ recent_mentions:
 - slug: 2025-10-29-how-the-worlds-first-flexible-ai-factory-will-work-in-tandem
   title: How the world’s first flexible AI factory will work in tandem with the grid - Latitude Media
   date: '2025-10-29'
+  kind: web
+- slug: 2025-10-21-frontier-forum-the-new-power-map-for-ai-infrastructure---lat
+  title: 'Frontier Forum: The new power map for AI infrastructure - Latitude Media'
+  date: '2025-10-21'
   kind: web
 - slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
   title: 'UK Opportunity in AI: Compound Semiconductors'
@@ -50,18 +62,6 @@ recent_mentions:
   title: U.S. Department of Commerce Rescinds Biden Administration’s AI Diffusion Export Control Rule and Issues New Guidance on Huawei, Chips for AI Purposes, and Diligence Expectations - Crowell & Moring LLP
   date: '2025-05-19'
   kind: web
-- slug: 2024-yole-advanced-packaging-2024
-  title: Yole Group — Advanced Packaging 2024 Market Analysis
-  date: '2024-12-01'
-  kind: web
-- slug: 2024-10-29-deploy-intelligence-too-cheap-to
-  title: Deploy! Intelligence too cheap to meter @ $0.0001 per million tokens.
-  date: '2024-10-29'
-  kind: substack
-- slug: 2024-10-22-state-of-the-future-part-deux
-  title: 'An AI Thesis: State of the Future! Part Deux'
-  date: '2024-10-22'
-  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

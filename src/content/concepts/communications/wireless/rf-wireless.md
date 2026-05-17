@@ -21,6 +21,14 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 1
 recent_mentions:
+- slug: 2026-02-03-broadcom-unveils-enterprise-grade-silicon-for-wi-fi-8-aps-an
+  title: Broadcom unveils enterprise-grade silicon for Wi-Fi 8 APs and Ethernet switches - Telecompaper
+  date: '2026-02-03'
+  kind: web
+- slug: 2025-12-15-ethernet-roadmap-sets-a-new-course-for-connectivity-in-2026-
+  title: Ethernet roadmap sets a new course for connectivity in 2026 - Electronic Products & Technology
+  date: '2025-12-15'
+  kind: web
 - slug: 2023-09-04-survey-shows-growing-need-for-multi-network-access---elektor
   title: Survey Shows Growing Need for Multi-Network Access - Elektor Magazine
   date: '2023-09-04'

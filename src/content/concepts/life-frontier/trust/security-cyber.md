@@ -28,9 +28,21 @@ recent_mentions:
   title: U.S. Department of Commerce Rescinds Biden Administration’s AI Diffusion Export Control Rule and Issues New Guidance on Huawei, Chips for AI Purposes, and Diligence Expectations - Crowell & Moring LLP
   date: '2025-05-19'
   kind: web
+- slug: 2025-05-06-akin-expands-international-trade-practice-with-addition-of-s
+  title: Akin Expands International Trade Practice With Addition of Senior Career Export Control Officials From the U.S. Department of Commerce’s Bureau of Industry and Security - Akin
+  date: '2025-05-06'
+  kind: web
+- slug: 2024-12-22-bidens-legacy-on-us-china-tech-competition-and-the-challenge
+  title: Biden’s Legacy on U.S.-China Tech Competition and the Challenges Facing Trump - The Wire China
+  date: '2024-12-22'
+  kind: web
 - slug: 2024-07-11-strategic-interdependence---phenomenal-world
   title: Strategic Interdependence - Phenomenal World
   date: '2024-07-11'
+  kind: web
+- slug: 2022-12-30-china-launches-wto-dispute-over-us-chip-export-controls---vo
+  title: China Launches WTO Dispute Over US Chip Export Controls - VOA - Voice of America English News
+  date: '2022-12-30'
   kind: web
 - slug: 2022-12-07-china-semiconductor-regulations--episode-ii-the-curious-case
   title: China Semiconductor Regulations -Episode II The Curious Case of the American in a Chinese Chip Company - JD Supra
@@ -39,14 +51,6 @@ recent_mentions:
 - slug: 2022-10-19-seismic-shifts-underway-in-global-semiconductor-market-as-us
   title: Seismic shifts underway in global semiconductor market as US accelerates decoupling from China - The Strategist | ASPI's analysis and commentary site
   date: '2022-10-19'
-  kind: web
-- slug: 2021-04-14-with-phytium-on-us-entity-list-alchip-halts-its-orders---tai
-  title: With Phytium on US entity list, Alchip halts its orders - Taipei Times
-  date: '2021-04-14'
-  kind: web
-- slug: 2021-03-05-we-strive-to-continuously-deliver-an-efficient-iot-architect
-  title: '''We strive to continuously deliver an efficient IoT architecture, i.e. the one ensuring unicity and authenticity of device, integrity of the firmware installed on it, and confidentiality of data.'' - Industrial Engineering News Europe'
-  date: '2021-03-05'
   kind: web
 neighbors: []
 ---

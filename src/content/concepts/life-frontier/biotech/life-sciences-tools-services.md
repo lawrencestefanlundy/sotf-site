@@ -24,6 +24,10 @@ recent_mentions:
   title: 'DARPA SBIR: Profusa Implantable Biosensors - COL Matt Hepburn (Tz3cFR1ktT) - fathomjournal.org'
   date: '2026-05-12'
   kind: web
+- slug: 2023-03-29-10-oxford-companies-changing-the-world---oxford-university-i
+  title: 10 Oxford companies changing the world - Oxford University Innovation
+  date: '2023-03-29'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

@@ -20,9 +20,21 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-04-08-darpa-launches-mathbac-program-for-multi-agent-ai-research--
+  title: DARPA launches MATHBAC program for multi agent AI research - The Defence Blog
+  date: '2026-04-08'
+  kind: web
 - slug: 2025-09-09-meet-the-semi-finalists-of-the-2026-european-capital-of-inno
   title: Meet the semi-finalists of the 2026 European Capital of Innovation Awards! - European Innovation Council
   date: '2025-09-09'
+  kind: web
+- slug: 2025-03-14-understanding-us-allies-current-legal-authority-to-implement
+  title: Understanding U.S. Allies’ Current Legal Authority to Implement AI and Semiconductor Export Controls - CSIS | Center for Strategic and International Studies
+  date: '2025-03-14'
+  kind: web
+- slug: 2025-02-05-bis-issues-long-awaited-export-controls-on-ai---wilmerhale
+  title: BIS Issues Long-Awaited Export Controls on AI - WilmerHale
+  date: '2025-02-05'
   kind: web
 - slug: 2025-01-22-accelerating-40-groundbreaking-technologies-from-lab-to-mark
   title: accelerating 40 groundbreaking technologies from lab to market readiness - European Innovation Council
@@ -31,6 +43,14 @@ recent_mentions:
 - slug: 2024-10-30-eic-accelerator-challenges-2025---european-innovation-counci
   title: EIC Accelerator Challenges 2025 - European Innovation Council
   date: '2024-10-30'
+  kind: web
+- slug: 2023-03-29-10-oxford-companies-changing-the-world---oxford-university-i
+  title: 10 Oxford companies changing the world - Oxford University Innovation
+  date: '2023-03-29'
+  kind: web
+- slug: 2023-03-16-budget-uk-chip-strategy-still-nowhere-to-be-seen-money-for-q
+  title: 'Budget: UK chip strategy still nowhere to be seen. Money for quantum, AI? Sure - The Register'
+  date: '2023-03-16'
   kind: web
 neighbors: []
 ---

@@ -52,13 +52,13 @@ recent_mentions:
   title: BIS Imposes New Export Controls on Quantum, Semiconductor and Additive Manufacturing Technologies - globaltradeandsanctionslaw.com
   date: '2024-09-11'
   kind: web
+- slug: 2024-06-17-from-solar-fuel-and-anti-fog-glasses-to-manufacturing-innova
+  title: From solar fuel and anti-fog glasses to manufacturing innovation - ETH Zürich
+  date: '2024-06-17'
+  kind: web
 - slug: 2022-05-09-elementum-funded-by-darpa-to-develop-am-process-for-rhenium-
   title: Elementum funded by DARPA to develop AM process for rhenium - Metal Additive Manufacturing magazine
   date: '2022-05-09'
-  kind: web
-- slug: 2021-02-04-meta-additive-awarded-innovate-uk-smart-grant-for-bjt-proces
-  title: Meta Additive awarded Innovate UK SMART Grant for BJT process - Metal Additive Manufacturing magazine
-  date: '2021-02-04'
   kind: web
 neighbors: []
 ---

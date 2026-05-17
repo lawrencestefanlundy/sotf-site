@@ -75,29 +75,37 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-05-14-nasa-industry-prepare-cryogenic-fuel-technology-demo
+  title: NASA, Industry Prepare Cryogenic Fuel Technology Demo
+  date: '2026-05-14'
+  kind: web
+- slug: 2026-04-10-doe-to-award-100-million-in-grants-amid-science-funding-cuts
+  title: DOE to award $100 million in grants amid science funding cuts - R&D World
+  date: '2026-04-10'
+  kind: web
 - slug: 2026-01-28-as-redwood-materials-shifts-into-developing-storage-google-i
   title: As Redwood Materials shifts into developing storage, Google invests - Latitude Media
   date: '2026-01-28'
+  kind: web
+- slug: 2026-01-20-a-rain-delay-for-the-energy-transition---latitude-media
+  title: A ‘rain delay’ for the energy transition - Latitude Media
+  date: '2026-01-20'
   kind: web
 - slug: 2025-10-29-how-the-worlds-first-flexible-ai-factory-will-work-in-tandem
   title: How the world’s first flexible AI factory will work in tandem with the grid - Latitude Media
   date: '2025-10-29'
   kind: web
-- slug: 2025-07-28-why-redwood-materials-cto-changed-his-mind-about-second-life
-  title: Why Redwood Materials’ CTO changed his mind about second-life grid storage - Latitude Media
-  date: '2025-07-28'
+- slug: 2025-10-21-frontier-forum-the-new-power-map-for-ai-infrastructure---lat
+  title: 'Frontier Forum: The new power map for AI infrastructure - Latitude Media'
+  date: '2025-10-21'
   kind: web
-- slug: 2025-07-03-the-problem-with-waste-heat-recovery---latitude-media
-  title: The problem with waste heat recovery - Latitude Media
-  date: '2025-07-03'
+- slug: 2025-09-16-the-case-against-relying-on-behind-the-meter-power-for-data-
+  title: The case against relying on behind-the-meter power for data centers - Latitude Media
+  date: '2025-09-16'
   kind: web
-- slug: 2024-04-18-how-an-obscure-100-year-old-law-is-disrupting-us-energy---la
-  title: How an obscure, 100-year old law is disrupting US energy - Latitude Media
-  date: '2024-04-18'
-  kind: web
-- slug: 2020-06-11-virginia-tech-awarded-24-million-from-arpa-e-for-transformat
-  title: Virginia Tech awarded $2.4 million from ARPA-E for transformational energy technology - Virginia Tech News
-  date: '2020-06-11'
+- slug: 2025-09-08-a-status-update-on-data-center-flexibility---latitude-media
+  title: A status update on data center flexibility - Latitude Media
+  date: '2025-09-08'
   kind: web
 neighbors: []
 ---

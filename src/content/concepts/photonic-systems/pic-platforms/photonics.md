@@ -61,6 +61,10 @@ recent_mentions:
   title: BTO Pockels modulator on silicon photonics (JLT 2019)
   date: '2026-05-02'
   kind: web
+- slug: 2026-04-10-doe-to-award-100-million-in-grants-amid-science-funding-cuts
+  title: DOE to award $100 million in grants amid science funding cuts - R&D World
+  date: '2026-04-10'
+  kind: web
 - slug: 2026-02-12-how-to-invest-in-ai-sovereignty-sovereign
   title: How to Invest in AI Sovereignty — Sovereign Albion w/ Andrew Bennett
   date: '2026-02-12'
@@ -77,10 +81,6 @@ recent_mentions:
   title: Inside the GAO’s Review of CHIPS Act Manufacturing Investments - Optics & Photonics News
   date: '2026-01-09'
   kind: web
-- slug: 2025-12-19-lfg-for-semiconductors
-  title: LFG (for semiconductors)
-  date: '2025-12-19'
-  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

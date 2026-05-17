@@ -20,6 +20,18 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-01-20-a-rain-delay-for-the-energy-transition---latitude-media
+  title: A ‘rain delay’ for the energy transition - Latitude Media
+  date: '2026-01-20'
+  kind: web
+- slug: 2025-09-16-the-case-against-relying-on-behind-the-meter-power-for-data-
+  title: The case against relying on behind-the-meter power for data centers - Latitude Media
+  date: '2025-09-16'
+  kind: web
+- slug: 2025-04-23-whats-next-for-the-battery-storage-boom---latitude-media
+  title: What’s next for the battery storage boom? - Latitude Media
+  date: '2025-04-23'
+  kind: web
 - slug: 2024-04-18-how-an-obscure-100-year-old-law-is-disrupting-us-energy---la
   title: How an obscure, 100-year old law is disrupting US energy - Latitude Media
   date: '2024-04-18'

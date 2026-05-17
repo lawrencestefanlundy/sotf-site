@@ -18,8 +18,24 @@ tags:
 mention_count: 78
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 4
+sources_30d: 3
 recent_mentions:
+- slug: 2026-05-16-cowboy-space-corporation
+  title: Cowboy Space Corporation
+  date: '2026-05-16'
+  kind: web
+- slug: 2026-05-15-weekly-dose-of-optimism-193
+  title: 'Weekly Dose of Optimism #193'
+  date: '2026-05-15'
+  kind: web
+- slug: 2026-05-14-nasa-industry-prepare-cryogenic-fuel-technology-demo
+  title: NASA, Industry Prepare Cryogenic Fuel Technology Demo
+  date: '2026-05-14'
+  kind: web
+- slug: 2026-05-14-nasa-draws-on-industry-for-mars-telecommunications-network
+  title: NASA Draws on Industry for Mars Telecommunications Network
+  date: '2026-05-14'
+  kind: web
 - slug: 2026-05-13-nasa-supported-space-tech-advances-earthly-construction
   title: NASA-Supported Space Tech Advances Earthly Construction
   date: '2026-05-13'
@@ -35,22 +51,6 @@ recent_mentions:
 - slug: 2026-05-12-i-am-artemis-kathleen-harmon
   title: 'I Am Artemis: Kathleen Harmon'
   date: '2026-05-12'
-  kind: web
-- slug: 2026-04-29-americas-seed-fund-is-being-revamped-for-modern-warfare---de
-  title: ‘America’s seed fund’ is being revamped for modern warfare - DefenseScoop
-  date: '2026-04-29'
-  kind: web
-- slug: 2025-06-08-rocket-lab-signs-preliminary-terms-to-receive-up-to-239m-in-
-  title: Rocket Lab Signs Preliminary Terms to Receive up to $23.9M in Funding Under the CHIPS Act to Expand Production of Semiconductors that Power Spacecraft - Rocket Lab
-  date: '2025-06-08'
-  kind: web
-- slug: 2025-06-06-rocket-lab-celebrates-chips-act-funding-preliminary-agreemen
-  title: Rocket Lab Celebrates CHIPS Act Funding Preliminary Agreement in Albuquerque - Rocket Lab
-  date: '2025-06-06'
-  kind: web
-- slug: 2024-12-02-the-bureau-of-industry-and-security-announces-two-new-rules-
-  title: The Bureau of Industry and Security Announces Two New Rules Updating the Export Administration Regulations | Insights - Squire Patton Boggs
-  date: '2024-12-02'
   kind: web
 neighbors: []
 ---

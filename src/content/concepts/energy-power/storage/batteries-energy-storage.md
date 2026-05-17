@@ -36,6 +36,10 @@ recent_mentions:
   title: Why Redwood Materials’ CTO changed his mind about second-life grid storage - Latitude Media
   date: '2025-07-28'
   kind: web
+- slug: 2025-04-23-whats-next-for-the-battery-storage-boom---latitude-media
+  title: What’s next for the battery storage boom? - Latitude Media
+  date: '2025-04-23'
+  kind: web
 - slug: 2024-04-22-the-challenging-economics-of-battery-recycling---latitude-me
   title: The challenging economics of battery recycling - Latitude Media
   date: '2024-04-22'

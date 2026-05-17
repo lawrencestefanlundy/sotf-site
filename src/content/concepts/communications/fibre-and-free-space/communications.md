@@ -54,7 +54,7 @@ descendants:
 - timing-clock-generation
 last_reorg_date: '2026-05-14'
 sources_7d: 1
-sources_30d: 19
+sources_30d: 18
 recent_mentions:
 - slug: 2026-04-24-i-am-artemis-peter-rossoni
   title: 'I Am Artemis: Peter Rossoni'
@@ -64,6 +64,10 @@ recent_mentions:
   title: LFG (for semiconductors)
   date: '2025-12-19'
   kind: substack
+- slug: 2025-12-15-ethernet-roadmap-sets-a-new-course-for-connectivity-in-2026-
+  title: Ethernet roadmap sets a new course for connectivity in 2026 - Electronic Products & Technology
+  date: '2025-12-15'
+  kind: web
 - slug: 2025-12-09-gallium-nitride-photonics-w-james
   title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
   date: '2025-12-09'
@@ -83,10 +87,6 @@ recent_mentions:
 - slug: 2025-04-30-has-the-time-come-to-take-mortal
   title: Has the time come to take Mortal Computing seriously?
   date: '2025-04-30'
-  kind: substack
-- slug: 2024-12-16-willow-and-the-race-to-quantum-advantage
-  title: Willow and The Race to Quantum Advantage (Feat. Kris Kaczmarek)
-  date: '2024-12-16'
   kind: substack
 neighbors: []
 ---

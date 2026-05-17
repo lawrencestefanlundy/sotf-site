@@ -20,6 +20,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2025-11-17-hms-networks-acquires-industrial-communications-business-fro
+  title: HMS Networks acquires Industrial Communications Business from Molex Industrial Solutions Business Unit - Yahoo Finance
+  date: '2025-11-17'
+  kind: web
 - slug: 2023-09-04-survey-shows-growing-need-for-multi-network-access---elektor
   title: Survey Shows Growing Need for Multi-Network Access - Elektor Magazine
   date: '2023-09-04'

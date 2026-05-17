@@ -21,9 +21,25 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-05-14-nasa-draws-on-industry-for-mars-telecommunications-network
+  title: NASA Draws on Industry for Mars Telecommunications Network
+  date: '2026-05-14'
+  kind: web
 - slug: 2026-05-12-darpa-sbir-profusa-implantable-biosensors---col-matt-hepburn
   title: 'DARPA SBIR: Profusa Implantable Biosensors - COL Matt Hepburn (Tz3cFR1ktT) - fathomjournal.org'
   date: '2026-05-12'
+  kind: web
+- slug: 2025-12-01-european-spinouts-report-2025-max-planck-leads-the-way-in-ge
+  title: 'European Spinouts Report 2025: Max-Planck leads the way in Germany - Max-Planck-Gesellschaft'
+  date: '2025-12-01'
+  kind: web
+- slug: 2024-04-30-the-ecosystem-inside-eth-zurichs-spin-off-factory---scienceb
+  title: 'The Ecosystem: inside ETH Zurich’s spin-off factory - Science|Business'
+  date: '2024-04-30'
+  kind: web
+- slug: 2023-03-29-10-oxford-companies-changing-the-world---oxford-university-i
+  title: 10 Oxford companies changing the world - Oxford University Innovation
+  date: '2023-03-29'
   kind: web
 neighbors: []
 ---

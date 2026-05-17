@@ -53,9 +53,17 @@ last_reorg_date: '2026-05-13'
 sources_7d: 2
 sources_30d: 41
 recent_mentions:
+- slug: 2026-05-15-weekly-dose-of-optimism-193
+  title: 'Weekly Dose of Optimism #193'
+  date: '2026-05-15'
+  kind: web
 - slug: 2026-04-21-quantum-101
   title: Quantum 101
   date: '2026-04-21'
+  kind: web
+- slug: 2026-04-10-doe-to-award-100-million-in-grants-amid-science-funding-cuts
+  title: DOE to award $100 million in grants amid science funding cuts - R&D World
+  date: '2026-04-10'
   kind: web
 - slug: 2026-03-11-xanadu-awarded-20m-arpa-e-grant-for-quantum-battery-research
   title: Xanadu Awarded $2.0M ARPA-E Grant for Quantum Battery Research - The Quantum Insider
@@ -77,14 +85,6 @@ recent_mentions:
   title: QubitSolve Secures $1.2 Million NSF SBIR Grant to Accelerate Quantum CFD Development - Quantum Computing Report
   date: '2025-12-18'
   kind: web
-- slug: 2025-12-09-gallium-nitride-photonics-w-james
-  title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
-  date: '2025-12-09'
-  kind: substack
-- slug: 2025-12-02-the-future-of-computing-is-glass
-  title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
-  date: '2025-12-02'
-  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

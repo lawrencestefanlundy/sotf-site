@@ -25,7 +25,7 @@ mention_count: 31
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 4
+sources_30d: 2
 recent_mentions: []
 neighbors: []
 ---

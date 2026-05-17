@@ -24,9 +24,25 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 3
 recent_mentions:
+- slug: 2026-05-15-a-us-economic-security-latency-fund
+  title: A U.S. Economic Security “Latency Fund”
+  date: '2026-05-15'
+  kind: web
 - slug: 2026-05-13-revamping-europes-chips-strategy-indispensability-not-self-s
   title: 'Revamping Europe’s chips strategy: indispensability, not self-sufficiency - Bruegel'
   date: '2026-05-13'
+  kind: web
+- slug: 2026-05-03-chips-act-semiconductor-industry---deloitte
+  title: 'CHIPS Act: Semiconductor Industry - Deloitte'
+  date: '2026-05-03'
+  kind: web
+- slug: 2026-04-27-tooling-up-the-chips-act-how-to-fast-track-your-new-fab-equi
+  title: 'Tooling up the CHIPS Act: How to fast-track your new fab equipment ramp - Deloitte'
+  date: '2026-04-27'
+  kind: web
+- slug: 2026-04-23-us-semiconductor-industry-needs-public-private-partnerships-
+  title: US semiconductor industry needs public-private partnerships for an innovation ecosystem - Deloitte
+  date: '2026-04-23'
   kind: web
 - slug: 2026-02-17-how-the-us-won-back-chip-manufacturing---chinatalk-jordan-sc
   title: How the US Won Back Chip Manufacturing - ChinaTalk | Jordan Schneider
@@ -39,22 +55,6 @@ recent_mentions:
 - slug: 2025-12-30-us-eases-semiconductor-equipment-rules-for-samsung-sk-hynix-
   title: U.S. Eases Semiconductor Equipment Rules for Samsung, SK Hynix in China - 조선일보
   date: '2025-12-30'
-  kind: web
-- slug: 2025-12-07-globalfoundries-gfs-revisiting-valuation-after-major-chips-a
-  title: 'GlobalFoundries (GFS): Revisiting Valuation After Major CHIPS Act Backing and Trusted US Foundry Status - Yahoo Finance'
-  date: '2025-12-07'
-  kind: web
-- slug: 2025-12-04-us-senators-unveil-bill-to-prevent-easing-of-curbs-on-nvidia
-  title: US senators unveil bill to prevent easing of curbs on Nvidia chip sales to China - Reuters
-  date: '2025-12-04'
-  kind: web
-- slug: 2025-12-03-eu-parliament-adopts-position-on-chips-act---ee-times
-  title: EU Parliament Adopts Position on Chips Act - EE Times
-  date: '2025-12-03'
-  kind: web
-- slug: 2025-12-03-out-of-bankruptcy-wolfspeed-welcomes-nearly-700m-fund---utic
-  title: Out of bankruptcy, Wolfspeed, welcomes nearly $700M fund - Utica Observer Dispatch
-  date: '2025-12-03'
   kind: web
 neighbors: []
 ---

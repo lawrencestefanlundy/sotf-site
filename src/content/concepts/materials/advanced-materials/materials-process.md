@@ -19,8 +19,12 @@ mention_count: 71
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
+- slug: 2025-12-18-digital-twins-for-chip-manufacturing-rd-faces-unexpected-set
+  title: Digital Twins for Chip Manufacturing R&D Faces Unexpected Setback - IEEE Spectrum
+  date: '2025-12-18'
+  kind: web
 - slug: 2025-12-15-department-of-commerce-awards-chips-incentives-to-a-subsidia
   title: Department of Commerce Awards CHIPS Incentives to a Subsidiary of Korea Zinc (Crucible Metals) to Support a State-of-the-Art Smelter and Critical Minerals Processing Facility in the United States - National Institute of Standards and Technology (.gov)
   date: '2025-12-15'
@@ -29,9 +33,17 @@ recent_mentions:
   title: 'GlobalFoundries (GFS): Revisiting Valuation After Major CHIPS Act Backing and Trusted US Foundry Status - Yahoo Finance'
   date: '2025-12-07'
   kind: web
+- slug: 2024-06-17-from-solar-fuel-and-anti-fog-glasses-to-manufacturing-innova
+  title: From solar fuel and anti-fog glasses to manufacturing innovation - ETH Zürich
+  date: '2024-06-17'
+  kind: web
 - slug: 2024-04-22-the-challenging-economics-of-battery-recycling---latitude-me
   title: The challenging economics of battery recycling - Latitude Media
   date: '2024-04-22'
+  kind: web
+- slug: 2023-03-29-fluorok-the-future-of-fluorination---oxford-university-innov
+  title: 'FluoRok: the future of fluorination - Oxford University Innovation'
+  date: '2023-03-29'
   kind: web
 neighbors: []
 ---

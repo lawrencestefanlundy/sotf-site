@@ -18,7 +18,7 @@ tags:
 mention_count: 108
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 3
+sources_30d: 1
 recent_mentions:
 - slug: 2026-04-09-the-rise-of-flexible-data-centers---latitude-media
   title: The rise of flexible data centers - Latitude Media
@@ -27,6 +27,18 @@ recent_mentions:
 - slug: 2025-10-29-how-the-worlds-first-flexible-ai-factory-will-work-in-tandem
   title: How the world’s first flexible AI factory will work in tandem with the grid - Latitude Media
   date: '2025-10-29'
+  kind: web
+- slug: 2025-10-21-frontier-forum-the-new-power-map-for-ai-infrastructure---lat
+  title: 'Frontier Forum: The new power map for AI infrastructure - Latitude Media'
+  date: '2025-10-21'
+  kind: web
+- slug: 2025-09-16-the-case-against-relying-on-behind-the-meter-power-for-data-
+  title: The case against relying on behind-the-meter power for data centers - Latitude Media
+  date: '2025-09-16'
+  kind: web
+- slug: 2025-09-08-a-status-update-on-data-center-flexibility---latitude-media
+  title: A status update on data center flexibility - Latitude Media
+  date: '2025-09-08'
   kind: web
 - slug: 2025-06-25-distinguishing-signal-from-noise-in-the-data-center-market--
   title: Distinguishing signal from noise in the data center market - Latitude Media

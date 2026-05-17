@@ -67,8 +67,8 @@ descendants:
 - sram
 - storage-class-memory
 last_reorg_date: '2026-05-14'
-sources_7d: 6
-sources_30d: 42
+sources_7d: 5
+sources_30d: 39
 recent_mentions:
 - slug: 2026-04-16-should-the-us-buy-from-cxmt
   title: Should the US Buy from CXMT?

@@ -28,6 +28,14 @@ recent_mentions:
   title: 'Weekly Dose of Optimism #193'
   date: '2026-05-15'
   kind: web
+- slug: 2026-05-15-week-in-images-11-15-may-2026
+  title: 'Week in images: 11-15 May 2026'
+  date: '2026-05-15'
+  kind: web
+- slug: 2026-05-15-preparing-smile-for-space
+  title: Preparing Smile for space
+  date: '2026-05-15'
+  kind: web
 - slug: 2026-05-14-nasa-industry-prepare-cryogenic-fuel-technology-demo
   title: NASA, Industry Prepare Cryogenic Fuel Technology Demo
   date: '2026-05-14'
@@ -43,14 +51,6 @@ recent_mentions:
 - slug: 2026-05-13-nasa-outlines-preliminary-artemis-iii-mission-plans
   title: NASA Outlines Preliminary Artemis III Mission Plans
   date: '2026-05-13'
-  kind: web
-- slug: 2026-05-12-hello-universe-nasas-next-gen-space-processor-undergoes-test
-  title: 'Hello Universe: NASA’s Next-Gen Space Processor Undergoes Testing'
-  date: '2026-05-12'
-  kind: web
-- slug: 2026-05-12-i-am-artemis-kathleen-harmon
-  title: 'I Am Artemis: Kathleen Harmon'
-  date: '2026-05-12'
   kind: web
 neighbors: []
 ---

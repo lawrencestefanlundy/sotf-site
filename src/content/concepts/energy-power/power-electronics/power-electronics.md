@@ -33,7 +33,7 @@ descendants:
 - power-management-ic
 - solid-state-circuit-breakers
 - wireless-power-transfer
-sources_7d: 2
+sources_7d: 1
 sources_30d: 4
 recent_mentions:
 - slug: 2026-02-19-the-rise-of-grid-power-electronics-with-drew-baglino---latit

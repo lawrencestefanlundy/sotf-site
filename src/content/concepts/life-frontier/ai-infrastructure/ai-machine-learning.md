@@ -32,6 +32,10 @@ recent_mentions:
   title: Understanding U.S. Allies’ Current Legal Authority to Implement AI and Semiconductor Export Controls - CSIS | Center for Strategic and International Studies
   date: '2025-03-14'
   kind: web
+- slug: 2025-02-13-eic-summit-2025---european-innovation-council
+  title: EIC Summit 2025 - European Innovation Council
+  date: '2025-02-13'
+  kind: web
 - slug: 2025-02-05-bis-issues-long-awaited-export-controls-on-ai---wilmerhale
   title: BIS Issues Long-Awaited Export Controls on AI - WilmerHale
   date: '2025-02-05'
@@ -40,17 +44,13 @@ recent_mentions:
   title: accelerating 40 groundbreaking technologies from lab to market readiness - European Innovation Council
   date: '2025-01-22'
   kind: web
+- slug: 2024-11-03-challenge-guide-towards-autonomous-robot-collectives-deliver
+  title: Challenge Guide – Towards autonomous robot collectives delivering collaborative tasks in dynamic unstructured construction environments - European Innovation Council
+  date: '2024-11-03'
+  kind: web
 - slug: 2024-10-30-eic-accelerator-challenges-2025---european-innovation-counci
   title: EIC Accelerator Challenges 2025 - European Innovation Council
   date: '2024-10-30'
-  kind: web
-- slug: 2023-03-29-10-oxford-companies-changing-the-world---oxford-university-i
-  title: 10 Oxford companies changing the world - Oxford University Innovation
-  date: '2023-03-29'
-  kind: web
-- slug: 2023-03-16-budget-uk-chip-strategy-still-nowhere-to-be-seen-money-for-q
-  title: 'Budget: UK chip strategy still nowhere to be seen. Money for quantum, AI? Sure - The Register'
-  date: '2023-03-16'
   kind: web
 neighbors: []
 ---

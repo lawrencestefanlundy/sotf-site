@@ -65,6 +65,14 @@ recent_mentions:
   title: DOE to award $100 million in grants amid science funding cuts - R&D World
   date: '2026-04-10'
   kind: web
+- slug: 2026-03-10-eic-ambassadors---european-innovation-council
+  title: EIC Ambassadors - European Innovation Council
+  date: '2026-03-10'
+  kind: web
+- slug: 2026-03-09-high-interest-in-first-eic-advanced-innovation-challenges-ca
+  title: High interest in first EIC Advanced Innovation Challenges call - European Innovation Council
+  date: '2026-03-09'
+  kind: web
 - slug: 2026-02-12-how-to-invest-in-ai-sovereignty-sovereign
   title: How to Invest in AI Sovereignty — Sovereign Albion w/ Andrew Bennett
   date: '2026-02-12'
@@ -73,14 +81,6 @@ recent_mentions:
   title: Photonic "Engines" for Data Centers
   date: '2026-02-02'
   kind: substack
-- slug: 2026-01-24-warning-from-the-photonics-industry-europes-lead-is-at-risk-
-  title: 'Warning from the photonics industry: Europe’s lead is at risk - ioplus.nl'
-  date: '2026-01-24'
-  kind: web
-- slug: 2026-01-09-inside-the-gaos-review-of-chips-act-manufacturing-investment
-  title: Inside the GAO’s Review of CHIPS Act Manufacturing Investments - Optics & Photonics News
-  date: '2026-01-09'
-  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

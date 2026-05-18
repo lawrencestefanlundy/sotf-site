@@ -50,7 +50,7 @@ descendants:
 - topological-qubits
 - trapped-ion
 last_reorg_date: '2026-05-13'
-sources_7d: 2
+sources_7d: 0
 sources_30d: 41
 recent_mentions:
 - slug: 2026-05-15-weekly-dose-of-optimism-193
@@ -69,6 +69,10 @@ recent_mentions:
   title: Xanadu Awarded $2.0M ARPA-E Grant for Quantum Battery Research - The Quantum Insider
   date: '2026-03-11'
   kind: web
+- slug: 2026-03-09-high-interest-in-first-eic-advanced-innovation-challenges-ca
+  title: High interest in first EIC Advanced Innovation Challenges call - European Innovation Council
+  date: '2026-03-09'
+  kind: web
 - slug: 2026-03-06-xanadu-awarded-20-million-arpa-e-grant-to-advance-quantum-pl
   title: Xanadu Awarded $2.0 Million ARPA-E Grant to Advance Quantum Platform for Next-Generation Batteries - Xanadu Quantum
   date: '2026-03-06'
@@ -81,10 +85,6 @@ recent_mentions:
   title: 'AI Chips, ComputeRAM and the Future of Data Movement: A Conversation with Manu, Founder of Synthara'
   date: '2026-01-22'
   kind: substack
-- slug: 2025-12-18-qubitsolve-secures-12-million-nsf-sbir-grant-to-accelerate-q
-  title: QubitSolve Secures $1.2 Million NSF SBIR Grant to Accelerate Quantum CFD Development - Quantum Computing Report
-  date: '2025-12-18'
-  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

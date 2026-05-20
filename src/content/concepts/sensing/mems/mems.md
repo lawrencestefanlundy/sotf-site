@@ -26,7 +26,7 @@ descendants:
 - sensors
 - spectral-sensing
 sources_7d: 0
-sources_30d: 7
+sources_30d: 6
 recent_mentions:
 - slug: 2025-12-19-lfg-for-semiconductors
   title: LFG (for semiconductors)

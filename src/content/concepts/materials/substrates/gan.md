@@ -29,7 +29,7 @@ tags:
 mention_count: 22
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 4
+sources_30d: 3
 recent_mentions:
 - slug: 2026-04-20-fixing-the-gan-problem
   title: Fixing the GaN Problem

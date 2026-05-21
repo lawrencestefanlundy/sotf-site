@@ -51,7 +51,7 @@ descendants:
 - trapped-ion
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 41
+sources_30d: 40
 recent_mentions:
 - slug: 2026-05-15-weekly-dose-of-optimism-193
   title: 'Weekly Dose of Optimism #193'

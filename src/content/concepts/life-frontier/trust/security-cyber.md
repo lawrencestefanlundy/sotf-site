@@ -18,7 +18,7 @@ tags:
 mention_count: 30
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-02-13-us-firm-korean-unit-to-pay-252m-over-illegal-chip-exports-to
   title: US firm, Korean unit to pay $252M over illegal chip exports to China - The Korea Times

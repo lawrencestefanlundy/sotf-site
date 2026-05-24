@@ -34,7 +34,7 @@ mention_count: 60
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 8
+sources_30d: 7
 recent_mentions:
 - slug: 2026-05-13-nasa-outlines-preliminary-artemis-iii-mission-plans
   title: NASA Outlines Preliminary Artemis III Mission Plans

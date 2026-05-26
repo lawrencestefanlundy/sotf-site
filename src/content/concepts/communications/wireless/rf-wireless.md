@@ -19,7 +19,7 @@ mention_count: 44
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-02-03-broadcom-unveils-enterprise-grade-silicon-for-wi-fi-8-aps-an
   title: Broadcom unveils enterprise-grade silicon for Wi-Fi 8 APs and Ethernet switches - Telecompaper

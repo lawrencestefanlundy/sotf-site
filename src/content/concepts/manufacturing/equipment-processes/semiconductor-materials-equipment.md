@@ -18,7 +18,7 @@ tags:
 mention_count: 100
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 2
+sources_30d: 1
 recent_mentions:
 - slug: 2026-05-03-chips-act-semiconductor-industry---deloitte
   title: 'CHIPS Act: Semiconductor Industry - Deloitte'

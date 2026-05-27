@@ -16,11 +16,11 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 14
+mention_count: 15
 descendants: []
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 2
+sources_30d: 3
 recent_mentions:
 - slug: 2025-04-16-the-state-of-photonic-computing
   title: 'Photonic Computing: A Primer'

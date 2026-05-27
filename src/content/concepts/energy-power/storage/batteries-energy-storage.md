@@ -19,31 +19,7 @@ mention_count: 50
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-03-11-xanadu-awarded-20m-arpa-e-grant-for-quantum-battery-research
-  title: Xanadu Awarded $2.0M ARPA-E Grant for Quantum Battery Research - The Quantum Insider
-  date: '2026-03-11'
-  kind: web
-- slug: 2026-03-06-xanadu-awarded-20-million-arpa-e-grant-to-advance-quantum-pl
-  title: Xanadu Awarded $2.0 Million ARPA-E Grant to Advance Quantum Platform for Next-Generation Batteries - Xanadu Quantum
-  date: '2026-03-06'
-  kind: web
-- slug: 2026-01-28-as-redwood-materials-shifts-into-developing-storage-google-i
-  title: As Redwood Materials shifts into developing storage, Google invests - Latitude Media
-  date: '2026-01-28'
-  kind: web
-- slug: 2025-07-28-why-redwood-materials-cto-changed-his-mind-about-second-life
-  title: Why Redwood Materials’ CTO changed his mind about second-life grid storage - Latitude Media
-  date: '2025-07-28'
-  kind: web
-- slug: 2025-04-23-whats-next-for-the-battery-storage-boom---latitude-media
-  title: What’s next for the battery storage boom? - Latitude Media
-  date: '2025-04-23'
-  kind: web
-- slug: 2024-04-22-the-challenging-economics-of-battery-recycling---latitude-me
-  title: The challenging economics of battery recycling - Latitude Media
-  date: '2024-04-22'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

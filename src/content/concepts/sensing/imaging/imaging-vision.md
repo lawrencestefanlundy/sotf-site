@@ -19,15 +19,7 @@ mention_count: 70
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-05-15-week-in-images-11-15-may-2026
-  title: 'Week in images: 11-15 May 2026'
-  date: '2026-05-15'
-  kind: web
-- slug: 2026-05-15-preparing-smile-for-space
-  title: Preparing Smile for space
-  date: '2026-05-15'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

@@ -30,24 +30,17 @@ sources:
 - '[[2025-04-16-the-state-of-photonic-computing]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
-- '[[2026-05-02-return-of-lithium-niobate-photonics-spectra-jan-2026]]'
-- '[[2026-01-24-warning-from-the-photonics-industry-europes-lead-is-at-risk-]]'
-- '[[2025-09-26-edmund-optics-acquires-son-x-bioscan-marapr-2025---photonics]]'
-- '[[2026-05-02-hybrid-bto-sin-ultra-low-power-tuning-acs-photonics]]'
-- '[[2026-01-09-inside-the-gaos-review-of-chips-act-manufacturing-investment]]'
-- '[[2025-01-06-radiant-acquires-nilt]]'
-- '[[2026-05-02-bto-pockels-modulator-on-silicon-photonics-jlt-2019]]'
 frontier:
 - ''
 last_updated: '2026-05-07'
 tags:
 - concept
 - theme
-mention_count: 276
+mention_count: 307
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 17
+sources_30d: 19
 recent_mentions:
 - slug: 2026-05-02-return-of-lithium-niobate-photonics-spectra-jan-2026
   title: Return of Lithium Niobate (Photonics Spectra Jan 2026)
@@ -61,18 +54,6 @@ recent_mentions:
   title: BTO Pockels modulator on silicon photonics (JLT 2019)
   date: '2026-05-02'
   kind: web
-- slug: 2026-04-10-doe-to-award-100-million-in-grants-amid-science-funding-cuts
-  title: DOE to award $100 million in grants amid science funding cuts - R&D World
-  date: '2026-04-10'
-  kind: web
-- slug: 2026-03-10-eic-ambassadors---european-innovation-council
-  title: EIC Ambassadors - European Innovation Council
-  date: '2026-03-10'
-  kind: web
-- slug: 2026-03-09-high-interest-in-first-eic-advanced-innovation-challenges-ca
-  title: High interest in first EIC Advanced Innovation Challenges call - European Innovation Council
-  date: '2026-03-09'
-  kind: web
 - slug: 2026-02-12-how-to-invest-in-ai-sovereignty-sovereign
   title: How to Invest in AI Sovereignty — Sovereign Albion w/ Andrew Bennett
   date: '2026-02-12'
@@ -80,6 +61,18 @@ recent_mentions:
 - slug: 2026-02-02-photonic-engines-for-data-centers
   title: Photonic "Engines" for Data Centers
   date: '2026-02-02'
+  kind: substack
+- slug: 2026-01-24-warning-from-the-photonics-industry-europes-lead-is-at-risk-
+  title: 'Warning from the photonics industry: Europe’s lead is at risk - ioplus.nl'
+  date: '2026-01-24'
+  kind: web
+- slug: 2026-01-09-inside-the-gaos-review-of-chips-act-manufacturing-investment
+  title: Inside the GAO’s Review of CHIPS Act Manufacturing Investments - Optics & Photonics News
+  date: '2026-01-09'
+  kind: web
+- slug: 2025-12-19-lfg-for-semiconductors
+  title: LFG (for semiconductors)
+  date: '2025-12-19'
   kind: substack
 neighbors: []
 ---

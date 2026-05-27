@@ -30,16 +30,12 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 60
+mention_count: 64
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 7
 recent_mentions:
-- slug: 2026-05-13-nasa-outlines-preliminary-artemis-iii-mission-plans
-  title: NASA Outlines Preliminary Artemis III Mission Plans
-  date: '2026-05-13'
-  kind: web
 - slug: 2026-02-12-how-to-invest-in-ai-sovereignty-sovereign
   title: How to Invest in AI Sovereignty — Sovereign Albion w/ Andrew Bennett
   date: '2026-02-12'
@@ -48,10 +44,6 @@ recent_mentions:
   title: LFG (for semiconductors)
   date: '2025-12-19'
   kind: substack
-- slug: 2025-12-03-out-of-bankruptcy-wolfspeed-welcomes-nearly-700m-fund---utic
-  title: Out of bankruptcy, Wolfspeed, welcomes nearly $700M fund - Utica Observer Dispatch
-  date: '2025-12-03'
-  kind: web
 - slug: 2025-12-02-the-future-of-computing-is-glass
   title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
   date: '2025-12-02'
@@ -64,9 +56,17 @@ recent_mentions:
   title: 'UK Opportunity in AI: Compound Semiconductors'
   date: '2025-09-10'
   kind: substack
-- slug: 2025-08-28-intel-receives-57-billion-in-chips-act-grants-under-the-deal
-  title: Intel Receives $5.7 Billion in CHIPS Act Grants Under the Deal With President Trump as Team Blue Bets Big on Its Foundry Division - Wccftech
-  date: '2025-08-28'
+- slug: 2025-04-30-has-the-time-come-to-take-mortal
+  title: Has the time come to take Mortal Computing seriously?
+  date: '2025-04-30'
+  kind: substack
+- slug: 2025-02-12-wen-babelfish-feat-aron-of-semron
+  title: 'Edge AI: Analog Chips (feat. Aron Kirschen, SEMRON)'
+  date: '2025-02-12'
+  kind: substack
+- slug: 2024-yole-advanced-packaging-2024
+  title: Yole Group — Advanced Packaging 2024 Market Analysis
+  date: '2024-12-01'
   kind: web
 neighbors: []
 ---

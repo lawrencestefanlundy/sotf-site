@@ -33,7 +33,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 88
+mention_count: 120
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -50,32 +50,12 @@ descendants:
 - topological-qubits
 - trapped-ion
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 40
+sources_7d: 3
+sources_30d: 69
 recent_mentions:
-- slug: 2026-05-15-weekly-dose-of-optimism-193
-  title: 'Weekly Dose of Optimism #193'
-  date: '2026-05-15'
-  kind: web
 - slug: 2026-04-21-quantum-101
   title: Quantum 101
   date: '2026-04-21'
-  kind: web
-- slug: 2026-04-10-doe-to-award-100-million-in-grants-amid-science-funding-cuts
-  title: DOE to award $100 million in grants amid science funding cuts - R&D World
-  date: '2026-04-10'
-  kind: web
-- slug: 2026-03-11-xanadu-awarded-20m-arpa-e-grant-for-quantum-battery-research
-  title: Xanadu Awarded $2.0M ARPA-E Grant for Quantum Battery Research - The Quantum Insider
-  date: '2026-03-11'
-  kind: web
-- slug: 2026-03-09-high-interest-in-first-eic-advanced-innovation-challenges-ca
-  title: High interest in first EIC Advanced Innovation Challenges call - European Innovation Council
-  date: '2026-03-09'
-  kind: web
-- slug: 2026-03-06-xanadu-awarded-20-million-arpa-e-grant-to-advance-quantum-pl
-  title: Xanadu Awarded $2.0 Million ARPA-E Grant to Advance Quantum Platform for Next-Generation Batteries - Xanadu Quantum
-  date: '2026-03-06'
   kind: web
 - slug: 2026-02-12-how-to-invest-in-ai-sovereignty-sovereign
   title: How to Invest in AI Sovereignty — Sovereign Albion w/ Andrew Bennett
@@ -84,6 +64,26 @@ recent_mentions:
 - slug: 2026-01-22-ai-chips-computeram-and-the-future
   title: 'AI Chips, ComputeRAM and the Future of Data Movement: A Conversation with Manu, Founder of Synthara'
   date: '2026-01-22'
+  kind: substack
+- slug: 2025-12-18-qubitsolve-secures-12-million-nsf-sbir-grant-to-accelerate-q
+  title: QubitSolve Secures $1.2 Million NSF SBIR Grant to Accelerate Quantum CFD Development - Quantum Computing Report
+  date: '2025-12-18'
+  kind: web
+- slug: 2025-12-09-gallium-nitride-photonics-w-james
+  title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
+  date: '2025-12-09'
+  kind: substack
+- slug: 2025-12-02-the-future-of-computing-is-glass
+  title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
+  date: '2025-12-02'
+  kind: substack
+- slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
+  title: Carbon Nanotubes in the Datacentre
+  date: '2025-11-25'
+  kind: substack
+- slug: 2025-10-09-a-specific-theory-of-sovereign-ai
+  title: A Specific Theory of Sovereign AI
+  date: '2025-10-09'
   kind: substack
 neighbors: []
 ---

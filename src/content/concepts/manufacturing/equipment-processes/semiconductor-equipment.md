@@ -18,43 +18,23 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 52
+mention_count: 53
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 3
+sources_30d: 2
 recent_mentions:
-- slug: 2026-05-15-a-us-economic-security-latency-fund
-  title: A U.S. Economic Security “Latency Fund”
-  date: '2026-05-15'
-  kind: web
-- slug: 2026-05-13-revamping-europes-chips-strategy-indispensability-not-self-s
-  title: 'Revamping Europe’s chips strategy: indispensability, not self-sufficiency - Bruegel'
-  date: '2026-05-13'
-  kind: web
-- slug: 2026-05-03-chips-act-semiconductor-industry---deloitte
-  title: 'CHIPS Act: Semiconductor Industry - Deloitte'
-  date: '2026-05-03'
-  kind: web
-- slug: 2026-04-27-tooling-up-the-chips-act-how-to-fast-track-your-new-fab-equi
-  title: 'Tooling up the CHIPS Act: How to fast-track your new fab equipment ramp - Deloitte'
-  date: '2026-04-27'
-  kind: web
-- slug: 2026-04-23-us-semiconductor-industry-needs-public-private-partnerships-
-  title: US semiconductor industry needs public-private partnerships for an innovation ecosystem - Deloitte
-  date: '2026-04-23'
-  kind: web
-- slug: 2026-02-17-how-the-us-won-back-chip-manufacturing---chinatalk-jordan-sc
-  title: How the US Won Back Chip Manufacturing - ChinaTalk | Jordan Schneider
-  date: '2026-02-17'
-  kind: web
-- slug: 2026-02-09-eu-invests-700m-in-newly-opened-nanoic-europes-largest-chips
-  title: EU Invests €700M in Newly Opened NanoIC, Europe’s Largest Chips Act Pilot Line - HPCwire
-  date: '2026-02-09'
-  kind: web
 - slug: 2025-12-30-us-eases-semiconductor-equipment-rules-for-samsung-sk-hynix-
   title: U.S. Eases Semiconductor Equipment Rules for Samsung, SK Hynix in China - 조선일보
   date: '2025-12-30'
+  kind: web
+- slug: 2024-bis-export-controls-china-semis
+  title: BIS Export Controls — China Semiconductor Restrictions (Oct 2022 / Oct 2023 / Dec 2024 rounds)
+  date: '2024-12-02'
+  kind: web
+- slug: 2023-04-25-us-deals-signal-heightened-semiconductor-equipment-competiti
+  title: US deals signal heightened semiconductor equipment competition - East Asia Forum
+  date: '2023-04-25'
   kind: web
 neighbors: []
 ---

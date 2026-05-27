@@ -23,11 +23,11 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - framework
-mention_count: 12
+mention_count: 15
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 2
+sources_30d: 5
 recent_mentions:
 - slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
   title: 'UK Opportunity in AI: Compound Semiconductors'

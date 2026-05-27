@@ -19,19 +19,7 @@ mention_count: 57
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2025-11-17-hms-networks-acquires-industrial-communications-business-fro
-  title: HMS Networks acquires Industrial Communications Business from Molex Industrial Solutions Business Unit - Yahoo Finance
-  date: '2025-11-17'
-  kind: web
-- slug: 2023-09-04-survey-shows-growing-need-for-multi-network-access---elektor
-  title: Survey Shows Growing Need for Multi-Network Access - Elektor Magazine
-  date: '2023-09-04'
-  kind: web
-- slug: 2021-03-05-we-strive-to-continuously-deliver-an-efficient-iot-architect
-  title: '''We strive to continuously deliver an efficient IoT architecture, i.e. the one ensuring unicity and authenticity of device, integrity of the firmware installed on it, and confidentiality of data.'' - Industrial Engineering News Europe'
-  date: '2021-03-05'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

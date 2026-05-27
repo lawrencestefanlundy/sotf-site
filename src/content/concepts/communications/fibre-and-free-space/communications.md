@@ -19,13 +19,15 @@ sources:
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 - '[[2026-04-24-i-am-artemis-peter-rossoni]]'
 - '[[2022-11-15-qualcomm]]'
+- '[[2025-11-17-hms-networks-acquires-industrial-communications-business-fro]]'
+- '[[2026-05-14-nasa-draws-on-industry-for-mars-telecommunications-network]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 96
+mention_count: 115
 descendants:
 - 5g-nr-advanced
 - beamforming-ics
@@ -53,9 +55,13 @@ descendants:
 - sub-thz-6g
 - timing-clock-generation
 last_reorg_date: '2026-05-14'
-sources_7d: 0
-sources_30d: 17
+sources_7d: 1
+sources_30d: 35
 recent_mentions:
+- slug: 2026-05-14-nasa-draws-on-industry-for-mars-telecommunications-network
+  title: NASA Draws on Industry for Mars Telecommunications Network
+  date: '2026-05-14'
+  kind: web
 - slug: 2026-04-24-i-am-artemis-peter-rossoni
   title: 'I Am Artemis: Peter Rossoni'
   date: '2026-04-24'
@@ -64,10 +70,6 @@ recent_mentions:
   title: LFG (for semiconductors)
   date: '2025-12-19'
   kind: substack
-- slug: 2025-12-15-ethernet-roadmap-sets-a-new-course-for-connectivity-in-2026-
-  title: Ethernet roadmap sets a new course for connectivity in 2026 - Electronic Products & Technology
-  date: '2025-12-15'
-  kind: web
 - slug: 2025-12-09-gallium-nitride-photonics-w-james
   title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
   date: '2025-12-09'
@@ -76,6 +78,10 @@ recent_mentions:
   title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
   date: '2025-12-02'
   kind: substack
+- slug: 2025-11-17-hms-networks-acquires-industrial-communications-business-fro
+  title: HMS Networks acquires Industrial Communications Business from Molex Industrial Solutions Business Unit - Yahoo Finance
+  date: '2025-11-17'
+  kind: web
 - slug: 2025-10-09-a-specific-theory-of-sovereign-ai
   title: A Specific Theory of Sovereign AI
   date: '2025-10-09'
@@ -83,10 +89,6 @@ recent_mentions:
 - slug: 2025-09-02-13-drop-in-employment-for-young-workers
   title: 13% drop in employment for young workers in AI-exposed roles. update on the new ai automation paper from stanford. yes, I was right. confirmation bias caution.
   date: '2025-09-02'
-  kind: substack
-- slug: 2025-04-30-has-the-time-come-to-take-mortal
-  title: Has the time come to take Mortal Computing seriously?
-  date: '2025-04-30'
   kind: substack
 neighbors: []
 ---

@@ -19,39 +19,7 @@ mention_count: 47
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-05-14-nasa-draws-on-industry-for-mars-telecommunications-network
-  title: NASA Draws on Industry for Mars Telecommunications Network
-  date: '2026-05-14'
-  kind: web
-- slug: 2026-05-13-nasa-outlines-preliminary-artemis-iii-mission-plans
-  title: NASA Outlines Preliminary Artemis III Mission Plans
-  date: '2026-05-13'
-  kind: web
-- slug: 2026-02-03-broadcom-unveils-enterprise-grade-silicon-for-wi-fi-8-aps-an
-  title: Broadcom unveils enterprise-grade silicon for Wi-Fi 8 APs and Ethernet switches - Telecompaper
-  date: '2026-02-03'
-  kind: web
-- slug: 2025-12-15-ethernet-roadmap-sets-a-new-course-for-connectivity-in-2026-
-  title: Ethernet roadmap sets a new course for connectivity in 2026 - Electronic Products & Technology
-  date: '2025-12-15'
-  kind: web
-- slug: 2025-11-17-hms-networks-acquires-industrial-communications-business-fro
-  title: HMS Networks acquires Industrial Communications Business from Molex Industrial Solutions Business Unit - Yahoo Finance
-  date: '2025-11-17'
-  kind: web
-- slug: 2023-09-04-survey-shows-growing-need-for-multi-network-access---elektor
-  title: Survey Shows Growing Need for Multi-Network Access - Elektor Magazine
-  date: '2023-09-04'
-  kind: web
-- slug: 2020-06-17-why-5g-nr-u-is-such-an-important-chapter-in-cellular-connect
-  title: Why 5G NR-U is such an ‘important chapter’ in cellular connectivity - RCR Wireless News
-  date: '2020-06-17'
-  kind: web
-- slug: 2019-07-22-huawei
-  title: Huawei
-  date: '2019-07-22'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

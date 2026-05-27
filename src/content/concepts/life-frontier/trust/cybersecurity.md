@@ -18,10 +18,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 9
+mention_count: 20
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 0
+sources_7d: 4
+sources_30d: 10
 recent_mentions:
 - slug: 2025-12-16-draft-nist-guidelines-rethink-cybersecurity-for-the-ai-era
   title: Draft NIST Guidelines Rethink Cybersecurity for the AI Era

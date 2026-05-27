@@ -19,39 +19,7 @@ mention_count: 26
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-04-08-darpa-launches-mathbac-program-for-multi-agent-ai-research--
-  title: DARPA launches MATHBAC program for multi agent AI research - The Defence Blog
-  date: '2026-04-08'
-  kind: web
-- slug: 2025-09-09-meet-the-semi-finalists-of-the-2026-european-capital-of-inno
-  title: Meet the semi-finalists of the 2026 European Capital of Innovation Awards! - European Innovation Council
-  date: '2025-09-09'
-  kind: web
-- slug: 2025-03-14-understanding-us-allies-current-legal-authority-to-implement
-  title: Understanding U.S. Allies’ Current Legal Authority to Implement AI and Semiconductor Export Controls - CSIS | Center for Strategic and International Studies
-  date: '2025-03-14'
-  kind: web
-- slug: 2025-02-13-eic-summit-2025---european-innovation-council
-  title: EIC Summit 2025 - European Innovation Council
-  date: '2025-02-13'
-  kind: web
-- slug: 2025-02-05-bis-issues-long-awaited-export-controls-on-ai---wilmerhale
-  title: BIS Issues Long-Awaited Export Controls on AI - WilmerHale
-  date: '2025-02-05'
-  kind: web
-- slug: 2025-01-22-accelerating-40-groundbreaking-technologies-from-lab-to-mark
-  title: accelerating 40 groundbreaking technologies from lab to market readiness - European Innovation Council
-  date: '2025-01-22'
-  kind: web
-- slug: 2024-11-03-challenge-guide-towards-autonomous-robot-collectives-deliver
-  title: Challenge Guide – Towards autonomous robot collectives delivering collaborative tasks in dynamic unstructured construction environments - European Innovation Council
-  date: '2024-11-03'
-  kind: web
-- slug: 2024-10-30-eic-accelerator-challenges-2025---european-innovation-counci
-  title: EIC Accelerator Challenges 2025 - European Innovation Council
-  date: '2024-10-30'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

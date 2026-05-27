@@ -39,19 +39,13 @@ sources:
 - '[[2023-08-25-e12-nanomechanical-computing-gears]]'
 - '[[2026-01-22-ai-chips-computeram-and-the-future]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
-- '[[2024-yole-emerging-memories-2024]]'
-- '[[2022-04-20-nvidia-part-ii-the-machine-learning-company-2006-2022]]'
-- '[[2026-04-16-should-the-us-buy-from-cxmt]]'
-- '[[2025-06-12-president-trump-secures-200b-investment-from-micron-technolo]]'
-- '[[2025-08-12-scaling-the-memory-wall-the-rise-and-roadmap-of-hbm]]'
-- '[[2025-09-10-another-giant-leap-the-rubin-cpx-specialized-accelerator-rac]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 122
+mention_count: 180
 descendants:
 - dram
 - feram
@@ -67,8 +61,8 @@ descendants:
 - sram
 - storage-class-memory
 last_reorg_date: '2026-05-14'
-sources_7d: 0
-sources_30d: 35
+sources_7d: 2
+sources_30d: 52
 recent_mentions:
 - slug: 2026-04-16-should-the-us-buy-from-cxmt
   title: Should the US Buy from CXMT?

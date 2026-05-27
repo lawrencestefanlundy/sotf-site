@@ -18,40 +18,8 @@ tags:
 mention_count: 100
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 1
-recent_mentions:
-- slug: 2026-05-03-chips-act-semiconductor-industry---deloitte
-  title: 'CHIPS Act: Semiconductor Industry - Deloitte'
-  date: '2026-05-03'
-  kind: web
-- slug: 2026-04-27-tooling-up-the-chips-act-how-to-fast-track-your-new-fab-equi
-  title: 'Tooling up the CHIPS Act: How to fast-track your new fab equipment ramp - Deloitte'
-  date: '2026-04-27'
-  kind: web
-- slug: 2026-04-23-us-semiconductor-industry-needs-public-private-partnerships-
-  title: US semiconductor industry needs public-private partnerships for an innovation ecosystem - Deloitte
-  date: '2026-04-23'
-  kind: web
-- slug: 2026-02-17-how-the-us-won-back-chip-manufacturing---chinatalk-jordan-sc
-  title: How the US Won Back Chip Manufacturing - ChinaTalk | Jordan Schneider
-  date: '2026-02-17'
-  kind: web
-- slug: 2026-02-09-eu-invests-700m-in-newly-opened-nanoic-europes-largest-chips
-  title: EU Invests €700M in Newly Opened NanoIC, Europe’s Largest Chips Act Pilot Line - HPCwire
-  date: '2026-02-09'
-  kind: web
-- slug: 2025-12-18-house-science-committee-reviews-research-security-and-chips-
-  title: House Science Committee Reviews Research Security and CHIPS Act Implementation - NTD News
-  date: '2025-12-18'
-  kind: web
-- slug: 2025-12-15-department-of-commerce-awards-chips-incentives-to-a-subsidia
-  title: Department of Commerce Awards CHIPS Incentives to a Subsidiary of Korea Zinc (Crucible Metals) to Support a State-of-the-Art Smelter and Critical Minerals Processing Facility in the United States - National Institute of Standards and Technology (.gov)
-  date: '2025-12-15'
-  kind: web
-- slug: 2025-12-03-eu-parliament-adopts-position-on-chips-act---ee-times
-  title: EU Parliament Adopts Position on Chips Act - EE Times
-  date: '2025-12-03'
-  kind: web
+sources_30d: 0
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

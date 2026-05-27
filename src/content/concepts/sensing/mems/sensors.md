@@ -34,15 +34,11 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 118
+mention_count: 134
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 20
+sources_7d: 4
+sources_30d: 36
 recent_mentions:
-- slug: 2026-05-12-darpa-sbir-profusa-implantable-biosensors---col-matt-hepburn
-  title: 'DARPA SBIR: Profusa Implantable Biosensors - COL Matt Hepburn (Tz3cFR1ktT) - fathomjournal.org'
-  date: '2026-05-12'
-  kind: web
 - slug: 2026-05-08-nasa-fuel-cell-tests-pave-way-for-energy-storage-on-moon
   title: NASA Fuel Cell Tests Pave Way for Energy Storage on Moon
   date: '2026-05-08'
@@ -70,6 +66,10 @@ recent_mentions:
 - slug: 2025-07-01-a-primer-carbon-nanotubes
   title: 'A Primer: Carbon Nanotubes'
   date: '2025-07-01'
+  kind: substack
+- slug: 2025-04-30-has-the-time-come-to-take-mortal
+  title: Has the time come to take Mortal Computing seriously?
+  date: '2025-04-30'
   kind: substack
 neighbors: []
 ---

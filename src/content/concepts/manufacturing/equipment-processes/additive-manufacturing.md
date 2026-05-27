@@ -14,6 +14,7 @@ sources:
 - '[[2024-09-13-bis-adopts-additional-controls-on-quantum-semiconductor-and-]]'
 - '[[2022-05-09-elementum-funded-by-darpa-to-develop-am-process-for-rhenium-]]'
 - '[[2021-02-04-meta-additive-awarded-innovate-uk-smart-grant-for-bjt-proces]]'
+- '[[2020-12-17-university-additive-manufacturing-spin-out-secures-12m-innov]]'
 - '[[2025-08-18-nist-awards-over-18-million-to-small-businesses-advancing-ai]]'
 - '[[2024-09-11-bis-imposes-new-export-controls-on-quantum-semiconductor-and]]'
 frontier:
@@ -22,16 +23,12 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 29
+mention_count: 35
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 1
+sources_30d: 5
 recent_mentions:
-- slug: 2026-05-13-nasa-supported-space-tech-advances-earthly-construction
-  title: NASA-Supported Space Tech Advances Earthly Construction
-  date: '2026-05-13'
-  kind: web
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
   title: Carbon Nanotubes in the Datacentre
   date: '2025-11-25'
@@ -52,13 +49,17 @@ recent_mentions:
   title: BIS Imposes New Export Controls on Quantum, Semiconductor and Additive Manufacturing Technologies - globaltradeandsanctionslaw.com
   date: '2024-09-11'
   kind: web
-- slug: 2024-06-17-from-solar-fuel-and-anti-fog-glasses-to-manufacturing-innova
-  title: From solar fuel and anti-fog glasses to manufacturing innovation - ETH Zürich
-  date: '2024-06-17'
-  kind: web
 - slug: 2022-05-09-elementum-funded-by-darpa-to-develop-am-process-for-rhenium-
   title: Elementum funded by DARPA to develop AM process for rhenium - Metal Additive Manufacturing magazine
   date: '2022-05-09'
+  kind: web
+- slug: 2021-02-04-meta-additive-awarded-innovate-uk-smart-grant-for-bjt-proces
+  title: Meta Additive awarded Innovate UK SMART Grant for BJT process - Metal Additive Manufacturing magazine
+  date: '2021-02-04'
+  kind: web
+- slug: 2020-12-17-university-additive-manufacturing-spin-out-secures-12m-innov
+  title: University additive manufacturing spin out secures £1.2M Innovate UK SMART grant - University of Liverpool
+  date: '2020-12-17'
   kind: web
 neighbors: []
 ---

@@ -19,19 +19,7 @@ mention_count: 25
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 1
-recent_mentions:
-- slug: 2025-12-18-digital-twins-for-chip-manufacturing-rd-faces-unexpected-set
-  title: Digital Twins for Chip Manufacturing R&D Faces Unexpected Setback - IEEE Spectrum
-  date: '2025-12-18'
-  kind: web
-- slug: 2025-08-12-joint-criminal-and-civil-export-controls-enforcement-lessons
-  title: 'Joint Criminal and Civil Export Controls Enforcement: Lessons from the Cadence Case - Crowell & Moring LLP'
-  date: '2025-08-12'
-  kind: web
-- slug: 2025-05-29-us-restricts-chip-design-software-chemicals-to-china---silic
-  title: US Restricts Chip Design Software, Chemicals To China - Silicon UK
-  date: '2025-05-29'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

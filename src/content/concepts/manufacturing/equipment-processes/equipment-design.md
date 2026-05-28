@@ -19,7 +19,15 @@ mention_count: 52
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-05-27-students-build-moon-robots-for-nasas-2026-lunabotics-challen
+  title: Students Build Moon Robots for NASA’s 2026 Lunabotics Challenge
+  date: '2026-05-27'
+  kind: web
+- slug: 2026-05-27-nasas-2026-lunabotics-winning-student-teams-engineering-luna
+  title: 'NASA’s 2026 Lunabotics: Winning Student Teams Engineering Lunar Future'
+  date: '2026-05-27'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

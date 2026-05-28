@@ -20,7 +20,11 @@ descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-04-30-llnl-leads-arpa-e-project-on-quantum-materials-simulation---
+  title: LLNL Leads ARPA-E Project on Quantum Materials Simulation - The Quantum Insider
+  date: '2026-04-30'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

@@ -19,7 +19,11 @@ mention_count: 81
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2023-09-07-exponential-renewables-sl---european-innovation-council
+  title: EXPONENTIAL RENEWABLES SL - European Innovation Council
+  date: '2023-09-07'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

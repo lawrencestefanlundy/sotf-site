@@ -25,7 +25,10 @@ tags:
 - concept
 - technology
 mention_count: 11
-descendants: []
+descendants:
+- coherent-ising-machine
+- fdtd-calibration-wall
+- near-field-rf-coupling
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0

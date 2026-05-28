@@ -45,8 +45,9 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 180
+mention_count: 185
 descendants:
+- agentic-workload-retrieval
 - dram
 - feram
 - hbm
@@ -61,8 +62,8 @@ descendants:
 - sram
 - storage-class-memory
 last_reorg_date: '2026-05-14'
-sources_7d: 2
-sources_30d: 52
+sources_7d: 5
+sources_30d: 53
 recent_mentions:
 - slug: 2026-04-16-should-the-us-buy-from-cxmt
   title: Should the US Buy from CXMT?

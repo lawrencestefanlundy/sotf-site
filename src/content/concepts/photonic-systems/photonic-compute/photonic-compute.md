@@ -17,6 +17,7 @@ sources:
 - '[[2023-07-23-analog-computing-the-once-and-future]]'
 - '[[2025-04-30-has-the-time-come-to-take-mortal]]'
 - '[[2025-04-16-the-state-of-photonic-computing]]'
+- '[[2025-07-14-solving-compute-crisis-physics-based-asics]]'
 - '[[2023-03-29-oxford-spinout-lumai-secures-11m-grant-to-power-optical-comp]]'
 frontier:
 - ''
@@ -24,21 +25,26 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 18
+mention_count: 21
 descendants:
+- diffractive-deep-neural-network
 - diffractive-deep-neural-networks
 - optical-neural-networks
 - photonic-compute
 - photonic-compute-memory
 - photonic-tensor-cores
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 5
+sources_7d: 2
+sources_30d: 7
 recent_mentions:
 - slug: 2025-12-02-the-future-of-computing-is-glass
   title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
   date: '2025-12-02'
   kind: substack
+- slug: 2025-07-14-solving-compute-crisis-physics-based-asics
+  title: Solving the compute crisis with physics-based ASICs
+  date: '2025-07-14'
+  kind: web
 - slug: 2025-04-30-has-the-time-come-to-take-mortal
   title: Has the time come to take Mortal Computing seriously?
   date: '2025-04-30'

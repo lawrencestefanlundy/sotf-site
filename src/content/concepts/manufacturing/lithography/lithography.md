@@ -24,8 +24,11 @@ sources:
 - '[[2025-01-06-radiant-acquires-nilt]]'
 - '[[2026-05-02-two-photon-lithography-for-integrated-photonic-packaging-lig]]'
 frontier:
-- ''
-last_updated: '2026-05-04'
+- Lithography as three-way optimisation (throughput / feature size / feature complexity) — does any single tool win on all three, or does the market remain a portfolio of specialised tools each winning on two?
+- Multi-material patterning at production volume — does a tool emerge that patterns dissimilar materials in the same step, or does multi-material foundry remain a retrofit (transfer printing, hybrid integration, post-processing)?
+- ASML chokepoint resilience — TSMC's roadmap is gated on EUV ship rate. What's the bear case for ASML output bottleneck (geopolitics, Veldhoven workforce, parts supply chain) materially constraining global compute output 2027-2030?
+- Photonic-specific lithography wedge — at what segment volume does dedicated photonics-lithography (Cnuic, SWHL, Eulitha) economics beat immersion-on-CMOS retrofit?
+last_updated: '2026-05-08'
 tags:
 - concept
 - technology
@@ -108,6 +111,12 @@ Lithography is the patterning process that defines transistor features, intercon
 
 <!-- dataview block stripped for public site -->
 
+## Lawrence's framing
+
+Lithography is the most important machine you've probably never heard of. Every chip in every device you own was patterned by one. The principle: silicon wafer + photoresist + UV through a stencil (photomask) + dissolve/harden + etch. Stack 50-100 patterning steps and at the end you have a chip. *No lithography, no chips. No chips, no computing.*
+
+The market for these machines is a Dutch monopoly. ASML's EUV scanners cost north of $300M each. TSMC, Samsung, and Intel buy almost all of them. **The entire global compute supply chain runs through one car park in Veldhoven.** Those machines are all optimised end-to-end for shrinking transistors. Photonics needs the opposite shape of problem: larger structures sized to the wavelength of light (hundreds of nanometres rather than tens), different materials beyond silicon, three-dimensional geometries. The whole optimisation surface flips. That's the gap that opens space for specialty-lithography startups (see [Maskless Lithography](/sotf-site/manufacturing/lithography/maskless-lithography/), [Two-Photon Polymerization](/sotf-site/manufacturing/lithography/two-photon-polymerization/), [Xolography](/sotf-site/manufacturing/lithography/xolography/)).
+
 ## Frontier (open questions)
 
-- *To be added.*
+See frontmatter `frontier:` block.

@@ -19,6 +19,7 @@ sources:
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 - '[[2026-04-24-i-am-artemis-peter-rossoni]]'
 - '[[2022-11-15-qualcomm]]'
+- '[[2025-04-15-nature-comm-thermodynamic-computing-system]]'
 - '[[2025-11-17-hms-networks-acquires-industrial-communications-business-fro]]'
 - '[[2026-05-14-nasa-draws-on-industry-for-mars-telecommunications-network]]'
 frontier:
@@ -27,7 +28,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 115
+mention_count: 116
 descendants:
 - 5g-nr-advanced
 - beamforming-ics
@@ -62,6 +63,10 @@ recent_mentions:
   title: NASA Draws on Industry for Mars Telecommunications Network
   date: '2026-05-14'
   kind: web
+- slug: 2026-05-13-20-years-of-space-communications-and-navigation
+  title: 20 Years of Space Communications and Navigation
+  date: '2026-05-13'
+  kind: web
 - slug: 2026-04-24-i-am-artemis-peter-rossoni
   title: 'I Am Artemis: Peter Rossoni'
   date: '2026-04-24'
@@ -85,10 +90,6 @@ recent_mentions:
 - slug: 2025-10-09-a-specific-theory-of-sovereign-ai
   title: A Specific Theory of Sovereign AI
   date: '2025-10-09'
-  kind: substack
-- slug: 2025-09-02-13-drop-in-employment-for-young-workers
-  title: 13% drop in employment for young workers in AI-exposed roles. update on the new ai automation paper from stanford. yes, I was right. confirmation bias caution.
-  date: '2025-09-02'
   kind: substack
 neighbors: []
 ---

@@ -15,7 +15,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 50
+mention_count: 59
 last_reorg_date: '2026-05-14'
 descendants:
 - displays
@@ -23,7 +23,7 @@ descendants:
 - micro-leds
 - oled
 sources_7d: 0
-sources_30d: 5
+sources_30d: 6
 recent_mentions: []
 neighbors: []
 ---

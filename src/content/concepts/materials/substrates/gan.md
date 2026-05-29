@@ -26,10 +26,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 25
+mention_count: 57
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 6
+sources_7d: 5
+sources_30d: 13
 recent_mentions:
 - slug: 2026-04-20-fixing-the-gan-problem
   title: Fixing the GaN Problem

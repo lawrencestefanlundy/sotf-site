@@ -19,11 +19,7 @@ mention_count: 50
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2021-03-11-gm-signs-deal-with-mit-spinout-to-reduce-electric-vehicle-ba
-  title: GM signs deal with MIT-spinout to reduce electric vehicle battery costs by 60% - CNBC
-  date: '2021-03-11'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

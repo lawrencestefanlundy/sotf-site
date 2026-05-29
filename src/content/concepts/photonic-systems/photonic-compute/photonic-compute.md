@@ -25,7 +25,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 21
+mention_count: 36
 descendants:
 - diffractive-deep-neural-network
 - diffractive-deep-neural-networks
@@ -34,8 +34,8 @@ descendants:
 - photonic-compute-memory
 - photonic-tensor-cores
 last_reorg_date: '2026-05-13'
-sources_7d: 2
-sources_30d: 7
+sources_7d: 3
+sources_30d: 10
 recent_mentions:
 - slug: 2025-12-02-the-future-of-computing-is-glass
   title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos

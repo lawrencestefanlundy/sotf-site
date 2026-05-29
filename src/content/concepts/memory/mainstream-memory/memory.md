@@ -45,7 +45,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 185
+mention_count: 282
 descendants:
 - agentic-workload-retrieval
 - dram
@@ -62,9 +62,13 @@ descendants:
 - sram
 - storage-class-memory
 last_reorg_date: '2026-05-14'
-sources_7d: 5
-sources_30d: 53
+sources_7d: 4
+sources_30d: 7
 recent_mentions:
+- slug: 2026-05-27-atlas-data-room
+  title: Atlas Processing data room (27 May 2026)
+  date: '2026-05-27'
+  kind: web
 - slug: 2026-04-16-should-the-us-buy-from-cxmt
   title: Should the US Buy from CXMT?
   date: '2026-04-16'
@@ -93,10 +97,6 @@ recent_mentions:
   title: The Compute Gradient
   date: '2025-09-23'
   kind: substack
-- slug: 2025-09-10-another-giant-leap-the-rubin-cpx-specialized-accelerator-rac
-  title: 'Another Giant Leap: The Rubin CPX Specialized Accelerator & Rack'
-  date: '2025-09-10'
-  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

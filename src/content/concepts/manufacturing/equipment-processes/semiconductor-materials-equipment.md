@@ -24,19 +24,7 @@ descendants:
 - stm
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-03-27-semi-europe-applauds-european-commissions-implementation-dia
-  title: SEMI Europe Applauds European Commission’s Implementation Dialogue on Chips Act 2.0 - HPCwire
-  date: '2026-03-27'
-  kind: web
-- slug: 2025-12-02-xlight-commerce-department-ink-150m-chips-act-incentives---y
-  title: XLight, Commerce Department ink $150M CHIPS Act incentives - Yahoo Finance
-  date: '2025-12-02'
-  kind: web
-- slug: 2022-01-28-eus-microchip-plan-to-rival-us-and-asia-takes-next-step---ws
-  title: EU’s Microchip Plan to Rival U.S. and Asia Takes Next Step - WSJ
-  date: '2022-01-28'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

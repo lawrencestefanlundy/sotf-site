@@ -20,10 +20,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 22
+mention_count: 44
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 5
+sources_7d: 4
+sources_30d: 10
 recent_mentions:
 - slug: 2024-trendforce-foundry-2024
   title: TrendForce — Global Foundry Industry Outlook 2024-2026

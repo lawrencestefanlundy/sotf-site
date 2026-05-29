@@ -18,6 +18,7 @@ sources:
 - '[[2025-04-30-has-the-time-come-to-take-mortal]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 - '[[2026-04-24-i-am-artemis-peter-rossoni]]'
+- '[[2026-05-13-20-years-of-space-communications-and-navigation]]'
 - '[[2022-11-15-qualcomm]]'
 - '[[2025-04-15-nature-comm-thermodynamic-computing-system]]'
 - '[[2025-11-17-hms-networks-acquires-industrial-communications-business-fro]]'
@@ -28,7 +29,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 116
+mention_count: 125
 descendants:
 - 5g-nr-advanced
 - beamforming-ics
@@ -56,8 +57,8 @@ descendants:
 - sub-thz-6g
 - timing-clock-generation
 last_reorg_date: '2026-05-14'
-sources_7d: 1
-sources_30d: 35
+sources_7d: 7
+sources_30d: 42
 recent_mentions:
 - slug: 2026-05-14-nasa-draws-on-industry-for-mars-telecommunications-network
   title: NASA Draws on Industry for Mars Telecommunications Network

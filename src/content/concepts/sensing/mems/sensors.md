@@ -27,6 +27,7 @@ sources:
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2026-05-08-nasa-fuel-cell-tests-pave-way-for-energy-storage-on-moon]]'
 - '[[2026-05-06-putting-the-super-into-a-supersite-for-earth-observation]]'
+- '[[2026-05-27-nasa-develops-sensor-to-improve-firefighter-safety]]'
 - '[[2025-01-06-radiant-acquires-nilt]]'
 frontier:
 - ''
@@ -34,10 +35,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 137
+mention_count: 166
 last_reorg_date: '2026-05-13'
-sources_7d: 5
-sources_30d: 37
+sources_7d: 11
+sources_30d: 46
 recent_mentions:
 - slug: 2026-05-27-nasa-develops-sensor-to-improve-firefighter-safety
   title: NASA Develops Sensor to Improve Firefighter Safety

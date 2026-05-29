@@ -18,35 +18,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 53
+mention_count: 55
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 2
+sources_7d: 1
+sources_30d: 3
 recent_mentions:
-- slug: 2026-05-20-imec-ceo-calls-for-stronger-ai-design-push-in-eus-chips-act-
-  title: Imec CEO calls for stronger AI design push in EU's Chips Act - ET Telecom
-  date: '2026-05-20'
-  kind: web
-- slug: 2026-03-27-semi-europe-applauds-european-commissions-implementation-dia
-  title: SEMI Europe Applauds European Commission’s Implementation Dialogue on Chips Act 2.0 - HPCwire
-  date: '2026-03-27'
-  kind: web
 - slug: 2025-12-30-us-eases-semiconductor-equipment-rules-for-samsung-sk-hynix-
   title: U.S. Eases Semiconductor Equipment Rules for Samsung, SK Hynix in China - 조선일보
   date: '2025-12-30'
-  kind: web
-- slug: 2025-12-02-xlight-commerce-department-ink-150m-chips-act-incentives---y
-  title: XLight, Commerce Department ink $150M CHIPS Act incentives - Yahoo Finance
-  date: '2025-12-02'
-  kind: web
-- slug: 2025-09-11-intels-stock-sale-to-us-government-removes-arizona-construct
-  title: Intel's stock sale to US government removes Arizona construction deadline - The Business Journals
-  date: '2025-09-11'
-  kind: web
-- slug: 2025-04-30-government-funds-training-to-build-uk-chip-skills---computer
-  title: Government funds training to build UK chip skills - Computer Weekly
-  date: '2025-04-30'
   kind: web
 - slug: 2024-bis-export-controls-china-semis
   title: BIS Export Controls — China Semiconductor Restrictions (Oct 2022 / Oct 2023 / Dec 2024 rounds)

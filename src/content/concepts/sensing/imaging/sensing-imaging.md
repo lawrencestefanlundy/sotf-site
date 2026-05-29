@@ -20,15 +20,7 @@ descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-05-27-nasa-develops-sensor-to-improve-firefighter-safety
-  title: NASA Develops Sensor to Improve Firefighter Safety
-  date: '2026-05-27'
-  kind: web
-- slug: 2021-12-08-electric-sky-developing-new-self-focusing-beam-with-darpa-fu
-  title: Electric Sky developing new self-focusing beam with DARPA funding - sUAS News
-  date: '2021-12-08'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

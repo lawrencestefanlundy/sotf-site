@@ -25,17 +25,13 @@ sources:
 - '[[2026-01-22-ai-chips-computeram-and-the-future]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 - '[[2025-03-05-occupational-downgrading]]'
-- '[[2026-04-21-quantum-101]]'
-- '[[2024-10-28-aria-scaling-compute-normal-computing]]'
-- '[[2023-02-13-thermodynamic-ai-fluctuation-frontier]]'
-- '[[2025-12-18-qubitsolve-secures-12-million-nsf-sbir-grant-to-accelerate-q]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 123
+mention_count: 140
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -52,13 +48,9 @@ descendants:
 - topological-qubits
 - trapped-ion
 last_reorg_date: '2026-05-13'
-sources_7d: 4
-sources_30d: 70
+sources_7d: 11
+sources_30d: 72
 recent_mentions:
-- slug: 2026-04-30-llnl-leads-arpa-e-project-on-quantum-materials-simulation---
-  title: LLNL Leads ARPA-E Project on Quantum Materials Simulation - The Quantum Insider
-  date: '2026-04-30'
-  kind: web
 - slug: 2026-04-21-quantum-101
   title: Quantum 101
   date: '2026-04-21'
@@ -86,6 +78,10 @@ recent_mentions:
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
   title: Carbon Nanotubes in the Datacentre
   date: '2025-11-25'
+  kind: substack
+- slug: 2025-10-09-a-specific-theory-of-sovereign-ai
+  title: A Specific Theory of Sovereign AI
+  date: '2025-10-09'
   kind: substack
 neighbors: []
 ---

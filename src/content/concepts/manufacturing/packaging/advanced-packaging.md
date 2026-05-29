@@ -30,11 +30,11 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 64
+mention_count: 79
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 7
+sources_30d: 8
 recent_mentions:
 - slug: 2026-02-12-how-to-invest-in-ai-sovereignty-sovereign
   title: How to Invest in AI Sovereignty — Sovereign Albion w/ Andrew Bennett
@@ -52,10 +52,6 @@ recent_mentions:
   title: Carbon Nanotubes in the Datacentre
   date: '2025-11-25'
   kind: substack
-- slug: 2025-09-11-intels-stock-sale-to-us-government-removes-arizona-construct
-  title: Intel's stock sale to US government removes Arizona construction deadline - The Business Journals
-  date: '2025-09-11'
-  kind: web
 - slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
   title: 'UK Opportunity in AI: Compound Semiconductors'
   date: '2025-09-10'
@@ -68,6 +64,10 @@ recent_mentions:
   title: 'Edge AI: Analog Chips (feat. Aron Kirschen, SEMRON)'
   date: '2025-02-12'
   kind: substack
+- slug: 2024-yole-advanced-packaging-2024
+  title: Yole Group — Advanced Packaging 2024 Market Analysis
+  date: '2024-12-01'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

@@ -74,15 +74,7 @@ descendants:
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-05-27-thank-god-for-data-centers
-  title: Thank God For Data Centers
-  date: '2026-05-27'
-  kind: web
-- slug: 2023-09-07-exponential-renewables-sl---european-innovation-council
-  title: EXPONENTIAL RENEWABLES SL - European Innovation Council
-  date: '2023-09-07'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

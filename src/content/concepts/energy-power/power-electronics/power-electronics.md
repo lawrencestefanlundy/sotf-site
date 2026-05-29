@@ -22,7 +22,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 27
+mention_count: 35
 last_reorg_date: '2026-05-13'
 descendants:
 - electric-motors-drives

@@ -74,7 +74,11 @@ descendants:
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2012-11-29-college-of-engineering-researchers-awarded-three-energy-depa
+  title: College of Engineering Researchers Awarded Three Energy Department Grants - Georgia Institute of Technology
+  date: '2012-11-29'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

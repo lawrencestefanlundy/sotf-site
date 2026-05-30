@@ -32,7 +32,7 @@ last_updated: '2026-05-08'
 tags:
 - concept
 - technology
-mention_count: 71
+mention_count: 72
 descendants:
 - duv-immersion-lithography
 - e-beam-lithography
@@ -48,8 +48,8 @@ descendants:
 - two-photon-polymerization
 - xolography
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 10
+sources_7d: 1
+sources_30d: 11
 recent_mentions:
 - slug: 2026-05-02-euv-lithography-wikipedia
   title: EUV Lithography Wikipedia

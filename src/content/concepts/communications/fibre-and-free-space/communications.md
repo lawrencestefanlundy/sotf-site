@@ -29,7 +29,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 125
+mention_count: 127
 descendants:
 - 5g-nr-advanced
 - beamforming-ics
@@ -57,8 +57,8 @@ descendants:
 - sub-thz-6g
 - timing-clock-generation
 last_reorg_date: '2026-05-14'
-sources_7d: 7
-sources_30d: 42
+sources_7d: 9
+sources_30d: 44
 recent_mentions:
 - slug: 2026-05-14-nasa-draws-on-industry-for-mars-telecommunications-network
   title: NASA Draws on Industry for Mars Telecommunications Network

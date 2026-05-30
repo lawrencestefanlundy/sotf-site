@@ -21,10 +21,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 40
+mention_count: 41
 last_reorg_date: '2026-05-14'
-sources_7d: 2
-sources_30d: 3
+sources_7d: 3
+sources_30d: 4
 recent_mentions:
 - slug: 2025-12-19-lfg-for-semiconductors
   title: LFG (for semiconductors)

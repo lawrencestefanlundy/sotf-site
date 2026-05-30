@@ -19,7 +19,27 @@ mention_count: 26
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-05-29-nist-expands-ai-consortiums-scope-calls-for-new-members
+  title: NIST Expands AI Consortium’s Scope, Calls for New Members
+  date: '2026-05-29'
+  kind: web
+- slug: 2025-12-08-scaleup-europe-fund---european-innovation-council
+  title: Scaleup Europe Fund - European Innovation Council
+  date: '2025-12-08'
+  kind: web
+- slug: 2025-05-28-european-innovation-council-eic-work-programme-2026---europe
+  title: European Innovation Council (EIC) Work Programme 2026 - European Innovation Council
+  date: '2025-05-28'
+  kind: web
+- slug: 2025-03-27-eic-pathfinder-challenges-116-million-awarded-to-pioneering-
+  title: 'EIC Pathfinder Challenges: €116 million awarded to pioneering research projects - European Innovation Council'
+  date: '2025-03-27'
+  kind: web
+- slug: 2020-10-30-oxford-university-innovation-spinouts---oxford-university-in
+  title: Oxford University Innovation spinouts - Oxford University Innovation
+  date: '2020-10-30'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

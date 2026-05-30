@@ -17,10 +17,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 18
+mention_count: 19
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 1
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
 - slug: 2025-01-07-fund-frontier-expeditions-otherwise
   title: Fund Frontier Expeditions otherwise just buy the "Magnificent Seven"

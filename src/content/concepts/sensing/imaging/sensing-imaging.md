@@ -20,7 +20,23 @@ descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-05-29-this-month-at-esa-may-2026
+  title: 'This Month at ESA: May 2026'
+  date: '2026-05-29'
+  kind: web
+- slug: 2026-05-29-nasas-roman-space-telescope-primary-mirror-gets-last-look
+  title: NASA’s Roman Space Telescope Primary Mirror Gets Last Look
+  date: '2026-05-29'
+  kind: web
+- slug: 2023-09-20-darpa-calls-for-proposals-for-new-x-ray-project---auntminnie
+  title: DARPA calls for proposals for new x-ray project - AuntMinnie
+  date: '2023-09-20'
+  kind: web
+- slug: 2020-10-30-oxford-university-innovation-spinouts---oxford-university-in
+  title: Oxford University Innovation spinouts - Oxford University Innovation
+  date: '2020-10-30'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

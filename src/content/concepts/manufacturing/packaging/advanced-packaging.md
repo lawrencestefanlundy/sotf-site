@@ -30,10 +30,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 79
+mention_count: 80
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 0
+sources_7d: 1
 sources_30d: 8
 recent_mentions:
 - slug: 2026-02-12-how-to-invest-in-ai-sovereignty-sovereign

@@ -35,9 +35,9 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 166
+mention_count: 168
 last_reorg_date: '2026-05-13'
-sources_7d: 11
+sources_7d: 13
 sources_30d: 46
 recent_mentions:
 - slug: 2026-05-27-nasa-develops-sensor-to-improve-firefighter-safety

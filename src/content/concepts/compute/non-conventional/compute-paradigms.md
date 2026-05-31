@@ -18,7 +18,9 @@ tags:
 mention_count: 0
 descendants:
 - coherent-ising-machine
+- coupled-oscillator-networks
 - near-field-rf-coupling
+- physics-native-compute
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0

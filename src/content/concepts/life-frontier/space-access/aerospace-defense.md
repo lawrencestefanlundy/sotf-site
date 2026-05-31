@@ -19,19 +19,7 @@ mention_count: 79
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-05-29-this-month-at-esa-may-2026
-  title: 'This Month at ESA: May 2026'
-  date: '2026-05-29'
-  kind: web
-- slug: 2026-05-29-nasas-roman-space-telescope-primary-mirror-gets-last-look
-  title: NASA’s Roman Space Telescope Primary Mirror Gets Last Look
-  date: '2026-05-29'
-  kind: web
-- slug: 2023-09-20-darpa-calls-for-proposals-for-new-x-ray-project---auntminnie
-  title: DARPA calls for proposals for new x-ray project - AuntMinnie
-  date: '2023-09-20'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

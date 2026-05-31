@@ -73,17 +73,31 @@ neighbors: []
 ---
 ## Physics / mechanism
 
-Photonic compute uses light instead of electrons to perform matrix-vector multiplications—the dominant operation in neural network inference. Photons propagate through Mach-Zehnder interferometer (MZI) meshes or microring resonator arrays; weight encoding happens via phase shifts or amplitude modulation. Core advantage: multiply-accumulate operations execute at the speed of light with near-zero dynamic power. Key figures of merit are TOPS/W (demonstrated >1000× over GPU in optical domain, though O/E/O conversion erodes this), bandwidth density (>10 Tbps/mm² on-chip), and precision (typically 4–8 bit equivalent). State of the art: Lightmatter's Passage interconnect, Luminous's in-memory photonic arrays, MIT/Stanford silicon photonics platforms. Integration with CMOS at 300mm wafers remains the manufacturing bottleneck.
+## Company landscape (2026)
 
-## Competitive landscape
+Two axes split the field: **free-space vs integrated-photonic (PIC)**, and **analog matmul vs all-optical-digital vs workload-specific**. Most players do analog matmul for AI inference; the contrarians are Akhetonics (all-optical digital) and Optalysys (FHE/crypto). *(Web-verified 2026-05-30; funding/status confidence-flagged on each company page.)*
 
-Competing approaches: in-memory SRAM/DRAM compute (Mythic, Analog Devices), analog resistive (Mythic, Syntiant), neuromorphic (Intel Loihi, IBM NorthPole). Adjacent: silicon photonics for interconnect (Ayar Labs, Celestial AI) often overlaps with compute claims. Electro-optic modulators and III-V bonding techniques (InP, GaAs) are enabling adjacent material plays.
+### Integrated PIC · all-optical DIGITAL (contrarian)
+| **Akhetonics** | DE | all-optical general-purpose **digital** processor (no electronics in compute path); €6M, 2024 | prototype |
 
+### Integrated PIC · workload-specific
+| **Optalysys** | UK | optical accelerator for **FHE / homomorphic encryption**; ~$50M+ (raise early 2026) | active |
+
+### Pivoted / defunct / mis-categorised (do not treat as live optical-compute)
+- **Salience Labs** — **pivoted** photonic compute → optical *switches* ($30M Series A 2025); now a switch-layer play.
+- **Lighton** — **pivoted** to generative-AI **software** (Euronext-listed); optical hardware deprioritised.
+- **Luminous Computing** — **effectively defunct** (photonics team gutted 2023; asset auctions). The old "$120M, Bill-Gates-backed" reference is stale.
+- **Celestial Ai** — **interconnect, not compute** (Photonic Fabric; being acquired by Marvell ~$3.25B).
+- **Taalas** — **not optical** (model-specific ASIC etched in silicon).
+
+### vs other compute approaches
 | Approach | Latency | Power | Maturity |
 |---|---|---|---|
-| Photonic MZI mesh | Sub-ns | ~10 fJ/MAC optical | Pre-production |
+| Photonic MZI mesh / free-space | Sub-ns | ~10 fJ/MAC optical | Pre-production |
 | Analog SRAM compute | ~10 ns | ~1 pJ/MAC | Production (edge) |
 | Digital GPU/TPU | ~100 ns | ~10 pJ/MAC | Mature |
+
+Adjacent (not optical compute): in-memory SRAM (Mythic), neuromorphic (Loihi, NorthPole), and the **thermodynamic** plays (**Normal Computing**, extropic). Optical *interconnect* (Ayar, NcodiN) and *switching* (OCS/OPS) are separate layers — see [Datacenter Optical Networking — Plain-English Stack Primer](/sotf-site/communications/optical-interconnect/datacenter-network-stack/).
 
 ## Companies using
 

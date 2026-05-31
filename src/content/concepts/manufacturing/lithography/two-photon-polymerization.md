@@ -11,18 +11,23 @@ parent_concepts:
 - manufacturing
 - lithography
 related_concepts: []
-sources: []
+sources:
+- '[[2026-05-30-intel-optoscribe-acquisition]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 18
+mention_count: 19
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 3
-recent_mentions: []
+sources_7d: 1
+sources_30d: 4
+recent_mentions:
+- slug: 2026-05-30-intel-optoscribe-acquisition
+  title: Intel Acquires Optoscribe (3D glass photonics, Livingston, Scotland)
+  date: '2022-01-27'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

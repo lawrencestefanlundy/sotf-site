@@ -16,21 +16,32 @@ sources:
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2025-04-16-the-state-of-photonic-computing]]'
 - '[[2026-05-02-cpo-market-to-grow-at-37-cagr-semiconductor-today]]'
+- '[[2026-05-30-osat-market-structure]]'
+- '[[2026-05-30-teramount-50m-molex-acquisition]]'
 - '[[2026-05-02-co-packaged-optics-2026-2036-idtechex]]'
 - '[[2026-05-02-cpo-market-and-tech-update-cignal-ai-feb-2025]]'
 - '[[2024-yole-advanced-packaging-2024]]'
 - '[[2026-05-02-cpo-book-semianalysis]]'
+- '[[2026-05-30-senko-gf-cpo-detachable-fiber]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 42
+mention_count: 45
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 5
+sources_7d: 4
+sources_30d: 8
 recent_mentions:
+- slug: 2026-05-30-osat-market-structure
+  title: OSAT market structure 2024-2025 — rankings, advanced-packaging split, photonic assembly
+  date: '2026-05-30'
+  kind: web
+- slug: 2026-05-30-teramount-50m-molex-acquisition
+  title: Teramount — $50M raise (Jul 2025) then ~$430M Molex (Koch) acquisition (completed 7 May 2026)
+  date: '2026-05-07'
+  kind: web
 - slug: 2026-05-02-cpo-market-to-grow-at-37-cagr-semiconductor-today
   title: CPO market to grow at 37% CAGR (Semiconductor Today)
   date: '2026-05-02'
@@ -54,14 +65,6 @@ recent_mentions:
 - slug: 2025-12-02-the-future-of-computing-is-glass
   title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
   date: '2025-12-02'
-  kind: substack
-- slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
-  title: Carbon Nanotubes in the Datacentre
-  date: '2025-11-25'
-  kind: substack
-- slug: 2025-04-16-the-state-of-photonic-computing
-  title: 'Photonic Computing: A Primer'
-  date: '2025-04-16'
   kind: substack
 neighbors: []
 ---

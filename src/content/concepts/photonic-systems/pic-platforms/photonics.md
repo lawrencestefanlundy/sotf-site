@@ -36,12 +36,24 @@ last_updated: '2026-05-07'
 tags:
 - concept
 - theme
-mention_count: 454
+mention_count: 464
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 3
-sources_30d: 8
+sources_7d: 2
+sources_30d: 7
 recent_mentions:
+- slug: 2026-05-30-optical-interconnect-ma-ledger
+  title: Optical-interconnect / photonic-packaging M&A ledger (2019-2026)
+  date: '2026-05-30'
+  kind: web
+- slug: 2026-05-30-osat-market-structure
+  title: OSAT market structure 2024-2025 — rankings, advanced-packaging split, photonic assembly
+  date: '2026-05-30'
+  kind: web
+- slug: 2026-05-30-companiesmarketcap
+  title: companiesmarketcap.com
+  date: '2026-05-30'
+  kind: web
 - slug: 2026-05-02-return-of-lithium-niobate-photonics-spectra-jan-2026
   title: Return of Lithium Niobate (Photonics Spectra Jan 2026)
   date: '2026-05-02'
@@ -61,18 +73,6 @@ recent_mentions:
 - slug: 2026-02-02-photonic-engines-for-data-centers
   title: Photonic "Engines" for Data Centers
   date: '2026-02-02'
-  kind: substack
-- slug: 2026-01-24-warning-from-the-photonics-industry-europes-lead-is-at-risk-
-  title: 'Warning from the photonics industry: Europe’s lead is at risk - ioplus.nl'
-  date: '2026-01-24'
-  kind: web
-- slug: 2026-01-09-inside-the-gaos-review-of-chips-act-manufacturing-investment
-  title: Inside the GAO’s Review of CHIPS Act Manufacturing Investments - Optics & Photonics News
-  date: '2026-01-09'
-  kind: web
-- slug: 2025-12-19-lfg-for-semiconductors
-  title: LFG (for semiconductors)
-  date: '2025-12-19'
   kind: substack
 neighbors: []
 ---

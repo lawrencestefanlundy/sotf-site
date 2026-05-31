@@ -31,7 +31,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 149
+mention_count: 150
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -48,21 +48,13 @@ descendants:
 - topological-qubits
 - trapped-ion
 last_reorg_date: '2026-05-13'
-sources_7d: 19
-sources_30d: 74
+sources_7d: 18
+sources_30d: 73
 recent_mentions:
-- slug: 2026-05-28-2b-chips-act-funds-aeluma-supported-quantum-manufacturing-pu
-  title: $2B CHIPS Act Funds Aeluma-Supported Quantum Manufacturing Push - Quantum Zeitgeist
-  date: '2026-05-28'
-  kind: web
 - slug: 2026-05-28-arxiv-quantum-annealing-for-realistic-traffic-flow-optimization-cl
   title: 'Quantum Annealing for Realistic Traffic Flow Optimization: Clustering and Data-Driven QUBO'
   date: '2026-05-28'
   kind: paper
-- slug: 2026-05-26-latest-chips-act-funding-targets-us-quantum-manufacturing-co
-  title: Latest CHIPS Act Funding Targets US Quantum Manufacturing, Computing - Thomasnet
-  date: '2026-05-26'
-  kind: web
 - slug: 2026-04-21-quantum-101
   title: Quantum 101
   date: '2026-04-21'
@@ -82,6 +74,14 @@ recent_mentions:
 - slug: 2025-12-09-gallium-nitride-photonics-w-james
   title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
   date: '2025-12-09'
+  kind: substack
+- slug: 2025-12-02-the-future-of-computing-is-glass
+  title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
+  date: '2025-12-02'
+  kind: substack
+- slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
+  title: Carbon Nanotubes in the Datacentre
+  date: '2025-11-25'
   kind: substack
 neighbors: []
 ---

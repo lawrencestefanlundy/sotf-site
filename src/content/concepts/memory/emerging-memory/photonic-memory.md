@@ -46,17 +46,19 @@ neighbors: []
 ---
 ## Physics / mechanism
 
-Photonic memory stores and retrieves data using light rather than electrons, exploiting phase-change materials (PCMs) or electro-optic effects in integrated photonic circuits. The dominant mechanism: GST (Ge₂Sb₂Te₅) or GSST thin films erase/write via laser pulses that toggle crystalline ↔ amorphous states, modulating optical transmission. Multi-level cell (MLC) operation demonstrated at 5+ levels per cell. On-chip read speeds reach sub-nanosecond; endurance typically 10⁵–10⁷ cycles before degradation. Retention >10 years projected for crystalline state. Leading academic demonstrations: Oxford, MIT, EPFL. Commercial activity nascent — Bodle Technologies (acquired), Lumenisity adjacent. Integration with silicon photonics waveguides is the active frontier; insertion loss and CMOS back-end compatibility remain unsolved at volume.
+Photonic memory stores and retrieves data using light rather than electrons, exploiting phase-change materials (PCMs) or electro-optic effects in integrated photonic circuits. The dominant mechanism: GST (Ge₂Sb₂Te₅) or GSST thin films erase/write via laser pulses that toggle crystalline ↔ amorphous states, modulating optical transmission. Multi-level cell (MLC) operation demonstrated at 5+ levels per cell. On-chip read speeds reach sub-nanosecond. **But note: AIMA — the only memory-medium company in the space — does NOT use phase-change; it uses femtosecond all-optical magnetic switching (see landscape below).** Leading academic demonstrations: Oxford/Münster (Bhaskaran/Pernice, PCM-on-waveguide origin), MIT, EPFL, NTT (all-optical RAM). Commercial activity nascent. Integration with silicon-photonics waveguides is the active frontier; insertion loss and CMOS back-end compatibility remain unsolved at volume.
 
-## Competitive landscape
+## Company landscape (2026)
 
-Competing approaches: DRAM and SRAM remain dominant for compute-adjacent memory; their latency advantage shrinks as photonic interconnect bandwidth scales. MRAM and ReRAM offer non-volatility but stay electronic. In-memory computing via memristors (Mythic, Analog Devices) is the most direct architectural rival for inference workloads.
+Honest headline (landscape sweep, 2026-05-30): **very few pure-play "memory built from light" companies exist.** Most "photonic + memory" is actually interconnect, compute, or archival storage. The genuine memory-*medium* plays:
 
-| Approach | Non-volatile | Optical I/O native | Maturity |
-|---|---|---|---|
-| PCM photonic | Yes | Yes | Lab/early proto |
-| Electronic PCM (Intel Optane lineage) | Yes | No | EOL |
-| ReRAM / memristor | Yes | No | Early commercial |
+These three are the genuine memory-*medium* attempts (AIMA most advanced; the latter two found via a 2026-05-30 Granola search). The rest of the category is lab work (TU Eindhoven/Koopmans, Radboud/Kimel-Rasing, MIT/EPFL/NTT).
+
+### Optical / holographic ARCHIVAL storage (separate market: cold-storage, not in-package AI memory)
+Real, funded, EU-concentrated: **Cerabyte** (DE — ceramic-glass; WD / Pure / In-Q-Tel backed), **SPhotonix** (CH — 5D silica glass, $4.5M), **HoloMem** (UK — holographic tape), **Ewigbyte** (DE — glass ablation), **Optera Data** (SG). Defunct ref: **Akonia Holographics** (US) — acquired by **Apple (2018)** for AR waveguides.
+
+### Research / lab context (not companies)
+Microsoft **Project Silica** (5D glass archival), **IBM** (non-volatile optical memory in SiPh), **Oxford/Münster** (PCM-on-waveguide origin), **NTT** (all-optical RAM nanocavity), **Southampton** (Sb₂Se₃ low-loss PCM + the Kazansky 5D-glass lineage).
 
 ## Companies using
 

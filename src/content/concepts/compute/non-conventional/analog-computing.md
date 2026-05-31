@@ -27,6 +27,7 @@ tags:
 mention_count: 11
 descendants:
 - coherent-ising-machine
+- coupled-oscillator-networks
 - fdtd-calibration-wall
 - near-field-rf-coupling
 last_reorg_date: '2026-05-14'

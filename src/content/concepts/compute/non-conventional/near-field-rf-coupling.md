@@ -36,6 +36,10 @@ neighbors:
   name: FDTD-to-Hardware Calibration Wall
   path: /sotf-site/compute/non-conventional/fdtd-calibration-wall/
   macro: compute
+- slug: mature-foundry-positioning
+  name: Mature Foundry Positioning
+  path: /sotf-site/compute/compute-architecture/mature-foundry-positioning/
+  macro: compute
 ---
 ## Why hasn't this been done before
 

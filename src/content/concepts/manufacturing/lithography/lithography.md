@@ -19,7 +19,9 @@ sources:
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
 - '[[2026-05-02-euv-lithography-wikipedia]]'
+- '[[2026-03-14-semianalysis-patel-bottlenecks]]'
 - '[[2026-05-02-asml-euv-lithography-systems]]'
+- '[[2026-05-30-intel-glass-substrates-program]]'
 - '[[2023-12-06-euv-lithography-but-with-a-free-electron-laser]]'
 - '[[2025-01-06-radiant-acquires-nilt]]'
 - '[[2026-05-02-two-photon-lithography-for-integrated-photonic-packaging-lig]]'
@@ -32,8 +34,9 @@ last_updated: '2026-05-08'
 tags:
 - concept
 - technology
-mention_count: 72
+mention_count: 75
 descendants:
+- computational-lithography
 - duv-immersion-lithography
 - e-beam-lithography
 - euv-light-sources
@@ -48,8 +51,8 @@ descendants:
 - two-photon-polymerization
 - xolography
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 11
+sources_7d: 2
+sources_30d: 12
 recent_mentions:
 - slug: 2026-05-02-euv-lithography-wikipedia
   title: EUV Lithography Wikipedia
@@ -62,6 +65,10 @@ recent_mentions:
 - slug: 2026-05-02-two-photon-lithography-for-integrated-photonic-packaging-lig
   title: 'Two-photon lithography for integrated photonic packaging (Light: AM 2023)'
   date: '2026-05-02'
+  kind: web
+- slug: 2026-03-14-semianalysis-patel-bottlenecks
+  title: SemiAnalysis (Dylan Patel) — the three shifting bottlenecks to scaling AI compute (logic/litho, memory, power)
+  date: '2026-03-14'
   kind: web
 - slug: 2025-12-19-lfg-for-semiconductors
   title: LFG (for semiconductors)
@@ -79,10 +86,6 @@ recent_mentions:
   title: 'Edge AI: Analog Chips (feat. Aron Kirschen, SEMRON)'
   date: '2025-02-12'
   kind: substack
-- slug: 2025-01-06-radiant-acquires-nilt
-  title: Radiant Opto-Electronics Corporation Completes Acquisition of NIL Technology
-  date: '2025-01-06'
-  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

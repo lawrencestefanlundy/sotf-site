@@ -21,11 +21,14 @@ descendants:
 - advanced-packaging
 - co-packaged-optics
 - cowos
+- fiber-to-chip-coupling
 - fowlp
 - glass-interposers
 - hybrid-bonding
+- osat
 - packaging
 - photonic-wire-bonding
+- pic-packaging-stack
 - substrate-bt-abf
 - tsv-through-silicon-via
 last_reorg_date: '2026-05-13'

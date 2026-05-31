@@ -22,7 +22,10 @@ sources:
 - '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
+- '[[2026-03-14-semianalysis-patel-bottlenecks]]'
+- '[[2026-05-30-osat-market-structure]]'
 - '[[2024-yole-advanced-packaging-2024]]'
+- '[[2026-05-30-intel-glass-substrates-program]]'
 - '[[2024-tsmc-cowos-roadmap-disclosure]]'
 frontier:
 - ''
@@ -30,12 +33,21 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 80
-descendants: []
+mention_count: 87
+descendants:
+- osat
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 8
+sources_7d: 4
+sources_30d: 11
 recent_mentions:
+- slug: 2026-05-30-osat-market-structure
+  title: OSAT market structure 2024-2025 — rankings, advanced-packaging split, photonic assembly
+  date: '2026-05-30'
+  kind: web
+- slug: 2026-03-14-semianalysis-patel-bottlenecks
+  title: SemiAnalysis (Dylan Patel) — the three shifting bottlenecks to scaling AI compute (logic/litho, memory, power)
+  date: '2026-03-14'
+  kind: web
 - slug: 2026-02-12-how-to-invest-in-ai-sovereignty-sovereign
   title: How to Invest in AI Sovereignty — Sovereign Albion w/ Andrew Bennett
   date: '2026-02-12'
@@ -60,14 +72,6 @@ recent_mentions:
   title: Has the time come to take Mortal Computing seriously?
   date: '2025-04-30'
   kind: substack
-- slug: 2025-02-12-wen-babelfish-feat-aron-of-semron
-  title: 'Edge AI: Analog Chips (feat. Aron Kirschen, SEMRON)'
-  date: '2025-02-12'
-  kind: substack
-- slug: 2024-yole-advanced-packaging-2024
-  title: Yole Group — Advanced Packaging 2024 Market Analysis
-  date: '2024-12-01'
-  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

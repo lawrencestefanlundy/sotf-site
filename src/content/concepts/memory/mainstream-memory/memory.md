@@ -45,7 +45,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 290
+mention_count: 298
 descendants:
 - agentic-workload-retrieval
 - dram
@@ -65,6 +65,14 @@ last_reorg_date: '2026-05-14'
 sources_7d: 4
 sources_30d: 7
 recent_mentions:
+- slug: 2026-05-30-osat-market-structure
+  title: OSAT market structure 2024-2025 — rankings, advanced-packaging split, photonic assembly
+  date: '2026-05-30'
+  kind: web
+- slug: 2026-05-29-silicon-shock-the-macro-of-tech-inflation
+  title: 'Silicon Shock: The Macro of Tech Inflation'
+  date: '2026-05-29'
+  kind: web
 - slug: 2026-05-27-atlas-data-room
   title: Atlas Processing data room (27 May 2026)
   date: '2026-05-27'
@@ -72,6 +80,10 @@ recent_mentions:
 - slug: 2026-04-16-should-the-us-buy-from-cxmt
   title: Should the US Buy from CXMT?
   date: '2026-04-16'
+  kind: web
+- slug: 2026-03-14-semianalysis-patel-bottlenecks
+  title: SemiAnalysis (Dylan Patel) — the three shifting bottlenecks to scaling AI compute (logic/litho, memory, power)
+  date: '2026-03-14'
   kind: web
 - slug: 2026-02-12-how-to-invest-in-ai-sovereignty-sovereign
   title: How to Invest in AI Sovereignty — Sovereign Albion w/ Andrew Bennett
@@ -84,18 +96,6 @@ recent_mentions:
 - slug: 2026-01-22-ai-chips-computeram-and-the-future
   title: 'AI Chips, ComputeRAM and the Future of Data Movement: A Conversation with Manu, Founder of Synthara'
   date: '2026-01-22'
-  kind: substack
-- slug: 2025-12-19-lfg-for-semiconductors
-  title: LFG (for semiconductors)
-  date: '2025-12-19'
-  kind: substack
-- slug: 2025-12-02-the-future-of-computing-is-glass
-  title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
-  date: '2025-12-02'
-  kind: substack
-- slug: 2025-09-23-the-compute-gradient
-  title: The Compute Gradient
-  date: '2025-09-23'
   kind: substack
 neighbors: []
 ---

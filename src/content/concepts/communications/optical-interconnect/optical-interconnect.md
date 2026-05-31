@@ -9,24 +9,36 @@ kind: technology
 parent_concepts:
 - communications
 - optical-interconnect
-related_concepts: []
-sources: []
+related_concepts:
+- optical-circuit-switching
+- optical-packet-switching
+sources:
+- '[[2026-05-30-optical-interconnect-ma-ledger]]'
+- '[[2026-05-30-opsydia-glass-waveguide-packaging]]'
+- '[[2026-05-30-intel-glass-substrates-program]]'
 frontier:
 - ''
 last_updated: '2026-05-07'
 tags:
 - concept
 - technology
-mention_count: 15
+mention_count: 18
 descendants:
+- datacenter-network-stack
 - lpo-linear-pluggable-optics
+- optical-circuit-switching
 - optical-interconnect
 - optical-io-chip-level
+- optical-packet-switching
 - pluggable-transceivers
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 1
+sources_7d: 3
+sources_30d: 4
 recent_mentions:
+- slug: 2026-05-30-optical-interconnect-ma-ledger
+  title: Optical-interconnect / photonic-packaging M&A ledger (2019-2026)
+  date: '2026-05-30'
+  kind: web
 - slug: 2026-02-02-photonic-engines-for-data-centers
   title: Photonic "Engines" for Data Centers
   date: '2026-02-02'
@@ -39,15 +51,31 @@ recent_mentions:
   title: 'UK Opportunity in AI: Compound Semiconductors'
   date: '2025-09-10'
   kind: substack
+- slug: 2026-05-30-opsydia-glass-waveguide-packaging
+  title: Opsydia — Oxford spinout, laser-written glass waveguides, pre-Series A (Jul 2025)
+  date: '2025-07-30'
+  kind: web
 - slug: 2025-04-16-the-state-of-photonic-computing
   title: 'Photonic Computing: A Primer'
   date: '2025-04-16'
   kind: substack
+- slug: 2026-05-30-intel-glass-substrates-program
+  title: Intel Unveils Industry-Leading Glass Substrates (+ Jan 2026 EMIB+glass demo status)
+  date: '2023-09-18'
+  kind: web
 - slug: 2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth
   title: '🔮E14: The Real AI Bottleneck: High Bandwidth Memory (HBM)'
   date: '2023-09-08'
   kind: substack
-neighbors: []
+neighbors:
+- slug: optical-circuit-switching
+  name: Optical Circuit Switching (OCS)
+  path: /sotf-site/communications/optical-interconnect/optical-circuit-switching/
+  macro: communications
+- slug: optical-packet-switching
+  name: Optical Packet Switching (OPS)
+  path: /sotf-site/communications/optical-interconnect/optical-packet-switching/
+  macro: communications
 ---
 ## Physics / mechanism
 

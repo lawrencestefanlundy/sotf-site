@@ -10,17 +10,22 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
+- '[[2026-05-30-companiesmarketcap]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 27
+mention_count: 28
 last_reorg_date: '2026-05-13'
-sources_7d: 2
-sources_30d: 7
+sources_7d: 3
+sources_30d: 8
 recent_mentions:
+- slug: 2026-05-30-companiesmarketcap
+  title: companiesmarketcap.com
+  date: '2026-05-30'
+  kind: web
 - slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
   title: 'UK Opportunity in AI: Compound Semiconductors'
   date: '2025-09-10'

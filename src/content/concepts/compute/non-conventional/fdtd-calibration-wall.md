@@ -73,7 +73,7 @@ Every analog accelerator company follows the same trajectory:
 | Company | Substrate | Survival mechanism |
 |---|---|---|
 | **Ntt Research** CIM | Photonic OPO + fibre loop | Pushed calibration into digital measurement-feedback at ms latency; works but loses 1000x on per-solve time |
-| **D Wave** | Cryogenic superconducting | Different physics class — calibration happens via slow annealing, not a fast realised-J target |
+| **D Wave Systems** | Cryogenic superconducting | Different physics class — calibration happens via slow annealing, not a fast realised-J target |
 | Toshiba SBM, Fujitsu DA | Digital simulation of Ising | Avoided the wall by not building analog hardware |
 
 ## DD signals to listen for

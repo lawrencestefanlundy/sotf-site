@@ -24,37 +24,17 @@ last_reorg_date: '2026-05-13'
 sources_7d: 1
 sources_30d: 3
 recent_mentions:
-- slug: 2026-05-29-the-hack-leaked-chips-act---euractiv
-  title: 'THE HACK: Leaked Chips Act - Euractiv'
-  date: '2026-05-29'
+- slug: 2025-12-30-us-eases-semiconductor-equipment-rules-for-samsung-sk-hynix-
+  title: U.S. Eases Semiconductor Equipment Rules for Samsung, SK Hynix in China - 조선일보
+  date: '2025-12-30'
   kind: web
-- slug: 2026-05-29-european-commission-prepares-chips-act-20-to-boost-semicondu
-  title: European Commission prepares Chips Act 2.0 to boost semiconductor resilience - Digital Watch Observatory
-  date: '2026-05-29'
+- slug: 2024-bis-export-controls-china-semis
+  title: BIS Export Controls — China Semiconductor Restrictions (Oct 2022 / Oct 2023 / Dec 2024 rounds)
+  date: '2024-12-02'
   kind: web
-- slug: 2026-05-29-eu-chips-act-20-draft-shifts-focus-toward-stimulating-demand
-  title: EU Chips Act 2.0 draft shifts focus toward stimulating demand - MLex
-  date: '2026-05-29'
-  kind: web
-- slug: 2026-05-29-eu-chips-act-20-draft-shifts-focus-toward-stimulating-semico
-  title: EU Chips Act 2.0 draft shifts focus toward stimulating semiconductor demand - MLex
-  date: '2026-05-29'
-  kind: web
-- slug: 2026-05-29-europe-to-incentivise-governments-to-buy-eu-made-chips-by-st
-  title: Europe to incentivise governments to buy EU-made chips by startups - ET Telecom
-  date: '2026-05-29'
-  kind: web
-- slug: 2026-05-28-2b-chips-act-funds-aeluma-supported-quantum-manufacturing-pu
-  title: $2B CHIPS Act Funds Aeluma-Supported Quantum Manufacturing Push - Quantum Zeitgeist
-  date: '2026-05-28'
-  kind: web
-- slug: 2026-05-26-tracking-chips-and-science-act-awards---manufacturing-dive
-  title: Tracking CHIPS and Science Act awards - Manufacturing Dive
-  date: '2026-05-26'
-  kind: web
-- slug: 2026-05-26-latest-chips-act-funding-targets-us-quantum-manufacturing-co
-  title: Latest CHIPS Act Funding Targets US Quantum Manufacturing, Computing - Thomasnet
-  date: '2026-05-26'
+- slug: 2023-04-25-us-deals-signal-heightened-semiconductor-equipment-competiti
+  title: US deals signal heightened semiconductor equipment competition - East Asia Forum
+  date: '2023-04-25'
   kind: web
 neighbors: []
 ---

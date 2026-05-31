@@ -24,31 +24,7 @@ descendants:
 - stm
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-05-29-the-hack-leaked-chips-act---euractiv
-  title: 'THE HACK: Leaked Chips Act - Euractiv'
-  date: '2026-05-29'
-  kind: web
-- slug: 2026-05-29-eu-chips-act-20-draft-shifts-focus-toward-stimulating-demand
-  title: EU Chips Act 2.0 draft shifts focus toward stimulating demand - MLex
-  date: '2026-05-29'
-  kind: web
-- slug: 2026-05-29-eu-chips-act-20-draft-shifts-focus-toward-stimulating-semico
-  title: EU Chips Act 2.0 draft shifts focus toward stimulating semiconductor demand - MLex
-  date: '2026-05-29'
-  kind: web
-- slug: 2026-05-26-tracking-chips-and-science-act-awards---manufacturing-dive
-  title: Tracking CHIPS and Science Act awards - Manufacturing Dive
-  date: '2026-05-26'
-  kind: web
-- slug: 2023-06-09-ec-approves-81bn-microelectronics-support---advanced-televis
-  title: EC approves €8.1bn microelectronics support - Advanced Television
-  date: '2023-06-09'
-  kind: web
-- slug: 2012-11-29-college-of-engineering-researchers-awarded-three-energy-depa
-  title: College of Engineering Researchers Awarded Three Energy Department Grants - Georgia Institute of Technology
-  date: '2012-11-29'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

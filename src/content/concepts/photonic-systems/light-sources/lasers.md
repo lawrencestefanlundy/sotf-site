@@ -17,6 +17,7 @@ sources:
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
+- '[[2026-05-30-optical-interconnect-ma-ledger]]'
 - '[[2026-04-15-any-color-you-like-nist-scientists-create-any-wavelength-las]]'
 - '[[2025-01-21-tsmc-remastered]]'
 frontier:
@@ -25,11 +26,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 91
+mention_count: 92
 last_reorg_date: '2026-05-13'
-sources_7d: 7
-sources_30d: 23
+sources_7d: 8
+sources_30d: 24
 recent_mentions:
+- slug: 2026-05-30-optical-interconnect-ma-ledger
+  title: Optical-interconnect / photonic-packaging M&A ledger (2019-2026)
+  date: '2026-05-30'
+  kind: web
 - slug: 2026-04-15-any-color-you-like-nist-scientists-create-any-wavelength-las
   title: 'Any Color You Like: NIST Scientists Create ‘Any Wavelength’ Lasers in Tiny Circuits for Light'
   date: '2026-04-15'
@@ -57,10 +62,6 @@ recent_mentions:
 - slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
   title: 'UK Opportunity in AI: Compound Semiconductors'
   date: '2025-09-10'
-  kind: substack
-- slug: 2025-07-01-a-primer-carbon-nanotubes
-  title: 'A Primer: Carbon Nanotubes'
-  date: '2025-07-01'
   kind: substack
 neighbors: []
 ---

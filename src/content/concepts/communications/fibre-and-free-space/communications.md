@@ -17,6 +17,7 @@ sources:
 - '[[2025-12-19-lfg-for-semiconductors]]'
 - '[[2025-04-30-has-the-time-come-to-take-mortal]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
+- '[[2026-05-30-optical-interconnect-ma-ledger]]'
 - '[[2026-04-24-i-am-artemis-peter-rossoni]]'
 - '[[2026-05-13-20-years-of-space-communications-and-navigation]]'
 - '[[2022-11-15-qualcomm]]'
@@ -29,13 +30,14 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 127
+mention_count: 129
 descendants:
 - 5g-nr-advanced
 - beamforming-ics
 - communications
 - communications-equipment
 - dark-fibre-submarine-cables
+- datacenter-network-stack
 - dect-nr
 - fiber-optics
 - free-space-optics
@@ -43,8 +45,10 @@ descendants:
 - lpo-linear-pluggable-optics
 - mmwave
 - networking-wireless
+- optical-circuit-switching
 - optical-interconnect
 - optical-io-chip-level
+- optical-packet-switching
 - phased-array-antennas
 - pluggable-transceivers
 - qkd
@@ -57,9 +61,13 @@ descendants:
 - sub-thz-6g
 - timing-clock-generation
 last_reorg_date: '2026-05-14'
-sources_7d: 9
-sources_30d: 44
+sources_7d: 11
+sources_30d: 46
 recent_mentions:
+- slug: 2026-05-30-optical-interconnect-ma-ledger
+  title: Optical-interconnect / photonic-packaging M&A ledger (2019-2026)
+  date: '2026-05-30'
+  kind: web
 - slug: 2026-05-14-nasa-draws-on-industry-for-mars-telecommunications-network
   title: NASA Draws on Industry for Mars Telecommunications Network
   date: '2026-05-14'
@@ -88,10 +96,6 @@ recent_mentions:
   title: HMS Networks acquires Industrial Communications Business from Molex Industrial Solutions Business Unit - Yahoo Finance
   date: '2025-11-17'
   kind: web
-- slug: 2025-10-09-a-specific-theory-of-sovereign-ai
-  title: A Specific Theory of Sovereign AI
-  date: '2025-10-09'
-  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

@@ -17,6 +17,8 @@ tags:
 - technology
 mention_count: 1
 last_reorg_date: '2026-05-13'
+descendants:
+- semiconductor-metrology-inspection
 sources_7d: 0
 sources_30d: 0
 recent_mentions: []

@@ -45,7 +45,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 298
+mention_count: 299
 descendants:
 - agentic-workload-retrieval
 - dram

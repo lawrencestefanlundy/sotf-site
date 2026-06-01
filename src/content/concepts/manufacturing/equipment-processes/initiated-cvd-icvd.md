@@ -23,7 +23,7 @@ tags:
 mention_count: 5
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 4
+sources_30d: 0
 recent_mentions:
 - slug: 2026-05-02-gleason-group-at-mit
   title: Gleason Group at MIT

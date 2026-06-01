@@ -22,7 +22,7 @@ tags:
 mention_count: 8
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 5
+sources_30d: 1
 recent_mentions:
 - slug: 2026-05-02-xolography-for-rapid-volumetric-production-adv-materials-202
   title: Xolography for rapid volumetric production (Adv. Materials 2025)

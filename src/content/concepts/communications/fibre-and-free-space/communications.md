@@ -61,7 +61,7 @@ descendants:
 - sub-thz-6g
 - timing-clock-generation
 last_reorg_date: '2026-05-14'
-sources_7d: 11
+sources_7d: 10
 sources_30d: 46
 recent_mentions:
 - slug: 2026-05-30-optical-interconnect-ma-ledger

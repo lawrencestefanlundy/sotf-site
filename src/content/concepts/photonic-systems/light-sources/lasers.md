@@ -28,7 +28,7 @@ tags:
 - technology
 mention_count: 92
 last_reorg_date: '2026-05-13'
-sources_7d: 8
+sources_7d: 7
 sources_30d: 24
 recent_mentions:
 - slug: 2026-05-30-optical-interconnect-ma-ledger

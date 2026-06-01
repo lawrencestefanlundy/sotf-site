@@ -36,12 +36,16 @@ last_updated: '2026-05-07'
 tags:
 - concept
 - theme
-mention_count: 464
+mention_count: 465
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 2
 sources_30d: 7
 recent_mentions:
+- slug: 2026-05-31-companiesmarketcap
+  title: companiesmarketcap.com
+  date: '2026-05-31'
+  kind: web
 - slug: 2026-05-30-optical-interconnect-ma-ledger
   title: Optical-interconnect / photonic-packaging M&A ledger (2019-2026)
   date: '2026-05-30'
@@ -69,10 +73,6 @@ recent_mentions:
 - slug: 2026-02-12-how-to-invest-in-ai-sovereignty-sovereign
   title: How to Invest in AI Sovereignty — Sovereign Albion w/ Andrew Bennett
   date: '2026-02-12'
-  kind: substack
-- slug: 2026-02-02-photonic-engines-for-data-centers
-  title: Photonic "Engines" for Data Centers
-  date: '2026-02-02'
   kind: substack
 neighbors: []
 ---

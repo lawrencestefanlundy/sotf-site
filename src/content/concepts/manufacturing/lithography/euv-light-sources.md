@@ -33,7 +33,7 @@ tags:
 mention_count: 37
 last_reorg_date: '2026-05-13'
 sources_7d: 3
-sources_30d: 10
+sources_30d: 6
 recent_mentions:
 - slug: 2026-05-02-euv-lithography-wikipedia
   title: EUV Lithography Wikipedia

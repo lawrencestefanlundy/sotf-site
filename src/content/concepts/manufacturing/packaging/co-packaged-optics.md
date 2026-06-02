@@ -16,6 +16,8 @@ sources:
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2025-04-16-the-state-of-photonic-computing]]'
 - '[[2026-05-02-cpo-market-to-grow-at-37-cagr-semiconductor-today]]'
+- '[[2026-05-24-mose2-exciton-polariton-all-optical-switch]]'
+- '[[2026-06-01-hbm-state-of-play]]'
 - '[[2026-05-30-osat-market-structure]]'
 - '[[2026-05-30-teramount-50m-molex-acquisition]]'
 - '[[2026-05-02-co-packaged-optics-2026-2036-idtechex]]'
@@ -29,14 +31,22 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 45
+mention_count: 47
 last_reorg_date: '2026-05-13'
-sources_7d: 4
-sources_30d: 4
+sources_7d: 5
+sources_30d: 6
 recent_mentions:
+- slug: 2026-06-01-hbm-state-of-play
+  title: HBM state of play (mid-2026) — technology, supercycle, three-supplier standing
+  date: '2026-06-01'
+  kind: web
 - slug: 2026-05-30-osat-market-structure
   title: OSAT market structure 2024-2025 — rankings, advanced-packaging split, photonic assembly
   date: '2026-05-30'
+  kind: web
+- slug: 2026-05-24-mose2-exciton-polariton-all-optical-switch
+  title: New light-based switch could cut chip energy use and speed future AI photonics
+  date: '2026-05-24'
   kind: web
 - slug: 2026-05-30-teramount-50m-molex-acquisition
   title: Teramount — $50M raise (Jul 2025) then ~$430M Molex (Koch) acquisition (completed 7 May 2026)
@@ -58,14 +68,6 @@ recent_mentions:
   title: CPO Book (SemiAnalysis)
   date: '2026-05-02'
   kind: web
-- slug: 2026-02-02-photonic-engines-for-data-centers
-  title: Photonic "Engines" for Data Centers
-  date: '2026-02-02'
-  kind: substack
-- slug: 2025-12-02-the-future-of-computing-is-glass
-  title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
-  date: '2025-12-02'
-  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

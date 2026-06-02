@@ -29,17 +29,22 @@ sources:
 - '[[2026-05-06-putting-the-super-into-a-supersite-for-earth-observation]]'
 - '[[2026-05-27-nasa-develops-sensor-to-improve-firefighter-safety]]'
 - '[[2025-01-06-radiant-acquires-nilt]]'
+- '[[2026-06-01-photonic-mmwave-generation-research]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 168
+mention_count: 169
 last_reorg_date: '2026-05-13'
-sources_7d: 9
-sources_30d: 46
+sources_7d: 10
+sources_30d: 47
 recent_mentions:
+- slug: 2026-06-01-photonic-mmwave-generation-research
+  title: Photonic mmWave / microwave signal generation — research landscape (2024–2025)
+  date: '2026-06-01'
+  kind: web
 - slug: 2026-05-27-nasa-develops-sensor-to-improve-firefighter-safety
   title: NASA Develops Sensor to Improve Firefighter Safety
   date: '2026-05-27'
@@ -67,10 +72,6 @@ recent_mentions:
 - slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
   title: 'UK Opportunity in AI: Compound Semiconductors'
   date: '2025-09-10'
-  kind: substack
-- slug: 2025-07-01-a-primer-carbon-nanotubes
-  title: 'A Primer: Carbon Nanotubes'
-  date: '2025-07-01'
   kind: substack
 neighbors: []
 ---

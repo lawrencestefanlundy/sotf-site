@@ -19,7 +19,11 @@ mention_count: 44
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2012-02-07-new-form-of-hafnium-oxide-developed-by-cambridge-university-
+  title: New form of hafnium oxide developed by Cambridge University - enterprise.cam.ac.uk
+  date: '2012-02-07'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

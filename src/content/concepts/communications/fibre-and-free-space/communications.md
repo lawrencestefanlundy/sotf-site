@@ -21,7 +21,9 @@ sources:
 - '[[2026-04-24-i-am-artemis-peter-rossoni]]'
 - '[[2026-05-13-20-years-of-space-communications-and-navigation]]'
 - '[[2022-11-15-qualcomm]]'
+- '[[2026-06-01-ncsc-nsa-qkd-vs-pqc]]'
 - '[[2025-04-15-nature-comm-thermodynamic-computing-system]]'
+- '[[2026-06-01-nibras-ucl-chipstart]]'
 - '[[2025-11-17-hms-networks-acquires-industrial-communications-business-fro]]'
 - '[[2026-05-14-nasa-draws-on-industry-for-mars-telecommunications-network]]'
 frontier:
@@ -30,7 +32,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 129
+mention_count: 132
 descendants:
 - 5g-nr-advanced
 - beamforming-ics
@@ -39,8 +41,10 @@ descendants:
 - dark-fibre-submarine-cables
 - datacenter-network-stack
 - dect-nr
+- diffractive-deep-neural-network
 - fiber-optics
 - free-space-optics
+- free-space-photonics
 - iot-connected-devices
 - lpo-linear-pluggable-optics
 - mmwave
@@ -61,9 +65,17 @@ descendants:
 - sub-thz-6g
 - timing-clock-generation
 last_reorg_date: '2026-05-14'
-sources_7d: 10
-sources_30d: 46
+sources_7d: 13
+sources_30d: 49
 recent_mentions:
+- slug: 2026-06-01-ncsc-nsa-qkd-vs-pqc
+  title: 'NCSC / NSA position: QKD not endorsed, post-quantum cryptography is the recommended mitigation'
+  date: '2026-06-01'
+  kind: web
+- slug: 2026-06-01-nibras-ucl-chipstart
+  title: UCL EEE ventures selected for national ChipStart programme (incl. Nibras Communications)
+  date: '2026-06-01'
+  kind: web
 - slug: 2026-05-30-optical-interconnect-ma-ledger
   title: Optical-interconnect / photonic-packaging M&A ledger (2019-2026)
   date: '2026-05-30'
@@ -88,14 +100,6 @@ recent_mentions:
   title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
   date: '2025-12-09'
   kind: substack
-- slug: 2025-12-02-the-future-of-computing-is-glass
-  title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
-  date: '2025-12-02'
-  kind: substack
-- slug: 2025-11-17-hms-networks-acquires-industrial-communications-business-fro
-  title: HMS Networks acquires Industrial Communications Business from Molex Industrial Solutions Business Unit - Yahoo Finance
-  date: '2025-11-17'
-  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

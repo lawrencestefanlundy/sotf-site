@@ -15,17 +15,22 @@ sources:
 - '[[2025-12-19-lfg-for-semiconductors]]'
 - '[[2025-02-25-data-driven-vc-is-over]]'
 - '[[2025-04-16-the-state-of-photonic-computing]]'
+- '[[2026-06-01-hbm-state-of-play]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 41
+mention_count: 44
 last_reorg_date: '2026-05-14'
-sources_7d: 3
-sources_30d: 4
+sources_7d: 5
+sources_30d: 6
 recent_mentions:
+- slug: 2026-06-01-hbm-state-of-play
+  title: HBM state of play (mid-2026) — technology, supercycle, three-supplier standing
+  date: '2026-06-01'
+  kind: web
 - slug: 2025-12-19-lfg-for-semiconductors
   title: LFG (for semiconductors)
   date: '2025-12-19'

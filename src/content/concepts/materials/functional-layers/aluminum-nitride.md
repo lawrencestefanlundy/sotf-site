@@ -40,6 +40,10 @@ neighbors:
   name: Scandium Aluminum Nitride (ScAlN)
   path: /sotf-site/materials/functional-layers/scandium-aluminum-nitride/
   macro: materials
+- slug: gallium-nitride
+  name: Gallium Nitride
+  path: /sotf-site/energy-power/power-electronics/gallium-nitride/
+  macro: energy-power
 - slug: silicon-nitride
   name: Silicon Nitride
   path: /sotf-site/materials/substrates/silicon-nitride/

@@ -36,12 +36,20 @@ last_updated: '2026-05-07'
 tags:
 - concept
 - theme
-mention_count: 465
-descendants: []
+mention_count: 474
+descendants:
+- microwave-photonics
+- optical-frequency-comb
+- optical-frequency-division
+- optoelectronic-oscillator
 last_reorg_date: '2026-05-13'
-sources_7d: 2
-sources_30d: 7
+sources_7d: 4
+sources_30d: 9
 recent_mentions:
+- slug: 2026-06-01-nibras-ucl-chipstart
+  title: UCL EEE ventures selected for national ChipStart programme (incl. Nibras Communications)
+  date: '2026-06-01'
+  kind: web
 - slug: 2026-05-31-companiesmarketcap
   title: companiesmarketcap.com
   date: '2026-05-31'
@@ -58,22 +66,18 @@ recent_mentions:
   title: companiesmarketcap.com
   date: '2026-05-30'
   kind: web
+- slug: 2026-05-24-mose2-exciton-polariton-all-optical-switch
+  title: New light-based switch could cut chip energy use and speed future AI photonics
+  date: '2026-05-24'
+  kind: web
+- slug: 2026-05-11-12-eth-zurich-spinouts-ready-to-raise-series-a---sifted
+  title: 12 ETH Zurich spinouts ready to raise Series A - Sifted
+  date: '2026-05-11'
+  kind: web
 - slug: 2026-05-02-return-of-lithium-niobate-photonics-spectra-jan-2026
   title: Return of Lithium Niobate (Photonics Spectra Jan 2026)
   date: '2026-05-02'
   kind: web
-- slug: 2026-05-02-hybrid-bto-sin-ultra-low-power-tuning-acs-photonics
-  title: Hybrid BTO-SiN ultra-low power tuning (ACS Photonics)
-  date: '2026-05-02'
-  kind: web
-- slug: 2026-05-02-bto-pockels-modulator-on-silicon-photonics-jlt-2019
-  title: BTO Pockels modulator on silicon photonics (JLT 2019)
-  date: '2026-05-02'
-  kind: web
-- slug: 2026-02-12-how-to-invest-in-ai-sovereignty-sovereign
-  title: How to Invest in AI Sovereignty — Sovereign Albion w/ Andrew Bennett
-  date: '2026-02-12'
-  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

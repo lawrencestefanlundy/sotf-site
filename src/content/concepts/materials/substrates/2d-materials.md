@@ -10,17 +10,25 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
+- '[[2026-05-24-mose2-exciton-polariton-all-optical-switch]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 23
+mention_count: 24
 last_reorg_date: '2026-05-13'
+descendants:
+- hexagonal-boron-nitride
+- transition-metal-dichalcogenides
 sources_7d: 0
-sources_30d: 6
+sources_30d: 7
 recent_mentions:
+- slug: 2026-05-24-mose2-exciton-polariton-all-optical-switch
+  title: New light-based switch could cut chip energy use and speed future AI photonics
+  date: '2026-05-24'
+  kind: web
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
   title: Carbon Nanotubes in the Datacentre
   date: '2025-11-25'

@@ -19,6 +19,7 @@ frontier:
 - Does any standalone OCS company break the 0/N venture-scale base rate by 2030, or do all outcomes stay strategic-acquisition?
 - Does ns-class optical switching arrive, moving OCS from slow topology reconfiguration toward NVLink-class fabric contention?
 - 'Which switching medium wins for scale-up AI fabrics: MEMS, LCOS, free-space diffractive, or soliton-microcomb?'
+- Is the binding constraint the switch medium or transceiver resync? And if resync, does the fix need a photonic oscillator ([[lumisync]]) or does an electronic precision clock + algorithms suffice ([[oriole-networks]])? (Two-source corroboration that resync is the constraint; Oriole vs LumiSync diverge on the fix.)
 last_updated: '2026-05-30'
 tags:
 - concept

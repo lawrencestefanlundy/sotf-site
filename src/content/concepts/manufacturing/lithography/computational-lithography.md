@@ -15,7 +15,7 @@ related_concepts:
 - maskless-lithography
 - high-na-euv-lithography
 - mask-blank-manufacturing
-- e-beam-lithography
+- electron-beam-lithography
 - lithography-tools
 sources: []
 frontier:
@@ -44,9 +44,9 @@ neighbors:
   name: Mask Blank Manufacturing
   path: /sotf-site/manufacturing/lithography/mask-blank-manufacturing/
   macro: manufacturing
-- slug: e-beam-lithography
-  name: E-Beam Lithography
-  path: /sotf-site/manufacturing/lithography/e-beam-lithography/
+- slug: electron-beam-lithography
+  name: Electron-Beam Lithography
+  path: /sotf-site/manufacturing/lithography/electron-beam-lithography/
   macro: manufacturing
 - slug: lithography-tools
   name: Lithography Tools

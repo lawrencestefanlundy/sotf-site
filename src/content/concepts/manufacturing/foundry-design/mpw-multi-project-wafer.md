@@ -7,11 +7,14 @@ kind: technology
 parent_concepts:
 - manufacturing
 - foundry-design
-related_concepts: []
+related_concepts:
+- pdk-process-design-kit
+- foundry
 sources: []
 frontier:
-- ''
-last_updated: '2026-05-04'
+- For photonics, does MPW shuttle cadence (quarterly vs monthly) materially gate startup iteration speed to first product?
+- At what die-area and volume does a photonics team graduate from MPW to a dedicated run?
+last_updated: '2026-06-01'
 tags:
 - concept
 - technology
@@ -20,7 +23,15 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions: []
-neighbors: []
+neighbors:
+- slug: pdk-process-design-kit
+  name: PDK / Process Design Kit
+  path: /sotf-site/manufacturing/foundry-design/pdk-process-design-kit/
+  macro: manufacturing
+- slug: foundry
+  name: Semiconductor Foundries
+  path: /sotf-site/manufacturing/foundry-design/foundry/
+  macro: manufacturing
 ---
 ## Physics / mechanism
 
@@ -29,6 +40,8 @@ Multi-Project Wafer (MPW) runs multiple chip designs on a single wafer by partit
 ## Competitive landscape
 
 Dedicated wafer runs (full production) are the alternative once yield and volume justify it; breakeven typically hits at 5K–50K units depending on die area. ASIC prototyping via PCB + FPGA bridges early feasibility but cannot validate analogue, RF, or photonic performance. SiPh-specific MPW (AIM Photonics, imec, CEA-Leti, Cornerstone) compete with CMOS-node shuttles for photonics teams. Open-source PDKs (SkyWater 130nm, GF 180nm) lower the floor further.
+
+## Relation to the PDK
 
 ## Companies using
 

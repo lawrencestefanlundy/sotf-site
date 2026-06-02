@@ -26,10 +26,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 92
+mention_count: 94
 last_reorg_date: '2026-05-13'
-sources_7d: 7
-sources_30d: 24
+sources_7d: 9
+sources_30d: 26
 recent_mentions:
 - slug: 2026-05-30-optical-interconnect-ma-ledger
   title: Optical-interconnect / photonic-packaging M&A ledger (2019-2026)

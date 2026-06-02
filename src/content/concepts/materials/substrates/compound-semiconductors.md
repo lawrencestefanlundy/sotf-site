@@ -21,6 +21,17 @@ tags:
 - technology
 mention_count: 23
 last_reorg_date: '2026-05-13'
+descendants:
+- gallium-antimonide
+- gallium-phosphide
+- indium-antimonide
+- indium-arsenide
+- indium-gallium-arsenide
+- silicon-carbide
+- silicon-germanium
+- wide-bandgap-semiconductors
+- zinc-oxide
+- zinc-selenide
 sources_7d: 1
 sources_30d: 3
 recent_mentions:

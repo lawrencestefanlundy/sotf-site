@@ -19,7 +19,11 @@ mention_count: 30
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2025-05-13-commerce-rescinds-biden-era-ai-export-controls---nextgovfcw
+  title: Commerce rescinds Biden-era AI export controls - Nextgov/FCW
+  date: '2025-05-13'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

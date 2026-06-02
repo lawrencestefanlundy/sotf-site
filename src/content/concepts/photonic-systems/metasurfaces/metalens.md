@@ -16,7 +16,7 @@ related_concepts:
 - metamaterials
 - nanoimprint-lithography
 - maskless-lithography
-- e-beam-lithography
+- electron-beam-lithography
 - silicon-photonics
 sources: []
 frontier:
@@ -54,9 +54,9 @@ neighbors:
   name: Maskless Lithography
   path: /sotf-site/manufacturing/lithography/maskless-lithography/
   macro: manufacturing
-- slug: e-beam-lithography
-  name: E-Beam Lithography
-  path: /sotf-site/manufacturing/lithography/e-beam-lithography/
+- slug: electron-beam-lithography
+  name: Electron-Beam Lithography
+  path: /sotf-site/manufacturing/lithography/electron-beam-lithography/
   macro: manufacturing
 - slug: silicon-photonics
   name: Silicon Photonics

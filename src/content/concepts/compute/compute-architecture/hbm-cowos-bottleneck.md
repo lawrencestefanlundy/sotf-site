@@ -14,7 +14,7 @@ related_concepts:
 - mature-foundry-positioning
 - chiplets
 - backside-power-delivery
-- ucie
+- ucie-standard
 sources: []
 frontier:
 - When does TSMC CoWoS-S capacity reach demand parity? Current estimates point to mid-2027 at earliest.
@@ -44,9 +44,9 @@ neighbors:
   name: Backside Power Delivery (BPD)
   path: /sotf-site/compute/compute-architecture/backside-power-delivery/
   macro: compute
-- slug: ucie
-  name: UCIe (Universal Chiplet Interconnect Express)
-  path: /sotf-site/compute/compute-architecture/ucie/
+- slug: ucie-standard
+  name: UCIe
+  path: /sotf-site/compute/compute-architecture/ucie-standard/
   macro: compute
 ---
 The two simultaneous supply-side constraints that define AI accelerator economics through 2027. **TSMC CoWoS-S advanced packaging** and **HBM3e high-bandwidth memory** are both running at full utilisation, both allocated almost entirely to Nvidia, AMD, Broadcom, and the hyperscaler custom-silicon programmes. Any new entrant requiring either is queueing.

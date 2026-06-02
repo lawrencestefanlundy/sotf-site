@@ -37,8 +37,10 @@ tags:
 mention_count: 75
 descendants:
 - computational-lithography
+- directed-self-assembly
 - duv-immersion-lithography
 - e-beam-lithography
+- electron-beam-lithography
 - euv-light-sources
 - high-na-euv-lithography
 - lithography
@@ -49,6 +51,7 @@ descendants:
 - photonic-manufacturing
 - photoresists
 - two-photon-polymerization
+- x-ray-lithography
 - xolography
 last_reorg_date: '2026-05-13'
 sources_7d: 2

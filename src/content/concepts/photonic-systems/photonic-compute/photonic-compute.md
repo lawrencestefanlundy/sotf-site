@@ -17,6 +17,7 @@ sources:
 - '[[2023-07-23-analog-computing-the-once-and-future]]'
 - '[[2025-04-30-has-the-time-come-to-take-mortal]]'
 - '[[2025-04-16-the-state-of-photonic-computing]]'
+- '[[2026-05-24-mose2-exciton-polariton-all-optical-switch]]'
 - '[[2025-07-14-solving-compute-crisis-physics-based-asics]]'
 - '[[2023-03-29-oxford-spinout-lumai-secures-11m-grant-to-power-optical-comp]]'
 frontier:
@@ -25,7 +26,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 37
+mention_count: 38
 descendants:
 - diffractive-deep-neural-network
 - diffractive-deep-neural-networks
@@ -35,8 +36,12 @@ descendants:
 - photonic-tensor-cores
 last_reorg_date: '2026-05-13'
 sources_7d: 4
-sources_30d: 11
+sources_30d: 12
 recent_mentions:
+- slug: 2026-05-24-mose2-exciton-polariton-all-optical-switch
+  title: New light-based switch could cut chip energy use and speed future AI photonics
+  date: '2026-05-24'
+  kind: web
 - slug: 2025-12-02-the-future-of-computing-is-glass
   title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
   date: '2025-12-02'
@@ -65,10 +70,6 @@ recent_mentions:
   title: '🔮E08: Optical Computing'
   date: '2023-07-14'
   kind: substack
-- slug: 2023-03-29-oxford-spinout-lumai-secures-11m-grant-to-power-optical-comp
-  title: Oxford spinout Lumai secures £1.1m grant to power optical computing revolution - Oxford University Innovation
-  date: '2023-03-29'
-  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

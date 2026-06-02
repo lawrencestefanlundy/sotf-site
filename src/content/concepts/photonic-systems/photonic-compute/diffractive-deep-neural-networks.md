@@ -14,7 +14,7 @@ parent_concepts:
 related_concepts:
 - spatial-light-modulators
 - holographic-volumetric-displays
-- free-space-optics
+- free-space-photonics
 - metasurfaces-flat-optics
 sources: []
 frontier:
@@ -44,9 +44,9 @@ neighbors:
   name: Holographic / Volumetric Displays
   path: /sotf-site/photonic-systems/displays/holographic-volumetric-displays/
   macro: photonic-systems
-- slug: free-space-optics
-  name: Free-Space Optics
-  path: /sotf-site/communications/fibre-and-free-space/free-space-optics/
+- slug: free-space-photonics
+  name: Free-Space Photonics
+  path: /sotf-site/communications/fibre-and-free-space/free-space-photonics/
   macro: communications
 - slug: metasurfaces-flat-optics
   name: Metasurfaces & Flat Optics

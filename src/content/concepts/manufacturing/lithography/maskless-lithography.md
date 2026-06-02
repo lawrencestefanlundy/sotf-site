@@ -17,7 +17,7 @@ parent_concepts:
 - manufacturing
 - lithography
 related_concepts:
-- e-beam-lithography
+- electron-beam-lithography
 - nanoimprint-lithography
 - duv-immersion-lithography
 - high-na-euv-lithography
@@ -50,9 +50,9 @@ sources_7d: 0
 sources_30d: 1
 recent_mentions: []
 neighbors:
-- slug: e-beam-lithography
-  name: E-Beam Lithography
-  path: /sotf-site/manufacturing/lithography/e-beam-lithography/
+- slug: electron-beam-lithography
+  name: Electron-Beam Lithography
+  path: /sotf-site/manufacturing/lithography/electron-beam-lithography/
   macro: manufacturing
 - slug: nanoimprint-lithography
   name: Nanoimprint Lithography

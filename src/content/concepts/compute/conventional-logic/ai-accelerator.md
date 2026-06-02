@@ -38,6 +38,10 @@ recent_mentions:
   title: 'UK Opportunity in AI: Compound Semiconductors'
   date: '2025-09-10'
   kind: substack
+- slug: 2025-04-08-can-the-eu-chips-act-fuel-a-european-semiconductor-industry-
+  title: Can the EU Chips Act fuel a European semiconductor industry for the AI age? - Science|Business
+  date: '2025-04-08'
+  kind: web
 - slug: 2024-yole-advanced-packaging-2024
   title: Yole Group — Advanced Packaging 2024 Market Analysis
   date: '2024-12-01'
@@ -57,10 +61,6 @@ recent_mentions:
 - slug: 2024-yole-thermal-management-2024
   title: Yole Group — Thermal Management 2024 Market Analysis
   date: '2024-10-01'
-  kind: web
-- slug: 2024-idtechex-thermal-interface-materials-2026-2036
-  title: 'IDTechEx — Thermal Interface Materials 2026-2036: Technologies, Markets and Forecasts'
-  date: '2024-08-15'
   kind: web
 neighbors: []
 ---

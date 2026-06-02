@@ -15,6 +15,7 @@ sources:
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
 - '[[2024-12-16-willow-and-the-race-to-quantum-advantage]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
+- '[[2026-05-24-mose2-exciton-polariton-all-optical-switch]]'
 - '[[2026-05-02-hybrid-bto-sin-ultra-low-power-tuning-acs-photonics]]'
 frontier:
 - ''
@@ -22,11 +23,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - material
-mention_count: 39
+mention_count: 43
 last_reorg_date: '2026-05-13'
-sources_7d: 4
-sources_30d: 14
+sources_7d: 6
+sources_30d: 17
 recent_mentions:
+- slug: 2026-05-24-mose2-exciton-polariton-all-optical-switch
+  title: New light-based switch could cut chip energy use and speed future AI photonics
+  date: '2026-05-24'
+  kind: web
 - slug: 2026-05-02-hybrid-bto-sin-ultra-low-power-tuning-acs-photonics
   title: Hybrid BTO-SiN ultra-low power tuning (ACS Photonics)
   date: '2026-05-02'

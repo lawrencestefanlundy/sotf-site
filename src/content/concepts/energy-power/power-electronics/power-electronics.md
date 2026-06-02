@@ -25,9 +25,12 @@ tags:
 mention_count: 35
 last_reorg_date: '2026-05-13'
 descendants:
+- aluminium-gallium-nitride
 - electric-motors-drives
+- gallium-nitride
 - gan-on-si
 - gw-scale-power-delivery
+- indium-gallium-nitride
 - power
 - power-electronics
 - power-management-ic

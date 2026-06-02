@@ -24,6 +24,7 @@ descendants:
 - fiber-to-chip-coupling
 - fowlp
 - glass-interposers
+- heterogeneous-integration
 - hybrid-bonding
 - osat
 - packaging

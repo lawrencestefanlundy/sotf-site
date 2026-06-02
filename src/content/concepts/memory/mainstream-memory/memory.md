@@ -45,10 +45,11 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 299
+mention_count: 309
 descendants:
 - agentic-workload-retrieval
 - dram
+- embedded-non-volatile-memory
 - feram
 - hbm
 - in-memory-computing
@@ -62,9 +63,17 @@ descendants:
 - sram
 - storage-class-memory
 last_reorg_date: '2026-05-14'
-sources_7d: 4
-sources_30d: 7
+sources_7d: 5
+sources_30d: 9
 recent_mentions:
+- slug: 2026-06-01-hbm-state-of-play
+  title: HBM state of play (mid-2026) — technology, supercycle, three-supplier standing
+  date: '2026-06-01'
+  kind: web
+- slug: 2026-06-01-ncsc-nsa-qkd-vs-pqc
+  title: 'NCSC / NSA position: QKD not endorsed, post-quantum cryptography is the recommended mitigation'
+  date: '2026-06-01'
+  kind: web
 - slug: 2026-05-30-osat-market-structure
   title: OSAT market structure 2024-2025 — rankings, advanced-packaging split, photonic assembly
   date: '2026-05-30'
@@ -77,6 +86,10 @@ recent_mentions:
   title: Atlas Processing data room (27 May 2026)
   date: '2026-05-27'
   kind: web
+- slug: 2026-05-24-mose2-exciton-polariton-all-optical-switch
+  title: New light-based switch could cut chip energy use and speed future AI photonics
+  date: '2026-05-24'
+  kind: web
 - slug: 2026-04-16-should-the-us-buy-from-cxmt
   title: Should the US Buy from CXMT?
   date: '2026-04-16'
@@ -85,18 +98,6 @@ recent_mentions:
   title: SemiAnalysis (Dylan Patel) — the three shifting bottlenecks to scaling AI compute (logic/litho, memory, power)
   date: '2026-03-14'
   kind: web
-- slug: 2026-02-12-how-to-invest-in-ai-sovereignty-sovereign
-  title: How to Invest in AI Sovereignty — Sovereign Albion w/ Andrew Bennett
-  date: '2026-02-12'
-  kind: substack
-- slug: 2026-02-02-photonic-engines-for-data-centers
-  title: Photonic "Engines" for Data Centers
-  date: '2026-02-02'
-  kind: substack
-- slug: 2026-01-22-ai-chips-computeram-and-the-future
-  title: 'AI Chips, ComputeRAM and the Future of Data Movement: A Conversation with Manu, Founder of Synthara'
-  date: '2026-01-22'
-  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

@@ -20,7 +20,15 @@ descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-01-nasa-invites-media-to-see-roman-space-telescope-arrive-at-ke
+  title: NASA Invites Media to See Roman Space Telescope Arrive at Kennedy
+  date: '2026-06-01'
+  kind: web
+- slug: 2026-05-11-12-eth-zurich-spinouts-ready-to-raise-series-a---sifted
+  title: 12 ETH Zurich spinouts ready to raise Series A - Sifted
+  date: '2026-05-11'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

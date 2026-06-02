@@ -17,6 +17,7 @@ tags:
 - technology
 mention_count: 62
 descendants:
+- aluminium-gallium-nitride
 - batteries-energy-storage
 - beccs
 - carbon
@@ -39,12 +40,14 @@ descendants:
 - fusion-magnetic-confinement
 - fusion-stellarators
 - fusion-z-pinch
+- gallium-nitride
 - gan-on-si
 - geothermal
 - graphene-thermal-films
 - gravity-thermal-storage
 - gw-scale-power-delivery
 - heat-pipes
+- indium-gallium-nitride
 - liquid-cooling
 - liquid-cooling-datacentre
 - lithium-sulphur-batteries
@@ -74,7 +77,15 @@ descendants:
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2024-05-23-could-vpps-save-rooftop-solar---latitude-media
+  title: Could VPPs save rooftop solar? - Latitude Media
+  date: '2024-05-23'
+  kind: web
+- slug: 2022-10-25-new-approach-to-cosmic-magnet-manufacturing-could-reduce-rel
+  title: New approach to ‘cosmic magnet’ manufacturing could reduce reliance on rare earths in low-carbon technologies - enterprise.cam.ac.uk
+  date: '2022-10-25'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

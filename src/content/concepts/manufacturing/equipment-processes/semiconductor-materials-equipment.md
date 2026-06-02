@@ -24,7 +24,35 @@ descendants:
 - stm
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-01-chips-act-2-commission-focuses-on-mass-production---tablebri
+  title: 'Chips Act 2: Commission focuses on mass production - Table.Briefings'
+  date: '2026-06-01'
+  kind: web
+- slug: 2025-07-16-flagship-chips-rd-facility-opens-in-new-york---manufacturing
+  title: Flagship CHIPS R&D facility opens in New York - Manufacturing Dive
+  date: '2025-07-16'
+  kind: web
+- slug: 2024-12-10-micron-virginia---national-institute-of-standards-and-techno
+  title: Micron (Virginia) - National Institute of Standards and Technology (.gov)
+  date: '2024-12-10'
+  kind: web
+- slug: 2024-11-28-austria-establishes-competence-center-within-the-framework-o
+  title: Austria establishes competence center within the framework of the European Chips Act - AT&S
+  date: '2024-11-28'
+  kind: web
+- slug: 2024-01-04-how-federal-state-and-local-leaders-can-leverage-the-chips-a
+  title: How federal, state, and local leaders can leverage the CHIPS and Science Act as a landmark workforce opportunity - Brookings
+  date: '2024-01-04'
+  kind: web
+- slug: 2023-04-19-european-union-finalises-43bn-chips-act---silicon-uk
+  title: European Union Finalises €43bn Chips Act - Silicon UK
+  date: '2023-04-19'
+  kind: web
+- slug: 2012-02-07-new-form-of-hafnium-oxide-developed-by-cambridge-university-
+  title: New form of hafnium oxide developed by Cambridge University - enterprise.cam.ac.uk
+  date: '2012-02-07'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

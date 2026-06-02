@@ -47,6 +47,10 @@ neighbors:
   name: Thermodynamic Computing
   path: /sotf-site/compute/non-conventional/thermodynamic-computing/
   macro: compute
+- slug: quantum-annealing
+  name: Quantum Annealing
+  path: /sotf-site/compute/quantum-computing/quantum-annealing/
+  macro: compute
 - slug: near-field-rf-coupling
   name: Near-Field RF Coupling (as compute substrate)
   path: /sotf-site/compute/non-conventional/near-field-rf-coupling/

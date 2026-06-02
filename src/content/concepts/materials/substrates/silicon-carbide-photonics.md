@@ -12,7 +12,7 @@ parent_concepts:
 related_concepts:
 - silicon-nitride
 - diamond
-- sic
+- silicon-carbide
 - quantum-computing
 - mid-ir-photonic-sensing
 sources: []
@@ -43,9 +43,9 @@ neighbors:
   name: Diamond
   path: /sotf-site/materials/substrates/diamond/
   macro: materials
-- slug: sic
-  name: SiC
-  path: /sotf-site/materials/substrates/sic/
+- slug: silicon-carbide
+  name: Silicon Carbide
+  path: /sotf-site/materials/substrates/silicon-carbide/
   macro: materials
 - slug: quantum-computing
   name: Quantum Computing
@@ -67,7 +67,7 @@ Lab demonstrators only as of 2026. Commercial production: zero foundries. Active
 Closest peers:
 - [Diamond](/sotf-site/materials/substrates/diamond/) for quantum (NV centres) — even better quantum coherence but worse manufacturing path
 - [Silicon Nitride](/sotf-site/materials/substrates/silicon-nitride/) for low-loss visible — much more mature but no native quantum emitters
-- **Gallium Nitride** for wide-bandgap photonics — different application focus
+- [Gallium Nitride](/sotf-site/energy-power/power-electronics/gallium-nitride/) for wide-bandgap photonics — different application focus
 
 ## Frontier (open questions)
 

@@ -78,13 +78,9 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
-- slug: 2024-05-23-could-vpps-save-rooftop-solar---latitude-media
-  title: Could VPPs save rooftop solar? - Latitude Media
-  date: '2024-05-23'
-  kind: web
-- slug: 2022-10-25-new-approach-to-cosmic-magnet-manufacturing-could-reduce-rel
-  title: New approach to ‘cosmic magnet’ manufacturing could reduce reliance on rare earths in low-carbon technologies - enterprise.cam.ac.uk
-  date: '2022-10-25'
+- slug: 2026-06-02-america-spins-on-westmag
+  title: America Spins on Westmag
+  date: '2026-06-02'
   kind: web
 neighbors: []
 ---

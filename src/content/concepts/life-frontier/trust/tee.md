@@ -22,8 +22,24 @@ tags:
 mention_count: 10
 last_reorg_date: '2026-05-13'
 sources_7d: 1
-sources_30d: 2
-recent_mentions: []
+sources_30d: 1
+recent_mentions:
+- slug: 2025-10-09-a-specific-theory-of-sovereign-ai
+  title: A Specific Theory of Sovereign AI
+  date: '2025-10-09'
+  kind: substack
+- slug: 2023-10-19-e20-the-state-of-privacy-enhancing
+  title: Understanding Privacy Enhancing Technology (Feat. Karim Eldefrawy, Confidencial.io)
+  date: '2023-10-19'
+  kind: substack
+- slug: 2023-10-13-e19-trusted-execution-environments
+  title: Understanding Confidential Computing (feat. Ilja Aizenberg, M Ventures)
+  date: '2023-10-13'
+  kind: substack
+- slug: 2023-06-30-e06-the-model-t-moment-for-bits-llms
+  title: '🔮 E06: Large Language Models and the Assembly Line'
+  date: '2023-06-30'
+  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

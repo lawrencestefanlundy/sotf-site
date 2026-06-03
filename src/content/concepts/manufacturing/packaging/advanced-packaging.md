@@ -27,13 +27,14 @@ sources:
 - '[[2024-yole-advanced-packaging-2024]]'
 - '[[2026-05-30-intel-glass-substrates-program]]'
 - '[[2024-tsmc-cowos-roadmap-disclosure]]'
+- '[[2025-01-06-asu-selected-as-home-and-partner-for-chips-and-science-act-f]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 87
+mention_count: 89
 descendants:
 - heterogeneous-integration
 - osat

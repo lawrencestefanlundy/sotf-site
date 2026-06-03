@@ -36,10 +36,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 169
+mention_count: 174
 last_reorg_date: '2026-05-13'
-sources_7d: 10
-sources_30d: 47
+sources_7d: 13
+sources_30d: 48
 recent_mentions:
 - slug: 2026-06-01-photonic-mmwave-generation-research
   title: Photonic mmWave / microwave signal generation — research landscape (2024–2025)

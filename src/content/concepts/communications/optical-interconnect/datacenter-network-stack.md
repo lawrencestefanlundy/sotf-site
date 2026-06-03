@@ -62,11 +62,6 @@ Data starts electrical on a chip; to send it far you put it on light and read it
 
 ## The deciders (where OCS fits)
 
-- **Switch (electronic packet switch)** — reads every packet's destination address and forwards it (postal sorting machine reading every label). Converts O-E-O at every hop = power cost. **Broadcom Tomahawk**, **NVIDIA**, **Arista**.
-- **Router** — a switch one layer up: forwards *between* networks (datacenter ↔ internet) by IP. Switch = within a network; router = between networks. In an AI cluster you care about the switch.
-- **[OCS](/sotf-site/communications/optical-interconnect/optical-circuit-switching/)** — does NOT read packets. Physically redirects the whole light beam fiber-to-fiber (tilting a mirror) to set a dedicated lane (railway turntable vs reading each parcel). Cheap, low-power, any-speed, but "dumb" and slow to reconfigure (ms). Sets the **topology**, not per-packet routing. Google's Apollo (**Google Ocs**).
-- **[OPS](/sotf-site/communications/optical-interconnect/optical-packet-switching/)** — the holy grail: switch individual packets while still light, no conversion. Brutally hard (needs optical memory, which doesn't really exist). **Finchetto**'s bet.
-
 ## The hierarchy
 
 chip → server → rack → pod → datacenter. (chip = desk, rack = office, pod = floor, datacenter = building; transceivers = phones on desks, switches = mailrooms on floors, OCS = the re-wireable riser.)

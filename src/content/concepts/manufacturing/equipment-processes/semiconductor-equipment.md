@@ -21,40 +21,20 @@ tags:
 mention_count: 55
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 3
+sources_7d: 0
+sources_30d: 2
 recent_mentions:
-- slug: 2026-06-01-chips-act-2-commission-focuses-on-mass-production---tablebri
-  title: 'Chips Act 2: Commission focuses on mass production - Table.Briefings'
-  date: '2026-06-01'
-  kind: web
-- slug: 2026-06-01-eu-plans-reset-for-chips-act-to-boost-local-chip-demand-and-
-  title: EU plans reset for Chips Act to boost local chip demand and production - Crypto Briefing
-  date: '2026-06-01'
-  kind: web
-- slug: 2026-05-31-should-planned-us100-million-chips-act-equity-funding-requir
-  title: Should Planned US$100 Million CHIPS Act Equity Funding Require Action From Rigetti Computing (RGTI) Investors? - simplywall.st
-  date: '2026-05-31'
-  kind: web
-- slug: 2026-05-21-senate-passes-bipartisan-stop-stealing-our-chips-act---ameri
-  title: Senate Passes Bipartisan Stop Stealing our Chips Act - Americans for Responsible Innovation
-  date: '2026-05-21'
-  kind: web
 - slug: 2025-12-30-us-eases-semiconductor-equipment-rules-for-samsung-sk-hynix-
   title: U.S. Eases Semiconductor Equipment Rules for Samsung, SK Hynix in China - 조선일보
   date: '2025-12-30'
   kind: web
-- slug: 2025-07-16-flagship-chips-rd-facility-opens-in-new-york---manufacturing
-  title: Flagship CHIPS R&D facility opens in New York - Manufacturing Dive
-  date: '2025-07-16'
+- slug: 2024-bis-export-controls-china-semis
+  title: BIS Export Controls — China Semiconductor Restrictions (Oct 2022 / Oct 2023 / Dec 2024 rounds)
+  date: '2024-12-02'
   kind: web
-- slug: 2025-01-06-asu-selected-as-home-and-partner-for-chips-and-science-act-f
-  title: ASU selected as home and partner for CHIPS and Science Act-funded national facility for semiconductor advanced packaging - ASU News
-  date: '2025-01-06'
-  kind: web
-- slug: 2024-12-10-micron-virginia---national-institute-of-standards-and-techno
-  title: Micron (Virginia) - National Institute of Standards and Technology (.gov)
-  date: '2024-12-10'
+- slug: 2023-04-25-us-deals-signal-heightened-semiconductor-equipment-competiti
+  title: US deals signal heightened semiconductor equipment competition - East Asia Forum
+  date: '2023-04-25'
   kind: web
 neighbors: []
 ---

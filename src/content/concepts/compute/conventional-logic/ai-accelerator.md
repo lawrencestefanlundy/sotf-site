@@ -30,6 +30,10 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 2
 recent_mentions:
+- slug: 2026-06-02-agentic-runtime-silicon-necessity
+  title: Deep-research dossier — does the stateful agent runtime / control-plane layer need a novel silicon primitive?
+  date: '2026-06-02'
+  kind: web
 - slug: 2025-12-02-the-future-of-computing-is-glass
   title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
   date: '2025-12-02'
@@ -38,10 +42,6 @@ recent_mentions:
   title: 'UK Opportunity in AI: Compound Semiconductors'
   date: '2025-09-10'
   kind: substack
-- slug: 2025-04-08-can-the-eu-chips-act-fuel-a-european-semiconductor-industry-
-  title: Can the EU Chips Act fuel a European semiconductor industry for the AI age? - Science|Business
-  date: '2025-04-08'
-  kind: web
 - slug: 2024-yole-advanced-packaging-2024
   title: Yole Group — Advanced Packaging 2024 Market Analysis
   date: '2024-12-01'

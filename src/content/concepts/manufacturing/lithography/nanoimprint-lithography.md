@@ -13,7 +13,7 @@ parent_concepts:
 - lithography
 related_concepts:
 - maskless-lithography
-- electron-beam-lithography
+- e-beam-lithography
 - duv-immersion-lithography
 - metalens
 - metasurfaces-flat-optics
@@ -40,9 +40,9 @@ neighbors:
   name: Maskless Lithography
   path: /sotf-site/manufacturing/lithography/maskless-lithography/
   macro: manufacturing
-- slug: electron-beam-lithography
-  name: Electron-Beam Lithography
-  path: /sotf-site/manufacturing/lithography/electron-beam-lithography/
+- slug: e-beam-lithography
+  name: E-Beam Lithography
+  path: /sotf-site/manufacturing/lithography/e-beam-lithography/
   macro: manufacturing
 - slug: duv-immersion-lithography
   name: DUV / Immersion Lithography

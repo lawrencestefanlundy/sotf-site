@@ -22,17 +22,21 @@ tags:
 mention_count: 23
 last_reorg_date: '2026-05-13'
 descendants:
+- aluminium-gallium-nitride
 - gallium-antimonide
+- gallium-nitride
 - gallium-phosphide
+- hgcdte
 - indium-antimonide
 - indium-arsenide
 - indium-gallium-arsenide
+- indium-gallium-nitride
 - silicon-carbide
 - silicon-germanium
 - wide-bandgap-semiconductors
 - zinc-oxide
 - zinc-selenide
-sources_7d: 1
+sources_7d: 0
 sources_30d: 3
 recent_mentions:
 - slug: 2026-02-12-how-to-invest-in-ai-sovereignty-sovereign

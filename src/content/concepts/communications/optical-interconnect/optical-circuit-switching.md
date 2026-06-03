@@ -20,12 +20,13 @@ frontier:
 - Does ns-class optical switching arrive, moving OCS from slow topology reconfiguration toward NVLink-class fabric contention?
 - 'Which switching medium wins for scale-up AI fabrics: MEMS, LCOS, free-space diffractive, or soliton-microcomb?'
 - Is the binding constraint the switch medium or transceiver resync? And if resync, does the fix need a photonic oscillator ([[lumisync]]) or does an electronic precision clock + algorithms suffice ([[oriole-networks]])? (Two-source corroboration that resync is the constraint; Oriole vs LumiSync diverge on the fix.)
-last_updated: '2026-05-30'
+- 'The buffering crux for OPS: can all-optical packet switching ([[finchetto]]) actually run with NO buffering, or is packet switching fundamentally buffer-bound as Oriole/Zervas argue ([[2026-06-01-oriole-networks]])? Turns on output-contention handling and whether address-bus synchronisation reintroduces a resync-class penalty.'
+last_updated: '2026-06-02'
 tags:
 - concept
 - technology
-sources_7d: 0
-sources_30d: 0
+sources_7d: 2
+sources_30d: 2
 recent_mentions: []
 neighbors:
 - slug: optical-packet-switching

@@ -31,7 +31,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 153
+mention_count: 165
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -49,8 +49,8 @@ descendants:
 - topological-qubits
 - trapped-ion
 last_reorg_date: '2026-05-13'
-sources_7d: 18
-sources_30d: 73
+sources_7d: 24
+sources_30d: 62
 recent_mentions:
 - slug: 2026-06-01-ncsc-nsa-qkd-vs-pqc
   title: 'NCSC / NSA position: QKD not endorsed, post-quantum cryptography is the recommended mitigation'
@@ -59,10 +59,6 @@ recent_mentions:
 - slug: 2026-06-01-nibras-ucl-chipstart
   title: UCL EEE ventures selected for national ChipStart programme (incl. Nibras Communications)
   date: '2026-06-01'
-  kind: web
-- slug: 2026-05-31-should-planned-us100-million-chips-act-equity-funding-requir
-  title: Should Planned US$100 Million CHIPS Act Equity Funding Require Action From Rigetti Computing (RGTI) Investors? - simplywall.st
-  date: '2026-05-31'
   kind: web
 - slug: 2026-05-28-arxiv-quantum-annealing-for-realistic-traffic-flow-optimization-cl
   title: 'Quantum Annealing for Realistic Traffic Flow Optimization: Clustering and Data-Driven QUBO'
@@ -76,14 +72,18 @@ recent_mentions:
   title: Quantum 101
   date: '2026-04-21'
   kind: web
-- slug: 2026-04-09-investment-opportunities---european-innovation-council
-  title: Investment opportunities - European Innovation Council
-  date: '2026-04-09'
-  kind: web
 - slug: 2026-02-12-how-to-invest-in-ai-sovereignty-sovereign
   title: How to Invest in AI Sovereignty — Sovereign Albion w/ Andrew Bennett
   date: '2026-02-12'
   kind: substack
+- slug: 2026-01-22-ai-chips-computeram-and-the-future
+  title: 'AI Chips, ComputeRAM and the Future of Data Movement: A Conversation with Manu, Founder of Synthara'
+  date: '2026-01-22'
+  kind: substack
+- slug: 2025-12-18-qubitsolve-secures-12-million-nsf-sbir-grant-to-accelerate-q
+  title: QubitSolve Secures $1.2 Million NSF SBIR Grant to Accelerate Quantum CFD Development - Quantum Computing Report
+  date: '2025-12-18'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

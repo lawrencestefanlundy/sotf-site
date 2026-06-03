@@ -20,11 +20,7 @@ descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2022-10-25-new-approach-to-cosmic-magnet-manufacturing-could-reduce-rel
-  title: New approach to ‘cosmic magnet’ manufacturing could reduce reliance on rare earths in low-carbon technologies - enterprise.cam.ac.uk
-  date: '2022-10-25'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

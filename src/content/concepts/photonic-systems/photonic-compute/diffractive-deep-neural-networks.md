@@ -57,13 +57,6 @@ neighbors:
 
 ## Physics / mechanism
 
-| Implementation | Phase-shift element | Reconfigurable? | Status |
-|---|---|---|---|
-| Printed phase plates | 3D-printed dielectric stack | No (fixed at fab) | Original Ozcan 2018 demonstrations; lab scale |
-| Photolithographically-patterned | Etched phase masks | No | Higher precision than 3D-printed |
-| Reconfigurable **SLM**-driven | LCOS or metamaterial SLM | Yes | Bench scale; **Coherix** commercial bet 2026 |
-| Metasurface-based | Active metasurfaces | Partially | Research |
-
 **Origin:** Lin et al. (Ozcan group, UCLA) demonstrated the first all-optical D2NN classifier in *Science* 2018, with cascaded 3D-printed phase plates performing MNIST-class classification at the speed of light through the stack. The architecture has since spread to USTC, Stanford, CMU, and many others.
 
 **Key parameters:**
@@ -84,10 +77,6 @@ neighbors:
 | **Analog optical (Salience)** | PCM crossbar with optical readout | Hybrid PCM + photonic | Foundry-adjacent; precision-bound |
 
 ## Why this matters now (2026)
-
-The D2NN architecture has been a research curiosity for ~8 years. The bet **Coherix** makes (2026 spinout from **Envisics**) is that **(a) reconfigurable SLM-driven D2NNs with a production-grade [SLM](/sotf-site/photonic-systems/modulators-detectors/spatial-light-modulators/) hardware base are now commercialisable**, and **(b) the energy story (data movement is free in light propagation) wins on energy/inference at deployable form factors**. The "telecoms-grade holographic SLM" claim is the load-bearing IP, inherited from **Envisics**'s holographic-display lineage.
-
-Open question: most demonstrated D2NN benchmarks are CNN-shaped (image classification, denoising). Transformer matmul (where most current AI inference cycles go) maps less obviously. The Coherix deck includes ODE solving and time-series, which suggests they may be pitching a workload-class beachhead away from transformers.
 
 ## Companies using
 

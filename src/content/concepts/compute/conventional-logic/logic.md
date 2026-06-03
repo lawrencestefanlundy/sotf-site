@@ -21,7 +21,11 @@ descendants: []
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-02-midwifing-the-next-species-in-a-datacenter
+  title: Midwifing the Next Species in a Datacenter 👩🏻‍⚕️
+  date: '2026-06-02'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

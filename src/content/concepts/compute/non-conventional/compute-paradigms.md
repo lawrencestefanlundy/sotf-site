@@ -18,6 +18,7 @@ tags:
 mention_count: 0
 descendants:
 - coherent-ising-machine
+- combinatorial-optimisation
 - coupled-oscillator-networks
 - near-field-rf-coupling
 - physics-native-compute

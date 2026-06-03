@@ -19,11 +19,7 @@ mention_count: 79
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-06-01-nasa-invites-media-to-see-roman-space-telescope-arrive-at-ke
-  title: NASA Invites Media to See Roman Space Telescope Arrive at Kennedy
-  date: '2026-06-01'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

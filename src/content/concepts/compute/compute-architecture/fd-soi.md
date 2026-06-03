@@ -20,7 +20,7 @@ tags:
 mention_count: 4
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2024-eu-chips-act-final-text
   title: European Chips Act — Regulation (EU) 2023/1781

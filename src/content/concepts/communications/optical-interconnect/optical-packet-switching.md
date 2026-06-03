@@ -41,10 +41,6 @@ neighbors:
 
 OPS switches **individual packets** in the optical domain, rather than holding a dedicated lightpath (the [Optical Circuit Switching (OCS)](/sotf-site/communications/optical-interconnect/optical-circuit-switching/) approach). This is the harder, holy-grail end of optical switching: it needs fast all-optical logic and, historically, optical buffering — and the absence of practical optical RAM is the blocker that has stalled OPS for ~two decades. Because it is so much harder, the field is far less crowded than OCS, which is the bull-case framing for a startup that can make it work.
 
-## Tracked approach: Finchetto
-
-**Finchetto** (UK, pre-seed) is the KB's only tracked OPS play. Per **2026 05 28 Lawrence Lundy And Mark Rushworth** (1st call) and corrected by Lawrence's direct follow-up:
-
 - Does **optical packet switching** (NOT circuit switching of the Google-OCS kind) for scale-out networking; claims ~1,000× lower latency and lower power than electro-optic conversion via a passive optical approach.
 - Tech: [Lithium Niobate (TFLN)](/sotf-site/materials/functional-layers/lithium-niobate-tfln/) used for **frequency mixing** (the non-linearity), not modulation; poling is the hard step. First patent is an all-optical passive ALU (**Non Linear Photonic Logic**).
 - GTM: a passive-switching PIC module / custom NIC IP block, partnering with NIC OEMs rather than competing on silicon.

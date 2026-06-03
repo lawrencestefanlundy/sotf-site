@@ -17,6 +17,8 @@ tags:
 - material
 mention_count: 0
 last_reorg_date: '2026-05-13'
+descendants:
+- hafnium-oxide
 sources_7d: 0
 sources_30d: 0
 recent_mentions: []

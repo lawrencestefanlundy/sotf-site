@@ -20,17 +20,9 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
-- slug: 2026-05-11-12-eth-zurich-spinouts-ready-to-raise-series-a---sifted
-  title: 12 ETH Zurich spinouts ready to raise Series A - Sifted
-  date: '2026-05-11'
-  kind: web
-- slug: 2026-04-09-investment-opportunities---european-innovation-council
-  title: Investment opportunities - European Innovation Council
-  date: '2026-04-09'
-  kind: web
-- slug: 2025-05-13-commerce-rescinds-biden-era-ai-export-controls---nextgovfcw
-  title: Commerce rescinds Biden-era AI export controls - Nextgov/FCW
-  date: '2025-05-13'
+- slug: 2026-06-02-midwifing-the-next-species-in-a-datacenter
+  title: Midwifing the Next Species in a Datacenter 👩🏻‍⚕️
+  date: '2026-06-02'
   kind: web
 neighbors: []
 ---

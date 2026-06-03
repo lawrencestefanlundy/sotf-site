@@ -45,7 +45,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 309
+mention_count: 321
 descendants:
 - agentic-workload-retrieval
 - dram
@@ -63,9 +63,13 @@ descendants:
 - sram
 - storage-class-memory
 last_reorg_date: '2026-05-14'
-sources_7d: 5
+sources_7d: 2
 sources_30d: 9
 recent_mentions:
+- slug: 2026-06-02-agentic-runtime-silicon-necessity
+  title: Deep-research dossier — does the stateful agent runtime / control-plane layer need a novel silicon primitive?
+  date: '2026-06-02'
+  kind: web
 - slug: 2026-06-01-hbm-state-of-play
   title: HBM state of play (mid-2026) — technology, supercycle, three-supplier standing
   date: '2026-06-01'
@@ -93,10 +97,6 @@ recent_mentions:
 - slug: 2026-04-16-should-the-us-buy-from-cxmt
   title: Should the US Buy from CXMT?
   date: '2026-04-16'
-  kind: web
-- slug: 2026-03-14-semianalysis-patel-bottlenecks
-  title: SemiAnalysis (Dylan Patel) — the three shifting bottlenecks to scaling AI compute (logic/litho, memory, power)
-  date: '2026-03-14'
   kind: web
 neighbors: []
 ---

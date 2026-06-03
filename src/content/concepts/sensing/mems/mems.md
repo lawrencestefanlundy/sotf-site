@@ -23,6 +23,7 @@ mention_count: 43
 last_reorg_date: '2026-05-13'
 descendants:
 - mems
+- nems
 - sensors
 - spectral-sensing
 sources_7d: 0

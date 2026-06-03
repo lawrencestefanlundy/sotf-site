@@ -1,22 +1,16 @@
 ---
 type: concept
 slug: ucie-standard
-canonical_name: UCIe
-aliases:
-- UCIe
-- Universal Chiplet Interconnect Express
-parent_concepts:
-- chiplets
-related_concepts: []
-sources: []
-frontier: []
-last_updated: '2026-06-01'
+canonical_name: UCIe Standard
+duplicate_of: '[[ucie]]'
+aliases: []
 tags:
 - concept
-- seeded-stub
+- duplicate
+last_updated: 2026-06-02
 sources_7d: 0
 sources_30d: 0
 recent_mentions: []
 neighbors: []
 ---
-*Seeded stub so the pre-seed radar can match this concept (referenced by 1 active thesis/theses). Enrich with `/kb-resynth ucie-standard`.*
+> **Merged — duplicate slug.** Canonical page: [UCIe (Universal Chiplet Interconnect Express)](/sotf-site/compute/compute-architecture/ucie/). All content and references now live there.

@@ -19,14 +19,16 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 77
+mention_count: 79
 last_reorg_date: '2026-05-13'
 descendants:
+- avalanche-photodiode
 - fiber-to-chip-coupling
 - glass-photonics
+- mid-ir-photonics
 - pic-packaging-stack
-sources_7d: 5
-sources_30d: 10
+sources_7d: 6
+sources_30d: 12
 recent_mentions:
 - slug: 2026-06-01-nibras-ucl-chipstart
   title: UCL EEE ventures selected for national ChipStart programme (incl. Nibras Communications)
@@ -44,10 +46,6 @@ recent_mentions:
   title: 'Photonic Computing: A Primer'
   date: '2025-04-16'
   kind: substack
-- slug: 2024-08-01-qphox---european-innovation-council
-  title: QphoX - European Innovation Council
-  date: '2024-08-01'
-  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

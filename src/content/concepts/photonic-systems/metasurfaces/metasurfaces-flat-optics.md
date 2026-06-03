@@ -15,7 +15,7 @@ related_concepts:
 - metamaterials
 - nanoimprint-lithography
 - maskless-lithography
-- electron-beam-lithography
+- e-beam-lithography
 descendants:
 - metalens
 - metamaterials
@@ -50,9 +50,9 @@ neighbors:
   name: Maskless Lithography
   path: /sotf-site/manufacturing/lithography/maskless-lithography/
   macro: manufacturing
-- slug: electron-beam-lithography
-  name: Electron-Beam Lithography
-  path: /sotf-site/manufacturing/lithography/electron-beam-lithography/
+- slug: e-beam-lithography
+  name: E-Beam Lithography
+  path: /sotf-site/manufacturing/lithography/e-beam-lithography/
   macro: manufacturing
 ---
 ## Physics / mechanism

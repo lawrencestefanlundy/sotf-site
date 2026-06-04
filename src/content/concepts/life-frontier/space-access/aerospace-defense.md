@@ -19,7 +19,23 @@ mention_count: 79
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-03-nasa-says-farewell-to-maven-mars-mission-hosts-media-call-to
+  title: NASA Says Farewell to MAVEN Mars Mission, Hosts Media Call Today
+  date: '2026-06-03'
+  kind: web
+- slug: 2026-05-26-copernicus-trajectory-design-and-optimization-system
+  title: Copernicus Trajectory Design and Optimization System
+  date: '2026-05-26'
+  kind: web
+- slug: 2026-04-21-252-million-bis-settlement-export-controls-and-cross-agency-
+  title: '$252 million BIS settlement: Export controls and cross-agency trade enforcement remain priority - Reuters'
+  date: '2026-04-21'
+  kind: web
+- slug: 2021-01-07-darpa-sticks-with-raytheon-for-next-phase-of-midas---shephar
+  title: DARPA sticks with Raytheon for next phase of MIDAS - Shephard Media
+  date: '2021-01-07'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

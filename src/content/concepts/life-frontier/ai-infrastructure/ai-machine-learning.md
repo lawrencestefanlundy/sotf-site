@@ -20,9 +20,9 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
-- slug: 2026-06-02-midwifing-the-next-species-in-a-datacenter
-  title: Midwifing the Next Species in a Datacenter 👩🏻‍⚕️
-  date: '2026-06-02'
+- slug: 2025-02-11-bolstering-small-business---national-science-foundation-gov
+  title: Bolstering Small Business - National Science Foundation (.gov)
+  date: '2025-02-11'
   kind: web
 neighbors: []
 ---

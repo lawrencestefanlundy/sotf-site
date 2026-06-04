@@ -19,7 +19,11 @@ mention_count: 47
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2025-11-21-hms-networks-acquires-molex-industrial-communications-busine
+  title: HMS Networks Acquires Molex Industrial Communications Business - ARC Advisory
+  date: '2025-11-21'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

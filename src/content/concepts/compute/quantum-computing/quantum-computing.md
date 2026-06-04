@@ -31,7 +31,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 165
+mention_count: 170
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -49,8 +49,8 @@ descendants:
 - topological-qubits
 - trapped-ion
 last_reorg_date: '2026-05-13'
-sources_7d: 24
-sources_30d: 62
+sources_7d: 19
+sources_30d: 49
 recent_mentions:
 - slug: 2026-06-01-ncsc-nsa-qkd-vs-pqc
   title: 'NCSC / NSA position: QKD not endorsed, post-quantum cryptography is the recommended mitigation'
@@ -68,6 +68,10 @@ recent_mentions:
   title: New light-based switch could cut chip energy use and speed future AI photonics
   date: '2026-05-24'
   kind: web
+- slug: 2026-05-21-washington-takes-a-direct-stake-d-wave-quantum-lands-100-mil
+  title: 'Washington Takes a Direct Stake: D-Wave Quantum Lands $100 Million in Unprecedented CHIPS Act Equity - AD HOC NEWS'
+  date: '2026-05-21'
+  kind: web
 - slug: 2026-04-21-quantum-101
   title: Quantum 101
   date: '2026-04-21'
@@ -80,10 +84,6 @@ recent_mentions:
   title: 'AI Chips, ComputeRAM and the Future of Data Movement: A Conversation with Manu, Founder of Synthara'
   date: '2026-01-22'
   kind: substack
-- slug: 2025-12-18-qubitsolve-secures-12-million-nsf-sbir-grant-to-accelerate-q
-  title: QubitSolve Secures $1.2 Million NSF SBIR Grant to Accelerate Quantum CFD Development - Quantum Computing Report
-  date: '2025-12-18'
-  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

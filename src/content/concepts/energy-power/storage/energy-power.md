@@ -78,9 +78,17 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
-- slug: 2026-06-02-america-spins-on-westmag
-  title: America Spins on Westmag
-  date: '2026-06-02'
+- slug: 2025-03-04-doe-funds-uk-research-on-critical-materials-for-commercial-f
+  title: DOE funds UK research on critical materials for commercial fusion energy - UKNow
+  date: '2025-03-04'
+  kind: web
+- slug: 2023-12-14-nrel-joins-40-million-effort-to-advance-data-center-cooling-
+  title: NREL Joins $40 Million Effort To Advance Data Center Cooling Efficiency - National Laboratory of the Rockies (NLR) (.gov)
+  date: '2023-12-14'
+  kind: web
+- slug: 2019-04-08-arpa-e-at-10---bipartisan-policy-center
+  title: ARPA-E at 10. - Bipartisan Policy Center
+  date: '2019-04-08'
   kind: web
 neighbors: []
 ---

@@ -34,7 +34,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 89
+mention_count: 90
 descendants:
 - heterogeneous-integration
 - osat

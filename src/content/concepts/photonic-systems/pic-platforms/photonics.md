@@ -36,7 +36,7 @@ last_updated: '2026-05-07'
 tags:
 - concept
 - theme
-mention_count: 483
+mention_count: 497
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -47,8 +47,20 @@ descendants:
 - optoelectronic-oscillator
 last_reorg_date: '2026-05-13'
 sources_7d: 3
-sources_30d: 9
+sources_30d: 10
 recent_mentions:
+- slug: 2026-06-03-new-stock-god-serenity-photonics-related-stocks-may-graduall
+  title: '''New Stock God'' Serenity: Photonics-related stocks may gradually benefit within 3 to 15 months after the release of the EU CHIPS Act - Bitget'
+  date: '2026-06-03'
+  kind: web
+- slug: 2026-06-02-new-stock-god-serenity-photonics-related-stocks-may-graduall
+  title: '''New Stock God'' Serenity: Photonics-related stocks may gradually benefit within 3 to 15 months after the release of the EU CHIPS Act - Bitget'
+  date: '2026-06-02'
+  kind: web
+- slug: 2026-06-02-singular-photonics-launch
+  title: Singular Photonics — launch, SPAD portfolio + Meta collaboration (coverage)
+  date: '2026-06-02'
+  kind: web
 - slug: 2026-06-01-nibras-ucl-chipstart
   title: UCL EEE ventures selected for national ChipStart programme (incl. Nibras Communications)
   date: '2026-06-01'
@@ -68,18 +80,6 @@ recent_mentions:
 - slug: 2026-05-30-companiesmarketcap
   title: companiesmarketcap.com
   date: '2026-05-30'
-  kind: web
-- slug: 2026-05-24-mose2-exciton-polariton-all-optical-switch
-  title: New light-based switch could cut chip energy use and speed future AI photonics
-  date: '2026-05-24'
-  kind: web
-- slug: 2026-05-02-return-of-lithium-niobate-photonics-spectra-jan-2026
-  title: Return of Lithium Niobate (Photonics Spectra Jan 2026)
-  date: '2026-05-02'
-  kind: web
-- slug: 2026-05-02-hybrid-bto-sin-ultra-low-power-tuning-acs-photonics
-  title: Hybrid BTO-SiN ultra-low power tuning (ACS Photonics)
-  date: '2026-05-02'
   kind: web
 neighbors: []
 ---

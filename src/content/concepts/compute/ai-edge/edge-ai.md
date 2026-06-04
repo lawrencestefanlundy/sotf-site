@@ -16,6 +16,7 @@ sources:
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
+- '[[2024-02-26-micron-hbm3e-volume-production]]'
 - '[[2024-yole-advanced-packaging-2024]]'
 frontier:
 - ''
@@ -23,11 +24,11 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - framework
-mention_count: 31
+mention_count: 33
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 5
-sources_30d: 11
+sources_7d: 4
+sources_30d: 12
 recent_mentions:
 - slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
   title: 'UK Opportunity in AI: Compound Semiconductors'
@@ -49,6 +50,10 @@ recent_mentions:
   title: 'An AI Thesis: State of the Future! Part Deux'
   date: '2024-10-22'
   kind: substack
+- slug: 2024-02-26-micron-hbm3e-volume-production
+  title: Micron Commences Volume Production of Industry-Leading HBM3E Solution to Accelerate the Growth of AI
+  date: '2024-02-26'
+  kind: web
 - slug: 2023-07-23-analog-computing-the-once-and-future
   title: '🔮 E09: Analog Computing: The Once and Future King'
   date: '2023-07-23'

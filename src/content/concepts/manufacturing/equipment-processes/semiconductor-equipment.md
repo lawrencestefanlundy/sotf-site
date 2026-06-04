@@ -19,18 +19,43 @@ tags:
 - concept
 - technology
 mention_count: 55
-descendants: []
+descendants:
+- automated-test-equipment
+- ion-implantation
+- known-good-die-test
+- probe-cards
+- wafer-level-burn-in
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 2
 recent_mentions:
+- slug: 2026-06-03-usa-rare-earth-finalizes-deals-for-up-to-16-billion-in-fundi
+  title: USA Rare Earth finalizes deals for up to $1.6 billion in funding under CHIPS Act - Reuters
+  date: '2026-06-03'
+  kind: web
+- slug: 2026-06-03-european-chips-act-20-unveiled-semi-welcomes-eus-updated-sem
+  title: 'European Chips Act 2.0 Unveiled: SEMI Welcomes EU''s Updated Semiconductor Framework - News and Statistics - IndexBox'
+  date: '2026-06-03'
+  kind: web
 - slug: 2025-12-30-us-eases-semiconductor-equipment-rules-for-samsung-sk-hynix-
   title: U.S. Eases Semiconductor Equipment Rules for Samsung, SK Hynix in China - 조선일보
   date: '2025-12-30'
   kind: web
+- slug: 2025-11-21-hms-networks-acquires-molex-industrial-communications-busine
+  title: HMS Networks Acquires Molex Industrial Communications Business - ARC Advisory
+  date: '2025-11-21'
+  kind: web
+- slug: 2025-09-01-as-us-adds-more-semiconductor-hurdles-chinese-firms-could-se
+  title: As US adds more semiconductor hurdles, Chinese firms could seize an opportunity - South China Morning Post
+  date: '2025-09-01'
+  kind: web
 - slug: 2024-bis-export-controls-china-semis
   title: BIS Export Controls — China Semiconductor Restrictions (Oct 2022 / Oct 2023 / Dec 2024 rounds)
   date: '2024-12-02'
+  kind: web
+- slug: 2023-05-19-uk-government-unveils-long-awaited-1-billion-semiconductor-s
+  title: UK Government Unveils Long-Awaited £1 Billion Semiconductor Strategy - Silicon UK
+  date: '2023-05-19'
   kind: web
 - slug: 2023-04-25-us-deals-signal-heightened-semiconductor-equipment-competiti
   title: US deals signal heightened semiconductor equipment competition - East Asia Forum

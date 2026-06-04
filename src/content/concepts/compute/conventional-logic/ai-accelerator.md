@@ -16,6 +16,7 @@ sources:
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
 - '[[2024-yole-emerging-memories-2024]]'
 - '[[2024-yole-thermal-management-2024]]'
+- '[[2024-02-26-micron-hbm3e-volume-production]]'
 - '[[2024-yole-advanced-packaging-2024]]'
 - '[[2024-idtechex-thermal-interface-materials-2026-2036]]'
 - '[[2024-tsmc-cowos-roadmap-disclosure]]'
@@ -25,15 +26,11 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 55
+mention_count: 56
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 2
 recent_mentions:
-- slug: 2026-06-02-agentic-runtime-silicon-necessity
-  title: Deep-research dossier — does the stateful agent runtime / control-plane layer need a novel silicon primitive?
-  date: '2026-06-02'
-  kind: web
 - slug: 2025-12-02-the-future-of-computing-is-glass
   title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
   date: '2025-12-02'
@@ -42,6 +39,10 @@ recent_mentions:
   title: 'UK Opportunity in AI: Compound Semiconductors'
   date: '2025-09-10'
   kind: substack
+- slug: 2025-03-13-how-to-build-a-chip-thats-as-efficient-as-the-human-brain---
+  title: How to build a chip that’s as efficient as the human brain - Techzine Global
+  date: '2025-03-13'
+  kind: web
 - slug: 2024-yole-advanced-packaging-2024
   title: Yole Group — Advanced Packaging 2024 Market Analysis
   date: '2024-12-01'

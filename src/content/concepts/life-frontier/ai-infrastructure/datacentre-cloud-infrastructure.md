@@ -20,9 +20,13 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
-- slug: 2026-06-02-midwifing-the-next-species-in-a-datacenter
-  title: Midwifing the Next Species in a Datacenter 👩🏻‍⚕️
-  date: '2026-06-02'
+- slug: 2026-06-03-brussels-wants-to-strengthen-the-european-cloud-industry-and
+  title: Brussels wants to strengthen the European cloud industry and reduce dependence on the US and China - Demócrata
+  date: '2026-06-03'
+  kind: web
+- slug: 2023-12-14-nrel-joins-40-million-effort-to-advance-data-center-cooling-
+  title: NREL Joins $40 Million Effort To Advance Data Center Cooling Efficiency - National Laboratory of the Rockies (NLR) (.gov)
+  date: '2023-12-14'
   kind: web
 neighbors: []
 ---

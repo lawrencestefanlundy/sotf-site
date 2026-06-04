@@ -21,7 +21,7 @@ mention_count: 17
 descendants: []
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 3
+sources_30d: 1
 recent_mentions:
 - slug: 2025-2026-european-next-gen-pv-cohort
   title: European next-gen PV cohort 2025-2026, Dracula, SunXT/Solertix, Perovion, HyET Solaris, Sofab Inks, Coatema

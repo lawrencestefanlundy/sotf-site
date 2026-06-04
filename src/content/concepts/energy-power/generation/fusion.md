@@ -25,8 +25,6 @@ neighbors: []
 ---
 *Stub leader page for `concepts/energy/fusion/`*
 
-Magnetic confinement, inertial, magnetised target, magneto-inertial, and pulsed fusion approaches.
-
 ## Companies using
 
 <!-- dataview block stripped for public site -->

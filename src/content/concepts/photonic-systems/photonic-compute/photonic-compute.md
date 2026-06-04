@@ -26,7 +26,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 41
+mention_count: 42
 descendants:
 - diffractive-deep-neural-network
 - diffractive-deep-neural-networks

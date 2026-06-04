@@ -19,15 +19,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 43
+mention_count: 44
 last_reorg_date: '2026-05-13'
 descendants:
 - mems
 - nems
 - sensors
 - spectral-sensing
-sources_7d: 0
-sources_30d: 7
+sources_7d: 1
+sources_30d: 8
 recent_mentions:
 - slug: 2025-12-19-lfg-for-semiconductors
   title: LFG (for semiconductors)

@@ -18,7 +18,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 36
+mention_count: 38
 descendants:
 - atomic-clocks
 - nv-diamond-sensing
@@ -27,7 +27,7 @@ descendants:
 - quantum-magnetometry
 - quantum-sensing
 last_reorg_date: '2026-05-13'
-sources_7d: 8
+sources_7d: 6
 sources_30d: 20
 recent_mentions:
 - slug: 2026-05-02-nv-center-quantum-sensing-review-sciencedirect-2022

@@ -13,6 +13,7 @@ sources:
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2024-09-13-bis-adopts-additional-controls-on-quantum-semiconductor-and-]]'
 - '[[2022-05-09-elementum-funded-by-darpa-to-develop-am-process-for-rhenium-]]'
+- '[[2024-09-16-bis-imposes-new-export-controls-on-quantum-semiconductor-and]]'
 - '[[2021-02-04-meta-additive-awarded-innovate-uk-smart-grant-for-bjt-proces]]'
 - '[[2020-12-17-university-additive-manufacturing-spin-out-secures-12m-innov]]'
 - '[[2025-08-18-nist-awards-over-18-million-to-small-businesses-advancing-ai]]'
@@ -23,7 +24,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 37
+mention_count: 38
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
@@ -41,6 +42,10 @@ recent_mentions:
   title: 'An AI Thesis: State of the Future! Part Deux'
   date: '2024-10-22'
   kind: substack
+- slug: 2024-09-16-bis-imposes-new-export-controls-on-quantum-semiconductor-and
+  title: BIS Imposes New Export Controls on Quantum, Semiconductor and Additive Manufacturing Technologies - JD Supra
+  date: '2024-09-16'
+  kind: web
 - slug: 2024-09-13-bis-adopts-additional-controls-on-quantum-semiconductor-and-
   title: BIS Adopts Additional Controls on Quantum, Semiconductor and Additive Manufacturing Technologies in Concert with International Partners - Mayer Brown
   date: '2024-09-13'
@@ -53,13 +58,9 @@ recent_mentions:
   title: Elementum funded by DARPA to develop AM process for rhenium - Metal Additive Manufacturing magazine
   date: '2022-05-09'
   kind: web
-- slug: 2021-02-04-meta-additive-awarded-innovate-uk-smart-grant-for-bjt-proces
-  title: Meta Additive awarded Innovate UK SMART Grant for BJT process - Metal Additive Manufacturing magazine
-  date: '2021-02-04'
-  kind: web
-- slug: 2020-12-17-university-additive-manufacturing-spin-out-secures-12m-innov
-  title: University additive manufacturing spin out secures £1.2M Innovate UK SMART grant - University of Liverpool
-  date: '2020-12-17'
+- slug: 2022-01-31-fraunhofer-iapt-optimizes-3d-printing-for-car-door-hinges---
+  title: Fraunhofer IAPT Optimizes 3D Printing for Car Door Hinges - 3Dnatives
+  date: '2022-01-31'
   kind: web
 neighbors: []
 ---

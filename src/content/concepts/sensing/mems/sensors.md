@@ -26,21 +26,21 @@ sources:
 - '[[2023-08-25-e12-nanomechanical-computing-gears]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2026-05-08-nasa-fuel-cell-tests-pave-way-for-energy-storage-on-moon]]'
-- '[[2026-05-06-putting-the-super-into-a-supersite-for-earth-observation]]'
-- '[[2026-05-27-nasa-develops-sensor-to-improve-firefighter-safety]]'
-- '[[2025-01-06-radiant-acquires-nilt]]'
-- '[[2026-06-01-photonic-mmwave-generation-research]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 174
+mention_count: 179
 last_reorg_date: '2026-05-13'
-sources_7d: 13
-sources_30d: 48
+sources_7d: 11
+sources_30d: 44
 recent_mentions:
+- slug: 2026-06-02-singular-photonics-launch
+  title: Singular Photonics — launch, SPAD portfolio + Meta collaboration (coverage)
+  date: '2026-06-02'
+  kind: web
 - slug: 2026-06-01-photonic-mmwave-generation-research
   title: Photonic mmWave / microwave signal generation — research landscape (2024–2025)
   date: '2026-06-01'
@@ -57,6 +57,10 @@ recent_mentions:
   title: Putting the ‘super’ into a supersite for Earth observation
   date: '2026-05-06'
   kind: web
+- slug: 2026-03-18-bacteria-reveal-themselves-through-unique-sounds-a-breakthro
+  title: 'Bacteria reveal themselves through unique sounds: a breakthrough for rapid diagnostics - TU Delft'
+  date: '2026-03-18'
+  kind: web
 - slug: 2025-12-19-lfg-for-semiconductors
   title: LFG (for semiconductors)
   date: '2025-12-19'
@@ -64,14 +68,6 @@ recent_mentions:
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
   title: Carbon Nanotubes in the Datacentre
   date: '2025-11-25'
-  kind: substack
-- slug: 2025-09-23-the-compute-gradient
-  title: The Compute Gradient
-  date: '2025-09-23'
-  kind: substack
-- slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
-  title: 'UK Opportunity in AI: Compound Semiconductors'
-  date: '2025-09-10'
   kind: substack
 neighbors: []
 ---

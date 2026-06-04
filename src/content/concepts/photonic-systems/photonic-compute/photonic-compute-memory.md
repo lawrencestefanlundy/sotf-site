@@ -69,13 +69,7 @@ neighbors:
 
 **Photonic compute** uses optical interference, diffraction, or nonlinear effects to perform operations — most commonly **matrix–vector multiplication** — at the speed of light and without charge transport. Implementations range from Mach–Zehnder interferometer meshes (integrated silicon-photonic) and [SLM](/sotf-site/photonic-systems/modulators-detectors/spatial-light-modulators/)-based free-space matmul, to **D²NNs** and [Photonic Tensor Cores](/sotf-site/photonic-systems/photonic-compute/photonic-tensor-cores/). The canonical figure of merit is **operations-per-joule at the system boundary**, which must account for optical-to-electrical-to-optical (O/E/O) conversion losses that can erase the in-fabric efficiency gain. [Optical Neural Networks](/sotf-site/photonic-systems/photonic-compute/optical-neural-networks/) are the primary inference target.
 
-**Photonic memory** stores bits in optical or photonically-addressable media: phase-change materials (GST, GSST) that shift between amorphous and crystalline states on a waveguide, magneto-optical domains, or microresonator-shift encoding. Endurance, non-volatility, and read-while-write capability are the unsolved engineering problems separating lab demonstrations from HBM-competitive bandwidth.
-
 ## Frontier
-
-- Can any photonic memory technology (phase-change, magneto-optical, spin-wave) reach read/write endurance > 10⁸ cycles while maintaining sub-nanosecond latency?
-- Which workload class — optimisation/Ising machines, FHE acceleration, FMCW LiDAR signal processing — is the first to demonstrate a sustained TCO advantage over GPU baselines in production?
-- Does the energy cost of O/E/O conversion permanently cap the efficiency advantage of analog optical matmul, or does chip-scale WDM + in-situ photodetection change the accounting?
 
 ## Companies using
 

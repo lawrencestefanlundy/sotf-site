@@ -20,7 +20,11 @@ descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2022-01-31-fraunhofer-iapt-optimizes-3d-printing-for-car-door-hinges---
+  title: Fraunhofer IAPT Optimizes 3D Printing for Car Door Hinges - 3Dnatives
+  date: '2022-01-31'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

@@ -15,6 +15,7 @@ sources:
 - '[[2023-10-06-e18-the-state-of-silent-speech-and]]'
 - '[[2025-04-23-what-if-ai-can-already-feel]]'
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
+- '[[2026-03-26-sotf-interview-dorian-haci-mintneuro]]'
 - '[[2023-08-31-e13-chiplets-how-chip-lego-is-driving]]'
 - '[[2023-06-23-e05-the-future-of-edge-ai-brain-inspired]]'
 - '[[2023-05-24-launching-state-of-the-future]]'
@@ -45,9 +46,11 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 321
+mention_count: 347
 descendants:
 - agentic-workload-retrieval
+- computational-storage
+- cxl
 - dram
 - embedded-non-volatile-memory
 - feram
@@ -63,7 +66,7 @@ descendants:
 - sram
 - storage-class-memory
 last_reorg_date: '2026-05-14'
-sources_7d: 2
+sources_7d: 3
 sources_30d: 9
 recent_mentions:
 - slug: 2026-06-02-agentic-runtime-silicon-necessity

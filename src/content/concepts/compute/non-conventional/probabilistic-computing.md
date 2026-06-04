@@ -11,7 +11,7 @@ related_concepts: []
 sources: []
 frontier:
 - ''
-last_updated: '2026-05-04'
+last_updated: '2026-06-03'
 tags:
 - concept
 - technology
@@ -35,6 +35,11 @@ Competes directly with quantum annealers (D-Wave: ~5000 qubits, but cryogenic, $
 | Quantum annealing | ~15 mK | No | Commercial |
 | CMOS annealer | 300 K | Yes | Commercial |
 | Probabilistic (p-bit) | 300 K | Partial | Research |
+| Photonic p-bit | 300 K | Partial | Research (emerging) |
+
+## Photonic p-bits (emerging, 2026)
+
+## Target workloads
 
 ## Companies using
 
@@ -50,4 +55,9 @@ Competes directly with quantum annealers (D-Wave: ~5000 qubits, but cryogenic, $
 
 ## Frontier (open questions)
 
-- *To be added.*
+- **Distributed vs central entropy** in photonic p-bit designs (per-p-bit element, or one QRNG feeding a conventional sampler)?
+- **Does randomness quality/controllability bind, or is intrinsic noise good enough?** MTJ-defect noise is hard to scale; thermodynamic designs use engineered noise; Gibbs/Boltzmann sampling tolerates imperfect noise — so where does entropy quality change the *answer* rather than just the device engineering?
+- **System-level benchmark** — when does anyone publish samples/sec/watt on a real end-to-end workload (not component-level entropy figures)?
+- **Higher-order interactions + non-penalty constraint mapping** — is native higher-order + active search-space constraint handling a durable moat vs pairwise-only annealers?
+- Does the 1000× (Normal) / 10,000× (Extropic) energy-efficiency claim survive peer review *and* survive to a system-level number?
+- Programming model — without a CUDA-equivalent, who writes software at scale? (A compiler + "problem-translator" agent layer is the current answer; does it generalise beyond hand-holding?)

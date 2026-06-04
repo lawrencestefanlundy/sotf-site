@@ -19,7 +19,7 @@ tags:
 mention_count: 13
 last_reorg_date: '2026-05-14'
 sources_7d: 1
-sources_30d: 2
+sources_30d: 1
 recent_mentions:
 - slug: 2024-12-16-willow-and-the-race-to-quantum-advantage
   title: Willow and The Race to Quantum Advantage (Feat. Kris Kaczmarek)

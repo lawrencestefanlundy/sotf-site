@@ -26,11 +26,7 @@ tags:
 - concept
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-03-26-sotf-interview-dorian-haci-mintneuro
-  title: 'Chips for the Brain: Modular Semiconductors for Neural Interfaces (MintNeuro / Dorian Haci)'
-  date: '2026-03-26'
-  kind: substack
+recent_mentions: []
 neighbors:
 - slug: 3d-ic-stacking
   name: 3D IC Stacking

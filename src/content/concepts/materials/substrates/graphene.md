@@ -25,9 +25,9 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 58
+mention_count: 61
 last_reorg_date: '2026-05-13'
-sources_7d: 5
+sources_7d: 8
 sources_30d: 21
 recent_mentions:
 - slug: 2026-02-06-eth-zurich-spinout-chiral-bags-12m-to-scale-robotic-platform

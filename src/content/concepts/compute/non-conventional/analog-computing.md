@@ -24,15 +24,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 12
+mention_count: 13
 descendants:
 - coherent-ising-machine
 - coupled-oscillator-networks
 - fdtd-calibration-wall
 - near-field-rf-coupling
 last_reorg_date: '2026-05-14'
-sources_7d: 1
-sources_30d: 1
+sources_7d: 2
+sources_30d: 2
 recent_mentions:
 - slug: 2025-02-12-wen-babelfish-feat-aron-of-semron
   title: 'Edge AI: Analog Chips (feat. Aron Kirschen, SEMRON)'
@@ -95,5 +95,3 @@ Digital ASIC accelerators (Tenstorrent, Groq, Cerebras) dominate on programmabil
 <!-- dataview block stripped for public site -->
 
 ## Frontier (open questions)
-
-- *To be added.*

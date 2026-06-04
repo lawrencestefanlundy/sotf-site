@@ -27,11 +27,7 @@ tags:
 - concept
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-06-02-singular-photonics-launch
-  title: Singular Photonics — launch, SPAD portfolio + Meta collaboration (coverage)
-  date: '2026-06-02'
-  kind: web
+recent_mentions: []
 neighbors:
 - slug: lidar
   name: LiDAR

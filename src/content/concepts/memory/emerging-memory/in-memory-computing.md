@@ -25,11 +25,11 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 24
+mention_count: 25
 descendants: []
 last_reorg_date: '2026-05-14'
-sources_7d: 2
-sources_30d: 6
+sources_7d: 3
+sources_30d: 7
 recent_mentions:
 - slug: 2026-01-22-ai-chips-computeram-and-the-future
   title: 'AI Chips, ComputeRAM and the Future of Data Movement: A Conversation with Manu, Founder of Synthara'

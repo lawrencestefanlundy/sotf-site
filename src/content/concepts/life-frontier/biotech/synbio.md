@@ -26,7 +26,8 @@ tags:
 - concept
 - category
 mention_count: 1
-descendants: []
+descendants:
+- biocatalysis-enzyme-engineering
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0

@@ -31,7 +31,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 170
+mention_count: 181
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -50,8 +50,20 @@ descendants:
 - trapped-ion
 last_reorg_date: '2026-05-13'
 sources_7d: 19
-sources_30d: 49
+sources_30d: 51
 recent_mentions:
+- slug: 2026-06-04-rgti-stock-surges-as-chips-act-funding-fuels-quantum-hype---
+  title: RGTI Stock Surges As CHIPS Act Funding Fuels Quantum Hype - timothysykes.com
+  date: '2026-06-04'
+  kind: web
+- slug: 2026-06-04-the-bull-case-for-rigetti-computing-rgti-could-change-follow
+  title: The Bull Case For Rigetti Computing (RGTI) Could Change Following CHIPS Act Equity Deal - Learn Why - Yahoo Finance
+  date: '2026-06-04'
+  kind: web
+- slug: 2026-06-04-eic-impact-report-2026-europe-strengthens-its-position-as-a-
+  title: 'EIC Impact Report 2026: Europe strengthens its position as a global deep tech scaling hub - European Innovation Council'
+  date: '2026-06-04'
+  kind: web
 - slug: 2026-06-01-ncsc-nsa-qkd-vs-pqc
   title: 'NCSC / NSA position: QKD not endorsed, post-quantum cryptography is the recommended mitigation'
   date: '2026-06-01'
@@ -59,6 +71,10 @@ recent_mentions:
 - slug: 2026-06-01-nibras-ucl-chipstart
   title: UCL EEE ventures selected for national ChipStart programme (incl. Nibras Communications)
   date: '2026-06-01'
+  kind: web
+- slug: 2026-05-31-will-us100-million-chips-act-stake-and-defense-backing-chang
+  title: Will US$100 Million CHIPS Act Stake and Defense Backing Change D-Wave Quantum's (QBTS) Narrative - simplywall.st
+  date: '2026-05-31'
   kind: web
 - slug: 2026-05-28-arxiv-quantum-annealing-for-realistic-traffic-flow-optimization-cl
   title: 'Quantum Annealing for Realistic Traffic Flow Optimization: Clustering and Data-Driven QUBO'
@@ -68,22 +84,6 @@ recent_mentions:
   title: New light-based switch could cut chip energy use and speed future AI photonics
   date: '2026-05-24'
   kind: web
-- slug: 2026-05-21-washington-takes-a-direct-stake-d-wave-quantum-lands-100-mil
-  title: 'Washington Takes a Direct Stake: D-Wave Quantum Lands $100 Million in Unprecedented CHIPS Act Equity - AD HOC NEWS'
-  date: '2026-05-21'
-  kind: web
-- slug: 2026-04-21-quantum-101
-  title: Quantum 101
-  date: '2026-04-21'
-  kind: web
-- slug: 2026-02-12-how-to-invest-in-ai-sovereignty-sovereign
-  title: How to Invest in AI Sovereignty — Sovereign Albion w/ Andrew Bennett
-  date: '2026-02-12'
-  kind: substack
-- slug: 2026-01-22-ai-chips-computeram-and-the-future
-  title: 'AI Chips, ComputeRAM and the Future of Data Movement: A Conversation with Manu, Founder of Synthara'
-  date: '2026-01-22'
-  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

@@ -34,13 +34,13 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 90
+mention_count: 92
 descendants:
 - heterogeneous-integration
 - osat
 last_reorg_date: '2026-05-13'
-sources_7d: 4
-sources_30d: 11
+sources_7d: 5
+sources_30d: 12
 recent_mentions:
 - slug: 2026-05-30-osat-market-structure
   title: OSAT market structure 2024-2025 — rankings, advanced-packaging split, photonic assembly

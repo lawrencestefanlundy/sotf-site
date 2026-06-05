@@ -26,9 +26,9 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 56
+mention_count: 57
 last_reorg_date: '2026-05-14'
-sources_7d: 0
+sources_7d: 1
 sources_30d: 2
 recent_mentions:
 - slug: 2025-12-02-the-future-of-computing-is-glass
@@ -39,10 +39,6 @@ recent_mentions:
   title: 'UK Opportunity in AI: Compound Semiconductors'
   date: '2025-09-10'
   kind: substack
-- slug: 2025-03-13-how-to-build-a-chip-thats-as-efficient-as-the-human-brain---
-  title: How to build a chip that’s as efficient as the human brain - Techzine Global
-  date: '2025-03-13'
-  kind: web
 - slug: 2024-yole-advanced-packaging-2024
   title: Yole Group — Advanced Packaging 2024 Market Analysis
   date: '2024-12-01'
@@ -62,6 +58,10 @@ recent_mentions:
 - slug: 2024-yole-thermal-management-2024
   title: Yole Group — Thermal Management 2024 Market Analysis
   date: '2024-10-01'
+  kind: web
+- slug: 2024-idtechex-thermal-interface-materials-2026-2036
+  title: 'IDTechEx — Thermal Interface Materials 2026-2036: Technologies, Markets and Forecasts'
+  date: '2024-08-15'
   kind: web
 neighbors: []
 ---

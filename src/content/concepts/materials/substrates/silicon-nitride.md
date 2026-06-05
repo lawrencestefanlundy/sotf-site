@@ -16,18 +16,24 @@ sources:
 - '[[2024-12-16-willow-and-the-race-to-quantum-advantage]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 - '[[2026-05-24-mose2-exciton-polariton-all-optical-switch]]'
+- '[[2026-06-04-q-memory-site]]'
+- '[[2023-09-04-sinq-csa-catapult]]'
 - '[[2026-05-02-hybrid-bto-sin-ultra-low-power-tuning-acs-photonics]]'
 frontier:
-- ''
-last_updated: '2026-05-04'
+- Does the SiN dual-use AI-accelerator / optical-matmul mode give full-stack photonic-QC players a fundable near-term wedge, or is it quantum-washing? (Q-Memory test.)
+last_updated: '2026-06-04'
 tags:
 - concept
 - material
-mention_count: 45
+mention_count: 48
 last_reorg_date: '2026-05-13'
-sources_7d: 5
-sources_30d: 17
+sources_7d: 6
+sources_30d: 18
 recent_mentions:
+- slug: 2026-06-04-q-memory-site
+  title: Q-Memory — company website (q-memory.tech)
+  date: '2026-06-04'
+  kind: web
 - slug: 2026-05-24-mose2-exciton-polariton-all-optical-switch
   title: New light-based switch could cut chip energy use and speed future AI photonics
   date: '2026-05-24'
@@ -48,6 +54,10 @@ recent_mentions:
   title: Willow and The Race to Quantum Advantage (Feat. Kris Kaczmarek)
   date: '2024-12-16'
   kind: substack
+- slug: 2023-09-04-sinq-csa-catapult
+  title: SiNQ — Silicon Nitride for Quantum Computing (CSA Catapult live project)
+  date: '2023-09-04'
+  kind: web
 - slug: 2023-07-27-e10-pushing-moores-law-to-the-limit
   title: '🔮E10: Pushing Moore''s Law to the Limit with High-NA EUV (aka Nanoscale Chip Printing)'
   date: '2023-07-27'
@@ -67,6 +77,8 @@ Silicon nitride competes with silicon-on-insulator (SOI) for photonic integratio
 | Si₃N₄ | <0.1 dB/m | No | Partial |
 | SOI | ~1–2 dB/cm | No | Yes |
 | TFLN | ~0.3 dB/cm | Yes | No |
+
+## Quantum computing on SiN
 
 ## Companies using
 

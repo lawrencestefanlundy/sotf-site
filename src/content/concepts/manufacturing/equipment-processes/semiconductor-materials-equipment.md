@@ -25,37 +25,37 @@ descendants:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
-- slug: 2026-06-04-usa-rare-earth-secures-16b-chips-act-funding-for-supply-chai
-  title: USA Rare Earth secures $1.6B CHIPS Act funding for supply chain push - MSN
+- slug: 2026-06-04-european-chips-act-20-a-defining-step-for-europes-semiconduc
+  title: European Chips Act 2.0 a defining step for Europe’s semiconductor future — Tyndall - Engineers Ireland
   date: '2026-06-04'
   kind: web
-- slug: 2026-06-03-usa-rare-earth-finalizes-deals-for-up-to-16-billion-in-fundi
-  title: USA Rare Earth finalizes deals for up to $1.6 billion in funding under CHIPS Act - Reuters
-  date: '2026-06-03'
+- slug: 2026-06-04-chips-act-ii-proposed-much-like-chips-act-1---electronics-we
+  title: Chips Act II proposed – much like Chips Act 1 - Electronics Weekly
+  date: '2026-06-04'
   kind: web
-- slug: 2026-06-03-european-chips-act-20-unveiled-semi-welcomes-eus-updated-sem
-  title: 'European Chips Act 2.0 Unveiled: SEMI Welcomes EU''s Updated Semiconductor Framework - News and Statistics - IndexBox'
-  date: '2026-06-03'
+- slug: 2026-06-04-usa-rare-earth-secures-16bn-in-us-federal-funding---discover
+  title: USA Rare Earth Secures $1.6bn in US Federal Funding - Discovery Alert
+  date: '2026-06-04'
   kind: web
-- slug: 2026-06-03-us-commerce-finalizes-16-billion-chips-act-funds-for-usa-rar
-  title: US Commerce finalizes $1.6 billion CHIPS Act funds for USA Rare Earth - MLex
-  date: '2026-06-03'
+- slug: 2026-06-04-european-chips-act-20-embraces-a-long-term-industrial-strate
+  title: European Chips Act 2.0 embraces a long-term industrial strategy - New Electronics
+  date: '2026-06-04'
   kind: web
-- slug: 2025-09-01-as-us-adds-more-semiconductor-hurdles-chinese-firms-could-se
-  title: As US adds more semiconductor hurdles, Chinese firms could seize an opportunity - South China Morning Post
-  date: '2025-09-01'
+- slug: 2026-06-04-eu-proposes-chips-act-20-to-strengthen-semiconductor-ecosyst
+  title: EU proposes Chips Act 2.0 to strengthen semiconductor ecosystem - Digital Watch Observatory
+  date: '2026-06-04'
   kind: web
-- slug: 2025-03-13-how-to-build-a-chip-thats-as-efficient-as-the-human-brain---
-  title: How to build a chip that’s as efficient as the human brain - Techzine Global
-  date: '2025-03-13'
+- slug: 2026-06-04-guide-to-the-chips-act-20---fasieu
+  title: Guide to the Chips Act 2.0 - FASI.eu
+  date: '2026-06-04'
   kind: web
-- slug: 2025-03-04-doe-funds-uk-research-on-critical-materials-for-commercial-f
-  title: DOE funds UK research on critical materials for commercial fusion energy - UKNow
-  date: '2025-03-04'
+- slug: 2026-06-04-eu-proposes-chips-act-20-and-cloud-and-ai-act---evertiq
+  title: EU proposes Chips Act 2.0 and Cloud and AI Act - Evertiq
+  date: '2026-06-04'
   kind: web
-- slug: 2023-05-19-uk-government-unveils-long-awaited-1-billion-semiconductor-s
-  title: UK Government Unveils Long-Awaited £1 Billion Semiconductor Strategy - Silicon UK
-  date: '2023-05-19'
+- slug: 2026-06-04-eu-chips-act-20-draft-drops-front-end-manufacturing-priority
+  title: EU Chips Act 2.0 draft drops front-end manufacturing priority - Bits&Chips
+  date: '2026-06-04'
   kind: web
 neighbors: []
 ---

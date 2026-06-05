@@ -13,22 +13,27 @@ sources:
 - '[[2025-12-19-lfg-for-semiconductors]]'
 - '[[2025-04-16-the-state-of-photonic-computing]]'
 - '[[2023-08-25-e12-nanomechanical-computing-gears]]'
+- '[[2026-06-04-magnetoresistive-gmr-mtj-biosensor-turbid-samples]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 44
+mention_count: 45
 last_reorg_date: '2026-05-13'
 descendants:
 - mems
 - nems
 - sensors
 - spectral-sensing
-sources_7d: 1
-sources_30d: 8
+sources_7d: 2
+sources_30d: 9
 recent_mentions:
+- slug: 2026-06-04-magnetoresistive-gmr-mtj-biosensor-turbid-samples
+  title: Integrated Microfluidic Giant Magnetoresistance (GMR) Biosensor Platform for Magnetoresistive Immunoassay (and related GMR/MTJ bead-detection literature)
+  date: '2026-06-04'
+  kind: web
 - slug: 2025-12-19-lfg-for-semiconductors
   title: LFG (for semiconductors)
   date: '2025-12-19'

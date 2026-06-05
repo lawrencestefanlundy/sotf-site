@@ -20,6 +20,7 @@ sources:
 - '[[2026-05-30-optical-interconnect-ma-ledger]]'
 - '[[2026-04-24-i-am-artemis-peter-rossoni]]'
 - '[[2026-05-13-20-years-of-space-communications-and-navigation]]'
+- '[[2025-11-21-hms-networks-acquires-molex-industrial-communications-busine]]'
 - '[[2022-11-15-qualcomm]]'
 - '[[2026-06-01-ncsc-nsa-qkd-vs-pqc]]'
 - '[[2025-04-15-nature-comm-thermodynamic-computing-system]]'
@@ -32,7 +33,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 144
+mention_count: 151
 descendants:
 - 5g-nr-advanced
 - beamforming-ics
@@ -65,8 +66,8 @@ descendants:
 - sub-thz-6g
 - timing-clock-generation
 last_reorg_date: '2026-05-14'
-sources_7d: 18
-sources_30d: 50
+sources_7d: 22
+sources_30d: 56
 recent_mentions:
 - slug: 2026-06-01-ncsc-nsa-qkd-vs-pqc
   title: 'NCSC / NSA position: QKD not endorsed, post-quantum cryptography is the recommended mitigation'

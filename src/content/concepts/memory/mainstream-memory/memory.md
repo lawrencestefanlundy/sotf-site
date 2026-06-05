@@ -46,7 +46,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 347
+mention_count: 361
 descendants:
 - agentic-workload-retrieval
 - computational-storage
@@ -66,9 +66,25 @@ descendants:
 - sram
 - storage-class-memory
 last_reorg_date: '2026-05-14'
-sources_7d: 3
+sources_7d: 4
 sources_30d: 9
 recent_mentions:
+- slug: 2026-06-04-q-memory-site
+  title: Q-Memory — company website (q-memory.tech)
+  date: '2026-06-04'
+  kind: web
+- slug: 2026-06-04-tmr-sensors-sub-pt-detectivity-biomagnetic-review
+  title: Tunnel-magnetoresistance sensors with sub-pT detectivity for detecting bio-magnetic fields
+  date: '2026-06-04'
+  kind: web
+- slug: 2026-06-04-globalfoundries-emram-22fdx-availability
+  title: GLOBALFOUNDRIES Announces Availability of Embedded MRAM on Leading 22FDX FD-SOI Platform
+  date: '2026-06-04'
+  kind: web
+- slug: 2026-06-03-tendrils-compute
+  title: Tendrils Compute — company site (about / background / jobs)
+  date: '2026-06-03'
+  kind: web
 - slug: 2026-06-02-agentic-runtime-silicon-necessity
   title: Deep-research dossier — does the stateful agent runtime / control-plane layer need a novel silicon primitive?
   date: '2026-06-02'
@@ -84,22 +100,6 @@ recent_mentions:
 - slug: 2026-05-30-osat-market-structure
   title: OSAT market structure 2024-2025 — rankings, advanced-packaging split, photonic assembly
   date: '2026-05-30'
-  kind: web
-- slug: 2026-05-29-silicon-shock-the-macro-of-tech-inflation
-  title: 'Silicon Shock: The Macro of Tech Inflation'
-  date: '2026-05-29'
-  kind: web
-- slug: 2026-05-27-atlas-data-room
-  title: Atlas Processing data room (27 May 2026)
-  date: '2026-05-27'
-  kind: web
-- slug: 2026-05-24-mose2-exciton-polariton-all-optical-switch
-  title: New light-based switch could cut chip energy use and speed future AI photonics
-  date: '2026-05-24'
-  kind: web
-- slug: 2026-04-16-should-the-us-buy-from-cxmt
-  title: Should the US Buy from CXMT?
-  date: '2026-04-16'
   kind: web
 neighbors: []
 ---

@@ -21,11 +21,7 @@ descendants: []
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2025-03-13-how-to-build-a-chip-thats-as-efficient-as-the-human-brain---
-  title: How to build a chip that’s as efficient as the human brain - Techzine Global
-  date: '2025-03-13'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

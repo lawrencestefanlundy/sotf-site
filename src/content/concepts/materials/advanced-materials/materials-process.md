@@ -21,9 +21,13 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
-- slug: 2022-01-31-fraunhofer-iapt-optimizes-3d-printing-for-car-door-hinges---
-  title: Fraunhofer IAPT Optimizes 3D Printing for Car Door Hinges - 3Dnatives
-  date: '2022-01-31'
+- slug: 2026-06-04-nist-researchers-discover-a-new-way-to-whisk-alloys-together
+  title: NIST Researchers Discover a New Way to Whisk Alloys Together With Lasers
+  date: '2026-06-04'
+  kind: web
+- slug: 2024-09-18-news-intel-to-turn-foundry-unit-into-subsidiary-with-project
+  title: '[News] Intel to Turn Foundry Unit into Subsidiary, with Projects in Germany and Poland Delayed for 2 Years - TrendForce'
+  date: '2024-09-18'
   kind: web
 neighbors: []
 ---

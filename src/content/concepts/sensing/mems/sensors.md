@@ -25,50 +25,49 @@ sources:
 - '[[2025-04-30-has-the-time-come-to-take-mortal]]'
 - '[[2023-08-25-e12-nanomechanical-computing-gears]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
-- '[[2026-05-08-nasa-fuel-cell-tests-pave-way-for-energy-storage-on-moon]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 179
+mention_count: 198
 last_reorg_date: '2026-05-13'
-sources_7d: 11
-sources_30d: 44
+sources_7d: 19
+sources_30d: 42
 recent_mentions:
+- slug: 2026-06-04-magnetoresistive-biochips-freitas-trends-biotech
+  title: Magnetoresistive-based biosensors and biochips
+  date: '2026-06-04'
+  kind: web
+- slug: 2026-06-04-process-analytical-technology-market-size
+  title: Process Analytical Technology Market Size, Report by 2034 (Precedence Research)
+  date: '2026-06-04'
+  kind: web
+- slug: 2026-06-04-magnetoresistive-gmr-mtj-biosensor-turbid-samples
+  title: Integrated Microfluidic Giant Magnetoresistance (GMR) Biosensor Platform for Magnetoresistive Immunoassay (and related GMR/MTJ bead-detection literature)
+  date: '2026-06-04'
+  kind: web
+- slug: 2026-06-04-tmr-sensors-sub-pt-detectivity-biomagnetic-review
+  title: Tunnel-magnetoresistance sensors with sub-pT detectivity for detecting bio-magnetic fields
+  date: '2026-06-04'
+  kind: web
+- slug: 2026-06-04-serial-mtj-small-magnetic-field-detection-noise
+  title: Detection of Small Magnetic Fields Using Serial Magnetic Tunnel Junctions with Various Geometrical Characteristics
+  date: '2026-06-04'
+  kind: web
+- slug: 2026-06-04-gmr-biosensor-arrays-correction-techniques-wang
+  title: 'GMR Biosensor Arrays: Correction Techniques for Reproducibility and Enhanced Sensitivity'
+  date: '2026-06-04'
+  kind: web
+- slug: 2026-06-04-asg-biosensor-host-cell-protein-bioprocess
+  title: Startup's biosensor makes drug development and manufacturing cheaper (MIT News — Advanced Silicon Group)
+  date: '2026-06-04'
+  kind: web
 - slug: 2026-06-02-singular-photonics-launch
   title: Singular Photonics — launch, SPAD portfolio + Meta collaboration (coverage)
   date: '2026-06-02'
   kind: web
-- slug: 2026-06-01-photonic-mmwave-generation-research
-  title: Photonic mmWave / microwave signal generation — research landscape (2024–2025)
-  date: '2026-06-01'
-  kind: web
-- slug: 2026-05-27-nasa-develops-sensor-to-improve-firefighter-safety
-  title: NASA Develops Sensor to Improve Firefighter Safety
-  date: '2026-05-27'
-  kind: web
-- slug: 2026-05-08-nasa-fuel-cell-tests-pave-way-for-energy-storage-on-moon
-  title: NASA Fuel Cell Tests Pave Way for Energy Storage on Moon
-  date: '2026-05-08'
-  kind: web
-- slug: 2026-05-06-putting-the-super-into-a-supersite-for-earth-observation
-  title: Putting the ‘super’ into a supersite for Earth observation
-  date: '2026-05-06'
-  kind: web
-- slug: 2026-03-18-bacteria-reveal-themselves-through-unique-sounds-a-breakthro
-  title: 'Bacteria reveal themselves through unique sounds: a breakthrough for rapid diagnostics - TU Delft'
-  date: '2026-03-18'
-  kind: web
-- slug: 2025-12-19-lfg-for-semiconductors
-  title: LFG (for semiconductors)
-  date: '2025-12-19'
-  kind: substack
-- slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
-  title: Carbon Nanotubes in the Datacentre
-  date: '2025-11-25'
-  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

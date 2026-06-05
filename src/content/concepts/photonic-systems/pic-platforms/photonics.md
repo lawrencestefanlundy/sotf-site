@@ -36,7 +36,7 @@ last_updated: '2026-05-07'
 tags:
 - concept
 - theme
-mention_count: 497
+mention_count: 504
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -49,6 +49,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 3
 sources_30d: 10
 recent_mentions:
+- slug: 2026-06-04-eic-impact-report-2026-europe-strengthens-its-position-as-a-
+  title: 'EIC Impact Report 2026: Europe strengthens its position as a global deep tech scaling hub - European Innovation Council'
+  date: '2026-06-04'
+  kind: web
 - slug: 2026-06-03-new-stock-god-serenity-photonics-related-stocks-may-graduall
   title: '''New Stock God'' Serenity: Photonics-related stocks may gradually benefit within 3 to 15 months after the release of the EU CHIPS Act - Bitget'
   date: '2026-06-03'
@@ -75,10 +79,6 @@ recent_mentions:
   kind: web
 - slug: 2026-05-30-osat-market-structure
   title: OSAT market structure 2024-2025 — rankings, advanced-packaging split, photonic assembly
-  date: '2026-05-30'
-  kind: web
-- slug: 2026-05-30-companiesmarketcap
-  title: companiesmarketcap.com
   date: '2026-05-30'
   kind: web
 neighbors: []

@@ -19,7 +19,11 @@ mention_count: 15
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-04-nasa-hosts-2026-review-on-advanced-composite-manufacturing
+  title: NASA Hosts 2026 Review on Advanced Composite Manufacturing
+  date: '2026-06-04'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

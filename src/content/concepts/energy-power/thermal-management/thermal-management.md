@@ -24,7 +24,7 @@ tags:
 mention_count: 54
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 3
+sources_7d: 1
 sources_30d: 8
 recent_mentions: []
 neighbors: []

@@ -20,9 +20,29 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
-- slug: 2025-02-11-bolstering-small-business---national-science-foundation-gov
-  title: Bolstering Small Business - National Science Foundation (.gov)
-  date: '2025-02-11'
+- slug: 2026-06-04-eu-proposes-chips-act-20-and-cloud-and-ai-act---evertiq
+  title: EU proposes Chips Act 2.0 and Cloud and AI Act - Evertiq
+  date: '2026-06-04'
+  kind: web
+- slug: 2026-06-04-eic-impact-report-2026-europe-strengthens-its-position-as-a-
+  title: 'EIC Impact Report 2026: Europe strengthens its position as a global deep tech scaling hub - European Innovation Council'
+  date: '2026-06-04'
+  kind: web
+- slug: 2026-03-17-eu-delays-tech-sovereignty-package-with-ai-and-chips-act-2--
+  title: EU delays tech sovereignty package with AI and Chips Act 2 - Digital Watch Observatory
+  date: '2026-03-17'
+  kind: web
+- slug: 2026-02-05-eic-portfolios---european-innovation-council
+  title: EIC portfolios - European Innovation Council
+  date: '2026-02-05'
+  kind: web
+- slug: 2025-11-06-eic-pathfinder-open---european-innovation-council
+  title: EIC Pathfinder Open - European Innovation Council
+  date: '2025-11-06'
+  kind: web
+- slug: 2018-07-30-darpas-fast-lightweight-autonomy-program-tests-the-scouting-
+  title: DARPA’s Fast Lightweight Autonomy program tests the scouting software of tomorrow’s wars - C4ISRNet
+  date: '2018-07-30'
   kind: web
 neighbors: []
 ---

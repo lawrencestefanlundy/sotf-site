@@ -30,6 +30,14 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 6
 recent_mentions:
+- slug: 2026-06-04-nist-researchers-discover-a-new-way-to-whisk-alloys-together
+  title: NIST Researchers Discover a New Way to Whisk Alloys Together With Lasers
+  date: '2026-06-04'
+  kind: web
+- slug: 2026-06-04-nasa-hosts-2026-review-on-advanced-composite-manufacturing
+  title: NASA Hosts 2026 Review on Advanced Composite Manufacturing
+  date: '2026-06-04'
+  kind: web
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
   title: Carbon Nanotubes in the Datacentre
   date: '2025-11-25'
@@ -53,14 +61,6 @@ recent_mentions:
 - slug: 2024-09-11-bis-imposes-new-export-controls-on-quantum-semiconductor-and
   title: BIS Imposes New Export Controls on Quantum, Semiconductor and Additive Manufacturing Technologies - globaltradeandsanctionslaw.com
   date: '2024-09-11'
-  kind: web
-- slug: 2022-05-09-elementum-funded-by-darpa-to-develop-am-process-for-rhenium-
-  title: Elementum funded by DARPA to develop AM process for rhenium - Metal Additive Manufacturing magazine
-  date: '2022-05-09'
-  kind: web
-- slug: 2022-01-31-fraunhofer-iapt-optimizes-3d-printing-for-car-door-hinges---
-  title: Fraunhofer IAPT Optimizes 3D Printing for Car Door Hinges - 3Dnatives
-  date: '2022-01-31'
   kind: web
 neighbors: []
 ---

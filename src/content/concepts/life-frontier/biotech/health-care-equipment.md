@@ -19,7 +19,11 @@ mention_count: 99
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-05-26-darpa-launches-search-for-robot-medics-to-treat-battlefield-
+  title: DARPA launches search for robot medics to treat battlefield casualties - Defense News
+  date: '2026-05-26'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

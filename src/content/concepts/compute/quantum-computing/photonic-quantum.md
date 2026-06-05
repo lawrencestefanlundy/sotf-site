@@ -13,17 +13,22 @@ sources:
 - '[[2023-07-14-e08-optical-computing]]'
 - '[[2024-12-16-willow-and-the-race-to-quantum-advantage]]'
 - '[[2024-12-04-cubits-in-a-fridge-why-is-nobody]]'
+- '[[2026-06-04-q-memory-site]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 25
+mention_count: 28
 last_reorg_date: '2026-05-13'
-sources_7d: 6
-sources_30d: 9
+sources_7d: 8
+sources_30d: 12
 recent_mentions:
+- slug: 2026-06-04-q-memory-site
+  title: Q-Memory — company website (q-memory.tech)
+  date: '2026-06-04'
+  kind: web
 - slug: 2025-12-02-the-future-of-computing-is-glass
   title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
   date: '2025-12-02'

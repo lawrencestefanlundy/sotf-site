@@ -11,17 +11,22 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2024-eu-chips-act-final-text]]'
+- '[[2026-06-04-globalfoundries-emram-22fdx-availability]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 5
+mention_count: 6
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 1
+sources_7d: 2
+sources_30d: 2
 recent_mentions:
+- slug: 2026-06-04-globalfoundries-emram-22fdx-availability
+  title: GLOBALFOUNDRIES Announces Availability of Embedded MRAM on Leading 22FDX FD-SOI Platform
+  date: '2026-06-04'
+  kind: web
 - slug: 2024-eu-chips-act-final-text
   title: European Chips Act — Regulation (EU) 2023/1781
   date: '2023-09-20'

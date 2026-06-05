@@ -29,37 +29,37 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 2
 recent_mentions:
-- slug: 2026-06-03-usa-rare-earth-finalizes-deals-for-up-to-16-billion-in-fundi
-  title: USA Rare Earth finalizes deals for up to $1.6 billion in funding under CHIPS Act - Reuters
-  date: '2026-06-03'
+- slug: 2026-06-04-european-chips-act-20-a-defining-step-for-europes-semiconduc
+  title: European Chips Act 2.0 a defining step for Europe’s semiconductor future — Tyndall - Engineers Ireland
+  date: '2026-06-04'
   kind: web
-- slug: 2026-06-03-european-chips-act-20-unveiled-semi-welcomes-eus-updated-sem
-  title: 'European Chips Act 2.0 Unveiled: SEMI Welcomes EU''s Updated Semiconductor Framework - News and Statistics - IndexBox'
-  date: '2026-06-03'
+- slug: 2026-06-04-chips-act-ii-proposed-much-like-chips-act-1---electronics-we
+  title: Chips Act II proposed – much like Chips Act 1 - Electronics Weekly
+  date: '2026-06-04'
   kind: web
-- slug: 2025-12-30-us-eases-semiconductor-equipment-rules-for-samsung-sk-hynix-
-  title: U.S. Eases Semiconductor Equipment Rules for Samsung, SK Hynix in China - 조선일보
-  date: '2025-12-30'
+- slug: 2026-06-04-european-chips-act-20-embraces-a-long-term-industrial-strate
+  title: European Chips Act 2.0 embraces a long-term industrial strategy - New Electronics
+  date: '2026-06-04'
   kind: web
-- slug: 2025-11-21-hms-networks-acquires-molex-industrial-communications-busine
-  title: HMS Networks Acquires Molex Industrial Communications Business - ARC Advisory
-  date: '2025-11-21'
+- slug: 2026-06-04-us-export-greenlight-lets-armenian-engineers-build-chips-wit
+  title: U.S. export greenlight lets Armenian engineers build chips with Microchip - Stock Titan
+  date: '2026-06-04'
   kind: web
-- slug: 2025-09-01-as-us-adds-more-semiconductor-hurdles-chinese-firms-could-se
-  title: As US adds more semiconductor hurdles, Chinese firms could seize an opportunity - South China Morning Post
-  date: '2025-09-01'
+- slug: 2026-06-04-eu-proposes-chips-act-20-to-strengthen-semiconductor-ecosyst
+  title: EU proposes Chips Act 2.0 to strengthen semiconductor ecosystem - Digital Watch Observatory
+  date: '2026-06-04'
   kind: web
-- slug: 2024-bis-export-controls-china-semis
-  title: BIS Export Controls — China Semiconductor Restrictions (Oct 2022 / Oct 2023 / Dec 2024 rounds)
-  date: '2024-12-02'
+- slug: 2026-06-04-guide-to-the-chips-act-20---fasieu
+  title: Guide to the Chips Act 2.0 - FASI.eu
+  date: '2026-06-04'
   kind: web
-- slug: 2023-05-19-uk-government-unveils-long-awaited-1-billion-semiconductor-s
-  title: UK Government Unveils Long-Awaited £1 Billion Semiconductor Strategy - Silicon UK
-  date: '2023-05-19'
+- slug: 2026-06-04-rgti-stock-surges-as-chips-act-funding-fuels-quantum-hype---
+  title: RGTI Stock Surges As CHIPS Act Funding Fuels Quantum Hype - timothysykes.com
+  date: '2026-06-04'
   kind: web
-- slug: 2023-04-25-us-deals-signal-heightened-semiconductor-equipment-competiti
-  title: US deals signal heightened semiconductor equipment competition - East Asia Forum
-  date: '2023-04-25'
+- slug: 2026-06-04-eu-chips-act-20-draft-drops-front-end-manufacturing-priority
+  title: EU Chips Act 2.0 draft drops front-end manufacturing priority - Bits&Chips
+  date: '2026-06-04'
   kind: web
 neighbors: []
 ---

@@ -26,11 +26,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 97
+mention_count: 100
 last_reorg_date: '2026-05-13'
-sources_7d: 8
-sources_30d: 22
+sources_7d: 9
+sources_30d: 25
 recent_mentions:
+- slug: 2026-06-04-nist-researchers-discover-a-new-way-to-whisk-alloys-together
+  title: NIST Researchers Discover a New Way to Whisk Alloys Together With Lasers
+  date: '2026-06-04'
+  kind: web
 - slug: 2026-05-30-optical-interconnect-ma-ledger
   title: Optical-interconnect / photonic-packaging M&A ledger (2019-2026)
   date: '2026-05-30'
@@ -58,10 +62,6 @@ recent_mentions:
 - slug: 2025-12-02-the-future-of-computing-is-glass
   title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
   date: '2025-12-02'
-  kind: substack
-- slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
-  title: 'UK Opportunity in AI: Compound Semiconductors'
-  date: '2025-09-10'
   kind: substack
 neighbors: []
 ---

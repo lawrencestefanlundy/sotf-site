@@ -20,33 +20,9 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
-- slug: 2026-06-04-us-export-greenlight-lets-armenian-engineers-build-chips-wit
-  title: U.S. export greenlight lets Armenian engineers build chips with Microchip - Stock Titan
-  date: '2026-06-04'
-  kind: web
-- slug: 2026-06-04-nasa-hosts-2026-review-on-advanced-composite-manufacturing
-  title: NASA Hosts 2026 Review on Advanced Composite Manufacturing
-  date: '2026-06-04'
-  kind: web
-- slug: 2026-05-26-darpa-launches-search-for-robot-medics-to-treat-battlefield-
-  title: DARPA launches search for robot medics to treat battlefield casualties - Defense News
-  date: '2026-05-26'
-  kind: web
-- slug: 2026-01-13-diffraqtion-42-million-pre-seed-closed-to-build-quantum-came
-  title: 'Diffraqtion: $4.2 Million Pre-Seed Closed To Build Quantum Camera Imaging Constellations For Space and Earth Observation - Pulse 2.0'
-  date: '2026-01-13'
-  kind: web
-- slug: 2025-03-12-startup-develops-manufacturing-breakthrough-for-traveling-wa
-  title: Startup Develops Manufacturing Breakthrough for Traveling-Wave Tubes - Mobility Engineering Technology
-  date: '2025-03-12'
-  kind: web
-- slug: 2021-12-08-darpa-is-exploring-ways-to-wirelessly-charge-drone-swarms---
-  title: DARPA Is Exploring Ways to Wirelessly Charge Drone Swarms - Gizmodo
-  date: '2021-12-08'
-  kind: web
-- slug: 2018-07-30-darpas-fast-lightweight-autonomy-program-tests-the-scouting-
-  title: DARPA’s Fast Lightweight Autonomy program tests the scouting software of tomorrow’s wars - C4ISRNet
-  date: '2018-07-30'
+- slug: 2026-06-05-when-the-ducks-are-quacking
+  title: When the Ducks are Quacking
+  date: '2026-06-05'
   kind: web
 neighbors: []
 ---

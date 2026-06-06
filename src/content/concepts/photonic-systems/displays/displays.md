@@ -15,15 +15,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 62
+mention_count: 65
 last_reorg_date: '2026-05-14'
 descendants:
 - displays
 - holographic-volumetric-displays
 - micro-leds
 - oled
-sources_7d: 3
-sources_30d: 9
+sources_7d: 6
+sources_30d: 12
 recent_mentions: []
 neighbors: []
 ---

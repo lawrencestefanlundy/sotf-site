@@ -18,10 +18,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 31
+mention_count: 38
 last_reorg_date: '2026-05-13'
-sources_7d: 4
-sources_30d: 9
+sources_7d: 10
+sources_30d: 16
 recent_mentions:
 - slug: 2026-05-31-companiesmarketcap
   title: companiesmarketcap.com

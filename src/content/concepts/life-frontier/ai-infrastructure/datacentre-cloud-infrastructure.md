@@ -19,11 +19,7 @@ mention_count: 108
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-06-04-eu-proposes-chips-act-20-and-cloud-and-ai-act---evertiq
-  title: EU proposes Chips Act 2.0 and Cloud and AI Act - Evertiq
-  date: '2026-06-04'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

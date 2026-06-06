@@ -31,10 +31,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 198
+mention_count: 217
 last_reorg_date: '2026-05-13'
-sources_7d: 19
-sources_30d: 42
+sources_7d: 31
+sources_30d: 44
 recent_mentions:
 - slug: 2026-06-04-magnetoresistive-biochips-freitas-trends-biotech
   title: Magnetoresistive-based biosensors and biochips

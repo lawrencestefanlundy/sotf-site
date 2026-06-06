@@ -38,7 +38,7 @@ public_expressions:
 - 005930.KS
 - MU
 sources_7d: 1
-sources_30d: 2
+sources_30d: 1
 recent_mentions: []
 neighbors:
 - slug: dram

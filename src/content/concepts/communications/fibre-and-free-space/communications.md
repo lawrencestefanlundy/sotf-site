@@ -33,7 +33,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 151
+mention_count: 161
 descendants:
 - 5g-nr-advanced
 - beamforming-ics
@@ -66,8 +66,8 @@ descendants:
 - sub-thz-6g
 - timing-clock-generation
 last_reorg_date: '2026-05-14'
-sources_7d: 22
-sources_30d: 56
+sources_7d: 31
+sources_30d: 66
 recent_mentions:
 - slug: 2026-06-01-ncsc-nsa-qkd-vs-pqc
   title: 'NCSC / NSA position: QKD not endorsed, post-quantum cryptography is the recommended mitigation'

@@ -12,6 +12,7 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2025-08-29-from-smart-cities-to-pro-audio-dect-nr-and-its-potential-for]]'
+- '[[2026-03-10-nr-plus-interop-demo-light-building]]'
 - '[[2024-02-21-how-dect-nr-revolutionizes-smart-building-connectivity---ee-]]'
 - '[[2024-02-26-nordic-nrf9151-a-smaller-lte-mnb-iot-and-dect-nr-sip-with-en]]'
 - '[[2024-06-03-conexio-stratus-pro-a-battery-powered-nrf9161-development-ki]]'
@@ -29,14 +30,14 @@ sources:
 - '[[2023-06-22-single-ic-for-cellular-iot-and-dect-nr-includes-rf-front-end]]'
 frontier:
 - ''
-last_updated: '2026-05-04'
+last_updated: '2026-06-05'
 tags:
 - concept
 - technology
-mention_count: 18
+mention_count: 19
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-05-07-stratum-9-launches-first-industrial-grade-dect-nr-gateway---
   title: STRATUM 9 Launches First Industrial-Grade DECT NR+ Gateway - openPR.com
@@ -49,6 +50,10 @@ recent_mentions:
 - slug: 2026-03-24-dect-nr-a-wireless-solution-for-real-time-audio---audioxpres
   title: 'DECT NR+: A Wireless Solution for Real-Time Audio? - audioXpress'
   date: '2026-03-24'
+  kind: web
+- slug: 2026-03-10-nr-plus-interop-demo-light-building
+  title: Legrand and Schneider Electric demonstrate world's first NR+ interoperability demo for smart buildings
+  date: '2026-03-10'
   kind: web
 - slug: 2025-12-15-coming-soon-to-pro-av-dect-nr---avnetwork
   title: 'Coming Soon to Pro AV: DECT NR+ - AVNetwork'
@@ -66,15 +71,9 @@ recent_mentions:
   title: MERCI project takes DECT NR+ from vision to reality - Sennheiser
   date: '2025-10-23'
   kind: web
-- slug: 2025-08-29-from-smart-cities-to-pro-audio-dect-nr-and-its-potential-for
-  title: From Smart Cities to Pro Audio – DECT NR+ and its potential for NR+ Audio - Embedded Computing Design
-  date: '2025-08-29'
-  kind: web
 neighbors: []
 ---
 ## Physics / mechanism
-
-DECT NR+ (Digital Enhanced Cordless Telecommunications New Radio+) is a ULE (Ultra Low Energy) wireless standard operating in the 1.88–1.93 GHz DECT band. Unlike cellular or Wi-Fi, it operates license-free globally, uses a TDMA/FDMA channel structure with 1.728 MHz channel spacing, and supports mesh networking natively. Peak data rate ~25 Mbps per node; latency sub-10 ms; range 300 m LOS. Key differentiator: deterministic MAC layer enabling industrial-grade reliability (99.999% target). ETSI TS 103 636 standardised 2020–2022. Chipsets now shipping from u-blox (NORA-W series context aside), Spark Microsystems, and Nordic exploring roadmap adjacency. Primarily targets IIoT, smart grid, industrial automation.
 
 ## Competitive landscape
 
@@ -99,5 +98,3 @@ DECT NR+ competes and overlaps with:
 <!-- dataview block stripped for public site -->
 
 ## Frontier (open questions)
-
-- *To be added.*

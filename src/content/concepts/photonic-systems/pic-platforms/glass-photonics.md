@@ -33,7 +33,7 @@ tags:
 - technology
 - photonics
 - glass
-sources_7d: 3
+sources_7d: 0
 sources_30d: 3
 recent_mentions: []
 neighbors:

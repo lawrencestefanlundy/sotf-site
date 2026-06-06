@@ -24,39 +24,7 @@ descendants:
 - stm
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-06-04-european-chips-act-20-a-defining-step-for-europes-semiconduc
-  title: European Chips Act 2.0 a defining step for Europe’s semiconductor future — Tyndall - Engineers Ireland
-  date: '2026-06-04'
-  kind: web
-- slug: 2026-06-04-chips-act-ii-proposed-much-like-chips-act-1---electronics-we
-  title: Chips Act II proposed – much like Chips Act 1 - Electronics Weekly
-  date: '2026-06-04'
-  kind: web
-- slug: 2026-06-04-usa-rare-earth-secures-16bn-in-us-federal-funding---discover
-  title: USA Rare Earth Secures $1.6bn in US Federal Funding - Discovery Alert
-  date: '2026-06-04'
-  kind: web
-- slug: 2026-06-04-european-chips-act-20-embraces-a-long-term-industrial-strate
-  title: European Chips Act 2.0 embraces a long-term industrial strategy - New Electronics
-  date: '2026-06-04'
-  kind: web
-- slug: 2026-06-04-eu-proposes-chips-act-20-to-strengthen-semiconductor-ecosyst
-  title: EU proposes Chips Act 2.0 to strengthen semiconductor ecosystem - Digital Watch Observatory
-  date: '2026-06-04'
-  kind: web
-- slug: 2026-06-04-guide-to-the-chips-act-20---fasieu
-  title: Guide to the Chips Act 2.0 - FASI.eu
-  date: '2026-06-04'
-  kind: web
-- slug: 2026-06-04-eu-proposes-chips-act-20-and-cloud-and-ai-act---evertiq
-  title: EU proposes Chips Act 2.0 and Cloud and AI Act - Evertiq
-  date: '2026-06-04'
-  kind: web
-- slug: 2026-06-04-eu-chips-act-20-draft-drops-front-end-manufacturing-priority
-  title: EU Chips Act 2.0 draft drops front-end manufacturing priority - Bits&Chips
-  date: '2026-06-04'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

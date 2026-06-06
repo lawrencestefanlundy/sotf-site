@@ -15,7 +15,6 @@ related_concepts:
 - cowos
 - co-packaged-optics
 - chiplets
-- ucie
 sources: []
 frontier:
 - What is the practical yield floor for heterogeneous integration of known-good-die at sub-10 µm bump pitch — is KGD test the binding constraint on cost?
@@ -51,10 +50,6 @@ neighbors:
 - slug: chiplets
   name: Chiplets
   path: /sotf-site/compute/compute-architecture/chiplets/
-  macro: compute
-- slug: ucie
-  name: UCIe (Universal Chiplet Interconnect Express)
-  path: /sotf-site/compute/compute-architecture/ucie/
   macro: compute
 ---
 Heterogeneous integration (HI) is the assembly of multiple distinct semiconductor dies — each optimised at a different process node, material system, or technology — into a single package that functions as a unified system. Unlike monolithic SoC integration, which forces all functional blocks onto one process node, HI allows logic, memory, RF, photonic, and analogue dies to be individually optimised (e.g., CMOS logic at 3 nm TSMC N3E, HBM DRAM at LPDDR-class stacked DRAM, RF front-end at GaAs or GaN) and then assembled via advanced packaging interconnects.

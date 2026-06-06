@@ -18,7 +18,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 55
+mention_count: 56
 descendants:
 - automated-test-equipment
 - ion-implantation
@@ -27,39 +27,19 @@ descendants:
 - wafer-level-burn-in
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 2
+sources_30d: 1
 recent_mentions:
-- slug: 2026-06-04-european-chips-act-20-a-defining-step-for-europes-semiconduc
-  title: European Chips Act 2.0 a defining step for Europe’s semiconductor future — Tyndall - Engineers Ireland
-  date: '2026-06-04'
+- slug: 2025-12-30-us-eases-semiconductor-equipment-rules-for-samsung-sk-hynix-
+  title: U.S. Eases Semiconductor Equipment Rules for Samsung, SK Hynix in China - 조선일보
+  date: '2025-12-30'
   kind: web
-- slug: 2026-06-04-chips-act-ii-proposed-much-like-chips-act-1---electronics-we
-  title: Chips Act II proposed – much like Chips Act 1 - Electronics Weekly
-  date: '2026-06-04'
+- slug: 2024-bis-export-controls-china-semis
+  title: BIS Export Controls — China Semiconductor Restrictions (Oct 2022 / Oct 2023 / Dec 2024 rounds)
+  date: '2024-12-02'
   kind: web
-- slug: 2026-06-04-european-chips-act-20-embraces-a-long-term-industrial-strate
-  title: European Chips Act 2.0 embraces a long-term industrial strategy - New Electronics
-  date: '2026-06-04'
-  kind: web
-- slug: 2026-06-04-us-export-greenlight-lets-armenian-engineers-build-chips-wit
-  title: U.S. export greenlight lets Armenian engineers build chips with Microchip - Stock Titan
-  date: '2026-06-04'
-  kind: web
-- slug: 2026-06-04-eu-proposes-chips-act-20-to-strengthen-semiconductor-ecosyst
-  title: EU proposes Chips Act 2.0 to strengthen semiconductor ecosystem - Digital Watch Observatory
-  date: '2026-06-04'
-  kind: web
-- slug: 2026-06-04-guide-to-the-chips-act-20---fasieu
-  title: Guide to the Chips Act 2.0 - FASI.eu
-  date: '2026-06-04'
-  kind: web
-- slug: 2026-06-04-rgti-stock-surges-as-chips-act-funding-fuels-quantum-hype---
-  title: RGTI Stock Surges As CHIPS Act Funding Fuels Quantum Hype - timothysykes.com
-  date: '2026-06-04'
-  kind: web
-- slug: 2026-06-04-eu-chips-act-20-draft-drops-front-end-manufacturing-priority
-  title: EU Chips Act 2.0 draft drops front-end manufacturing priority - Bits&Chips
-  date: '2026-06-04'
+- slug: 2023-04-25-us-deals-signal-heightened-semiconductor-equipment-competiti
+  title: US deals signal heightened semiconductor equipment competition - East Asia Forum
+  date: '2023-04-25'
   kind: web
 neighbors: []
 ---

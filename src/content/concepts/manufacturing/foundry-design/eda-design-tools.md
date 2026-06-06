@@ -19,11 +19,7 @@ mention_count: 25
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2025-05-08-tue-one-of-the-partners-in-eu-chips-design-platform---eindho
-  title: TU/e one of the partners in EU Chips Design Platform - Eindhoven University of Technology
-  date: '2025-05-08'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

@@ -34,7 +34,7 @@ last_updated: '2026-05-08'
 tags:
 - concept
 - technology
-mention_count: 77
+mention_count: 91
 descendants:
 - computational-lithography
 - directed-self-assembly
@@ -54,8 +54,8 @@ descendants:
 - x-ray-lithography
 - xolography
 last_reorg_date: '2026-05-13'
-sources_7d: 3
-sources_30d: 10
+sources_7d: 16
+sources_30d: 24
 recent_mentions:
 - slug: 2026-05-02-euv-lithography-wikipedia
   title: EUV Lithography Wikipedia

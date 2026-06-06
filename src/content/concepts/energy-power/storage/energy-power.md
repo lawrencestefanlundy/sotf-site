@@ -77,15 +77,7 @@ descendants:
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-06-04-surprising-trends-in-global-electricity-generation---latitud
-  title: Surprising trends in global electricity generation - Latitude Media
-  date: '2026-06-04'
-  kind: web
-- slug: 2021-12-08-darpa-is-exploring-ways-to-wirelessly-charge-drone-swarms---
-  title: DARPA Is Exploring Ways to Wirelessly Charge Drone Swarms - Gizmodo
-  date: '2021-12-08'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

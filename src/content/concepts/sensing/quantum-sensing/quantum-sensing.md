@@ -28,7 +28,7 @@ descendants:
 - quantum-sensing
 last_reorg_date: '2026-05-13'
 sources_7d: 11
-sources_30d: 27
+sources_30d: 24
 recent_mentions:
 - slug: 2026-05-02-nv-center-quantum-sensing-review-sciencedirect-2022
   title: NV center quantum sensing review (ScienceDirect 2022)

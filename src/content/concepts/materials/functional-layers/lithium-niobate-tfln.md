@@ -28,7 +28,7 @@ tags:
 mention_count: 56
 last_reorg_date: '2026-05-13'
 sources_7d: 14
-sources_30d: 28
+sources_30d: 27
 recent_mentions:
 - slug: 2026-05-02-return-of-lithium-niobate-photonics-spectra-jan-2026
   title: Return of Lithium Niobate (Photonics Spectra Jan 2026)

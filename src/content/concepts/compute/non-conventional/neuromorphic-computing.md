@@ -23,7 +23,7 @@ tags:
 mention_count: 32
 last_reorg_date: '2026-05-14'
 sources_7d: 10
-sources_30d: 13
+sources_30d: 12
 recent_mentions:
 - slug: 2026-01-22-ai-chips-computeram-and-the-future
   title: 'AI Chips, ComputeRAM and the Future of Data Movement: A Conversation with Manu, Founder of Synthara'

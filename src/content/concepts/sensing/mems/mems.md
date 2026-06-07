@@ -28,7 +28,7 @@ descendants:
 - sensors
 - spectral-sensing
 sources_7d: 3
-sources_30d: 6
+sources_30d: 5
 recent_mentions:
 - slug: 2026-06-04-magnetoresistive-gmr-mtj-biosensor-turbid-samples
   title: Integrated Microfluidic Giant Magnetoresistance (GMR) Biosensor Platform for Magnetoresistive Immunoassay (and related GMR/MTJ bead-detection literature)

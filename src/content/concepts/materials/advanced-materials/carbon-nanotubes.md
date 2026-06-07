@@ -22,7 +22,7 @@ tags:
 mention_count: 19
 last_reorg_date: '2026-05-13'
 sources_7d: 4
-sources_30d: 6
+sources_30d: 5
 recent_mentions:
 - slug: 2026-02-02-photonic-engines-for-data-centers
   title: Photonic "Engines" for Data Centers

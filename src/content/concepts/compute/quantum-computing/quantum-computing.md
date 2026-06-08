@@ -31,7 +31,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 205
+mention_count: 207
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics

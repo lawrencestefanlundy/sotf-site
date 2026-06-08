@@ -46,7 +46,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 451
+mention_count: 455
 descendants:
 - agentic-workload-retrieval
 - computational-storage
@@ -66,8 +66,8 @@ descendants:
 - sram
 - storage-class-memory
 last_reorg_date: '2026-05-14'
-sources_7d: 4
-sources_30d: 9
+sources_7d: 3
+sources_30d: 10
 recent_mentions:
 - slug: 2026-06-04-q-memory-site
   title: Q-Memory — company website (q-memory.tech)

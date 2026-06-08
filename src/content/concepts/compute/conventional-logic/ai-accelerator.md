@@ -28,7 +28,7 @@ tags:
 - technology
 mention_count: 60
 last_reorg_date: '2026-05-14'
-sources_7d: 4
+sources_7d: 3
 sources_30d: 5
 recent_mentions:
 - slug: 2025-12-02-the-future-of-computing-is-glass

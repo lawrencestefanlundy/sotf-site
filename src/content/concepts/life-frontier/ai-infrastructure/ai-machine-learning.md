@@ -19,11 +19,7 @@ mention_count: 26
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-06-05-when-the-ducks-are-quacking
-  title: When the Ducks are Quacking
-  date: '2026-06-05'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

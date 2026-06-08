@@ -27,10 +27,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 110
+mention_count: 112
 last_reorg_date: '2026-05-13'
 sources_7d: 18
-sources_30d: 31
+sources_30d: 33
 recent_mentions:
 - slug: 2026-06-04-nist-researchers-discover-a-new-way-to-whisk-alloys-together
   title: NIST Researchers Discover a New Way to Whisk Alloys Together With Lasers

@@ -31,10 +31,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 51
+mention_count: 56
 last_reorg_date: '2026-05-13'
-sources_7d: 5
-sources_30d: 10
+sources_7d: 9
+sources_30d: 15
 recent_mentions:
 - slug: 2026-06-01-hbm-state-of-play
   title: HBM state of play (mid-2026) — technology, supercycle, three-supplier standing

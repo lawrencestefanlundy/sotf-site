@@ -37,7 +37,7 @@ public_expressions:
 - 000660.KS
 - 005930.KS
 - MU
-sources_7d: 1
+sources_7d: 0
 sources_30d: 1
 recent_mentions: []
 neighbors:

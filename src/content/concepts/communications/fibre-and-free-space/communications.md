@@ -66,7 +66,7 @@ descendants:
 - sub-thz-6g
 - timing-clock-generation
 last_reorg_date: '2026-05-14'
-sources_7d: 29
+sources_7d: 21
 sources_30d: 62
 recent_mentions:
 - slug: 2026-06-01-ncsc-nsa-qkd-vs-pqc

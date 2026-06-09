@@ -49,7 +49,7 @@ descendants:
 - topological-qubits
 - trapped-ion
 last_reorg_date: '2026-05-13'
-sources_7d: 29
+sources_7d: 22
 sources_30d: 50
 recent_mentions:
 - slug: 2026-06-01-ncsc-nsa-qkd-vs-pqc

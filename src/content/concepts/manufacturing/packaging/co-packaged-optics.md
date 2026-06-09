@@ -33,7 +33,7 @@ tags:
 - technology
 mention_count: 56
 last_reorg_date: '2026-05-13'
-sources_7d: 9
+sources_7d: 8
 sources_30d: 15
 recent_mentions:
 - slug: 2026-06-01-hbm-state-of-play

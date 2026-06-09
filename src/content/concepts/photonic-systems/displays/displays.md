@@ -22,7 +22,7 @@ descendants:
 - holographic-volumetric-displays
 - micro-leds
 - oled
-sources_7d: 6
+sources_7d: 5
 sources_30d: 11
 recent_mentions: []
 neighbors: []

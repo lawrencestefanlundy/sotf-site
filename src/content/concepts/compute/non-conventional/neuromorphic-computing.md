@@ -14,17 +14,22 @@ sources:
 - '[[2023-06-30-e06-the-model-t-moment-for-bits-llms]]'
 - '[[2023-07-23-analog-computing-the-once-and-future]]'
 - '[[2026-01-22-ai-chips-computeram-and-the-future]]'
+- '[[2026-06-04-bezos-flourish-brain-core-algorithm]]'
 frontier:
 - ''
-last_updated: '2026-05-04'
+last_updated: '2026-06-09'
 tags:
 - concept
 - technology
 mention_count: 34
 last_reorg_date: '2026-05-14'
-sources_7d: 11
-sources_30d: 14
+sources_7d: 10
+sources_30d: 13
 recent_mentions:
+- slug: 2026-06-04-bezos-flourish-brain-core-algorithm
+  title: Jeff Bezos Is Funding a Wild Hunt for the Brain's 'Core Algorithm'
+  date: '2026-06-04'
+  kind: web
 - slug: 2026-01-22-ai-chips-computeram-and-the-future
   title: 'AI Chips, ComputeRAM and the Future of Data Movement: A Conversation with Manu, Founder of Synthara'
   date: '2026-01-22'
@@ -75,4 +80,4 @@ Competing inference approaches: standard GPU/TPU inference (mature, high through
 
 ## Frontier (open questions)
 
-- *To be added.*
+- **Brain-inspired *algorithm* vs spiking-neuromorphic *hardware* — keep them distinct.** The 2026 mega-rounds in "brain-like AI" (Flourish, ~$500M at ~$2.5B, Bezos/Lux/GV; **2026 06 04 Bezos Flourish Brain Core Algorithm**) chase a *canonical cortical-column algorithm* re-run on conventional silicon, NOT spiking SNN hardware (Loihi/TrueNorth lineage). This page is the hardware substrate; the algorithm bet sits with **Extreme Low Power Compute** and **Biocomputing Substrate**. Watch whether the algorithm camp ever needs neuromorphic silicon to hit its 50 W target, or whether GPUs suffice once the algorithm is sparse enough.

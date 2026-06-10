@@ -29,7 +29,7 @@ tags:
 - concept
 - technology
 mention_count: 2
-sources_7d: 1
+sources_7d: 0
 sources_30d: 1
 recent_mentions: []
 neighbors:

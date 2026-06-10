@@ -16,6 +16,7 @@ related_concepts:
 - bioelectronic-medicine
 - hearables-silent-speech
 - arvr
+- connectomics
 sources: []
 frontier:
 - Can flexible, minimally invasive ECoG arrays achieve the channel count and longevity needed for high-bandwidth motor prosthetics without open-skull surgery?
@@ -51,6 +52,10 @@ neighbors:
 - slug: arvr
   name: AR/VR
   path: /sotf-site/life-frontier/neural-interfaces/arvr/
+  macro: life-frontier
+- slug: connectomics
+  name: Connectomics
+  path: /sotf-site/life-frontier/neural-interfaces/connectomics/
   macro: life-frontier
 ---
 A brain-computer interface (BCI) is a system that establishes a direct communication or control pathway between the brain and an external device, bypassing conventional motor or peripheral pathways. The field splits on two fundamental axes: **invasive vs non-invasive** recording, and **medical vs consumer** application.

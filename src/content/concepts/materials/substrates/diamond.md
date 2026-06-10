@@ -29,8 +29,8 @@ tags:
 - technology
 mention_count: 105
 last_reorg_date: '2026-05-13'
-sources_7d: 18
-sources_30d: 40
+sources_7d: 12
+sources_30d: 39
 recent_mentions:
 - slug: 2026-05-02-nv-center-quantum-sensing-review-sciencedirect-2022
   title: NV center quantum sensing review (ScienceDirect 2022)

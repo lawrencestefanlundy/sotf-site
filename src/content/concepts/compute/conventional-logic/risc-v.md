@@ -20,7 +20,7 @@ tags:
 - technology
 mention_count: 31
 last_reorg_date: '2026-05-14'
-sources_7d: 5
+sources_7d: 4
 sources_30d: 7
 recent_mentions:
 - slug: 2026-01-22-ai-chips-computeram-and-the-future

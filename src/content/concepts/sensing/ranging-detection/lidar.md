@@ -20,8 +20,8 @@ tags:
 - technology
 mention_count: 39
 last_reorg_date: '2026-05-13'
-sources_7d: 10
-sources_30d: 17
+sources_7d: 6
+sources_30d: 15
 recent_mentions:
 - slug: 2026-05-31-companiesmarketcap
   title: companiesmarketcap.com

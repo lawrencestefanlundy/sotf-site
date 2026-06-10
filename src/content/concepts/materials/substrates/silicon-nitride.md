@@ -27,7 +27,7 @@ tags:
 - material
 mention_count: 53
 last_reorg_date: '2026-05-13'
-sources_7d: 9
+sources_7d: 6
 sources_30d: 23
 recent_mentions:
 - slug: 2026-06-04-q-memory-site

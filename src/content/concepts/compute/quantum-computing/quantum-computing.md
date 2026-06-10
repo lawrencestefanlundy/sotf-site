@@ -49,8 +49,8 @@ descendants:
 - topological-qubits
 - trapped-ion
 last_reorg_date: '2026-05-13'
-sources_7d: 22
-sources_30d: 50
+sources_7d: 17
+sources_30d: 46
 recent_mentions:
 - slug: 2026-06-01-ncsc-nsa-qkd-vs-pqc
   title: 'NCSC / NSA position: QKD not endorsed, post-quantum cryptography is the recommended mitigation'

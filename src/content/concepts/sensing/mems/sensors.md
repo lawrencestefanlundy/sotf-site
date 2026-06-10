@@ -33,8 +33,8 @@ tags:
 - technology
 mention_count: 217
 last_reorg_date: '2026-05-13'
-sources_7d: 28
-sources_30d: 42
+sources_7d: 23
+sources_30d: 41
 recent_mentions:
 - slug: 2026-06-04-magnetoresistive-biochips-freitas-trends-biotech
   title: Magnetoresistive-based biosensors and biochips

@@ -38,3 +38,9 @@ neighbors:
 Pushing compute (filtering, search, compression) into or next to the SSD to cut data movement. Commercially a commodity NAND drive plus an FPGA/ARM controller (ScaleFlux, Pliops, NGD, Enfabrica) — a module/system layer whose value-capture is weak for a deep-tech device fund.
 
 *Concept stub created 2026-06-03 from the semi+photonics gap-map research (segment backfill).*
+
+## Merged from root duplicate (computational-storage.md at concepts/ root, 2026-06-10)
+
+# Computational Storage
+
+Pushing compute into the storage device (SSD controller or an attached accelerator) so filtering, search and decompression run next to the data instead of across the bus. Targets data-movement-bound workloads; one lane in the memory/storage-disaggregation map.

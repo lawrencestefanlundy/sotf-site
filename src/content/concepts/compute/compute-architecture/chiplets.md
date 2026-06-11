@@ -46,3 +46,9 @@ Monolithic scaling (TSMC N2/A16, Intel 18A) remains the primary competitor where
 ## Frontier (open questions)
 
 - *To be added.*
+
+## Merged from root duplicate (chiplets.md at concepts/ root, 2026-06-10)
+
+# Chiplets
+
+Decomposing a monolithic SoC into smaller dies integrated in-package over a die-to-die interconnect (UCIe and competitors), trading the reticle limit and yield curve of one big die for the cost/heterogeneity of several small ones. The architectural substrate under AI-accelerator scaling, HBM integration, and the advanced-packaging value shift.

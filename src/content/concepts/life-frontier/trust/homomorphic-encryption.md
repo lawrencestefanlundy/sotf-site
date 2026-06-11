@@ -45,3 +45,9 @@ The primary competitive tension is between FHE, secure multi-party computation (
 ## Frontier (open questions)
 
 - *To be added.*
+
+## Merged from root duplicate (homomorphic-encryption.md at concepts/ root, 2026-06-10)
+
+# Homomorphic Encryption (FHE)
+
+Encryption that allows computation directly on ciphertext, so data stays encrypted in use. The blocker is compute cost (orders of magnitude over plaintext), which drives the **Fhe Acceleration Silicon** thesis: purpose-built accelerators for the polynomial/NTT bottleneck. A pillar of confidential computing alongside TEEs.

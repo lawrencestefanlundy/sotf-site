@@ -95,3 +95,9 @@ Digital ASIC accelerators (Tenstorrent, Groq, Cerebras) dominate on programmabil
 <!-- dataview block stripped for public site -->
 
 ## Frontier (open questions)
+
+## Merged from root duplicate (analog-computing.md at concepts/ root, 2026-06-10)
+
+# Analog / In-Memory Computing
+
+Performing the multiply-accumulate of neural inference inside the memory array (memristor, SRAM, capacitor or flash crossbars) rather than shuttling data to a digital ALU, trading numerical precision for a large energy-per-MAC win. The architectural answer to the memory-bound-AI problem that **Memcapacitor Compute Memory Bound Ai** and **Hbm Free Inference Architectures** bet on; adjacent to but distinct from digital **Processing In Memory**.

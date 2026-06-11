@@ -71,3 +71,9 @@ Two-photon polymerization (2PP, also TPP) uses a focused femtosecond laser to se
 - [Reliability of adhesive bonded fiber array (Telcordia ref)](https://www.researchgate.net/publication/289873692) — tier 1
 - [Plug-and-play sub-dB photonic packaging (PubMed 2025)](https://pubmed.ncbi.nlm.nih.gov/41004590/) — tier 1
 - [Ranno PhD thesis (MIT, 2025)](https://dspace.mit.edu/bitstream/handle/1721.1/162334/ranno-lranno-phd-dmse-2025-thesis%20Luigi%20Ranno.pdf) — tier 1
+
+## Merged from root duplicate (two-photon-polymerization.md at concepts/ root, 2026-06-10)
+
+# Two-Photon Polymerization (2PP)
+
+Direct-write 3D microfabrication that uses femtosecond-laser two-photon absorption to cure photoresist only at the focal voxel, giving sub-micron, free-form structures without a mask. Core to photonic packaging (free-form micro-optics, fibre-to-chip coupling) and the throughput bet in **Parallel Foci 2Pp Scaling**. The scaling lever is parallelising foci (SLM / diffractive multi-spot) to lift it from prototyping to volume.

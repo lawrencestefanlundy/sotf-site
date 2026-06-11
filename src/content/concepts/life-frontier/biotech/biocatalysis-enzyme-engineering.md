@@ -35,7 +35,7 @@ tags:
 - synbio
 - biocatalysis
 - markets
-sources_7d: 6
+sources_7d: 0
 sources_30d: 6
 recent_mentions: []
 neighbors:

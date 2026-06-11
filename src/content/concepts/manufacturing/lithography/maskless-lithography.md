@@ -116,3 +116,9 @@ The unifying economic question: **at what volume does maskless beat masked?** Ma
 - NuFlare (Toshiba) — mask-writing dominantly, partial maskless
 
 ## Frontier (open questions)
+
+## Merged from root duplicate (maskless-lithography.md at concepts/ root, 2026-06-10)
+
+# Maskless Lithography
+
+Patterning without a physical photomask (laser or multi-beam e-beam direct write), trading throughput for the avoidance of rising advanced-node mask-set cost and for fast-turn, low-volume runs. Relevant to prototyping, advanced packaging, and the mask-cost economics that **Computational Litho Ai For Mask** addresses from the other side.

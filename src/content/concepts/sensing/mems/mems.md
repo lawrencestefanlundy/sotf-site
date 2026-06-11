@@ -27,7 +27,7 @@ descendants:
 - nems
 - sensors
 - spectral-sensing
-sources_7d: 2
+sources_7d: 1
 sources_30d: 5
 recent_mentions:
 - slug: 2026-06-04-magnetoresistive-gmr-mtj-biosensor-turbid-samples

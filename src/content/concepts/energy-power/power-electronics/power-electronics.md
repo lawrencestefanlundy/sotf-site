@@ -37,7 +37,7 @@ descendants:
 - solid-state-circuit-breakers
 - wireless-power-transfer
 sources_7d: 0
-sources_30d: 2
+sources_30d: 1
 recent_mentions:
 - slug: 2026-02-19-the-rise-of-grid-power-electronics-with-drew-baglino---latit
   title: The rise of grid power electronics with Drew Baglino - Latitude Media

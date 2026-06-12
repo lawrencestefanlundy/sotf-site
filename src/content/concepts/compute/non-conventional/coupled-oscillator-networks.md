@@ -29,7 +29,7 @@ tags:
 - ising-machine
 - oscillator
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions: []
 neighbors:
 - slug: coherent-ising-machine

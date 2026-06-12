@@ -32,7 +32,7 @@ descendants:
 - optical-packet-switching
 - pluggable-transceivers
 last_reorg_date: '2026-05-13'
-sources_7d: 2
+sources_7d: 0
 sources_30d: 5
 recent_mentions:
 - slug: 2026-05-30-optical-interconnect-ma-ledger

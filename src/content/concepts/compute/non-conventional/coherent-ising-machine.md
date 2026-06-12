@@ -32,7 +32,7 @@ descendants:
 - coupled-oscillator-networks
 - near-field-rf-coupling
 sources_7d: 0
-sources_30d: 2
+sources_30d: 0
 recent_mentions: []
 neighbors:
 - slug: stochastic-ising-machines

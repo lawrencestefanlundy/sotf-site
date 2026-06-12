@@ -28,7 +28,7 @@ tags:
 - packaging
 - hbm
 sources_7d: 0
-sources_30d: 2
+sources_30d: 0
 recent_mentions: []
 neighbors:
 - slug: mature-foundry-positioning

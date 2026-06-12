@@ -23,7 +23,7 @@ tags:
 - technology
 mention_count: 34
 last_reorg_date: '2026-05-14'
-sources_7d: 8
+sources_7d: 0
 sources_30d: 13
 recent_mentions:
 - slug: 2026-06-04-bezos-flourish-brain-core-algorithm

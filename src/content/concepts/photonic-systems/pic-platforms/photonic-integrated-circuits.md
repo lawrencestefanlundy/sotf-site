@@ -28,7 +28,7 @@ descendants:
 - mid-ir-photonics
 - photodetector
 - pic-packaging-stack
-sources_7d: 4
+sources_7d: 0
 sources_30d: 17
 recent_mentions:
 - slug: 2026-06-01-nibras-ucl-chipstart

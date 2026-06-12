@@ -26,7 +26,7 @@ tags:
 - analog-computing
 - calibration
 sources_7d: 0
-sources_30d: 2
+sources_30d: 0
 recent_mentions: []
 neighbors:
 - slug: coherent-ising-machine

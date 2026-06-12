@@ -39,7 +39,7 @@ descendants:
 - heterogeneous-integration
 - osat
 last_reorg_date: '2026-05-13'
-sources_7d: 4
+sources_7d: 0
 sources_30d: 14
 recent_mentions:
 - slug: 2026-05-30-osat-market-structure

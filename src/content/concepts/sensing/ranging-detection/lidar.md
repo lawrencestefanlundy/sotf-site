@@ -21,7 +21,7 @@ tags:
 mention_count: 39
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 15
+sources_30d: 14
 recent_mentions:
 - slug: 2026-05-31-companiesmarketcap
   title: companiesmarketcap.com

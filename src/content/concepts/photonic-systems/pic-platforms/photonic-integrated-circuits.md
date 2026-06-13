@@ -29,7 +29,7 @@ descendants:
 - photodetector
 - pic-packaging-stack
 sources_7d: 0
-sources_30d: 17
+sources_30d: 15
 recent_mentions:
 - slug: 2026-06-01-nibras-ucl-chipstart
   title: UCL EEE ventures selected for national ChipStart programme (incl. Nibras Communications)

@@ -24,7 +24,7 @@ tags:
 mention_count: 34
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 13
+sources_30d: 12
 recent_mentions:
 - slug: 2026-06-04-bezos-flourish-brain-core-algorithm
   title: Jeff Bezos Is Funding a Wild Hunt for the Brain's 'Core Algorithm'

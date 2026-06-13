@@ -55,7 +55,7 @@ descendants:
 - xolography
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 21
+sources_30d: 19
 recent_mentions:
 - slug: 2026-05-02-euv-lithography-wikipedia
   title: EUV Lithography Wikipedia

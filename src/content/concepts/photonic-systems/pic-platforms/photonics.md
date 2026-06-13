@@ -47,7 +47,7 @@ descendants:
 - optoelectronic-oscillator
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 9
+sources_30d: 8
 recent_mentions:
 - slug: 2026-06-03-new-stock-god-serenity-photonics-related-stocks-may-graduall
   title: '''New Stock God'' Serenity: Photonics-related stocks may gradually benefit within 3 to 15 months after the release of the EU CHIPS Act - Bitget'

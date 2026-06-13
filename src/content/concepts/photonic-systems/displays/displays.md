@@ -23,7 +23,7 @@ descendants:
 - micro-leds
 - oled
 sources_7d: 0
-sources_30d: 9
+sources_30d: 7
 recent_mentions: []
 neighbors: []
 ---

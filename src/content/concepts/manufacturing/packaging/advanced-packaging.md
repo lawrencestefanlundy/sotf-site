@@ -40,7 +40,7 @@ descendants:
 - osat
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 14
+sources_30d: 13
 recent_mentions:
 - slug: 2026-05-30-osat-market-structure
   title: OSAT market structure 2024-2025 — rankings, advanced-packaging split, photonic assembly

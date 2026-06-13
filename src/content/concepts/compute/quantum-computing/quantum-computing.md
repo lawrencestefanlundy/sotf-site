@@ -50,7 +50,7 @@ descendants:
 - trapped-ion
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 46
+sources_30d: 41
 recent_mentions:
 - slug: 2026-06-01-ncsc-nsa-qkd-vs-pqc
   title: 'NCSC / NSA position: QKD not endorsed, post-quantum cryptography is the recommended mitigation'

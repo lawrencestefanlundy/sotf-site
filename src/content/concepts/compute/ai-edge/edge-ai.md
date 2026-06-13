@@ -28,7 +28,7 @@ mention_count: 37
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 13
+sources_30d: 12
 recent_mentions:
 - slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
   title: 'UK Opportunity in AI: Compound Semiconductors'

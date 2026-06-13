@@ -29,8 +29,12 @@ tags:
 mention_count: 60
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 5
+sources_30d: 4
 recent_mentions:
+- slug: 2026-06-08-google-buys-compute-from-spacex-broadcoms-outlook-apples-ai-
+  title: Google Buys Compute From SpaceX, Broadcom’s Outlook, Apple’s AI Politics
+  date: '2026-06-08'
+  kind: web
 - slug: 2025-12-02-the-future-of-computing-is-glass
   title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
   date: '2025-12-02'
@@ -58,10 +62,6 @@ recent_mentions:
 - slug: 2024-yole-thermal-management-2024
   title: Yole Group — Thermal Management 2024 Market Analysis
   date: '2024-10-01'
-  kind: web
-- slug: 2024-idtechex-thermal-interface-materials-2026-2036
-  title: 'IDTechEx — Thermal Interface Materials 2026-2036: Technologies, Markets and Forecasts'
-  date: '2024-08-15'
   kind: web
 neighbors: []
 ---

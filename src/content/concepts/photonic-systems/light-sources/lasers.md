@@ -30,7 +30,7 @@ tags:
 mention_count: 112
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 30
+sources_30d: 28
 recent_mentions:
 - slug: 2026-06-04-nist-researchers-discover-a-new-way-to-whisk-alloys-together
   title: NIST Researchers Discover a New Way to Whisk Alloys Together With Lasers

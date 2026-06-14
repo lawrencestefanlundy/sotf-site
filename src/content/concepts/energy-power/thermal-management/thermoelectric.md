@@ -20,7 +20,7 @@ tags:
 mention_count: 17
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 5
+sources_30d: 4
 recent_mentions:
 - slug: 2024-10-29-deploy-intelligence-too-cheap-to
   title: Deploy! Intelligence too cheap to meter @ $0.0001 per million tokens.

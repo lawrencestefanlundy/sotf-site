@@ -35,6 +35,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 5
 recent_mentions:
+- slug: 2026-06-12-conversations-in-the-sky-galileos-intersatellite-links-teste
+  title: 'Conversations in the sky: Galileo’s intersatellite links tested'
+  date: '2026-06-12'
+  kind: web
 - slug: 2026-05-30-optical-interconnect-ma-ledger
   title: Optical-interconnect / photonic-packaging M&A ledger (2019-2026)
   date: '2026-05-30'
@@ -63,10 +67,6 @@ recent_mentions:
   title: Intel Unveils Industry-Leading Glass Substrates (+ Jan 2026 EMIB+glass demo status)
   date: '2023-09-18'
   kind: web
-- slug: 2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth
-  title: '🔮E14: The Real AI Bottleneck: High Bandwidth Memory (HBM)'
-  date: '2023-09-08'
-  kind: substack
 neighbors:
 - slug: optical-circuit-switching
   name: Optical Circuit Switching (OCS)

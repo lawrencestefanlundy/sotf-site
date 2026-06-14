@@ -20,7 +20,39 @@ descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-11-nasa-robotic-tech-demo-will-advance-prototype-gamma-ray-dete
+  title: NASA Robotic Tech Demo Will Advance Prototype Gamma-Ray Detectors
+  date: '2026-06-11'
+  kind: web
+- slug: 2026-06-11-nasa-award-boosts-space-technology-research-capabilities
+  title: NASA Award Boosts Space Technology Research Capabilities
+  date: '2026-06-11'
+  kind: web
+- slug: 2026-06-10-nasa-equips-astronauts-industry-with-robotic-intelligence
+  title: NASA Equips Astronauts, Industry with Robotic Intelligence
+  date: '2026-06-10'
+  kind: web
+- slug: 2024-08-08-igcv-spin-off-fidentis-receives-million-dollar-funding---all
+  title: IGCV spin-off Fidentis receives million-dollar funding. - All-About-Industries
+  date: '2024-08-08'
+  kind: web
+- slug: 2018-09-10-brain-computer-interface-allows-for-telepathic-piloting-of-d
+  title: Brain-computer Interface Allows for Telepathic Piloting of Drones - sociable.co
+  date: '2018-09-10'
+  kind: web
+- slug: 2015-12-14-darpa-sbir-injectable-diagnostics-chemical-sensors-synthetic
+  title: 'DARPA SBIR: Injectable Diagnostics, Chemical Sensors, Synthetic Biology - Global Biodefense'
+  date: '2015-12-14'
+  kind: web
+- slug: 2013-04-22-northrop-grumman-oa-navigation-system-enters-phase-ii-of-dar
+  title: Northrop Grumman OA navigation system enters Phase II of DARPA ASPN contract - Military Embedded Systems
+  date: '2013-04-22'
+  kind: web
+- slug: 2011-06-16-moving-inventions-to-the-marketplace---mit-news
+  title: Moving inventions to the marketplace - MIT News
+  date: '2011-06-16'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

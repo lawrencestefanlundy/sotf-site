@@ -29,7 +29,11 @@ descendants: []
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-12-conversations-in-the-sky-galileos-intersatellite-links-teste
+  title: 'Conversations in the sky: Galileo’s intersatellite links tested'
+  date: '2026-06-12'
+  kind: web
 neighbors:
 - slug: optical-inter-satellite-links
   name: Optical Inter-Satellite Links

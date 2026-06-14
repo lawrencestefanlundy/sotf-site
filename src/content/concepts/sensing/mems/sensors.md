@@ -34,8 +34,16 @@ tags:
 mention_count: 217
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 39
+sources_30d: 37
 recent_mentions:
+- slug: 2026-06-11-nasa-robotic-tech-demo-will-advance-prototype-gamma-ray-dete
+  title: NASA Robotic Tech Demo Will Advance Prototype Gamma-Ray Detectors
+  date: '2026-06-11'
+  kind: web
+- slug: 2026-06-05-nasa-concludes-antenna-mishap-investigation-releases-report
+  title: NASA Concludes Antenna Mishap Investigation, Releases Report
+  date: '2026-06-05'
+  kind: web
 - slug: 2026-06-04-magnetoresistive-biochips-freitas-trends-biotech
   title: Magnetoresistive-based biosensors and biochips
   date: '2026-06-04'
@@ -59,14 +67,6 @@ recent_mentions:
 - slug: 2026-06-04-gmr-biosensor-arrays-correction-techniques-wang
   title: 'GMR Biosensor Arrays: Correction Techniques for Reproducibility and Enhanced Sensitivity'
   date: '2026-06-04'
-  kind: web
-- slug: 2026-06-04-asg-biosensor-host-cell-protein-bioprocess
-  title: Startup's biosensor makes drug development and manufacturing cheaper (MIT News — Advanced Silicon Group)
-  date: '2026-06-04'
-  kind: web
-- slug: 2026-06-02-singular-photonics-launch
-  title: Singular Photonics — launch, SPAD portfolio + Meta collaboration (coverage)
-  date: '2026-06-02'
   kind: web
 neighbors: []
 ---

@@ -11,7 +11,7 @@ parent_concepts:
 - life-frontier
 - space-access
 related_concepts:
-- lunar-teleoperation
+- moon-surface-teleoperation
 - diamond-heat-spreader
 - ai-thermal-management
 - material-class-displacement
@@ -32,9 +32,9 @@ sources_7d: 0
 sources_30d: 0
 recent_mentions: []
 neighbors:
-- slug: lunar-teleoperation
-  name: Lunar Teleoperation
-  path: /sotf-site/life-frontier/lunar/lunar-teleoperation/
+- slug: moon-surface-teleoperation
+  name: Moon-Surface Teleoperation
+  path: /sotf-site/life-frontier/lunar/moon-surface-teleoperation/
   macro: life-frontier
 - slug: diamond-heat-spreader
   name: Diamond Heat Spreader
@@ -53,7 +53,7 @@ Most of these are positioned for terrestrial AI/data-centre markets first, but t
 
 ## Adjacent themes
 
-- **[Lunar Teleoperation](/sotf-site/life-frontier/lunar/lunar-teleoperation/)** — operating teleoperated systems on the Moon needs lunar-grade compute + sensors.
+- **[Lunar Teleoperation (redirect)](/sotf-site/life-frontier/lunar/lunar-teleoperation/)** — operating teleoperated systems on the Moon needs lunar-grade compute + sensors.
 - **EU space sovereignty** — IPCEI funds for European space-grade manufacturing.
 
 ## Frontier

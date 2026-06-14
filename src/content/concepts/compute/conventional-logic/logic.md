@@ -21,7 +21,23 @@ descendants: []
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-09-synaptics-strengthens-the-case-for-ai-at-the-edge-with-new-s
+  title: Synaptics strengthens the case for AI at the edge with new single-chip Wi-Fi 7-connected Astra™ AI microcontroller - Wi-Fi NOW Global
+  date: '2026-06-09'
+  kind: web
+- slug: 2026-03-31-uk-chip-startup-fractile-targets-160m-raise-to-take-on-nvidi
+  title: UK Chip Startup Fractile Targets £160m Raise to Take on Nvidia - Resultsense
+  date: '2026-03-31'
+  kind: web
+- slug: 2026-03-10-embedded-world-synaptics-launches-the-worlds-first-wi-fi-7-a
+  title: 'Embedded World: Synaptics launches the world''s first Wi-Fi 7 & AI-native chip for IoT, ushers in new era of ultra-smart IoT devices - Wi-Fi NOW Global'
+  date: '2026-03-10'
+  kind: web
+- slug: 2025-05-06-we-are-sprinting-towards-implementation-of-our-first-chip-sa
+  title: “We are sprinting towards implementation of our first chip”, says UK startup in AI inference race - Tech.eu
+  date: '2025-05-06'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

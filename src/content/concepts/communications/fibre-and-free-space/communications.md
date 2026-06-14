@@ -67,7 +67,7 @@ descendants:
 - timing-clock-generation
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 49
+sources_30d: 41
 recent_mentions:
 - slug: 2026-06-01-ncsc-nsa-qkd-vs-pqc
   title: 'NCSC / NSA position: QKD not endorsed, post-quantum cryptography is the recommended mitigation'
@@ -93,13 +93,13 @@ recent_mentions:
   title: 'I Am Artemis: Peter Rossoni'
   date: '2026-04-24'
   kind: web
+- slug: 2026-02-11-how-levis-stadium-is-redefining-connectivity-for-the-worlds-
+  title: How Levi’s Stadium is redefining connectivity for the world’s biggest events with 6 GHz Wi-Fi 7 and AFC - Wi-Fi NOW Global
+  date: '2026-02-11'
+  kind: web
 - slug: 2025-12-19-lfg-for-semiconductors
   title: LFG (for semiconductors)
   date: '2025-12-19'
-  kind: substack
-- slug: 2025-12-09-gallium-nitride-photonics-w-james
-  title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
-  date: '2025-12-09'
   kind: substack
 neighbors: []
 ---

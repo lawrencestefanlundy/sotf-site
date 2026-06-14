@@ -61,6 +61,7 @@ descendants:
 - power-electronics
 - power-management-ic
 - renewable-electricity
+- small-modular-reactors
 - sodium-ion-batteries
 - solar-photovoltaic
 - solid-oxide-fuel-cells
@@ -77,7 +78,19 @@ descendants:
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-12-what-does-the-gm-peak-energy-partnership-mean-for-sodium-ion
+  title: What does the GM-Peak Energy partnership mean for sodium-ion? - Latitude Media
+  date: '2026-06-12'
+  kind: web
+- slug: 2026-06-11-amazon-finally-reports-its-annual-water-use-at-data-centers-
+  title: Amazon — finally — reports its annual water use at data centers - Latitude Media
+  date: '2026-06-11'
+  kind: web
+- slug: 2023-04-05-park-and-collaborators-showcase-their-green-energy-research-
+  title: Park and collaborators showcase their green-energy research to U.S. Secretary of Energy Jennifer Granholm - UW-Milwaukee
+  date: '2023-04-05'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

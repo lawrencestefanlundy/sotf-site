@@ -29,7 +29,7 @@ tags:
 mention_count: 60
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 11
+sources_30d: 10
 recent_mentions: []
 neighbors: []
 ---

@@ -50,8 +50,16 @@ descendants:
 - trapped-ion
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 41
+sources_30d: 37
 recent_mentions:
+- slug: 2026-06-11-rigetti-computing-stock-slides-nearly-10-despite-launch-of-m
+  title: Rigetti Computing Stock Slides Nearly 10% Despite Launch of Massive 100 Qubit Processor and CHIPS Act Deal - TIKR.com
+  date: '2026-06-11'
+  kind: web
+- slug: 2026-06-10-rigetti-stock-reacts-as-108-qubit-launch-meets-chips-act-sup
+  title: Rigetti Stock Reacts As 108 Qubit Launch Meets CHIPS Act Support - simplywall.st
+  date: '2026-06-10'
+  kind: web
 - slug: 2026-06-01-ncsc-nsa-qkd-vs-pqc
   title: 'NCSC / NSA position: QKD not endorsed, post-quantum cryptography is the recommended mitigation'
   date: '2026-06-01'
@@ -76,14 +84,6 @@ recent_mentions:
   title: How to Invest in AI Sovereignty — Sovereign Albion w/ Andrew Bennett
   date: '2026-02-12'
   kind: substack
-- slug: 2026-01-22-ai-chips-computeram-and-the-future
-  title: 'AI Chips, ComputeRAM and the Future of Data Movement: A Conversation with Manu, Founder of Synthara'
-  date: '2026-01-22'
-  kind: substack
-- slug: 2025-12-18-qubitsolve-secures-12-million-nsf-sbir-grant-to-accelerate-q
-  title: QubitSolve Secures $1.2 Million NSF SBIR Grant to Accelerate Quantum CFD Development - Quantum Computing Report
-  date: '2025-12-18'
-  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

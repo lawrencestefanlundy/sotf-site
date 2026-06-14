@@ -7,7 +7,8 @@ kind: material
 parent_concepts:
 - materials
 - advanced-materials
-related_concepts: []
+related_concepts:
+- rare-earth-elements
 sources: []
 frontier:
 - ''
@@ -19,8 +20,20 @@ mention_count: 0
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
-neighbors: []
+recent_mentions:
+- slug: 2026-06-13-usgs-mcs-rare-earths-supply-concentration
+  title: USGS Mineral Commodity Summaries — Rare Earths (2025 / 2026 editions)
+  date: '2026-06-13'
+  kind: web
+- slug: 2026-06-13-iea-critical-minerals-export-controls-2025
+  title: China's rare-earth & magnet export controls (Apr 2025 onward) — IEA + trade-press synthesis
+  date: '2026-06-13'
+  kind: web
+neighbors:
+- slug: rare-earth-elements
+  name: Rare-Earth Elements (REE)
+  path: /sotf-site/materials/advanced-materials/rare-earth-elements/
+  macro: materials
 ---
 ## Physics / mechanism
 

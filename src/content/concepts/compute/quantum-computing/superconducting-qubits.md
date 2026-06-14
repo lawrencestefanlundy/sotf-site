@@ -22,7 +22,7 @@ tags:
 mention_count: 26
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 5
+sources_30d: 4
 recent_mentions:
 - slug: 2025-09-18-qphox-and-rigetti-awarded-58m-contract-from-afrl-to-enable-o
   title: QphoX and Rigetti awarded $5.8M Contract from AFRL to enable optical networks of superconducting qubits - TU Delft

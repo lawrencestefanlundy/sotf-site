@@ -49,6 +49,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 8
 recent_mentions:
+- slug: 2026-06-12-women-techeu-continues-with-another-12-million-in-equity-fre
+  title: Women TechEU continues with another €12 million in equity-free grants for women founders in deep tech - European Innovation Council
+  date: '2026-06-12'
+  kind: web
 - slug: 2026-06-03-new-stock-god-serenity-photonics-related-stocks-may-graduall
   title: '''New Stock God'' Serenity: Photonics-related stocks may gradually benefit within 3 to 15 months after the release of the EU CHIPS Act - Bitget'
   date: '2026-06-03'
@@ -75,10 +79,6 @@ recent_mentions:
   kind: web
 - slug: 2026-05-30-osat-market-structure
   title: OSAT market structure 2024-2025 — rankings, advanced-packaging split, photonic assembly
-  date: '2026-05-30'
-  kind: web
-- slug: 2026-05-30-companiesmarketcap
-  title: companiesmarketcap.com
   date: '2026-05-30'
   kind: web
 neighbors: []

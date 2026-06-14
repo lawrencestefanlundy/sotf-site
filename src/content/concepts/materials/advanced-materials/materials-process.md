@@ -20,7 +20,11 @@ descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2022-10-25-simplifying-the-production-of-lithium-ion-batteries---mit-ne
+  title: Simplifying the production of lithium-ion batteries - MIT News
+  date: '2022-10-25'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

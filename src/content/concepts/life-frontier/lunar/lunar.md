@@ -22,7 +22,8 @@ descendants:
 - lunar-landers
 - lunar-surface-power
 - lunar-teleoperation
-last_reorg_date: '2026-05-14'
+- moon-surface-teleoperation
+last_reorg_date: '2026-06-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions: []

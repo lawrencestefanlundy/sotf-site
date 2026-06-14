@@ -19,7 +19,39 @@ mention_count: 79
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-12-conversations-in-the-sky-galileos-intersatellite-links-teste
+  title: 'Conversations in the sky: Galileo’s intersatellite links tested'
+  date: '2026-06-12'
+  kind: web
+- slug: 2026-06-11-esa-at-ila-2026-day-2-highlights
+  title: ESA at ILA 2026 – Day 2 highlights
+  date: '2026-06-11'
+  kind: web
+- slug: 2026-06-11-darpa-threads-the-needle-on-thermal-barriers-to-rf-power---d
+  title: DARPA THREADS the needle on thermal barriers to RF power - darpa.mil
+  date: '2026-06-11'
+  kind: web
+- slug: 2026-06-11-luca-parmitano-artemis-iii-pilot
+  title: 'Luca Parmitano: Artemis III pilot'
+  date: '2026-06-11'
+  kind: web
+- slug: 2026-06-11-nasa-robotic-tech-demo-will-advance-prototype-gamma-ray-dete
+  title: NASA Robotic Tech Demo Will Advance Prototype Gamma-Ray Detectors
+  date: '2026-06-11'
+  kind: web
+- slug: 2026-06-11-nasa-award-boosts-space-technology-research-capabilities
+  title: NASA Award Boosts Space Technology Research Capabilities
+  date: '2026-06-11'
+  kind: web
+- slug: 2026-06-11-senate-bill-extends-chips-act-tax-credits-to-space-based-sem
+  title: Senate bill extends CHIPS Act tax credits to space-based semiconductor factories - Washington Times
+  date: '2026-06-11'
+  kind: web
+- slug: 2026-06-10-nasa-equips-astronauts-industry-with-robotic-intelligence
+  title: NASA Equips Astronauts, Industry with Robotic Intelligence
+  date: '2026-06-10'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

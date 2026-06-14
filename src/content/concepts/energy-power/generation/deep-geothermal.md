@@ -7,10 +7,15 @@ kind: technology
 parent_concepts:
 - energy-power
 - generation
-related_concepts: []
-sources: []
+related_concepts:
+- closed-loop-geothermal
+sources:
+- '[[2024-11-12-atomic-energy-can-nuclear-power-our]]'
 frontier:
-- ''
+- Does any next-gen geothermal approach (Fervo EGS, Eavor closed-loop, Quaise mm-wave superhot-rock) hit <$60/MWh at commercial scale, or does drilling cost per metre stay the wall?
+- 'Is the Cloudberry wedge real and ownable: Quaise gyrotron / mm-wave waveguide components, Fervo-style fibre DAS/DTS downhole sensing, high-temp power electronics, drilling materials? Or does value pool to the driller and the developer?'
+- Does superhot-rock (>374 C supercritical) get out of the lab this decade? It is the prize (10x energy density) and the hardest materials problem (no qualified casing/sensors at those temps).
+- 'Datacentre offtake: do hyperscalers sign geothermal PPAs at scale (Google-Fervo precedent) the way they are signing nuclear?'
 last_updated: '2026-05-04'
 tags:
 - concept
@@ -20,8 +25,16 @@ descendants: []
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
-neighbors: []
+recent_mentions:
+- slug: 2026-06-13-next-gen-geothermal-research
+  title: Next-gen geothermal (EGS / closed-loop / superhot mm-wave) — research sweep (Jun 2026)
+  date: '2026-06-13'
+  kind: web
+neighbors:
+- slug: closed-loop-geothermal
+  name: Closed-Loop Geothermal
+  path: /sotf-site/energy-power/generation/closed-loop-geothermal/
+  macro: energy-power
 ---
 ## Physics / mechanism
 
@@ -45,4 +58,4 @@ Competing baseload-clean options: nuclear (fission SMRs, Radiant, Kairos) and lo
 
 ## Frontier (open questions)
 
-- *To be added.*
+*See `frontier:` in frontmatter. Investment framing in **Next Gen Geothermal**; sits under **Baseload Power**.*

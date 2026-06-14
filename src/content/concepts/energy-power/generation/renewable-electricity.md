@@ -19,7 +19,11 @@ mention_count: 81
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2023-04-05-park-and-collaborators-showcase-their-green-energy-research-
+  title: Park and collaborators showcase their green-energy research to U.S. Secretary of Energy Jennifer Granholm - UW-Milwaukee
+  date: '2023-04-05'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

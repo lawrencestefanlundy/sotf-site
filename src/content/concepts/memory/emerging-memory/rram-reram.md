@@ -19,7 +19,7 @@ sources: []
 frontier:
 - 'Three forks, three readiness states: (1) ReRAM-as-embedded-NVM is in production at low density (TSMC 28nm, GF 22FDX); (2) analog multi-level ReRAM-CIM is NOT production-ready (variability/drift/endurance/ADC wall); (3) binary/digital ReRAM-CIM is the emerging 2026 workaround (AAIC, Laxnar).'
 - Does the binary/digital path (saturated two-level cells + architectural precision) overtake analog multi-level conductance for edge inference by 2027?
-- Is Fork-1 process maturity (the Intrinsic/GF signal) the bridge that de-risks the substrate for Fork-3, or does value capture stay stuck at IP-licensing economics (the Weebit model)?
+- Is Fork-1 process maturity (the Intrinsic/GF signal) the bridge that de-risks the substrate for Fork-3, or does the profit stay stuck at IP-licensing economics (the Weebit model)?
 - Can analog multi-level ReRAM-CIM (TetraMem, Sagence) ever clear the precision wall, or is Mythic's 2024 restructuring the category verdict?
 last_updated: '2026-06-04'
 tags:

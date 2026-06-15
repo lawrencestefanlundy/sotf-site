@@ -87,6 +87,10 @@ recent_mentions:
   title: Amazon — finally — reports its annual water use at data centers - Latitude Media
   date: '2026-06-11'
   kind: web
+- slug: 2026-06-10-why-are-meta-and-aws-onstage-at-entergys-investor-day---lati
+  title: Why are Meta and AWS onstage at Entergy’s Investor Day? - Latitude Media
+  date: '2026-06-10'
+  kind: web
 - slug: 2023-04-05-park-and-collaborators-showcase-their-green-energy-research-
   title: Park and collaborators showcase their green-energy research to U.S. Secretary of Energy Jennifer Granholm - UW-Milwaukee
   date: '2023-04-05'

@@ -48,7 +48,10 @@ tags:
 - technology
 mention_count: 455
 descendants:
+- adc-bottleneck
 - agentic-workload-retrieval
+- capram
+- charge-domain-compute
 - computational-storage
 - cxl
 - dram
@@ -64,6 +67,7 @@ descendants:
 - photonic-memory
 - rram-reram
 - sram
+- sram-cim
 - storage-class-memory
 last_reorg_date: '2026-05-14'
 sources_7d: 0

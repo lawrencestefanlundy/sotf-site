@@ -20,7 +20,7 @@ sources:
 frontier:
 - Does the reconstruction cost per mm3 fall >=10x by 2030 (barcoding + ML proofreading), or does proofreading stay the wall?
 - 'Structural (EM/expansion) vs functional (fMRI/EEG) connectomics: which commercialises first, and for whom?'
-- Does a value-capture primitive emerge that survives open-source (CAVE/neuroglancer) and in-house (Google/Allen) pipelines?
+- Does a primitive that keeps the profit emerge that survives open-source (CAVE/neuroglancer) and in-house (Google/Allen) pipelines?
 last_updated: 2026-06-09
 tags:
 - concept

@@ -40,6 +40,8 @@ tags:
 - semron
 mention_count: 0
 last_reorg_date: '2026-05-14'
+descendants:
+- capram
 sources_7d: 0
 sources_30d: 0
 recent_mentions: []
@@ -64,6 +66,14 @@ neighbors:
   name: SRAM
   path: /sotf-site/memory/mainstream-memory/sram/
   macro: memory
+- slug: charge-domain-compute
+  name: Charge-Domain Compute
+  path: /sotf-site/compute/non-conventional/charge-domain-compute/
+  macro: compute
+- slug: 3d-monolithic-integration
+  name: 3D Monolithic Integration
+  path: /sotf-site/compute/compute-architecture/3d-monolithic-integration/
+  macro: compute
 ---
 *Charge-domain analog compute device for in-memory computing*
 

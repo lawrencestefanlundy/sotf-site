@@ -16,7 +16,7 @@ related_concepts:
 sources: []
 frontier:
 - Can all-optical packet switching work without optical buffering/RAM — the blocker that has stalled OPS for two decades?
-- Is OPS a venture-scale EXCEPTION to the OCS 0/N base rate, because it is harder and far less crowded?
+- Is OPS a venture-scale EXCEPTION to the pattern where no standalone OCS company has ever reached venture scale (they get acquired or stay small), because it is harder and far less crowded?
 - What is the actual switching speed and port count of the leading OPS approaches?
 last_updated: '2026-05-30'
 tags:
@@ -58,5 +58,5 @@ The framing that matters: packet-vs-circuit is the differentiator. Anyone can do
 ## Frontier (open questions)
 
 - Practical all-optical packet switching without optical RAM/buffering?
-- Venture-scale exception to the OCS 0/N base rate?
+- Venture-scale exception to the pattern where no standalone OCS company has ever reached venture scale (they get acquired or stay small)?
 - Real switching speed + port count of leading approaches?

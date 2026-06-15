@@ -26,7 +26,11 @@ tags:
 - concept
 - technology
 mention_count: 29
-descendants: []
+descendants:
+- adc-bottleneck
+- capram
+- charge-domain-compute
+- sram-cim
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 9

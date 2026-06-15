@@ -36,11 +36,12 @@ tags:
 - technology
 mention_count: 97
 descendants:
+- 3d-monolithic-integration
 - heterogeneous-integration
 - osat
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 13
+sources_30d: 12
 recent_mentions:
 - slug: 2026-05-30-osat-market-structure
   title: OSAT market structure 2024-2025 — rankings, advanced-packaging split, photonic assembly

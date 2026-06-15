@@ -24,6 +24,10 @@ recent_mentions:
   title: Amazon — finally — reports its annual water use at data centers - Latitude Media
   date: '2026-06-11'
   kind: web
+- slug: 2026-06-10-why-are-meta-and-aws-onstage-at-entergys-investor-day---lati
+  title: Why are Meta and AWS onstage at Entergy’s Investor Day? - Latitude Media
+  date: '2026-06-10'
+  kind: web
 - slug: 2026-06-08-google-buys-compute-from-spacex-broadcoms-outlook-apples-ai-
   title: Google Buys Compute From SpaceX, Broadcom’s Outlook, Apple’s AI Politics
   date: '2026-06-08'

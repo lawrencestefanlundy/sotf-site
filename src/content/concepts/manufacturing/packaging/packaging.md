@@ -18,6 +18,7 @@ tags:
 mention_count: 0
 descendants:
 - 3d-ic-stacking
+- 3d-monolithic-integration
 - advanced-packaging
 - co-packaged-optics
 - cowos

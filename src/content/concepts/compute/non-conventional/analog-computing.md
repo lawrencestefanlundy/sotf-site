@@ -26,6 +26,8 @@ tags:
 - technology
 mention_count: 13
 descendants:
+- adc-bottleneck
+- charge-domain-compute
 - coherent-ising-machine
 - coupled-oscillator-networks
 - fdtd-calibration-wall

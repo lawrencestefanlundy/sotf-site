@@ -20,15 +20,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 46
+mention_count: 56
 last_reorg_date: '2026-05-13'
 descendants:
 - mems
 - nems
 - sensors
 - spectral-sensing
-sources_7d: 0
-sources_30d: 5
+sources_7d: 2
+sources_30d: 8
 recent_mentions:
 - slug: 2026-06-04-magnetoresistive-gmr-mtj-biosensor-turbid-samples
   title: Integrated Microfluidic Giant Magnetoresistance (GMR) Biosensor Platform for Magnetoresistive Immunoassay (and related GMR/MTJ bead-detection literature)

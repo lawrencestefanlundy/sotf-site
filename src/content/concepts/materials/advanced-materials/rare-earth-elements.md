@@ -31,15 +31,7 @@ tags:
 mention_count: 0
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-06-13-usgs-mcs-rare-earths-supply-concentration
-  title: USGS Mineral Commodity Summaries — Rare Earths (2025 / 2026 editions)
-  date: '2026-06-13'
-  kind: web
-- slug: 2026-06-13-iea-critical-minerals-export-controls-2025
-  title: China's rare-earth & magnet export controls (Apr 2025 onward) — IEA + trade-press synthesis
-  date: '2026-06-13'
-  kind: web
+recent_mentions: []
 neighbors:
 - slug: magnetic-materials
   name: Magnetic Materials (NdFeB, ferrite, SMC)

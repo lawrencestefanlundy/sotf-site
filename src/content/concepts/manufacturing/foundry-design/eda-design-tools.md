@@ -19,15 +19,7 @@ mention_count: 25
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-05-30-imec-ceo-calls-for-stronger-ai-design-push-in-eus-chips-act-
-  title: Imec CEO calls for stronger AI design push in EU's Chips Act - AOL.com
-  date: '2026-05-30'
-  kind: web
-- slug: 2026-05-19-imec-ceo-calls-for-stronger-ai-design-push-in-eus-chips-act-
-  title: Imec CEO calls for stronger AI design push in EU's Chips Act - TradingView
-  date: '2026-05-19'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

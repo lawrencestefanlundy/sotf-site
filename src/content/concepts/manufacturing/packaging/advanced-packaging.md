@@ -26,6 +26,7 @@ sources:
 - '[[2026-05-30-osat-market-structure]]'
 - '[[2024-yole-advanced-packaging-2024]]'
 - '[[2026-05-30-intel-glass-substrates-program]]'
+- '[[2026-06-15-gf-investor-day-2026]]'
 - '[[2024-tsmc-cowos-roadmap-disclosure]]'
 - '[[2025-01-06-asu-selected-as-home-and-partner-for-chips-and-science-act-f]]'
 frontier:
@@ -34,15 +35,19 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 97
+mention_count: 106
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration
 - osat
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 12
+sources_7d: 2
+sources_30d: 14
 recent_mentions:
+- slug: 2026-06-15-gf-investor-day-2026
+  title: GlobalFoundries Investor Day 2026 (presentation)
+  date: '2026-06-15'
+  kind: web
 - slug: 2026-05-30-osat-market-structure
   title: OSAT market structure 2024-2025 — rankings, advanced-packaging split, photonic assembly
   date: '2026-05-30'
@@ -70,10 +75,6 @@ recent_mentions:
 - slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
   title: 'UK Opportunity in AI: Compound Semiconductors'
   date: '2025-09-10'
-  kind: substack
-- slug: 2025-04-30-has-the-time-come-to-take-mortal
-  title: Has the time come to take Mortal Computing seriously?
-  date: '2025-04-30'
   kind: substack
 neighbors: []
 ---

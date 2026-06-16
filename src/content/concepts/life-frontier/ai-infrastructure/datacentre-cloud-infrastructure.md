@@ -20,29 +20,9 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
-- slug: 2026-06-11-amazon-finally-reports-its-annual-water-use-at-data-centers-
-  title: Amazon — finally — reports its annual water use at data centers - Latitude Media
-  date: '2026-06-11'
-  kind: web
-- slug: 2026-06-10-why-are-meta-and-aws-onstage-at-entergys-investor-day---lati
-  title: Why are Meta and AWS onstage at Entergy’s Investor Day? - Latitude Media
+- slug: 2026-06-10-why-is-nerc-so-worried-about-data-centers
+  title: Why is NERC so worried about data centers?
   date: '2026-06-10'
-  kind: web
-- slug: 2026-06-08-google-buys-compute-from-spacex-broadcoms-outlook-apples-ai-
-  title: Google Buys Compute From SpaceX, Broadcom’s Outlook, Apple’s AI Politics
-  date: '2026-06-08'
-  kind: web
-- slug: 2026-04-09-wi-fi-7-orders-set-to-overtake-wi-fi-6-as-businesses-upgrade
-  title: Wi-Fi 7 orders set to overtake Wi-Fi 6 as businesses upgrade networks - digitimes
-  date: '2026-04-09'
-  kind: web
-- slug: 2026-03-19-worldwide-enterprise-wlan-grew-139-driven-by-wi-fi-7-deploym
-  title: Worldwide enterprise WLAN grew 13.9% driven by Wi-Fi 7 deployments - International Data Corporation
-  date: '2026-03-19'
-  kind: web
-- slug: 2026-02-10-uk-chip-startup-fractile-to-expand-uk-operations-with-100m-i
-  title: UK chip startup Fractile to expand UK operations with £100m investment - Data Center Dynamics
-  date: '2026-02-10'
   kind: web
 neighbors: []
 ---

@@ -25,10 +25,10 @@ last_updated: '2026-06-04'
 tags:
 - concept
 - material
-mention_count: 53
+mention_count: 71
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 17
+sources_7d: 3
+sources_30d: 24
 recent_mentions:
 - slug: 2026-06-04-q-memory-site
   title: Q-Memory — company website (q-memory.tech)

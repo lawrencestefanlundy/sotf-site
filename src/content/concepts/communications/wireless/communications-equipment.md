@@ -19,39 +19,7 @@ mention_count: 47
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-06-12-conversations-in-the-sky-galileos-intersatellite-links-teste
-  title: 'Conversations in the sky: Galileo’s intersatellite links tested'
-  date: '2026-06-12'
-  kind: web
-- slug: 2026-06-08-google-buys-compute-from-spacex-broadcoms-outlook-apples-ai-
-  title: Google Buys Compute From SpaceX, Broadcom’s Outlook, Apple’s AI Politics
-  date: '2026-06-08'
-  kind: web
-- slug: 2026-06-05-nasa-concludes-antenna-mishap-investigation-releases-report
-  title: NASA Concludes Antenna Mishap Investigation, Releases Report
-  date: '2026-06-05'
-  kind: web
-- slug: 2026-05-12-wi-fi-7-powering-the-next-generation-of-connected-spaces---n
-  title: 'Wi-Fi 7: Powering the Next Generation of Connected Spaces - NCTA'
-  date: '2026-05-12'
-  kind: web
-- slug: 2026-05-07-extreme-connect-26-wi-fi-7-line-aims-to-address-needs-of-6gh
-  title: 'Extreme Connect 26: Wi-Fi 7 line aims to address needs of 6GHz era - Computer Weekly'
-  date: '2026-05-07'
-  kind: web
-- slug: 2026-05-05-extreme-unveils-its-full-stack-ai-networking-vision-and-wi-f
-  title: Extreme unveils its full-stack AI networking vision and Wi-Fi 7 lineup - Fierce Network
-  date: '2026-05-05'
-  kind: web
-- slug: 2026-05-05-extreme-accelerates-leadership-position-in-next-generation-w
-  title: Extreme Accelerates Leadership Position in Next-Generation Wi-Fi 7 - Business Wire
-  date: '2026-05-05'
-  kind: web
-- slug: 2026-05-01-extreme-networks-memory-advantage-wi-fi-7-and-competitive-fl
-  title: 'Extreme Networks: Memory advantage, Wi-Fi 7 and competitive flux drive momentum - Network World'
-  date: '2026-05-01'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

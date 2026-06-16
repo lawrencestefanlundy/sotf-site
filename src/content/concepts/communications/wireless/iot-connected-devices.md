@@ -19,39 +19,7 @@ mention_count: 57
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-06-09-synaptics-strengthens-the-case-for-ai-at-the-edge-with-new-s
-  title: Synaptics strengthens the case for AI at the edge with new single-chip Wi-Fi 7-connected Astra™ AI microcontroller - Wi-Fi NOW Global
-  date: '2026-06-09'
-  kind: web
-- slug: 2026-05-12-wi-fi-7-powering-the-next-generation-of-connected-spaces---n
-  title: 'Wi-Fi 7: Powering the Next Generation of Connected Spaces - NCTA'
-  date: '2026-05-12'
-  kind: web
-- slug: 2026-03-28-guest-paper-by-synaptics-architecting-secure-edge-iot-system
-  title: 'Guest paper by Synaptics: Architecting secure edge IoT systems with Wi-Fi 7 - Wi-Fi NOW Global'
-  date: '2026-03-28'
-  kind: web
-- slug: 2026-03-10-synaptics-redefines-edge-iot-with-first-ai-native-wi-fi-7-co
-  title: Synaptics Redefines Edge IoT with ‘First AI-Native Wi-Fi 7 Connectivity Solution for IoT’ - All About Circuits
-  date: '2026-03-10'
-  kind: web
-- slug: 2026-03-10-embedded-world-synaptics-launches-the-worlds-first-wi-fi-7-a
-  title: 'Embedded World: Synaptics launches the world''s first Wi-Fi 7 & AI-native chip for IoT, ushers in new era of ultra-smart IoT devices - Wi-Fi NOW Global'
-  date: '2026-03-10'
-  kind: web
-- slug: 2026-02-11-how-levis-stadium-is-redefining-connectivity-for-the-worlds-
-  title: How Levi’s Stadium is redefining connectivity for the world’s biggest events with 6 GHz Wi-Fi 7 and AFC - Wi-Fi NOW Global
-  date: '2026-02-11'
-  kind: web
-- slug: 2026-01-28-wi-fi-7-to-be-adopted-by-over-90-percent-of-market-with-pric
-  title: Wi-Fi 7 to be Adopted by over 90 Percent of Market with Prices at an Unusual Low, According to Dell’Oro Group - Dell'Oro Group
-  date: '2026-01-28'
-  kind: web
-- slug: 2026-01-12-infineon-introduces-the-industrys-first-wi-fi-7-iot-20-mhz-t
-  title: Infineon introduces the industry’s first Wi-Fi 7 IoT 20 MHz tri-radio device - GSMA
-  date: '2026-01-12'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

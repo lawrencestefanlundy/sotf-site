@@ -20,11 +20,7 @@ descendants: []
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-06-13-private-fusion-2026-update
-  title: Private fusion — 2026 progress update (Helion Polaris D-T, CFS $863M)
-  date: '2026-06-13'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 *Stub leader page for `concepts/energy/fusion/`*

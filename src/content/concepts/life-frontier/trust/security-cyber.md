@@ -19,11 +19,7 @@ mention_count: 30
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-03-28-guest-paper-by-synaptics-architecting-secure-edge-iot-system
-  title: 'Guest paper by Synaptics: Architecting secure edge IoT systems with Wi-Fi 7 - Wi-Fi NOW Global'
-  date: '2026-03-28'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

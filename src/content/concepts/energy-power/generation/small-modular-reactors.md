@@ -31,11 +31,7 @@ mention_count: 0
 descendants: []
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-06-13-smr-datacentre-baseload-research
-  title: SMR / advanced-nuclear for datacentre baseload — research sweep (Jun 2026)
-  date: '2026-06-13'
-  kind: web
+recent_mentions: []
 neighbors:
 - slug: datacentre-cloud-infrastructure
   name: Datacentre & Cloud Infrastructure

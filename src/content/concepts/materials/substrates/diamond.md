@@ -17,20 +17,16 @@ sources:
 - '[[2026-05-02-nv-center-quantum-sensing-review-sciencedirect-2022]]'
 - '[[2026-05-02-high-sensitivity-nv-diamond-resonator-comm-materials-2025]]'
 - '[[2026-05-02-quantumdiamonds-iq-capital]]'
-- '[[2024-yole-thermal-management-2024]]'
-- '[[2024-idtechex-thermal-interface-materials-2026-2036]]'
-- '[[2026-05-02-nv-center-wikipedia]]'
-- '[[2025-10-20-diamond-semiconductors-how-far-to-industrialization---36kr]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 105
+mention_count: 154
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 27
+sources_7d: 5
+sources_30d: 30
 recent_mentions:
 - slug: 2026-05-02-nv-center-quantum-sensing-review-sciencedirect-2022
   title: NV center quantum sensing review (ScienceDirect 2022)
@@ -48,6 +44,10 @@ recent_mentions:
   title: NV center (Wikipedia)
   date: '2026-05-02'
   kind: web
+- slug: 2026-02-09-semianalysis-datacenter-cpu-2026
+  title: 'CPUs are Back: The Datacenter CPU Landscape in 2026'
+  date: '2026-02-09'
+  kind: web
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
   title: Carbon Nanotubes in the Datacentre
   date: '2025-11-25'
@@ -59,10 +59,6 @@ recent_mentions:
 - slug: 2025-07-01-a-primer-carbon-nanotubes
   title: 'A Primer: Carbon Nanotubes'
   date: '2025-07-01'
-  kind: substack
-- slug: 2024-12-16-willow-and-the-race-to-quantum-advantage
-  title: Willow and The Race to Quantum Advantage (Feat. Kris Kaczmarek)
-  date: '2024-12-16'
   kind: substack
 neighbors: []
 ---
@@ -80,6 +76,12 @@ Competing ultrawide-bandgap (UWBG) materials: AlN (6.2 eV bandgap, mature epitax
 | Ga₂O₃ | 4.8 | 20 | 4–6", advancing |
 | AlN | 6.2 | 320 | 2–4", limited |
 
+## Where the value is (opportunity-led, all routes)
+
+## Diamond value-chain cluster
+
+Diamond appears at three distinct layers of the electronics stack. Same material, different role — worth holding as one cluster because moves at one layer (substrate cost/size, sovereign supply, AI thermal demand) ripple to the others.
+
 ## Companies using
 
 <!-- dataview block stripped for public site -->
@@ -93,5 +95,3 @@ Competing ultrawide-bandgap (UWBG) materials: AlN (6.2 eV bandgap, mature epitax
 <!-- dataview block stripped for public site -->
 
 ## Frontier (open questions)
-
-- *To be added.*

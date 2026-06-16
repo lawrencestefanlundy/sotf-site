@@ -19,23 +19,7 @@ mention_count: 26
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-06-10-why-are-meta-and-aws-onstage-at-entergys-investor-day---lati
-  title: Why are Meta and AWS onstage at Entergy’s Investor Day? - Latitude Media
-  date: '2026-06-10'
-  kind: web
-- slug: 2026-05-19-imec-ceo-calls-for-stronger-ai-design-push-in-eus-chips-act-
-  title: Imec CEO calls for stronger AI design push in EU's Chips Act - TradingView
-  date: '2026-05-19'
-  kind: web
-- slug: 2026-05-05-extreme-unveils-its-full-stack-ai-networking-vision-and-wi-f
-  title: Extreme unveils its full-stack AI networking vision and Wi-Fi 7 lineup - Fierce Network
-  date: '2026-05-05'
-  kind: web
-- slug: 2026-03-10-synaptics-redefines-edge-iot-with-first-ai-native-wi-fi-7-co
-  title: Synaptics Redefines Edge IoT with ‘First AI-Native Wi-Fi 7 Connectivity Solution for IoT’ - All About Circuits
-  date: '2026-03-10'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

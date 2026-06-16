@@ -18,12 +18,19 @@ sources:
 - '[[2023-08-25-e12-nanomechanical-computing-gears]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
+- '[[2026-06-11-semianalysis-intel-should-raise-capital]]'
 - '[[2026-05-02-euv-lithography-wikipedia]]'
+- '[[2026-06-14-frontier-ai-value-capture]]'
 - '[[2026-03-14-semianalysis-patel-bottlenecks]]'
 - '[[2026-05-02-asml-euv-lithography-systems]]'
 - '[[2026-05-30-intel-glass-substrates-program]]'
+- '[[2026-01-08-semianalysis-apple-tsmc]]'
+- '[[2026-01-13-semianalysis-interconnects-beyond-copper]]'
 - '[[2023-12-06-euv-lithography-but-with-a-free-electron-laser]]'
 - '[[2025-01-06-radiant-acquires-nilt]]'
+- '[[2026-05-12-semianalysis-eda-rtl-to-silicon]]'
+- '[[2026-06-14-semianalysis-smic-n3-vs-intel-18a]]'
+- '[[2026-06-03-semianalysis-space-datacenters]]'
 - '[[2026-05-02-two-photon-lithography-for-integrated-photonic-packaging-lig]]'
 frontier:
 - Lithography as three-way optimisation (throughput / feature size / feature complexity) — does any single tool win on all three, or does the market remain a portfolio of specialised tools each winning on two?
@@ -34,7 +41,7 @@ last_updated: '2026-05-08'
 tags:
 - concept
 - technology
-mention_count: 91
+mention_count: 120
 descendants:
 - computational-lithography
 - directed-self-assembly
@@ -54,9 +61,29 @@ descendants:
 - x-ray-lithography
 - xolography
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 19
+sources_7d: 4
+sources_30d: 27
 recent_mentions:
+- slug: 2026-06-14-frontier-ai-value-capture
+  title: 'Frontier AI value capture: where the $4T accrues (research synthesis)'
+  date: '2026-06-14'
+  kind: web
+- slug: 2026-06-14-semianalysis-smic-n3-vs-intel-18a
+  title: Is SMIC N+3's Metal Pitch Smaller than Intel 18A's?
+  date: '2026-06-14'
+  kind: web
+- slug: 2026-06-11-semianalysis-intel-should-raise-capital
+  title: Intel Should Raise Capital
+  date: '2026-06-11'
+  kind: web
+- slug: 2026-06-03-semianalysis-space-datacenters
+  title: 'To Boldly Go: The Case for Space Datacenters'
+  date: '2026-06-03'
+  kind: web
+- slug: 2026-05-12-semianalysis-eda-rtl-to-silicon
+  title: 'The EDA Primer: From RTL to Silicon'
+  date: '2026-05-12'
+  kind: web
 - slug: 2026-05-02-euv-lithography-wikipedia
   title: EUV Lithography Wikipedia
   date: '2026-05-02'
@@ -69,26 +96,6 @@ recent_mentions:
   title: 'Two-photon lithography for integrated photonic packaging (Light: AM 2023)'
   date: '2026-05-02'
   kind: web
-- slug: 2026-03-14-semianalysis-patel-bottlenecks
-  title: SemiAnalysis (Dylan Patel) — the three shifting bottlenecks to scaling AI compute (logic/litho, memory, power)
-  date: '2026-03-14'
-  kind: web
-- slug: 2025-12-19-lfg-for-semiconductors
-  title: LFG (for semiconductors)
-  date: '2025-12-19'
-  kind: substack
-- slug: 2025-12-02-the-future-of-computing-is-glass
-  title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
-  date: '2025-12-02'
-  kind: substack
-- slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
-  title: 'UK Opportunity in AI: Compound Semiconductors'
-  date: '2025-09-10'
-  kind: substack
-- slug: 2025-02-12-wen-babelfish-feat-aron-of-semron
-  title: 'Edge AI: Analog Chips (feat. Aron Kirschen, SEMRON)'
-  date: '2025-02-12'
-  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

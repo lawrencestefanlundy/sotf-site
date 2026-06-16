@@ -32,6 +32,10 @@ descendants:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-05-26-semianalysis-800vdc-revolution
+  title: Inside the 800VDC Revolution – Part 1
+  date: '2026-05-26'
+  kind: web
 - slug: 2026-04-20-fixing-the-gan-problem
   title: Fixing the GaN Problem
   date: '2026-04-20'
@@ -59,10 +63,6 @@ recent_mentions:
 - slug: 2024-omdia-power-electronics-forecast
   title: Omdia — Power Semiconductors Long-Term Forecast 2024
   date: '2024-11-01'
-  kind: web
-- slug: 2024-yole-power-sic-2024
-  title: Yole Group — Power SiC 2024 Market Analysis
-  date: '2024-09-15'
   kind: web
 neighbors:
 - slug: wide-bandgap-semiconductors

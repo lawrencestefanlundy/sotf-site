@@ -11,21 +11,26 @@ related_concepts: []
 sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2026-05-24-mose2-exciton-polariton-all-optical-switch]]'
+- '[[2026-01-13-semianalysis-interconnects-beyond-copper]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 25
+mention_count: 29
 last_reorg_date: '2026-05-13'
 descendants: []
-sources_7d: 0
-sources_30d: 3
+sources_7d: 1
+sources_30d: 5
 recent_mentions:
 - slug: 2026-05-24-mose2-exciton-polariton-all-optical-switch
   title: New light-based switch could cut chip energy use and speed future AI photonics
   date: '2026-05-24'
+  kind: web
+- slug: 2026-01-13-semianalysis-interconnects-beyond-copper
+  title: Interconnects Beyond Copper, 1,000 CFETs, SK Hynix Next-Gen NAND, 2D Materials, and More
+  date: '2026-01-13'
   kind: web
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
   title: Carbon Nanotubes in the Datacentre

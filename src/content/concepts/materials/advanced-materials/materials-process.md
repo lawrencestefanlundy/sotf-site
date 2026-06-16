@@ -21,9 +21,9 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
-- slug: 2022-10-25-simplifying-the-production-of-lithium-ion-batteries---mit-ne
-  title: Simplifying the production of lithium-ion batteries - MIT News
-  date: '2022-10-25'
+- slug: 2026-06-15-nasas-spacex-crs-34-dragon-returns-packed-with-space-station
+  title: NASA’s SpaceX CRS-34 Dragon Returns Packed with Space Station Science
+  date: '2026-06-15'
   kind: web
 neighbors: []
 ---

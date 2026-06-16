@@ -15,6 +15,7 @@ sources:
 - '[[2024-10-29-deploy-intelligence-too-cheap-to]]'
 - '[[2025-12-19-lfg-for-semiconductors]]'
 - '[[2024-asml-investor-day-export-controls]]'
+- '[[2026-06-11-semianalysis-intel-should-raise-capital]]'
 - '[[2026-05-02-euv-lithography-wikipedia]]'
 - '[[2026-05-02-energetiq-euv-light-sources]]'
 - '[[2026-03-14-semianalysis-patel-bottlenecks]]'
@@ -22,6 +23,7 @@ sources:
 - '[[2026-05-02-asml-euv-lithography-systems]]'
 - '[[2024-tsmc-arizona-capex-disclosure]]'
 - '[[2023-12-06-euv-lithography-but-with-a-free-electron-laser]]'
+- '[[2026-06-14-semianalysis-smic-n3-vs-intel-18a]]'
 - '[[2024-10-28-euv-with-fewer-mirrors]]'
 - '[[2024-bis-export-controls-china-semis]]'
 frontier:
@@ -30,11 +32,19 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 43
+mention_count: 58
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 8
+sources_7d: 4
+sources_30d: 14
 recent_mentions:
+- slug: 2026-06-14-semianalysis-smic-n3-vs-intel-18a
+  title: Is SMIC N+3's Metal Pitch Smaller than Intel 18A's?
+  date: '2026-06-14'
+  kind: web
+- slug: 2026-06-11-semianalysis-intel-should-raise-capital
+  title: Intel Should Raise Capital
+  date: '2026-06-11'
+  kind: web
 - slug: 2026-05-02-euv-lithography-wikipedia
   title: EUV Lithography Wikipedia
   date: '2026-05-02'
@@ -59,14 +69,6 @@ recent_mentions:
   title: LFG (for semiconductors)
   date: '2025-12-19'
   kind: substack
-- slug: 2024-bis-export-controls-china-semis
-  title: BIS Export Controls — China Semiconductor Restrictions (Oct 2022 / Oct 2023 / Dec 2024 rounds)
-  date: '2024-12-02'
-  kind: web
-- slug: 2024-asml-investor-day-export-controls
-  title: ASML Investor Day 2024 — China Export Control Commentary and Forecasts
-  date: '2024-11-14'
-  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

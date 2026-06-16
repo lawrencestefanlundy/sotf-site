@@ -46,8 +46,9 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 455
+mention_count: 550
 descendants:
+- 3d-dram
 - adc-bottleneck
 - agentic-workload-retrieval
 - capram
@@ -65,14 +66,27 @@ descendants:
 - nand-flash
 - pcm-phase-change-memory
 - photonic-memory
+- processing-in-memory
 - rram-reram
 - sram
 - sram-cim
 - storage-class-memory
 last_reorg_date: '2026-05-14'
-sources_7d: 0
-sources_30d: 8
+sources_7d: 2
+sources_30d: 10
 recent_mentions:
+- slug: 2026-06-15-gf-investor-day-2026
+  title: GlobalFoundries Investor Day 2026 (presentation)
+  date: '2026-06-15'
+  kind: web
+- slug: 2026-06-14-frontier-ai-value-capture
+  title: 'Frontier AI value capture: where the $4T accrues (research synthesis)'
+  date: '2026-06-14'
+  kind: web
+- slug: 2026-06-04-bezos-flourish-brain-core-algorithm
+  title: Jeff Bezos Is Funding a Wild Hunt for the Brain's 'Core Algorithm'
+  date: '2026-06-04'
+  kind: web
 - slug: 2026-06-04-q-memory-site
   title: Q-Memory — company website (q-memory.tech)
   date: '2026-06-04'
@@ -92,18 +106,6 @@ recent_mentions:
 - slug: 2026-06-02-agentic-runtime-silicon-necessity
   title: Deep-research dossier — does the stateful agent runtime / control-plane layer need a novel silicon primitive?
   date: '2026-06-02'
-  kind: web
-- slug: 2026-06-01-hbm-state-of-play
-  title: HBM state of play (mid-2026) — technology, supercycle, three-supplier standing
-  date: '2026-06-01'
-  kind: web
-- slug: 2026-06-01-ncsc-nsa-qkd-vs-pqc
-  title: 'NCSC / NSA position: QKD not endorsed, post-quantum cryptography is the recommended mitigation'
-  date: '2026-06-01'
-  kind: web
-- slug: 2026-05-30-osat-market-structure
-  title: OSAT market structure 2024-2025 — rankings, advanced-packaging split, photonic assembly
-  date: '2026-05-30'
   kind: web
 neighbors: []
 ---

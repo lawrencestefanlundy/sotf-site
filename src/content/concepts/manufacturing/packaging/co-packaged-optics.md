@@ -24,6 +24,8 @@ sources:
 - '[[2026-05-02-cpo-market-and-tech-update-cignal-ai-feb-2025]]'
 - '[[2024-yole-advanced-packaging-2024]]'
 - '[[2026-05-02-cpo-book-semianalysis]]'
+- '[[2026-06-15-gf-investor-day-2026]]'
+- '[[2026-04-15-semianalysis-isscc-2026]]'
 - '[[2026-05-30-senko-gf-cpo-detachable-fiber]]'
 frontier:
 - ''
@@ -31,11 +33,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 56
+mention_count: 74
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 15
+sources_7d: 1
+sources_30d: 17
 recent_mentions:
+- slug: 2026-06-15-gf-investor-day-2026
+  title: GlobalFoundries Investor Day 2026 (presentation)
+  date: '2026-06-15'
+  kind: web
 - slug: 2026-06-01-hbm-state-of-play
   title: HBM state of play (mid-2026) — technology, supercycle, three-supplier standing
   date: '2026-06-01'
@@ -62,10 +68,6 @@ recent_mentions:
   kind: web
 - slug: 2026-05-02-cpo-market-and-tech-update-cignal-ai-feb-2025
   title: CPO market and tech update (Cignal AI, Feb 2025)
-  date: '2026-05-02'
-  kind: web
-- slug: 2026-05-02-cpo-book-semianalysis
-  title: CPO Book (SemiAnalysis)
   date: '2026-05-02'
   kind: web
 neighbors: []

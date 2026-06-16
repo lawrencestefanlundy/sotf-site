@@ -81,8 +81,6 @@ Three of the five commonly-cited inflection points are real. Two are overstated.
 
 **Overstated: High-NA EUV makes ILT non-optional for a startup's customers.** High-NA EUV forces ILT adoption at TSMC, Samsung, and Intel. Those three fabs will buy ILT from Synopsys Proteus. The specialty fabs a pre-seed startup would target - SiC, GaN, photonics, MEMS, research foundries - are running DUV at 28nm or above. ILT for DUV at those nodes is a solved problem with existing incumbent tools. The High-NA demand catalyst does not reach the specialty segment.
 
-**Overstated: EU Chips Act funds a computational lithography software track.** The EU Chips Act is primarily a fab capex programme. TSMC Dresden, Intel Magdeburg, and AMTC multi-beam hardware are its primary beneficiaries. EIC Pathfinder and EIC Accelerator are open deep-tech competitions, not ring-fenced semiconductor software programmes. A startup in this space competes for EIC budget against all of European deep tech. The grant advantage is marginal, not structural.
-
 ## Competitive landscape
 
 | Technique / layer | Key players | Weakness | Startup angle |

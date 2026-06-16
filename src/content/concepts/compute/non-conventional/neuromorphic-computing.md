@@ -14,7 +14,6 @@ sources:
 - '[[2023-06-30-e06-the-model-t-moment-for-bits-llms]]'
 - '[[2023-07-23-analog-computing-the-once-and-future]]'
 - '[[2026-01-22-ai-chips-computeram-and-the-future]]'
-- '[[2026-06-04-bezos-flourish-brain-core-algorithm]]'
 frontier:
 - ''
 last_updated: '2026-06-09'
@@ -24,11 +23,11 @@ tags:
 mention_count: 34
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 12
+sources_30d: 13
 recent_mentions:
-- slug: 2026-06-04-bezos-flourish-brain-core-algorithm
-  title: Jeff Bezos Is Funding a Wild Hunt for the Brain's 'Core Algorithm'
-  date: '2026-06-04'
+- slug: 2026-06-15-gf-investor-day-2026
+  title: GlobalFoundries Investor Day 2026 (presentation)
+  date: '2026-06-15'
   kind: web
 - slug: 2026-01-22-ai-chips-computeram-and-the-future
   title: 'AI Chips, ComputeRAM and the Future of Data Movement: A Conversation with Manu, Founder of Synthara'

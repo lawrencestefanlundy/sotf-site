@@ -16,13 +16,14 @@ sources:
 - '[[2026-05-30-optical-interconnect-ma-ledger]]'
 - '[[2026-05-30-opsydia-glass-waveguide-packaging]]'
 - '[[2026-05-30-intel-glass-substrates-program]]'
+- '[[2026-04-15-semianalysis-isscc-2026]]'
 frontier:
 - ''
 last_updated: '2026-05-07'
 tags:
 - concept
 - technology
-mention_count: 20
+mention_count: 23
 descendants:
 - datacenter-network-stack
 - lpo-linear-pluggable-optics
@@ -33,15 +34,15 @@ descendants:
 - pluggable-transceivers
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 5
+sources_30d: 6
 recent_mentions:
-- slug: 2026-06-12-conversations-in-the-sky-galileos-intersatellite-links-teste
-  title: 'Conversations in the sky: Galileo’s intersatellite links tested'
-  date: '2026-06-12'
-  kind: web
 - slug: 2026-05-30-optical-interconnect-ma-ledger
   title: Optical-interconnect / photonic-packaging M&A ledger (2019-2026)
   date: '2026-05-30'
+  kind: web
+- slug: 2026-04-15-semianalysis-isscc-2026
+  title: 'ISSCC 2026: NVIDIA & Broadcom CPO, HBM4 & LPDDR6, TSMC Active LSI, Logic-Based SRAM, UCIe-S and More'
+  date: '2026-04-15'
   kind: web
 - slug: 2026-02-02-photonic-engines-for-data-centers
   title: Photonic "Engines" for Data Centers

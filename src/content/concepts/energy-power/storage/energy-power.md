@@ -79,21 +79,9 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
-- slug: 2026-06-12-what-does-the-gm-peak-energy-partnership-mean-for-sodium-ion
-  title: What does the GM-Peak Energy partnership mean for sodium-ion? - Latitude Media
-  date: '2026-06-12'
-  kind: web
-- slug: 2026-06-11-amazon-finally-reports-its-annual-water-use-at-data-centers-
-  title: Amazon — finally — reports its annual water use at data centers - Latitude Media
-  date: '2026-06-11'
-  kind: web
-- slug: 2026-06-10-why-are-meta-and-aws-onstage-at-entergys-investor-day---lati
-  title: Why are Meta and AWS onstage at Entergy’s Investor Day? - Latitude Media
+- slug: 2026-06-10-why-is-nerc-so-worried-about-data-centers
+  title: Why is NERC so worried about data centers?
   date: '2026-06-10'
-  kind: web
-- slug: 2023-04-05-park-and-collaborators-showcase-their-green-energy-research-
-  title: Park and collaborators showcase their green-energy research to U.S. Secretary of Energy Jennifer Granholm - UW-Milwaukee
-  date: '2023-04-05'
   kind: web
 neighbors: []
 ---

@@ -32,11 +32,7 @@ descendants:
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-06-13-noninvasive-bci-modality-research
-  title: 'Non-invasive BCI modality state-of-the-art: which reaches depth + coverage + size + weight (research synthesis)'
-  date: '2026-06-13'
-  kind: web
+recent_mentions: []
 neighbors:
 - slug: invasive-bci
   name: Invasive BCI (Neuralink, Synchron, Paradromics)

@@ -24,7 +24,7 @@ tags:
 - material
 - biomaterial
 last_reorg_date: '2026-05-13'
-mention_count: 1
+mention_count: 2
 sources_7d: 0
 sources_30d: 0
 recent_mentions: []

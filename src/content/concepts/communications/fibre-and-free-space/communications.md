@@ -17,23 +17,13 @@ sources:
 - '[[2025-12-19-lfg-for-semiconductors]]'
 - '[[2025-04-30-has-the-time-come-to-take-mortal]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
-- '[[2026-05-30-optical-interconnect-ma-ledger]]'
-- '[[2026-04-24-i-am-artemis-peter-rossoni]]'
-- '[[2026-05-13-20-years-of-space-communications-and-navigation]]'
-- '[[2025-11-21-hms-networks-acquires-molex-industrial-communications-busine]]'
-- '[[2022-11-15-qualcomm]]'
-- '[[2026-06-01-ncsc-nsa-qkd-vs-pqc]]'
-- '[[2025-04-15-nature-comm-thermodynamic-computing-system]]'
-- '[[2026-06-01-nibras-ucl-chipstart]]'
-- '[[2025-11-17-hms-networks-acquires-industrial-communications-business-fro]]'
-- '[[2026-05-14-nasa-draws-on-industry-for-mars-telecommunications-network]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 162
+mention_count: 188
 descendants:
 - 5g-nr-advanced
 - beamforming-ics
@@ -66,9 +56,13 @@ descendants:
 - sub-thz-6g
 - timing-clock-generation
 last_reorg_date: '2026-05-14'
-sources_7d: 0
-sources_30d: 41
+sources_7d: 9
+sources_30d: 54
 recent_mentions:
+- slug: 2026-06-05-nasa-concludes-antenna-mishap-investigation-releases-report
+  title: NASA Concludes Antenna Mishap Investigation, Releases Report
+  date: '2026-06-05'
+  kind: web
 - slug: 2026-06-01-ncsc-nsa-qkd-vs-pqc
   title: 'NCSC / NSA position: QKD not endorsed, post-quantum cryptography is the recommended mitigation'
   date: '2026-06-01'
@@ -92,10 +86,6 @@ recent_mentions:
 - slug: 2026-04-24-i-am-artemis-peter-rossoni
   title: 'I Am Artemis: Peter Rossoni'
   date: '2026-04-24'
-  kind: web
-- slug: 2026-02-11-how-levis-stadium-is-redefining-connectivity-for-the-worlds-
-  title: How Levi’s Stadium is redefining connectivity for the world’s biggest events with 6 GHz Wi-Fi 7 and AFC - Wi-Fi NOW Global
-  date: '2026-02-11'
   kind: web
 - slug: 2025-12-19-lfg-for-semiconductors
   title: LFG (for semiconductors)

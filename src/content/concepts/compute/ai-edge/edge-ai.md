@@ -24,13 +24,17 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - framework
-mention_count: 37
+mention_count: 46
 descendants:
 - nvidia-jetson
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 11
+sources_7d: 2
+sources_30d: 14
 recent_mentions:
+- slug: 2026-06-15-gf-investor-day-2026
+  title: GlobalFoundries Investor Day 2026 (presentation)
+  date: '2026-06-15'
+  kind: web
 - slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
   title: 'UK Opportunity in AI: Compound Semiconductors'
   date: '2025-09-10'
@@ -58,10 +62,6 @@ recent_mentions:
 - slug: 2023-07-23-analog-computing-the-once-and-future
   title: '🔮 E09: Analog Computing: The Once and Future King'
   date: '2023-07-23'
-  kind: substack
-- slug: 2023-06-23-e05-the-future-of-edge-ai-brain-inspired
-  title: '🔮 E05: Neuromorphic Computing & The Future of Edge AI'
-  date: '2023-06-23'
   kind: substack
 neighbors: []
 ---

@@ -19,15 +19,7 @@ mention_count: 16
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-03-31-uk-chip-startup-fractile-targets-160m-raise-to-take-on-nvidi
-  title: UK Chip Startup Fractile Targets £160m Raise to Take on Nvidia - Resultsense
-  date: '2026-03-31'
-  kind: web
-- slug: 2025-12-03-kean-johnson-introduce-bill-to-protect-american-ai-chips-str
-  title: Kean, Johnson Introduce Bill to Protect American AI Chips, Strengthening Export Control Enforcement - Congressman Thomas Kean Jr. (.gov)
-  date: '2025-12-03'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

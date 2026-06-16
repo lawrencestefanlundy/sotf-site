@@ -19,15 +19,7 @@ mention_count: 50
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-06-12-what-does-the-gm-peak-energy-partnership-mean-for-sodium-ion
-  title: What does the GM-Peak Energy partnership mean for sodium-ion? - Latitude Media
-  date: '2026-06-12'
-  kind: web
-- slug: 2022-10-25-simplifying-the-production-of-lithium-ion-batteries---mit-ne
-  title: Simplifying the production of lithium-ion batteries - MIT News
-  date: '2022-10-25'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

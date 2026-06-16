@@ -24,39 +24,7 @@ descendants:
 - stm
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-06-10-chips-act-20-targets-european-chip-demand---eenews-europe
-  title: Chips Act 2.0 targets European chip demand - eeNews Europe
-  date: '2026-06-10'
-  kind: web
-- slug: 2026-06-10-a-leading-edge-fab-for-europe-in-chips-act-20---eenews-europ
-  title: A leading edge fab for Europe in Chips Act 2.0 ... - eeNews Europe
-  date: '2026-06-10'
-  kind: web
-- slug: 2026-06-08-europes-semiconductor-strategy-shifts-from-fabs-to-design-an
-  title: Europe’s Semiconductor Strategy Shifts from Fabs to Design and Demand | Chips Act 2.0 Blueprint - News and Statistics - IndexBox
-  date: '2026-06-08'
-  kind: web
-- slug: 2026-06-08-usar-stock-watch-usa-rare-earth-is-in-focus-after-securing-f
-  title: 'USAR Stock Watch: USA Rare Earth Is in Focus After Securing Funding Through CHIPS Act - Barchart.com'
-  date: '2026-06-08'
-  kind: web
-- slug: 2026-06-08-european-commission-officially-presents-european-chips-act-2
-  title: European Commission officially presents European Chips Act 2.0 - dqindia.com
-  date: '2026-06-08'
-  kind: web
-- slug: 2026-06-08-chips-act-20-inside-europes-semiconductor-rethink---ee-times
-  title: 'Chips Act 2.0: Inside Europe’s Semiconductor Rethink - EE Times'
-  date: '2026-06-08'
-  kind: web
-- slug: 2026-06-08-european-commission-presents-chips-act-20---ink-world-magazi
-  title: European Commission Presents Chips Act 2.0 - Ink World magazine -
-  date: '2026-06-08'
-  kind: web
-- slug: 2026-06-05-european-commission-unveils-chips-act-20-to-further-strength
-  title: European Commission unveils Chips Act 2.0 to further strengthen chip industry across the continent - Data Center Dynamics
-  date: '2026-06-05'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

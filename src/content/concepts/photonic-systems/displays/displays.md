@@ -8,23 +8,34 @@ parent_concepts:
 - photonic-systems
 - displays
 related_concepts: []
-sources: []
+sources:
+- '[[2026-06-15-barry-silverstein-rochester-cxr]]'
+- '[[2026-06-15-luminate-ny-accelerator-terms]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 65
+mention_count: 73
 last_reorg_date: '2026-05-14'
 descendants:
 - displays
 - holographic-volumetric-displays
 - micro-leds
 - oled
-sources_7d: 0
-sources_30d: 4
-recent_mentions: []
+- laser-display-light-engines
+sources_7d: 5
+sources_30d: 11
+recent_mentions:
+- slug: 2026-06-15-barry-silverstein-rochester-cxr
+  title: University of Rochester hires former Meta exec Barry Silverstein to direct Center for Extended Reality
+  date: '2026-06-15'
+  kind: web
+- slug: 2026-06-15-luminate-ny-accelerator-terms
+  title: Luminate NY OPI accelerator — terms and structure
+  date: '2026-06-15'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

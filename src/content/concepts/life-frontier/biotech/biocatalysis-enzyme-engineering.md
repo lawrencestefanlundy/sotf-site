@@ -96,6 +96,6 @@ Grounded in six web sources (2026-06-04 pull). Key: industrial enzymes ~$7.9 to 
 
 ## Connected ideas
 
-Sits under [Synthetic Biology](/sotf-site/life-frontier/biotech/synbio/); the transduction layer is **Magnetic Biosensing**; adjacent to [Cell-Free Systems](/sotf-site/life-frontier/biotech/cell-free-systems/). Entered the KB via the George / stealth magnetic-enzyme deal (see `deals/george-magnetic-enzyme-stealth`).
+Sits under [Synthetic Biology](/sotf-site/life-frontier/biotech/synbio/); the transduction layer is **Magnetic Biosensing**; adjacent to [Cell-Free Systems](/sotf-site/life-frontier/biotech/cell-free-systems/). Entered the KB via the George / stealth magnetic-enzyme deal (see `deals/lithic`).
 
 <!-- dataview block stripped for public site -->

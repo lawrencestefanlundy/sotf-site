@@ -15,15 +15,11 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - market
-mention_count: 81
+mention_count: 82
 last_reorg_date: '2026-05-14'
-sources_7d: 0
-sources_30d: 0
-recent_mentions:
-- slug: 2023-04-05-park-and-collaborators-showcase-their-green-energy-research-
-  title: Park and collaborators showcase their green-energy research to U.S. Secretary of Energy Jennifer Granholm - UW-Milwaukee
-  date: '2023-04-05'
-  kind: web
+sources_7d: 1
+sources_30d: 1
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

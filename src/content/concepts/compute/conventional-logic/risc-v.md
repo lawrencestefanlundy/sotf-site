@@ -12,17 +12,31 @@ sources:
 - '[[2023-08-18-e11-in-conversation-with-lux-capital]]'
 - '[[2026-01-22-ai-chips-computeram-and-the-future]]'
 - '[[2024-eu-chips-act-final-text]]'
+- '[[2026-02-09-semianalysis-datacenter-cpu-2026]]'
+- '[[2026-05-21-semianalysis-eda-market-primer]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 31
+mention_count: 43
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 7
+sources_30d: 9
 recent_mentions:
+- slug: 2026-06-15-gf-investor-day-2026
+  title: GlobalFoundries Investor Day 2026 (presentation)
+  date: '2026-06-15'
+  kind: web
+- slug: 2026-05-21-semianalysis-eda-market-primer
+  title: EDA Market Primer - Market Dynamics, Cadence, Synopsys, Siemens, China EDA Rise
+  date: '2026-05-21'
+  kind: web
+- slug: 2026-02-09-semianalysis-datacenter-cpu-2026
+  title: 'CPUs are Back: The Datacenter CPU Landscape in 2026'
+  date: '2026-02-09'
+  kind: web
 - slug: 2026-01-22-ai-chips-computeram-and-the-future
   title: 'AI Chips, ComputeRAM and the Future of Data Movement: A Conversation with Manu, Founder of Synthara'
   date: '2026-01-22'

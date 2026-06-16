@@ -20,17 +20,18 @@ sources:
 - '[[2026-05-30-optical-interconnect-ma-ledger]]'
 - '[[2026-06-04-nist-researchers-discover-a-new-way-to-whisk-alloys-together]]'
 - '[[2026-04-15-any-color-you-like-nist-scientists-create-any-wavelength-las]]'
-- '[[2025-01-21-tsmc-remastered]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 112
+mention_count: 131
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 26
+descendants:
+- laser-display-light-engines
+sources_7d: 3
+sources_30d: 36
 recent_mentions:
 - slug: 2026-06-04-nist-researchers-discover-a-new-way-to-whisk-alloys-together
   title: NIST Researchers Discover a New Way to Whisk Alloys Together With Lasers

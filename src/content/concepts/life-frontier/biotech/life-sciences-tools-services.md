@@ -19,11 +19,7 @@ mention_count: 37
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2015-12-14-darpa-sbir-injectable-diagnostics-chemical-sensors-synthetic
-  title: 'DARPA SBIR: Injectable Diagnostics, Chemical Sensors, Synthetic Biology - Global Biodefense'
-  date: '2015-12-14'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

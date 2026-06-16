@@ -19,7 +19,11 @@ mention_count: 70
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-15-experience-the-launch-of-nasas-roman-space-telescope
+  title: Experience the Launch of NASA’s Roman Space Telescope
+  date: '2026-06-15'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

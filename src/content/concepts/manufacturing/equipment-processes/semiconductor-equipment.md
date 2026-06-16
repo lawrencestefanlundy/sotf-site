@@ -18,7 +18,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 56
+mention_count: 58
 descendants:
 - automated-test-equipment
 - ion-implantation
@@ -27,39 +27,19 @@ descendants:
 - wafer-level-burn-in
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 1
+sources_30d: 2
 recent_mentions:
-- slug: 2026-06-11-rigetti-computing-stock-slides-nearly-10-despite-launch-of-m
-  title: Rigetti Computing Stock Slides Nearly 10% Despite Launch of Massive 100 Qubit Processor and CHIPS Act Deal - TIKR.com
-  date: '2026-06-11'
+- slug: 2025-12-30-us-eases-semiconductor-equipment-rules-for-samsung-sk-hynix-
+  title: U.S. Eases Semiconductor Equipment Rules for Samsung, SK Hynix in China - 조선일보
+  date: '2025-12-30'
   kind: web
-- slug: 2026-06-11-senate-bill-extends-chips-act-tax-credits-to-space-based-sem
-  title: Senate bill extends CHIPS Act tax credits to space-based semiconductor factories - Washington Times
-  date: '2026-06-11'
+- slug: 2024-bis-export-controls-china-semis
+  title: BIS Export Controls — China Semiconductor Restrictions (Oct 2022 / Oct 2023 / Dec 2024 rounds)
+  date: '2024-12-02'
   kind: web
-- slug: 2026-06-10-chips-act-20-targets-european-chip-demand---eenews-europe
-  title: Chips Act 2.0 targets European chip demand - eeNews Europe
-  date: '2026-06-10'
-  kind: web
-- slug: 2026-06-10-rigetti-stock-reacts-as-108-qubit-launch-meets-chips-act-sup
-  title: Rigetti Stock Reacts As 108 Qubit Launch Meets CHIPS Act Support - simplywall.st
-  date: '2026-06-10'
-  kind: web
-- slug: 2026-06-10-a-leading-edge-fab-for-europe-in-chips-act-20---eenews-europ
-  title: A leading edge fab for Europe in Chips Act 2.0 ... - eeNews Europe
-  date: '2026-06-10'
-  kind: web
-- slug: 2026-06-09-synaptics-strengthens-the-case-for-ai-at-the-edge-with-new-s
-  title: Synaptics strengthens the case for AI at the edge with new single-chip Wi-Fi 7-connected Astra™ AI microcontroller - Wi-Fi NOW Global
-  date: '2026-06-09'
-  kind: web
-- slug: 2026-06-08-europes-semiconductor-strategy-shifts-from-fabs-to-design-an
-  title: Europe’s Semiconductor Strategy Shifts from Fabs to Design and Demand | Chips Act 2.0 Blueprint - News and Statistics - IndexBox
-  date: '2026-06-08'
-  kind: web
-- slug: 2026-06-08-european-commission-officially-presents-european-chips-act-2
-  title: European Commission officially presents European Chips Act 2.0 - dqindia.com
-  date: '2026-06-08'
+- slug: 2023-04-25-us-deals-signal-heightened-semiconductor-equipment-competiti
+  title: US deals signal heightened semiconductor equipment competition - East Asia Forum
+  date: '2023-04-25'
   kind: web
 neighbors: []
 ---

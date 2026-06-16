@@ -23,6 +23,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 3
 recent_mentions:
+- slug: 2026-06-15-gf-investor-day-2026
+  title: GlobalFoundries Investor Day 2026 (presentation)
+  date: '2026-06-15'
+  kind: web
 - slug: 2026-06-04-globalfoundries-emram-22fdx-availability
   title: GLOBALFOUNDRIES Announces Availability of Embedded MRAM on Leading 22FDX FD-SOI Platform
   date: '2026-06-04'

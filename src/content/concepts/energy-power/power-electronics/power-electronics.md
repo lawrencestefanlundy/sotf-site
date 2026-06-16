@@ -14,6 +14,7 @@ sources:
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 - '[[2025-09-11-power-electronics-researchers-awarded-15m-to-advance-energy-]]'
 - '[[2024-yole-power-gan-2024]]'
+- '[[2026-05-26-semianalysis-800vdc-revolution]]'
 - '[[2024-omdia-power-electronics-forecast]]'
 - '[[2026-02-19-the-rise-of-grid-power-electronics-with-drew-baglino---latit]]'
 frontier:
@@ -22,7 +23,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 35
+mention_count: 40
 last_reorg_date: '2026-05-13'
 descendants:
 - aluminium-gallium-nitride
@@ -37,8 +38,12 @@ descendants:
 - solid-state-circuit-breakers
 - wireless-power-transfer
 sources_7d: 0
-sources_30d: 1
+sources_30d: 2
 recent_mentions:
+- slug: 2026-05-26-semianalysis-800vdc-revolution
+  title: Inside the 800VDC Revolution – Part 1
+  date: '2026-05-26'
+  kind: web
 - slug: 2026-02-19-the-rise-of-grid-power-electronics-with-drew-baglino---latit
   title: The rise of grid power electronics with Drew Baglino - Latitude Media
   date: '2026-02-19'

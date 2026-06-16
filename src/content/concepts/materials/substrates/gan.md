@@ -18,7 +18,9 @@ sources:
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 - '[[2024-yole-power-sic-2024]]'
 - '[[2024-yole-power-gan-2024]]'
+- '[[2026-05-26-semianalysis-800vdc-revolution]]'
 - '[[2024-omdia-power-electronics-forecast]]'
+- '[[2026-06-15-gf-investor-day-2026]]'
 - '[[2026-04-20-fixing-the-gan-problem]]'
 frontier:
 - ''
@@ -26,11 +28,43 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 60
+mention_count: 84
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 10
-recent_mentions: []
+sources_7d: 9
+sources_30d: 22
+recent_mentions:
+- slug: 2026-06-15-gf-investor-day-2026
+  title: GlobalFoundries Investor Day 2026 (presentation)
+  date: '2026-06-15'
+  kind: web
+- slug: 2026-05-26-semianalysis-800vdc-revolution
+  title: Inside the 800VDC Revolution – Part 1
+  date: '2026-05-26'
+  kind: web
+- slug: 2026-04-20-fixing-the-gan-problem
+  title: Fixing the GaN Problem
+  date: '2026-04-20'
+  kind: web
+- slug: 2025-12-19-lfg-for-semiconductors
+  title: LFG (for semiconductors)
+  date: '2025-12-19'
+  kind: substack
+- slug: 2025-12-09-gallium-nitride-photonics-w-james
+  title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
+  date: '2025-12-09'
+  kind: substack
+- slug: 2025-12-02-the-future-of-computing-is-glass
+  title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
+  date: '2025-12-02'
+  kind: substack
+- slug: 2025-10-09-a-specific-theory-of-sovereign-ai
+  title: A Specific Theory of Sovereign AI
+  date: '2025-10-09'
+  kind: substack
+- slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
+  title: 'UK Opportunity in AI: Compound Semiconductors'
+  date: '2025-09-10'
+  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

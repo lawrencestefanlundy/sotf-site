@@ -31,18 +31,18 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 217
+mention_count: 247
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 37
+sources_7d: 2
+sources_30d: 36
 recent_mentions:
-- slug: 2026-06-11-nasa-robotic-tech-demo-will-advance-prototype-gamma-ray-dete
-  title: NASA Robotic Tech Demo Will Advance Prototype Gamma-Ray Detectors
-  date: '2026-06-11'
+- slug: 2026-06-15-frontiers-forum-speaker-series
+  title: Frontiers Forum Speaker Series
+  date: '2026-06-15'
   kind: web
-- slug: 2026-06-05-nasa-concludes-antenna-mishap-investigation-releases-report
-  title: NASA Concludes Antenna Mishap Investigation, Releases Report
-  date: '2026-06-05'
+- slug: 2026-06-13-smr-datacentre-baseload-research
+  title: SMR / advanced-nuclear for datacentre baseload — research sweep (Jun 2026)
+  date: '2026-06-13'
   kind: web
 - slug: 2026-06-04-magnetoresistive-biochips-freitas-trends-biotech
   title: Magnetoresistive-based biosensors and biochips

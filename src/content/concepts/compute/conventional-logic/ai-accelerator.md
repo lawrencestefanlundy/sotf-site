@@ -19,6 +19,7 @@ sources:
 - '[[2024-02-26-micron-hbm3e-volume-production]]'
 - '[[2024-yole-advanced-packaging-2024]]'
 - '[[2024-idtechex-thermal-interface-materials-2026-2036]]'
+- '[[2026-01-08-semianalysis-apple-tsmc]]'
 - '[[2024-tsmc-cowos-roadmap-disclosure]]'
 frontier:
 - ''
@@ -26,34 +27,14 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 60
+mention_count: 72
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 4
+sources_30d: 5
 recent_mentions:
-- slug: 2026-06-09-synaptics-strengthens-the-case-for-ai-at-the-edge-with-new-s
-  title: Synaptics strengthens the case for AI at the edge with new single-chip Wi-Fi 7-connected Astra™ AI microcontroller - Wi-Fi NOW Global
-  date: '2026-06-09'
-  kind: web
-- slug: 2026-06-08-google-buys-compute-from-spacex-broadcoms-outlook-apples-ai-
-  title: Google Buys Compute From SpaceX, Broadcom’s Outlook, Apple’s AI Politics
-  date: '2026-06-08'
-  kind: web
-- slug: 2026-05-30-imec-ceo-calls-for-stronger-ai-design-push-in-eus-chips-act-
-  title: Imec CEO calls for stronger AI design push in EU's Chips Act - AOL.com
-  date: '2026-05-30'
-  kind: web
-- slug: 2026-05-19-imec-ceo-calls-for-stronger-ai-design-push-in-eus-chips-act-
-  title: Imec CEO calls for stronger AI design push in EU's Chips Act - TradingView
-  date: '2026-05-19'
-  kind: web
-- slug: 2026-03-10-embedded-world-synaptics-launches-the-worlds-first-wi-fi-7-a
-  title: 'Embedded World: Synaptics launches the world''s first Wi-Fi 7 & AI-native chip for IoT, ushers in new era of ultra-smart IoT devices - Wi-Fi NOW Global'
-  date: '2026-03-10'
-  kind: web
-- slug: 2025-12-03-kean-johnson-introduce-bill-to-protect-american-ai-chips-str
-  title: Kean, Johnson Introduce Bill to Protect American AI Chips, Strengthening Export Control Enforcement - Congressman Thomas Kean Jr. (.gov)
-  date: '2025-12-03'
+- slug: 2026-01-08-semianalysis-apple-tsmc
+  title: 'Apple-TSMC: The Partnership That Built Modern Semiconductors'
+  date: '2026-01-08'
   kind: web
 - slug: 2025-12-02-the-future-of-computing-is-glass
   title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
@@ -63,6 +44,26 @@ recent_mentions:
   title: 'UK Opportunity in AI: Compound Semiconductors'
   date: '2025-09-10'
   kind: substack
+- slug: 2024-yole-advanced-packaging-2024
+  title: Yole Group — Advanced Packaging 2024 Market Analysis
+  date: '2024-12-01'
+  kind: web
+- slug: 2024-10-29-deploy-intelligence-too-cheap-to
+  title: Deploy! Intelligence too cheap to meter @ $0.0001 per million tokens.
+  date: '2024-10-29'
+  kind: substack
+- slug: 2024-10-22-state-of-the-future-part-deux
+  title: 'An AI Thesis: State of the Future! Part Deux'
+  date: '2024-10-22'
+  kind: substack
+- slug: 2024-yole-emerging-memories-2024
+  title: Yole Group — Emerging Non-Volatile Memories 2024
+  date: '2024-10-15'
+  kind: web
+- slug: 2024-yole-thermal-management-2024
+  title: Yole Group — Thermal Management 2024 Market Analysis
+  date: '2024-10-01'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

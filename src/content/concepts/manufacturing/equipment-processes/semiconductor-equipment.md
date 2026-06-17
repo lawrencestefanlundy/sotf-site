@@ -18,7 +18,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 58
+mention_count: 59
 descendants:
 - automated-test-equipment
 - ion-implantation
@@ -26,20 +26,40 @@ descendants:
 - probe-cards
 - wafer-level-burn-in
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 2
+sources_7d: 1
+sources_30d: 3
 recent_mentions:
+- slug: 2026-06-16-coherent-to-receive-up-to-50m-in-chips-act-funding-for-texas
+  title: Coherent to receive up to $50M in CHIPS Act funding for Texas - Investing.com
+  date: '2026-06-16'
+  kind: web
+- slug: 2026-06-16-seeqc-awarded-participation-in-us-chips-actbacked-microelect
+  title: SEEQC Awarded Participation in U.S. CHIPS Act–Backed Microelectronics Commons NORDTECH Quantum R&D Program - The Quantum Insider
+  date: '2026-06-16'
+  kind: web
+- slug: 2026-06-16-nancy-pelosi-stock-tracker-highlights-d-waves-35-surge-since
+  title: Nancy Pelosi Stock Tracker Highlights D-Wave's 35% Surge Since $100 Million CHIPS Act Investment - Benzinga
+  date: '2026-06-16'
+  kind: web
+- slug: 2026-06-16-europes-chips-act-20-europes-attempt-to-move-up-the-value-ch
+  title: 'Europe’s Chips Act 2.0: Europe’s attempt to move up the value chain while deepening alignment with trusted partners - GLOBSEC'
+  date: '2026-06-16'
+  kind: web
+- slug: 2026-06-16-coherent-in-spotlight-as-it-signs-letter-of-intent-for-50m-i
+  title: Coherent in spotlight as it signs letter of intent for $50M in funding from Chips Act (COHR:NYSE) - Seeking Alpha
+  date: '2026-06-16'
+  kind: web
+- slug: 2026-06-16-chips-act-funding-and-gate-model-roadmap-could-be-a-game-cha
+  title: CHIPS Act Funding And Gate-Model Roadmap Could Be A Game Changer For D-Wave Quantum (QBTS) - simplywall.st
+  date: '2026-06-16'
+  kind: web
+- slug: 2026-06-16-seeqc-joins-us-chips-actbacked-effort-to-advance-scalable-qu
+  title: SEEQC Joins U.S. CHIPS Act–Backed Effort to Advance Scalable Quantum Chip Manufacturing - citybiz
+  date: '2026-06-16'
+  kind: web
 - slug: 2025-12-30-us-eases-semiconductor-equipment-rules-for-samsung-sk-hynix-
   title: U.S. Eases Semiconductor Equipment Rules for Samsung, SK Hynix in China - 조선일보
   date: '2025-12-30'
-  kind: web
-- slug: 2024-bis-export-controls-china-semis
-  title: BIS Export Controls — China Semiconductor Restrictions (Oct 2022 / Oct 2023 / Dec 2024 rounds)
-  date: '2024-12-02'
-  kind: web
-- slug: 2023-04-25-us-deals-signal-heightened-semiconductor-equipment-competiti
-  title: US deals signal heightened semiconductor equipment competition - East Asia Forum
-  date: '2023-04-25'
   kind: web
 neighbors: []
 ---

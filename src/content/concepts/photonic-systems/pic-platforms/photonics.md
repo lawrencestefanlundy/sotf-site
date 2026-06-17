@@ -36,7 +36,7 @@ last_updated: '2026-05-07'
 tags:
 - concept
 - theme
-mention_count: 663
+mention_count: 675
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -47,14 +47,14 @@ descendants:
 - optoelectronic-oscillator
 last_reorg_date: '2026-05-13'
 sources_7d: 2
-sources_30d: 10
+sources_30d: 9
 recent_mentions:
+- slug: 2026-06-16-trapped-ion-landscape-2026
+  title: Trapped-ion quantum computing landscape 2026 (vendors, scale, integrated photonics)
+  date: '2026-06-16'
+  kind: web
 - slug: 2026-06-15-barry-silverstein-rochester-cxr
   title: University of Rochester hires former Meta exec Barry Silverstein to direct Center for Extended Reality
-  date: '2026-06-15'
-  kind: web
-- slug: 2026-06-15-38-start-ups-and-smes-secure-eic-support-in-latest-round-of-
-  title: 38 start-ups and SMEs secure EIC support in latest round of the EIC Accelerator - European Innovation Council
   date: '2026-06-15'
   kind: web
 - slug: 2026-06-15-luminate-ny-accelerator-terms

@@ -11,6 +11,9 @@ parent_concepts:
 related_concepts:
 - memcapacitor
 - analog-computing
+- memory-wall
+- von-neumann-bottleneck
+- processing-in-memory
 sources:
 - '[[2024-12-04-cubits-in-a-fridge-why-is-nobody]]'
 - '[[2023-07-23-analog-computing-the-once-and-future]]'
@@ -28,13 +31,15 @@ tags:
 mention_count: 33
 descendants:
 - adc-bottleneck
+- analog-in-memory-compute
 - capram
 - charge-domain-compute
+- digital-in-memory-compute
 - processing-in-memory
 - sram-cim
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 12
+sources_30d: 11
 recent_mentions:
 - slug: 2026-01-22-ai-chips-computeram-and-the-future
   title: 'AI Chips, ComputeRAM and the Future of Data Movement: A Conversation with Manu, Founder of Synthara'
@@ -73,6 +78,18 @@ neighbors:
   name: Analog Computing
   path: /sotf-site/compute/non-conventional/analog-computing/
   macro: compute
+- slug: memory-wall
+  name: The Memory Wall
+  path: /sotf-site/compute/compute-architecture/memory-wall/
+  macro: compute
+- slug: von-neumann-bottleneck
+  name: Von Neumann Bottleneck
+  path: /sotf-site/compute/compute-architecture/von-neumann-bottleneck/
+  macro: compute
+- slug: processing-in-memory
+  name: Processing-in-Memory (PIM)
+  path: /sotf-site/memory/emerging-memory/processing-in-memory/
+  macro: memory
 ---
 ## Physics / mechanism
 
@@ -87,6 +104,10 @@ SRAM digital IMC is conservative but foundry-compatible and production-ready. An
 | SRAM IMC | 10–50 | 8-bit native | Low |
 | Analog NVM IMC | 100+ | 4–6 bit effective | High |
 | Near-memory (HBM+PIM) | 5–20 | Full | Low |
+
+## Investment relevance (all routes)
+
+In-memory compute attacks the [The Memory Wall](/sotf-site/compute/compute-architecture/memory-wall/) and [Von Neumann Bottleneck](/sotf-site/compute/compute-architecture/von-neumann-bottleneck/) directly; the open question is who captures the value, and through which vehicle.
 
 ## Companies using
 

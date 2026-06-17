@@ -14,22 +14,27 @@ sources:
 - '[[2025-04-16-the-state-of-photonic-computing]]'
 - '[[2023-08-25-e12-nanomechanical-computing-gears]]'
 - '[[2026-06-04-magnetoresistive-gmr-mtj-biosensor-turbid-samples]]'
+- '[[2026-06-16-trapped-ion-landscape-2026]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 56
+mention_count: 57
 last_reorg_date: '2026-05-13'
 descendants:
 - mems
 - nems
 - sensors
 - spectral-sensing
-sources_7d: 2
-sources_30d: 8
+sources_7d: 3
+sources_30d: 6
 recent_mentions:
+- slug: 2026-06-16-trapped-ion-landscape-2026
+  title: Trapped-ion quantum computing landscape 2026 (vendors, scale, integrated photonics)
+  date: '2026-06-16'
+  kind: web
 - slug: 2026-06-04-magnetoresistive-gmr-mtj-biosensor-turbid-samples
   title: Integrated Microfluidic Giant Magnetoresistance (GMR) Biosensor Platform for Magnetoresistive Immunoassay (and related GMR/MTJ bead-detection literature)
   date: '2026-06-04'

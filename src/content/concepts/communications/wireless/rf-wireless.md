@@ -20,7 +20,39 @@ descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-04-20-lg-innotek-wins-w100b-wi-fi-7-auto-module-deal-in-europe---t
+  title: LG Innotek wins W100b Wi-Fi 7 auto module deal in Europe - The Korea Herald
+  date: '2026-04-20'
+  kind: web
+- slug: 2026-04-19-taiwan-networking-firms-post-strong-1q26-results-on-data-cen
+  title: Taiwan networking firms post strong 1Q26 results on data center, Wi-Fi 7 demand - digitimes
+  date: '2026-04-19'
+  kind: web
+- slug: 2026-01-08-indonesia-arena-gbk-and-cisco-deploy-wi-fi-7---frontier-ente
+  title: Indonesia Arena GBK and Cisco deploy Wi-Fi 7 - Frontier Enterprise
+  date: '2026-01-08'
+  kind: web
+- slug: 2025-12-23-wi-fi-7-connectivity-a-new-frontier-for-enterprise-and-consu
+  title: 'Wi-Fi 7 Connectivity: A New Frontier for Enterprise and Consumer Networks - Telecom Review Asia'
+  date: '2025-12-23'
+  kind: web
+- slug: 2025-10-23-wi-fi-7-chips-tech-next-generation-wifi---qualcomm
+  title: Wi-Fi 7 Chips & Tech | Next-Generation WiFi - Qualcomm
+  date: '2025-10-23'
+  kind: web
+- slug: 2025-10-19-optical-lan-meets-ruckus-wireless-nokiacom---nokia
+  title: Optical LAN meets RUCKUS Wireless | Nokia.com - Nokia
+  date: '2025-10-19'
+  kind: web
+- slug: 2025-09-14-mediatek-filogic-series-explained-wi-fi-6-wi-fi-6e-wi-fi-7-c
+  title: 'MediaTek Filogic series explained: Wi-Fi 6, Wi-Fi 6E & Wi-Fi 7 chipsets - MediaTek'
+  date: '2025-09-14'
+  kind: web
+- slug: 2025-09-10-apple-finally-ditches-broadcom-and-launches-new-n1-wi-fi-7-c
+  title: Apple finally ditches Broadcom and launches new 'N1' Wi-Fi 7 chip to power iPhone 17 & Air - but how well will it work? - Wi-Fi NOW Global
+  date: '2025-09-10'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

@@ -12,16 +12,18 @@ related_concepts: []
 sources:
 - '[[2024-eu-chips-act-final-text]]'
 - '[[2026-06-04-globalfoundries-emram-22fdx-availability]]'
+- '[[2026-06-15-gf-investor-day-2026]]'
+- '[[2026-05-21-gf-quantum-technology-solutions]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 8
+mention_count: 11
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 3
+sources_7d: 1
+sources_30d: 5
 recent_mentions:
 - slug: 2026-06-15-gf-investor-day-2026
   title: GlobalFoundries Investor Day 2026 (presentation)
@@ -30,6 +32,10 @@ recent_mentions:
 - slug: 2026-06-04-globalfoundries-emram-22fdx-availability
   title: GLOBALFOUNDRIES Announces Availability of Embedded MRAM on Leading 22FDX FD-SOI Platform
   date: '2026-06-04'
+  kind: web
+- slug: 2026-05-21-gf-quantum-technology-solutions
+  title: GlobalFoundries launches Quantum Technology Solutions to scale U.S. quantum manufacturing
+  date: '2026-05-21'
   kind: web
 - slug: 2024-eu-chips-act-final-text
   title: European Chips Act — Regulation (EU) 2023/1781

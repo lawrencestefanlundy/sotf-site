@@ -62,7 +62,7 @@ descendants:
 - xolography
 last_reorg_date: '2026-05-13'
 sources_7d: 4
-sources_30d: 27
+sources_30d: 26
 recent_mentions:
 - slug: 2026-06-14-frontier-ai-value-capture
   title: 'Frontier AI value capture: where the $4T accrues (research synthesis)'

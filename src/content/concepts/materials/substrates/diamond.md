@@ -14,19 +14,16 @@ sources:
 - '[[2024-12-16-willow-and-the-race-to-quantum-advantage]]'
 - '[[2024-12-04-cubits-in-a-fridge-why-is-nobody]]'
 - '[[2023-05-31-three-underrated-technologies-from]]'
-- '[[2026-05-02-nv-center-quantum-sensing-review-sciencedirect-2022]]'
-- '[[2026-05-02-high-sensitivity-nv-diamond-resonator-comm-materials-2025]]'
-- '[[2026-05-02-quantumdiamonds-iq-capital]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 154
+mention_count: 160
 last_reorg_date: '2026-05-13'
-sources_7d: 5
-sources_30d: 30
+sources_7d: 11
+sources_30d: 34
 recent_mentions:
 - slug: 2026-05-02-nv-center-quantum-sensing-review-sciencedirect-2022
   title: NV center quantum sensing review (ScienceDirect 2022)

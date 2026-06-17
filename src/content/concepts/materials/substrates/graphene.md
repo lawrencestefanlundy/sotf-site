@@ -17,6 +17,7 @@ sources:
 - '[[2023-02-23-soundcell-spin-off-of-graphene-flagship-partner-tu-delft-rec]]'
 - '[[2026-02-06-eth-zurich-spinout-chiral-bags-12m-to-scale-robotic-platform]]'
 - '[[2024-yole-thermal-management-2024]]'
+- '[[2026-06-04-fulfilling-the-promise-of-graphene---enterprisecamacuk]]'
 - '[[2024-idtechex-thermal-interface-materials-2026-2036]]'
 - '[[2023-02-22-soundcell-spin-off-of-graphene-flagship-partner-tu-delft-rec]]'
 frontier:
@@ -25,11 +26,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 92
+mention_count: 96
 last_reorg_date: '2026-05-13'
-sources_7d: 8
-sources_30d: 28
+sources_7d: 11
+sources_30d: 31
 recent_mentions:
+- slug: 2026-06-04-fulfilling-the-promise-of-graphene---enterprisecamacuk
+  title: Fulfilling the promise of graphene - enterprise.cam.ac.uk
+  date: '2026-06-04'
+  kind: web
 - slug: 2026-02-06-eth-zurich-spinout-chiral-bags-12m-to-scale-robotic-platform
   title: ETH Zurich spinout Chiral bags $12M to scale robotic platform for graphene chip integration - Tech Funding News
   date: '2026-02-06'
@@ -58,10 +63,6 @@ recent_mentions:
   title: 'IDTechEx — Thermal Interface Materials 2026-2036: Technologies, Markets and Forecasts'
   date: '2024-08-15'
   kind: web
-- slug: 2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth
-  title: '🔮E14: The Real AI Bottleneck: High Bandwidth Memory (HBM)'
-  date: '2023-09-08'
-  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

@@ -46,24 +46,29 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 550
+mention_count: 571
 descendants:
 - 3d-dram
 - adc-bottleneck
 - agentic-workload-retrieval
+- analog-in-memory-compute
 - capram
 - charge-domain-compute
 - computational-storage
 - cxl
+- digital-in-memory-compute
 - dram
 - embedded-non-volatile-memory
+- fefet
 - feram
 - hbm
 - in-memory-computing
 - memcapacitor
 - memory
+- memory-wall
 - mram
 - nand-flash
+- near-memory-compute
 - pcm-phase-change-memory
 - photonic-memory
 - processing-in-memory

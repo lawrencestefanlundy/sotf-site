@@ -20,11 +20,13 @@ tags:
 mention_count: 73
 last_reorg_date: '2026-05-14'
 descendants:
+- ar-glasses-stack
+- ar-optical-combiners
 - displays
 - holographic-volumetric-displays
+- laser-display-light-engines
 - micro-leds
 - oled
-- laser-display-light-engines
 sources_7d: 5
 sources_30d: 11
 recent_mentions:

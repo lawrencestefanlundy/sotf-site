@@ -27,6 +27,7 @@ sources:
 - '[[2024-yole-advanced-packaging-2024]]'
 - '[[2026-05-30-intel-glass-substrates-program]]'
 - '[[2026-06-15-gf-investor-day-2026]]'
+- '[[2026-05-21-gf-quantum-technology-solutions]]'
 - '[[2024-tsmc-cowos-roadmap-disclosure]]'
 - '[[2025-01-06-asu-selected-as-home-and-partner-for-chips-and-science-act-f]]'
 frontier:
@@ -35,15 +36,19 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 106
+mention_count: 108
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration
 - osat
 last_reorg_date: '2026-05-13'
-sources_7d: 2
-sources_30d: 14
+sources_7d: 3
+sources_30d: 15
 recent_mentions:
+- slug: 2026-06-16-seeqc-secures-role-in-chips-act-funded-nordtech-quantum-scal
+  title: SEEQC Secures Role in CHIPS Act-Funded NORDTECH Quantum Scaling Project - Quantum Computing Report
+  date: '2026-06-16'
+  kind: web
 - slug: 2026-06-15-gf-investor-day-2026
   title: GlobalFoundries Investor Day 2026 (presentation)
   date: '2026-06-15'
@@ -51,6 +56,10 @@ recent_mentions:
 - slug: 2026-05-30-osat-market-structure
   title: OSAT market structure 2024-2025 — rankings, advanced-packaging split, photonic assembly
   date: '2026-05-30'
+  kind: web
+- slug: 2026-05-21-gf-quantum-technology-solutions
+  title: GlobalFoundries launches Quantum Technology Solutions to scale U.S. quantum manufacturing
+  date: '2026-05-21'
   kind: web
 - slug: 2026-03-14-semianalysis-patel-bottlenecks
   title: SemiAnalysis (Dylan Patel) — the three shifting bottlenecks to scaling AI compute (logic/litho, memory, power)
@@ -67,14 +76,6 @@ recent_mentions:
 - slug: 2025-12-02-the-future-of-computing-is-glass
   title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
   date: '2025-12-02'
-  kind: substack
-- slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
-  title: Carbon Nanotubes in the Datacentre
-  date: '2025-11-25'
-  kind: substack
-- slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
-  title: 'UK Opportunity in AI: Compound Semiconductors'
-  date: '2025-09-10'
   kind: substack
 neighbors: []
 ---

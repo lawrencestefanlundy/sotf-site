@@ -18,6 +18,7 @@ sources:
 - '[[2026-05-24-mose2-exciton-polariton-all-optical-switch]]'
 - '[[2026-06-04-q-memory-site]]'
 - '[[2023-09-04-sinq-csa-catapult]]'
+- '[[2026-06-16-trapped-ion-landscape-2026]]'
 - '[[2026-05-02-hybrid-bto-sin-ultra-low-power-tuning-acs-photonics]]'
 frontier:
 - Does the SiN dual-use AI-accelerator / optical-matmul mode give full-stack photonic-QC players a fundable near-term wedge, or is it quantum-washing? (Q-Memory test.)
@@ -25,11 +26,15 @@ last_updated: '2026-06-04'
 tags:
 - concept
 - material
-mention_count: 71
+mention_count: 74
 last_reorg_date: '2026-05-13'
-sources_7d: 3
-sources_30d: 24
+sources_7d: 4
+sources_30d: 26
 recent_mentions:
+- slug: 2026-06-16-trapped-ion-landscape-2026
+  title: Trapped-ion quantum computing landscape 2026 (vendors, scale, integrated photonics)
+  date: '2026-06-16'
+  kind: web
 - slug: 2026-06-04-q-memory-site
   title: Q-Memory — company website (q-memory.tech)
   date: '2026-06-04'
@@ -58,10 +63,6 @@ recent_mentions:
   title: SiNQ — Silicon Nitride for Quantum Computing (CSA Catapult live project)
   date: '2023-09-04'
   kind: web
-- slug: 2023-07-27-e10-pushing-moores-law-to-the-limit
-  title: '🔮E10: Pushing Moore''s Law to the Limit with High-NA EUV (aka Nanoscale Chip Printing)'
-  date: '2023-07-27'
-  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

@@ -20,15 +20,11 @@ last_updated: '2026-06-09'
 tags:
 - concept
 - technology
-mention_count: 34
+mention_count: 35
 last_reorg_date: '2026-05-14'
-sources_7d: 0
-sources_30d: 13
+sources_7d: 1
+sources_30d: 14
 recent_mentions:
-- slug: 2026-06-15-gf-investor-day-2026
-  title: GlobalFoundries Investor Day 2026 (presentation)
-  date: '2026-06-15'
-  kind: web
 - slug: 2026-01-22-ai-chips-computeram-and-the-future
   title: 'AI Chips, ComputeRAM and the Future of Data Movement: A Conversation with Manu, Founder of Synthara'
   date: '2026-01-22'

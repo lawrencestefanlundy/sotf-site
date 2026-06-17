@@ -16,9 +16,10 @@ related_concepts:
 - displays
 - lasers
 - micro-leds
-- waveguide
+- ar-optical-combiners
 - metasurfaces-flat-optics
 - non-linear-photonic-logic
+- ar-glasses-stack
 sources:
 - '[[2026-06-15-barry-silverstein-rochester-cxr]]'
 frontier:
@@ -48,9 +49,17 @@ neighbors:
   name: Micro-LEDs
   path: /sotf-site/photonic-systems/displays/micro-leds/
   macro: photonic-systems
+- slug: ar-optical-combiners
+  name: 'AR optical combiners (waveguides): getting the image to the eye'
+  path: /sotf-site/photonic-systems/displays/ar-optical-combiners/
+  macro: photonic-systems
 - slug: metasurfaces-flat-optics
   name: Metasurfaces & Flat Optics
   path: /sotf-site/photonic-systems/metasurfaces/metasurfaces-flat-optics/
+  macro: photonic-systems
+- slug: ar-glasses-stack
+  name: 'AR glasses: the component stack and competing technologies (primer)'
+  path: /sotf-site/photonic-systems/displays/ar-glasses-stack/
   macro: photonic-systems
 ---
 ## The taxonomy — "micro-lasers" / "laser displays" means several different things

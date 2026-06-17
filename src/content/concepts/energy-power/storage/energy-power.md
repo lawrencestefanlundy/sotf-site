@@ -79,9 +79,9 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
-- slug: 2026-06-10-why-is-nerc-so-worried-about-data-centers
-  title: Why is NERC so worried about data centers?
-  date: '2026-06-10'
+- slug: 2026-06-15-new-york-is-becoming-a-plug-in-battery-test-bed---latitude-m
+  title: New York is becoming a plug-in battery test-bed - Latitude Media
+  date: '2026-06-15'
   kind: web
 neighbors: []
 ---

@@ -52,6 +52,10 @@ recent_mentions:
   title: Carbon Nanotubes in the Datacentre
   date: '2025-11-25'
   kind: substack
+- slug: 2025-10-19-optical-lan-meets-ruckus-wireless-nokiacom---nokia
+  title: Optical LAN meets RUCKUS Wireless | Nokia.com - Nokia
+  date: '2025-10-19'
+  kind: web
 - slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
   title: 'UK Opportunity in AI: Compound Semiconductors'
   date: '2025-09-10'
@@ -64,10 +68,6 @@ recent_mentions:
   title: 'Photonic Computing: A Primer'
   date: '2025-04-16'
   kind: substack
-- slug: 2026-05-30-intel-glass-substrates-program
-  title: Intel Unveils Industry-Leading Glass Substrates (+ Jan 2026 EMIB+glass demo status)
-  date: '2023-09-18'
-  kind: web
 neighbors:
 - slug: optical-circuit-switching
   name: Optical Circuit Switching (OCS)

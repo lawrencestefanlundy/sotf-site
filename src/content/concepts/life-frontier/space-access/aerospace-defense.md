@@ -19,7 +19,15 @@ mention_count: 80
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-16-astronaut-jessica-meir-assists-with-hardware-updates-for-nas
+  title: Astronaut Jessica Meir Assists With Hardware Updates for NASA’s Cold Atom Lab
+  date: '2026-06-16'
+  kind: web
+- slug: 2026-06-16-nasas-quantum-lab-aboard-space-station-gets-chilly-upgrade
+  title: NASA’s Quantum Lab Aboard Space Station Gets Chilly Upgrade
+  date: '2026-06-16'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

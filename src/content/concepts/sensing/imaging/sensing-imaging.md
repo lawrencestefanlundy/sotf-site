@@ -21,17 +21,13 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
-- slug: 2026-06-15-experience-the-launch-of-nasas-roman-space-telescope
-  title: Experience the Launch of NASA’s Roman Space Telescope
-  date: '2026-06-15'
+- slug: 2026-06-16-astronaut-jessica-meir-assists-with-hardware-updates-for-nas
+  title: Astronaut Jessica Meir Assists With Hardware Updates for NASA’s Cold Atom Lab
+  date: '2026-06-16'
   kind: web
-- slug: 2026-06-15-frontiers-forum-speaker-series
-  title: Frontiers Forum Speaker Series
-  date: '2026-06-15'
-  kind: web
-- slug: 2026-01-26-infineon-airoc-acw741x-wi-fi-7-ultra-low-power-tri-radio-iot
-  title: Infineon AIROC ACW741x Wi-Fi 7 ultra-low power tri-radio IoT SoC family support MLO, Wi-Fi sensing, BLE 6.0, and Thread - CNX Software
-  date: '2026-01-26'
+- slug: 2026-06-16-nasas-quantum-lab-aboard-space-station-gets-chilly-upgrade
+  title: NASA’s Quantum Lab Aboard Space Station Gets Chilly Upgrade
+  date: '2026-06-16'
   kind: web
 neighbors: []
 ---

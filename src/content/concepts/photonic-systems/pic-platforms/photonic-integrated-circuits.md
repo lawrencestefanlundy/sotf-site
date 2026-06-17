@@ -19,7 +19,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 98
+mention_count: 99
 last_reorg_date: '2026-05-13'
 descendants:
 - avalanche-photodiode
@@ -28,13 +28,9 @@ descendants:
 - mid-ir-photonics
 - photodetector
 - pic-packaging-stack
-sources_7d: 1
-sources_30d: 25
+sources_7d: 2
+sources_30d: 26
 recent_mentions:
-- slug: 2026-06-16-trapped-ion-landscape-2026
-  title: Trapped-ion quantum computing landscape 2026 (vendors, scale, integrated photonics)
-  date: '2026-06-16'
-  kind: web
 - slug: 2026-06-01-nibras-ucl-chipstart
   title: UCL EEE ventures selected for national ChipStart programme (incl. Nibras Communications)
   date: '2026-06-01'
@@ -51,10 +47,6 @@ recent_mentions:
   title: 'Photonic Computing: A Primer'
   date: '2025-04-16'
   kind: substack
-- slug: 2024-06-20-wave-photonics-secures-45m-to-enable-the-widespread-deployme
-  title: Wave Photonics secures £4.5M to enable the widespread deployment of lightbased chips - enterprise.cam.ac.uk
-  date: '2024-06-20'
-  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

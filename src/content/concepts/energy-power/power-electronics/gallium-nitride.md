@@ -32,6 +32,10 @@ descendants:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-06-15-gf-investor-day-2026
+  title: GlobalFoundries Investor Day 2026 (presentation)
+  date: '2026-06-15'
+  kind: web
 - slug: 2026-05-26-semianalysis-800vdc-revolution
   title: Inside the 800VDC Revolution – Part 1
   date: '2026-05-26'
@@ -60,10 +64,6 @@ recent_mentions:
   title: 'UK Opportunity in AI: Compound Semiconductors'
   date: '2025-09-10'
   kind: substack
-- slug: 2024-omdia-power-electronics-forecast
-  title: Omdia — Power Semiconductors Long-Term Forecast 2024
-  date: '2024-11-01'
-  kind: web
 neighbors:
 - slug: wide-bandgap-semiconductors
   name: Wide-Bandgap Semiconductors

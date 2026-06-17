@@ -31,15 +31,11 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 247
+mention_count: 252
 last_reorg_date: '2026-05-13'
-sources_7d: 2
+sources_7d: 4
 sources_30d: 36
 recent_mentions:
-- slug: 2026-06-15-frontiers-forum-speaker-series
-  title: Frontiers Forum Speaker Series
-  date: '2026-06-15'
-  kind: web
 - slug: 2026-06-13-smr-datacentre-baseload-research
   title: SMR / advanced-nuclear for datacentre baseload — research sweep (Jun 2026)
   date: '2026-06-13'
@@ -66,6 +62,10 @@ recent_mentions:
   kind: web
 - slug: 2026-06-04-gmr-biosensor-arrays-correction-techniques-wang
   title: 'GMR Biosensor Arrays: Correction Techniques for Reproducibility and Enhanced Sensitivity'
+  date: '2026-06-04'
+  kind: web
+- slug: 2026-06-04-asg-biosensor-host-cell-protein-bioprocess
+  title: Startup's biosensor makes drug development and manufacturing cheaper (MIT News — Advanced Silicon Group)
   date: '2026-06-04'
   kind: web
 neighbors: []

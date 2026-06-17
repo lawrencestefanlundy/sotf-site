@@ -22,6 +22,7 @@ descendants:
 - coupled-oscillator-networks
 - near-field-rf-coupling
 - physics-native-compute
+- von-neumann-bottleneck
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0

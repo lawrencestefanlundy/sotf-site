@@ -19,7 +19,19 @@ mention_count: 57
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-04-20-lg-innotek-wins-w100b-wi-fi-7-auto-module-deal-in-europe---t
+  title: LG Innotek wins W100b Wi-Fi 7 auto module deal in Europe - The Korea Herald
+  date: '2026-04-20'
+  kind: web
+- slug: 2025-12-23-wi-fi-7-connectivity-a-new-frontier-for-enterprise-and-consu
+  title: 'Wi-Fi 7 Connectivity: A New Frontier for Enterprise and Consumer Networks - Telecom Review Asia'
+  date: '2025-12-23'
+  kind: web
+- slug: 2023-05-05-industrial-ethernet-exceeds-two-thirds-of-comms-market---dri
+  title: Industrial Ethernet exceeds two thirds of comms market - Drives&Controls
+  date: '2023-05-05'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

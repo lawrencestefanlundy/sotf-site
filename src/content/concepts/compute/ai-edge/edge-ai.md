@@ -18,18 +18,19 @@ sources:
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2024-02-26-micron-hbm3e-volume-production]]'
 - '[[2024-yole-advanced-packaging-2024]]'
+- '[[2026-06-15-gf-investor-day-2026]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - framework
-mention_count: 46
+mention_count: 49
 descendants:
 - nvidia-jetson
 last_reorg_date: '2026-05-13'
-sources_7d: 2
-sources_30d: 14
+sources_7d: 5
+sources_30d: 16
 recent_mentions:
 - slug: 2026-06-15-gf-investor-day-2026
   title: GlobalFoundries Investor Day 2026 (presentation)

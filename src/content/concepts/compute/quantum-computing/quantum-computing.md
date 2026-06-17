@@ -31,7 +31,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 233
+mention_count: 260
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -49,40 +49,40 @@ descendants:
 - topological-qubits
 - trapped-ion
 last_reorg_date: '2026-05-13'
-sources_7d: 5
-sources_30d: 41
+sources_7d: 12
+sources_30d: 44
 recent_mentions:
-- slug: 2026-06-01-ncsc-nsa-qkd-vs-pqc
-  title: 'NCSC / NSA position: QKD not endorsed, post-quantum cryptography is the recommended mitigation'
-  date: '2026-06-01'
+- slug: 2026-06-16-seeqc-awarded-participation-in-us-chips-actbacked-microelect
+  title: SEEQC Awarded Participation in U.S. CHIPS Act–Backed Microelectronics Commons NORDTECH Quantum R&D Program - The Quantum Insider
+  date: '2026-06-16'
   kind: web
-- slug: 2026-06-01-nibras-ucl-chipstart
-  title: UCL EEE ventures selected for national ChipStart programme (incl. Nibras Communications)
-  date: '2026-06-01'
+- slug: 2026-06-16-nancy-pelosi-stock-tracker-highlights-d-waves-35-surge-since
+  title: Nancy Pelosi Stock Tracker Highlights D-Wave's 35% Surge Since $100 Million CHIPS Act Investment - Benzinga
+  date: '2026-06-16'
   kind: web
-- slug: 2026-05-28-arxiv-quantum-annealing-for-realistic-traffic-flow-optimization-cl
-  title: 'Quantum Annealing for Realistic Traffic Flow Optimization: Clustering and Data-Driven QUBO'
-  date: '2026-05-28'
-  kind: paper
-- slug: 2026-05-24-mose2-exciton-polariton-all-optical-switch
-  title: New light-based switch could cut chip energy use and speed future AI photonics
-  date: '2026-05-24'
+- slug: 2026-06-16-astronaut-jessica-meir-assists-with-hardware-updates-for-nas
+  title: Astronaut Jessica Meir Assists With Hardware Updates for NASA’s Cold Atom Lab
+  date: '2026-06-16'
   kind: web
-- slug: 2026-04-21-quantum-101
-  title: Quantum 101
-  date: '2026-04-21'
+- slug: 2026-06-16-nasas-quantum-lab-aboard-space-station-gets-chilly-upgrade
+  title: NASA’s Quantum Lab Aboard Space Station Gets Chilly Upgrade
+  date: '2026-06-16'
   kind: web
-- slug: 2026-02-12-how-to-invest-in-ai-sovereignty-sovereign
-  title: How to Invest in AI Sovereignty — Sovereign Albion w/ Andrew Bennett
-  date: '2026-02-12'
-  kind: substack
-- slug: 2026-01-22-ai-chips-computeram-and-the-future
-  title: 'AI Chips, ComputeRAM and the Future of Data Movement: A Conversation with Manu, Founder of Synthara'
-  date: '2026-01-22'
-  kind: substack
-- slug: 2025-12-18-qubitsolve-secures-12-million-nsf-sbir-grant-to-accelerate-q
-  title: QubitSolve Secures $1.2 Million NSF SBIR Grant to Accelerate Quantum CFD Development - Quantum Computing Report
-  date: '2025-12-18'
+- slug: 2026-06-16-trapped-ion-landscape-2026
+  title: Trapped-ion quantum computing landscape 2026 (vendors, scale, integrated photonics)
+  date: '2026-06-16'
+  kind: web
+- slug: 2026-06-16-seeqc-secures-role-in-chips-act-funded-nordtech-quantum-scal
+  title: SEEQC Secures Role in CHIPS Act-Funded NORDTECH Quantum Scaling Project - Quantum Computing Report
+  date: '2026-06-16'
+  kind: web
+- slug: 2026-06-16-chips-act-funding-and-gate-model-roadmap-could-be-a-game-cha
+  title: CHIPS Act Funding And Gate-Model Roadmap Could Be A Game Changer For D-Wave Quantum (QBTS) - simplywall.st
+  date: '2026-06-16'
+  kind: web
+- slug: 2026-06-16-seeqc-joins-us-chips-actbacked-effort-to-advance-scalable-qu
+  title: SEEQC Joins U.S. CHIPS Act–Backed Effort to Advance Scalable Quantum Chip Manufacturing - citybiz
+  date: '2026-06-16'
   kind: web
 neighbors: []
 ---

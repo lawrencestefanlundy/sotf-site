@@ -10,7 +10,8 @@ parent_concepts:
 related_concepts: []
 sources: []
 frontier:
-- ''
+- Can PCM drift and endurance be tamed enough for analog-CIM volume, or does it stay a research device?
+- Does PCM hold a role as storage-class memory even if PCM-CIM stalls?
 last_updated: '2026-05-04'
 tags:
 - concept
@@ -44,4 +45,5 @@ PCM competes directly with NAND Flash (higher endurance, lower density penalty, 
 
 ## Frontier (open questions)
 
-- *To be added.*
+- Can PCM drift and endurance be tamed enough for analog-CIM volume, or does it stay a research device?
+- Does PCM hold a role as storage-class memory even if PCM-CIM stalls?

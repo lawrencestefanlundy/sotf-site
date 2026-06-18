@@ -28,6 +28,7 @@ tags:
 mention_count: 134
 last_reorg_date: '2026-05-13'
 descendants:
+- external-laser-source
 - laser-display-light-engines
 sources_7d: 4
 sources_30d: 37
@@ -52,6 +53,10 @@ recent_mentions:
   title: 'Any Color You Like: NIST Scientists Create ‘Any Wavelength’ Lasers in Tiny Circuits for Light'
   date: '2026-04-15'
   kind: web
+- slug: 2026-06-17-sivers-onet-enablence-external-light-source-cpo
+  title: Sivers, O-Net and Enablence partner to develop external light sources for AI data centers
+  date: '2026-03-17'
+  kind: web
 - slug: 2026-02-12-how-to-invest-in-ai-sovereignty-sovereign
   title: How to Invest in AI Sovereignty — Sovereign Albion w/ Andrew Bennett
   date: '2026-02-12'
@@ -59,10 +64,6 @@ recent_mentions:
 - slug: 2026-02-02-photonic-engines-for-data-centers
   title: Photonic "Engines" for Data Centers
   date: '2026-02-02'
-  kind: substack
-- slug: 2025-12-19-lfg-for-semiconductors
-  title: LFG (for semiconductors)
-  date: '2025-12-19'
   kind: substack
 neighbors: []
 ---

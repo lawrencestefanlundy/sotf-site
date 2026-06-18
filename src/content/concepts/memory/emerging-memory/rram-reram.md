@@ -29,7 +29,11 @@ mention_count: 0
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 3
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-16-cim-landscape-2026
+  title: 'Compute-in-memory landscape 2026: efficiency claims, the digital-readout shift, IDM PIM'
+  date: '2026-06-16'
+  kind: web
 neighbors:
 - slug: in-memory-computing
   name: In-Memory Computing
@@ -90,3 +94,7 @@ See frontmatter `frontier:` block. Key resolution markers:
 - **2027:** does binary/digital ReRAM-CIM outnumber analog multi-level parts reaching silicon for edge inference? (tracked as a prediction on **Emerging Nvm**)
 - **2027:** does a startup ReRAM process get publicly designed into a major foundry's embedded-NVM roadmap (Intrinsic/GF materialises)?
 - **2028:** does any analog multi-level ReRAM-CIM vendor reach $100M cumulative product revenue, or is the analog fork a confirmed dead end?
+
+## 2026 update: the digital-readout shift
+
+*Source: **2026 06 16 Cim Landscape 2026**.*

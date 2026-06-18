@@ -24,7 +24,7 @@ tags:
 mention_count: 46
 last_reorg_date: '2026-05-14'
 sources_7d: 3
-sources_30d: 12
+sources_30d: 10
 recent_mentions:
 - slug: 2026-06-15-gf-investor-day-2026
   title: GlobalFoundries Investor Day 2026 (presentation)

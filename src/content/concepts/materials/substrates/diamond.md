@@ -7,7 +7,12 @@ kind: technology
 parent_concepts:
 - materials
 - substrates
-related_concepts: []
+related_concepts:
+- wide-bandgap-semiconductors
+- gallium-nitride
+- power-electronics
+- quantum-sensing
+- photonics
 sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-07-01-a-primer-carbon-nanotubes]]'
@@ -16,7 +21,7 @@ sources:
 - '[[2023-05-31-three-underrated-technologies-from]]'
 frontier:
 - ''
-last_updated: '2026-05-04'
+last_updated: '2026-06-17'
 tags:
 - concept
 - technology
@@ -57,7 +62,27 @@ recent_mentions:
   title: 'A Primer: Carbon Nanotubes'
   date: '2025-07-01'
   kind: substack
-neighbors: []
+neighbors:
+- slug: wide-bandgap-semiconductors
+  name: Wide-Bandgap Semiconductors
+  path: /sotf-site/materials/substrates/wide-bandgap-semiconductors/
+  macro: materials
+- slug: gallium-nitride
+  name: Gallium Nitride
+  path: /sotf-site/energy-power/power-electronics/gallium-nitride/
+  macro: energy-power
+- slug: power-electronics
+  name: Power Electronics
+  path: /sotf-site/energy-power/power-electronics/power-electronics/
+  macro: energy-power
+- slug: quantum-sensing
+  name: Quantum Sensing
+  path: /sotf-site/sensing/quantum-sensing/quantum-sensing/
+  macro: sensing
+- slug: photonics
+  name: Photonics
+  path: /sotf-site/photonic-systems/pic-platforms/photonics/
+  macro: photonic-systems
 ---
 ## Physics / mechanism
 
@@ -77,7 +102,29 @@ Competing ultrawide-bandgap (UWBG) materials: AlN (6.2 eV bandgap, mature epitax
 
 ## Diamond value-chain cluster
 
-Diamond appears at three distinct layers of the electronics stack. Same material, different role — worth holding as one cluster because moves at one layer (substrate cost/size, sovereign supply, AI thermal demand) ripple to the others.
+Diamond shows up at several points of the electronics stack, all sitting on a common substrate base. Same material, different role: worth holding as one cluster because a move at the base (single-crystal substrate cost/size, sovereign supply) or in demand (AI thermal, defence RF, quantum) ripples across the others.
+
+**Base layer: substrate & material growth** (feeds every application above)
+
+**Application layers** (the three value vectors, ranked by opportunity size)
+
+Equipment and deposition tooling sits underneath all of these (CVD reactors: **sp3 Diamond**, Seki Diamond Systems), a picks-and-shovels layer that benefits if any device layer scales.
+
+## Other diamond markets & applications
+
+Beyond the electronic and quantum stack above, diamond serves several established markets. Most are lower VC-relevance for us directly, but they matter to the thesis because **they drive CVD diamond volume and cost, which is the base-layer gate** for the RF, thermal and quantum plays: cheaper, larger single-crystal wafers arrive on the back of these markets' scale.
+
+| Market | Use of diamond | Companies (KB) | Relevance |
+|---|---|---|---|
+| **Optics & photonics** | Optical windows for high-power lasers and gyrotrons; IR / X-ray / synchrotron optics; Raman lasers; diamond photonics | **Element Six** (optical grade), **Coherent / II-VI**, **Edmund Optics**, **Tydex**, **Diatope** | Adjacent; defence / laser pull overlaps RF |
+| **Electrochemistry & water** | Boron-doped diamond (BDD) electrodes: water / wastewater treatment, ozone generation, electrochemical sensors | Condias, Element Six (electrochemical grade) | Niche specialty industrial |
+| **Industrial / superhard** | Cutting tools, abrasives, wear and optical coatings (diamond's original and largest market, commoditised) | **Sumitomo**, **Beijing Worldia**, **Zhongnan**, **Applied Diamond**, Sandvik | Low VC-relevance; scales material supply |
+| **Lab-grown gemstone / consumer** | Jewellery-grade CVD / HPHT stones | Diamond Foundry (VRAI / Aether), **WD Lab Grown**, **IIa Technologies**, **New Diamond Era** | The cash engine that funds and scales CVD reactor capacity |
+| **Biomedical / diagnostics** | Fluorescent and drug-delivery nanodiamonds; NV biosensing (overlaps quantum sensing) | **Orbis Diagnostics**, **QDTI** | Niche; quantum-sensing crossover |
+
+The strategic point: the **gem and industrial markets are the volume base** that pulls down CVD single-crystal cost and pushes up wafer size. That base-layer trajectory is the decisive watch for whether the RF/power and quantum-device layers become economic this decade (see Frontier below).
+
+> *Verification note (17 Jun 2026): pages marked unverified are auto-mapped (`data_source: sonnet-*`, `verified: false`); their descriptions and funding figures need a primary-source check before being cited in any memo or external artefact. Qnami in particular was auto-described as cat-qubit cavity tooling, which is wrong (it is NV scanning-probe magnetometry), corrected here.*
 
 ## Companies using
 

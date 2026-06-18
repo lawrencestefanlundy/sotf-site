@@ -46,7 +46,7 @@ neighbors:
   path: /sotf-site/sensing/imaging/sensing-imaging/
   macro: sensing
 - slug: avalanche-photodiode
-  name: Avalanche Photodiode
+  name: Avalanche Photodiode (APD / SPAD)
   path: /sotf-site/photonic-systems/modulators-detectors/avalanche-photodiode/
   macro: photonic-systems
 - slug: hgcdte

@@ -29,6 +29,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 1
 sources_30d: 3
 recent_mentions:
+- slug: 2026-06-17-will-the-match-act-change-chip-controls
+  title: Will the MATCH Act Change Chip Controls?
+  date: '2026-06-17'
+  kind: web
 - slug: 2026-06-16-coherent-to-receive-up-to-50m-in-chips-act-funding-for-texas
   title: Coherent to receive up to $50M in CHIPS Act funding for Texas - Investing.com
   date: '2026-06-16'
@@ -56,10 +60,6 @@ recent_mentions:
 - slug: 2026-06-16-seeqc-joins-us-chips-actbacked-effort-to-advance-scalable-qu
   title: SEEQC Joins U.S. CHIPS Act–Backed Effort to Advance Scalable Quantum Chip Manufacturing - citybiz
   date: '2026-06-16'
-  kind: web
-- slug: 2025-12-30-us-eases-semiconductor-equipment-rules-for-samsung-sk-hynix-
-  title: U.S. Eases Semiconductor Equipment Rules for Samsung, SK Hynix in China - 조선일보
-  date: '2025-12-30'
   kind: web
 neighbors: []
 ---

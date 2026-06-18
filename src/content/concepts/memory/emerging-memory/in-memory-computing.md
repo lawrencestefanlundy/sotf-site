@@ -23,7 +23,8 @@ sources:
 - '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
 - '[[2026-01-22-ai-chips-computeram-and-the-future]]'
 frontier:
-- ''
+- Does digital IMC plus 3D stacking close the energy gap before analog CIM scales out of the edge?
+- Which analog-CIM device family (SRAM-analog, RRAM, flash, memcapacitor) reaches volume first?
 last_updated: '2026-05-04'
 tags:
 - concept
@@ -123,4 +124,5 @@ In-memory compute attacks the [The Memory Wall](/sotf-site/compute/compute-archi
 
 ## Frontier (open questions)
 
-- *To be added.*
+- Does digital IMC plus 3D stacking close the energy gap before analog CIM scales out of the edge?
+- Which analog-CIM device family (SRAM-analog, RRAM, flash, memcapacitor) reaches volume first?

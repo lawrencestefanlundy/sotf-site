@@ -38,6 +38,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 1
 sources_30d: 17
 recent_mentions:
+- slug: 2026-06-17-sjtu-ge-si-photodetector-110ghz-fowlp
+  title: Shanghai Jiao Tong University creates reconfigurable Ge-Si photodetector for high-speed datacoms
+  date: '2026-06-17'
+  kind: web
 - slug: 2026-06-15-gf-investor-day-2026
   title: GlobalFoundries Investor Day 2026 (presentation)
   date: '2026-06-15'
@@ -64,10 +68,6 @@ recent_mentions:
   kind: web
 - slug: 2026-05-02-co-packaged-optics-2026-2036-idtechex
   title: Co-Packaged Optics 2026-2036 (IDTechEx)
-  date: '2026-05-02'
-  kind: web
-- slug: 2026-05-02-cpo-market-and-tech-update-cignal-ai-feb-2025
-  title: CPO market and tech update (Cignal AI, Feb 2025)
   date: '2026-05-02'
   kind: web
 neighbors: []

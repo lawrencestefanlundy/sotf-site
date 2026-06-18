@@ -45,6 +45,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 3
 sources_30d: 15
 recent_mentions:
+- slug: 2026-06-17-sjtu-ge-si-photodetector-110ghz-fowlp
+  title: Shanghai Jiao Tong University creates reconfigurable Ge-Si photodetector for high-speed datacoms
+  date: '2026-06-17'
+  kind: web
 - slug: 2026-06-16-seeqc-secures-role-in-chips-act-funded-nordtech-quantum-scal
   title: SEEQC Secures Role in CHIPS Act-Funded NORDTECH Quantum Scaling Project - Quantum Computing Report
   date: '2026-06-16'
@@ -72,10 +76,6 @@ recent_mentions:
 - slug: 2025-12-19-lfg-for-semiconductors
   title: LFG (for semiconductors)
   date: '2025-12-19'
-  kind: substack
-- slug: 2025-12-02-the-future-of-computing-is-glass
-  title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
-  date: '2025-12-02'
   kind: substack
 neighbors: []
 ---

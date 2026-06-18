@@ -10,21 +10,31 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2025-09-23-the-compute-gradient]]'
+- '[[2026-06-17-femtoai-company-profile]]'
 - '[[2023-06-23-e05-the-future-of-edge-ai-brain-inspired]]'
 - '[[2023-06-30-e06-the-model-t-moment-for-bits-llms]]'
 - '[[2023-07-23-analog-computing-the-once-and-future]]'
 - '[[2026-01-22-ai-chips-computeram-and-the-future]]'
 frontier:
-- ''
+- Does any spiking / neuromorphic chip find a volume socket beyond research and niche sensing?
+- Do analog / memcapacitor devices become the substrate for neuromorphic, or stay separate?
 last_updated: '2026-06-09'
 tags:
 - concept
 - technology
 mention_count: 35
 last_reorg_date: '2026-05-14'
-sources_7d: 1
-sources_30d: 14
+sources_7d: 2
+sources_30d: 15
 recent_mentions:
+- slug: 2026-06-17-femtoai-company-profile
+  title: femtoAI (formerly Femtosense) — company profile, funding, leadership
+  date: '2026-06-17'
+  kind: web
+- slug: 2026-06-17-femtoai-spu-ces2026
+  title: femtoAI to Highlight its Sparse Processing Unit Edge AI Accelerator at CES 2026
+  date: '2026-06-17'
+  kind: web
 - slug: 2026-01-22-ai-chips-computeram-and-the-future
   title: 'AI Chips, ComputeRAM and the Future of Data Movement: A Conversation with Manu, Founder of Synthara'
   date: '2026-01-22'
@@ -60,6 +70,9 @@ Competing inference approaches: standard GPU/TPU inference (mature, high through
 | Neuromorphic (SNN) | ~10–100 pJ | Low-medium | TRL 4–6 |
 | Analog IMC | ~1–10 pJ | Low | TRL 4–5 |
 | Digital GPU/TPU | ~1 nJ | High | Production |
+
+## Where value accrues (vehicle-agnostic)
+Neuromorphic's economic prize is the always-on sensing/inference tier inside devices that cannot afford a GPU's power budget — captured today mostly by the SoC platform owners and the foundries supplying low-leakage process + embedded NVM, not by standalone neuromorphic vendors (the category's base rate is poor; see **Low Power Edge Compute**). The credible substrate is a GF-shaped node: 22FDX / 12LP (low leakage, embedded NVM incl. eMRAM, FD-SOI body-bias) suits the always-on, low-VDD requirement.
 
 ## Companies using
 

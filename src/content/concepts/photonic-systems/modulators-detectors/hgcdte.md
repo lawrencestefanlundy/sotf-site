@@ -28,7 +28,7 @@ sources_30d: 0
 recent_mentions: []
 neighbors:
 - slug: avalanche-photodiode
-  name: Avalanche Photodiode
+  name: Avalanche Photodiode (APD / SPAD)
   path: /sotf-site/photonic-systems/modulators-detectors/avalanche-photodiode/
   macro: photonic-systems
 - slug: mid-ir-photonics

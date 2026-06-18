@@ -30,6 +30,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 2
 sources_30d: 8
 recent_mentions:
+- slug: 2026-06-17-the-self-driving-lab-joseph-krause-radical-ai
+  title: 🔬 The Self-Driving Lab — Joseph Krause, Radical AI
+  date: '2026-06-17'
+  kind: web
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
   title: Carbon Nanotubes in the Datacentre
   date: '2025-11-25'
@@ -57,10 +61,6 @@ recent_mentions:
 - slug: 2022-05-09-elementum-funded-by-darpa-to-develop-am-process-for-rhenium-
   title: Elementum funded by DARPA to develop AM process for rhenium - Metal Additive Manufacturing magazine
   date: '2022-05-09'
-  kind: web
-- slug: 2021-02-04-meta-additive-awarded-innovate-uk-smart-grant-for-bjt-proces
-  title: Meta Additive awarded Innovate UK SMART Grant for BJT process - Metal Additive Manufacturing magazine
-  date: '2021-02-04'
   kind: web
 neighbors: []
 ---

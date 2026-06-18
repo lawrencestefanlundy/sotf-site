@@ -28,6 +28,10 @@ recent_mentions:
   title: NASA’s Quantum Lab Aboard Space Station Gets Chilly Upgrade
   date: '2026-06-16'
   kind: web
+- slug: 2024-01-12-nasa-theres-hope-yet-for-space-based-solar---latitude-media
+  title: 'NASA: There’s hope yet for space-based solar - Latitude Media'
+  date: '2024-01-12'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

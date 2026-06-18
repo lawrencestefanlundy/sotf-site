@@ -24,6 +24,14 @@ recent_mentions:
   title: New York is becoming a plug-in battery test-bed - Latitude Media
   date: '2026-06-15'
   kind: web
+- slug: 2025-09-03-meet-the-grid-equipment-startup-borrowing-from-the-automaker
+  title: Meet the grid equipment startup borrowing from the automaker playbook - Latitude Media
+  date: '2025-09-03'
+  kind: web
+- slug: 2024-01-12-nasa-theres-hope-yet-for-space-based-solar---latitude-media
+  title: 'NASA: There’s hope yet for space-based solar - Latitude Media'
+  date: '2024-01-12'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

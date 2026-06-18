@@ -10,7 +10,8 @@ parent_concepts:
 related_concepts: []
 sources: []
 frontier:
-- ''
+- Does any MRAM-CIM (in-array compute) reach product, or does MRAM stay a cache / eNVM device?
+- How far does eMRAM displace eFlash at advanced nodes?
 last_updated: '2026-05-04'
 tags:
 - concept
@@ -44,7 +45,8 @@ STT-MRAM competes directly with eFlash (dominant embedded NVM below 28 nm, but s
 
 ## Frontier (open questions)
 
-- *To be added.*
+- Does any MRAM-CIM (in-array compute) reach product, or does MRAM stay a cache / eNVM device?
+- How far does eMRAM displace eFlash at advanced nodes?
 
 ## Merged from root duplicate (mram.md at concepts/ root, 2026-06-10)
 

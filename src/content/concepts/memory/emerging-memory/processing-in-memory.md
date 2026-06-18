@@ -32,7 +32,11 @@ tags:
 - map
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-16-cim-landscape-2026
+  title: 'Compute-in-memory landscape 2026: efficiency claims, the digital-readout shift, IDM PIM'
+  date: '2026-06-16'
+  kind: web
 neighbors:
 - slug: in-memory-computing
   name: In-Memory Computing

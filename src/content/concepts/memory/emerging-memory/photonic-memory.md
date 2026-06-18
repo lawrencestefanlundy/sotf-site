@@ -17,7 +17,8 @@ sources:
 - '[[2025-04-16-the-state-of-photonic-computing]]'
 - '[[2026-06-01-hbm-state-of-play]]'
 frontier:
-- ''
+- Does any photonic / optical memory reach high-volume manufacturing this decade?
+- Which pull comes first for photonic memory, compute buffering or interconnect?
 last_updated: '2026-05-04'
 tags:
 - concept
@@ -79,4 +80,5 @@ Microsoft **Project Silica** (5D glass archival), **IBM** (non-volatile optical 
 
 ## Frontier (open questions)
 
-- *To be added.*
+- Does any photonic / optical memory reach high-volume manufacturing this decade?
+- Which pull comes first for photonic memory, compute buffering or interconnect?

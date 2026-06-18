@@ -10,7 +10,8 @@ parent_concepts:
 related_concepts: []
 sources: []
 frontier:
-- ''
+- Can HfO2 FeRAM / FeCAP endurance and retention reach DRAM-replacement bars (FMC DRAM+)?
+- Does FeCAP-based compute become a credible memcapacitor competitor?
 last_updated: '2026-05-04'
 tags:
 - concept
@@ -46,4 +47,5 @@ FeRAM competes directly with MRAM, RRAM/ReRAM, and Flash in the embedded NVM seg
 
 ## Frontier (open questions)
 
-- *To be added.*
+- Can HfO2 FeRAM / FeCAP endurance and retention reach DRAM-replacement bars (FMC DRAM+)?
+- Does FeCAP-based compute become a credible memcapacitor competitor?

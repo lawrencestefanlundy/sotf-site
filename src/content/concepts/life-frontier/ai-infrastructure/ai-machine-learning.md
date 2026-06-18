@@ -19,7 +19,11 @@ mention_count: 26
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-17-the-self-driving-lab-joseph-krause-radical-ai
+  title: 🔬 The Self-Driving Lab — Joseph Krause, Radical AI
+  date: '2026-06-17'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

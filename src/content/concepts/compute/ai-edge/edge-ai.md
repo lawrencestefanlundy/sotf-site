@@ -19,6 +19,8 @@ sources:
 - '[[2024-02-26-micron-hbm3e-volume-production]]'
 - '[[2024-yole-advanced-packaging-2024]]'
 - '[[2026-06-15-gf-investor-day-2026]]'
+- '[[2026-06-17-femtoai-company-profile]]'
+- '[[2026-06-17-femtoai-spu-ces2026]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
@@ -29,9 +31,17 @@ mention_count: 49
 descendants:
 - nvidia-jetson
 last_reorg_date: '2026-05-13'
-sources_7d: 5
-sources_30d: 16
+sources_7d: 7
+sources_30d: 17
 recent_mentions:
+- slug: 2026-06-17-femtoai-company-profile
+  title: femtoAI (formerly Femtosense) — company profile, funding, leadership
+  date: '2026-06-17'
+  kind: web
+- slug: 2026-06-17-femtoai-spu-ces2026
+  title: femtoAI to Highlight its Sparse Processing Unit Edge AI Accelerator at CES 2026
+  date: '2026-06-17'
+  kind: web
 - slug: 2026-06-15-gf-investor-day-2026
   title: GlobalFoundries Investor Day 2026 (presentation)
   date: '2026-06-15'
@@ -56,14 +66,6 @@ recent_mentions:
   title: 'An AI Thesis: State of the Future! Part Deux'
   date: '2024-10-22'
   kind: substack
-- slug: 2024-02-26-micron-hbm3e-volume-production
-  title: Micron Commences Volume Production of Industry-Leading HBM3E Solution to Accelerate the Growth of AI
-  date: '2024-02-26'
-  kind: web
-- slug: 2023-07-23-analog-computing-the-once-and-future
-  title: '🔮 E09: Analog Computing: The Once and Future King'
-  date: '2023-07-23'
-  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism
@@ -79,6 +81,9 @@ Cloud inference (AWS Inferentia, NVIDIA H100 clusters) competes on model capabil
 | Cloud inference | 50–500ms | kW-scale | Production |
 | Edge NPU (digital) | 1–20ms | 0.5–5W | Production |
 | Photonic inference | <1ms (projected) | mW-scale (projected) | Pre-commercial |
+
+## Where value accrues (vehicle-agnostic)
+The largest, most durable value in edge AI sits with the platform owners who bundle the NPU into an SoC they already ship (Qualcomm, Apple, MediaTek, Arm via IP, NXP/ST/TI in industrial+auto) and the foundries that supply the low-power process + embedded NVM. Standalone edge-inference silicon is a graveyard (see **Low Power Edge Compute**): the honestly-capturable wedge is the sub-watt, no-HBM, memory-device niche merchant NPUs cannot serve, sold as a component.
 
 ## Companies using
 

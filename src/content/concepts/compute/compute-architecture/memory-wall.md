@@ -22,7 +22,11 @@ tags:
 - concept
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-16-hbm-supercycle-2026
+  title: 'HBM supercycle 2026: sold out, +20% pricing, HBM4 ramp, ASIC-HBM 35x'
+  date: '2026-06-16'
+  kind: web
 neighbors:
 - slug: von-neumann-bottleneck
   name: Von Neumann Bottleneck

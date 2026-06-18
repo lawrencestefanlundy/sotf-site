@@ -28,6 +28,7 @@ descendants:
 - mid-ir-photonics
 - photodetector
 - pic-packaging-stack
+- uni-traveling-carrier-photodiode
 sources_7d: 2
 sources_30d: 26
 recent_mentions:

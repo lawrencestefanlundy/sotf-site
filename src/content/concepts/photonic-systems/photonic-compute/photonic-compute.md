@@ -21,7 +21,8 @@ sources:
 - '[[2025-07-14-solving-compute-crisis-physics-based-asics]]'
 - '[[2023-03-29-oxford-spinout-lumai-secures-11m-grant-to-power-optical-comp]]'
 frontier:
-- ''
+- Does photonic compute ship as more than a MAC / interconnect co-processor by 2028?
+- Can photonic memory leave lab-stage and remove the electronic-working-memory dependency?
 last_updated: '2026-05-04'
 tags:
 - concept
@@ -114,4 +115,5 @@ Adjacent (not optical compute): in-memory SRAM (Mythic), neuromorphic (Loihi, No
 
 ## Frontier (open questions)
 
-- *To be added.*
+- Does photonic compute ship as more than a MAC / interconnect co-processor by 2028?
+- Can photonic memory leave lab-stage and remove the electronic-working-memory dependency?

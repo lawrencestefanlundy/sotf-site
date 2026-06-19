@@ -17,26 +17,20 @@ sources:
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
-- '[[2026-05-30-optical-interconnect-ma-ledger]]'
-- '[[2026-06-04-nist-researchers-discover-a-new-way-to-whisk-alloys-together]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 134
+mention_count: 142
 last_reorg_date: '2026-05-13'
 descendants:
 - external-laser-source
 - laser-display-light-engines
-sources_7d: 4
-sources_30d: 37
+sources_7d: 10
+sources_30d: 39
 recent_mentions:
-- slug: 2026-06-16-astronaut-jessica-meir-assists-with-hardware-updates-for-nas
-  title: Astronaut Jessica Meir Assists With Hardware Updates for NASA’s Cold Atom Lab
-  date: '2026-06-16'
-  kind: web
 - slug: 2026-06-16-trapped-ion-landscape-2026
   title: Trapped-ion quantum computing landscape 2026 (vendors, scale, integrated photonics)
   date: '2026-06-16'
@@ -64,6 +58,10 @@ recent_mentions:
 - slug: 2026-02-02-photonic-engines-for-data-centers
   title: Photonic "Engines" for Data Centers
   date: '2026-02-02'
+  kind: substack
+- slug: 2025-12-19-lfg-for-semiconductors
+  title: LFG (for semiconductors)
+  date: '2025-12-19'
   kind: substack
 neighbors: []
 ---

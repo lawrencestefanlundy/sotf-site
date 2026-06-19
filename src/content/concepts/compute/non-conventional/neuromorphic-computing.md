@@ -10,11 +10,11 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2025-09-23-the-compute-gradient]]'
-- '[[2026-06-17-femtoai-company-profile]]'
 - '[[2023-06-23-e05-the-future-of-edge-ai-brain-inspired]]'
 - '[[2023-06-30-e06-the-model-t-moment-for-bits-llms]]'
 - '[[2023-07-23-analog-computing-the-once-and-future]]'
 - '[[2026-01-22-ai-chips-computeram-and-the-future]]'
+- '[[2026-06-17-femtoai-spu-ces2026]]'
 frontier:
 - Does any spiking / neuromorphic chip find a volume socket beyond research and niche sensing?
 - Do analog / memcapacitor devices become the substrate for neuromorphic, or stay separate?
@@ -22,15 +22,13 @@ last_updated: '2026-06-09'
 tags:
 - concept
 - technology
-mention_count: 35
+mention_count: 36
 last_reorg_date: '2026-05-14'
+descendants:
+- spiking-neural-networks
 sources_7d: 2
 sources_30d: 15
 recent_mentions:
-- slug: 2026-06-17-femtoai-company-profile
-  title: femtoAI (formerly Femtosense) — company profile, funding, leadership
-  date: '2026-06-17'
-  kind: web
 - slug: 2026-06-17-femtoai-spu-ces2026
   title: femtoAI to Highlight its Sparse Processing Unit Edge AI Accelerator at CES 2026
   date: '2026-06-17'

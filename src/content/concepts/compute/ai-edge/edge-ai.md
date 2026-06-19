@@ -16,10 +16,11 @@ sources:
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
+- '[[2026-06-17-femtoai-company-profile]]'
+- '[[2026-06-18-sensifai-hybrids-deck]]'
 - '[[2024-02-26-micron-hbm3e-volume-production]]'
 - '[[2024-yole-advanced-packaging-2024]]'
 - '[[2026-06-15-gf-investor-day-2026]]'
-- '[[2026-06-17-femtoai-company-profile]]'
 - '[[2026-06-17-femtoai-spu-ces2026]]'
 frontier:
 - ''
@@ -27,13 +28,17 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - framework
-mention_count: 49
+mention_count: 52
 descendants:
 - nvidia-jetson
 last_reorg_date: '2026-05-13'
-sources_7d: 7
-sources_30d: 17
+sources_7d: 8
+sources_30d: 18
 recent_mentions:
+- slug: 2026-06-18-sensifai-hybrids-deck
+  title: SensifAI — Funding Round deck (sensifai.vercel.app/hybrids)
+  date: '2026-06-18'
+  kind: web
 - slug: 2026-06-17-femtoai-company-profile
   title: femtoAI (formerly Femtosense) — company profile, funding, leadership
   date: '2026-06-17'
@@ -61,10 +66,6 @@ recent_mentions:
 - slug: 2024-10-29-deploy-intelligence-too-cheap-to
   title: Deploy! Intelligence too cheap to meter @ $0.0001 per million tokens.
   date: '2024-10-29'
-  kind: substack
-- slug: 2024-10-22-state-of-the-future-part-deux
-  title: 'An AI Thesis: State of the Future! Part Deux'
-  date: '2024-10-22'
   kind: substack
 neighbors: []
 ---

@@ -46,7 +46,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 571
+mention_count: 614
 descendants:
 - 3d-dram
 - adc-bottleneck
@@ -77,9 +77,21 @@ descendants:
 - sram-cim
 - storage-class-memory
 last_reorg_date: '2026-05-14'
-sources_7d: 2
-sources_30d: 10
+sources_7d: 6
+sources_30d: 14
 recent_mentions:
+- slug: 2026-06-18-sensifai-hybrids-deck
+  title: SensifAI — Funding Round deck (sensifai.vercel.app/hybrids)
+  date: '2026-06-18'
+  kind: web
+- slug: 2026-06-16-cim-landscape-2026
+  title: 'Compute-in-memory landscape 2026: efficiency claims, the digital-readout shift, IDM PIM'
+  date: '2026-06-16'
+  kind: web
+- slug: 2026-06-16-hbm-supercycle-2026
+  title: 'HBM supercycle 2026: sold out, +20% pricing, HBM4 ramp, ASIC-HBM 35x'
+  date: '2026-06-16'
+  kind: web
 - slug: 2026-06-15-gf-investor-day-2026
   title: GlobalFoundries Investor Day 2026 (presentation)
   date: '2026-06-15'
@@ -99,18 +111,6 @@ recent_mentions:
 - slug: 2026-06-04-tmr-sensors-sub-pt-detectivity-biomagnetic-review
   title: Tunnel-magnetoresistance sensors with sub-pT detectivity for detecting bio-magnetic fields
   date: '2026-06-04'
-  kind: web
-- slug: 2026-06-04-globalfoundries-emram-22fdx-availability
-  title: GLOBALFOUNDRIES Announces Availability of Embedded MRAM on Leading 22FDX FD-SOI Platform
-  date: '2026-06-04'
-  kind: web
-- slug: 2026-06-03-tendrils-compute
-  title: Tendrils Compute — company site (about / background / jobs)
-  date: '2026-06-03'
-  kind: web
-- slug: 2026-06-02-agentic-runtime-silicon-necessity
-  title: Deep-research dossier — does the stateful agent runtime / control-plane layer need a novel silicon primitive?
-  date: '2026-06-02'
   kind: web
 neighbors: []
 ---

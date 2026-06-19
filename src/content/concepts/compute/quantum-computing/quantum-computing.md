@@ -31,7 +31,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 260
+mention_count: 275
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -49,24 +49,12 @@ descendants:
 - topological-qubits
 - trapped-ion
 last_reorg_date: '2026-05-13'
-sources_7d: 12
+sources_7d: 13
 sources_30d: 44
 recent_mentions:
-- slug: 2026-06-16-seeqc-awarded-participation-in-us-chips-actbacked-microelect
-  title: SEEQC Awarded Participation in U.S. CHIPS Act–Backed Microelectronics Commons NORDTECH Quantum R&D Program - The Quantum Insider
-  date: '2026-06-16'
-  kind: web
-- slug: 2026-06-16-nancy-pelosi-stock-tracker-highlights-d-waves-35-surge-since
-  title: Nancy Pelosi Stock Tracker Highlights D-Wave's 35% Surge Since $100 Million CHIPS Act Investment - Benzinga
-  date: '2026-06-16'
-  kind: web
-- slug: 2026-06-16-astronaut-jessica-meir-assists-with-hardware-updates-for-nas
-  title: Astronaut Jessica Meir Assists With Hardware Updates for NASA’s Cold Atom Lab
-  date: '2026-06-16'
-  kind: web
-- slug: 2026-06-16-nasas-quantum-lab-aboard-space-station-gets-chilly-upgrade
-  title: NASA’s Quantum Lab Aboard Space Station Gets Chilly Upgrade
-  date: '2026-06-16'
+- slug: 2026-06-17-sandboxaq-secures-500-million-chips-act-rd-award-to-insulate
+  title: SandboxAQ Secures $500 Million CHIPS Act R&D Award to Insulate Semiconductor Supply Chains - Quantum Computing Report
+  date: '2026-06-17'
   kind: web
 - slug: 2026-06-16-trapped-ion-landscape-2026
   title: Trapped-ion quantum computing landscape 2026 (vendors, scale, integrated photonics)
@@ -76,13 +64,25 @@ recent_mentions:
   title: SEEQC Secures Role in CHIPS Act-Funded NORDTECH Quantum Scaling Project - Quantum Computing Report
   date: '2026-06-16'
   kind: web
-- slug: 2026-06-16-chips-act-funding-and-gate-model-roadmap-could-be-a-game-cha
-  title: CHIPS Act Funding And Gate-Model Roadmap Could Be A Game Changer For D-Wave Quantum (QBTS) - simplywall.st
-  date: '2026-06-16'
+- slug: 2026-06-01-ncsc-nsa-qkd-vs-pqc
+  title: 'NCSC / NSA position: QKD not endorsed, post-quantum cryptography is the recommended mitigation'
+  date: '2026-06-01'
   kind: web
-- slug: 2026-06-16-seeqc-joins-us-chips-actbacked-effort-to-advance-scalable-qu
-  title: SEEQC Joins U.S. CHIPS Act–Backed Effort to Advance Scalable Quantum Chip Manufacturing - citybiz
-  date: '2026-06-16'
+- slug: 2026-06-01-nibras-ucl-chipstart
+  title: UCL EEE ventures selected for national ChipStart programme (incl. Nibras Communications)
+  date: '2026-06-01'
+  kind: web
+- slug: 2026-05-28-arxiv-quantum-annealing-for-realistic-traffic-flow-optimization-cl
+  title: 'Quantum Annealing for Realistic Traffic Flow Optimization: Clustering and Data-Driven QUBO'
+  date: '2026-05-28'
+  kind: paper
+- slug: 2026-05-24-mose2-exciton-polariton-all-optical-switch
+  title: New light-based switch could cut chip energy use and speed future AI photonics
+  date: '2026-05-24'
+  kind: web
+- slug: 2026-05-21-doc-2bn-9-companies-quantum
+  title: Department of Commerce Announces Letters of Intent With 9 Companies for $2 Billion to Accelerate U.S. Leadership in Quantum Computing
+  date: '2026-05-21'
   kind: web
 neighbors: []
 ---

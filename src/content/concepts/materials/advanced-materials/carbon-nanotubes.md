@@ -13,25 +13,18 @@ sources:
 - '[[2025-07-01-a-primer-carbon-nanotubes]]'
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2025-04-30-has-the-time-come-to-take-mortal]]'
+- '[[2026-06-17-nawah-vacnt-technology]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 21
+mention_count: 22
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 6
+sources_7d: 2
+sources_30d: 7
 recent_mentions:
-- slug: 2026-06-17-carbice-noctua-amd-consumer-tim
-  title: Carbice VACNT thermal pad goes consumer — AMD Ryzen bundle + Noctua distribution
-  date: '2026-06-17'
-  kind: web
-- slug: 2026-06-17-cnt-array-tim-thermal-aging-degradation
-  title: 'Degradation of Carbon Nanotube Array TIMs through Thermal Aging: Bonding, Array Height, Catalyst Oxidation'
-  date: '2026-06-17'
-  kind: web
 - slug: 2026-06-17-nawah-vacnt-technology
   title: NAWAH Architectured Nanomaterials — VACNT technology & positioning
   date: '2026-06-17'

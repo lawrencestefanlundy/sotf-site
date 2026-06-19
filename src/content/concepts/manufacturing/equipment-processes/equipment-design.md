@@ -19,11 +19,7 @@ mention_count: 52
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2025-09-03-meet-the-grid-equipment-startup-borrowing-from-the-automaker
-  title: Meet the grid equipment startup borrowing from the automaker playbook - Latitude Media
-  date: '2025-09-03'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

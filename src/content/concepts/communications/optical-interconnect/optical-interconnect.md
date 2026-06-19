@@ -36,10 +36,6 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 6
 recent_mentions:
-- slug: 2026-06-17-sjtu-ge-si-photodetector-110ghz-fowlp
-  title: Shanghai Jiao Tong University creates reconfigurable Ge-Si photodetector for high-speed datacoms
-  date: '2026-06-17'
-  kind: web
 - slug: 2026-05-30-optical-interconnect-ma-ledger
   title: Optical-interconnect / photonic-packaging M&A ledger (2019-2026)
   date: '2026-05-30'
@@ -47,10 +43,6 @@ recent_mentions:
 - slug: 2026-04-15-semianalysis-isscc-2026
   title: 'ISSCC 2026: NVIDIA & Broadcom CPO, HBM4 & LPDDR6, TSMC Active LSI, Logic-Based SRAM, UCIe-S and More'
   date: '2026-04-15'
-  kind: web
-- slug: 2026-06-17-sivers-onet-enablence-external-light-source-cpo
-  title: Sivers, O-Net and Enablence partner to develop external light sources for AI data centers
-  date: '2026-03-17'
   kind: web
 - slug: 2026-02-02-photonic-engines-for-data-centers
   title: Photonic "Engines" for Data Centers
@@ -60,14 +52,22 @@ recent_mentions:
   title: Carbon Nanotubes in the Datacentre
   date: '2025-11-25'
   kind: substack
-- slug: 2025-10-19-optical-lan-meets-ruckus-wireless-nokiacom---nokia
-  title: Optical LAN meets RUCKUS Wireless | Nokia.com - Nokia
-  date: '2025-10-19'
-  kind: web
 - slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
   title: 'UK Opportunity in AI: Compound Semiconductors'
   date: '2025-09-10'
   kind: substack
+- slug: 2026-05-30-opsydia-glass-waveguide-packaging
+  title: Opsydia — Oxford spinout, laser-written glass waveguides, pre-Series A (Jul 2025)
+  date: '2025-07-30'
+  kind: web
+- slug: 2025-04-16-the-state-of-photonic-computing
+  title: 'Photonic Computing: A Primer'
+  date: '2025-04-16'
+  kind: substack
+- slug: 2026-05-30-intel-glass-substrates-program
+  title: Intel Unveils Industry-Leading Glass Substrates (+ Jan 2026 EMIB+glass demo status)
+  date: '2023-09-18'
+  kind: web
 neighbors:
 - slug: optical-circuit-switching
   name: Optical Circuit Switching (OCS)

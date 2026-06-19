@@ -12,6 +12,7 @@ sources:
 - '[[2025-04-16-the-state-of-photonic-computing]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
+- '[[2026-03-31-memq-10m-series-a]]'
 - '[[2026-06-01-nibras-ucl-chipstart]]'
 frontier:
 - ''
@@ -19,7 +20,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 99
+mention_count: 102
 last_reorg_date: '2026-05-13'
 descendants:
 - avalanche-photodiode
@@ -29,12 +30,16 @@ descendants:
 - photodetector
 - pic-packaging-stack
 - uni-traveling-carrier-photodiode
-sources_7d: 2
-sources_30d: 26
+sources_7d: 4
+sources_30d: 28
 recent_mentions:
 - slug: 2026-06-01-nibras-ucl-chipstart
   title: UCL EEE ventures selected for national ChipStart programme (incl. Nibras Communications)
   date: '2026-06-01'
+  kind: web
+- slug: 2026-03-31-memq-10m-series-a
+  title: memQ Raises $10 Million in Series A
+  date: '2026-03-31'
   kind: web
 - slug: 2025-12-09-gallium-nitride-photonics-w-james
   title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics

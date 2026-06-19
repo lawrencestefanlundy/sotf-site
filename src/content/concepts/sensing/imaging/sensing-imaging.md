@@ -21,21 +21,21 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
-- slug: 2026-06-16-astronaut-jessica-meir-assists-with-hardware-updates-for-nas
-  title: Astronaut Jessica Meir Assists With Hardware Updates for NASA’s Cold Atom Lab
-  date: '2026-06-16'
+- slug: 2026-06-18-nasa-testing-advanced-capabilities-for-moon-mars-rovers
+  title: NASA Testing Advanced Capabilities for Moon, Mars Rovers
+  date: '2026-06-18'
   kind: web
-- slug: 2026-06-16-nasas-quantum-lab-aboard-space-station-gets-chilly-upgrade
-  title: NASA’s Quantum Lab Aboard Space Station Gets Chilly Upgrade
-  date: '2026-06-16'
+- slug: 2026-06-18-desert-field-test-with-nasa-advanced-rover-prototype
+  title: Desert Field Test With NASA Advanced Rover Prototype
+  date: '2026-06-18'
   kind: web
-- slug: 2026-01-13-diffraqtion-secures-42-million-to-deploy-quantum-camera-cons
-  title: Diffraqtion Secures $4.2 Million to Deploy Quantum Camera Constellations for SDA - satnews.com
-  date: '2026-01-13'
+- slug: 2026-06-18-nasa-mission-to-study-space-weather-impacts-of-earths-atmosp
+  title: NASA Mission to Study Space Weather Impacts of Earth’s Atmosphere
+  date: '2026-06-18'
   kind: web
-- slug: 2024-01-12-nasa-theres-hope-yet-for-space-based-solar---latitude-media
-  title: 'NASA: There’s hope yet for space-based solar - Latitude Media'
-  date: '2024-01-12'
+- slug: 2026-06-18-nasa-awards-contract-for-commercial-satellite-data-acquisiti
+  title: NASA Awards Contract for Commercial Satellite Data Acquisition
+  date: '2026-06-18'
   kind: web
 neighbors: []
 ---

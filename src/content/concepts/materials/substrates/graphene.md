@@ -26,10 +26,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 96
+mention_count: 103
 last_reorg_date: '2026-05-13'
-sources_7d: 11
-sources_30d: 31
+sources_7d: 17
+sources_30d: 38
 recent_mentions:
 - slug: 2026-06-04-fulfilling-the-promise-of-graphene---enterprisecamacuk
   title: Fulfilling the promise of graphene - enterprise.cam.ac.uk

@@ -79,17 +79,17 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
-- slug: 2026-06-15-new-york-is-becoming-a-plug-in-battery-test-bed---latitude-m
-  title: New York is becoming a plug-in battery test-bed - Latitude Media
-  date: '2026-06-15'
+- slug: 2026-06-18-enter-the-electric-supercycle---latitude-media
+  title: Enter the electric supercycle - Latitude Media
+  date: '2026-06-18'
   kind: web
-- slug: 2025-09-03-meet-the-grid-equipment-startup-borrowing-from-the-automaker
-  title: Meet the grid equipment startup borrowing from the automaker playbook - Latitude Media
-  date: '2025-09-03'
+- slug: 2026-02-18-the-race-for-the-100-hour-battery-has-new-entrants---latitud
+  title: The race for the 100-hour battery has new entrants - Latitude Media
+  date: '2026-02-18'
   kind: web
-- slug: 2024-01-12-nasa-theres-hope-yet-for-space-based-solar---latitude-media
-  title: 'NASA: There’s hope yet for space-based solar - Latitude Media'
-  date: '2024-01-12'
+- slug: 2024-10-09-form-energy-brings-in-more-cash-as-it-prepares-for-mass-batt
+  title: Form Energy brings in more cash as it prepares for mass battery deployment - Latitude Media
+  date: '2024-10-09'
   kind: web
 neighbors: []
 ---

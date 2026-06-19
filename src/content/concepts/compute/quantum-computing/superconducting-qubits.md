@@ -19,10 +19,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 33
+mention_count: 36
 last_reorg_date: '2026-05-13'
-sources_7d: 3
-sources_30d: 8
+sources_7d: 6
+sources_30d: 11
 recent_mentions:
 - slug: 2025-09-18-qphox-and-rigetti-awarded-58m-contract-from-afrl-to-enable-o
   title: QphoX and Rigetti awarded $5.8M Contract from AFRL to enable optical networks of superconducting qubits - TU Delft

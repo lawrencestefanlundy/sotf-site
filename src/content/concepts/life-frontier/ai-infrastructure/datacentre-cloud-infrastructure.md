@@ -20,13 +20,9 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
-- slug: 2026-04-19-taiwan-networking-firms-post-strong-1q26-results-on-data-cen
-  title: Taiwan networking firms post strong 1Q26 results on data center, Wi-Fi 7 demand - digitimes
-  date: '2026-04-19'
-  kind: web
-- slug: 2026-01-08-indonesia-arena-gbk-and-cisco-deploy-wi-fi-7---frontier-ente
-  title: Indonesia Arena GBK and Cisco deploy Wi-Fi 7 - Frontier Enterprise
-  date: '2026-01-08'
+- slug: 2026-06-18-blaming-china-for-datacenter-nimbyism-is-cope
+  title: Blaming China for Datacenter NIMBYism Is Cope
+  date: '2026-06-18'
   kind: web
 neighbors: []
 ---

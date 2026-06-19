@@ -36,7 +36,7 @@ last_updated: '2026-05-07'
 tags:
 - concept
 - theme
-mention_count: 675
+mention_count: 697
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -46,9 +46,13 @@ descendants:
 - optical-frequency-division
 - optoelectronic-oscillator
 last_reorg_date: '2026-05-13'
-sources_7d: 2
-sources_30d: 9
+sources_7d: 5
+sources_30d: 11
 recent_mentions:
+- slug: 2026-06-17-single-photon-detector-market-spad-snspd
+  title: Single-photon detector market aggregation — SPAD, SiPM, SNSPD (2024–2035)
+  date: '2026-06-17'
+  kind: web
 - slug: 2026-06-16-trapped-ion-landscape-2026
   title: Trapped-ion quantum computing landscape 2026 (vendors, scale, integrated photonics)
   date: '2026-06-16'
@@ -76,10 +80,6 @@ recent_mentions:
 - slug: 2026-06-03-new-stock-god-serenity-photonics-related-stocks-may-graduall
   title: '''New Stock God'' Serenity: Photonics-related stocks may gradually benefit within 3 to 15 months after the release of the EU CHIPS Act - Bitget'
   date: '2026-06-03'
-  kind: web
-- slug: 2026-06-02-new-stock-god-serenity-photonics-related-stocks-may-graduall
-  title: '''New Stock God'' Serenity: Photonics-related stocks may gradually benefit within 3 to 15 months after the release of the EU CHIPS Act - Bitget'
-  date: '2026-06-02'
   kind: web
 neighbors: []
 ---

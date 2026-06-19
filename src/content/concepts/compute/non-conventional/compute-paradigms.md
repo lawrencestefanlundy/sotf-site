@@ -20,6 +20,7 @@ descendants:
 - coherent-ising-machine
 - combinatorial-optimisation
 - coupled-oscillator-networks
+- interaction-nets
 - near-field-rf-coupling
 - physics-native-compute
 - von-neumann-bottleneck

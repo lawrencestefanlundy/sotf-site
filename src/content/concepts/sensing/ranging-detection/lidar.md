@@ -12,6 +12,7 @@ sources:
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2026-06-08-semianalysis-unitree-robotics]]'
 - '[[2026-05-31-companiesmarketcap]]'
+- '[[2026-06-17-single-photon-detector-market-spad-snspd]]'
 - '[[2026-05-30-companiesmarketcap]]'
 frontier:
 - ''
@@ -19,10 +20,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 46
+mention_count: 52
 last_reorg_date: '2026-05-13'
-sources_7d: 2
-sources_30d: 17
+sources_7d: 8
+sources_30d: 23
 recent_mentions:
 - slug: 2026-06-17-single-photon-detector-market-spad-snspd
   title: Single-photon detector market aggregation — SPAD, SiPM, SNSPD (2024–2035)

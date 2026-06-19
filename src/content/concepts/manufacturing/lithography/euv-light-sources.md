@@ -32,10 +32,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 58
+mention_count: 61
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 14
+sources_7d: 3
+sources_30d: 16
 recent_mentions:
 - slug: 2026-06-14-semianalysis-smic-n3-vs-intel-18a
   title: Is SMIC N+3's Metal Pitch Smaller than Intel 18A's?

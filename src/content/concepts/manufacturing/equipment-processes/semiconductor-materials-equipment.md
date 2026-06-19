@@ -24,27 +24,7 @@ descendants:
 - stm
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-06-16-europes-chips-act-20-europes-attempt-to-move-up-the-value-ch
-  title: 'Europe’s Chips Act 2.0: Europe’s attempt to move up the value chain while deepening alignment with trusted partners - GLOBSEC'
-  date: '2026-06-16'
-  kind: web
-- slug: 2026-06-16-coherent-in-spotlight-as-it-signs-letter-of-intent-for-50m-i
-  title: Coherent in spotlight as it signs letter of intent for $50M in funding from Chips Act (COHR:NYSE) - Seeking Alpha
-  date: '2026-06-16'
-  kind: web
-- slug: 2026-04-19-taiwan-networking-firms-post-strong-1q26-results-on-data-cen
-  title: Taiwan networking firms post strong 1Q26 results on data center, Wi-Fi 7 demand - digitimes
-  date: '2026-04-19'
-  kind: web
-- slug: 2023-04-18-eu-takes-on-united-states-asia-with-chip-subsidy-plan---reut
-  title: EU takes on United States, Asia with chip subsidy plan - Reuters
-  date: '2023-04-18'
-  kind: web
-- slug: 2022-06-30-how-a-european-chips-act-will-put-europe-back-in-the-tech-ra
-  title: How a European Chips Act will put Europe back in the tech race | Past events | Events | Think Tank - European Parliament
-  date: '2022-06-30'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

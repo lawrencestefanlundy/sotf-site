@@ -19,11 +19,7 @@ mention_count: 22
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-01-13-diffraqtion-secures-42-million-to-deploy-quantum-camera-cons
-  title: Diffraqtion Secures $4.2 Million to Deploy Quantum Camera Constellations for SDA - satnews.com
-  date: '2026-01-13'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

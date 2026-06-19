@@ -20,10 +20,12 @@ sources:
 - '[[2026-06-01-hbm-state-of-play]]'
 - '[[2026-05-30-osat-market-structure]]'
 - '[[2026-05-30-teramount-50m-molex-acquisition]]'
+- '[[2026-06-17-sivers-onet-enablence-external-light-source-cpo]]'
 - '[[2026-05-02-co-packaged-optics-2026-2036-idtechex]]'
 - '[[2026-05-02-cpo-market-and-tech-update-cignal-ai-feb-2025]]'
 - '[[2024-yole-advanced-packaging-2024]]'
 - '[[2026-05-02-cpo-book-semianalysis]]'
+- '[[2026-06-17-sjtu-ge-si-photodetector-110ghz-fowlp]]'
 - '[[2026-06-15-gf-investor-day-2026]]'
 - '[[2026-04-15-semianalysis-isscc-2026]]'
 - '[[2026-05-30-senko-gf-cpo-detachable-fiber]]'
@@ -33,10 +35,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 75
+mention_count: 80
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 17
+sources_7d: 5
+sources_30d: 22
 recent_mentions:
 - slug: 2026-06-17-sjtu-ge-si-photodetector-110ghz-fowlp
   title: Shanghai Jiao Tong University creates reconfigurable Ge-Si photodetector for high-speed datacoms

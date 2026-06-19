@@ -19,19 +19,7 @@ mention_count: 80
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-06-16-astronaut-jessica-meir-assists-with-hardware-updates-for-nas
-  title: Astronaut Jessica Meir Assists With Hardware Updates for NASA’s Cold Atom Lab
-  date: '2026-06-16'
-  kind: web
-- slug: 2026-06-16-nasas-quantum-lab-aboard-space-station-gets-chilly-upgrade
-  title: NASA’s Quantum Lab Aboard Space Station Gets Chilly Upgrade
-  date: '2026-06-16'
-  kind: web
-- slug: 2024-01-12-nasa-theres-hope-yet-for-space-based-solar---latitude-media
-  title: 'NASA: There’s hope yet for space-based solar - Latitude Media'
-  date: '2024-01-12'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

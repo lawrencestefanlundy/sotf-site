@@ -15,11 +15,13 @@ sources:
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
 - '[[2024-yole-emerging-memories-2024]]'
+- '[[2026-06-17-femtoai-company-profile]]'
 - '[[2024-yole-thermal-management-2024]]'
 - '[[2024-02-26-micron-hbm3e-volume-production]]'
 - '[[2024-yole-advanced-packaging-2024]]'
 - '[[2024-idtechex-thermal-interface-materials-2026-2036]]'
 - '[[2026-01-08-semianalysis-apple-tsmc]]'
+- '[[2026-06-17-femtoai-spu-ces2026]]'
 - '[[2024-tsmc-cowos-roadmap-disclosure]]'
 frontier:
 - ''
@@ -27,11 +29,19 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 72
+mention_count: 75
 last_reorg_date: '2026-05-14'
-sources_7d: 0
-sources_30d: 4
+sources_7d: 2
+sources_30d: 7
 recent_mentions:
+- slug: 2026-06-17-femtoai-company-profile
+  title: femtoAI (formerly Femtosense) — company profile, funding, leadership
+  date: '2026-06-17'
+  kind: web
+- slug: 2026-06-17-femtoai-spu-ces2026
+  title: femtoAI to Highlight its Sparse Processing Unit Edge AI Accelerator at CES 2026
+  date: '2026-06-17'
+  kind: web
 - slug: 2026-01-08-semianalysis-apple-tsmc
   title: 'Apple-TSMC: The Partnership That Built Modern Semiconductors'
   date: '2026-01-08'
@@ -56,14 +66,6 @@ recent_mentions:
   title: 'An AI Thesis: State of the Future! Part Deux'
   date: '2024-10-22'
   kind: substack
-- slug: 2024-yole-emerging-memories-2024
-  title: Yole Group — Emerging Non-Volatile Memories 2024
-  date: '2024-10-15'
-  kind: web
-- slug: 2024-yole-thermal-management-2024
-  title: Yole Group — Thermal Management 2024 Market Analysis
-  date: '2024-10-01'
-  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

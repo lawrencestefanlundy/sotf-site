@@ -21,11 +21,7 @@ descendants: []
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2025-09-14-mediatek-filogic-series-explained-wi-fi-6-wi-fi-6e-wi-fi-7-c
-  title: 'MediaTek Filogic series explained: Wi-Fi 6, Wi-Fi 6E & Wi-Fi 7 chipsets - MediaTek'
-  date: '2025-09-14'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

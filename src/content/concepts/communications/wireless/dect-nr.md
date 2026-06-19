@@ -17,6 +17,7 @@ sources:
 - '[[2024-02-26-nordic-nrf9151-a-smaller-lte-mnb-iot-and-dect-nr-sip-with-en]]'
 - '[[2024-06-03-conexio-stratus-pro-a-battery-powered-nrf9161-development-ki]]'
 - '[[2024-01-15-nordics-nrf9161-sip-and-dk-add-additional-lte-bands-and-redu]]'
+- '[[2026-06-12-dect-nr-demystified---sennheiser]]'
 - '[[2024-01-29-nordics-nrf9161-sip-and-dk-support-cellular-iot-and-dect-nr-]]'
 - '[[2026-05-07-stratum-9-launches-first-industrial-grade-dect-nr-gateway---]]'
 - '[[2024-11-15-conexio-stratus-pro-nrf9151-low-power-iot-development-kit-su]]'
@@ -34,11 +35,15 @@ last_updated: '2026-06-05'
 tags:
 - concept
 - technology
-mention_count: 21
+mention_count: 22
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 0
+sources_30d: 1
 recent_mentions:
+- slug: 2026-06-12-dect-nr-demystified---sennheiser
+  title: DECT NR+ demystified - Sennheiser
+  date: '2026-06-12'
+  kind: web
 - slug: 2026-05-07-stratum-9-launches-first-industrial-grade-dect-nr-gateway---
   title: STRATUM 9 Launches First Industrial-Grade DECT NR+ Gateway - openPR.com
   date: '2026-05-07'
@@ -66,10 +71,6 @@ recent_mentions:
 - slug: 2025-11-03-sennheiser-experts-to-explore-dect-nr-opportunities-at-dect-
   title: Sennheiser experts to explore DECT NR+ opportunities at DECT World 2025 - Inavate
   date: '2025-11-03'
-  kind: web
-- slug: 2025-10-23-merci-project-takes-dect-nr-from-vision-to-reality---sennhei
-  title: MERCI project takes DECT NR+ from vision to reality - Sennheiser
-  date: '2025-10-23'
   kind: web
 neighbors: []
 ---

@@ -36,7 +36,7 @@ last_updated: '2026-05-07'
 tags:
 - concept
 - theme
-mention_count: 697
+mention_count: 707
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -49,6 +49,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 5
 sources_30d: 11
 recent_mentions:
+- slug: 2026-06-18-us-backs-photonics-expansion-for-ai-data-centres-under-chips
+  title: US backs photonics expansion for AI data centres under CHIPS Act - Digital Watch Observatory
+  date: '2026-06-18'
+  kind: web
 - slug: 2026-06-17-single-photon-detector-market-spad-snspd
   title: Single-photon detector market aggregation — SPAD, SiPM, SNSPD (2024–2035)
   date: '2026-06-17'
@@ -76,10 +80,6 @@ recent_mentions:
 - slug: 2026-06-13-next-gen-geothermal-research
   title: Next-gen geothermal (EGS / closed-loop / superhot mm-wave) — research sweep (Jun 2026)
   date: '2026-06-13'
-  kind: web
-- slug: 2026-06-03-new-stock-god-serenity-photonics-related-stocks-may-graduall
-  title: '''New Stock God'' Serenity: Photonics-related stocks may gradually benefit within 3 to 15 months after the release of the EU CHIPS Act - Bitget'
-  date: '2026-06-03'
   kind: web
 neighbors: []
 ---

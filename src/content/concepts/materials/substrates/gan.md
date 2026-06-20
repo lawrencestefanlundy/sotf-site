@@ -28,43 +28,11 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 88
+mention_count: 89
 last_reorg_date: '2026-05-13'
-sources_7d: 13
+sources_7d: 14
 sources_30d: 24
-recent_mentions:
-- slug: 2026-06-15-gf-investor-day-2026
-  title: GlobalFoundries Investor Day 2026 (presentation)
-  date: '2026-06-15'
-  kind: web
-- slug: 2026-05-26-semianalysis-800vdc-revolution
-  title: Inside the 800VDC Revolution – Part 1
-  date: '2026-05-26'
-  kind: web
-- slug: 2026-04-20-fixing-the-gan-problem
-  title: Fixing the GaN Problem
-  date: '2026-04-20'
-  kind: web
-- slug: 2025-12-19-lfg-for-semiconductors
-  title: LFG (for semiconductors)
-  date: '2025-12-19'
-  kind: substack
-- slug: 2025-12-09-gallium-nitride-photonics-w-james
-  title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
-  date: '2025-12-09'
-  kind: substack
-- slug: 2025-12-02-the-future-of-computing-is-glass
-  title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
-  date: '2025-12-02'
-  kind: substack
-- slug: 2025-10-09-a-specific-theory-of-sovereign-ai
-  title: A Specific Theory of Sovereign AI
-  date: '2025-10-09'
-  kind: substack
-- slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
-  title: 'UK Opportunity in AI: Compound Semiconductors'
-  date: '2025-09-10'
-  kind: substack
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

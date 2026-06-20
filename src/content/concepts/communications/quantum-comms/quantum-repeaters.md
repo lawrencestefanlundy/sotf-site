@@ -19,31 +19,7 @@ mention_count: 0
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-03-31-memq-10m-series-a
-  title: memQ Raises $10 Million in Series A
-  date: '2026-03-31'
-  kind: web
-- slug: 2026-01-14-welinq-qdrive-first-sale-slovak-academy
-  title: Welinq Sells QDrive Quantum Memory in Europe (first commercial sale, Slovak Academy of Sciences)
-  date: '2026-01-14'
-  kind: web
-- slug: 2025-12-10-nu-quantum-60m-series-a
-  title: Nu Quantum Closes Oversubscribed $60 Million Series A
-  date: '2025-12-10'
-  kind: web
-- slug: 2025-11-26-orca-computing-37m-series-b
-  title: ORCA Computing $37M Series B (Temasek, Baillie Gifford, NVIDIA/NVentures, QIA, Morgan Stanley)
-  date: '2025-11-26'
-  kind: web
-- slug: 2025-11-08-efficient-integrated-quantum-memory-eu-yso
-  title: Efficient integrated quantum memory for light (¹⁵¹Eu³⁺:Y₂SiO₅, AFC, telecom-heralded)
-  date: '2025-11-08'
-  kind: web
-- slug: 2023-01-23-welinq-5m-pre-seed
-  title: Welinq Closes €5 Million Pre-Seed Round (Quantonation-led)
-  date: '2023-01-23'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

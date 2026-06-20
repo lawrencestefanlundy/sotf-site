@@ -13,6 +13,7 @@ sources:
 - '[[2023-07-14-e08-optical-computing]]'
 - '[[2024-12-16-willow-and-the-race-to-quantum-advantage]]'
 - '[[2024-12-04-cubits-in-a-fridge-why-is-nobody]]'
+- '[[2025-11-26-orca-computing-37m-series-b]]'
 - '[[2026-06-04-q-memory-site]]'
 frontier:
 - ''
@@ -20,10 +21,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 39
+mention_count: 42
 last_reorg_date: '2026-05-13'
-sources_7d: 6
-sources_30d: 21
+sources_7d: 8
+sources_30d: 23
 recent_mentions:
 - slug: 2026-06-04-q-memory-site
   title: Q-Memory — company website (q-memory.tech)
@@ -33,6 +34,10 @@ recent_mentions:
   title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
   date: '2025-12-02'
   kind: substack
+- slug: 2025-11-26-orca-computing-37m-series-b
+  title: ORCA Computing $37M Series B (Temasek, Baillie Gifford, NVIDIA/NVentures, QIA, Morgan Stanley)
+  date: '2025-11-26'
+  kind: web
 - slug: 2024-12-16-willow-and-the-race-to-quantum-advantage
   title: Willow and The Race to Quantum Advantage (Feat. Kris Kaczmarek)
   date: '2024-12-16'

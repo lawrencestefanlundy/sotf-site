@@ -23,7 +23,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 205
+mention_count: 211
 descendants:
 - 5g-nr-advanced
 - beamforming-ics
@@ -56,8 +56,8 @@ descendants:
 - sub-thz-6g
 - timing-clock-generation
 last_reorg_date: '2026-05-14'
-sources_7d: 21
-sources_30d: 58
+sources_7d: 23
+sources_30d: 59
 recent_mentions:
 - slug: 2026-06-05-nasa-concludes-antenna-mishap-investigation-releases-report
   title: NASA Concludes Antenna Mishap Investigation, Releases Report

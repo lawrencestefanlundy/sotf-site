@@ -20,11 +20,7 @@ descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2025-11-26-orca-computing-37m-series-b
-  title: ORCA Computing $37M Series B (Temasek, Baillie Gifford, NVIDIA/NVentures, QIA, Morgan Stanley)
-  date: '2025-11-26'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

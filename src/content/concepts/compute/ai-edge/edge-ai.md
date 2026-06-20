@@ -28,12 +28,12 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - framework
-mention_count: 52
+mention_count: 54
 descendants:
 - nvidia-jetson
 last_reorg_date: '2026-05-13'
-sources_7d: 8
-sources_30d: 18
+sources_7d: 10
+sources_30d: 20
 recent_mentions:
 - slug: 2026-06-18-sensifai-hybrids-deck
   title: SensifAI — Funding Round deck (sensifai.vercel.app/hybrids)

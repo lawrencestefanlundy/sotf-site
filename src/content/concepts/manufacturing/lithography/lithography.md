@@ -41,7 +41,7 @@ last_updated: '2026-05-08'
 tags:
 - concept
 - technology
-mention_count: 122
+mention_count: 123
 descendants:
 - computational-lithography
 - directed-self-assembly
@@ -61,8 +61,8 @@ descendants:
 - x-ray-lithography
 - xolography
 last_reorg_date: '2026-05-13'
-sources_7d: 5
-sources_30d: 28
+sources_7d: 6
+sources_30d: 29
 recent_mentions:
 - slug: 2026-06-14-frontier-ai-value-capture
   title: 'Frontier AI value capture: where the $4T accrues (research synthesis)'

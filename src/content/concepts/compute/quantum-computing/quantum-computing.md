@@ -31,7 +31,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 275
+mention_count: 289
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -49,11 +49,15 @@ descendants:
 - topological-qubits
 - trapped-ion
 last_reorg_date: '2026-05-13'
-sources_7d: 13
-sources_30d: 44
+sources_7d: 15
+sources_30d: 46
 recent_mentions:
 - slug: 2026-06-17-sandboxaq-secures-500-million-chips-act-rd-award-to-insulate
   title: SandboxAQ Secures $500 Million CHIPS Act R&D Award to Insulate Semiconductor Supply Chains - Quantum Computing Report
+  date: '2026-06-17'
+  kind: web
+- slug: 2026-06-17-us-boosts-quantum-computing-with-2b-chips-act-funding-signal
+  title: US boosts quantum computing with $2B CHIPS Act funding, signaling tech's breakout potential. - Pluang
   date: '2026-06-17'
   kind: web
 - slug: 2026-06-16-trapped-ion-landscape-2026
@@ -79,10 +83,6 @@ recent_mentions:
 - slug: 2026-05-24-mose2-exciton-polariton-all-optical-switch
   title: New light-based switch could cut chip energy use and speed future AI photonics
   date: '2026-05-24'
-  kind: web
-- slug: 2026-05-21-doc-2bn-9-companies-quantum
-  title: Department of Commerce Announces Letters of Intent With 9 Companies for $2 Billion to Accelerate U.S. Leadership in Quantum Computing
-  date: '2026-05-21'
   kind: web
 neighbors: []
 ---

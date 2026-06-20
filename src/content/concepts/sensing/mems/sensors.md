@@ -36,10 +36,6 @@ last_reorg_date: '2026-05-13'
 sources_7d: 4
 sources_30d: 35
 recent_mentions:
-- slug: 2026-06-18-desert-field-test-with-nasa-advanced-rover-prototype
-  title: Desert Field Test With NASA Advanced Rover Prototype
-  date: '2026-06-18'
-  kind: web
 - slug: 2026-06-17-nawah-vacnt-technology
   title: NAWAH Architectured Nanomaterials — VACNT technology & positioning
   date: '2026-06-17'
@@ -66,6 +62,10 @@ recent_mentions:
   kind: web
 - slug: 2026-06-04-serial-mtj-small-magnetic-field-detection-noise
   title: Detection of Small Magnetic Fields Using Serial Magnetic Tunnel Junctions with Various Geometrical Characteristics
+  date: '2026-06-04'
+  kind: web
+- slug: 2026-06-04-gmr-biosensor-arrays-correction-techniques-wang
+  title: 'GMR Biosensor Arrays: Correction Techniques for Reproducibility and Enhanced Sensitivity'
   date: '2026-06-04'
   kind: web
 neighbors: []

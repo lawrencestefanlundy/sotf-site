@@ -19,11 +19,7 @@ mention_count: 108
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-06-18-blaming-china-for-datacenter-nimbyism-is-cope
-  title: Blaming China for Datacenter NIMBYism Is Cope
-  date: '2026-06-18'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

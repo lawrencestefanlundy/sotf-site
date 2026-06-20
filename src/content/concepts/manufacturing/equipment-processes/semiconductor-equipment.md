@@ -18,7 +18,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 60
+mention_count: 61
 descendants:
 - automated-test-equipment
 - ion-implantation
@@ -26,8 +26,8 @@ descendants:
 - probe-cards
 - wafer-level-burn-in
 last_reorg_date: '2026-05-13'
-sources_7d: 2
-sources_30d: 4
+sources_7d: 3
+sources_30d: 5
 recent_mentions:
 - slug: 2025-12-30-us-eases-semiconductor-equipment-rules-for-samsung-sk-hynix-
   title: U.S. Eases Semiconductor Equipment Rules for Samsung, SK Hynix in China - 조선일보

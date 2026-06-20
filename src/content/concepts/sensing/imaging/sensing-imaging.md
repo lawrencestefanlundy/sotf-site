@@ -20,23 +20,7 @@ descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-06-18-nasa-testing-advanced-capabilities-for-moon-mars-rovers
-  title: NASA Testing Advanced Capabilities for Moon, Mars Rovers
-  date: '2026-06-18'
-  kind: web
-- slug: 2026-06-18-desert-field-test-with-nasa-advanced-rover-prototype
-  title: Desert Field Test With NASA Advanced Rover Prototype
-  date: '2026-06-18'
-  kind: web
-- slug: 2026-06-18-nasa-mission-to-study-space-weather-impacts-of-earths-atmosp
-  title: NASA Mission to Study Space Weather Impacts of Earth’s Atmosphere
-  date: '2026-06-18'
-  kind: web
-- slug: 2026-06-18-nasa-awards-contract-for-commercial-satellite-data-acquisiti
-  title: NASA Awards Contract for Commercial Satellite Data Acquisition
-  date: '2026-06-18'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

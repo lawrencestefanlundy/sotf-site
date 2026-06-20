@@ -19,15 +19,7 @@ mention_count: 82
 last_reorg_date: '2026-05-14'
 sources_7d: 1
 sources_30d: 1
-recent_mentions:
-- slug: 2026-06-18-enter-the-electric-supercycle---latitude-media
-  title: Enter the electric supercycle - Latitude Media
-  date: '2026-06-18'
-  kind: web
-- slug: 2024-10-09-form-energy-brings-in-more-cash-as-it-prepares-for-mass-batt
-  title: Form Energy brings in more cash as it prepares for mass battery deployment - Latitude Media
-  date: '2024-10-09'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

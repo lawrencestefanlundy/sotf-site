@@ -19,7 +19,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 28
+mention_count: 29
 last_reorg_date: '2026-05-13'
 descendants:
 - aluminium-gallium-nitride
@@ -36,8 +36,8 @@ descendants:
 - wide-bandgap-semiconductors
 - zinc-oxide
 - zinc-selenide
-sources_7d: 0
-sources_30d: 1
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
 - slug: 2026-02-12-how-to-invest-in-ai-sovereignty-sovereign
   title: How to Invest in AI Sovereignty — Sovereign Albion w/ Andrew Bennett

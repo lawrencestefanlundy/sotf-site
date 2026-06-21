@@ -19,7 +19,11 @@ mention_count: 0
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-20-launch-cost-curve-web
+  title: Launch-cost curve + LEO deployment + constellation compute (web bundle)
+  date: '2026-06-20'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism
@@ -29,6 +33,14 @@ Rad-hard ICs are semiconductor devices engineered to tolerate ionising radiation
 ## Competitive landscape
 
 Competing and adjacent approaches split along cost-vs-assurance axes. COTS-with-shielding is the low-cost fallback for LEO smallsats but adds mass and offers no SEE mitigation. FPGAs with scrubbing (Xilinx Kintex Rad, Microchip RTG4) compete for reconfigurable workloads. SiGe BiCMOS offers inherent TID resilience and dominates RF/mixed-signal rad-hard niches.
+
+## Investment relevance
+
+| Approach | TID ceiling | SEE mitigation | Unit cost proxy |
+|---|---|---|---|
+| RHBP CMOS | >1 Mrad | Design-dependent | $$$$ |
+| RHBD on COTS node | ~300 krad | TMR overhead | $$ |
+| COTS + shielding | <100 krad effective | None | $ |
 
 ## Companies using
 

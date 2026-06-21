@@ -36,7 +36,7 @@ last_updated: '2026-05-07'
 tags:
 - concept
 - theme
-mention_count: 707
+mention_count: 708
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics

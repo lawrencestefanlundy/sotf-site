@@ -21,15 +21,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 58
+mention_count: 59
 last_reorg_date: '2026-05-13'
 descendants:
 - mems
 - nems
 - sensors
 - spectral-sensing
-sources_7d: 4
-sources_30d: 7
+sources_7d: 5
+sources_30d: 8
 recent_mentions:
 - slug: 2026-06-16-trapped-ion-landscape-2026
   title: Trapped-ion quantum computing landscape 2026 (vendors, scale, integrated photonics)

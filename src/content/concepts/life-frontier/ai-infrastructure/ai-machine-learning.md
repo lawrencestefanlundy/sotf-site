@@ -19,7 +19,11 @@ mention_count: 26
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-15-arxiv-skillmutator-benchmarking-and-defending-language-and-code-cr
+  title: 'SkillMutator: Benchmarking and Defending Language-and-Code Cross-modal Attacks on LLM Agent Skills'
+  date: '2026-06-15'
+  kind: paper
 neighbors: []
 ---
 ## Physics / mechanism

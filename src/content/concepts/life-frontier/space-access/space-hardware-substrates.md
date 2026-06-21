@@ -49,6 +49,8 @@ Materials and substrates qualified for use in space — radiation-hardened, ther
 2. Lunar landers + space industrialisation create demand for surface hardware.
 3. Defence policy (CHIPS Act, EU sovereignty programs) funds onshoring.
 
+## Why this matters (investment relevance)
+
 Most of these are positioned for terrestrial AI/data-centre markets first, but the space adjacency is a real second-order opportunity worth tracking.
 
 ## Adjacent themes

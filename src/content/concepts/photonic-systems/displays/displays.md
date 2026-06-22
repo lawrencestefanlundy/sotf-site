@@ -27,7 +27,7 @@ descendants:
 - laser-display-light-engines
 - micro-leds
 - oled
-sources_7d: 9
+sources_7d: 4
 sources_30d: 15
 recent_mentions:
 - slug: 2026-06-15-barry-silverstein-rochester-cxr

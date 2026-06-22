@@ -78,7 +78,19 @@ descendants:
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2025-12-29-the-unexpected-clean-energy-winner-of-2025-energy-storage---
+  title: 'The unexpected clean energy winner of 2025: Energy storage - Latitude Media'
+  date: '2025-12-29'
+  kind: web
+- slug: 2025-08-04-google-expands-demand-response-to-target-machine-learning-wo
+  title: Google expands demand response to target machine learning workloads - Latitude Media
+  date: '2025-08-04'
+  kind: web
+- slug: 2025-06-17-inside-heron-powers-plan-to-transform-the-grid---latitude-me
+  title: Inside Heron Power’s plan to transform the grid - Latitude Media
+  date: '2025-06-17'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

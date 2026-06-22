@@ -28,9 +28,13 @@ last_reorg_date: '2026-05-13'
 descendants:
 - external-laser-source
 - laser-display-light-engines
-sources_7d: 10
+sources_7d: 8
 sources_30d: 39
 recent_mentions:
+- slug: 2026-06-19-weekly-dose-of-optimism-198
+  title: 'Weekly Dose of Optimism #198'
+  date: '2026-06-19'
+  kind: web
 - slug: 2026-06-16-trapped-ion-landscape-2026
   title: Trapped-ion quantum computing landscape 2026 (vendors, scale, integrated photonics)
   date: '2026-06-16'
@@ -58,10 +62,6 @@ recent_mentions:
 - slug: 2026-02-02-photonic-engines-for-data-centers
   title: Photonic "Engines" for Data Centers
   date: '2026-02-02'
-  kind: substack
-- slug: 2025-12-19-lfg-for-semiconductors
-  title: LFG (for semiconductors)
-  date: '2025-12-19'
   kind: substack
 neighbors: []
 ---

@@ -19,11 +19,7 @@ mention_count: 0
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-06-20-launch-cost-curve-web
-  title: Launch-cost curve + LEO deployment + constellation compute (web bundle)
-  date: '2026-06-20'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

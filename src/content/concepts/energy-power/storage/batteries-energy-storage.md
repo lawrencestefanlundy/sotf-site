@@ -19,7 +19,11 @@ mention_count: 50
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2025-12-29-the-unexpected-clean-energy-winner-of-2025-energy-storage---
+  title: 'The unexpected clean energy winner of 2025: Energy storage - Latitude Media'
+  date: '2025-12-29'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

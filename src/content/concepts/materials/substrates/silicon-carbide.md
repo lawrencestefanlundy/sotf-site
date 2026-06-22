@@ -26,6 +26,10 @@ tags:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-06-12-hku-sic-cryogenic-neuromorphic-chip-10mk
+  title: HKU world-first cryogenic neuromorphic chip at 10 mK (silicon carbide, impact-ionisation spiking)
+  date: '2026-06-12'
+  kind: web
 - slug: 2026-06-01-nibras-ucl-chipstart
   title: UCL EEE ventures selected for national ChipStart programme (incl. Nibras Communications)
   date: '2026-06-01'

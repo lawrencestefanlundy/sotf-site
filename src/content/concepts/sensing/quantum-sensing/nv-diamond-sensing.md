@@ -22,7 +22,7 @@ tags:
 mention_count: 30
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 7
+sources_7d: 4
 sources_30d: 16
 recent_mentions:
 - slug: 2026-05-02-high-sensitivity-nv-diamond-resonator-comm-materials-2025

@@ -49,7 +49,7 @@ descendants:
 - topological-qubits
 - trapped-ion
 last_reorg_date: '2026-05-13'
-sources_7d: 15
+sources_7d: 11
 sources_30d: 46
 recent_mentions:
 - slug: 2026-06-17-sandboxaq-secures-500-million-chips-act-rd-award-to-insulate

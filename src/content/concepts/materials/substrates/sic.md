@@ -16,16 +16,17 @@ sources:
 - '[[2024-omdia-power-electronics-forecast]]'
 - '[[2024-trendforce-foundry-2024]]'
 - '[[2026-06-01-nibras-ucl-chipstart]]'
+- '[[2026-06-12-hku-sic-cryogenic-neuromorphic-chip-10mk]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 75
+mention_count: 76
 last_reorg_date: '2026-05-13'
-sources_7d: 4
-sources_30d: 23
+sources_7d: 2
+sources_30d: 24
 recent_mentions: []
 neighbors: []
 ---

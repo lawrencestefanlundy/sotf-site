@@ -31,11 +31,23 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 260
+mention_count: 263
 last_reorg_date: '2026-05-13'
-sources_7d: 4
+sources_7d: 2
 sources_30d: 35
 recent_mentions:
+- slug: 2026-06-21-st-nxp-mems-acquisition
+  title: STMicroelectronics to acquire NXP's MEMS sensor business for up to $950M
+  date: '2026-06-21'
+  kind: web
+- slug: 2026-06-21-yole-mems-market-momentum
+  title: MEMS market regains momentum — Bosch, STMicroelectronics and TDK navigate the post-inventory growth era (Status of the MEMS Industry 2025)
+  date: '2026-06-21'
+  kind: web
+- slug: 2026-06-20-launch-cost-curve-web
+  title: Launch-cost curve + LEO deployment + constellation compute (web bundle)
+  date: '2026-06-20'
+  kind: web
 - slug: 2026-06-17-nawah-vacnt-technology
   title: NAWAH Architectured Nanomaterials — VACNT technology & positioning
   date: '2026-06-17'
@@ -54,18 +66,6 @@ recent_mentions:
   kind: web
 - slug: 2026-06-04-magnetoresistive-gmr-mtj-biosensor-turbid-samples
   title: Integrated Microfluidic Giant Magnetoresistance (GMR) Biosensor Platform for Magnetoresistive Immunoassay (and related GMR/MTJ bead-detection literature)
-  date: '2026-06-04'
-  kind: web
-- slug: 2026-06-04-tmr-sensors-sub-pt-detectivity-biomagnetic-review
-  title: Tunnel-magnetoresistance sensors with sub-pT detectivity for detecting bio-magnetic fields
-  date: '2026-06-04'
-  kind: web
-- slug: 2026-06-04-serial-mtj-small-magnetic-field-detection-noise
-  title: Detection of Small Magnetic Fields Using Serial Magnetic Tunnel Junctions with Various Geometrical Characteristics
-  date: '2026-06-04'
-  kind: web
-- slug: 2026-06-04-gmr-biosensor-arrays-correction-techniques-wang
-  title: 'GMR Biosensor Arrays: Correction Techniques for Reproducibility and Enhanced Sensitivity'
   date: '2026-06-04'
   kind: web
 neighbors: []

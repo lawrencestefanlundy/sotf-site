@@ -27,7 +27,7 @@ tags:
 - technology
 mention_count: 177
 last_reorg_date: '2026-05-13'
-sources_7d: 17
+sources_7d: 13
 sources_30d: 37
 recent_mentions:
 - slug: 2026-05-02-nv-center-quantum-sensing-review-sciencedirect-2022

@@ -42,7 +42,7 @@ descendants:
 - heterogeneous-integration
 - osat
 last_reorg_date: '2026-05-13'
-sources_7d: 3
+sources_7d: 1
 sources_30d: 16
 recent_mentions:
 - slug: 2026-06-15-gf-investor-day-2026

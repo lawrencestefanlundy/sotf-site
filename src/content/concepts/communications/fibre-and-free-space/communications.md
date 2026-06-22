@@ -23,7 +23,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 211
+mention_count: 212
 descendants:
 - 5g-nr-advanced
 - beamforming-ics
@@ -56,9 +56,13 @@ descendants:
 - sub-thz-6g
 - timing-clock-generation
 last_reorg_date: '2026-05-14'
-sources_7d: 23
+sources_7d: 16
 sources_30d: 59
 recent_mentions:
+- slug: 2026-06-12-hku-sic-cryogenic-neuromorphic-chip-10mk
+  title: HKU world-first cryogenic neuromorphic chip at 10 mK (silicon carbide, impact-ionisation spiking)
+  date: '2026-06-12'
+  kind: web
 - slug: 2026-06-05-nasa-concludes-antenna-mishap-investigation-releases-report
   title: NASA Concludes Antenna Mishap Investigation, Releases Report
   date: '2026-06-05'
@@ -87,10 +91,6 @@ recent_mentions:
   title: 'I Am Artemis: Peter Rossoni'
   date: '2026-04-24'
   kind: web
-- slug: 2025-12-19-lfg-for-semiconductors
-  title: LFG (for semiconductors)
-  date: '2025-12-19'
-  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

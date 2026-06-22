@@ -30,6 +30,14 @@ Topological insulators (TIs) are quantum materials that are electrically insulat
 
 The primary competition is from other low-dissipation or spin-polarized transport candidates. Graphene offers comparable mobility but lacks intrinsic spin-momentum locking. Weyl semimetals provide topological surface states (Fermi arcs) with higher carrier density but no bulk gap. Magnetic TIs (Cr-doped, MnBi₂Te₄) add broken time-reversal for axion physics and quantum anomalous Hall applications. Conventional spin-orbit-coupled semiconductors (HgTe quantum wells, InAs/GaSb) are more process-compatible but require cryogenic operation for quantized transport.
 
+## Investment relevance
+
+| Material | Bulk gap | Room-T operation | CMOS integration |
+|---|---|---|---
+| TI (Bi₂Se₃) | ~0.3 eV | Partial | Poor |
+| Graphene | 0 | Yes | Moderate |
+| Weyl semimetal | 0 | Yes | Poor |
+
 ## Companies using
 
 <!-- dataview block stripped for public site -->

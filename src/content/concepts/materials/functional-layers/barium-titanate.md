@@ -28,7 +28,7 @@ tags:
 - material
 mention_count: 49
 last_reorg_date: '2026-05-13'
-sources_7d: 6
+sources_7d: 4
 sources_30d: 18
 recent_mentions:
 - slug: 2026-05-02-hybrid-bto-sin-ultra-low-power-tuning-acs-photonics

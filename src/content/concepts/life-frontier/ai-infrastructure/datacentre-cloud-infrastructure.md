@@ -19,7 +19,11 @@ mention_count: 108
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2025-08-04-google-expands-demand-response-to-target-machine-learning-wo
+  title: Google expands demand response to target machine learning workloads - Latitude Media
+  date: '2025-08-04'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

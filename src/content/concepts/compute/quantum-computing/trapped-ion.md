@@ -30,7 +30,7 @@ tags:
 - technology
 mention_count: 11
 last_reorg_date: '2026-05-13'
-sources_7d: 2
+sources_7d: 1
 sources_30d: 5
 recent_mentions:
 - slug: 2025-12-09-gallium-nitride-photonics-w-james

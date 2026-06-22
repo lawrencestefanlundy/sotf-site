@@ -14,6 +14,7 @@ related_concepts:
 - optical-packet-switching
 sources:
 - '[[2026-05-30-optical-interconnect-ma-ledger]]'
+- '[[2026-03-02-nvidia-4bn-lumentum-coherent-photonics-investment]]'
 - '[[2026-05-30-opsydia-glass-waveguide-packaging]]'
 - '[[2026-05-30-intel-glass-substrates-program]]'
 - '[[2026-04-15-semianalysis-isscc-2026]]'
@@ -23,7 +24,7 @@ last_updated: '2026-05-07'
 tags:
 - concept
 - technology
-mention_count: 23
+mention_count: 24
 descendants:
 - datacenter-network-stack
 - lpo-linear-pluggable-optics
@@ -43,6 +44,10 @@ recent_mentions:
 - slug: 2026-04-15-semianalysis-isscc-2026
   title: 'ISSCC 2026: NVIDIA & Broadcom CPO, HBM4 & LPDDR6, TSMC Active LSI, Logic-Based SRAM, UCIe-S and More'
   date: '2026-04-15'
+  kind: web
+- slug: 2026-03-02-nvidia-4bn-lumentum-coherent-photonics-investment
+  title: Nvidia to invest $4 billion into photonics companies Coherent and Lumentum
+  date: '2026-03-02'
   kind: web
 - slug: 2026-02-02-photonic-engines-for-data-centers
   title: Photonic "Engines" for Data Centers
@@ -64,10 +69,6 @@ recent_mentions:
   title: 'Photonic Computing: A Primer'
   date: '2025-04-16'
   kind: substack
-- slug: 2026-05-30-intel-glass-substrates-program
-  title: Intel Unveils Industry-Leading Glass Substrates (+ Jan 2026 EMIB+glass demo status)
-  date: '2023-09-18'
-  kind: web
 neighbors:
 - slug: optical-circuit-switching
   name: Optical Circuit Switching (OCS)

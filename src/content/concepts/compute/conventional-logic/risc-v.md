@@ -23,7 +23,7 @@ tags:
 - technology
 mention_count: 50
 last_reorg_date: '2026-05-14'
-sources_7d: 7
+sources_7d: 6
 sources_30d: 13
 recent_mentions:
 - slug: 2026-06-15-gf-investor-day-2026

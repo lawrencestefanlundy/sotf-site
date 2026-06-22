@@ -19,7 +19,11 @@ mention_count: 80
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-19-weekly-dose-of-optimism-198
+  title: 'Weekly Dose of Optimism #198'
+  date: '2026-06-19'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

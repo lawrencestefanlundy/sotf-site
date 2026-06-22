@@ -46,7 +46,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 624
+mention_count: 626
 descendants:
 - 3d-dram
 - adc-bottleneck
@@ -77,7 +77,7 @@ descendants:
 - sram-cim
 - storage-class-memory
 last_reorg_date: '2026-05-14'
-sources_7d: 6
+sources_7d: 4
 sources_30d: 14
 recent_mentions:
 - slug: 2026-06-18-sensifai-hybrids-deck

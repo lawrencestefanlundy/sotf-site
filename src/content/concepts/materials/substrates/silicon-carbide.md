@@ -26,6 +26,18 @@ tags:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-06-22-sintered-metal-die-attach-landscape
+  title: Sintered-silver / sintered-copper die-attach landscape — physics, incumbents, AI-migration question (web research synthesis)
+  date: '2026-06-22'
+  kind: web
+- slug: 2026-06-22-thermal-stack-layer-landscape
+  title: AI datacentre thermal stack, junction-to-ambient — per-layer players, M&A, capture (web research synthesis)
+  date: '2026-06-22'
+  kind: web
+- slug: 2026-06-22-tim-approaches-full-sweep
+  title: TIM approaches — exhaustive in-market + R&D sweep (vendors, classes, startups)
+  date: '2026-06-22'
+  kind: web
 - slug: 2026-06-12-hku-sic-cryogenic-neuromorphic-chip-10mk
   title: HKU world-first cryogenic neuromorphic chip at 10 mK (silicon carbide, impact-ionisation spiking)
   date: '2026-06-12'
@@ -46,18 +58,6 @@ recent_mentions:
   title: Omdia — Power Semiconductors Long-Term Forecast 2024
   date: '2024-11-01'
   kind: web
-- slug: 2024-yole-power-sic-2024
-  title: Yole Group — Power SiC 2024 Market Analysis
-  date: '2024-09-15'
-  kind: web
-- slug: 2024-yole-power-gan-2024
-  title: Yole Group — Power GaN 2024 Market Analysis
-  date: '2024-09-15'
-  kind: web
-- slug: 2023-07-27-e10-pushing-moores-law-to-the-limit
-  title: '🔮E10: Pushing Moore''s Law to the Limit with High-NA EUV (aka Nanoscale Chip Printing)'
-  date: '2023-07-27'
-  kind: substack
 neighbors:
 - slug: wide-bandgap-semiconductors
   name: Wide-Bandgap Semiconductors

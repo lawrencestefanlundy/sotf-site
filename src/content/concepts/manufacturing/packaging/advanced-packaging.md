@@ -36,14 +36,14 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 115
+mention_count: 121
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration
 - osat
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 16
+sources_7d: 2
+sources_30d: 17
 recent_mentions:
 - slug: 2026-06-15-gf-investor-day-2026
   title: GlobalFoundries Investor Day 2026 (presentation)

@@ -19,10 +19,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 36
+mention_count: 38
 last_reorg_date: '2026-05-13'
-sources_7d: 2
-sources_30d: 14
+sources_7d: 3
+sources_30d: 16
 recent_mentions:
 - slug: 2026-05-29-silicon-shock-the-macro-of-tech-inflation
   title: 'Silicon Shock: The Macro of Tech Inflation'

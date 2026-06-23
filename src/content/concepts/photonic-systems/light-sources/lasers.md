@@ -23,17 +23,17 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 142
+mention_count: 143
 last_reorg_date: '2026-05-13'
 descendants:
 - external-laser-source
 - laser-display-light-engines
-sources_7d: 8
+sources_7d: 7
 sources_30d: 39
 recent_mentions:
-- slug: 2026-06-19-weekly-dose-of-optimism-198
-  title: 'Weekly Dose of Optimism #198'
-  date: '2026-06-19'
+- slug: 2026-06-22-thermal-stack-layer-landscape
+  title: AI datacentre thermal stack, junction-to-ambient — per-layer players, M&A, capture (web research synthesis)
+  date: '2026-06-22'
   kind: web
 - slug: 2026-06-16-trapped-ion-landscape-2026
   title: Trapped-ion quantum computing landscape 2026 (vendors, scale, integrated photonics)

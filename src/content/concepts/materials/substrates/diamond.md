@@ -25,11 +25,19 @@ last_updated: '2026-06-17'
 tags:
 - concept
 - technology
-mention_count: 177
+mention_count: 180
 last_reorg_date: '2026-05-13'
-sources_7d: 13
+sources_7d: 9
 sources_30d: 37
 recent_mentions:
+- slug: 2026-06-22-thermal-stack-layer-landscape
+  title: AI datacentre thermal stack, junction-to-ambient — per-layer players, M&A, capture (web research synthesis)
+  date: '2026-06-22'
+  kind: web
+- slug: 2026-06-22-tim-approaches-full-sweep
+  title: TIM approaches — exhaustive in-market + R&D sweep (vendors, classes, startups)
+  date: '2026-06-22'
+  kind: web
 - slug: 2026-05-02-nv-center-quantum-sensing-review-sciencedirect-2022
   title: NV center quantum sensing review (ScienceDirect 2022)
   date: '2026-05-02'
@@ -53,14 +61,6 @@ recent_mentions:
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
   title: Carbon Nanotubes in the Datacentre
   date: '2025-11-25'
-  kind: substack
-- slug: 2025-10-20-diamond-semiconductors-how-far-to-industrialization---36kr
-  title: 'Diamond Semiconductors: How Far to Industrialization? - 36Kr'
-  date: '2025-10-20'
-  kind: web
-- slug: 2025-07-01-a-primer-carbon-nanotubes
-  title: 'A Primer: Carbon Nanotubes'
-  date: '2025-07-01'
   kind: substack
 neighbors:
 - slug: wide-bandgap-semiconductors

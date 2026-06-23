@@ -7,7 +7,13 @@ kind: technology
 parent_concepts:
 - energy-power
 - ai-thermal-management
-related_concepts: []
+related_concepts:
+- thermal-stack-map
+- thermal-interface-materials
+- liquid-cooling-datacentre
+- diamond-heat-spreader
+- vapor-chambers
+- phase-change-materials
 sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2024-10-22-state-of-the-future-part-deux]]'
@@ -24,10 +30,34 @@ tags:
 mention_count: 70
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 2
+sources_7d: 0
 sources_30d: 13
 recent_mentions: []
-neighbors: []
+neighbors:
+- slug: thermal-stack-map
+  name: AI Thermal Stack Map (junction-to-ambient)
+  path: /sotf-site/energy-power/thermal-management/thermal-stack-map/
+  macro: energy-power
+- slug: thermal-interface-materials
+  name: Thermal Interface Materials (TIM)
+  path: /sotf-site/energy-power/thermal-management/thermal-interface-materials/
+  macro: energy-power
+- slug: liquid-cooling-datacentre
+  name: Liquid Cooling at Datacentre Scale
+  path: /sotf-site/energy-power/thermal-management/liquid-cooling-datacentre/
+  macro: energy-power
+- slug: diamond-heat-spreader
+  name: Diamond Heat Spreader
+  path: /sotf-site/energy-power/thermal-management/diamond-heat-spreader/
+  macro: energy-power
+- slug: vapor-chambers
+  name: Vapor Chambers
+  path: /sotf-site/energy-power/thermal-management/vapor-chambers/
+  macro: energy-power
+- slug: phase-change-materials
+  name: Phase-Change Materials (Thermal)
+  path: /sotf-site/energy-power/thermal-management/phase-change-materials/
+  macro: energy-power
 ---
 ## Physics / mechanism
 

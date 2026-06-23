@@ -43,7 +43,7 @@ The classic computer keeps memory and processing in separate places, so instruct
 
 ## Why it dominates AI inference
 
-Neural-network inference is mostly matrix-vector multiplication: stream a large weight set from memory, do one cheap multiply-accumulate per weight, repeat. The arithmetic is nearly free; fetching the operands is not. The canonical figure (Horowitz, "Computing's Energy Problem", ISSCC 2014) is that moving a word from off-chip DRAM can cost two to three orders of magnitude more energy than the floating-point operation performed on it. So the energy and latency of inference are set by data movement, not FLOPS.
+Neural-network inference is mostly matrix-vector multiplication: stream a large weight set from memory, do one cheap multiply-accumulate per weight, repeat. The arithmetic is nearly free; fetching the operands is not. The canonical figures (Horowitz, "Computing's Energy Problem", ISSCC 2014): a floating-point operation costs on the order of a picojoule (~0.4-3.7 pJ depending on type/precision), while an off-chip DRAM access costs ~1.3-2.6 nJ, i.e. hundreds to ~1,000x more energy to *fetch* the value than to compute with it. So the energy and latency of inference are set by data movement, not FLOPS. The bandwidth-shaped sibling, quantified, is the [The Memory Wall](/sotf-site/compute/compute-architecture/memory-wall/) (compute +60,000x vs DRAM bandwidth +100x over 20 years, **2024 Gholami Ai And Memory Wall**).
 
 ## Why it matters here
 

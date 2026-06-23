@@ -20,7 +20,7 @@ tags:
 mention_count: 23
 descendants: []
 last_reorg_date: '2026-05-14'
-sources_7d: 3
+sources_7d: 0
 sources_30d: 5
 recent_mentions:
 - slug: 2025-2026-european-next-gen-pv-cohort

@@ -30,7 +30,7 @@ descendants:
 - photodetector
 - pic-packaging-stack
 - uni-traveling-carrier-photodiode
-sources_7d: 3
+sources_7d: 2
 sources_30d: 28
 recent_mentions:
 - slug: 2026-06-01-nibras-ucl-chipstart

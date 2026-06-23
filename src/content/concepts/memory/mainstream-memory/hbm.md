@@ -25,7 +25,7 @@ frontier:
 - 'HBM4 volume-leadership: does Samsung''s first-to-qualify headline convert to bit-share, or does SK Hynix''s reliability edge hold the volume + profit lead?'
 - Does a >25% peak-to-trough DRAM ASP correction land in any 4-quarter window through 2027 (= supercycle broken)?
 - Does memory-compression / quantisation (HBM-bytes-per-token) bend the demand curve before supply catches up in 2027?
-last_updated: '2026-06-01'
+last_updated: '2026-06-22'
 tags:
 - concept
 - technology
@@ -88,6 +88,8 @@ The load-bearing point: **bandwidth scales by bus width, not clock.** HBM3E runs
 
 The HBM4 per-stack bandwidth quoted as 2.0 / 2.8 / 3.3 TB/s is a pin-speed-quoting artefact (different vendors quote different speeds), not a contradiction. Samsung demoed 13 Gb/s → 3.3 TB/s at ISSCC Feb 2026; Micron ships >11 Gb/s → >2.8 TB/s.
 
+**At the accelerator level** the stacks aggregate: an H100 (HBM3) reads memory at 3.35 TB/s, an H200 (HBM3E) 4.8 TB/s, a Blackwell B200 (HBM3E) ~8 TB/s (NVIDIA datasheets). A DDR5 channel, by contrast, moves only tens of GB/s, which is why AI accelerators pay the HBM premium at all, and why the [The Memory Wall](/sotf-site/compute/compute-architecture/memory-wall/) binds despite it (compute has outgrown even HBM, +60,000x vs +100x bandwidth over 20yr, **2024 Gholami Ai And Memory Wall**).
+
 **The structural HBM4 shift: the passive base die becomes a LOGIC base die.** This opens customer-specific customisation (controllers, near-memory compute) and turns HBM from a commodity into a design-win business. The competitive fault line is the foundry split: **SK Hynix and Micron use TSMC (N12-class) base dies; Samsung uses its own SF4 (4nm) foundry base die.** That split is why yields diverge (below).
 
 ## The market and the supercycle
@@ -107,6 +109,8 @@ The HBM4 per-stack bandwidth quoted as 2.0 / 2.8 / 3.3 TB/s is a pin-speed-quoti
 **Samsung — best-in-class HBM4 performance, riskiest path.** Won the HBM4 first-mover sprint on paper (passed Nvidia's 11 Gb/s bar, demoed 13 Gb/s / 3.3 TB/s at ISSCC, began full HBM4 shipments Feb 2026, set to lead Vera-Rubin-specific HBM4 supply). The vertical-integration story (DRAM + own foundry + packaging) matters more as HBM4 moves to a logic base die. But SemiAnalysis is explicit: Samsung still lags SK Hynix on reliability/stability, and its in-house SF4 base die + 1c DRAM runs only ~50-60% yield (below ~60% breakeven), a margin/execution risk. **Net: Samsung wins the headline, SK Hynix likely wins the volume.**
 
 **Micron — solid #3, the US/Western hedge, and a 2026 surprise.** At GTC (Mar 2026) Micron announced high-volume HBM4 36GB 12-high for Nvidia Vera Rubin (>11 Gb/s, >2.8 TB/s) and is sampling 48GB 16-high, using a low-cost internal CMOS base die. The only US-based supplier, so it carries the CHIPS-aligned structural angle (ties to **Sovereignty Semi Bifurcation**). 2026 supply fully booked; FY26 capex ~$20B; >50% gross margin. *(Divergence flag: an earlier TrendForce note framed Micron as "limited to mid-tier Rubin CPX"; Micron's own IR contradicts it. Trust the primary.)*
+
+## Routes (how to express it)
 
 ## The bear case (what breaks the supercycle)
 

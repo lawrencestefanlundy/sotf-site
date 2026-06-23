@@ -20,17 +20,22 @@ sources:
 - '[[2026-06-04-fulfilling-the-promise-of-graphene---enterprisecamacuk]]'
 - '[[2024-idtechex-thermal-interface-materials-2026-2036]]'
 - '[[2023-02-22-soundcell-spin-off-of-graphene-flagship-partner-tu-delft-rec]]'
+- '[[2026-06-22-tim-approaches-full-sweep]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 108
+mention_count: 109
 last_reorg_date: '2026-05-13'
-sources_7d: 16
-sources_30d: 43
+sources_7d: 12
+sources_30d: 44
 recent_mentions:
+- slug: 2026-06-22-tim-approaches-full-sweep
+  title: TIM approaches — exhaustive in-market + R&D sweep (vendors, classes, startups)
+  date: '2026-06-22'
+  kind: web
 - slug: 2026-06-04-fulfilling-the-promise-of-graphene---enterprisecamacuk
   title: Fulfilling the promise of graphene - enterprise.cam.ac.uk
   date: '2026-06-04'
@@ -58,10 +63,6 @@ recent_mentions:
 - slug: 2024-yole-thermal-management-2024
   title: Yole Group — Thermal Management 2024 Market Analysis
   date: '2024-10-01'
-  kind: web
-- slug: 2024-idtechex-thermal-interface-materials-2026-2036
-  title: 'IDTechEx — Thermal Interface Materials 2026-2036: Technologies, Markets and Forecasts'
-  date: '2024-08-15'
   kind: web
 neighbors: []
 ---

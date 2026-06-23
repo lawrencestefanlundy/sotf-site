@@ -36,7 +36,7 @@ last_updated: '2026-05-07'
 tags:
 - concept
 - theme
-mention_count: 709
+mention_count: 718
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -49,6 +49,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 3
 sources_30d: 11
 recent_mentions:
+- slug: 2026-06-22-thermal-stack-layer-landscape
+  title: AI datacentre thermal stack, junction-to-ambient — per-layer players, M&A, capture (web research synthesis)
+  date: '2026-06-22'
+  kind: web
 - slug: 2026-06-18-us-backs-photonics-expansion-for-ai-data-centres-under-chips
   title: US backs photonics expansion for AI data centres under CHIPS Act - Digital Watch Observatory
   date: '2026-06-18'
@@ -75,10 +79,6 @@ recent_mentions:
   kind: web
 - slug: 2026-06-13-usgs-mcs-rare-earths-supply-concentration
   title: USGS Mineral Commodity Summaries — Rare Earths (2025 / 2026 editions)
-  date: '2026-06-13'
-  kind: web
-- slug: 2026-06-13-next-gen-geothermal-research
-  title: Next-gen geothermal (EGS / closed-loop / superhot mm-wave) — research sweep (Jun 2026)
   date: '2026-06-13'
   kind: web
 neighbors: []

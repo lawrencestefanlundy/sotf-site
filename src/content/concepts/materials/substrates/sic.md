@@ -10,11 +10,14 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2023-07-27-e10-pushing-moores-law-to-the-limit]]'
+- '[[2026-06-22-sintered-metal-die-attach-landscape]]'
+- '[[2026-06-22-thermal-stack-layer-landscape]]'
 - '[[2024-yole-power-sic-2024]]'
 - '[[2024-yole-power-gan-2024]]'
 - '[[2026-05-26-semianalysis-800vdc-revolution]]'
 - '[[2024-omdia-power-electronics-forecast]]'
 - '[[2024-trendforce-foundry-2024]]'
+- '[[2026-06-22-tim-approaches-full-sweep]]'
 - '[[2026-06-01-nibras-ucl-chipstart]]'
 - '[[2026-06-12-hku-sic-cryogenic-neuromorphic-chip-10mk]]'
 frontier:
@@ -23,10 +26,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 76
+mention_count: 79
 last_reorg_date: '2026-05-13'
-sources_7d: 2
-sources_30d: 24
+sources_7d: 5
+sources_30d: 27
 recent_mentions: []
 neighbors: []
 ---

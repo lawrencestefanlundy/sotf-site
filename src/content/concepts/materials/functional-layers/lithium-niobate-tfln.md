@@ -27,7 +27,7 @@ tags:
 - material
 mention_count: 90
 last_reorg_date: '2026-05-13'
-sources_7d: 9
+sources_7d: 3
 sources_30d: 41
 recent_mentions:
 - slug: 2026-05-02-return-of-lithium-niobate-photonics-spectra-jan-2026

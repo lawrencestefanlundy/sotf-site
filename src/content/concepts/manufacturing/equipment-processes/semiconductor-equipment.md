@@ -26,7 +26,7 @@ descendants:
 - probe-cards
 - wafer-level-burn-in
 last_reorg_date: '2026-05-13'
-sources_7d: 2
+sources_7d: 1
 sources_30d: 5
 recent_mentions:
 - slug: 2025-12-30-us-eases-semiconductor-equipment-rules-for-samsung-sk-hynix-

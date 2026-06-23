@@ -46,7 +46,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 626
+mention_count: 640
 descendants:
 - 3d-dram
 - adc-bottleneck
@@ -77,9 +77,13 @@ descendants:
 - sram-cim
 - storage-class-memory
 last_reorg_date: '2026-05-14'
-sources_7d: 4
+sources_7d: 5
 sources_30d: 14
 recent_mentions:
+- slug: 2026-06-22-beyond-cmos-device-layer-research
+  title: Beyond-CMOS device layer — grounded research (MRAM/FeFET beachhead + capture base rate)
+  date: '2026-06-22'
+  kind: web
 - slug: 2026-06-18-sensifai-hybrids-deck
   title: SensifAI — Funding Round deck (sensifai.vercel.app/hybrids)
   date: '2026-06-18'
@@ -106,10 +110,6 @@ recent_mentions:
   kind: web
 - slug: 2026-06-04-q-memory-site
   title: Q-Memory — company website (q-memory.tech)
-  date: '2026-06-04'
-  kind: web
-- slug: 2026-06-04-tmr-sensors-sub-pt-detectivity-biomagnetic-review
-  title: Tunnel-magnetoresistance sensors with sub-pT detectivity for detecting bio-magnetic fields
   date: '2026-06-04'
   kind: web
 neighbors: []

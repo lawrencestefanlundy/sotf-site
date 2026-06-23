@@ -31,7 +31,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 289
+mention_count: 292
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -49,9 +49,13 @@ descendants:
 - topological-qubits
 - trapped-ion
 last_reorg_date: '2026-05-13'
-sources_7d: 11
+sources_7d: 5
 sources_30d: 46
 recent_mentions:
+- slug: 2026-06-20-d-wave-quantum-nyse-qbts-secures-100-million-federal-loi-und
+  title: 'D-Wave Quantum (NYSE: QBTS) Secures $100 Million Federal LOI Under CHIPS Act To Accelerate Quantum Computing Development - foreignpolicyjournal.com'
+  date: '2026-06-20'
+  kind: web
 - slug: 2026-06-17-sandboxaq-secures-500-million-chips-act-rd-award-to-insulate
   title: SandboxAQ Secures $500 Million CHIPS Act R&D Award to Insulate Semiconductor Supply Chains - Quantum Computing Report
   date: '2026-06-17'
@@ -68,6 +72,10 @@ recent_mentions:
   title: SEEQC Secures Role in CHIPS Act-Funded NORDTECH Quantum Scaling Project - Quantum Computing Report
   date: '2026-06-16'
   kind: web
+- slug: 2026-06-05-d-wave-signs-us100-million-chips-act-funding-deal-to-acceler
+  title: D-Wave signs US$100 million CHIPS Act funding deal to accelerate US quantum computing leadership - Intelligent CIO
+  date: '2026-06-05'
+  kind: web
 - slug: 2026-06-01-ncsc-nsa-qkd-vs-pqc
   title: 'NCSC / NSA position: QKD not endorsed, post-quantum cryptography is the recommended mitigation'
   date: '2026-06-01'
@@ -75,14 +83,6 @@ recent_mentions:
 - slug: 2026-06-01-nibras-ucl-chipstart
   title: UCL EEE ventures selected for national ChipStart programme (incl. Nibras Communications)
   date: '2026-06-01'
-  kind: web
-- slug: 2026-05-28-arxiv-quantum-annealing-for-realistic-traffic-flow-optimization-cl
-  title: 'Quantum Annealing for Realistic Traffic Flow Optimization: Clustering and Data-Driven QUBO'
-  date: '2026-05-28'
-  kind: paper
-- slug: 2026-05-24-mose2-exciton-polariton-all-optical-switch
-  title: New light-based switch could cut chip energy use and speed future AI photonics
-  date: '2026-05-24'
   kind: web
 neighbors: []
 ---

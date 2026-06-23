@@ -31,11 +31,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 263
+mention_count: 268
 last_reorg_date: '2026-05-13'
-sources_7d: 2
+sources_7d: 1
 sources_30d: 35
 recent_mentions:
+- slug: 2026-06-22-beyond-cmos-device-layer-research
+  title: Beyond-CMOS device layer — grounded research (MRAM/FeFET beachhead + capture base rate)
+  date: '2026-06-22'
+  kind: web
 - slug: 2026-06-21-st-nxp-mems-acquisition
   title: STMicroelectronics to acquire NXP's MEMS sensor business for up to $950M
   date: '2026-06-21'
@@ -62,10 +66,6 @@ recent_mentions:
   kind: web
 - slug: 2026-06-04-process-analytical-technology-market-size
   title: Process Analytical Technology Market Size, Report by 2034 (Precedence Research)
-  date: '2026-06-04'
-  kind: web
-- slug: 2026-06-04-magnetoresistive-gmr-mtj-biosensor-turbid-samples
-  title: Integrated Microfluidic Giant Magnetoresistance (GMR) Biosensor Platform for Magnetoresistive Immunoassay (and related GMR/MTJ bead-detection literature)
   date: '2026-06-04'
   kind: web
 neighbors: []

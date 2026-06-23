@@ -19,6 +19,7 @@ sources:
 - '[[2026-05-24-mose2-exciton-polariton-all-optical-switch]]'
 - '[[2026-06-01-hbm-state-of-play]]'
 - '[[2026-03-02-nvidia-4bn-lumentum-coherent-photonics-investment]]'
+- '[[2026-06-22-thermal-stack-layer-landscape]]'
 - '[[2026-05-30-osat-market-structure]]'
 - '[[2026-05-30-teramount-50m-molex-acquisition]]'
 - '[[2026-06-17-sivers-onet-enablence-external-light-source-cpo]]'
@@ -36,11 +37,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 85
+mention_count: 87
 last_reorg_date: '2026-05-13'
-sources_7d: 7
+sources_7d: 8
 sources_30d: 25
 recent_mentions:
+- slug: 2026-06-22-thermal-stack-layer-landscape
+  title: AI datacentre thermal stack, junction-to-ambient — per-layer players, M&A, capture (web research synthesis)
+  date: '2026-06-22'
+  kind: web
 - slug: 2026-06-17-sjtu-ge-si-photodetector-110ghz-fowlp
   title: Shanghai Jiao Tong University creates reconfigurable Ge-Si photodetector for high-speed datacoms
   date: '2026-06-17'
@@ -67,10 +72,6 @@ recent_mentions:
   kind: web
 - slug: 2026-05-02-cpo-market-to-grow-at-37-cagr-semiconductor-today
   title: CPO market to grow at 37% CAGR (Semiconductor Today)
-  date: '2026-05-02'
-  kind: web
-- slug: 2026-05-02-co-packaged-optics-2026-2036-idtechex
-  title: Co-Packaged Optics 2026-2036 (IDTechEx)
   date: '2026-05-02'
   kind: web
 neighbors: []

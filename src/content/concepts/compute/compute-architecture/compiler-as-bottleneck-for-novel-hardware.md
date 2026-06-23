@@ -27,6 +27,14 @@ tags:
 - compiler
 - novel-hardware
 - cautionary-tale
+descendants:
+- ai-compiler-landscape
+- iree
+- mlc-llm
+- mlir
+- triton
+- tvm
+- xla
 sources_7d: 0
 sources_30d: 0
 recent_mentions: []

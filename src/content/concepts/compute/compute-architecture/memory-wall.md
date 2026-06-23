@@ -13,15 +13,16 @@ related_concepts:
 - prefill-vs-decode
 - processing-in-memory
 - in-memory-computing
-sources: []
+sources:
+- '[[2025-08-12-scaling-the-memory-wall-the-rise-and-roadmap-of-hbm]]'
 frontier:
 - Does the binding constraint shift from memory bandwidth to memory capacity (KV cache) as context windows and agentic multi-step grow?
 - How far can HBM push the wall back before cost or supply caps it (HBM4/HBM5)?
-last_updated: '2026-06-16'
+last_updated: '2026-06-22'
 tags:
 - concept
 sources_7d: 0
-sources_30d: 0
+sources_30d: 1
 recent_mentions: []
 neighbors:
 - slug: von-neumann-bottleneck
@@ -50,6 +51,13 @@ neighbors:
   macro: memory
 ---
 The growing gap between how fast processors can compute and how fast memory can feed them. Coined by Wulf and McKee (1995): if compute throughput grows faster than memory bandwidth and latency, then sooner or later every workload becomes memory-bound, and adding more compute stops helping.
+
+## By the numbers (the divergence)
+
+- **20-year divergence (Gholami et al., "AI and Memory Wall", IEEE Micro 2024 / Hot Chips 2023, **2024 Gholami Ai And Memory Wall**):** peak hardware compute grew **~60,000x**, DRAM bandwidth **~100x**, interconnect bandwidth **~30x**. Underlying rates: FLOPS **~3.0x / 2yr**, DRAM bandwidth **~1.6x**, interconnect **~1.4x**. Compute compounds ~2x faster than the memory feeding it, so the memory-bound share of work only grows.
+- **Energy (Horowitz, ISSCC 2014):** a floating-point op costs on the order of a picojoule (FP range ~0.4-3.7 pJ); an off-chip DRAM fetch costs **~1.3-2.6 nJ**, i.e. hundreds to ~1,000x more energy to *fetch* a value than to compute with it. Data movement, not arithmetic, sets the energy bill.
+- **Bandwidth today:** an HBM3E stack delivers ~1.2 TB/s on a 1,024-bit bus; HBM4 doubles the bus to 2,048-bit for >2 TB/s/stack (see [HBM (High-Bandwidth Memory)](/sotf-site/memory/mainstream-memory/hbm/)). At the accelerator level: H100 (HBM3) 3.35 TB/s, H200 (HBM3E) 4.8 TB/s, B200 (HBM3E) ~8 TB/s, versus a DDR5 channel in the tens of GB/s.
+- **The decode consequence:** LLM decode reads the full weight set per token (reuse ≈ 1), so single-stream throughput ≈ aggregate memory bandwidth ÷ model size, landing in the tens of tokens/s for a frontier model while the compute sits mostly idle (see [Prefill vs Decode (LLM inference phases)](/sotf-site/compute/ai-edge/prefill-vs-decode/)).
 
 ## Why it binds now
 

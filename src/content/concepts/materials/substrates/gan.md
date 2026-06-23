@@ -16,22 +16,24 @@ sources:
 - '[[2025-12-19-lfg-for-semiconductors]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
+- '[[2026-06-22-sintered-metal-die-attach-landscape]]'
 - '[[2024-yole-power-sic-2024]]'
 - '[[2024-yole-power-gan-2024]]'
 - '[[2026-05-26-semianalysis-800vdc-revolution]]'
 - '[[2024-omdia-power-electronics-forecast]]'
 - '[[2026-06-15-gf-investor-day-2026]]'
 - '[[2026-04-20-fixing-the-gan-problem]]'
+- '[[2026-06-22-tim-approaches-full-sweep]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 89
+mention_count: 91
 last_reorg_date: '2026-05-13'
-sources_7d: 6
-sources_30d: 24
+sources_7d: 4
+sources_30d: 26
 recent_mentions: []
 neighbors: []
 ---

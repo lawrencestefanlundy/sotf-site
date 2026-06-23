@@ -20,18 +20,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
-- slug: 2026-06-19-weekly-dose-of-optimism-198
-  title: 'Weekly Dose of Optimism #198'
-  date: '2026-06-19'
-  kind: web
 - slug: 2026-06-15-arxiv-skillmutator-benchmarking-and-defending-language-and-code-cr
   title: 'SkillMutator: Benchmarking and Defending Language-and-Code Cross-modal Attacks on LLM Agent Skills'
   date: '2026-06-15'
   kind: paper
-- slug: 2025-08-04-google-expands-demand-response-to-target-machine-learning-wo
-  title: Google expands demand response to target machine learning workloads - Latitude Media
-  date: '2025-08-04'
-  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

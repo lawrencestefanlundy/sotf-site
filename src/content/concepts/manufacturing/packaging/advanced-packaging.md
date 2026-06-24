@@ -30,13 +30,14 @@ sources:
 - '[[2026-05-21-gf-quantum-technology-solutions]]'
 - '[[2024-tsmc-cowos-roadmap-disclosure]]'
 - '[[2025-01-06-asu-selected-as-home-and-partner-for-chips-and-science-act-f]]'
+- '[[2026-04-22-kla-q3-fy2026-slides-process-control-share-58pct]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 121
+mention_count: 125
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration
@@ -57,6 +58,10 @@ recent_mentions:
   title: GlobalFoundries launches Quantum Technology Solutions to scale U.S. quantum manufacturing
   date: '2026-05-21'
   kind: web
+- slug: 2026-04-22-kla-q3-fy2026-slides-process-control-share-58pct
+  title: 'KLA Q3 FY2026 slides: market share hits 58%, ambitious 2030 targets'
+  date: '2026-04-22'
+  kind: web
 - slug: 2026-03-14-semianalysis-patel-bottlenecks
   title: SemiAnalysis (Dylan Patel) — the three shifting bottlenecks to scaling AI compute (logic/litho, memory, power)
   date: '2026-03-14'
@@ -72,10 +77,6 @@ recent_mentions:
 - slug: 2025-12-02-the-future-of-computing-is-glass
   title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
   date: '2025-12-02'
-  kind: substack
-- slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
-  title: Carbon Nanotubes in the Datacentre
-  date: '2025-11-25'
   kind: substack
 neighbors: []
 ---

@@ -22,7 +22,7 @@ tags:
 - technology
 mention_count: 24
 last_reorg_date: '2026-05-13'
-sources_7d: 3
+sources_7d: 1
 sources_30d: 9
 recent_mentions:
 - slug: 2026-06-17-nawah-vacnt-technology

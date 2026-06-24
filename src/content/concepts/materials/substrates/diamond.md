@@ -25,11 +25,15 @@ last_updated: '2026-06-17'
 tags:
 - concept
 - technology
-mention_count: 180
+mention_count: 186
 last_reorg_date: '2026-05-13'
-sources_7d: 9
+sources_7d: 6
 sources_30d: 37
 recent_mentions:
+- slug: 2026-06-23-evtol-certification-status-joby-stage4-archer-volocopter
+  title: eVTOL type-certification status Q1-Q2 2026 — Joby Stage 4, Archer Stage 3, Volocopter pivot
+  date: '2026-06-23'
+  kind: web
 - slug: 2026-06-22-thermal-stack-layer-landscape
   title: AI datacentre thermal stack, junction-to-ambient — per-layer players, M&A, capture (web research synthesis)
   date: '2026-06-22'
@@ -58,10 +62,6 @@ recent_mentions:
   title: 'CPUs are Back: The Datacenter CPU Landscape in 2026'
   date: '2026-02-09'
   kind: web
-- slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
-  title: Carbon Nanotubes in the Datacentre
-  date: '2025-11-25'
-  kind: substack
 neighbors:
 - slug: wide-bandgap-semiconductors
   name: Wide-Bandgap Semiconductors

@@ -19,6 +19,7 @@ sources:
 - '[[2026-05-24-mose2-exciton-polariton-all-optical-switch]]'
 - '[[2026-06-01-hbm-state-of-play]]'
 - '[[2026-03-02-nvidia-4bn-lumentum-coherent-photonics-investment]]'
+- '[[2026-02-19-microalign-eic-grant]]'
 - '[[2026-06-22-thermal-stack-layer-landscape]]'
 - '[[2026-05-30-osat-market-structure]]'
 - '[[2026-05-30-teramount-50m-molex-acquisition]]'
@@ -37,9 +38,9 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 87
+mention_count: 88
 last_reorg_date: '2026-05-13'
-sources_7d: 8
+sources_7d: 5
 sources_30d: 25
 recent_mentions:
 - slug: 2026-06-22-thermal-stack-layer-landscape

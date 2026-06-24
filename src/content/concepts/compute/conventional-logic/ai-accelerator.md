@@ -19,6 +19,7 @@ sources:
 - '[[2024-yole-thermal-management-2024]]'
 - '[[2024-02-26-micron-hbm3e-volume-production]]'
 - '[[2024-yole-advanced-packaging-2024]]'
+- '[[2026-06-17-qualcomm-tenstorrent-talks]]'
 - '[[2024-idtechex-thermal-interface-materials-2026-2036]]'
 - '[[2026-01-08-semianalysis-apple-tsmc]]'
 - '[[2026-06-17-femtoai-spu-ces2026]]'
@@ -29,13 +30,17 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 75
+mention_count: 76
 last_reorg_date: '2026-05-14'
-sources_7d: 2
-sources_30d: 7
+sources_7d: 0
+sources_30d: 8
 recent_mentions:
 - slug: 2026-06-17-femtoai-company-profile
   title: femtoAI (formerly Femtosense) — company profile, funding, leadership
+  date: '2026-06-17'
+  kind: web
+- slug: 2026-06-17-qualcomm-tenstorrent-talks
+  title: Qualcomm in advanced talks to acquire Tenstorrent at $8-10B (reported)
   date: '2026-06-17'
   kind: web
 - slug: 2026-06-17-femtoai-spu-ces2026
@@ -61,10 +66,6 @@ recent_mentions:
 - slug: 2024-10-29-deploy-intelligence-too-cheap-to
   title: Deploy! Intelligence too cheap to meter @ $0.0001 per million tokens.
   date: '2024-10-29'
-  kind: substack
-- slug: 2024-10-22-state-of-the-future-part-deux
-  title: 'An AI Thesis: State of the Future! Part Deux'
-  date: '2024-10-22'
   kind: substack
 neighbors: []
 ---

@@ -25,7 +25,8 @@ frontier:
 - 'HBM4 volume-leadership: does Samsung''s first-to-qualify headline convert to bit-share, or does SK Hynix''s reliability edge hold the volume + profit lead?'
 - Does a >25% peak-to-trough DRAM ASP correction land in any 4-quarter window through 2027 (= supercycle broken)?
 - Does memory-compression / quantisation (HBM-bytes-per-token) bend the demand curve before supply catches up in 2027?
-last_updated: '2026-06-22'
+- Does CXMT stabilise HBM3 8-hi above ~25% yield (and crack 12-hi) before 2028, or does its 12%-of-global-HBM-*wafer*-share convert into only low-grade domestic bits?
+last_updated: '2026-06-23'
 tags:
 - concept
 - technology
@@ -37,8 +38,8 @@ public_expressions:
 - 000660.KS
 - 005930.KS
 - MU
-sources_7d: 0
-sources_30d: 1
+sources_7d: 1
+sources_30d: 2
 recent_mentions: []
 neighbors:
 - slug: dram
@@ -100,15 +101,17 @@ The HBM4 per-stack bandwidth quoted as 2.0 / 2.8 / 3.3 TB/s is a pin-speed-quoti
 - **Supercycle signals:** SK Hynix sold out its entire 2026 output (booked back in Oct 2025), inventory collapsed from ~17 weeks (late 2024) to 2-4 weeks, DRAM ASP +80-90% in Q1 2026 (Counterpoint), Samsung hiked memory prices up to 60%, HBM3E carries a ~20% price hike for 2026, HBM4 a >30% premium. Customers are pre-paying and co-investing. Both SK Hynix and Samsung warn of shortage through 2027+.
 - **Read:** Bernstein calls it a "DRAM super-cycle"; the duration is structural (tied to ~$650B AI infra capex in 2026, +80% YoY), not a consumer cycle. This is a rerate, not a boom-bust, unless the bear triggers fire.
 
-## The three suppliers (who is best placed, and why)
+## The suppliers (who is best placed, and why)
 
-**Market share (HBM revenue, Counterpoint Q3 2025): SK Hynix 57% · Samsung 22% · Micron 21%.** 2026 bit-output projection: SK Hynix ~50%, Samsung ~28%, Micron the balance.
+**Market share (HBM revenue, Counterpoint Q3 2025): SK Hynix 57% · Samsung 22% · Micron 21%.** 2026 bit-output projection: SK Hynix ~50%, Samsung ~28%, Micron the balance. CXMT is the rising fourth on *wafers* but a rounding error on competitive *bits* (below).
 
 **SK Hynix — best-placed overall (~75% confidence).** Share leader, Nvidia's primary HBM supplier (Nvidia ~15% of its revenue), sold out through 2026 into 2027. The durable edge is execution: ~80-90% HBM3E yields, MR-MUF packaging (<2°C thermal delta across a 12-hi stack), and the mature, low-cost, high-yield TSMC N12 base-die path carried into HBM4. Q1 2026 record sales; crossed ~$1T market cap. Weakness: lost the HBM4 first-to-ship headline to Samsung this cycle, and share is eroding off a 60%+ peak.
 
 **Samsung — best-in-class HBM4 performance, riskiest path.** Won the HBM4 first-mover sprint on paper (passed Nvidia's 11 Gb/s bar, demoed 13 Gb/s / 3.3 TB/s at ISSCC, began full HBM4 shipments Feb 2026, set to lead Vera-Rubin-specific HBM4 supply). The vertical-integration story (DRAM + own foundry + packaging) matters more as HBM4 moves to a logic base die. But SemiAnalysis is explicit: Samsung still lags SK Hynix on reliability/stability, and its in-house SF4 base die + 1c DRAM runs only ~50-60% yield (below ~60% breakeven), a margin/execution risk. **Net: Samsung wins the headline, SK Hynix likely wins the volume.**
 
 **Micron — solid #3, the US/Western hedge, and a 2026 surprise.** At GTC (Mar 2026) Micron announced high-volume HBM4 36GB 12-high for Nvidia Vera Rubin (>11 Gb/s, >2.8 TB/s) and is sampling 48GB 16-high, using a low-cost internal CMOS base die. The only US-based supplier, so it carries the CHIPS-aligned structural angle (ties to **Sovereignty Semi Bifurcation**). 2026 supply fully booked; FY26 capex ~$20B; >50% gross margin. *(Divergence flag: an earlier TrendForce note framed Micron as "limited to mid-tier Rubin CPX"; Micron's own IR contradicts it. Trust the primary.)*
+
+**CXMT, the China entrant: real on wafers, not yet on bits (~70% confidence the gap holds to 2028).** SemiAnalysis models CXMT's HBM wafer capacity at 5 → 30 → 55 → 100 kwspm (2025→2028), which *"increase[s] the company's share of global HBM wafer supply from 1% in 2025 to 12% in 2028"* (**2026 06 23 Semianalysis Cxmt Set To Challenge Dram Incumbents**). The headline reads like a fourth force arriving; the yield reads otherwise. On technology readiness SemiAnalysis is explicit: *"we believe CXMT is still struggling to stabilize supply for HBM3 8-hi, with even greater challenges in 12-hi."* It models 8-hi front-end/back-end yields at ~35% / ~70%, an **overall yield of only ~25%**, gated by back-end stacking (thermal stress, die cracking, warpage, bonding defects) and a low front-end wafer-sort yield, with HBM3 attempted **without EUV**. So 12% of HBM *wafers* by 2028 ≠ 12% of competitive HBM *bits*: most of CXMT's stacks are lost or low-grade, and it remains ~3–4 years behind on the gen roadmap (HBM2E mass production targeted H1 2026, HBM3 in 2026, HBM3E in 2027). **The competitive moat the leaders hold is back-end stacking yield, and CXMT's struggle is the clearest evidence that it holds longer than the wafer-share chart implies.** The live risk is sovereignty, not displacement: even sub-scale, low-yield domestic HBM relieves Chinese-AI memory dependence (**Sovereignty Semi Bifurcation**, **Cxmt**). Full maker volumes/revenue + the wafer-capacity chart sit on [DRAM](/sotf-site/memory/mainstream-memory/dram/).
 
 ## Routes (how to express it)
 

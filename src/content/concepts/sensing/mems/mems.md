@@ -18,6 +18,7 @@ sources:
 - '[[2026-06-21-st-nxp-mems-acquisition]]'
 - '[[2026-06-16-trapped-ion-landscape-2026]]'
 - '[[2026-06-21-grandview-mems-microphones]]'
+- '[[2026-06-03-datam-specialty-foundry-forecast-2035]]'
 - '[[2026-06-21-yole-mems-market-momentum]]'
 - '[[2026-06-21-marketsandmarkets-mems-2030]]'
 frontier:
@@ -26,15 +27,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 66
+mention_count: 69
 last_reorg_date: '2026-05-13'
 descendants:
 - mems
 - nems
 - sensors
 - spectral-sensing
-sources_7d: 8
-sources_30d: 14
+sources_7d: 9
+sources_30d: 17
 recent_mentions:
 - slug: 2026-06-21-mems-speaker-market
   title: MEMS Speaker Market size and CAGR (SNS Insider / Transparency / Data Bridge)
@@ -64,10 +65,10 @@ recent_mentions:
   title: Integrated Microfluidic Giant Magnetoresistance (GMR) Biosensor Platform for Magnetoresistive Immunoassay (and related GMR/MTJ bead-detection literature)
   date: '2026-06-04'
   kind: web
-- slug: 2025-12-19-lfg-for-semiconductors
-  title: LFG (for semiconductors)
-  date: '2025-12-19'
-  kind: substack
+- slug: 2026-06-03-datam-specialty-foundry-forecast-2035
+  title: Specialty Foundry Market Forecast and Industry Analysis 2035 (USD 11.65B 2025 to 38.85B 2035, 12.8pct CAGR)
+  date: '2026-06-03'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

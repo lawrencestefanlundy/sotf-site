@@ -12,7 +12,11 @@ sources:
 - '[[2023-08-18-e11-in-conversation-with-lux-capital]]'
 - '[[2026-01-22-ai-chips-computeram-and-the-future]]'
 - '[[2024-eu-chips-act-final-text]]'
+- '[[2025-07-23-nvidia-cuda-on-risc-v]]'
+- '[[2026-06-17-qualcomm-tenstorrent-talks]]'
+- '[[2026-04-09-sifive-series-g]]'
 - '[[2026-06-15-gf-investor-day-2026]]'
+- '[[2025-12-18-risc-v-25pct-penetration]]'
 - '[[2026-02-09-semianalysis-datacenter-cpu-2026]]'
 - '[[2026-05-21-semianalysis-eda-market-primer]]'
 frontier:
@@ -21,11 +25,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 50
+mention_count: 54
 last_reorg_date: '2026-05-14'
-sources_7d: 4
-sources_30d: 13
+sources_7d: 3
+sources_30d: 14
 recent_mentions:
+- slug: 2026-06-17-qualcomm-tenstorrent-talks
+  title: Qualcomm in advanced talks to acquire Tenstorrent at $8-10B (reported)
+  date: '2026-06-17'
+  kind: web
 - slug: 2026-06-15-gf-investor-day-2026
   title: GlobalFoundries Investor Day 2026 (presentation)
   date: '2026-06-15'
@@ -33,6 +41,10 @@ recent_mentions:
 - slug: 2026-05-21-semianalysis-eda-market-primer
   title: EDA Market Primer - Market Dynamics, Cadence, Synopsys, Siemens, China EDA Rise
   date: '2026-05-21'
+  kind: web
+- slug: 2026-04-09-sifive-series-g
+  title: SiFive raises $400M Series G at $3.65B valuation
+  date: '2026-04-09'
   kind: web
 - slug: 2026-02-09-semianalysis-datacenter-cpu-2026
   title: 'CPUs are Back: The Datacenter CPU Landscape in 2026'
@@ -42,14 +54,14 @@ recent_mentions:
   title: 'AI Chips, ComputeRAM and the Future of Data Movement: A Conversation with Manu, Founder of Synthara'
   date: '2026-01-22'
   kind: substack
-- slug: 2024-eu-chips-act-final-text
-  title: European Chips Act — Regulation (EU) 2023/1781
-  date: '2023-09-20'
+- slug: 2025-12-18-risc-v-25pct-penetration
+  title: RISC-V International announces 25% market penetration, ahead of schedule
+  date: '2025-12-18'
   kind: web
-- slug: 2023-08-18-e11-in-conversation-with-lux-capital
-  title: '☎️ E11: In Conversation with Lux Capital on the State of the Future'
-  date: '2023-08-18'
-  kind: substack
+- slug: 2025-07-23-nvidia-cuda-on-risc-v
+  title: NVIDIA brings CUDA to RISC-V (host-CPU support), 5th RISC-V China Summit
+  date: '2025-07-23'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

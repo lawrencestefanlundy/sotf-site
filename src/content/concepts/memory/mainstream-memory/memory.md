@@ -46,7 +46,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 640
+mention_count: 656
 descendants:
 - 3d-dram
 - adc-bottleneck
@@ -77,9 +77,21 @@ descendants:
 - sram-cim
 - storage-class-memory
 last_reorg_date: '2026-05-14'
-sources_7d: 5
+sources_7d: 2
 sources_30d: 14
 recent_mentions:
+- slug: 2026-06-23-memory-chips-and-china-microsoft-and-chinese-models
+  title: Memory Chips and China, Microsoft and Chinese Models
+  date: '2026-06-23'
+  kind: web
+- slug: 2025-26-lapedus-next-gen-ferroelectric-memory
+  title: Next-Gen Ferroelectric Memory Still A Work In Progress
+  date: '2026-06-23'
+  kind: web
+- slug: 2026-06-23-ionq-acquires-lightsynq-quantum-memory
+  title: IonQ acquires Lightsynq (quantum-memory / quantum-repeater startup)
+  date: '2026-06-23'
+  kind: web
 - slug: 2026-06-22-beyond-cmos-device-layer-research
   title: Beyond-CMOS device layer — grounded research (MRAM/FeFET beachhead + capture base rate)
   date: '2026-06-22'
@@ -99,18 +111,6 @@ recent_mentions:
 - slug: 2026-06-15-gf-investor-day-2026
   title: GlobalFoundries Investor Day 2026 (presentation)
   date: '2026-06-15'
-  kind: web
-- slug: 2026-06-14-frontier-ai-value-capture
-  title: 'Frontier AI value capture: where the $4T accrues (research synthesis)'
-  date: '2026-06-14'
-  kind: web
-- slug: 2026-06-04-bezos-flourish-brain-core-algorithm
-  title: Jeff Bezos Is Funding a Wild Hunt for the Brain's 'Core Algorithm'
-  date: '2026-06-04'
-  kind: web
-- slug: 2026-06-04-q-memory-site
-  title: Q-Memory — company website (q-memory.tech)
-  date: '2026-06-04'
   kind: web
 neighbors: []
 ---

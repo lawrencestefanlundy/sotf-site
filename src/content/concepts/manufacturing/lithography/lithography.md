@@ -28,10 +28,10 @@ sources:
 - '[[2026-01-13-semianalysis-interconnects-beyond-copper]]'
 - '[[2023-12-06-euv-lithography-but-with-a-free-electron-laser]]'
 - '[[2025-01-06-radiant-acquires-nilt]]'
+- '[[2026-openai-titan-custom-chip]]'
 - '[[2026-05-12-semianalysis-eda-rtl-to-silicon]]'
 - '[[2026-06-14-semianalysis-smic-n3-vs-intel-18a]]'
 - '[[2026-06-03-semianalysis-space-datacenters]]'
-- '[[2026-05-02-two-photon-lithography-for-integrated-photonic-packaging-lig]]'
 frontier:
 - Lithography as three-way optimisation (throughput / feature size / feature complexity) — does any single tool win on all three, or does the market remain a portfolio of specialised tools each winning on two?
 - Multi-material patterning at production volume — does a tool emerge that patterns dissimilar materials in the same step, or does multi-material foundry remain a retrofit (transfer printing, hybrid integration, post-processing)?
@@ -41,7 +41,7 @@ last_updated: '2026-05-08'
 tags:
 - concept
 - technology
-mention_count: 126
+mention_count: 129
 descendants:
 - computational-lithography
 - directed-self-assembly

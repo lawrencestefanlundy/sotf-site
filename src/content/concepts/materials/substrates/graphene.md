@@ -16,6 +16,7 @@ sources:
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
 - '[[2023-02-23-soundcell-spin-off-of-graphene-flagship-partner-tu-delft-rec]]'
 - '[[2026-02-06-eth-zurich-spinout-chiral-bags-12m-to-scale-robotic-platform]]'
+- '[[2026-06-23-inbrain-graphene-first-in-human]]'
 - '[[2024-yole-thermal-management-2024]]'
 - '[[2026-06-04-fulfilling-the-promise-of-graphene---enterprisecamacuk]]'
 - '[[2024-idtechex-thermal-interface-materials-2026-2036]]'
@@ -27,11 +28,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 109
+mention_count: 113
 last_reorg_date: '2026-05-13'
-sources_7d: 12
-sources_30d: 44
+sources_7d: 13
+sources_30d: 47
 recent_mentions:
+- slug: 2026-06-23-inbrain-graphene-first-in-human
+  title: 'InBrain Neuroelectronics: world-first-in-human graphene neural interface study, $50M Series B, FDA Breakthrough Device, Merck KGaA partnership'
+  date: '2026-06-23'
+  kind: web
 - slug: 2026-06-22-tim-approaches-full-sweep
   title: TIM approaches — exhaustive in-market + R&D sweep (vendors, classes, startups)
   date: '2026-06-22'
@@ -60,10 +65,6 @@ recent_mentions:
   title: 'An AI Thesis: State of the Future! Part Deux'
   date: '2024-10-22'
   kind: substack
-- slug: 2024-yole-thermal-management-2024
-  title: Yole Group — Thermal Management 2024 Market Analysis
-  date: '2024-10-01'
-  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

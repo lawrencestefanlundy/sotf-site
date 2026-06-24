@@ -12,6 +12,7 @@ sources:
 - '[[2023-10-19-e20-the-state-of-privacy-enhancing]]'
 - '[[2023-08-25-e12-nanomechanical-computing-gears]]'
 - '[[2025-12-16-draft-nist-guidelines-rethink-cybersecurity-for-the-ai-era]]'
+- '[[2026-03-28-agentic-ai-security-funding-mna]]'
 - '[[2026-05-29-silicon-shock-the-macro-of-tech-inflation]]'
 frontier:
 - ''
@@ -19,14 +20,18 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 38
+mention_count: 39
 last_reorg_date: '2026-05-13'
 sources_7d: 3
-sources_30d: 16
+sources_30d: 12
 recent_mentions:
 - slug: 2026-05-29-silicon-shock-the-macro-of-tech-inflation
   title: 'Silicon Shock: The Macro of Tech Inflation'
   date: '2026-05-29'
+  kind: web
+- slug: 2026-03-28-agentic-ai-security-funding-mna
+  title: 'Agentic-AI security startups: funding and M&A, RSAC 2026'
+  date: '2026-03-28'
   kind: web
 - slug: 2025-12-16-draft-nist-guidelines-rethink-cybersecurity-for-the-ai-era
   title: Draft NIST Guidelines Rethink Cybersecurity for the AI Era

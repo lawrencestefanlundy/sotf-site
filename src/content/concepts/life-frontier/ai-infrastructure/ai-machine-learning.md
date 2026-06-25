@@ -24,6 +24,10 @@ recent_mentions:
   title: 'SkillMutator: Benchmarking and Defending Language-and-Code Cross-modal Attacks on LLM Agent Skills'
   date: '2026-06-15'
   kind: paper
+- slug: 2026-01-30-google-deepmind-alphachip-team-lead
+  title: Google DeepMind Seeks Team Lead for Growing AI Chip Design Effort
+  date: '2026-01-30'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

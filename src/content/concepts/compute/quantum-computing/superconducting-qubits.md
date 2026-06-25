@@ -22,7 +22,7 @@ tags:
 - technology
 mention_count: 41
 last_reorg_date: '2026-05-13'
-sources_7d: 5
+sources_7d: 4
 sources_30d: 16
 recent_mentions:
 - slug: 2026-06-12-hku-sic-cryogenic-neuromorphic-chip-10mk

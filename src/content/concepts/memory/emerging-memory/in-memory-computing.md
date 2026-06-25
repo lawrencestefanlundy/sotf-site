@@ -39,7 +39,7 @@ descendants:
 - processing-in-memory
 - sram-cim
 last_reorg_date: '2026-05-14'
-sources_7d: 2
+sources_7d: 1
 sources_30d: 13
 recent_mentions:
 - slug: 2026-01-22-ai-chips-computeram-and-the-future

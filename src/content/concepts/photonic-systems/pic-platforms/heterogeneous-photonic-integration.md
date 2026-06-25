@@ -30,6 +30,14 @@ Heterogeneous photonic integration combines dissimilar material platforms—typi
 
 Monolithic III-V photonics (InP PICs) competes on performance but loses on cost and CMOS fab compatibility. Silicon-only photonics lacks gain entirely. Thin-film lithium niobate (TFLN) competes on modulation bandwidth (>100 GHz EO) but still needs an external laser. Quantum dot on silicon is an emerging monolithic alternative, avoiding bonding steps at the cost of yield immaturity.
 
+## Investment relevance (vehicle-agnostic)
+
+| Approach | Gain on-chip | CMOS compatible | Modulation BW |
+|---|---|---|---|
+| Heterogeneous III-V/Si | Yes | Partial | ~50 GHz |
+| Monolithic InP | Yes | No | ~100 GHz |
+| TFLN + external laser | No | No | >100 GHz |
+
 ## Companies using
 
 <!-- dataview block stripped for public site -->
@@ -43,5 +51,3 @@ Monolithic III-V photonics (InP PICs) competes on performance but loses on cost 
 <!-- dataview block stripped for public site -->
 
 ## Frontier (open questions)
-
-- *To be added.*

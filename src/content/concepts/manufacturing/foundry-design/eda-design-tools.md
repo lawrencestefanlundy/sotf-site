@@ -19,7 +19,11 @@ mention_count: 25
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-01-30-google-deepmind-alphachip-team-lead
+  title: Google DeepMind Seeks Team Lead for Growing AI Chip Design Effort
+  date: '2026-01-30'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism
@@ -29,6 +33,21 @@ Electronic Design Automation encompasses the software stack that converts circui
 ## Competitive landscape
 
 ---
+
+## Market structure & investment angles
+
+The market is an effective triopoly: Synopsys (~$6B revenue), Cadence (~$4B), Siemens EDA (Mentor legacy). ANSYS anchors multiphysics simulation. Emerging challengers target specific wedges — OpenROAD for open-source RTL-to-GDS, Luminous Computing / Photon Design for photonic EDA, Luceda / Lumerical (Ansys) for PIC-specific flows. AI-native startups (Quilter, Jeda AI, **Ricursive Intelligence** ($300M/$4B)) attack specific bottlenecks.
+
+| Player | Wedge | Risk |
+|---|---|---|
+| Synopsys / Cadence | Full-stack, all nodes | Switching cost moat |
+| Lumerical / Luceda | Photonic IC design | PDK coverage thin |
+| OpenROAD | Cost, transparency | Support / signoff gap |
+| Ricursive Intelligence | AI-native design (AlphaChip lineage) | US-only, $4B entry |
+
+---
+
+Photonics and advanced-materials companies hit EDA friction immediately: photonic PDKs are immature, co-simulation of electronic-photonic systems (EPDA) has no dominant toolchain, and GF's silicon photonics PDK (45SPCLO) requires bespoke flows. Opportunity angles — vehicle-agnostic: EPDA tooling, PDK-as-a-service, AI-assisted verification for compound semiconductor processes where SPICE models are poorly characterised, open/sovereign EDA flows priced near-zero (counter-positions the Big-3 seat-license model). Public-markets expression: CDNS, SNPS. Pre-seed: European open-EDA / sovereign-tooling plays (see **Eda Chip Design** for the full theme read).
 
 ## Companies using
 

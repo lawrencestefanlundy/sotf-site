@@ -49,7 +49,7 @@ descendants:
 - topological-qubits
 - trapped-ion
 last_reorg_date: '2026-05-13'
-sources_7d: 6
+sources_7d: 5
 sources_30d: 47
 recent_mentions:
 - slug: 2026-06-20-d-wave-quantum-nyse-qbts-secures-100-million-federal-loi-und

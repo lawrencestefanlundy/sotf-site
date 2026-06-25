@@ -61,7 +61,7 @@ descendants:
 - x-ray-lithography
 - xolography
 last_reorg_date: '2026-05-13'
-sources_7d: 3
+sources_7d: 2
 sources_30d: 29
 recent_mentions:
 - slug: 2026-06-14-frontier-ai-value-capture

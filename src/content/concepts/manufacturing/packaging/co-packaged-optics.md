@@ -40,7 +40,7 @@ tags:
 - technology
 mention_count: 88
 last_reorg_date: '2026-05-13'
-sources_7d: 5
+sources_7d: 4
 sources_30d: 25
 recent_mentions:
 - slug: 2026-06-22-thermal-stack-layer-landscape

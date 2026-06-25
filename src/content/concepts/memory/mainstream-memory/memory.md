@@ -46,7 +46,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 656
+mention_count: 657
 descendants:
 - 3d-dram
 - adc-bottleneck
@@ -77,8 +77,8 @@ descendants:
 - sram-cim
 - storage-class-memory
 last_reorg_date: '2026-05-14'
-sources_7d: 2
-sources_30d: 14
+sources_7d: 1
+sources_30d: 13
 recent_mentions:
 - slug: 2026-06-23-memory-chips-and-china-microsoft-and-chinese-models
   title: Memory Chips and China, Microsoft and Chinese Models
@@ -90,6 +90,10 @@ recent_mentions:
   kind: web
 - slug: 2026-06-23-ionq-acquires-lightsynq-quantum-memory
   title: IonQ acquires Lightsynq (quantum-memory / quantum-repeater startup)
+  date: '2026-06-23'
+  kind: web
+- slug: 2026-06-23-engram-98m-learned-memory-token-costs
+  title: AI memory startup focused on cutting token costs raises $98 million
   date: '2026-06-23'
   kind: web
 - slug: 2026-06-22-beyond-cmos-device-layer-research
@@ -107,10 +111,6 @@ recent_mentions:
 - slug: 2026-06-16-hbm-supercycle-2026
   title: 'HBM supercycle 2026: sold out, +20% pricing, HBM4 ramp, ASIC-HBM 35x'
   date: '2026-06-16'
-  kind: web
-- slug: 2026-06-15-gf-investor-day-2026
-  title: GlobalFoundries Investor Day 2026 (presentation)
-  date: '2026-06-15'
   kind: web
 neighbors: []
 ---

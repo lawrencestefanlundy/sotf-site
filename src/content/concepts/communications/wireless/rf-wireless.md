@@ -20,7 +20,15 @@ descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-24-huawei-sets-wi-fi-7-patent-rate-at-05-per-device-here-is-wha
+  title: Huawei Sets Wi-Fi 7 Patent Rate at $0.5 Per Device, Here Is What That Means - PhoneWorld
+  date: '2026-06-24'
+  kind: web
+- slug: 2025-10-29-extreme-networks-talks-up-wi-fi-7-but-spectrum-is-limited---
+  title: Extreme Networks talks up Wi-Fi 7, but spectrum is limited - iTWire
+  date: '2025-10-29'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

@@ -27,8 +27,24 @@ descendants:
 - wafer-level-burn-in
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 5
+sources_30d: 4
 recent_mentions:
+- slug: 2026-06-24-silicon-saxony-shows-promise-limits-of-europes-chips-act---e
+  title: Silicon Saxony Shows Promise, Limits of Europe’s Chips Act - EE Times
+  date: '2026-06-24'
+  kind: web
+- slug: 2026-06-24-the-eu-chips-act-better-than-nothing---bitschips
+  title: 'The EU Chips Act: better than nothing - Bits&Chips'
+  date: '2026-06-24'
+  kind: web
+- slug: 2026-06-23-chips-act-can-europe-catch-up-in-the-global-semiconductor-ra
+  title: 'Chips Act: can Europe catch up in the global semiconductor race? - Polytechnique Insights'
+  date: '2026-06-23'
+  kind: web
+- slug: 2026-02-12-us-fines-applied-materials-250m-for-illegal-semiconductor-ex
+  title: US fines Applied Materials $250M for illegal semiconductor exports to China - MSN
+  date: '2026-02-12'
+  kind: web
 - slug: 2025-12-30-us-eases-semiconductor-equipment-rules-for-samsung-sk-hynix-
   title: U.S. Eases Semiconductor Equipment Rules for Samsung, SK Hynix in China - 조선일보
   date: '2025-12-30'

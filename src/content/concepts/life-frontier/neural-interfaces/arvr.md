@@ -23,7 +23,7 @@ descendants:
 - ar-glasses-stack
 - ar-optical-combiners
 sources_7d: 0
-sources_30d: 4
+sources_30d: 3
 recent_mentions:
 - slug: 2025-01-07-fund-frontier-expeditions-otherwise
   title: Fund Frontier Expeditions otherwise just buy the "Magnificent Seven"

@@ -20,7 +20,19 @@ descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-25-smile-reaches-science-orbit
+  title: Smile reaches science orbit
+  date: '2026-06-25'
+  kind: web
+- slug: 2026-06-24-roman-telescope-comes-to-kennedy
+  title: Roman Telescope Comes to Kennedy
+  date: '2026-06-24'
+  kind: web
+- slug: 2023-11-06-deploying-sensor-nets-to-measure-ocean-co2-and-ph-from-the-s
+  title: Deploying sensor nets to measure ocean CO2 and pH from the surface to the depths - EurekAlert!
+  date: '2023-11-06'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

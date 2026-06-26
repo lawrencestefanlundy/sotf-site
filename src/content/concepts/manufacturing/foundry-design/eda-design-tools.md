@@ -19,11 +19,7 @@ mention_count: 25
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-01-30-google-deepmind-alphachip-team-lead
-  title: Google DeepMind Seeks Team Lead for Growing AI Chip Design Effort
-  date: '2026-01-30'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

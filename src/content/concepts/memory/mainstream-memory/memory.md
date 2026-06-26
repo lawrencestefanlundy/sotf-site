@@ -46,7 +46,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 657
+mention_count: 659
 descendants:
 - 3d-dram
 - adc-bottleneck
@@ -78,8 +78,12 @@ descendants:
 - storage-class-memory
 last_reorg_date: '2026-05-14'
 sources_7d: 1
-sources_30d: 13
+sources_30d: 11
 recent_mentions:
+- slug: 2026-06-23-semidoped-daily-update
+  title: Semi Doped — Daily Update, June 23rd 2026
+  date: '2026-06-23'
+  kind: web
 - slug: 2026-06-23-memory-chips-and-china-microsoft-and-chinese-models
   title: Memory Chips and China, Microsoft and Chinese Models
   date: '2026-06-23'
@@ -106,10 +110,6 @@ recent_mentions:
   kind: web
 - slug: 2026-06-16-cim-landscape-2026
   title: 'Compute-in-memory landscape 2026: efficiency claims, the digital-readout shift, IDM PIM'
-  date: '2026-06-16'
-  kind: web
-- slug: 2026-06-16-hbm-supercycle-2026
-  title: 'HBM supercycle 2026: sold out, +20% pricing, HBM4 ramp, ASIC-HBM 35x'
   date: '2026-06-16'
   kind: web
 neighbors: []

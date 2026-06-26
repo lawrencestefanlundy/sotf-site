@@ -22,6 +22,7 @@ sources:
 - '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
+- '[[2026-06-23-semidoped-daily-update]]'
 - '[[2026-03-14-semianalysis-patel-bottlenecks]]'
 - '[[2026-05-30-osat-market-structure]]'
 - '[[2024-yole-advanced-packaging-2024]]'
@@ -37,15 +38,19 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 125
+mention_count: 126
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration
 - osat
 last_reorg_date: '2026-05-13'
-sources_7d: 1
+sources_7d: 2
 sources_30d: 17
 recent_mentions:
+- slug: 2026-06-23-semidoped-daily-update
+  title: Semi Doped — Daily Update, June 23rd 2026
+  date: '2026-06-23'
+  kind: web
 - slug: 2026-06-15-gf-investor-day-2026
   title: GlobalFoundries Investor Day 2026 (presentation)
   date: '2026-06-15'
@@ -73,10 +78,6 @@ recent_mentions:
 - slug: 2025-12-19-lfg-for-semiconductors
   title: LFG (for semiconductors)
   date: '2025-12-19'
-  kind: substack
-- slug: 2025-12-02-the-future-of-computing-is-glass
-  title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
-  date: '2025-12-02'
   kind: substack
 neighbors: []
 ---

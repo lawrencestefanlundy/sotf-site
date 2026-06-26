@@ -38,7 +38,7 @@ descendants:
 - solid-state-circuit-breakers
 - wireless-power-transfer
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-05-26-semianalysis-800vdc-revolution
   title: Inside the 800VDC Revolution – Part 1

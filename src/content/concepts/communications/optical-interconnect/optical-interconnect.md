@@ -14,6 +14,7 @@ related_concepts:
 - optical-packet-switching
 sources:
 - '[[2026-05-30-optical-interconnect-ma-ledger]]'
+- '[[2026-06-23-semidoped-daily-update]]'
 - '[[2026-03-02-nvidia-4bn-lumentum-coherent-photonics-investment]]'
 - '[[2026-05-30-opsydia-glass-waveguide-packaging]]'
 - '[[2026-05-30-intel-glass-substrates-program]]'
@@ -24,7 +25,7 @@ last_updated: '2026-05-07'
 tags:
 - concept
 - technology
-mention_count: 24
+mention_count: 25
 descendants:
 - datacenter-network-stack
 - lpo-linear-pluggable-optics
@@ -34,9 +35,13 @@ descendants:
 - optical-packet-switching
 - pluggable-transceivers
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 6
+sources_7d: 1
+sources_30d: 7
 recent_mentions:
+- slug: 2026-06-23-semidoped-daily-update
+  title: Semi Doped — Daily Update, June 23rd 2026
+  date: '2026-06-23'
+  kind: web
 - slug: 2026-05-30-optical-interconnect-ma-ledger
   title: Optical-interconnect / photonic-packaging M&A ledger (2019-2026)
   date: '2026-05-30'
@@ -65,10 +70,6 @@ recent_mentions:
   title: Opsydia — Oxford spinout, laser-written glass waveguides, pre-Series A (Jul 2025)
   date: '2025-07-30'
   kind: web
-- slug: 2025-04-16-the-state-of-photonic-computing
-  title: 'Photonic Computing: A Primer'
-  date: '2025-04-16'
-  kind: substack
 neighbors:
 - slug: optical-circuit-switching
   name: Optical Circuit Switching (OCS)

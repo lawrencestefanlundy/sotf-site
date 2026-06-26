@@ -24,7 +24,15 @@ descendants:
 - stm
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-24-the-eu-chips-act-better-than-nothing---bitschips
+  title: 'The EU Chips Act: better than nothing - Bits&Chips'
+  date: '2026-06-24'
+  kind: web
+- slug: 2026-06-23-chips-act-can-europe-catch-up-in-the-global-semiconductor-ra
+  title: 'Chips Act: can Europe catch up in the global semiconductor race? - Polytechnique Insights'
+  date: '2026-06-23'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

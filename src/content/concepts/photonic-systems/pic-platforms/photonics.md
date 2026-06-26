@@ -36,7 +36,7 @@ last_updated: '2026-05-07'
 tags:
 - concept
 - theme
-mention_count: 729
+mention_count: 731
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -46,9 +46,17 @@ descendants:
 - optical-frequency-division
 - optoelectronic-oscillator
 last_reorg_date: '2026-05-13'
-sources_7d: 1
+sources_7d: 2
 sources_30d: 11
 recent_mentions:
+- slug: 2026-06-24-eic-board-calls-for-faster-deployment-of-deep-tech-to-streng
+  title: EIC Board calls for faster deployment of deep tech to strengthen Europe’s energy resilience - European Innovation Council
+  date: '2026-06-24'
+  kind: web
+- slug: 2026-06-23-semidoped-daily-update
+  title: Semi Doped — Daily Update, June 23rd 2026
+  date: '2026-06-23'
+  kind: web
 - slug: 2026-06-22-thermal-stack-layer-landscape
   title: AI datacentre thermal stack, junction-to-ambient — per-layer players, M&A, capture (web research synthesis)
   date: '2026-06-22'
@@ -72,14 +80,6 @@ recent_mentions:
 - slug: 2026-06-15-luminate-ny-accelerator-terms
   title: Luminate NY OPI accelerator — terms and structure
   date: '2026-06-15'
-  kind: web
-- slug: 2026-06-15-gf-investor-day-2026
-  title: GlobalFoundries Investor Day 2026 (presentation)
-  date: '2026-06-15'
-  kind: web
-- slug: 2026-06-13-usgs-mcs-rare-earths-supply-concentration
-  title: USGS Mineral Commodity Summaries — Rare Earths (2025 / 2026 editions)
-  date: '2026-06-13'
   kind: web
 neighbors: []
 ---

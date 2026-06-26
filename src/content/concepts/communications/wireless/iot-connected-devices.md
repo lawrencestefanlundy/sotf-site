@@ -19,7 +19,11 @@ mention_count: 57
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2023-11-06-deploying-sensor-nets-to-measure-ocean-co2-and-ph-from-the-s
+  title: Deploying sensor nets to measure ocean CO2 and pH from the surface to the depths - EurekAlert!
+  date: '2023-11-06'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

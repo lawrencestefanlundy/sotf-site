@@ -15,6 +15,7 @@ sources:
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
 - '[[2024-yole-emerging-memories-2024]]'
+- '[[2026-06-23-semidoped-daily-update]]'
 - '[[2026-06-17-femtoai-company-profile]]'
 - '[[2024-yole-thermal-management-2024]]'
 - '[[2024-02-26-micron-hbm3e-volume-production]]'
@@ -30,11 +31,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 76
+mention_count: 77
 last_reorg_date: '2026-05-14'
-sources_7d: 0
-sources_30d: 8
+sources_7d: 1
+sources_30d: 9
 recent_mentions:
+- slug: 2026-06-23-semidoped-daily-update
+  title: Semi Doped — Daily Update, June 23rd 2026
+  date: '2026-06-23'
+  kind: web
 - slug: 2026-06-17-femtoai-company-profile
   title: femtoAI (formerly Femtosense) — company profile, funding, leadership
   date: '2026-06-17'
@@ -47,6 +52,10 @@ recent_mentions:
   title: femtoAI to Highlight its Sparse Processing Unit Edge AI Accelerator at CES 2026
   date: '2026-06-17'
   kind: web
+- slug: 2026-06-08-uk-to-buy-home-grown-ai-chips-in-bid-to-keep-tech-firms-from
+  title: UK to buy home-grown AI chips in bid to keep tech firms from moving abroad - Computing UK
+  date: '2026-06-08'
+  kind: web
 - slug: 2026-01-08-semianalysis-apple-tsmc
   title: 'Apple-TSMC: The Partnership That Built Modern Semiconductors'
   date: '2026-01-08'
@@ -58,14 +67,6 @@ recent_mentions:
 - slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
   title: 'UK Opportunity in AI: Compound Semiconductors'
   date: '2025-09-10'
-  kind: substack
-- slug: 2024-yole-advanced-packaging-2024
-  title: Yole Group — Advanced Packaging 2024 Market Analysis
-  date: '2024-12-01'
-  kind: web
-- slug: 2024-10-29-deploy-intelligence-too-cheap-to
-  title: Deploy! Intelligence too cheap to meter @ $0.0001 per million tokens.
-  date: '2024-10-29'
   kind: substack
 neighbors: []
 ---

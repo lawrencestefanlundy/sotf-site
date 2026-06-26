@@ -31,11 +31,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 270
+mention_count: 271
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 35
+sources_7d: 2
+sources_30d: 34
 recent_mentions:
+- slug: 2026-06-25-smile-reaches-science-orbit
+  title: Smile reaches science orbit
+  date: '2026-06-25'
+  kind: web
 - slug: 2026-06-22-beyond-cmos-device-layer-research
   title: Beyond-CMOS device layer — grounded research (MRAM/FeFET beachhead + capture base rate)
   date: '2026-06-22'
@@ -62,10 +66,6 @@ recent_mentions:
   kind: web
 - slug: 2026-06-04-magnetoresistive-biochips-freitas-trends-biotech
   title: Magnetoresistive-based biosensors and biochips
-  date: '2026-06-04'
-  kind: web
-- slug: 2026-06-04-process-analytical-technology-market-size
-  title: Process Analytical Technology Market Size, Report by 2034 (Precedence Research)
   date: '2026-06-04'
   kind: web
 neighbors: []

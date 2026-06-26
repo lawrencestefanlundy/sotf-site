@@ -15,6 +15,7 @@ sources:
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2025-04-16-the-state-of-photonic-computing]]'
+- '[[2026-06-23-semidoped-daily-update]]'
 - '[[2026-05-02-cpo-market-to-grow-at-37-cagr-semiconductor-today]]'
 - '[[2026-05-24-mose2-exciton-polariton-all-optical-switch]]'
 - '[[2026-06-01-hbm-state-of-play]]'
@@ -38,11 +39,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 88
+mention_count: 89
 last_reorg_date: '2026-05-13'
-sources_7d: 4
-sources_30d: 25
+sources_7d: 2
+sources_30d: 24
 recent_mentions:
+- slug: 2026-06-23-semidoped-daily-update
+  title: Semi Doped — Daily Update, June 23rd 2026
+  date: '2026-06-23'
+  kind: web
 - slug: 2026-06-22-thermal-stack-layer-landscape
   title: AI datacentre thermal stack, junction-to-ambient — per-layer players, M&A, capture (web research synthesis)
   date: '2026-06-22'
@@ -70,10 +75,6 @@ recent_mentions:
 - slug: 2026-05-30-teramount-50m-molex-acquisition
   title: Teramount — $50M raise (Jul 2025) then ~$430M Molex (Koch) acquisition (completed 7 May 2026)
   date: '2026-05-07'
-  kind: web
-- slug: 2026-05-02-cpo-market-to-grow-at-37-cagr-semiconductor-today
-  title: CPO market to grow at 37% CAGR (Semiconductor Today)
-  date: '2026-05-02'
   kind: web
 neighbors: []
 ---

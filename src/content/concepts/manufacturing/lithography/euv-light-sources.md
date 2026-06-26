@@ -15,6 +15,7 @@ sources:
 - '[[2024-10-29-deploy-intelligence-too-cheap-to]]'
 - '[[2025-12-19-lfg-for-semiconductors]]'
 - '[[2024-asml-investor-day-export-controls]]'
+- '[[2026-06-23-semidoped-daily-update]]'
 - '[[2026-06-11-semianalysis-intel-should-raise-capital]]'
 - '[[2026-05-02-euv-lithography-wikipedia]]'
 - '[[2026-05-02-energetiq-euv-light-sources]]'
@@ -26,17 +27,26 @@ sources:
 - '[[2026-06-14-semianalysis-smic-n3-vs-intel-18a]]'
 - '[[2024-10-28-euv-with-fewer-mirrors]]'
 - '[[2024-bis-export-controls-china-semis]]'
+- '[[2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 68
+mention_count: 70
 last_reorg_date: '2026-05-13'
-sources_7d: 4
+sources_7d: 5
 sources_30d: 21
 recent_mentions:
+- slug: 2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology
+  title: IBM Debuts World's First Sub-1 Nanometer Chip Technology
+  date: '2026-06-25'
+  kind: web
+- slug: 2026-06-23-semidoped-daily-update
+  title: Semi Doped — Daily Update, June 23rd 2026
+  date: '2026-06-23'
+  kind: web
 - slug: 2026-06-14-semianalysis-smic-n3-vs-intel-18a
   title: Is SMIC N+3's Metal Pitch Smaller than Intel 18A's?
   date: '2026-06-14'
@@ -61,14 +71,6 @@ recent_mentions:
   title: ASML EUV lithography systems
   date: '2026-05-02'
   kind: web
-- slug: 2026-03-14-semianalysis-patel-bottlenecks
-  title: SemiAnalysis (Dylan Patel) — the three shifting bottlenecks to scaling AI compute (logic/litho, memory, power)
-  date: '2026-03-14'
-  kind: web
-- slug: 2025-12-19-lfg-for-semiconductors
-  title: LFG (for semiconductors)
-  date: '2025-12-19'
-  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

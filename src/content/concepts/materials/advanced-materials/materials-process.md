@@ -20,7 +20,11 @@ descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2023-11-21-lithoz-invests-in-amarea-technology-for-multi-material-3d-pr
+  title: Lithoz invests in AMAREA Technology for multi-material 3D printing - VoxelMatters
+  date: '2023-11-21'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

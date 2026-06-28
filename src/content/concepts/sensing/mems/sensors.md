@@ -34,7 +34,7 @@ tags:
 mention_count: 271
 last_reorg_date: '2026-05-13'
 sources_7d: 2
-sources_30d: 34
+sources_30d: 31
 recent_mentions:
 - slug: 2026-06-25-smile-reaches-science-orbit
   title: Smile reaches science orbit

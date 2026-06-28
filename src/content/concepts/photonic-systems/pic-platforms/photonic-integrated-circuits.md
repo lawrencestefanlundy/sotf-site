@@ -31,7 +31,7 @@ descendants:
 - pic-packaging-stack
 - uni-traveling-carrier-photodiode
 sources_7d: 0
-sources_30d: 27
+sources_30d: 22
 recent_mentions:
 - slug: 2026-06-01-nibras-ucl-chipstart
   title: UCL EEE ventures selected for national ChipStart programme (incl. Nibras Communications)

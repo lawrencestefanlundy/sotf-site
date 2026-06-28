@@ -27,6 +27,7 @@ descendants:
 - glass-interposers
 - heterogeneous-integration
 - hybrid-bonding
+- micro-transfer-printing
 - osat
 - packaging
 - photonic-wire-bonding

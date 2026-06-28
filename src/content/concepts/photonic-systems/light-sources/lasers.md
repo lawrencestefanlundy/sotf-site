@@ -29,7 +29,7 @@ descendants:
 - external-laser-source
 - laser-display-light-engines
 sources_7d: 1
-sources_30d: 37
+sources_30d: 34
 recent_mentions:
 - slug: 2026-06-22-thermal-stack-layer-landscape
   title: AI datacentre thermal stack, junction-to-ambient — per-layer players, M&A, capture (web research synthesis)

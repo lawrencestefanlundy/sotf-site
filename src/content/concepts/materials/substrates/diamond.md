@@ -28,7 +28,7 @@ tags:
 mention_count: 186
 last_reorg_date: '2026-05-13'
 sources_7d: 1
-sources_30d: 37
+sources_30d: 32
 recent_mentions:
 - slug: 2026-06-23-evtol-certification-status-joby-stage4-archer-volocopter
   title: eVTOL type-certification status Q1-Q2 2026 — Joby Stage 4, Archer Stage 3, Volocopter pivot

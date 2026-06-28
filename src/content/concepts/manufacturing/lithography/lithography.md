@@ -62,7 +62,7 @@ descendants:
 - xolography
 last_reorg_date: '2026-05-13'
 sources_7d: 2
-sources_30d: 29
+sources_30d: 28
 recent_mentions:
 - slug: 2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology
   title: IBM Debuts World's First Sub-1 Nanometer Chip Technology

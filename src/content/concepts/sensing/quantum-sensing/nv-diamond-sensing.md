@@ -23,7 +23,7 @@ mention_count: 31
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 1
-sources_30d: 17
+sources_30d: 16
 recent_mentions:
 - slug: 2026-05-02-high-sensitivity-nv-diamond-resonator-comm-materials-2025
   title: High-sensitivity NV diamond resonator (Comm. Materials 2025)

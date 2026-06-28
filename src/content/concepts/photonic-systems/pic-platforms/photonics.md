@@ -47,7 +47,7 @@ descendants:
 - optoelectronic-oscillator
 last_reorg_date: '2026-05-13'
 sources_7d: 2
-sources_30d: 11
+sources_30d: 10
 recent_mentions:
 - slug: 2026-06-24-eic-board-calls-for-faster-deployment-of-deep-tech-to-streng
   title: EIC Board calls for faster deployment of deep tech to strengthen Europe’s energy resilience - European Innovation Council

@@ -31,7 +31,7 @@ tags:
 mention_count: 113
 last_reorg_date: '2026-05-13'
 sources_7d: 5
-sources_30d: 47
+sources_30d: 43
 recent_mentions:
 - slug: 2026-06-23-inbrain-graphene-first-in-human
   title: 'InBrain Neuroelectronics: world-first-in-human graphene neural interface study, $50M Series B, FDA Breakthrough Device, Merck KGaA partnership'

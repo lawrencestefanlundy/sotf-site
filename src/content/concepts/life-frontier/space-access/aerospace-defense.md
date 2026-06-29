@@ -19,39 +19,7 @@ mention_count: 80
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-06-25-european-flight-ticket-initiative-opens-to-more-launch-servi
-  title: European Flight Ticket Initiative opens to more launch service providers
-  date: '2026-06-25'
-  kind: web
-- slug: 2026-06-25-smile-reaches-science-orbit
-  title: Smile reaches science orbit
-  date: '2026-06-25'
-  kind: web
-- slug: 2026-06-24-la-nasa-compartira-los-ultimos-avances-del-programa-base-lun
-  title: La NASA compartirá los últimos avances del programa Base Lunar
-  date: '2026-06-24'
-  kind: web
-- slug: 2026-06-24-nasa-at-the-ion-orion-lessons-from-artemis-ii-shape-nasas-mo
-  title: 'NASA at the Ion: Orion Lessons from Artemis II Shape NASA’s Moon to Mars Path'
-  date: '2026-06-24'
-  kind: web
-- slug: 2026-06-24-nasa-to-share-latest-moon-base-mission-progress
-  title: NASA to Share Latest Moon Base Mission Progress
-  date: '2026-06-24'
-  kind: web
-- slug: 2026-06-24-roman-telescope-comes-to-kennedy
-  title: Roman Telescope Comes to Kennedy
-  date: '2026-06-24'
-  kind: web
-- slug: 2026-02-12-us-fines-applied-materials-250m-for-illegal-semiconductor-ex
-  title: US fines Applied Materials $250M for illegal semiconductor exports to China - MSN
-  date: '2026-02-12'
-  kind: web
-- slug: 2017-07-02-darpa-completes-phase-i-of-fast-lightweight-autonomy-program
-  title: DARPA completes Phase I of fast lightweight autonomy programme - Army Technology
-  date: '2017-07-02'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

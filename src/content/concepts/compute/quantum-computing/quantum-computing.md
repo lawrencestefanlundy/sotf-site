@@ -50,7 +50,7 @@ descendants:
 - trapped-ion
 last_reorg_date: '2026-05-13'
 sources_7d: 3
-sources_30d: 40
+sources_30d: 38
 recent_mentions:
 - slug: 2026-06-20-d-wave-quantum-nyse-qbts-secures-100-million-federal-loi-und
   title: 'D-Wave Quantum (NYSE: QBTS) Secures $100 Million Federal LOI Under CHIPS Act To Accelerate Quantum Computing Development - foreignpolicyjournal.com'

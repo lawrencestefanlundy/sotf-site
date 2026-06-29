@@ -36,11 +36,15 @@ descendants:
 - pluggable-transceivers
 last_reorg_date: '2026-05-13'
 sources_7d: 1
-sources_30d: 7
+sources_30d: 4
 recent_mentions:
 - slug: 2026-06-23-semidoped-daily-update
   title: Semi Doped — Daily Update, June 23rd 2026
   date: '2026-06-23'
+  kind: web
+- slug: 2026-06-15-optical-interconnect-cpo-transition-optical-interconnects
+  title: Optical Interconnects Become Critical to AI Factory Expansion; CPO/NPO Market Expected to Exceed US$39 Billion by 2030
+  date: '2026-06-15'
   kind: web
 - slug: 2026-05-30-optical-interconnect-ma-ledger
   title: Optical-interconnect / photonic-packaging M&A ledger (2019-2026)
@@ -66,10 +70,6 @@ recent_mentions:
   title: 'UK Opportunity in AI: Compound Semiconductors'
   date: '2025-09-10'
   kind: substack
-- slug: 2026-05-30-opsydia-glass-waveguide-packaging
-  title: Opsydia — Oxford spinout, laser-written glass waveguides, pre-Series A (Jul 2025)
-  date: '2025-07-30'
-  kind: web
 neighbors:
 - slug: optical-circuit-switching
   name: Optical Circuit Switching (OCS)

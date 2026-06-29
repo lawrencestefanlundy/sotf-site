@@ -24,11 +24,11 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 50
+mention_count: 52
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 10
+sources_7d: 3
+sources_30d: 12
 recent_mentions:
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
   title: Carbon Nanotubes in the Datacentre
@@ -54,13 +54,13 @@ recent_mentions:
   title: BIS Imposes New Export Controls on Quantum, Semiconductor and Additive Manufacturing Technologies - globaltradeandsanctionslaw.com
   date: '2024-09-11'
   kind: web
-- slug: 2023-11-21-lithoz-invests-in-amarea-technology-for-multi-material-3d-pr
-  title: Lithoz invests in AMAREA Technology for multi-material 3D printing - VoxelMatters
-  date: '2023-11-21'
-  kind: web
 - slug: 2022-05-09-elementum-funded-by-darpa-to-develop-am-process-for-rhenium-
   title: Elementum funded by DARPA to develop AM process for rhenium - Metal Additive Manufacturing magazine
   date: '2022-05-09'
+  kind: web
+- slug: 2021-02-04-meta-additive-awarded-innovate-uk-smart-grant-for-bjt-proces
+  title: Meta Additive awarded Innovate UK SMART Grant for BJT process - Metal Additive Manufacturing magazine
+  date: '2021-02-04'
   kind: web
 neighbors: []
 ---

@@ -22,30 +22,47 @@ sources:
 - '[[2026-03-02-nvidia-4bn-lumentum-coherent-photonics-investment]]'
 - '[[2026-02-19-microalign-eic-grant]]'
 - '[[2026-06-22-thermal-stack-layer-landscape]]'
+- '[[2025-03-25-photonic-packaging-cpo-openlight-achieves-successful]]'
 - '[[2026-05-30-osat-market-structure]]'
+- '[[2024-05-15-photonic-packaging-cpo-sales-of-silicon-photonics-chips]]'
 - '[[2026-05-30-teramount-50m-molex-acquisition]]'
 - '[[2026-06-17-sivers-onet-enablence-external-light-source-cpo]]'
+- '[[2026-03-01-optical-interconnect-cpo-transition-silicon-photonics]]'
 - '[[2026-05-02-co-packaged-optics-2026-2036-idtechex]]'
 - '[[2026-05-02-cpo-market-and-tech-update-cignal-ai-feb-2025]]'
+- '[[2026-01-27-photonics-material-class-war-veeco-and-imec-develop-300mm]]'
+- '[[2026-04-10-optical-interconnect-cpo-transition-co-packaged-optics-cpo]]'
+- '[[2026-04-03-photonic-packaging-cpo-the-soitec-twin-a-massive]]'
 - '[[2024-yole-advanced-packaging-2024]]'
+- '[[2026-04-22-photonics-material-class-war-320-gb-s-unamplified]]'
 - '[[2026-05-02-cpo-book-semianalysis]]'
 - '[[2026-06-17-sjtu-ge-si-photodetector-110ghz-fowlp]]'
+- '[[2026-06-15-pic-market-structure-2030-cpo-npo-market-expected-to-exceed]]'
 - '[[2026-06-15-gf-investor-day-2026]]'
+- '[[2026-01-09-photonics-material-class-war-thin-film-lithium-niobate-tfln]]'
+- '[[2025-12-08-photonic-foundry-capacity-umc-licenses-imec-s-isipp300-to]]'
+- '[[2026-06-15-optical-interconnect-cpo-transition-optical-interconnects]]'
 - '[[2026-04-15-semianalysis-isscc-2026]]'
+- '[[2026-06-09-photonic-foundry-capacity-silicon-photonics-chips-the]]'
 - '[[2026-05-30-senko-gf-cpo-detachable-fiber]]'
+- '[[2026-06-23-photonic-foundry-capacity-co-packaged-optics-is-not-delayed]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 89
+mention_count: 104
 last_reorg_date: '2026-05-13'
-sources_7d: 2
-sources_30d: 24
+sources_7d: 3
+sources_30d: 26
 recent_mentions:
 - slug: 2026-06-23-semidoped-daily-update
   title: Semi Doped — Daily Update, June 23rd 2026
+  date: '2026-06-23'
+  kind: web
+- slug: 2026-06-23-photonic-foundry-capacity-co-packaged-optics-is-not-delayed
+  title: Co-Packaged Optics Is Not Delayed. SemiAnalysis Is Just Wrong
   date: '2026-06-23'
   kind: web
 - slug: 2026-06-22-thermal-stack-layer-landscape
@@ -56,25 +73,21 @@ recent_mentions:
   title: Shanghai Jiao Tong University creates reconfigurable Ge-Si photodetector for high-speed datacoms
   date: '2026-06-17'
   kind: web
+- slug: 2026-06-15-pic-market-structure-2030-cpo-npo-market-expected-to-exceed
+  title: CPO/NPO Market Expected to Exceed US$39 Billion by 2030
+  date: '2026-06-15'
+  kind: web
 - slug: 2026-06-15-gf-investor-day-2026
   title: GlobalFoundries Investor Day 2026 (presentation)
   date: '2026-06-15'
   kind: web
-- slug: 2026-06-01-hbm-state-of-play
-  title: HBM state of play (mid-2026) — technology, supercycle, three-supplier standing
-  date: '2026-06-01'
+- slug: 2026-06-15-optical-interconnect-cpo-transition-optical-interconnects
+  title: Optical Interconnects Become Critical to AI Factory Expansion; CPO/NPO Market Expected to Exceed US$39 Billion by 2030
+  date: '2026-06-15'
   kind: web
-- slug: 2026-05-30-osat-market-structure
-  title: OSAT market structure 2024-2025 — rankings, advanced-packaging split, photonic assembly
-  date: '2026-05-30'
-  kind: web
-- slug: 2026-05-24-mose2-exciton-polariton-all-optical-switch
-  title: New light-based switch could cut chip energy use and speed future AI photonics
-  date: '2026-05-24'
-  kind: web
-- slug: 2026-05-30-teramount-50m-molex-acquisition
-  title: Teramount — $50M raise (Jul 2025) then ~$430M Molex (Koch) acquisition (completed 7 May 2026)
-  date: '2026-05-07'
+- slug: 2026-06-09-photonic-foundry-capacity-silicon-photonics-chips-the
+  title: 'Silicon Photonics Chips: The Foundry War'
+  date: '2026-06-09'
   kind: web
 neighbors: []
 ---

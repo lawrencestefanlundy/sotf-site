@@ -21,22 +21,25 @@ sources:
 - '[[2026-05-02-energetiq-euv-light-sources]]'
 - '[[2026-03-14-semianalysis-patel-bottlenecks]]'
 - '[[2026-05-02-laser-produced-plasma-euv-development-sciencedirect]]'
+- '[[2026-03-25-lithography-patterning-market-lithography-innovation-beyond]]'
 - '[[2026-05-02-asml-euv-lithography-systems]]'
 - '[[2024-tsmc-arizona-capex-disclosure]]'
 - '[[2023-12-06-euv-lithography-but-with-a-free-electron-laser]]'
+- '[[2026-05-01-lithography-patterning-market-asml-s-roadmap-for-chipmaking]]'
 - '[[2026-06-14-semianalysis-smic-n3-vs-intel-18a]]'
 - '[[2024-10-28-euv-with-fewer-mirrors]]'
 - '[[2024-bis-export-controls-china-semis]]'
 - '[[2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology]]'
+- '[[2025-12-16-lithography-patterning-market-new-1-4nm-nanoimprint]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 70
+mention_count: 73
 last_reorg_date: '2026-05-13'
-sources_7d: 5
+sources_7d: 4
 sources_30d: 20
 recent_mentions:
 - slug: 2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology

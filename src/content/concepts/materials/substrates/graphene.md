@@ -21,6 +21,9 @@ sources:
 - '[[2026-06-04-fulfilling-the-promise-of-graphene---enterprisecamacuk]]'
 - '[[2024-idtechex-thermal-interface-materials-2026-2036]]'
 - '[[2023-02-22-soundcell-spin-off-of-graphene-flagship-partner-tu-delft-rec]]'
+- '[[2026-06-22-thermal-stack-arms-race-ai-computing-power-fuels-diamond]]'
+- '[[2025-08-19-thermal-stack-arms-race-thermal-interface-materials-market]]'
+- '[[2026-06-24-thermal-stack-arms-race-diamond-heat-spreaders-companies-in]]'
 - '[[2026-06-22-tim-approaches-full-sweep]]'
 frontier:
 - ''
@@ -28,14 +31,22 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 113
+mention_count: 117
 last_reorg_date: '2026-05-13'
 sources_7d: 5
-sources_30d: 43
+sources_30d: 46
 recent_mentions:
+- slug: 2026-06-24-thermal-stack-arms-race-diamond-heat-spreaders-companies-in
+  title: Diamond Heat Spreaders Companies in 2026
+  date: '2026-06-24'
+  kind: web
 - slug: 2026-06-23-inbrain-graphene-first-in-human
   title: 'InBrain Neuroelectronics: world-first-in-human graphene neural interface study, $50M Series B, FDA Breakthrough Device, Merck KGaA partnership'
   date: '2026-06-23'
+  kind: web
+- slug: 2026-06-22-thermal-stack-arms-race-ai-computing-power-fuels-diamond
+  title: AI Computing Power Fuels 'Diamond Cooling' Multi-Billion-Dollar Race
+  date: '2026-06-22'
   kind: web
 - slug: 2026-06-22-tim-approaches-full-sweep
   title: TIM approaches — exhaustive in-market + R&D sweep (vendors, classes, startups)
@@ -53,18 +64,10 @@ recent_mentions:
   title: Carbon Nanotubes in the Datacentre
   date: '2025-11-25'
   kind: substack
-- slug: 2025-07-01-a-primer-carbon-nanotubes
-  title: 'A Primer: Carbon Nanotubes'
-  date: '2025-07-01'
-  kind: substack
-- slug: 2024-10-29-deploy-intelligence-too-cheap-to
-  title: Deploy! Intelligence too cheap to meter @ $0.0001 per million tokens.
-  date: '2024-10-29'
-  kind: substack
-- slug: 2024-10-22-state-of-the-future-part-deux
-  title: 'An AI Thesis: State of the Future! Part Deux'
-  date: '2024-10-22'
-  kind: substack
+- slug: 2025-08-19-thermal-stack-arms-race-thermal-interface-materials-market
+  title: 'Thermal Interface Materials Market Report 2026-2036: High-Performance TIMs for Data Centers, AI Servers, and 5G Infrastructure'
+  date: '2025-08-19'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

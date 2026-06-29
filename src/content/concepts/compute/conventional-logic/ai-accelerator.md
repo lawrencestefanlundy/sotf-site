@@ -16,7 +16,13 @@ sources:
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
 - '[[2024-yole-emerging-memories-2024]]'
 - '[[2026-06-23-semidoped-daily-update]]'
+- '[[2025-09-17-ai-power-thermal-binding-ai-datacenter-power-demand]]'
 - '[[2026-06-17-femtoai-company-profile]]'
+- '[[2026-04-28-thermal-stack-arms-race-global-diamond-heat-spreaders]]'
+- '[[2026-04-24-thermal-stack-arms-race-global-thermal-management-market-to]]'
+- '[[2026-04-10-thermal-stack-arms-race-liquid-cooling-for-ai-data-centers]]'
+- '[[2025-12-17-ai-power-thermal-binding-power-availability-remains-the]]'
+- '[[2026-03-03-ai-power-thermal-binding-nvidia-vera-rubin-and-feynman]]'
 - '[[2024-yole-thermal-management-2024]]'
 - '[[2024-02-26-micron-hbm3e-volume-production]]'
 - '[[2024-yole-advanced-packaging-2024]]'
@@ -31,7 +37,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 77
+mention_count: 83
 last_reorg_date: '2026-05-14'
 sources_7d: 1
 sources_30d: 9
@@ -52,22 +58,22 @@ recent_mentions:
   title: femtoAI to Highlight its Sparse Processing Unit Edge AI Accelerator at CES 2026
   date: '2026-06-17'
   kind: web
-- slug: 2026-06-08-uk-to-buy-home-grown-ai-chips-in-bid-to-keep-tech-firms-from
-  title: UK to buy home-grown AI chips in bid to keep tech firms from moving abroad - Computing UK
-  date: '2026-06-08'
+- slug: 2026-04-28-thermal-stack-arms-race-global-diamond-heat-spreaders
+  title: Global Diamond Heat Spreaders Emerging for AI Chip Cooling
+  date: '2026-04-28'
   kind: web
-- slug: 2026-01-08-semianalysis-apple-tsmc
-  title: 'Apple-TSMC: The Partnership That Built Modern Semiconductors'
-  date: '2026-01-08'
+- slug: 2026-04-24-thermal-stack-arms-race-global-thermal-management-market-to
+  title: Global Thermal Management Market to Reach £22bn by 2030, Driven by AI and Data Centres
+  date: '2026-04-24'
   kind: web
-- slug: 2025-12-02-the-future-of-computing-is-glass
-  title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
-  date: '2025-12-02'
-  kind: substack
-- slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
-  title: 'UK Opportunity in AI: Compound Semiconductors'
-  date: '2025-09-10'
-  kind: substack
+- slug: 2026-04-10-thermal-stack-arms-race-liquid-cooling-for-ai-data-centers
+  title: Liquid Cooling For AI Data Centers Market Growth Analysis - Size and Forecast 2026-2030
+  date: '2026-04-10'
+  kind: web
+- slug: 2026-03-03-ai-power-thermal-binding-nvidia-vera-rubin-and-feynman
+  title: NVIDIA Vera Rubin and Feynman roadmap confirmed at GTC 2025 with HBM4 support
+  date: '2026-03-03'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

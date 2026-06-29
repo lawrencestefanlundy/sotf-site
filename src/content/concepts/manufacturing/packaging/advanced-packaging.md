@@ -27,7 +27,9 @@ sources:
 - '[[2026-05-30-osat-market-structure]]'
 - '[[2024-yole-advanced-packaging-2024]]'
 - '[[2026-05-30-intel-glass-substrates-program]]'
+- '[[2026-06-15-pic-market-structure-2030-cpo-npo-market-expected-to-exceed]]'
 - '[[2026-06-15-gf-investor-day-2026]]'
+- '[[2025-07-03-datacentre-thermal-power-market-cooling-is-the-new]]'
 - '[[2026-05-21-gf-quantum-technology-solutions]]'
 - '[[2024-tsmc-cowos-roadmap-disclosure]]'
 - '[[2025-01-06-asu-selected-as-home-and-partner-for-chips-and-science-act-f]]'
@@ -38,7 +40,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 126
+mention_count: 131
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration
@@ -51,6 +53,10 @@ recent_mentions:
 - slug: 2026-06-23-semidoped-daily-update
   title: Semi Doped — Daily Update, June 23rd 2026
   date: '2026-06-23'
+  kind: web
+- slug: 2026-06-15-pic-market-structure-2030-cpo-npo-market-expected-to-exceed
+  title: CPO/NPO Market Expected to Exceed US$39 Billion by 2030
+  date: '2026-06-15'
   kind: web
 - slug: 2026-06-15-gf-investor-day-2026
   title: GlobalFoundries Investor Day 2026 (presentation)
@@ -75,10 +81,6 @@ recent_mentions:
 - slug: 2026-02-12-how-to-invest-in-ai-sovereignty-sovereign
   title: How to Invest in AI Sovereignty — Sovereign Albion w/ Andrew Bennett
   date: '2026-02-12'
-  kind: substack
-- slug: 2025-12-19-lfg-for-semiconductors
-  title: LFG (for semiconductors)
-  date: '2025-12-19'
   kind: substack
 neighbors: []
 ---

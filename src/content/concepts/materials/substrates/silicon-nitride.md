@@ -16,6 +16,7 @@ sources:
 - '[[2024-12-16-willow-and-the-race-to-quantum-advantage]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 - '[[2026-05-24-mose2-exciton-polariton-all-optical-switch]]'
+- '[[2026-03-13-photonic-foundry-capacity-new-origin-to-collaborate-with]]'
 - '[[2026-06-04-q-memory-site]]'
 - '[[2023-09-04-sinq-csa-catapult]]'
 - '[[2026-06-16-trapped-ion-landscape-2026]]'
@@ -26,7 +27,7 @@ last_updated: '2026-06-04'
 tags:
 - concept
 - material
-mention_count: 83
+mention_count: 84
 last_reorg_date: '2026-05-13'
 sources_7d: 3
 sources_30d: 29
@@ -47,6 +48,10 @@ recent_mentions:
   title: Hybrid BTO-SiN ultra-low power tuning (ACS Photonics)
   date: '2026-05-02'
   kind: web
+- slug: 2026-03-13-photonic-foundry-capacity-new-origin-to-collaborate-with
+  title: New Origin to Collaborate with Imec to Scale Photonic IC Manufacturing in Industrial Environment
+  date: '2026-03-13'
+  kind: web
 - slug: 2025-12-09-gallium-nitride-photonics-w-james
   title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
   date: '2025-12-09'
@@ -59,10 +64,6 @@ recent_mentions:
   title: Willow and The Race to Quantum Advantage (Feat. Kris Kaczmarek)
   date: '2024-12-16'
   kind: substack
-- slug: 2023-09-04-sinq-csa-catapult
-  title: SiNQ — Silicon Nitride for Quantum Computing (CSA Catapult live project)
-  date: '2023-09-04'
-  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

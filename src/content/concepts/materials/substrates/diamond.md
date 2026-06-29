@@ -25,17 +25,25 @@ last_updated: '2026-06-17'
 tags:
 - concept
 - technology
-mention_count: 186
+mention_count: 190
 last_reorg_date: '2026-05-13'
 sources_7d: 1
 sources_30d: 32
 recent_mentions:
+- slug: 2026-06-24-thermal-stack-arms-race-diamond-heat-spreaders-companies-in
+  title: Diamond Heat Spreaders Companies in 2026
+  date: '2026-06-24'
+  kind: web
 - slug: 2026-06-23-evtol-certification-status-joby-stage4-archer-volocopter
   title: eVTOL type-certification status Q1-Q2 2026 — Joby Stage 4, Archer Stage 3, Volocopter pivot
   date: '2026-06-23'
   kind: web
 - slug: 2026-06-22-thermal-stack-layer-landscape
   title: AI datacentre thermal stack, junction-to-ambient — per-layer players, M&A, capture (web research synthesis)
+  date: '2026-06-22'
+  kind: web
+- slug: 2026-06-22-thermal-stack-arms-race-ai-computing-power-fuels-diamond
+  title: AI Computing Power Fuels 'Diamond Cooling' Multi-Billion-Dollar Race
   date: '2026-06-22'
   kind: web
 - slug: 2026-06-22-tim-approaches-full-sweep
@@ -53,14 +61,6 @@ recent_mentions:
 - slug: 2026-05-02-quantumdiamonds-iq-capital
   title: QuantumDiamonds (IQ Capital)
   date: '2026-05-02'
-  kind: web
-- slug: 2026-05-02-nv-center-wikipedia
-  title: NV center (Wikipedia)
-  date: '2026-05-02'
-  kind: web
-- slug: 2026-02-09-semianalysis-datacenter-cpu-2026
-  title: 'CPUs are Back: The Datacenter CPU Landscape in 2026'
-  date: '2026-02-09'
   kind: web
 neighbors:
 - slug: wide-bandgap-semiconductors

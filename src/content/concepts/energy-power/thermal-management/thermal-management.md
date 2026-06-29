@@ -20,18 +20,23 @@ sources:
 - '[[2025-04-30-has-the-time-come-to-take-mortal]]'
 - '[[2025-04-16-the-state-of-photonic-computing]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
+- '[[2026-04-28-thermal-stack-arms-race-global-diamond-heat-spreaders]]'
+- '[[2026-04-24-thermal-stack-arms-race-global-thermal-management-market-to]]'
+- '[[2026-04-10-thermal-stack-arms-race-liquid-cooling-for-ai-data-centers]]'
 - '[[2024-yole-thermal-management-2024]]'
+- '[[2026-04-01-ai-power-thermal-binding-market-projection-35-of-new-ai]]'
+- '[[2025-08-19-thermal-stack-arms-race-thermal-interface-materials-market]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 71
+mention_count: 76
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 1
-sources_30d: 10
+sources_30d: 8
 recent_mentions: []
 neighbors:
 - slug: thermal-stack-map

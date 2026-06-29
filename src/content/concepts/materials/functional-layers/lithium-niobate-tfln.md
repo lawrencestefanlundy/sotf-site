@@ -16,7 +16,12 @@ sources:
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 - '[[2026-05-02-return-of-lithium-niobate-photonics-spectra-jan-2026]]'
+- '[[2024-05-15-photonic-packaging-cpo-sales-of-silicon-photonics-chips]]'
 - '[[2026-05-02-lightium-tfln-foundry-csem-spin-off]]'
+- '[[2026-01-27-photonics-material-class-war-veeco-and-imec-develop-300mm]]'
+- '[[2026-04-03-photonic-packaging-cpo-the-soitec-twin-a-massive]]'
+- '[[2026-04-22-photonics-material-class-war-320-gb-s-unamplified]]'
+- '[[2026-01-09-photonics-material-class-war-thin-film-lithium-niobate-tfln]]'
 - '[[2026-05-02-top-tfln-modulator-companies-2026]]'
 - '[[2026-05-02-standardized-tfln-pics-ieee]]'
 frontier:
@@ -25,10 +30,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - material
-mention_count: 91
+mention_count: 98
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 32
+sources_7d: 3
+sources_30d: 34
 recent_mentions:
 - slug: 2026-05-02-return-of-lithium-niobate-photonics-spectra-jan-2026
   title: Return of Lithium Niobate (Photonics Spectra Jan 2026)
@@ -46,18 +51,22 @@ recent_mentions:
   title: Standardized TFLN PICs (IEEE)
   date: '2026-05-02'
   kind: web
+- slug: 2026-04-22-photonics-material-class-war-320-gb-s-unamplified
+  title: 320 Gb/s Unamplified Transmission Using 100 GHz Ge PD and TFLN MZM on a Foundry-Compatible SiPh Platform
+  date: '2026-04-22'
+  kind: web
+- slug: 2026-04-03-photonic-packaging-cpo-the-soitec-twin-a-massive
+  title: The Soitec Twin? A Massive Undiscovered Foundational Photonics Play & The Fab Nobody Is Watching
+  date: '2026-04-03'
+  kind: web
 - slug: 2026-02-02-photonic-engines-for-data-centers
   title: Photonic "Engines" for Data Centers
   date: '2026-02-02'
   kind: substack
-- slug: 2025-12-09-gallium-nitride-photonics-w-james
-  title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
-  date: '2025-12-09'
-  kind: substack
-- slug: 2025-12-02-the-future-of-computing-is-glass
-  title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
-  date: '2025-12-02'
-  kind: substack
+- slug: 2026-01-27-photonics-material-class-war-veeco-and-imec-develop-300mm
+  title: Veeco and imec develop 300mm-compatible process to enable integration of barium titanate on silicon photonics
+  date: '2026-01-27'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

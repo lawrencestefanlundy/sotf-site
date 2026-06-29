@@ -21,11 +21,7 @@ descendants: []
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-06-08-uk-to-buy-home-grown-ai-chips-in-bid-to-keep-tech-firms-from
-  title: UK to buy home-grown AI chips in bid to keep tech firms from moving abroad - Computing UK
-  date: '2026-06-08'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

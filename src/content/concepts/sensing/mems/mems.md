@@ -34,7 +34,7 @@ descendants:
 - nems
 - sensors
 - spectral-sensing
-sources_7d: 3
+sources_7d: 2
 sources_30d: 17
 recent_mentions:
 - slug: 2026-06-21-mems-speaker-market

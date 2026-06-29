@@ -18,6 +18,7 @@ sources:
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 - '[[2026-06-22-sintered-metal-die-attach-landscape]]'
 - '[[2024-yole-power-sic-2024]]'
+- '[[2025-10-02-thermal-stack-arms-race-man-made-diamonds-the-coolest]]'
 - '[[2024-yole-power-gan-2024]]'
 - '[[2026-05-26-semianalysis-800vdc-revolution]]'
 - '[[2024-omdia-power-electronics-forecast]]'
@@ -30,10 +31,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 91
+mention_count: 94
 last_reorg_date: '2026-05-13'
-sources_7d: 2
-sources_30d: 20
+sources_7d: 1
+sources_30d: 21
 recent_mentions: []
 neighbors: []
 ---

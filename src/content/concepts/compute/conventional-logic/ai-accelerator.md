@@ -39,9 +39,13 @@ tags:
 - technology
 mention_count: 83
 last_reorg_date: '2026-05-14'
-sources_7d: 1
+sources_7d: 0
 sources_30d: 9
 recent_mentions:
+- slug: 2026-06-29-the-real-ai-bottleneck-isnt-the-model-but
+  title: The Real AI Bottleneck Isn’t the Model, But...
+  date: '2026-06-29'
+  kind: web
 - slug: 2026-06-23-semidoped-daily-update
   title: Semi Doped — Daily Update, June 23rd 2026
   date: '2026-06-23'
@@ -69,10 +73,6 @@ recent_mentions:
 - slug: 2026-04-10-thermal-stack-arms-race-liquid-cooling-for-ai-data-centers
   title: Liquid Cooling For AI Data Centers Market Growth Analysis - Size and Forecast 2026-2030
   date: '2026-04-10'
-  kind: web
-- slug: 2026-03-03-ai-power-thermal-binding-nvidia-vera-rubin-and-feynman
-  title: NVIDIA Vera Rubin and Feynman roadmap confirmed at GTC 2025 with HBM4 support
-  date: '2026-03-03'
   kind: web
 neighbors: []
 ---

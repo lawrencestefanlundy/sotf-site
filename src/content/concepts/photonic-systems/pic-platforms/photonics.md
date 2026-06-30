@@ -36,7 +36,7 @@ last_updated: '2026-05-07'
 tags:
 - concept
 - theme
-mention_count: 752
+mention_count: 758
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -46,7 +46,7 @@ descendants:
 - optical-frequency-division
 - optoelectronic-oscillator
 last_reorg_date: '2026-05-13'
-sources_7d: 3
+sources_7d: 2
 sources_30d: 11
 recent_mentions:
 - slug: 2026-06-23-semidoped-daily-update

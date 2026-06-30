@@ -36,7 +36,7 @@ descendants:
 - wide-bandgap-semiconductors
 - zinc-oxide
 - zinc-selenide
-sources_7d: 1
+sources_7d: 0
 sources_30d: 2
 recent_mentions:
 - slug: 2026-02-12-how-to-invest-in-ai-sovereignty-sovereign

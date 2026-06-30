@@ -21,9 +21,17 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
-- slug: 2026-06-26-eic-corporate-partnership-programme-drives-new-pilot-between
-  title: EIC Corporate Partnership Programme drives new pilot between EIC-backed WIDMO Spectral Technologies and Ferrovial - European Innovation Council
-  date: '2026-06-26'
+- slug: 2026-06-29-sentinel-1-shows-ground-displacement-after-venezuela-earthqu
+  title: Sentinel-1 shows ground displacement after Venezuela earthquakes
+  date: '2026-06-29'
+  kind: web
+- slug: 2026-06-29-this-month-at-esa-june-2026
+  title: 'This Month at ESA: June 2026'
+  date: '2026-06-29'
+  kind: web
+- slug: 2026-06-29-nextstep-3-a-lunar-enabling-technology
+  title: 'NextSTEP-3 A: Lunar Enabling Technology'
+  date: '2026-06-29'
   kind: web
 neighbors: []
 ---

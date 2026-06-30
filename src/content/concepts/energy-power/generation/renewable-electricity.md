@@ -19,7 +19,11 @@ mention_count: 82
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 1
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-29-the-case-for-meeting-load-growth-with-renewables-5-billion-i
+  title: The case for meeting load growth with renewables? $5 billion in savings - Latitude Media
+  date: '2026-06-29'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

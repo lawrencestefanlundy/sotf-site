@@ -19,7 +19,11 @@ mention_count: 80
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-23-doe-is-dedicating-175-billion-in-loans-to-the-nuclear-supply
+  title: DOE is dedicating $17.5 billion in loans to the nuclear supply chain - Latitude Media
+  date: '2026-06-23'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

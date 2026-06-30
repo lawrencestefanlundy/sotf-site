@@ -31,7 +31,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 300
+mention_count: 304
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -49,7 +49,7 @@ descendants:
 - topological-qubits
 - trapped-ion
 last_reorg_date: '2026-05-13'
-sources_7d: 3
+sources_7d: 5
 sources_30d: 38
 recent_mentions:
 - slug: 2026-06-20-d-wave-quantum-nyse-qbts-secures-100-million-federal-loi-und

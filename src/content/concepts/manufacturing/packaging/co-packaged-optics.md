@@ -24,8 +24,11 @@ sources:
 - '[[2026-06-22-thermal-stack-layer-landscape]]'
 - '[[2025-03-25-photonic-packaging-cpo-openlight-achieves-successful]]'
 - '[[2026-05-30-osat-market-structure]]'
+- '[[2026-04-07-optical-displaces-copper-all-ai-data-center-interconnects]]'
 - '[[2024-05-15-photonic-packaging-cpo-sales-of-silicon-photonics-chips]]'
+- '[[2026-04-22-optical-displaces-copper-copper-vs-optical-in-the-ai]]'
 - '[[2026-05-30-teramount-50m-molex-acquisition]]'
+- '[[2026-04-28-optical-displaces-copper-ofc-2026-semtech-advances-the]]'
 - '[[2026-06-17-sivers-onet-enablence-external-light-source-cpo]]'
 - '[[2026-03-01-optical-interconnect-cpo-transition-silicon-photonics]]'
 - '[[2026-05-02-co-packaged-optics-2026-2036-idtechex]]'
@@ -52,10 +55,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 104
+mention_count: 108
 last_reorg_date: '2026-05-13'
-sources_7d: 3
-sources_30d: 26
+sources_7d: 2
+sources_30d: 27
 recent_mentions:
 - slug: 2026-06-23-semidoped-daily-update
   title: Semi Doped — Daily Update, June 23rd 2026

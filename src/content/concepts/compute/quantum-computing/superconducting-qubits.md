@@ -20,10 +20,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 41
+mention_count: 42
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 15
+sources_7d: 2
+sources_30d: 16
 recent_mentions:
 - slug: 2026-06-12-hku-sic-cryogenic-neuromorphic-chip-10mk
   title: HKU world-first cryogenic neuromorphic chip at 10 mK (silicon carbide, impact-ionisation spiking)

@@ -60,7 +60,7 @@ descendants:
 - x-ray-lithography
 - xolography
 last_reorg_date: '2026-05-13'
-sources_7d: 3
+sources_7d: 2
 sources_30d: 27
 recent_mentions:
 - slug: 2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology

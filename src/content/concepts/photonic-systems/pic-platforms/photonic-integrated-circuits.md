@@ -12,6 +12,7 @@ sources:
 - '[[2025-04-16-the-state-of-photonic-computing]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
+- '[[2026-03-30-photonics-material-class-war-silicon-photonics-and-photonic]]'
 - '[[2026-03-31-memq-10m-series-a]]'
 - '[[2026-06-01-nibras-ucl-chipstart]]'
 frontier:
@@ -20,7 +21,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 102
+mention_count: 103
 last_reorg_date: '2026-05-13'
 descendants:
 - avalanche-photodiode
@@ -40,6 +41,10 @@ recent_mentions:
 - slug: 2026-03-31-memq-10m-series-a
   title: memQ Raises $10 Million in Series A
   date: '2026-03-31'
+  kind: web
+- slug: 2026-03-30-photonics-material-class-war-silicon-photonics-and-photonic
+  title: 'Silicon Photonics and Photonic Integrated Circuits 2026-2036: Technologies, Markets, and Forecasts'
+  date: '2026-03-30'
   kind: web
 - slug: 2025-12-09-gallium-nitride-photonics-w-james
   title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics

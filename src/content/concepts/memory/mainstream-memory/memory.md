@@ -46,7 +46,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 673
+mention_count: 711
 descendants:
 - 3d-dram
 - adc-bottleneck
@@ -77,8 +77,8 @@ descendants:
 - sram-cim
 - storage-class-memory
 last_reorg_date: '2026-05-14'
-sources_7d: 0
-sources_30d: 11
+sources_7d: 3
+sources_30d: 12
 recent_mentions:
 - slug: 2026-06-23-semidoped-daily-update
   title: Semi Doped — Daily Update, June 23rd 2026

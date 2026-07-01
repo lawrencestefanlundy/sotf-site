@@ -36,7 +36,7 @@ last_updated: '2026-05-07'
 tags:
 - concept
 - theme
-mention_count: 758
+mention_count: 768
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -47,7 +47,7 @@ descendants:
 - optoelectronic-oscillator
 last_reorg_date: '2026-05-13'
 sources_7d: 2
-sources_30d: 11
+sources_30d: 10
 recent_mentions:
 - slug: 2026-06-23-semidoped-daily-update
   title: Semi Doped — Daily Update, June 23rd 2026

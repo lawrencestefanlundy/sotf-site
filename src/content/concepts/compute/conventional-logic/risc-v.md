@@ -25,9 +25,9 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 54
+mention_count: 55
 last_reorg_date: '2026-05-14'
-sources_7d: 0
+sources_7d: 1
 sources_30d: 14
 recent_mentions:
 - slug: 2026-06-17-qualcomm-tenstorrent-talks

@@ -16,12 +16,15 @@ sources:
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2025-04-16-the-state-of-photonic-computing]]'
 - '[[2026-06-23-semidoped-daily-update]]'
+- '[[2026-03-01-optical-displaces-copper-lightcounting-january-2025-optics]]'
 - '[[2026-05-02-cpo-market-to-grow-at-37-cagr-semiconductor-today]]'
 - '[[2026-05-24-mose2-exciton-polariton-all-optical-switch]]'
 - '[[2026-06-01-hbm-state-of-play]]'
+- '[[2026-03-16-optical-displaces-copper-semtech-224g-ic-family-launch-for]]'
 - '[[2026-03-02-nvidia-4bn-lumentum-coherent-photonics-investment]]'
 - '[[2026-02-19-microalign-eic-grant]]'
 - '[[2026-06-22-thermal-stack-layer-landscape]]'
+- '[[2026-03-12-optical-displaces-copper-broadcom-ships-tomahawk-6-world-s]]'
 - '[[2025-03-25-photonic-packaging-cpo-openlight-achieves-successful]]'
 - '[[2026-05-30-osat-market-structure]]'
 - '[[2026-04-07-optical-displaces-copper-all-ai-data-center-interconnects]]'
@@ -33,6 +36,7 @@ sources:
 - '[[2026-03-01-optical-interconnect-cpo-transition-silicon-photonics]]'
 - '[[2026-05-02-co-packaged-optics-2026-2036-idtechex]]'
 - '[[2026-05-02-cpo-market-and-tech-update-cignal-ai-feb-2025]]'
+- '[[2026-06-09-optical-displaces-copper-in-depth-review-of-the-cpo-delay]]'
 - '[[2026-01-27-photonics-material-class-war-veeco-and-imec-develop-300mm]]'
 - '[[2026-04-10-optical-interconnect-cpo-transition-co-packaged-optics-cpo]]'
 - '[[2026-04-03-photonic-packaging-cpo-the-soitec-twin-a-massive]]'
@@ -44,10 +48,13 @@ sources:
 - '[[2026-06-15-gf-investor-day-2026]]'
 - '[[2026-01-09-photonics-material-class-war-thin-film-lithium-niobate-tfln]]'
 - '[[2025-12-08-photonic-foundry-capacity-umc-licenses-imec-s-isipp300-to]]'
+- '[[2026-05-26-optical-displaces-copper-the-global-co-packaged-optics]]'
 - '[[2026-06-15-optical-interconnect-cpo-transition-optical-interconnects]]'
 - '[[2026-04-15-semianalysis-isscc-2026]]'
+- '[[2026-06-09-optical-displaces-copper-semianalysis-cpo-delayed-to-2028]]'
 - '[[2026-06-09-photonic-foundry-capacity-silicon-photonics-chips-the]]'
 - '[[2026-05-30-senko-gf-cpo-detachable-fiber]]'
+- '[[2026-03-09-optical-displaces-copper-nvidia-s-4b-cpo-bet-scale-out]]'
 - '[[2026-06-23-photonic-foundry-capacity-co-packaged-optics-is-not-delayed]]'
 frontier:
 - ''
@@ -55,10 +62,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 108
+mention_count: 117
 last_reorg_date: '2026-05-13'
-sources_7d: 2
-sources_30d: 27
+sources_7d: 4
+sources_30d: 30
 recent_mentions:
 - slug: 2026-06-23-semidoped-daily-update
   title: Semi Doped — Daily Update, June 23rd 2026
@@ -88,8 +95,8 @@ recent_mentions:
   title: Optical Interconnects Become Critical to AI Factory Expansion; CPO/NPO Market Expected to Exceed US$39 Billion by 2030
   date: '2026-06-15'
   kind: web
-- slug: 2026-06-09-photonic-foundry-capacity-silicon-photonics-chips-the
-  title: 'Silicon Photonics Chips: The Foundry War'
+- slug: 2026-06-09-optical-displaces-copper-in-depth-review-of-the-cpo-delay
+  title: 'In-Depth Review of the CPO Delay Controversy: SemiAnalysis Report'
   date: '2026-06-09'
   kind: web
 neighbors: []

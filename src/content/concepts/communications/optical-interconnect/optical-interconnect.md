@@ -50,6 +50,10 @@ recent_mentions:
   title: Optical-interconnect / photonic-packaging M&A ledger (2019-2026)
   date: '2026-05-30'
   kind: web
+- slug: 2026-04-28-optical-displaces-copper-ofc-2026-semtech-advances-ai-data
+  title: 'OFC 2026: Semtech advances AI data center optical interconnects'
+  date: '2026-04-28'
+  kind: web
 - slug: 2026-04-15-semianalysis-isscc-2026
   title: 'ISSCC 2026: NVIDIA & Broadcom CPO, HBM4 & LPDDR6, TSMC Active LSI, Logic-Based SRAM, UCIe-S and More'
   date: '2026-04-15'
@@ -58,17 +62,13 @@ recent_mentions:
   title: Nvidia to invest $4 billion into photonics companies Coherent and Lumentum
   date: '2026-03-02'
   kind: web
+- slug: 2026-03-01-optical-displaces-copper-lightcounting-100-billion-market
+  title: 'LightCounting :: $100 Billion Market for AI Cluster Optics by 2030?'
+  date: '2026-03-01'
+  kind: web
 - slug: 2026-02-02-photonic-engines-for-data-centers
   title: Photonic "Engines" for Data Centers
   date: '2026-02-02'
-  kind: substack
-- slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
-  title: Carbon Nanotubes in the Datacentre
-  date: '2025-11-25'
-  kind: substack
-- slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
-  title: 'UK Opportunity in AI: Compound Semiconductors'
-  date: '2025-09-10'
   kind: substack
 neighbors:
 - slug: optical-circuit-switching

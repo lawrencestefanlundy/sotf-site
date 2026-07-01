@@ -33,21 +33,20 @@ sources:
 - '[[2026-05-21-gf-quantum-technology-solutions]]'
 - '[[2024-tsmc-cowos-roadmap-disclosure]]'
 - '[[2025-01-06-asu-selected-as-home-and-partner-for-chips-and-science-act-f]]'
-- '[[2026-04-22-kla-q3-fy2026-slides-process-control-share-58pct]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 133
+mention_count: 134
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration
 - micro-transfer-printing
 - osat
 last_reorg_date: '2026-05-13'
-sources_7d: 1
+sources_7d: 2
 sources_30d: 15
 recent_mentions:
 - slug: 2026-06-23-semidoped-daily-update

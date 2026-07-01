@@ -31,19 +31,11 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 271
+mention_count: 279
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 31
+sources_7d: 4
+sources_30d: 33
 recent_mentions:
-- slug: 2026-06-29-sentinel-1-shows-ground-displacement-after-venezuela-earthqu
-  title: Sentinel-1 shows ground displacement after Venezuela earthquakes
-  date: '2026-06-29'
-  kind: web
-- slug: 2026-06-29-nasa-seeks-industry-input-to-accelerate-lunar-surface-techno
-  title: NASA Seeks Industry Input to Accelerate Lunar Surface Technologies
-  date: '2026-06-29'
-  kind: web
 - slug: 2026-06-22-beyond-cmos-device-layer-research
   title: Beyond-CMOS device layer — grounded research (MRAM/FeFET beachhead + capture base rate)
   date: '2026-06-22'
@@ -67,6 +59,14 @@ recent_mentions:
 - slug: 2026-06-13-smr-datacentre-baseload-research
   title: SMR / advanced-nuclear for datacentre baseload — research sweep (Jun 2026)
   date: '2026-06-13'
+  kind: web
+- slug: 2026-06-04-magnetoresistive-biochips-freitas-trends-biotech
+  title: Magnetoresistive-based biosensors and biochips
+  date: '2026-06-04'
+  kind: web
+- slug: 2026-06-04-process-analytical-technology-market-size
+  title: Process Analytical Technology Market Size, Report by 2034 (Precedence Research)
+  date: '2026-06-04'
   kind: web
 neighbors: []
 ---

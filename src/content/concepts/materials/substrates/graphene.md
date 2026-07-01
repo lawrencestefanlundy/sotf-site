@@ -21,20 +21,16 @@ sources:
 - '[[2026-06-04-fulfilling-the-promise-of-graphene---enterprisecamacuk]]'
 - '[[2024-idtechex-thermal-interface-materials-2026-2036]]'
 - '[[2023-02-22-soundcell-spin-off-of-graphene-flagship-partner-tu-delft-rec]]'
-- '[[2026-06-22-thermal-stack-arms-race-ai-computing-power-fuels-diamond]]'
-- '[[2025-08-19-thermal-stack-arms-race-thermal-interface-materials-market]]'
-- '[[2026-06-24-thermal-stack-arms-race-diamond-heat-spreaders-companies-in]]'
-- '[[2026-06-22-tim-approaches-full-sweep]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 117
+mention_count: 130
 last_reorg_date: '2026-05-13'
-sources_7d: 4
-sources_30d: 46
+sources_7d: 13
+sources_30d: 54
 recent_mentions:
 - slug: 2026-06-24-thermal-stack-arms-race-diamond-heat-spreaders-companies-in
   title: Diamond Heat Spreaders Companies in 2026

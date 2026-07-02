@@ -39,8 +39,8 @@ tags:
 - technology
 mention_count: 74
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 18
+sources_7d: 0
+sources_30d: 16
 recent_mentions:
 - slug: 2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology
   title: IBM Debuts World's First Sub-1 Nanometer Chip Technology

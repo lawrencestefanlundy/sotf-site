@@ -27,8 +27,12 @@ last_reorg_date: '2026-05-14'
 descendants:
 - spiking-neural-networks
 sources_7d: 2
-sources_30d: 17
+sources_30d: 16
 recent_mentions:
+- slug: 2026-07-01-hearing-aid-market-structure-edge-ai-beachhead
+  title: Hearing-aid market structure as an edge-AI silicon beachhead (size, growth, concentration, commoditisation)
+  date: '2026-07-01'
+  kind: web
 - slug: 2026-06-17-femtoai-spu-ces2026
   title: femtoAI to Highlight its Sparse Processing Unit Edge AI Accelerator at CES 2026
   date: '2026-06-17'

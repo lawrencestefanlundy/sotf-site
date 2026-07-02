@@ -19,7 +19,11 @@ mention_count: 37
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-07-01-the-coolest-diffusion-research-isnt-in-llms-evan-feinberg-se
+  title: 🔬 The Coolest Diffusion Research Isn't in LLMs — Evan Feinberg & Sergey Edunov, Genesis Molecular AI
+  date: '2026-07-01'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

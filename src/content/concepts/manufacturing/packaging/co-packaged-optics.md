@@ -64,8 +64,8 @@ tags:
 - technology
 mention_count: 117
 last_reorg_date: '2026-05-13'
-sources_7d: 4
-sources_30d: 30
+sources_7d: 3
+sources_30d: 29
 recent_mentions:
 - slug: 2026-06-23-semidoped-daily-update
   title: Semi Doped — Daily Update, June 23rd 2026

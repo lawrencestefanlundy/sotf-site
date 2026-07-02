@@ -13,21 +13,26 @@ related_concepts: []
 sources:
 - '[[2024-12-16-willow-and-the-race-to-quantum-advantage]]'
 - '[[2026-05-02-high-sensitivity-nv-diamond-resonator-comm-materials-2025]]'
+- '[[2026-03-08-diamonds-are-semiconductors-best-friend]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 37
+mention_count: 40
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 6
-sources_30d: 22
+sources_7d: 8
+sources_30d: 24
 recent_mentions:
 - slug: 2026-05-02-high-sensitivity-nv-diamond-resonator-comm-materials-2025
   title: High-sensitivity NV diamond resonator (Comm. Materials 2025)
   date: '2026-05-02'
+  kind: web
+- slug: 2026-03-08-diamonds-are-semiconductors-best-friend
+  title: Diamonds are Semiconductors' Best Friend 2026
+  date: '2026-03-08'
   kind: web
 - slug: 2024-12-16-willow-and-the-race-to-quantum-advantage
   title: Willow and The Race to Quantum Advantage (Feat. Kris Kaczmarek)

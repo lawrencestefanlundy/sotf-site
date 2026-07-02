@@ -11,6 +11,7 @@ related_concepts: []
 sources:
 - '[[2023-07-27-e10-pushing-moores-law-to-the-limit]]'
 - '[[2026-06-22-sintered-metal-die-attach-landscape]]'
+- '[[2026-03-08-diamonds-are-semiconductors-best-friend]]'
 - '[[2026-06-22-thermal-stack-layer-landscape]]'
 - '[[2024-yole-power-sic-2024]]'
 - '[[2024-yole-power-gan-2024]]'
@@ -26,11 +27,43 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 83
+mention_count: 85
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 24
-recent_mentions: []
+sources_7d: 2
+sources_30d: 23
+recent_mentions:
+- slug: 2026-06-22-sintered-metal-die-attach-landscape
+  title: Sintered-silver / sintered-copper die-attach landscape — physics, incumbents, AI-migration question (web research synthesis)
+  date: '2026-06-22'
+  kind: web
+- slug: 2026-06-22-thermal-stack-layer-landscape
+  title: AI datacentre thermal stack, junction-to-ambient — per-layer players, M&A, capture (web research synthesis)
+  date: '2026-06-22'
+  kind: web
+- slug: 2026-06-22-tim-approaches-full-sweep
+  title: TIM approaches — exhaustive in-market + R&D sweep (vendors, classes, startups)
+  date: '2026-06-22'
+  kind: web
+- slug: 2026-06-12-hku-sic-cryogenic-neuromorphic-chip-10mk
+  title: HKU world-first cryogenic neuromorphic chip at 10 mK (silicon carbide, impact-ionisation spiking)
+  date: '2026-06-12'
+  kind: web
+- slug: 2026-06-01-nibras-ucl-chipstart
+  title: UCL EEE ventures selected for national ChipStart programme (incl. Nibras Communications)
+  date: '2026-06-01'
+  kind: web
+- slug: 2026-05-26-semianalysis-800vdc-revolution
+  title: Inside the 800VDC Revolution – Part 1
+  date: '2026-05-26'
+  kind: web
+- slug: 2026-03-08-diamonds-are-semiconductors-best-friend
+  title: Diamonds are Semiconductors' Best Friend 2026
+  date: '2026-03-08'
+  kind: web
+- slug: 2024-trendforce-foundry-2024
+  title: TrendForce — Global Foundry Industry Outlook 2024-2026
+  date: '2024-11-15'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

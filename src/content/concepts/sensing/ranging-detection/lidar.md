@@ -11,6 +11,7 @@ related_concepts: []
 sources:
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2026-06-08-semianalysis-unitree-robotics]]'
+- '[[2026-04-24-robot-autonomy-destination-photonics-sector-2026-rally]]'
 - '[[2026-05-31-companiesmarketcap]]'
 - '[[2026-06-17-single-photon-detector-market-spad-snspd]]'
 - '[[2026-05-30-companiesmarketcap]]'
@@ -20,7 +21,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 53
+mention_count: 54
 last_reorg_date: '2026-05-13'
 sources_7d: 1
 sources_30d: 20
@@ -40,6 +41,10 @@ recent_mentions:
 - slug: 2026-05-30-companiesmarketcap
   title: companiesmarketcap.com
   date: '2026-05-30'
+  kind: web
+- slug: 2026-04-24-robot-autonomy-destination-photonics-sector-2026-rally
+  title: 'Photonics Sector 2026 Rally: LiDAR and Sensing Enable AI Robotics Value Chain'
+  date: '2026-04-24'
   kind: web
 - slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
   title: 'UK Opportunity in AI: Compound Semiconductors'

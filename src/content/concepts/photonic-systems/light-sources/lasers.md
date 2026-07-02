@@ -23,7 +23,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 150
+mention_count: 151
 last_reorg_date: '2026-05-13'
 descendants:
 - external-laser-source
@@ -55,13 +55,13 @@ recent_mentions:
   title: Sivers, O-Net and Enablence partner to develop external light sources for AI data centers
   date: '2026-03-17'
   kind: web
+- slug: 2026-03-15-photonic-light-source-supply-silicon-photonics-market
+  title: 'Silicon Photonics Market: Integration of On-Chip Lasers Remains Thorny Technical Hurdle'
+  date: '2026-03-15'
+  kind: web
 - slug: 2026-02-12-how-to-invest-in-ai-sovereignty-sovereign
   title: How to Invest in AI Sovereignty — Sovereign Albion w/ Andrew Bennett
   date: '2026-02-12'
-  kind: substack
-- slug: 2026-02-02-photonic-engines-for-data-centers
-  title: Photonic "Engines" for Data Centers
-  date: '2026-02-02'
   kind: substack
 neighbors: []
 ---

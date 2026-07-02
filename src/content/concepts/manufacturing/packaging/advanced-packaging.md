@@ -26,20 +26,20 @@ sources:
 - '[[2026-03-14-semianalysis-patel-bottlenecks]]'
 - '[[2026-05-30-osat-market-structure]]'
 - '[[2024-yole-advanced-packaging-2024]]'
+- '[[2026-04-10-advanced-packaging-market-advanced-packaging-market-monitor]]'
 - '[[2026-05-30-intel-glass-substrates-program]]'
 - '[[2026-06-15-pic-market-structure-2030-cpo-npo-market-expected-to-exceed]]'
 - '[[2026-06-15-gf-investor-day-2026]]'
 - '[[2025-07-03-datacentre-thermal-power-market-cooling-is-the-new]]'
 - '[[2026-05-21-gf-quantum-technology-solutions]]'
 - '[[2024-tsmc-cowos-roadmap-disclosure]]'
-- '[[2025-01-06-asu-selected-as-home-and-partner-for-chips-and-science-act-f]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 134
+mention_count: 135
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration
@@ -73,14 +73,14 @@ recent_mentions:
   title: 'KLA Q3 FY2026 slides: market share hits 58%, ambitious 2030 targets'
   date: '2026-04-22'
   kind: web
+- slug: 2026-04-10-advanced-packaging-market-advanced-packaging-market-monitor
+  title: Advanced Packaging Market Monitor
+  date: '2026-04-10'
+  kind: web
 - slug: 2026-03-14-semianalysis-patel-bottlenecks
   title: SemiAnalysis (Dylan Patel) — the three shifting bottlenecks to scaling AI compute (logic/litho, memory, power)
   date: '2026-03-14'
   kind: web
-- slug: 2026-02-12-how-to-invest-in-ai-sovereignty-sovereign
-  title: How to Invest in AI Sovereignty — Sovereign Albion w/ Andrew Bennett
-  date: '2026-02-12'
-  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

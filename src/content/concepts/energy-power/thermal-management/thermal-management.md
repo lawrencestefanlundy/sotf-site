@@ -20,6 +20,7 @@ sources:
 - '[[2025-04-30-has-the-time-come-to-take-mortal]]'
 - '[[2025-04-16-the-state-of-photonic-computing]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
+- '[[2026-03-08-diamonds-are-semiconductors-best-friend]]'
 - '[[2026-04-28-thermal-stack-arms-race-global-diamond-heat-spreaders]]'
 - '[[2026-04-24-thermal-stack-arms-race-global-thermal-management-market-to]]'
 - '[[2026-04-10-thermal-stack-arms-race-liquid-cooling-for-ai-data-centers]]'
@@ -32,7 +33,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 76
+mention_count: 77
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0

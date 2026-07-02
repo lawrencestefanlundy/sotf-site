@@ -46,7 +46,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 711
+mention_count: 738
 descendants:
 - 3d-dram
 - adc-bottleneck
@@ -77,9 +77,13 @@ descendants:
 - sram-cim
 - storage-class-memory
 last_reorg_date: '2026-05-14'
-sources_7d: 3
-sources_30d: 12
+sources_7d: 4
+sources_30d: 13
 recent_mentions:
+- slug: 2026-06-25-data-value-migrates-to-retrieval-layer-kioxia-s-q1-2026
+  title: Kioxia's Q1 2026 Revenue and Operating Profit Surge on AI Chip Demand
+  date: '2026-06-25'
+  kind: web
 - slug: 2026-06-23-semidoped-daily-update
   title: Semi Doped — Daily Update, June 23rd 2026
   date: '2026-06-23'
@@ -107,10 +111,6 @@ recent_mentions:
 - slug: 2026-06-18-sensifai-hybrids-deck
   title: SensifAI — Funding Round deck (sensifai.vercel.app/hybrids)
   date: '2026-06-18'
-  kind: web
-- slug: 2026-06-16-cim-landscape-2026
-  title: 'Compute-in-memory landscape 2026: efficiency claims, the digital-readout shift, IDM PIM'
-  date: '2026-06-16'
   kind: web
 neighbors: []
 ---

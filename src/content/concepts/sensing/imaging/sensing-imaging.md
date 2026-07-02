@@ -20,7 +20,31 @@ descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-07-02-azalea-vision-awarded-prestigious-eic-accelerator-funding-to
+  title: Azalea Vision Awarded Prestigious EIC Accelerator Funding To Advance Smart Contact Lens Into Clinical Development - Bernama
+  date: '2026-07-02'
+  kind: web
+- slug: 2026-07-01-azalea-vision-awarded-prestigious-eic-accelerator-funding-to
+  title: Azalea Vision Awarded Prestigious EIC Accelerator Funding to Advance Smart Contact Lens into Clinical Development - Morningstar
+  date: '2026-07-01'
+  kind: web
+- slug: 2026-07-01-thousands-of-planets-are-hidden-in-this-photo
+  title: Thousands of planets are hidden in this photo
+  date: '2026-07-01'
+  kind: web
+- slug: 2026-07-01-nasas-tess-mission-finds-planetary-system-in-new-way
+  title: NASA’s TESS Mission Finds Planetary System in New Way
+  date: '2026-07-01'
+  kind: web
+- slug: 2021-04-03-darpas-nomars-is-an-autonomous-ship-that-couldnt-care-less-a
+  title: DARPA’s NOMARS Is an Autonomous Ship That Couldn’t Care Less About Humans - autoevolution
+  date: '2021-04-03'
+  kind: web
+- slug: 2020-04-14-pentagon-wants-wearable-lightweight-laser-detectors-for-the-
+  title: Pentagon Wants Wearable, Lightweight Laser Detectors For the Troops - Nextgov/FCW
+  date: '2020-04-14'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

@@ -30,11 +30,16 @@ tags:
 - framework
 mention_count: 54
 descendants:
+- hearing-aid-silicon-beachhead
 - nvidia-jetson
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 16
+sources_30d: 15
 recent_mentions:
+- slug: 2026-07-01-hearing-aid-market-structure-edge-ai-beachhead
+  title: Hearing-aid market structure as an edge-AI silicon beachhead (size, growth, concentration, commoditisation)
+  date: '2026-07-01'
+  kind: web
 - slug: 2026-06-18-sensifai-hybrids-deck
   title: SensifAI — Funding Round deck (sensifai.vercel.app/hybrids)
   date: '2026-06-18'
@@ -63,10 +68,6 @@ recent_mentions:
   title: Yole Group — Advanced Packaging 2024 Market Analysis
   date: '2024-12-01'
   kind: web
-- slug: 2024-10-29-deploy-intelligence-too-cheap-to
-  title: Deploy! Intelligence too cheap to meter @ $0.0001 per million tokens.
-  date: '2024-10-29'
-  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

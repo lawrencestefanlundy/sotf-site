@@ -12,6 +12,7 @@ sources:
 - '[[2025-07-01-a-primer-carbon-nanotubes]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
+- '[[2026-03-08-diamonds-are-semiconductors-best-friend]]'
 - '[[2025-09-11-power-electronics-researchers-awarded-15m-to-advance-energy-]]'
 - '[[2024-yole-power-gan-2024]]'
 - '[[2026-05-26-semianalysis-800vdc-revolution]]'
@@ -23,7 +24,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 39
+mention_count: 41
 last_reorg_date: '2026-05-13'
 descendants:
 - aluminium-gallium-nitride
@@ -37,12 +38,16 @@ descendants:
 - power-management-ic
 - solid-state-circuit-breakers
 - wireless-power-transfer
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
 - slug: 2026-05-26-semianalysis-800vdc-revolution
   title: Inside the 800VDC Revolution – Part 1
   date: '2026-05-26'
+  kind: web
+- slug: 2026-03-08-diamonds-are-semiconductors-best-friend
+  title: Diamonds are Semiconductors' Best Friend 2026
+  date: '2026-03-08'
   kind: web
 - slug: 2026-02-19-the-rise-of-grid-power-electronics-with-drew-baglino---latit
   title: The rise of grid power electronics with Drew Baglino - Latitude Media
@@ -67,10 +72,6 @@ recent_mentions:
 - slug: 2024-omdia-power-electronics-forecast
   title: Omdia — Power Semiconductors Long-Term Forecast 2024
   date: '2024-11-01'
-  kind: web
-- slug: 2024-yole-power-gan-2024
-  title: Yole Group — Power GaN 2024 Market Analysis
-  date: '2024-09-15'
   kind: web
 neighbors: []
 ---

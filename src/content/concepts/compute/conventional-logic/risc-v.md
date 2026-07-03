@@ -11,13 +11,16 @@ related_concepts: []
 sources:
 - '[[2023-08-18-e11-in-conversation-with-lux-capital]]'
 - '[[2026-01-22-ai-chips-computeram-and-the-future]]'
+- '[[2025-07-20-risc-v-open-silicon-share-shd-group-risc-v-market-analysis]]'
 - '[[2024-eu-chips-act-final-text]]'
+- '[[2026-01-23-risc-v-open-silicon-share-risc-v-hits-25-design-share-as]]'
 - '[[2025-07-23-nvidia-cuda-on-risc-v]]'
 - '[[2026-06-17-qualcomm-tenstorrent-talks]]'
 - '[[2026-04-09-sifive-series-g]]'
 - '[[2026-06-15-gf-investor-day-2026]]'
 - '[[2025-12-18-risc-v-25pct-penetration]]'
 - '[[2026-02-09-semianalysis-datacenter-cpu-2026]]'
+- '[[2025-10-09-risc-v-open-silicon-share-risc-v-summit-2025-keynote-risc-v]]'
 - '[[2026-05-21-semianalysis-eda-market-primer]]'
 frontier:
 - ''
@@ -25,10 +28,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 55
+mention_count: 58
 last_reorg_date: '2026-05-14'
 sources_7d: 1
-sources_30d: 14
+sources_30d: 13
 recent_mentions:
 - slug: 2026-06-17-qualcomm-tenstorrent-talks
   title: Qualcomm in advanced talks to acquire Tenstorrent at $8-10B (reported)
@@ -50,6 +53,10 @@ recent_mentions:
   title: 'CPUs are Back: The Datacenter CPU Landscape in 2026'
   date: '2026-02-09'
   kind: web
+- slug: 2026-01-23-risc-v-open-silicon-share-risc-v-hits-25-design-share-as
+  title: RISC-V Hits 25% Design Share as GlobalFoundries Bolsters Open-Standard Ecosystem
+  date: '2026-01-23'
+  kind: web
 - slug: 2026-01-22-ai-chips-computeram-and-the-future
   title: 'AI Chips, ComputeRAM and the Future of Data Movement: A Conversation with Manu, Founder of Synthara'
   date: '2026-01-22'
@@ -57,10 +64,6 @@ recent_mentions:
 - slug: 2025-12-18-risc-v-25pct-penetration
   title: RISC-V International announces 25% market penetration, ahead of schedule
   date: '2025-12-18'
-  kind: web
-- slug: 2025-07-23-nvidia-cuda-on-risc-v
-  title: NVIDIA brings CUDA to RISC-V (host-CPU support), 5th RISC-V China Summit
-  date: '2025-07-23'
   kind: web
 neighbors: []
 ---

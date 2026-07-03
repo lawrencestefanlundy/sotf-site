@@ -20,17 +20,9 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
-- slug: 2026-07-02-azalea-vision-awarded-prestigious-eic-accelerator-funding-to
-  title: Azalea Vision Awarded Prestigious EIC Accelerator Funding To Advance Smart Contact Lens Into Clinical Development - Bernama
+- slug: 2026-07-02-azalea-vision-awarded-up-to-75-million-in-eic-accelerator-fu
+  title: Azalea Vision Awarded Up To €7.5 Million In EIC Accelerator Funding - Pulse 2.0
   date: '2026-07-02'
-  kind: web
-- slug: 2026-07-01-azalea-vision-awarded-prestigious-eic-accelerator-funding-to
-  title: Azalea Vision Awarded Prestigious EIC Accelerator Funding to Advance Smart Contact Lens into Clinical Development - Morningstar
-  date: '2026-07-01'
-  kind: web
-- slug: 2026-07-01-thousands-of-planets-are-hidden-in-this-photo
-  title: Thousands of planets are hidden in this photo
-  date: '2026-07-01'
   kind: web
 neighbors: []
 ---

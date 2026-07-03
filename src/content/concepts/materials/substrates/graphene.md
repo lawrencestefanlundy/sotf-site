@@ -15,22 +15,16 @@ sources:
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
 - '[[2023-02-23-soundcell-spin-off-of-graphene-flagship-partner-tu-delft-rec]]'
-- '[[2026-02-06-eth-zurich-spinout-chiral-bags-12m-to-scale-robotic-platform]]'
-- '[[2026-06-23-inbrain-graphene-first-in-human]]'
-- '[[2024-yole-thermal-management-2024]]'
-- '[[2026-06-04-fulfilling-the-promise-of-graphene---enterprisecamacuk]]'
-- '[[2024-idtechex-thermal-interface-materials-2026-2036]]'
-- '[[2023-02-22-soundcell-spin-off-of-graphene-flagship-partner-tu-delft-rec]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 130
+mention_count: 136
 last_reorg_date: '2026-05-13'
-sources_7d: 13
-sources_30d: 51
+sources_7d: 19
+sources_30d: 50
 recent_mentions:
 - slug: 2026-06-24-thermal-stack-arms-race-diamond-heat-spreaders-companies-in
   title: Diamond Heat Spreaders Companies in 2026

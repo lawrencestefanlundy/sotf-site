@@ -80,13 +80,13 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
-- slug: 2026-07-01-form-energys-manufacturing-breakthrough---latitude-media
-  title: Form Energy’s manufacturing breakthrough - Latitude Media
-  date: '2026-07-01'
+- slug: 2026-07-02-the-rise-of-hyperscaler-efficiency-washing---latitude-media
+  title: The rise of hyperscaler efficiency-washing - Latitude Media
+  date: '2026-07-02'
   kind: web
-- slug: 2026-07-01-the-next-ai-infrastructure-opportunity-is-unlocking-what-we-
-  title: The next AI infrastructure opportunity is unlocking what we already have
-  date: '2026-07-01'
+- slug: 2026-06-30-as-power-shortfalls-loom-trumps-permitting-blockade-risks-92
+  title: As power shortfalls loom, Trump’s permitting blockade risks 92 GW of clean energy - Latitude Media
+  date: '2026-06-30'
   kind: web
 neighbors: []
 ---

@@ -25,29 +25,28 @@ sources:
 - '[[2026-06-23-semidoped-daily-update]]'
 - '[[2026-03-14-semianalysis-patel-bottlenecks]]'
 - '[[2026-05-30-osat-market-structure]]'
+- '[[2026-06-13-hyperscaler-asic-profit-pool-google-placed-3m-tpu]]'
 - '[[2024-yole-advanced-packaging-2024]]'
 - '[[2026-04-10-advanced-packaging-market-advanced-packaging-market-monitor]]'
 - '[[2026-05-30-intel-glass-substrates-program]]'
 - '[[2026-06-15-pic-market-structure-2030-cpo-npo-market-expected-to-exceed]]'
 - '[[2026-06-15-gf-investor-day-2026]]'
 - '[[2025-07-03-datacentre-thermal-power-market-cooling-is-the-new]]'
-- '[[2026-05-21-gf-quantum-technology-solutions]]'
-- '[[2024-tsmc-cowos-roadmap-disclosure]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 135
+mention_count: 138
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration
 - micro-transfer-printing
 - osat
 last_reorg_date: '2026-05-13'
-sources_7d: 2
-sources_30d: 15
+sources_7d: 3
+sources_30d: 17
 recent_mentions:
 - slug: 2026-06-23-semidoped-daily-update
   title: Semi Doped — Daily Update, June 23rd 2026
@@ -61,6 +60,10 @@ recent_mentions:
   title: GlobalFoundries Investor Day 2026 (presentation)
   date: '2026-06-15'
   kind: web
+- slug: 2026-06-13-hyperscaler-asic-profit-pool-google-placed-3m-tpu
+  title: Google Placed 3M+ TPU Production Order with Intel for 2028 on 18A Process
+  date: '2026-06-13'
+  kind: web
 - slug: 2026-05-30-osat-market-structure
   title: OSAT market structure 2024-2025 — rankings, advanced-packaging split, photonic assembly
   date: '2026-05-30'
@@ -69,17 +72,13 @@ recent_mentions:
   title: GlobalFoundries launches Quantum Technology Solutions to scale U.S. quantum manufacturing
   date: '2026-05-21'
   kind: web
+- slug: 2026-05-18-deposition-materials-process-market-applied-materials
+  title: Applied Materials Announces Record Q2 FY2026 Results and Guides for Greater Than 30% Equipment Growth in Calendar 2026
+  date: '2026-05-18'
+  kind: web
 - slug: 2026-04-22-kla-q3-fy2026-slides-process-control-share-58pct
   title: 'KLA Q3 FY2026 slides: market share hits 58%, ambitious 2030 targets'
   date: '2026-04-22'
-  kind: web
-- slug: 2026-04-10-advanced-packaging-market-advanced-packaging-market-monitor
-  title: Advanced Packaging Market Monitor
-  date: '2026-04-10'
-  kind: web
-- slug: 2026-03-14-semianalysis-patel-bottlenecks
-  title: SemiAnalysis (Dylan Patel) — the three shifting bottlenecks to scaling AI compute (logic/litho, memory, power)
-  date: '2026-03-14'
   kind: web
 neighbors: []
 ---

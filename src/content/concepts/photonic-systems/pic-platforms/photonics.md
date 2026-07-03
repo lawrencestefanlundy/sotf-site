@@ -36,7 +36,7 @@ last_updated: '2026-05-07'
 tags:
 - concept
 - theme
-mention_count: 777
+mention_count: 778
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -47,8 +47,20 @@ descendants:
 - optoelectronic-oscillator
 last_reorg_date: '2026-05-13'
 sources_7d: 1
-sources_30d: 10
+sources_30d: 9
 recent_mentions:
+- slug: 2026-07-02-pilot-photonics-awarded-104-mln-from-european-innovation-cou
+  title: Pilot Photonics Awarded €10.4 Mln From European Innovation Council - TradingView
+  date: '2026-07-02'
+  kind: web
+- slug: 2026-07-02-pilot-photonics-awarded-104-million-from-european-innovation
+  title: PILOT PHOTONICS AWARDED €10.4 MILLION FROM EUROPEAN INNOVATION COUNCIL - PR Newswire
+  date: '2026-07-02'
+  kind: web
+- slug: 2026-06-28-in-the-media-april---june-2026---eth-zurich
+  title: 'In the Media: April - June 2026 - ETH Zürich'
+  date: '2026-06-28'
+  kind: web
 - slug: 2026-06-23-semidoped-daily-update
   title: Semi Doped — Daily Update, June 23rd 2026
   date: '2026-06-23'
@@ -68,18 +80,6 @@ recent_mentions:
 - slug: 2026-06-17-single-photon-detector-market-spad-snspd
   title: Single-photon detector market aggregation — SPAD, SiPM, SNSPD (2024–2035)
   date: '2026-06-17'
-  kind: web
-- slug: 2026-06-16-trapped-ion-landscape-2026
-  title: Trapped-ion quantum computing landscape 2026 (vendors, scale, integrated photonics)
-  date: '2026-06-16'
-  kind: web
-- slug: 2026-06-15-barry-silverstein-rochester-cxr
-  title: University of Rochester hires former Meta exec Barry Silverstein to direct Center for Extended Reality
-  date: '2026-06-15'
-  kind: web
-- slug: 2026-06-15-luminate-ny-accelerator-terms
-  title: Luminate NY OPI accelerator — terms and structure
-  date: '2026-06-15'
   kind: web
 neighbors: []
 ---

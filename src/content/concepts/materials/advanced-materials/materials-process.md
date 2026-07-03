@@ -21,9 +21,13 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
-- slug: 2026-07-01-form-energys-manufacturing-breakthrough---latitude-media
-  title: Form Energy’s manufacturing breakthrough - Latitude Media
-  date: '2026-07-01'
+- slug: 2026-06-16-phasecraft-appointed-by-arpa-e-to-advance-catalyst-simulatio
+  title: Phasecraft Appointed by ARPA-E to Advance Catalyst Simulation Frameworks for Hydrogen Electrolysis - Quantum Computing Report
+  date: '2026-06-16'
+  kind: web
+- slug: 2026-01-30-taking-the-heat-out-of-industrial-chemical-separations---mit
+  title: Taking the heat out of industrial chemical separations - MIT News
+  date: '2026-01-30'
   kind: web
 neighbors: []
 ---

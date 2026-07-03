@@ -14,6 +14,7 @@ related_concepts: []
 sources:
 - '[[2026-05-24-mose2-exciton-polariton-all-optical-switch]]'
 - '[[2025-03-25-photonic-packaging-cpo-openlight-achieves-successful]]'
+- '[[2026-01-15-sovereignty-semi-bifurcation-revision-to-license-review]]'
 - '[[2024-05-15-photonic-packaging-cpo-sales-of-silicon-photonics-chips]]'
 - '[[2026-04-03-photonic-packaging-cpo-the-soitec-twin-a-massive]]'
 - '[[2026-05-30-intel-optoscribe-acquisition]]'
@@ -23,7 +24,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 62
+mention_count: 63
 last_reorg_date: '2026-05-13'
 sources_7d: 1
 sources_30d: 28
@@ -35,6 +36,10 @@ recent_mentions:
 - slug: 2026-04-03-photonic-packaging-cpo-the-soitec-twin-a-massive
   title: The Soitec Twin? A Massive Undiscovered Foundational Photonics Play & The Fab Nobody Is Watching
   date: '2026-04-03'
+  kind: web
+- slug: 2026-01-15-sovereignty-semi-bifurcation-revision-to-license-review
+  title: Revision to License Review Policy for Advanced Computing Commodities
+  date: '2026-01-15'
   kind: web
 - slug: 2025-03-25-photonic-packaging-cpo-openlight-achieves-successful
   title: OpenLight achieves successful completion of Telcordia GR-468 qualification for silicon photonics components

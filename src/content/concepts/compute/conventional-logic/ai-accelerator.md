@@ -16,6 +16,7 @@ sources:
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
 - '[[2024-yole-emerging-memories-2024]]'
 - '[[2026-06-23-semidoped-daily-update]]'
+- '[[2026-03-02-chiplets-architecture-share-rebellions-rebel-100-industry-s]]'
 - '[[2025-09-17-ai-power-thermal-binding-ai-datacenter-power-demand]]'
 - '[[2026-06-17-femtoai-company-profile]]'
 - '[[2026-04-28-thermal-stack-arms-race-global-diamond-heat-spreaders]]'
@@ -37,14 +38,14 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 83
+mention_count: 84
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 8
 recent_mentions:
-- slug: 2026-07-01-the-next-ai-infrastructure-opportunity-is-unlocking-what-we-
-  title: The next AI infrastructure opportunity is unlocking what we already have
-  date: '2026-07-01'
+- slug: 2026-07-02-the-rise-of-hyperscaler-efficiency-washing---latitude-media
+  title: The rise of hyperscaler efficiency-washing - Latitude Media
+  date: '2026-07-02'
   kind: web
 - slug: 2026-06-23-semidoped-daily-update
   title: Semi Doped — Daily Update, June 23rd 2026

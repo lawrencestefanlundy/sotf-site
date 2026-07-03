@@ -19,7 +19,11 @@ mention_count: 82
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 1
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-30-as-power-shortfalls-loom-trumps-permitting-blockade-risks-92
+  title: As power shortfalls loom, Trump’s permitting blockade risks 92 GW of clean energy - Latitude Media
+  date: '2026-06-30'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

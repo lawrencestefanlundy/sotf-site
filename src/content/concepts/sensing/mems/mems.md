@@ -35,7 +35,7 @@ descendants:
 - sensors
 - spectral-sensing
 sources_7d: 1
-sources_30d: 18
+sources_30d: 16
 recent_mentions:
 - slug: 2026-06-21-mems-speaker-market
   title: MEMS Speaker Market size and CAGR (SNS Insider / Transparency / Data Bridge)

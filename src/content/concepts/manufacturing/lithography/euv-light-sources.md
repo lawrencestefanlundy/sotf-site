@@ -19,15 +19,21 @@ sources:
 - '[[2026-06-11-semianalysis-intel-should-raise-capital]]'
 - '[[2026-05-02-euv-lithography-wikipedia]]'
 - '[[2026-05-02-energetiq-euv-light-sources]]'
+- '[[2026-04-15-sovereignty-semi-bifurcation-asml-holding-nv-form-6-k]]'
+- '[[2025-12-12-sovereignty-semi-bifurcation-chinese-smic-produces-5nm]]'
 - '[[2026-03-14-semianalysis-patel-bottlenecks]]'
 - '[[2026-05-02-laser-produced-plasma-euv-development-sciencedirect]]'
 - '[[2026-03-25-lithography-patterning-market-lithography-innovation-beyond]]'
 - '[[2026-05-02-asml-euv-lithography-systems]]'
+- '[[2026-06-24-sovereignty-semi-bifurcation-dutch-government-irritated-by]]'
 - '[[2024-tsmc-arizona-capex-disclosure]]'
+- '[[2025-12-11-sovereignty-semi-bifurcation-smic-n-3-confirmed-kirin-9030]]'
+- '[[2026-06-19-sovereignty-semi-bifurcation-us-tells-asml-it-has-evidence]]'
 - '[[2023-12-06-euv-lithography-but-with-a-free-electron-laser]]'
 - '[[2026-05-01-lithography-patterning-market-asml-s-roadmap-for-chipmaking]]'
 - '[[2026-06-14-semianalysis-smic-n3-vs-intel-18a]]'
 - '[[2024-10-28-euv-with-fewer-mirrors]]'
+- '[[2026-04-28-sovereignty-semi-bifurcation-smic-ai-chip-strategy-2026]]'
 - '[[2024-bis-export-controls-china-semis]]'
 - '[[2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology]]'
 - '[[2025-12-16-lithography-patterning-market-new-1-4nm-nanoimprint]]'
@@ -37,18 +43,26 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 74
+mention_count: 85
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 16
+sources_7d: 4
+sources_30d: 20
 recent_mentions:
 - slug: 2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology
   title: IBM Debuts World's First Sub-1 Nanometer Chip Technology
   date: '2026-06-25'
   kind: web
+- slug: 2026-06-24-sovereignty-semi-bifurcation-dutch-government-irritated-by
+  title: Dutch government irritated by U.S. plans for new ASML export restrictions
+  date: '2026-06-24'
+  kind: web
 - slug: 2026-06-23-semidoped-daily-update
   title: Semi Doped — Daily Update, June 23rd 2026
   date: '2026-06-23'
+  kind: web
+- slug: 2026-06-19-sovereignty-semi-bifurcation-us-tells-asml-it-has-evidence
+  title: US Tells ASML It Has Evidence EUV Lithography Tool Reached China
+  date: '2026-06-19'
   kind: web
 - slug: 2026-06-14-semianalysis-smic-n3-vs-intel-18a
   title: Is SMIC N+3's Metal Pitch Smaller than Intel 18A's?
@@ -64,14 +78,6 @@ recent_mentions:
   kind: web
 - slug: 2026-05-02-energetiq-euv-light-sources
   title: Energetiq EUV light sources
-  date: '2026-05-02'
-  kind: web
-- slug: 2026-05-02-laser-produced-plasma-euv-development-sciencedirect
-  title: Laser-produced plasma EUV development (ScienceDirect)
-  date: '2026-05-02'
-  kind: web
-- slug: 2026-05-02-asml-euv-lithography-systems
-  title: ASML EUV lithography systems
   date: '2026-05-02'
   kind: web
 neighbors: []

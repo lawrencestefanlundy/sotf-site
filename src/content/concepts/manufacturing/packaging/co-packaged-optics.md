@@ -53,6 +53,7 @@ sources:
 - '[[2026-04-15-semianalysis-isscc-2026]]'
 - '[[2026-06-09-optical-displaces-copper-semianalysis-cpo-delayed-to-2028]]'
 - '[[2026-06-09-photonic-foundry-capacity-silicon-photonics-chips-the]]'
+- '[[2026-04-10-photonic-light-source-supply-co-packaged-optics-cpo-scaling]]'
 - '[[2026-05-30-senko-gf-cpo-detachable-fiber]]'
 - '[[2026-03-09-optical-displaces-copper-nvidia-s-4b-cpo-bet-scale-out]]'
 - '[[2026-06-23-photonic-foundry-capacity-co-packaged-optics-is-not-delayed]]'
@@ -62,10 +63,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 117
+mention_count: 119
 last_reorg_date: '2026-05-13'
-sources_7d: 3
-sources_30d: 29
+sources_7d: 4
+sources_30d: 28
 recent_mentions:
 - slug: 2026-06-23-semidoped-daily-update
   title: Semi Doped — Daily Update, June 23rd 2026

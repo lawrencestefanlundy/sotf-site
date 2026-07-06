@@ -19,7 +19,11 @@ mention_count: 80
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-03-30-eic-tech-report-2026-identifies-25-emerging-deep-tech-signal
+  title: EIC Tech Report 2026 identifies 25 emerging deep tech signals to support Europe’s strategic autonomy and resilience - European Innovation Council
+  date: '2026-03-30'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

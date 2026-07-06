@@ -26,19 +26,19 @@ sources:
 - '[[2026-03-14-semianalysis-patel-bottlenecks]]'
 - '[[2026-05-30-osat-market-structure]]'
 - '[[2026-06-13-hyperscaler-asic-profit-pool-google-placed-3m-tpu]]'
+- '[[2026-07-02-semianalysis-ectc2026-advanced-packaging]]'
 - '[[2024-yole-advanced-packaging-2024]]'
 - '[[2026-04-10-advanced-packaging-market-advanced-packaging-market-monitor]]'
 - '[[2026-05-30-intel-glass-substrates-program]]'
 - '[[2026-06-15-pic-market-structure-2030-cpo-npo-market-expected-to-exceed]]'
 - '[[2026-06-15-gf-investor-day-2026]]'
-- '[[2025-07-03-datacentre-thermal-power-market-cooling-is-the-new]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 138
+mention_count: 139
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration
@@ -46,8 +46,12 @@ descendants:
 - osat
 last_reorg_date: '2026-05-13'
 sources_7d: 3
-sources_30d: 17
+sources_30d: 12
 recent_mentions:
+- slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
+  title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
+  date: '2026-07-02'
+  kind: web
 - slug: 2026-06-23-semidoped-daily-update
   title: Semi Doped — Daily Update, June 23rd 2026
   date: '2026-06-23'
@@ -75,10 +79,6 @@ recent_mentions:
 - slug: 2026-05-18-deposition-materials-process-market-applied-materials
   title: Applied Materials Announces Record Q2 FY2026 Results and Guides for Greater Than 30% Equipment Growth in Calendar 2026
   date: '2026-05-18'
-  kind: web
-- slug: 2026-04-22-kla-q3-fy2026-slides-process-control-share-58pct
-  title: 'KLA Q3 FY2026 slides: market share hits 58%, ambitious 2030 targets'
-  date: '2026-04-22'
   kind: web
 neighbors: []
 ---

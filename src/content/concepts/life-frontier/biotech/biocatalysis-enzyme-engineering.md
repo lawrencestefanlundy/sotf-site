@@ -36,7 +36,7 @@ tags:
 - biocatalysis
 - markets
 sources_7d: 0
-sources_30d: 6
+sources_30d: 0
 recent_mentions: []
 neighbors:
 - slug: single-cell-sequencing

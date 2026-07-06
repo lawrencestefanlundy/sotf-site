@@ -32,7 +32,11 @@ mention_count: 15
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2015-06-23-parc-awarded-1-million-from-arpa-e-for-innovative-self-cooli
+  title: PARC Awarded $1 Million from ARPA-E for Innovative “Self-Cooling” Metamaterial Technology - Xerox Newsroom
+  date: '2015-06-23'
+  kind: web
 neighbors:
 - slug: metalens
   name: Metalens

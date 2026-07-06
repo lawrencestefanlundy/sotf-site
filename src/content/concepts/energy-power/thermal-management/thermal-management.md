@@ -33,44 +33,12 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 77
+mention_count: 78
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 7
-recent_mentions:
-- slug: 2026-04-28-thermal-stack-arms-race-global-diamond-heat-spreaders
-  title: Global Diamond Heat Spreaders Emerging for AI Chip Cooling
-  date: '2026-04-28'
-  kind: web
-- slug: 2026-04-24-thermal-stack-arms-race-global-thermal-management-market-to
-  title: Global Thermal Management Market to Reach £22bn by 2030, Driven by AI and Data Centres
-  date: '2026-04-24'
-  kind: web
-- slug: 2026-03-08-diamonds-are-semiconductors-best-friend
-  title: Diamonds are Semiconductors' Best Friend 2026
-  date: '2026-03-08'
-  kind: web
-- slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
-  title: Carbon Nanotubes in the Datacentre
-  date: '2025-11-25'
-  kind: substack
-- slug: 2025-04-30-has-the-time-come-to-take-mortal
-  title: Has the time come to take Mortal Computing seriously?
-  date: '2025-04-30'
-  kind: substack
-- slug: 2025-04-16-the-state-of-photonic-computing
-  title: 'Photonic Computing: A Primer'
-  date: '2025-04-16'
-  kind: substack
-- slug: 2024-10-22-state-of-the-future-part-deux
-  title: 'An AI Thesis: State of the Future! Part Deux'
-  date: '2024-10-22'
-  kind: substack
-- slug: 2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth
-  title: '🔮E14: The Real AI Bottleneck: High Bandwidth Memory (HBM)'
-  date: '2023-09-08'
-  kind: substack
+sources_7d: 1
+sources_30d: 4
+recent_mentions: []
 neighbors:
 - slug: thermal-stack-map
   name: AI Thermal Stack Map (junction-to-ambient)

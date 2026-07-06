@@ -20,6 +20,7 @@ related_concepts:
 sources:
 - '[[2026-06-01-hbm-state-of-play]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
+- '[[2026-07-02-semianalysis-ectc2026-advanced-packaging]]'
 frontier:
 - Does Samsung's SF4 in-house base-die HBM4 yield cross the ~60% breakeven, or does the TSMC-base-die route (SK Hynix + Micron) keep the cost/yield edge?
 - 'HBM4 volume-leadership: does Samsung''s first-to-qualify headline convert to bit-share, or does SK Hynix''s reliability edge hold the volume + profit lead?'
@@ -38,8 +39,8 @@ public_expressions:
 - 000660.KS
 - 005930.KS
 - MU
-sources_7d: 0
-sources_30d: 1
+sources_7d: 1
+sources_30d: 2
 recent_mentions: []
 neighbors:
 - slug: dram

@@ -56,14 +56,14 @@ recent_mentions:
   title: Diamonds are Semiconductors' Best Friend 2026
   date: '2026-03-08'
   kind: web
-- slug: 2025-10-02-thermal-stack-arms-race-man-made-diamonds-the-coolest
-  title: 'Man Made Diamonds: The Coolest Material For Red Hot AI Chips'
-  date: '2025-10-02'
-  kind: web
-- slug: 2024-omdia-power-electronics-forecast
-  title: Omdia — Power Semiconductors Long-Term Forecast 2024
-  date: '2024-11-01'
-  kind: web
+- slug: 2025-12-19-lfg-for-semiconductors
+  title: LFG (for semiconductors)
+  date: '2025-12-19'
+  kind: substack
+- slug: 2025-12-09-gallium-nitride-photonics-w-james
+  title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
+  date: '2025-12-09'
+  kind: substack
 neighbors:
 - slug: wide-bandgap-semiconductors
   name: Wide-Bandgap Semiconductors

@@ -20,11 +20,11 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 41
+mention_count: 42
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 9
-sources_30d: 22
+sources_7d: 10
+sources_30d: 18
 recent_mentions:
 - slug: 2026-05-02-high-sensitivity-nv-diamond-resonator-comm-materials-2025
   title: High-sensitivity NV diamond resonator (Comm. Materials 2025)

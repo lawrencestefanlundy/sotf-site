@@ -91,6 +91,8 @@ neighbors:
 | Boron-arsenide / θ-TaN / BP | 2-4 | no startup; UCLA (Hu), Houston (Ren), UCSB | scalable defect-free crystal growth | **open but unbuilt** (sourcing target) |
 | Diamond (GaN-on-diamond, nanocrystalline) | 6-8 | **Akash Systems**, **Diamond Foundry**, **Diamfab**; **Element Six De Beers**, **Coherent** | cost, CVD speed, CTE/TBR | yes-but-late/capital-heavy (EU seed: Diamfab) |
 
+> **Interconnect-layer diamond spreader (adjacent frontier, NOT a TIM slot; ECTC 2026).** Purdue / U. Aveiro / UCLA showed **Cu/Sn microbumps embedded in nanocrystalline diamond**, giving an effective **in-plane thermal conductivity of 500-600 W/m·K (~20× conventional microbumps + underfill)** — but it spreads heat *laterally through the interconnect layer of a 3D stack*, it is **not a TIM1 replacement** (single-sided test structure only, no assembled stack). It bounds the map from the *packaging-interconnect* side rather than the die-interface side: if it matures it substitutes for in-stack lateral spreading, not for the die-to-lid / die-to-coldplate TIM the classes above serve. Watch, don't source as a TIM wedge. Source: **2026 07 02 Semianalysis Ectc2026 Advanced Packaging**.
+
 > **Metal-TIM note.** Solder TIM (sTIM), indium foil, and PCMA are the genuine **volume die-level path for >1kW AI accelerators today** (Indium-led) — promoted 22 Jun 2026 to its own slice, **Metal Solder Pcma Tim**. They are the incumbent that is already winning the volume, distinct from the speculative carbon classes and from consumer-led **Liquid Metal Tim**.
 
 ## C. Venture-stage startup roster (the live sourcing list)

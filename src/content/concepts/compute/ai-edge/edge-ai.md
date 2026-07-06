@@ -34,7 +34,7 @@ descendants:
 - nvidia-jetson
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 14
+sources_30d: 10
 recent_mentions:
 - slug: 2026-06-18-sensifai-hybrids-deck
   title: SensifAI — Funding Round deck (sensifai.vercel.app/hybrids)

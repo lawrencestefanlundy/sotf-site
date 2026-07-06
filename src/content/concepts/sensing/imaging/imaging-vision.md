@@ -19,11 +19,7 @@ mention_count: 70
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-07-02-azalea-vision-awarded-up-to-75-million-in-eic-accelerator-fu
-  title: Azalea Vision Awarded Up To €7.5 Million In EIC Accelerator Funding - Pulse 2.0
-  date: '2026-07-02'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

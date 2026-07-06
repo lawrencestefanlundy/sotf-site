@@ -29,6 +29,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 4
 recent_mentions:
+- slug: 2026-07-03-wlan-module-market-forecast-to-2035-growth-driven-by-wi-fi-7
+  title: 'Wlan Module Market Forecast to 2035: Growth Driven by Wi-Fi 7 and Industrial Iot - News and Statistics - IndexBox'
+  date: '2026-07-03'
+  kind: web
 - slug: 2025-12-30-us-eases-semiconductor-equipment-rules-for-samsung-sk-hynix-
   title: U.S. Eases Semiconductor Equipment Rules for Samsung, SK Hynix in China - 조선일보
   date: '2025-12-30'
@@ -36,6 +40,10 @@ recent_mentions:
 - slug: 2024-bis-export-controls-china-semis
   title: BIS Export Controls — China Semiconductor Restrictions (Oct 2022 / Oct 2023 / Dec 2024 rounds)
   date: '2024-12-02'
+  kind: web
+- slug: 2024-03-13-35-million-boost-for-british-semiconductor-scientists-and-bu
+  title: £35 million boost for British semiconductor scientists and businesses on international chip research - GOV.UK
+  date: '2024-03-13'
   kind: web
 - slug: 2023-04-25-us-deals-signal-heightened-semiconductor-equipment-competiti
   title: US deals signal heightened semiconductor equipment competition - East Asia Forum

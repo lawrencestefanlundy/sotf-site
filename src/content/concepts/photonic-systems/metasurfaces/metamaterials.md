@@ -19,7 +19,7 @@ tags:
 mention_count: 30
 last_reorg_date: '2026-05-13'
 sources_7d: 4
-sources_30d: 10
+sources_30d: 7
 recent_mentions:
 - slug: 2025-08-19-thermal-stack-arms-race-thermal-interface-materials-market
   title: 'Thermal Interface Materials Market Report 2026-2036: High-Performance TIMs for Data Centers, AI Servers, and 5G Infrastructure'

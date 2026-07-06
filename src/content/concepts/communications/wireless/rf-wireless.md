@@ -20,7 +20,27 @@ descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-07-03-huawei-sets-its-wi-fi-7-licensing-rate-and-its-a-big-signal-
+  title: Huawei Sets Its Wi-Fi 7 Licensing Rate — And It’s a Big Signal for the Industry - technosports.co.in
+  date: '2026-07-03'
+  kind: web
+- slug: 2026-07-03-wlan-module-market-forecast-to-2035-growth-driven-by-wi-fi-7
+  title: 'Wlan Module Market Forecast to 2035: Growth Driven by Wi-Fi 7 and Industrial Iot - News and Statistics - IndexBox'
+  date: '2026-07-03'
+  kind: web
+- slug: 2026-07-03-huawei-announces-wi-fi-7-patent-licensing-rates-reaffirms-co
+  title: Huawei Announces Wi-Fi 7 Patent Licensing Rates, Reaffirms Commitment to Transparent and Reasonable Licensing - Business Post Nigeria
+  date: '2026-07-03'
+  kind: web
+- slug: 2026-07-03-huawei-announces-wi-fi-7-patent-licensing-rates---technology
+  title: Huawei announces Wi-Fi 7 patent licensing rates - Technology Khabar
+  date: '2026-07-03'
+  kind: web
+- slug: 2025-10-22-ceva-introduces-wi-fi-7-11-client-ip---iot-now
+  title: Ceva introduces Wi-Fi 7 1×1 client IP - IoT Now
+  date: '2025-10-22'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

@@ -20,6 +20,7 @@ sources:
 - '[[2025-09-17-ai-power-thermal-binding-ai-datacenter-power-demand]]'
 - '[[2026-06-17-femtoai-company-profile]]'
 - '[[2026-04-28-thermal-stack-arms-race-global-diamond-heat-spreaders]]'
+- '[[2026-02-21-hyperscaler-asic-profit-pool-nvidia-ai-gpu-market-share]]'
 - '[[2026-04-24-thermal-stack-arms-race-global-thermal-management-market-to]]'
 - '[[2026-04-10-thermal-stack-arms-race-liquid-cooling-for-ai-data-centers]]'
 - '[[2025-12-17-ai-power-thermal-binding-power-availability-remains-the]]'
@@ -38,15 +39,11 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 84
+mention_count: 85
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 8
+sources_30d: 5
 recent_mentions:
-- slug: 2026-07-02-the-rise-of-hyperscaler-efficiency-washing---latitude-media
-  title: The rise of hyperscaler efficiency-washing - Latitude Media
-  date: '2026-07-02'
-  kind: web
 - slug: 2026-06-23-semidoped-daily-update
   title: Semi Doped — Daily Update, June 23rd 2026
   date: '2026-06-23'
@@ -74,6 +71,10 @@ recent_mentions:
 - slug: 2026-04-10-thermal-stack-arms-race-liquid-cooling-for-ai-data-centers
   title: Liquid Cooling For AI Data Centers Market Growth Analysis - Size and Forecast 2026-2030
   date: '2026-04-10'
+  kind: web
+- slug: 2026-03-03-ai-power-thermal-binding-nvidia-vera-rubin-and-feynman
+  title: NVIDIA Vera Rubin and Feynman roadmap confirmed at GTC 2025 with HBM4 support
+  date: '2026-03-03'
   kind: web
 neighbors: []
 ---

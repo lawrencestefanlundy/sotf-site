@@ -8,7 +8,8 @@ parent_concepts:
 - life-frontier
 - biotech
 related_concepts: []
-sources: []
+sources:
+- '[[2026-07-01-mccarty-synthetic-cell-spudcell]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
@@ -17,8 +18,8 @@ tags:
 - technology
 mention_count: 0
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions: []
 neighbors: []
 ---

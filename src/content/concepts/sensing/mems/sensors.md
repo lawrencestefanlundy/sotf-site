@@ -31,19 +31,11 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 285
+mention_count: 286
 last_reorg_date: '2026-05-13'
-sources_7d: 8
-sources_30d: 29
+sources_7d: 6
+sources_30d: 14
 recent_mentions:
-- slug: 2026-07-02-surface-cubesat-contracted-for-ramses-asteroid-mission
-  title: Surface CubeSat contracted for Ramses asteroid mission
-  date: '2026-07-02'
-  kind: web
-- slug: 2026-06-28-in-the-media-april---june-2026---eth-zurich
-  title: 'In the Media: April - June 2026 - ETH Zürich'
-  date: '2026-06-28'
-  kind: web
 - slug: 2026-06-22-beyond-cmos-device-layer-research
   title: Beyond-CMOS device layer — grounded research (MRAM/FeFET beachhead + capture base rate)
   date: '2026-06-22'
@@ -67,6 +59,14 @@ recent_mentions:
 - slug: 2026-06-13-smr-datacentre-baseload-research
   title: SMR / advanced-nuclear for datacentre baseload — research sweep (Jun 2026)
   date: '2026-06-13'
+  kind: web
+- slug: 2026-06-04-magnetoresistive-biochips-freitas-trends-biotech
+  title: Magnetoresistive-based biosensors and biochips
+  date: '2026-06-04'
+  kind: web
+- slug: 2026-06-04-process-analytical-technology-market-size
+  title: Process Analytical Technology Market Size, Report by 2034 (Precedence Research)
+  date: '2026-06-04'
   kind: web
 neighbors: []
 ---

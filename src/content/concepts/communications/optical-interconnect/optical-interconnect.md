@@ -25,7 +25,7 @@ last_updated: '2026-05-07'
 tags:
 - concept
 - technology
-mention_count: 26
+mention_count: 27
 descendants:
 - datacenter-network-stack
 - lpo-linear-pluggable-optics
@@ -36,7 +36,7 @@ descendants:
 - pluggable-transceivers
 last_reorg_date: '2026-05-13'
 sources_7d: 1
-sources_30d: 5
+sources_30d: 4
 recent_mentions:
 - slug: 2026-06-23-semidoped-daily-update
   title: Semi Doped — Daily Update, June 23rd 2026

@@ -37,6 +37,7 @@ sources:
 - '[[2026-05-02-co-packaged-optics-2026-2036-idtechex]]'
 - '[[2026-05-02-cpo-market-and-tech-update-cignal-ai-feb-2025]]'
 - '[[2026-06-09-optical-displaces-copper-in-depth-review-of-the-cpo-delay]]'
+- '[[2026-07-02-semianalysis-ectc2026-advanced-packaging]]'
 - '[[2026-01-27-photonics-material-class-war-veeco-and-imec-develop-300mm]]'
 - '[[2026-04-10-optical-interconnect-cpo-transition-co-packaged-optics-cpo]]'
 - '[[2026-04-03-photonic-packaging-cpo-the-soitec-twin-a-massive]]'
@@ -63,11 +64,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 119
+mention_count: 121
 last_reorg_date: '2026-05-13'
 sources_7d: 4
-sources_30d: 28
+sources_30d: 23
 recent_mentions:
+- slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
+  title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
+  date: '2026-07-02'
+  kind: web
 - slug: 2026-06-23-semidoped-daily-update
   title: Semi Doped — Daily Update, June 23rd 2026
   date: '2026-06-23'
@@ -95,10 +100,6 @@ recent_mentions:
 - slug: 2026-06-15-optical-interconnect-cpo-transition-optical-interconnects
   title: Optical Interconnects Become Critical to AI Factory Expansion; CPO/NPO Market Expected to Exceed US$39 Billion by 2030
   date: '2026-06-15'
-  kind: web
-- slug: 2026-06-09-optical-displaces-copper-in-depth-review-of-the-cpo-delay
-  title: 'In-Depth Review of the CPO Delay Controversy: SemiAnalysis Report'
-  date: '2026-06-09'
   kind: web
 neighbors: []
 ---

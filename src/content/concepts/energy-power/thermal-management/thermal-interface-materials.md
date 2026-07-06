@@ -19,6 +19,7 @@ sources:
 - '[[2024-idtechex-thermal-interface-materials-2026-2036]]'
 - '[[2024-yole-thermal-management-2024]]'
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
+- '[[2026-07-02-semianalysis-ectc2026-advanced-packaging]]'
 frontier:
 - Which material wins which slot — does the stack stay segmented (liquid metal at die-level, sintered Ag at die-attach, CNT/graphene/diamond at lid/spreader) or does one class generalise?
 - Containment, not conductivity, is the liquid-metal frontier — who solves Ga corrosion + pump-out at production reliability?
@@ -31,8 +32,8 @@ mention_count: 0
 last_reorg_date: '2026-05-13'
 descendants:
 - tim-approach-map
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions: []
 neighbors:
 - slug: tim-approach-map

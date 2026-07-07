@@ -21,7 +21,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 105
+mention_count: 107
 last_reorg_date: '2026-05-13'
 descendants:
 - avalanche-photodiode
@@ -31,8 +31,8 @@ descendants:
 - photodetector
 - pic-packaging-stack
 - uni-traveling-carrier-photodiode
-sources_7d: 2
-sources_30d: 16
+sources_7d: 4
+sources_30d: 8
 recent_mentions:
 - slug: 2026-06-01-nibras-ucl-chipstart
   title: UCL EEE ventures selected for national ChipStart programme (incl. Nibras Communications)

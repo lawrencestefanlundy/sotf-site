@@ -45,7 +45,7 @@ descendants:
 - micro-transfer-printing
 - osat
 last_reorg_date: '2026-05-13'
-sources_7d: 3
+sources_7d: 2
 sources_30d: 12
 recent_mentions:
 - slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging

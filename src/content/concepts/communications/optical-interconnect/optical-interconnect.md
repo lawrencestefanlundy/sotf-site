@@ -36,7 +36,7 @@ descendants:
 - pluggable-transceivers
 last_reorg_date: '2026-05-13'
 sources_7d: 1
-sources_30d: 4
+sources_30d: 3
 recent_mentions:
 - slug: 2026-06-23-semidoped-daily-update
   title: Semi Doped — Daily Update, June 23rd 2026

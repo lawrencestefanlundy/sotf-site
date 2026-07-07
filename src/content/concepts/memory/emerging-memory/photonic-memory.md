@@ -16,6 +16,9 @@ sources:
 - '[[2025-02-25-data-driven-vc-is-over]]'
 - '[[2025-04-16-the-state-of-photonic-computing]]'
 - '[[2026-06-01-hbm-state-of-play]]'
+- '[[2026-04-29-optical-dram-everspin-reports-q1-2026-financial-results]]'
+- '[[2026-04-20-optical-dram-photonic-memory-device-technology-2026-patsnap]]'
+- '[[2026-05-07-optical-dram-startup-funding-q1-2026]]'
 frontier:
 - Does any photonic / optical memory reach high-volume manufacturing this decade?
 - Which pull comes first for photonic memory, compute buffering or interconnect?
@@ -23,7 +26,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 58
+mention_count: 61
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 2
@@ -31,6 +34,18 @@ recent_mentions:
 - slug: 2026-06-01-hbm-state-of-play
   title: HBM state of play (mid-2026) — technology, supercycle, three-supplier standing
   date: '2026-06-01'
+  kind: web
+- slug: 2026-05-07-optical-dram-startup-funding-q1-2026
+  title: 'Startup Funding: Q1 2026'
+  date: '2026-05-07'
+  kind: web
+- slug: 2026-04-29-optical-dram-everspin-reports-q1-2026-financial-results
+  title: Everspin Reports Q1 2026 Financial Results
+  date: '2026-04-29'
+  kind: web
+- slug: 2026-04-20-optical-dram-photonic-memory-device-technology-2026-patsnap
+  title: Photonic Memory Device Technology 2026 — PatSnap Eureka
+  date: '2026-04-20'
   kind: web
 - slug: 2025-12-19-lfg-for-semiconductors
   title: LFG (for semiconductors)

@@ -46,7 +46,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 771
+mention_count: 789
 descendants:
 - 3d-dram
 - adc-bottleneck
@@ -77,8 +77,8 @@ descendants:
 - sram-cim
 - storage-class-memory
 last_reorg_date: '2026-05-14'
-sources_7d: 3
-sources_30d: 11
+sources_7d: 4
+sources_30d: 13
 recent_mentions:
 - slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
   title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'

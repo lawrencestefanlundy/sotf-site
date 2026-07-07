@@ -22,6 +22,7 @@ sources:
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
 - '[[2026-01-22-ai-chips-computeram-and-the-future]]'
+- '[[2024-10-23-optical-dram-integrated-non-reciprocal-magneto-optics-with]]'
 frontier:
 - Does digital IMC plus 3D stacking close the energy gap before analog CIM scales out of the edge?
 - Which analog-CIM device family (SRAM-analog, RRAM, flash, memcapacitor) reaches volume first?
@@ -29,7 +30,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 38
+mention_count: 39
 descendants:
 - adc-bottleneck
 - analog-in-memory-compute
@@ -39,8 +40,8 @@ descendants:
 - processing-in-memory
 - sram-cim
 last_reorg_date: '2026-05-14'
-sources_7d: 3
-sources_30d: 6
+sources_7d: 2
+sources_30d: 5
 recent_mentions:
 - slug: 2026-01-22-ai-chips-computeram-and-the-future
   title: 'AI Chips, ComputeRAM and the Future of Data Movement: A Conversation with Manu, Founder of Synthara'
@@ -58,6 +59,10 @@ recent_mentions:
   title: Deploy! Intelligence too cheap to meter @ $0.0001 per million tokens.
   date: '2024-10-29'
   kind: substack
+- slug: 2024-10-23-optical-dram-integrated-non-reciprocal-magneto-optics-with
+  title: Integrated non-reciprocal magneto-optics with ultra-high endurance for photonic in-memory computing
+  date: '2024-10-23'
+  kind: web
 - slug: 2024-10-22-state-of-the-future-part-deux
   title: 'An AI Thesis: State of the Future! Part Deux'
   date: '2024-10-22'

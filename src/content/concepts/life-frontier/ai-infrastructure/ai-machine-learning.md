@@ -24,14 +24,6 @@ recent_mentions:
   title: 'SkillMutator: Benchmarking and Defending Language-and-Code Cross-modal Attacks on LLM Agent Skills'
   date: '2026-06-15'
   kind: paper
-- slug: 2026-03-30-eic-tech-report-2026-identifies-25-emerging-deep-tech-signal
-  title: EIC Tech Report 2026 identifies 25 emerging deep tech signals to support Europe’s strategic autonomy and resilience - European Innovation Council
-  date: '2026-03-30'
-  kind: web
-- slug: 2017-07-19-between-the-lab-and-the-boardroom-staffnet---eth-zurich
-  title: Between the lab and the boardroom – Staffnet - ETH Zürich
-  date: '2017-07-19'
-  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

@@ -18,10 +18,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 7
+mention_count: 10
 last_reorg_date: '2026-05-14'
-sources_7d: 0
-sources_30d: 0
+sources_7d: 3
+sources_30d: 3
 recent_mentions:
 - slug: 2025-04-30-has-the-time-come-to-take-mortal
   title: Has the time come to take Mortal Computing seriously?

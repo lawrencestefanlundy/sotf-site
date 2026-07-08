@@ -86,9 +86,3 @@ Nanoimprint lithography (NIL) presses a patterned hard mold (quartz or silicon) 
 <!-- dataview block stripped for public site -->
 
 ## Frontier (open questions)
-
-See frontmatter `frontier:` block for the canonical list. Headlines:
-- Does Canon FPA-1200NZ2C reach HVM in NAND at Kioxia by 2028?
-- How fast does NIL scale for metalens consumer optics post NILT-Radiant?
-- When does NIL displace e-beam for AR-waveguide masters at production volume?
-- Does multi-beam laser interference take share from NIL for 3D / slanted-pyramid structures NIL cannot deliver?

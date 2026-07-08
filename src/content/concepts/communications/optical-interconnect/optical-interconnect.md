@@ -58,6 +58,10 @@ recent_mentions:
   title: 'ISSCC 2026: NVIDIA & Broadcom CPO, HBM4 & LPDDR6, TSMC Active LSI, Logic-Based SRAM, UCIe-S and More'
   date: '2026-04-15'
   kind: web
+- slug: 2026-03-31-scale-up-interconnect-nvidia-s-2-billion-bet-on-marvell-the
+  title: 'NVIDIA''s $2 Billion Bet on Marvell: The Birth of the ''NVLink Fusion'' Era'
+  date: '2026-03-31'
+  kind: web
 - slug: 2026-03-02-nvidia-4bn-lumentum-coherent-photonics-investment
   title: Nvidia to invest $4 billion into photonics companies Coherent and Lumentum
   date: '2026-03-02'
@@ -66,10 +70,6 @@ recent_mentions:
   title: 'LightCounting :: $100 Billion Market for AI Cluster Optics by 2030?'
   date: '2026-03-01'
   kind: web
-- slug: 2026-02-02-photonic-engines-for-data-centers
-  title: Photonic "Engines" for Data Centers
-  date: '2026-02-02'
-  kind: substack
 neighbors:
 - slug: optical-circuit-switching
   name: Optical Circuit Switching (OCS)

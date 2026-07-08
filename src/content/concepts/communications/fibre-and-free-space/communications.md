@@ -23,7 +23,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 223
+mention_count: 234
 descendants:
 - 5g-nr-advanced
 - beamforming-ics
@@ -47,7 +47,6 @@ descendants:
 - phased-array-antennas
 - pluggable-transceivers
 - qkd
-- quantum-communication
 - quantum-communications
 - quantum-networks
 - quantum-repeaters
@@ -56,8 +55,8 @@ descendants:
 - sub-thz-6g
 - timing-clock-generation
 last_reorg_date: '2026-05-14'
-sources_7d: 2
-sources_30d: 27
+sources_7d: 8
+sources_30d: 32
 recent_mentions:
 - slug: 2026-06-12-hku-sic-cryogenic-neuromorphic-chip-10mk
   title: HKU world-first cryogenic neuromorphic chip at 10 mK (silicon carbide, impact-ionisation spiking)

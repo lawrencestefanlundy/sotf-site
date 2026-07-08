@@ -17,13 +17,13 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 26
+mention_count: 27
 last_reorg_date: '2026-05-13'
 descendants:
 - ar-glasses-stack
 - ar-optical-combiners
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
 - slug: 2025-01-07-fund-frontier-expeditions-otherwise
   title: Fund Frontier Expeditions otherwise just buy the "Magnificent Seven"

@@ -2,7 +2,10 @@
 type: concept
 slug: nand-flash
 canonical_name: NAND Flash
-aliases: []
+aliases:
+- 3D NAND
+- BiCS
+- V-NAND
 kind: technology
 parent_concepts:
 - memory
@@ -10,15 +13,16 @@ parent_concepts:
 related_concepts: []
 sources: []
 frontier:
-- ''
-last_updated: '2026-05-04'
+- Does the $/bit/layer curve keep bending far enough to keep 3D NAND ahead of QLC-DRAM and emerging NVM?
+- Does a startup (e.g. SEMRON) ever ride the 3D-NAND cost curve for compute, or is it structurally an incumbent-only learning curve?
+last_updated: '2026-07-07'
 tags:
 - concept
 - technology
 mention_count: 0
 last_reorg_date: '2026-05-14'
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions: []
 neighbors: []
 ---
@@ -29,6 +33,30 @@ NAND flash stores data as charge in floating-gate or charge-trap transistors sta
 ## Competitive landscape
 
 NAND competes directly with NOR flash (lower density, byte-addressable, dominates code storage / MCU boot), DRAM (volatile, 10× faster, 10× costlier/bit), and emerging non-volatile memories targeting the gap between them.
+
+## Adjacent memory technologies
+
+| Technology | Density | Endurance | Latency |
+|---|---|---|---|
+| 3D NAND (QLC) | Very high | ~1k P/E | ~100 µs |
+| NOR Flash | Low | ~100k P/E | ~100 ns (read) |
+| MRAM / PCM / RRAM | Mid | 10⁶–10⁸ | ~100 ns–1 µs |
+
+Adjacent pressure comes from CXL-attached DRAM tiers blurring the storage/memory boundary, and from computational storage (processing-in-flash) reducing data-movement penalties.
+
+## The four-maker structure + AI supercycle (2026)
+
+NAND is a **5–6 player oligopoly** (looser than the 3-player DRAM/HBM club): Samsung (~29%), SK Hynix (incl. Solidigm), and the ****Kioxia** + **Sandisk** bloc** (~30% combined, produced jointly through **Flash Ventures** at Yokkaichi + Kitakami, aligned to 2034), plus Micron and China's YMTC. Do not confuse NAND with HDD: **Western Digital** and **Seagate** are hard-disk-drive makers, not NAND, though they ride the same AI-storage supercycle as the cheapest bulk medium.
+
+The technology race is **vertical layer count**: 3D NAND stacks charge-trap cells in a monolithic column, and density scales by adding layers (string-stacked decks), not by shrinking in-plane. BiCS / V-NAND have moved 218 → **300+ layers** (Kioxia/Sandisk 10th-gen sample-shipping Jul 2026), with nanoimprint patterning (Canon NIL, via Kioxia) as a cheaper-than-EUV path. The metric that matters is **$/bit/layer** on the string-stack learning curve.
+
+**AI-storage supercycle + the DRAM crowd-out.** NAND is caught in the same shortage as DRAM: HBM consumes ~3x the wafer per bit of commodity DRAM and ~23% of DRAM wafer output, and capacity reallocation plus AI data-lake demand has NAND ASPs rising fast (SanDisk up ~4,000%+ since its Feb-2025 spin). Two spillovers: (1) commodity NAND ASPs inflate alongside DRAM (see the second-order section on **Hbm Bottleneck**); (2) as flash gets expensive, bulk/cold data pushes *down* to nearline HDD, which is why **Western Digital** + **Seagate** also get a bid. Storage-tiering economics tracked on **Memory Disaggregation Storage Non Area**.
+
+## Semron: computing inside 3D NAND
+
+## Investment routes
+
+Scaled exposure is **public**: the NAND makers (**Sandisk**, **Kioxia**, Samsung, SK Hynix, Micron) and the HDD duopoly the shortage pushes demand toward (**Western Digital**, **Seagate**) — full route reads on **Hbm Bottleneck**. The **startup-winnable** frontier is upstream and adjacent, not commodity NAND itself: specialty process materials / equipment (advanced dielectrics, high-aspect-ratio etch, ALD chemistries), storage-controller CIM, and NAND-adjacent emerging NVM (hafnium-oxide FeFETs, MRAM/RRAM/PCM, see **Emerging Nvm**). Commodity NAND fabrication is incumbent-and-capital-locked, so the venture/angel line sits in the enabling layers, never the cell itself.
 
 ## Companies using
 

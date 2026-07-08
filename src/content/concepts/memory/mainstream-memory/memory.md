@@ -46,7 +46,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 789
+mention_count: 828
 descendants:
 - 3d-dram
 - adc-bottleneck
@@ -78,8 +78,12 @@ descendants:
 - storage-class-memory
 last_reorg_date: '2026-05-14'
 sources_7d: 4
-sources_30d: 13
+sources_30d: 14
 recent_mentions:
+- slug: 2026-07-06-12-mins-why-memory-is-going-to-make-or-break-ai
+  title: 12 mins why memory is going to make or break AI
+  date: '2026-07-06'
+  kind: web
 - slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
   title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
   date: '2026-07-02'
@@ -107,10 +111,6 @@ recent_mentions:
 - slug: 2026-06-23-engram-98m-learned-memory-token-costs
   title: AI memory startup focused on cutting token costs raises $98 million
   date: '2026-06-23'
-  kind: web
-- slug: 2026-06-22-beyond-cmos-device-layer-research
-  title: Beyond-CMOS device layer — grounded research (MRAM/FeFET beachhead + capture base rate)
-  date: '2026-06-22'
   kind: web
 neighbors: []
 ---

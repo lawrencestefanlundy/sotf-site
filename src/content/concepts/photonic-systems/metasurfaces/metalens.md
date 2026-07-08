@@ -83,8 +83,6 @@ Operating regimes:
 | Metalens (TiO₂ / GaN) | Planar (single layer) | NIL or DUV | 70-90% (visible, monochromatic) | Production at consumer scale (Metalenz/ST since 2023) |
 | MEMS-tunable | Planar + actuated | MEMS process | Variable | Niche |
 
-**Production trajectory.** Metalenz + STMicroelectronics shipped the first commercial metasurface in a consumer ToF sensor (VL53L8) in 2023. Cumulative shipments ~140M as of 2025. NIL Technology (NILT, Denmark) is the parallel production-process leader, vertically integrated through nanoimprint masters → meta-optic modules; acquired by Taiwan's **Radiant Opto Electronics** for €300M in Jan 2025 (signed Sept 2024).
-
 ## Companies using
 
 <!-- dataview block stripped for public site -->

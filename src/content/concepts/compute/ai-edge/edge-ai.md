@@ -28,13 +28,13 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - framework
-mention_count: 54
+mention_count: 56
 descendants:
 - hearing-aid-silicon-beachhead
 - nvidia-jetson
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 10
+sources_7d: 1
+sources_30d: 12
 recent_mentions:
 - slug: 2026-06-18-sensifai-hybrids-deck
   title: SensifAI — Funding Round deck (sensifai.vercel.app/hybrids)

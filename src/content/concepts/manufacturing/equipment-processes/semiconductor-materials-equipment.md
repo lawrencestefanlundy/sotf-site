@@ -24,11 +24,7 @@ descendants:
 - stm
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2026-07-03-huawei-announces-wi-fi-7-patent-licensing-rates-reaffirms-co
-  title: Huawei Announces Wi-Fi 7 Patent Licensing Rates, Reaffirms Commitment to Transparent and Reasonable Licensing - Business Post Nigeria
-  date: '2026-07-03'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

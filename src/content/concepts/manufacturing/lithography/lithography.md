@@ -25,7 +25,7 @@ sources:
 - '[[2026-03-14-semianalysis-patel-bottlenecks]]'
 - '[[2026-03-25-lithography-patterning-market-lithography-innovation-beyond]]'
 - '[[2026-05-02-asml-euv-lithography-systems]]'
-- '[[2026-06-19-sovereignty-semi-bifurcation-us-tells-asml-it-has-evidence]]'
+- '[[2026-04-26-litho-tool-supply-bottleneck-ai-semiconductor-supply-chain]]'
 frontier:
 - Lithography as three-way optimisation (throughput / feature size / feature complexity) — does any single tool win on all three, or does the market remain a portfolio of specialised tools each winning on two?
 - Multi-material patterning at production volume — does a tool emerge that patterns dissimilar materials in the same step, or does multi-material foundry remain a retrofit (transfer printing, hybrid integration, post-processing)?
@@ -35,13 +35,12 @@ last_updated: '2026-05-08'
 tags:
 - concept
 - technology
-mention_count: 141
+mention_count: 143
 descendants:
 - computational-lithography
 - directed-self-assembly
 - duv-immersion-lithography
 - e-beam-lithography
-- electron-beam-lithography
 - euv-light-sources
 - high-na-euv-lithography
 - lithography
@@ -55,8 +54,8 @@ descendants:
 - x-ray-lithography
 - xolography
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 13
+sources_7d: 0
+sources_30d: 12
 recent_mentions:
 - slug: 2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology
   title: IBM Debuts World's First Sub-1 Nanometer Chip Technology

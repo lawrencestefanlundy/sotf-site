@@ -27,7 +27,6 @@ descendants:
 - security-cyber
 - tee
 - trust
-- trusted-execution-environments
 - zero-knowledge-proofs
 last_reorg_date: '2026-05-13'
 sources_7d: 0

@@ -44,7 +44,7 @@ neighbors:
   path: /sotf-site/photonic-systems/displays/displays/
   macro: photonic-systems
 ---
-> The combiner is component 2 of the [AR glasses: the component stack and competing technologies (primer)](/sotf-site/photonic-systems/displays/ar-glasses-stack/): it takes the image from the light engine and overlays it on the real world. This is where most of the cost, the "eye glow," the flat-vs-curved problem, and the photolithography bottleneck live. It is also the layer the **Ar Display Optics** thesis bets *against* in its standalone form (we back fusion instead). Note: this is the **free-space near-eye combiner**, a different thing from the on-chip PIC waveguides covered by **Waveguide Platform By Segment 2030**, despite the shared word.
+> The combiner is component 2 of the [AR glasses: the component stack and competing technologies (primer)](/sotf-site/photonic-systems/displays/ar-glasses-stack/): it takes the image from the light engine and overlays it on the real world. This is where most of the cost, the "eye glow," the flat-vs-curved problem, and the photolithography bottleneck live. It is also the layer the **Ar Display Optics** thesis bets *against* in its standalone form (we back fusion instead). Note: this is the **free-space near-eye combiner**, a different thing from the on-chip PIC waveguides covered by **Photonics Material Class War**, despite the shared word.
 
 ## The competing approaches
 
@@ -57,4 +57,4 @@ neighbors:
 
 ## See also
 
-**Ar Display Optics** (the thesis) · [AR glasses: the component stack and competing technologies (primer)](/sotf-site/photonic-systems/displays/ar-glasses-stack/) (the full device) · [Laser-Based Display Light Engines](/sotf-site/photonic-systems/displays/laser-display-light-engines/) (the engine that feeds the combiner) · **Metalenses** (the metasurface platform) · **Waveguide Platform By Segment 2030** (the *other* kind of waveguide: on-chip PIC, not AR)
+**Ar Display Optics** (the thesis) · [AR glasses: the component stack and competing technologies (primer)](/sotf-site/photonic-systems/displays/ar-glasses-stack/) (the full device) · [Laser-Based Display Light Engines](/sotf-site/photonic-systems/displays/laser-display-light-engines/) (the engine that feeds the combiner) · **Metalenses** (the metasurface platform) · **Photonics Material Class War** (the *other* kind of waveguide: on-chip PIC, not AR)

@@ -26,26 +26,24 @@ sources:
 - '[[2026-03-14-semianalysis-patel-bottlenecks]]'
 - '[[2026-05-30-osat-market-structure]]'
 - '[[2026-06-13-hyperscaler-asic-profit-pool-google-placed-3m-tpu]]'
+- '[[2026-04-26-litho-tool-supply-bottleneck-ai-semiconductor-supply-chain]]'
 - '[[2026-07-02-semianalysis-ectc2026-advanced-packaging]]'
 - '[[2024-yole-advanced-packaging-2024]]'
 - '[[2026-04-10-advanced-packaging-market-advanced-packaging-market-monitor]]'
-- '[[2026-05-30-intel-glass-substrates-program]]'
-- '[[2026-06-15-pic-market-structure-2030-cpo-npo-market-expected-to-exceed]]'
-- '[[2026-06-15-gf-investor-day-2026]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 139
+mention_count: 144
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration
 - micro-transfer-printing
 - osat
 last_reorg_date: '2026-05-13'
-sources_7d: 2
+sources_7d: 3
 sources_30d: 12
 recent_mentions:
 - slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging

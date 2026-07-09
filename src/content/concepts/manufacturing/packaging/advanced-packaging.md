@@ -29,14 +29,13 @@ sources:
 - '[[2026-04-26-litho-tool-supply-bottleneck-ai-semiconductor-supply-chain]]'
 - '[[2026-07-02-semianalysis-ectc2026-advanced-packaging]]'
 - '[[2024-yole-advanced-packaging-2024]]'
-- '[[2026-04-10-advanced-packaging-market-advanced-packaging-market-monitor]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 144
+mention_count: 145
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration
@@ -44,7 +43,7 @@ descendants:
 - osat
 last_reorg_date: '2026-05-13'
 sources_7d: 3
-sources_30d: 12
+sources_30d: 13
 recent_mentions:
 - slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
   title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'

@@ -20,9 +20,9 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 148
+mention_count: 154
 last_reorg_date: '2026-05-13'
-sources_7d: 14
+sources_7d: 12
 sources_30d: 48
 recent_mentions:
 - slug: 2026-06-24-thermal-stack-arms-race-diamond-heat-spreaders-companies-in

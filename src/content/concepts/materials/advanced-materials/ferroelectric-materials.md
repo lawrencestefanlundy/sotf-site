@@ -6,7 +6,9 @@ aliases:
 - ferroelectric
 - ferroelectrics
 - FE materials
-parent_concepts: []
+parent_concepts:
+- advanced-materials
+- materials
 related_concepts:
 - hafnium-oxide
 - barium-titanate

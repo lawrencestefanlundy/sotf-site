@@ -19,7 +19,11 @@ mention_count: 16
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-18-arxiv-cheri-d-secure-and-efficient-inline-object-id-for-cheri-temp
+  title: 'CHERI-D: Secure and efficient inline object ID for CHERI temporal memory safety'
+  date: '2026-06-18'
+  kind: paper
 neighbors: []
 ---
 ## Physics / mechanism

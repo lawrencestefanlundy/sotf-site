@@ -27,15 +27,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 72
+mention_count: 73
 last_reorg_date: '2026-05-13'
 descendants:
 - mems
 - nems
 - sensors
 - spectral-sensing
-sources_7d: 2
-sources_30d: 16
+sources_7d: 3
+sources_30d: 17
 recent_mentions:
 - slug: 2026-06-21-mems-speaker-market
   title: MEMS Speaker Market size and CAGR (SNS Insider / Transparency / Data Bridge)

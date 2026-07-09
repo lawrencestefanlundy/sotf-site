@@ -21,7 +21,7 @@ tags:
 mention_count: 38
 last_reorg_date: '2026-05-13'
 descendants: []
-sources_7d: 3
+sources_7d: 2
 sources_30d: 10
 recent_mentions:
 - slug: 2026-05-24-mose2-exciton-polariton-all-optical-switch

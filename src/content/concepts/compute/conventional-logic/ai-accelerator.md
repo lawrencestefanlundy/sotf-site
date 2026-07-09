@@ -21,11 +21,14 @@ sources:
 - '[[2026-06-17-femtoai-company-profile]]'
 - '[[2026-04-28-thermal-stack-arms-race-global-diamond-heat-spreaders]]'
 - '[[2026-02-21-hyperscaler-asic-profit-pool-nvidia-ai-gpu-market-share]]'
+- '[[2026-01-20-specialisation-beats-generality-global-ai-server-shipments]]'
 - '[[2026-04-24-thermal-stack-arms-race-global-thermal-management-market-to]]'
 - '[[2026-04-10-thermal-stack-arms-race-liquid-cooling-for-ai-data-centers]]'
 - '[[2025-12-17-ai-power-thermal-binding-power-availability-remains-the]]'
+- '[[2026-05-21-specialisation-beats-generality-the-custom-ai-asic-state-of]]'
 - '[[2026-03-03-ai-power-thermal-binding-nvidia-vera-rubin-and-feynman]]'
 - '[[2024-yole-thermal-management-2024]]'
+- '[[2026-05-06-specialisation-beats-generality-north-american-ai-data]]'
 - '[[2024-02-26-micron-hbm3e-volume-production]]'
 - '[[2024-yole-advanced-packaging-2024]]'
 - '[[2026-06-17-qualcomm-tenstorrent-talks]]'
@@ -39,15 +42,23 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 86
+mention_count: 89
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 6
 recent_mentions:
+- slug: 2026-07-01-arxiv-enclavex-end-to-end-confidential-ai-with-cpugpu-tees
+  title: 'EnclaveX: End-to-End Confidential AI with CPU/GPU TEEs'
+  date: '2026-07-01'
+  kind: paper
 - slug: 2026-06-23-semidoped-daily-update
   title: Semi Doped — Daily Update, June 23rd 2026
   date: '2026-06-23'
   kind: web
+- slug: 2026-06-17-arxiv-bifrost-hybrid-tee-fhe-inference-for-privacy-preserving-tran
+  title: 'Bifrost: Hybrid TEE-FHE Inference for Privacy-Preserving Transformer and LLM Serving'
+  date: '2026-06-17'
+  kind: paper
 - slug: 2026-06-17-femtoai-company-profile
   title: femtoAI (formerly Femtosense) — company profile, funding, leadership
   date: '2026-06-17'
@@ -60,21 +71,13 @@ recent_mentions:
   title: femtoAI to Highlight its Sparse Processing Unit Edge AI Accelerator at CES 2026
   date: '2026-06-17'
   kind: web
-- slug: 2026-04-28-thermal-stack-arms-race-global-diamond-heat-spreaders
-  title: Global Diamond Heat Spreaders Emerging for AI Chip Cooling
-  date: '2026-04-28'
+- slug: 2026-05-21-specialisation-beats-generality-the-custom-ai-asic-state-of
+  title: The custom AI ASIC state of play (May 2026)
+  date: '2026-05-21'
   kind: web
-- slug: 2026-04-24-thermal-stack-arms-race-global-thermal-management-market-to
-  title: Global Thermal Management Market to Reach £22bn by 2030, Driven by AI and Data Centres
-  date: '2026-04-24'
-  kind: web
-- slug: 2026-04-10-thermal-stack-arms-race-liquid-cooling-for-ai-data-centers
-  title: Liquid Cooling For AI Data Centers Market Growth Analysis - Size and Forecast 2026-2030
-  date: '2026-04-10'
-  kind: web
-- slug: 2026-03-03-ai-power-thermal-binding-nvidia-vera-rubin-and-feynman
-  title: NVIDIA Vera Rubin and Feynman roadmap confirmed at GTC 2025 with HBM4 support
-  date: '2026-03-03'
+- slug: 2026-05-06-specialisation-beats-generality-north-american-ai-data
+  title: North American AI Data Center Expansion Drives 2026 CapEx of Top Nine CSPs to US$830 Billion
+  date: '2026-05-06'
   kind: web
 neighbors: []
 ---

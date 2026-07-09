@@ -6,7 +6,9 @@ aliases:
 - cervical screening
 - HPV screening
 - dual-stain cytology
-parent_concepts: []
+parent_concepts:
+- diagnostics-health
+- life-frontier
 related_concepts: []
 sources: []
 frontier: []

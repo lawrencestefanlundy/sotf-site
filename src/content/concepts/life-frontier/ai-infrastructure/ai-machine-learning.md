@@ -20,8 +20,36 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-06-24-arxiv-autospec-safety-rule-evolution-for-llm-agents-via-inductive-
+  title: 'AutoSpec: Safety Rule Evolution for LLM Agents via Inductive Logic Programming'
+  date: '2026-06-24'
+  kind: paper
+- slug: 2026-06-17-arxiv-breaking-the-code-security-assessment-of-ai-code-agents-thro
+  title: 'Breaking the Code: Security Assessment of AI Code Agents Through Systematic Jailbreaking Attacks'
+  date: '2026-06-17'
+  kind: paper
+- slug: 2026-06-16-arxiv-a-security-analysis-of-long-horizon-agentic-ai-systems-threa
+  title: 'A Security Analysis of Long-Horizon Agentic AI Systems: Threats, Evaluation, and Framework Development'
+  date: '2026-06-16'
+  kind: paper
+- slug: 2026-06-16-arxiv-benign-in-isolation-harmful-in-composition-security-risks-in
+  title: 'Benign in Isolation, Harmful in Composition: Security Risks in Agent Skill Ecosystems'
+  date: '2026-06-16'
+  kind: paper
+- slug: 2026-06-16-arxiv-a-survey-on-agentic-security-applications-threats-and-defens
+  title: 'A Survey on Agentic Security: Applications, Threats and Defenses'
+  date: '2026-06-16'
+  kind: paper
+- slug: 2026-06-15-arxiv-hidden-in-plain-sight-benchmarking-agent-safety-against-deco
+  title: 'Hidden in Plain Sight: Benchmarking Agent Safety Against Decomposition Attacks with DECOMPBENCH'
+  date: '2026-06-15'
+  kind: paper
 - slug: 2026-06-15-arxiv-skillmutator-benchmarking-and-defending-language-and-code-cr
   title: 'SkillMutator: Benchmarking and Defending Language-and-Code Cross-modal Attacks on LLM Agent Skills'
+  date: '2026-06-15'
+  kind: paper
+- slug: 2026-06-15-arxiv-from-shield-to-target-denial-of-service-attacks-on-llm-based
+  title: 'From Shield to Target: Denial-of-Service Attacks on LLM-Based Agent Guardrails'
   date: '2026-06-15'
   kind: paper
 neighbors: []

@@ -7,7 +7,9 @@ aliases:
 - PNT
 - positioning navigation timing
 - Global Navigation Satellite System
-parent_concepts: []
+parent_concepts:
+- in-orbit
+- life-frontier
 related_concepts:
 - leo-mega-constellations
 - space-communications

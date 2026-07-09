@@ -19,7 +19,39 @@ mention_count: 30
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-07-01-arxiv-enclavex-end-to-end-confidential-ai-with-cpugpu-tees
+  title: 'EnclaveX: End-to-End Confidential AI with CPU/GPU TEEs'
+  date: '2026-07-01'
+  kind: paper
+- slug: 2026-06-24-arxiv-computefhe-a-privacy-preserving-general-purpose-computation-
+  title: 'ComputeFHE: A Privacy-Preserving General-Purpose Computation Library'
+  date: '2026-06-24'
+  kind: paper
+- slug: 2026-06-24-arxiv-autospec-safety-rule-evolution-for-llm-agents-via-inductive-
+  title: 'AutoSpec: Safety Rule Evolution for LLM Agents via Inductive Logic Programming'
+  date: '2026-06-24'
+  kind: paper
+- slug: 2026-06-18-arxiv-cheri-d-secure-and-efficient-inline-object-id-for-cheri-temp
+  title: 'CHERI-D: Secure and efficient inline object ID for CHERI temporal memory safety'
+  date: '2026-06-18'
+  kind: paper
+- slug: 2026-06-17-arxiv-breaking-the-code-security-assessment-of-ai-code-agents-thro
+  title: 'Breaking the Code: Security Assessment of AI Code Agents Through Systematic Jailbreaking Attacks'
+  date: '2026-06-17'
+  kind: paper
+- slug: 2026-06-17-arxiv-bifrost-hybrid-tee-fhe-inference-for-privacy-preserving-tran
+  title: 'Bifrost: Hybrid TEE-FHE Inference for Privacy-Preserving Transformer and LLM Serving'
+  date: '2026-06-17'
+  kind: paper
+- slug: 2026-06-16-arxiv-a-security-analysis-of-long-horizon-agentic-ai-systems-threa
+  title: 'A Security Analysis of Long-Horizon Agentic AI Systems: Threats, Evaluation, and Framework Development'
+  date: '2026-06-16'
+  kind: paper
+- slug: 2026-06-16-arxiv-benign-in-isolation-harmful-in-composition-security-risks-in
+  title: 'Benign in Isolation, Harmful in Composition: Security Risks in Agent Skill Ecosystems'
+  date: '2026-06-16'
+  kind: paper
 neighbors: []
 ---
 ## Physics / mechanism

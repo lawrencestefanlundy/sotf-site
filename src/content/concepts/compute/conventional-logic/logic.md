@@ -21,7 +21,11 @@ descendants: []
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-17-arxiv-bifrost-hybrid-tee-fhe-inference-for-privacy-preserving-tran
+  title: 'Bifrost: Hybrid TEE-FHE Inference for Privacy-Preserving Transformer and LLM Serving'
+  date: '2026-06-17'
+  kind: paper
 neighbors: []
 ---
 ## Physics / mechanism

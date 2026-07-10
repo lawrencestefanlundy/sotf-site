@@ -45,7 +45,7 @@ tags:
 mention_count: 89
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 6
+sources_30d: 5
 recent_mentions:
 - slug: 2026-07-01-arxiv-enclavex-end-to-end-confidential-ai-with-cpugpu-tees
   title: 'EnclaveX: End-to-End Confidential AI with CPU/GPU TEEs'
@@ -55,10 +55,6 @@ recent_mentions:
   title: Semi Doped — Daily Update, June 23rd 2026
   date: '2026-06-23'
   kind: web
-- slug: 2026-06-17-arxiv-bifrost-hybrid-tee-fhe-inference-for-privacy-preserving-tran
-  title: 'Bifrost: Hybrid TEE-FHE Inference for Privacy-Preserving Transformer and LLM Serving'
-  date: '2026-06-17'
-  kind: paper
 - slug: 2026-06-17-femtoai-company-profile
   title: femtoAI (formerly Femtosense) — company profile, funding, leadership
   date: '2026-06-17'
@@ -71,6 +67,10 @@ recent_mentions:
   title: femtoAI to Highlight its Sparse Processing Unit Edge AI Accelerator at CES 2026
   date: '2026-06-17'
   kind: web
+- slug: 2026-06-17-arxiv-bifrost-hybrid-tee-fhe-inference-for-privacy-preserving-tran
+  title: 'Bifrost: Hybrid TEE-FHE Inference for Privacy-Preserving Transformer and LLM Serving'
+  date: '2026-06-17'
+  kind: paper
 - slug: 2026-05-21-specialisation-beats-generality-the-custom-ai-asic-state-of
   title: The custom AI ASIC state of play (May 2026)
   date: '2026-05-21'

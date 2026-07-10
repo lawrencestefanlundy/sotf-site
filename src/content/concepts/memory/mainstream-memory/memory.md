@@ -46,7 +46,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 839
+mention_count: 841
 descendants:
 - 3d-dram
 - adc-bottleneck
@@ -80,6 +80,10 @@ last_reorg_date: '2026-05-14'
 sources_7d: 3
 sources_30d: 14
 recent_mentions:
+- slug: 2026-07-07-high-bandwidth-flash-the-full-report
+  title: 'High Bandwidth Flash: The Full Report'
+  date: '2026-07-07'
+  kind: web
 - slug: 2026-07-06-12-mins-why-memory-is-going-to-make-or-break-ai
   title: 12 mins why memory is going to make or break AI
   date: '2026-07-06'
@@ -106,10 +110,6 @@ recent_mentions:
   kind: web
 - slug: 2026-06-23-ionq-acquires-lightsynq-quantum-memory
   title: IonQ acquires Lightsynq (quantum-memory / quantum-repeater startup)
-  date: '2026-06-23'
-  kind: web
-- slug: 2026-06-23-engram-98m-learned-memory-token-costs
-  title: AI memory startup focused on cutting token costs raises $98 million
   date: '2026-06-23'
   kind: web
 neighbors: []

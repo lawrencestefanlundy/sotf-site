@@ -28,23 +28,30 @@ sources:
 - '[[2026-06-13-hyperscaler-asic-profit-pool-google-placed-3m-tpu]]'
 - '[[2026-04-26-litho-tool-supply-bottleneck-ai-semiconductor-supply-chain]]'
 - '[[2026-07-02-semianalysis-ectc2026-advanced-packaging]]'
-- '[[2024-yole-advanced-packaging-2024]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 145
+mention_count: 147
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration
 - micro-transfer-printing
 - osat
 last_reorg_date: '2026-05-13'
-sources_7d: 3
+sources_7d: 4
 sources_30d: 13
 recent_mentions:
+- slug: 2026-07-09-in-die-microfluidic-cooling-sprint
+  title: In-die microfluidic cooling — cluster research sprint
+  date: '2026-07-09'
+  kind: web
+- slug: 2026-07-07-high-bandwidth-flash-the-full-report
+  title: 'High Bandwidth Flash: The Full Report'
+  date: '2026-07-07'
+  kind: web
 - slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
   title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
   date: '2026-07-02'
@@ -68,14 +75,6 @@ recent_mentions:
 - slug: 2026-05-30-osat-market-structure
   title: OSAT market structure 2024-2025 — rankings, advanced-packaging split, photonic assembly
   date: '2026-05-30'
-  kind: web
-- slug: 2026-05-21-gf-quantum-technology-solutions
-  title: GlobalFoundries launches Quantum Technology Solutions to scale U.S. quantum manufacturing
-  date: '2026-05-21'
-  kind: web
-- slug: 2026-05-18-deposition-materials-process-market-applied-materials
-  title: Applied Materials Announces Record Q2 FY2026 Results and Guides for Greater Than 30% Equipment Growth in Calendar 2026
-  date: '2026-05-18'
   kind: web
 neighbors: []
 ---

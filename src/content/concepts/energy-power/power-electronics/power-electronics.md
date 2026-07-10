@@ -38,7 +38,7 @@ descendants:
 - power-management-ic
 - solid-state-circuit-breakers
 - wireless-power-transfer
-sources_7d: 7
+sources_7d: 6
 sources_30d: 8
 recent_mentions:
 - slug: 2026-05-26-semianalysis-800vdc-revolution

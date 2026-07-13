@@ -40,6 +40,7 @@ sources:
 - '[[2026-07-02-semianalysis-ectc2026-advanced-packaging]]'
 - '[[2026-01-27-photonics-material-class-war-veeco-and-imec-develop-300mm]]'
 - '[[2026-04-10-optical-interconnect-cpo-transition-co-packaged-optics-cpo]]'
+- '[[2026-07-11-neutral-pdk-heterogeneous-integration-landscape]]'
 - '[[2026-04-03-photonic-packaging-cpo-the-soitec-twin-a-massive]]'
 - '[[2024-yole-advanced-packaging-2024]]'
 - '[[2026-04-22-photonics-material-class-war-320-gb-s-unamplified]]'
@@ -57,18 +58,21 @@ sources:
 - '[[2026-04-10-photonic-light-source-supply-co-packaged-optics-cpo-scaling]]'
 - '[[2026-05-30-senko-gf-cpo-detachable-fiber]]'
 - '[[2026-03-09-optical-displaces-copper-nvidia-s-4b-cpo-bet-scale-out]]'
-- '[[2026-06-23-photonic-foundry-capacity-co-packaged-optics-is-not-delayed]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 125
+mention_count: 126
 last_reorg_date: '2026-05-13'
-sources_7d: 1
+sources_7d: 2
 sources_30d: 19
 recent_mentions:
+- slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape
+  title: Neutral PDK / EDA layer for heterogeneous photonic integration — landscape check (Scintil essay correction research)
+  date: '2026-07-11'
+  kind: web
 - slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
   title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
   date: '2026-07-02'
@@ -95,10 +99,6 @@ recent_mentions:
   kind: web
 - slug: 2026-06-15-gf-investor-day-2026
   title: GlobalFoundries Investor Day 2026 (presentation)
-  date: '2026-06-15'
-  kind: web
-- slug: 2026-06-15-optical-interconnect-cpo-transition-optical-interconnects
-  title: Optical Interconnects Become Critical to AI Factory Expansion; CPO/NPO Market Expected to Exceed US$39 Billion by 2030
   date: '2026-06-15'
   kind: web
 neighbors: []

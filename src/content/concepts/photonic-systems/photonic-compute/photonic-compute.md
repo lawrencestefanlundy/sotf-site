@@ -77,17 +77,18 @@ neighbors: []
 
 ## Company landscape (2026)
 
-Two axes split the field: **free-space vs integrated-photonic (PIC)**, and **analog matmul vs all-optical-digital vs workload-specific**. Most players do analog matmul for AI inference; the contrarians are Akhetonics (all-optical digital) and Optalysys (FHE/crypto). *(Web-verified 2026-05-30; funding/status confidence-flagged on each company page.)*
+### Free-space-fed · DIGITAL encoding
+| **Olix** | UK | oTPU — **free-space optics + novel ~100 GHz electro-absorption SLM** (likely Ge/SiGe at GF 12nm), bit-perfect digital encoding, >25GB SRAM + 3TB DRAM (no HBM); **$160M raised, $75M round live ~$850-900M pre** (founder transcript corrects the press "$220M/>$1B") | active; first clusters target Q4'27 |
 
-### Integrated PIC · all-optical DIGITAL (contrarian)
-| **Akhetonics** | DE | all-optical general-purpose **digital** processor (no electronics in compute path); €6M, 2024 | prototype |
+**Lane record (11 Jul 2026):** no all-optical digital player has publicly demonstrated ≥1 GHz system clock; best-ever bistable-VCSEL cascade is 2 stages (Kawaguchi/Katayama, NAIST, wound down ~2016).
 
 ### Integrated PIC · workload-specific
 | **Optalysys** | UK | optical accelerator for **FHE / homomorphic encryption**; ~$50M+ (raise early 2026) | active |
 
 ### Pivoted / defunct / mis-categorised (do not treat as live optical-compute)
 - **Salience Labs** — **pivoted** photonic compute → optical *switches* ($30M Series A 2025); now a switch-layer play.
-- **Lighton** — **pivoted** to generative-AI **software** (Euronext-listed); optical hardware deprioritised.
+- **Lighton** — **pivoted** to generative-AI **software** (Euronext-listed Nov 2024); optical hardware (OPU random projections, once in the Jean Zay TOP500 machine) discontinued in all but name. The instructive failure: the fixed random matrix its hardware computed wasn't a workload anyone paid for.
+- **Fathom Computing** (US) — free-space NN *training* in light; demoed 2018-19, dormant since (~$6M raised). *(untracked — dead)*
 - **Luminous Computing** — **effectively defunct** (photonics team gutted 2023; asset auctions). The old "$120M, Bill-Gates-backed" reference is stale.
 - **Celestial Ai** — **interconnect, not compute** (Photonic Fabric; being acquired by Marvell ~$3.25B).
 - **Taalas** — **not optical** (model-specific ASIC etched in silicon).
@@ -100,6 +101,9 @@ Two axes split the field: **free-space vs integrated-photonic (PIC)**, and **ana
 | Digital GPU/TPU | ~100 ns | ~10 pJ/MAC | Mature |
 
 Adjacent (not optical compute): in-memory SRAM (Mythic), neuromorphic (Loihi, NorthPole), and the **thermodynamic** plays (**Normal Computing**, extropic). Optical *interconnect* (Ayar, NcodiN) and *switching* (OCS/OPS) are separate layers — see [Datacenter Optical Networking — Plain-English Stack Primer](/sotf-site/communications/optical-interconnect/datacenter-network-stack/).
+
+## Investment relevance (all routes)
+The market read and routing live on **Photonic Compute Market** (interconnect/IO → public markets; workload-native + enabling-layer EU pre-seed → venture routes). GlobalFoundries' silicon photonics PDK (GF Fotonix, 300mm) is a manufacturing hook — companies fabbing on GF get photonic IP access without captive fab risk, and a GF tape-out commitment is a seriousness signal for any early-stage entrant. Enterprise-software exposure (Lunar lens) intersects where photonic inference sits behind API abstractions.
 
 ## Companies using
 
@@ -117,3 +121,7 @@ Adjacent (not optical compute): in-memory SRAM (Mythic), neuromorphic (Loihi, No
 
 - Does photonic compute ship as more than a MAC / interconnect co-processor by 2028?
 - Can photonic memory leave lab-stage and remove the electronic-working-memory dependency?
+
+## Update 10 Jul 2026 — the buyer-KPI test
+
+Placed in the **Inference Economics** frame (the 2 customer KPIs): photonic INTERCONNECT moves the datacentre tokens/watt KPI at system level and is where photonic value has actually settled (Lightmatter Passage, Celestial→Marvell $3.25B, the Salience pivot); photonic COMPUTE has yet to publish a buyable number on either KPI, failing the edge envelope on laser static power (Roelkens, 6 Jul 2026: no credible path; µW static needs hero photonic-crystal cavity lasers — **2026 07 06 Lawrence Re Quick Question On Laser Logic**) and inheriting an OEO conversion tax analogous to the [ADC Bottleneck (analog in-memory compute)](/sotf-site/compute/compute-architecture/adc-bottleneck/) in the datacentre. Company mapping: **2026 07 10 Two Kpi Approach Map**.

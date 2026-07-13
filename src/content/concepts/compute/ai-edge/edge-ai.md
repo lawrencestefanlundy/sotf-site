@@ -22,20 +22,25 @@ sources:
 - '[[2024-yole-advanced-packaging-2024]]'
 - '[[2026-06-15-gf-investor-day-2026]]'
 - '[[2026-06-17-femtoai-spu-ces2026]]'
+- '[[2026-07-10-edge-buyer-kpi-sweep]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - framework
-mention_count: 56
+mention_count: 57
 descendants:
 - hearing-aid-silicon-beachhead
 - nvidia-jetson
 last_reorg_date: '2026-05-13'
 sources_7d: 1
-sources_30d: 12
+sources_30d: 13
 recent_mentions:
+- slug: 2026-07-10-edge-buyer-kpi-sweep
+  title: 'Edge-AI buyer KPI sweep: power envelope + energy per work; cost per token absent'
+  date: '2026-07-10'
+  kind: web
 - slug: 2026-06-18-sensifai-hybrids-deck
   title: SensifAI — Funding Round deck (sensifai.vercel.app/hybrids)
   date: '2026-06-18'
@@ -64,10 +69,6 @@ recent_mentions:
   title: Yole Group — Advanced Packaging 2024 Market Analysis
   date: '2024-12-01'
   kind: web
-- slug: 2024-10-29-deploy-intelligence-too-cheap-to
-  title: Deploy! Intelligence too cheap to meter @ $0.0001 per million tokens.
-  date: '2024-10-29'
-  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

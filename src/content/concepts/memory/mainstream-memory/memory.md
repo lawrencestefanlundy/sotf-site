@@ -46,7 +46,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 841
+mention_count: 842
 descendants:
 - 3d-dram
 - adc-bottleneck
@@ -63,6 +63,7 @@ descendants:
 - feram
 - hbm
 - in-memory-computing
+- inference-economics
 - memcapacitor
 - memory
 - memory-wall
@@ -77,9 +78,13 @@ descendants:
 - sram-cim
 - storage-class-memory
 last_reorg_date: '2026-05-14'
-sources_7d: 3
-sources_30d: 14
+sources_7d: 2
+sources_30d: 15
 recent_mentions:
+- slug: 2026-07-10-hyperscaler-token-economics-sweep
+  title: 'Hyperscaler inference-economics language sweep: cost per token as the datacentre KPI'
+  date: '2026-07-10'
+  kind: web
 - slug: 2026-07-07-high-bandwidth-flash-the-full-report
   title: 'High Bandwidth Flash: The Full Report'
   date: '2026-07-07'
@@ -106,10 +111,6 @@ recent_mentions:
   kind: web
 - slug: 2025-26-lapedus-next-gen-ferroelectric-memory
   title: Next-Gen Ferroelectric Memory Still A Work In Progress
-  date: '2026-06-23'
-  kind: web
-- slug: 2026-06-23-ionq-acquires-lightsynq-quantum-memory
-  title: IonQ acquires Lightsynq (quantum-memory / quantum-repeater startup)
   date: '2026-06-23'
   kind: web
 neighbors: []

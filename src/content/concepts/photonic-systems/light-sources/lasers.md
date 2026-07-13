@@ -23,7 +23,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 161
+mention_count: 162
 last_reorg_date: '2026-05-13'
 descendants:
 - external-laser-source
@@ -31,6 +31,10 @@ descendants:
 sources_7d: 4
 sources_30d: 21
 recent_mentions:
+- slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape
+  title: Neutral PDK / EDA layer for heterogeneous photonic integration — landscape check (Scintil essay correction research)
+  date: '2026-07-11'
+  kind: web
 - slug: 2026-06-22-thermal-stack-layer-landscape
   title: AI datacentre thermal stack, junction-to-ambient — per-layer players, M&A, capture (web research synthesis)
   date: '2026-06-22'
@@ -59,10 +63,6 @@ recent_mentions:
   title: 'Silicon Photonics Market: Integration of On-Chip Lasers Remains Thorny Technical Hurdle'
   date: '2026-03-15'
   kind: web
-- slug: 2026-02-12-how-to-invest-in-ai-sovereignty-sovereign
-  title: How to Invest in AI Sovereignty — Sovereign Albion w/ Andrew Bennett
-  date: '2026-02-12'
-  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

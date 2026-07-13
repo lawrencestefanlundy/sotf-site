@@ -30,6 +30,17 @@ Vertical-Cavity Surface-Emitting Lasers emit light perpendicular to the wafer su
 
 Edge-emitting lasers (EELs/FP/DFB) offer higher power-per-emitter and longer coherence but require cleaved facets, are harder to test on-wafer, and don't array as easily. VCSELs dominate short-reach datacom, 3D sensing, and LiDAR illumination where array density and testability matter.
 
+## VCSELs in COMPUTING (added 2026-07-11 — full map: **Optical Compute Landscape**)
+
+## Investment relevance (all routes)
+
+| Parameter | VCSEL | Edge Emitter | VCSEL Array |
+|---|---|---|---|
+| Single-emitter power | <10 mW typ. | 100 mW–W | — |
+| On-wafer testability | Yes | No | Yes |
+| Beam quality | Circular | Astigmatic | Engineered |
+| Wavelength range | 670–1550 nm | 400 nm–3 µm | Same as single |
+
 ## Companies using
 
 <!-- dataview block stripped for public site -->

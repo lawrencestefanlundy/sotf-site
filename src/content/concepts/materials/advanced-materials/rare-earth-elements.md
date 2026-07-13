@@ -32,7 +32,7 @@ tags:
 - sovereignty
 mention_count: 0
 sources_7d: 0
-sources_30d: 2
+sources_30d: 0
 recent_mentions: []
 neighbors:
 - slug: magnetic-materials

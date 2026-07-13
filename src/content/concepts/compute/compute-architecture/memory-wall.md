@@ -21,6 +21,8 @@ frontier:
 last_updated: '2026-06-22'
 tags:
 - concept
+descendants:
+- inference-economics
 sources_7d: 0
 sources_30d: 0
 recent_mentions: []

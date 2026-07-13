@@ -14,9 +14,11 @@ sources:
 - '[[2025-04-16-the-state-of-photonic-computing]]'
 - '[[2023-08-25-e12-nanomechanical-computing-gears]]'
 - '[[2026-06-21-mems-speaker-market]]'
+- '[[2026-07-09-in-die-microfluidic-cooling-sprint]]'
 - '[[2026-06-04-magnetoresistive-gmr-mtj-biosensor-turbid-samples]]'
 - '[[2026-06-21-st-nxp-mems-acquisition]]'
 - '[[2026-06-16-trapped-ion-landscape-2026]]'
+- '[[2026-07-11-neutral-pdk-heterogeneous-integration-landscape]]'
 - '[[2026-06-21-grandview-mems-microphones]]'
 - '[[2026-06-03-datam-specialty-foundry-forecast-2035]]'
 - '[[2026-06-21-yole-mems-market-momentum]]'
@@ -27,16 +29,24 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 73
+mention_count: 75
 last_reorg_date: '2026-05-13'
 descendants:
 - mems
 - nems
 - sensors
 - spectral-sensing
-sources_7d: 3
-sources_30d: 17
+sources_7d: 4
+sources_30d: 19
 recent_mentions:
+- slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape
+  title: Neutral PDK / EDA layer for heterogeneous photonic integration — landscape check (Scintil essay correction research)
+  date: '2026-07-11'
+  kind: web
+- slug: 2026-07-09-in-die-microfluidic-cooling-sprint
+  title: In-die microfluidic cooling — cluster research sprint
+  date: '2026-07-09'
+  kind: web
 - slug: 2026-06-21-mems-speaker-market
   title: MEMS Speaker Market size and CAGR (SNS Insider / Transparency / Data Bridge)
   date: '2026-06-21'
@@ -60,14 +70,6 @@ recent_mentions:
 - slug: 2026-06-16-trapped-ion-landscape-2026
   title: Trapped-ion quantum computing landscape 2026 (vendors, scale, integrated photonics)
   date: '2026-06-16'
-  kind: web
-- slug: 2026-06-04-magnetoresistive-gmr-mtj-biosensor-turbid-samples
-  title: Integrated Microfluidic Giant Magnetoresistance (GMR) Biosensor Platform for Magnetoresistive Immunoassay (and related GMR/MTJ bead-detection literature)
-  date: '2026-06-04'
-  kind: web
-- slug: 2026-06-03-datam-specialty-foundry-forecast-2035
-  title: Specialty Foundry Market Forecast and Industry Analysis 2035 (USD 11.65B 2025 to 38.85B 2035, 12.8pct CAGR)
-  date: '2026-06-03'
   kind: web
 neighbors: []
 ---

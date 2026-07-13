@@ -29,7 +29,11 @@ tags:
 - memory-bound
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-07-10-workload-phase-silicon-sweep
+  title: 'Workload-phase silicon sweep: pre-training / RL / prefill / decode procurement split'
+  date: '2026-07-10'
+  kind: web
 neighbors:
 - slug: in-memory-computing
   name: In-Memory Computing

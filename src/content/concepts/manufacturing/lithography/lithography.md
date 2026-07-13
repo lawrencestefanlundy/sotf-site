@@ -29,7 +29,7 @@ last_updated: '2026-05-08'
 tags:
 - concept
 - technology
-mention_count: 149
+mention_count: 150
 descendants:
 - computational-lithography
 - directed-self-assembly
@@ -49,8 +49,12 @@ descendants:
 - xolography
 last_reorg_date: '2026-05-13'
 sources_7d: 5
-sources_30d: 17
+sources_30d: 16
 recent_mentions:
+- slug: 2026-07-09-in-die-microfluidic-cooling-sprint
+  title: In-die microfluidic cooling — cluster research sprint
+  date: '2026-07-09'
+  kind: web
 - slug: 2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology
   title: IBM Debuts World's First Sub-1 Nanometer Chip Technology
   date: '2026-06-25'
@@ -78,10 +82,6 @@ recent_mentions:
 - slug: 2026-06-03-semianalysis-space-datacenters
   title: 'To Boldly Go: The Case for Space Datacenters'
   date: '2026-06-03'
-  kind: web
-- slug: 2026-05-12-semianalysis-eda-rtl-to-silicon
-  title: 'The EDA Primer: From RTL to Silicon'
-  date: '2026-05-12'
   kind: web
 neighbors: []
 ---

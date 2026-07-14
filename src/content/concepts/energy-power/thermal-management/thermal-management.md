@@ -36,9 +36,21 @@ tags:
 mention_count: 81
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 1
+sources_7d: 0
 sources_30d: 7
-recent_mentions: []
+recent_mentions:
+- slug: 2026-04-01-ai-power-thermal-binding-market-projection-35-of-new-ai
+  title: 'Market projection: 35%+ of new AI datacenter capacity specifying liquid cooling by 2026'
+  date: '2026-04-01'
+  kind: web
+- slug: 2025-08-19-thermal-stack-arms-race-thermal-interface-materials-market
+  title: 'Thermal Interface Materials Market Report 2026-2036: High-Performance TIMs for Data Centers, AI Servers, and 5G Infrastructure'
+  date: '2025-08-19'
+  kind: web
+- slug: 2024-yole-thermal-management-2024
+  title: Yole Group — Thermal Management 2024 Market Analysis
+  date: '2024-10-01'
+  kind: web
 neighbors:
 - slug: thermal-stack-map
   name: AI Thermal Stack Map (junction-to-ambient)

@@ -22,7 +22,7 @@ tags:
 - technology
 mention_count: 154
 last_reorg_date: '2026-05-13'
-sources_7d: 11
+sources_7d: 5
 sources_30d: 46
 recent_mentions:
 - slug: 2026-06-24-thermal-stack-arms-race-diamond-heat-spreaders-companies-in

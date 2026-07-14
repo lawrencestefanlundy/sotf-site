@@ -18,7 +18,7 @@ tags:
 - technology
 mention_count: 41
 last_reorg_date: '2026-05-13'
-sources_7d: 9
+sources_7d: 3
 sources_30d: 18
 recent_mentions:
 - slug: 2025-08-19-thermal-stack-arms-race-thermal-interface-materials-market

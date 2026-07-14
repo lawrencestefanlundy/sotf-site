@@ -46,7 +46,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 842
+mention_count: 843
 descendants:
 - 3d-dram
 - adc-bottleneck
@@ -78,7 +78,7 @@ descendants:
 - sram-cim
 - storage-class-memory
 last_reorg_date: '2026-05-14'
-sources_7d: 2
+sources_7d: 1
 sources_30d: 15
 recent_mentions:
 - slug: 2026-07-10-hyperscaler-token-economics-sweep

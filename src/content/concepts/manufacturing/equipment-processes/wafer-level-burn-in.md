@@ -23,11 +23,11 @@ recent_mentions: []
 neighbors:
 - slug: known-good-die-test
   name: Known-Good-Die (KGD) Test
-  path: /sotf-site/manufacturing/equipment-processes/known-good-die-test/
+  path: /manufacturing/equipment-processes/known-good-die-test/
   macro: manufacturing
 - slug: automated-test-equipment
   name: Automated Test Equipment (ATE)
-  path: /sotf-site/manufacturing/equipment-processes/automated-test-equipment/
+  path: /manufacturing/equipment-processes/automated-test-equipment/
   macro: manufacturing
 ---
 Stress-testing die at wafer level under temperature/voltage to force early-life failures before packaging. AI-die power forces liquid-cooled / high-current burn-in chucks and sockets. Aehr Test Systems is the standalone pure-play proof.

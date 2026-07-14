@@ -35,7 +35,7 @@ recent_mentions: []
 neighbors:
 - slug: datacentre-cloud-infrastructure
   name: Datacentre & Cloud Infrastructure
-  path: /sotf-site/life-frontier/ai-infrastructure/datacentre-cloud-infrastructure/
+  path: /life-frontier/ai-infrastructure/datacentre-cloud-infrastructure/
   macro: life-frontier
 ---
 ## Physics / mechanism

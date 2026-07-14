@@ -27,7 +27,7 @@ frontier:
 - Can a bead-on-MTJ format match kHz droplet/FACS throughput, or is it a plate-format 10^2 to 10^4 tool competing with plate readers?
 - Name three reactions gated today by the screen (not by enzyme search or by chemistry) that a direct turnover read unlocks.
 - Does the enzyme-on-bead surface survive turbid high-cell-density broth plus CIP/SIP (the real in-line killer)?
-- Why has 20 years of GMR/MTJ bead biosensing not commercialised in bioprocess: what changed (CMOS integration, cost) that makes now the window?
+- 'Why has 20 years of GMR/MTJ bead biosensing not commercialised in bioprocess: what changed (CMOS integration, cost) that makes now the window?'
 last_updated: 2026-06-04
 tags:
 - concept
@@ -41,11 +41,11 @@ recent_mentions: []
 neighbors:
 - slug: single-cell-sequencing
   name: Single-Cell Sequencing
-  path: /sotf-site/life-frontier/biotech/single-cell-sequencing/
+  path: /life-frontier/biotech/single-cell-sequencing/
   macro: life-frontier
 - slug: cell-free-systems
   name: Cell-Free Systems
-  path: /sotf-site/life-frontier/biotech/cell-free-systems/
+  path: /life-frontier/biotech/cell-free-systems/
   macro: life-frontier
 ---
 The market a real-time enzyme-state sensor would serve. Two distinct go-to-markets sit under one technology: (A) enzyme engineering / directed-evolution screening ("find better biocatalysts"), and (B) in-line bioprocess monitoring / process analytical technology ("control the reactor"). They have different buyers, sales cycles, and value-capture. The transduction option that motivates this page is **Magnetic Biosensing**, because it survives the broth conditions that defeat optical and ISFET sensors.
@@ -96,6 +96,6 @@ Grounded in six web sources (2026-06-04 pull). Key: industrial enzymes ~$7.9 to 
 
 ## Connected ideas
 
-Sits under [Synthetic Biology](/sotf-site/life-frontier/biotech/synbio/); the transduction layer is **Magnetic Biosensing**; adjacent to [Cell-Free Systems](/sotf-site/life-frontier/biotech/cell-free-systems/). Entered the KB via the George / stealth magnetic-enzyme deal (see `deals/lithic`).
+Sits under [Synthetic Biology](/life-frontier/biotech/synbio/); the transduction layer is **Magnetic Biosensing**; adjacent to [Cell-Free Systems](/life-frontier/biotech/cell-free-systems/). Entered the KB via the George / stealth magnetic-enzyme deal (see `deals/lithic`).
 
 <!-- dataview block stripped for public site -->

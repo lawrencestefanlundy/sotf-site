@@ -31,19 +31,19 @@ recent_mentions: []
 neighbors:
 - slug: coherent-ising-machine
   name: Coherent Ising Machine
-  path: /sotf-site/compute/non-conventional/coherent-ising-machine/
+  path: /compute/non-conventional/coherent-ising-machine/
   macro: compute
 - slug: stochastic-ising-machines
   name: Stochastic / Ising Machines
-  path: /sotf-site/compute/non-conventional/stochastic-ising-machines/
+  path: /compute/non-conventional/stochastic-ising-machines/
   macro: compute
 - slug: memristors
   name: Memristors
-  path: /sotf-site/compute/non-conventional/memristors/
+  path: /compute/non-conventional/memristors/
   macro: compute
 - slug: probabilistic-computing
   name: Probabilistic Computing
-  path: /sotf-site/compute/non-conventional/probabilistic-computing/
+  path: /compute/non-conventional/probabilistic-computing/
   macro: compute
 ---
 The structural reason analog computing companies die. The simulator (FDTD electromagnetic, SPICE circuit, or whatever physics model the architecture uses) predicts one thing; the fabricated chip behaves differently. The gap is typically 5-15% of the modelled response, and that delta often eats the entire performance claim the company is built on.

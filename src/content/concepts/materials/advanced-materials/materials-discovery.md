@@ -33,15 +33,15 @@ recent_mentions: []
 neighbors:
 - slug: electronic-materials
   name: Electronic Materials
-  path: /sotf-site/materials/advanced-materials/electronic-materials/
+  path: /materials/advanced-materials/electronic-materials/
   macro: materials
 - slug: ferroelectric-materials
   name: Ferroelectric Materials
-  path: /sotf-site/materials/advanced-materials/ferroelectric-materials/
+  path: /materials/advanced-materials/ferroelectric-materials/
   macro: materials
 - slug: tmds-mos2-wse2
   name: TMDs (MoS2, WSe2)
-  path: /sotf-site/materials/substrates/tmds-mos2-wse2/
+  path: /materials/substrates/tmds-mos2-wse2/
   macro: materials
 ---
 Materials discovery is the systematic search for novel solid-state compounds or thin-film compositions with target functional properties — electronic, optical, mechanical, or thermal. Historically Edisonian (combinatorial synthesis + post-growth characterisation), the field is shifting toward **autonomous discovery loops**: high-throughput density functional theory (DFT) calculations screen candidates, robotics or molecular-beam epitaxy (MBE) synthesise promising compositions, and in-situ spectroscopic probes close the feedback loop in near-real-time.

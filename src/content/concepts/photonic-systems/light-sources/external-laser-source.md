@@ -30,19 +30,19 @@ recent_mentions: []
 neighbors:
 - slug: co-packaged-optics
   name: Co-Packaged Optics
-  path: /sotf-site/manufacturing/packaging/co-packaged-optics/
+  path: /manufacturing/packaging/co-packaged-optics/
   macro: manufacturing
 - slug: silicon-photonics
   name: Silicon Photonics
-  path: /sotf-site/photonic-systems/pic-platforms/silicon-photonics/
+  path: /photonic-systems/pic-platforms/silicon-photonics/
   macro: photonic-systems
 - slug: optical-interconnect
   name: Optical Interconnect
-  path: /sotf-site/communications/optical-interconnect/optical-interconnect/
+  path: /communications/optical-interconnect/optical-interconnect/
   macro: communications
 - slug: dfb-dbr-lasers
   name: DFB / DBR Lasers
-  path: /sotf-site/photonic-systems/light-sources/dfb-dbr-lasers/
+  path: /photonic-systems/light-sources/dfb-dbr-lasers/
   macro: photonic-systems
 ---
 In co-packaged optics the laser is kept **off** the switch/compute ASIC and supplied as a separate external module (DFB/DBR laser arrays, sometimes plus a comb source and a star coupler) feeding light into the photonic engine over fibre. The reason is structural: laser junctions are temperature-sensitive and wavelength-critical, and the ASIC runs extremely hot, so isolating the laser preserves wavelength stability and reliability/serviceability (**2026 06 17 Sivers Onet Enablence External Light Source Cpo**).

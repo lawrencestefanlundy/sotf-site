@@ -73,11 +73,11 @@ recent_mentions:
 neighbors:
 - slug: optical-circuit-switching
   name: Optical Circuit Switching (OCS)
-  path: /sotf-site/communications/optical-interconnect/optical-circuit-switching/
+  path: /communications/optical-interconnect/optical-circuit-switching/
   macro: communications
 - slug: optical-packet-switching
   name: Optical Packet Switching (OPS)
-  path: /sotf-site/communications/optical-interconnect/optical-packet-switching/
+  path: /communications/optical-interconnect/optical-packet-switching/
   macro: communications
 ---
 ## Physics / mechanism

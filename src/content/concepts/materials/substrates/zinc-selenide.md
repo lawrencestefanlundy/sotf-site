@@ -26,19 +26,19 @@ recent_mentions: []
 neighbors:
 - slug: zinc-oxide
   name: Zinc Oxide
-  path: /sotf-site/materials/substrates/zinc-oxide/
+  path: /materials/substrates/zinc-oxide/
   macro: materials
 - slug: wide-bandgap-semiconductors
   name: Wide-Bandgap Semiconductors
-  path: /sotf-site/materials/substrates/wide-bandgap-semiconductors/
+  path: /materials/substrates/wide-bandgap-semiconductors/
   macro: materials
 - slug: compound-semiconductors
   name: Compound Semiconductors
-  path: /sotf-site/materials/substrates/compound-semiconductors/
+  path: /materials/substrates/compound-semiconductors/
   macro: materials
 - slug: anti-reflection-coatings
   name: Anti-Reflection Coatings
-  path: /sotf-site/materials/coatings-interfaces/anti-reflection-coatings/
+  path: /materials/coatings-interfaces/anti-reflection-coatings/
   macro: materials
 ---
 Zinc selenide (ZnSe) is a direct-bandgap II-VI semiconductor with a bandgap of ~2.67 eV at room temperature, placing its primary emission in the blue-green visible range (~465 nm). It crystallises in the zinc-blende structure. Key parameters: refractive index ~2.4–2.67 across the visible and near-IR, transmission window 0.45–21.5 µm (one of the broadest of any II-VI compound), low absorption in the mid-IR, and moderate thermal conductivity (~18 W/m·K).
@@ -47,7 +47,7 @@ ZnSe's dominant applications leverage its exceptional optical properties rather 
 
 The semiconductor and optoelectronic application space is smaller. Blue-green ZnSe LEDs and laser diodes were heavily researched in the early 1990s before GaN rendered them largely obsolete for blue emitters. The active current interest is in ZnSe-based quantum dots as a cadmium-free replacement for CdSe QDs in display backlighting and bioimaging, exploiting the size-tunable emission across the visible without the RoHS toxicity burden of cadmium.
 
-In the [Compound Semiconductors](/sotf-site/materials/substrates/compound-semiconductors/) and [Wide-Bandgap Semiconductors](/sotf-site/materials/substrates/wide-bandgap-semiconductors/) landscape, ZnSe occupies a specialised optical-materials niche rather than a power or logic role. It is distinct from [Zinc Oxide](/sotf-site/materials/substrates/zinc-oxide/) (piezo/TCO/UV focus) and from the III-V semiconductors that dominate RF and power switching.
+In the [Compound Semiconductors](/materials/substrates/compound-semiconductors/) and [Wide-Bandgap Semiconductors](/materials/substrates/wide-bandgap-semiconductors/) landscape, ZnSe occupies a specialised optical-materials niche rather than a power or logic role. It is distinct from [Zinc Oxide](/materials/substrates/zinc-oxide/) (piezo/TCO/UV focus) and from the III-V semiconductors that dominate RF and power switching.
 
 ## Frontier
 

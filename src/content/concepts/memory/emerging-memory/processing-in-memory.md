@@ -40,27 +40,27 @@ recent_mentions:
 neighbors:
 - slug: in-memory-computing
   name: In-Memory Computing
-  path: /sotf-site/memory/emerging-memory/in-memory-computing/
+  path: /memory/emerging-memory/in-memory-computing/
   macro: memory
 - slug: memcapacitor
   name: Memcapacitor
-  path: /sotf-site/memory/emerging-memory/memcapacitor/
+  path: /memory/emerging-memory/memcapacitor/
   macro: memory
 - slug: sram-cim
   name: SRAM Compute-in-Memory
-  path: /sotf-site/memory/emerging-memory/sram-cim/
+  path: /memory/emerging-memory/sram-cim/
   macro: memory
 - slug: charge-domain-compute
   name: Charge-Domain Compute
-  path: /sotf-site/compute/non-conventional/charge-domain-compute/
+  path: /compute/non-conventional/charge-domain-compute/
   macro: compute
 - slug: hbm
   name: HBM (High-Bandwidth Memory)
-  path: /sotf-site/memory/mainstream-memory/hbm/
+  path: /memory/mainstream-memory/hbm/
   macro: memory
 - slug: 3d-dram
   name: 3D DRAM
-  path: /sotf-site/memory/mainstream-memory/3d-dram/
+  path: /memory/mainstream-memory/3d-dram/
   macro: memory
 ---
 ## The distinction that matters: PIM vs CIM

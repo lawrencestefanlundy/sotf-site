@@ -26,15 +26,15 @@ recent_mentions: []
 neighbors:
 - slug: gallium-arsenide
   name: Gallium Arsenide (GaAs)
-  path: /sotf-site/materials/substrates/gallium-arsenide/
+  path: /materials/substrates/gallium-arsenide/
   macro: materials
 - slug: indium-phosphide
   name: Indium Phosphide (InP)
-  path: /sotf-site/materials/substrates/indium-phosphide/
+  path: /materials/substrates/indium-phosphide/
   macro: materials
 - slug: silicon-nitride
   name: Silicon Nitride
-  path: /sotf-site/materials/substrates/silicon-nitride/
+  path: /materials/substrates/silicon-nitride/
   macro: materials
 ---
 Gallium phosphide (GaP) is a III-V compound semiconductor with an indirect bandgap of approximately 2.26 eV (direct gap ~2.78 eV), making it optically transparent across much of the near-infrared and visible spectrum. Its lattice constant (0.545 nm) is close enough to silicon that GaP-on-silicon epitaxy is feasible, a property that distinguishes it from most III-V materials and underpins a photonic integration route.

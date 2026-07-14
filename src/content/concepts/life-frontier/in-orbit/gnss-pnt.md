@@ -28,15 +28,15 @@ recent_mentions: []
 neighbors:
 - slug: leo-mega-constellations
   name: LEO Mega-Constellations
-  path: /sotf-site/life-frontier/in-orbit/leo-mega-constellations/
+  path: /life-frontier/in-orbit/leo-mega-constellations/
   macro: life-frontier
 - slug: space-communications
   name: Space Communications
-  path: /sotf-site/life-frontier/in-orbit/space-communications/
+  path: /life-frontier/in-orbit/space-communications/
   macro: life-frontier
 - slug: optical-inter-satellite-links
   name: Optical Inter-Satellite Links
-  path: /sotf-site/life-frontier/in-orbit/optical-inter-satellite-links/
+  path: /life-frontier/in-orbit/optical-inter-satellite-links/
   macro: life-frontier
 ---
 Global Navigation Satellite System (GNSS) is the umbrella term for satellite constellations that broadcast precise timing signals allowing receivers to compute their position, navigation, and timing (PNT) via trilateration. GPS (US), GLONASS (Russia), Galileo (EU), and BeiDou (China) are the four operational global systems. Accuracy depends on the number of satellites in view, atmospheric delay modelling (ionospheric and tropospheric corrections), and receiver quality — standalone GPS delivers ~3 m CEP; differential/RTK corrections reduce this to centimetre-level.

@@ -32,6 +32,14 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 15
 recent_mentions:
+- slug: 2026-06-22-sintered-metal-die-attach-landscape
+  title: Sintered-silver / sintered-copper die-attach landscape — physics, incumbents, AI-migration question (web research synthesis)
+  date: '2026-06-22'
+  kind: web
+- slug: 2026-06-22-thermal-stack-layer-landscape
+  title: AI datacentre thermal stack, junction-to-ambient — per-layer players, M&A, capture (web research synthesis)
+  date: '2026-06-22'
+  kind: web
 - slug: 2026-06-22-tim-approaches-full-sweep
   title: TIM approaches — exhaustive in-market + R&D sweep (vendors, classes, startups)
   date: '2026-06-22'
@@ -48,21 +56,13 @@ recent_mentions:
   title: Inside the 800VDC Revolution – Part 1
   date: '2026-05-26'
   kind: web
+- slug: 2026-03-08-diamonds-are-semiconductors-best-friend
+  title: Diamonds are Semiconductors' Best Friend 2026
+  date: '2026-03-08'
+  kind: web
 - slug: 2024-trendforce-foundry-2024
   title: TrendForce — Global Foundry Industry Outlook 2024-2026
   date: '2024-11-15'
-  kind: web
-- slug: 2024-omdia-power-electronics-forecast
-  title: Omdia — Power Semiconductors Long-Term Forecast 2024
-  date: '2024-11-01'
-  kind: web
-- slug: 2024-yole-power-sic-2024
-  title: Yole Group — Power SiC 2024 Market Analysis
-  date: '2024-09-15'
-  kind: web
-- slug: 2024-yole-power-gan-2024
-  title: Yole Group — Power GaN 2024 Market Analysis
-  date: '2024-09-15'
   kind: web
 neighbors: []
 ---

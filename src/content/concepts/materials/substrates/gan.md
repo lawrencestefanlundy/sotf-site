@@ -37,6 +37,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 3
 sources_30d: 32
 recent_mentions:
+- slug: 2026-06-22-sintered-metal-die-attach-landscape
+  title: Sintered-silver / sintered-copper die-attach landscape — physics, incumbents, AI-migration question (web research synthesis)
+  date: '2026-06-22'
+  kind: web
 - slug: 2026-06-22-tim-approaches-full-sweep
   title: TIM approaches — exhaustive in-market + R&D sweep (vendors, classes, startups)
   date: '2026-06-22'
@@ -53,22 +57,18 @@ recent_mentions:
   title: Fixing the GaN Problem
   date: '2026-04-20'
   kind: web
-- slug: 2025-10-02-thermal-stack-arms-race-man-made-diamonds-the-coolest
-  title: 'Man Made Diamonds: The Coolest Material For Red Hot AI Chips'
-  date: '2025-10-02'
+- slug: 2026-03-08-diamonds-are-semiconductors-best-friend
+  title: Diamonds are Semiconductors' Best Friend 2026
+  date: '2026-03-08'
   kind: web
-- slug: 2024-omdia-power-electronics-forecast
-  title: Omdia — Power Semiconductors Long-Term Forecast 2024
-  date: '2024-11-01'
-  kind: web
-- slug: 2024-yole-power-sic-2024
-  title: Yole Group — Power SiC 2024 Market Analysis
-  date: '2024-09-15'
-  kind: web
-- slug: 2024-yole-power-gan-2024
-  title: Yole Group — Power GaN 2024 Market Analysis
-  date: '2024-09-15'
-  kind: web
+- slug: 2025-12-19-lfg-for-semiconductors
+  title: LFG (for semiconductors)
+  date: '2025-12-19'
+  kind: substack
+- slug: 2025-12-09-gallium-nitride-photonics-w-james
+  title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
+  date: '2025-12-09'
+  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

@@ -33,19 +33,19 @@ recent_mentions: []
 neighbors:
 - slug: neuromorphic-computing
   name: Neuromorphic Computing
-  path: /sotf-site/compute/non-conventional/neuromorphic-computing/
+  path: /compute/non-conventional/neuromorphic-computing/
   macro: compute
 - slug: bci-neural
   name: BCI & Neural Interfaces
-  path: /sotf-site/life-frontier/neural-interfaces/bci-neural/
+  path: /life-frontier/neural-interfaces/bci-neural/
   macro: life-frontier
 - slug: single-cell-sequencing
   name: Single-Cell Sequencing
-  path: /sotf-site/life-frontier/biotech/single-cell-sequencing/
+  path: /life-frontier/biotech/single-cell-sequencing/
   macro: life-frontier
 - slug: spatial-transcriptomics
   name: Spatial Transcriptomics
-  path: /sotf-site/life-frontier/biotech/spatial-transcriptomics/
+  path: /life-frontier/biotech/spatial-transcriptomics/
   macro: life-frontier
 ---
 ## What it is / mechanism
@@ -73,8 +73,8 @@ EM-based connectomics was named *Nature Methods* **Method of the Year 2025**, a 
 
 ## Boundary vs related concepts
 
-- **[BCI & Neural Interfaces](/sotf-site/life-frontier/neural-interfaces/bci-neural/)** = interfacing with a living brain to read/write signals (clinical control/communication). Connectomics = mapping the static (or activity-correlation) wiring. They share recording-probe hardware.
-- **[Neuromorphic Computing](/sotf-site/compute/non-conventional/neuromorphic-computing/)** = brain-*inspired* hardware. Connectomics = the brain-*measurement* that a brain-algorithm bet would mine for its architecture.
+- **[BCI & Neural Interfaces](/life-frontier/neural-interfaces/bci-neural/)** = interfacing with a living brain to read/write signals (clinical control/communication). Connectomics = mapping the static (or activity-correlation) wiring. They share recording-probe hardware.
+- **[Neuromorphic Computing](/compute/non-conventional/neuromorphic-computing/)** = brain-*inspired* hardware. Connectomics = the brain-*measurement* that a brain-algorithm bet would mine for its architecture.
 
 ## Frontier (open questions)
 

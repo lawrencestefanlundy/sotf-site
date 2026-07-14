@@ -40,22 +40,22 @@ recent_mentions: []
 neighbors:
 - slug: mlir
   name: MLIR (Multi-Level Intermediate Representation)
-  path: /sotf-site/compute/compute-architecture/mlir/
+  path: /compute/compute-architecture/mlir/
   macro: compute
 - slug: xla
   name: XLA / OpenXLA
-  path: /sotf-site/compute/compute-architecture/xla/
+  path: /compute/compute-architecture/xla/
   macro: compute
 - slug: iree
   name: IREE (Intermediate Representation Execution Environment)
-  path: /sotf-site/compute/compute-architecture/iree/
+  path: /compute/compute-architecture/iree/
   macro: compute
 - slug: mlc-llm
   name: MLC-LLM (Machine Learning Compilation for LLMs)
-  path: /sotf-site/compute/compute-architecture/mlc-llm/
+  path: /compute/compute-architecture/mlc-llm/
   macro: compute
 ---
-> The **breadth / edge** compiler of the [AI Compiler & Heterogeneous Programming-Model Landscape](/sotf-site/compute/compute-architecture/ai-compiler-landscape/), and the closest historical precedent for "the cross-hardware compiler company" — a precedent that ended in absorption by NVIDIA (see **Octoml**). Two distinctive things matter for diligence: its **search-based auto-tuning** (a real differentiator vs [XLA / OpenXLA](/sotf-site/compute/compute-architecture/xla/)) and **BYOC**, the mechanism novel-silicon companies actually use to plug in.
+> The **breadth / edge** compiler of the [AI Compiler & Heterogeneous Programming-Model Landscape](/compute/compute-architecture/ai-compiler-landscape/), and the closest historical precedent for "the cross-hardware compiler company" — a precedent that ended in absorption by NVIDIA (see **Octoml**). Two distinctive things matter for diligence: its **search-based auto-tuning** (a real differentiator vs [XLA / OpenXLA](/compute/compute-architecture/xla/)) and **BYOC**, the mechanism novel-silicon companies actually use to plug in.
 
 ## Origin
 
@@ -73,13 +73,13 @@ An **open-source ML compiler stack**: model in (PyTorch/TF/ONNX) → optimised m
 
 The broadest backend claim in the field, and the only one that reaches deep into the edge:
 
-- **Delivered backends:** CPU (x86/ARM), GPU via **CUDA, ROCm, Metal, Vulkan, OpenCL**, WebGPU/WASM, and crucially **microTVM** (microcontrollers / bare-metal MCUs) — a tier [XLA / OpenXLA](/sotf-site/compute/compute-architecture/xla/) and most MLIR stacks ignore.
-- **Novel silicon plugs in via BYOC.** Real examples: ****Tenstorrent**** (`tt-tvm`), **Qualcomm Hexagon**. For an investor: when a wafer-scale / analog / optical / edge-NPU startup needs a software stack fast, **TVM+BYOC has been the default on-ramp** rather than writing a compiler from scratch — directly relevant to [Compiler as Bottleneck for Novel Hardware](/sotf-site/compute/compute-architecture/compiler-as-bottleneck-for-novel-hardware/) diligence.
-- **Honest weaknesses (Modular's critique, broadly credible):** never delivered peak performance on modern Tensor-Core NVIDIA GPUs; **vendor fragmentation** (vendors forked it and drifted — the structural failure of "one compiler for all hardware" when commercial interests diverge); caught flat-footed by GenAI (FlashAttention-class kernels). Relax/Unity and **[MLC-LLM (Machine Learning Compilation for LLMs)](/sotf-site/compute/compute-architecture/mlc-llm/)** (on-device LLMs: browser via WebGPU, iOS, Android) are the answer.
+- **Delivered backends:** CPU (x86/ARM), GPU via **CUDA, ROCm, Metal, Vulkan, OpenCL**, WebGPU/WASM, and crucially **microTVM** (microcontrollers / bare-metal MCUs) — a tier [XLA / OpenXLA](/compute/compute-architecture/xla/) and most MLIR stacks ignore.
+- **Novel silicon plugs in via BYOC.** Real examples: ****Tenstorrent**** (`tt-tvm`), **Qualcomm Hexagon**. For an investor: when a wafer-scale / analog / optical / edge-NPU startup needs a software stack fast, **TVM+BYOC has been the default on-ramp** rather than writing a compiler from scratch — directly relevant to [Compiler as Bottleneck for Novel Hardware](/compute/compute-architecture/compiler-as-bottleneck-for-novel-hardware/) diligence.
+- **Honest weaknesses (Modular's critique, broadly credible):** never delivered peak performance on modern Tensor-Core NVIDIA GPUs; **vendor fragmentation** (vendors forked it and drifted — the structural failure of "one compiler for all hardware" when commercial interests diverge); caught flat-footed by GenAI (FlashAttention-class kernels). Relax/Unity and **[MLC-LLM (Machine Learning Compilation for LLMs)](/compute/compute-architecture/mlc-llm/)** (on-device LLMs: browser via WebGPU, iOS, Android) are the answer.
 
 ## Status / momentum (2025-26)
 
-Still actively maintained, Apache-governed (v0.25.0, 19 Jun 2025 — genuine engineering, not just patches), community-owned, **not** dependent on any single company. But the centre of gravity shifted: the original brain trust went to OctoML→NVIDIA, and momentum among *new* infrastructure projects favours **[MLIR (Multi-Level Intermediate Representation)](/sotf-site/compute/compute-architecture/mlir/)-based stacks** (OpenXLA, IREE, Mojo, Triton-adjacent). TVM has its own stack and was historically **not** MLIR-based; that remains true. Fair read: **mature, alive, uniquely strong at edge/LLM-on-device, but no longer the default substrate new silicon vendors reach for first.**
+Still actively maintained, Apache-governed (v0.25.0, 19 Jun 2025 — genuine engineering, not just patches), community-owned, **not** dependent on any single company. But the centre of gravity shifted: the original brain trust went to OctoML→NVIDIA, and momentum among *new* infrastructure projects favours **[MLIR (Multi-Level Intermediate Representation)](/compute/compute-architecture/mlir/)-based stacks** (OpenXLA, IREE, Mojo, Triton-adjacent). TVM has its own stack and was historically **not** MLIR-based; that remains true. Fair read: **mature, alive, uniquely strong at edge/LLM-on-device, but no longer the default substrate new silicon vendors reach for first.**
 
 ## Competitive read (vs a "new programming model" startup)
 

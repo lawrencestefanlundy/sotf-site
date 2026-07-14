@@ -35,31 +35,31 @@ recent_mentions: []
 neighbors:
 - slug: ferroelectric-materials
   name: Ferroelectric Materials
-  path: /sotf-site/materials/advanced-materials/ferroelectric-materials/
+  path: /materials/advanced-materials/ferroelectric-materials/
   macro: materials
 - slug: magnetic-materials
   name: Magnetic Materials (NdFeB, ferrite, SMC)
-  path: /sotf-site/materials/advanced-materials/magnetic-materials/
+  path: /materials/advanced-materials/magnetic-materials/
   macro: materials
 - slug: thin-films-coatings
   name: Thin Films & Coatings
-  path: /sotf-site/materials/advanced-materials/thin-films-coatings/
+  path: /materials/advanced-materials/thin-films-coatings/
   macro: materials
 - slug: high-k-dielectrics
   name: High-K Dielectrics (HfO2, ZrO2)
-  path: /sotf-site/materials/functional-layers/high-k-dielectrics/
+  path: /materials/functional-layers/high-k-dielectrics/
   macro: materials
 - slug: low-k-dielectrics
   name: Low-K Dielectrics
-  path: /sotf-site/materials/functional-layers/low-k-dielectrics/
+  path: /materials/functional-layers/low-k-dielectrics/
   macro: materials
 - slug: materials-process
   name: Materials & Process
-  path: /sotf-site/materials/advanced-materials/materials-process/
+  path: /materials/advanced-materials/materials-process/
   macro: materials
 - slug: materials-discovery
   name: Materials Discovery
-  path: /sotf-site/materials/advanced-materials/materials-discovery/
+  path: /materials/advanced-materials/materials-discovery/
   macro: materials
 ---
 Electronic materials are solids engineered to exploit specific charge-transport, dielectric, magnetic, or optical-electronic properties for device function. The class spans four major families: **semiconductors** (elemental Si/Ge; III–V compounds GaAs, InP, GaN; wide-bandgap SiC ≈ 3.26 eV, GaN ≈ 3.4 eV, Ga₂O₃ ≈ 4.8 eV; 2D materials such as MoS₂); **dielectrics** (gate oxides, interlayer dielectrics, ferroelectrics); **conductors and interconnects** (Cu, W, Ru, Co for back-end-of-line); and **magnetic materials** (STT-MRAM, spintronics).

@@ -34,11 +34,11 @@ recent_mentions: []
 neighbors:
 - slug: moon-surface-teleoperation
   name: Moon-Surface Teleoperation
-  path: /sotf-site/life-frontier/lunar/moon-surface-teleoperation/
+  path: /life-frontier/lunar/moon-surface-teleoperation/
   macro: life-frontier
 - slug: diamond-heat-spreader
   name: Diamond Heat Spreader
-  path: /sotf-site/energy-power/thermal-management/diamond-heat-spreader/
+  path: /energy-power/thermal-management/diamond-heat-spreader/
   macro: energy-power
 ---
 ## What it is
@@ -55,7 +55,7 @@ Most of these are positioned for terrestrial AI/data-centre markets first, but t
 
 ## Adjacent themes
 
-- **[Lunar Teleoperation (redirect)](/sotf-site/life-frontier/lunar/lunar-teleoperation/)** — operating teleoperated systems on the Moon needs lunar-grade compute + sensors.
+- **[Lunar Teleoperation (redirect)](/life-frontier/lunar/lunar-teleoperation/)** — operating teleoperated systems on the Moon needs lunar-grade compute + sensors.
 - **EU space sovereignty** — IPCEI funds for European space-grade manufacturing.
 
 ## Frontier

@@ -45,7 +45,7 @@ DRAM is a ~$170B+ market in the 2026 super-cycle (HBM ≈ one-third of value), a
 
 The supply side of the super-cycle: global HBM wafer capacity scales ~50× from 2022→2027E, and CXMT enters as a visible (teal) sliver only from 2026E.
 
-![Global HBM Wafer Capacity by maker, 2022–2027E](../../../sources/reports/assets/2026-06-23-global-hbm-wafer-capacity.png)
+<!-- non-public image stripped for public site -->
 
 | kwspm | 2022 | 2023 | 2024 | 2025 | 2026E | 2027E |
 |-------|------|------|------|------|-------|-------|
@@ -59,7 +59,7 @@ The supply side of the super-cycle: global HBM wafer capacity scales ~50× from 
 
 ### CXMT: the China entrant
 
-China's largest DRAM maker and #4 globally by capacity. SemiAnalysis models it from ~265 kwspm DRAM (2025) → ~500 kwspm (2028), lifting its share of **global DRAM capacity from ~13% (2025) to ~17% (2027–28)** and **global DRAM bit shipment from 9% to 12% in 2027**. On HBM specifically, capacity goes 5 → 30 → 55 → 100 kwspm (2025→2028), lifting its global HBM wafer-supply share *"from 1% in 2025 to 12% in 2028."* The IPO (Shanghai STAR) values it ~$27B and raises ~$4.1B for DRAM/HBM expansion. The catch is yield, not capacity: HBM3 8-hi at ~25% overall yield (see [HBM (High-Bandwidth Memory)](/sotf-site/memory/mainstream-memory/hbm/), **Cxmt**): wafer share is not competitive bit share.
+China's largest DRAM maker and #4 globally by capacity. SemiAnalysis models it from ~265 kwspm DRAM (2025) → ~500 kwspm (2028), lifting its share of **global DRAM capacity from ~13% (2025) to ~17% (2027–28)** and **global DRAM bit shipment from 9% to 12% in 2027**. On HBM specifically, capacity goes 5 → 30 → 55 → 100 kwspm (2025→2028), lifting its global HBM wafer-supply share *"from 1% in 2025 to 12% in 2028."* The IPO (Shanghai STAR) values it ~$27B and raises ~$4.1B for DRAM/HBM expansion. The catch is yield, not capacity: HBM3 8-hi at ~25% overall yield (see [HBM (High-Bandwidth Memory)](/memory/mainstream-memory/hbm/), **Cxmt**): wafer share is not competitive bit share.
 
 ## Investibility & routes
 

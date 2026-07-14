@@ -27,23 +27,23 @@ recent_mentions: []
 neighbors:
 - slug: e-beam-lithography
   name: E-Beam Lithography
-  path: /sotf-site/manufacturing/lithography/e-beam-lithography/
+  path: /manufacturing/lithography/e-beam-lithography/
   macro: manufacturing
 - slug: nanoimprint-lithography
   name: Nanoimprint Lithography
-  path: /sotf-site/manufacturing/lithography/nanoimprint-lithography/
+  path: /manufacturing/lithography/nanoimprint-lithography/
   macro: manufacturing
 - slug: photoresists
   name: Photoresists (incl. EUV resists)
-  path: /sotf-site/manufacturing/lithography/photoresists/
+  path: /manufacturing/lithography/photoresists/
   macro: manufacturing
 - slug: computational-lithography
   name: Computational Lithography
-  path: /sotf-site/manufacturing/lithography/computational-lithography/
+  path: /manufacturing/lithography/computational-lithography/
   macro: manufacturing
 - slug: high-na-euv-lithography
   name: High-NA EUV Lithography
-  path: /sotf-site/manufacturing/lithography/high-na-euv-lithography/
+  path: /manufacturing/lithography/high-na-euv-lithography/
   macro: manufacturing
 ---
 Directed self-assembly (DSA) is a lithographic patterning technique in which block copolymers (BCPs) — polymer chains with two chemically distinct, immiscible segments — spontaneously phase-separate into periodic nanoscale structures (lamellae, cylinders, spheres) when annealed on a pre-patterned or chemically functionalised substrate. The guiding pattern (produced by conventional optical lithography or e-beam) directs the BCP domains into the desired device geometry, effectively multiplying pattern frequency without additional mask exposures. Characteristic periods for leading BCP systems (PS-b-PMMA, PS-b-P2VP) reach 10–20 nm; high-chi BCPs (e.g., PS-b-PDMS) target sub-10 nm half-pitch.

@@ -52,27 +52,27 @@ recent_mentions:
 neighbors:
 - slug: quantum-computing
   name: Quantum Computing
-  path: /sotf-site/compute/quantum-computing/quantum-computing/
+  path: /compute/quantum-computing/quantum-computing/
   macro: compute
 - slug: superconducting-qubits
   name: Superconducting Qubits
-  path: /sotf-site/compute/quantum-computing/superconducting-qubits/
+  path: /compute/quantum-computing/superconducting-qubits/
   macro: compute
 - slug: photonic-quantum-computing
   name: Photonic Quantum Computing
-  path: /sotf-site/compute/quantum-computing/photonic-quantum-computing/
+  path: /compute/quantum-computing/photonic-quantum-computing/
   macro: compute
 - slug: quantum-error-correction
   name: Quantum Error Correction
-  path: /sotf-site/compute/quantum-computing/quantum-error-correction/
+  path: /compute/quantum-computing/quantum-error-correction/
   macro: compute
 - slug: photonic-integrated-circuits
   name: Photonic Integrated Circuits
-  path: /sotf-site/photonic-systems/pic-platforms/photonic-integrated-circuits/
+  path: /photonic-systems/pic-platforms/photonic-integrated-circuits/
   macro: photonic-systems
 - slug: quantum-communications
   name: Quantum Communications
-  path: /sotf-site/communications/quantum-comms/quantum-communications/
+  path: /communications/quantum-comms/quantum-communications/
   macro: communications
 ---
 ## Physics / mechanism
@@ -94,7 +94,7 @@ Conventional ion traps deliver control light with **bulk free-space optics** —
 
 ### vs other modalities
 
-Superconducting ([Superconducting Qubits](/sotf-site/compute/quantum-computing/superconducting-qubits/) — IBM, Google) leads on speed and fab scalability but trails on fidelity/coherence. Neutral atoms (Atom Computing, QuEra, **Planqc**) offer similar coherence with faster Rydberg gates, lower demonstrated fidelity. Photonic QC ([Photonic Quantum Computing](/sotf-site/compute/quantum-computing/photonic-quantum-computing/) — PsiQuantum, Xanadu) is room-temperature but probabilistic. Silicon spin is CMOS-compatible but early on fidelity.
+Superconducting ([Superconducting Qubits](/compute/quantum-computing/superconducting-qubits/) — IBM, Google) leads on speed and fab scalability but trails on fidelity/coherence. Neutral atoms (Atom Computing, QuEra, **Planqc**) offer similar coherence with faster Rydberg gates, lower demonstrated fidelity. Photonic QC ([Photonic Quantum Computing](/compute/quantum-computing/photonic-quantum-computing/) — PsiQuantum, Xanadu) is room-temperature but probabilistic. Silicon spin is CMOS-compatible but early on fidelity.
 
 | Modality | Two-qubit fidelity | Coherence | Gate speed |
 |---|---|---|---|

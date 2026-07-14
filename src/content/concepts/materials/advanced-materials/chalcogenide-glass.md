@@ -40,15 +40,15 @@ recent_mentions: []
 neighbors:
 - slug: pcm-phase-change-memory
   name: Phase-Change Memory (PCM)
-  path: /sotf-site/memory/emerging-memory/pcm-phase-change-memory/
+  path: /memory/emerging-memory/pcm-phase-change-memory/
   macro: memory
 - slug: silicon-nitride
   name: Silicon Nitride
-  path: /sotf-site/materials/substrates/silicon-nitride/
+  path: /materials/substrates/silicon-nitride/
   macro: materials
 - slug: in-memory-computing
   name: In-Memory Computing
-  path: /sotf-site/memory/emerging-memory/in-memory-computing/
+  path: /memory/emerging-memory/in-memory-computing/
   macro: memory
 ---
 *Mid-IR transparent waveguide + phase-change programmable photonics*

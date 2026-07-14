@@ -36,23 +36,23 @@ recent_mentions: []
 neighbors:
 - slug: metalens
   name: Metalens
-  path: /sotf-site/photonic-systems/metasurfaces/metalens/
+  path: /photonic-systems/metasurfaces/metalens/
   macro: photonic-systems
 - slug: metamaterials
   name: Metamaterials
-  path: /sotf-site/photonic-systems/metasurfaces/metamaterials/
+  path: /photonic-systems/metasurfaces/metamaterials/
   macro: photonic-systems
 - slug: nanoimprint-lithography
   name: Nanoimprint Lithography
-  path: /sotf-site/manufacturing/lithography/nanoimprint-lithography/
+  path: /manufacturing/lithography/nanoimprint-lithography/
   macro: manufacturing
 - slug: maskless-lithography
   name: Maskless Lithography
-  path: /sotf-site/manufacturing/lithography/maskless-lithography/
+  path: /manufacturing/lithography/maskless-lithography/
   macro: manufacturing
 - slug: e-beam-lithography
   name: E-Beam Lithography
-  path: /sotf-site/manufacturing/lithography/e-beam-lithography/
+  path: /manufacturing/lithography/e-beam-lithography/
   macro: manufacturing
 ---
 ## Physics / mechanism

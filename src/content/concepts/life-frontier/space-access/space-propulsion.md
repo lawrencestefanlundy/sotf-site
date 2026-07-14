@@ -32,28 +32,28 @@ recent_mentions: []
 neighbors:
 - slug: electric-propulsion
   name: Electric Propulsion (Hall, ion)
-  path: /sotf-site/life-frontier/space-access/electric-propulsion/
+  path: /life-frontier/space-access/electric-propulsion/
   macro: life-frontier
 - slug: in-space-propulsion
   name: In-Space Propulsion (transfer stages, OTVs)
-  path: /sotf-site/life-frontier/space-access/in-space-propulsion/
+  path: /life-frontier/space-access/in-space-propulsion/
   macro: life-frontier
 - slug: nuclear-thermal-propulsion
   name: Nuclear Thermal Propulsion
-  path: /sotf-site/life-frontier/space-access/nuclear-thermal-propulsion/
+  path: /life-frontier/space-access/nuclear-thermal-propulsion/
   macro: life-frontier
 - slug: reusable-launch
   name: Reusable Launch (SpaceX, Rocket Lab Neutron)
-  path: /sotf-site/life-frontier/space-access/reusable-launch/
+  path: /life-frontier/space-access/reusable-launch/
   macro: life-frontier
 ---
 Space propulsion encompasses all technologies that accelerate a spacecraft by expelling mass (reaction principle). The central trade-off is between specific impulse (Isp, a measure of propellant efficiency, units: seconds) and thrust level, governed by the rocket equation: higher Isp means less propellant mass required for a given delta-v but is typically accompanied by lower thrust.
 
 **Chemical propulsion** — combustion of propellant + oxidiser; highest thrust, modest Isp (250–460 s). Liquid bipropellants (e.g. LOX/LH2, Isp ~450 s) dominate launch vehicles. Monopropellants (hydrazine, Isp ~220 s; green alternatives 240–260 s) are the workhorse for small-sat attitude control.
 
-**Electric propulsion** — converts electrical power to kinetic energy of ions. See [Electric Propulsion (Hall, ion)](/sotf-site/life-frontier/space-access/electric-propulsion/) and [In-Space Propulsion (transfer stages, OTVs)](/sotf-site/life-frontier/space-access/in-space-propulsion/) for Hall-effect thrusters (Isp 1,000–3,000 s), gridded ion engines (Isp 2,000–10,000 s), and electrospray thrusters. Very high Isp but very low thrust; suited to station-keeping, orbit-raising over months, and deep-space cruise.
+**Electric propulsion** — converts electrical power to kinetic energy of ions. See [Electric Propulsion (Hall, ion)](/life-frontier/space-access/electric-propulsion/) and [In-Space Propulsion (transfer stages, OTVs)](/life-frontier/space-access/in-space-propulsion/) for Hall-effect thrusters (Isp 1,000–3,000 s), gridded ion engines (Isp 2,000–10,000 s), and electrospray thrusters. Very high Isp but very low thrust; suited to station-keeping, orbit-raising over months, and deep-space cruise.
 
-**Nuclear** — [Nuclear Thermal Propulsion](/sotf-site/life-frontier/space-access/nuclear-thermal-propulsion/) (NTP) heats propellant via a nuclear reactor (Isp ~800–900 s); nuclear electric propulsion (NEP) uses reactor power for electric thrusters. Both are mission-enabling for Mars cargo and deep-space missions but face regulatory and political friction on launch licensing.
+**Nuclear** — [Nuclear Thermal Propulsion](/life-frontier/space-access/nuclear-thermal-propulsion/) (NTP) heats propellant via a nuclear reactor (Isp ~800–900 s); nuclear electric propulsion (NEP) uses reactor power for electric thrusters. Both are mission-enabling for Mars cargo and deep-space missions but face regulatory and political friction on launch licensing.
 
 **Investment relevance:** the small-sat boom has created demand for compact, low-cost propulsion at cubesat scale (1–12U). Green propellant systems and miniaturised Hall thrusters are the high-velocity segments. Launch propulsion (reusable rockets) is heavily consolidated; the fundable space is in-space and last-mile manoeuvring.
 

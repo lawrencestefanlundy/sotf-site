@@ -24,7 +24,7 @@ recent_mentions: []
 neighbors:
 - slug: rare-earth-elements
   name: Rare-Earth Elements (REE)
-  path: /sotf-site/materials/advanced-materials/rare-earth-elements/
+  path: /materials/advanced-materials/rare-earth-elements/
   macro: materials
 ---
 ## Physics / mechanism

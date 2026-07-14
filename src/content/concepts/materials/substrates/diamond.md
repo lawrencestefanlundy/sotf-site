@@ -65,23 +65,23 @@ recent_mentions:
 neighbors:
 - slug: wide-bandgap-semiconductors
   name: Wide-Bandgap Semiconductors
-  path: /sotf-site/materials/substrates/wide-bandgap-semiconductors/
+  path: /materials/substrates/wide-bandgap-semiconductors/
   macro: materials
 - slug: gallium-nitride
   name: Gallium Nitride
-  path: /sotf-site/energy-power/power-electronics/gallium-nitride/
+  path: /energy-power/power-electronics/gallium-nitride/
   macro: energy-power
 - slug: power-electronics
   name: Power Electronics
-  path: /sotf-site/energy-power/power-electronics/power-electronics/
+  path: /energy-power/power-electronics/power-electronics/
   macro: energy-power
 - slug: quantum-sensing
   name: Quantum Sensing
-  path: /sotf-site/sensing/quantum-sensing/quantum-sensing/
+  path: /sensing/quantum-sensing/quantum-sensing/
   macro: sensing
 - slug: photonics
   name: Photonics
-  path: /sotf-site/photonic-systems/pic-platforms/photonics/
+  path: /photonic-systems/pic-platforms/photonics/
   macro: photonic-systems
 ---
 ## Physics / mechanism

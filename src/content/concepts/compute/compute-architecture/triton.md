@@ -31,14 +31,14 @@ recent_mentions: []
 neighbors:
 - slug: mlir
   name: MLIR (Multi-Level Intermediate Representation)
-  path: /sotf-site/compute/compute-architecture/mlir/
+  path: /compute/compute-architecture/mlir/
   macro: compute
 - slug: xla
   name: XLA / OpenXLA
-  path: /sotf-site/compute/compute-architecture/xla/
+  path: /compute/compute-architecture/xla/
   macro: compute
 ---
-> The **kernel-language** layer of the [AI Compiler & Heterogeneous Programming-Model Landscape](/sotf-site/compute/compute-architecture/ai-compiler-landscape/). The crucial diligence fact: Triton **partially refutes the strongest form of the "single-source kernel languages structurally fail for heterogeneous hardware" claim** — it is single-source and runs across NVIDIA + AMD + experimental Intel/CPU. But only *within* the GPU/SIMT family. That boundary is precisely where a "new programming model" startup's defensible wedge has to live.
+> The **kernel-language** layer of the [AI Compiler & Heterogeneous Programming-Model Landscape](/compute/compute-architecture/ai-compiler-landscape/). The crucial diligence fact: Triton **partially refutes the strongest form of the "single-source kernel languages structurally fail for heterogeneous hardware" claim** — it is single-source and runs across NVIDIA + AMD + experimental Intel/CPU. But only *within* the GPU/SIMT family. That boundary is precisely where a "new programming model" startup's defensible wedge has to live.
 
 ## Origin
 
@@ -46,11 +46,11 @@ Created by **Philippe Tillet** during his PhD at Harvard (presented at MAPL 2019
 
 ## What it is (plain English)
 
-A **Python-embedded language and compiler for writing GPU kernels** at the *tile/block* level rather than CUDA's per-thread SIMT level — you reason about blocks of data; the compiler handles thread scheduling, memory coalescing, shared memory. Critically, it is the **default kernel-generation backend in PyTorch 2.x**: `torch.compile`→TorchInductor *generates Triton code* automatically, so most PyTorch users run Triton without writing a line of it. Compiles to **NVIDIA PTX** and **AMD GCN/ROCm**. Its IR (Triton-IR/Triton-GPU) is built on **[MLIR (Multi-Level Intermediate Representation)](/sotf-site/compute/compute-architecture/mlir/)**. (A 2025 lower-level escape hatch, **Gluon**, reuses the stack for layouts/warp-specialisation when chasing the last few percent of peak.)
+A **Python-embedded language and compiler for writing GPU kernels** at the *tile/block* level rather than CUDA's per-thread SIMT level — you reason about blocks of data; the compiler handles thread scheduling, memory coalescing, shared memory. Critically, it is the **default kernel-generation backend in PyTorch 2.x**: `torch.compile`→TorchInductor *generates Triton code* automatically, so most PyTorch users run Triton without writing a line of it. Compiles to **NVIDIA PTX** and **AMD GCN/ROCm**. Its IR (Triton-IR/Triton-GPU) is built on **[MLIR (Multi-Level Intermediate Representation)](/compute/compute-architecture/mlir/)**. (A 2025 lower-level escape hatch, **Gluon**, reuses the stack for layouts/warp-specialisation when chasing the last few percent of peak.)
 
 ## Heterogeneous-hardware angle (the key part)
 
-Triton is **fundamentally GPU-oriented** — its abstraction is tile-over-SIMT, designed for the GPU memory hierarchy and Tensor Cores. It does **not** natively target wafer-scale, in-memory/analog, or optical silicon. Its "heterogeneity" is **multi-GPU-vendor + experimental CPU** via separately maintained backends: NVIDIA (mature), **AMD** (mature enough that vLLM V1's attention path on AMD is Triton kernels), **Intel GPU** (in development), experimental **CPU** (official `triton-cpu`, Microsoft `triton-shared`, Cambricon `triton-linalg`, a RISC-V effort). So Triton reaches "one *kernel language*, several *GPU-like* targets" — broader than CUDA, but it stops at the boundary of the SIMT/GPU execution model. It is a *kernel* abstraction, not a whole-program/graph abstraction like [XLA / OpenXLA](/sotf-site/compute/compute-architecture/xla/), and not an architecture-neutral programming model for radically different silicon.
+Triton is **fundamentally GPU-oriented** — its abstraction is tile-over-SIMT, designed for the GPU memory hierarchy and Tensor Cores. It does **not** natively target wafer-scale, in-memory/analog, or optical silicon. Its "heterogeneity" is **multi-GPU-vendor + experimental CPU** via separately maintained backends: NVIDIA (mature), **AMD** (mature enough that vLLM V1's attention path on AMD is Triton kernels), **Intel GPU** (in development), experimental **CPU** (official `triton-cpu`, Microsoft `triton-shared`, Cambricon `triton-linalg`, a RISC-V effort). So Triton reaches "one *kernel language*, several *GPU-like* targets" — broader than CUDA, but it stops at the boundary of the SIMT/GPU execution model. It is a *kernel* abstraction, not a whole-program/graph abstraction like [XLA / OpenXLA](/compute/compute-architecture/xla/), and not an architecture-neutral programming model for radically different silicon.
 
 **The Tile-IR signal (verified, strategically important).** NVIDIA published a **CUDA Tile-IR backend for OpenAI Triton on 30 Jan 2026** — Triton can compile to CUDA Tile IR instead of PTX (requires CUDA 13.1+ and Blackwell; incomplete). What it signals: **NVIDIA is moving its own virtual ISA away from per-thread SIMT toward a tile/tensor-based model** — conceding that the *tile* abstraction (Triton's whole premise) is right for Tensor-Core-era hardware, and co-opting Triton as a first-class front-end onto NVIDIA's next-gen IR. The incumbent endorsing the higher-level model and pulling it into its orbit. Mirrors the open question on **Cuda Moat**.
 

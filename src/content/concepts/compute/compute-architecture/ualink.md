@@ -27,7 +27,7 @@ recent_mentions: []
 neighbors:
 - slug: co-packaged-optics
   name: Co-Packaged Optics
-  path: /sotf-site/manufacturing/packaging/co-packaged-optics/
+  path: /manufacturing/packaging/co-packaged-optics/
   macro: manufacturing
 ---
 > The open **scale-up** standard — the consortium answer to NVIDIA's proprietary NVLink/NVSwitch at the rack-scale GPU-to-GPU tier. The contested heart of the **Scale Up Interconnect** thesis: real spec, credible members, but **silicon is late** and the camp is fragmented. Distinct from scale-OUT standards (Ultra Ethernet / UEC).

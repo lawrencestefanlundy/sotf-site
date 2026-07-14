@@ -26,19 +26,19 @@ recent_mentions: []
 neighbors:
 - slug: germanium-photodiodes
   name: Germanium Photodiodes
-  path: /sotf-site/photonic-systems/modulators-detectors/germanium-photodiodes/
+  path: /photonic-systems/modulators-detectors/germanium-photodiodes/
   macro: photonic-systems
 - slug: ingaas-photodiodes
   name: InGaAs Photodiodes
-  path: /sotf-site/photonic-systems/modulators-detectors/ingaas-photodiodes/
+  path: /photonic-systems/modulators-detectors/ingaas-photodiodes/
   macro: photonic-systems
 - slug: optical-interconnect
   name: Optical Interconnect
-  path: /sotf-site/communications/optical-interconnect/optical-interconnect/
+  path: /communications/optical-interconnect/optical-interconnect/
   macro: communications
 - slug: co-packaged-optics
   name: Co-Packaged Optics
-  path: /sotf-site/manufacturing/packaging/co-packaged-optics/
+  path: /manufacturing/packaging/co-packaged-optics/
   macro: manufacturing
 ---
 A high-speed photodiode in which **only electrons** are the active (fast) carriers — the absorption layer is p-doped so photogenerated holes relax quickly via majority-carrier response, while electrons traverse a separate depleted collection layer. This sidesteps the slow-hole space-charge bottleneck that limits conventional PIN photodiodes at high optical power, giving simultaneously **high bandwidth (200+ GHz demonstrated)** and high output power/linearity.

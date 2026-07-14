@@ -47,6 +47,10 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 5
 recent_mentions:
+- slug: 2026-07-13-sk-hynix-record-fall-hbm4-three-supplier
+  title: SK Hynix record one-day fall as HBM4 goes three-supplier
+  date: '2026-07-13'
+  kind: web
 - slug: 2026-07-01-arxiv-enclavex-end-to-end-confidential-ai-with-cpugpu-tees
   title: 'EnclaveX: End-to-End Confidential AI with CPU/GPU TEEs'
   date: '2026-07-01'
@@ -74,10 +78,6 @@ recent_mentions:
 - slug: 2026-05-21-specialisation-beats-generality-the-custom-ai-asic-state-of
   title: The custom AI ASIC state of play (May 2026)
   date: '2026-05-21'
-  kind: web
-- slug: 2026-05-06-specialisation-beats-generality-north-american-ai-data
-  title: North American AI Data Center Expansion Drives 2026 CapEx of Top Nine CSPs to US$830 Billion
-  date: '2026-05-06'
   kind: web
 neighbors: []
 ---

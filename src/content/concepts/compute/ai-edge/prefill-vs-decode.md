@@ -37,19 +37,19 @@ recent_mentions:
 neighbors:
 - slug: in-memory-computing
   name: In-Memory Computing
-  path: /sotf-site/memory/emerging-memory/in-memory-computing/
+  path: /memory/emerging-memory/in-memory-computing/
   macro: memory
 - slug: memcapacitor
   name: Memcapacitor
-  path: /sotf-site/memory/emerging-memory/memcapacitor/
+  path: /memory/emerging-memory/memcapacitor/
   macro: memory
 - slug: hbm
   name: HBM (High-Bandwidth Memory)
-  path: /sotf-site/memory/mainstream-memory/hbm/
+  path: /memory/mainstream-memory/hbm/
   macro: memory
 - slug: charge-domain-compute
   name: Charge-Domain Compute
-  path: /sotf-site/compute/non-conventional/charge-domain-compute/
+  path: /compute/non-conventional/charge-domain-compute/
   macro: compute
 ---
 ## The two phases
@@ -58,7 +58,7 @@ neighbors:
 
 **Decode** generates output tokens one at a time, autoregressively. Each new token requires a full pass over the model weights, but produces only a single token's worth of compute. The **weight reuse factor** is ~1: you fetch the entire weight set from memory to produce one token. Decode is therefore **memory-bandwidth-bound** — it is limited by how fast weights can be streamed from memory to the compute units, not by FLOPs. Adding more FLOPs does nothing; adding (or avoiding the need for) memory bandwidth is everything.
 
-**The roofline, quantified.** Because reuse ≈ 1, single-stream decode throughput ≈ aggregate memory bandwidth ÷ model size. A frontier model (several hundred billion parameters, a few hundred GB at FP8) is sharded across several GPUs; divide its weights by the combined HBM bandwidth feeding them (a B200 is ~8 TB/s, [HBM (High-Bandwidth Memory)](/sotf-site/memory/mainstream-memory/hbm/)) and a single conversation tops out in the **tens of tokens per second**, with the accelerators' petaflops of compute mostly idle, waiting on memory. Batching many concurrent requests raises effective reuse and hardware utilisation (it amortises each weight read across requests), which is why serving economics favour large batches, but per-stream latency stays bandwidth-set. This is the precise sense in which the [The Memory Wall](/sotf-site/compute/compute-architecture/memory-wall/) is the binding inference cost.
+**The roofline, quantified.** Because reuse ≈ 1, single-stream decode throughput ≈ aggregate memory bandwidth ÷ model size. A frontier model (several hundred billion parameters, a few hundred GB at FP8) is sharded across several GPUs; divide its weights by the combined HBM bandwidth feeding them (a B200 is ~8 TB/s, [HBM (High-Bandwidth Memory)](/memory/mainstream-memory/hbm/)) and a single conversation tops out in the **tens of tokens per second**, with the accelerators' petaflops of compute mostly idle, waiting on memory. Batching many concurrent requests raises effective reuse and hardware utilisation (it amortises each weight read across requests), which is why serving economics favour large batches, but per-stream latency stays bandwidth-set. This is the precise sense in which the [The Memory Wall](/compute/compute-architecture/memory-wall/) is the binding inference cost.
 
 ## Why this matters for the thesis
 

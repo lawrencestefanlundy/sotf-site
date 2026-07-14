@@ -27,38 +27,38 @@ recent_mentions: []
 neighbors:
 - slug: in-memory-computing
   name: In-Memory Computing
-  path: /sotf-site/memory/emerging-memory/in-memory-computing/
+  path: /memory/emerging-memory/in-memory-computing/
   macro: memory
 - slug: processing-in-memory
   name: Processing-in-Memory (PIM)
-  path: /sotf-site/memory/emerging-memory/processing-in-memory/
+  path: /memory/emerging-memory/processing-in-memory/
   macro: memory
 - slug: memory-wall
   name: The Memory Wall
-  path: /sotf-site/compute/compute-architecture/memory-wall/
+  path: /compute/compute-architecture/memory-wall/
   macro: compute
 - slug: von-neumann-bottleneck
   name: Von Neumann Bottleneck
-  path: /sotf-site/compute/compute-architecture/von-neumann-bottleneck/
+  path: /compute/compute-architecture/von-neumann-bottleneck/
   macro: compute
 - slug: hbm
   name: HBM (High-Bandwidth Memory)
-  path: /sotf-site/memory/mainstream-memory/hbm/
+  path: /memory/mainstream-memory/hbm/
   macro: memory
 - slug: 3d-monolithic-integration
   name: 3D Monolithic Integration
-  path: /sotf-site/compute/compute-architecture/3d-monolithic-integration/
+  path: /compute/compute-architecture/3d-monolithic-integration/
   macro: compute
 - slug: chiplets
   name: Chiplets
-  path: /sotf-site/compute/compute-architecture/chiplets/
+  path: /compute/compute-architecture/chiplets/
   macro: compute
 ---
 The third option between a conventional von Neumann machine and true in-memory compute. Keep the compute general and digital, but move the memory physically closer to it, so the data has less far to travel. The compute and the memory stay separate functions; only the distance changes.
 
 ## How it differs from its neighbours
 
-The shared goal is to attack the [Von Neumann Bottleneck](/sotf-site/compute/compute-architecture/von-neumann-bottleneck/) and the [The Memory Wall](/sotf-site/compute/compute-architecture/memory-wall/) by cutting data movement; near-memory does it with packaging rather than with a new device.
+The shared goal is to attack the [Von Neumann Bottleneck](/compute/compute-architecture/von-neumann-bottleneck/) and the [The Memory Wall](/compute/compute-architecture/memory-wall/) by cutting data movement; near-memory does it with packaging rather than with a new device.
 
 ## Why it matters here
 

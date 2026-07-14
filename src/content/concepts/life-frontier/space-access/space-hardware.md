@@ -32,19 +32,19 @@ recent_mentions: []
 neighbors:
 - slug: rad-hard-ics
   name: Rad-Hard ICs
-  path: /sotf-site/life-frontier/space-access/rad-hard-ics/
+  path: /life-frontier/space-access/rad-hard-ics/
   macro: life-frontier
 - slug: space-grade-fpgas
   name: Space-Grade FPGAs
-  path: /sotf-site/life-frontier/space-access/space-grade-fpgas/
+  path: /life-frontier/space-access/space-grade-fpgas/
   macro: life-frontier
 - slug: space-propulsion
   name: Space Propulsion
-  path: /sotf-site/life-frontier/space-access/space-propulsion/
+  path: /life-frontier/space-access/space-propulsion/
   macro: life-frontier
 - slug: reusable-launch
   name: Reusable Launch (SpaceX, Rocket Lab Neutron)
-  path: /sotf-site/life-frontier/space-access/reusable-launch/
+  path: /life-frontier/space-access/reusable-launch/
   macro: life-frontier
 ---
 Space hardware refers to the physical platform systems that make up a spacecraft: the bus (structural chassis, power, attitude control, thermal management, communications) and the payload (sensors, instruments, propulsion). Unlike terrestrial electronics, space hardware must withstand total ionising dose (TID), single-event effects (SEE), extreme thermal cycling (−150°C to +120°C in LEO), vacuum outgassing, and launch vibration loads — all without maintenance access.

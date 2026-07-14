@@ -31,19 +31,19 @@ recent_mentions: []
 neighbors:
 - slug: charge-domain-compute
   name: Charge-Domain Compute
-  path: /sotf-site/compute/non-conventional/charge-domain-compute/
+  path: /compute/non-conventional/charge-domain-compute/
   macro: compute
 - slug: memcapacitor
   name: Memcapacitor
-  path: /sotf-site/memory/emerging-memory/memcapacitor/
+  path: /memory/emerging-memory/memcapacitor/
   macro: memory
 - slug: adc-bottleneck
   name: ADC Bottleneck (analog in-memory compute)
-  path: /sotf-site/compute/compute-architecture/adc-bottleneck/
+  path: /compute/compute-architecture/adc-bottleneck/
   macro: compute
 - slug: sram
   name: SRAM
-  path: /sotf-site/memory/mainstream-memory/sram/
+  path: /memory/mainstream-memory/sram/
   macro: memory
 ---
 ## Why SRAM
@@ -57,7 +57,7 @@ The density limit is the crux: if the whole model has to fit in on-die SRAM, SRA
 
 ## Analog vs digital SRAM-CIM
 
-- **Analog SRAM-CIM (**Encharge Ai**).** Weights in SRAM, MAC performed by switched-capacitor circuits on the metal above the array — charge-domain (see [Charge-Domain Compute](/sotf-site/compute/non-conventional/charge-domain-compute/)), precise, low static power. Subject to the [ADC Bottleneck (analog in-memory compute)](/sotf-site/compute/compute-architecture/adc-bottleneck/) like all analog CIM. EnCharge's ~20× efficiency claim rests here.
+- **Analog SRAM-CIM (**Encharge Ai**).** Weights in SRAM, MAC performed by switched-capacitor circuits on the metal above the array — charge-domain (see [Charge-Domain Compute](/compute/non-conventional/charge-domain-compute/)), precise, low static power. Subject to the [ADC Bottleneck (analog in-memory compute)](/compute/compute-architecture/adc-bottleneck/) like all analog CIM. EnCharge's ~20× efficiency claim rests here.
 - **Digital SRAM-CIM (**Fractile**-style).** Compute stays digital but sits adjacent to / inside the SRAM, removing the von Neumann data-movement cost without the ADC overhead. Less efficient per-MAC than analog but no analog-conversion penalty and easier to get to production precision.
 
 ## Where it sits against memcapacitor

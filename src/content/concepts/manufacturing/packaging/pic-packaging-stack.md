@@ -41,39 +41,39 @@ recent_mentions: []
 neighbors:
 - slug: co-packaged-optics
   name: Co-Packaged Optics
-  path: /sotf-site/manufacturing/packaging/co-packaged-optics/
+  path: /manufacturing/packaging/co-packaged-optics/
   macro: manufacturing
 - slug: photonic-wire-bonding
   name: Photonic Wire Bonding
-  path: /sotf-site/manufacturing/packaging/photonic-wire-bonding/
+  path: /manufacturing/packaging/photonic-wire-bonding/
   macro: manufacturing
 - slug: glass-photonics
   name: Glass Photonics
-  path: /sotf-site/photonic-systems/pic-platforms/glass-photonics/
+  path: /photonic-systems/pic-platforms/glass-photonics/
   macro: photonic-systems
 - slug: glass-interposers
   name: Glass Interposers
-  path: /sotf-site/manufacturing/packaging/glass-interposers/
+  path: /manufacturing/packaging/glass-interposers/
   macro: manufacturing
 - slug: hybrid-bonding
   name: Hybrid Bonding (Cu-Cu)
-  path: /sotf-site/manufacturing/packaging/hybrid-bonding/
+  path: /manufacturing/packaging/hybrid-bonding/
   macro: manufacturing
 - slug: heterogeneous-photonic-integration
   name: Heterogeneous Photonic Integration
-  path: /sotf-site/photonic-systems/pic-platforms/heterogeneous-photonic-integration/
+  path: /photonic-systems/pic-platforms/heterogeneous-photonic-integration/
   macro: photonic-systems
 - slug: silicon-photonics
   name: Silicon Photonics
-  path: /sotf-site/photonic-systems/pic-platforms/silicon-photonics/
+  path: /photonic-systems/pic-platforms/silicon-photonics/
   macro: photonic-systems
 - slug: inp-photonics
   name: InP Photonics
-  path: /sotf-site/photonic-systems/pic-platforms/inp-photonics/
+  path: /photonic-systems/pic-platforms/inp-photonics/
   macro: photonic-systems
 - slug: fiber-to-chip-coupling
   name: Fibre-to-Chip Coupling
-  path: /sotf-site/manufacturing/packaging/fiber-to-chip-coupling/
+  path: /manufacturing/packaging/fiber-to-chip-coupling/
   macro: manufacturing
 ---
 *The synthesis page for "how you package a photonic IC." Full decision brief: **2026 05 30 Pic Packaging Approaches Landscape**.*
@@ -82,10 +82,10 @@ neighbors:
 
 "Packaging a PIC" is constantly conflated with "which PIC platform wins." They are **different axes**:
 
-1. **Platform axis** — what the PIC is *made of* (where light is generated/modulated/detected): [Silicon Photonics](/sotf-site/photonic-systems/pic-platforms/silicon-photonics/), [InP Photonics](/sotf-site/photonic-systems/pic-platforms/inp-photonics/), SiN, TFLN, polymer, glass. Covered by **Photonics Material Class War** / **2026 05 30 Pic Market Structure**.
+1. **Platform axis** — what the PIC is *made of* (where light is generated/modulated/detected): [Silicon Photonics](/photonic-systems/pic-platforms/silicon-photonics/), [InP Photonics](/photonic-systems/pic-platforms/inp-photonics/), SiN, TFLN, polymer, glass. Covered by **Photonics Material Class War** / **2026 05 30 Pic Market Structure**.
 2. **Packaging axis** — how you *connect* the PIC: a **4-layer stack**, each layer its own contest. This page.
 
-**[Silicon Photonics](/sotf-site/photonic-systems/pic-platforms/silicon-photonics/) is the platform; [Glass Photonics](/sotf-site/photonic-systems/pic-platforms/glass-photonics/), [Photonic Wire Bonding](/sotf-site/manufacturing/packaging/photonic-wire-bonding/), [Hybrid Bonding (Cu-Cu)](/sotf-site/manufacturing/packaging/hybrid-bonding/) and [Co-Packaged Optics](/sotf-site/manufacturing/packaging/co-packaged-optics/) are competing answers to the packaging axis.** They are mostly complementary, not rival: a SiPh die does the electro-optics, and the packaging stack gets light + power on and off it.
+**[Silicon Photonics](/photonic-systems/pic-platforms/silicon-photonics/) is the platform; [Glass Photonics](/photonic-systems/pic-platforms/glass-photonics/), [Photonic Wire Bonding](/manufacturing/packaging/photonic-wire-bonding/), [Hybrid Bonding (Cu-Cu)](/manufacturing/packaging/hybrid-bonding/) and [Co-Packaged Optics](/manufacturing/packaging/co-packaged-optics/) are competing answers to the packaging axis.** They are mostly complementary, not rival: a SiPh die does the electro-optics, and the packaging stack gets light + power on and off it.
 
 ## Why packaging is a sub-industry
 
@@ -95,12 +95,12 @@ Silicon's high index contrast makes the on-chip mode **~0.5 µm** vs a fibre's *
 
 | Layer | Problem | Competing approaches | Glass's role |
 |---|---|---|---|
-| **1. Fibre→chip coupling** | bridge the ~20× mode mismatch | edge/grating coupling · polymer [Photonic Wire Bonding](/sotf-site/manufacturing/packaging/photonic-wire-bonding/) · **glass waveguide** · fibre arrays (PROFA) | **competes directly** — the inorganic, reliability-winning option |
-| **2. Laser / light-source attach** | silicon can't lase | external laser · flip-chip · [Heterogeneous Photonic Integration](/sotf-site/photonic-systems/pic-platforms/heterogeneous-photonic-integration/) · monolithic [InP Photonics](/sotf-site/photonic-systems/pic-platforms/inp-photonics/) · micro-LED | absent |
-| **3. Die-to-die / die-to-substrate** | fine pitch, no optical misalignment | flip-chip bump · [Hybrid Bonding (Cu-Cu)](/sotf-site/manufacturing/packaging/hybrid-bonding/) · 2.5D interposer ([Glass Interposers](/sotf-site/manufacturing/packaging/glass-interposers/)) | glass-*core* substrate (primes' game) |
-| **4. System co-packaging** | optics next to ASIC | [Co-Packaged Optics](/sotf-site/manufacturing/packaging/co-packaged-optics/) vs pluggable vs LPO/LRO | sets timing for all above |
+| **1. Fibre→chip coupling** | bridge the ~20× mode mismatch | edge/grating coupling · polymer [Photonic Wire Bonding](/manufacturing/packaging/photonic-wire-bonding/) · **glass waveguide** · fibre arrays (PROFA) | **competes directly** — the inorganic, reliability-winning option |
+| **2. Laser / light-source attach** | silicon can't lase | external laser · flip-chip · [Heterogeneous Photonic Integration](/photonic-systems/pic-platforms/heterogeneous-photonic-integration/) · monolithic [InP Photonics](/photonic-systems/pic-platforms/inp-photonics/) · micro-LED | absent |
+| **3. Die-to-die / die-to-substrate** | fine pitch, no optical misalignment | flip-chip bump · [Hybrid Bonding (Cu-Cu)](/manufacturing/packaging/hybrid-bonding/) · 2.5D interposer ([Glass Interposers](/manufacturing/packaging/glass-interposers/)) | glass-*core* substrate (primes' game) |
+| **4. System co-packaging** | optics next to ASIC | [Co-Packaged Optics](/manufacturing/packaging/co-packaged-optics/) vs pluggable vs LPO/LRO | sets timing for all above |
 
-Layer 1 is the contested, venture-relevant layer and the one the [Glass Photonics](/sotf-site/photonic-systems/pic-platforms/glass-photonics/) cohort lives in. See the cohort screen in **2026 05 30 Pic Packaging Approaches Landscape**.
+Layer 1 is the contested, venture-relevant layer and the one the [Glass Photonics](/photonic-systems/pic-platforms/glass-photonics/) cohort lives in. See the cohort screen in **2026 05 30 Pic Packaging Approaches Landscape**.
 
 ## The investable spine
 

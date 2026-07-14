@@ -52,38 +52,38 @@ recent_mentions:
 neighbors:
 - slug: rram-reram
   name: RRAM / ReRAM
-  path: /sotf-site/memory/emerging-memory/rram-reram/
+  path: /memory/emerging-memory/rram-reram/
   macro: memory
 - slug: pcm-phase-change-memory
   name: Phase-Change Memory (PCM)
-  path: /sotf-site/memory/emerging-memory/pcm-phase-change-memory/
+  path: /memory/emerging-memory/pcm-phase-change-memory/
   macro: memory
 - slug: mram
   name: MRAM (STT/SOT-MRAM)
-  path: /sotf-site/memory/mainstream-memory/mram/
+  path: /memory/mainstream-memory/mram/
   macro: memory
 - slug: feram
   name: FeRAM (Ferroelectric)
-  path: /sotf-site/memory/mainstream-memory/feram/
+  path: /memory/mainstream-memory/feram/
   macro: memory
 - slug: sram
   name: SRAM
-  path: /sotf-site/memory/mainstream-memory/sram/
+  path: /memory/mainstream-memory/sram/
   macro: memory
 - slug: charge-domain-compute
   name: Charge-Domain Compute
-  path: /sotf-site/compute/non-conventional/charge-domain-compute/
+  path: /compute/non-conventional/charge-domain-compute/
   macro: compute
 - slug: 3d-monolithic-integration
   name: 3D Monolithic Integration
-  path: /sotf-site/compute/compute-architecture/3d-monolithic-integration/
+  path: /compute/compute-architecture/3d-monolithic-integration/
   macro: compute
 ---
 *Charge-domain analog compute device for in-memory computing*
 
 ## Physics and mechanism
 
-A memcapacitor is the capacitive cousin of the [Memristors](/sotf-site/compute/non-conventional/memristors/) — Di Ventra, Pershin and Chua's 2009 framework introduced it as the third of four "memristive" circuit elements (alongside memristor, meminductor, and memristive systems). Where a memristor stores state in its resistance (history of current), a memcapacitor stores state in its **capacitance** (history of voltage). The information is encoded in trapped charge on a floating-gate-like structure, but the read mode is *non-destructive*: capacitance is sensed via a small AC excitation rather than by drawing current through the device.
+A memcapacitor is the capacitive cousin of the [Memristors](/compute/non-conventional/memristors/) — Di Ventra, Pershin and Chua's 2009 framework introduced it as the third of four "memristive" circuit elements (alongside memristor, meminductor, and memristive systems). Where a memristor stores state in its resistance (history of current), a memcapacitor stores state in its **capacitance** (history of voltage). The information is encoded in trapped charge on a floating-gate-like structure, but the read mode is *non-destructive*: capacitance is sensed via a small AC excitation rather than by drawing current through the device.
 
 This is the load-bearing physical advantage. Current-domain analog compute — the dominant approach in commercial RRAM- and PCM-based in-memory-compute (Mythic, IBM NorthPole's analog blocks) — performs matrix-vector multiplication by injecting voltage at row inputs and reading current at column outputs, with weights encoded as conductance. Every operation dissipates I²R energy through the resistive elements. Memcapacitor compute does the same MVM topologically, but charge replaces current as the carrier: voltage at row inputs displaces charge proportional to capacitance × voltage, charges sum at column nodes via Kirchhoff's current law (the ΔQ form, not the I form), and the result is read by sensing accumulated charge. **There is no resistive path through the active device during compute** — the energy floor is set by the digital periphery (ADCs, drivers) and parasitic switching, not by the analog core.
 
@@ -102,12 +102,12 @@ The MVM mechanism in either route is the same: weights map to per-cell capacitan
 | Approach | TOPS/W (demonstrated) | Precision | Manufacturing readiness | Endurance | Notes |
 |---|---|---|---|---|---|
 | **Memcapacitor (CapRAM-class)** | Targets 100+ | 4–6 bit native | Standard CMOS + 3D monolithic | High (charge-trapping) | Lead device-class for **Memcapacitor Compute Memory Bound Ai** thesis |
-| [RRAM / ReRAM](/sotf-site/memory/emerging-memory/rram-reram/) (analog) | 100+ | 4 bit effective | Custom integration | Limited (drift, endurance) | Mythic M1076; conductance variability is the binding constraint |
-| [Phase-Change Memory (PCM)](/sotf-site/memory/emerging-memory/pcm-phase-change-memory/) | 50–100 | 3-4 bit effective | IBM Almaden has it; commercial limited | Constrained by melt-cycle physics | Phase-change physics caps cycle count |
-| [MRAM (STT/SOT-MRAM)](/sotf-site/memory/mainstream-memory/mram/) (analog) | 5–20 | Full digital | Production at GF, Samsung | High | Great cache; limited compute density |
+| [RRAM / ReRAM](/memory/emerging-memory/rram-reram/) (analog) | 100+ | 4 bit effective | Custom integration | Limited (drift, endurance) | Mythic M1076; conductance variability is the binding constraint |
+| [Phase-Change Memory (PCM)](/memory/emerging-memory/pcm-phase-change-memory/) | 50–100 | 3-4 bit effective | IBM Almaden has it; commercial limited | Constrained by melt-cycle physics | Phase-change physics caps cycle count |
+| [MRAM (STT/SOT-MRAM)](/memory/mainstream-memory/mram/) (analog) | 5–20 | Full digital | Production at GF, Samsung | High | Great cache; limited compute density |
 | FeFET | Targets 50-100 | 4-6 bit | GF 22FDX-FeFET available; Sony research | Improving | Closest peer to memcapacitor; loses on 3D growth + 22FDX-only |
-| [SRAM](/sotf-site/memory/mainstream-memory/sram/) IMC (digital) | 10-50 | 8-bit native | Production-ready | High | Conservative baseline; EnCharge EN100 |
-| Near-memory ([HBM (High-Bandwidth Memory)](/sotf-site/memory/mainstream-memory/hbm/) + PIM) | 5-20 | Full | Production-ready | High | Samsung/SK Hynix PIM products; not array-level compute |
+| [SRAM](/memory/mainstream-memory/sram/) IMC (digital) | 10-50 | 8-bit native | Production-ready | High | Conservative baseline; EnCharge EN100 |
+| Near-memory ([HBM (High-Bandwidth Memory)](/memory/mainstream-memory/hbm/) + PIM) | 5-20 | Full | Production-ready | High | Samsung/SK Hynix PIM products; not array-level compute |
 
 **Why memcapacitor specifically beats the analog NVM peers.** Compared to RRAM/PCM, memcapacitor doesn't have the variability problem (capacitance modulation is more deterministic than conductance modulation in filamentary devices) or the endurance problem (charge-trapping at the standard CMOS interface is a mature physics). Compared to MRAM, it scales density via 3D rather than relying on lithography. Compared to FeFET — its closest peer on paper — memcapacitor's CapRAM realisation has a 3D monolithic growth path that FeFET hasn't demonstrated; FeFET also concentrates at GF 22FDX which is single-source.
 

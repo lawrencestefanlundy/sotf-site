@@ -31,15 +31,15 @@ recent_mentions:
 neighbors:
 - slug: mpw-multi-project-wafer
   name: MPW / Multi-Project Wafer
-  path: /sotf-site/manufacturing/foundry-design/mpw-multi-project-wafer/
+  path: /manufacturing/foundry-design/mpw-multi-project-wafer/
   macro: manufacturing
 - slug: foundry
   name: Semiconductor Foundries
-  path: /sotf-site/manufacturing/foundry-design/foundry/
+  path: /manufacturing/foundry-design/foundry/
   macro: manufacturing
 - slug: eda-design-tools
   name: EDA & Design Tools
-  path: /sotf-site/manufacturing/foundry-design/eda-design-tools/
+  path: /manufacturing/foundry-design/eda-design-tools/
   macro: manufacturing
 ---
 ## Physics / mechanism
@@ -52,7 +52,7 @@ Open-source PDKs (SkyWater SKY130, GF 180MCU, IHP SG13G2) have disrupted the tra
 
 ## PDK vs MPW, and what the customer actually does
 
-A recurring confusion in foundry-layer deals: the PDK and the [MPW](/sotf-site/manufacturing/foundry-design/mpw-multi-project-wafer/) are orthogonal, not sequential stages of one thing.
+A recurring confusion in foundry-layer deals: the PDK and the [MPW](/manufacturing/foundry-design/mpw-multi-project-wafer/) are orthogonal, not sequential stages of one thing.
 
 - **A PDK is what you design *with*.** A software rulebook plus a characterised parts catalogue. It is the design-time interface.
 - **An MPW is how you get a design *fabricated cheaply for the first time*.** A cost-sharing logistics model. It is the manufacturing-time service.

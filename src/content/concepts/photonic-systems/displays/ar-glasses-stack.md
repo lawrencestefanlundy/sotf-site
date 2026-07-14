@@ -30,27 +30,27 @@ recent_mentions: []
 neighbors:
 - slug: laser-display-light-engines
   name: Laser-Based Display Light Engines
-  path: /sotf-site/photonic-systems/displays/laser-display-light-engines/
+  path: /photonic-systems/displays/laser-display-light-engines/
   macro: photonic-systems
 - slug: displays
   name: Displays
-  path: /sotf-site/photonic-systems/displays/displays/
+  path: /photonic-systems/displays/displays/
   macro: photonic-systems
 - slug: micro-leds
   name: Micro-LEDs
-  path: /sotf-site/photonic-systems/displays/micro-leds/
+  path: /photonic-systems/displays/micro-leds/
   macro: photonic-systems
 - slug: metasurfaces-flat-optics
   name: Metasurfaces & Flat Optics
-  path: /sotf-site/photonic-systems/metasurfaces/metasurfaces-flat-optics/
+  path: /photonic-systems/metasurfaces/metasurfaces-flat-optics/
   macro: photonic-systems
 - slug: ar-optical-combiners
   name: 'AR optical combiners (waveguides): getting the image to the eye'
-  path: /sotf-site/photonic-systems/displays/ar-optical-combiners/
+  path: /photonic-systems/displays/ar-optical-combiners/
   macro: photonic-systems
 - slug: arvr
   name: AR/VR
-  path: /sotf-site/life-frontier/neural-interfaces/arvr/
+  path: /life-frontier/neural-interfaces/arvr/
   macro: life-frontier
 ---
 > A plain-English primer on what is actually inside a pair of AR / smart glasses, and the competing technology for each part. Built 15 Jun 2026 to ground the **Ar Display Optics** thesis: it shows where our bet (the display optics) sits in the whole device, and why the rest of the stack is mostly someone else's problem.
@@ -67,7 +67,7 @@ The pattern: **components 1-3 (the optics) are where the unsolved physics and th
 
 Generates the red / green / blue light. The big efficiency lever is **étendue**: a tightly-collimated source couples far more light into a tiny waveguide than a diffuse one, which is the core argument for lasers over LEDs.
 
-Full detail, R&D challenges, and a DD checklist: [Laser-Based Display Light Engines](/sotf-site/photonic-systems/displays/laser-display-light-engines/).
+Full detail, R&D challenges, and a DD checklist: [Laser-Based Display Light Engines](/photonic-systems/displays/laser-display-light-engines/).
 
 ## 2. Combiner / waveguide (delivery to the eye)
 

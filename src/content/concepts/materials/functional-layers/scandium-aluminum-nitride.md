@@ -36,15 +36,15 @@ recent_mentions: []
 neighbors:
 - slug: aluminum-nitride
   name: Aluminum Nitride (AlN)
-  path: /sotf-site/materials/functional-layers/aluminum-nitride/
+  path: /materials/functional-layers/aluminum-nitride/
   macro: materials
 - slug: piezoelectric
   name: Piezoelectric
-  path: /sotf-site/materials/functional-layers/piezoelectric/
+  path: /materials/functional-layers/piezoelectric/
   macro: materials
 - slug: hafnium-oxide-photonic
   name: Hafnium Oxide (HfO₂) Photonics
-  path: /sotf-site/materials/functional-layers/hafnium-oxide-photonic/
+  path: /materials/functional-layers/hafnium-oxide-photonic/
   macro: materials
 ---
 *High-EO + ferroelectric variant of AlN*

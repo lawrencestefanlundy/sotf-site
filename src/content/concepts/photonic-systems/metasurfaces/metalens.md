@@ -40,30 +40,30 @@ recent_mentions: []
 neighbors:
 - slug: metasurfaces-flat-optics
   name: Metasurfaces & Flat Optics
-  path: /sotf-site/photonic-systems/metasurfaces/metasurfaces-flat-optics/
+  path: /photonic-systems/metasurfaces/metasurfaces-flat-optics/
   macro: photonic-systems
 - slug: metamaterials
   name: Metamaterials
-  path: /sotf-site/photonic-systems/metasurfaces/metamaterials/
+  path: /photonic-systems/metasurfaces/metamaterials/
   macro: photonic-systems
 - slug: nanoimprint-lithography
   name: Nanoimprint Lithography
-  path: /sotf-site/manufacturing/lithography/nanoimprint-lithography/
+  path: /manufacturing/lithography/nanoimprint-lithography/
   macro: manufacturing
 - slug: maskless-lithography
   name: Maskless Lithography
-  path: /sotf-site/manufacturing/lithography/maskless-lithography/
+  path: /manufacturing/lithography/maskless-lithography/
   macro: manufacturing
 - slug: e-beam-lithography
   name: E-Beam Lithography
-  path: /sotf-site/manufacturing/lithography/e-beam-lithography/
+  path: /manufacturing/lithography/e-beam-lithography/
   macro: manufacturing
 - slug: silicon-photonics
   name: Silicon Photonics
-  path: /sotf-site/photonic-systems/pic-platforms/silicon-photonics/
+  path: /photonic-systems/pic-platforms/silicon-photonics/
   macro: photonic-systems
 ---
-*child of [Metasurfaces & Flat Optics](/sotf-site/photonic-systems/metasurfaces/metasurfaces-flat-optics/)*
+*child of [Metasurfaces & Flat Optics](/photonic-systems/metasurfaces/metasurfaces-flat-optics/)*
 
 ## Physics / mechanism
 

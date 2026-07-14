@@ -59,19 +59,19 @@ recent_mentions:
 neighbors:
 - slug: lithium-niobate-tfln
   name: Lithium Niobate (TFLN)
-  path: /sotf-site/materials/functional-layers/lithium-niobate-tfln/
+  path: /materials/functional-layers/lithium-niobate-tfln/
   macro: materials
 - slug: lithium-tantalate-tflt
   name: Thin-Film Lithium Tantalate (TFLT)
-  path: /sotf-site/materials/functional-layers/lithium-tantalate-tflt/
+  path: /materials/functional-layers/lithium-tantalate-tflt/
   macro: materials
 - slug: silicon-nitride
   name: Silicon Nitride
-  path: /sotf-site/materials/substrates/silicon-nitride/
+  path: /materials/substrates/silicon-nitride/
   macro: materials
 - slug: heterogeneous-photonic-integration
   name: Heterogeneous Photonic Integration
-  path: /sotf-site/photonic-systems/pic-platforms/heterogeneous-photonic-integration/
+  path: /photonic-systems/pic-platforms/heterogeneous-photonic-integration/
   macro: photonic-systems
 ---
 ## Physics / mechanism

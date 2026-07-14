@@ -24,7 +24,7 @@ recent_mentions: []
 neighbors:
 - slug: materials-process
   name: Materials & Process
-  path: /sotf-site/materials/advanced-materials/materials-process/
+  path: /materials/advanced-materials/materials-process/
   macro: materials
 ---
 A front-end doping module that fires ions into the wafer to set electrical properties; critical for SiC/power and CMOS. A 2-firm duopoly (Applied Materials + Axcelis). In-mandate by layer but acquirer-captured at the tool level, like the rest of the deposition/front-end toolchain.

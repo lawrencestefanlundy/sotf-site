@@ -23,18 +23,18 @@ recent_mentions: []
 neighbors:
 - slug: moores-law
   name: Moore's Law
-  path: /sotf-site/compute/compute-architecture/moores-law/
+  path: /compute/compute-architecture/moores-law/
   macro: compute
 - slug: memory-wall
   name: The Memory Wall
-  path: /sotf-site/compute/compute-architecture/memory-wall/
+  path: /compute/compute-architecture/memory-wall/
   macro: compute
 - slug: backside-power-delivery
   name: Backside Power Delivery (BPD)
-  path: /sotf-site/compute/compute-architecture/backside-power-delivery/
+  path: /compute/compute-architecture/backside-power-delivery/
   macro: compute
 ---
-Dennard and colleagues (IBM, 1974) observed that as a transistor shrinks, you can scale voltage and current down with its dimensions so that power density stays roughly constant. The practical consequence: each new process node gave you more transistors AND more performance at the same power and cost. This, not [Moore's Law](/sotf-site/compute/compute-architecture/moores-law/) alone, is what made five decades of "faster every year for free" possible.
+Dennard and colleagues (IBM, 1974) observed that as a transistor shrinks, you can scale voltage and current down with its dimensions so that power density stays roughly constant. The practical consequence: each new process node gave you more transistors AND more performance at the same power and cost. This, not [Moore's Law](/compute/compute-architecture/moores-law/) alone, is what made five decades of "faster every year for free" possible.
 
 ## Why it ended
 
@@ -42,7 +42,7 @@ Dennard scaling broke down around 2005 to 2007. Below roughly 1 volt, threshold 
 
 ## Why it matters here
 
-The end of Dennard scaling is the precise sense in which "Moore's Law stopped paying": transistors kept shrinking, but the free performance-per-watt gains stopped. With logic no longer getting cheaper to run, the binding constraint migrated to data movement and the [The Memory Wall](/sotf-site/compute/compute-architecture/memory-wall/). That migration is what the post-Moore architecture landscape is built to attack.
+The end of Dennard scaling is the precise sense in which "Moore's Law stopped paying": transistors kept shrinking, but the free performance-per-watt gains stopped. With logic no longer getting cheaper to run, the binding constraint migrated to data movement and the [The Memory Wall](/compute/compute-architecture/memory-wall/). That migration is what the post-Moore architecture landscape is built to attack.
 
 ## Connected ideas
 

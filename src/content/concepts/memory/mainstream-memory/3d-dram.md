@@ -32,19 +32,19 @@ recent_mentions: []
 neighbors:
 - slug: hbm
   name: HBM (High-Bandwidth Memory)
-  path: /sotf-site/memory/mainstream-memory/hbm/
+  path: /memory/mainstream-memory/hbm/
   macro: memory
 - slug: 3d-monolithic-integration
   name: 3D Monolithic Integration
-  path: /sotf-site/compute/compute-architecture/3d-monolithic-integration/
+  path: /compute/compute-architecture/3d-monolithic-integration/
   macro: compute
 - slug: processing-in-memory
   name: Processing-in-Memory (PIM)
-  path: /sotf-site/memory/emerging-memory/processing-in-memory/
+  path: /memory/emerging-memory/processing-in-memory/
   macro: memory
 - slug: memcapacitor
   name: Memcapacitor
-  path: /sotf-site/memory/emerging-memory/memcapacitor/
+  path: /memory/emerging-memory/memcapacitor/
   macro: memory
 ---
 The "3D stacking of memory" map. DRAM has stayed essentially 2D while NAND went vertical a decade ago; closing that gap is the memory industry's defining roadmap of the late 2020s, and it sits directly under the **Hbm Bottleneck** and **Hbm Free Inference Architectures** theses. Four distinct things get called "3D memory" — keep them separate.
@@ -53,7 +53,7 @@ The "3D stacking of memory" map. DRAM has stayed essentially 2D while NAND went 
 
 ## Who has what (verified June 2026)
 
-- ****Samsung Electronics**** — 3D DRAM R&D leader; VCT / 4F2 roadmap toward ~2030; also the PIM leader ([Processing-in-Memory (PIM)](/sotf-site/memory/emerging-memory/processing-in-memory/)).
+- ****Samsung Electronics**** — 3D DRAM R&D leader; VCT / 4F2 roadmap toward ~2030; also the PIM leader ([Processing-in-Memory (PIM)](/memory/emerging-memory/processing-in-memory/)).
 - ****Sk Hynix**** — HBM leader carrying the volume; HBM4E now, HBM5 / DDR6 from ~2029; 3D DRAM in research.
 - ****Micron Technology**** — HBM4 (1ß process, six customers); 4F2 / CBA + 3D DRAM exploration.
 - ****Cxmt**** (China) — 4th-largest DRAM by capacity; HBM2E mass production H1 2026, HBM3 2026, HBM3E 2027 (≈3–4 yrs behind); 3D DRAM ambitions. The sovereignty wildcard (see **Sovereignty Semi Bifurcation**).

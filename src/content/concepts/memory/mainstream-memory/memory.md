@@ -46,7 +46,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 843
+mention_count: 844
 descendants:
 - 3d-dram
 - adc-bottleneck
@@ -81,6 +81,10 @@ last_reorg_date: '2026-05-14'
 sources_7d: 1
 sources_30d: 15
 recent_mentions:
+- slug: 2026-07-13-sk-hynix-record-fall-hbm4-three-supplier
+  title: SK Hynix record one-day fall as HBM4 goes three-supplier
+  date: '2026-07-13'
+  kind: web
 - slug: 2026-07-10-hyperscaler-token-economics-sweep
   title: 'Hyperscaler inference-economics language sweep: cost per token as the datacentre KPI'
   date: '2026-07-10'
@@ -107,10 +111,6 @@ recent_mentions:
   kind: web
 - slug: 2026-06-23-memory-chips-and-china-microsoft-and-chinese-models
   title: Memory Chips and China, Microsoft and Chinese Models
-  date: '2026-06-23'
-  kind: web
-- slug: 2025-26-lapedus-next-gen-ferroelectric-memory
-  title: Next-Gen Ferroelectric Memory Still A Work In Progress
   date: '2026-06-23'
   kind: web
 neighbors: []

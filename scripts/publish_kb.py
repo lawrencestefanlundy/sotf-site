@@ -83,6 +83,27 @@ def serialise_fm(fm: dict) -> str:
     return yaml.safe_dump(fm, sort_keys=False, allow_unicode=True, width=10000, default_flow_style=False)
 
 
+def coerce_str_list(value) -> list[str]:
+    """Force a frontmatter list into a list of plain strings.
+
+    A KB bullet that contains an unquoted ``: `` (e.g. a frontier question with a
+    colon) is parsed by YAML as a single-key mapping, not a string. Astro's content
+    schema then rejects the whole build. Flatten any such mapping back to
+    ``"key: value"`` so the field always matches ``z.array(z.string())``.
+    """
+    if not isinstance(value, list):
+        return value
+    out = []
+    for item in value:
+        if isinstance(item, str):
+            out.append(item)
+        elif isinstance(item, dict):
+            out.append("; ".join(f"{k}: {v}" for k, v in item.items()))
+        else:
+            out.append(str(item))
+    return out
+
+
 def load_back_refs() -> dict:
     """Load cross_pollinate back-refs index."""
     if not BACK_REFS.exists():
@@ -196,6 +217,18 @@ def strip_dataview_blocks(body: str) -> str:
     """
     pattern = re.compile(r"```(?:dataview|dataviewjs)\s*\n.*?\n```", re.DOTALL | re.IGNORECASE)
     return pattern.sub("<!-- dataview block stripped for public site -->", body)
+
+
+def strip_external_images(body: str) -> str:
+    """Drop markdown images whose path escapes the content dir (``../.. /sources/…``).
+
+    The publish pipeline copies no assets, so a KB image reference that points back
+    into ~/kb/sources resolves to nothing and hard-fails the Astro build
+    (ImageNotFound). Until we copy assets through, strip these references so one
+    dangling chart can't red the whole nightly deploy.
+    """
+    pattern = re.compile(r"!\[[^\]]*\]\(\s*(?:\.\./)+sources/[^)]*\)")
+    return pattern.sub("<!-- non-public image stripped for public site -->", body)
 
 
 _private_pattern_cache: re.Pattern | None = None
@@ -445,6 +478,13 @@ def filter_concept(fm: dict, body: str, slug: str) -> tuple[dict, str]:
     # Strip private fields
     out = {k: v for k, v in fm.items() if k not in STRIP_FIELDS}
 
+    # Guard string-array fields against YAML mis-parsing an unquoted ": " bullet
+    # as a mapping — Astro's schema rejects the whole build otherwise.
+    for field in ("frontier", "aliases", "tags", "parent_concepts",
+                  "related_concepts", "descendants"):
+        if field in out:
+            out[field] = coerce_str_list(out[field])
+
     # Filter sources to public-only
     if "sources" in out:
         out["sources"] = filter_sources(out["sources"])
@@ -476,6 +516,7 @@ def filter_concept(fm: dict, body: str, slug: str) -> tuple[dict, str]:
 
     # Strip noise + Cloudberry + private-company paragraphs + leading template lines + private wikilinks
     new_body = strip_dataview_blocks(body)
+    new_body = strip_external_images(new_body)
     new_body = strip_cloudberry_content(new_body)
     new_body = strip_private_company_paragraphs(new_body)
     new_body = strip_leading_template_noise(new_body)

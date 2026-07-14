@@ -32,18 +32,18 @@ recent_mentions: []
 neighbors:
 - slug: xla
   name: XLA / OpenXLA
-  path: /sotf-site/compute/compute-architecture/xla/
+  path: /compute/compute-architecture/xla/
   macro: compute
 - slug: iree
   name: IREE (Intermediate Representation Execution Environment)
-  path: /sotf-site/compute/compute-architecture/iree/
+  path: /compute/compute-architecture/iree/
   macro: compute
 - slug: triton
   name: Triton (OpenAI Triton)
-  path: /sotf-site/compute/compute-architecture/triton/
+  path: /compute/compute-architecture/triton/
   macro: compute
 ---
-> The **substrate** layer of the [AI Compiler & Heterogeneous Programming-Model Landscape](/sotf-site/compute/compute-architecture/ai-compiler-landscape/). Not a programming language, not a portability solution — the reusable compiler-construction toolkit that almost every modern ML compiler is now built on. The single most important fact for diligence: **a credible "new programming model for heterogeneous compute" builds ON MLIR; it does not compete WITH it.** A founder who frames MLIR as a rival has misread the stack.
+> The **substrate** layer of the [AI Compiler & Heterogeneous Programming-Model Landscape](/compute/compute-architecture/ai-compiler-landscape/). Not a programming language, not a portability solution — the reusable compiler-construction toolkit that almost every modern ML compiler is now built on. The single most important fact for diligence: **a credible "new programming model for heterogeneous compute" builds ON MLIR; it does not compete WITH it.** A founder who frames MLIR as a rival has misread the stack.
 
 ## Origin
 
@@ -61,7 +61,7 @@ MLIR is **plumbing, not portability.** It was *designed for* heterogeneous compi
 
 ## Governance + adoption (2025-26)
 
-Governed by the LLVM project (open community, LLVM release cadence). Adoption is the headline: the de-facto substrate under **[XLA / OpenXLA](/sotf-site/compute/compute-architecture/xla/)/OpenXLA, [IREE (Intermediate Representation Execution Environment)](/sotf-site/compute/compute-architecture/iree/), [Triton (OpenAI Triton)](/sotf-site/compute/compute-architecture/triton/) (Triton-IR/Triton-GPU are MLIR dialects), Mojo/**Modular**, Torch-MLIR, ONNX-MLIR**, plus vendor stacks — **AMD/Xilinx (MLIR-AIE), **Tenstorrent** (tt-mlir), SOPHGO (TPU-MLIR)**. 2025 work: governance to curb dialect fragmentation (curated core dialects), the Transform dialect (CGO 2025) for tunable optimisation, expansion beyond ML (proposed WebAssembly dialect, Clang CIR). Entrenched and still growing.
+Governed by the LLVM project (open community, LLVM release cadence). Adoption is the headline: the de-facto substrate under **[XLA / OpenXLA](/compute/compute-architecture/xla/)/OpenXLA, [IREE (Intermediate Representation Execution Environment)](/compute/compute-architecture/iree/), [Triton (OpenAI Triton)](/compute/compute-architecture/triton/) (Triton-IR/Triton-GPU are MLIR dialects), Mojo/**Modular**, Torch-MLIR, ONNX-MLIR**, plus vendor stacks — **AMD/Xilinx (MLIR-AIE), **Tenstorrent** (tt-mlir), SOPHGO (TPU-MLIR)**. 2025 work: governance to curb dialect fragmentation (curated core dialects), the Transform dialect (CGO 2025) for tunable optimisation, expansion beyond ML (proposed WebAssembly dialect, Clang CIR). Entrenched and still growing.
 
 ## Competitive read (vs a "new programming model" startup)
 

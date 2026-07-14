@@ -31,19 +31,19 @@ recent_mentions: []
 neighbors:
 - slug: memcapacitor
   name: Memcapacitor
-  path: /sotf-site/memory/emerging-memory/memcapacitor/
+  path: /memory/emerging-memory/memcapacitor/
   macro: memory
 - slug: sram-cim
   name: SRAM Compute-in-Memory
-  path: /sotf-site/memory/emerging-memory/sram-cim/
+  path: /memory/emerging-memory/sram-cim/
   macro: memory
 - slug: adc-bottleneck
   name: ADC Bottleneck (analog in-memory compute)
-  path: /sotf-site/compute/compute-architecture/adc-bottleneck/
+  path: /compute/compute-architecture/adc-bottleneck/
   macro: compute
 - slug: analog-computing
   name: Analog Computing
-  path: /sotf-site/compute/non-conventional/analog-computing/
+  path: /compute/non-conventional/analog-computing/
   macro: compute
 ---
 ## Current-domain vs charge-domain
@@ -56,4 +56,4 @@ Both share the charge-domain advantage (precision, linearity, low static power);
 
 ## The catch
 
-Charge-domain makes the *multiply* nearly free, but the result still has to be read out of the analog domain into digital — and the analog-to-digital converters do not get cheaper just because the MAC moved to the charge domain. The [ADC Bottleneck (analog in-memory compute)](/sotf-site/compute/compute-architecture/adc-bottleneck/) is the binding constraint on all analog CIM, charge-domain included. Charge-domain moves the energy bottleneck from the array to the periphery; whether it *removes* it at scale is the open question.
+Charge-domain makes the *multiply* nearly free, but the result still has to be read out of the analog domain into digital — and the analog-to-digital converters do not get cheaper just because the MAC moved to the charge domain. The [ADC Bottleneck (analog in-memory compute)](/compute/compute-architecture/adc-bottleneck/) is the binding constraint on all analog CIM, charge-domain included. Charge-domain moves the energy bottleneck from the array to the periphery; whether it *removes* it at scale is the open question.

@@ -34,15 +34,15 @@ recent_mentions: []
 neighbors:
 - slug: lithography
   name: Lithography
-  path: /sotf-site/manufacturing/lithography/lithography/
+  path: /manufacturing/lithography/lithography/
   macro: manufacturing
 - slug: etch-tools
   name: Etch Tools (ALE, plasma etch)
-  path: /sotf-site/manufacturing/equipment-processes/etch-tools/
+  path: /manufacturing/equipment-processes/etch-tools/
   macro: manufacturing
 - slug: ald-atomic-layer-deposition
   name: ALD (Atomic Layer Deposition)
-  path: /sotf-site/manufacturing/equipment-processes/ald-atomic-layer-deposition/
+  path: /manufacturing/equipment-processes/ald-atomic-layer-deposition/
   macro: manufacturing
 ---
 Metrology and inspection is the measurement layer that sits between every process step in a semiconductor fab. It answers two questions: did the previous step land where it was supposed to (metrology), and did it create defects that will kill yield (inspection). At advanced nodes, a single defective die at 3nm represents $500 to $2,000 in lost value. Without this layer, yield collapses and the economics of the entire process disintegrate.

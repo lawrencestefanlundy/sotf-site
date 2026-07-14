@@ -34,23 +34,23 @@ recent_mentions: []
 neighbors:
 - slug: maskless-lithography
   name: Maskless Lithography
-  path: /sotf-site/manufacturing/lithography/maskless-lithography/
+  path: /manufacturing/lithography/maskless-lithography/
   macro: manufacturing
 - slug: high-na-euv-lithography
   name: High-NA EUV Lithography
-  path: /sotf-site/manufacturing/lithography/high-na-euv-lithography/
+  path: /manufacturing/lithography/high-na-euv-lithography/
   macro: manufacturing
 - slug: mask-blank-manufacturing
   name: Mask Blank Manufacturing
-  path: /sotf-site/manufacturing/lithography/mask-blank-manufacturing/
+  path: /manufacturing/lithography/mask-blank-manufacturing/
   macro: manufacturing
 - slug: e-beam-lithography
   name: E-Beam Lithography
-  path: /sotf-site/manufacturing/lithography/e-beam-lithography/
+  path: /manufacturing/lithography/e-beam-lithography/
   macro: manufacturing
 - slug: lithography-tools
   name: Lithography Tools
-  path: /sotf-site/manufacturing/lithography/lithography-tools/
+  path: /manufacturing/lithography/lithography-tools/
   macro: manufacturing
 ---
 Computational lithography is the software layer between chip design and physical wafer printing. It answers one question: how do you pre-distort a photomask so that optical diffraction, chemical resist physics, and lens aberrations produce the intended pattern on silicon? Without it, a mask drawn to design dimensions prints incorrectly at every sub-wavelength feature. The stack runs five layers deep, each more compute-intensive and more AI-relevant than the last.

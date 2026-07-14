@@ -34,23 +34,23 @@ recent_mentions: []
 neighbors:
 - slug: hbm-cowos-bottleneck
   name: HBM / CoWoS Bottleneck
-  path: /sotf-site/compute/compute-architecture/hbm-cowos-bottleneck/
+  path: /compute/compute-architecture/hbm-cowos-bottleneck/
   macro: compute
 - slug: physics-native-compute
   name: Physics-Native Compute
-  path: /sotf-site/compute/non-conventional/physics-native-compute/
+  path: /compute/non-conventional/physics-native-compute/
   macro: compute
 - slug: fd-soi
   name: FD-SOI
-  path: /sotf-site/compute/compute-architecture/fd-soi/
+  path: /compute/compute-architecture/fd-soi/
   macro: compute
 - slug: backside-power-delivery
   name: Backside Power Delivery (BPD)
-  path: /sotf-site/compute/compute-architecture/backside-power-delivery/
+  path: /compute/compute-architecture/backside-power-delivery/
   macro: compute
 - slug: chiplets
   name: Chiplets
-  path: /sotf-site/compute/compute-architecture/chiplets/
+  path: /compute/compute-architecture/chiplets/
   macro: compute
 ---
 A structural thesis. **Companies fabricating on mature nodes (130nm, 90nm, 65nm, GF 22FDX, Sky130) avoid the advanced-packaging allocation fight, the HBM dependency, and the advanced-node yield wars that constrain Cerebras, Nvidia, AMD, and the rest of the AI-accelerator cohort through 2027.**
@@ -61,10 +61,10 @@ The mature route used to look like a downgrade — older process, larger transis
 
 Two simultaneous bottlenecks pin the AI-accelerator cohort to advanced packaging:
 
-1. **TSMC CoWoS-S allocation.** Estimated 330K wafers/year capacity through 2025–2026, allocated almost entirely to Nvidia, AMD, Broadcom, and a handful of hyperscaler custom silicon programmes. New entrants queue. See [HBM / CoWoS Bottleneck](/sotf-site/compute/compute-architecture/hbm-cowos-bottleneck/).
+1. **TSMC CoWoS-S allocation.** Estimated 330K wafers/year capacity through 2025–2026, allocated almost entirely to Nvidia, AMD, Broadcom, and a handful of hyperscaler custom silicon programmes. New entrants queue. See [HBM / CoWoS Bottleneck](/compute/compute-architecture/hbm-cowos-bottleneck/).
 2. **HBM3e supply.** Samsung and SK Hynix at full utilisation through 2026, allocated to the same accelerator cohort. HBM4 ramp deferred to 2027–2028.
 
-Any AI hardware startup that ships its first product on a path requiring CoWoS or HBM is queueing behind Nvidia. Any startup that bypasses both — by using mature nodes, by running models with no HBM (no fetch, weights live in the substrate — see [Physics-Native Compute](/sotf-site/compute/non-conventional/physics-native-compute/)), by using standard packaging — has a structural cost and lead-time advantage.
+Any AI hardware startup that ships its first product on a path requiring CoWoS or HBM is queueing behind Nvidia. Any startup that bypasses both — by using mature nodes, by running models with no HBM (no fetch, weights live in the substrate — see [Physics-Native Compute](/compute/non-conventional/physics-native-compute/)), by using standard packaging — has a structural cost and lead-time advantage.
 
 ## What mature foundries enable
 

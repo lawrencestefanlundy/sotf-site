@@ -78,23 +78,23 @@ recent_mentions:
 neighbors:
 - slug: memcapacitor
   name: Memcapacitor
-  path: /sotf-site/memory/emerging-memory/memcapacitor/
+  path: /memory/emerging-memory/memcapacitor/
   macro: memory
 - slug: analog-computing
   name: Analog Computing
-  path: /sotf-site/compute/non-conventional/analog-computing/
+  path: /compute/non-conventional/analog-computing/
   macro: compute
 - slug: memory-wall
   name: The Memory Wall
-  path: /sotf-site/compute/compute-architecture/memory-wall/
+  path: /compute/compute-architecture/memory-wall/
   macro: compute
 - slug: von-neumann-bottleneck
   name: Von Neumann Bottleneck
-  path: /sotf-site/compute/compute-architecture/von-neumann-bottleneck/
+  path: /compute/compute-architecture/von-neumann-bottleneck/
   macro: compute
 - slug: processing-in-memory
   name: Processing-in-Memory (PIM)
-  path: /sotf-site/memory/emerging-memory/processing-in-memory/
+  path: /memory/emerging-memory/processing-in-memory/
   macro: memory
 ---
 ## Physics / mechanism
@@ -113,7 +113,7 @@ SRAM digital IMC is conservative but foundry-compatible and production-ready. An
 
 ## Investment relevance (all routes)
 
-In-memory compute attacks the [The Memory Wall](/sotf-site/compute/compute-architecture/memory-wall/) and [Von Neumann Bottleneck](/sotf-site/compute/compute-architecture/von-neumann-bottleneck/) directly; the open question is who captures the value, and through which vehicle.
+In-memory compute attacks the [The Memory Wall](/compute/compute-architecture/memory-wall/) and [Von Neumann Bottleneck](/compute/compute-architecture/von-neumann-bottleneck/) directly; the open question is who captures the value, and through which vehicle.
 
 ## Companies using
 

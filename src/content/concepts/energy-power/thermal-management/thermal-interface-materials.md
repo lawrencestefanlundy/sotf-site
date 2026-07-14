@@ -38,27 +38,27 @@ recent_mentions: []
 neighbors:
 - slug: tim-approach-map
   name: TIM Approach Map (every thermal-interface-material class, in-market + R&D)
-  path: /sotf-site/energy-power/thermal-management/tim-approach-map/
+  path: /energy-power/thermal-management/tim-approach-map/
   macro: energy-power
 - slug: thermal-stack-map
   name: AI Thermal Stack Map (junction-to-ambient)
-  path: /sotf-site/energy-power/thermal-management/thermal-stack-map/
+  path: /energy-power/thermal-management/thermal-stack-map/
   macro: energy-power
 - slug: phase-change-materials
   name: Phase-Change Materials (Thermal)
-  path: /sotf-site/energy-power/thermal-management/phase-change-materials/
+  path: /energy-power/thermal-management/phase-change-materials/
   macro: energy-power
 - slug: advanced-packaging
   name: Advanced Packaging
-  path: /sotf-site/manufacturing/packaging/advanced-packaging/
+  path: /manufacturing/packaging/advanced-packaging/
   macro: manufacturing
 - slug: diamond
   name: Diamond
-  path: /sotf-site/materials/substrates/diamond/
+  path: /materials/substrates/diamond/
   macro: materials
 - slug: graphene-thermal-films
   name: Graphene Thermal Films
-  path: /sotf-site/energy-power/thermal-management/graphene-thermal-films/
+  path: /energy-power/thermal-management/graphene-thermal-films/
   macro: energy-power
 ---
 ## Physics / mechanism
@@ -69,7 +69,7 @@ Thermal interface materials fill the microscopic air gaps between a heat source 
 
 Incumbent categories: filled silicones/epoxies (Shin-Etsu, Momentive, Henkel), phase-change pads (Bergquist/Henkel, Laird), indium foil (Indium Corp), liquid metals (Thermal Grizzly, Indium Corp). Competing approaches include vapour chambers and embedded microfluidic cooling, which bypass the TIM problem rather than solve it. Carbon-based options — vertically aligned CNT arrays, graphene laminates — offer >400 W/m·K in lab settings but conformability and cost limit deployment. Sintered silver scales in power electronics but requires pressure/temperature cure steps incompatible with some packaging flows.
 
-> **For the exhaustive material-class catalog** — every TIM approach in-market and in R&D, with vendors, startups, maturity, and capture/route — see [TIM Approach Map (every thermal-interface-material class, in-market + R&D)](/sotf-site/energy-power/thermal-management/tim-approach-map/) (24 commercial classes + 14 R&D approaches, swept 22 Jun 2026). This page is the physics/concept anchor; the map is the comprehensive coverage matrix.
+> **For the exhaustive material-class catalog** — every TIM approach in-market and in R&D, with vendors, startups, maturity, and capture/route — see [TIM Approach Map (every thermal-interface-material class, in-market + R&D)](/energy-power/thermal-management/tim-approach-map/) (24 commercial classes + 14 R&D approaches, swept 22 Jun 2026). This page is the physics/concept anchor; the map is the comprehensive coverage matrix.
 
 ## Why it matters / where the value is
 

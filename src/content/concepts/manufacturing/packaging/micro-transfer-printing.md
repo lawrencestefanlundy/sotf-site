@@ -26,15 +26,15 @@ recent_mentions: []
 neighbors:
 - slug: heterogeneous-photonic-integration
   name: Heterogeneous Photonic Integration
-  path: /sotf-site/photonic-systems/pic-platforms/heterogeneous-photonic-integration/
+  path: /photonic-systems/pic-platforms/heterogeneous-photonic-integration/
   macro: photonic-systems
 - slug: inp-photonics
   name: InP Photonics
-  path: /sotf-site/photonic-systems/pic-platforms/inp-photonics/
+  path: /photonic-systems/pic-platforms/inp-photonics/
   macro: photonic-systems
 - slug: silicon-nitride
   name: Silicon Nitride
-  path: /sotf-site/materials/substrates/silicon-nitride/
+  path: /materials/substrates/silicon-nitride/
   macro: materials
 ---
 ## Mechanism

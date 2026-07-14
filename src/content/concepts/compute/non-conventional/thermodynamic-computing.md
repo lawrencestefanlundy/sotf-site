@@ -43,19 +43,19 @@ recent_mentions: []
 neighbors:
 - slug: probabilistic-computing
   name: Probabilistic Computing
-  path: /sotf-site/compute/non-conventional/probabilistic-computing/
+  path: /compute/non-conventional/probabilistic-computing/
   macro: compute
 - slug: stochastic-ising-machines
   name: Stochastic / Ising Machines
-  path: /sotf-site/compute/non-conventional/stochastic-ising-machines/
+  path: /compute/non-conventional/stochastic-ising-machines/
   macro: compute
 - slug: analog-computing
   name: Analog Computing
-  path: /sotf-site/compute/non-conventional/analog-computing/
+  path: /compute/non-conventional/analog-computing/
   macro: compute
 - slug: neuromorphic-computing
   name: Neuromorphic Computing
-  path: /sotf-site/compute/non-conventional/neuromorphic-computing/
+  path: /compute/non-conventional/neuromorphic-computing/
   macro: compute
 ---
 *Verified 2026-05-27 against primary sources*

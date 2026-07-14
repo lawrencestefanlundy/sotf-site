@@ -30,15 +30,15 @@ recent_mentions: []
 neighbors:
 - slug: coherent-ising-machine
   name: Coherent Ising Machine
-  path: /sotf-site/compute/non-conventional/coherent-ising-machine/
+  path: /compute/non-conventional/coherent-ising-machine/
   macro: compute
 - slug: fdtd-calibration-wall
   name: FDTD-to-Hardware Calibration Wall
-  path: /sotf-site/compute/non-conventional/fdtd-calibration-wall/
+  path: /compute/non-conventional/fdtd-calibration-wall/
   macro: compute
 - slug: mature-foundry-positioning
   name: Mature Foundry Positioning
-  path: /sotf-site/compute/compute-architecture/mature-foundry-positioning/
+  path: /compute/compute-architecture/mature-foundry-positioning/
   macro: compute
 ---
 ## Why hasn't this been done before
@@ -50,7 +50,7 @@ Six reasons (descending importance):
 3. **Reconfigurability harder for radiative.** Wired J is set by switchable lumped components. Radiative J is set by fabrication geometry + per-tile resonance modulation; the inverse design problem (find varactor states such that realised J ≈ target J) is non-trivial.
 4. **Adjacent RIS field optimises for radiation.** Reconfigurable Intelligent Surfaces (RIS) and metamaterial antenna arrays do use varactor-tuned dipole/patch arrays, but the objective is radiation (steer a beam, shape a wavefront) not internal energy minimisation. Mapping RIS to Ising solver has not been formally published.
 5. **Tooling cost.** Full-wave EM simulation at array scale only became affordable at 16-tile / 64-tile in the last few years.
-6. **Calibration wall.** Anyone who tried hit the [FDTD-to-Hardware Calibration Wall](/sotf-site/compute/non-conventional/fdtd-calibration-wall/) and didn't publish the failure.
+6. **Calibration wall.** Anyone who tried hit the [FDTD-to-Hardware Calibration Wall](/compute/non-conventional/fdtd-calibration-wall/) and didn't publish the failure.
 
 ## Prior art to verify in DD
 

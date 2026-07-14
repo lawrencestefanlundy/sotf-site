@@ -40,35 +40,35 @@ recent_mentions: []
 neighbors:
 - slug: germanium-photodiodes
   name: Germanium Photodiodes
-  path: /sotf-site/photonic-systems/modulators-detectors/germanium-photodiodes/
+  path: /photonic-systems/modulators-detectors/germanium-photodiodes/
   macro: photonic-systems
 - slug: ingaas-photodiodes
   name: InGaAs Photodiodes
-  path: /sotf-site/photonic-systems/modulators-detectors/ingaas-photodiodes/
+  path: /photonic-systems/modulators-detectors/ingaas-photodiodes/
   macro: photonic-systems
 - slug: hgcdte
   name: Mercury Cadmium Telluride
-  path: /sotf-site/photonic-systems/modulators-detectors/hgcdte/
+  path: /photonic-systems/modulators-detectors/hgcdte/
   macro: photonic-systems
 - slug: lidar
   name: LiDAR
-  path: /sotf-site/sensing/ranging-detection/lidar/
+  path: /sensing/ranging-detection/lidar/
   macro: sensing
 - slug: time-of-flight
   name: Time-of-Flight (iToF, dToF)
-  path: /sotf-site/sensing/ranging-detection/time-of-flight/
+  path: /sensing/ranging-detection/time-of-flight/
   macro: sensing
 - slug: free-space-photonics
   name: Free-Space Photonics
-  path: /sotf-site/communications/fibre-and-free-space/free-space-photonics/
+  path: /communications/fibre-and-free-space/free-space-photonics/
   macro: communications
 - slug: photonic-imaging
   name: Photonic Imaging
-  path: /sotf-site/sensing/imaging/photonic-imaging/
+  path: /sensing/imaging/photonic-imaging/
   macro: sensing
 - slug: quantum-cascade-lasers
   name: Quantum Cascade Lasers
-  path: /sotf-site/photonic-systems/light-sources/quantum-cascade-lasers/
+  path: /photonic-systems/light-sources/quantum-cascade-lasers/
   macro: photonic-systems
 ---
 > Merged canonical page (2026-06-17): absorbed the former duplicate `avalanche-photodiodes` (plural). One slug for the APD/SPAD concept.
@@ -90,7 +90,7 @@ The defining material parameters are the **impact-ionisation coefficients** (α 
 - **Si APD** — cheap, band-limited to ~1 µm.
 - **InGaAs/InP APD** — telecom wavelengths, expensive, III-V fab-constrained, temperature-hostile for LiDAR.
 - **Ge-on-Si APD** — the primary challenger: CMOS-compatible, wafer-scale, lower cost, but a less favourable k-ratio (higher noise).
-- **HgCdTe APD** — MWIR/LWIR with near-unity k (near-noiseless gain), but cryogenic and defence-niche (see [Mercury Cadmium Telluride](/sotf-site/photonic-systems/modulators-detectors/hgcdte/)).
+- **HgCdTe APD** — MWIR/LWIR with near-unity k (near-noiseless gain), but cryogenic and defence-niche (see [Mercury Cadmium Telluride](/photonic-systems/modulators-detectors/hgcdte/)).
 - **AlInAsSb, Al₀.₈Ga₀.₂As** — research-stage low-noise candidates.
 - SPADs in SiPh platforms are displacing linear InGaAs APDs in quantum and ranging applications.
 

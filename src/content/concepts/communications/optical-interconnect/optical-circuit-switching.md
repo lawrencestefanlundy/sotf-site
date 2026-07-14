@@ -31,22 +31,22 @@ recent_mentions: []
 neighbors:
 - slug: optical-packet-switching
   name: Optical Packet Switching (OPS)
-  path: /sotf-site/communications/optical-interconnect/optical-packet-switching/
+  path: /communications/optical-interconnect/optical-packet-switching/
   macro: communications
 - slug: optical-interconnect
   name: Optical Interconnect
-  path: /sotf-site/communications/optical-interconnect/optical-interconnect/
+  path: /communications/optical-interconnect/optical-interconnect/
   macro: communications
 - slug: co-packaged-optics
   name: Co-Packaged Optics
-  path: /sotf-site/manufacturing/packaging/co-packaged-optics/
+  path: /manufacturing/packaging/co-packaged-optics/
   macro: manufacturing
 ---
-*The "switch" layer, distinct from the "link" layer ([Optical Interconnect](/sotf-site/communications/optical-interconnect/optical-interconnect/), [Co-Packaged Optics](/sotf-site/manufacturing/packaging/co-packaged-optics/)).*
+*The "switch" layer, distinct from the "link" layer ([Optical Interconnect](/communications/optical-interconnect/optical-interconnect/), [Co-Packaged Optics](/manufacturing/packaging/co-packaged-optics/)).*
 
 ## Mechanism
 
-OCS establishes a **dedicated lightpath** between input and output ports and holds it for the duration of a flow, reconfiguring the topology relatively slowly. It switches whole wavelengths/fibers, not individual packets. Reconfiguration time is set by the switching medium (MEMS tilt, LCOS phase, free-space diffraction) and is typically **µs-to-ms class** — fine for stable, long-lived flows and topology reconfiguration, too slow for per-packet routing. The complement, switching at packet granularity, is [Optical Packet Switching (OPS)](/sotf-site/communications/optical-interconnect/optical-packet-switching/).
+OCS establishes a **dedicated lightpath** between input and output ports and holds it for the duration of a flow, reconfiguring the topology relatively slowly. It switches whole wavelengths/fibers, not individual packets. Reconfiguration time is set by the switching medium (MEMS tilt, LCOS phase, free-space diffraction) and is typically **µs-to-ms class** — fine for stable, long-lived flows and topology reconfiguration, too slow for per-packet routing. The complement, switching at packet granularity, is [Optical Packet Switching (OPS)](/communications/optical-interconnect/optical-packet-switching/).
 
 **The discriminating spec for any optical switch is switching speed.** Per **Zigzag Networks**: ns-class competes with NVLink-class fabric; µs/ms competes only with incumbent OCS for slow topology reconfiguration.
 

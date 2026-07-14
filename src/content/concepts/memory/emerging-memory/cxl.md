@@ -24,15 +24,15 @@ recent_mentions: []
 neighbors:
 - slug: dram
   name: DRAM
-  path: /sotf-site/memory/mainstream-memory/dram/
+  path: /memory/mainstream-memory/dram/
   macro: memory
 - slug: storage-class-memory
   name: Storage-Class Memory
-  path: /sotf-site/memory/emerging-memory/storage-class-memory/
+  path: /memory/emerging-memory/storage-class-memory/
   macro: memory
 - slug: computational-storage
   name: Computational / Near-Storage Processing
-  path: /sotf-site/memory/emerging-memory/computational-storage/
+  path: /memory/emerging-memory/computational-storage/
   macro: memory
 ---
 An open interconnect standard that lets hosts pool, expand and share DRAM across a fabric (CXL memory expanders, smart-memory controllers, switches). Rides the HBM-scarcity / disaggregated-memory why-now, but the value sits at the controller/standards/system layer (Astera Labs, Marvell, Panmnesia, Montage) — out of the device/materials mandate; routed to a software-layer fund.

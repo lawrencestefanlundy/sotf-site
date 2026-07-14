@@ -33,20 +33,20 @@ recent_mentions: []
 neighbors:
 - slug: mature-foundry-positioning
   name: Mature Foundry Positioning
-  path: /sotf-site/compute/compute-architecture/mature-foundry-positioning/
+  path: /compute/compute-architecture/mature-foundry-positioning/
   macro: compute
 - slug: chiplets
   name: Chiplets
-  path: /sotf-site/compute/compute-architecture/chiplets/
+  path: /compute/compute-architecture/chiplets/
   macro: compute
 - slug: backside-power-delivery
   name: Backside Power Delivery (BPD)
-  path: /sotf-site/compute/compute-architecture/backside-power-delivery/
+  path: /compute/compute-architecture/backside-power-delivery/
   macro: compute
 ---
 The two simultaneous supply-side constraints that define AI accelerator economics through 2027. **TSMC CoWoS-S advanced packaging** and **HBM3e high-bandwidth memory** are both running at full utilisation, both allocated almost entirely to Nvidia, AMD, Broadcom, and the hyperscaler custom-silicon programmes. Any new entrant requiring either is queueing.
 
-The bottleneck is not just a cost / lead-time problem; it's a structural moat against new AI accelerator companies, which is why bypass-the-bottleneck approaches like [Physics-Native Compute](/sotf-site/compute/non-conventional/physics-native-compute/) and [Mature Foundry Positioning](/sotf-site/compute/compute-architecture/mature-foundry-positioning/) have a window.
+The bottleneck is not just a cost / lead-time problem; it's a structural moat against new AI accelerator companies, which is why bypass-the-bottleneck approaches like [Physics-Native Compute](/compute/non-conventional/physics-native-compute/) and [Mature Foundry Positioning](/compute/compute-architecture/mature-foundry-positioning/) have a window.
 
 ## CoWoS allocation
 

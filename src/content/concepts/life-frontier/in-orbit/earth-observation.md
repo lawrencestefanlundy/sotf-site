@@ -33,34 +33,34 @@ recent_mentions: []
 neighbors:
 - slug: sar-satellites
   name: SAR Satellites (Synthetic Aperture Radar)
-  path: /sotf-site/life-frontier/in-orbit/sar-satellites/
+  path: /life-frontier/in-orbit/sar-satellites/
   macro: life-frontier
 - slug: hyperspectral-satellites
   name: Hyperspectral Satellites
-  path: /sotf-site/life-frontier/in-orbit/hyperspectral-satellites/
+  path: /life-frontier/in-orbit/hyperspectral-satellites/
   macro: life-frontier
 - slug: optical-eo
   name: Optical EO (Planet, Maxar)
-  path: /sotf-site/life-frontier/in-orbit/optical-eo/
+  path: /life-frontier/in-orbit/optical-eo/
   macro: life-frontier
 - slug: atmospheric-sensing
   name: Atmospheric Sensing
-  path: /sotf-site/life-frontier/in-orbit/atmospheric-sensing/
+  path: /life-frontier/in-orbit/atmospheric-sensing/
   macro: life-frontier
 - slug: leo-mega-constellations
   name: LEO Mega-Constellations
-  path: /sotf-site/life-frontier/in-orbit/leo-mega-constellations/
+  path: /life-frontier/in-orbit/leo-mega-constellations/
   macro: life-frontier
 ---
 Earth Observation (EO) is the collection of information about Earth's physical, chemical, and biological systems from satellite or airborne platforms. Three dominant sensing modalities define the field:
 
-**Synthetic Aperture Radar (SAR)** — active microwave (typically 1–10 GHz) illumination that creates high-resolution imagery independent of cloud cover or illumination. Penetrates vegetation; used for ship-detection, subsidence monitoring, ice mapping. See [SAR Satellites (Synthetic Aperture Radar)](/sotf-site/life-frontier/in-orbit/sar-satellites/).
+**Synthetic Aperture Radar (SAR)** — active microwave (typically 1–10 GHz) illumination that creates high-resolution imagery independent of cloud cover or illumination. Penetrates vegetation; used for ship-detection, subsidence monitoring, ice mapping. See [SAR Satellites (Synthetic Aperture Radar)](/life-frontier/in-orbit/sar-satellites/).
 
-**Optical / multispectral** — passive solar-reflectance imaging in the visible and near-infrared. Ground sampling distance (GSD) is the key resolution parameter; commercial leaders are now sub-30 cm (Planet, Maxar). See [Optical EO (Planet, Maxar)](/sotf-site/life-frontier/in-orbit/optical-eo/).
+**Optical / multispectral** — passive solar-reflectance imaging in the visible and near-infrared. Ground sampling distance (GSD) is the key resolution parameter; commercial leaders are now sub-30 cm (Planet, Maxar). See [Optical EO (Planet, Maxar)](/life-frontier/in-orbit/optical-eo/).
 
-**Hyperspectral** — measures hundreds of contiguous spectral bands (typically 400–2,500 nm), enabling material identification and greenhouse-gas (GHG) attribution that broad multispectral cannot resolve. See [Hyperspectral Satellites](/sotf-site/life-frontier/in-orbit/hyperspectral-satellites/).
+**Hyperspectral** — measures hundreds of contiguous spectral bands (typically 400–2,500 nm), enabling material identification and greenhouse-gas (GHG) attribution that broad multispectral cannot resolve. See [Hyperspectral Satellites](/life-frontier/in-orbit/hyperspectral-satellites/).
 
-The commercial EO market has been reshaped by launch cost reduction: a 100 kg LEO satellite that cost $50M to launch in 2010 costs under $3M today (Falcon 9 rideshare). This enabled small-sat constellations with daily-revisit cadences, converting EO from a government capability into a commercial data product. Atmospheric composition sensing ([Atmospheric Sensing](/sotf-site/life-frontier/in-orbit/atmospheric-sensing/)) extends the modality set to methane, CO2, and aerosol monitoring.
+The commercial EO market has been reshaped by launch cost reduction: a 100 kg LEO satellite that cost $50M to launch in 2010 costs under $3M today (Falcon 9 rideshare). This enabled small-sat constellations with daily-revisit cadences, converting EO from a government capability into a commercial data product. Atmospheric composition sensing ([Atmospheric Sensing](/life-frontier/in-orbit/atmospheric-sensing/)) extends the modality set to methane, CO2, and aerosol monitoring.
 
 **Investment relevance:** Commoditisation of raw imagery is near-complete; value has migrated to analytics, change-detection pipelines, and foundation models trained on EO data. Fundable wedges are payload technology (novel spectral range or resolution) or data-derived intelligence for specific verticals (agriculture, insurance, critical infrastructure).
 

@@ -31,46 +31,46 @@ recent_mentions: []
 neighbors:
 - slug: charge-domain-compute
   name: Charge-Domain Compute
-  path: /sotf-site/compute/non-conventional/charge-domain-compute/
+  path: /compute/non-conventional/charge-domain-compute/
   macro: compute
 - slug: sram-cim
   name: SRAM Compute-in-Memory
-  path: /sotf-site/memory/emerging-memory/sram-cim/
+  path: /memory/emerging-memory/sram-cim/
   macro: memory
 - slug: adc-bottleneck
   name: ADC Bottleneck (analog in-memory compute)
-  path: /sotf-site/compute/compute-architecture/adc-bottleneck/
+  path: /compute/compute-architecture/adc-bottleneck/
   macro: compute
 - slug: memcapacitor
   name: Memcapacitor
-  path: /sotf-site/memory/emerging-memory/memcapacitor/
+  path: /memory/emerging-memory/memcapacitor/
   macro: memory
 - slug: rram-reram
   name: RRAM / ReRAM
-  path: /sotf-site/memory/emerging-memory/rram-reram/
+  path: /memory/emerging-memory/rram-reram/
   macro: memory
 - slug: digital-in-memory-compute
   name: Digital In-Memory Compute
-  path: /sotf-site/memory/emerging-memory/digital-in-memory-compute/
+  path: /memory/emerging-memory/digital-in-memory-compute/
   macro: memory
 - slug: von-neumann-bottleneck
   name: Von Neumann Bottleneck
-  path: /sotf-site/compute/compute-architecture/von-neumann-bottleneck/
+  path: /compute/compute-architecture/von-neumann-bottleneck/
   macro: compute
 - slug: memory-wall
   name: The Memory Wall
-  path: /sotf-site/compute/compute-architecture/memory-wall/
+  path: /compute/compute-architecture/memory-wall/
   macro: compute
 ---
 Compute-in-memory where the multiply-accumulate is done by analog physics inside the memory array, not by digital logic. The array holds the weights; apply the inputs as voltages or charges and read the summed current or charge, and the matrix-vector multiply happens in one physical step (Ohm and Kirchhoff for resistive devices, charge-sharing for capacitive).
 
 ## The energy ceiling, and its tax
 
-Analog AIMC offers the highest theoretical efficiency (100+ TOPS/W claimed) because it collapses the [Von Neumann Bottleneck](/sotf-site/compute/compute-architecture/von-neumann-bottleneck/): no weight movement, the MAC happens in place. The catch is the [ADC Bottleneck (analog in-memory compute)](/sotf-site/compute/compute-architecture/adc-bottleneck/) (every analog result must be digitised, and the converters dominate area and power), plus limited effective precision (~4 to 6 bit), device variability, and conductance or charge drift. Those are the reasons analog CIM has stayed edge-bound through roughly 2029 (see **Hbm Free Inference Architectures**).
+Analog AIMC offers the highest theoretical efficiency (100+ TOPS/W claimed) because it collapses the [Von Neumann Bottleneck](/compute/compute-architecture/von-neumann-bottleneck/): no weight movement, the MAC happens in place. The catch is the [ADC Bottleneck (analog in-memory compute)](/compute/compute-architecture/adc-bottleneck/) (every analog result must be digitised, and the converters dominate area and power), plus limited effective precision (~4 to 6 bit), device variability, and conductance or charge drift. Those are the reasons analog CIM has stayed edge-bound through roughly 2029 (see **Hbm Free Inference Architectures**).
 
 ## Sub-families
 
-Contrast [Digital In-Memory Compute](/sotf-site/memory/emerging-memory/digital-in-memory-compute/) (digital MAC, no ADC tax, lower ceiling, production-ready).
+Contrast [Digital In-Memory Compute](/memory/emerging-memory/digital-in-memory-compute/) (digital MAC, no ADC tax, lower ceiling, production-ready).
 
 ## Cluster role
 

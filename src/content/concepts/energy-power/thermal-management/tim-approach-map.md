@@ -41,32 +41,32 @@ recent_mentions: []
 neighbors:
 - slug: thermal-interface-materials
   name: Thermal Interface Materials (TIM)
-  path: /sotf-site/energy-power/thermal-management/thermal-interface-materials/
+  path: /energy-power/thermal-management/thermal-interface-materials/
   macro: energy-power
 - slug: thermal-stack-map
   name: AI Thermal Stack Map (junction-to-ambient)
-  path: /sotf-site/energy-power/thermal-management/thermal-stack-map/
+  path: /energy-power/thermal-management/thermal-stack-map/
   macro: energy-power
 - slug: phase-change-materials
   name: Phase-Change Materials (Thermal)
-  path: /sotf-site/energy-power/thermal-management/phase-change-materials/
+  path: /energy-power/thermal-management/phase-change-materials/
   macro: energy-power
 - slug: graphene-thermal-films
   name: Graphene Thermal Films
-  path: /sotf-site/energy-power/thermal-management/graphene-thermal-films/
+  path: /energy-power/thermal-management/graphene-thermal-films/
   macro: energy-power
 - slug: diamond-heat-spreader
   name: Diamond Heat Spreader
-  path: /sotf-site/energy-power/thermal-management/diamond-heat-spreader/
+  path: /energy-power/thermal-management/diamond-heat-spreader/
   macro: energy-power
 - slug: advanced-packaging
   name: Advanced Packaging
-  path: /sotf-site/manufacturing/packaging/advanced-packaging/
+  path: /manufacturing/packaging/advanced-packaging/
   macro: manufacturing
 ---
 ## How this relates to the stack map (two orthogonal axes)
 
-[AI Thermal Stack Map (junction-to-ambient)](/sotf-site/energy-power/thermal-management/thermal-stack-map/) answers **where in the heat path** (L0 in-die → L8 heat reuse). This page answers **which material** fills the interface. They cross: a TIM class (say liquid metal) occupies a stack position (TIM1 die-attach). Use this page to be exhaustive about material options; use the stack map to place and compare them. The governing thesis over both is **Thermal Stack Arms Race** (the stack stays segmented).
+[AI Thermal Stack Map (junction-to-ambient)](/energy-power/thermal-management/thermal-stack-map/) answers **where in the heat path** (L0 in-die → L8 heat reuse). This page answers **which material** fills the interface. They cross: a TIM class (say liquid metal) occupies a stack position (TIM1 die-attach). Use this page to be exhaustive about material options; use the stack map to place and compare them. The governing thesis over both is **Thermal Stack Arms Race** (the stack stays segmented).
 
 **Stack-position shorthand:** TIM1 = die-attach (junction→lid); TIM1.5 = lid interface; TIM2 = spreader→cold plate. k in W/m·K (vendor-datasheet typicals, method-dependent).
 
@@ -109,8 +109,8 @@ Deployed/designed-in on bare-die GPUs/ASICs where commodity grease/pads pump out
 See frontmatter `frontier:` block.
 
 ## Reading list
-- [AI Thermal Stack Map (junction-to-ambient)](/sotf-site/energy-power/thermal-management/thermal-stack-map/) — the orthogonal axis (where in the path)
-- [Thermal Interface Materials (TIM)](/sotf-site/energy-power/thermal-management/thermal-interface-materials/) — the TIM physics/concept anchor
+- [AI Thermal Stack Map (junction-to-ambient)](/energy-power/thermal-management/thermal-stack-map/) — the orthogonal axis (where in the path)
+- [Thermal Interface Materials (TIM)](/energy-power/thermal-management/thermal-interface-materials/) — the TIM physics/concept anchor
 - **Thermal Stack Arms Race** — the governing thesis (segmented stack)
 - **2026 06 22 Tim Approaches Full Sweep** — the exhaustive source sweep (vendors, R&D, startups)
 - material slices: **Liquid Metal Tim** · **Sintered Silver Die Attach** · **Cnt Tim Billion Revenue** · **In Chip Microfluidic Cooling**

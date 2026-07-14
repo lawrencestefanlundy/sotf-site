@@ -31,26 +31,26 @@ recent_mentions: []
 neighbors:
 - slug: mlir
   name: MLIR (Multi-Level Intermediate Representation)
-  path: /sotf-site/compute/compute-architecture/mlir/
+  path: /compute/compute-architecture/mlir/
   macro: compute
 - slug: xla
   name: XLA / OpenXLA
-  path: /sotf-site/compute/compute-architecture/xla/
+  path: /compute/compute-architecture/xla/
   macro: compute
 - slug: tvm
   name: Apache TVM
-  path: /sotf-site/compute/compute-architecture/tvm/
+  path: /compute/compute-architecture/tvm/
   macro: compute
 ---
-> The **MLIR-native end-to-end compiler + runtime** of the [AI Compiler & Heterogeneous Programming-Model Landscape](/sotf-site/compute/compute-architecture/ai-compiler-landscape/) — the most direct realisation of "compile one model, run on many genuinely different backends." For diligence: of the open stacks, **IREE is the most direct competitor on the literal portability claim**, and it is now effectively **AMD-backed**, so it is free, vendor-funded, and motivated to break NVIDIA lock-in.
+> The **MLIR-native end-to-end compiler + runtime** of the [AI Compiler & Heterogeneous Programming-Model Landscape](/compute/compute-architecture/ai-compiler-landscape/) — the most direct realisation of "compile one model, run on many genuinely different backends." For diligence: of the open stacks, **IREE is the most direct competitor on the literal portability claim**, and it is now effectively **AMD-backed**, so it is free, vendor-funded, and motivated to break NVIDIA lock-in.
 
 ## Origin
 
-Built by **Google** (open-sourced ~2019-2020; exact month not pinned — flag), pronounced "eerie." Purpose: an **[MLIR (Multi-Level Intermediate Representation)](/sotf-site/compute/compute-architecture/mlir/)-based, end-to-end compiler *and* runtime** — model → MLIR → deployable artefact → execute. Original emphasis was deployment that "scales up to the datacenter and down to mobile/edge."
+Built by **Google** (open-sourced ~2019-2020; exact month not pinned — flag), pronounced "eerie." Purpose: an **[MLIR (Multi-Level Intermediate Representation)](/compute/compute-architecture/mlir/)-based, end-to-end compiler *and* runtime** — model → MLIR → deployable artefact → execute. Original emphasis was deployment that "scales up to the datacenter and down to mobile/edge."
 
 ## What it is (plain English)
 
-Where MLIR is the toolkit and [XLA / OpenXLA](/sotf-site/compute/compute-architecture/xla/)/[Apache TVM](/sotf-site/compute/compute-architecture/tvm/) are graph compilers, IREE is a *complete product built with the toolkit*: a single flow from common ML frontends (TF, PyTorch via Torch-MLIR/Turbine) to a unified IR, plus a **lightweight runtime** to run the result, supporting both ahead-of-time and just-in-time compilation. It is the "compile once, target many" pitch realised as working open-source code.
+Where MLIR is the toolkit and [XLA / OpenXLA](/compute/compute-architecture/xla/)/[Apache TVM](/compute/compute-architecture/tvm/) are graph compilers, IREE is a *complete product built with the toolkit*: a single flow from common ML frontends (TF, PyTorch via Torch-MLIR/Turbine) to a unified IR, plus a **lightweight runtime** to run the result, supporting both ahead-of-time and just-in-time compilation. It is the "compile once, target many" pitch realised as working open-source code.
 
 ## Heterogeneous-hardware angle (the key part)
 

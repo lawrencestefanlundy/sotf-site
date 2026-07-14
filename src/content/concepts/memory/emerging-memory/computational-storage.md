@@ -24,15 +24,15 @@ recent_mentions: []
 neighbors:
 - slug: nand-flash
   name: NAND Flash
-  path: /sotf-site/memory/mainstream-memory/nand-flash/
+  path: /memory/mainstream-memory/nand-flash/
   macro: memory
 - slug: cxl
   name: Compute Express Link (CXL)
-  path: /sotf-site/memory/emerging-memory/cxl/
+  path: /memory/emerging-memory/cxl/
   macro: memory
 - slug: storage-class-memory
   name: Storage-Class Memory
-  path: /sotf-site/memory/emerging-memory/storage-class-memory/
+  path: /memory/emerging-memory/storage-class-memory/
   macro: memory
 ---
 Pushing compute (filtering, search, compression) into or next to the SSD to cut data movement. Commercially a commodity NAND drive plus an FPGA/ARM controller (ScaleFlux, Pliops, NGD, Enfabrica) — a module/system layer whose value-capture is weak for a deep-tech device fund.

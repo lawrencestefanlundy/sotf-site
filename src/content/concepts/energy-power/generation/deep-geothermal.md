@@ -29,7 +29,7 @@ recent_mentions: []
 neighbors:
 - slug: closed-loop-geothermal
   name: Closed-Loop Geothermal
-  path: /sotf-site/energy-power/generation/closed-loop-geothermal/
+  path: /energy-power/generation/closed-loop-geothermal/
   macro: energy-power
 ---
 ## Physics / mechanism

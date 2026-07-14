@@ -34,22 +34,22 @@ recent_mentions: []
 neighbors:
 - slug: coherent-ising-machine
   name: Coherent Ising Machine
-  path: /sotf-site/compute/non-conventional/coherent-ising-machine/
+  path: /compute/non-conventional/coherent-ising-machine/
   macro: compute
 - slug: near-field-rf-coupling
   name: Near-Field RF Coupling (as compute substrate)
-  path: /sotf-site/compute/non-conventional/near-field-rf-coupling/
+  path: /compute/non-conventional/near-field-rf-coupling/
   macro: compute
 - slug: stochastic-ising-machines
   name: Stochastic / Ising Machines
-  path: /sotf-site/compute/non-conventional/stochastic-ising-machines/
+  path: /compute/non-conventional/stochastic-ising-machines/
   macro: compute
 - slug: fdtd-calibration-wall
   name: FDTD-to-Hardware Calibration Wall
-  path: /sotf-site/compute/non-conventional/fdtd-calibration-wall/
+  path: /compute/non-conventional/fdtd-calibration-wall/
   macro: compute
 ---
-The broader academic substrate class that contains the [Coherent Ising Machine](/sotf-site/compute/non-conventional/coherent-ising-machine/) family plus adjacent oscillator-coupling dynamics. The compute mechanism is **phase relaxation in a network of weakly-coupled nonlinear oscillators**: each oscillator settles to a phase that minimises some collective energy function defined by the coupling matrix.
+The broader academic substrate class that contains the [Coherent Ising Machine](/compute/non-conventional/coherent-ising-machine/) family plus adjacent oscillator-coupling dynamics. The compute mechanism is **phase relaxation in a network of weakly-coupled nonlinear oscillators**: each oscillator settles to a phase that minimises some collective energy function defined by the coupling matrix.
 
 Different families of coupled-oscillator network share the maths but differ in:
 1. **What oscillates** (LC tank, ring oscillator, VO₂ phase-change, spin-torque oscillator, microstrip antenna)

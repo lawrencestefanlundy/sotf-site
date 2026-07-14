@@ -28,23 +28,23 @@ recent_mentions: []
 neighbors:
 - slug: gallium-nitride
   name: Gallium Nitride
-  path: /sotf-site/energy-power/power-electronics/gallium-nitride/
+  path: /energy-power/power-electronics/gallium-nitride/
   macro: energy-power
 - slug: aluminium-gallium-nitride
   name: Aluminium Gallium Nitride
-  path: /sotf-site/materials/functional-layers/aluminium-gallium-nitride/
+  path: /materials/functional-layers/aluminium-gallium-nitride/
   macro: materials
 - slug: wide-bandgap-semiconductors
   name: Wide-Bandgap Semiconductors
-  path: /sotf-site/materials/substrates/wide-bandgap-semiconductors/
+  path: /materials/substrates/wide-bandgap-semiconductors/
   macro: materials
 - slug: compound-semiconductors
   name: Compound Semiconductors
-  path: /sotf-site/materials/substrates/compound-semiconductors/
+  path: /materials/substrates/compound-semiconductors/
   macro: materials
 - slug: mocvd-mbe
   name: MOCVD / MBE
-  path: /sotf-site/manufacturing/equipment-processes/mocvd-mbe/
+  path: /manufacturing/equipment-processes/mocvd-mbe/
   macro: manufacturing
 ---
 Indium gallium nitride (In_xGa_{1-x}N, InGaN) is a III-nitride ternary alloy formed by incorporating indium into the gallium nitride lattice. The bandgap spans approximately 0.7 eV (pure InN) to 3.4 eV (pure GaN), covering the entire visible spectrum and extending into the near-IR — a uniquely wide tunable range that underpins its dominance in solid-state lighting and displays.
@@ -53,7 +53,7 @@ InGaN quantum wells (thin InGaN layers sandwiched in GaN) are the active light-e
 
 The central materials challenge is indium inhomogeneity: indium atoms have a much larger atomic radius than gallium, and the two-element system phase-separates during MOCVD growth, creating composition fluctuations. These fluctuations are both a liability (non-uniform emission, efficiency droop at high carrier density) and — paradoxically — a partial efficiency asset at low carrier densities (carriers localise in indium-rich quantum dots that reduce non-radiative recombination). Understanding and controlling this mechanism is an active research area.
 
-InGaN micro-LEDs are a priority technology for AR/VR display panels, where their brightness and efficiency advantages over OLEDs matter at small pixel sizes (<10 μm). [Gallium Nitride](/sotf-site/energy-power/power-electronics/gallium-nitride/) is the structural parent material; [Aluminium Gallium Nitride](/sotf-site/materials/functional-layers/aluminium-gallium-nitride/) covers the complementary UV side of the nitride alloy family.
+InGaN micro-LEDs are a priority technology for AR/VR display panels, where their brightness and efficiency advantages over OLEDs matter at small pixel sizes (<10 μm). [Gallium Nitride](/energy-power/power-electronics/gallium-nitride/) is the structural parent material; [Aluminium Gallium Nitride](/materials/functional-layers/aluminium-gallium-nitride/) covers the complementary UV side of the nitride alloy family.
 
 ## Frontier
 

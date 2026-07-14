@@ -27,23 +27,23 @@ recent_mentions: []
 neighbors:
 - slug: optical-interconnect
   name: Optical Interconnect
-  path: /sotf-site/communications/optical-interconnect/optical-interconnect/
+  path: /communications/optical-interconnect/optical-interconnect/
   macro: communications
 - slug: optical-circuit-switching
   name: Optical Circuit Switching (OCS)
-  path: /sotf-site/communications/optical-interconnect/optical-circuit-switching/
+  path: /communications/optical-interconnect/optical-circuit-switching/
   macro: communications
 - slug: optical-packet-switching
   name: Optical Packet Switching (OPS)
-  path: /sotf-site/communications/optical-interconnect/optical-packet-switching/
+  path: /communications/optical-interconnect/optical-packet-switching/
   macro: communications
 - slug: co-packaged-optics
   name: Co-Packaged Optics
-  path: /sotf-site/manufacturing/packaging/co-packaged-optics/
+  path: /manufacturing/packaging/co-packaged-optics/
   macro: manufacturing
 - slug: lasers
   name: Lasers
-  path: /sotf-site/photonic-systems/light-sources/lasers/
+  path: /photonic-systems/light-sources/lasers/
   macro: photonic-systems
 ---
 *A navigation aid for placing any optical-networking deal. Written 2026-05-30. The whole field solves one problem: moving bits between chips fast without burning too much power. Almost every component is a **converter** (electrons ↔ light), a **decider** (where does this bit go?), or the **road** between them.*
@@ -53,11 +53,11 @@ neighbors:
 Data starts electrical on a chip; to send it far you put it on light and read it back.
 
 - **Laser** — the light source. Steady blank carrier (flashlight held on).
-- **Modulator** — impresses data onto the beam by flicking it billions of times/sec (the hand flicking the flashlight into Morse). The materials race (TFLN, BTO, silicon — [Lithium Niobate (TFLN)](/sotf-site/materials/functional-layers/lithium-niobate-tfln/)) is just ways to flick faster/cheaper/cooler.
+- **Modulator** — impresses data onto the beam by flicking it billions of times/sec (the hand flicking the flashlight into Morse). The materials race (TFLN, BTO, silicon — [Lithium Niobate (TFLN)](/materials/functional-layers/lithium-niobate-tfln/)) is just ways to flick faster/cheaper/cooler.
 - **Photodetector** — converts light back to electrical at the far end (reads the Morse).
 - **Transceiver** — does both directions: TRANS-mitter (laser+modulator) + re-CEIVER (detector) + DSP. The translator at each fiber end. Each conversion (**O-E-O**, optical-electrical-optical) burns power — the villain of the whole story.
   - **Pluggable** — a transceiver as a removable faceplate module (a dongle). Most of the market.
-  - **[Co-Packaged Optics](/sotf-site/manufacturing/packaging/co-packaged-optics/) (CPO)** — moves the transceiver next to the switch chip (mm not cm of electrical trace) to cut power. "CPO vs pluggables" = *where you put the converter*.
+  - **[Co-Packaged Optics](/manufacturing/packaging/co-packaged-optics/) (CPO)** — moves the transceiver next to the switch chip (mm not cm of electrical trace) to cut power. "CPO vs pluggables" = *where you put the converter*.
 - **Fiber** — the road.
 
 ## The deciders (where OCS fits)
@@ -73,4 +73,4 @@ chip → server → rack → pod → datacenter. (chip = desk, rack = office, po
 
 AI broke the old model: thousands of GPUs in lockstep, so electronic switches hit power/bandwidth walls and every conversion hurts. Two layers, two responses:
 
-**The one question that places any deal:** is it a *converter* (link layer) or a *decider* (switch layer), and at which rung of the hierarchy? That fixes who it competes with and which thesis it tests. For the switch-layer speed axis (why "MEMS is too slow"), see the spectrum table in [Optical Circuit Switching (OCS)](/sotf-site/communications/optical-interconnect/optical-circuit-switching/).
+**The one question that places any deal:** is it a *converter* (link layer) or a *decider* (switch layer), and at which rung of the hierarchy? That fixes who it competes with and which thesis it tests. For the switch-layer speed axis (why "MEMS is too slow"), see the spectrum table in [Optical Circuit Switching (OCS)](/communications/optical-interconnect/optical-circuit-switching/).

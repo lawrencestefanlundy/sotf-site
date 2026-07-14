@@ -35,23 +35,23 @@ recent_mentions: []
 neighbors:
 - slug: maskless-lithography
   name: Maskless Lithography
-  path: /sotf-site/manufacturing/lithography/maskless-lithography/
+  path: /manufacturing/lithography/maskless-lithography/
   macro: manufacturing
 - slug: directed-self-assembly
   name: Directed Self-Assembly
-  path: /sotf-site/manufacturing/lithography/directed-self-assembly/
+  path: /manufacturing/lithography/directed-self-assembly/
   macro: manufacturing
 - slug: nanoimprint-lithography
   name: Nanoimprint Lithography
-  path: /sotf-site/manufacturing/lithography/nanoimprint-lithography/
+  path: /manufacturing/lithography/nanoimprint-lithography/
   macro: manufacturing
 - slug: high-na-euv-lithography
   name: High-NA EUV Lithography
-  path: /sotf-site/manufacturing/lithography/high-na-euv-lithography/
+  path: /manufacturing/lithography/high-na-euv-lithography/
   macro: manufacturing
 - slug: photoresists
   name: Photoresists (incl. EUV resists)
-  path: /sotf-site/manufacturing/lithography/photoresists/
+  path: /manufacturing/lithography/photoresists/
   macro: manufacturing
 ---
 ## Physics / mechanism

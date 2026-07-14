@@ -24,15 +24,15 @@ recent_mentions: []
 neighbors:
 - slug: wafer-level-burn-in
   name: Wafer-Level Test & Burn-In (WLTBI)
-  path: /sotf-site/manufacturing/equipment-processes/wafer-level-burn-in/
+  path: /manufacturing/equipment-processes/wafer-level-burn-in/
   macro: manufacturing
 - slug: automated-test-equipment
   name: Automated Test Equipment (ATE)
-  path: /sotf-site/manufacturing/equipment-processes/automated-test-equipment/
+  path: /manufacturing/equipment-processes/automated-test-equipment/
   macro: manufacturing
 - slug: advanced-packaging
   name: Advanced Packaging
-  path: /sotf-site/manufacturing/packaging/advanced-packaging/
+  path: /manufacturing/packaging/advanced-packaging/
   macro: manufacturing
 ---
 Screening individual die as good BEFORE they are committed to an expensive multi-die 2.5D/3D package (one bad die scraps a package worth thousands). Made mandatory by chiplet/heterogeneous integration; a binding yield gate for AI-die packaging.

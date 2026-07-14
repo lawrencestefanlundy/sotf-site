@@ -39,27 +39,27 @@ recent_mentions: []
 neighbors:
 - slug: displays
   name: Displays
-  path: /sotf-site/photonic-systems/displays/displays/
+  path: /photonic-systems/displays/displays/
   macro: photonic-systems
 - slug: lasers
   name: Lasers
-  path: /sotf-site/photonic-systems/light-sources/lasers/
+  path: /photonic-systems/light-sources/lasers/
   macro: photonic-systems
 - slug: micro-leds
   name: Micro-LEDs
-  path: /sotf-site/photonic-systems/displays/micro-leds/
+  path: /photonic-systems/displays/micro-leds/
   macro: photonic-systems
 - slug: ar-optical-combiners
   name: 'AR optical combiners (waveguides): getting the image to the eye'
-  path: /sotf-site/photonic-systems/displays/ar-optical-combiners/
+  path: /photonic-systems/displays/ar-optical-combiners/
   macro: photonic-systems
 - slug: metasurfaces-flat-optics
   name: Metasurfaces & Flat Optics
-  path: /sotf-site/photonic-systems/metasurfaces/metasurfaces-flat-optics/
+  path: /photonic-systems/metasurfaces/metasurfaces-flat-optics/
   macro: photonic-systems
 - slug: ar-glasses-stack
   name: 'AR glasses: the component stack and competing technologies (primer)'
-  path: /sotf-site/photonic-systems/displays/ar-glasses-stack/
+  path: /photonic-systems/displays/ar-glasses-stack/
   macro: photonic-systems
 ---
 ## The taxonomy — "micro-lasers" / "laser displays" means several different things

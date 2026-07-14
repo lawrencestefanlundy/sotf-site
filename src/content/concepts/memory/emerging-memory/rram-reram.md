@@ -33,31 +33,31 @@ recent_mentions: []
 neighbors:
 - slug: in-memory-computing
   name: In-Memory Computing
-  path: /sotf-site/memory/emerging-memory/in-memory-computing/
+  path: /memory/emerging-memory/in-memory-computing/
   macro: memory
 - slug: memcapacitor
   name: Memcapacitor
-  path: /sotf-site/memory/emerging-memory/memcapacitor/
+  path: /memory/emerging-memory/memcapacitor/
   macro: memory
 - slug: analog-computing
   name: Analog Computing
-  path: /sotf-site/compute/non-conventional/analog-computing/
+  path: /compute/non-conventional/analog-computing/
   macro: compute
 - slug: edge-ai
   name: Edge AI
-  path: /sotf-site/compute/ai-edge/edge-ai/
+  path: /compute/ai-edge/edge-ai/
   macro: compute
 - slug: embedded-non-volatile-memory
   name: Embedded Non-Volatile Memory
-  path: /sotf-site/memory/emerging-memory/embedded-non-volatile-memory/
+  path: /memory/emerging-memory/embedded-non-volatile-memory/
   macro: memory
 - slug: mram
   name: MRAM (STT/SOT-MRAM)
-  path: /sotf-site/memory/mainstream-memory/mram/
+  path: /memory/mainstream-memory/mram/
   macro: memory
 - slug: pcm-phase-change-memory
   name: Phase-Change Memory (PCM)
-  path: /sotf-site/memory/emerging-memory/pcm-phase-change-memory/
+  path: /memory/emerging-memory/pcm-phase-change-memory/
   macro: memory
 ---
 ## Physics / mechanism

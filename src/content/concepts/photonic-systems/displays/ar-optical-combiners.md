@@ -29,22 +29,22 @@ recent_mentions: []
 neighbors:
 - slug: laser-display-light-engines
   name: Laser-Based Display Light Engines
-  path: /sotf-site/photonic-systems/displays/laser-display-light-engines/
+  path: /photonic-systems/displays/laser-display-light-engines/
   macro: photonic-systems
 - slug: metasurfaces-flat-optics
   name: Metasurfaces & Flat Optics
-  path: /sotf-site/photonic-systems/metasurfaces/metasurfaces-flat-optics/
+  path: /photonic-systems/metasurfaces/metasurfaces-flat-optics/
   macro: photonic-systems
 - slug: ar-glasses-stack
   name: 'AR glasses: the component stack and competing technologies (primer)'
-  path: /sotf-site/photonic-systems/displays/ar-glasses-stack/
+  path: /photonic-systems/displays/ar-glasses-stack/
   macro: photonic-systems
 - slug: displays
   name: Displays
-  path: /sotf-site/photonic-systems/displays/displays/
+  path: /photonic-systems/displays/displays/
   macro: photonic-systems
 ---
-> The combiner is component 2 of the [AR glasses: the component stack and competing technologies (primer)](/sotf-site/photonic-systems/displays/ar-glasses-stack/): it takes the image from the light engine and overlays it on the real world. This is where most of the cost, the "eye glow," the flat-vs-curved problem, and the photolithography bottleneck live. It is also the layer the **Ar Display Optics** thesis bets *against* in its standalone form (we back fusion instead). Note: this is the **free-space near-eye combiner**, a different thing from the on-chip PIC waveguides covered by **Photonics Material Class War**, despite the shared word.
+> The combiner is component 2 of the [AR glasses: the component stack and competing technologies (primer)](/photonic-systems/displays/ar-glasses-stack/): it takes the image from the light engine and overlays it on the real world. This is where most of the cost, the "eye glow," the flat-vs-curved problem, and the photolithography bottleneck live. It is also the layer the **Ar Display Optics** thesis bets *against* in its standalone form (we back fusion instead). Note: this is the **free-space near-eye combiner**, a different thing from the on-chip PIC waveguides covered by **Photonics Material Class War**, despite the shared word.
 
 ## The competing approaches
 
@@ -57,4 +57,4 @@ neighbors:
 
 ## See also
 
-**Ar Display Optics** (the thesis) · [AR glasses: the component stack and competing technologies (primer)](/sotf-site/photonic-systems/displays/ar-glasses-stack/) (the full device) · [Laser-Based Display Light Engines](/sotf-site/photonic-systems/displays/laser-display-light-engines/) (the engine that feeds the combiner) · **Metalenses** (the metasurface platform) · **Photonics Material Class War** (the *other* kind of waveguide: on-chip PIC, not AR)
+**Ar Display Optics** (the thesis) · [AR glasses: the component stack and competing technologies (primer)](/photonic-systems/displays/ar-glasses-stack/) (the full device) · [Laser-Based Display Light Engines](/photonic-systems/displays/laser-display-light-engines/) (the engine that feeds the combiner) · **Metalenses** (the metasurface platform) · **Photonics Material Class War** (the *other* kind of waveguide: on-chip PIC, not AR)

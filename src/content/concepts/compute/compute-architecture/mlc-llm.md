@@ -29,14 +29,14 @@ recent_mentions: []
 neighbors:
 - slug: tvm
   name: Apache TVM
-  path: /sotf-site/compute/compute-architecture/tvm/
+  path: /compute/compute-architecture/tvm/
   macro: compute
 - slug: mlir
   name: MLIR (Multi-Level Intermediate Representation)
-  path: /sotf-site/compute/compute-architecture/mlir/
+  path: /compute/compute-architecture/mlir/
   macro: compute
 ---
-> The [Apache TVM](/sotf-site/compute/compute-architecture/tvm/)-lineage flagship for running LLMs **natively across consumer/edge devices** — the most visible proof that the TVM stack still does something [XLA / OpenXLA](/sotf-site/compute/compute-architecture/xla/)/PyTorch-native cannot: ship an LLM to a phone or a browser tab. Part of the [AI Compiler & Heterogeneous Programming-Model Landscape](/sotf-site/compute/compute-architecture/ai-compiler-landscape/).
+> The [Apache TVM](/compute/compute-architecture/tvm/)-lineage flagship for running LLMs **natively across consumer/edge devices** — the most visible proof that the TVM stack still does something [XLA / OpenXLA](/compute/compute-architecture/xla/)/PyTorch-native cannot: ship an LLM to a phone or a browser tab. Part of the [AI Compiler & Heterogeneous Programming-Model Landscape](/compute/compute-architecture/ai-compiler-landscape/).
 
 ## What it is
 
@@ -44,7 +44,7 @@ An open-source project (`mlc-ai/mlc-llm`) built directly on **TVM Unity** (Relax
 
 ## Why it matters here
 
-It is the clearest demonstration that "compile one model, deploy to radically different and resource-constrained targets" is a real, shipped capability of the [Apache TVM](/sotf-site/compute/compute-architecture/tvm/) stack — the edge/on-device tier that [XLA / OpenXLA](/sotf-site/compute/compute-architecture/xla/) and most [MLIR (Multi-Level Intermediate Representation)](/sotf-site/compute/compute-architecture/mlir/)-based datacenter stacks ignore. For the **Callosum** competitive read, it is a reminder that the heterogeneous-deployment problem is already partially solved at the *graph-compiler + on-device runtime* layer, not green field.
+It is the clearest demonstration that "compile one model, deploy to radically different and resource-constrained targets" is a real, shipped capability of the [Apache TVM](/compute/compute-architecture/tvm/) stack — the edge/on-device tier that [XLA / OpenXLA](/compute/compute-architecture/xla/) and most [MLIR (Multi-Level Intermediate Representation)](/compute/compute-architecture/mlir/)-based datacenter stacks ignore. For the **Callosum** competitive read, it is a reminder that the heterogeneous-deployment problem is already partially solved at the *graph-compiler + on-device runtime* layer, not green field.
 
 ## Sources
 

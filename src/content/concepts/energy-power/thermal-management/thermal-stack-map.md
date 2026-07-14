@@ -46,39 +46,39 @@ recent_mentions: []
 neighbors:
 - slug: tim-approach-map
   name: TIM Approach Map (every thermal-interface-material class, in-market + R&D)
-  path: /sotf-site/energy-power/thermal-management/tim-approach-map/
+  path: /energy-power/thermal-management/tim-approach-map/
   macro: energy-power
 - slug: thermal-interface-materials
   name: Thermal Interface Materials (TIM)
-  path: /sotf-site/energy-power/thermal-management/thermal-interface-materials/
+  path: /energy-power/thermal-management/thermal-interface-materials/
   macro: energy-power
 - slug: diamond-heat-spreader
   name: Diamond Heat Spreader
-  path: /sotf-site/energy-power/thermal-management/diamond-heat-spreader/
+  path: /energy-power/thermal-management/diamond-heat-spreader/
   macro: energy-power
 - slug: graphene-thermal-films
   name: Graphene Thermal Films
-  path: /sotf-site/energy-power/thermal-management/graphene-thermal-films/
+  path: /energy-power/thermal-management/graphene-thermal-films/
   macro: energy-power
 - slug: vapor-chambers
   name: Vapor Chambers
-  path: /sotf-site/energy-power/thermal-management/vapor-chambers/
+  path: /energy-power/thermal-management/vapor-chambers/
   macro: energy-power
 - slug: heat-pipes
   name: Heat Pipes
-  path: /sotf-site/energy-power/thermal-management/heat-pipes/
+  path: /energy-power/thermal-management/heat-pipes/
   macro: energy-power
 - slug: phase-change-materials
   name: Phase-Change Materials (Thermal)
-  path: /sotf-site/energy-power/thermal-management/phase-change-materials/
+  path: /energy-power/thermal-management/phase-change-materials/
   macro: energy-power
 - slug: liquid-cooling-datacentre
   name: Liquid Cooling at Datacentre Scale
-  path: /sotf-site/energy-power/thermal-management/liquid-cooling-datacentre/
+  path: /energy-power/thermal-management/liquid-cooling-datacentre/
   macro: energy-power
 - slug: advanced-packaging
   name: Advanced Packaging
-  path: /sotf-site/manufacturing/packaging/advanced-packaging/
+  path: /manufacturing/packaging/advanced-packaging/
   macro: manufacturing
 ---
 ## Why this map exists — the comparison logic
@@ -99,7 +99,7 @@ Heat flux at the hotspot now exceeds ~1 kW/cm²; package TDP is passing 1 kW and
 
 ### L3 — TIM2 (lid/spreader → cold plate)
 - **Role:** second interface, lid to cold plate. Lower flux than TIM1, larger area.
-- **Approaches / who (incumbent-dense — the thickest, most commoditised material layer):** grease, gap pads, phase-change pads — Henkel, Dow, Shin-Etsu, Momentive, Wacker, Fujipoly, Laird, Parker/Chomerics, Honeywell/Solstice PTM, T-Global. See [Phase-Change Materials (Thermal)](/sotf-site/energy-power/thermal-management/phase-change-materials/).
+- **Approaches / who (incumbent-dense — the thickest, most commoditised material layer):** grease, gap pads, phase-change pads — Henkel, Dow, Shin-Etsu, Momentive, Wacker, Fujipoly, Laird, Parker/Chomerics, Honeywell/Solstice PTM, T-Global. See [Phase-Change Materials (Thermal)](/energy-power/thermal-management/phase-change-materials/).
 - **Capture → route:** commodity incumbent material houses. **Public/incumbent.**
 
 ### L4 — Heat acquisition (cold plate / direct-to-chip)
@@ -138,7 +138,7 @@ The cohort, placed. `L#` = primary layer (secondary in parens). Status from the 
 See frontmatter `frontier:` block.
 
 ## Reading list
-- [TIM Approach Map (every thermal-interface-material class, in-market + R&D)](/sotf-site/energy-power/thermal-management/tim-approach-map/) — the orthogonal axis: every TIM material class (in-market + R&D), the comparison catalog
+- [TIM Approach Map (every thermal-interface-material class, in-market + R&D)](/energy-power/thermal-management/tim-approach-map/) — the orthogonal axis: every TIM material class (in-market + R&D), the comparison catalog
 - **Thermal Stack Arms Race** — the thesis this map serves (no single substrate wins)
 - **Ai Power Thermal Binding** / **Datacentre Thermal Power Market** — demand spine + buy-side market
 - **Cnt Tim Billion Revenue** / **Liquid Metal Tim** / **Sintered Silver Die Attach** — the L1 material slices

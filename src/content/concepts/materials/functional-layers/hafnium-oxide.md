@@ -29,19 +29,19 @@ recent_mentions: []
 neighbors:
 - slug: ferroelectric-materials
   name: Ferroelectric Materials
-  path: /sotf-site/materials/advanced-materials/ferroelectric-materials/
+  path: /materials/advanced-materials/ferroelectric-materials/
   macro: materials
 - slug: piezoelectric
   name: Piezoelectric
-  path: /sotf-site/materials/functional-layers/piezoelectric/
+  path: /materials/functional-layers/piezoelectric/
   macro: materials
 - slug: aluminium-oxide
   name: Aluminium Oxide
-  path: /sotf-site/materials/functional-layers/aluminium-oxide/
+  path: /materials/functional-layers/aluminium-oxide/
   macro: materials
 - slug: barium-titanate
   name: Barium Titanate
-  path: /sotf-site/materials/functional-layers/barium-titanate/
+  path: /materials/functional-layers/barium-titanate/
   macro: materials
 ---
 Hafnium oxide (HfO₂) is the high-k gate dielectric that replaced SiO₂ at Intel's 45 nm node in 2007 and has been standard in advanced CMOS ever since. Its core gate-dielectric role: dielectric constant κ ~20–25 (vs SiO₂ ~3.9), enabling physically thicker films that suppress gate leakage while achieving the same sub-1 nm equivalent oxide thickness (EOT). Deposited by ALD at temperatures compatible with back-end-of-line (BEOL) processing (~300–500°C), it is thermally stable on silicon.
@@ -52,7 +52,7 @@ Ferroelectric HfO₂ enables two device families: FeFET (ferroelectric field-eff
 
 A third, earlier-stage vector: Si-doped HfO₂ has a measurable Pockels coefficient (~10–30 pm/V in research stacks), opening photonic electro-optic modulator applications on CMOS-native fab lines — directly relevant to any foundry (GF 22FDX) running both FeFET and photonics PDKs.
 
-[Ferroelectric Materials](/sotf-site/materials/advanced-materials/ferroelectric-materials/) is the parent concept covering the broader class; this page covers HfO₂'s specific CMOS-native mechanism and applications.
+[Ferroelectric Materials](/materials/advanced-materials/ferroelectric-materials/) is the parent concept covering the broader class; this page covers HfO₂'s specific CMOS-native mechanism and applications.
 
 ## Frontier
 

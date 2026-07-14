@@ -23,11 +23,11 @@ recent_mentions: []
 neighbors:
 - slug: automated-test-equipment
   name: Automated Test Equipment (ATE)
-  path: /sotf-site/manufacturing/equipment-processes/automated-test-equipment/
+  path: /manufacturing/equipment-processes/automated-test-equipment/
   macro: manufacturing
 - slug: known-good-die-test
   name: Known-Good-Die (KGD) Test
-  path: /sotf-site/manufacturing/equipment-processes/known-good-die-test/
+  path: /manufacturing/equipment-processes/known-good-die-test/
   macro: manufacturing
 ---
 The consumable electrical contact between the tester and the wafer at wafer-sort. A FormFactor + Technoprobe duopoly; MEMS/vertical probe cards (~38% of a ~$3.4-3.9B 2025 market) are the defensible, AI-die-driven high-current/fine-pitch segment. Qualification-locked to node/customer.

@@ -26,11 +26,11 @@ recent_mentions: []
 neighbors:
 - slug: pdk-process-design-kit
   name: PDK / Process Design Kit
-  path: /sotf-site/manufacturing/foundry-design/pdk-process-design-kit/
+  path: /manufacturing/foundry-design/pdk-process-design-kit/
   macro: manufacturing
 - slug: foundry
   name: Semiconductor Foundries
-  path: /sotf-site/manufacturing/foundry-design/foundry/
+  path: /manufacturing/foundry-design/foundry/
   macro: manufacturing
 ---
 ## Physics / mechanism

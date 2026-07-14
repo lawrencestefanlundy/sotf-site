@@ -31,20 +31,20 @@ recent_mentions: []
 neighbors:
 - slug: charge-domain-compute
   name: Charge-Domain Compute
-  path: /sotf-site/compute/non-conventional/charge-domain-compute/
+  path: /compute/non-conventional/charge-domain-compute/
   macro: compute
 - slug: sram-cim
   name: SRAM Compute-in-Memory
-  path: /sotf-site/memory/emerging-memory/sram-cim/
+  path: /memory/emerging-memory/sram-cim/
   macro: memory
 - slug: memcapacitor
   name: Memcapacitor
-  path: /sotf-site/memory/emerging-memory/memcapacitor/
+  path: /memory/emerging-memory/memcapacitor/
   macro: memory
 ---
 ## The mechanism
 
-Analog CIM does the multiply-accumulate (MAC) inside the memory array, in the analog domain — that part is genuinely cheap (see [Charge-Domain Compute](/sotf-site/compute/non-conventional/charge-domain-compute/)). But the analog result has to be converted back to digital before it can be used by the next layer, accumulated, or moved. That conversion is done by **analog-to-digital converters (ADCs)** at the periphery of each array column, plus **digital-to-analog converters (DACs)** to drive inputs in.
+Analog CIM does the multiply-accumulate (MAC) inside the memory array, in the analog domain — that part is genuinely cheap (see [Charge-Domain Compute](/compute/non-conventional/charge-domain-compute/)). But the analog result has to be converted back to digital before it can be used by the next layer, accumulated, or moved. That conversion is done by **analog-to-digital converters (ADCs)** at the periphery of each array column, plus **digital-to-analog converters (DACs)** to drive inputs in.
 
 ADCs are expensive in exactly the dimensions analog CIM is trying to win:
 

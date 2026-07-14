@@ -39,32 +39,32 @@ recent_mentions: []
 neighbors:
 - slug: glass-interposers
   name: Glass Interposers
-  path: /sotf-site/manufacturing/packaging/glass-interposers/
+  path: /manufacturing/packaging/glass-interposers/
   macro: manufacturing
 - slug: silicon-photonics
   name: Silicon Photonics
-  path: /sotf-site/photonic-systems/pic-platforms/silicon-photonics/
+  path: /photonic-systems/pic-platforms/silicon-photonics/
   macro: photonic-systems
 - slug: polymer-photonics
   name: Polymer Photonics
-  path: /sotf-site/photonic-systems/pic-platforms/polymer-photonics/
+  path: /photonic-systems/pic-platforms/polymer-photonics/
   macro: photonic-systems
 - slug: co-packaged-optics
   name: Co-Packaged Optics
-  path: /sotf-site/manufacturing/packaging/co-packaged-optics/
+  path: /manufacturing/packaging/co-packaged-optics/
   macro: manufacturing
 - slug: photonic-wire-bonding
   name: Photonic Wire Bonding
-  path: /sotf-site/manufacturing/packaging/photonic-wire-bonding/
+  path: /manufacturing/packaging/photonic-wire-bonding/
   macro: manufacturing
 - slug: photonic-quantum
   name: Photonic Quantum
-  path: /sotf-site/compute/quantum-computing/photonic-quantum/
+  path: /compute/quantum-computing/photonic-quantum/
   macro: compute
 ---
-*The photonic-active cousin of [Glass Interposers](/sotf-site/manufacturing/packaging/glass-interposers/). Glass-interposers = glass carrying **electrical** routing; glass-photonics = glass carrying **light**.*
+*The photonic-active cousin of [Glass Interposers](/manufacturing/packaging/glass-interposers/). Glass-interposers = glass carrying **electrical** routing; glass-photonics = glass carrying **light**.*
 
-> **Stack context:** glass photonics is **one option in Layer 1 (fibre-to-chip optical coupling)** of the PIC packaging stack, competing with polymer [Photonic Wire Bonding](/sotf-site/manufacturing/packaging/photonic-wire-bonding/) and edge/grating coupling. It is *not* a [Silicon Photonics](/sotf-site/photonic-systems/pic-platforms/silicon-photonics/) replacement — SiPh is the active platform; glass is the coupling/passive-routing medium around it. Full landscape: **2026 05 30 Pic Packaging Approaches Landscape**.
+> **Stack context:** glass photonics is **one option in Layer 1 (fibre-to-chip optical coupling)** of the PIC packaging stack, competing with polymer [Photonic Wire Bonding](/manufacturing/packaging/photonic-wire-bonding/) and edge/grating coupling. It is *not* a [Silicon Photonics](/photonic-systems/pic-platforms/silicon-photonics/) replacement — SiPh is the active platform; glass is the coupling/passive-routing medium around it. Full landscape: **2026 05 30 Pic Packaging Approaches Landscape**.
 
 ## Physics / mechanism
 
@@ -76,7 +76,7 @@ Glass photonics writes optical waveguides *inside* a glass substrate (typically 
 
 Adjacent but different category: **Akhetonics** (Germany, all-optical general-purpose compute chip, ~€8.3M raised) appears as an "Optoscribe competitor" in databases but is optical *compute*, not glass interconnect/packaging — though it *consumes* a laser-etched glass interposer + photonic wire bonding (Fraunhofer-IZM SPOC project).
 
-Contrast with the *electrical* glass-substrate primes (Corning, Absolics/SKC, AGC, Samsung, KCC, LG) tracked under [Glass Interposers](/sotf-site/manufacturing/packaging/glass-interposers/) — those carry copper, not light.
+Contrast with the *electrical* glass-substrate primes (Corning, Absolics/SKC, AGC, Samsung, KCC, LG) tracked under [Glass Interposers](/manufacturing/packaging/glass-interposers/) — those carry copper, not light.
 
 ## Evidence base
 

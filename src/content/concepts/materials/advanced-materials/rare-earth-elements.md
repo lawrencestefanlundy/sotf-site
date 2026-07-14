@@ -37,22 +37,22 @@ recent_mentions: []
 neighbors:
 - slug: magnetic-materials
   name: Magnetic Materials (NdFeB, ferrite, SMC)
-  path: /sotf-site/materials/advanced-materials/magnetic-materials/
+  path: /materials/advanced-materials/magnetic-materials/
   macro: materials
 - slug: electric-motors-drives
   name: Electric Motors & Drives
-  path: /sotf-site/energy-power/power-electronics/electric-motors-drives/
+  path: /energy-power/power-electronics/electric-motors-drives/
   macro: energy-power
 - slug: aluminium-scandium-nitride
   name: Aluminium Scandium Nitride
-  path: /sotf-site/materials/functional-layers/aluminium-scandium-nitride/
+  path: /materials/functional-layers/aluminium-scandium-nitride/
   macro: materials
 - slug: lasers
   name: Lasers
-  path: /sotf-site/photonic-systems/light-sources/lasers/
+  path: /photonic-systems/light-sources/lasers/
   macro: photonic-systems
 ---
-The 17 rare-earth elements (the 15 lanthanides plus scandium and yttrium) are, despite the name, not geologically rare — but economically concentrated, hard to separate, and structurally controlled by China. They are the substrate for [NdFeB permanent magnets](/sotf-site/materials/advanced-materials/magnetic-materials/) and a long tail of semiconductor, photonic, and optical materials. The investable position built on this concept is **Rare Earth Supply Chain**; the geopolitical roof is **Sovereignty Semi Bifurcation**.
+The 17 rare-earth elements (the 15 lanthanides plus scandium and yttrium) are, despite the name, not geologically rare — but economically concentrated, hard to separate, and structurally controlled by China. They are the substrate for [NdFeB permanent magnets](/materials/advanced-materials/magnetic-materials/) and a long tail of semiconductor, photonic, and optical materials. The investable position built on this concept is **Rare Earth Supply Chain**; the geopolitical roof is **Sovereignty Semi Bifurcation**.
 
 ## The elements that matter
 - **Light REE (LREE):** lanthanum, cerium, praseodymium, neodymium, samarium. Cheap-ish, China-dominated but more substitutable.
@@ -71,7 +71,7 @@ Per USGS (**2026 06 13 Usgs Mcs Rare Earths Supply Concentration**): China mines
 Mining and magnet high-volume-manufacturing are capital-heavy and increasingly state-funded (USA Rare Earth $1.6bn; Vulcan Elements $1.3bn, **2025 11 07 Observations 004**). The deep-tech, venture-scale layers are:
 1. **Recovery / recycling** of REE from e-waste, swarf, and end-of-life magnets — EU recycling is <1% today (**Rare Labs**, Cyclic, Noveon/Hypromag, Momentum).
 2. **Novel separation chemistry** (replacing solvent extraction) — the actual China chokepoint (Reetec, Less Common Metals).
-3. **Rare-earth-free / reduced magnets** — iron-nitride / tetrataenite class ([Niron-class](/sotf-site/materials/advanced-materials/magnetic-materials/)); the long-shot that removes the dependency.
+3. **Rare-earth-free / reduced magnets** — iron-nitride / tetrataenite class ([Niron-class](/materials/advanced-materials/magnetic-materials/)); the long-shot that removes the dependency.
 
 Full investment treatment, cohort, and predictions: ****Rare Earth Supply Chain****.
 

@@ -35,11 +35,11 @@ recent_mentions: []
 neighbors:
 - slug: lithium-niobate-tfln
   name: Lithium Niobate (TFLN)
-  path: /sotf-site/materials/functional-layers/lithium-niobate-tfln/
+  path: /materials/functional-layers/lithium-niobate-tfln/
   macro: materials
 - slug: piezoelectric
   name: Piezoelectric
-  path: /sotf-site/materials/functional-layers/piezoelectric/
+  path: /materials/functional-layers/piezoelectric/
   macro: materials
 ---
 *TFLN cousin with better thermal + lower-cost wafer supply*

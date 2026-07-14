@@ -27,26 +27,26 @@ recent_mentions: []
 neighbors:
 - slug: analog-in-memory-compute
   name: Analog In-Memory Compute
-  path: /sotf-site/memory/emerging-memory/analog-in-memory-compute/
+  path: /memory/emerging-memory/analog-in-memory-compute/
   macro: memory
 - slug: sram-cim
   name: SRAM Compute-in-Memory
-  path: /sotf-site/memory/emerging-memory/sram-cim/
+  path: /memory/emerging-memory/sram-cim/
   macro: memory
 - slug: adc-bottleneck
   name: ADC Bottleneck (analog in-memory compute)
-  path: /sotf-site/compute/compute-architecture/adc-bottleneck/
+  path: /compute/compute-architecture/adc-bottleneck/
   macro: compute
 - slug: processing-in-memory
   name: Processing-in-Memory (PIM)
-  path: /sotf-site/memory/emerging-memory/processing-in-memory/
+  path: /memory/emerging-memory/processing-in-memory/
   macro: memory
 - slug: von-neumann-bottleneck
   name: Von Neumann Bottleneck
-  path: /sotf-site/compute/compute-architecture/von-neumann-bottleneck/
+  path: /compute/compute-architecture/von-neumann-bottleneck/
   macro: compute
 ---
-Compute-in-memory that keeps the multiply-accumulate digital, performed by logic embedded in or tightly bound to the SRAM array rather than by analog summation. Because there is no analog step, it sidesteps the [ADC Bottleneck (analog in-memory compute)](/sotf-site/compute/compute-architecture/adc-bottleneck/) and the precision, variability and drift problems of [Analog In-Memory Compute](/sotf-site/memory/emerging-memory/analog-in-memory-compute/).
+Compute-in-memory that keeps the multiply-accumulate digital, performed by logic embedded in or tightly bound to the SRAM array rather than by analog summation. Because there is no analog step, it sidesteps the [ADC Bottleneck (analog in-memory compute)](/compute/compute-architecture/adc-bottleneck/) and the precision, variability and drift problems of [Analog In-Memory Compute](/memory/emerging-memory/analog-in-memory-compute/).
 
 ## The tradeoff
 

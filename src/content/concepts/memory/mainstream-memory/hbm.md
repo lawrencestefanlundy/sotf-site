@@ -45,27 +45,27 @@ recent_mentions: []
 neighbors:
 - slug: dram
   name: DRAM
-  path: /sotf-site/memory/mainstream-memory/dram/
+  path: /memory/mainstream-memory/dram/
   macro: memory
 - slug: cowos
   name: CoWoS (TSMC)
-  path: /sotf-site/manufacturing/packaging/cowos/
+  path: /manufacturing/packaging/cowos/
   macro: manufacturing
 - slug: hbm-cowos-bottleneck
   name: HBM / CoWoS Bottleneck
-  path: /sotf-site/compute/compute-architecture/hbm-cowos-bottleneck/
+  path: /compute/compute-architecture/hbm-cowos-bottleneck/
   macro: compute
 - slug: advanced-packaging
   name: Advanced Packaging
-  path: /sotf-site/manufacturing/packaging/advanced-packaging/
+  path: /manufacturing/packaging/advanced-packaging/
   macro: manufacturing
 - slug: hybrid-bonding
   name: Hybrid Bonding (Cu-Cu)
-  path: /sotf-site/manufacturing/packaging/hybrid-bonding/
+  path: /manufacturing/packaging/hybrid-bonding/
   macro: manufacturing
 - slug: tsv-through-silicon-via
   name: TSV / Through-Silicon Via
-  path: /sotf-site/manufacturing/packaging/tsv-through-silicon-via/
+  path: /manufacturing/packaging/tsv-through-silicon-via/
   macro: manufacturing
 ---
 *the memory denominator for **Hbm Bottleneck**. Research base: **2026 06 01 Hbm State Of Play** (mid-2026), **2026 05 07 Hbm Supercycle Thesis Update**.*
@@ -76,7 +76,7 @@ HBM stacks DRAM dies vertically over a base die, connects them with through-sili
 
 The load-bearing point: **bandwidth scales by bus width, not clock.** HBM3E runs a 1,024-bit-per-stack interface; HBM4 doubles I/O to 2,048-bit, which is why throughput roughly doubles at HBM4 even at modest per-pin speeds. You widen the bus rather than chase frequency.
 
-**HBM only delivers its bandwidth when co-integrated on the interposer next to the GPU, and that interposer is TSMC CoWoS.** So HBM is welded to advanced packaging: see [HBM / CoWoS Bottleneck](/sotf-site/compute/compute-architecture/hbm-cowos-bottleneck/). Multiple analysts argue CoWoS, not the memory die, is the actual gating constraint (Nvidia booked ~55% of TSMC's 2026 CoWoS capacity; lead times 50-104 weeks).
+**HBM only delivers its bandwidth when co-integrated on the interposer next to the GPU, and that interposer is TSMC CoWoS.** So HBM is welded to advanced packaging: see [HBM / CoWoS Bottleneck](/compute/compute-architecture/hbm-cowos-bottleneck/). Multiple analysts argue CoWoS, not the memory die, is the actual gating constraint (Nvidia booked ~55% of TSMC's 2026 CoWoS capacity; lead times 50-104 weeks).
 
 ## Generation roadmap
 
@@ -90,7 +90,7 @@ The load-bearing point: **bandwidth scales by bus width, not clock.** HBM3E runs
 
 The HBM4 per-stack bandwidth quoted as 2.0 / 2.8 / 3.3 TB/s is a pin-speed-quoting artefact (different vendors quote different speeds), not a contradiction. Samsung demoed 13 Gb/s → 3.3 TB/s at ISSCC Feb 2026; Micron ships >11 Gb/s → >2.8 TB/s.
 
-**At the accelerator level** the stacks aggregate: an H100 (HBM3) reads memory at 3.35 TB/s, an H200 (HBM3E) 4.8 TB/s, a Blackwell B200 (HBM3E) ~8 TB/s (NVIDIA datasheets). A DDR5 channel, by contrast, moves only tens of GB/s, which is why AI accelerators pay the HBM premium at all, and why the [The Memory Wall](/sotf-site/compute/compute-architecture/memory-wall/) binds despite it (compute has outgrown even HBM, +60,000x vs +100x bandwidth over 20yr, **2024 Gholami Ai And Memory Wall**).
+**At the accelerator level** the stacks aggregate: an H100 (HBM3) reads memory at 3.35 TB/s, an H200 (HBM3E) 4.8 TB/s, a Blackwell B200 (HBM3E) ~8 TB/s (NVIDIA datasheets). A DDR5 channel, by contrast, moves only tens of GB/s, which is why AI accelerators pay the HBM premium at all, and why the [The Memory Wall](/compute/compute-architecture/memory-wall/) binds despite it (compute has outgrown even HBM, +60,000x vs +100x bandwidth over 20yr, **2024 Gholami Ai And Memory Wall**).
 
 **The structural HBM4 shift: the passive base die becomes a LOGIC base die.** This opens customer-specific customisation (controllers, near-memory compute) and turns HBM from a commodity into a design-win business. The competitive fault line is the foundry split: **SK Hynix and Micron use TSMC (N12-class) base dies; Samsung uses its own SF4 (4nm) foundry base die.** That split is why yields diverge (below).
 
@@ -112,7 +112,7 @@ The HBM4 per-stack bandwidth quoted as 2.0 / 2.8 / 3.3 TB/s is a pin-speed-quoti
 
 **Micron — solid #3, the US/Western hedge, and a 2026 surprise.** At GTC (Mar 2026) Micron announced high-volume HBM4 36GB 12-high for Nvidia Vera Rubin (>11 Gb/s, >2.8 TB/s) and is sampling 48GB 16-high, using a low-cost internal CMOS base die. The only US-based supplier, so it carries the CHIPS-aligned structural angle (ties to **Sovereignty Semi Bifurcation**). 2026 supply fully booked; FY26 capex ~$20B; >50% gross margin. *(Divergence flag: an earlier TrendForce note framed Micron as "limited to mid-tier Rubin CPX"; Micron's own IR contradicts it. Trust the primary.)*
 
-**CXMT, the China entrant: real on wafers, not yet on bits (~70% confidence the gap holds to 2028).** SemiAnalysis models CXMT's HBM wafer capacity at 5 → 30 → 55 → 100 kwspm (2025→2028), which *"increase[s] the company's share of global HBM wafer supply from 1% in 2025 to 12% in 2028"* (**2026 06 23 Semianalysis Cxmt Set To Challenge Dram Incumbents**). The headline reads like a fourth force arriving; the yield reads otherwise. On technology readiness SemiAnalysis is explicit: *"we believe CXMT is still struggling to stabilize supply for HBM3 8-hi, with even greater challenges in 12-hi."* It models 8-hi front-end/back-end yields at ~35% / ~70%, an **overall yield of only ~25%**, gated by back-end stacking (thermal stress, die cracking, warpage, bonding defects) and a low front-end wafer-sort yield, with HBM3 attempted **without EUV**. So 12% of HBM *wafers* by 2028 ≠ 12% of competitive HBM *bits*: most of CXMT's stacks are lost or low-grade, and it remains ~3–4 years behind on the gen roadmap (HBM2E mass production targeted H1 2026, HBM3 in 2026, HBM3E in 2027). **The competitive moat the leaders hold is back-end stacking yield, and CXMT's struggle is the clearest evidence that it holds longer than the wafer-share chart implies.** The live risk is sovereignty, not displacement: even sub-scale, low-yield domestic HBM relieves Chinese-AI memory dependence (**Sovereignty Semi Bifurcation**, **Cxmt**). Full maker volumes/revenue + the wafer-capacity chart sit on [DRAM](/sotf-site/memory/mainstream-memory/dram/).
+**CXMT, the China entrant: real on wafers, not yet on bits (~70% confidence the gap holds to 2028).** SemiAnalysis models CXMT's HBM wafer capacity at 5 → 30 → 55 → 100 kwspm (2025→2028), which *"increase[s] the company's share of global HBM wafer supply from 1% in 2025 to 12% in 2028"* (**2026 06 23 Semianalysis Cxmt Set To Challenge Dram Incumbents**). The headline reads like a fourth force arriving; the yield reads otherwise. On technology readiness SemiAnalysis is explicit: *"we believe CXMT is still struggling to stabilize supply for HBM3 8-hi, with even greater challenges in 12-hi."* It models 8-hi front-end/back-end yields at ~35% / ~70%, an **overall yield of only ~25%**, gated by back-end stacking (thermal stress, die cracking, warpage, bonding defects) and a low front-end wafer-sort yield, with HBM3 attempted **without EUV**. So 12% of HBM *wafers* by 2028 ≠ 12% of competitive HBM *bits*: most of CXMT's stacks are lost or low-grade, and it remains ~3–4 years behind on the gen roadmap (HBM2E mass production targeted H1 2026, HBM3 in 2026, HBM3E in 2027). **The competitive moat the leaders hold is back-end stacking yield, and CXMT's struggle is the clearest evidence that it holds longer than the wafer-share chart implies.** The live risk is sovereignty, not displacement: even sub-scale, low-yield domestic HBM relieves Chinese-AI memory dependence (**Sovereignty Semi Bifurcation**, **Cxmt**). Full maker volumes/revenue + the wafer-capacity chart sit on [DRAM](/memory/mainstream-memory/dram/).
 
 ## Routes (how to express it)
 

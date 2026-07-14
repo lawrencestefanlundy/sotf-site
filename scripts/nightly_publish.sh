@@ -14,6 +14,10 @@
 
 set -euo pipefail
 
+# Site is served at the apex domain (stateofthefuture.io), so internal links
+# resolve from root — publish with an empty base path, not the /sotf-site preview.
+export SOTF_BASE=""
+
 SITE_DIR="$HOME/projects/sotf-site"
 LOG_DIR="$SITE_DIR/logs"
 LOG_FILE="$LOG_DIR/nightly-publish.log"

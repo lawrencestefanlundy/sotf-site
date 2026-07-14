@@ -36,15 +36,15 @@ recent_mentions: []
 neighbors:
 - slug: silicon-photonics
   name: Silicon Photonics
-  path: /sotf-site/photonic-systems/pic-platforms/silicon-photonics/
+  path: /photonic-systems/pic-platforms/silicon-photonics/
   macro: photonic-systems
 - slug: chalcogenide-glass
   name: Chalcogenide Glass
-  path: /sotf-site/materials/advanced-materials/chalcogenide-glass/
+  path: /materials/advanced-materials/chalcogenide-glass/
   macro: materials
 - slug: quantum-cascade-lasers
   name: Quantum Cascade Lasers
-  path: /sotf-site/photonic-systems/light-sources/quantum-cascade-lasers/
+  path: /photonic-systems/light-sources/quantum-cascade-lasers/
   macro: photonic-systems
 ---
 *CMOS-fab-compatible mid-IR waveguide platform for gas / breath / hyperspectral sensing*
@@ -53,7 +53,7 @@ neighbors:
 
 Pure germanium is transparent from ~1.8 μm out to ~14 μm — covering most of the molecular-fingerprint mid-IR band where silicon absorbs (silicon's transparency cuts off around 4 μm at production-grade purity). Ge-on-Si waveguides leverage standard silicon photonic fab infrastructure with Ge epitaxy as an additional process step — already mature for Ge photodetectors integrated in silicon photonics.
 
-The killer pitch: Ge-on-Si reuses the silicon-photonics ecosystem (CMOS fabs, design tools, foundries) for mid-IR applications, sidestepping the specialty-fab problem that limits chalcogenide. Combined with [Quantum Cascade Lasers](/sotf-site/photonic-systems/light-sources/quantum-cascade-lasers/) as the source side, a fully-integrated mid-IR PIC for chip-scale spectroscopy becomes feasible.
+The killer pitch: Ge-on-Si reuses the silicon-photonics ecosystem (CMOS fabs, design tools, foundries) for mid-IR applications, sidestepping the specialty-fab problem that limits chalcogenide. Combined with [Quantum Cascade Lasers](/photonic-systems/light-sources/quantum-cascade-lasers/) as the source side, a fully-integrated mid-IR PIC for chip-scale spectroscopy becomes feasible.
 
 ## Competitive landscape
 

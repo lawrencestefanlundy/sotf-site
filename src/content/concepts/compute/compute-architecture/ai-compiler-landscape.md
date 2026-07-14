@@ -44,26 +44,26 @@ recent_mentions: []
 neighbors:
 - slug: mlir
   name: MLIR (Multi-Level Intermediate Representation)
-  path: /sotf-site/compute/compute-architecture/mlir/
+  path: /compute/compute-architecture/mlir/
   macro: compute
 - slug: xla
   name: XLA / OpenXLA
-  path: /sotf-site/compute/compute-architecture/xla/
+  path: /compute/compute-architecture/xla/
   macro: compute
 - slug: tvm
   name: Apache TVM
-  path: /sotf-site/compute/compute-architecture/tvm/
+  path: /compute/compute-architecture/tvm/
   macro: compute
 - slug: iree
   name: IREE (Intermediate Representation Execution Environment)
-  path: /sotf-site/compute/compute-architecture/iree/
+  path: /compute/compute-architecture/iree/
   macro: compute
 - slug: triton
   name: Triton (OpenAI Triton)
-  path: /sotf-site/compute/compute-architecture/triton/
+  path: /compute/compute-architecture/triton/
   macro: compute
 ---
-> The competitive map for "the software layer that lets one workload run across genuinely different silicon." Built 22 Jun 2026 to ground the **Callosum** diligence question: when a founder says CUDA-like single-source languages structurally fail for heterogeneous hardware (SYCL as the cautionary tale) and "we have a new programming model," **who are they actually competing with?** The answer is not CUDA. It is this stack. Companion to **Cuda Moat** (the incumbent moat) and [Compiler as Bottleneck for Novel Hardware](/sotf-site/compute/compute-architecture/compiler-as-bottleneck-for-novel-hardware/) (why novel silicon dies without a compiler).
+> The competitive map for "the software layer that lets one workload run across genuinely different silicon." Built 22 Jun 2026 to ground the **Callosum** diligence question: when a founder says CUDA-like single-source languages structurally fail for heterogeneous hardware (SYCL as the cautionary tale) and "we have a new programming model," **who are they actually competing with?** The answer is not CUDA. It is this stack. Companion to **Cuda Moat** (the incumbent moat) and [Compiler as Bottleneck for Novel Hardware](/compute/compute-architecture/compiler-as-bottleneck-for-novel-hardware/) (why novel silicon dies without a compiler).
 
 ## The one framing that matters
 
@@ -71,20 +71,20 @@ The naive read is "CUDA vs the challengers." The correct read has **four distinc
 
 | Layer | What it is | The players | Heterogeneity it delivers |
 |---|---|---|---|
-| **IR / substrate** | Reusable compiler plumbing everything else is built on | [MLIR (Multi-Level Intermediate Representation)](/sotf-site/compute/compute-architecture/mlir/) | None by itself — it's the *toolkit* for building per-target paths |
-| **Graph compiler** | Compile a whole model graph, fuse ops, emit device code | [XLA / OpenXLA](/sotf-site/compute/compute-architecture/xla/) (OpenXLA), [Apache TVM](/sotf-site/compute/compute-architecture/tvm/) | Closest to "one graph, many silicon" — **already in frontier production** |
-| **Kernel language** | Write a kernel once at tile/block level, above raw CUDA | [Triton (OpenAI Triton)](/sotf-site/compute/compute-architecture/triton/), Mojo (**Modular**) | One kernel across GPU *family* (NVIDIA+AMD), not beyond SIMT |
-| **End-to-end + runtime** | Compiler + runtime that deploys & executes the artefact | [IREE (Intermediate Representation Execution Environment)](/sotf-site/compute/compute-architecture/iree/), MAX (**Modular**), [MLC-LLM (Machine Learning Compilation for LLMs)](/sotf-site/compute/compute-architecture/mlc-llm/), **Zml** (🇫🇷 EU, Zig/MLIR) | Functional cross-backend portability; uneven performance |
+| **IR / substrate** | Reusable compiler plumbing everything else is built on | [MLIR (Multi-Level Intermediate Representation)](/compute/compute-architecture/mlir/) | None by itself — it's the *toolkit* for building per-target paths |
+| **Graph compiler** | Compile a whole model graph, fuse ops, emit device code | [XLA / OpenXLA](/compute/compute-architecture/xla/) (OpenXLA), [Apache TVM](/compute/compute-architecture/tvm/) | Closest to "one graph, many silicon" — **already in frontier production** |
+| **Kernel language** | Write a kernel once at tile/block level, above raw CUDA | [Triton (OpenAI Triton)](/compute/compute-architecture/triton/), Mojo (**Modular**) | One kernel across GPU *family* (NVIDIA+AMD), not beyond SIMT |
+| **End-to-end + runtime** | Compiler + runtime that deploys & executes the artefact | [IREE (Intermediate Representation Execution Environment)](/compute/compute-architecture/iree/), MAX (**Modular**), [MLC-LLM (Machine Learning Compilation for LLMs)](/compute/compute-architecture/mlc-llm/), **Zml** (🇫🇷 EU, Zig/MLIR) | Functional cross-backend portability; uneven performance |
 
 ****Callosum** is claiming a fifth layer above all of these**: a runtime that *decomposes a workload and places each sub-task on the chip whose execution model fits it*, rather than trying to make one kernel/graph run everywhere. If that is the real bet, its competitive set is less this stack and more orchestration/scheduling (NVIDIA Dynamo, the clouds). If the "new programming model" is actually a new IR or kernel language, it collides head-on with the mature, well-funded, vendor-backed players below. **That ambiguity is the diligence crux.**
 
 ## The players (one line each, detail on the linked pages)
 
-- **[MLIR (Multi-Level Intermediate Representation)](/sotf-site/compute/compute-architecture/mlir/)** (Lattner, 2018-19, Google→LLVM) — the **substrate**. Dialects = composable IR levels designed for heterogeneity. Everyone serious builds on it: XLA, IREE, Triton, Mojo, plus vendor stacks (AMD AIE, Tenstorrent tt-mlir, SOPHGO). A new programming model would almost certainly *build on* MLIR, not compete with it. Framing MLIR as a rival is a founder red flag.
-- **[XLA / OpenXLA](/sotf-site/compute/compute-architecture/xla/) / OpenXLA** (Google, ~2017; OpenXLA 2023) — the **graph compiler** and the real incumbent for "one graph, many silicon." Compiles JAX/TF/PyTorch to TPU, NVIDIA, AMD, Apple, Trainium. **XLA:TPU is what lets Google and Anthropic train frontier models without NVIDIA** (Anthropic's ~1M-TPU / multi-GW bet runs through it). The asterisks: performance portability is uneven (TPU excellent, GPU good, rest patchy) and the best backend (TPU) is closed and Google-owned. **Largely already "the CUDA of heterogeneous compute" at the graph layer** — its only hard limit is exotic non-matmul silicon.
-- **[Apache TVM](/sotf-site/compute/compute-architecture/tvm/)** (Tianqi Chen, UW, 2017; Apache) — the **breadth/edge compiler**. Distinctive for **search-based auto-tuning** (AutoTVM/Ansor — "ML to optimise ML compilation") and uniquely deep **edge/MCU** reach (microTVM) plus **BYOC** ("Bring Your Own Codegen"), the standard on-ramp for novel silicon (Tenstorrent `tt-tvm`, Qualcomm Hexagon). Still maintained (v0.25, Jun 2025) but mindshare for *new* compilers has moved to MLIR-based stacks. [MLC-LLM (Machine Learning Compilation for LLMs)](/sotf-site/compute/compute-architecture/mlc-llm/) is its on-device-LLM flagship.
-- **[IREE (Intermediate Representation Execution Environment)](/sotf-site/compute/compute-architecture/iree/)** (Google, ~2019; LF AI & Data) — the **MLIR-native end-to-end compiler+runtime**, the most direct realisation of "compile one model → run on CPU/GPU via Vulkan/CUDA/ROCm/Metal/WebGPU." Now effectively **AMD-backed** (via the Nod.ai/SHARK acquisition; AMD ran an IREE-based SDXL MLPerf submission Apr 2025). The closest open, vendor-backed competitor on the literal portability claim.
-- **[Triton (OpenAI Triton)](/sotf-site/compute/compute-architecture/triton/)** (Philippe Tillet, 2019; OpenAI) — the **kernel language**. Tile-over-SIMT, the default kernel backend in PyTorch 2.x (`torch.compile`→TorchInductor emits Triton). Runs on NVIDIA + AMD + experimental Intel/CPU. **NVIDIA shipped a CUDA Tile-IR backend for Triton (30 Jan 2026)** — the incumbent endorsing the higher-level model and pulling it into its orbit. Partially *refutes* the "single-source fails across hardware" claim, but only *within* the GPU/SIMT family.
+- **[MLIR (Multi-Level Intermediate Representation)](/compute/compute-architecture/mlir/)** (Lattner, 2018-19, Google→LLVM) — the **substrate**. Dialects = composable IR levels designed for heterogeneity. Everyone serious builds on it: XLA, IREE, Triton, Mojo, plus vendor stacks (AMD AIE, Tenstorrent tt-mlir, SOPHGO). A new programming model would almost certainly *build on* MLIR, not compete with it. Framing MLIR as a rival is a founder red flag.
+- **[XLA / OpenXLA](/compute/compute-architecture/xla/) / OpenXLA** (Google, ~2017; OpenXLA 2023) — the **graph compiler** and the real incumbent for "one graph, many silicon." Compiles JAX/TF/PyTorch to TPU, NVIDIA, AMD, Apple, Trainium. **XLA:TPU is what lets Google and Anthropic train frontier models without NVIDIA** (Anthropic's ~1M-TPU / multi-GW bet runs through it). The asterisks: performance portability is uneven (TPU excellent, GPU good, rest patchy) and the best backend (TPU) is closed and Google-owned. **Largely already "the CUDA of heterogeneous compute" at the graph layer** — its only hard limit is exotic non-matmul silicon.
+- **[Apache TVM](/compute/compute-architecture/tvm/)** (Tianqi Chen, UW, 2017; Apache) — the **breadth/edge compiler**. Distinctive for **search-based auto-tuning** (AutoTVM/Ansor — "ML to optimise ML compilation") and uniquely deep **edge/MCU** reach (microTVM) plus **BYOC** ("Bring Your Own Codegen"), the standard on-ramp for novel silicon (Tenstorrent `tt-tvm`, Qualcomm Hexagon). Still maintained (v0.25, Jun 2025) but mindshare for *new* compilers has moved to MLIR-based stacks. [MLC-LLM (Machine Learning Compilation for LLMs)](/compute/compute-architecture/mlc-llm/) is its on-device-LLM flagship.
+- **[IREE (Intermediate Representation Execution Environment)](/compute/compute-architecture/iree/)** (Google, ~2019; LF AI & Data) — the **MLIR-native end-to-end compiler+runtime**, the most direct realisation of "compile one model → run on CPU/GPU via Vulkan/CUDA/ROCm/Metal/WebGPU." Now effectively **AMD-backed** (via the Nod.ai/SHARK acquisition; AMD ran an IREE-based SDXL MLPerf submission Apr 2025). The closest open, vendor-backed competitor on the literal portability claim.
+- **[Triton (OpenAI Triton)](/compute/compute-architecture/triton/)** (Philippe Tillet, 2019; OpenAI) — the **kernel language**. Tile-over-SIMT, the default kernel backend in PyTorch 2.x (`torch.compile`→TorchInductor emits Triton). Runs on NVIDIA + AMD + experimental Intel/CPU. **NVIDIA shipped a CUDA Tile-IR backend for Triton (30 Jan 2026)** — the incumbent endorsing the higher-level model and pulling it into its orbit. Partially *refutes* the "single-source fails across hardware" claim, but only *within* the GPU/SIMT family.
 - **Mojo / MAX (**Modular**)** — the **best-funded direct attempt** at a new programming model for AI hardware. Chris Lattner (created LLVM + MLIR) + Tim Davis. **$380M total raised, last round $250M at $1.6B (Sept 2025)**. Mojo (MLIR-based Python-superset) + MAX (inference platform) now run unmodified kernels across **NVIDIA + AMD + Apple GPUs** — delivered, not vapour. But: nothing beyond the GPU family, compiler still closed (open-source promised end-2026), 1.0 not yet shipped, no independent revenue, CUDA's moat intact.
 
 ## What the precedents teach (the investor lesson)
@@ -108,11 +108,11 @@ Two hard datapoints bound any "new programming model for heterogeneous compute" 
 ## Connections
 
 - Incumbent moat being attacked: **Cuda Moat**
-- Why novel silicon needs this layer at all: [Compiler as Bottleneck for Novel Hardware](/sotf-site/compute/compute-architecture/compiler-as-bottleneck-for-novel-hardware/)
+- Why novel silicon needs this layer at all: [Compiler as Bottleneck for Novel Hardware](/compute/compute-architecture/compiler-as-bottleneck-for-novel-hardware/)
 - The live deal this map serves: **Callosum** · its competitive thread: **2026 06 22 Compute As Racks Routing Callosum**
 - The distinct/more-fundamental adjacent bet: **Ai Kernel Synthesis** (auto-generating the fast kernels — the layer that makes any of the above actually fast; complement to Callosum)
 - Theses it touches: **Compute Specialisation Equilibrium** (the porting/software tax is the historical brake) · **Agents Need New Silicon** · **Ai Compute Toll Booths**
-- Detail pages: [MLIR (Multi-Level Intermediate Representation)](/sotf-site/compute/compute-architecture/mlir/) · [XLA / OpenXLA](/sotf-site/compute/compute-architecture/xla/) · [Apache TVM](/sotf-site/compute/compute-architecture/tvm/) · [IREE (Intermediate Representation Execution Environment)](/sotf-site/compute/compute-architecture/iree/) · [Triton (OpenAI Triton)](/sotf-site/compute/compute-architecture/triton/) · **Modular** · **Octoml**
+- Detail pages: [MLIR (Multi-Level Intermediate Representation)](/compute/compute-architecture/mlir/) · [XLA / OpenXLA](/compute/compute-architecture/xla/) · [Apache TVM](/compute/compute-architecture/tvm/) · [IREE (Intermediate Representation Execution Environment)](/compute/compute-architecture/iree/) · [Triton (OpenAI Triton)](/compute/compute-architecture/triton/) · **Modular** · **Octoml**
 
 ## Confidence flags
 

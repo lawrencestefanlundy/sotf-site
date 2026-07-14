@@ -67,40 +67,40 @@ recent_mentions:
 neighbors:
 - slug: wide-bandgap-semiconductors
   name: Wide-Bandgap Semiconductors
-  path: /sotf-site/materials/substrates/wide-bandgap-semiconductors/
+  path: /materials/substrates/wide-bandgap-semiconductors/
   macro: materials
 - slug: silicon-carbide
   name: Silicon Carbide
-  path: /sotf-site/materials/substrates/silicon-carbide/
+  path: /materials/substrates/silicon-carbide/
   macro: materials
 - slug: aluminium-gallium-nitride
   name: Aluminium Gallium Nitride
-  path: /sotf-site/materials/functional-layers/aluminium-gallium-nitride/
+  path: /materials/functional-layers/aluminium-gallium-nitride/
   macro: materials
 - slug: indium-gallium-nitride
   name: Indium Gallium Nitride
-  path: /sotf-site/materials/functional-layers/indium-gallium-nitride/
+  path: /materials/functional-layers/indium-gallium-nitride/
   macro: materials
 - slug: power-electronics
   name: Power Electronics
-  path: /sotf-site/energy-power/power-electronics/power-electronics/
+  path: /energy-power/power-electronics/power-electronics/
   macro: energy-power
 - slug: compound-semiconductors
   name: Compound Semiconductors
-  path: /sotf-site/materials/substrates/compound-semiconductors/
+  path: /materials/substrates/compound-semiconductors/
   macro: materials
 - slug: mocvd-mbe
   name: MOCVD / MBE
-  path: /sotf-site/manufacturing/equipment-processes/mocvd-mbe/
+  path: /manufacturing/equipment-processes/mocvd-mbe/
   macro: manufacturing
 ---
-Gallium nitride (GaN) is a III-nitride wide-bandgap semiconductor with a direct bandgap of 3.4 eV. It is the parent binary compound of a family of alloys spanning [Aluminium Gallium Nitride](/sotf-site/materials/functional-layers/aluminium-gallium-nitride/) (AlGaN, wider bandgap) and [Indium Gallium Nitride](/sotf-site/materials/functional-layers/indium-gallium-nitride/) (InGaN, narrower bandgap), enabling bandgap engineering across UV, visible, and near-IR wavelengths as well as tailored electronic properties.
+Gallium nitride (GaN) is a III-nitride wide-bandgap semiconductor with a direct bandgap of 3.4 eV. It is the parent binary compound of a family of alloys spanning [Aluminium Gallium Nitride](/materials/functional-layers/aluminium-gallium-nitride/) (AlGaN, wider bandgap) and [Indium Gallium Nitride](/materials/functional-layers/indium-gallium-nitride/) (InGaN, narrower bandgap), enabling bandgap engineering across UV, visible, and near-IR wavelengths as well as tailored electronic properties.
 
 In power electronics, GaN's key mechanism is the AlGaN/GaN heterojunction: the spontaneous and piezoelectric polarisation mismatch at the interface creates a two-dimensional electron gas (2DEG) without intentional doping, yielding electron sheet densities ~10¹³ cm⁻² and mobilities ~2000 cm²/V·s — far exceeding silicon. This makes lateral GaN HEMTs (high-electron-mobility transistors) the dominant device for sub-650V high-frequency switching. They are the enabling device for the PSU miniaturisation driving AI datacentre rack density and USB-C fast chargers. The thesis **Gan Power Datacentre** tracks GaN's expected capture of ≥30% of AI datacentre PSU stages by 2028.
 
 In RF, GaN-on-SiC is the standard for 5G base station power amplifiers, defence radar (AESA arrays), and satellite communications, where power density and thermal handling at microwave frequencies exceed anything silicon LDMOS achieves.
 
-GaN is grown by MOCVD (see [MOCVD / MBE](/sotf-site/manufacturing/equipment-processes/mocvd-mbe/)) on SiC substrates (highest performance), silicon (lowest cost), or native GaN boules. The SiC substrate path benefits from the thermal extraction advantage described in [Silicon Carbide](/sotf-site/materials/substrates/silicon-carbide/).
+GaN is grown by MOCVD (see [MOCVD / MBE](/manufacturing/equipment-processes/mocvd-mbe/)) on SiC substrates (highest performance), silicon (lowest cost), or native GaN boules. The SiC substrate path benefits from the thermal extraction advantage described in [Silicon Carbide](/materials/substrates/silicon-carbide/).
 
 ## Frontier
 

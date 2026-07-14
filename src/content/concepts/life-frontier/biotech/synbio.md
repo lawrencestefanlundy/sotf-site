@@ -35,26 +35,26 @@ recent_mentions: []
 neighbors:
 - slug: dna-synthesis
   name: DNA Synthesis (Twist, Ansa, Telesis)
-  path: /sotf-site/life-frontier/biotech/dna-synthesis/
+  path: /life-frontier/biotech/dna-synthesis/
   macro: life-frontier
 - slug: cell-free-systems
   name: Cell-Free Systems
-  path: /sotf-site/life-frontier/biotech/cell-free-systems/
+  path: /life-frontier/biotech/cell-free-systems/
   macro: life-frontier
 - slug: crispr-gene-editing
   name: CRISPR / Gene Editing
-  path: /sotf-site/life-frontier/biotech/crispr-gene-editing/
+  path: /life-frontier/biotech/crispr-gene-editing/
   macro: life-frontier
 - slug: biomaterials
   name: Biomaterials
-  path: /sotf-site/life-frontier/biotech/biomaterials/
+  path: /life-frontier/biotech/biomaterials/
   macro: life-frontier
 ---
-Synthetic biology is the engineering discipline that applies design principles drawn from electrical and mechanical engineering — modularity, standardisation, abstraction — to biological systems. The core practice is **design-build-test-learn (DBTL)** cycling: a genetic circuit or metabolic pathway is designed in silico (using parts registries, pathway models), built via [DNA Synthesis (Twist, Ansa, Telesis)](/sotf-site/life-frontier/biotech/dna-synthesis/) or CRISPR-mediated genome editing ([CRISPR / Gene Editing](/sotf-site/life-frontier/biotech/crispr-gene-editing/)), expressed in a chassis organism or [Cell-Free Systems](/sotf-site/life-frontier/biotech/cell-free-systems/) platform, and characterised by sequencing and metabolomics before the next cycle.
+Synthetic biology is the engineering discipline that applies design principles drawn from electrical and mechanical engineering — modularity, standardisation, abstraction — to biological systems. The core practice is **design-build-test-learn (DBTL)** cycling: a genetic circuit or metabolic pathway is designed in silico (using parts registries, pathway models), built via [DNA Synthesis (Twist, Ansa, Telesis)](/life-frontier/biotech/dna-synthesis/) or CRISPR-mediated genome editing ([CRISPR / Gene Editing](/life-frontier/biotech/crispr-gene-editing/)), expressed in a chassis organism or [Cell-Free Systems](/life-frontier/biotech/cell-free-systems/) platform, and characterised by sequencing and metabolomics before the next cycle.
 
-The enabling layer is cheap, rapid DNA synthesis (cost per base pair has fallen ~10⁶× since 2000) combined with increasingly predictive metabolic models. Applications span: **industrial biomanufacturing** (fermentation-derived chemicals, fuels, materials — including [Biomaterials](/sotf-site/life-frontier/biotech/biomaterials/) precursors such as PHA, spider silk, lycopene); **therapeutic biologics** (engineered cell therapies, oncolytic viruses, protein drugs); **biosensors** (engineered organisms for environmental detection); and **food tech** (precision fermentation for alternative proteins).
+The enabling layer is cheap, rapid DNA synthesis (cost per base pair has fallen ~10⁶× since 2000) combined with increasingly predictive metabolic models. Applications span: **industrial biomanufacturing** (fermentation-derived chemicals, fuels, materials — including [Biomaterials](/life-frontier/biotech/biomaterials/) precursors such as PHA, spider silk, lycopene); **therapeutic biologics** (engineered cell therapies, oncolytic viruses, protein drugs); **biosensors** (engineered organisms for environmental detection); and **food tech** (precision fermentation for alternative proteins).
 
-The production substrate for the KB company **Synbio Technologies** is DNA synthesis services enabling third-party synbio programmes. Closely related concepts: [DNA Synthesis (Twist, Ansa, Telesis)](/sotf-site/life-frontier/biotech/dna-synthesis/), [Cell-Free Systems](/sotf-site/life-frontier/biotech/cell-free-systems/), [CRISPR / Gene Editing](/sotf-site/life-frontier/biotech/crispr-gene-editing/), and the output-material concepts [Biomaterials](/sotf-site/life-frontier/biotech/biomaterials/) and [Biomaterials](/sotf-site/life-frontier/biotech/biomaterials/).
+The production substrate for the KB company **Synbio Technologies** is DNA synthesis services enabling third-party synbio programmes. Closely related concepts: [DNA Synthesis (Twist, Ansa, Telesis)](/life-frontier/biotech/dna-synthesis/), [Cell-Free Systems](/life-frontier/biotech/cell-free-systems/), [CRISPR / Gene Editing](/life-frontier/biotech/crispr-gene-editing/), and the output-material concepts [Biomaterials](/life-frontier/biotech/biomaterials/) and [Biomaterials](/life-frontier/biotech/biomaterials/).
 
 ## Frontier
 

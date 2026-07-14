@@ -26,32 +26,32 @@ recent_mentions: []
 neighbors:
 - slug: feram
   name: FeRAM (Ferroelectric)
-  path: /sotf-site/memory/mainstream-memory/feram/
+  path: /memory/mainstream-memory/feram/
   macro: memory
 - slug: rram-reram
   name: RRAM / ReRAM
-  path: /sotf-site/memory/emerging-memory/rram-reram/
+  path: /memory/emerging-memory/rram-reram/
   macro: memory
 - slug: charge-domain-compute
   name: Charge-Domain Compute
-  path: /sotf-site/compute/non-conventional/charge-domain-compute/
+  path: /compute/non-conventional/charge-domain-compute/
   macro: compute
 - slug: in-memory-computing
   name: In-Memory Computing
-  path: /sotf-site/memory/emerging-memory/in-memory-computing/
+  path: /memory/emerging-memory/in-memory-computing/
   macro: memory
 - slug: embedded-non-volatile-memory
   name: Embedded Non-Volatile Memory
-  path: /sotf-site/memory/emerging-memory/embedded-non-volatile-memory/
+  path: /memory/emerging-memory/embedded-non-volatile-memory/
   macro: memory
 ---
-A field-effect transistor whose gate stack includes a ferroelectric layer (modern devices use doped hafnium oxide). The polarisation state of the ferroelectric shifts the transistor threshold voltage, so the device itself stores a non-volatile bit (or multiple levels), switched by an electric field at very low energy. Distinct from [FeRAM (Ferroelectric)](/sotf-site/memory/mainstream-memory/feram/), which stores charge in a separate ferroelectric capacitor.
+A field-effect transistor whose gate stack includes a ferroelectric layer (modern devices use doped hafnium oxide). The polarisation state of the ferroelectric shifts the transistor threshold voltage, so the device itself stores a non-volatile bit (or multiple levels), switched by an electric field at very low energy. Distinct from [FeRAM (Ferroelectric)](/memory/mainstream-memory/feram/), which stores charge in a separate ferroelectric capacitor.
 
 ## Why it matters for compute
 
 ## Limitations
 
-Endurance (polarisation fatigue over write cycles), retention, device-to-device variability, and scaling of the ferroelectric film thickness. These are why FeFET, like the rest of [Analog In-Memory Compute](/sotf-site/memory/emerging-memory/analog-in-memory-compute/), is not yet a settled volume technology.
+Endurance (polarisation fatigue over write cycles), retention, device-to-device variability, and scaling of the ferroelectric film thickness. These are why FeFET, like the rest of [Analog In-Memory Compute](/memory/emerging-memory/analog-in-memory-compute/), is not yet a settled volume technology.
 
 ## Cluster role
 

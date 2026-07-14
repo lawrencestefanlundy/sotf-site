@@ -38,22 +38,22 @@ recent_mentions: []
 neighbors:
 - slug: spatial-light-modulators
   name: Spatial Light Modulators (SLMs)
-  path: /sotf-site/photonic-systems/modulators-detectors/spatial-light-modulators/
+  path: /photonic-systems/modulators-detectors/spatial-light-modulators/
   macro: photonic-systems
 - slug: holographic-volumetric-displays
   name: Holographic / Volumetric Displays
-  path: /sotf-site/photonic-systems/displays/holographic-volumetric-displays/
+  path: /photonic-systems/displays/holographic-volumetric-displays/
   macro: photonic-systems
 - slug: free-space-photonics
   name: Free-Space Photonics
-  path: /sotf-site/communications/fibre-and-free-space/free-space-photonics/
+  path: /communications/fibre-and-free-space/free-space-photonics/
   macro: communications
 - slug: metasurfaces-flat-optics
   name: Metasurfaces & Flat Optics
-  path: /sotf-site/photonic-systems/metasurfaces/metasurfaces-flat-optics/
+  path: /photonic-systems/metasurfaces/metasurfaces-flat-optics/
   macro: photonic-systems
 ---
-*Architecture class within [ONNs](/sotf-site/photonic-systems/photonic-compute/optical-neural-networks/).*
+*Architecture class within [ONNs](/photonic-systems/photonic-compute/optical-neural-networks/).*
 
 ## Physics / mechanism
 

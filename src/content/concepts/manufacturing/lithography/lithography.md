@@ -19,7 +19,6 @@ sources:
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
 - '[[2026-06-23-semidoped-daily-update]]'
-- '[[2026-06-11-semianalysis-intel-should-raise-capital]]'
 frontier:
 - Lithography as three-way optimisation (throughput / feature size / feature complexity) — does any single tool win on all three, or does the market remain a portfolio of specialised tools each winning on two?
 - Multi-material patterning at production volume — does a tool emerge that patterns dissimilar materials in the same step, or does multi-material foundry remain a retrofit (transfer printing, hybrid integration, post-processing)?
@@ -29,7 +28,7 @@ last_updated: '2026-05-08'
 tags:
 - concept
 - technology
-mention_count: 150
+mention_count: 151
 descendants:
 - computational-lithography
 - directed-self-assembly
@@ -48,8 +47,8 @@ descendants:
 - x-ray-lithography
 - xolography
 last_reorg_date: '2026-05-13'
-sources_7d: 5
-sources_30d: 16
+sources_7d: 6
+sources_30d: 17
 recent_mentions:
 - slug: 2026-07-09-in-die-microfluidic-cooling-sprint
   title: In-die microfluidic cooling — cluster research sprint
@@ -115,7 +114,7 @@ Lithography is the patterning process that defines transistor features, intercon
 
 Lithography is the most important machine you've probably never heard of. Every chip in every device you own was patterned by one. The principle: silicon wafer + photoresist + UV through a stencil (photomask) + dissolve/harden + etch. Stack 50-100 patterning steps and at the end you have a chip. *No lithography, no chips. No chips, no computing.*
 
-The market for these machines is a Dutch monopoly. ASML's EUV scanners cost north of $300M each. TSMC, Samsung, and Intel buy almost all of them. **The entire global compute supply chain runs through one car park in Veldhoven.** Those machines are all optimised end-to-end for shrinking transistors. Photonics needs the opposite shape of problem: larger structures sized to the wavelength of light (hundreds of nanometres rather than tens), different materials beyond silicon, three-dimensional geometries. The whole optimisation surface flips. That's the gap that opens space for specialty-lithography startups (see [Maskless Lithography](/sotf-site/manufacturing/lithography/maskless-lithography/), [Two-Photon Polymerization](/sotf-site/manufacturing/lithography/two-photon-polymerization/), [Xolography](/sotf-site/manufacturing/lithography/xolography/)).
+The market for these machines is a Dutch monopoly. ASML's EUV scanners cost north of $300M each. TSMC, Samsung, and Intel buy almost all of them. **The entire global compute supply chain runs through one car park in Veldhoven.** Those machines are all optimised end-to-end for shrinking transistors. Photonics needs the opposite shape of problem: larger structures sized to the wavelength of light (hundreds of nanometres rather than tens), different materials beyond silicon, three-dimensional geometries. The whole optimisation surface flips. That's the gap that opens space for specialty-lithography startups (see [Maskless Lithography](/manufacturing/lithography/maskless-lithography/), [Two-Photon Polymerization](/manufacturing/lithography/two-photon-polymerization/), [Xolography](/manufacturing/lithography/xolography/)).
 
 ## Frontier (open questions)
 

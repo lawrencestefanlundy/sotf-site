@@ -34,38 +34,38 @@ recent_mentions: []
 neighbors:
 - slug: advanced-packaging
   name: Advanced Packaging
-  path: /sotf-site/manufacturing/packaging/advanced-packaging/
+  path: /manufacturing/packaging/advanced-packaging/
   macro: manufacturing
 - slug: pic-packaging-stack
   name: PIC Packaging Stack
-  path: /sotf-site/manufacturing/packaging/pic-packaging-stack/
+  path: /manufacturing/packaging/pic-packaging-stack/
   macro: manufacturing
 - slug: co-packaged-optics
   name: Co-Packaged Optics
-  path: /sotf-site/manufacturing/packaging/co-packaged-optics/
+  path: /manufacturing/packaging/co-packaged-optics/
   macro: manufacturing
 - slug: hybrid-bonding
   name: Hybrid Bonding (Cu-Cu)
-  path: /sotf-site/manufacturing/packaging/hybrid-bonding/
+  path: /manufacturing/packaging/hybrid-bonding/
   macro: manufacturing
 - slug: cowos
   name: CoWoS (TSMC)
-  path: /sotf-site/manufacturing/packaging/cowos/
+  path: /manufacturing/packaging/cowos/
   macro: manufacturing
 - slug: fiber-to-chip-coupling
   name: Fibre-to-Chip Coupling
-  path: /sotf-site/manufacturing/packaging/fiber-to-chip-coupling/
+  path: /manufacturing/packaging/fiber-to-chip-coupling/
   macro: manufacturing
 ---
-*The **back-end** of the chip supply chain — the firms that take finished wafers and turn them into packaged, tested chips. Archetype #5 in **2026 05 30 Photonic Packaging Acquirer Map**; the assembly layer of the [PIC Packaging Stack](/sotf-site/manufacturing/packaging/pic-packaging-stack/).*
+*The **back-end** of the chip supply chain — the firms that take finished wafers and turn them into packaged, tested chips. Archetype #5 in **2026 05 30 Photonic Packaging Acquirer Map**; the assembly layer of the [PIC Packaging Stack](/manufacturing/packaging/pic-packaging-stack/).*
 
 ## What an OSAT is
 
-A fab (TSMC, GF, Intel) makes the wafer — the **front-end**. An **OSAT** does everything after: dicing the wafer, **assembly** (putting die into/onto a package — wire-bond, flip-chip, fan-out, 2.5D/3D stacking), and **test**. They are contract manufacturers — the "foundry of the back-end." Historically commodity/low-margin, but the value is migrating here as Moore's-Law scaling stalls and performance comes from **[Advanced Packaging](/sotf-site/manufacturing/packaging/advanced-packaging/)** instead (chiplets, HBM stacks, CPO).
+A fab (TSMC, GF, Intel) makes the wafer — the **front-end**. An **OSAT** does everything after: dicing the wafer, **assembly** (putting die into/onto a package — wire-bond, flip-chip, fan-out, 2.5D/3D stacking), and **test**. They are contract manufacturers — the "foundry of the back-end." Historically commodity/low-margin, but the value is migrating here as Moore's-Law scaling stalls and performance comes from **[Advanced Packaging](/manufacturing/packaging/advanced-packaging/)** instead (chiplets, HBM stacks, CPO).
 
 Two structural facts to hold:
 1. **Geography:** Taiwan + China dominate. The big-3 (ASE, Amkor, JCET) hold ~55-60% of the merchant OSAT market; top-10 combined ≈ **$41.6B (2024)**, and Chinese OSATs (JCET, HT-Tech, TongFu) are gaining double-digit share.
-2. **The IDM-foundry squeeze:** **TSMC captured the highest-value tier itself** — leading-edge 2.5D ([CoWoS (TSMC)](/sotf-site/manufacturing/packaging/cowos/)) and 3D (SoIC) for AI accelerators (Nvidia, AMD) is done in-house by TSMC, *not* outsourced to OSATs. So OSATs are pushed into fan-out, flip-chip, test, and TSMC-overflow capacity. This is the defining tension of the sector.
+2. **The IDM-foundry squeeze:** **TSMC captured the highest-value tier itself** — leading-edge 2.5D ([CoWoS (TSMC)](/manufacturing/packaging/cowos/)) and 3D (SoIC) for AI accelerators (Nvidia, AMD) is done in-house by TSMC, *not* outsourced to OSATs. So OSATs are pushed into fan-out, flip-chip, test, and TSMC-overflow capacity. This is the defining tension of the sector.
 
 ## The roster (2024 revenue, rankings through 2025)
 
@@ -89,7 +89,7 @@ Two structural facts to hold:
 | **Specialist photonic-assembly houses** | **PHIX** (🇳🇱), Tyndall, **Fraunhofer IZM**, Silitronics | Western pure-play photonic-assembly *foundries* |
 | **Assembly/test equipment** | **ficonTEC** (active-alignment machines), Vanguard | the *tooling* the others run |
 
-The bottleneck across all of them is **fibre-attach / active optical alignment** ([Fibre-to-Chip Coupling](/sotf-site/manufacturing/packaging/fiber-to-chip-coupling/)) — a different skill from electrical OSAT, done on ficonTEC machines. Because photonic packaging is **~25-50% of optical-module value**, the OSATs want in, but none has fully merged electrical-advanced-packaging + photonic-die-attach + fibre-coupling. That unmerged skill stack is the [PIC Packaging Stack](/sotf-site/manufacturing/packaging/pic-packaging-stack/) white space.
+The bottleneck across all of them is **fibre-attach / active optical alignment** ([Fibre-to-Chip Coupling](/manufacturing/packaging/fiber-to-chip-coupling/)) — a different skill from electrical OSAT, done on ficonTEC machines. Because photonic packaging is **~25-50% of optical-module value**, the OSATs want in, but none has fully merged electrical-advanced-packaging + photonic-die-attach + fibre-coupling. That unmerged skill stack is the [PIC Packaging Stack](/manufacturing/packaging/pic-packaging-stack/) white space.
 
 ## Companies using
 

@@ -23,18 +23,18 @@ recent_mentions: []
 neighbors:
 - slug: neuromorphic-computing
   name: Neuromorphic Computing
-  path: /sotf-site/compute/non-conventional/neuromorphic-computing/
+  path: /compute/non-conventional/neuromorphic-computing/
   macro: compute
 - slug: edge-ai
   name: Edge AI
-  path: /sotf-site/compute/ai-edge/edge-ai/
+  path: /compute/ai-edge/edge-ai/
   macro: compute
 ---
-*Child of [Neuromorphic Computing](/sotf-site/compute/non-conventional/neuromorphic-computing/).*
+*Child of [Neuromorphic Computing](/compute/non-conventional/neuromorphic-computing/).*
 
 ## Physics / mechanism
 
-Spiking neural networks (SNNs) encode and transmit information as discrete, asynchronous events (spikes) over time, rather than the continuous-valued activations of conventional ANNs. A neuron integrates incoming weighted spikes and fires only when its membrane potential crosses a threshold, so computation is **event-driven and sparse**: no spike, no switched capacitance, no energy spent. This is the algorithmic layer that most [Neuromorphic Computing](/sotf-site/compute/non-conventional/neuromorphic-computing/) hardware is built to run. Differentiated parameters: spike-encoding scheme (rate vs temporal), on-chip learning rule (STDP / surrogate-gradient backprop), synaptic density, and energy per synaptic operation (~10–100 pJ vs ~1 nJ on GPU).
+Spiking neural networks (SNNs) encode and transmit information as discrete, asynchronous events (spikes) over time, rather than the continuous-valued activations of conventional ANNs. A neuron integrates incoming weighted spikes and fires only when its membrane potential crosses a threshold, so computation is **event-driven and sparse**: no spike, no switched capacitance, no energy spent. This is the algorithmic layer that most [Neuromorphic Computing](/compute/non-conventional/neuromorphic-computing/) hardware is built to run. Differentiated parameters: spike-encoding scheme (rate vs temporal), on-chip learning rule (STDP / surrogate-gradient backprop), synaptic density, and energy per synaptic operation (~10–100 pJ vs ~1 nJ on GPU).
 
 The decade-long blocker was **programmability**, not physics: training SNNs was hard until surrogate-gradient methods + maturing toolchains made them trainable like standard DNNs (see **Low Power Edge Compute** belief ledger). That reframed SNNs from a standalone-chip thesis toward an offload/feature-block inside someone else's SoC.
 

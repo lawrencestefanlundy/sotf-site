@@ -32,22 +32,22 @@ recent_mentions: []
 neighbors:
 - slug: glass-photonics
   name: Glass Photonics
-  path: /sotf-site/photonic-systems/pic-platforms/glass-photonics/
+  path: /photonic-systems/pic-platforms/glass-photonics/
   macro: photonic-systems
 - slug: photonic-wire-bonding
   name: Photonic Wire Bonding
-  path: /sotf-site/manufacturing/packaging/photonic-wire-bonding/
+  path: /manufacturing/packaging/photonic-wire-bonding/
   macro: manufacturing
 - slug: silicon-photonics
   name: Silicon Photonics
-  path: /sotf-site/photonic-systems/pic-platforms/silicon-photonics/
+  path: /photonic-systems/pic-platforms/silicon-photonics/
   macro: photonic-systems
 - slug: co-packaged-optics
   name: Co-Packaged Optics
-  path: /sotf-site/manufacturing/packaging/co-packaged-optics/
+  path: /manufacturing/packaging/co-packaged-optics/
   macro: manufacturing
 ---
-***Layer 1** of the [PIC Packaging Stack](/sotf-site/manufacturing/packaging/pic-packaging-stack/) — the contested, venture-relevant packaging layer.*
+***Layer 1** of the [PIC Packaging Stack](/manufacturing/packaging/pic-packaging-stack/) — the contested, venture-relevant packaging layer.*
 
 ## Physics / mechanism
 

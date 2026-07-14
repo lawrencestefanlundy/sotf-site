@@ -31,7 +31,7 @@ recent_mentions: []
 neighbors:
 - slug: edge-ai
   name: Edge AI
-  path: /sotf-site/compute/ai-edge/edge-ai/
+  path: /compute/ai-edge/edge-ai/
   macro: compute
 ---
 > **DISAMBIGUATION (renamed 13 Jun 2026 from `lunar-teleoperation`):** this page is about operating robots on the **physical Moon** despite Earth-Moon latency. It is NOT about Lunar Ventures. For the Lunar Ventures / Elad Verbin Earth-robotics teleoperation INVESTMENT thesis see **Teleoperation Bridge**; for the autonomy destination see **Robot Autonomy Destination**. The old slug `lunar-teleoperation` now redirects here.

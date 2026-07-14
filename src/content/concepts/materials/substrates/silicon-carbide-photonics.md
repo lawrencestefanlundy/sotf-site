@@ -37,19 +37,19 @@ recent_mentions: []
 neighbors:
 - slug: silicon-nitride
   name: Silicon Nitride
-  path: /sotf-site/materials/substrates/silicon-nitride/
+  path: /materials/substrates/silicon-nitride/
   macro: materials
 - slug: diamond
   name: Diamond
-  path: /sotf-site/materials/substrates/diamond/
+  path: /materials/substrates/diamond/
   macro: materials
 - slug: silicon-carbide
   name: Silicon Carbide
-  path: /sotf-site/materials/substrates/silicon-carbide/
+  path: /materials/substrates/silicon-carbide/
   macro: materials
 - slug: quantum-computing
   name: Quantum Computing
-  path: /sotf-site/compute/quantum-computing/quantum-computing/
+  path: /compute/quantum-computing/quantum-computing/
   macro: compute
 ---
 *Wide-bandgap waveguide platform with quantum + high-power + mid-IR potential*
@@ -65,9 +65,9 @@ The materials-processing path is unique among emerging photonic platforms: SiC h
 Lab demonstrators only as of 2026. Commercial production: zero foundries. Active research: Marko Lončar group (Harvard), HRL Labs (US), Princeton (Englund/Awschalom-derived programmes), Linköping University (Sweden, the SiC PIC pioneer). Best-demonstrated waveguide loss ~1–2 dB/cm for 4H-SiC-on-insulator; the trajectory is comparable to where TFLN was in 2018–2019.
 
 Closest peers:
-- [Diamond](/sotf-site/materials/substrates/diamond/) for quantum (NV centres) — even better quantum coherence but worse manufacturing path
-- [Silicon Nitride](/sotf-site/materials/substrates/silicon-nitride/) for low-loss visible — much more mature but no native quantum emitters
-- [Gallium Nitride](/sotf-site/energy-power/power-electronics/gallium-nitride/) for wide-bandgap photonics — different application focus
+- [Diamond](/materials/substrates/diamond/) for quantum (NV centres) — even better quantum coherence but worse manufacturing path
+- [Silicon Nitride](/materials/substrates/silicon-nitride/) for low-loss visible — much more mature but no native quantum emitters
+- [Gallium Nitride](/energy-power/power-electronics/gallium-nitride/) for wide-bandgap photonics — different application focus
 
 ## Frontier (open questions)
 

@@ -28,23 +28,23 @@ recent_mentions: []
 neighbors:
 - slug: e-beam-lithography
   name: E-Beam Lithography
-  path: /sotf-site/manufacturing/lithography/e-beam-lithography/
+  path: /manufacturing/lithography/e-beam-lithography/
   macro: manufacturing
 - slug: high-na-euv-lithography
   name: High-NA EUV Lithography
-  path: /sotf-site/manufacturing/lithography/high-na-euv-lithography/
+  path: /manufacturing/lithography/high-na-euv-lithography/
   macro: manufacturing
 - slug: maskless-lithography
   name: Maskless Lithography
-  path: /sotf-site/manufacturing/lithography/maskless-lithography/
+  path: /manufacturing/lithography/maskless-lithography/
   macro: manufacturing
 - slug: nanoimprint-lithography
   name: Nanoimprint Lithography
-  path: /sotf-site/manufacturing/lithography/nanoimprint-lithography/
+  path: /manufacturing/lithography/nanoimprint-lithography/
   macro: manufacturing
 - slug: directed-self-assembly
   name: Directed Self-Assembly
-  path: /sotf-site/manufacturing/lithography/directed-self-assembly/
+  path: /manufacturing/lithography/directed-self-assembly/
   macro: manufacturing
 ---
 X-ray lithography (XRL) uses short-wavelength X-rays (typically 0.4–5 nm, soft X-ray to hard X-ray) to expose patterns through a thin transmission mask (typically a silicon nitride or silicon carbide membrane with absorber features in gold or tungsten) onto a resist-coated substrate held in proximity (~10–50 µm gap). The short wavelength — 10 to 100 times shorter than DUV ArF (193 nm) — eliminates optical diffraction as the resolution limiter, enabling in principle sub-20 nm and even sub-10 nm feature resolution without the multilayer mirror optics EUV requires.

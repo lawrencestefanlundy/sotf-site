@@ -31,14 +31,14 @@ recent_mentions: []
 neighbors:
 - slug: mlir
   name: MLIR (Multi-Level Intermediate Representation)
-  path: /sotf-site/compute/compute-architecture/mlir/
+  path: /compute/compute-architecture/mlir/
   macro: compute
 - slug: tvm
   name: Apache TVM
-  path: /sotf-site/compute/compute-architecture/tvm/
+  path: /compute/compute-architecture/tvm/
   macro: compute
 ---
-> The **graph-compiler** layer of the [AI Compiler & Heterogeneous Programming-Model Landscape](/sotf-site/compute/compute-architecture/ai-compiler-landscape/) — and the real incumbent for "one graph, many silicon." The most important diligence point for **Callosum**: when a founder claims to be inventing "the CUDA of heterogeneous compute," **XLA already largely is that**, in frontier-scale production. The challenge is not CUDA; it is XLA.
+> The **graph-compiler** layer of the [AI Compiler & Heterogeneous Programming-Model Landscape](/compute/compute-architecture/ai-compiler-landscape/) — and the real incumbent for "one graph, many silicon." The most important diligence point for **Callosum**: when a founder claims to be inventing "the CUDA of heterogeneous compute," **XLA already largely is that**, in frontier-scale production. The challenge is not CUDA; it is XLA.
 
 ## Origin
 
@@ -46,7 +46,7 @@ neighbors:
 
 ## What it is (plain English)
 
-A **graph compiler**: hand it a whole computation graph and it fuses operations, allocates memory, and emits optimised device code for a target backend. Its signature optimisation is operator **fusion** (collapsing e.g. add→exp→matmul into one kernel). It sits at a *higher* altitude than a kernel language like [Triton (OpenAI Triton)](/sotf-site/compute/compute-architecture/triton/) or CUDA — you describe the math, XLA generates the kernels. **StableHLO** is the portability contract at the front: a versioned, MLIR-serialisable high-level operator set that JAX/TF/PyTorch all emit, decoupling framework from compiler. XLA's internals migrated onto **[MLIR (Multi-Level Intermediate Representation)](/sotf-site/compute/compute-architecture/mlir/)**-based infrastructure (StableHLO; Shardy for sharding).
+A **graph compiler**: hand it a whole computation graph and it fuses operations, allocates memory, and emits optimised device code for a target backend. Its signature optimisation is operator **fusion** (collapsing e.g. add→exp→matmul into one kernel). It sits at a *higher* altitude than a kernel language like [Triton (OpenAI Triton)](/compute/compute-architecture/triton/) or CUDA — you describe the math, XLA generates the kernels. **StableHLO** is the portability contract at the front: a versioned, MLIR-serialisable high-level operator set that JAX/TF/PyTorch all emit, decoupling framework from compiler. XLA's internals migrated onto **[MLIR (Multi-Level Intermediate Representation)](/compute/compute-architecture/mlir/)**-based infrastructure (StableHLO; Shardy for sharding).
 
 ## Heterogeneous-hardware angle (the key part)
 

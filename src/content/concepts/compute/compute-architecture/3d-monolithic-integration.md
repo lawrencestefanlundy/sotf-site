@@ -34,11 +34,11 @@ recent_mentions: []
 neighbors:
 - slug: memcapacitor
   name: Memcapacitor
-  path: /sotf-site/memory/emerging-memory/memcapacitor/
+  path: /memory/emerging-memory/memcapacitor/
   macro: memory
 - slug: hbm
   name: HBM (High-Bandwidth Memory)
-  path: /sotf-site/memory/mainstream-memory/hbm/
+  path: /memory/mainstream-memory/hbm/
   macro: memory
 ---
 ## Monolithic 3D vs stacked 3D

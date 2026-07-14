@@ -41,19 +41,19 @@ recent_mentions: []
 neighbors:
 - slug: physics-native-compute
   name: Physics-Native Compute
-  path: /sotf-site/compute/non-conventional/physics-native-compute/
+  path: /compute/non-conventional/physics-native-compute/
   macro: compute
 - slug: coherent-ising-machine
   name: Coherent Ising Machine
-  path: /sotf-site/compute/non-conventional/coherent-ising-machine/
+  path: /compute/non-conventional/coherent-ising-machine/
   macro: compute
 - slug: memristors
   name: Memristors
-  path: /sotf-site/compute/non-conventional/memristors/
+  path: /compute/non-conventional/memristors/
   macro: compute
 - slug: ai-accelerator
   name: AI Accelerator
-  path: /sotf-site/compute/conventional-logic/ai-accelerator/
+  path: /compute/conventional-logic/ai-accelerator/
   macro: compute
 ---
 A pattern. **Novel hardware companies die between tape-out and customer deployment because the compiler that maps generic ML graphs to the hardware's native primitives isn't built.** The hardware ships; customers can't use it. The company stalls or pivots.
@@ -86,10 +86,10 @@ This is the most reliably recurring failure mode in novel-compute deal flow. Eve
 
 ## Why physics-native compute is especially exposed
 
-Every [Physics-Native Compute](/sotf-site/compute/non-conventional/physics-native-compute/) substrate (CIM, thermodynamic, p-bit, neuromorphic) requires a compiler that maps a *graph* (transformer, Ising, MAP inference) to a *physical configuration* (J matrix, varactor states, coupling weights). The mapping is mathematically non-trivial because:
+Every [Physics-Native Compute](/compute/non-conventional/physics-native-compute/) substrate (CIM, thermodynamic, p-bit, neuromorphic) requires a compiler that maps a *graph* (transformer, Ising, MAP inference) to a *physical configuration* (J matrix, varactor states, coupling weights). The mapping is mathematically non-trivial because:
 
 - The physical substrate's energy landscape is set by geometry + per-tile tuning, not by software variables
-- The realised dynamics differ from idealised by the [FDTD-to-Hardware Calibration Wall](/sotf-site/compute/non-conventional/fdtd-calibration-wall/) gap — compiler has to anticipate or correct for this
+- The realised dynamics differ from idealised by the [FDTD-to-Hardware Calibration Wall](/compute/non-conventional/fdtd-calibration-wall/) gap — compiler has to anticipate or correct for this
 - The graph-to-substrate mapping for an arbitrary model is an inverse design problem, not a simple translation
 
 ## DD signals

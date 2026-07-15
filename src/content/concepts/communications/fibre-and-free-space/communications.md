@@ -55,8 +55,8 @@ descendants:
 - sub-thz-6g
 - timing-clock-generation
 last_reorg_date: '2026-05-14'
-sources_7d: 1
-sources_30d: 33
+sources_7d: 0
+sources_30d: 27
 recent_mentions:
 - slug: 2026-06-12-hku-sic-cryogenic-neuromorphic-chip-10mk
   title: HKU world-first cryogenic neuromorphic chip at 10 mK (silicon carbide, impact-ionisation spiking)

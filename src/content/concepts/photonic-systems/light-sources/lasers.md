@@ -28,8 +28,8 @@ last_reorg_date: '2026-05-13'
 descendants:
 - external-laser-source
 - laser-display-light-engines
-sources_7d: 2
-sources_30d: 21
+sources_7d: 1
+sources_30d: 19
 recent_mentions:
 - slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape
   title: Neutral PDK / EDA layer for heterogeneous photonic integration — landscape check (Scintil essay correction research)

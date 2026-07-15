@@ -33,8 +33,8 @@ tags:
 - technology
 mention_count: 300
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 14
+sources_7d: 0
+sources_30d: 13
 recent_mentions:
 - slug: 2026-06-22-beyond-cmos-device-layer-research
   title: Beyond-CMOS device layer — grounded research (MRAM/FeFET beachhead + capture base rate)

@@ -59,18 +59,14 @@ recent_mentions:
   title: Diamonds are Semiconductors' Best Friend 2026
   date: '2026-03-08'
   kind: web
-- slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
-  title: Carbon Nanotubes in the Datacentre
-  date: '2025-11-25'
-  kind: substack
 - slug: 2025-08-19-thermal-stack-arms-race-thermal-interface-materials-market
   title: 'Thermal Interface Materials Market Report 2026-2036: High-Performance TIMs for Data Centers, AI Servers, and 5G Infrastructure'
   date: '2025-08-19'
   kind: web
-- slug: 2025-04-30-has-the-time-come-to-take-mortal
-  title: Has the time come to take Mortal Computing seriously?
-  date: '2025-04-30'
-  kind: substack
+- slug: 2024-yole-thermal-management-2024
+  title: Yole Group — Thermal Management 2024 Market Analysis
+  date: '2024-10-01'
+  kind: web
 neighbors:
 - slug: thermal-stack-map
   name: AI Thermal Stack Map (junction-to-ambient)

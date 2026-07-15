@@ -79,7 +79,7 @@ descendants:
 - storage-class-memory
 last_reorg_date: '2026-05-14'
 sources_7d: 1
-sources_30d: 15
+sources_30d: 13
 recent_mentions:
 - slug: 2026-07-13-sk-hynix-record-fall-hbm4-three-supplier
   title: SK Hynix record one-day fall as HBM4 goes three-supplier

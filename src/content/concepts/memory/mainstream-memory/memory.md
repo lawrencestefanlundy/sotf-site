@@ -46,7 +46,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 844
+mention_count: 846
 descendants:
 - 3d-dram
 - adc-bottleneck

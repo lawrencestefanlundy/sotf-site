@@ -36,8 +36,8 @@ descendants:
 - nems
 - sensors
 - spectral-sensing
-sources_7d: 2
-sources_30d: 17
+sources_7d: 1
+sources_30d: 16
 recent_mentions:
 - slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape
   title: Neutral PDK / EDA layer for heterogeneous photonic integration — landscape check (Scintil essay correction research)

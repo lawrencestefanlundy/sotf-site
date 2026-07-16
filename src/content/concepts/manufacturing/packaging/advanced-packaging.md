@@ -41,7 +41,7 @@ descendants:
 - micro-transfer-printing
 - osat
 last_reorg_date: '2026-05-13'
-sources_7d: 1
+sources_7d: 0
 sources_30d: 10
 recent_mentions:
 - slug: 2026-07-09-in-die-microfluidic-cooling-sprint

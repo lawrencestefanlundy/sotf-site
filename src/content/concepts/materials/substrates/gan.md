@@ -32,10 +32,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 114
+mention_count: 115
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 27
+sources_7d: 1
+sources_30d: 24
 recent_mentions:
 - slug: 2026-06-22-sintered-metal-die-attach-landscape
   title: Sintered-silver / sintered-copper die-attach landscape — physics, incumbents, AI-migration question (web research synthesis)

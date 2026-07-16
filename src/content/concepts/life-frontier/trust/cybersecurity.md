@@ -24,7 +24,7 @@ tags:
 mention_count: 42
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 7
+sources_30d: 6
 recent_mentions:
 - slug: 2026-07-06-willdepue-stargate-for-data
   title: A Stargate for Data — will depue (OpenAI) on >$100B/year data spend by 2030

@@ -31,7 +31,7 @@ tags:
 mention_count: 60
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 10
+sources_30d: 8
 recent_mentions:
 - slug: 2026-06-17-qualcomm-tenstorrent-talks
   title: Qualcomm in advanced talks to acquire Tenstorrent at $8-10B (reported)

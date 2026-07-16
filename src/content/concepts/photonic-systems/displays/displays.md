@@ -17,7 +17,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 91
+mention_count: 92
 last_reorg_date: '2026-05-14'
 descendants:
 - ar-glasses-stack
@@ -27,8 +27,8 @@ descendants:
 - laser-display-light-engines
 - micro-leds
 - oled
-sources_7d: 1
-sources_30d: 17
+sources_7d: 2
+sources_30d: 18
 recent_mentions:
 - slug: 2026-06-15-barry-silverstein-rochester-cxr
   title: University of Rochester hires former Meta exec Barry Silverstein to direct Center for Extended Reality

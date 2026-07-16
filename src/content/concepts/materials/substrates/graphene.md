@@ -23,7 +23,7 @@ tags:
 mention_count: 154
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 41
+sources_30d: 37
 recent_mentions:
 - slug: 2026-06-24-thermal-stack-arms-race-diamond-heat-spreaders-companies-in
   title: Diamond Heat Spreaders Companies in 2026

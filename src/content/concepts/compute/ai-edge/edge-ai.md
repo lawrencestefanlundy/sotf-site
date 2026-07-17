@@ -34,8 +34,8 @@ descendants:
 - hearing-aid-silicon-beachhead
 - nvidia-jetson
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 8
+sources_7d: 0
+sources_30d: 4
 recent_mentions:
 - slug: 2026-07-10-edge-buyer-kpi-sweep
   title: 'Edge-AI buyer KPI sweep: power envelope + energy per work; cost per token absent'

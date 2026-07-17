@@ -17,6 +17,7 @@ sources:
 - '[[2026-07-09-in-die-microfluidic-cooling-sprint]]'
 - '[[2026-06-04-magnetoresistive-gmr-mtj-biosensor-turbid-samples]]'
 - '[[2026-06-21-st-nxp-mems-acquisition]]'
+- '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
 - '[[2026-06-16-trapped-ion-landscape-2026]]'
 - '[[2026-07-11-neutral-pdk-heterogeneous-integration-landscape]]'
 - '[[2026-06-21-grandview-mems-microphones]]'
@@ -29,16 +30,20 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 75
+mention_count: 76
 last_reorg_date: '2026-05-13'
 descendants:
 - mems
 - nems
 - sensors
 - spectral-sensing
-sources_7d: 1
+sources_7d: 2
 sources_30d: 16
 recent_mentions:
+- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
+  title: 'Startup Funding: Q2 2026'
+  date: '2026-07-13'
+  kind: web
 - slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape
   title: Neutral PDK / EDA layer for heterogeneous photonic integration — landscape check (Scintil essay correction research)
   date: '2026-07-11'
@@ -66,10 +71,6 @@ recent_mentions:
 - slug: 2026-06-21-marketsandmarkets-mems-2030
   title: Micro-Electro-Mechanical System (MEMS) Industry worth $21.99 billion by 2030 (MarketsandMarkets)
   date: '2026-06-21'
-  kind: web
-- slug: 2026-06-16-trapped-ion-landscape-2026
-  title: Trapped-ion quantum computing landscape 2026 (vendors, scale, integrated photonics)
-  date: '2026-06-16'
   kind: web
 neighbors: []
 ---

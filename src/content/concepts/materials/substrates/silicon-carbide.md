@@ -26,6 +26,10 @@ tags:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
+  title: 'Startup Funding: Q2 2026'
+  date: '2026-07-13'
+  kind: web
 - slug: 2026-06-22-sintered-metal-die-attach-landscape
   title: Sintered-silver / sintered-copper die-attach landscape — physics, incumbents, AI-migration question (web research synthesis)
   date: '2026-06-22'
@@ -53,10 +57,6 @@ recent_mentions:
 - slug: 2026-03-08-diamonds-are-semiconductors-best-friend
   title: Diamonds are Semiconductors' Best Friend 2026
   date: '2026-03-08'
-  kind: web
-- slug: 2024-trendforce-foundry-2024
-  title: TrendForce — Global Foundry Industry Outlook 2024-2026
-  date: '2024-11-15'
   kind: web
 neighbors:
 - slug: wide-bandgap-semiconductors

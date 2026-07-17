@@ -18,6 +18,7 @@ sources:
 - '[[2024-12-16-willow-and-the-race-to-quantum-advantage]]'
 - '[[2024-12-04-cubits-in-a-fridge-why-is-nobody]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
+- '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
 - '[[2025-01-23-eth-zurich-spinout-raises-42m-to-scale-trapped-ion-quantum-c]]'
 frontier:
 - Does laser-driven (IonQ/Quantinuum/AQT) or microwave/electronic-control (Oxford Ionics/Universal Quantum/eleQtron) win the integration race — or do they converge?
@@ -28,11 +29,15 @@ last_updated: '2026-06-16'
 tags:
 - concept
 - technology
-mention_count: 13
+mention_count: 14
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 2
+sources_7d: 1
+sources_30d: 3
 recent_mentions:
+- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
+  title: 'Startup Funding: Q2 2026'
+  date: '2026-07-13'
+  kind: web
 - slug: 2025-12-09-gallium-nitride-photonics-w-james
   title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
   date: '2025-12-09'

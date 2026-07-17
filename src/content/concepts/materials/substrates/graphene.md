@@ -20,11 +20,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 154
+mention_count: 156
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 37
+sources_7d: 1
+sources_30d: 35
 recent_mentions:
+- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
+  title: 'Startup Funding: Q2 2026'
+  date: '2026-07-13'
+  kind: web
 - slug: 2026-06-24-thermal-stack-arms-race-diamond-heat-spreaders-companies-in
   title: Diamond Heat Spreaders Companies in 2026
   date: '2026-06-24'
@@ -53,10 +57,6 @@ recent_mentions:
   title: Carbon Nanotubes in the Datacentre
   date: '2025-11-25'
   kind: substack
-- slug: 2025-08-19-thermal-stack-arms-race-thermal-interface-materials-market
-  title: 'Thermal Interface Materials Market Report 2026-2036: High-Performance TIMs for Data Centers, AI Servers, and 5G Infrastructure'
-  date: '2025-08-19'
-  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

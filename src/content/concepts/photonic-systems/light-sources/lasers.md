@@ -23,14 +23,18 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 163
+mention_count: 166
 last_reorg_date: '2026-05-13'
 descendants:
 - external-laser-source
 - laser-display-light-engines
-sources_7d: 1
-sources_30d: 19
+sources_7d: 3
+sources_30d: 18
 recent_mentions:
+- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
+  title: 'Startup Funding: Q2 2026'
+  date: '2026-07-13'
+  kind: web
 - slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape
   title: Neutral PDK / EDA layer for heterogeneous photonic integration — landscape check (Scintil essay correction research)
   date: '2026-07-11'
@@ -58,10 +62,6 @@ recent_mentions:
 - slug: 2026-06-17-sivers-onet-enablence-external-light-source-cpo
   title: Sivers, O-Net and Enablence partner to develop external light sources for AI data centers
   date: '2026-03-17'
-  kind: web
-- slug: 2026-03-15-photonic-light-source-supply-silicon-photonics-market
-  title: 'Silicon Photonics Market: Integration of On-Chip Lasers Remains Thorny Technical Hurdle'
-  date: '2026-03-15'
   kind: web
 neighbors: []
 ---

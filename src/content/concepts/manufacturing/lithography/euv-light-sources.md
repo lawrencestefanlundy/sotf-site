@@ -30,6 +30,7 @@ sources:
 - '[[2026-04-26-litho-tool-supply-bottleneck-ai-semiconductor-supply-chain]]'
 - '[[2026-06-24-sovereignty-semi-bifurcation-dutch-government-irritated-by]]'
 - '[[2024-tsmc-arizona-capex-disclosure]]'
+- '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
 - '[[2025-12-11-sovereignty-semi-bifurcation-smic-n-3-confirmed-kirin-9030]]'
 - '[[2026-06-19-sovereignty-semi-bifurcation-us-tells-asml-it-has-evidence]]'
 - '[[2023-12-06-euv-lithography-but-with-a-free-electron-laser]]'
@@ -47,11 +48,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 94
+mention_count: 95
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 19
+sources_7d: 1
+sources_30d: 17
 recent_mentions:
+- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
+  title: 'Startup Funding: Q2 2026'
+  date: '2026-07-13'
+  kind: web
 - slug: 2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology
   title: IBM Debuts World's First Sub-1 Nanometer Chip Technology
   date: '2026-06-25'
@@ -78,10 +83,6 @@ recent_mentions:
   kind: web
 - slug: 2026-05-02-euv-lithography-wikipedia
   title: EUV Lithography Wikipedia
-  date: '2026-05-02'
-  kind: web
-- slug: 2026-05-02-energetiq-euv-light-sources
-  title: Energetiq EUV light sources
   date: '2026-05-02'
   kind: web
 neighbors: []

@@ -27,23 +27,26 @@ sources:
 - '[[2026-05-30-osat-market-structure]]'
 - '[[2026-06-13-hyperscaler-asic-profit-pool-google-placed-3m-tpu]]'
 - '[[2026-04-26-litho-tool-supply-bottleneck-ai-semiconductor-supply-chain]]'
-- '[[2026-07-02-semianalysis-ectc2026-advanced-packaging]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 147
+mention_count: 149
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration
 - micro-transfer-printing
 - osat
 last_reorg_date: '2026-05-13'
-sources_7d: 0
+sources_7d: 1
 sources_30d: 10
 recent_mentions:
+- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
+  title: 'Startup Funding: Q2 2026'
+  date: '2026-07-13'
+  kind: web
 - slug: 2026-07-09-in-die-microfluidic-cooling-sprint
   title: In-die microfluidic cooling — cluster research sprint
   date: '2026-07-09'
@@ -71,10 +74,6 @@ recent_mentions:
 - slug: 2026-06-13-hyperscaler-asic-profit-pool-google-placed-3m-tpu
   title: Google Placed 3M+ TPU Production Order with Intel for 2028 on 18A Process
   date: '2026-06-13'
-  kind: web
-- slug: 2026-05-30-osat-market-structure
-  title: OSAT market structure 2024-2025 — rankings, advanced-packaging split, photonic assembly
-  date: '2026-05-30'
   kind: web
 neighbors: []
 ---

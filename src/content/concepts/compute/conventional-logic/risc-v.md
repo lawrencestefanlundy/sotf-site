@@ -14,6 +14,7 @@ sources:
 - '[[2025-07-20-risc-v-open-silicon-share-shd-group-risc-v-market-analysis]]'
 - '[[2024-eu-chips-act-final-text]]'
 - '[[2026-01-23-risc-v-open-silicon-share-risc-v-hits-25-design-share-as]]'
+- '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
 - '[[2025-07-23-nvidia-cuda-on-risc-v]]'
 - '[[2026-06-17-qualcomm-tenstorrent-talks]]'
 - '[[2026-04-09-sifive-series-g]]'
@@ -28,11 +29,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 60
+mention_count: 61
 last_reorg_date: '2026-05-14'
-sources_7d: 0
-sources_30d: 8
+sources_7d: 1
+sources_30d: 6
 recent_mentions:
+- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
+  title: 'Startup Funding: Q2 2026'
+  date: '2026-07-13'
+  kind: web
 - slug: 2026-06-17-qualcomm-tenstorrent-talks
   title: Qualcomm in advanced talks to acquire Tenstorrent at $8-10B (reported)
   date: '2026-06-17'
@@ -61,10 +66,6 @@ recent_mentions:
   title: 'AI Chips, ComputeRAM and the Future of Data Movement: A Conversation with Manu, Founder of Synthara'
   date: '2026-01-22'
   kind: substack
-- slug: 2025-12-18-risc-v-25pct-penetration
-  title: RISC-V International announces 25% market penetration, ahead of schedule
-  date: '2025-12-18'
-  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

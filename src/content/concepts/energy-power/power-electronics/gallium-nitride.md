@@ -32,6 +32,10 @@ descendants:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
+  title: 'Startup Funding: Q2 2026'
+  date: '2026-07-13'
+  kind: web
 - slug: 2026-06-22-sintered-metal-die-attach-landscape
   title: Sintered-silver / sintered-copper die-attach landscape — physics, incumbents, AI-migration question (web research synthesis)
   date: '2026-06-22'
@@ -59,10 +63,6 @@ recent_mentions:
 - slug: 2025-12-19-lfg-for-semiconductors
   title: LFG (for semiconductors)
   date: '2025-12-19'
-  kind: substack
-- slug: 2025-12-09-gallium-nitride-photonics-w-james
-  title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
-  date: '2025-12-09'
   kind: substack
 neighbors:
 - slug: wide-bandgap-semiconductors

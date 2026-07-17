@@ -31,11 +31,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 300
+mention_count: 302
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 11
 recent_mentions:
+- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
+  title: 'Startup Funding: Q2 2026'
+  date: '2026-07-13'
+  kind: web
 - slug: 2026-06-22-beyond-cmos-device-layer-research
   title: Beyond-CMOS device layer — grounded research (MRAM/FeFET beachhead + capture base rate)
   date: '2026-06-22'
@@ -62,10 +66,6 @@ recent_mentions:
   kind: web
 - slug: 2026-06-04-magnetoresistive-biochips-freitas-trends-biotech
   title: Magnetoresistive-based biosensors and biochips
-  date: '2026-06-04'
-  kind: web
-- slug: 2026-06-04-process-analytical-technology-market-size
-  title: Process Analytical Technology Market Size, Report by 2034 (Precedence Research)
   date: '2026-06-04'
   kind: web
 neighbors: []

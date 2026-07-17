@@ -38,6 +38,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 3
 recent_mentions:
+- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
+  title: 'Startup Funding: Q2 2026'
+  date: '2026-07-13'
+  kind: web
 - slug: 2026-06-23-semidoped-daily-update
   title: Semi Doped — Daily Update, June 23rd 2026
   date: '2026-06-23'
@@ -65,10 +69,6 @@ recent_mentions:
 - slug: 2026-03-02-nvidia-4bn-lumentum-coherent-photonics-investment
   title: Nvidia to invest $4 billion into photonics companies Coherent and Lumentum
   date: '2026-03-02'
-  kind: web
-- slug: 2026-03-01-optical-displaces-copper-lightcounting-100-billion-market
-  title: 'LightCounting :: $100 Billion Market for AI Cluster Optics by 2030?'
-  date: '2026-03-01'
   kind: web
 neighbors:
 - slug: optical-circuit-switching

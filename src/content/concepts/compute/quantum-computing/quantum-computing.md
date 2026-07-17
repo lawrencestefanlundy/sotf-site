@@ -31,7 +31,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 379
+mention_count: 380
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -50,8 +50,12 @@ descendants:
 - trapped-ion
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 28
+sources_30d: 27
 recent_mentions:
+- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
+  title: 'Startup Funding: Q2 2026'
+  date: '2026-07-13'
+  kind: web
 - slug: 2026-06-20-d-wave-quantum-nyse-qbts-secures-100-million-federal-loi-und
   title: 'D-Wave Quantum (NYSE: QBTS) Secures $100 Million Federal LOI Under CHIPS Act To Accelerate Quantum Computing Development - foreignpolicyjournal.com'
   date: '2026-06-20'
@@ -79,10 +83,6 @@ recent_mentions:
 - slug: 2026-06-05-d-wave-signs-us100-million-chips-act-funding-deal-to-acceler
   title: D-Wave signs US$100 million CHIPS Act funding deal to accelerate US quantum computing leadership - Intelligent CIO
   date: '2026-06-05'
-  kind: web
-- slug: 2026-06-01-ncsc-nsa-qkd-vs-pqc
-  title: 'NCSC / NSA position: QKD not endorsed, post-quantum cryptography is the recommended mitigation'
-  date: '2026-06-01'
   kind: web
 neighbors: []
 ---

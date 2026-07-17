@@ -46,7 +46,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 846
+mention_count: 852
 descendants:
 - 3d-dram
 - adc-bottleneck
@@ -78,9 +78,13 @@ descendants:
 - sram-cim
 - storage-class-memory
 last_reorg_date: '2026-05-14'
-sources_7d: 1
+sources_7d: 3
 sources_30d: 13
 recent_mentions:
+- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
+  title: 'Startup Funding: Q2 2026'
+  date: '2026-07-13'
+  kind: web
 - slug: 2026-07-13-sk-hynix-record-fall-hbm4-three-supplier
   title: SK Hynix record one-day fall as HBM4 goes three-supplier
   date: '2026-07-13'
@@ -107,10 +111,6 @@ recent_mentions:
   kind: web
 - slug: 2026-06-23-semidoped-daily-update
   title: Semi Doped — Daily Update, June 23rd 2026
-  date: '2026-06-23'
-  kind: web
-- slug: 2026-06-23-memory-chips-and-china-microsoft-and-chinese-models
-  title: Memory Chips and China, Microsoft and Chinese Models
   date: '2026-06-23'
   kind: web
 neighbors: []

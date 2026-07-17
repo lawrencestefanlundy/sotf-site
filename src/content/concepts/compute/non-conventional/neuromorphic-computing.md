@@ -22,11 +22,11 @@ last_updated: '2026-06-09'
 tags:
 - concept
 - technology
-mention_count: 42
+mention_count: 43
 last_reorg_date: '2026-05-14'
 descendants:
 - spiking-neural-networks
-sources_7d: 0
+sources_7d: 1
 sources_30d: 7
 recent_mentions:
 - slug: 2026-06-17-femtoai-spu-ces2026

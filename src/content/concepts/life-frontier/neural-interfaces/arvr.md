@@ -11,20 +11,25 @@ related_concepts: []
 sources:
 - '[[2025-01-07-fund-frontier-expeditions-otherwise]]'
 - '[[2023-05-25-interview-ben-mildenhall-co-inventor]]'
+- '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 27
+mention_count: 28
 last_reorg_date: '2026-05-13'
 descendants:
 - ar-glasses-stack
 - ar-optical-combiners
-sources_7d: 0
-sources_30d: 1
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
+- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
+  title: 'Startup Funding: Q2 2026'
+  date: '2026-07-13'
+  kind: web
 - slug: 2025-01-07-fund-frontier-expeditions-otherwise
   title: Fund Frontier Expeditions otherwise just buy the "Magnificent Seven"
   date: '2025-01-07'

@@ -24,7 +24,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 48
+mention_count: 50
 last_reorg_date: '2026-05-13'
 descendants:
 - aluminium-gallium-nitride
@@ -38,8 +38,8 @@ descendants:
 - power-management-ic
 - solid-state-circuit-breakers
 - wireless-power-transfer
-sources_7d: 0
-sources_30d: 8
+sources_7d: 2
+sources_30d: 10
 recent_mentions:
 - slug: 2026-05-26-semianalysis-800vdc-revolution
   title: Inside the 800VDC Revolution – Part 1

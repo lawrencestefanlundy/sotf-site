@@ -19,6 +19,7 @@ sources:
 - '[[2024-05-15-photonic-packaging-cpo-sales-of-silicon-photonics-chips]]'
 - '[[2026-05-02-lightium-tfln-foundry-csem-spin-off]]'
 - '[[2026-03-30-photonics-material-class-war-silicon-photonics-and-photonic]]'
+- '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
 - '[[2026-01-27-photonics-material-class-war-veeco-and-imec-develop-300mm]]'
 - '[[2026-04-03-photonic-packaging-cpo-the-soitec-twin-a-massive]]'
 - '[[2026-04-22-photonics-material-class-war-320-gb-s-unamplified]]'
@@ -32,11 +33,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - material
-mention_count: 114
+mention_count: 115
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 19
+sources_7d: 2
+sources_30d: 18
 recent_mentions:
+- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
+  title: 'Startup Funding: Q2 2026'
+  date: '2026-07-13'
+  kind: web
 - slug: 2026-05-02-return-of-lithium-niobate-photonics-spectra-jan-2026
   title: Return of Lithium Niobate (Photonics Spectra Jan 2026)
   date: '2026-05-02'
@@ -64,10 +69,6 @@ recent_mentions:
 - slug: 2026-03-30-photonics-material-class-war-silicon-photonics-and-photonic
   title: 'Silicon Photonics and Photonic Integrated Circuits 2026-2036: Technologies, Markets, and Forecasts'
   date: '2026-03-30'
-  kind: web
-- slug: 2026-03-12-photonics-material-class-war-hyperlight-umc-and-wavetek
-  title: HyperLight, UMC, and Wavetek Announce Strategic Partnership for High-Volume Foundry Production of TFLN Chiplet Platform
-  date: '2026-03-12'
   kind: web
 neighbors: []
 ---

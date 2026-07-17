@@ -36,7 +36,7 @@ last_updated: '2026-05-07'
 tags:
 - concept
 - theme
-mention_count: 825
+mention_count: 832
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -46,9 +46,13 @@ descendants:
 - optical-frequency-division
 - optoelectronic-oscillator
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 9
+sources_7d: 3
+sources_30d: 11
 recent_mentions:
+- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
+  title: 'Startup Funding: Q2 2026'
+  date: '2026-07-13'
+  kind: web
 - slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape
   title: Neutral PDK / EDA layer for heterogeneous photonic integration — landscape check (Scintil essay correction research)
   date: '2026-07-11'
@@ -76,10 +80,6 @@ recent_mentions:
 - slug: 2026-06-18-us-backs-photonics-expansion-for-ai-data-centres-under-chips
   title: US backs photonics expansion for AI data centres under CHIPS Act - Digital Watch Observatory
   date: '2026-06-18'
-  kind: web
-- slug: 2026-06-17-single-photon-detector-market-spad-snspd
-  title: Single-photon detector market aggregation — SPAD, SiPM, SNSPD (2024–2035)
-  date: '2026-06-17'
   kind: web
 neighbors: []
 ---

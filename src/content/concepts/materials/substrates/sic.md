@@ -30,8 +30,8 @@ tags:
 - technology
 mention_count: 92
 last_reorg_date: '2026-05-13'
-sources_7d: 3
-sources_30d: 17
+sources_7d: 2
+sources_30d: 15
 recent_mentions: []
 neighbors: []
 ---

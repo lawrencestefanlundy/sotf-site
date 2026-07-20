@@ -42,6 +42,14 @@ public_expressions:
 sources_7d: 0
 sources_30d: 2
 recent_mentions:
+- slug: 2026-07-17-the-once-and-future-kimi
+  title: The Once and Future Kimi
+  date: '2026-07-17'
+  kind: substack
+- slug: 2026-07-15-kimi-k3-launch-moonshot
+  title: Kimi K3 — Moonshot launch post (architecture, quantisation, serving requirements)
+  date: '2026-07-15'
+  kind: web
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'

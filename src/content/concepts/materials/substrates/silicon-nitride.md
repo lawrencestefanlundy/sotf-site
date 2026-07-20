@@ -30,7 +30,7 @@ tags:
 mention_count: 96
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 14
+sources_30d: 12
 recent_mentions:
 - slug: 2026-06-16-trapped-ion-landscape-2026
   title: Trapped-ion quantum computing landscape 2026 (vendors, scale, integrated photonics)

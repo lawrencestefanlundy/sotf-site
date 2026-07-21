@@ -20,6 +20,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-07-16-the-lab-of-the-future-should-feel-like-a-data-center-andy-be
+  title: 🔬 The Lab of the Future Should Feel Like a Data Center — Andy Beam & Rafa Gómez-Bombarelli, Lila Sciences
+  date: '2026-07-16'
+  kind: web
 - slug: 2026-06-24-arxiv-autospec-safety-rule-evolution-for-llm-agents-via-inductive-
   title: 'AutoSpec: Safety Rule Evolution for LLM Agents via Inductive Logic Programming'
   date: '2026-06-24'
@@ -46,10 +50,6 @@ recent_mentions:
   kind: paper
 - slug: 2026-06-15-arxiv-skillmutator-benchmarking-and-defending-language-and-code-cr
   title: 'SkillMutator: Benchmarking and Defending Language-and-Code Cross-modal Attacks on LLM Agent Skills'
-  date: '2026-06-15'
-  kind: paper
-- slug: 2026-06-15-arxiv-from-shield-to-target-denial-of-service-attacks-on-llm-based
-  title: 'From Shield to Target: Denial-of-Service Attacks on LLM-Based Agent Guardrails'
   date: '2026-06-15'
   kind: paper
 neighbors: []

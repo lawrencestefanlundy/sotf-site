@@ -25,24 +25,38 @@ sources:
 - '[[2026-06-23-semidoped-daily-update]]'
 - '[[2026-03-14-semianalysis-patel-bottlenecks]]'
 - '[[2026-05-30-osat-market-structure]]'
-- '[[2026-06-13-hyperscaler-asic-profit-pool-google-placed-3m-tpu]]'
-- '[[2026-04-26-litho-tool-supply-bottleneck-ai-semiconductor-supply-chain]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 149
+mention_count: 152
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration
 - micro-transfer-printing
 - osat
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 10
+sources_7d: 3
+sources_30d: 12
 recent_mentions:
+- slug: 2026-07-14-boschs-sic-fab-deal-adds-to-a-resurgence-in-chips-act-fundin
+  title: Bosch's SiC fab deal adds to a resurgence in CHIPS Act funding - Electronics360
+  date: '2026-07-14'
+  kind: web
+- slug: 2026-07-14-chips-act-20-ambition-requires-funding---digitaleurope
+  title: 'Chips Act 2.0: Ambition requires funding - DigitalEurope'
+  date: '2026-07-14'
+  kind: web
+- slug: 2026-07-13-department-of-commerce-announces-direct-funding-agreement-wi
+  title: Department of Commerce Announces Direct Funding Agreement with Bosch for a $225 Million CHIPS Program Award to Support Domestic Production of Silicon Carbide Semiconductors - National Institute of Standards and Technology (.gov)
+  date: '2026-07-13'
+  kind: web
+- slug: 2026-07-13-bosch-begins-production-at-roseville-chip-fab-secures-225-mi
+  title: Bosch begins production at Roseville chip fab, secures $225 million in CHIPS Act funding - The Business Journals
+  date: '2026-07-13'
+  kind: web
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
@@ -58,22 +72,6 @@ recent_mentions:
 - slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
   title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
   date: '2026-07-02'
-  kind: web
-- slug: 2026-06-23-semidoped-daily-update
-  title: Semi Doped — Daily Update, June 23rd 2026
-  date: '2026-06-23'
-  kind: web
-- slug: 2026-06-15-pic-market-structure-2030-cpo-npo-market-expected-to-exceed
-  title: CPO/NPO Market Expected to Exceed US$39 Billion by 2030
-  date: '2026-06-15'
-  kind: web
-- slug: 2026-06-15-gf-investor-day-2026
-  title: GlobalFoundries Investor Day 2026 (presentation)
-  date: '2026-06-15'
-  kind: web
-- slug: 2026-06-13-hyperscaler-asic-profit-pool-google-placed-3m-tpu
-  title: Google Placed 3M+ TPU Production Order with Intel for 2028 on 18A Process
-  date: '2026-06-13'
   kind: web
 neighbors: []
 ---

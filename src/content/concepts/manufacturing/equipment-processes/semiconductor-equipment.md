@@ -18,7 +18,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 62
+mention_count: 63
 descendants:
 - automated-test-equipment
 - ion-implantation
@@ -27,19 +27,39 @@ descendants:
 - wafer-level-burn-in
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 1
+sources_30d: 2
 recent_mentions:
+- slug: 2026-07-18-the-eu-chips-act-is-a-failure-lilli-manzini-3g2lw7evgw---msh
+  title: The EU Chips Act Is A Failure Lilli Manzini (3G2LW7eVgW) - Mshale
+  date: '2026-07-18'
+  kind: web
+- slug: 2026-07-14-boschs-sic-fab-deal-adds-to-a-resurgence-in-chips-act-fundin
+  title: Bosch's SiC fab deal adds to a resurgence in CHIPS Act funding - Electronics360
+  date: '2026-07-14'
+  kind: web
+- slug: 2026-07-14-europes-chips-act-a-brief-supply-chain-opinion---omdia
+  title: 'Europe’s Chips Act: A brief supply chain opinion - Omdia'
+  date: '2026-07-14'
+  kind: web
+- slug: 2026-07-14-chips-act-20-ambition-requires-funding---digitaleurope
+  title: 'Chips Act 2.0: Ambition requires funding - DigitalEurope'
+  date: '2026-07-14'
+  kind: web
+- slug: 2026-07-13-bosch-begins-production-at-roseville-chip-fab-secures-225-mi
+  title: Bosch begins production at Roseville chip fab, secures $225 million in CHIPS Act funding - The Business Journals
+  date: '2026-07-13'
+  kind: web
+- slug: 2026-07-09-munichs-quantumdiamonds-raises-91-million-to-scale-its-quant
+  title: Munich’s QuantumDiamonds raises €91 million to scale its quantum-based semiconductor inspection technology - EU-Startups
+  date: '2026-07-09'
+  kind: web
+- slug: 2026-01-21-the-future-of-economic-security-with-dan-kim-and-chris-mille
+  title: The Future of Economic Security with Dan Kim and Chris Miller - ChinaTalk
+  date: '2026-01-21'
+  kind: web
 - slug: 2025-12-30-us-eases-semiconductor-equipment-rules-for-samsung-sk-hynix-
   title: U.S. Eases Semiconductor Equipment Rules for Samsung, SK Hynix in China - 조선일보
   date: '2025-12-30'
-  kind: web
-- slug: 2024-bis-export-controls-china-semis
-  title: BIS Export Controls — China Semiconductor Restrictions (Oct 2022 / Oct 2023 / Dec 2024 rounds)
-  date: '2024-12-02'
-  kind: web
-- slug: 2023-04-25-us-deals-signal-heightened-semiconductor-equipment-competiti
-  title: US deals signal heightened semiconductor equipment competition - East Asia Forum
-  date: '2023-04-25'
   kind: web
 neighbors: []
 ---

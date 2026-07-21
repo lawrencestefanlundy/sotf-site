@@ -26,6 +26,10 @@ tags:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-07-14-boschs-sic-fab-deal-adds-to-a-resurgence-in-chips-act-fundin
+  title: Bosch's SiC fab deal adds to a resurgence in CHIPS Act funding - Electronics360
+  date: '2026-07-14'
+  kind: web
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
@@ -53,10 +57,6 @@ recent_mentions:
 - slug: 2026-05-26-semianalysis-800vdc-revolution
   title: Inside the 800VDC Revolution – Part 1
   date: '2026-05-26'
-  kind: web
-- slug: 2026-03-08-diamonds-are-semiconductors-best-friend
-  title: Diamonds are Semiconductors' Best Friend 2026
-  date: '2026-03-08'
   kind: web
 neighbors:
 - slug: wide-bandgap-semiconductors

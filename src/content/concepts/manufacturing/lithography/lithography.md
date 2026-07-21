@@ -18,7 +18,6 @@ sources:
 - '[[2023-08-25-e12-nanomechanical-computing-gears]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
-- '[[2026-06-23-semidoped-daily-update]]'
 frontier:
 - Lithography as three-way optimisation (throughput / feature size / feature complexity) — does any single tool win on all three, or does the market remain a portfolio of specialised tools each winning on two?
 - Multi-material patterning at production volume — does a tool emerge that patterns dissimilar materials in the same step, or does multi-material foundry remain a retrofit (transfer printing, hybrid integration, post-processing)?
@@ -28,7 +27,7 @@ last_updated: '2026-05-08'
 tags:
 - concept
 - technology
-mention_count: 151
+mention_count: 155
 descendants:
 - computational-lithography
 - directed-self-assembly
@@ -47,8 +46,8 @@ descendants:
 - x-ray-lithography
 - xolography
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 14
+sources_7d: 3
+sources_30d: 16
 recent_mentions:
 - slug: 2026-07-09-in-die-microfluidic-cooling-sprint
   title: In-die microfluidic cooling — cluster research sprint

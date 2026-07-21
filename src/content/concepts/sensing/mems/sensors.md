@@ -31,14 +31,30 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 302
+mention_count: 320
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 11
 recent_mentions:
+- slug: 2026-07-16-robotics-labour-augmentation-the-us-58-9-billion-humanoid
+  title: The US$58.9 Billion Humanoid Robot Opportunity Starts With Actuators, Sensors, And Batteries
+  date: '2026-07-16'
+  kind: web
+- slug: 2026-07-16-robotics-labour-augmentation-humanoid-robot-bom-cost
+  title: 'Humanoid Robot BOM Cost Analysis: Actuators, Sensors and Batteries Market Focus'
+  date: '2026-07-16'
+  kind: web
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
+  kind: web
+- slug: 2026-07-13-robotics-labour-augmentation-global-emerging-robotics
+  title: 'Global Emerging Robotics Market 2027–2037: Value Capture and BOM Decomposition'
+  date: '2026-07-13'
+  kind: web
+- slug: 2026-07-08-robotics-labour-augmentation-tesla-optimus-hardware
+  title: 'Tesla Optimus Hardware Specifications: Actuators, Hands & Sensors 2026'
+  date: '2026-07-08'
   kind: web
 - slug: 2026-06-22-beyond-cmos-device-layer-research
   title: Beyond-CMOS device layer — grounded research (MRAM/FeFET beachhead + capture base rate)
@@ -51,22 +67,6 @@ recent_mentions:
 - slug: 2026-06-21-yole-mems-market-momentum
   title: MEMS market regains momentum — Bosch, STMicroelectronics and TDK navigate the post-inventory growth era (Status of the MEMS Industry 2025)
   date: '2026-06-21'
-  kind: web
-- slug: 2026-06-20-launch-cost-curve-web
-  title: Launch-cost curve + LEO deployment + constellation compute (web bundle)
-  date: '2026-06-20'
-  kind: web
-- slug: 2026-06-17-nawah-vacnt-technology
-  title: NAWAH Architectured Nanomaterials — VACNT technology & positioning
-  date: '2026-06-17'
-  kind: web
-- slug: 2026-06-13-smr-datacentre-baseload-research
-  title: SMR / advanced-nuclear for datacentre baseload — research sweep (Jun 2026)
-  date: '2026-06-13'
-  kind: web
-- slug: 2026-06-04-magnetoresistive-biochips-freitas-trends-biotech
-  title: Magnetoresistive-based biosensors and biochips
-  date: '2026-06-04'
   kind: web
 neighbors: []
 ---

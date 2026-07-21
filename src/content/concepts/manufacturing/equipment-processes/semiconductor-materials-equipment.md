@@ -24,7 +24,31 @@ descendants:
 - stm
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-07-14-europes-chips-act-a-brief-supply-chain-opinion---omdia
+  title: 'Europe’s Chips Act: A brief supply chain opinion - Omdia'
+  date: '2026-07-14'
+  kind: web
+- slug: 2026-07-13-department-of-commerce-announces-direct-funding-agreement-wi
+  title: Department of Commerce Announces Direct Funding Agreement with Bosch for a $225 Million CHIPS Program Award to Support Domestic Production of Silicon Carbide Semiconductors - National Institute of Standards and Technology (.gov)
+  date: '2026-07-13'
+  kind: web
+- slug: 2026-07-08-the-chemistry-of-chips
+  title: The Chemistry of Chips
+  date: '2026-07-08'
+  kind: web
+- slug: 2025-11-06-successful-funding-round-for-empa-eth-spin-off-57-million-to
+  title: 'Successful funding round for Empa-ETH spin-off: $ 5.7 million to industrialize ultra-thin solid-state batteries - admin.ch'
+  date: '2025-11-06'
+  kind: web
+- slug: 2022-11-28-a-more-resilient-european-semiconductor-supply-requires-a-di
+  title: A more resilient European semiconductor supply requires a different approach - The Parliament Magazine
+  date: '2022-11-28'
+  kind: web
+- slug: 2022-02-08-eu-offers-ambitious-chips-law-that-may-struggle-to-deliver-f
+  title: EU Offers Ambitious Chips Law That May Struggle to Deliver Funds - Bloomberg.com
+  date: '2022-02-08'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

@@ -31,7 +31,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 380
+mention_count: 394
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -49,12 +49,20 @@ descendants:
 - topological-qubits
 - trapped-ion
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 23
+sources_7d: 3
+sources_30d: 25
 recent_mentions:
+- slug: 2026-07-16-when-will-quantum-computing-have-its-breakout-moment---latit
+  title: When will quantum computing have its breakout moment? - Latitude Media
+  date: '2026-07-16'
+  kind: web
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
+  kind: web
+- slug: 2026-07-09-munichs-quantumdiamonds-raises-91-million-to-scale-its-quant
+  title: Munich’s QuantumDiamonds raises €91 million to scale its quantum-based semiconductor inspection technology - EU-Startups
+  date: '2026-07-09'
   kind: web
 - slug: 2026-06-20-d-wave-quantum-nyse-qbts-secures-100-million-federal-loi-und
   title: 'D-Wave Quantum (NYSE: QBTS) Secures $100 Million Federal LOI Under CHIPS Act To Accelerate Quantum Computing Development - foreignpolicyjournal.com'
@@ -75,14 +83,6 @@ recent_mentions:
 - slug: 2026-06-16-trapped-ion-landscape-2026
   title: Trapped-ion quantum computing landscape 2026 (vendors, scale, integrated photonics)
   date: '2026-06-16'
-  kind: web
-- slug: 2026-06-16-seeqc-secures-role-in-chips-act-funded-nordtech-quantum-scal
-  title: SEEQC Secures Role in CHIPS Act-Funded NORDTECH Quantum Scaling Project - Quantum Computing Report
-  date: '2026-06-16'
-  kind: web
-- slug: 2026-06-05-d-wave-signs-us100-million-chips-act-funding-deal-to-acceler
-  title: D-Wave signs US$100 million CHIPS Act funding deal to accelerate US quantum computing leadership - Intelligent CIO
-  date: '2026-06-05'
   kind: web
 neighbors: []
 ---

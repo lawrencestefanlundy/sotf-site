@@ -20,7 +20,11 @@ descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-07-08-the-chemistry-of-chips
+  title: The Chemistry of Chips
+  date: '2026-07-08'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

@@ -26,6 +26,7 @@ sources:
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2026-02-12-how-to-invest-in-ai-sovereignty-sovereign]]'
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
+- '[[2026-07-17-the-once-and-future-kimi]]'
 - '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
 - '[[2025-04-16-the-state-of-photonic-computing]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
@@ -36,7 +37,7 @@ last_updated: '2026-05-07'
 tags:
 - concept
 - theme
-mention_count: 832
+mention_count: 846
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -46,9 +47,13 @@ descendants:
 - optical-frequency-division
 - optoelectronic-oscillator
 last_reorg_date: '2026-05-13'
-sources_7d: 3
-sources_30d: 10
+sources_7d: 4
+sources_30d: 11
 recent_mentions:
+- slug: 2026-07-17-the-once-and-future-kimi
+  title: The Once and Future Kimi
+  date: '2026-07-17'
+  kind: substack
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
@@ -76,10 +81,6 @@ recent_mentions:
 - slug: 2026-06-22-thermal-stack-layer-landscape
   title: AI datacentre thermal stack, junction-to-ambient — per-layer players, M&A, capture (web research synthesis)
   date: '2026-06-22'
-  kind: web
-- slug: 2026-06-18-us-backs-photonics-expansion-for-ai-data-centres-under-chips
-  title: US backs photonics expansion for AI data centres under CHIPS Act - Digital Watch Observatory
-  date: '2026-06-18'
   kind: web
 neighbors: []
 ---

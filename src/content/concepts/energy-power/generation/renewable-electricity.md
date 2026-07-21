@@ -19,7 +19,19 @@ mention_count: 82
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-07-17-the-data-center-backlash-isnt-just-nimbyism
+  title: The data center backlash isn’t just NIMBYism
+  date: '2026-07-17'
+  kind: web
+- slug: 2026-07-17-the-off-grid-data-center-fantasy---latitude-media
+  title: The off-grid data center fantasy - Latitude Media
+  date: '2026-07-17'
+  kind: web
+- slug: 2026-07-16-five-trends-that-are-shaping-the-new-market-for-distributed-
+  title: Five trends that are shaping the new market for distributed capacity - Latitude Media
+  date: '2026-07-16'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

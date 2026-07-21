@@ -10,6 +10,7 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2023-08-18-e11-in-conversation-with-lux-capital]]'
+- '[[2026-07-17-the-once-and-future-kimi]]'
 - '[[2026-01-22-ai-chips-computeram-and-the-future]]'
 - '[[2025-07-20-risc-v-open-silicon-share-shd-group-risc-v-market-analysis]]'
 - '[[2024-eu-chips-act-final-text]]'
@@ -29,11 +30,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 61
+mention_count: 64
 last_reorg_date: '2026-05-14'
-sources_7d: 0
-sources_30d: 3
+sources_7d: 1
+sources_30d: 4
 recent_mentions:
+- slug: 2026-07-17-the-once-and-future-kimi
+  title: The Once and Future Kimi
+  date: '2026-07-17'
+  kind: substack
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
@@ -62,10 +67,6 @@ recent_mentions:
   title: RISC-V Hits 25% Design Share as GlobalFoundries Bolsters Open-Standard Ecosystem
   date: '2026-01-23'
   kind: web
-- slug: 2026-01-22-ai-chips-computeram-and-the-future
-  title: 'AI Chips, ComputeRAM and the Future of Data Movement: A Conversation with Manu, Founder of Synthara'
-  date: '2026-01-22'
-  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

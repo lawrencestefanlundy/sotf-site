@@ -19,7 +19,11 @@ mention_count: 37
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-07-16-the-lab-of-the-future-should-feel-like-a-data-center-andy-be
+  title: 🔬 The Lab of the Future Should Feel Like a Data Center — Andy Beam & Rafa Gómez-Bombarelli, Lila Sciences
+  date: '2026-07-16'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

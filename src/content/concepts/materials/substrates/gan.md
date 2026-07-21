@@ -33,11 +33,43 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 118
+mention_count: 121
 last_reorg_date: '2026-05-13'
-sources_7d: 2
-sources_30d: 25
-recent_mentions: []
+sources_7d: 4
+sources_30d: 27
+recent_mentions:
+- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
+  title: 'Startup Funding: Q2 2026'
+  date: '2026-07-13'
+  kind: web
+- slug: 2026-06-22-sintered-metal-die-attach-landscape
+  title: Sintered-silver / sintered-copper die-attach landscape — physics, incumbents, AI-migration question (web research synthesis)
+  date: '2026-06-22'
+  kind: web
+- slug: 2026-06-22-tim-approaches-full-sweep
+  title: TIM approaches — exhaustive in-market + R&D sweep (vendors, classes, startups)
+  date: '2026-06-22'
+  kind: web
+- slug: 2026-06-15-gf-investor-day-2026
+  title: GlobalFoundries Investor Day 2026 (presentation)
+  date: '2026-06-15'
+  kind: web
+- slug: 2026-05-26-semianalysis-800vdc-revolution
+  title: Inside the 800VDC Revolution – Part 1
+  date: '2026-05-26'
+  kind: web
+- slug: 2026-04-20-fixing-the-gan-problem
+  title: Fixing the GaN Problem
+  date: '2026-04-20'
+  kind: web
+- slug: 2026-03-08-diamonds-are-semiconductors-best-friend
+  title: Diamonds are Semiconductors' Best Friend 2026
+  date: '2026-03-08'
+  kind: web
+- slug: 2025-12-19-lfg-for-semiconductors
+  title: LFG (for semiconductors)
+  date: '2025-12-19'
+  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

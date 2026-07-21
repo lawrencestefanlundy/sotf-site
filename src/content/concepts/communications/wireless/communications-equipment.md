@@ -19,7 +19,23 @@ mention_count: 47
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-07-16-wi-fi-network-equipment-amplifiers-market-demand-to-accelera
+  title: Wi-Fi Network Equipment Amplifiers Market Demand to Accelerate by 2035 on Wi-Fi 7 Rollout and 6 Ghz Band Expansion - IndexBox
+  date: '2026-07-16'
+  kind: web
+- slug: 2026-07-08-access-point-modules-market-forecast-points-higher-toward-20
+  title: Access Point Modules Market Forecast Points Higher Toward 2035, Driven by Wi-Fi 7 and Industrial Iot Expansion - IndexBox
+  date: '2026-07-08'
+  kind: web
+- slug: 2025-11-14-advantech-partners-with-rohde-schwarz-to-deliver-wi-fi-compl
+  title: Advantech partners with Rohde & Schwarz to deliver Wi-Fi compliant and deployment-ready industrial Wi-Fi 7 modules - Plataforma Media
+  date: '2025-11-14'
+  kind: web
+- slug: 2022-05-26-industrial-networks-keep-growing-despite-challenging-times--
+  title: Industrial networks keep growing despite challenging times - Design World
+  date: '2022-05-26'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

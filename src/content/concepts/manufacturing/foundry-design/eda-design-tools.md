@@ -19,7 +19,11 @@ mention_count: 25
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-11-southampton-to-help-expand-uk-chip-design-capabilities---mir
+  title: Southampton To Help Expand UK Chip Design Capabilities - Mirage News
+  date: '2026-06-11'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

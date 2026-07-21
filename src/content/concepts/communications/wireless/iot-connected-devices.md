@@ -19,7 +19,27 @@ mention_count: 57
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-07-08-access-point-modules-market-forecast-points-higher-toward-20
+  title: Access Point Modules Market Forecast Points Higher Toward 2035, Driven by Wi-Fi 7 and Industrial Iot Expansion - IndexBox
+  date: '2026-07-08'
+  kind: web
+- slug: 2025-11-14-advantech-partners-with-rohde-schwarz-to-deliver-wi-fi-compl
+  title: Advantech partners with Rohde & Schwarz to deliver Wi-Fi compliant and deployment-ready industrial Wi-Fi 7 modules - Plataforma Media
+  date: '2025-11-14'
+  kind: web
+- slug: 2025-10-09-wi-fi-7-advanced-integrates-sensing-iot-and-ai-security-into
+  title: Wi-Fi 7 Advanced integrates sensing, IoT, and AI security into 10Gbps wireless networks - TechRadar
+  date: '2025-10-09'
+  kind: web
+- slug: 2024-02-21-nordic-semi-unveils-the-new-nrf9151-a-system-in-package-for-
+  title: Nordic Semi Unveils the New nRF9151, a System-in-Package for Power-Efficient Cellular Projects - Hackster.io
+  date: '2024-02-21'
+  kind: web
+- slug: 2022-05-26-industrial-networks-keep-growing-despite-challenging-times--
+  title: Industrial networks keep growing despite challenging times - Design World
+  date: '2022-05-26'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

@@ -34,6 +34,7 @@ sources:
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2026-02-12-how-to-invest-in-ai-sovereignty-sovereign]]'
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
+- '[[2026-07-17-the-once-and-future-kimi]]'
 - '[[2025-04-30-has-the-time-come-to-take-mortal]]'
 - '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
 - '[[2025-04-16-the-state-of-photonic-computing]]'
@@ -46,7 +47,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 853
+mention_count: 881
 descendants:
 - 3d-dram
 - adc-bottleneck
@@ -78,9 +79,21 @@ descendants:
 - sram-cim
 - storage-class-memory
 last_reorg_date: '2026-05-14'
-sources_7d: 3
-sources_30d: 12
+sources_7d: 5
+sources_30d: 14
 recent_mentions:
+- slug: 2026-07-17-the-once-and-future-kimi
+  title: The Once and Future Kimi
+  date: '2026-07-17'
+  kind: substack
+- slug: 2026-07-15-kimi-k3-launch-moonshot
+  title: Kimi K3 — Moonshot launch post (architecture, quantisation, serving requirements)
+  date: '2026-07-15'
+  kind: web
+- slug: 2026-07-13-tech-inflation-silicon-shock-ai-intensifies-u-s-inflation
+  title: 'AI intensifies U.S. inflation? Goldman Sachs: Rising prices of memory, electricity, and software may push core PCE up by 0.5 percentage points by the end of the year'
+  date: '2026-07-13'
+  kind: web
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
@@ -100,18 +113,6 @@ recent_mentions:
 - slug: 2026-07-06-12-mins-why-memory-is-going-to-make-or-break-ai
   title: 12 mins why memory is going to make or break AI
   date: '2026-07-06'
-  kind: web
-- slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
-  title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
-  date: '2026-07-02'
-  kind: web
-- slug: 2026-06-25-data-value-migrates-to-retrieval-layer-kioxia-s-q1-2026
-  title: Kioxia's Q1 2026 Revenue and Operating Profit Surge on AI Chip Demand
-  date: '2026-06-25'
-  kind: web
-- slug: 2026-06-23-semidoped-daily-update
-  title: Semi Doped — Daily Update, June 23rd 2026
-  date: '2026-06-23'
   kind: web
 neighbors: []
 ---

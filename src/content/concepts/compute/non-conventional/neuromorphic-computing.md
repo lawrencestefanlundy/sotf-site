@@ -16,9 +16,10 @@ sources:
 - '[[2026-01-22-ai-chips-computeram-and-the-future]]'
 - '[[2026-06-17-femtoai-spu-ces2026]]'
 frontier:
-- Does any spiking / neuromorphic chip find a volume socket beyond research and niche sensing?
+- 'ANSWERED (20 Jul 2026, [[2026-07-20-neuromorphic-market-sockets-and-algorithm-vs-hardware]]): Does any SPIKING chip find a volume socket beyond research/niche sensing? NO. The always-on edge volume sockets are real but won by conventional low-power digital (Ambiq 280M+, Syntiant 20M+) and sparse-digital (femtoAI 100k+), not spikes. Only defensible spiking wedge = defense RF signal classification, still POC (BrainChip FY25 revenue $1.89M). Base rate confirmed poor.'
+- 'ANSWERED (20 Jul 2026): brain-inspired ALGORITHM (Camp A, >$2B in 2026 — Flourish, AMI/LeCun, Liquid, Sakana) runs on GPUs and does NOT need neuromorphic silicon; spiking HARDWARE (Camp B) is a separate ~$0.5B chip market. Never underwrite a hardware bet on the brain-inspired tailwind — it is a software story.'
 - Do analog / memcapacitor devices become the substrate for neuromorphic, or stay separate?
-last_updated: '2026-06-09'
+last_updated: '2026-07-20'
 tags:
 - concept
 - technology

@@ -19,7 +19,11 @@ mention_count: 50
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2025-11-06-successful-funding-round-for-empa-eth-spin-off-57-million-to
+  title: 'Successful funding round for Empa-ETH spin-off: $ 5.7 million to industrialize ultra-thin solid-state batteries - admin.ch'
+  date: '2025-11-06'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

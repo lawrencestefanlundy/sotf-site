@@ -55,19 +55,16 @@ sources:
 - '[[2026-06-15-optical-interconnect-cpo-transition-optical-interconnects]]'
 - '[[2026-04-15-semianalysis-isscc-2026]]'
 - '[[2026-06-09-optical-displaces-copper-semianalysis-cpo-delayed-to-2028]]'
-- '[[2026-06-09-photonic-foundry-capacity-silicon-photonics-chips-the]]'
-- '[[2026-04-10-photonic-light-source-supply-co-packaged-optics-cpo-scaling]]'
-- '[[2026-05-30-senko-gf-cpo-detachable-fiber]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 127
+mention_count: 132
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 12
+sources_7d: 3
+sources_30d: 15
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'

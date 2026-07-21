@@ -51,6 +51,14 @@ recent_mentions:
   title: SK Hynix record one-day fall as HBM4 goes three-supplier
   date: '2026-07-13'
   kind: web
+- slug: 2026-07-09-inside-the-ai-power-wars---latitude-media
+  title: Inside the AI power wars - Latitude Media
+  date: '2026-07-09'
+  kind: web
+- slug: 2026-07-08-why-ai-infrastructure-must-evolve-for-agent-experience-aksha
+  title: Why AI Infrastructure must evolve for Agent Experience — Akshat Bubna, Modal CTO
+  date: '2026-07-08'
+  kind: web
 - slug: 2026-07-01-arxiv-enclavex-end-to-end-confidential-ai-with-cpugpu-tees
   title: 'EnclaveX: End-to-End Confidential AI with CPU/GPU TEEs'
   date: '2026-07-01'
@@ -59,6 +67,10 @@ recent_mentions:
   title: Semi Doped — Daily Update, June 23rd 2026
   date: '2026-06-23'
   kind: web
+- slug: 2026-06-17-arxiv-bifrost-hybrid-tee-fhe-inference-for-privacy-preserving-tran
+  title: 'Bifrost: Hybrid TEE-FHE Inference for Privacy-Preserving Transformer and LLM Serving'
+  date: '2026-06-17'
+  kind: paper
 - slug: 2026-06-17-femtoai-company-profile
   title: femtoAI (formerly Femtosense) — company profile, funding, leadership
   date: '2026-06-17'
@@ -66,18 +78,6 @@ recent_mentions:
 - slug: 2026-06-17-qualcomm-tenstorrent-talks
   title: Qualcomm in advanced talks to acquire Tenstorrent at $8-10B (reported)
   date: '2026-06-17'
-  kind: web
-- slug: 2026-06-17-femtoai-spu-ces2026
-  title: femtoAI to Highlight its Sparse Processing Unit Edge AI Accelerator at CES 2026
-  date: '2026-06-17'
-  kind: web
-- slug: 2026-06-17-arxiv-bifrost-hybrid-tee-fhe-inference-for-privacy-preserving-tran
-  title: 'Bifrost: Hybrid TEE-FHE Inference for Privacy-Preserving Transformer and LLM Serving'
-  date: '2026-06-17'
-  kind: paper
-- slug: 2026-05-21-specialisation-beats-generality-the-custom-ai-asic-state-of
-  title: The custom AI ASIC state of play (May 2026)
-  date: '2026-05-21'
   kind: web
 neighbors: []
 ---

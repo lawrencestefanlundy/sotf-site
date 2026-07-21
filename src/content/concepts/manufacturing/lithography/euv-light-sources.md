@@ -14,6 +14,7 @@ sources:
 - '[[2023-10-06-e18-the-state-of-silent-speech-and]]'
 - '[[2024-10-29-deploy-intelligence-too-cheap-to]]'
 - '[[2025-12-19-lfg-for-semiconductors]]'
+- '[[2026-07-17-the-once-and-future-kimi]]'
 - '[[2024-asml-investor-day-export-controls]]'
 - '[[2026-06-23-semidoped-daily-update]]'
 - '[[2026-06-11-semianalysis-intel-should-raise-capital]]'
@@ -48,11 +49,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 95
+mention_count: 100
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 15
+sources_7d: 2
+sources_30d: 18
 recent_mentions:
+- slug: 2026-07-17-the-once-and-future-kimi
+  title: The Once and Future Kimi
+  date: '2026-07-17'
+  kind: substack
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
@@ -80,10 +85,6 @@ recent_mentions:
 - slug: 2026-06-11-semianalysis-intel-should-raise-capital
   title: Intel Should Raise Capital
   date: '2026-06-11'
-  kind: web
-- slug: 2026-05-02-euv-lithography-wikipedia
-  title: EUV Lithography Wikipedia
-  date: '2026-05-02'
   kind: web
 neighbors: []
 ---

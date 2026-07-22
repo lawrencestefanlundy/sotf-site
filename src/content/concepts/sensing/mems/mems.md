@@ -30,7 +30,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 78
+mention_count: 81
 last_reorg_date: '2026-05-13'
 descendants:
 - mems
@@ -38,7 +38,7 @@ descendants:
 - sensors
 - spectral-sensing
 sources_7d: 2
-sources_30d: 12
+sources_30d: 11
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'

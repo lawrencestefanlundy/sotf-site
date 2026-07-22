@@ -25,7 +25,7 @@ last_updated: '2026-05-07'
 tags:
 - concept
 - technology
-mention_count: 28
+mention_count: 33
 descendants:
 - datacenter-network-stack
 - lpo-linear-pluggable-optics
@@ -35,8 +35,8 @@ descendants:
 - optical-packet-switching
 - pluggable-transceivers
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 4
+sources_7d: 2
+sources_30d: 5
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'

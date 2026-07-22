@@ -20,6 +20,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-07-20-making-sense-of-the-data-center-backlash
+  title: Making sense of the data center backlash
+  date: '2026-07-20'
+  kind: web
 - slug: 2026-07-17-the-data-center-backlash-isnt-just-nimbyism
   title: The data center backlash isn’t just NIMBYism
   date: '2026-07-17'

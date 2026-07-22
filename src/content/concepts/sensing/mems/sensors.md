@@ -31,11 +31,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 320
+mention_count: 325
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 11
+sources_7d: 2
+sources_30d: 12
 recent_mentions:
+- slug: 2026-07-21-a-new-compact-instrument-enables-high-fidelity-measurements-
+  title: A New Compact Instrument Enables High-Fidelity Measurements of Energetic Particles on CubeSats
+  date: '2026-07-21'
+  kind: web
 - slug: 2026-07-16-robotics-labour-augmentation-the-us-58-9-billion-humanoid
   title: The US$58.9 Billion Humanoid Robot Opportunity Starts With Actuators, Sensors, And Batteries
   date: '2026-07-16'
@@ -62,10 +66,6 @@ recent_mentions:
   kind: web
 - slug: 2026-06-21-st-nxp-mems-acquisition
   title: STMicroelectronics to acquire NXP's MEMS sensor business for up to $950M
-  date: '2026-06-21'
-  kind: web
-- slug: 2026-06-21-yole-mems-market-momentum
-  title: MEMS market regains momentum — Bosch, STMicroelectronics and TDK navigate the post-inventory growth era (Status of the MEMS Industry 2025)
   date: '2026-06-21'
   kind: web
 neighbors: []

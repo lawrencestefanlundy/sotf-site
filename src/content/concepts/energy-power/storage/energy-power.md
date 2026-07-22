@@ -80,6 +80,10 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-07-20-making-sense-of-the-data-center-backlash
+  title: Making sense of the data center backlash
+  date: '2026-07-20'
+  kind: web
 - slug: 2026-07-17-the-data-center-backlash-isnt-just-nimbyism
   title: The data center backlash isn’t just NIMBYism
   date: '2026-07-17'
@@ -99,6 +103,14 @@ recent_mentions:
 - slug: 2026-07-09-inside-the-ai-power-wars---latitude-media
   title: Inside the AI power wars - Latitude Media
   date: '2026-07-09'
+  kind: web
+- slug: 2023-11-16-barriers-to-next-gen-geothermal---institute-for-progress-ifp
+  title: Barriers to Next-Gen Geothermal - Institute for Progress (IFP)
+  date: '2023-11-16'
+  kind: web
+- slug: 2020-07-22-new-doe-arpa-e-program-awards-24-million-to-10-advanced-nucl
+  title: New DoE ARPA-E program awards $24 million to 10 advanced nuclear reactor projects - Daily Energy Insider
+  date: '2020-07-22'
   kind: web
 neighbors: []
 ---

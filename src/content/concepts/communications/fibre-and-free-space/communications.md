@@ -23,7 +23,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 239
+mention_count: 242
 descendants:
 - 5g-nr-advanced
 - beamforming-ics
@@ -55,7 +55,7 @@ descendants:
 - sub-thz-6g
 - timing-clock-generation
 last_reorg_date: '2026-05-14'
-sources_7d: 0
+sources_7d: 1
 sources_30d: 14
 recent_mentions:
 - slug: 2026-06-12-hku-sic-cryogenic-neuromorphic-chip-10mk

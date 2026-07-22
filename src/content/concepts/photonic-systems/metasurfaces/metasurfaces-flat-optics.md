@@ -32,7 +32,15 @@ mention_count: 15
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-07-21-robotically-assembled-electromagnetic-metamaterials-for-long
+  title: Robotically Assembled Electromagnetic Metamaterials for Long-Range Space Situational Awareness
+  date: '2026-07-21'
+  kind: web
+- slug: 2026-07-21-precision-astrometry-using-optically-independent-spacecraft-
+  title: Precision Astrometry Using Optically Independent Spacecraft for Graviational Wave Detection
+  date: '2026-07-21'
+  kind: web
 neighbors:
 - slug: metalens
   name: Metalens

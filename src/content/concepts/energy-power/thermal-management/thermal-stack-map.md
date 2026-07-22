@@ -41,7 +41,7 @@ mention_count: 0
 descendants:
 - tim-approach-map
 sources_7d: 0
-sources_30d: 3
+sources_30d: 0
 recent_mentions: []
 neighbors:
 - slug: tim-approach-map

@@ -31,7 +31,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 394
+mention_count: 404
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -49,9 +49,13 @@ descendants:
 - topological-qubits
 - trapped-ion
 last_reorg_date: '2026-05-13'
-sources_7d: 3
+sources_7d: 5
 sources_30d: 25
 recent_mentions:
+- slug: 2026-07-21-d-wave-quantum-chips-act-backing-and-nasdaq-shift-fail-to-re
+  title: 'D-Wave Quantum: CHIPS Act Backing and Nasdaq Shift Fail to Reverse a Brutal Selloff - Ad-hoc-news.de'
+  date: '2026-07-21'
+  kind: web
 - slug: 2026-07-16-when-will-quantum-computing-have-its-breakout-moment---latit
   title: When will quantum computing have its breakout moment? - Latitude Media
   date: '2026-07-16'
@@ -78,10 +82,6 @@ recent_mentions:
   kind: web
 - slug: 2026-06-16-phasecraft-appointed-by-arpa-e-to-advance-catalyst-simulatio
   title: Phasecraft Appointed by ARPA-E to Advance Catalyst Simulation Frameworks for Hydrogen Electrolysis - Quantum Computing Report
-  date: '2026-06-16'
-  kind: web
-- slug: 2026-06-16-trapped-ion-landscape-2026
-  title: Trapped-ion quantum computing landscape 2026 (vendors, scale, integrated photonics)
   date: '2026-06-16'
   kind: web
 neighbors: []

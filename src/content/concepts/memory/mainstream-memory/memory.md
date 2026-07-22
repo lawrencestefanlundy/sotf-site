@@ -47,7 +47,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 881
+mention_count: 932
 descendants:
 - 3d-dram
 - adc-bottleneck
@@ -78,10 +78,15 @@ descendants:
 - sram
 - sram-cim
 - storage-class-memory
+- token-cost-stack
 last_reorg_date: '2026-05-14'
 sources_7d: 5
-sources_30d: 14
+sources_30d: 12
 recent_mentions:
+- slug: 2026-07-21-applied-crypto-spinout-sourcing-map
+  title: Applied-cryptography academic spinouts in financial infrastructure — sourcing map
+  date: '2026-07-21'
+  kind: web
 - slug: 2026-07-17-the-once-and-future-kimi
   title: The Once and Future Kimi
   date: '2026-07-17'
@@ -109,10 +114,6 @@ recent_mentions:
 - slug: 2026-07-07-high-bandwidth-flash-the-full-report
   title: 'High Bandwidth Flash: The Full Report'
   date: '2026-07-07'
-  kind: web
-- slug: 2026-07-06-12-mins-why-memory-is-going-to-make-or-break-ai
-  title: 12 mins why memory is going to make or break AI
-  date: '2026-07-06'
   kind: web
 neighbors: []
 ---

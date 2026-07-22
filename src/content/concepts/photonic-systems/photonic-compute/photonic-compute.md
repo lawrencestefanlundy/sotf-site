@@ -27,7 +27,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 69
+mention_count: 78
 descendants:
 - diffractive-deep-neural-network
 - diffractive-deep-neural-networks
@@ -125,3 +125,23 @@ The market read and routing live on **Photonic Compute Market** (interconnect/IO
 ## Update 10 Jul 2026 — the buyer-KPI test
 
 Placed in the **Inference Economics** frame (the 2 customer KPIs): photonic INTERCONNECT moves the datacentre tokens/watt KPI at system level and is where photonic value has actually settled (Lightmatter Passage, Celestial→Marvell $3.25B, the Salience pivot); photonic COMPUTE has yet to publish a buyable number on either KPI, failing the edge envelope on laser static power (Roelkens, 6 Jul 2026: no credible path; µW static needs hero photonic-crystal cavity lasers — **2026 07 06 Lawrence Re Quick Question On Laser Logic**) and inheriting an OEO conversion tax analogous to the [ADC Bottleneck (analog in-memory compute)](/compute/compute-architecture/adc-bottleneck/) in the datacentre. Company mapping: **2026 07 10 Two Kpi Approach Map**.
+
+**The depth ceiling — the single most useful benchmark on this page.** The basic photonic functional unit is a **Mach-Zehnder interferometer**, performing an SU(2) matrix multiplication. Losses accumulate as they are stacked, capping the achievable **depth**, and depth sets the matrix size that can be mapped onto the chip.
+
+| | Matrix size |
+|---|---|
+| NVIDIA GPU core (8-bit / 4-bit, CUDA-optimised) | **256 × 256** |
+| Photonic state of the art | **8 - 32** |
+
+The 8 figure traces to the original **Lightmatter** / **Lightelligence** work; later results go slightly higher with caveats. **This is a component-level gap, not an integration or packaging problem** — which is why packaging progress (co-packaged optics, foundry access) does not by itself close it. Two routes exist: accept a fixed depth and optimise energy/latency around it, or improve components to raise depth.
+
+**Where the latency actually comes from.** Two conversions must be reasoned about separately:
+1. **Digital-to-analog (DAC/ADC)** — the real source. Board-level parts run kHz-MHz, so **microseconds**. Giga-samples/sec needs a **custom analog ASIC** (done in transceivers), but a **large bank** of such ADCs has not been built.
+2. **Electronic-to-photonic** — **not** a meaningful latency contributor; high-speed and compact, mature off the back of the transceiver industry.
+
+**All-optical latency floor** is photon transit: roughly *c* divided by refractive index (~50-70% of *c*), so a couple of millimetres ≈ 1 ns. Going sub-nanosecond means shrinking footprint, pushing toward costlier optical lithography or **e-beam, which is not CMOS-standard**.
+
+**Latency is usually the wrong axis.** Bandwidth scales with modulation rate (picosecond-class modulation → data every ~10 ps) and again with wavelength-division multiplexing, which is what optical communications already exploits.
+
+**Linear versus nonlinear.** Linear operations are coherent, dissipate no energy and are straightforward on silicon photonics — the natural target. Nonlinear operations need new materials or device engineering with no clear advantage over digital. Hence photonic chips are **not general-purpose**: the discipline is deciding, per computation, whether the optical domain earns its place. The conversion penalty falls sharply when data is **already analog** (sensing) or **already optical** (LiDAR, cameras, optical networks).
+

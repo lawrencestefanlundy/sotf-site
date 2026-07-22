@@ -25,6 +25,10 @@ descendants:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-07-20-user-clip-gen-bolduc-chips-act---c-span
+  title: 'User Clip: Gen Bolduc CHIPS Act - C-SPAN'
+  date: '2026-07-20'
+  kind: web
 - slug: 2026-07-14-europes-chips-act-a-brief-supply-chain-opinion---omdia
   title: 'Europe’s Chips Act: A brief supply chain opinion - Omdia'
   date: '2026-07-14'

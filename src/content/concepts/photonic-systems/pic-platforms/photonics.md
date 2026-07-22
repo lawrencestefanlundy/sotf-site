@@ -37,7 +37,7 @@ last_updated: '2026-05-07'
 tags:
 - concept
 - theme
-mention_count: 846
+mention_count: 866
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -50,6 +50,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 4
 sources_30d: 11
 recent_mentions:
+- slug: 2026-07-21-niac-2026-selections
+  title: NIAC 2026 Selections
+  date: '2026-07-21'
+  kind: web
 - slug: 2026-07-17-the-once-and-future-kimi
   title: The Once and Future Kimi
   date: '2026-07-17'
@@ -77,10 +81,6 @@ recent_mentions:
 - slug: 2026-06-23-photonic-foundry-capacity-co-packaged-optics-is-not-delayed
   title: Co-Packaged Optics Is Not Delayed. SemiAnalysis Is Just Wrong
   date: '2026-06-23'
-  kind: web
-- slug: 2026-06-22-thermal-stack-layer-landscape
-  title: AI datacentre thermal stack, junction-to-ambient — per-layer players, M&A, capture (web research synthesis)
-  date: '2026-06-22'
   kind: web
 neighbors: []
 ---

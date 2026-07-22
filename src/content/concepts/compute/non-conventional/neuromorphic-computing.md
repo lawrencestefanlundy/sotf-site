@@ -23,12 +23,12 @@ last_updated: '2026-07-20'
 tags:
 - concept
 - technology
-mention_count: 43
+mention_count: 48
 last_reorg_date: '2026-05-14'
 descendants:
 - spiking-neural-networks
-sources_7d: 1
-sources_30d: 7
+sources_7d: 5
+sources_30d: 10
 recent_mentions:
 - slug: 2026-06-17-femtoai-spu-ces2026
   title: femtoAI to Highlight its Sparse Processing Unit Edge AI Accelerator at CES 2026

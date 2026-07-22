@@ -27,8 +27,12 @@ descendants:
 - wafer-level-burn-in
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 2
+sources_30d: 1
 recent_mentions:
+- slug: 2026-07-20-user-clip-gen-bolduc-chips-act---c-span
+  title: 'User Clip: Gen Bolduc CHIPS Act - C-SPAN'
+  date: '2026-07-20'
+  kind: web
 - slug: 2026-07-18-the-eu-chips-act-is-a-failure-lilli-manzini-3g2lw7evgw---msh
   title: The EU Chips Act Is A Failure Lilli Manzini (3G2LW7eVgW) - Mshale
   date: '2026-07-18'
@@ -49,17 +53,13 @@ recent_mentions:
   title: Bosch begins production at Roseville chip fab, secures $225 million in CHIPS Act funding - The Business Journals
   date: '2026-07-13'
   kind: web
+- slug: 2026-07-10-cornyn-chips-act-will-help-america-win-the-ai-race-with-chin
+  title: 'Cornyn: CHIPS Act will help America win the AI race with China - Dallas News'
+  date: '2026-07-10'
+  kind: web
 - slug: 2026-07-09-munichs-quantumdiamonds-raises-91-million-to-scale-its-quant
   title: Munich’s QuantumDiamonds raises €91 million to scale its quantum-based semiconductor inspection technology - EU-Startups
   date: '2026-07-09'
-  kind: web
-- slug: 2026-01-21-the-future-of-economic-security-with-dan-kim-and-chris-mille
-  title: The Future of Economic Security with Dan Kim and Chris Miller - ChinaTalk
-  date: '2026-01-21'
-  kind: web
-- slug: 2025-12-30-us-eases-semiconductor-equipment-rules-for-samsung-sk-hynix-
-  title: U.S. Eases Semiconductor Equipment Rules for Samsung, SK Hynix in China - 조선일보
-  date: '2025-12-30'
   kind: web
 neighbors: []
 ---

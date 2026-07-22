@@ -51,6 +51,10 @@ recent_mentions:
   title: SK Hynix record one-day fall as HBM4 goes three-supplier
   date: '2026-07-13'
   kind: web
+- slug: 2026-07-10-cornyn-chips-act-will-help-america-win-the-ai-race-with-chin
+  title: 'Cornyn: CHIPS Act will help America win the AI race with China - Dallas News'
+  date: '2026-07-10'
+  kind: web
 - slug: 2026-07-09-inside-the-ai-power-wars---latitude-media
   title: Inside the AI power wars - Latitude Media
   date: '2026-07-09'
@@ -73,10 +77,6 @@ recent_mentions:
   kind: paper
 - slug: 2026-06-17-femtoai-company-profile
   title: femtoAI (formerly Femtosense) — company profile, funding, leadership
-  date: '2026-06-17'
-  kind: web
-- slug: 2026-06-17-qualcomm-tenstorrent-talks
-  title: Qualcomm in advanced talks to acquire Tenstorrent at $8-10B (reported)
   date: '2026-06-17'
   kind: web
 neighbors: []

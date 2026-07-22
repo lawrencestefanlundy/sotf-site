@@ -19,7 +19,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 30
+mention_count: 31
 last_reorg_date: '2026-05-13'
 descendants:
 - aluminium-gallium-nitride

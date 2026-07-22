@@ -20,6 +20,10 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-07-20-making-sense-of-the-data-center-backlash
+  title: Making sense of the data center backlash
+  date: '2026-07-20'
+  kind: web
 - slug: 2026-07-17-the-data-center-backlash-isnt-just-nimbyism
   title: The data center backlash isn’t just NIMBYism
   date: '2026-07-17'
@@ -31,6 +35,10 @@ recent_mentions:
 - slug: 2026-07-16-five-trends-that-are-shaping-the-new-market-for-distributed-
   title: Five trends that are shaping the new market for distributed capacity - Latitude Media
   date: '2026-07-16'
+  kind: web
+- slug: 2023-11-16-barriers-to-next-gen-geothermal---institute-for-progress-ifp
+  title: Barriers to Next-Gen Geothermal - Institute for Progress (IFP)
+  date: '2023-11-16'
   kind: web
 neighbors: []
 ---

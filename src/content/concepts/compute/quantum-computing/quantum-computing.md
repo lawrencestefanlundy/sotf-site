@@ -31,7 +31,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 404
+mention_count: 419
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -49,8 +49,8 @@ descendants:
 - topological-qubits
 - trapped-ion
 last_reorg_date: '2026-05-13'
-sources_7d: 5
-sources_30d: 25
+sources_7d: 7
+sources_30d: 27
 recent_mentions:
 - slug: 2026-07-21-d-wave-quantum-chips-act-backing-and-nasdaq-shift-fail-to-re
   title: 'D-Wave Quantum: CHIPS Act Backing and Nasdaq Shift Fail to Reverse a Brutal Selloff - Ad-hoc-news.de'
@@ -68,6 +68,14 @@ recent_mentions:
   title: Munich’s QuantumDiamonds raises €91 million to scale its quantum-based semiconductor inspection technology - EU-Startups
   date: '2026-07-09'
   kind: web
+- slug: 2026-06-30-quantum-roadmap-funded-not-demand-funded-q2-2026-bit-by
+  title: 'Q2 2026 Bit by Qubit: Global Quantum Computing Funding Hits New Records and Is Accelerating'
+  date: '2026-06-30'
+  kind: web
+- slug: 2026-06-25-quantum-roadmap-funded-not-demand-funded-q2-2026-bit-by
+  title: 'Q2 2026 Bit by Qubit: Global Quantum Computing Funding Hits New Records and Is Accelerating'
+  date: '2026-06-25'
+  kind: web
 - slug: 2026-06-20-d-wave-quantum-nyse-qbts-secures-100-million-federal-loi-und
   title: 'D-Wave Quantum (NYSE: QBTS) Secures $100 Million Federal LOI Under CHIPS Act To Accelerate Quantum Computing Development - foreignpolicyjournal.com'
   date: '2026-06-20'
@@ -75,14 +83,6 @@ recent_mentions:
 - slug: 2026-06-17-sandboxaq-secures-500-million-chips-act-rd-award-to-insulate
   title: SandboxAQ Secures $500 Million CHIPS Act R&D Award to Insulate Semiconductor Supply Chains - Quantum Computing Report
   date: '2026-06-17'
-  kind: web
-- slug: 2026-06-17-us-boosts-quantum-computing-with-2b-chips-act-funding-signal
-  title: US boosts quantum computing with $2B CHIPS Act funding, signaling tech's breakout potential. - Pluang
-  date: '2026-06-17'
-  kind: web
-- slug: 2026-06-16-phasecraft-appointed-by-arpa-e-to-advance-catalyst-simulatio
-  title: Phasecraft Appointed by ARPA-E to Advance Catalyst Simulation Frameworks for Hydrogen Electrolysis - Quantum Computing Report
-  date: '2026-06-16'
   kind: web
 neighbors: []
 ---

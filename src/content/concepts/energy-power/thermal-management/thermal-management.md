@@ -33,11 +33,11 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 83
+mention_count: 84
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 7
+sources_7d: 2
+sources_30d: 8
 recent_mentions: []
 neighbors:
 - slug: thermal-stack-map

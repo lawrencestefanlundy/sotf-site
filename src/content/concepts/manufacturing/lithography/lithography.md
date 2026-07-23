@@ -27,7 +27,7 @@ last_updated: '2026-05-08'
 tags:
 - concept
 - technology
-mention_count: 158
+mention_count: 159
 descendants:
 - computational-lithography
 - directed-self-assembly

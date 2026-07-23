@@ -9,6 +9,7 @@ parent_concepts:
 - metasurfaces-flat-optics
 related_concepts: []
 sources:
+- '[[2026-07-21-robotically-assembled-electromagnetic-metamaterials-for-long]]'
 - '[[2025-08-19-thermal-stack-arms-race-thermal-interface-materials-market]]'
 frontier:
 - ''
@@ -16,11 +17,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 43
+mention_count: 46
 last_reorg_date: '2026-05-13'
-sources_7d: 2
-sources_30d: 17
+sources_7d: 4
+sources_30d: 19
 recent_mentions:
+- slug: 2026-07-21-robotically-assembled-electromagnetic-metamaterials-for-long
+  title: Robotically Assembled Electromagnetic Metamaterials for Long-Range Space Situational Awareness
+  date: '2026-07-21'
+  kind: web
 - slug: 2025-08-19-thermal-stack-arms-race-thermal-interface-materials-market
   title: 'Thermal Interface Materials Market Report 2026-2036: High-Performance TIMs for Data Centers, AI Servers, and 5G Infrastructure'
   date: '2025-08-19'

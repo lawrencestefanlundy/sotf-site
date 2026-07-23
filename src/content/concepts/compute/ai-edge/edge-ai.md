@@ -29,7 +29,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - framework
-mention_count: 62
+mention_count: 63
 descendants:
 - hearing-aid-silicon-beachhead
 - nvidia-jetson

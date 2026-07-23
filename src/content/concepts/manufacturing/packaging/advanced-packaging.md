@@ -22,22 +22,20 @@ sources:
 - '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
-- '[[2026-06-23-semidoped-daily-update]]'
-- '[[2026-03-14-semianalysis-patel-bottlenecks]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 153
+mention_count: 156
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration
 - micro-transfer-printing
 - osat
 last_reorg_date: '2026-05-13'
-sources_7d: 4
+sources_7d: 3
 sources_30d: 12
 recent_mentions:
 - slug: 2026-07-14-boschs-sic-fab-deal-adds-to-a-resurgence-in-chips-act-fundin

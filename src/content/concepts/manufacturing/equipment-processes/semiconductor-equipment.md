@@ -18,7 +18,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 63
+mention_count: 64
 descendants:
 - automated-test-equipment
 - ion-implantation
@@ -29,6 +29,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 1
 recent_mentions:
+- slug: 2026-07-22-microns-100-billion-mega-plant-sparks-workforce-revolution-i
+  title: Micron's $100 billion mega-plant sparks workforce revolution in Central NY - Press & Sun-Bulletin
+  date: '2026-07-22'
+  kind: web
 - slug: 2026-07-20-user-clip-gen-bolduc-chips-act---c-span
   title: 'User Clip: Gen Bolduc CHIPS Act - C-SPAN'
   date: '2026-07-20'
@@ -56,10 +60,6 @@ recent_mentions:
 - slug: 2026-07-10-cornyn-chips-act-will-help-america-win-the-ai-race-with-chin
   title: 'Cornyn: CHIPS Act will help America win the AI race with China - Dallas News'
   date: '2026-07-10'
-  kind: web
-- slug: 2026-07-09-munichs-quantumdiamonds-raises-91-million-to-scale-its-quant
-  title: Munich’s QuantumDiamonds raises €91 million to scale its quantum-based semiconductor inspection technology - EU-Startups
-  date: '2026-07-09'
   kind: web
 neighbors: []
 ---

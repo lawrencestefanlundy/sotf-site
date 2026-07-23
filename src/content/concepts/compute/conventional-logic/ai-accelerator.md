@@ -42,10 +42,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 90
+mention_count: 91
 last_reorg_date: '2026-05-14'
-sources_7d: 1
-sources_30d: 2
+sources_7d: 0
+sources_30d: 1
 recent_mentions:
 - slug: 2026-07-13-sk-hynix-record-fall-hbm4-three-supplier
   title: SK Hynix record one-day fall as HBM4 goes three-supplier
@@ -71,12 +71,12 @@ recent_mentions:
   title: Semi Doped — Daily Update, June 23rd 2026
   date: '2026-06-23'
   kind: web
-- slug: 2026-06-17-arxiv-bifrost-hybrid-tee-fhe-inference-for-privacy-preserving-tran
-  title: 'Bifrost: Hybrid TEE-FHE Inference for Privacy-Preserving Transformer and LLM Serving'
-  date: '2026-06-17'
-  kind: paper
 - slug: 2026-06-17-femtoai-company-profile
   title: femtoAI (formerly Femtosense) — company profile, funding, leadership
+  date: '2026-06-17'
+  kind: web
+- slug: 2026-06-17-qualcomm-tenstorrent-talks
+  title: Qualcomm in advanced talks to acquire Tenstorrent at $8-10B (reported)
   date: '2026-06-17'
   kind: web
 neighbors: []

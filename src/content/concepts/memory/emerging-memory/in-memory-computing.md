@@ -30,7 +30,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 43
+mention_count: 45
 descendants:
 - adc-bottleneck
 - analog-in-memory-compute
@@ -41,7 +41,7 @@ descendants:
 - sram-cim
 last_reorg_date: '2026-05-14'
 sources_7d: 2
-sources_30d: 8
+sources_30d: 10
 recent_mentions:
 - slug: 2026-01-22-ai-chips-computeram-and-the-future
   title: 'AI Chips, ComputeRAM and the Future of Data Movement: A Conversation with Manu, Founder of Synthara'

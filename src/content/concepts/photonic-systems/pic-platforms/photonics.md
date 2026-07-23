@@ -37,7 +37,7 @@ last_updated: '2026-05-07'
 tags:
 - concept
 - theme
-mention_count: 866
+mention_count: 886
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -47,9 +47,13 @@ descendants:
 - optical-frequency-division
 - optoelectronic-oscillator
 last_reorg_date: '2026-05-13'
-sources_7d: 4
-sources_30d: 11
+sources_7d: 3
+sources_30d: 12
 recent_mentions:
+- slug: 2026-07-22-photonics21-welcomes-chips-act-20-inclusion-of-photonics---o
+  title: Photonics21 welcomes Chips Act 2.0 inclusion of photonics - Optics.org
+  date: '2026-07-22'
+  kind: web
 - slug: 2026-07-21-niac-2026-selections
   title: NIAC 2026 Selections
   date: '2026-07-21'
@@ -76,10 +80,6 @@ recent_mentions:
   kind: web
 - slug: 2026-06-23-semidoped-daily-update
   title: Semi Doped — Daily Update, June 23rd 2026
-  date: '2026-06-23'
-  kind: web
-- slug: 2026-06-23-photonic-foundry-capacity-co-packaged-optics-is-not-delayed
-  title: Co-Packaged Optics Is Not Delayed. SemiAnalysis Is Just Wrong
   date: '2026-06-23'
   kind: web
 neighbors: []

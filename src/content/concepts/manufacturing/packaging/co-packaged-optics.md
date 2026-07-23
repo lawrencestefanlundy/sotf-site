@@ -49,18 +49,16 @@ sources:
 - '[[2026-06-17-sjtu-ge-si-photodetector-110ghz-fowlp]]'
 - '[[2026-06-15-pic-market-structure-2030-cpo-npo-market-expected-to-exceed]]'
 - '[[2026-06-15-gf-investor-day-2026]]'
-- '[[2026-01-09-photonics-material-class-war-thin-film-lithium-niobate-tfln]]'
-- '[[2025-12-08-photonic-foundry-capacity-umc-licenses-imec-s-isipp300-to]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 138
+mention_count: 141
 last_reorg_date: '2026-05-13'
-sources_7d: 3
-sources_30d: 14
+sources_7d: 4
+sources_30d: 15
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'

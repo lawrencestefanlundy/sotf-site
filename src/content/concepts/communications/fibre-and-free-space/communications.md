@@ -23,7 +23,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 242
+mention_count: 245
 descendants:
 - 5g-nr-advanced
 - beamforming-ics

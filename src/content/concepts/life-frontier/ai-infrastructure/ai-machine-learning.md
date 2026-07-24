@@ -20,6 +20,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-07-23-datacenter-capex-is-spilling-over-into-a-chatgpt-of-robotics
+  title: Datacenter Capex is Spilling over into a ChatGPT of Robotics Moment set for 2027 and this decade.
+  date: '2026-07-23'
+  kind: web
 - slug: 2026-07-16-the-lab-of-the-future-should-feel-like-a-data-center-andy-be
   title: 🔬 The Lab of the Future Should Feel Like a Data Center — Andy Beam & Rafa Gómez-Bombarelli, Lila Sciences
   date: '2026-07-16'
@@ -46,10 +50,6 @@ recent_mentions:
   kind: paper
 - slug: 2026-06-15-arxiv-hidden-in-plain-sight-benchmarking-agent-safety-against-deco
   title: 'Hidden in Plain Sight: Benchmarking Agent Safety Against Decomposition Attacks with DECOMPBENCH'
-  date: '2026-06-15'
-  kind: paper
-- slug: 2026-06-15-arxiv-skillmutator-benchmarking-and-defending-language-and-code-cr
-  title: 'SkillMutator: Benchmarking and Defending Language-and-Code Cross-modal Attacks on LLM Agent Skills'
   date: '2026-06-15'
   kind: paper
 neighbors: []

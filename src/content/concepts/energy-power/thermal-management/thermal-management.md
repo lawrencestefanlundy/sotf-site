@@ -37,7 +37,7 @@ mention_count: 84
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 2
-sources_30d: 8
+sources_30d: 7
 recent_mentions: []
 neighbors:
 - slug: thermal-stack-map

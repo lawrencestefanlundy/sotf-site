@@ -18,7 +18,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 64
+mention_count: 65
 descendants:
 - automated-test-equipment
 - ion-implantation

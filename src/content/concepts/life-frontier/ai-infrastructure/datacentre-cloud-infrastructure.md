@@ -20,6 +20,18 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-07-24-18b-illinois-chips-act-supports-zero-point-cryogenics-us-ent
+  title: $1.8B Illinois Chips Act Supports Zero Point Cryogenics’ U.S. Entry - Quantum Zeitgeist
+  date: '2026-07-24'
+  kind: web
+- slug: 2026-07-23-why-energy-bills-may-keep-rising-even-as-utilities-join-trum
+  title: Why energy bills may keep rising, even as utilities join Trump’s AI ratepayer pledge - Latitude Media
+  date: '2026-07-23'
+  kind: web
+- slug: 2026-07-23-datacenter-capex-is-spilling-over-into-a-chatgpt-of-robotics
+  title: Datacenter Capex is Spilling over into a ChatGPT of Robotics Moment set for 2027 and this decade.
+  date: '2026-07-23'
+  kind: web
 - slug: 2026-07-22-microns-100-billion-mega-plant-sparks-workforce-revolution-i
   title: Micron's $100 billion mega-plant sparks workforce revolution in Central NY - Press & Sun-Bulletin
   date: '2026-07-22'
@@ -39,18 +51,6 @@ recent_mentions:
 - slug: 2026-07-16-five-trends-that-are-shaping-the-new-market-for-distributed-
   title: Five trends that are shaping the new market for distributed capacity - Latitude Media
   date: '2026-07-16'
-  kind: web
-- slug: 2026-07-10-eastern-data-western-compute-is-fake
-  title: “Eastern Data, Western Compute” is Fake
-  date: '2026-07-10'
-  kind: web
-- slug: 2026-07-09-inside-the-ai-power-wars---latitude-media
-  title: Inside the AI power wars - Latitude Media
-  date: '2026-07-09'
-  kind: web
-- slug: 2026-07-08-why-ai-infrastructure-must-evolve-for-agent-experience-aksha
-  title: Why AI Infrastructure must evolve for Agent Experience — Akshat Bubna, Modal CTO
-  date: '2026-07-08'
   kind: web
 neighbors: []
 ---

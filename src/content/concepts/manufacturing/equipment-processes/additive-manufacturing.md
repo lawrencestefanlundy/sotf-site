@@ -24,11 +24,11 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 55
+mention_count: 57
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 6
+sources_7d: 2
+sources_30d: 5
 recent_mentions:
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
   title: Carbon Nanotubes in the Datacentre

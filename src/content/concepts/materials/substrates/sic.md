@@ -29,43 +29,11 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 99
+mention_count: 100
 last_reorg_date: '2026-05-13'
 sources_7d: 4
-sources_30d: 16
-recent_mentions:
-- slug: 2026-07-14-boschs-sic-fab-deal-adds-to-a-resurgence-in-chips-act-fundin
-  title: Bosch's SiC fab deal adds to a resurgence in CHIPS Act funding - Electronics360
-  date: '2026-07-14'
-  kind: web
-- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
-  title: 'Startup Funding: Q2 2026'
-  date: '2026-07-13'
-  kind: web
-- slug: 2026-06-22-sintered-metal-die-attach-landscape
-  title: Sintered-silver / sintered-copper die-attach landscape — physics, incumbents, AI-migration question (web research synthesis)
-  date: '2026-06-22'
-  kind: web
-- slug: 2026-06-22-thermal-stack-layer-landscape
-  title: AI datacentre thermal stack, junction-to-ambient — per-layer players, M&A, capture (web research synthesis)
-  date: '2026-06-22'
-  kind: web
-- slug: 2026-06-22-tim-approaches-full-sweep
-  title: TIM approaches — exhaustive in-market + R&D sweep (vendors, classes, startups)
-  date: '2026-06-22'
-  kind: web
-- slug: 2026-06-12-hku-sic-cryogenic-neuromorphic-chip-10mk
-  title: HKU world-first cryogenic neuromorphic chip at 10 mK (silicon carbide, impact-ionisation spiking)
-  date: '2026-06-12'
-  kind: web
-- slug: 2026-06-01-nibras-ucl-chipstart
-  title: UCL EEE ventures selected for national ChipStart programme (incl. Nibras Communications)
-  date: '2026-06-01'
-  kind: web
-- slug: 2026-05-26-semianalysis-800vdc-revolution
-  title: Inside the 800VDC Revolution – Part 1
-  date: '2026-05-26'
-  kind: web
+sources_30d: 14
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

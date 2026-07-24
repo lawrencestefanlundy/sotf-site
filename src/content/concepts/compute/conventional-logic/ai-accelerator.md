@@ -71,12 +71,12 @@ recent_mentions:
   title: Semi Doped — Daily Update, June 23rd 2026
   date: '2026-06-23'
   kind: web
+- slug: 2026-06-17-arxiv-bifrost-hybrid-tee-fhe-inference-for-privacy-preserving-tran
+  title: 'Bifrost: Hybrid TEE-FHE Inference for Privacy-Preserving Transformer and LLM Serving'
+  date: '2026-06-17'
+  kind: paper
 - slug: 2026-06-17-femtoai-company-profile
   title: femtoAI (formerly Femtosense) — company profile, funding, leadership
-  date: '2026-06-17'
-  kind: web
-- slug: 2026-06-17-qualcomm-tenstorrent-talks
-  title: Qualcomm in advanced talks to acquire Tenstorrent at $8-10B (reported)
   date: '2026-06-17'
   kind: web
 neighbors: []

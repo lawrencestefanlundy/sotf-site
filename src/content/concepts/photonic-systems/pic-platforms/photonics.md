@@ -37,7 +37,7 @@ last_updated: '2026-05-07'
 tags:
 - concept
 - theme
-mention_count: 886
+mention_count: 889
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -47,8 +47,8 @@ descendants:
 - optical-frequency-division
 - optoelectronic-oscillator
 last_reorg_date: '2026-05-13'
-sources_7d: 3
-sources_30d: 12
+sources_7d: 2
+sources_30d: 11
 recent_mentions:
 - slug: 2026-07-22-photonics21-welcomes-chips-act-20-inclusion-of-photonics---o
   title: Photonics21 welcomes Chips Act 2.0 inclusion of photonics - Optics.org

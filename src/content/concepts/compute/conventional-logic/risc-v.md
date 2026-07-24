@@ -30,9 +30,9 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 70
+mention_count: 71
 last_reorg_date: '2026-05-14'
-sources_7d: 5
+sources_7d: 4
 sources_30d: 8
 recent_mentions:
 - slug: 2026-07-17-the-once-and-future-kimi

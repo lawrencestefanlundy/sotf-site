@@ -31,7 +31,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 419
+mention_count: 429
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -49,9 +49,13 @@ descendants:
 - topological-qubits
 - trapped-ion
 last_reorg_date: '2026-05-13'
-sources_7d: 7
-sources_30d: 27
+sources_7d: 8
+sources_30d: 25
 recent_mentions:
+- slug: 2026-07-24-18b-illinois-chips-act-supports-zero-point-cryogenics-us-ent
+  title: $1.8B Illinois Chips Act Supports Zero Point Cryogenics’ U.S. Entry - Quantum Zeitgeist
+  date: '2026-07-24'
+  kind: web
 - slug: 2026-07-21-d-wave-quantum-chips-act-backing-and-nasdaq-shift-fail-to-re
   title: 'D-Wave Quantum: CHIPS Act Backing and Nasdaq Shift Fail to Reverse a Brutal Selloff - Ad-hoc-news.de'
   date: '2026-07-21'
@@ -79,10 +83,6 @@ recent_mentions:
 - slug: 2026-06-20-d-wave-quantum-nyse-qbts-secures-100-million-federal-loi-und
   title: 'D-Wave Quantum (NYSE: QBTS) Secures $100 Million Federal LOI Under CHIPS Act To Accelerate Quantum Computing Development - foreignpolicyjournal.com'
   date: '2026-06-20'
-  kind: web
-- slug: 2026-06-17-sandboxaq-secures-500-million-chips-act-rd-award-to-insulate
-  title: SandboxAQ Secures $500 Million CHIPS Act R&D Award to Insulate Semiconductor Supply Chains - Quantum Computing Report
-  date: '2026-06-17'
   kind: web
 neighbors: []
 ---

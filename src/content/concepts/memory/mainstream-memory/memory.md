@@ -47,7 +47,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 975
+mention_count: 977
 descendants:
 - 3d-dram
 - adc-bottleneck
@@ -80,7 +80,7 @@ descendants:
 - storage-class-memory
 - token-cost-stack
 last_reorg_date: '2026-05-14'
-sources_7d: 4
+sources_7d: 3
 sources_30d: 14
 recent_mentions:
 - slug: 2026-07-21-applied-crypto-spinout-sourcing-map

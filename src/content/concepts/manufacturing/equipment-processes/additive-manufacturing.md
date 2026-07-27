@@ -24,7 +24,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 57
+mention_count: 58
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 2
@@ -58,9 +58,9 @@ recent_mentions:
   title: Elementum funded by DARPA to develop AM process for rhenium - Metal Additive Manufacturing magazine
   date: '2022-05-09'
   kind: web
-- slug: 2021-02-04-meta-additive-awarded-innovate-uk-smart-grant-for-bjt-proces
-  title: Meta Additive awarded Innovate UK SMART Grant for BJT process - Metal Additive Manufacturing magazine
-  date: '2021-02-04'
+- slug: 2021-05-06-weav3d-awarded-nsf-funding-to-further-develop-next-generatio
+  title: WEAV3D awarded NSF funding to further develop next-generation composite forming machine - Design World
+  date: '2021-05-06'
   kind: web
 neighbors: []
 ---

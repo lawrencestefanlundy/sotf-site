@@ -38,9 +38,13 @@ descendants:
 - power-management-ic
 - solid-state-circuit-breakers
 - wireless-power-transfer
-sources_7d: 2
+sources_7d: 0
 sources_30d: 12
 recent_mentions:
+- slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint
+  title: 'What actually limits a humanoid to minutes: the thermal cliff, not the battery'
+  date: '2026-07-26'
+  kind: web
 - slug: 2026-05-26-semianalysis-800vdc-revolution
   title: Inside the 800VDC Revolution – Part 1
   date: '2026-05-26'
@@ -69,10 +73,6 @@ recent_mentions:
   title: 'A Primer: Carbon Nanotubes'
   date: '2025-07-01'
   kind: substack
-- slug: 2024-omdia-power-electronics-forecast
-  title: Omdia — Power Semiconductors Long-Term Forecast 2024
-  date: '2024-11-01'
-  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

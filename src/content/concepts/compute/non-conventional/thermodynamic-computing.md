@@ -39,7 +39,11 @@ mention_count: 0
 last_reorg_date: '2026-05-27'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-07-25-thoughts-on-ai-and-power
+  title: Thoughts on AI and power
+  date: '2026-07-25'
+  kind: web
 neighbors:
 - slug: probabilistic-computing
   name: Probabilistic Computing

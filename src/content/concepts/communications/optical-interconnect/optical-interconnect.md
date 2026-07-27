@@ -35,9 +35,13 @@ descendants:
 - optical-packet-switching
 - pluggable-transceivers
 last_reorg_date: '2026-05-13'
-sources_7d: 2
+sources_7d: 1
 sources_30d: 4
 recent_mentions:
+- slug: 2026-07-26-ai-backend-network-optics-2026
+  title: 'Dell''Oro: AI back-end switching past $100B by 2030, optical transport $16B in 2025'
+  date: '2026-07-26'
+  kind: web
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
@@ -65,10 +69,6 @@ recent_mentions:
 - slug: 2026-03-31-scale-up-interconnect-nvidia-s-2-billion-bet-on-marvell-the
   title: 'NVIDIA''s $2 Billion Bet on Marvell: The Birth of the ''NVLink Fusion'' Era'
   date: '2026-03-31'
-  kind: web
-- slug: 2026-03-02-nvidia-4bn-lumentum-coherent-photonics-investment
-  title: Nvidia to invest $4 billion into photonics companies Coherent and Lumentum
-  date: '2026-03-02'
   kind: web
 neighbors:
 - slug: optical-circuit-switching

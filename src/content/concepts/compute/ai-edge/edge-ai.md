@@ -34,7 +34,7 @@ descendants:
 - hearing-aid-silicon-beachhead
 - nvidia-jetson
 last_reorg_date: '2026-05-13'
-sources_7d: 4
+sources_7d: 1
 sources_30d: 6
 recent_mentions:
 - slug: 2026-07-10-edge-buyer-kpi-sweep

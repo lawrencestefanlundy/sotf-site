@@ -1,6 +1,7 @@
 ---
 type: concept
 slug: communications-equipment
+context_concept: true
 canonical_name: Communications Equipment
 aliases: []
 kind: market
@@ -32,9 +33,17 @@ recent_mentions:
   title: Advantech partners with Rohde & Schwarz to deliver Wi-Fi compliant and deployment-ready industrial Wi-Fi 7 modules - Plataforma Media
   date: '2025-11-14'
   kind: web
+- slug: 2025-10-21-hms-networks-releases-the-worlds-first-industrial-5g-router-
+  title: HMS Networks Releases the World’s First Industrial 5G Router and Starterkit - Industrial Engineering News Europe
+  date: '2025-10-21'
+  kind: web
 - slug: 2022-05-26-industrial-networks-keep-growing-despite-challenging-times--
   title: Industrial networks keep growing despite challenging times - Design World
   date: '2022-05-26'
+  kind: web
+- slug: 2014-10-02-hms-networks-buys-u-bloxs-wireless-gateways-access-points-bu
+  title: HMS Networks Buys u-blox's Wireless Gateways & Access Points Business - The Fast Mode
+  date: '2014-10-02'
   kind: web
 neighbors: []
 ---

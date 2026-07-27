@@ -1,6 +1,7 @@
 ---
 type: concept
 slug: cpu-soc
+context_concept: true
 canonical_name: CPU & SoC
 aliases: []
 kind: technology

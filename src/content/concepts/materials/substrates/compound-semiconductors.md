@@ -1,6 +1,7 @@
 ---
 type: concept
 slug: compound-semiconductors
+context_concept: true
 canonical_name: Compound Semiconductors
 aliases: []
 kind: technology

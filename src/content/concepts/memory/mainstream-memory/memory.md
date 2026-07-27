@@ -47,7 +47,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 977
+mention_count: 990
 descendants:
 - 3d-dram
 - adc-bottleneck
@@ -80,9 +80,13 @@ descendants:
 - storage-class-memory
 - token-cost-stack
 last_reorg_date: '2026-05-14'
-sources_7d: 3
+sources_7d: 2
 sources_30d: 14
 recent_mentions:
+- slug: 2026-07-25-thoughts-on-ai-and-power
+  title: Thoughts on AI and power
+  date: '2026-07-25'
+  kind: web
 - slug: 2026-07-21-applied-crypto-spinout-sourcing-map
   title: Applied-cryptography academic spinouts in financial infrastructure — sourcing map
   date: '2026-07-21'
@@ -110,10 +114,6 @@ recent_mentions:
 - slug: 2026-07-10-hyperscaler-token-economics-sweep
   title: 'Hyperscaler inference-economics language sweep: cost per token as the datacentre KPI'
   date: '2026-07-10'
-  kind: web
-- slug: 2026-07-07-post-training-inference-loop-memory-scarcity-open-models
-  title: Memory Scarcity, Open Models, and the Restructuring of the AI Industry, 2026–2030
-  date: '2026-07-07'
   kind: web
 neighbors: []
 ---

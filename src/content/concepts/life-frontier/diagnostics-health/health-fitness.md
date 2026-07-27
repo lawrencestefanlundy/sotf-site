@@ -1,6 +1,7 @@
 ---
 type: concept
 slug: health-fitness
+context_concept: true
 canonical_name: Health & Fitness
 aliases: []
 kind: market

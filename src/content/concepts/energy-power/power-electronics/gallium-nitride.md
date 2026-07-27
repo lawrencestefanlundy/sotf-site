@@ -1,12 +1,12 @@
 ---
 type: concept
 slug: gallium-nitride
-canonical_name: Gallium Nitride
 aliases:
 - GaN
 - gallium nitride
 - GaN-on-Si
 - GaN-on-SiC
+canonical_name: Gallium Nitride
 parent_concepts:
 - wide-bandgap-semiconductors
 - power-electronics

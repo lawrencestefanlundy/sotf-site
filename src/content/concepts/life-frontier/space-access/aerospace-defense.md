@@ -1,6 +1,7 @@
 ---
 type: concept
 slug: aerospace-defense
+context_concept: true
 canonical_name: Aerospace & Defense
 aliases: []
 kind: market
@@ -20,6 +21,10 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-07-24-nasa-announces-new-spacecraft-technology-demonstration-missi
+  title: NASA Announces New Spacecraft Technology Demonstration Mission at Moon
+  date: '2026-07-24'
+  kind: web
 - slug: 2026-07-21-robotically-assembled-electromagnetic-metamaterials-for-long
   title: Robotically Assembled Electromagnetic Metamaterials for Long-Range Space Situational Awareness
   date: '2026-07-21'

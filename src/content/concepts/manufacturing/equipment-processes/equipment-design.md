@@ -1,6 +1,7 @@
 ---
 type: concept
 slug: equipment-design
+context_concept: true
 canonical_name: Equipment & Design
 aliases: []
 kind: technology

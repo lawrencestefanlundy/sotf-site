@@ -22,6 +22,7 @@ sources:
 - '[[2026-05-02-euv-lithography-wikipedia]]'
 - '[[2026-05-02-energetiq-euv-light-sources]]'
 - '[[2026-04-27-litho-tool-supply-bottleneck-asml-increases-production-of]]'
+- '[[2026-07-25-thoughts-on-ai-and-power]]'
 - '[[2026-04-15-sovereignty-semi-bifurcation-asml-holding-nv-form-6-k]]'
 - '[[2025-12-12-sovereignty-semi-bifurcation-chinese-smic-produces-5nm]]'
 - '[[2026-03-14-semianalysis-patel-bottlenecks]]'
@@ -49,11 +50,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 112
+mention_count: 115
 last_reorg_date: '2026-05-13'
 sources_7d: 2
-sources_30d: 18
+sources_30d: 19
 recent_mentions:
+- slug: 2026-07-25-thoughts-on-ai-and-power
+  title: Thoughts on AI and power
+  date: '2026-07-25'
+  kind: web
 - slug: 2026-07-17-the-once-and-future-kimi
   title: The Once and Future Kimi
   date: '2026-07-17'
@@ -81,10 +86,6 @@ recent_mentions:
 - slug: 2026-06-14-semianalysis-smic-n3-vs-intel-18a
   title: Is SMIC N+3's Metal Pitch Smaller than Intel 18A's?
   date: '2026-06-14'
-  kind: web
-- slug: 2026-06-11-semianalysis-intel-should-raise-capital
-  title: Intel Should Raise Capital
-  date: '2026-06-11'
   kind: web
 neighbors: []
 ---

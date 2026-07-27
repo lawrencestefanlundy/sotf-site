@@ -33,6 +33,10 @@ recent_mentions:
   title: Advantech partners with Rohde & Schwarz to deliver Wi-Fi compliant and deployment-ready industrial Wi-Fi 7 modules - Plataforma Media
   date: '2025-11-14'
   kind: web
+- slug: 2025-10-21-hms-networks-releases-the-worlds-first-industrial-5g-router-
+  title: HMS Networks Releases the World’s First Industrial 5G Router and Starterkit - Industrial Engineering News Europe
+  date: '2025-10-21'
+  kind: web
 - slug: 2025-10-09-wi-fi-7-advanced-integrates-sensing-iot-and-ai-security-into
   title: Wi-Fi 7 Advanced integrates sensing, IoT, and AI security into 10Gbps wireless networks - TechRadar
   date: '2025-10-09'
@@ -40,6 +44,10 @@ recent_mentions:
 - slug: 2024-02-21-nordic-semi-unveils-the-new-nrf9151-a-system-in-package-for-
   title: Nordic Semi Unveils the New nRF9151, a System-in-Package for Power-Efficient Cellular Projects - Hackster.io
   date: '2024-02-21'
+  kind: web
+- slug: 2014-10-02-hms-networks-buys-u-bloxs-wireless-gateways-access-points-bu
+  title: HMS Networks Buys u-blox's Wireless Gateways & Access Points Business - The Fast Mode
+  date: '2014-10-02'
   kind: web
 neighbors: []
 ---

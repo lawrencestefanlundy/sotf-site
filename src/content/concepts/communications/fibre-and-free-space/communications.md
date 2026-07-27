@@ -58,6 +58,10 @@ last_reorg_date: '2026-05-14'
 sources_7d: 3
 sources_30d: 13
 recent_mentions:
+- slug: 2026-07-24-nasa-announces-new-spacecraft-technology-demonstration-missi
+  title: NASA Announces New Spacecraft Technology Demonstration Mission at Moon
+  date: '2026-07-24'
+  kind: web
 - slug: 2026-06-12-hku-sic-cryogenic-neuromorphic-chip-10mk
   title: HKU world-first cryogenic neuromorphic chip at 10 mK (silicon carbide, impact-ionisation spiking)
   date: '2026-06-12'
@@ -85,10 +89,6 @@ recent_mentions:
 - slug: 2026-05-13-20-years-of-space-communications-and-navigation
   title: 20 Years of Space Communications and Navigation
   date: '2026-05-13'
-  kind: web
-- slug: 2026-04-24-i-am-artemis-peter-rossoni
-  title: 'I Am Artemis: Peter Rossoni'
-  date: '2026-04-24'
   kind: web
 neighbors: []
 ---

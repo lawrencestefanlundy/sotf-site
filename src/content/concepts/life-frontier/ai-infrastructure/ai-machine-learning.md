@@ -1,6 +1,7 @@
 ---
 type: concept
 slug: ai-machine-learning
+context_concept: true
 canonical_name: AI & Machine Learning
 aliases: []
 kind: technology

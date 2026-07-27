@@ -1,6 +1,7 @@
 ---
 type: concept
 slug: security-cyber
+context_concept: true
 canonical_name: Security & Cyber
 aliases: []
 kind: market

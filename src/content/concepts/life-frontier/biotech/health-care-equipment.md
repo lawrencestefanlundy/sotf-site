@@ -1,6 +1,7 @@
 ---
 type: concept
 slug: health-care-equipment
+context_concept: true
 canonical_name: Health Care Equipment
 aliases: []
 kind: market

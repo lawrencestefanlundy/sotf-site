@@ -13,6 +13,7 @@ sources:
 - '[[2023-08-25-e12-nanomechanical-computing-gears]]'
 - '[[2026-07-06-willdepue-stargate-for-data]]'
 - '[[2025-12-16-draft-nist-guidelines-rethink-cybersecurity-for-the-ai-era]]'
+- '[[2026-07-25-thoughts-on-ai-and-power]]'
 - '[[2026-03-28-agentic-ai-security-funding-mna]]'
 - '[[2026-05-29-silicon-shock-the-macro-of-tech-inflation]]'
 frontier:
@@ -21,11 +22,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 51
+mention_count: 53
 last_reorg_date: '2026-05-13'
-sources_7d: 7
-sources_30d: 10
+sources_7d: 4
+sources_30d: 11
 recent_mentions:
+- slug: 2026-07-25-thoughts-on-ai-and-power
+  title: Thoughts on AI and power
+  date: '2026-07-25'
+  kind: web
 - slug: 2026-07-06-willdepue-stargate-for-data
   title: A Stargate for Data — will depue (OpenAI) on >$100B/year data spend by 2030
   date: '2026-07-06'

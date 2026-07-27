@@ -1,11 +1,11 @@
 ---
 type: concept
 slug: silicon-carbide
-canonical_name: Silicon Carbide
 aliases:
 - SiC
 - 4H-SiC
 - silicon carbide
+canonical_name: Silicon Carbide
 parent_concepts:
 - wide-bandgap-semiconductors
 related_concepts:

@@ -55,10 +55,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 142
+mention_count: 143
 last_reorg_date: '2026-05-13'
-sources_7d: 4
-sources_30d: 15
+sources_7d: 1
+sources_30d: 14
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'

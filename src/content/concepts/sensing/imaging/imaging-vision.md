@@ -1,6 +1,7 @@
 ---
 type: concept
 slug: imaging-vision
+context_concept: true
 canonical_name: Imaging & Vision
 aliases: []
 kind: technology

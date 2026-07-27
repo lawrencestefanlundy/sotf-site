@@ -32,12 +32,17 @@ sources:
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 frontier:
-- ''
-last_updated: '2026-05-07'
+- Photon-photon gates look fundamentally fidelity-limited under realistic imperfections while linear cluster states survive; does photonic quantum computing consolidate on measurement-based architectures, and what demonstrated gate fidelity would reverse that?
+- Can a monolithic on-chip isolator close the gap from ~20 dB insertion loss to the ~1-3 dB a usable link budget needs, while keeping a mass-production-compatible process (local laser annealing or an alternative)?
+- Does ML-driven inverse design (surrogate EM solvers, generative/diffusion design) become a standalone photonic EDA value pool with a foundry-endorsed flow, or stay an in-house tool at incumbents like STMicroelectronics?
+- Telecom-band quantum-dot photon sources are now rack-integrated with >50% transmission; when does a fielded network pick them over SPDC sources, and is that component market venture-scale?
+- Where does datacentre optics value settle between pluggables, co-packaged optics, and optical switching? Evidence this cycle is research-side only; needs market-side sources to update.
+- Do 2D/TMD and diamond photonic materials get a credible high-volume manufacturing route by 2028, or stay lab platforms?
+last_updated: '2026-07-26'
 tags:
 - concept
 - theme
-mention_count: 889
+mention_count: 895
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -48,7 +53,7 @@ descendants:
 - optoelectronic-oscillator
 last_reorg_date: '2026-05-13'
 sources_7d: 2
-sources_30d: 11
+sources_30d: 10
 recent_mentions:
 - slug: 2026-07-22-photonics21-welcomes-chips-act-20-inclusion-of-photonics---o
   title: Photonics21 welcomes Chips Act 2.0 inclusion of photonics - Optics.org
@@ -86,17 +91,19 @@ neighbors: []
 ---
 ## Physics / mechanism
 
-Photonics is the generation, manipulation, and detection of photons—typically across UV, visible, NIR, and mid-IR spectra. Unlike electronics, signal carriers have zero rest mass, enabling propagation at *c* with negligible resistive loss. Key parameters: wavelength (λ), refractive index (n), group velocity dispersion (GVD), insertion loss (dB), and extinction ratio (dB). Platform state-of-the-art: silicon photonics achieves ~1 dB/cm waveguide loss at 1550 nm, InP lasers hit sub-100 kHz linewidth, LiNbO₃ modulators reach >100 GHz bandwidth. Co-packaged optics in datacenter switching is pushing integration density toward 1.6 Tb/s per package. Quantum photonics and mid-IR sensing are the frontier growth vectors.
+Photonics is the generation, manipulation, and detection of photons across UV, visible, near-IR, and mid-IR. Photons carry no charge and no rest mass, so optical signals move with low loss and no resistive heating; the cost is that photons barely interact with each other, so switching, gain, memory, and non-reciprocity all need an intermediating material. Nearly every platform battle in the field is a fight over which material stack best mediates light-matter interaction while staying manufacturable.
+
+Sub-field map (this page is the orientation layer; depth belongs on child pages such as [Free-Space Photonics](/communications/fibre-and-free-space/free-space-photonics/), **Microwave Photonics**, [Mid-Infrared Photonics](/photonic-systems/light-sources/mid-ir-photonics/), **Optical Frequency Comb**):
 
 ## Competitive landscape
 
-Silicon photonics (SiPh) competes with and complements III-V (InP, GaAs), polymer waveguides, and emerging platforms like silicon nitride (SiN) and thin-film LiNbO₃. Each trades off loss, nonlinearity, active gain, and CMOS foundry compatibility differently.
+Silicon photonics competes with and complements III-V (InP, GaAs) and the emerging SiN and thin-film lithium niobate platforms. The trade is always among loss, nonlinearity, active gain, and CMOS-foundry compatibility: silicon is cheap and foundry-native but has no gain and no second-order nonlinearity; SiN is the low-loss passive; InP has monolithic lasers at higher cost; LNOI brings fast electro-optics but hybrid integration. No fresh source this cycle re-benchmarks the platform loss/bandwidth numbers, so specific dB/cm and GHz figures previously quoted here are dropped rather than restated (medium confidence they are still roughly right; re-cite before reuse).
 
-| Platform | Loss (dB/cm) | Active gain | Foundry CMOS-compatible |
-|---|---|---|---|
-| Silicon (SiPh) | ~1–2 | No (indirect bandgap) | Yes |
-| Silicon Nitride | ~0.1 | No | Yes |
-| InP / III-V | ~2–5 | Yes | No |
+A second battle is moving up the stack, from devices to design. Inverse design is becoming the bottleneck and the opportunity: FDTD-trained convolutional surrogates plus diffusion-model generative design now hit R^2 of about 0.97 on metasurfaces over 230x larger than the training apertures, in work affiliated with STMicroelectronics **2026 07 24 Design And Optimization Of Metasurfaces For Silicon Photonic**. That supports the view that a photonic design/EDA layer is forming (**Photonic Pdk Eda Layer**, **Electron Informed Materials Discovery**).
+
+Where value is moving, on current evidence: (1) datacentre optical interconnect remains the volume driver (own synthesis, **2026 02 02 Photonic Engines For Data Centers**; this cycle's tier-1 flow is research-side, so the market read is medium confidence and not freshly re-verified); (2) quantum photonic components (sources, isolators, polarization control **2026 07 24 Compact Deterministic Liquid Crystal Polarization Controller**) are crossing from lab to deployable hardware, a component-vendor opportunity that exists whichever quantum modality wins; (3) design automation for photonics is separating into its own layer.
+
+## Investment routing
 
 ## Companies using
 
@@ -112,29 +119,9 @@ Silicon photonics (SiPh) competes with and complements III-V (InP, GaAs), polyme
 
 ## Frontier (open questions)
 
-- *To be added.*
-
 ## Merged from `photonics-optics` (archived 2026-05-07)
 
-*Hyphenated variant. Photonics is the canonical concept; 'photonics-optics' was an Attio-tag-derived duplicate.*
-
-# Photonics & Optics
-
-*Kind: technology*
-
-## Physics / mechanism
-
-Photonics exploits photons rather than electrons as information or energy carriers. Core physics: Maxwell's equations govern propagation; waveguide confinement via total internal reflection (silicon-on-insulator rib waveguides, ~450 nm × 220 nm cross-sections); modulation via Pockels effect (LiNbO₃, BTO) or plasma dispersion (Si). Key figures of merit: insertion loss (target <1 dB/cm), electro-optic bandwidth (>100 GHz demonstrated in thin-film LiNbO₃), extinction ratio (>20 dB), and V_π·L (sub-1 V·cm now achievable). Silicon photonics dominates datacentre interconnect at 400G–1.6T; III-V (InP, GaAs) leads coherent and sensing; emerging platforms include SiN (ultralow loss, ~0.1 dB/m), lithium niobate on insulator (LNOI), and BTO-on-Si. Photonic integrated circuits (PICs) are manufactured on 200/300 mm CMOS-compatible lines, enabling co-integration with electronics.
-
-## Competitive landscape
-
-Competing carrier: RF/microwave electronics dominate sub-100 GHz comms but hit energy and bandwidth walls above that. Competing photonic platforms pit silicon photonics (low cost, CMOS-native) against InP (monolithic laser integration, higher cost) and polymer waveguides (flexible, lossy). For sensing, MEMs and RF radar compete with LiDAR and optical coherence. Quantum photonics (single-photon sources, entangled pairs) is an adjacent but distinct segment.
-
-| Platform | Loss | EO BW | Laser integration |
-|----------|------|--------|-------------------|
-| Si photonics | ~2 dB/cm | ~50 GHz | Heterogeneous bonding |
-| LNOI | ~0.3 dB/cm | >100 GHz | Hybrid |
-| InP | ~1–2 dB/cm | >100 GHz | Monolithic |
+*Hyphenated variant. Photonics is the canonical concept; 'photonics-optics' was an Attio-tag-derived duplicate (kind: technology,  at merge). Its prose duplicated the sections above and was folded into the main body on re-synthesis 2026-07-26; the Dataview blocks below are kept because companies and sources still carry the legacy `photonics-optics` tag.*
 
 ## Companies using
 

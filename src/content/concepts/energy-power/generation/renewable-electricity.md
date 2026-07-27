@@ -1,6 +1,7 @@
 ---
 type: concept
 slug: renewable-electricity
+context_concept: true
 canonical_name: Renewable Electricity
 aliases: []
 kind: market

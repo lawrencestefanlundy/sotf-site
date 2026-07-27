@@ -37,16 +37,30 @@ sources:
 - '[[2026-06-17-femtoai-spu-ces2026]]'
 - '[[2024-tsmc-cowos-roadmap-disclosure]]'
 frontier:
-- ''
-last_updated: '2026-05-04'
+- Do hyperscaler in-house ASICs reach >=35% of new AI-accelerator deployments by end-2028, taking NVIDIA merchant share below ~65%? Watch TrendForce/Omdia shipment trackers.
+- 'Does NVIDIA''s moat migrate from the die to the network and rack layer (NVLink, Spectrum-6 Ethernet)? Evidence: attach rate of NVIDIA networking on non-NVIDIA accelerators.'
+- Does inference fragment decisively across substrates (hyperscaler ASIC, on-device NPU, edge) while training stays on merchant GPUs? Watch the ASIC share of AI-server shipments past the 27.8% 2026 projection.
+- Do KV-cache compression and low-precision formats (4-bit BFP and similar) relieve the memory-bandwidth constraint enough to enable HBM-light inference silicon at competitive cost per token?
+- 'What does the 60% H100 spot-price crash imply for challenger unit economics: does cheap depreciated merchant compute close the window for new inference-chip entrants?'
+- Can photonic or in-memory accelerators cross from lab demo to a foundry-qualified part with a named customer? No source yet shows one in production.
+- Does China's domestic accelerator stack (Enflame, Huawei Ascend, advanced packaging on glass substrates) become competitive at the system level despite process-node lag?
+last_updated: '2026-07-26'
 tags:
 - concept
 - technology
-mention_count: 91
+mention_count: 92
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 1
 recent_mentions:
+- slug: 2026-07-25-thoughts-on-ai-and-power
+  title: Thoughts on AI and power
+  date: '2026-07-25'
+  kind: web
+- slug: 2026-07-13-chips-act-20-targets-european-semiconductor-demand-as-eu-exp
+  title: Chips Act 2.0 Targets European Semiconductor Demand as EU Expands AI Strategy - Astute Group
+  date: '2026-07-13'
+  kind: web
 - slug: 2026-07-13-sk-hynix-record-fall-hbm4-three-supplier
   title: SK Hynix record one-day fall as HBM4 goes three-supplier
   date: '2026-07-13'
@@ -71,29 +85,36 @@ recent_mentions:
   title: Semi Doped — Daily Update, June 23rd 2026
   date: '2026-06-23'
   kind: web
-- slug: 2026-06-17-arxiv-bifrost-hybrid-tee-fhe-inference-for-privacy-preserving-tran
-  title: 'Bifrost: Hybrid TEE-FHE Inference for Privacy-Preserving Transformer and LLM Serving'
-  date: '2026-06-17'
-  kind: paper
-- slug: 2026-06-17-femtoai-company-profile
-  title: femtoAI (formerly Femtosense) — company profile, funding, leadership
-  date: '2026-06-17'
-  kind: web
 neighbors: []
 ---
 ## Physics / mechanism
 
-Dedicated silicon (or silicon-adjacent) die optimised for the tensor/matrix operations that dominate neural-network workloads. Core mechanism: replace von-Neumann memory-bandwidth bottlenecks with massive parallelism — thousands of MAC units operating concurrently on weight matrices. Key architectural levers are on-chip SRAM capacity (TSMC N3/N4 designs now carry 100–200 MB on-die), interconnect bandwidth (HBM3e at ~1.2 TB/s per stack), and compute density (H100 at ~4 petaFLOPS BF16, Trainium2 at ~3.5 petaFLOPS). The frontier is moving from monolithic GPU dies toward chiplet-based disaggregation (AMD MI300X, Intel Gaudi 3) and wafer-scale integration (Cerebras WSE-3 at 900K cores, 44 GB on-wafer SRAM). Process nodes: bleeding-edge training silicon is on TSMC 3/4nm; inference increasingly targets mature nodes (16/28nm) for cost.
+Dedicated silicon optimised for the tensor and matrix operations that dominate neural-network workloads: thousands of MAC units operating concurrently on weight matrices, fed by the widest memory system the package can carry. The binding constraint is memory bandwidth, not raw FLOPS, and the sources show the whole architecture stack organising around it. LLM inference splits into a compute-bound prefill phase and a memory-bound decode phase, and current runtimes route them to different hardware paths on the same die: Apple's M5 puts a dedicated neural accelerator in every GPU core and the fastest runtimes send matrix-heavy prefill to those tensor units while decode stays on bandwidth-optimised kernels **2026 07 23 Basert Advancing Best In Class Llm Inference With Apple M5 N**. On the datacentre side the same pressure drives precision and cache compression: algorithm-hardware co-design now runs both linear and attention layers in block floating point, compressing the KV cache from FP16 to 4-bit-mantissa BFP with under 1% accuracy loss for roughly 2x energy efficiency and 3x speedup **2026 07 23 Harmonia Algorithm Hardware Co Design For Memory  And Comput**, and per-bit fault-sensitivity work cuts ECC storage overhead 37 to 62% by protecting only the exponent and high-order bits **2026 07 23 From Bit Position Sensitivity To Unequal Error Protection Fo**. Even inside the flagship GPUs the memory system is now NUMA: microbenchmarking of A100/H100 reveals non-uniform L2 and DRAM access that vendors do not document, which matters for kernel and simulator design **2026 07 23 Dgna Dissecting Gpu Numa Architecture Through Microbenchmark** **2026 07 22 Sim Fa A Gpgpu Simulator Framework For Fine Grained Asynchro**.
+
+Compute density at the top of the market (mid-2026): NVIDIA B200 at 4,500 TFLOPS with 192 GB HBM3e, AMD MI350X at 4,600 TFLOPS with 288 GB, Google TPU v7 at 4,614 TFLOPS, Amazon Trainium 3 at 2,517 TFLOPS, Microsoft Maia 200 above 5 PFLOPS **2026 07 16 A Guide To Ai In 2026 Woodside Capital Partners**. NVIDIA's roadmap (Vera Rubin H2 2026, Feynman 2028) moves to HBM4; TDP figures are undisclosed **2026 03 03 Ai Power Thermal Binding Nvidia Vera Rubin And Feynman**. The superseded figures on this page (H100 ~4 PFLOPS as the reference part, HBM3e as the frontier) described the 2024 state; HBM bandwidth as the original bottleneck framing dates to **2023 09 08 E14 The Real Ai Bottleneck High Bandwidth** and **2024 02 26 Micron Hbm3E Volume Production** and has held up. Packaging is becoming a differentiator in its own right: Enflame demonstrated China's first glass-substrate CoPoS AI chip sample at WAIC 2026 **2026 07 22 Waic 2026 Enflame Debuts Chinas First Glass Based Copos Ai C**.
+
+Research-stage substrates keep attacking the same constraint from below, all still at lab-demo proximity: ECRAM-based in-memory computing for edge continual learning (67x speedup over GPU training on MNIST-scale tasks) **2026 07 23 Leveraging Ecram For Edge Continual Learning**, dual-sided bit-serial sparsity reaching 90% PE utilisation **2026 07 23 Brim Workload Balanced Dual Sided Bit Serial Sparse Inferenc**, RFET-based stochastic computing **2026 07 23 An Energy Efficient Rfet Based Stochastic Computing Neural N**, photonic near-sensor vision transformers with on-chip fine-tuning at over 100 KFPS/W **2026 07 23 Opto Vit V2 Noise Resilient On Chip Fine Tuning For Photonic**, compute-in-memory retrieval surrogates **2026 07 23 Polysim Deterministic Polynomial Surrogates For Cross Modal **, nitride spintronics **2026 07 23 Nitrospinics As A Platform From Orbital Torque Memory To Art**, and quantum reservoir computing, where the survey evidence explicitly finds no established advantage over well-matched classical reservoirs **2026 07 22 Quantum Reservoir Computing Recent Advances And Future Direc**.
 
 ## Competitive landscape
 
-Nvidia GPU dominates training (~80% market share by revenue). Competing vectors: custom ASICs (Google TPU v5, AWS Trainium, Meta MTIA) for hyperscaler captive workloads; inference-optimised chips (Groq LPU, Tenstorrent, Hailo, Axelera) targeting edge and cloud inference; analog/in-memory compute (Mythic, Syntiant) for ultra-low-power edge. Photonic accelerators (Lightmatter, Luminous) remain pre-revenue but claim 10–100× energy efficiency for specific linear-algebra kernels.
+NVIDIA holds roughly 77% of AI accelerator share, down from 87%; AMD ~9%, Google TPU ~7%, custom ASICs ~5% **2026 07 16 A Guide To Ai In 2026 Woodside Capital Partners**. The prior ~80% figure on this page is consistent with that trajectory (one tracker put 2025 at ~80% with 75% projected for 2026 **2026 02 21 Hyperscaler Asic Profit Pool Nvidia Ai Gpu Market Share**). The share erosion is real but slow, and it decomposes into three distinct vectors.
 
-| Axis | GPU (Nvidia) | Custom ASIC | Photonic |
-|---|---|---|---|
-| Flexibility | High | Low | Very low |
-| Power efficiency | Moderate | High | Potentially extreme |
-| Maturity | Production | Production (captive) | Pre-commercial |
+First, hyperscaler captive ASICs are the volume story. ASIC-based systems are projected at 27.8% of AI-server shipments in 2026, the highest share since 2023, with custom ASIC shipments growing 44.6% year on year against 16.1% for merchant GPUs **2026 01 20 Specialisation Beats Generality Global Ai Server Shipments** **2026 05 21 Specialisation Beats Generality The Custom Ai Asic State Of**. Every hyperscaler now builds custom silicon and both Google and Amazon are expanding those programmes inside a $725B 2026 capex envelope **2026 07 16 A Guide To Ai In 2026 Woodside Capital Partners**.
+
+Second, AMD is the only merchant challenger with traction at the training frontier: Meta's $100B commitment validated the MI-series, and Anthropic signed as its third marquee customer in July 2026 **2026 07 23 Amd Lands Anthropic As Its Third Marquee Ai Customer Chippin**. NVIDIA's response is to move the moat up the stack, from the die to the network and rack: Spectrum-6 Ethernet extends its grip on the cluster network layer even where the accelerator is contested **2026 07 23 Nvidia Pushes Spectrum 6 Ethernet Into Gigascale Ai Factorie**. China runs a parallel stack (Huawei Ascend 910C at ~800 TFLOPS, China only; Enflame's packaging advances) that competes on system integration rather than node parity **2026 07 16 A Guide To Ai In 2026 Woodside Capital Partners** **2026 07 22 Waic 2026 Enflame Debuts Chinas First Glass Based Copos Ai C**.
+
+Third, the training/inference split is now also a pricing story. Cloud H100 spot prices crashed ~60% as Blackwell ramped ($1.03/hr spot by June 2026), while inference costs fall roughly 10x per year **2026 07 16 A Guide To Ai In 2026 Woodside Capital Partners**. Cheap depreciated merchant compute compresses the window in which a dedicated inference chip (Groq, Tenstorrent, Hailo, Axelera and the long tail on this page's company list) can undercut on cost per token; the durable openings are where merchant GPUs structurally cannot go, on-device (Apple M5 class NPUs **2026 07 23 Basert Advancing Best In Class Llm Inference With Apple M5 N**), sub-watt edge (neuromorphic parts running vision inference at ~850 mW **2026 07 23 Gluse Enhanced Channel Wise Adaptive Gated Linear Units Se F**), and captive hyperscaler volume. Photonic and analog in-memory accelerators remain pre-commercial across every source reviewed; the earlier 10-100x energy-efficiency claims for photonics are unverified at product level and the strongest current evidence is noise-resilient lab hardware **2026 07 23 Opto Vit V2 Noise Resilient On Chip Fine Tuning For Photonic**. Confidence: the share and shipment numbers above are analyst projections (tier 2-5), not audited actuals; treat the 27.8% ASIC share as a forecast.
+
+A secondary layer is forming around accelerator-adjacent security: timing side channels leak model architecture from production GPU serving **2026 07 24 Leaky Language Models Stealing Architecture And Inference Op**, KV-cache reuse is exploitable **2026 07 23 Hijackkv New Threat In Position Independent Kv Cache Reuse**, and TEE-based auditing of cloud inference is becoming practical **2026 07 23 Trusting What You Cannot See Auditable Fine Tuning And Infer**. Inference-time optimisations are now attack surface, which couples accelerator design to the confidential-computing agenda.
+
+| Axis | Merchant GPU (NVIDIA, AMD) | Hyperscaler ASIC | Inference challenger | Photonic / in-memory |
+|---|---|---|---|---|
+| Flexibility | High | Low (captive workloads) | Low | Very low |
+| Power efficiency | Moderate | High | High | Claimed extreme, unproven |
+| Maturity | Production | Production (captive) | Production at edge, weak in cloud | Lab demo |
+| Share trend | 77% and eroding slowly | 27.8% of 2026 server shipments, fastest growth | Squeezed by GPU price crash | Pre-commercial |
+
+## Investment routes
 
 ## Companies using
 
@@ -109,4 +130,10 @@ Nvidia GPU dominates training (~80% market share by revenue). Competing vectors:
 
 ## Frontier (open questions)
 
-- *To be added.*
+- Do hyperscaler in-house ASICs reach 35% or more of new AI-accelerator deployments by end-2028, taking NVIDIA's merchant share below ~65%? Resolves on analyst shipment trackers; current trajectory is 27.8% of 2026 AI-server shipments **2026 01 20 Specialisation Beats Generality Global Ai Server Shipments**.
+- Does NVIDIA's moat migrate from the die to the network and rack layer? Evidence that would update: NVIDIA networking attach on non-NVIDIA accelerators **2026 07 23 Nvidia Pushes Spectrum 6 Ethernet Into Gigascale Ai Factorie**.
+- Does inference fragment decisively across substrates (hyperscaler ASIC, on-device NPU, sub-watt edge) while training consolidates on merchant GPUs?
+- Do KV-cache compression and 4-bit block-floating-point formats **2026 07 23 Harmonia Algorithm Hardware Co Design For Memory  And Comput** relieve the memory-bandwidth constraint enough to enable HBM-light inference silicon at competitive cost per token?
+- Does the ~60% H100 spot-price crash **2026 07 16 A Guide To Ai In 2026 Woodside Capital Partners** close the economic window for new merchant inference-chip entrants?
+- Can any photonic or in-memory accelerator cross from lab demo to a foundry-qualified part with a named customer? Nothing in the current sources shows one in production.
+- Does China's domestic stack become system-level competitive despite node lag, with packaging (glass CoPoS **2026 07 22 Waic 2026 Enflame Debuts Chinas First Glass Based Copos Ai C**) as the lever?

@@ -2,25 +2,43 @@
 type: concept
 slug: vcsels
 canonical_name: VCSELs
-aliases: []
+aliases:
+- VCSEL
+- vcsel
+- Vertical-Cavity Surface-Emitting Laser
 kind: technology
 parent_concepts:
 - photonic-systems
 - light-sources
-related_concepts: []
+related_concepts:
+- gallium-arsenide
+- photonic-compute
+- lasers
 sources: []
 frontier:
 - ''
-last_updated: '2026-05-04'
+last_updated: '2026-07-25'
 tags:
 - concept
 - technology
 mention_count: 0
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions: []
-neighbors: []
+neighbors:
+- slug: gallium-arsenide
+  name: Gallium Arsenide (GaAs)
+  path: /materials/substrates/gallium-arsenide/
+  macro: materials
+- slug: photonic-compute
+  name: Photonic Compute
+  path: /photonic-systems/photonic-compute/photonic-compute/
+  macro: photonic-systems
+- slug: lasers
+  name: Lasers
+  path: /photonic-systems/light-sources/lasers/
+  macro: photonic-systems
 ---
 ## Physics / mechanism
 
@@ -31,6 +49,16 @@ Vertical-Cavity Surface-Emitting Lasers emit light perpendicular to the wafer su
 Edge-emitting lasers (EELs/FP/DFB) offer higher power-per-emitter and longer coherence but require cleaved facets, are harder to test on-wafer, and don't array as easily. VCSELs dominate short-reach datacom, 3D sensing, and LiDAR illumination where array density and testability matter.
 
 ## VCSELs in COMPUTING (added 2026-07-11 — full map: **Optical Compute Landscape**)
+
+## Array scaling: the industry solved dot-count with optics, not with emitters (25 Jul 2026)
+
+*Source: René Kromhof, **2026 07 24 Rene Vcsel Faceid Emitter Count** — sent "just for your KB" as a correction to a figure Lawrence had put in writing to GlobalFoundries.*
+
+**The structural point matters more than the number.** Face ID is the highest-volume VCSEL array ever manufactured, and when its designers needed a dense dot field they did **not** scale emitter count on die — they kept the array small and added an optical element. That is the revealed cost-and-yield answer from the one application with the volume to justify brute-forcing array size. Two consequences for diligence:
+
+1. **There is no production learning curve running toward very large addressable arrays.** Anyone proposing 10⁵–10⁸ independently-addressed emitters per die is not extrapolating an industry trend; they are proposing a discontinuity the industry deliberately routed around. Do not let "Face ID proves VCSEL arrays scale" pass unchallenged — it proves the opposite about *emitter count*, and only proves scale in *units shipped*.
+2. **Distinguish emitter count from dot count, and both from independently-addressed elements.** Illuminator arrays do reach tens of thousands of emitters, but wired in parallel as a single block — one control element, not thousands. The scarce quantity is **independently functioning, individually addressed lasing elements**, and nobody has demonstrated that beyond a few thousand.
+3. **Optical fanout does not rescue a logic architecture — pre-load this rebuttal.** The obvious founder counter is "we don't need N emitters, we can replicate optically like Face ID does." It fails on the mechanism: a DOE replicates a **fixed, identical, static pattern**, which is exactly why it works for structured-light illumination. Logic is the opposite requirement — every gate must hold its own bit and switch independently of its neighbours. You cannot fan out state. So the one manufacturing trick the VCSEL industry actually uses to reach large dot counts is **structurally unavailable** to any architecture where the emitters are the compute elements, and the demonstrated ceiling on independently-addressed elements is the binding number.
 
 ## Investment relevance (all routes)
 

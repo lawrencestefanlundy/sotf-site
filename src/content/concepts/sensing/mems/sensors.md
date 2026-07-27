@@ -31,10 +31,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 330
+mention_count: 334
 last_reorg_date: '2026-05-13'
-sources_7d: 3
-sources_30d: 12
+sources_7d: 5
+sources_30d: 14
 recent_mentions:
 - slug: 2026-07-21-a-new-compact-instrument-enables-high-fidelity-measurements-
   title: A New Compact Instrument Enables High-Fidelity Measurements of Energetic Particles on CubeSats

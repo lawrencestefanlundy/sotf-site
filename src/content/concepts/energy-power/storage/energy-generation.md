@@ -1,6 +1,7 @@
 ---
 type: concept
 slug: energy-generation
+context_concept: true
 canonical_name: Energy Generation
 aliases: []
 kind: technology

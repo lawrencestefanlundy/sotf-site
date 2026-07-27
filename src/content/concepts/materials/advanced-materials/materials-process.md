@@ -1,6 +1,7 @@
 ---
 type: concept
 slug: materials-process
+context_concept: true
 canonical_name: Materials & Process
 aliases: []
 kind: technology
@@ -24,6 +25,10 @@ recent_mentions:
 - slug: 2026-07-08-the-chemistry-of-chips
   title: The Chemistry of Chips
   date: '2026-07-08'
+  kind: web
+- slug: 2021-05-06-weav3d-awarded-nsf-funding-to-further-develop-next-generatio
+  title: WEAV3D awarded NSF funding to further develop next-generation composite forming machine - Design World
+  date: '2021-05-06'
   kind: web
 neighbors: []
 ---

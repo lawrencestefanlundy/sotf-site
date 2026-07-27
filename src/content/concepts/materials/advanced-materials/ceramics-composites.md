@@ -1,6 +1,7 @@
 ---
 type: concept
 slug: ceramics-composites
+context_concept: true
 canonical_name: Ceramics & Composites
 aliases: []
 kind: technology
@@ -19,7 +20,11 @@ mention_count: 15
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2021-05-06-weav3d-awarded-nsf-funding-to-further-develop-next-generatio
+  title: WEAV3D awarded NSF funding to further develop next-generation composite forming machine - Design World
+  date: '2021-05-06'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

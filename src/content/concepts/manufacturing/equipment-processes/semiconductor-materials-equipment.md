@@ -25,6 +25,10 @@ descendants:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-07-24-trust-stamp-selected-for-eu-advanced-semiconductor-technolog
+  title: Trust Stamp selected for EU advanced semiconductor technology initiative - Proactive Investors
+  date: '2026-07-24'
+  kind: web
 - slug: 2026-07-20-user-clip-gen-bolduc-chips-act---c-span
   title: 'User Clip: Gen Bolduc CHIPS Act - C-SPAN'
   date: '2026-07-20'

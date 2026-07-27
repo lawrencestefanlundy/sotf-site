@@ -1,6 +1,7 @@
 ---
 type: concept
 slug: fiber-optics
+context_concept: true
 canonical_name: Fiber Optics
 aliases: []
 kind: technology

@@ -8,7 +8,12 @@ parent_concepts:
 - memory
 - mainstream-memory
 related_concepts: []
-sources: []
+sources:
+- '[[2024-10-22-state-of-the-future-part-deux]]'
+- '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
+- '[[2024-yole-emerging-memories-2024]]'
+- '[[2026-06-22-beyond-cmos-device-layer-research]]'
+- '[[2025-26-lapedus-next-gen-ferroelectric-memory]]'
 frontier:
 - Can HfO2 FeRAM / FeCAP endurance and retention reach DRAM-replacement bars (FMC DRAM+)?
 - Does FeCAP-based compute become a credible memcapacitor competitor?
@@ -16,13 +21,33 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 110
 last_reorg_date: '2026-05-14'
 descendants:
 - fefet
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_7d: 9
+sources_30d: 33
+recent_mentions:
+- slug: 2025-26-lapedus-next-gen-ferroelectric-memory
+  title: Next-Gen Ferroelectric Memory Still A Work In Progress
+  date: '2026-06-23'
+  kind: web
+- slug: 2026-06-22-beyond-cmos-device-layer-research
+  title: Beyond-CMOS device layer — grounded research (MRAM/FeFET beachhead + capture base rate)
+  date: '2026-06-22'
+  kind: web
+- slug: 2024-10-22-state-of-the-future-part-deux
+  title: 'An AI Thesis: State of the Future! Part Deux'
+  date: '2024-10-22'
+  kind: substack
+- slug: 2024-yole-emerging-memories-2024
+  title: Yole Group — Emerging Non-Volatile Memories 2024
+  date: '2024-10-15'
+  kind: web
+- slug: 2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth
+  title: '🔮E14: The Real AI Bottleneck: High Bandwidth Memory (HBM)'
+  date: '2023-09-08'
+  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

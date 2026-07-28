@@ -16,13 +16,12 @@ related_concepts:
 - analog-computing
 - neuromorphic-computing
 sources:
+- '[[2025-07-14-solving-compute-crisis-physics-based-asics]]'
+- '[[2024-10-28-aria-scaling-compute-normal-computing]]'
+- '[[2025-08-12-normal-computing-cn101-tape-out]]'
 - '[[2023-02-13-thermodynamic-ai-fluctuation-frontier]]'
 - '[[2024-01-23-normal-computing-first-thermodynamic-computer]]'
-- '[[2024-10-28-aria-scaling-compute-normal-computing]]'
 - '[[2025-04-15-nature-comm-thermodynamic-computing-system]]'
-- '[[2025-07-14-solving-compute-crisis-physics-based-asics]]'
-- '[[2025-08-12-normal-computing-cn101-tape-out]]'
-- '[[2026-03-25-normal-computing-samsung-catalyst-50m]]'
 frontier:
 - When does the first independent benchmark of a thermodynamic chip running a real production workload publish?
 - Does the 1000x (Normal) / 10,000x (Extropic) energy-efficiency claim survive contact with peer review?
@@ -35,14 +34,38 @@ tags:
 - technology
 - physics-based-asics
 - thermodynamic-ai
-mention_count: 0
+mention_count: 9
 last_reorg_date: '2026-05-27'
 sources_7d: 0
-sources_30d: 0
+sources_30d: 1
 recent_mentions:
 - slug: 2026-07-25-thoughts-on-ai-and-power
   title: Thoughts on AI and power
   date: '2026-07-25'
+  kind: web
+- slug: 2025-08-12-normal-computing-cn101-tape-out
+  title: Normal Computing Announces Tape-Out of World's First Thermodynamic Computing Chip
+  date: '2025-08-12'
+  kind: web
+- slug: 2025-07-14-solving-compute-crisis-physics-based-asics
+  title: Solving the compute crisis with physics-based ASICs
+  date: '2025-07-14'
+  kind: web
+- slug: 2025-04-15-nature-comm-thermodynamic-computing-system
+  title: Thermodynamic computing system for AI applications
+  date: '2025-04-15'
+  kind: web
+- slug: 2024-10-28-aria-scaling-compute-normal-computing
+  title: Normal Computing Selected for ARIA's £50M Scaling Compute Programme to Revolutionize AI Hardware Costs
+  date: '2024-10-28'
+  kind: web
+- slug: 2024-01-23-normal-computing-first-thermodynamic-computer
+  title: Normal Computing Unveils the First-ever Thermodynamic Computer
+  date: '2024-01-23'
+  kind: web
+- slug: 2023-02-13-thermodynamic-ai-fluctuation-frontier
+  title: Thermodynamic AI and the Fluctuation Frontier
+  date: '2023-02-13'
   kind: web
 neighbors:
 - slug: probabilistic-computing

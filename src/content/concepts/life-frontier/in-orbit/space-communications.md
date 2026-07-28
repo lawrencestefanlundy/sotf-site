@@ -15,7 +15,10 @@ related_concepts:
 - leo-mega-constellations
 - direct-to-cell-leo
 - gnss-pnt
-sources: []
+sources:
+- '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
+- '[[2026-05-13-20-years-of-space-communications-and-navigation]]'
+- '[[2026-06-05-nasa-concludes-antenna-mishap-investigation-releases-report]]'
 frontier:
 - Can optical inter-satellite links (OISLs) achieve sufficient pointing stability on low-cost small-sat platforms without deformable mirrors?
 - What is the practical data-rate ceiling for direct-to-device LEO broadband without licensed spectrum refarming?
@@ -24,12 +27,24 @@ last_updated: 2026-06-02
 tags:
 - concept
 - category
-mention_count: 0
+mention_count: 22
 descendants: []
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_30d: 4
+recent_mentions:
+- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
+  title: 'Startup Funding: Q2 2026'
+  date: '2026-07-13'
+  kind: web
+- slug: 2026-06-05-nasa-concludes-antenna-mishap-investigation-releases-report
+  title: NASA Concludes Antenna Mishap Investigation, Releases Report
+  date: '2026-06-05'
+  kind: web
+- slug: 2026-05-13-20-years-of-space-communications-and-navigation
+  title: 20 Years of Space Communications and Navigation
+  date: '2026-05-13'
+  kind: web
 neighbors:
 - slug: optical-inter-satellite-links
   name: Optical Inter-Satellite Links

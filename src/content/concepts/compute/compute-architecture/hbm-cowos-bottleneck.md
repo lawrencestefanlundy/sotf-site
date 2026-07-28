@@ -14,7 +14,8 @@ related_concepts:
 - mature-foundry-positioning
 - chiplets
 - backside-power-delivery
-sources: []
+sources:
+- '[[2026-04-26-litho-tool-supply-bottleneck-ai-semiconductor-supply-chain]]'
 frontier:
 - When does TSMC CoWoS-S capacity reach demand parity? Current estimates point to mid-2027 at earliest.
 - Does SK Hynix HBM4 capacity ramp on schedule for late-2026 GA?
@@ -27,9 +28,14 @@ tags:
 - semiconductor
 - packaging
 - hbm
+mention_count: 5
 sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_30d: 1
+recent_mentions:
+- slug: 2026-04-26-litho-tool-supply-bottleneck-ai-semiconductor-supply-chain
+  title: 'AI Semiconductor Supply Chain: The Bottleneck Has Shifted'
+  date: '2026-04-26'
+  kind: web
 neighbors:
 - slug: mature-foundry-positioning
   name: Mature Foundry Positioning

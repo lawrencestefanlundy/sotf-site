@@ -25,10 +25,10 @@ last_updated: '2026-06-17'
 tags:
 - concept
 - technology
-mention_count: 255
+mention_count: 259
 last_reorg_date: '2026-05-13'
-sources_7d: 6
-sources_30d: 20
+sources_7d: 3
+sources_30d: 21
 recent_mentions:
 - slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
   title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'

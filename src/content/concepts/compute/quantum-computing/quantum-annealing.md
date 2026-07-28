@@ -14,7 +14,8 @@ related_concepts:
 - thermodynamic-computing
 - probabilistic-computing
 - physics-native-compute
-sources: []
+sources:
+- '[[2024-12-04-cubits-in-a-fridge-why-is-nobody]]'
 frontier:
 - At what problem size and density does a quantum annealer outperform best-in-class classical heuristics (simulated annealing, CPLEX) on commercially relevant instances, and has that crossover been demonstrated outside benchmark suites?
 - Does coherent quantum annealing (superconducting qubits with tunable couplers) provide a genuine advantage over classical Ising-machine emulators (CMOS, FPGA-based SIM) for sparse graphs typical of logistics and finance problems?
@@ -22,9 +23,14 @@ frontier:
 last_updated: 2026-06-02
 tags:
 - concept
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+mention_count: 27
+sources_7d: 5
+sources_30d: 14
+recent_mentions:
+- slug: 2024-12-04-cubits-in-a-fridge-why-is-nobody
+  title: Silicon Spin Quantum Computing (Feat. Himadri Majumdar, SemiQon)
+  date: '2024-12-04'
+  kind: substack
 neighbors:
 - slug: combinatorial-optimisation
   name: Combinatorial Optimisation

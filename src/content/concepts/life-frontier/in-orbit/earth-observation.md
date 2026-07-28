@@ -15,7 +15,9 @@ related_concepts:
 - optical-eo
 - atmospheric-sensing
 - leo-mega-constellations
-sources: []
+sources:
+- '[[2026-05-06-putting-the-super-into-a-supersite-for-earth-observation]]'
+- '[[2026-01-13-diffraqtion-42-million-pre-seed-closed-to-build-quantum-came]]'
 frontier:
 - Can commercial hyperspectral constellations achieve daily revisit at sub-10 m resolution for systematic GHG attribution?
 - Which EO data layers command durable pricing power as resolution democratises?
@@ -24,12 +26,20 @@ last_updated: 2026-06-02
 tags:
 - concept
 - category
-mention_count: 0
+mention_count: 36
 descendants: []
 last_reorg_date: '2026-05-14'
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_7d: 2
+sources_30d: 14
+recent_mentions:
+- slug: 2026-05-06-putting-the-super-into-a-supersite-for-earth-observation
+  title: Putting the ‘super’ into a supersite for Earth observation
+  date: '2026-05-06'
+  kind: web
+- slug: 2026-01-13-diffraqtion-42-million-pre-seed-closed-to-build-quantum-came
+  title: 'Diffraqtion: $4.2 Million Pre-Seed Closed To Build Quantum Camera Imaging Constellations For Space and Earth Observation - Pulse 2.0'
+  date: '2026-01-13'
+  kind: web
 neighbors:
 - slug: sar-satellites
   name: SAR Satellites (Synthetic Aperture Radar)

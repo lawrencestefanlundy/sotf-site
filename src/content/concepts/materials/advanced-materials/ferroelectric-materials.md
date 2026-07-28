@@ -15,7 +15,12 @@ related_concepts:
 - piezoelectric
 - aluminium-scandium-nitride
 - high-k-dielectrics
-sources: []
+sources:
+- '[[2024-10-22-state-of-the-future-part-deux]]'
+- '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
+- '[[2024-yole-emerging-memories-2024]]'
+- '[[2026-06-22-beyond-cmos-device-layer-research]]'
+- '[[2025-26-lapedus-next-gen-ferroelectric-memory]]'
 frontier:
 - Does any ferroelectric material class beyond HfO2 reach CMOS-compatible integration — specifically, can sub-20 nm BaTiO3 films be ALD-deposited with device-grade phase control?
 - 'Neuromorphic / analogue computing: can multi-state FeFET polarisation (partial switching) be used for reliable weight storage in edge-AI inference — what is the practical bit precision ceiling?'
@@ -23,9 +28,30 @@ frontier:
 last_updated: '2026-06-02'
 tags:
 - concept
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+mention_count: 112
+sources_7d: 9
+sources_30d: 34
+recent_mentions:
+- slug: 2025-26-lapedus-next-gen-ferroelectric-memory
+  title: Next-Gen Ferroelectric Memory Still A Work In Progress
+  date: '2026-06-23'
+  kind: web
+- slug: 2026-06-22-beyond-cmos-device-layer-research
+  title: Beyond-CMOS device layer — grounded research (MRAM/FeFET beachhead + capture base rate)
+  date: '2026-06-22'
+  kind: web
+- slug: 2024-10-22-state-of-the-future-part-deux
+  title: 'An AI Thesis: State of the Future! Part Deux'
+  date: '2024-10-22'
+  kind: substack
+- slug: 2024-yole-emerging-memories-2024
+  title: Yole Group — Emerging Non-Volatile Memories 2024
+  date: '2024-10-15'
+  kind: web
+- slug: 2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth
+  title: '🔮E14: The Real AI Bottleneck: High Bandwidth Memory (HBM)'
+  date: '2023-09-08'
+  kind: substack
 neighbors:
 - slug: hafnium-oxide
   name: Hafnium Oxide

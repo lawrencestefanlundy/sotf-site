@@ -25,11 +25,11 @@ last_updated: '2026-06-02'
 tags:
 - concept
 - category
-mention_count: 2
+mention_count: 14
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 0
+sources_30d: 4
 recent_mentions: []
 neighbors:
 - slug: hydrogels

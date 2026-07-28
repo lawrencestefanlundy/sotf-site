@@ -24,9 +24,51 @@ tags:
 - ar-vr
 - displays
 - smart-glasses
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources:
+- '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
+- '[[2025-07-01-a-primer-carbon-nanotubes]]'
+- '[[2024-11-20-nuclear-fusion-the-state-of-play]]'
+- '[[2024-11-12-atomic-energy-can-nuclear-power-our]]'
+- '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
+- '[[2025-04-16-the-state-of-photonic-computing]]'
+- '[[2026-05-12-semianalysis-eda-rtl-to-silicon]]'
+- '[[2026-05-21-semianalysis-eda-market-primer]]'
+mention_count: 16
+sources_7d: 2
+sources_30d: 3
+recent_mentions:
+- slug: 2026-05-21-semianalysis-eda-market-primer
+  title: EDA Market Primer - Market Dynamics, Cadence, Synopsys, Siemens, China EDA Rise
+  date: '2026-05-21'
+  kind: web
+- slug: 2026-05-12-semianalysis-eda-rtl-to-silicon
+  title: 'The EDA Primer: From RTL to Silicon'
+  date: '2026-05-12'
+  kind: web
+- slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
+  title: Carbon Nanotubes in the Datacentre
+  date: '2025-11-25'
+  kind: substack
+- slug: 2025-07-01-a-primer-carbon-nanotubes
+  title: 'A Primer: Carbon Nanotubes'
+  date: '2025-07-01'
+  kind: substack
+- slug: 2025-04-16-the-state-of-photonic-computing
+  title: 'Photonic Computing: A Primer'
+  date: '2025-04-16'
+  kind: substack
+- slug: 2025-02-12-wen-babelfish-feat-aron-of-semron
+  title: 'Edge AI: Analog Chips (feat. Aron Kirschen, SEMRON)'
+  date: '2025-02-12'
+  kind: substack
+- slug: 2024-11-20-nuclear-fusion-the-state-of-play
+  title: 'Nuclear Fusion: A Primer'
+  date: '2024-11-20'
+  kind: substack
+- slug: 2024-11-12-atomic-energy-can-nuclear-power-our
+  title: 'Nuclear Fission: A Primer'
+  date: '2024-11-12'
+  kind: substack
 neighbors:
 - slug: laser-display-light-engines
   name: Laser-Based Display Light Engines

@@ -1,8 +1,14 @@
 ---
 type: concept
 slug: cmp-chemical-mechanical-planarisation
-canonical_name: CMP
-aliases: []
+canonical_name: Chemical Mechanical Planarisation
+aliases:
+- CMP
+- chemical mechanical planarisation
+- chemical mechanical planarization
+- chemical-mechanical planarisation
+- chemical mechanical polishing
+- CMP slurry
 kind: technology
 parent_concepts:
 - manufacturing
@@ -29,6 +35,16 @@ Chemical Mechanical Planarization (CMP) removes material from a wafer surface vi
 ## Competitive landscape
 
 CMP competes with dry etch-back planarization (inferior global planarity) and electrochemical mechanical planarization (eCMP, lower pressure for soft metals like Cu). Adjacent approaches: atomic layer etching for sub-nm removal, stress-engineered films that self-planarize, sacrificial spin-on dielectrics. For advanced nodes and photonics, eCMP is gaining ground for damage-sensitive III-V or low-k surfaces.
+
+## Where the value sits
+
+| Technique | Global Planarity | Selectivity Control | Damage Risk |
+|---|---|---|---|
+| CMP | Excellent | Slurry chemistry | Moderate |
+| eCMP | Good | Electrochemical | Low |
+| Dry etch-back | Poor | Gas chemistry | High |
+
+Value concentrates in the consumables, not the tool. GlobalFoundries' process portfolio (22FDX, 45CLO for photonics) relies on CMP at multiple integration steps, and consumables qualification is a recurring capex decision rather than a one-off purchase, which is what makes the slurry and pad layer a repeat-revenue position. The differentiated wedges are slurry chemistry for compound semiconductors (SiC, GaN, InP), pad conditioning, and end-point detection (AI/optical) that reduces yield loss. Downstream this touches any ferroelectric process and any photonic integrated circuit foundry bet needing damascene waveguide planarization.
 
 ## Companies using
 

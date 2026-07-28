@@ -8,18 +8,28 @@ parent_concepts:
 - photonic-systems
 - modulators-detectors
 related_concepts: []
-sources: []
+sources:
+- '[[2025-12-02-the-future-of-computing-is-glass]]'
+- '[[2024-10-23-optical-dram-integrated-non-reciprocal-magneto-optics-with]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 23
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_7d: 1
+sources_30d: 3
+recent_mentions:
+- slug: 2025-12-02-the-future-of-computing-is-glass
+  title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
+  date: '2025-12-02'
+  kind: substack
+- slug: 2024-10-23-optical-dram-integrated-non-reciprocal-magneto-optics-with
+  title: Integrated non-reciprocal magneto-optics with ultra-high endurance for photonic in-memory computing
+  date: '2024-10-23'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

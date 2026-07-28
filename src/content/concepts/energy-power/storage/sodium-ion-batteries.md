@@ -8,18 +8,23 @@ parent_concepts:
 - energy-power
 - storage
 related_concepts: []
-sources: []
+sources:
+- '[[2025-02-20-the-promise-and-perils-of-sodium-ion-batteries---latitude-me]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 4
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_30d: 1
+recent_mentions:
+- slug: 2025-02-20-the-promise-and-perils-of-sodium-ion-batteries---latitude-me
+  title: The promise and perils of sodium-ion batteries - Latitude Media
+  date: '2025-02-20'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

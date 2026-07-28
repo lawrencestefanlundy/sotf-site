@@ -26,9 +26,16 @@ tags:
 - memory
 - 3d
 - map
+sources:
+- '[[2024-10-22-state-of-the-future-part-deux]]'
+mention_count: 2
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2024-10-22-state-of-the-future-part-deux
+  title: 'An AI Thesis: State of the Future! Part Deux'
+  date: '2024-10-22'
+  kind: substack
 neighbors:
 - slug: hbm
   name: HBM (High-Bandwidth Memory)

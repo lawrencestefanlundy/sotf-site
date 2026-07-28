@@ -18,7 +18,27 @@ related_concepts:
 - hybrid-bonding
 - cowos
 - fiber-to-chip-coupling
-sources: []
+sources:
+- '[[2023-10-19-e20-the-state-of-privacy-enhancing]]'
+- '[[2022-12-15-unbundling-the-database]]'
+- '[[2026-05-30-optical-interconnect-ma-ledger]]'
+- '[[2026-06-22-sintered-metal-die-attach-landscape]]'
+- '[[2026-06-22-thermal-stack-layer-landscape]]'
+- '[[2026-06-16-advanced-packaging-market-tsmc-foundry-allocation-status-q1]]'
+- '[[2026-05-30-osat-market-structure]]'
+- '[[2025-09-25-corintis-microsoft-in-chip-microfluidic-cooling]]'
+- '[[2026-06-22-liquid-metal-tim-landscape]]'
+- '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
+- '[[2026-07-11-neutral-pdk-heterogeneous-integration-landscape]]'
+- '[[2026-04-10-advanced-packaging-market-advanced-packaging-market-monitor]]'
+- '[[2026-07-26-ai-backend-network-optics-2026]]'
+- '[[2026-07-27-cxmt-star-market-debut]]'
+- '[[2026-05-30-intel-glass-substrates-program]]'
+- '[[2025-07-03-datacentre-thermal-power-market-cooling-is-the-new]]'
+- '[[2025-05-27-datacentre-thermal-power-market-intel-foundry-s-integrated]]'
+- '[[2025-12-28-advanced-packaging-market-tsmc-cowos-capacity-scaling-up]]'
+- '[[2025-05-03-datacentre-thermal-power-market-intel-foundry-thermal]]'
+- '[[2025-08-05-taiwan-osat-gains-from-bis-whitelist-fall-short-as-us-grants]]'
 frontier:
 - Does a pure-play "photonic OSAT" emerge at scale, or do traditional OSATs (ASE/Amkor) + Fabrinet absorb the photonic-assembly value?
 - Does TSMC's capture of the AI-accelerator advanced-packaging tier (CoWoS) permanently cap OSAT value, or do OSATs win the CPO-assembly tier?
@@ -28,9 +48,42 @@ tags:
 - category
 - packaging
 - supply-chain
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+mention_count: 73
+sources_7d: 7
+sources_30d: 18
+recent_mentions:
+- slug: 2026-07-27-cxmt-star-market-debut
+  title: CXMT's 466% STAR Market debut makes it China's most valuable mainland-listed company
+  date: '2026-07-27'
+  kind: web
+- slug: 2026-07-26-ai-backend-network-optics-2026
+  title: 'Dell''Oro: AI back-end switching past $100B by 2030, optical transport $16B in 2025'
+  date: '2026-07-26'
+  kind: web
+- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
+  title: 'Startup Funding: Q2 2026'
+  date: '2026-07-13'
+  kind: web
+- slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape
+  title: Neutral PDK / EDA layer for heterogeneous photonic integration — landscape check (Scintil essay correction research)
+  date: '2026-07-11'
+  kind: web
+- slug: 2026-06-22-sintered-metal-die-attach-landscape
+  title: Sintered-silver / sintered-copper die-attach landscape — physics, incumbents, AI-migration question (web research synthesis)
+  date: '2026-06-22'
+  kind: web
+- slug: 2026-06-22-thermal-stack-layer-landscape
+  title: AI datacentre thermal stack, junction-to-ambient — per-layer players, M&A, capture (web research synthesis)
+  date: '2026-06-22'
+  kind: web
+- slug: 2026-06-22-liquid-metal-tim-landscape
+  title: Liquid-metal TIM landscape — players, physics, deployment, capture (web research synthesis)
+  date: '2026-06-22'
+  kind: web
+- slug: 2026-06-16-advanced-packaging-market-tsmc-foundry-allocation-status-q1
+  title: 'TSMC Foundry Allocation Status Q1 2026: CoWoS Sold Out, 2nm Booked, ~1M Wafer Demand'
+  date: '2026-06-16'
+  kind: web
 neighbors:
 - slug: advanced-packaging
   name: Advanced Packaging

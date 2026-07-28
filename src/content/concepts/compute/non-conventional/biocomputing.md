@@ -15,9 +15,10 @@ parent_concepts:
 related_concepts:
 - neuromorphic-computing
 sources:
+- '[[2026-06-04-bezos-flourish-brain-core-algorithm]]'
 - '[[2025-statnews-biocomputing-backlash]]'
-- '[[2025-iea-datacentre-electricity]]'
 - '[[2024-nsf-efri-begin-organoid-intelligence]]'
+- '[[2025-iea-datacentre-electricity]]'
 frontier:
 - Vascularisation / scale — can organoids exceed ~500 µm and ~100k cells with viable interior? (the consensus gating blocker)
 - Reproducible, durable training — has anyone shown a learned task that holds and transfers, beyond classification of which electrode fired?
@@ -28,10 +29,26 @@ last_updated: '2026-06-03'
 tags:
 - concept
 - technology
-mention_count: 2
+mention_count: 11
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-04-bezos-flourish-brain-core-algorithm
+  title: Jeff Bezos Is Funding a Wild Hunt for the Brain's 'Core Algorithm'
+  date: '2026-06-04'
+  kind: web
+- slug: 2025-iea-datacentre-electricity
+  title: Data centre electricity use surged in 2025
+  date: '2025-12-01'
+  kind: web
+- slug: 2025-statnews-biocomputing-backlash
+  title: Brain organoid pioneers fear backlash over biocomputing
+  date: '2025-11-17'
+  kind: web
+- slug: 2024-nsf-efri-begin-organoid-intelligence
+  title: NSF invests $14M in bioengineered systems for ethical biocomputing (EFRI-BEGIN)
+  date: '2024-08-01'
+  kind: web
 neighbors:
 - slug: neuromorphic-computing
   name: Neuromorphic Computing

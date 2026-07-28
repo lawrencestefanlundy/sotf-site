@@ -8,18 +8,64 @@ parent_concepts:
 - energy-power
 - ai-thermal-management
 related_concepts: []
-sources: []
+sources:
+- '[[2023-07-27-e10-pushing-moores-law-to-the-limit]]'
+- '[[2025-04-23-what-if-ai-can-already-feel]]'
+- '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
+- '[[2025-07-01-a-primer-carbon-nanotubes]]'
+- '[[2023-06-30-e06-the-model-t-moment-for-bits-llms]]'
+- '[[2024-11-20-nuclear-fusion-the-state-of-play]]'
+- '[[2024-10-29-deploy-intelligence-too-cheap-to]]'
+- '[[2024-11-12-atomic-energy-can-nuclear-power-our]]'
+- '[[2024-10-22-state-of-the-future-part-deux]]'
+- '[[2025-04-30-has-the-time-come-to-take-mortal]]'
+- '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
+- '[[2025-04-16-the-state-of-photonic-computing]]'
+- '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
+- '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - material
-mention_count: 0
+mention_count: 689
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_30d: 11
+recent_mentions:
+- slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint
+  title: 'What actually limits a humanoid to minutes: the thermal cliff, not the battery'
+  date: '2026-07-26'
+  kind: web
+- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
+  title: 'Startup Funding: Q2 2026'
+  date: '2026-07-13'
+  kind: web
+- slug: 2026-07-10-edge-buyer-kpi-sweep
+  title: 'Edge-AI buyer KPI sweep: power envelope + energy per work; cost per token absent'
+  date: '2026-07-10'
+  kind: web
+- slug: 2026-07-09-in-die-microfluidic-cooling-sprint
+  title: In-die microfluidic cooling — cluster research sprint
+  date: '2026-07-09'
+  kind: web
+- slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
+  title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
+  date: '2026-07-02'
+  kind: web
+- slug: 2026-06-24-thermal-stack-arms-race-diamond-heat-spreaders-companies-in
+  title: Diamond Heat Spreaders Companies in 2026
+  date: '2026-06-24'
+  kind: web
+- slug: 2026-06-23-semianalysis-space-datacenters
+  title: 'To Boldly Go: The Case for Space Datacenters'
+  date: '2026-06-23'
+  kind: web
+- slug: 2026-06-23-arxiv-2512-09044-orbital-datacenter-tether
+  title: Tether-architecture orbital data center design (UPenn)
+  date: '2026-06-23'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

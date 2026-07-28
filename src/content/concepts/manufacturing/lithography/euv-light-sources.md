@@ -10,50 +10,17 @@ parent_concepts:
 - lithography
 related_concepts: []
 sources:
-- '[[2023-07-27-e10-pushing-moores-law-to-the-limit]]'
-- '[[2023-10-06-e18-the-state-of-silent-speech-and]]'
-- '[[2024-10-29-deploy-intelligence-too-cheap-to]]'
-- '[[2025-12-19-lfg-for-semiconductors]]'
-- '[[2026-07-17-the-once-and-future-kimi]]'
-- '[[2024-asml-investor-day-export-controls]]'
-- '[[2026-06-23-semidoped-daily-update]]'
-- '[[2026-06-11-semianalysis-intel-should-raise-capital]]'
-- '[[2026-04-24-litho-tool-supply-bottleneck-asml-s-high-na-euv-ambitions]]'
-- '[[2026-05-02-euv-lithography-wikipedia]]'
 - '[[2026-05-02-energetiq-euv-light-sources]]'
-- '[[2026-04-27-litho-tool-supply-bottleneck-asml-increases-production-of]]'
-- '[[2026-07-25-thoughts-on-ai-and-power]]'
-- '[[2026-04-15-sovereignty-semi-bifurcation-asml-holding-nv-form-6-k]]'
-- '[[2025-12-12-sovereignty-semi-bifurcation-chinese-smic-produces-5nm]]'
-- '[[2026-03-14-semianalysis-patel-bottlenecks]]'
-- '[[2026-05-02-laser-produced-plasma-euv-development-sciencedirect]]'
-- '[[2026-03-25-lithography-patterning-market-lithography-innovation-beyond]]'
-- '[[2026-05-02-asml-euv-lithography-systems]]'
-- '[[2026-04-26-litho-tool-supply-bottleneck-ai-semiconductor-supply-chain]]'
-- '[[2026-06-24-sovereignty-semi-bifurcation-dutch-government-irritated-by]]'
-- '[[2024-tsmc-arizona-capex-disclosure]]'
-- '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
-- '[[2025-12-11-sovereignty-semi-bifurcation-smic-n-3-confirmed-kirin-9030]]'
-- '[[2026-06-19-sovereignty-semi-bifurcation-us-tells-asml-it-has-evidence]]'
-- '[[2023-12-06-euv-lithography-but-with-a-free-electron-laser]]'
-- '[[2026-05-01-lithography-patterning-market-asml-s-roadmap-for-chipmaking]]'
-- '[[2026-04-15-ai-compute-toll-booths-asml-q1-2026-earnings-margin]]'
-- '[[2026-06-14-semianalysis-smic-n3-vs-intel-18a]]'
-- '[[2024-10-28-euv-with-fewer-mirrors]]'
-- '[[2026-04-28-sovereignty-semi-bifurcation-smic-ai-chip-strategy-2026]]'
-- '[[2024-bis-export-controls-china-semis]]'
-- '[[2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology]]'
-- '[[2025-12-16-lithography-patterning-market-new-1-4nm-nanoimprint]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 115
+mention_count: 3
 last_reorg_date: '2026-05-13'
-sources_7d: 2
-sources_30d: 19
+sources_7d: 0
+sources_30d: 0
 recent_mentions:
 - slug: 2026-07-25-thoughts-on-ai-and-power
   title: Thoughts on AI and power

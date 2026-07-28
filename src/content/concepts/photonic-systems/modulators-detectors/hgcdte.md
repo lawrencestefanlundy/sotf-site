@@ -15,7 +15,8 @@ related_concepts:
 - quantum-cascade-lasers
 - sensing-imaging
 - free-space-photonics
-sources: []
+sources:
+- '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 frontier:
 - Can MOVPE-grown HgCdTe on silicon substrates reach military-grade uniformity at commercial cost, or does lattice mismatch remain a disqualifier?
 - Will avalanche-mode HgCdTe (eAPD) displace InGaAs APDs for 1–5 µm single-photon sensing, given HgCdTe's near-unity impact-ionisation ratio?
@@ -23,9 +24,14 @@ frontier:
 last_updated: 2026-06-02
 tags:
 - concept
+mention_count: 1
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
+  title: 'UK Opportunity in AI: Compound Semiconductors'
+  date: '2025-09-10'
+  kind: substack
 neighbors:
 - slug: avalanche-photodiode
   name: Avalanche Photodiode (APD / SPAD)

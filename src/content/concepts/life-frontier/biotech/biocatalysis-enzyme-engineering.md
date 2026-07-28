@@ -16,12 +16,8 @@ related_concepts:
 - single-cell-sequencing
 - cell-free-systems
 sources:
-- 2026-06-04-droplet-microfluidics-directed-evolution-throughput
-- 2026-06-04-debye-screening-fet-biosensor-high-ionic-strength
-- 2026-06-04-magnetoresistive-gmr-mtj-biosensor-turbid-samples
-- 2026-06-04-process-analytical-technology-market-size
-- 2026-06-04-industrial-enzymes-market-size
-- 2026-06-04-asg-biosensor-host-cell-protein-bioprocess
+- '[[2026-06-04-droplet-microfluidics-directed-evolution-throughput]]'
+- '[[2026-06-04-debye-screening-fet-biosensor-high-ionic-strength]]'
 frontier:
 - Which enzyme (EC) classes produce a magnetic-readable turnover signal, and does it still need a tailored reporter chemistry near the bead?
 - Can a bead-on-MTJ format match kHz droplet/FACS throughput, or is it a plate-format 10^2 to 10^4 tool competing with plate readers?
@@ -35,9 +31,18 @@ tags:
 - synbio
 - biocatalysis
 - markets
+mention_count: 7
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-04-droplet-microfluidics-directed-evolution-throughput
+  title: High-throughput droplet-based microfluidics for directed evolution of enzymes
+  date: '2026-06-04'
+  kind: web
+- slug: 2026-06-04-debye-screening-fet-biosensor-high-ionic-strength
+  title: 'Beyond the Debye length in high ionic strength solution: direct protein detection with field-effect transistors (FETs) in human serum'
+  date: '2026-06-04'
+  kind: web
 neighbors:
 - slug: single-cell-sequencing
   name: Single-Cell Sequencing

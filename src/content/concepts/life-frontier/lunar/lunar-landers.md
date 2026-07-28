@@ -8,19 +8,24 @@ parent_concepts:
 - life-frontier
 - lunar
 related_concepts: []
-sources: []
+sources:
+- '[[2026-06-26-nasa-announces-winners-for-2026-human-lander-challenge]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 1
 descendants: []
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-26-nasa-announces-winners-for-2026-human-lander-challenge
+  title: NASA Announces Winners for 2026 Human Lander Challenge
+  date: '2026-06-26'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

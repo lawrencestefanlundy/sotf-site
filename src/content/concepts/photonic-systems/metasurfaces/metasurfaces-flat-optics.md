@@ -21,17 +21,18 @@ descendants:
 - metamaterials
 - metasurfaces-flat-optics
 - wafer-level-optics
-sources: []
+sources:
+- '[[2025-01-06-radiant-acquires-nilt]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 15
+mention_count: 94
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 0
+sources_7d: 7
+sources_30d: 27
 recent_mentions:
 - slug: 2026-07-21-robotically-assembled-electromagnetic-metamaterials-for-long
   title: Robotically Assembled Electromagnetic Metamaterials for Long-Range Space Situational Awareness
@@ -40,6 +41,10 @@ recent_mentions:
 - slug: 2026-07-21-precision-astrometry-using-optically-independent-spacecraft-
   title: Precision Astrometry Using Optically Independent Spacecraft for Graviational Wave Detection
   date: '2026-07-21'
+  kind: web
+- slug: 2025-01-06-radiant-acquires-nilt
+  title: Radiant Opto-Electronics Corporation Completes Acquisition of NIL Technology
+  date: '2025-01-06'
   kind: web
 neighbors:
 - slug: metalens

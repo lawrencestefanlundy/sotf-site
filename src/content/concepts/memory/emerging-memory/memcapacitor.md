@@ -22,7 +22,8 @@ related_concepts:
 - 3d-monolithic-integration
 sources:
 - '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
-- '[[2024-yole-emerging-memories-2024]]'
+- '[[2026-06-16-cim-landscape-2026]]'
+- '[[2026-07-02-semianalysis-ectc2026-advanced-packaging]]'
 frontier:
 - Does SEMRON's 3D monolithic CapRAM growth scale at production yield by 2027? (Most binding technical risk for the architecture class.)
 - ADC overhead — does the analog→digital conversion cost at column ends cap practical performance, as it has constrained RRAM- and PCM-based IMC?
@@ -38,17 +39,45 @@ tags:
 - analog-computing
 - in-memory-computing
 - semron
-mention_count: 0
+mention_count: 18
 last_reorg_date: '2026-05-14'
 descendants:
 - capram
 sources_7d: 0
-sources_30d: 0
+sources_30d: 4
 recent_mentions:
+- slug: 2026-07-17-the-once-and-future-kimi
+  title: The Once and Future Kimi
+  date: '2026-07-17'
+  kind: substack
 - slug: 2026-07-10-inference-silicon-deep-research
   title: 'Deep research: measured vs claimed inference-silicon economics (adversarially verified, 23/25 claims confirmed)'
   date: '2026-07-10'
   kind: web
+- slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
+  title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
+  date: '2026-07-02'
+  kind: web
+- slug: 2026-06-16-cim-landscape-2026
+  title: 'Compute-in-memory landscape 2026: efficiency claims, the digital-readout shift, IDM PIM'
+  date: '2026-06-16'
+  kind: web
+- slug: 2025-09-23-the-compute-gradient
+  title: The Compute Gradient
+  date: '2025-09-23'
+  kind: substack
+- slug: 2025-02-12-wen-babelfish-feat-aron-of-semron
+  title: 'Edge AI: Analog Chips (feat. Aron Kirschen, SEMRON)'
+  date: '2025-02-12'
+  kind: substack
+- slug: 2023-07-23-analog-computing-the-once-and-future
+  title: '🔮 E09: Analog Computing: The Once and Future King'
+  date: '2023-07-23'
+  kind: substack
+- slug: 2023-06-23-e05-the-future-of-edge-ai-brain-inspired
+  title: '🔮 E05: Neuromorphic Computing & The Future of Edge AI'
+  date: '2023-06-23'
+  kind: substack
 neighbors:
 - slug: rram-reram
   name: RRAM / ReRAM

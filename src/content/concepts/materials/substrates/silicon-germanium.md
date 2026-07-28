@@ -14,7 +14,9 @@ related_concepts:
 - indium-phosphide
 - ge-on-si-mid-ir
 - topological-qubits
-sources: []
+sources:
+- '[[2026-07-11-neutral-pdk-heterogeneous-integration-landscape]]'
+- '[[2026-06-15-gf-investor-day-2026]]'
 frontier:
 - Can SiGe HBT nodes keep pace with III-V GaN and InP in mmWave power amplifier performance beyond 100 GHz?
 - Will Ge-channel PMOS transistors in SiGe stacks displace III-V channels in sub-3 nm CMOS nodes?
@@ -22,9 +24,18 @@ frontier:
 last_updated: '2026-06-02'
 tags:
 - concept
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+mention_count: 30
+sources_7d: 1
+sources_30d: 10
+recent_mentions:
+- slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape
+  title: Neutral PDK / EDA layer for heterogeneous photonic integration — landscape check (Scintil essay correction research)
+  date: '2026-07-11'
+  kind: web
+- slug: 2026-06-15-gf-investor-day-2026
+  title: GlobalFoundries Investor Day 2026 (presentation)
+  date: '2026-06-15'
+  kind: web
 neighbors:
 - slug: gallium-arsenide
   name: Gallium Arsenide (GaAs)

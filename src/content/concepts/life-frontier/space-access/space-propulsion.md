@@ -14,7 +14,8 @@ related_concepts:
 - in-space-propulsion
 - nuclear-thermal-propulsion
 - reusable-launch
-sources: []
+sources:
+- '[[2025-01-27-ai-for-nuclear-fusion-feat-martin]]'
 frontier:
 - Can green monopropellants (e.g. AF-M315E, LMP-103S) fully displace hydrazine in LEO small-sat propulsion?
 - What is the practical Isp ceiling for Hall-effect thrusters at sub-100W power levels for cubesat scale?
@@ -23,12 +24,16 @@ last_updated: 2026-06-02
 tags:
 - concept
 - category
-mention_count: 0
+mention_count: 3
 descendants: []
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2025-01-27-ai-for-nuclear-fusion-feat-martin
+  title: AI for Nuclear Fusion (Feat. Martin Riedmiller, Google DeepMind)
+  date: '2025-01-27'
+  kind: substack
 neighbors:
 - slug: electric-propulsion
   name: Electric Propulsion (Hall, ion)

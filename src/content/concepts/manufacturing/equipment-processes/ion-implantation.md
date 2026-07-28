@@ -12,15 +12,21 @@ related_concepts:
 - deposition
 - etch
 - materials-process
-sources: []
+sources:
+- '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 frontier:
 - ''
 last_updated: 2026-06-03
 tags:
 - concept
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+mention_count: 91
+sources_7d: 9
+sources_30d: 32
+recent_mentions:
+- slug: 2025-12-09-gallium-nitride-photonics-w-james
+  title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
+  date: '2025-12-09'
+  kind: substack
 neighbors:
 - slug: materials-process
   name: Materials & Process

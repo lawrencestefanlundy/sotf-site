@@ -24,9 +24,14 @@ tags:
 - photonics
 - light-source
 - cpo
+mention_count: 4
 sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_30d: 1
+recent_mentions:
+- slug: 2026-06-17-sivers-onet-enablence-external-light-source-cpo
+  title: Sivers, O-Net and Enablence partner to develop external light sources for AI data centers
+  date: '2026-03-17'
+  kind: web
 neighbors:
 - slug: co-packaged-optics
   name: Co-Packaged Optics

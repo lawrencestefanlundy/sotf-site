@@ -28,6 +28,7 @@ related_concepts:
 - metasurfaces-flat-optics
 - metamaterials
 sources:
+- '[[2023-07-27-e10-pushing-moores-law-to-the-limit]]'
 - '[[2025-01-06-radiant-acquires-nilt]]'
 frontier:
 - Production state of multi-beam direct-write in 2026 — IMS Nanofabrication (Intel-acquired), Mapper-derived programs, NuFlare. Are any shipping volume tools to fabs, or still mask-writing only?
@@ -44,11 +45,19 @@ tags:
 - lithography
 - maskless
 - direct-write
-mention_count: 0
+mention_count: 29
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2025-01-06-radiant-acquires-nilt
+  title: Radiant Opto-Electronics Corporation Completes Acquisition of NIL Technology
+  date: '2025-01-06'
+  kind: web
+- slug: 2023-07-27-e10-pushing-moores-law-to-the-limit
+  title: '🔮E10: Pushing Moore''s Law to the Limit with High-NA EUV (aka Nanoscale Chip Printing)'
+  date: '2023-07-27'
+  kind: substack
 neighbors:
 - slug: e-beam-lithography
   name: E-Beam Lithography

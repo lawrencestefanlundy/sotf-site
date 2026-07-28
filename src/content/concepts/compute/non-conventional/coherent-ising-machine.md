@@ -31,9 +31,14 @@ tags:
 descendants:
 - coupled-oscillator-networks
 - near-field-rf-coupling
+mention_count: 3
 sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_30d: 1
+recent_mentions:
+- slug: 2026-07-27-optimal-compute-vega-investor-briefing
+  title: Optimal Compute / VEGA — Investor Briefing, July 2026 (7-page DocSend)
+  date: '2026-07-27'
+  kind: web
 neighbors:
 - slug: stochastic-ising-machines
   name: Stochastic / Ising Machines

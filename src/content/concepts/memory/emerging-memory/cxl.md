@@ -12,19 +12,26 @@ related_concepts:
 - dram
 - storage-class-memory
 - computational-storage
-sources: []
+sources:
+- '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
+- '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
 frontier:
 - ''
 last_updated: 2026-06-03
 tags:
 - concept
+mention_count: 4
 sources_7d: 0
-sources_30d: 0
+sources_30d: 1
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
   kind: web
+- slug: 2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth
+  title: '🔮E14: The Real AI Bottleneck: High Bandwidth Memory (HBM)'
+  date: '2023-09-08'
+  kind: substack
 neighbors:
 - slug: dram
   name: DRAM

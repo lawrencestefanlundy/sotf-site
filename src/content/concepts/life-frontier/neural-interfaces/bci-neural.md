@@ -17,7 +17,12 @@ related_concepts:
 - hearables-silent-speech
 - arvr
 - connectomics
-sources: []
+sources:
+- '[[2023-09-18-e15-in-conversation-with-wisear-on]]'
+- '[[2023-05-31-three-underrated-technologies-from]]'
+- '[[2026-06-04-bezos-flourish-brain-core-algorithm]]'
+- '[[2018-09-10-brain-computer-interface-allows-for-telepathic-piloting-of-d]]'
+- '[[2026-06-23-inbrain-graphene-first-in-human]]'
 frontier:
 - Can flexible, minimally invasive ECoG arrays achieve the channel count and longevity needed for high-bandwidth motor prosthetics without open-skull surgery?
 - What is the signal fidelity ceiling for non-invasive EEG at scalp, and can dry electrode arrays close the gap with wet gel?
@@ -26,13 +31,33 @@ last_updated: 2026-06-02
 tags:
 - concept
 - category
-mention_count: 0
+mention_count: 10
 descendants:
 - non-invasive-neural-recording-modalities
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_30d: 1
+recent_mentions:
+- slug: 2026-06-23-inbrain-graphene-first-in-human
+  title: 'InBrain Neuroelectronics: world-first-in-human graphene neural interface study, $50M Series B, FDA Breakthrough Device, Merck KGaA partnership'
+  date: '2026-06-23'
+  kind: web
+- slug: 2026-06-04-bezos-flourish-brain-core-algorithm
+  title: Jeff Bezos Is Funding a Wild Hunt for the Brain's 'Core Algorithm'
+  date: '2026-06-04'
+  kind: web
+- slug: 2023-09-18-e15-in-conversation-with-wisear-on
+  title: '☎️ E15: In Conversation with Wisear on The State of Hearables, Brain Computer Interfaces and Augmented Reality 👂🎧🧠'
+  date: '2023-09-18'
+  kind: substack
+- slug: 2023-05-31-three-underrated-technologies-from
+  title: '💡E02: Three Underrated Technologies from the Future: Brain Recording; Deep Geothermal; IVF + Updates BCI; Clean Meat; LEO Internet++'
+  date: '2023-05-31'
+  kind: substack
+- slug: 2018-09-10-brain-computer-interface-allows-for-telepathic-piloting-of-d
+  title: Brain-computer Interface Allows for Telepathic Piloting of Drones - sociable.co
+  date: '2018-09-10'
+  kind: web
 neighbors:
 - slug: invasive-bci
   name: Invasive BCI (Neuralink, Synchron, Paradromics)

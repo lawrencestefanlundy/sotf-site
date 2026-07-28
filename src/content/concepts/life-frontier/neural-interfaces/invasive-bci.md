@@ -8,18 +8,28 @@ parent_concepts:
 - life-frontier
 - neural-interfaces
 related_concepts: []
-sources: []
+sources:
+- '[[2023-05-31-three-underrated-technologies-from]]'
+- '[[2026-06-13-noninvasive-bci-modality-research]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 4
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_30d: 2
+recent_mentions:
+- slug: 2026-06-13-noninvasive-bci-modality-research
+  title: 'Non-invasive BCI modality state-of-the-art: which reaches depth + coverage + size + weight (research synthesis)'
+  date: '2026-06-13'
+  kind: web
+- slug: 2023-05-31-three-underrated-technologies-from
+  title: '💡E02: Three Underrated Technologies from the Future: Brain Recording; Deep Geothermal; IVF + Updates BCI; Clean Meat; LEO Internet++'
+  date: '2023-05-31'
+  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

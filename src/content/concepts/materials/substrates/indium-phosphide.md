@@ -8,18 +8,44 @@ parent_concepts:
 - materials
 - substrates
 related_concepts: []
-sources: []
+sources:
+- '[[2023-07-27-e10-pushing-moores-law-to-the-limit]]'
+- '[[2025-12-02-the-future-of-computing-is-glass]]'
+- '[[2026-02-02-photonic-engines-for-data-centers]]'
+- '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
+- '[[2025-12-09-gallium-nitride-photonics-w-james]]'
+- '[[2026-03-30-photonics-material-class-war-silicon-photonics-and-photonic]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - material
-mention_count: 0
+mention_count: 16
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_30d: 2
+recent_mentions:
+- slug: 2026-03-30-photonics-material-class-war-silicon-photonics-and-photonic
+  title: 'Silicon Photonics and Photonic Integrated Circuits 2026-2036: Technologies, Markets, and Forecasts'
+  date: '2026-03-30'
+  kind: web
+- slug: 2026-02-02-photonic-engines-for-data-centers
+  title: Photonic "Engines" for Data Centers
+  date: '2026-02-02'
+  kind: substack
+- slug: 2025-12-09-gallium-nitride-photonics-w-james
+  title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
+  date: '2025-12-09'
+  kind: substack
+- slug: 2025-12-02-the-future-of-computing-is-glass
+  title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
+  date: '2025-12-02'
+  kind: substack
+- slug: 2023-07-27-e10-pushing-moores-law-to-the-limit
+  title: '🔮E10: Pushing Moore''s Law to the Limit with High-NA EUV (aka Nanoscale Chip Printing)'
+  date: '2023-07-27'
+  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

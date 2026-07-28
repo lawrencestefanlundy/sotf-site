@@ -26,7 +26,9 @@ related_concepts:
 - barium-titanate
 - lithium-niobate-tfln
 - indium-phosphide
-sources: []
+sources:
+- '[[2025-06-slm-future-agentic-ai-nvidia]]'
+- '[[2026-06-23-on-device-llms-state-of-union-2026]]'
 frontier:
 - III/V SLM miniaturisation — Microsoft has multiple papers; what is current pixel pitch and refresh rate ceiling?
 - BTO-on-SiN heterogeneous integration as a path to fast SLM, or is BTO modulator-only? (Altro context)
@@ -42,9 +44,18 @@ tags:
 - slm
 - photonic-compute
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+mention_count: 39
+sources_7d: 2
+sources_30d: 8
+recent_mentions:
+- slug: 2026-06-23-on-device-llms-state-of-union-2026
+  title: On-device LLMs, the small-model frontier, and NPU throughput (2025-26 update)
+  date: '2026-06-23'
+  kind: web
+- slug: 2025-06-slm-future-agentic-ai-nvidia
+  title: Small Language Models are the Future of Agentic AI (NVIDIA Research)
+  date: '2025-06-01'
+  kind: web
 neighbors:
 - slug: holographic-volumetric-displays
   name: Holographic / Volumetric Displays

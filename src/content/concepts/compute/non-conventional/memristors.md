@@ -8,18 +8,23 @@ parent_concepts:
 - compute
 - non-conventional
 related_concepts: []
-sources: []
+sources:
+- '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - material
-mention_count: 0
+mention_count: 10
 last_reorg_date: '2026-05-14'
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_7d: 3
+sources_30d: 3
+recent_mentions:
+- slug: 2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth
+  title: '🔮E14: The Real AI Bottleneck: High Bandwidth Memory (HBM)'
+  date: '2023-09-08'
+  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

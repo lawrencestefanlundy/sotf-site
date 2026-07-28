@@ -15,7 +15,8 @@ related_concepts:
 - electronic-materials
 - ferroelectric-materials
 - tmds-mos2-wse2
-sources: []
+sources:
+- '[[2024-09-19-can-ai-revolutionize-materials-discovery---latitude-media]]'
 frontier:
 - Can in-situ ARPES during MBE growth replace post-growth characterisation as the primary materials feedback loop?
 - What throughput (samples/day) must autonomous discovery platforms reach to beat conventional Edisonian search?
@@ -27,9 +28,14 @@ descendants:
 - arpes
 - electron-scale-metrology
 - stm
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+mention_count: 37
+sources_7d: 3
+sources_30d: 14
+recent_mentions:
+- slug: 2024-09-19-can-ai-revolutionize-materials-discovery---latitude-media
+  title: Can AI revolutionize materials discovery? - Latitude Media
+  date: '2024-09-19'
+  kind: web
 neighbors:
 - slug: electronic-materials
   name: Electronic Materials

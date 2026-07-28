@@ -15,7 +15,15 @@ related_concepts:
 - cowos
 - co-packaged-optics
 - chiplets
-sources: []
+sources:
+- '[[2026-03-26-sotf-interview-dorian-haci-mintneuro]]'
+- '[[2023-08-31-e13-chiplets-how-chip-lego-is-driving]]'
+- '[[2024-10-29-deploy-intelligence-too-cheap-to]]'
+- '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
+- '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
+- '[[2026-04-09-photonics-material-class-war-photonic-integrated-circuit]]'
+- '[[2026-07-11-neutral-pdk-heterogeneous-integration-landscape]]'
+- '[[2026-04-10-photonic-light-source-supply-co-packaged-optics-cpo-scaling]]'
 frontier:
 - What is the practical yield floor for heterogeneous integration of known-good-die at sub-10 µm bump pitch — is KGD test the binding constraint on cost?
 - When do photonic chiplets enter heterogeneous integration production stacks alongside electronic logic and HBM?
@@ -23,9 +31,42 @@ frontier:
 last_updated: '2026-06-02'
 tags:
 - concept
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+mention_count: 56
+sources_7d: 1
+sources_30d: 7
+recent_mentions:
+- slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape
+  title: Neutral PDK / EDA layer for heterogeneous photonic integration — landscape check (Scintil essay correction research)
+  date: '2026-07-11'
+  kind: web
+- slug: 2026-04-10-photonic-light-source-supply-co-packaged-optics-cpo-scaling
+  title: Co-Packaged Optics (CPO) – Scaling with Light for the Next Wave of Interconnect
+  date: '2026-04-10'
+  kind: web
+- slug: 2026-04-09-photonics-material-class-war-photonic-integrated-circuit
+  title: Photonic Integrated Circuit Technology Landscape 2026
+  date: '2026-04-09'
+  kind: web
+- slug: 2026-03-26-sotf-interview-dorian-haci-mintneuro
+  title: 'Chips for the Brain: Modular Semiconductors for Neural Interfaces (MintNeuro / Dorian Haci)'
+  date: '2026-03-26'
+  kind: substack
+- slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
+  title: 'UK Opportunity in AI: Compound Semiconductors'
+  date: '2025-09-10'
+  kind: substack
+- slug: 2025-02-12-wen-babelfish-feat-aron-of-semron
+  title: 'Edge AI: Analog Chips (feat. Aron Kirschen, SEMRON)'
+  date: '2025-02-12'
+  kind: substack
+- slug: 2024-10-29-deploy-intelligence-too-cheap-to
+  title: Deploy! Intelligence too cheap to meter @ $0.0001 per million tokens.
+  date: '2024-10-29'
+  kind: substack
+- slug: 2023-08-31-e13-chiplets-how-chip-lego-is-driving
+  title: '🔮 E13: Chiplets - How Chip Lego is Driving AI Progress'
+  date: '2023-08-31'
+  kind: substack
 neighbors:
 - slug: 3d-ic-stacking
   name: 3D IC Stacking

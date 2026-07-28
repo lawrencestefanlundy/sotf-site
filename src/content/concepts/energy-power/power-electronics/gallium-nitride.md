@@ -18,7 +18,13 @@ related_concepts:
 - power-electronics
 - compound-semiconductors
 - mocvd-mbe
-sources: []
+sources:
+- '[[2023-07-23-analog-computing-the-once-and-future]]'
+- '[[2026-02-12-how-to-invest-in-ai-sovereignty-sovereign]]'
+- '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
+- '[[2025-12-09-gallium-nitride-photonics-w-james]]'
+- '[[2026-05-26-semianalysis-800vdc-revolution]]'
+- '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
 frontier:
 - Will GaN-on-Si reach 650V yield and reliability parity with GaN-on-SiC at 8-inch, or does substrate-induced defect density remain a ceiling?
 - Can GaN power ICs (gate driver + FET monolithic) pull further system integration away from silicon ASIC + discrete topology?
@@ -29,9 +35,14 @@ tags:
 descendants:
 - aluminium-gallium-nitride
 - indium-gallium-nitride
+mention_count: 22
 sources_7d: 0
-sources_30d: 0
+sources_30d: 4
 recent_mentions:
+- slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint
+  title: 'What actually limits a humanoid to minutes: the thermal cliff, not the battery'
+  date: '2026-07-26'
+  kind: web
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
@@ -60,10 +71,6 @@ recent_mentions:
   title: Diamonds are Semiconductors' Best Friend 2026
   date: '2026-03-08'
   kind: web
-- slug: 2025-12-19-lfg-for-semiconductors
-  title: LFG (for semiconductors)
-  date: '2025-12-19'
-  kind: substack
 neighbors:
 - slug: wide-bandgap-semiconductors
   name: Wide-Bandgap Semiconductors

@@ -8,19 +8,49 @@ parent_concepts:
 - energy-power
 - generation
 related_concepts: []
-sources: []
+sources:
+- '[[2023-06-08-three-overrated-technologies-from]]'
+- '[[2023-08-18-e11-in-conversation-with-lux-capital]]'
+- '[[2023-06-23-e05-the-future-of-edge-ai-brain-inspired]]'
+- '[[2023-05-24-launching-state-of-the-future]]'
+- '[[2023-07-23-analog-computing-the-once-and-future]]'
+- '[[2023-05-31-three-underrated-technologies-from]]'
 frontier:
 - ''
 last_updated: '2026-05-07'
 tags:
 - concept
 - category
-mention_count: 0
+mention_count: 11
 descendants: []
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_30d: 2
+recent_mentions:
+- slug: 2023-08-18-e11-in-conversation-with-lux-capital
+  title: '☎️ E11: In Conversation with Lux Capital on the State of the Future'
+  date: '2023-08-18'
+  kind: substack
+- slug: 2023-07-23-analog-computing-the-once-and-future
+  title: '🔮 E09: Analog Computing: The Once and Future King'
+  date: '2023-07-23'
+  kind: substack
+- slug: 2023-06-23-e05-the-future-of-edge-ai-brain-inspired
+  title: '🔮 E05: Neuromorphic Computing & The Future of Edge AI'
+  date: '2023-06-23'
+  kind: substack
+- slug: 2023-06-08-three-overrated-technologies-from
+  title: '💡E03: Three Overrated Technologies from the Future Fusion, Bitcoin & LEO Internet + Ultrasound for Hibernation; Wind Power; Skeletal Editing; Carbon Pricing; & Psychedelics++'
+  date: '2023-06-08'
+  kind: substack
+- slug: 2023-05-31-three-underrated-technologies-from
+  title: '💡E02: Three Underrated Technologies from the Future: Brain Recording; Deep Geothermal; IVF + Updates BCI; Clean Meat; LEO Internet++'
+  date: '2023-05-31'
+  kind: substack
+- slug: 2023-05-24-launching-state-of-the-future
+  title: '💡 E01: Launching State of the Future: The Worlds First Deep Tech Tracker'
+  date: '2023-05-24'
+  kind: substack
 neighbors: []
 ---
 *Stub leader page for `concepts/energy/geothermal/`*

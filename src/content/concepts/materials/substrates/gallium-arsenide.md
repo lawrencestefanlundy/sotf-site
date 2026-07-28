@@ -8,18 +8,34 @@ parent_concepts:
 - materials
 - substrates
 related_concepts: []
-sources: []
+sources:
+- '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
+- '[[2025-12-09-gallium-nitride-photonics-w-james]]'
+- '[[2026-06-22-thermal-stack-layer-landscape]]'
+- '[[2026-07-11-neutral-pdk-heterogeneous-integration-landscape]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - material
-mention_count: 0
+mention_count: 57
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_7d: 4
+sources_30d: 17
+recent_mentions:
+- slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape
+  title: Neutral PDK / EDA layer for heterogeneous photonic integration — landscape check (Scintil essay correction research)
+  date: '2026-07-11'
+  kind: web
+- slug: 2026-06-22-thermal-stack-layer-landscape
+  title: AI datacentre thermal stack, junction-to-ambient — per-layer players, M&A, capture (web research synthesis)
+  date: '2026-06-22'
+  kind: web
+- slug: 2025-12-09-gallium-nitride-photonics-w-james
+  title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
+  date: '2025-12-09'
+  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

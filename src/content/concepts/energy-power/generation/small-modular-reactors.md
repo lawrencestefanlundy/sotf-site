@@ -16,7 +16,19 @@ related_concepts:
 - datacentre-cloud-infrastructure
 - ai-thermal-management
 sources:
+- '[[2023-06-08-three-overrated-technologies-from]]'
+- '[[2023-08-18-e11-in-conversation-with-lux-capital]]'
+- '[[2025-01-27-ai-for-nuclear-fusion-feat-martin]]'
+- '[[2023-05-24-launching-state-of-the-future]]'
+- '[[2023-04-04-learnings-from-a-deep-tech-horizon]]'
+- '[[2024-11-20-nuclear-fusion-the-state-of-play]]'
+- '[[2023-09-24-e16-in-conversation-with-john-waite]]'
 - '[[2024-11-12-atomic-energy-can-nuclear-power-our]]'
+- '[[2024-10-22-state-of-the-future-part-deux]]'
+- '[[2026-06-13-smr-datacentre-baseload-research]]'
+- '[[2026-02-16-energy-buildout-keeps-pace-interconnection-queue-and-grid]]'
+- '[[2025-12-09-energy-buildout-keeps-pace-gas-turbine-capacity-constraints]]'
+- '[[2026-05-09-energy-buildout-keeps-pace-behind-the-meter-gas-turbine]]'
 frontier:
 - Does any non-LWR SMR (molten-salt, HTGR/TRISO, sodium-fast, heat-pipe) reach commercial operation this decade, or do only de-risked LWR designs (GE Hitachi BWRX-300, Rolls-Royce, NuScale) actually get built by 2032?
 - Is the HALEU (high-assay low-enriched uranium) fuel supply chain the binding constraint? Most advanced designs need HALEU; near-term Western supply is thin (Centrus, Urenco ramp), Russia is the incumbent supplier. Whoever owns qualified HALEU/TRISO fabrication has the chokepoint.
@@ -27,11 +39,43 @@ last_updated: '2026-06-13'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 18
 descendants: []
 sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_30d: 1
+recent_mentions:
+- slug: 2026-06-13-smr-datacentre-baseload-research
+  title: SMR / advanced-nuclear for datacentre baseload — research sweep (Jun 2026)
+  date: '2026-06-13'
+  kind: web
+- slug: 2026-05-09-energy-buildout-keeps-pace-behind-the-meter-gas-turbine
+  title: 'Behind-the-meter gas turbine workaround cannot scale: fuel cells offer potential but at 40% higher LCOE than gas turbines currently'
+  date: '2026-05-09'
+  kind: web
+- slug: 2026-02-16-energy-buildout-keeps-pace-interconnection-queue-and-grid
+  title: Interconnection queue and grid constraints hard-capping datacentre construction timelines
+  date: '2026-02-16'
+  kind: web
+- slug: 2025-12-09-energy-buildout-keeps-pace-gas-turbine-capacity-constraints
+  title: 'Gas turbine capacity constraints: delivery windows pushed 5-7 years, peak power crunch 2028-29'
+  date: '2025-12-09'
+  kind: web
+- slug: 2025-01-27-ai-for-nuclear-fusion-feat-martin
+  title: AI for Nuclear Fusion (Feat. Martin Riedmiller, Google DeepMind)
+  date: '2025-01-27'
+  kind: substack
+- slug: 2024-11-20-nuclear-fusion-the-state-of-play
+  title: 'Nuclear Fusion: A Primer'
+  date: '2024-11-20'
+  kind: substack
+- slug: 2024-11-12-atomic-energy-can-nuclear-power-our
+  title: 'Nuclear Fission: A Primer'
+  date: '2024-11-12'
+  kind: substack
+- slug: 2024-10-22-state-of-the-future-part-deux
+  title: 'An AI Thesis: State of the Future! Part Deux'
+  date: '2024-10-22'
+  kind: substack
 neighbors:
 - slug: datacentre-cloud-infrastructure
   name: Datacentre & Cloud Infrastructure

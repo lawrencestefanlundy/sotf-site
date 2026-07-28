@@ -8,18 +8,28 @@ parent_concepts:
 - compute
 - compute-architecture
 related_concepts: []
-sources: []
+sources:
+- '[[2025-12-19-lfg-for-semiconductors]]'
+- '[[2026-06-22-thermal-stack-layer-landscape]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 6
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-22-thermal-stack-layer-landscape
+  title: AI datacentre thermal stack, junction-to-ambient — per-layer players, M&A, capture (web research synthesis)
+  date: '2026-06-22'
+  kind: web
+- slug: 2025-12-19-lfg-for-semiconductors
+  title: LFG (for semiconductors)
+  date: '2025-12-19'
+  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

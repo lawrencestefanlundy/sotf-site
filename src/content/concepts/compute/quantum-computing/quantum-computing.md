@@ -31,7 +31,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 441
+mention_count: 463
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -49,8 +49,8 @@ descendants:
 - topological-qubits
 - trapped-ion
 last_reorg_date: '2026-05-13'
-sources_7d: 8
-sources_30d: 27
+sources_7d: 9
+sources_30d: 29
 recent_mentions:
 - slug: 2026-07-24-18b-illinois-chips-act-supports-zero-point-cryogenics-us-ent
   title: $1.8B Illinois Chips Act Supports Zero Point Cryogenics’ U.S. Entry - Quantum Zeitgeist

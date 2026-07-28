@@ -8,18 +8,67 @@ parent_concepts:
 - manufacturing
 - packaging
 related_concepts: []
-sources: []
+sources:
+- '[[2023-07-27-e10-pushing-moores-law-to-the-limit]]'
+- '[[2026-03-26-sotf-interview-dorian-haci-mintneuro]]'
+- '[[2023-08-31-e13-chiplets-how-chip-lego-is-driving]]'
+- '[[2025-11-05-consensus-capital]]'
+- '[[2024-12-04-cubits-in-a-fridge-why-is-nobody]]'
+- '[[2024-10-29-deploy-intelligence-too-cheap-to]]'
+- '[[2023-10-13-e19-trusted-execution-environments]]'
+- '[[2023-11-20-e21-can-we-make-enough-ai-chips]]'
+- '[[2025-12-19-lfg-for-semiconductors]]'
+- '[[2024-10-22-state-of-the-future-part-deux]]'
+- '[[2026-02-12-how-to-invest-in-ai-sovereignty-sovereign]]'
+- '[[2026-02-02-photonic-engines-for-data-centers]]'
+- '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
+- '[[2025-04-16-the-state-of-photonic-computing]]'
+- '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
+- '[[2026-01-22-ai-chips-computeram-and-the-future]]'
+- '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 875
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_30d: 12
+recent_mentions:
+- slug: 2026-07-25-thoughts-on-ai-and-power
+  title: Thoughts on AI and power
+  date: '2026-07-25'
+  kind: web
+- slug: 2026-07-10-inference-silicon-deep-research
+  title: 'Deep research: measured vs claimed inference-silicon economics (adversarially verified, 23/25 claims confirmed)'
+  date: '2026-07-10'
+  kind: web
+- slug: 2026-07-09-in-die-microfluidic-cooling-sprint
+  title: In-die microfluidic cooling — cluster research sprint
+  date: '2026-07-09'
+  kind: web
+- slug: 2026-07-05-semianalysis-kyber-nvl144-delayed-2028
+  title: 'SemiAnalysis: NVIDIA Kyber NVL144 delayed >12 months to 2028; NVL72x2 cancelled'
+  date: '2026-07-05'
+  kind: web
+- slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
+  title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
+  date: '2026-07-02'
+  kind: web
+- slug: 2026-07-01-sensifai-memo-streaming-physical-ai
+  title: SensifAI — Purpose-Built Silicon for Streaming Physical AI (funding memo)
+  date: '2026-07-01'
+  kind: web
+- slug: 2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology
+  title: IBM Debuts World's First Sub-1 Nanometer Chip Technology
+  date: '2026-06-25'
+  kind: web
+- slug: 2026-06-24-european-sovereignty-stack-tsmc-backed-esmc-unveils-dragon
+  title: TSMC-backed ESMC unveils dragon tram in Dresden
+  date: '2026-06-24'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

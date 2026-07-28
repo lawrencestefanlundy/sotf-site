@@ -8,18 +8,23 @@ parent_concepts:
 - photonic-systems
 - modulators-detectors
 related_concepts: []
-sources: []
+sources:
+- '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 1
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
+  title: 'UK Opportunity in AI: Compound Semiconductors'
+  date: '2025-09-10'
+  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

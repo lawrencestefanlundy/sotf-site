@@ -19,7 +19,9 @@ related_concepts:
 - metasurfaces-flat-optics
 - metamaterials
 sources:
-- '[[2025-01-06-radiant-acquires-nilt]]'
+- '[[2023-07-27-e10-pushing-moores-law-to-the-limit]]'
+- '[[2024-10-29-deploy-intelligence-too-cheap-to]]'
+- '[[2025-12-16-lithography-patterning-market-new-1-4nm-nanoimprint]]'
 frontier:
 - Does Canon FPA-1200NZ2C reach HVM in NAND at Kioxia by 2028, or stay research-stage?
 - How fast does NIL scale for metalens consumer optics post NILT-Radiant acquisition (€300M, Jan 2025)?
@@ -30,11 +32,23 @@ last_updated: '2026-05-08'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 5
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_30d: 1
+recent_mentions:
+- slug: 2025-12-16-lithography-patterning-market-new-1-4nm-nanoimprint
+  title: New 1.4nm nanoimprint lithography template could reduce the need for EUV steps in advanced process nodes
+  date: '2025-12-16'
+  kind: web
+- slug: 2024-10-29-deploy-intelligence-too-cheap-to
+  title: Deploy! Intelligence too cheap to meter @ $0.0001 per million tokens.
+  date: '2024-10-29'
+  kind: substack
+- slug: 2023-07-27-e10-pushing-moores-law-to-the-limit
+  title: '🔮E10: Pushing Moore''s Law to the Limit with High-NA EUV (aka Nanoscale Chip Printing)'
+  date: '2023-07-27'
+  kind: substack
 neighbors:
 - slug: maskless-lithography
   name: Maskless Lithography

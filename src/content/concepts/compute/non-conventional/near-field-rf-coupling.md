@@ -26,7 +26,11 @@ tags:
 - ising-machine
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-07-27-optimal-compute-vega-investor-briefing
+  title: Optimal Compute / VEGA — Investor Briefing, July 2026 (7-page DocSend)
+  date: '2026-07-27'
+  kind: web
 neighbors:
 - slug: coherent-ising-machine
   name: Coherent Ising Machine

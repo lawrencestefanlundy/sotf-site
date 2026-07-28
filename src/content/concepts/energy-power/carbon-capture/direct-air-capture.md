@@ -8,18 +8,28 @@ parent_concepts:
 - energy-power
 - carbon-capture
 related_concepts: []
-sources: []
+sources:
+- '[[2023-05-24-launching-state-of-the-future]]'
+- '[[2023-04-04-learnings-from-a-deep-tech-horizon]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 3
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_30d: 1
+recent_mentions:
+- slug: 2023-05-24-launching-state-of-the-future
+  title: '💡 E01: Launching State of the Future: The Worlds First Deep Tech Tracker'
+  date: '2023-05-24'
+  kind: substack
+- slug: 2023-04-04-learnings-from-a-deep-tech-horizon
+  title: 💡(Early) Learnings from a Deep Tech Horizon Scanning Project
+  date: '2023-04-04'
+  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

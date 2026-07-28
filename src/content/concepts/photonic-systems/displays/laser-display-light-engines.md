@@ -20,8 +20,7 @@ related_concepts:
 - metasurfaces-flat-optics
 - non-linear-photonic-logic
 - ar-glasses-stack
-sources:
-- '[[2026-06-15-barry-silverstein-rochester-cxr]]'
+sources: []
 frontier:
 - Does an OEM (Meta most likely) ship a laser light engine in a consumer AR product, and if so which architecture — direct RGB diodes, laser-LCOS, micro-laser array, or nonlinear wavemixing?
 - Does anyone solve efficient red at micro-scale without heterogeneous integration?
@@ -33,6 +32,7 @@ tags:
 - displays
 - ar-vr
 - lasers
+mention_count: 3
 sources_7d: 0
 sources_30d: 0
 recent_mentions: []

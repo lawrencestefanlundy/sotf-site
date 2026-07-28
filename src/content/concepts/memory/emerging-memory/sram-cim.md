@@ -25,8 +25,9 @@ tags:
 - concept
 - in-memory-compute
 - sram
+mention_count: 1
 sources_7d: 0
-sources_30d: 0
+sources_30d: 1
 recent_mentions: []
 neighbors:
 - slug: charge-domain-compute

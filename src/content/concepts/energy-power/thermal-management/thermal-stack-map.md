@@ -21,11 +21,6 @@ related_concepts:
 - advanced-packaging
 sources:
 - '[[2026-06-22-thermal-stack-layer-landscape]]'
-- '[[2026-06-22-liquid-metal-tim-landscape]]'
-- '[[2026-06-22-sintered-metal-die-attach-landscape]]'
-- '[[2024-idtechex-thermal-interface-materials-2026-2036]]'
-- '[[2024-yole-thermal-management-2024]]'
-- '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 frontier:
 - When does the binding layer move from die-attach (TIM1) to in-die (L0)? TSMC IMC-Si commercialisation (~2027) is the tripwire.
 - Does BSPDN force backside/microfluidic cooling (L0) into the mainstream, collapsing the TIM1 material race below it?
@@ -37,12 +32,16 @@ tags:
 - thermal
 - ai-infrastructure
 - map
-mention_count: 0
+mention_count: 1
 descendants:
 - tim-approach-map
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-22-thermal-stack-layer-landscape
+  title: AI datacentre thermal stack, junction-to-ambient — per-layer players, M&A, capture (web research synthesis)
+  date: '2026-06-22'
+  kind: web
 neighbors:
 - slug: tim-approach-map
   name: TIM Approach Map (every thermal-interface-material class, in-market + R&D)

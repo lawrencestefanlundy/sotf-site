@@ -18,10 +18,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 36
+mention_count: 40
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 7
+sources_7d: 4
+sources_30d: 10
 recent_mentions:
 - slug: 2026-06-22-tim-approaches-full-sweep
   title: TIM approaches — exhaustive in-market + R&D sweep (vendors, classes, startups)

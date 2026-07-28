@@ -18,7 +18,8 @@ related_concepts:
 - maskless-lithography
 - e-beam-lithography
 - silicon-photonics
-sources: []
+sources:
+- '[[2025-01-06-radiant-acquires-nilt]]'
 frontier:
 - When does metalens-only consumer optics shipment exceed 1B units/year (current ~140M cumulative across ST/Metalenz partnership)?
 - Does any major smartphone OEM replace its primary camera lens stack (vs ToF auxiliary) with a metalens by 2028?
@@ -32,11 +33,15 @@ tags:
 - metalens
 - meta-optics
 - photonics
-mention_count: 0
+mention_count: 25
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_30d: 6
+recent_mentions:
+- slug: 2025-01-06-radiant-acquires-nilt
+  title: Radiant Opto-Electronics Corporation Completes Acquisition of NIL Technology
+  date: '2025-01-06'
+  kind: web
 neighbors:
 - slug: metasurfaces-flat-optics
   name: Metasurfaces & Flat Optics

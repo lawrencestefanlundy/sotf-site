@@ -17,7 +17,8 @@ related_concepts:
 - low-k-dielectrics
 - materials-process
 - materials-discovery
-sources: []
+sources:
+- '[[2026-06-22-tim-approaches-full-sweep]]'
 frontier:
 - Which wide-bandgap semiconductor (GaN, Ga2O3, diamond) wins in power electronics above 1.2 kV over the next decade?
 - Can atomic-layer-deposition dielectrics maintain sub-1nm EOT at gate leakage limits for 2nm-node and below?
@@ -26,12 +27,16 @@ last_updated: '2026-06-02'
 tags:
 - concept
 - category
-mention_count: 4
+mention_count: 9
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_7d: 1
+sources_30d: 5
+recent_mentions:
+- slug: 2026-06-22-tim-approaches-full-sweep
+  title: TIM approaches — exhaustive in-market + R&D sweep (vendors, classes, startups)
+  date: '2026-06-22'
+  kind: web
 neighbors:
 - slug: ferroelectric-materials
   name: Ferroelectric Materials

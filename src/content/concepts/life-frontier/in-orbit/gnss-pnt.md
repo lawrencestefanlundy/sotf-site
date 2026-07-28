@@ -14,7 +14,9 @@ related_concepts:
 - leo-mega-constellations
 - space-communications
 - optical-inter-satellite-links
-sources: []
+sources:
+- '[[2026-01-06-delfts-qualinx-raises-20m-to-bring-ultra-low-power-gnss-chip]]'
+- '[[2024-06-03-conexio-stratus-pro-a-battery-powered-nrf9161-development-ki]]'
 frontier:
 - Can LEO PNT constellations (e.g. Xona Space) achieve sub-10 cm accuracy globally without augmentation?
 - What is the minimum viable constellation size for cislunar PNT at decimeter accuracy?
@@ -22,9 +24,18 @@ frontier:
 last_updated: 2026-06-02
 tags:
 - concept
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+mention_count: 9
+sources_7d: 1
+sources_30d: 2
+recent_mentions:
+- slug: 2026-01-06-delfts-qualinx-raises-20m-to-bring-ultra-low-power-gnss-chip
+  title: Delft’s Qualinx raises €20M to bring ultra-low-power GNSS chip to market - Bits&Chips
+  date: '2026-01-06'
+  kind: web
+- slug: 2024-06-03-conexio-stratus-pro-a-battery-powered-nrf9161-development-ki
+  title: Conexio Stratus Pro – A battery-powered nRF9161 development kit with LTE IoT, DECT NR+, GNSS connectivity (Crowdfunding) - CNX Software
+  date: '2024-06-03'
+  kind: web
 neighbors:
 - slug: leo-mega-constellations
   name: LEO Mega-Constellations

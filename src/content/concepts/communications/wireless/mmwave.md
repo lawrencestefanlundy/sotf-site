@@ -8,18 +8,38 @@ parent_concepts:
 - communications
 - wireless
 related_concepts: []
-sources: []
+sources:
+- '[[2023-06-08-three-overrated-technologies-from]]'
+- '[[2026-07-27-optimal-compute-vega-investor-briefing]]'
+- '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
+- '[[2026-06-01-photonic-mmwave-generation-research]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 32
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_7d: 1
+sources_30d: 3
+recent_mentions:
+- slug: 2026-07-27-optimal-compute-vega-investor-briefing
+  title: Optimal Compute / VEGA — Investor Briefing, July 2026 (7-page DocSend)
+  date: '2026-07-27'
+  kind: web
+- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
+  title: 'Startup Funding: Q2 2026'
+  date: '2026-07-13'
+  kind: web
+- slug: 2026-06-01-photonic-mmwave-generation-research
+  title: Photonic mmWave / microwave signal generation — research landscape (2024–2025)
+  date: '2026-06-01'
+  kind: web
+- slug: 2023-06-08-three-overrated-technologies-from
+  title: '💡E03: Three Overrated Technologies from the Future Fusion, Bitcoin & LEO Internet + Ultrasound for Hibernation; Wind Power; Skeletal Editing; Carbon Pricing; & Psychedelics++'
+  date: '2023-06-08'
+  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

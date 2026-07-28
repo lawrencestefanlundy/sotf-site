@@ -23,9 +23,45 @@ tags:
 - ar-vr
 - displays
 - waveguides
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources:
+- '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
+- '[[2025-04-16-the-state-of-photonic-computing]]'
+mention_count: 208
+sources_7d: 4
+sources_30d: 29
+recent_mentions:
+- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
+  title: 'Startup Funding: Q2 2026'
+  date: '2026-07-13'
+  kind: web
+- slug: 2026-06-17-sjtu-ge-si-photodetector-110ghz-fowlp
+  title: Shanghai Jiao Tong University creates reconfigurable Ge-Si photodetector for high-speed datacoms
+  date: '2026-06-17'
+  kind: web
+- slug: 2026-06-16-trapped-ion-landscape-2026
+  title: Trapped-ion quantum computing landscape 2026 (vendors, scale, integrated photonics)
+  date: '2026-06-16'
+  kind: web
+- slug: 2026-06-13-next-gen-geothermal-research
+  title: Next-gen geothermal (EGS / closed-loop / superhot mm-wave) — research sweep (Jun 2026)
+  date: '2026-06-13'
+  kind: web
+- slug: 2026-06-04-q-memory-site
+  title: Q-Memory — company website (q-memory.tech)
+  date: '2026-06-04'
+  kind: web
+- slug: 2026-05-25-ai-glasses-display-timing-waveguide-display-technology
+  title: Waveguide Display Technology Trends and Outlook 2026
+  date: '2026-05-25'
+  kind: web
+- slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
+  title: Carbon Nanotubes in the Datacentre
+  date: '2025-11-25'
+  kind: substack
+- slug: 2025-10-30-ai-glasses-display-timing-meta-ray-ban-display-part-1-lumus
+  title: Meta Ray-Ban Display Part 1 (Lumus Waveguide, OmniVision LCOS, and Goertek Projection Engine) – KGOnTech
+  date: '2025-10-30'
+  kind: web
 neighbors:
 - slug: laser-display-light-engines
   name: Laser-Based Display Light Engines

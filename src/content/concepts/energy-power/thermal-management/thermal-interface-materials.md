@@ -16,10 +16,14 @@ related_concepts:
 - diamond
 - graphene-thermal-films
 sources:
-- '[[2024-idtechex-thermal-interface-materials-2026-2036]]'
-- '[[2024-yole-thermal-management-2024]]'
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
+- '[[2025-07-01-a-primer-carbon-nanotubes]]'
+- '[[2026-03-08-diamonds-are-semiconductors-best-friend]]'
 - '[[2026-07-02-semianalysis-ectc2026-advanced-packaging]]'
+- '[[2024-yole-thermal-management-2024]]'
+- '[[2024-idtechex-thermal-interface-materials-2026-2036]]'
+- '[[2025-01-15-thermal-stack-arms-race-thermal-interface-materials-market]]'
+- '[[2025-08-19-thermal-stack-arms-race-thermal-interface-materials-market]]'
 frontier:
 - Which material wins which slot — does the stack stay segmented (liquid metal at die-level, sintered Ag at die-attach, CNT/graphene/diamond at lid/spreader) or does one class generalise?
 - Containment, not conductivity, is the liquid-metal frontier — who solves Ga corrosion + pump-out at production reliability?
@@ -28,13 +32,41 @@ last_updated: '2026-06-22'
 tags:
 - concept
 - material
-mention_count: 0
+mention_count: 13
 last_reorg_date: '2026-05-13'
 descendants:
 - tim-approach-map
 sources_7d: 0
-sources_30d: 1
-recent_mentions: []
+sources_30d: 3
+recent_mentions:
+- slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
+  title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
+  date: '2026-07-02'
+  kind: web
+- slug: 2026-03-08-diamonds-are-semiconductors-best-friend
+  title: Diamonds are Semiconductors' Best Friend 2026
+  date: '2026-03-08'
+  kind: web
+- slug: 2025-08-19-thermal-stack-arms-race-thermal-interface-materials-market
+  title: 'Thermal Interface Materials Market Report 2026-2036: High-Performance TIMs for Data Centers, AI Servers, and 5G Infrastructure'
+  date: '2025-08-19'
+  kind: web
+- slug: 2025-07-01-a-primer-carbon-nanotubes
+  title: 'A Primer: Carbon Nanotubes'
+  date: '2025-07-01'
+  kind: substack
+- slug: 2025-01-15-thermal-stack-arms-race-thermal-interface-materials-market
+  title: Thermal Interface Materials Market Size & Share Report, 2030
+  date: '2025-01-15'
+  kind: web
+- slug: 2024-yole-thermal-management-2024
+  title: Yole Group — Thermal Management 2024 Market Analysis
+  date: '2024-10-01'
+  kind: web
+- slug: 2024-idtechex-thermal-interface-materials-2026-2036
+  title: 'IDTechEx — Thermal Interface Materials 2026-2036: Technologies, Markets and Forecasts'
+  date: '2024-08-15'
+  kind: web
 neighbors:
 - slug: tim-approach-map
   name: TIM Approach Map (every thermal-interface-material class, in-market + R&D)

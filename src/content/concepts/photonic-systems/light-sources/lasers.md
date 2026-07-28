@@ -23,13 +23,13 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 181
+mention_count: 185
 last_reorg_date: '2026-05-13'
 descendants:
 - external-laser-source
 - laser-display-light-engines
-sources_7d: 3
-sources_30d: 15
+sources_7d: 5
+sources_30d: 17
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'

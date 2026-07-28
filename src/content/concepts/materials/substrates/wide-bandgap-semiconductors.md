@@ -31,8 +31,9 @@ descendants:
 - gallium-nitride
 - indium-gallium-nitride
 - silicon-carbide
-sources_7d: 0
-sources_30d: 0
+mention_count: 12
+sources_7d: 1
+sources_30d: 2
 recent_mentions: []
 neighbors:
 - slug: silicon-carbide

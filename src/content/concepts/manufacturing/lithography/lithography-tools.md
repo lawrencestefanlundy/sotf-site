@@ -8,18 +8,23 @@ parent_concepts:
 - manufacturing
 - lithography
 related_concepts: []
-sources: []
+sources:
+- '[[2026-05-01-lithography-patterning-market-asml-s-roadmap-for-chipmaking]]'
 frontier:
 - ''
 last_updated: '2026-05-07'
 tags:
 - concept
 - category
-mention_count: 0
+mention_count: 2
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-05-01-lithography-patterning-market-asml-s-roadmap-for-chipmaking
+  title: ASML's roadmap for chipmaking lithography tools examined — from DUV to Low-NA, High-NA, Hyper-NA, and beyond
+  date: '2026-05-01'
+  kind: web
 neighbors: []
 ---
 *Stub leader page for `concepts/semiconductors/lithography/`*

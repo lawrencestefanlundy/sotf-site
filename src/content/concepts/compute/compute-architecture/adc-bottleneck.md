@@ -13,8 +13,7 @@ related_concepts:
 - charge-domain-compute
 - sram-cim
 - memcapacitor
-sources:
-- '[[2024-yole-emerging-memories-2024]]'
+sources: []
 frontier:
 - Does any analog-CIM vendor publish a full-chip (not array-only) TOPS/W that holds up once ADC + DAC + SRAM buffering are counted? This is the number to demand before believing a 20× claim.
 - Does charge-domain + clever ADC sharing / time-multiplexing get the ADC below ~50% of array energy at production precision (8-bit), or does it stay the dominant cost?
@@ -25,6 +24,7 @@ tags:
 - analog-computing
 - in-memory-compute
 - counter-thesis
+mention_count: 3
 sources_7d: 0
 sources_30d: 0
 recent_mentions: []

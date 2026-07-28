@@ -15,7 +15,10 @@ related_concepts:
 - piezoelectric
 - aluminium-oxide
 - barium-titanate
-sources: []
+sources:
+- '[[2024-yole-emerging-memories-2024]]'
+- '[[2026-06-22-beyond-cmos-device-layer-research]]'
+- '[[2012-02-07-new-form-of-hafnium-oxide-developed-by-cambridge-university-]]'
 frontier:
 - Does the wake-up / imprint reliability of HZO FeFET reach automotive-grade spec (10^12 cycles, 10-year data retention at 125°C) without exotic anneal steps that break BEOL compatibility?
 - Can Si-doped HfO2 reach a practical Pockels coefficient (>20 pm/V) in a production-compatible photonic modulator stack — and if so, does it share fab tooling with FeFET memory on the same node?
@@ -23,9 +26,22 @@ frontier:
 last_updated: '2026-06-02'
 tags:
 - concept
+mention_count: 8
 sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_30d: 1
+recent_mentions:
+- slug: 2026-06-22-beyond-cmos-device-layer-research
+  title: Beyond-CMOS device layer — grounded research (MRAM/FeFET beachhead + capture base rate)
+  date: '2026-06-22'
+  kind: web
+- slug: 2024-yole-emerging-memories-2024
+  title: Yole Group — Emerging Non-Volatile Memories 2024
+  date: '2024-10-15'
+  kind: web
+- slug: 2012-02-07-new-form-of-hafnium-oxide-developed-by-cambridge-university-
+  title: New form of hafnium oxide developed by Cambridge University - enterprise.cam.ac.uk
+  date: '2012-02-07'
+  kind: web
 neighbors:
 - slug: ferroelectric-materials
   name: Ferroelectric Materials

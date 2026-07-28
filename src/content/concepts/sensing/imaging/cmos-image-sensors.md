@@ -8,18 +8,23 @@ parent_concepts:
 - sensing
 - imaging
 related_concepts: []
-sources: []
+sources:
+- '[[2026-06-20-launch-cost-curve-web]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 7
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-20-launch-cost-curve-web
+  title: Launch-cost curve + LEO deployment + constellation compute (web bundle)
+  date: '2026-06-20'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

@@ -11,23 +11,17 @@ parent_concepts:
 - manufacturing
 - lithography
 related_concepts: []
-sources:
-- '[[2026-05-24-mose2-exciton-polariton-all-optical-switch]]'
-- '[[2025-03-25-photonic-packaging-cpo-openlight-achieves-successful]]'
-- '[[2026-01-15-sovereignty-semi-bifurcation-revision-to-license-review]]'
-- '[[2024-05-15-photonic-packaging-cpo-sales-of-silicon-photonics-chips]]'
-- '[[2026-04-03-photonic-packaging-cpo-the-soitec-twin-a-massive]]'
-- '[[2026-05-30-intel-optoscribe-acquisition]]'
+sources: []
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 74
+mention_count: 28
 last_reorg_date: '2026-05-13'
-sources_7d: 4
-sources_30d: 8
+sources_7d: 0
+sources_30d: 1
 recent_mentions:
 - slug: 2026-05-24-mose2-exciton-polariton-all-optical-switch
   title: New light-based switch could cut chip energy use and speed future AI photonics

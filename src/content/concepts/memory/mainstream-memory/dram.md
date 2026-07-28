@@ -8,7 +8,32 @@ parent_concepts:
 - memory
 - mainstream-memory
 related_concepts: []
-sources: []
+sources:
+- '[[2023-06-23-e05-the-future-of-edge-ai-brain-inspired]]'
+- '[[2023-07-23-analog-computing-the-once-and-future]]'
+- '[[2023-11-20-e21-can-we-make-enough-ai-chips]]'
+- '[[2024-10-22-state-of-the-future-part-deux]]'
+- '[[2026-01-22-ai-chips-computeram-and-the-future]]'
+- '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
+- '[[2026-06-22-beyond-cmos-device-layer-research]]'
+- '[[2026-06-01-hbm-state-of-play]]'
+- '[[2025-10-23-data-value-migrates-to-retrieval-layer-agentic-databases]]'
+- '[[2026-03-25-the-geopolitical-chokepoints-of-artificial-intelligence]]'
+- '[[2026-06-16-cim-landscape-2026]]'
+- '[[2026-07-25-thoughts-on-ai-and-power]]'
+- '[[2026-02-06-semianalysis-memory-mania-supercycle]]'
+- '[[2026-01-15-sovereignty-semi-bifurcation-revision-to-license-review]]'
+- '[[2026-04-29-optical-dram-everspin-reports-q1-2026-financial-results]]'
+- '[[2026-06-16-hbm-supercycle-2026]]'
+- '[[2024-10-23-optical-dram-integrated-non-reciprocal-magneto-optics-with]]'
+- '[[2024-08-30-optical-dram-integrated-magneto-photonic-non-volatile-multi]]'
+- '[[2026-04-08-tech-inflation-silicon-shock-gartner-forecasts-worldwide]]'
+- '[[2026-07-02-semianalysis-ectc2026-advanced-packaging]]'
+- '[[2026-06-01-tech-inflation-silicon-shock-rapid-contract-price-surge]]'
+- '[[2026-01-01-data-value-migrates-to-retrieval-layer-ai-agent-memory-2026]]'
+- '[[2026-07-03-tech-inflation-silicon-shock-ai-server-demand-continues-to]]'
+- '[[2025-26-lapedus-next-gen-ferroelectric-memory]]'
+- '[[2024-09-26-sk-hynix-12-layer-hbm3e-volume-production]]'
 frontier:
 - Does CXMT convert its 12%-of-global-HBM-*wafer*-share (2028, SemiAnalysis) into competitive HBM *bit* share, or does ~25% 8-hi stacking yield cap it as low-grade domestic supply?
 - Does Chinese domestic DRAM (CXMT ~11%→17% of global capacity by 2028) tip commodity DDR5 into oversupply and break the ASP super-cycle?
@@ -16,14 +41,42 @@ last_updated: '2026-06-23'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 139
 last_reorg_date: '2026-05-14'
-sources_7d: 0
-sources_30d: 0
+sources_7d: 4
+sources_30d: 21
 recent_mentions:
+- slug: 2026-07-27-cxmt-star-market-debut
+  title: CXMT's 466% STAR Market debut makes it China's most valuable mainland-listed company
+  date: '2026-07-27'
+  kind: web
 - slug: 2026-07-25-thoughts-on-ai-and-power
   title: Thoughts on AI and power
   date: '2026-07-25'
+  kind: web
+- slug: 2026-07-15-kimi-k3-launch-moonshot
+  title: Kimi K3 — Moonshot launch post (architecture, quantisation, serving requirements)
+  date: '2026-07-15'
+  kind: web
+- slug: 2026-07-07-high-bandwidth-flash-the-full-report
+  title: 'High Bandwidth Flash: The Full Report'
+  date: '2026-07-07'
+  kind: web
+- slug: 2026-07-03-tech-inflation-silicon-shock-ai-server-demand-continues-to
+  title: AI Server Demand Continues to Support Memory Prices in 3Q26, but Gains Moderate as Consumer Demand Weakens and High Base Effects Take Hold
+  date: '2026-07-03'
+  kind: web
+- slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
+  title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
+  date: '2026-07-02'
+  kind: web
+- slug: 2026-06-25-data-value-migrates-to-retrieval-layer-kioxia-s-q1-2026
+  title: Kioxia's Q1 2026 Revenue and Operating Profit Surge on AI Chip Demand
+  date: '2026-06-25'
+  kind: web
+- slug: 2025-26-lapedus-next-gen-ferroelectric-memory
+  title: Next-Gen Ferroelectric Memory Still A Work In Progress
+  date: '2026-06-23'
   kind: web
 neighbors: []
 ---

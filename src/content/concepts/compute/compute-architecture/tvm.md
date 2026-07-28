@@ -21,7 +21,11 @@ related_concepts:
 - iree
 - mlc-llm
 - cuda-moat
-sources: []
+sources:
+- '[[2023-05-31-three-underrated-technologies-from]]'
+- '[[2026-02-12-how-to-invest-in-ai-sovereignty-sovereign]]'
+- '[[2026-02-02-photonic-engines-for-data-centers]]'
+- '[[2026-05-14-nasa-draws-on-industry-for-mars-telecommunications-network]]'
 frontier:
 - BYOC is the standard on-ramp for novel silicon — is it the mechanism a Cloudberry novel-hardware deal should plan to use, vs building a compiler from scratch?
 - Has the MLIR-based stack permanently eclipsed TVM for NEW silicon, or does TVM's auto-tuning + edge/MCU reach keep it the default in its niche?
@@ -34,9 +38,26 @@ tags:
 - reference
 descendants:
 - mlc-llm
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+mention_count: 37
+sources_7d: 3
+sources_30d: 14
+recent_mentions:
+- slug: 2026-05-14-nasa-draws-on-industry-for-mars-telecommunications-network
+  title: NASA Draws on Industry for Mars Telecommunications Network
+  date: '2026-05-14'
+  kind: web
+- slug: 2026-02-12-how-to-invest-in-ai-sovereignty-sovereign
+  title: How to Invest in AI Sovereignty — Sovereign Albion w/ Andrew Bennett
+  date: '2026-02-12'
+  kind: substack
+- slug: 2026-02-02-photonic-engines-for-data-centers
+  title: Photonic "Engines" for Data Centers
+  date: '2026-02-02'
+  kind: substack
+- slug: 2023-05-31-three-underrated-technologies-from
+  title: '💡E02: Three Underrated Technologies from the Future: Brain Recording; Deep Geothermal; IVF + Updates BCI; Clean Meat; LEO Internet++'
+  date: '2023-05-31'
+  kind: substack
 neighbors:
 - slug: mlir
   name: MLIR (Multi-Level Intermediate Representation)

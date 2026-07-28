@@ -16,8 +16,7 @@ related_concepts:
 - hbm
 - 3d-stacking
 sources:
-- '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
-- '[[2024-yole-advanced-packaging-2024]]'
+- '[[2026-07-02-semianalysis-ectc2026-advanced-packaging]]'
 frontier:
 - Does monolithic 3D growth actually yield at production scale — the binding risk for SEMRON's CapRAM density story?
 - Where is the thermal ceiling — how many monolithic compute layers can stack before heat removal caps the design?
@@ -28,9 +27,14 @@ tags:
 - advanced-packaging
 - compute-architecture
 - 3d
+mention_count: 3
 sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_30d: 1
+recent_mentions:
+- slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
+  title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
+  date: '2026-07-02'
+  kind: web
 neighbors:
 - slug: memcapacitor
   name: Memcapacitor

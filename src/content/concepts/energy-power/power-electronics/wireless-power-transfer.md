@@ -8,19 +8,24 @@ parent_concepts:
 - energy-power
 - power-electronics
 related_concepts: []
-sources: []
+sources:
+- '[[2024-10-29-deploy-intelligence-too-cheap-to]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 5
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_7d: 1
+sources_30d: 2
+recent_mentions:
+- slug: 2024-10-29-deploy-intelligence-too-cheap-to
+  title: Deploy! Intelligence too cheap to meter @ $0.0001 per million tokens.
+  date: '2024-10-29'
+  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

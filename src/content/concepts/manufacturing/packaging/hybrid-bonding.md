@@ -9,18 +9,47 @@ parent_concepts:
 - packaging
 related_concepts: []
 sources:
+- '[[2026-06-23-semidoped-daily-update]]'
+- '[[2026-06-22-sintered-metal-die-attach-landscape]]'
+- '[[2026-06-01-hbm-state-of-play]]'
 - '[[2026-07-02-semianalysis-ectc2026-advanced-packaging]]'
+- '[[2026-04-15-semianalysis-isscc-2026]]'
+- '[[2026-06-22-tim-approaches-full-sweep]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 13
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 1
-recent_mentions: []
+sources_30d: 3
+recent_mentions:
+- slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
+  title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
+  date: '2026-07-02'
+  kind: web
+- slug: 2026-06-23-semidoped-daily-update
+  title: Semi Doped — Daily Update, June 23rd 2026
+  date: '2026-06-23'
+  kind: web
+- slug: 2026-06-22-sintered-metal-die-attach-landscape
+  title: Sintered-silver / sintered-copper die-attach landscape — physics, incumbents, AI-migration question (web research synthesis)
+  date: '2026-06-22'
+  kind: web
+- slug: 2026-06-22-tim-approaches-full-sweep
+  title: TIM approaches — exhaustive in-market + R&D sweep (vendors, classes, startups)
+  date: '2026-06-22'
+  kind: web
+- slug: 2026-06-01-hbm-state-of-play
+  title: HBM state of play (mid-2026) — technology, supercycle, three-supplier standing
+  date: '2026-06-01'
+  kind: web
+- slug: 2026-04-15-semianalysis-isscc-2026
+  title: 'ISSCC 2026: NVIDIA & Broadcom CPO, HBM4 & LPDDR6, TSMC Active LSI, Logic-Based SRAM, UCIe-S and More'
+  date: '2026-04-15'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

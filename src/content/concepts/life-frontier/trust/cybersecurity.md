@@ -14,6 +14,7 @@ sources:
 - '[[2026-07-06-willdepue-stargate-for-data]]'
 - '[[2025-12-16-draft-nist-guidelines-rethink-cybersecurity-for-the-ai-era]]'
 - '[[2026-07-25-thoughts-on-ai-and-power]]'
+- '[[2026-07-26-ai-breach-frequency-autonomous-soc]]'
 - '[[2026-03-28-agentic-ai-security-funding-mna]]'
 - '[[2026-05-29-silicon-shock-the-macro-of-tech-inflation]]'
 frontier:
@@ -22,11 +23,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 53
+mention_count: 61
 last_reorg_date: '2026-05-13'
-sources_7d: 4
-sources_30d: 11
+sources_7d: 10
+sources_30d: 19
 recent_mentions:
+- slug: 2026-07-26-ai-breach-frequency-autonomous-soc
+  title: AI-enabled attack frequency and autonomous-SOC economics, 2026
+  date: '2026-07-26'
+  kind: web
 - slug: 2026-07-25-thoughts-on-ai-and-power
   title: Thoughts on AI and power
   date: '2026-07-25'

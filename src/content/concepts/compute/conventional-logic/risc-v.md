@@ -32,7 +32,7 @@ tags:
 - technology
 mention_count: 73
 last_reorg_date: '2026-05-14'
-sources_7d: 5
+sources_7d: 2
 sources_30d: 9
 recent_mentions:
 - slug: 2026-07-17-the-once-and-future-kimi

@@ -27,7 +27,11 @@ last_reorg_date: '2026-06-13'
 mention_count: 1
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-05-30-intel-optoscribe-acquisition
+  title: Intel Acquires Optoscribe (3D glass photonics, Livingston, Scotland)
+  date: '2022-01-27'
+  kind: web
 neighbors:
 - slug: edge-ai
   name: Edge AI

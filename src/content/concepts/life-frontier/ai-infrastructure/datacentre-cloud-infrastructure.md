@@ -36,6 +36,10 @@ recent_mentions:
   title: Micron's $100 billion mega-plant sparks workforce revolution in Central NY - Press & Sun-Bulletin
   date: '2026-07-22'
   kind: web
+- slug: 2026-07-21-bnef-nearly-doubled-its-forecast-for-us-data-center-power-de
+  title: BNEF nearly doubled its forecast for US data center power demand - Latitude Media
+  date: '2026-07-21'
+  kind: web
 - slug: 2026-07-20-making-sense-of-the-data-center-backlash
   title: Making sense of the data center backlash
   date: '2026-07-20'
@@ -47,10 +51,6 @@ recent_mentions:
 - slug: 2026-07-17-the-off-grid-data-center-fantasy---latitude-media
   title: The off-grid data center fantasy - Latitude Media
   date: '2026-07-17'
-  kind: web
-- slug: 2026-07-16-five-trends-that-are-shaping-the-new-market-for-distributed-
-  title: Five trends that are shaping the new market for distributed capacity - Latitude Media
-  date: '2026-07-16'
   kind: web
 neighbors: []
 ---

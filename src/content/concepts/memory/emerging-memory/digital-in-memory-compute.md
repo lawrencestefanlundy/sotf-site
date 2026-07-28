@@ -15,15 +15,21 @@ related_concepts:
 - adc-bottleneck
 - processing-in-memory
 - von-neumann-bottleneck
-sources: []
+sources:
+- '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
 frontier:
 - Does "digital IMC plus 3D stacking" close the energy gap to analog before analog scales out of the edge?
 last_updated: '2026-06-16'
 tags:
 - concept
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+mention_count: 5
+sources_7d: 1
+sources_30d: 3
+recent_mentions:
+- slug: 2025-02-12-wen-babelfish-feat-aron-of-semron
+  title: 'Edge AI: Analog Chips (feat. Aron Kirschen, SEMRON)'
+  date: '2025-02-12'
+  kind: substack
 neighbors:
 - slug: analog-in-memory-compute
   name: Analog In-Memory Compute

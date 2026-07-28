@@ -11,7 +11,16 @@ parent_concepts:
 related_concepts:
 - cuda-moat
 - co-packaged-optics
-sources: []
+sources:
+- '[[2024-10-22-state-of-the-future-part-deux]]'
+- '[[2026-04-02-scale-up-interconnect-the-nvidia-marvell-nvlink-fusion]]'
+- '[[2026-06-14-rack-is-the-unit-of-compute-amd-mi400-helios-rack-scale]]'
+- '[[2026-05-30-scale-up-interconnect-amd-helios-mi455x-rack-scale-platform]]'
+- '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
+- '[[2026-06-04-scale-up-interconnect-amd-helios-mi455x-rack-scale-platform]]'
+- '[[2026-06-25-scale-up-interconnect-spheron-blog-ualink-vs-nvlink-open]]'
+- '[[2026-07-02-scale-up-interconnect-upscale-ai-s-500m-bet-to-reinvent-ai]]'
+- '[[2026-03-01-scale-up-interconnect-nvidia-nvlink-explained-a-guide-to]]'
 frontier:
 - Does a merchant UALink switch ship into a volume NVL72-class integrated rack before end-2027, or does it stay spec-ahead-of-silicon? (The [[scale-up-interconnect]] prediction 2.)
 - Does the open scale-up camp consolidate, or stay fragmented three ways (UALink vs Broadcom SUE vs Meta ESUN)?
@@ -21,9 +30,42 @@ tags:
 - standard
 - interconnect
 - compute
+mention_count: 10
 sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_30d: 2
+recent_mentions:
+- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
+  title: 'Startup Funding: Q2 2026'
+  date: '2026-07-13'
+  kind: web
+- slug: 2026-07-02-scale-up-interconnect-upscale-ai-s-500m-bet-to-reinvent-ai
+  title: Upscale AI's $500M bet to reinvent AI networking
+  date: '2026-07-02'
+  kind: web
+- slug: 2026-06-25-scale-up-interconnect-spheron-blog-ualink-vs-nvlink-open
+  title: 'Spheron Blog: UALink vs NVLink: Open GPU Interconnect for AI Inference and Training (2026)'
+  date: '2026-06-25'
+  kind: web
+- slug: 2026-06-14-rack-is-the-unit-of-compute-amd-mi400-helios-rack-scale
+  title: AMD MI400 Helios Rack-Scale System and UALink Interconnect
+  date: '2026-06-14'
+  kind: web
+- slug: 2026-06-04-scale-up-interconnect-amd-helios-mi455x-rack-scale-platform
+  title: AMD Helios MI455X Rack-Scale Platform Surfaces with 72-GPU Design, UALink-over-Ethernet Interconnect
+  date: '2026-06-04'
+  kind: web
+- slug: 2026-05-30-scale-up-interconnect-amd-helios-mi455x-rack-scale-platform
+  title: AMD Helios MI455X Rack-Scale Platform Surfaces with 72-GPU Design, UALink-over-Ethernet Interconnect
+  date: '2026-05-30'
+  kind: web
+- slug: 2026-04-02-scale-up-interconnect-the-nvidia-marvell-nvlink-fusion
+  title: The NVIDIA Marvell NVLink Fusion partnership underscores the inevitable momentum of NVLink as the dominant fabric in AI data centers
+  date: '2026-04-02'
+  kind: web
+- slug: 2026-03-01-scale-up-interconnect-nvidia-nvlink-explained-a-guide-to
+  title: 'NVIDIA NVLink Explained: A Guide to the GPU Interconnect'
+  date: '2026-03-01'
+  kind: web
 neighbors:
 - slug: co-packaged-optics
   name: Co-Packaged Optics

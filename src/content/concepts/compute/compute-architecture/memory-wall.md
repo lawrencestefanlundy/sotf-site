@@ -14,6 +14,8 @@ related_concepts:
 - processing-in-memory
 - in-memory-computing
 sources:
+- '[[2026-02-02-photonic-engines-for-data-centers]]'
+- '[[2026-01-22-ai-chips-computeram-and-the-future]]'
 - '[[2025-08-12-scaling-the-memory-wall-the-rise-and-roadmap-of-hbm]]'
 frontier:
 - Does the binding constraint shift from memory bandwidth to memory capacity (KV cache) as context windows and agentic multi-step grow?
@@ -24,9 +26,22 @@ tags:
 descendants:
 - inference-economics
 - token-cost-stack
+mention_count: 11
 sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_30d: 1
+recent_mentions:
+- slug: 2026-02-02-photonic-engines-for-data-centers
+  title: Photonic "Engines" for Data Centers
+  date: '2026-02-02'
+  kind: substack
+- slug: 2026-01-22-ai-chips-computeram-and-the-future
+  title: 'AI Chips, ComputeRAM and the Future of Data Movement: A Conversation with Manu, Founder of Synthara'
+  date: '2026-01-22'
+  kind: substack
+- slug: 2025-08-12-scaling-the-memory-wall-the-rise-and-roadmap-of-hbm
+  title: 'Scaling the Memory Wall: The Rise and Roadmap of HBM'
+  date: '2025-08-12'
+  kind: web
 neighbors:
 - slug: von-neumann-bottleneck
   name: Von Neumann Bottleneck

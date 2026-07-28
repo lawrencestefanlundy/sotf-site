@@ -8,18 +8,38 @@ parent_concepts:
 - life-frontier
 - ai-infrastructure
 related_concepts: []
-sources: []
+sources:
+- '[[2025-10-09-a-specific-theory-of-sovereign-ai]]'
+- '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
+- '[[2026-03-08-diamonds-are-semiconductors-best-friend]]'
+- '[[2026-06-09-uk-pumps-money-into-sovereign-ai-as-ai-startups-start-to-sho]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - framework
-mention_count: 0
+mention_count: 22
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_7d: 1
+sources_30d: 2
+recent_mentions:
+- slug: 2026-06-09-uk-pumps-money-into-sovereign-ai-as-ai-startups-start-to-sho
+  title: UK pumps money into sovereign AI, as AI startups start to show their mettle - RCR Wireless News
+  date: '2026-06-09'
+  kind: web
+- slug: 2026-03-08-diamonds-are-semiconductors-best-friend
+  title: Diamonds are Semiconductors' Best Friend 2026
+  date: '2026-03-08'
+  kind: web
+- slug: 2025-10-09-a-specific-theory-of-sovereign-ai
+  title: A Specific Theory of Sovereign AI
+  date: '2025-10-09'
+  kind: substack
+- slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
+  title: 'UK Opportunity in AI: Compound Semiconductors'
+  date: '2025-09-10'
+  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

@@ -16,7 +16,9 @@ related_concepts:
 - photonic-wire-bonding
 - silicon-photonics
 - co-packaged-optics
-sources: []
+sources:
+- '[[2025-12-02-the-future-of-computing-is-glass]]'
+- '[[2026-05-30-optical-interconnect-ma-ledger]]'
 frontier:
 - Which approach wins volume CPO — edge, grating, glass waveguide, or fibre array?
 - Does alignment-free coupling (Opsydia) displace active-alignment equipment (ficonTEC)?
@@ -26,9 +28,18 @@ tags:
 - technology
 - photonics
 - packaging
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+mention_count: 13
+sources_7d: 1
+sources_30d: 1
+recent_mentions:
+- slug: 2026-05-30-optical-interconnect-ma-ledger
+  title: Optical-interconnect / photonic-packaging M&A ledger (2019-2026)
+  date: '2026-05-30'
+  kind: web
+- slug: 2025-12-02-the-future-of-computing-is-glass
+  title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
+  date: '2025-12-02'
+  kind: substack
 neighbors:
 - slug: glass-photonics
   name: Glass Photonics

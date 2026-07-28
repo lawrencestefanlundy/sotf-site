@@ -24,6 +24,7 @@ related_concepts:
 - quantum-cascade-lasers
 sources:
 - '[[2026-06-17-single-photon-detector-market-spad-snspd]]'
+- '[[2026-06-02-singular-photonics-launch]]'
 frontier:
 - Can SPAD arrays integrated on 300 mm CMOS silicon reach single-photon timing jitter below 50 ps at wafer-level yield?
 - Will InGaAs/InP APDs be displaced by Si-SPAD arrays for 1550 nm LiDAR as process nodes shrink, or does the NIR absorption edge remain a hard limit?
@@ -34,9 +35,18 @@ tags:
 - concept
 - photonics
 - photodetector
+mention_count: 48
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-17-single-photon-detector-market-spad-snspd
+  title: Single-photon detector market aggregation — SPAD, SiPM, SNSPD (2024–2035)
+  date: '2026-06-17'
+  kind: web
+- slug: 2026-06-02-singular-photonics-launch
+  title: Singular Photonics — launch, SPAD portfolio + Meta collaboration (coverage)
+  date: '2026-06-02'
+  kind: web
 neighbors:
 - slug: germanium-photodiodes
   name: Germanium Photodiodes

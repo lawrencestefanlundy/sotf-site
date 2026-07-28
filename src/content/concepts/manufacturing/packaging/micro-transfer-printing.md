@@ -15,14 +15,20 @@ related_concepts:
 - heterogeneous-photonic-integration
 - inp-photonics
 - silicon-nitride
-sources: []
+sources:
+- '[[2026-02-02-photonic-engines-for-data-centers]]'
 last_updated: '2026-06-26'
 tags:
 - concept
 - technology
+mention_count: 8
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-02-02-photonic-engines-for-data-centers
+  title: Photonic "Engines" for Data Centers
+  date: '2026-02-02'
+  kind: substack
 neighbors:
 - slug: heterogeneous-photonic-integration
   name: Heterogeneous Photonic Integration

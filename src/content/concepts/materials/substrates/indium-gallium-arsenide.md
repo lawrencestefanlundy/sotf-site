@@ -13,7 +13,8 @@ related_concepts:
 - indium-phosphide
 - gallium-arsenide
 - ingaas-swir-sensors
-sources: []
+sources:
+- '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 frontier:
 - Can colloidal or epitaxial InGaAs on silicon reach sufficient dark-current performance to displace bulk-grown wafer detectors in consumer SWIR cameras?
 - What indium composition and strain engineering is required to push single-photon detection efficiency above 90% at 1550 nm in InGaAs SPADs?
@@ -21,9 +22,14 @@ frontier:
 last_updated: '2026-06-02'
 tags:
 - concept
+mention_count: 21
 sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_30d: 3
+recent_mentions:
+- slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
+  title: 'UK Opportunity in AI: Compound Semiconductors'
+  date: '2025-09-10'
+  kind: substack
 neighbors:
 - slug: indium-arsenide
   name: Indium Arsenide

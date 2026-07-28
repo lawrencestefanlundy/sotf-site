@@ -23,7 +23,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 247
+mention_count: 250
 descendants:
 - 5g-nr-advanced
 - beamforming-ics
@@ -55,7 +55,7 @@ descendants:
 - sub-thz-6g
 - timing-clock-generation
 last_reorg_date: '2026-05-14'
-sources_7d: 3
+sources_7d: 2
 sources_30d: 13
 recent_mentions:
 - slug: 2026-07-24-nasa-announces-new-spacecraft-technology-demonstration-missi

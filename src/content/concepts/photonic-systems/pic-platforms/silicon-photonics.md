@@ -8,24 +8,64 @@ parent_concepts:
 - photonic-systems
 - pic-platforms
 related_concepts: []
-sources: []
+sources:
+- '[[2025-12-02-the-future-of-computing-is-glass]]'
+- '[[2023-08-31-e13-chiplets-how-chip-lego-is-driving]]'
+- '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
+- '[[2023-07-14-e08-optical-computing]]'
+- '[[2024-12-16-willow-and-the-race-to-quantum-advantage]]'
+- '[[2024-12-04-cubits-in-a-fridge-why-is-nobody]]'
+- '[[2024-10-22-state-of-the-future-part-deux]]'
+- '[[2026-02-02-photonic-engines-for-data-centers]]'
+- '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
+- '[[2025-04-16-the-state-of-photonic-computing]]'
+- '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
+- '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 140
 last_reorg_date: '2026-05-13'
 descendants:
 - avalanche-photodiode
 - optical-gyroscope
-sources_7d: 0
-sources_30d: 0
+sources_7d: 4
+sources_30d: 9
 recent_mentions:
 - slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape
   title: Neutral PDK / EDA layer for heterogeneous photonic integration — landscape check (Scintil essay correction research)
   date: '2026-07-11'
+  kind: web
+- slug: 2026-06-23-semidoped-daily-update
+  title: Semi Doped — Daily Update, June 23rd 2026
+  date: '2026-06-23'
+  kind: web
+- slug: 2026-06-15-gf-investor-day-2026
+  title: GlobalFoundries Investor Day 2026 (presentation)
+  date: '2026-06-15'
+  kind: web
+- slug: 2026-06-09-photonic-foundry-capacity-silicon-photonics-chips-the
+  title: 'Silicon Photonics Chips: The Foundry War'
+  date: '2026-06-09'
+  kind: web
+- slug: 2026-05-30-optical-interconnect-ma-ledger
+  title: Optical-interconnect / photonic-packaging M&A ledger (2019-2026)
+  date: '2026-05-30'
+  kind: web
+- slug: 2026-05-02-bto-pockels-modulator-on-silicon-photonics-jlt-2019
+  title: BTO Pockels modulator on silicon photonics (JLT 2019)
+  date: '2026-05-02'
+  kind: web
+- slug: 2026-04-22-photonics-material-class-war-320-gb-s-unamplified
+  title: 320 Gb/s Unamplified Transmission Using 100 GHz Ge PD and TFLN MZM on a Foundry-Compatible SiPh Platform
+  date: '2026-04-22'
+  kind: web
+- slug: 2026-04-09-photonics-material-class-war-photonic-integrated-circuit
+  title: Photonic Integrated Circuit Technology Landscape 2026
+  date: '2026-04-09'
   kind: web
 neighbors: []
 ---

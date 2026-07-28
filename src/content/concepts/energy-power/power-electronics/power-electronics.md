@@ -18,13 +18,14 @@ sources:
 - '[[2026-05-26-semianalysis-800vdc-revolution]]'
 - '[[2024-omdia-power-electronics-forecast]]'
 - '[[2026-02-19-the-rise-of-grid-power-electronics-with-drew-baglino---latit]]'
+- '[[2026-07-26-humanoid-duty-cycle-thermal-constraint]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 53
+mention_count: 54
 last_reorg_date: '2026-05-13'
 descendants:
 - aluminium-gallium-nitride
@@ -38,8 +39,8 @@ descendants:
 - power-management-ic
 - solid-state-circuit-breakers
 - wireless-power-transfer
-sources_7d: 0
-sources_30d: 12
+sources_7d: 1
+sources_30d: 13
 recent_mentions:
 - slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint
   title: 'What actually limits a humanoid to minutes: the thermal cliff, not the battery'

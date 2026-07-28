@@ -13,19 +13,28 @@ related_concepts:
 - optical-circuit-switching
 - optical-packet-switching
 sources:
+- '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
+- '[[2026-02-02-photonic-engines-for-data-centers]]'
+- '[[2025-04-16-the-state-of-photonic-computing]]'
+- '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
+- '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
 - '[[2026-05-30-optical-interconnect-ma-ledger]]'
 - '[[2026-06-23-semidoped-daily-update]]'
 - '[[2026-03-02-nvidia-4bn-lumentum-coherent-photonics-investment]]'
 - '[[2026-05-30-opsydia-glass-waveguide-packaging]]'
 - '[[2026-05-30-intel-glass-substrates-program]]'
+- '[[2026-03-31-scale-up-interconnect-nvidia-s-2-billion-bet-on-marvell-the]]'
+- '[[2026-04-28-optical-displaces-copper-ofc-2026-semtech-advances-ai-data]]'
+- '[[2026-06-15-optical-interconnect-cpo-transition-optical-interconnects]]'
 - '[[2026-04-15-semianalysis-isscc-2026]]'
+- '[[2026-03-01-optical-displaces-copper-lightcounting-100-billion-market]]'
 frontier:
 - ''
 last_updated: '2026-05-07'
 tags:
 - concept
 - technology
-mention_count: 33
+mention_count: 87
 descendants:
 - datacenter-network-stack
 - lpo-linear-pluggable-optics
@@ -35,8 +44,8 @@ descendants:
 - optical-packet-switching
 - pluggable-transceivers
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 4
+sources_7d: 0
+sources_30d: 8
 recent_mentions:
 - slug: 2026-07-26-ai-backend-network-optics-2026
   title: 'Dell''Oro: AI back-end switching past $100B by 2030, optical transport $16B in 2025'

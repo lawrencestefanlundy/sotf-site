@@ -19,10 +19,9 @@ related_concepts:
 - photonic-wire-bonding
 - photonic-quantum
 sources:
-- '[[2026-05-30-intel-optoscribe-acquisition]]'
-- '[[2026-05-30-intel-glass-substrates-program]]'
-- '[[2026-05-30-ephos-funding-glass-photonic-chips]]'
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
+- '[[2026-05-30-intel-glass-substrates-program]]'
+- '[[2026-05-30-intel-optoscribe-acquisition]]'
 frontier:
 - Does femtosecond laser-write throughput scale to production volume, or stay the binding constraint (same axis that sank polymer 2PP)?
 - Does a glass-substrate prime (Corning/Absolics/AGC) or Intel (post-Optoscribe) absorb glass photonics, foreclosing the startup category?
@@ -33,9 +32,22 @@ tags:
 - technology
 - photonics
 - glass
+mention_count: 9
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2025-12-02-the-future-of-computing-is-glass
+  title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
+  date: '2025-12-02'
+  kind: substack
+- slug: 2026-05-30-intel-glass-substrates-program
+  title: Intel Unveils Industry-Leading Glass Substrates (+ Jan 2026 EMIB+glass demo status)
+  date: '2023-09-18'
+  kind: web
+- slug: 2026-05-30-intel-optoscribe-acquisition
+  title: Intel Acquires Optoscribe (3D glass photonics, Livingston, Scotland)
+  date: '2022-01-27'
+  kind: web
 neighbors:
 - slug: glass-interposers
   name: Glass Interposers

@@ -12,14 +12,20 @@ parent_concepts:
 related_concepts:
 - neuromorphic-computing
 - edge-ai
-sources: []
+sources:
+- '[[2023-06-23-e05-the-future-of-edge-ai-brain-inspired]]'
 last_updated: 2026-06-17
 tags:
 - concept
 - technology
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+mention_count: 11
+sources_7d: 1
+sources_30d: 5
+recent_mentions:
+- slug: 2023-06-23-e05-the-future-of-edge-ai-brain-inspired
+  title: '🔮 E05: Neuromorphic Computing & The Future of Edge AI'
+  date: '2023-06-23'
+  kind: substack
 neighbors:
 - slug: neuromorphic-computing
   name: Neuromorphic Computing

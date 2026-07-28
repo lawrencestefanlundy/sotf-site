@@ -15,51 +15,31 @@ sources:
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2025-04-16-the-state-of-photonic-computing]]'
-- '[[2026-06-23-semidoped-daily-update]]'
-- '[[2026-03-01-optical-displaces-copper-lightcounting-january-2025-optics]]'
-- '[[2026-05-02-cpo-market-to-grow-at-37-cagr-semiconductor-today]]'
-- '[[2026-05-24-mose2-exciton-polariton-all-optical-switch]]'
-- '[[2026-06-01-hbm-state-of-play]]'
-- '[[2026-03-16-optical-displaces-copper-semtech-224g-ic-family-launch-for]]'
-- '[[2026-03-02-nvidia-4bn-lumentum-coherent-photonics-investment]]'
-- '[[2026-02-19-microalign-eic-grant]]'
-- '[[2026-06-22-thermal-stack-layer-landscape]]'
 - '[[2026-03-12-optical-displaces-copper-broadcom-ships-tomahawk-6-world-s]]'
-- '[[2025-03-25-photonic-packaging-cpo-openlight-achieves-successful]]'
-- '[[2026-05-30-osat-market-structure]]'
-- '[[2026-04-07-optical-displaces-copper-all-ai-data-center-interconnects]]'
-- '[[2024-05-15-photonic-packaging-cpo-sales-of-silicon-photonics-chips]]'
-- '[[2026-04-22-optical-displaces-copper-copper-vs-optical-in-the-ai]]'
-- '[[2026-05-30-teramount-50m-molex-acquisition]]'
-- '[[2026-04-28-optical-displaces-copper-ofc-2026-semtech-advances-the]]'
-- '[[2026-06-17-sivers-onet-enablence-external-light-source-cpo]]'
-- '[[2026-03-01-optical-interconnect-cpo-transition-silicon-photonics]]'
 - '[[2026-05-02-co-packaged-optics-2026-2036-idtechex]]'
-- '[[2026-05-02-cpo-market-and-tech-update-cignal-ai-feb-2025]]'
-- '[[2026-06-09-optical-displaces-copper-in-depth-review-of-the-cpo-delay]]'
-- '[[2026-07-02-semianalysis-ectc2026-advanced-packaging]]'
-- '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
-- '[[2026-01-27-photonics-material-class-war-veeco-and-imec-develop-300mm]]'
-- '[[2026-04-10-optical-interconnect-cpo-transition-co-packaged-optics-cpo]]'
-- '[[2026-07-11-neutral-pdk-heterogeneous-integration-landscape]]'
-- '[[2026-04-03-photonic-packaging-cpo-the-soitec-twin-a-massive]]'
-- '[[2024-yole-advanced-packaging-2024]]'
-- '[[2026-04-22-photonics-material-class-war-320-gb-s-unamplified]]'
-- '[[2026-05-02-cpo-book-semianalysis]]'
+- '[[2026-07-26-ai-backend-network-optics-2026]]'
 - '[[2026-06-17-sjtu-ge-si-photodetector-110ghz-fowlp]]'
-- '[[2026-06-15-pic-market-structure-2030-cpo-npo-market-expected-to-exceed]]'
 - '[[2026-06-15-gf-investor-day-2026]]'
+- '[[2026-05-26-optical-displaces-copper-the-global-co-packaged-optics]]'
+- '[[2026-04-15-semianalysis-isscc-2026]]'
+- '[[2026-04-10-photonic-light-source-supply-co-packaged-optics-cpo-scaling]]'
+- '[[2026-05-30-senko-gf-cpo-detachable-fiber]]'
+- '[[2026-06-23-photonic-foundry-capacity-co-packaged-optics-is-not-delayed]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 143
+mention_count: 53
 last_reorg_date: '2026-05-13'
 sources_7d: 1
-sources_30d: 14
+sources_30d: 4
 recent_mentions:
+- slug: 2026-07-26-ai-backend-network-optics-2026
+  title: 'Dell''Oro: AI back-end switching past $100B by 2030, optical transport $16B in 2025'
+  date: '2026-07-26'
+  kind: web
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
@@ -87,10 +67,6 @@ recent_mentions:
 - slug: 2026-06-17-sjtu-ge-si-photodetector-110ghz-fowlp
   title: Shanghai Jiao Tong University creates reconfigurable Ge-Si photodetector for high-speed datacoms
   date: '2026-06-17'
-  kind: web
-- slug: 2026-06-15-pic-market-structure-2030-cpo-npo-market-expected-to-exceed
-  title: CPO/NPO Market Expected to Exceed US$39 Billion by 2030
-  date: '2026-06-15'
   kind: web
 neighbors: []
 ---

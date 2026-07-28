@@ -18,9 +18,28 @@ related_concepts:
 - hybrid-bonding
 - tsv-through-silicon-via
 sources:
-- '[[2026-06-01-hbm-state-of-play]]'
+- '[[2025-09-23-the-compute-gradient]]'
+- '[[2023-10-06-e18-the-state-of-silent-speech-and]]'
+- '[[2023-08-31-e13-chiplets-how-chip-lego-is-driving]]'
+- '[[2023-11-20-e21-can-we-make-enough-ai-chips]]'
+- '[[2024-10-22-state-of-the-future-part-deux]]'
+- '[[2026-02-12-how-to-invest-in-ai-sovereignty-sovereign]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
+- '[[2026-06-23-semidoped-daily-update]]'
+- '[[2026-06-22-sintered-metal-die-attach-landscape]]'
+- '[[2026-06-01-hbm-state-of-play]]'
+- '[[2026-07-10-workload-phase-silicon-sweep]]'
+- '[[2026-06-16-hbm-supercycle-2026]]'
+- '[[2026-03-03-ai-power-thermal-binding-nvidia-vera-rubin-and-feynman]]'
 - '[[2026-07-02-semianalysis-ectc2026-advanced-packaging]]'
+- '[[2024-02-26-micron-hbm3e-volume-production]]'
+- '[[2025-08-12-scaling-the-memory-wall-the-rise-and-roadmap-of-hbm]]'
+- '[[2024-09-26-sk-hynix-12-layer-hbm3e-volume-production]]'
+- '[[2026-07-07-high-bandwidth-flash-the-full-report]]'
+- '[[2026-07-13-sk-hynix-record-fall-hbm4-three-supplier]]'
+- '[[2026-04-15-semianalysis-isscc-2026]]'
+- '[[2026-05-29-silicon-shock-the-macro-of-tech-inflation]]'
+- '[[2024-02-27-samsung-36gb-hbm3e-12h]]'
 frontier:
 - Does Samsung's SF4 in-house base-die HBM4 yield cross the ~60% breakeven, or does the TSMC-base-die route (SK Hynix + Micron) keep the cost/yield edge?
 - 'HBM4 volume-leadership: does Samsung''s first-to-qualify headline convert to bit-share, or does SK Hynix''s reliability edge hold the volume + profit lead?'
@@ -39,9 +58,14 @@ public_expressions:
 - 000660.KS
 - 005930.KS
 - MU
-sources_7d: 0
-sources_30d: 1
+mention_count: 60
+sources_7d: 1
+sources_30d: 15
 recent_mentions:
+- slug: 2026-07-27-cxmt-star-market-debut
+  title: CXMT's 466% STAR Market debut makes it China's most valuable mainland-listed company
+  date: '2026-07-27'
+  kind: web
 - slug: 2026-07-25-thoughts-on-ai-and-power
   title: Thoughts on AI and power
   date: '2026-07-25'
@@ -57,6 +81,18 @@ recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
+  kind: web
+- slug: 2026-07-13-sk-hynix-record-fall-hbm4-three-supplier
+  title: SK Hynix record one-day fall as HBM4 goes three-supplier
+  date: '2026-07-13'
+  kind: web
+- slug: 2026-07-10-workload-phase-silicon-sweep
+  title: 'Workload-phase silicon sweep: pre-training / RL / prefill / decode procurement split'
+  date: '2026-07-10'
+  kind: web
+- slug: 2026-07-07-high-bandwidth-flash-the-full-report
+  title: 'High Bandwidth Flash: The Full Report'
+  date: '2026-07-07'
   kind: web
 neighbors:
 - slug: dram

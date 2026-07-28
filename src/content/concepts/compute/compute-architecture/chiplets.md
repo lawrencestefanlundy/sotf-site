@@ -8,19 +8,74 @@ parent_concepts:
 - compute
 - compute-architecture
 related_concepts: []
-sources: []
+sources:
+- '[[2023-10-06-e18-the-state-of-silent-speech-and]]'
+- '[[2025-12-02-the-future-of-computing-is-glass]]'
+- '[[2026-03-26-sotf-interview-dorian-haci-mintneuro]]'
+- '[[2023-08-31-e13-chiplets-how-chip-lego-is-driving]]'
+- '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
+- '[[2023-05-24-launching-state-of-the-future]]'
+- '[[2024-10-29-deploy-intelligence-too-cheap-to]]'
+- '[[2023-11-20-e21-can-we-make-enough-ai-chips]]'
+- '[[2025-12-19-lfg-for-semiconductors]]'
+- '[[2024-10-22-state-of-the-future-part-deux]]'
+- '[[2026-02-02-photonic-engines-for-data-centers]]'
+- '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
+- '[[2026-03-02-chiplets-architecture-share-rebellions-rebel-100-industry-s]]'
+- '[[2026-06-22-beyond-cmos-device-layer-research]]'
+- '[[2026-03-05-chiplets-architecture-share-chiplet-summit-2026-ucie]]'
+- '[[2026-07-02-semianalysis-ectc2026-advanced-packaging]]'
+- '[[2024-yole-advanced-packaging-2024]]'
+- '[[2025-12-31-chiplets-architecture-share-chiplet-market-size-share]]'
+- '[[2026-05-30-intel-glass-substrates-program]]'
+- '[[2026-05-28-europes-semiconductor-strategy-chiplets-ecosystem-integratio]]'
+- '[[2026-04-15-semianalysis-isscc-2026]]'
+- '[[2024-tsmc-cowos-roadmap-disclosure]]'
+- '[[2026-03-31-semianalysis-nvidia-blackwell-dissection]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 91
 last_reorg_date: '2026-05-13'
 descendants: []
 sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_30d: 5
+recent_mentions:
+- slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
+  title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
+  date: '2026-07-02'
+  kind: web
+- slug: 2026-06-22-beyond-cmos-device-layer-research
+  title: Beyond-CMOS device layer — grounded research (MRAM/FeFET beachhead + capture base rate)
+  date: '2026-06-22'
+  kind: web
+- slug: 2026-05-28-europes-semiconductor-strategy-chiplets-ecosystem-integratio
+  title: 'Europe’s Semiconductor Strategy: Chiplets, Ecosystem Integration, and Chips Act 2.0 in 2026 - News and Statistics - IndexBox'
+  date: '2026-05-28'
+  kind: web
+- slug: 2026-04-15-semianalysis-isscc-2026
+  title: 'ISSCC 2026: NVIDIA & Broadcom CPO, HBM4 & LPDDR6, TSMC Active LSI, Logic-Based SRAM, UCIe-S and More'
+  date: '2026-04-15'
+  kind: web
+- slug: 2026-03-31-semianalysis-nvidia-blackwell-dissection
+  title: Dissecting Nvidia Blackwell - Tensor Cores, PTX Instructions, SASS, Floorsweep, Yield
+  date: '2026-03-31'
+  kind: web
+- slug: 2026-03-26-sotf-interview-dorian-haci-mintneuro
+  title: 'Chips for the Brain: Modular Semiconductors for Neural Interfaces (MintNeuro / Dorian Haci)'
+  date: '2026-03-26'
+  kind: substack
+- slug: 2026-03-05-chiplets-architecture-share-chiplet-summit-2026-ucie
+  title: 'Chiplet Summit 2026: UCIe Momentum Across Growing Ecosystem (UCIe Consortium)'
+  date: '2026-03-05'
+  kind: web
+- slug: 2026-03-02-chiplets-architecture-share-rebellions-rebel-100-industry-s
+  title: 'Rebellions Rebel 100: Industry''s First Quad-Chiplet AI Solution with UCIe (Tom''s Hardware)'
+  date: '2026-03-02'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

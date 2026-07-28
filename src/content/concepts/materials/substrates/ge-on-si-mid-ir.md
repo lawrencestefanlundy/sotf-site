@@ -15,7 +15,9 @@ related_concepts:
 - silicon-photonics
 - chalcogenide-glass
 - quantum-cascade-lasers
-sources: []
+sources:
+- '[[2026-06-17-sivers-onet-enablence-external-light-source-cpo]]'
+- '[[2026-06-17-sjtu-ge-si-photodetector-110ghz-fowlp]]'
 frontier:
 - Can Ge-on-Si reach <1 dB/cm waveguide loss in the 3-8 μm band at production scale?
 - Does Ge integration with QCL sources ([[quantum-cascade-lasers]]) enable a fully-integrated mid-IR sensing chip by 2028?
@@ -28,11 +30,19 @@ tags:
 - germanium
 - mid-ir
 - sensing
-mention_count: 0
+mention_count: 4
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-17-sjtu-ge-si-photodetector-110ghz-fowlp
+  title: Shanghai Jiao Tong University creates reconfigurable Ge-Si photodetector for high-speed datacoms
+  date: '2026-06-17'
+  kind: web
+- slug: 2026-06-17-sivers-onet-enablence-external-light-source-cpo
+  title: Sivers, O-Net and Enablence partner to develop external light sources for AI data centers
+  date: '2026-03-17'
+  kind: web
 neighbors:
 - slug: silicon-photonics
   name: Silicon Photonics

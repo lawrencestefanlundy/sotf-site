@@ -16,7 +16,8 @@ related_concepts:
 - hbm
 - weight-reuse-factor
 - charge-domain-compute
-sources: []
+sources:
+- '[[2026-03-19-compute-specialisation-equilibrium-how-nvidia-s-20-billion]]'
 frontier:
 - Does the prefill/decode split drive disaggregated inference hardware — separate silicon for each phase — and if so who supplies the decode-optimised part?
 - As reasoning models (long chains of thought) grow, does decode's share of total inference cost rise far enough to justify dedicated decode accelerators?
@@ -27,12 +28,17 @@ tags:
 - ai-infrastructure
 - llm-inference
 - memory-bound
+mention_count: 2
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
 - slug: 2026-07-10-workload-phase-silicon-sweep
   title: 'Workload-phase silicon sweep: pre-training / RL / prefill / decode procurement split'
   date: '2026-07-10'
+  kind: web
+- slug: 2026-03-19-compute-specialisation-equilibrium-how-nvidia-s-20-billion
+  title: How Nvidia's $20 billion Groq 3 LPU deal reshapes the Nvidia Vera Rubin Platform
+  date: '2026-03-19'
   kind: web
 neighbors:
 - slug: in-memory-computing

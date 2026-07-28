@@ -8,19 +8,24 @@ parent_concepts:
 - energy-power
 - power-electronics
 related_concepts: []
-sources: []
+sources:
+- '[[2024-omdia-power-electronics-forecast]]'
 frontier:
 - ''
 last_updated: '2026-05-07'
 tags:
 - concept
 - category
-mention_count: 0
+mention_count: 7
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_30d: 2
+recent_mentions:
+- slug: 2024-omdia-power-electronics-forecast
+  title: Omdia — Power Semiconductors Long-Term Forecast 2024
+  date: '2024-11-01'
+  kind: web
 neighbors: []
 ---
 *Stub leader page for `concepts/semiconductors/power/`*

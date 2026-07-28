@@ -8,7 +8,10 @@ parent_concepts:
 - memory
 - emerging-memory
 related_concepts: []
-sources: []
+sources:
+- '[[2023-06-23-e05-the-future-of-edge-ai-brain-inspired]]'
+- '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
+- '[[2026-06-04-q-memory-site]]'
 frontier:
 - Can PCM drift and endurance be tamed enough for analog-CIM volume, or does it stay a research device?
 - Does PCM hold a role as storage-class memory even if PCM-CIM stalls?
@@ -16,11 +19,23 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 8
 last_reorg_date: '2026-05-14'
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_7d: 1
+sources_30d: 1
+recent_mentions:
+- slug: 2026-06-04-q-memory-site
+  title: Q-Memory — company website (q-memory.tech)
+  date: '2026-06-04'
+  kind: web
+- slug: 2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth
+  title: '🔮E14: The Real AI Bottleneck: High Bandwidth Memory (HBM)'
+  date: '2023-09-08'
+  kind: substack
+- slug: 2023-06-23-e05-the-future-of-edge-ai-brain-inspired
+  title: '🔮 E05: Neuromorphic Computing & The Future of Edge AI'
+  date: '2023-06-23'
+  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

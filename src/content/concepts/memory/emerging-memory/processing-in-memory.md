@@ -18,7 +18,7 @@ related_concepts:
 - hbm
 - 3d-dram
 sources:
-- '[[2024-yole-emerging-memories-2024]]'
+- '[[2026-06-16-cim-landscape-2026]]'
 frontier:
 - Do the memory IDMs (SK AiM, Samsung HBM-PIM) ever ship PIM in volume, or does it stay a decade-long demo? Every generation since 2021 has been "almost productised."
 - Does a hyperscaler design PIM into a shipping system, the event that would make it real — and if so does that validate or kill the startup CIM cohort?
@@ -30,13 +30,26 @@ tags:
 - pim
 - memory-idm
 - map
-sources_7d: 0
-sources_30d: 0
+mention_count: 21
+sources_7d: 2
+sources_30d: 9
 recent_mentions:
 - slug: 2026-07-10-workload-phase-silicon-sweep
   title: 'Workload-phase silicon sweep: pre-training / RL / prefill / decode procurement split'
   date: '2026-07-10'
   kind: web
+- slug: 2026-06-16-cim-landscape-2026
+  title: 'Compute-in-memory landscape 2026: efficiency claims, the digital-readout shift, IDM PIM'
+  date: '2026-06-16'
+  kind: web
+- slug: 2026-01-22-ai-chips-computeram-and-the-future
+  title: 'AI Chips, ComputeRAM and the Future of Data Movement: A Conversation with Manu, Founder of Synthara'
+  date: '2026-01-22'
+  kind: substack
+- slug: 2025-02-12-wen-babelfish-feat-aron-of-semron
+  title: 'Edge AI: Analog Chips (feat. Aron Kirschen, SEMRON)'
+  date: '2025-02-12'
+  kind: substack
 neighbors:
 - slug: in-memory-computing
   name: In-Memory Computing

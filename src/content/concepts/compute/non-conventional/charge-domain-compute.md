@@ -15,8 +15,7 @@ related_concepts:
 - sram-cim
 - adc-bottleneck
 - analog-computing
-sources:
-- '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
+sources: []
 frontier:
 - Does charge-domain's noise/linearity advantage over current-domain hold at scaled nodes and across temperature, or does it need compensation circuitry that eats the energy win?
 - Does the ADC still dominate energy even when the multiply itself is near-free in the charge domain — i.e. does charge-domain move the bottleneck rather than remove it?
@@ -25,8 +24,9 @@ tags:
 - concept
 - analog-computing
 - in-memory-compute
+mention_count: 1
 sources_7d: 0
-sources_30d: 0
+sources_30d: 1
 recent_mentions: []
 neighbors:
 - slug: memcapacitor

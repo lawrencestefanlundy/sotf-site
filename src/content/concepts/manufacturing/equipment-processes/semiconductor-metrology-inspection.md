@@ -17,7 +17,8 @@ related_concepts:
 - etch-tools
 - electron-scale-metrology
 - ald-atomic-layer-deposition
-sources: []
+sources:
+- '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 frontier:
 - Can non-destructive in-line sidewall metrology of gate-all-around fins reach production throughput at sub-3nm, or is destructive cross-section TEM the permanent ceiling?
 - What is the minimum viable data set for AI defect classification to outperform KLA's native classifier on a compound-semiconductor substrate where KLA has no training data?
@@ -28,9 +29,42 @@ last_updated: '2026-05-30'
 tags:
 - concept
 - technology
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+mention_count: 184
+sources_7d: 11
+sources_30d: 29
+recent_mentions:
+- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
+  title: 'Startup Funding: Q2 2026'
+  date: '2026-07-13'
+  kind: web
+- slug: 2026-06-22-thermal-stack-layer-landscape
+  title: AI datacentre thermal stack, junction-to-ambient — per-layer players, M&A, capture (web research synthesis)
+  date: '2026-06-22'
+  kind: web
+- slug: 2026-06-22-physics-ai-comp-landscape
+  title: Physics-AI / ML-surrogate simulation competitive landscape (Zenithon comp set beyond PhysicsX)
+  date: '2026-06-22'
+  kind: web
+- slug: 2026-06-14-semianalysis-smic-n3-vs-intel-18a
+  title: Is SMIC N+3's Metal Pitch Smaller than Intel 18A's?
+  date: '2026-06-14'
+  kind: web
+- slug: 2026-04-22-kla-q3-fy2026-slides-process-control-share-58pct
+  title: 'KLA Q3 FY2026 slides: market share hits 58%, ambitious 2030 targets'
+  date: '2026-04-22'
+  kind: web
+- slug: 2026-02-19-microalign-eic-grant
+  title: MicroAlign secures EIC Accelerator grant to scale fiber-array production
+  date: '2026-02-19'
+  kind: web
+- slug: 2025-intelmarketresearch-compound-semi-inspection-rejected
+  title: Compound Semiconductor Inspection Equipment Market (IntelMarketResearch)
+  date: '2025-12-31'
+  kind: web
+- slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
+  title: 'UK Opportunity in AI: Compound Semiconductors'
+  date: '2025-09-10'
+  kind: substack
 neighbors:
 - slug: lithography
   name: Lithography

@@ -8,17 +8,20 @@ parent_concepts:
 - communications
 - fibre-and-free-space
 related_concepts: []
-sources: []
+sources:
+- '[[2026-02-02-photonic-engines-for-data-centers]]'
+- '[[2025-04-16-the-state-of-photonic-computing]]'
+- '[[2026-06-16-trapped-ion-landscape-2026]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 17
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 0
+sources_30d: 3
 recent_mentions: []
 neighbors: []
 ---

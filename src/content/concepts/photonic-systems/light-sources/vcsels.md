@@ -14,18 +14,23 @@ related_concepts:
 - gallium-arsenide
 - photonic-compute
 - lasers
-sources: []
+sources:
+- '[[2026-05-30-intel-optoscribe-acquisition]]'
 frontier:
 - ''
 last_updated: '2026-07-25'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 24
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 1
-recent_mentions: []
+sources_7d: 2
+sources_30d: 10
+recent_mentions:
+- slug: 2026-05-30-intel-optoscribe-acquisition
+  title: Intel Acquires Optoscribe (3D glass photonics, Livingston, Scotland)
+  date: '2022-01-27'
+  kind: web
 neighbors:
 - slug: gallium-arsenide
   name: Gallium Arsenide (GaAs)

@@ -8,18 +8,23 @@ parent_concepts:
 - communications
 - quantum-comms
 related_concepts: []
-sources: []
+sources:
+- '[[2024-12-16-willow-and-the-race-to-quantum-advantage]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 13
 last_reorg_date: '2026-05-14'
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_7d: 2
+sources_30d: 5
+recent_mentions:
+- slug: 2024-12-16-willow-and-the-race-to-quantum-advantage
+  title: Willow and The Race to Quantum Advantage (Feat. Kris Kaczmarek)
+  date: '2024-12-16'
+  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

@@ -8,18 +8,28 @@ parent_concepts:
 - compute
 - non-conventional
 related_concepts: []
-sources: []
+sources:
+- '[[2023-10-19-e20-the-state-of-privacy-enhancing]]'
+- '[[2023-08-25-e12-nanomechanical-computing-gears]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 6
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_30d: 2
+recent_mentions:
+- slug: 2023-10-19-e20-the-state-of-privacy-enhancing
+  title: Understanding Privacy Enhancing Technology (Feat. Karim Eldefrawy, Confidencial.io)
+  date: '2023-10-19'
+  kind: substack
+- slug: 2023-08-25-e12-nanomechanical-computing-gears
+  title: '🔮E12: Nanomechanical Computing- Gears of Space War? Old Ideas at New Scales'
+  date: '2023-08-25'
+  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

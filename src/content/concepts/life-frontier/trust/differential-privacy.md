@@ -8,18 +8,38 @@ parent_concepts:
 - life-frontier
 - trust
 related_concepts: []
-sources: []
+sources:
+- '[[2023-06-08-three-overrated-technologies-from]]'
+- '[[2023-09-28-e16-in-conversation-with-shiv-malik]]'
+- '[[2021-07-21-why-privacy-tech-is-actually-collaborative]]'
+- '[[2025-10-09-a-specific-theory-of-sovereign-ai]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 12
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_7d: 1
+sources_30d: 5
+recent_mentions:
+- slug: 2025-10-09-a-specific-theory-of-sovereign-ai
+  title: A Specific Theory of Sovereign AI
+  date: '2025-10-09'
+  kind: substack
+- slug: 2023-09-28-e16-in-conversation-with-shiv-malik
+  title: '☎️ E17: In Conversation with Shiv Malik, CEO of Pool.io on the State of Data Unions 🤝₿'
+  date: '2023-09-28'
+  kind: substack
+- slug: 2023-06-08-three-overrated-technologies-from
+  title: '💡E03: Three Overrated Technologies from the Future Fusion, Bitcoin & LEO Internet + Ultrasound for Hibernation; Wind Power; Skeletal Editing; Carbon Pricing; & Psychedelics++'
+  date: '2023-06-08'
+  kind: substack
+- slug: 2021-07-21-why-privacy-tech-is-actually-collaborative
+  title: 💡Collaborative Computing
+  date: '2021-07-21'
+  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

@@ -14,7 +14,10 @@ related_concepts:
 - optical-packet-switching
 - optical-interconnect
 - co-packaged-optics
-sources: []
+sources:
+- '[[2024-10-22-state-of-the-future-part-deux]]'
+- '[[2026-02-02-photonic-engines-for-data-centers]]'
+- '[[2026-06-15-gf-investor-day-2026]]'
 frontier:
 - Does any standalone OCS company break the pattern in which no standalone OCS company has ever reached venture scale (they get acquired or stay small) by 2030, or do all outcomes stay strategic-acquisition?
 - Does ns-class optical switching arrive, moving OCS from slow topology reconfiguration toward NVLink-class fabric contention?
@@ -25,9 +28,22 @@ last_updated: '2026-06-14'
 tags:
 - concept
 - technology
+mention_count: 16
 sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_30d: 1
+recent_mentions:
+- slug: 2026-06-15-gf-investor-day-2026
+  title: GlobalFoundries Investor Day 2026 (presentation)
+  date: '2026-06-15'
+  kind: web
+- slug: 2026-02-02-photonic-engines-for-data-centers
+  title: Photonic "Engines" for Data Centers
+  date: '2026-02-02'
+  kind: substack
+- slug: 2024-10-22-state-of-the-future-part-deux
+  title: 'An AI Thesis: State of the Future! Part Deux'
+  date: '2024-10-22'
+  kind: substack
 neighbors:
 - slug: optical-packet-switching
   name: Optical Packet Switching (OPS)
@@ -47,8 +63,6 @@ neighbors:
 ## Mechanism
 
 OCS establishes a **dedicated lightpath** between input and output ports and holds it for the duration of a flow, reconfiguring the topology relatively slowly. It switches whole wavelengths/fibers, not individual packets. Reconfiguration time is set by the switching medium (MEMS tilt, LCOS phase, free-space diffraction) and is typically **µs-to-ms class** — fine for stable, long-lived flows and topology reconfiguration, too slow for per-packet routing. The complement, switching at packet granularity, is [Optical Packet Switching (OPS)](/communications/optical-interconnect/optical-packet-switching/).
-
-**The discriminating spec for any optical switch is switching speed.** Per **Zigzag Networks**: ns-class competes with NVLink-class fabric; µs/ms competes only with incumbent OCS for slow topology reconfiguration.
 
 ## Where it sits (three distinct layers)
 

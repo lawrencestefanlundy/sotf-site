@@ -8,19 +8,39 @@ parent_concepts:
 - energy-power
 - generation
 related_concepts: []
-sources: []
+sources:
+- '[[2025-01-27-ai-for-nuclear-fusion-feat-martin]]'
+- '[[2024-11-20-nuclear-fusion-the-state-of-play]]'
+- '[[2024-12-04-cubits-in-a-fridge-why-is-nobody]]'
+- '[[2026-07-27-optimal-compute-vega-investor-briefing]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 9
 descendants: []
 last_reorg_date: '2026-05-14'
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_7d: 1
+sources_30d: 1
+recent_mentions:
+- slug: 2026-07-27-optimal-compute-vega-investor-briefing
+  title: Optimal Compute / VEGA — Investor Briefing, July 2026 (7-page DocSend)
+  date: '2026-07-27'
+  kind: web
+- slug: 2025-01-27-ai-for-nuclear-fusion-feat-martin
+  title: AI for Nuclear Fusion (Feat. Martin Riedmiller, Google DeepMind)
+  date: '2025-01-27'
+  kind: substack
+- slug: 2024-12-04-cubits-in-a-fridge-why-is-nobody
+  title: Silicon Spin Quantum Computing (Feat. Himadri Majumdar, SemiQon)
+  date: '2024-12-04'
+  kind: substack
+- slug: 2024-11-20-nuclear-fusion-the-state-of-play
+  title: 'Nuclear Fusion: A Primer'
+  date: '2024-11-20'
+  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

@@ -15,7 +15,8 @@ related_concepts:
 - probabilistic-computing
 - thermodynamic-computing
 - physics-native-compute
-sources: []
+sources:
+- '[[2025-04-30-has-the-time-come-to-take-mortal]]'
 frontier:
 - For which problem classes and instance sizes do physics-native solvers (Ising machines, quantum annealers, photonic CO accelerators) consistently beat best-in-class classical heuristics (branch-and-bound, simulated annealing, CPLEX) without cherry-picking benchmarks?
 - Is the investable wedge the hardware substrate, the problem-mapping software layer, or the vertical application (logistics, drug discovery, financial portfolio, chip design)?
@@ -23,9 +24,14 @@ frontier:
 last_updated: 2026-06-02
 tags:
 - concept
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+mention_count: 47
+sources_7d: 6
+sources_30d: 19
+recent_mentions:
+- slug: 2025-04-30-has-the-time-come-to-take-mortal
+  title: Has the time come to take Mortal Computing seriously?
+  date: '2025-04-30'
+  kind: substack
 neighbors:
 - slug: quantum-annealing
   name: Quantum Annealing

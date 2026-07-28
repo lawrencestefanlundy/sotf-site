@@ -22,7 +22,11 @@ related_concepts:
 - fiber-to-chip-coupling
 sources:
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
+- '[[2026-05-02-plug-and-play-sub-db-photonic-packaging-pubmed-2025]]'
+- '[[2026-05-30-osat-market-structure]]'
 - '[[2026-05-30-teramount-50m-molex-acquisition]]'
+- '[[2026-05-21-doc-2bn-9-companies-quantum]]'
+- '[[2026-05-02-two-photon-lithography-for-integrated-photonic-packaging-lig]]'
 frontier:
 - Which coupling approach wins volume CPO — edge, grating, glass, or PWB — and does it differ by platform (SiPh vs InP vs SiN)?
 - Does the active-optical-alignment tooling gap (universal-unsolved per Ephos debrief) become a standalone equipment market?
@@ -35,9 +39,34 @@ tags:
 - packaging
 descendants:
 - fiber-to-chip-coupling
+mention_count: 17
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-05-30-osat-market-structure
+  title: OSAT market structure 2024-2025 — rankings, advanced-packaging split, photonic assembly
+  date: '2026-05-30'
+  kind: web
+- slug: 2026-05-21-doc-2bn-9-companies-quantum
+  title: Department of Commerce Announces Letters of Intent With 9 Companies for $2 Billion to Accelerate U.S. Leadership in Quantum Computing
+  date: '2026-05-21'
+  kind: web
+- slug: 2026-05-30-teramount-50m-molex-acquisition
+  title: Teramount — $50M raise (Jul 2025) then ~$430M Molex (Koch) acquisition (completed 7 May 2026)
+  date: '2026-05-07'
+  kind: web
+- slug: 2026-05-02-plug-and-play-sub-db-photonic-packaging-pubmed-2025
+  title: Plug-and-play sub-dB photonic packaging (PubMed 2025)
+  date: '2026-05-02'
+  kind: web
+- slug: 2026-05-02-two-photon-lithography-for-integrated-photonic-packaging-lig
+  title: 'Two-photon lithography for integrated photonic packaging (Light: AM 2023)'
+  date: '2026-05-02'
+  kind: web
+- slug: 2025-12-02-the-future-of-computing-is-glass
+  title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
+  date: '2025-12-02'
+  kind: substack
 neighbors:
 - slug: co-packaged-optics
   name: Co-Packaged Optics

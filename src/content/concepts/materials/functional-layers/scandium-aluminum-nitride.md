@@ -28,7 +28,7 @@ tags:
 - scandium-aluminum-nitride
 - piezo
 - ferroelectric
-mention_count: 0
+mention_count: 13
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0

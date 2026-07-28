@@ -8,7 +8,15 @@ parent_concepts:
 - memory
 - mainstream-memory
 related_concepts: []
-sources: []
+sources:
+- '[[2023-06-23-e05-the-future-of-edge-ai-brain-inspired]]'
+- '[[2024-10-22-state-of-the-future-part-deux]]'
+- '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
+- '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
+- '[[2024-yole-emerging-memories-2024]]'
+- '[[2026-06-22-beyond-cmos-device-layer-research]]'
+- '[[2026-04-29-optical-dram-everspin-reports-q1-2026-financial-results]]'
+- '[[2026-06-04-globalfoundries-emram-22fdx-availability]]'
 frontier:
 - Does any MRAM-CIM (in-array compute) reach product, or does MRAM stay a cache / eNVM device?
 - How far does eMRAM displace eFlash at advanced nodes?
@@ -16,11 +24,43 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 46
 last_reorg_date: '2026-05-14'
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_7d: 1
+sources_30d: 2
+recent_mentions:
+- slug: 2026-06-22-beyond-cmos-device-layer-research
+  title: Beyond-CMOS device layer — grounded research (MRAM/FeFET beachhead + capture base rate)
+  date: '2026-06-22'
+  kind: web
+- slug: 2026-06-04-globalfoundries-emram-22fdx-availability
+  title: GLOBALFOUNDRIES Announces Availability of Embedded MRAM on Leading 22FDX FD-SOI Platform
+  date: '2026-06-04'
+  kind: web
+- slug: 2026-04-29-optical-dram-everspin-reports-q1-2026-financial-results
+  title: Everspin Reports Q1 2026 Financial Results
+  date: '2026-04-29'
+  kind: web
+- slug: 2025-02-12-wen-babelfish-feat-aron-of-semron
+  title: 'Edge AI: Analog Chips (feat. Aron Kirschen, SEMRON)'
+  date: '2025-02-12'
+  kind: substack
+- slug: 2024-10-22-state-of-the-future-part-deux
+  title: 'An AI Thesis: State of the Future! Part Deux'
+  date: '2024-10-22'
+  kind: substack
+- slug: 2024-yole-emerging-memories-2024
+  title: Yole Group — Emerging Non-Volatile Memories 2024
+  date: '2024-10-15'
+  kind: web
+- slug: 2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth
+  title: '🔮E14: The Real AI Bottleneck: High Bandwidth Memory (HBM)'
+  date: '2023-09-08'
+  kind: substack
+- slug: 2023-06-23-e05-the-future-of-edge-ai-brain-inspired
+  title: '🔮 E05: Neuromorphic Computing & The Future of Edge AI'
+  date: '2023-06-23'
+  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

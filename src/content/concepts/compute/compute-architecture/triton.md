@@ -14,7 +14,9 @@ related_concepts:
 - mlir
 - xla
 - cuda-moat
-sources: []
+sources:
+- '[[2023-06-15-e04-no10-downing-street-and-vector]]'
+- '[[2026-06-22-llm-kernel-compiler-synthesis-evidence]]'
 frontier:
 - NVIDIA shipping a CUDA Tile-IR backend for Triton (Jan 2026) — co-opting the abstraction threat, or legitimising it? (Mirrors the open question on [[cuda-moat]].)
 - Triton partially refutes 'single-source fails across hardware' WITHIN the GPU/SIMT family. Does anyone extend a kernel language past SIMT to non-GPU silicon, or is that the hard wall?
@@ -25,9 +27,18 @@ tags:
 - kernel-language
 - compute
 - reference
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+mention_count: 11
+sources_7d: 2
+sources_30d: 3
+recent_mentions:
+- slug: 2026-06-22-llm-kernel-compiler-synthesis-evidence
+  title: LLM / agentic GPU-kernel and compiler synthesis — dated evidence arc 2025-2026
+  date: '2026-06-22'
+  kind: web
+- slug: 2023-06-15-e04-no10-downing-street-and-vector
+  title: '🔮 E04: No10 Downing Street and Vector Databases (titles you never expect)'
+  date: '2023-06-15'
+  kind: substack
 neighbors:
 - slug: mlir
   name: MLIR (Multi-Level Intermediate Representation)

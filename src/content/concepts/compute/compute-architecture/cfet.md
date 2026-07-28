@@ -8,18 +8,33 @@ parent_concepts:
 - compute
 - compute-architecture
 related_concepts: []
-sources: []
+sources:
+- '[[2026-06-22-beyond-cmos-device-layer-research]]'
+- '[[2026-01-13-semianalysis-interconnects-beyond-copper]]'
+- '[[2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 4
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology
+  title: IBM Debuts World's First Sub-1 Nanometer Chip Technology
+  date: '2026-06-25'
+  kind: web
+- slug: 2026-06-22-beyond-cmos-device-layer-research
+  title: Beyond-CMOS device layer — grounded research (MRAM/FeFET beachhead + capture base rate)
+  date: '2026-06-22'
+  kind: web
+- slug: 2026-01-13-semianalysis-interconnects-beyond-copper
+  title: Interconnects Beyond Copper, 1,000 CFETs, SK Hynix Next-Gen NAND, 2D Materials, and More
+  date: '2026-01-13'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

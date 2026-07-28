@@ -8,18 +8,23 @@ parent_concepts:
 - photonic-systems
 - displays
 related_concepts: []
-sources: []
+sources:
+- '[[2026-05-29-silicon-shock-the-macro-of-tech-inflation]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 38
 last_reorg_date: '2026-05-14'
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_7d: 1
+sources_30d: 4
+recent_mentions:
+- slug: 2026-05-29-silicon-shock-the-macro-of-tech-inflation
+  title: 'Silicon Shock: The Macro of Tech Inflation'
+  date: '2026-05-29'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

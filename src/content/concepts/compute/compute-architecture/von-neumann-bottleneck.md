@@ -12,15 +12,26 @@ related_concepts:
 - in-memory-computing
 - processing-in-memory
 - charge-domain-compute
-sources: []
+sources:
+- '[[2023-06-23-e05-the-future-of-edge-ai-brain-inspired]]'
+- '[[2024-10-22-state-of-the-future-part-deux]]'
 frontier:
 - At what model size / batch regime does moving weights stop dominating energy, if ever?
 last_updated: '2026-06-16'
 tags:
 - concept
+mention_count: 4
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2024-10-22-state-of-the-future-part-deux
+  title: 'An AI Thesis: State of the Future! Part Deux'
+  date: '2024-10-22'
+  kind: substack
+- slug: 2023-06-23-e05-the-future-of-edge-ai-brain-inspired
+  title: '🔮 E05: Neuromorphic Computing & The Future of Edge AI'
+  date: '2023-06-23'
+  kind: substack
 neighbors:
 - slug: memory-wall
   name: The Memory Wall

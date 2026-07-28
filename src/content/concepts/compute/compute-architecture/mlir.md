@@ -15,7 +15,9 @@ related_concepts:
 - iree
 - triton
 - cuda-moat
-sources: []
+sources:
+- '[[2025-09-23-the-compute-gradient]]'
+- '[[2026-06-02-agentic-runtime-silicon-necessity]]'
 frontier:
 - Does MLIR stay the neutral substrate, or does dialect fragmentation (each vendor's incompatible dialects) recreate the very fragmentation it was built to end?
 - Does any heterogeneous-compute company build a durable moat ABOVE MLIR, or does MLIR commoditise the compiler layer such that the value moves entirely to silicon + libraries?
@@ -26,9 +28,18 @@ tags:
 - compute
 - substrate
 - reference
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+mention_count: 10
+sources_7d: 3
+sources_30d: 5
+recent_mentions:
+- slug: 2026-06-02-agentic-runtime-silicon-necessity
+  title: Deep-research dossier — does the stateful agent runtime / control-plane layer need a novel silicon primitive?
+  date: '2026-06-02'
+  kind: web
+- slug: 2025-09-23-the-compute-gradient
+  title: The Compute Gradient
+  date: '2025-09-23'
+  kind: substack
 neighbors:
 - slug: xla
   name: XLA / OpenXLA

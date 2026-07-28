@@ -33,7 +33,7 @@ tags:
 - polymer
 - 2pp
 - cpo
-mention_count: 0
+mention_count: 1
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0

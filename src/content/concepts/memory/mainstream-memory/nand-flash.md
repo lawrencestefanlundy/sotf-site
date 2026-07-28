@@ -11,7 +11,13 @@ parent_concepts:
 - memory
 - mainstream-memory
 related_concepts: []
-sources: []
+sources:
+- '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
+- '[[2026-04-08-tech-inflation-silicon-shock-gartner-forecasts-worldwide]]'
+- '[[2026-07-03-tech-inflation-silicon-shock-ai-server-demand-continues-to]]'
+- '[[2026-07-07-high-bandwidth-flash-the-full-report]]'
+- '[[2026-01-13-semianalysis-interconnects-beyond-copper]]'
+- '[[2026-04-15-semianalysis-isscc-2026]]'
 frontier:
 - Does the $/bit/layer curve keep bending far enough to keep 3D NAND ahead of QLC-DRAM and emerging NVM?
 - Does a startup (e.g. SEMRON) ever ride the 3D-NAND cost curve for compute, or is it structurally an incumbent-only learning curve?
@@ -19,15 +25,39 @@ last_updated: '2026-07-07'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 32
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 1
+sources_30d: 10
 recent_mentions:
 - slug: 2026-07-10-inference-silicon-deep-research
   title: 'Deep research: measured vs claimed inference-silicon economics (adversarially verified, 23/25 claims confirmed)'
   date: '2026-07-10'
   kind: web
+- slug: 2026-07-07-high-bandwidth-flash-the-full-report
+  title: 'High Bandwidth Flash: The Full Report'
+  date: '2026-07-07'
+  kind: web
+- slug: 2026-07-03-tech-inflation-silicon-shock-ai-server-demand-continues-to
+  title: AI Server Demand Continues to Support Memory Prices in 3Q26, but Gains Moderate as Consumer Demand Weakens and High Base Effects Take Hold
+  date: '2026-07-03'
+  kind: web
+- slug: 2026-04-15-semianalysis-isscc-2026
+  title: 'ISSCC 2026: NVIDIA & Broadcom CPO, HBM4 & LPDDR6, TSMC Active LSI, Logic-Based SRAM, UCIe-S and More'
+  date: '2026-04-15'
+  kind: web
+- slug: 2026-04-08-tech-inflation-silicon-shock-gartner-forecasts-worldwide
+  title: Gartner Forecasts Worldwide Semiconductor Revenue to Exceed $1.3 Trillion in 2026
+  date: '2026-04-08'
+  kind: web
+- slug: 2026-01-13-semianalysis-interconnects-beyond-copper
+  title: Interconnects Beyond Copper, 1,000 CFETs, SK Hynix Next-Gen NAND, 2D Materials, and More
+  date: '2026-01-13'
+  kind: web
+- slug: 2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth
+  title: '🔮E14: The Real AI Bottleneck: High Bandwidth Memory (HBM)'
+  date: '2023-09-08'
+  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

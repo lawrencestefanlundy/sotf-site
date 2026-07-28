@@ -8,19 +8,20 @@ parent_concepts:
 - photonic-systems
 - pic-platforms
 related_concepts: []
-sources: []
+sources:
+- '[[2026-07-11-neutral-pdk-heterogeneous-integration-landscape]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 4
 last_reorg_date: '2026-05-13'
 descendants:
 - micro-transfer-printing
 sources_7d: 0
-sources_30d: 0
+sources_30d: 1
 recent_mentions:
 - slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape
   title: Neutral PDK / EDA layer for heterogeneous photonic integration — landscape check (Scintil essay correction research)

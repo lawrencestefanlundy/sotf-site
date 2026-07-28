@@ -15,7 +15,9 @@ related_concepts:
 - pcm-phase-change-memory
 - hafnium-oxide-photonic
 - in-memory-computing
-sources: []
+sources:
+- '[[2026-06-22-beyond-cmos-device-layer-research]]'
+- '[[2026-06-15-gf-investor-day-2026]]'
 frontier:
 - Which NVM technology — MRAM, FeRAM/FeFET, or RRAM — takes embedded-flash's socket below 22nm, and which foundry qualification comes first (TSMC eMRAM, GF FeRAM, or a fabless IP licensor)?
 - At what node does retention-endurance co-optimisation become a hard ceiling for FeFET in automotive-grade eNVM (AEC-Q100 Level 1 requires 10-year retention at 150°C)?
@@ -23,9 +25,18 @@ frontier:
 last_updated: 2026-06-02
 tags:
 - concept
+mention_count: 5
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-22-beyond-cmos-device-layer-research
+  title: Beyond-CMOS device layer — grounded research (MRAM/FeFET beachhead + capture base rate)
+  date: '2026-06-22'
+  kind: web
+- slug: 2026-06-15-gf-investor-day-2026
+  title: GlobalFoundries Investor Day 2026 (presentation)
+  date: '2026-06-15'
+  kind: web
 neighbors:
 - slug: mram
   name: MRAM (STT/SOT-MRAM)

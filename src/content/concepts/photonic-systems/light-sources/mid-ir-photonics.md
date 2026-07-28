@@ -18,7 +18,11 @@ related_concepts:
 - free-space-photonics
 - compound-semiconductors
 - photonic-imaging
-sources: []
+sources:
+- '[[2025-12-02-the-future-of-computing-is-glass]]'
+- '[[2025-12-09-gallium-nitride-photonics-w-james]]'
+- '[[2026-05-24-mose2-exciton-polariton-all-optical-switch]]'
+- '[[2026-06-17-single-photon-detector-market-spad-snspd]]'
 frontier:
 - Can GaSb/InAs-based photonic ICs reach the integration density of silicon photonics, or does the heterogeneous-on-Si bonding approach remain the practical route to chip-scale mid-IR systems?
 - What is the achievable limit-of-detection for breath-based VOC diagnostics using mid-IR absorption spectroscopy before interferent gases and humidity dominate?
@@ -26,9 +30,26 @@ frontier:
 last_updated: 2026-06-02
 tags:
 - concept
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+mention_count: 99
+sources_7d: 2
+sources_30d: 26
+recent_mentions:
+- slug: 2026-06-17-single-photon-detector-market-spad-snspd
+  title: Single-photon detector market aggregation — SPAD, SiPM, SNSPD (2024–2035)
+  date: '2026-06-17'
+  kind: web
+- slug: 2026-05-24-mose2-exciton-polariton-all-optical-switch
+  title: New light-based switch could cut chip energy use and speed future AI photonics
+  date: '2026-05-24'
+  kind: web
+- slug: 2025-12-09-gallium-nitride-photonics-w-james
+  title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
+  date: '2025-12-09'
+  kind: substack
+- slug: 2025-12-02-the-future-of-computing-is-glass
+  title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
+  date: '2025-12-02'
+  kind: substack
 neighbors:
 - slug: quantum-cascade-lasers
   name: Quantum Cascade Lasers

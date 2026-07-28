@@ -18,16 +18,32 @@ related_concepts:
 - digital-in-memory-compute
 - von-neumann-bottleneck
 - memory-wall
-sources: []
+sources:
+- '[[2023-07-23-analog-computing-the-once-and-future]]'
+- '[[2026-02-02-photonic-engines-for-data-centers]]'
+- '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
 frontier:
 - Does any analog CIM chip reach credible datacentre production (not edge) before end-2029?
 - Does the ADC tax fall fast enough to keep analog ahead of digital IMC on system-level energy?
 last_updated: '2026-06-16'
 tags:
 - concept
+mention_count: 14
 sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_30d: 4
+recent_mentions:
+- slug: 2026-02-02-photonic-engines-for-data-centers
+  title: Photonic "Engines" for Data Centers
+  date: '2026-02-02'
+  kind: substack
+- slug: 2025-02-12-wen-babelfish-feat-aron-of-semron
+  title: 'Edge AI: Analog Chips (feat. Aron Kirschen, SEMRON)'
+  date: '2025-02-12'
+  kind: substack
+- slug: 2023-07-23-analog-computing-the-once-and-future
+  title: '🔮 E09: Analog Computing: The Once and Future King'
+  date: '2023-07-23'
+  kind: substack
 neighbors:
 - slug: charge-domain-compute
   name: Charge-Domain Compute

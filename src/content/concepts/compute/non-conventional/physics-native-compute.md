@@ -20,7 +20,9 @@ related_concepts:
 - memristors
 - reversible-computing
 - coupled-oscillator-networks
-sources: []
+sources:
+- '[[2025-07-14-solving-compute-crisis-physics-based-asics]]'
+- '[[2025-08-12-normal-computing-cn101-tape-out]]'
 frontier:
 - Which substrate class (deterministic CIM, stochastic p-bit, thermodynamic, neuromorphic) ships chip-integrable production silicon first?
 - Does the Litman 2025 SDPA-EOT result drive convergent positioning across substrate classes around transformer inference primitives?
@@ -37,9 +39,18 @@ tags:
 - neuromorphic
 descendants:
 - coupled-oscillator-networks
+mention_count: 2
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2025-08-12-normal-computing-cn101-tape-out
+  title: Normal Computing Announces Tape-Out of World's First Thermodynamic Computing Chip
+  date: '2025-08-12'
+  kind: web
+- slug: 2025-07-14-solving-compute-crisis-physics-based-asics
+  title: Solving the compute crisis with physics-based ASICs
+  date: '2025-07-14'
+  kind: web
 neighbors:
 - slug: coherent-ising-machine
   name: Coherent Ising Machine

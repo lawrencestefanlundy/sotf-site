@@ -8,19 +8,34 @@ parent_concepts:
 - compute
 - quantum-computing
 related_concepts: []
-sources: []
+sources:
+- '[[2025-12-02-the-future-of-computing-is-glass]]'
+- '[[2024-12-16-willow-and-the-race-to-quantum-advantage]]'
+- '[[2024-12-04-cubits-in-a-fridge-why-is-nobody]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 16
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_7d: 1
+sources_30d: 5
+recent_mentions:
+- slug: 2025-12-02-the-future-of-computing-is-glass
+  title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
+  date: '2025-12-02'
+  kind: substack
+- slug: 2024-12-16-willow-and-the-race-to-quantum-advantage
+  title: Willow and The Race to Quantum Advantage (Feat. Kris Kaczmarek)
+  date: '2024-12-16'
+  kind: substack
+- slug: 2024-12-04-cubits-in-a-fridge-why-is-nobody
+  title: Silicon Spin Quantum Computing (Feat. Himadri Majumdar, SemiQon)
+  date: '2024-12-04'
+  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

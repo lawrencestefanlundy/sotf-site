@@ -18,8 +18,20 @@ related_concepts:
 - aluminium-scandium-nitride
 - lasers
 sources:
+- '[[2026-04-29-deglobalisation-continues-china-s-export-controls-critical]]'
+- '[[2026-07-14-artificial-bloom]]'
+- '[[2026-01-27-deglobalisation-continues-rare-earth-supply-bottlenecks-set]]'
+- '[[2026-04-22-deglobalisation-continues-china-s-global-exports-of-rare]]'
+- '[[2025-12-15-department-of-commerce-awards-chips-incentives-to-a-subsidia]]'
+- '[[2025-08-21-exclusive-trump-weighs-using-2-billion-in-chips-act-funding-]]'
+- '[[2026-06-30-critical-materials-supply-g7-can-mine-rare-earths-but-85-of]]'
 - '[[2026-06-13-usgs-mcs-rare-earths-supply-concentration]]'
-- '[[2026-06-13-iea-critical-minerals-export-controls-2025]]'
+- '[[2026-06-23-rare-earths]]'
+- '[[2025-05-13-the-uphill-battle-against-chinas-rare-earths-dominance---lat]]'
+- '[[2026-04-30-critical-materials-supply-the-perth-critical-minerals]]'
+- '[[2025-08-22-trump-administration-looking-to-reallocate-2bn-in-chips-act-]]'
+- '[[2025-12-15-critical-materials-supply-iea-global-critical-minerals]]'
+- '[[2022-10-25-new-approach-to-cosmic-magnet-manufacturing-could-reduce-rel]]'
 frontier:
 - Can heavy-REE (Dy/Tb) demand be engineered out of high-temperature magnets (grain-boundary diffusion, Ce/La substitution) faster than ex-China supply scales?
 - Does a rare-earth-free magnet (iron-nitride / tetrataenite class) reach EV-traction-grade energy density and volume before 2030, or stay a ferrite-tier niche?
@@ -30,10 +42,42 @@ tags:
 - material
 - critical-minerals
 - sovereignty
-mention_count: 0
+mention_count: 20
 sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_30d: 3
+recent_mentions:
+- slug: 2026-07-14-artificial-bloom
+  title: Artificial Bloom
+  date: '2026-07-14'
+  kind: web
+- slug: 2026-06-30-critical-materials-supply-g7-can-mine-rare-earths-but-85-of
+  title: G7 Can Mine Rare Earths, But 85% of the Supply Chain Disappears Before Magnets
+  date: '2026-06-30'
+  kind: web
+- slug: 2026-06-23-rare-earths
+  title: Rare Earths
+  date: '2026-06-23'
+  kind: web
+- slug: 2026-06-13-usgs-mcs-rare-earths-supply-concentration
+  title: USGS Mineral Commodity Summaries — Rare Earths (2025 / 2026 editions)
+  date: '2026-06-13'
+  kind: web
+- slug: 2026-04-30-critical-materials-supply-the-perth-critical-minerals
+  title: 'The Perth Critical Minerals Report: Dysprosium''s Price Drop Is a Mirage — Control of Supply Is Tightening'
+  date: '2026-04-30'
+  kind: web
+- slug: 2026-04-29-deglobalisation-continues-china-s-export-controls-critical
+  title: 'China''s Export Controls: Critical Minerals and Strategic Pressure Points'
+  date: '2026-04-29'
+  kind: web
+- slug: 2026-04-22-deglobalisation-continues-china-s-global-exports-of-rare
+  title: China's Global Exports of Rare Earth Elements and Rare Earth Permanent Magnets
+  date: '2026-04-22'
+  kind: web
+- slug: 2026-01-27-deglobalisation-continues-rare-earth-supply-bottlenecks-set
+  title: Rare Earth Supply Bottlenecks Set to Persist in 2026
+  date: '2026-01-27'
+  kind: web
 neighbors:
 - slug: magnetic-materials
   name: Magnetic Materials (NdFeB, ferrite, SMC)

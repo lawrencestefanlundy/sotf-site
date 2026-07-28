@@ -13,15 +13,26 @@ related_concepts:
 - gaa-nanosheet
 - cfet
 - backside-power-delivery
-sources: []
+sources:
+- '[[2023-07-27-e10-pushing-moores-law-to-the-limit]]'
+- '[[2026-05-29-silicon-shock-the-macro-of-tech-inflation]]'
 frontier:
 - When does cost-per-transistor stop improving outright (not just slow), and at which node?
 last_updated: '2026-06-16'
 tags:
 - concept
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+mention_count: 11
+sources_7d: 1
+sources_30d: 1
+recent_mentions:
+- slug: 2026-05-29-silicon-shock-the-macro-of-tech-inflation
+  title: 'Silicon Shock: The Macro of Tech Inflation'
+  date: '2026-05-29'
+  kind: web
+- slug: 2023-07-27-e10-pushing-moores-law-to-the-limit
+  title: '🔮E10: Pushing Moore''s Law to the Limit with High-NA EUV (aka Nanoscale Chip Printing)'
+  date: '2023-07-27'
+  kind: substack
 neighbors:
 - slug: dennard-scaling
   name: Dennard Scaling

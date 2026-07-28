@@ -14,15 +14,31 @@ related_concepts:
 - charge-domain-compute
 - in-memory-computing
 - embedded-non-volatile-memory
-sources: []
+sources:
+- '[[2024-yole-emerging-memories-2024]]'
+- '[[2026-06-22-beyond-cmos-device-layer-research]]'
+- '[[2025-26-lapedus-next-gen-ferroelectric-memory]]'
 frontier:
 - Can HfO2 FeFET endurance and retention reach the bar for compute-in-memory (not just eNVM) at scale?
 last_updated: '2026-06-16'
 tags:
 - concept
+mention_count: 14
 sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_30d: 1
+recent_mentions:
+- slug: 2025-26-lapedus-next-gen-ferroelectric-memory
+  title: Next-Gen Ferroelectric Memory Still A Work In Progress
+  date: '2026-06-23'
+  kind: web
+- slug: 2026-06-22-beyond-cmos-device-layer-research
+  title: Beyond-CMOS device layer — grounded research (MRAM/FeFET beachhead + capture base rate)
+  date: '2026-06-22'
+  kind: web
+- slug: 2024-yole-emerging-memories-2024
+  title: Yole Group — Emerging Non-Volatile Memories 2024
+  date: '2024-10-15'
+  kind: web
 neighbors:
 - slug: feram
   name: FeRAM (Ferroelectric)

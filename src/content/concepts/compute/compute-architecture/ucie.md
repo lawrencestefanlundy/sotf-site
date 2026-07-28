@@ -8,18 +8,48 @@ parent_concepts:
 - compute
 - compute-architecture
 related_concepts: []
-sources: []
+sources:
+- '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
+- '[[2026-03-02-chiplets-architecture-share-rebellions-rebel-100-industry-s]]'
+- '[[2026-03-05-chiplets-architecture-share-chiplet-summit-2026-ucie]]'
+- '[[2026-07-02-semianalysis-ectc2026-advanced-packaging]]'
+- '[[2024-yole-advanced-packaging-2024]]'
+- '[[2026-04-15-semianalysis-isscc-2026]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 15
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_30d: 2
+recent_mentions:
+- slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
+  title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
+  date: '2026-07-02'
+  kind: web
+- slug: 2026-04-15-semianalysis-isscc-2026
+  title: 'ISSCC 2026: NVIDIA & Broadcom CPO, HBM4 & LPDDR6, TSMC Active LSI, Logic-Based SRAM, UCIe-S and More'
+  date: '2026-04-15'
+  kind: web
+- slug: 2026-03-05-chiplets-architecture-share-chiplet-summit-2026-ucie
+  title: 'Chiplet Summit 2026: UCIe Momentum Across Growing Ecosystem (UCIe Consortium)'
+  date: '2026-03-05'
+  kind: web
+- slug: 2026-03-02-chiplets-architecture-share-rebellions-rebel-100-industry-s
+  title: 'Rebellions Rebel 100: Industry''s First Quad-Chiplet AI Solution with UCIe (Tom''s Hardware)'
+  date: '2026-03-02'
+  kind: web
+- slug: 2024-yole-advanced-packaging-2024
+  title: Yole Group — Advanced Packaging 2024 Market Analysis
+  date: '2024-12-01'
+  kind: web
+- slug: 2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth
+  title: '🔮E14: The Real AI Bottleneck: High Bandwidth Memory (HBM)'
+  date: '2023-09-08'
+  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

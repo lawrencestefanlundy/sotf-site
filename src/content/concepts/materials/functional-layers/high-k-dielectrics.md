@@ -8,20 +8,25 @@ parent_concepts:
 - materials
 - functional-layers
 related_concepts: []
-sources: []
+sources:
+- '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - material
-mention_count: 0
+mention_count: 1
 last_reorg_date: '2026-05-13'
 descendants:
 - hafnium-oxide
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2025-02-12-wen-babelfish-feat-aron-of-semron
+  title: 'Edge AI: Analog Chips (feat. Aron Kirschen, SEMRON)'
+  date: '2025-02-12'
+  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

@@ -8,18 +8,23 @@ parent_concepts:
 - manufacturing
 - lithography
 related_concepts: []
-sources: []
+sources:
+- '[[2023-07-27-e10-pushing-moores-law-to-the-limit]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - material
-mention_count: 0
+mention_count: 4
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2023-07-27-e10-pushing-moores-law-to-the-limit
+  title: '🔮E10: Pushing Moore''s Law to the Limit with High-NA EUV (aka Nanoscale Chip Printing)'
+  date: '2023-07-27'
+  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

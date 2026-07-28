@@ -8,18 +8,33 @@ parent_concepts:
 - communications
 - optical-interconnect
 related_concepts: []
-sources: []
+sources:
+- '[[2026-04-07-optical-displaces-copper-all-ai-data-center-interconnects]]'
+- '[[2026-04-10-optical-interconnect-cpo-transition-co-packaged-optics-cpo]]'
+- '[[2026-06-15-pic-market-structure-2030-cpo-npo-market-expected-to-exceed]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 8
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_7d: 1
+sources_30d: 1
+recent_mentions:
+- slug: 2026-06-15-pic-market-structure-2030-cpo-npo-market-expected-to-exceed
+  title: CPO/NPO Market Expected to Exceed US$39 Billion by 2030
+  date: '2026-06-15'
+  kind: web
+- slug: 2026-04-10-optical-interconnect-cpo-transition-co-packaged-optics-cpo
+  title: Co Packaged Optics (CPO) – Scaling with Light for the Next Wave of Interconnect
+  date: '2026-04-10'
+  kind: web
+- slug: 2026-04-07-optical-displaces-copper-all-ai-data-center-interconnects
+  title: All AI Data Center Interconnects Will Be Optical Within 5 Years
+  date: '2026-04-07'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

@@ -15,7 +15,14 @@ related_concepts:
 - power-electronics
 - compound-semiconductors
 - mocvd-mbe
-sources: []
+sources:
+- '[[2023-07-27-e10-pushing-moores-law-to-the-limit]]'
+- '[[2026-02-12-how-to-invest-in-ai-sovereignty-sovereign]]'
+- '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
+- '[[2025-12-09-gallium-nitride-photonics-w-james]]'
+- '[[2026-07-13-department-of-commerce-announces-direct-funding-agreement-wi]]'
+- '[[2026-06-12-hku-sic-cryogenic-neuromorphic-chip-10mk]]'
+- '[[2024-06-01-stmicroelectronics-to-build-5bn-silicon-carbide-campus-in-it]]'
 frontier:
 - Can SiC substrate cost reach parity with silicon for 200mm wafers before 2030, or does defect density remain the binding constraint?
 - Will SiC MOSFET device performance (channel mobility, gate-oxide reliability) close the remaining gap to theoretical material limits?
@@ -23,12 +30,21 @@ frontier:
 last_updated: 2026-06-02
 tags:
 - concept
-sources_7d: 0
-sources_30d: 0
+mention_count: 34
+sources_7d: 1
+sources_30d: 5
 recent_mentions:
+- slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint
+  title: 'What actually limits a humanoid to minutes: the thermal cliff, not the battery'
+  date: '2026-07-26'
+  kind: web
 - slug: 2026-07-14-boschs-sic-fab-deal-adds-to-a-resurgence-in-chips-act-fundin
   title: Bosch's SiC fab deal adds to a resurgence in CHIPS Act funding - Electronics360
   date: '2026-07-14'
+  kind: web
+- slug: 2026-07-13-department-of-commerce-announces-direct-funding-agreement-wi
+  title: Department of Commerce Announces Direct Funding Agreement with Bosch for a $225 Million CHIPS Program Award to Support Domestic Production of Silicon Carbide Semiconductors - National Institute of Standards and Technology (.gov)
+  date: '2026-07-13'
   kind: web
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
@@ -49,14 +65,6 @@ recent_mentions:
 - slug: 2026-06-12-hku-sic-cryogenic-neuromorphic-chip-10mk
   title: HKU world-first cryogenic neuromorphic chip at 10 mK (silicon carbide, impact-ionisation spiking)
   date: '2026-06-12'
-  kind: web
-- slug: 2026-06-01-nibras-ucl-chipstart
-  title: UCL EEE ventures selected for national ChipStart programme (incl. Nibras Communications)
-  date: '2026-06-01'
-  kind: web
-- slug: 2026-05-26-semianalysis-800vdc-revolution
-  title: Inside the 800VDC Revolution – Part 1
-  date: '2026-05-26'
   kind: web
 neighbors:
 - slug: wide-bandgap-semiconductors

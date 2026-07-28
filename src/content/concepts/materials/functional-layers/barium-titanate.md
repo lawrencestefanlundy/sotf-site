@@ -17,20 +17,16 @@ related_concepts:
 sources:
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2026-01-27-photonics-material-class-war-veeco-and-imec-develop-300mm]]'
-- '[[2026-05-02-hybrid-bto-sin-ultra-low-power-tuning-acs-photonics]]'
-- '[[2026-05-02-self-buffered-bto-epitaxy-on-oxide-insulator-light-sci-app-2]]'
-- '[[2026-05-02-bto-permittivity-pockels-coefficients-mhz-thz-nature-materia]]'
-- '[[2026-05-02-bto-pockels-modulator-on-silicon-photonics-jlt-2019]]'
 frontier:
 - ''
 last_updated: '2026-06-07'
 tags:
 - concept
 - material
-mention_count: 59
+mention_count: 23
 last_reorg_date: '2026-05-13'
-sources_7d: 2
-sources_30d: 7
+sources_7d: 1
+sources_30d: 5
 recent_mentions:
 - slug: 2026-05-02-hybrid-bto-sin-ultra-low-power-tuning-acs-photonics
   title: Hybrid BTO-SiN ultra-low power tuning (ACS Photonics)

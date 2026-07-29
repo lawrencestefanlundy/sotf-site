@@ -43,8 +43,8 @@ tags:
 - technology
 mention_count: 139
 last_reorg_date: '2026-05-14'
-sources_7d: 4
-sources_30d: 21
+sources_7d: 3
+sources_30d: 20
 recent_mentions:
 - slug: 2026-07-27-cxmt-star-market-debut
   title: CXMT's 466% STAR Market debut makes it China's most valuable mainland-listed company

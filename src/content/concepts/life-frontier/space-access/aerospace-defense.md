@@ -21,6 +21,10 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-07-28-vertical-liftoff-as-ariane-6-takes-flight-for-the-first-time
+  title: Vertical liftoff as Ariane 6 takes flight for the first time
+  date: '2026-07-28'
+  kind: web
 - slug: 2026-07-24-nasa-announces-new-spacecraft-technology-demonstration-missi
   title: NASA Announces New Spacecraft Technology Demonstration Mission at Moon
   date: '2026-07-24'

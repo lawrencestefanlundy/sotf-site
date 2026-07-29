@@ -37,6 +37,14 @@ recent_mentions:
   title: Five trends that are shaping the new market for distributed capacity - Latitude Media
   date: '2026-07-16'
   kind: web
+- slug: 2026-05-18-advanced-geothermal-energy-is-widely-available-clean-and-may
+  title: Advanced Geothermal Energy Is Widely Available, Clean, and Maybe Cheap Enough to Make a Big Impact - Information Technology and Innovation Foundation (ITIF)
+  date: '2026-05-18'
+  kind: web
+- slug: 2026-04-14-nexus-greentech-supports-companies-in-the-photovoltaic-indus
+  title: NEXUS GreenTech Supports Companies in the Photovoltaic Industry - Fraunhofer-Institut für Solare Energiesysteme ISE
+  date: '2026-04-14'
+  kind: web
 - slug: 2023-11-16-barriers-to-next-gen-geothermal---institute-for-progress-ifp
   title: Barriers to Next-Gen Geothermal - Institute for Progress (IFP)
   date: '2023-11-16'

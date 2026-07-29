@@ -29,7 +29,7 @@ descendants:
 - micro-leds
 - oled
 sources_7d: 2
-sources_30d: 24
+sources_30d: 23
 recent_mentions:
 - slug: 2026-06-15-barry-silverstein-rochester-cxr
   title: University of Rochester hires former Meta exec Barry Silverstein to direct Center for Extended Reality

@@ -25,8 +25,8 @@ mention_count: 110
 last_reorg_date: '2026-05-14'
 descendants:
 - fefet
-sources_7d: 9
-sources_30d: 33
+sources_7d: 8
+sources_30d: 32
 recent_mentions:
 - slug: 2025-26-lapedus-next-gen-ferroelectric-memory
   title: Next-Gen Ferroelectric Memory Still A Work In Progress

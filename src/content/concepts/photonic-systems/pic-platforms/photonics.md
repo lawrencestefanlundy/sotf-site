@@ -42,7 +42,7 @@ last_updated: '2026-07-26'
 tags:
 - concept
 - theme
-mention_count: 907
+mention_count: 908
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -52,7 +52,7 @@ descendants:
 - optical-frequency-division
 - optoelectronic-oscillator
 last_reorg_date: '2026-05-13'
-sources_7d: 2
+sources_7d: 0
 sources_30d: 10
 recent_mentions:
 - slug: 2026-07-22-photonics21-welcomes-chips-act-20-inclusion-of-photonics---o

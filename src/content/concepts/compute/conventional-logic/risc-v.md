@@ -30,10 +30,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 73
+mention_count: 76
 last_reorg_date: '2026-05-14'
-sources_7d: 2
-sources_30d: 9
+sources_7d: 4
+sources_30d: 11
 recent_mentions:
 - slug: 2026-07-17-the-once-and-future-kimi
   title: The Once and Future Kimi

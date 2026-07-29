@@ -30,7 +30,7 @@ tags:
 - concept
 - technology
 mention_count: 184
-sources_7d: 11
+sources_7d: 8
 sources_30d: 29
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026

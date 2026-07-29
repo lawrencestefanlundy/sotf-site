@@ -36,7 +36,7 @@ descendants:
 - photonic-compute-memory
 - photonic-tensor-cores
 last_reorg_date: '2026-05-13'
-sources_7d: 6
+sources_7d: 5
 sources_30d: 13
 recent_mentions:
 - slug: 2026-05-24-mose2-exciton-polariton-all-optical-switch

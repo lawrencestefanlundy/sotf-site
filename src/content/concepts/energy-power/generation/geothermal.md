@@ -15,18 +15,23 @@ sources:
 - '[[2023-05-24-launching-state-of-the-future]]'
 - '[[2023-07-23-analog-computing-the-once-and-future]]'
 - '[[2023-05-31-three-underrated-technologies-from]]'
+- '[[2026-05-18-advanced-geothermal-energy-is-widely-available-clean-and-may]]'
 frontier:
 - ''
 last_updated: '2026-05-07'
 tags:
 - concept
 - category
-mention_count: 11
+mention_count: 12
 descendants: []
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 2
 recent_mentions:
+- slug: 2026-05-18-advanced-geothermal-energy-is-widely-available-clean-and-may
+  title: Advanced Geothermal Energy Is Widely Available, Clean, and Maybe Cheap Enough to Make a Big Impact - Information Technology and Innovation Foundation (ITIF)
+  date: '2026-05-18'
+  kind: web
 - slug: 2023-08-18-e11-in-conversation-with-lux-capital
   title: '☎️ E11: In Conversation with Lux Capital on the State of the Future'
   date: '2023-08-18'

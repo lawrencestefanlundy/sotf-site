@@ -49,9 +49,13 @@ descendants:
 - topological-qubits
 - trapped-ion
 last_reorg_date: '2026-05-13'
-sources_7d: 9
+sources_7d: 7
 sources_30d: 29
 recent_mentions:
+- slug: 2026-07-28-exclusive-eth-zurich-spinout-zuriq-raises-255m-seed---sifted
+  title: 'Exclusive: ETH Zurich spinout ZuriQ raises $25.5m seed - Sifted'
+  date: '2026-07-28'
+  kind: web
 - slug: 2026-07-24-18b-illinois-chips-act-supports-zero-point-cryogenics-us-ent
   title: $1.8B Illinois Chips Act Supports Zero Point Cryogenics’ U.S. Entry - Quantum Zeitgeist
   date: '2026-07-24'
@@ -79,10 +83,6 @@ recent_mentions:
 - slug: 2026-06-25-quantum-roadmap-funded-not-demand-funded-q2-2026-bit-by
   title: 'Q2 2026 Bit by Qubit: Global Quantum Computing Funding Hits New Records and Is Accelerating'
   date: '2026-06-25'
-  kind: web
-- slug: 2026-06-20-d-wave-quantum-nyse-qbts-secures-100-million-federal-loi-und
-  title: 'D-Wave Quantum (NYSE: QBTS) Secures $100 Million Federal LOI Under CHIPS Act To Accelerate Quantum Computing Development - foreignpolicyjournal.com'
-  date: '2026-06-20'
   kind: web
 neighbors: []
 ---

@@ -26,15 +26,20 @@ sources:
 - '[[2023-03-05-interview-dr-hyoduk-shin-professor]]'
 - '[[2023-04-05-interview-stijn-christiaens-ceo-of]]'
 - '[[2023-05-05-interview-rick-hao-partner-at-speedinvest]]'
+- '[[2026-07-28-zk-identity-primitives-commoditised]]'
 frontier: []
 last_updated: '2026-06-01'
 tags:
 - concept
 - seeded-stub
-mention_count: 18
-sources_7d: 0
-sources_30d: 0
+mention_count: 19
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
+- slug: 2026-07-28-zk-identity-primitives-commoditised
+  title: Google open-sources its ZKP libraries, the EU ships an open-source age-verification blueprint, and eIDAS 2.0 encourages ZKP in the wallet
+  date: '2026-04-15'
+  kind: web
 - slug: 2025-10-09-a-specific-theory-of-sovereign-ai
   title: A Specific Theory of Sovereign AI
   date: '2025-10-09'
@@ -62,10 +67,6 @@ recent_mentions:
 - slug: 2023-06-08-three-overrated-technologies-from
   title: '💡E03: Three Overrated Technologies from the Future Fusion, Bitcoin & LEO Internet + Ultrasound for Hibernation; Wind Power; Skeletal Editing; Carbon Pricing; & Psychedelics++'
   date: '2023-06-08'
-  kind: substack
-- slug: 2023-05-20-interview-jordan-brandt-ceo-of-inpher
-  title: '☎️ Interview: Jordan Brandt, CEO of Inpher on the State of Privacy-Enhancing Technologies'
-  date: '2023-05-20'
   kind: substack
 neighbors: []
 ---

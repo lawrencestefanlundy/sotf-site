@@ -22,7 +22,7 @@ tags:
 - technology
 mention_count: 198
 last_reorg_date: '2026-05-13'
-sources_7d: 14
+sources_7d: 12
 sources_30d: 41
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026

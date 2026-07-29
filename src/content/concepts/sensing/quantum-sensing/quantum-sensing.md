@@ -26,7 +26,7 @@ descendants:
 - quantum-magnetometry
 - quantum-sensing
 last_reorg_date: '2026-05-13'
-sources_7d: 18
+sources_7d: 15
 sources_30d: 46
 recent_mentions:
 - slug: 2026-07-21-precision-astrometry-using-optically-independent-spacecraft-

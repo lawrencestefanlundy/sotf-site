@@ -17,7 +17,7 @@ tags:
 - material
 mention_count: 39
 last_reorg_date: '2026-05-13'
-sources_7d: 6
+sources_7d: 3
 sources_30d: 15
 recent_mentions: []
 neighbors: []

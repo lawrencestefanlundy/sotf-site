@@ -22,6 +22,7 @@ sources:
 - '[[2026-05-07-stratum-9-launches-first-industrial-grade-dect-nr-gateway---]]'
 - '[[2024-11-15-conexio-stratus-pro-nrf9151-low-power-iot-development-kit-su]]'
 - '[[2026-04-01-non-cellular-5g-for-pro-av-dect-nr---avnetwork]]'
+- '[[2024-02-28-distributech-2024-nordic-semiconductor-unveils-the-power-of-]]'
 - '[[2025-11-03-sennheiser-experts-to-explore-dect-nr-opportunities-at-dect-]]'
 - '[[2023-08-16-the-first-non-cellular-5g-standard-dect-nr---5g-technology-w]]'
 - '[[2025-10-23-merci-project-takes-dect-nr-from-vision-to-reality---sennhei]]'
@@ -35,7 +36,7 @@ last_updated: '2026-06-05'
 tags:
 - concept
 - technology
-mention_count: 21
+mention_count: 22
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0

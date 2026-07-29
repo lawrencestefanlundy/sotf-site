@@ -80,7 +80,7 @@ descendants:
 - storage-class-memory
 - token-cost-stack
 last_reorg_date: '2026-05-14'
-sources_7d: 2
+sources_7d: 0
 sources_30d: 14
 recent_mentions:
 - slug: 2026-07-25-thoughts-on-ai-and-power

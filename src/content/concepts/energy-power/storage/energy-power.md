@@ -84,6 +84,10 @@ recent_mentions:
   title: Why energy bills may keep rising, even as utilities join Trump’s AI ratepayer pledge - Latitude Media
   date: '2026-07-23'
   kind: web
+- slug: 2026-07-21-bnef-nearly-doubled-its-forecast-for-us-data-center-power-de
+  title: BNEF nearly doubled its forecast for US data center power demand - Latitude Media
+  date: '2026-07-21'
+  kind: web
 - slug: 2026-07-20-making-sense-of-the-data-center-backlash
   title: Making sense of the data center backlash
   date: '2026-07-20'
@@ -107,10 +111,6 @@ recent_mentions:
 - slug: 2026-07-09-inside-the-ai-power-wars---latitude-media
   title: Inside the AI power wars - Latitude Media
   date: '2026-07-09'
-  kind: web
-- slug: 2023-11-16-barriers-to-next-gen-geothermal---institute-for-progress-ifp
-  title: Barriers to Next-Gen Geothermal - Institute for Progress (IFP)
-  date: '2023-11-16'
   kind: web
 neighbors: []
 ---

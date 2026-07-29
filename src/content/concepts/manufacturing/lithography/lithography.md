@@ -47,7 +47,7 @@ descendants:
 - xolography
 last_reorg_date: '2026-05-13'
 sources_7d: 1
-sources_30d: 14
+sources_30d: 13
 recent_mentions:
 - slug: 2026-07-09-in-die-microfluidic-cooling-sprint
   title: In-die microfluidic cooling — cluster research sprint

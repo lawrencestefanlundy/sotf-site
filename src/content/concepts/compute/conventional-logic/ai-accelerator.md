@@ -53,6 +53,10 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 1
 recent_mentions:
+- slug: 2026-07-28-south-korea-to-introduce-k-chips-act-tax-credits-for-domesti
+  title: South Korea to Introduce 'K-Chips Act' Tax Credits for Domestic Production of Semiconductors, AI Robots, and More Next Year - finance.biggo.com
+  date: '2026-07-28'
+  kind: web
 - slug: 2026-07-25-thoughts-on-ai-and-power
   title: Thoughts on AI and power
   date: '2026-07-25'
@@ -81,10 +85,6 @@ recent_mentions:
   title: 'EnclaveX: End-to-End Confidential AI with CPU/GPU TEEs'
   date: '2026-07-01'
   kind: paper
-- slug: 2026-06-23-semidoped-daily-update
-  title: Semi Doped — Daily Update, June 23rd 2026
-  date: '2026-06-23'
-  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

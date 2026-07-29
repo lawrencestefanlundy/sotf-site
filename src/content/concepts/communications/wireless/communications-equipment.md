@@ -37,6 +37,10 @@ recent_mentions:
   title: HMS Networks Releases the World’s First Industrial 5G Router and Starterkit - Industrial Engineering News Europe
   date: '2025-10-21'
   kind: web
+- slug: 2024-02-28-distributech-2024-nordic-semiconductor-unveils-the-power-of-
+  title: 'DISTRIBUTECH 2024: Nordic Semiconductor Unveils the Power of DECT NR+ for Private Networks - MarketScale'
+  date: '2024-02-28'
+  kind: web
 - slug: 2022-05-26-industrial-networks-keep-growing-despite-challenging-times--
   title: Industrial networks keep growing despite challenging times - Design World
   date: '2022-05-26'

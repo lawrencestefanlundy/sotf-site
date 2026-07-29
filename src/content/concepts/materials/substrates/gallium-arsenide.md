@@ -21,7 +21,7 @@ tags:
 - material
 mention_count: 57
 last_reorg_date: '2026-05-13'
-sources_7d: 4
+sources_7d: 3
 sources_30d: 17
 recent_mentions:
 - slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape

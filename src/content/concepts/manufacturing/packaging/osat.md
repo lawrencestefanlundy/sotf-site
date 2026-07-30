@@ -48,8 +48,8 @@ tags:
 - category
 - packaging
 - supply-chain
-mention_count: 73
-sources_7d: 7
+mention_count: 74
+sources_7d: 4
 sources_30d: 18
 recent_mentions:
 - slug: 2026-07-27-cxmt-star-market-debut

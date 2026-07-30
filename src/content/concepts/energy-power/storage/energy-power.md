@@ -80,6 +80,10 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-07-29-does-blue-state-purge-hit-a-transmission-project-promising-c
+  title: DOE’s blue-state purge hit a transmission project promising cost savings - Latitude Media
+  date: '2026-07-29'
+  kind: web
 - slug: 2026-07-23-why-energy-bills-may-keep-rising-even-as-utilities-join-trum
   title: Why energy bills may keep rising, even as utilities join Trump’s AI ratepayer pledge - Latitude Media
   date: '2026-07-23'
@@ -107,10 +111,6 @@ recent_mentions:
 - slug: 2026-07-10-eastern-data-western-compute-is-fake
   title: “Eastern Data, Western Compute” is Fake
   date: '2026-07-10'
-  kind: web
-- slug: 2026-07-09-inside-the-ai-power-wars---latitude-media
-  title: Inside the AI power wars - Latitude Media
-  date: '2026-07-09'
   kind: web
 neighbors: []
 ---

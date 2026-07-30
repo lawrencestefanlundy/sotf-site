@@ -33,8 +33,8 @@ tags:
 - technology
 mention_count: 337
 last_reorg_date: '2026-05-13'
-sources_7d: 4
-sources_30d: 13
+sources_7d: 2
+sources_30d: 12
 recent_mentions:
 - slug: 2026-07-21-a-new-compact-instrument-enables-high-fidelity-measurements-
   title: A New Compact Instrument Enables High-Fidelity Measurements of Energetic Particles on CubeSats

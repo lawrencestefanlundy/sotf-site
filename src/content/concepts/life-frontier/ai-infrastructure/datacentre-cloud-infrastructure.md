@@ -20,6 +20,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-07-29-does-blue-state-purge-hit-a-transmission-project-promising-c
+  title: DOE’s blue-state purge hit a transmission project promising cost savings - Latitude Media
+  date: '2026-07-29'
+  kind: web
 - slug: 2026-07-24-18b-illinois-chips-act-supports-zero-point-cryogenics-us-ent
   title: $1.8B Illinois Chips Act Supports Zero Point Cryogenics’ U.S. Entry - Quantum Zeitgeist
   date: '2026-07-24'
@@ -46,10 +50,6 @@ recent_mentions:
   kind: web
 - slug: 2026-07-17-the-data-center-backlash-isnt-just-nimbyism
   title: The data center backlash isn’t just NIMBYism
-  date: '2026-07-17'
-  kind: web
-- slug: 2026-07-17-the-off-grid-data-center-fantasy---latitude-media
-  title: The off-grid data center fantasy - Latitude Media
   date: '2026-07-17'
   kind: web
 neighbors: []

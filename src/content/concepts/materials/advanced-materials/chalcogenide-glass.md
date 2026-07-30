@@ -32,7 +32,7 @@ tags:
 - chalcogenide
 - mid-ir
 - programmable-photonics
-mention_count: 2
+mention_count: 3
 last_reorg_date: '2026-05-13'
 sources_7d: 1
 sources_30d: 1

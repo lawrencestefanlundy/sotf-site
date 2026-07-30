@@ -29,30 +29,10 @@ recent_mentions:
   title: 🔬 The Lab of the Future Should Feel Like a Data Center — Andy Beam & Rafa Gómez-Bombarelli, Lila Sciences
   date: '2026-07-16'
   kind: web
-- slug: 2026-06-24-arxiv-autospec-safety-rule-evolution-for-llm-agents-via-inductive-
-  title: 'AutoSpec: Safety Rule Evolution for LLM Agents via Inductive Logic Programming'
-  date: '2026-06-24'
-  kind: paper
-- slug: 2026-06-17-arxiv-breaking-the-code-security-assessment-of-ai-code-agents-thro
-  title: 'Breaking the Code: Security Assessment of AI Code Agents Through Systematic Jailbreaking Attacks'
-  date: '2026-06-17'
-  kind: paper
-- slug: 2026-06-16-arxiv-a-security-analysis-of-long-horizon-agentic-ai-systems-threa
-  title: 'A Security Analysis of Long-Horizon Agentic AI Systems: Threats, Evaluation, and Framework Development'
-  date: '2026-06-16'
-  kind: paper
-- slug: 2026-06-16-arxiv-benign-in-isolation-harmful-in-composition-security-risks-in
-  title: 'Benign in Isolation, Harmful in Composition: Security Risks in Agent Skill Ecosystems'
-  date: '2026-06-16'
-  kind: paper
-- slug: 2026-06-16-arxiv-a-survey-on-agentic-security-applications-threats-and-defens
-  title: 'A Survey on Agentic Security: Applications, Threats and Defenses'
-  date: '2026-06-16'
-  kind: paper
-- slug: 2026-06-15-arxiv-hidden-in-plain-sight-benchmarking-agent-safety-against-deco
-  title: 'Hidden in Plain Sight: Benchmarking Agent Safety Against Decomposition Attacks with DECOMPBENCH'
-  date: '2026-06-15'
-  kind: paper
+- slug: 2025-10-09-wi-fi-7-advanced-integrates-sensing-iot-and-ai-security-into
+  title: Wi-Fi 7 Advanced integrates sensing, IoT, and AI security into 10Gbps wireless networks - TechRadar
+  date: '2025-10-09'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

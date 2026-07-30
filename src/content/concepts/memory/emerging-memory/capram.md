@@ -35,7 +35,7 @@ tags:
 - product-brand
 mention_count: 41
 sources_7d: 0
-sources_30d: 10
+sources_30d: 8
 recent_mentions: []
 neighbors:
 - slug: memcapacitor

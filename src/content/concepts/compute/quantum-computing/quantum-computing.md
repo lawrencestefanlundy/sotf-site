@@ -31,7 +31,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 463
+mention_count: 472
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -49,8 +49,8 @@ descendants:
 - topological-qubits
 - trapped-ion
 last_reorg_date: '2026-05-13'
-sources_7d: 7
-sources_30d: 29
+sources_7d: 8
+sources_30d: 26
 recent_mentions:
 - slug: 2026-07-28-exclusive-eth-zurich-spinout-zuriq-raises-255m-seed---sifted
   title: 'Exclusive: ETH Zurich spinout ZuriQ raises $25.5m seed - Sifted'

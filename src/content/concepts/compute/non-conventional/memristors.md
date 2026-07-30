@@ -18,7 +18,7 @@ tags:
 - material
 mention_count: 10
 last_reorg_date: '2026-05-14'
-sources_7d: 3
+sources_7d: 1
 sources_30d: 3
 recent_mentions:
 - slug: 2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth

@@ -17,10 +17,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 120
+mention_count: 125
 last_reorg_date: '2026-05-13'
-sources_7d: 11
-sources_30d: 37
+sources_7d: 10
+sources_30d: 33
 recent_mentions:
 - slug: 2024-12-16-willow-and-the-race-to-quantum-advantage
   title: Willow and The Race to Quantum Advantage (Feat. Kris Kaczmarek)

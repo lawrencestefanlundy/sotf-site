@@ -33,9 +33,9 @@ tags:
 - concept
 descendants:
 - diffractive-deep-neural-network
-mention_count: 17
-sources_7d: 0
-sources_30d: 3
+mention_count: 18
+sources_7d: 1
+sources_30d: 4
 recent_mentions:
 - slug: 2026-06-16-trapped-ion-landscape-2026
   title: Trapped-ion quantum computing landscape 2026 (vendors, scale, integrated photonics)

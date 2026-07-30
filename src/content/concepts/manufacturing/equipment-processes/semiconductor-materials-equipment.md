@@ -25,6 +25,18 @@ descendants:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-07-29-aeluma-signs-letter-of-intent-for-30m-chips-act-funding---in
+  title: Aeluma signs letter of intent for $30M CHIPS Act funding - Investing.com
+  date: '2026-07-29'
+  kind: web
+- slug: 2026-07-29-aeluma-signs-letter-of-intent-for-30-million-in-chips-act-fu
+  title: Aeluma Signs Letter of Intent for $30 Million in CHIPS Act Funding - marketscreener.com
+  date: '2026-07-29'
+  kind: web
+- slug: 2026-07-29-aeluma-secures-loi-for-up-to-30-million-in-chips-act-funding
+  title: Aeluma Secures LOI for Up to $30 Million in CHIPS Act Funding to Advance Photonics Semiconductor R&D - Quiver Quantitative
+  date: '2026-07-29'
+  kind: web
 - slug: 2026-07-24-trust-stamp-selected-for-eu-advanced-semiconductor-technolog
   title: Trust Stamp selected for EU advanced semiconductor technology initiative - Proactive Investors
   date: '2026-07-24'
@@ -44,18 +56,6 @@ recent_mentions:
 - slug: 2026-07-08-the-chemistry-of-chips
   title: The Chemistry of Chips
   date: '2026-07-08'
-  kind: web
-- slug: 2025-11-06-successful-funding-round-for-empa-eth-spin-off-57-million-to
-  title: 'Successful funding round for Empa-ETH spin-off: $ 5.7 million to industrialize ultra-thin solid-state batteries - admin.ch'
-  date: '2025-11-06'
-  kind: web
-- slug: 2022-11-28-a-more-resilient-european-semiconductor-supply-requires-a-di
-  title: A more resilient European semiconductor supply requires a different approach - The Parliament Magazine
-  date: '2022-11-28'
-  kind: web
-- slug: 2022-02-08-eu-offers-ambitious-chips-law-that-may-struggle-to-deliver-f
-  title: EU Offers Ambitious Chips Law That May Struggle to Deliver Funds - Bloomberg.com
-  date: '2022-02-08'
   kind: web
 neighbors: []
 ---

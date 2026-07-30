@@ -38,6 +38,18 @@ descendants:
 sources_7d: 3
 sources_30d: 12
 recent_mentions:
+- slug: 2026-07-29-aeluma-signs-letter-of-intent-for-30m-chips-act-funding---in
+  title: Aeluma signs letter of intent for $30M CHIPS Act funding - Investing.com
+  date: '2026-07-29'
+  kind: web
+- slug: 2026-07-29-aeluma-signs-letter-of-intent-for-30-million-in-chips-act-fu
+  title: Aeluma Signs Letter of Intent for $30 Million in CHIPS Act Funding - marketscreener.com
+  date: '2026-07-29'
+  kind: web
+- slug: 2026-07-29-aeluma-secures-loi-for-up-to-30-million-in-chips-act-funding
+  title: Aeluma Secures LOI for Up to $30 Million in CHIPS Act Funding to Advance Photonics Semiconductor R&D - Quiver Quantitative
+  date: '2026-07-29'
+  kind: web
 - slug: 2026-06-01-nibras-ucl-chipstart
   title: UCL EEE ventures selected for national ChipStart programme (incl. Nibras Communications)
   date: '2026-06-01'
@@ -57,10 +69,6 @@ recent_mentions:
 - slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
   title: 'UK Opportunity in AI: Compound Semiconductors'
   date: '2025-09-10'
-  kind: substack
-- slug: 2025-04-16-the-state-of-photonic-computing
-  title: 'Photonic Computing: A Primer'
-  date: '2025-04-16'
   kind: substack
 neighbors: []
 ---

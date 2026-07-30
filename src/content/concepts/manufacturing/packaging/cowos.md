@@ -32,10 +32,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 876
+mention_count: 886
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 11
+sources_30d: 9
 recent_mentions:
 - slug: 2026-07-25-thoughts-on-ai-and-power
   title: Thoughts on AI and power

@@ -30,7 +30,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 47
+mention_count: 49
 descendants:
 - adc-bottleneck
 - analog-in-memory-compute

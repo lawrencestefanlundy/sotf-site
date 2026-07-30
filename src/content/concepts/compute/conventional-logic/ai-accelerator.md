@@ -81,10 +81,10 @@ recent_mentions:
   title: Why AI Infrastructure must evolve for Agent Experience — Akshat Bubna, Modal CTO
   date: '2026-07-08'
   kind: web
-- slug: 2026-07-01-arxiv-enclavex-end-to-end-confidential-ai-with-cpugpu-tees
-  title: 'EnclaveX: End-to-End Confidential AI with CPU/GPU TEEs'
-  date: '2026-07-01'
-  kind: paper
+- slug: 2026-06-23-semidoped-daily-update
+  title: Semi Doped — Daily Update, June 23rd 2026
+  date: '2026-06-23'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

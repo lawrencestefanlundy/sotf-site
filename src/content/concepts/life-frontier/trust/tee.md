@@ -22,8 +22,8 @@ tags:
 - technology
 mention_count: 15
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 3
+sources_7d: 0
+sources_30d: 2
 recent_mentions:
 - slug: 2026-01-21-confidential-computing-hardware-tee-integration-in-cpus
   title: Hardware TEE Integration in CPUs/GPUs Accelerating

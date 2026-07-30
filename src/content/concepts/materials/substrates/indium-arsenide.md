@@ -22,9 +22,9 @@ frontier:
 last_updated: '2026-06-02'
 tags:
 - concept
-mention_count: 17
-sources_7d: 1
-sources_30d: 4
+mention_count: 18
+sources_7d: 2
+sources_30d: 5
 recent_mentions: []
 neighbors:
 - slug: indium-antimonide

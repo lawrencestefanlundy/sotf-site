@@ -24,7 +24,7 @@ tags:
 - concept
 mention_count: 21
 sources_7d: 0
-sources_30d: 3
+sources_30d: 2
 recent_mentions:
 - slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
   title: 'UK Opportunity in AI: Compound Semiconductors'

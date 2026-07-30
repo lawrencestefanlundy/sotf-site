@@ -31,9 +31,6 @@ sources:
 - '[[2026-07-02-semianalysis-ectc2026-advanced-packaging]]'
 - '[[2026-06-01-tech-inflation-silicon-shock-rapid-contract-price-surge]]'
 - '[[2026-01-01-data-value-migrates-to-retrieval-layer-ai-agent-memory-2026]]'
-- '[[2026-07-03-tech-inflation-silicon-shock-ai-server-demand-continues-to]]'
-- '[[2025-26-lapedus-next-gen-ferroelectric-memory]]'
-- '[[2024-09-26-sk-hynix-12-layer-hbm3e-volume-production]]'
 frontier:
 - Does CXMT convert its 12%-of-global-HBM-*wafer*-share (2028, SemiAnalysis) into competitive HBM *bit* share, or does ~25% 8-hi stacking yield cap it as low-grade domestic supply?
 - Does Chinese domestic DRAM (CXMT ~11%→17% of global capacity by 2028) tip commodity DDR5 into oversupply and break the ASP super-cycle?
@@ -41,10 +38,10 @@ last_updated: '2026-06-23'
 tags:
 - concept
 - technology
-mention_count: 139
+mention_count: 143
 last_reorg_date: '2026-05-14'
-sources_7d: 3
-sources_30d: 20
+sources_7d: 5
+sources_30d: 22
 recent_mentions:
 - slug: 2026-07-27-cxmt-star-market-debut
   title: CXMT's 466% STAR Market debut makes it China's most valuable mainland-listed company

@@ -21,10 +21,6 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
-- slug: 2026-06-18-arxiv-cheri-d-secure-and-efficient-inline-object-id-for-cheri-temp
-  title: 'CHERI-D: Secure and efficient inline object ID for CHERI temporal memory safety'
-  date: '2026-06-18'
-  kind: paper
 - slug: 2022-06-15-owner-of-uk-chip-designer-arm-may-float-some-of-firms-shares
   title: Owner of UK chip designer Arm may float some of firm’s shares in London - The Guardian
   date: '2022-06-15'

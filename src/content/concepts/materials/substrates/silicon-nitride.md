@@ -28,7 +28,7 @@ tags:
 - material
 mention_count: 75
 last_reorg_date: '2026-05-13'
-sources_7d: 5
+sources_7d: 4
 sources_30d: 17
 recent_mentions:
 - slug: 2026-06-16-trapped-ion-landscape-2026

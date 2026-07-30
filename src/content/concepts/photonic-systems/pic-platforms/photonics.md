@@ -42,7 +42,7 @@ last_updated: '2026-07-26'
 tags:
 - concept
 - theme
-mention_count: 908
+mention_count: 920
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -52,9 +52,13 @@ descendants:
 - optical-frequency-division
 - optoelectronic-oscillator
 last_reorg_date: '2026-05-13'
-sources_7d: 0
+sources_7d: 1
 sources_30d: 10
 recent_mentions:
+- slug: 2026-07-29-aeluma-secures-loi-for-up-to-30-million-in-chips-act-funding
+  title: Aeluma Secures LOI for Up to $30 Million in CHIPS Act Funding to Advance Photonics Semiconductor R&D - Quiver Quantitative
+  date: '2026-07-29'
+  kind: web
 - slug: 2026-07-22-photonics21-welcomes-chips-act-20-inclusion-of-photonics---o
   title: Photonics21 welcomes Chips Act 2.0 inclusion of photonics - Optics.org
   date: '2026-07-22'
@@ -82,10 +86,6 @@ recent_mentions:
 - slug: 2026-07-02-pilot-photonics-awarded-104-million-from-european-innovation
   title: PILOT PHOTONICS AWARDED €10.4 MILLION FROM EUROPEAN INNOVATION COUNCIL - PR Newswire
   date: '2026-07-02'
-  kind: web
-- slug: 2026-06-23-semidoped-daily-update
-  title: Semi Doped — Daily Update, June 23rd 2026
-  date: '2026-06-23'
   kind: web
 neighbors: []
 ---

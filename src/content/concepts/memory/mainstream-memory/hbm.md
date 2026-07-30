@@ -58,9 +58,9 @@ public_expressions:
 - 000660.KS
 - 005930.KS
 - MU
-mention_count: 60
-sources_7d: 1
-sources_30d: 15
+mention_count: 62
+sources_7d: 2
+sources_30d: 16
 recent_mentions:
 - slug: 2026-07-27-cxmt-star-market-debut
   title: CXMT's 466% STAR Market debut makes it China's most valuable mainland-listed company

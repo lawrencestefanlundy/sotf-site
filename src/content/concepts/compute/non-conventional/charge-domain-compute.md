@@ -26,7 +26,7 @@ tags:
 - in-memory-compute
 mention_count: 1
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions: []
 neighbors:
 - slug: memcapacitor

@@ -27,7 +27,7 @@ last_updated: '2026-05-08'
 tags:
 - concept
 - technology
-mention_count: 165
+mention_count: 166
 descendants:
 - computational-lithography
 - directed-self-assembly
@@ -47,7 +47,7 @@ descendants:
 - xolography
 last_reorg_date: '2026-05-13'
 sources_7d: 1
-sources_30d: 12
+sources_30d: 11
 recent_mentions:
 - slug: 2026-07-09-in-die-microfluidic-cooling-sprint
   title: In-die microfluidic cooling — cluster research sprint

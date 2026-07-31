@@ -28,7 +28,7 @@ last_reorg_date: '2026-05-14'
 descendants:
 - spiking-neural-networks
 sources_7d: 4
-sources_30d: 15
+sources_30d: 14
 recent_mentions:
 - slug: 2026-06-17-femtoai-spu-ces2026
   title: femtoAI to Highlight its Sparse Processing Unit Edge AI Accelerator at CES 2026

@@ -40,7 +40,7 @@ descendants:
 - mlc-llm
 mention_count: 37
 sources_7d: 1
-sources_30d: 10
+sources_30d: 9
 recent_mentions:
 - slug: 2026-05-14-nasa-draws-on-industry-for-mars-telecommunications-network
   title: NASA Draws on Industry for Mars Telecommunications Network

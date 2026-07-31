@@ -20,7 +20,7 @@ tags:
 mention_count: 49
 last_reorg_date: '2026-05-13'
 sources_7d: 2
-sources_30d: 20
+sources_30d: 19
 recent_mentions:
 - slug: 2026-07-21-robotically-assembled-electromagnetic-metamaterials-for-long
   title: Robotically Assembled Electromagnetic Metamaterials for Long-Range Space Situational Awareness

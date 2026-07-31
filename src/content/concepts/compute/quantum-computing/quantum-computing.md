@@ -31,7 +31,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 472
+mention_count: 489
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -49,7 +49,7 @@ descendants:
 - topological-qubits
 - trapped-ion
 last_reorg_date: '2026-05-13'
-sources_7d: 8
+sources_7d: 5
 sources_30d: 26
 recent_mentions:
 - slug: 2026-07-28-exclusive-eth-zurich-spinout-zuriq-raises-255m-seed---sifted

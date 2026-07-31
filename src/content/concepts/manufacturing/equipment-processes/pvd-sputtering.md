@@ -2,33 +2,73 @@
 type: concept
 slug: pvd-sputtering
 canonical_name: PVD / Sputtering
-aliases: []
+aliases:
+- PVD
+- physical vapor deposition
+- sputtering
+- magnetron sputtering
+- HiPIMS
+- ion beam sputtering
+- IBS
+- IBD
+- ion beam deposition
 kind: technology
 parent_concepts:
 - manufacturing
 - equipment-processes
-related_concepts: []
+- deposition
+related_concepts:
+- chemical-vapor-deposition
+- ald-atomic-layer-deposition
+- ru-w-co-metallisation
+- low-k-dielectrics
+- thin-films-coatings
+- semiconductor-equipment
 sources: []
 frontier:
-- ''
-last_updated: '2026-05-04'
+- Can any ion-beam deposition reach HVM throughput? Every prior IBD-to-HVM attempt died on rate; the live test is Halltech's 12-inch demonstrator and the Sept/Oct 2026 Intel coupon path.
+- 'Cu-to-Ru/Mo at <=17nm lines (2027-29): how does the seed/barrier/fill split fall between PVD seed, ALD/CVD fill, and IBD-quality films? IBD has published superiority for Ru (IEEE IITC 2022).'
+- Does AMAT's PVD dominance ('free ride', per Lam's own read) ever get contested, or does the segment stay a one-vendor toll?
+- 'HiPIMS: does near-100% ionisation move beyond hard coatings and specialty niches into mainstream semi metallisation?'
+- 'Powder/bulk-feedstock PVD (LAYRR): does coating the feedstock rather than the wafer open a materials-supply business the tool oligopoly never fights for?'
+last_updated: '2026-07-30'
 tags:
 - concept
 - technology
-mention_count: 0
+mention_count: 32
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 9
 recent_mentions: []
-neighbors: []
+neighbors:
+- slug: ald-atomic-layer-deposition
+  name: ALD (Atomic Layer Deposition)
+  path: /manufacturing/equipment-processes/ald-atomic-layer-deposition/
+  macro: manufacturing
+- slug: ru-w-co-metallisation
+  name: Ru / W / Co Metallisation
+  path: /manufacturing/equipment-processes/ru-w-co-metallisation/
+  macro: manufacturing
+- slug: low-k-dielectrics
+  name: Low-K Dielectrics
+  path: /materials/functional-layers/low-k-dielectrics/
+  macro: materials
+- slug: thin-films-coatings
+  name: Thin Films & Coatings
+  path: /materials/advanced-materials/thin-films-coatings/
+  macro: materials
+- slug: semiconductor-equipment
+  name: Semiconductor Equipment
+  path: /manufacturing/equipment-processes/semiconductor-equipment/
+  macro: manufacturing
 ---
 ## Physics / mechanism
 
-Physical vapour deposition via sputtering ejects target atoms by bombarding a solid source with energetic ions (typically Ar⁺ from a plasma). Ejected neutrals traverse a vacuum chamber and condense on the substrate. Key variants: DC sputtering (conductive targets), RF (insulators), magnetron (magnets trap electrons near target, boosting ionisation efficiency and reducing substrate damage), and HiPIMS (high-power impulse magnetron sputtering — peak power densities >kW/cm², near-100% ionisation of flux). Deposition rates: 1–100 nm/min depending on target material and power. Step coverage improves with ionised PVD (iPVD) but remains inferior to CVD/ALD. Dominant materials: Al, Cu, TiN, W, ITO, phase-change alloys, piezoelectrics (AlN, PZT). Used for barrier/seed layers, back-end metallisation, optical coatings, MEMS electrodes.
+## Market structure
 
-## Competitive landscape
+## Where the KB's companies sit
 
-CVD and ALD compete directly for conformal films on high-aspect-ratio features; sputtering wins on throughput, material diversity, and cost for planar or shallow geometries. Evaporation (thermal/e-beam) competes for simpler single-element films but lacks alloy stoichiometry control. Electroplating dominates Cu interconnect fill post-seed. In photonics and advanced packaging, sputtering retains strong position for thick metal stacks and specialty dielectrics.
+## Where value is capturable (routing)
 
 ## Companies using
 
@@ -41,7 +81,3 @@ CVD and ALD compete directly for conformal films on high-aspect-ratio features; 
 ## Sources
 
 <!-- dataview block stripped for public site -->
-
-## Frontier (open questions)
-
-- *To be added.*

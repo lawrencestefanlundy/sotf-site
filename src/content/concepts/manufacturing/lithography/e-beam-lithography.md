@@ -56,12 +56,16 @@ last_updated: '2026-06-02'
 tags:
 - concept
 - technology
-mention_count: 1377
+mention_count: 1397
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 1
 sources_30d: 9
 recent_mentions:
+- slug: 2026-07-29-aeluma-secures-loi-for-up-to-30-million-in-chips-act-funding
+  title: Aeluma Secures LOI for Up to $30 Million in CHIPS Act Funding to Advance Photonics Semiconductor R&D - Quiver Quantitative
+  date: '2026-07-29'
+  kind: web
 - slug: 2026-07-25-thoughts-on-ai-and-power
   title: Thoughts on AI and power
   date: '2026-07-25'
@@ -89,10 +93,6 @@ recent_mentions:
 - slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape
   title: Neutral PDK / EDA layer for heterogeneous photonic integration — landscape check (Scintil essay correction research)
   date: '2026-07-11'
-  kind: web
-- slug: 2026-07-09-munichs-quantumdiamonds-raises-91-million-to-scale-its-quant
-  title: Munich’s QuantumDiamonds raises €91 million to scale its quantum-based semiconductor inspection technology - EU-Startups
-  date: '2026-07-09'
   kind: web
 neighbors:
 - slug: maskless-lithography

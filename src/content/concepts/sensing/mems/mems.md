@@ -38,7 +38,7 @@ descendants:
 - sensors
 - spectral-sensing
 sources_7d: 4
-sources_30d: 14
+sources_30d: 13
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'

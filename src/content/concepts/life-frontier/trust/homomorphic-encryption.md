@@ -28,10 +28,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 35
+mention_count: 38
 last_reorg_date: '2026-05-13'
-sources_7d: 4
-sources_30d: 12
+sources_7d: 7
+sources_30d: 15
 recent_mentions:
 - slug: 2025-10-09-a-specific-theory-of-sovereign-ai
   title: A Specific Theory of Sovereign AI

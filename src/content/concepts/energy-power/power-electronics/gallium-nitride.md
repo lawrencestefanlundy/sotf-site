@@ -35,9 +35,9 @@ tags:
 descendants:
 - aluminium-gallium-nitride
 - indium-gallium-nitride
-mention_count: 23
-sources_7d: 0
-sources_30d: 3
+mention_count: 25
+sources_7d: 1
+sources_30d: 4
 recent_mentions:
 - slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint
   title: 'What actually limits a humanoid to minutes: the thermal cliff, not the battery'

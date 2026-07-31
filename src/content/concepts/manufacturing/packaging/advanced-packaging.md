@@ -33,14 +33,14 @@ last_updated: '2026-07-26'
 tags:
 - concept
 - technology
-mention_count: 160
+mention_count: 163
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration
 - micro-transfer-printing
 - osat
 last_reorg_date: '2026-05-13'
-sources_7d: 1
+sources_7d: 2
 sources_30d: 10
 recent_mentions:
 - slug: 2026-07-25-thoughts-on-ai-and-power

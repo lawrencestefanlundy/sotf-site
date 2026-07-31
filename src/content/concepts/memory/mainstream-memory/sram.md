@@ -36,7 +36,7 @@ tags:
 mention_count: 85
 last_reorg_date: '2026-05-14'
 sources_7d: 5
-sources_30d: 24
+sources_30d: 23
 recent_mentions:
 - slug: 2026-07-25-thoughts-on-ai-and-power
   title: Thoughts on AI and power

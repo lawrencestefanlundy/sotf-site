@@ -32,7 +32,7 @@ tags:
 - map
 mention_count: 24
 sources_7d: 4
-sources_30d: 11
+sources_30d: 9
 recent_mentions:
 - slug: 2026-07-10-workload-phase-silicon-sweep
   title: 'Workload-phase silicon sweep: pre-training / RL / prefill / decode procurement split'

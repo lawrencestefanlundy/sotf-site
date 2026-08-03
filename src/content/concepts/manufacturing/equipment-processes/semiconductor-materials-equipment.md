@@ -25,6 +25,30 @@ descendants:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-01-on-semiconductor-stock-and-2-chip-picks-near-the-chips-act-f
+  title: ON Semiconductor Stock and 2 Chip Picks Near the CHIPS Act Funding Shift - simplywall.st
+  date: '2026-08-01'
+  kind: web
+- slug: 2026-07-31-commerce-dept-signs-874-million-in-chips-act-incentives-with
+  title: Commerce Dept. Signs $874 Million in CHIPS Act Incentives With Seven Companies - marketscreener.com
+  date: '2026-07-31'
+  kind: web
+- slug: 2026-07-31-memory-optics-packaging-chips-act-targets-ais-compute-bottle
+  title: 'Memory, optics, packaging: CHIPS Act targets AI''s compute bottleneck - Electronics360'
+  date: '2026-07-31'
+  kind: web
+- slug: 2026-07-31-halt-der-eu-chips-act-20-was-er-verspricht-championnat-darab
+  title: Hält Der EU-Chips-Act 2.0, Was Er Verspricht? Championnat D'arabie Saoudite (0AbPIbOWRq) - Mshale
+  date: '2026-07-31'
+  kind: web
+- slug: 2026-07-30-commerce-department-signs-874m-in-chips-act-rd-incentives---
+  title: Commerce Department Signs $874M in CHIPS Act R&D Incentives - ExecutiveGov
+  date: '2026-07-30'
+  kind: web
+- slug: 2026-07-30-chips-act-targets-the-smaller-players-powering-ai-chips---fi
+  title: CHIPS Act Targets The Smaller Players Powering AI Chips - Finimize
+  date: '2026-07-30'
+  kind: web
 - slug: 2026-07-29-aeluma-signs-letter-of-intent-for-30m-chips-act-funding---in
   title: Aeluma signs letter of intent for $30M CHIPS Act funding - Investing.com
   date: '2026-07-29'
@@ -32,30 +56,6 @@ recent_mentions:
 - slug: 2026-07-29-aeluma-signs-letter-of-intent-for-30-million-in-chips-act-fu
   title: Aeluma Signs Letter of Intent for $30 Million in CHIPS Act Funding - marketscreener.com
   date: '2026-07-29'
-  kind: web
-- slug: 2026-07-29-aeluma-secures-loi-for-up-to-30-million-in-chips-act-funding
-  title: Aeluma Secures LOI for Up to $30 Million in CHIPS Act Funding to Advance Photonics Semiconductor R&D - Quiver Quantitative
-  date: '2026-07-29'
-  kind: web
-- slug: 2026-07-24-trust-stamp-selected-for-eu-advanced-semiconductor-technolog
-  title: Trust Stamp selected for EU advanced semiconductor technology initiative - Proactive Investors
-  date: '2026-07-24'
-  kind: web
-- slug: 2026-07-20-user-clip-gen-bolduc-chips-act---c-span
-  title: 'User Clip: Gen Bolduc CHIPS Act - C-SPAN'
-  date: '2026-07-20'
-  kind: web
-- slug: 2026-07-14-europes-chips-act-a-brief-supply-chain-opinion---omdia
-  title: 'Europe’s Chips Act: A brief supply chain opinion - Omdia'
-  date: '2026-07-14'
-  kind: web
-- slug: 2026-07-13-department-of-commerce-announces-direct-funding-agreement-wi
-  title: Department of Commerce Announces Direct Funding Agreement with Bosch for a $225 Million CHIPS Program Award to Support Domestic Production of Silicon Carbide Semiconductors - National Institute of Standards and Technology (.gov)
-  date: '2026-07-13'
-  kind: web
-- slug: 2026-07-08-the-chemistry-of-chips
-  title: The Chemistry of Chips
-  date: '2026-07-08'
   kind: web
 neighbors: []
 ---

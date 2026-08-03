@@ -26,8 +26,8 @@ sources:
 - '[[2026-06-01-nibras-ucl-chipstart]]'
 - '[[2026-06-12-hku-sic-cryogenic-neuromorphic-chip-10mk]]'
 mention_count: 101
-sources_7d: 1
-sources_30d: 13
+sources_7d: 0
+sources_30d: 11
 recent_mentions: []
 neighbors: []
 ---

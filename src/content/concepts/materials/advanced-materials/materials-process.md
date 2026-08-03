@@ -22,6 +22,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-07-31-tb-26-04-webbings-for-use-in-elevated-oxygen-environments
+  title: TB 26-04 Webbings for Use in Elevated Oxygen Environments
+  date: '2026-07-31'
+  kind: web
 - slug: 2026-07-08-the-chemistry-of-chips
   title: The Chemistry of Chips
   date: '2026-07-08'

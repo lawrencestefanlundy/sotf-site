@@ -20,6 +20,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-02-shipments-of-wireless-devices-in-industrial-automation-to-re
+  title: Shipments of wireless devices in industrial automation to reach 8.5 million by 2030 - TyN Magazine
+  date: '2026-08-02'
+  kind: web
 - slug: 2026-07-08-access-point-modules-market-forecast-points-higher-toward-20
   title: Access Point Modules Market Forecast Points Higher Toward 2035, Driven by Wi-Fi 7 and Industrial Iot Expansion - IndexBox
   date: '2026-07-08'
@@ -47,10 +51,6 @@ recent_mentions:
 - slug: 2022-05-26-industrial-networks-keep-growing-despite-challenging-times--
   title: Industrial networks keep growing despite challenging times - Design World
   date: '2022-05-26'
-  kind: web
-- slug: 2014-10-02-hms-networks-buys-u-bloxs-wireless-gateways-access-points-bu
-  title: HMS Networks Buys u-blox's Wireless Gateways & Access Points Business - The Fast Mode
-  date: '2014-10-02'
   kind: web
 neighbors: []
 ---

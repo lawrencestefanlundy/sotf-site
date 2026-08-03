@@ -21,6 +21,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-07-30-ai-robotics-enters-escalating-us-protectionism-phase
+  title: AI & Robotics enters Escalating U.S. Protectionism Phase
+  date: '2026-07-30'
+  kind: web
 - slug: 2026-07-23-datacenter-capex-is-spilling-over-into-a-chatgpt-of-robotics
   title: Datacenter Capex is Spilling over into a ChatGPT of Robotics Moment set for 2027 and this decade.
   date: '2026-07-23'

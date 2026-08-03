@@ -31,7 +31,7 @@ frontier:
 - 'Molybdenum ALD/CVD fill (Lam ALTUS Halo, AMAT Centris Spectral) displacing tungsten: how fast does Mo spread beyond 3D-NAND word lines into logic contacts?'
 - 'Throughput vs layer count: GAA and 3D-NAND multiply ALD passes per wafer. Does batch/spatial ALD keep the economics, and who wins the added intensity?'
 - 'Does any venture-backed ALD/precursor/inhibitor pure-play raise a real Series A, or does all new chemistry keep exiting to Merck/Air Liquide/Entegris? (Predictions #2/#4/#6 on the theme; none found through Jun 2026.)'
-last_updated: '2026-07-30'
+last_updated: '2026-07-31'
 tags:
 - concept
 - technology

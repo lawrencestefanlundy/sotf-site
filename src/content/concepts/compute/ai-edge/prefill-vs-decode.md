@@ -32,6 +32,10 @@ mention_count: 2
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-07-31-positron-research-sprint
+  title: 'Positron AI research sprint: architecture, funding, customers, manufacturing'
+  date: '2026-07-31'
+  kind: web
 - slug: 2026-07-10-workload-phase-silicon-sweep
   title: 'Workload-phase silicon sweep: pre-training / RL / prefill / decode procurement split'
   date: '2026-07-10'

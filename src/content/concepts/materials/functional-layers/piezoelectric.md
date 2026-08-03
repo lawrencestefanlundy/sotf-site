@@ -18,8 +18,8 @@ tags:
 - technology
 mention_count: 47
 last_reorg_date: '2026-05-13'
-sources_7d: 6
-sources_30d: 17
+sources_7d: 4
+sources_30d: 15
 recent_mentions:
 - slug: 2023-08-25-e12-nanomechanical-computing-gears
   title: '🔮E12: Nanomechanical Computing- Gears of Space War? Old Ideas at New Scales'

@@ -26,7 +26,7 @@ tags:
 mention_count: 24
 last_reorg_date: '2026-05-13'
 sources_7d: 1
-sources_30d: 5
+sources_30d: 4
 recent_mentions:
 - slug: 2026-05-02-hybrid-bto-sin-ultra-low-power-tuning-acs-photonics
   title: Hybrid BTO-SiN ultra-low power tuning (ACS Photonics)

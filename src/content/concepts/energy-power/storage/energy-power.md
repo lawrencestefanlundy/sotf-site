@@ -80,6 +80,14 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-07-31-memory-fakes-and-thermodynamic-compute-chips-act-bets-874m-o
+  title: 'Memory, Fakes, and Thermodynamic Compute: CHIPS Act Bets $874M on Six AI Stack Gaps - Tech Times'
+  date: '2026-07-31'
+  kind: web
+- slug: 2026-07-30-cfs-thinks-fusion-isnt-ready-for-public-markets---latitude-m
+  title: CFS thinks fusion isn’t ready for public markets - Latitude Media
+  date: '2026-07-30'
+  kind: web
 - slug: 2026-07-29-does-blue-state-purge-hit-a-transmission-project-promising-c
   title: DOE’s blue-state purge hit a transmission project promising cost savings - Latitude Media
   date: '2026-07-29'
@@ -103,14 +111,6 @@ recent_mentions:
 - slug: 2026-07-17-the-off-grid-data-center-fantasy---latitude-media
   title: The off-grid data center fantasy - Latitude Media
   date: '2026-07-17'
-  kind: web
-- slug: 2026-07-16-five-trends-that-are-shaping-the-new-market-for-distributed-
-  title: Five trends that are shaping the new market for distributed capacity - Latitude Media
-  date: '2026-07-16'
-  kind: web
-- slug: 2026-07-10-eastern-data-western-compute-is-fake
-  title: “Eastern Data, Western Compute” is Fake
-  date: '2026-07-10'
   kind: web
 neighbors: []
 ---

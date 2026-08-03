@@ -29,10 +29,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 99
+mention_count: 100
 last_reorg_date: '2026-05-13'
 sources_7d: 7
-sources_30d: 30
+sources_30d: 26
 recent_mentions:
 - slug: 2026-07-21-robotically-assembled-electromagnetic-metamaterials-for-long
   title: Robotically Assembled Electromagnetic Metamaterials for Long-Range Space Situational Awareness

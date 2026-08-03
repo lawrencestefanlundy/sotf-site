@@ -44,8 +44,12 @@ last_reorg_date: '2026-05-14'
 descendants:
 - capram
 sources_7d: 0
-sources_30d: 3
+sources_30d: 2
 recent_mentions:
+- slug: 2026-07-31-positron-research-sprint
+  title: 'Positron AI research sprint: architecture, funding, customers, manufacturing'
+  date: '2026-07-31'
+  kind: web
 - slug: 2026-07-17-the-once-and-future-kimi
   title: The Once and Future Kimi
   date: '2026-07-17'
@@ -73,10 +77,6 @@ recent_mentions:
 - slug: 2023-07-23-analog-computing-the-once-and-future
   title: '🔮 E09: Analog Computing: The Once and Future King'
   date: '2023-07-23'
-  kind: substack
-- slug: 2023-06-23-e05-the-future-of-edge-ai-brain-inspired
-  title: '🔮 E05: Neuromorphic Computing & The Future of Edge AI'
-  date: '2023-06-23'
   kind: substack
 neighbors:
 - slug: rram-reram

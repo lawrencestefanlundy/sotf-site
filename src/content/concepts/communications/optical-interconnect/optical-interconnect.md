@@ -45,8 +45,12 @@ descendants:
 - pluggable-transceivers
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 6
+sources_30d: 5
 recent_mentions:
+- slug: 2026-07-29-serenity-globalfoundries-receives-support-from-the-us-chips-
+  title: 'Serenity: GlobalFoundries receives support from the US CHIPS Act, benefiting Sivers and Lumentum - Bitget'
+  date: '2026-07-29'
+  kind: web
 - slug: 2026-07-26-ai-backend-network-optics-2026
   title: 'Dell''Oro: AI back-end switching past $100B by 2030, optical transport $16B in 2025'
   date: '2026-07-26'
@@ -74,10 +78,6 @@ recent_mentions:
 - slug: 2026-04-15-semianalysis-isscc-2026
   title: 'ISSCC 2026: NVIDIA & Broadcom CPO, HBM4 & LPDDR6, TSMC Active LSI, Logic-Based SRAM, UCIe-S and More'
   date: '2026-04-15'
-  kind: web
-- slug: 2026-03-31-scale-up-interconnect-nvidia-s-2-billion-bet-on-marvell-the
-  title: 'NVIDIA''s $2 Billion Bet on Marvell: The Birth of the ''NVLink Fusion'' Era'
-  date: '2026-03-31'
   kind: web
 neighbors:
 - slug: optical-circuit-switching

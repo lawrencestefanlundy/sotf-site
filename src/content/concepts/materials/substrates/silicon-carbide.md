@@ -31,7 +31,7 @@ last_updated: 2026-06-02
 tags:
 - concept
 mention_count: 40
-sources_7d: 6
+sources_7d: 5
 sources_30d: 10
 recent_mentions:
 - slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint

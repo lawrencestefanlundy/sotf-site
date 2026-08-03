@@ -36,7 +36,7 @@ tags:
 mention_count: 128
 last_reorg_date: '2026-05-13'
 sources_7d: 1
-sources_30d: 20
+sources_30d: 16
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'

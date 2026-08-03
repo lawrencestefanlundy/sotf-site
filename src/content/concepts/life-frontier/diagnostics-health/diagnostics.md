@@ -28,7 +28,7 @@ mention_count: 91
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 4
-sources_30d: 32
+sources_30d: 30
 recent_mentions:
 - slug: 2026-06-04-asg-biosensor-host-cell-protein-bioprocess
   title: Startup's biosensor makes drug development and manufacturing cheaper (MIT News — Advanced Silicon Group)

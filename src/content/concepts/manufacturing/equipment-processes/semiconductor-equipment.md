@@ -29,37 +29,37 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 1
 recent_mentions:
-- slug: 2026-07-22-microns-100-billion-mega-plant-sparks-workforce-revolution-i
-  title: Micron's $100 billion mega-plant sparks workforce revolution in Central NY - Press & Sun-Bulletin
-  date: '2026-07-22'
+- slug: 2026-08-01-on-semiconductor-stock-and-2-chip-picks-near-the-chips-act-f
+  title: ON Semiconductor Stock and 2 Chip Picks Near the CHIPS Act Funding Shift - simplywall.st
+  date: '2026-08-01'
   kind: web
-- slug: 2026-07-20-user-clip-gen-bolduc-chips-act---c-span
-  title: 'User Clip: Gen Bolduc CHIPS Act - C-SPAN'
-  date: '2026-07-20'
+- slug: 2026-07-31-chips-act-equity-deals-us-gains-10-stake-in-intel-874m-for-s
+  title: 'CHIPS Act Equity Deals: U.S. Gains 10% Stake in Intel, $874M for Seven Companies - News and Statistics - IndexBox'
+  date: '2026-07-31'
   kind: web
-- slug: 2026-07-18-the-eu-chips-act-is-a-failure-lilli-manzini-3g2lw7evgw---msh
-  title: The EU Chips Act Is A Failure Lilli Manzini (3G2LW7eVgW) - Mshale
-  date: '2026-07-18'
+- slug: 2026-07-31-commerce-dept-signs-874-million-in-chips-act-incentives-with
+  title: Commerce Dept. Signs $874 Million in CHIPS Act Incentives With Seven Companies - marketscreener.com
+  date: '2026-07-31'
   kind: web
-- slug: 2026-07-14-boschs-sic-fab-deal-adds-to-a-resurgence-in-chips-act-fundin
-  title: Bosch's SiC fab deal adds to a resurgence in CHIPS Act funding - Electronics360
-  date: '2026-07-14'
+- slug: 2026-07-31-trump-administration-unveils-874-million-chips-act-ai-push-w
+  title: Trump Administration Unveils $874 Million CHIPS Act AI Push, With GlobalFoundries Securing Top Award - TradingView
+  date: '2026-07-31'
   kind: web
-- slug: 2026-07-14-europes-chips-act-a-brief-supply-chain-opinion---omdia
-  title: 'Europe’s Chips Act: A brief supply chain opinion - Omdia'
-  date: '2026-07-14'
+- slug: 2026-07-31-halt-der-eu-chips-act-20-was-er-verspricht-championnat-darab
+  title: Hält Der EU-Chips-Act 2.0, Was Er Verspricht? Championnat D'arabie Saoudite (0AbPIbOWRq) - Mshale
+  date: '2026-07-31'
   kind: web
-- slug: 2026-07-14-chips-act-20-ambition-requires-funding---digitaleurope
-  title: 'Chips Act 2.0: Ambition requires funding - DigitalEurope'
-  date: '2026-07-14'
+- slug: 2026-07-30-why-strategic-autonomy-is-the-wrong-framework-for-europes-ch
+  title: Why “Strategic Autonomy” Is the Wrong Framework for Europe’s Chips Act 2.0 - American Enterprise Institute - AEI
+  date: '2026-07-30'
   kind: web
-- slug: 2026-07-13-bosch-begins-production-at-roseville-chip-fab-secures-225-mi
-  title: Bosch begins production at Roseville chip fab, secures $225 million in CHIPS Act funding - The Business Journals
-  date: '2026-07-13'
+- slug: 2026-07-30-commerce-department-signs-874m-in-chips-act-rd-incentives---
+  title: Commerce Department Signs $874M in CHIPS Act R&D Incentives - ExecutiveGov
+  date: '2026-07-30'
   kind: web
-- slug: 2026-07-10-cornyn-chips-act-will-help-america-win-the-ai-race-with-chin
-  title: 'Cornyn: CHIPS Act will help America win the AI race with China - Dallas News'
-  date: '2026-07-10'
+- slug: 2026-07-30-chips-act-targets-the-smaller-players-powering-ai-chips---fi
+  title: CHIPS Act Targets The Smaller Players Powering AI Chips - Finimize
+  date: '2026-07-30'
   kind: web
 neighbors: []
 ---

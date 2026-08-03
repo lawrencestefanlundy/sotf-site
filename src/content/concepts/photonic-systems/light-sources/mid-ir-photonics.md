@@ -22,6 +22,7 @@ sources:
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 - '[[2026-05-24-mose2-exciton-polariton-all-optical-switch]]'
+- '[[2023-10-05-nynomic-nlir-investment]]'
 - '[[2026-06-17-single-photon-detector-market-spad-snspd]]'
 frontier:
 - Can GaSb/InAs-based photonic ICs reach the integration density of silicon photonics, or does the heterogeneous-on-Si bonding approach remain the practical route to chip-scale mid-IR systems?
@@ -30,9 +31,9 @@ frontier:
 last_updated: 2026-06-02
 tags:
 - concept
-mention_count: 101
+mention_count: 102
 sources_7d: 2
-sources_30d: 19
+sources_30d: 17
 recent_mentions:
 - slug: 2026-06-17-single-photon-detector-market-spad-snspd
   title: Single-photon detector market aggregation — SPAD, SiPM, SNSPD (2024–2035)
@@ -50,6 +51,10 @@ recent_mentions:
   title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
   date: '2025-12-02'
   kind: substack
+- slug: 2023-10-05-nynomic-nlir-investment
+  title: 'Nynomic AG: Expansion of technology portfolio / investment in NLIR ApS'
+  date: '2023-10-05'
+  kind: web
 neighbors:
 - slug: quantum-cascade-lasers
   name: Quantum Cascade Lasers

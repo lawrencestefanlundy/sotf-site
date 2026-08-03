@@ -30,7 +30,7 @@ mention_count: 36
 descendants: []
 last_reorg_date: '2026-05-14'
 sources_7d: 1
-sources_30d: 11
+sources_30d: 10
 recent_mentions:
 - slug: 2026-05-06-putting-the-super-into-a-supersite-for-earth-observation
   title: Putting the ‘super’ into a supersite for Earth observation

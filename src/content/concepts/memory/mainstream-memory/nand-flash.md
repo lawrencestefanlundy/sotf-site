@@ -28,7 +28,7 @@ tags:
 mention_count: 34
 last_reorg_date: '2026-05-14'
 sources_7d: 1
-sources_30d: 10
+sources_30d: 8
 recent_mentions:
 - slug: 2026-07-10-inference-silicon-deep-research
   title: 'Deep research: measured vs claimed inference-silicon economics (adversarially verified, 23/25 claims confirmed)'

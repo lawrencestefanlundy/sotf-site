@@ -21,8 +21,8 @@ tags:
 - technology
 mention_count: 33
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 3
+sources_7d: 0
+sources_30d: 2
 recent_mentions:
 - slug: 2026-07-27-optimal-compute-vega-investor-briefing
   title: Optimal Compute / VEGA — Investor Briefing, July 2026 (7-page DocSend)

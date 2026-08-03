@@ -21,6 +21,14 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-07-31-tb-26-04-webbings-for-use-in-elevated-oxygen-environments
+  title: TB 26-04 Webbings for Use in Elevated Oxygen Environments
+  date: '2026-07-31'
+  kind: web
+- slug: 2026-07-30-major-rehearsal-takes-themis-one-step-closer-to-flight
+  title: Major rehearsal takes Themis one step closer to flight
+  date: '2026-07-30'
+  kind: web
 - slug: 2026-07-28-vertical-liftoff-as-ariane-6-takes-flight-for-the-first-time
   title: Vertical liftoff as Ariane 6 takes flight for the first time
   date: '2026-07-28'
@@ -44,14 +52,6 @@ recent_mentions:
 - slug: 2026-07-21-interworld-slingshot-resource-surveys
   title: Interworld Slingshot Resource Surveys
   date: '2026-07-21'
-  kind: web
-- slug: 2026-07-21-precision-astrometry-using-optically-independent-spacecraft-
-  title: Precision Astrometry Using Optically Independent Spacecraft for Graviational Wave Detection
-  date: '2026-07-21'
-  kind: web
-- slug: 2020-07-22-new-doe-arpa-e-program-awards-24-million-to-10-advanced-nucl
-  title: New DoE ARPA-E program awards $24 million to 10 advanced nuclear reactor projects - Daily Energy Insider
-  date: '2020-07-22'
   kind: web
 neighbors: []
 ---

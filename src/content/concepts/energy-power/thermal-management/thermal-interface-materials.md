@@ -37,8 +37,12 @@ last_reorg_date: '2026-05-13'
 descendants:
 - tim-approach-map
 sources_7d: 0
-sources_30d: 3
+sources_30d: 2
 recent_mentions:
+- slug: 2026-07-31-tim-market-sizing-refresh
+  title: TIM market sizing refresh — the definitional 2x split and the real addressable slot
+  date: '2026-07-31'
+  kind: web
 - slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
   title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
   date: '2026-07-02'

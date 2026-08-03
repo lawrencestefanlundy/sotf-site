@@ -25,7 +25,7 @@ last_updated: '2026-06-02'
 tags:
 - concept
 mention_count: 31
-sources_7d: 2
+sources_7d: 1
 sources_30d: 7
 recent_mentions:
 - slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape

@@ -31,13 +31,13 @@ frontier:
 - Does AMAT's PVD dominance ('free ride', per Lam's own read) ever get contested, or does the segment stay a one-vendor toll?
 - 'HiPIMS: does near-100% ionisation move beyond hard coatings and specialty niches into mainstream semi metallisation?'
 - 'Powder/bulk-feedstock PVD (LAYRR): does coating the feedstock rather than the wafer open a materials-supply business the tool oligopoly never fights for?'
-last_updated: '2026-07-30'
+last_updated: '2026-07-31'
 tags:
 - concept
 - technology
-mention_count: 32
+mention_count: 33
 last_reorg_date: '2026-05-13'
-sources_7d: 1
+sources_7d: 2
 sources_30d: 9
 recent_mentions: []
 neighbors:

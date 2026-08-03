@@ -56,7 +56,7 @@ descendants:
 - timing-clock-generation
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 10
+sources_30d: 9
 recent_mentions:
 - slug: 2026-07-24-nasa-announces-new-spacecraft-technology-demonstration-missi
   title: NASA Announces New Spacecraft Technology Demonstration Mission at Moon

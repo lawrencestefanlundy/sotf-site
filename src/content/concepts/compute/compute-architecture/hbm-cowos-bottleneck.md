@@ -28,9 +28,9 @@ tags:
 - semiconductor
 - packaging
 - hbm
-mention_count: 5
-sources_7d: 0
-sources_30d: 1
+mention_count: 6
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
 - slug: 2026-04-26-litho-tool-supply-bottleneck-ai-semiconductor-supply-chain
   title: 'AI Semiconductor Supply Chain: The Bottleneck Has Shifted'

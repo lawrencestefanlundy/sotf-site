@@ -36,9 +36,13 @@ descendants:
 - photonic-compute-memory
 - photonic-tensor-cores
 last_reorg_date: '2026-05-13'
-sources_7d: 4
+sources_7d: 3
 sources_30d: 13
 recent_mentions:
+- slug: 2026-07-31-inference-silicon-roster-sprint
+  title: 'Inference-silicon roster verification sprint: 10 companies for the competitive-analysis capital map'
+  date: '2026-07-31'
+  kind: web
 - slug: 2026-05-24-mose2-exciton-polariton-all-optical-switch
   title: New light-based switch could cut chip energy use and speed future AI photonics
   date: '2026-05-24'
@@ -66,10 +70,6 @@ recent_mentions:
 - slug: 2023-07-23-analog-computing-the-once-and-future
   title: '🔮 E09: Analog Computing: The Once and Future King'
   date: '2023-07-23'
-  kind: substack
-- slug: 2023-07-14-e08-optical-computing
-  title: '🔮E08: Optical Computing'
-  date: '2023-07-14'
   kind: substack
 neighbors: []
 ---

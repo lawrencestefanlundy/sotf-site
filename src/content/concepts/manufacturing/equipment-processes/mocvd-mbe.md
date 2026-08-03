@@ -11,7 +11,7 @@ related_concepts: []
 sources: []
 frontier:
 - ''
-last_updated: '2026-05-04'
+last_updated: '2026-07-31'
 tags:
 - concept
 - technology

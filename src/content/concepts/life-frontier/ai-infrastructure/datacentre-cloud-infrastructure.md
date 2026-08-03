@@ -20,6 +20,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-07-31-memory-optics-packaging-chips-act-targets-ais-compute-bottle
+  title: 'Memory, optics, packaging: CHIPS Act targets AI''s compute bottleneck - Electronics360'
+  date: '2026-07-31'
+  kind: web
 - slug: 2026-07-29-does-blue-state-purge-hit-a-transmission-project-promising-c
   title: DOE’s blue-state purge hit a transmission project promising cost savings - Latitude Media
   date: '2026-07-29'
@@ -47,10 +51,6 @@ recent_mentions:
 - slug: 2026-07-20-making-sense-of-the-data-center-backlash
   title: Making sense of the data center backlash
   date: '2026-07-20'
-  kind: web
-- slug: 2026-07-17-the-data-center-backlash-isnt-just-nimbyism
-  title: The data center backlash isn’t just NIMBYism
-  date: '2026-07-17'
   kind: web
 neighbors: []
 ---

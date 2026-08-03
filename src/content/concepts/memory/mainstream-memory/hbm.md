@@ -29,6 +29,7 @@ sources:
 - '[[2026-06-22-sintered-metal-die-attach-landscape]]'
 - '[[2026-06-01-hbm-state-of-play]]'
 - '[[2026-07-10-workload-phase-silicon-sweep]]'
+- '[[2026-07-31-etched-research-sprint]]'
 - '[[2026-06-16-hbm-supercycle-2026]]'
 - '[[2026-03-03-ai-power-thermal-binding-nvidia-vera-rubin-and-feynman]]'
 - '[[2026-07-02-semianalysis-ectc2026-advanced-packaging]]'
@@ -38,6 +39,7 @@ sources:
 - '[[2026-07-07-high-bandwidth-flash-the-full-report]]'
 - '[[2026-07-13-sk-hynix-record-fall-hbm4-three-supplier]]'
 - '[[2026-04-15-semianalysis-isscc-2026]]'
+- '[[2026-07-31-positron-research-sprint]]'
 - '[[2026-05-29-silicon-shock-the-macro-of-tech-inflation]]'
 - '[[2024-02-27-samsung-36gb-hbm3e-12h]]'
 frontier:
@@ -58,10 +60,18 @@ public_expressions:
 - 000660.KS
 - 005930.KS
 - MU
-mention_count: 63
-sources_7d: 3
-sources_30d: 17
+mention_count: 67
+sources_7d: 6
+sources_30d: 18
 recent_mentions:
+- slug: 2026-07-31-etched-research-sprint
+  title: Etched research sprint — tape-out speed, HBM supply, customer orders (4-lane web sweep)
+  date: '2026-07-31'
+  kind: web
+- slug: 2026-07-31-positron-research-sprint
+  title: 'Positron AI research sprint: architecture, funding, customers, manufacturing'
+  date: '2026-07-31'
+  kind: web
 - slug: 2026-07-27-cxmt-star-market-debut
   title: CXMT's 466% STAR Market debut makes it China's most valuable mainland-listed company
   date: '2026-07-27'
@@ -85,14 +95,6 @@ recent_mentions:
 - slug: 2026-07-13-sk-hynix-record-fall-hbm4-three-supplier
   title: SK Hynix record one-day fall as HBM4 goes three-supplier
   date: '2026-07-13'
-  kind: web
-- slug: 2026-07-10-workload-phase-silicon-sweep
-  title: 'Workload-phase silicon sweep: pre-training / RL / prefill / decode procurement split'
-  date: '2026-07-10'
-  kind: web
-- slug: 2026-07-07-high-bandwidth-flash-the-full-report
-  title: 'High Bandwidth Flash: The Full Report'
-  date: '2026-07-07'
   kind: web
 neighbors:
 - slug: dram

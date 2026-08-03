@@ -32,11 +32,19 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 899
+mention_count: 913
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 7
+sources_30d: 6
 recent_mentions:
+- slug: 2026-07-31-etched-research-sprint
+  title: Etched research sprint — tape-out speed, HBM supply, customer orders (4-lane web sweep)
+  date: '2026-07-31'
+  kind: web
+- slug: 2026-07-31-inference-silicon-roster-sprint
+  title: 'Inference-silicon roster verification sprint: 10 companies for the competitive-analysis capital map'
+  date: '2026-07-31'
+  kind: web
 - slug: 2026-07-25-thoughts-on-ai-and-power
   title: Thoughts on AI and power
   date: '2026-07-25'
@@ -60,14 +68,6 @@ recent_mentions:
 - slug: 2026-07-01-sensifai-memo-streaming-physical-ai
   title: SensifAI — Purpose-Built Silicon for Streaming Physical AI (funding memo)
   date: '2026-07-01'
-  kind: web
-- slug: 2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology
-  title: IBM Debuts World's First Sub-1 Nanometer Chip Technology
-  date: '2026-06-25'
-  kind: web
-- slug: 2026-06-24-european-sovereignty-stack-tsmc-backed-esmc-unveils-dragon
-  title: TSMC-backed ESMC unveils dragon tram in Dresden
-  date: '2026-06-24'
   kind: web
 neighbors: []
 ---

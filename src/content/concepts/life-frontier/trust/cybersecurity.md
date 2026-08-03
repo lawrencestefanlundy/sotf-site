@@ -23,10 +23,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 67
+mention_count: 69
 last_reorg_date: '2026-05-13'
-sources_7d: 13
-sources_30d: 23
+sources_7d: 6
+sources_30d: 25
 recent_mentions:
 - slug: 2026-07-26-ai-breach-frequency-autonomous-soc
   title: AI-enabled attack frequency and autonomous-SOC economics, 2026

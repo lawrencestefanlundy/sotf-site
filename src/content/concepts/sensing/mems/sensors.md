@@ -33,9 +33,13 @@ tags:
 - technology
 mention_count: 337
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 11
+sources_7d: 0
+sources_30d: 9
 recent_mentions:
+- slug: 2026-08-02-shipments-of-wireless-devices-in-industrial-automation-to-re
+  title: Shipments of wireless devices in industrial automation to reach 8.5 million by 2030 - TyN Magazine
+  date: '2026-08-02'
+  kind: web
 - slug: 2026-07-21-a-new-compact-instrument-enables-high-fidelity-measurements-
   title: A New Compact Instrument Enables High-Fidelity Measurements of Energetic Particles on CubeSats
   date: '2026-07-21'
@@ -63,10 +67,6 @@ recent_mentions:
 - slug: 2026-06-22-beyond-cmos-device-layer-research
   title: Beyond-CMOS device layer — grounded research (MRAM/FeFET beachhead + capture base rate)
   date: '2026-06-22'
-  kind: web
-- slug: 2026-06-21-st-nxp-mems-acquisition
-  title: STMicroelectronics to acquire NXP's MEMS sensor business for up to $950M
-  date: '2026-06-21'
   kind: web
 neighbors: []
 ---

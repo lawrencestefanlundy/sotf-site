@@ -42,7 +42,7 @@ last_updated: '2026-07-26'
 tags:
 - concept
 - theme
-mention_count: 929
+mention_count: 931
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -55,6 +55,18 @@ last_reorg_date: '2026-05-13'
 sources_7d: 1
 sources_30d: 10
 recent_mentions:
+- slug: 2026-07-31-memory-optics-packaging-chips-act-targets-ais-compute-bottle
+  title: 'Memory, optics, packaging: CHIPS Act targets AI''s compute bottleneck - Electronics360'
+  date: '2026-07-31'
+  kind: web
+- slug: 2026-07-31-inference-silicon-roster-sprint
+  title: 'Inference-silicon roster verification sprint: 10 companies for the competitive-analysis capital map'
+  date: '2026-07-31'
+  kind: web
+- slug: 2026-07-29-serenity-globalfoundries-receives-support-from-the-us-chips-
+  title: 'Serenity: GlobalFoundries receives support from the US CHIPS Act, benefiting Sivers and Lumentum - Bitget'
+  date: '2026-07-29'
+  kind: web
 - slug: 2026-07-29-aeluma-secures-loi-for-up-to-30-million-in-chips-act-funding
   title: Aeluma Secures LOI for Up to $30 Million in CHIPS Act Funding to Advance Photonics Semiconductor R&D - Quiver Quantitative
   date: '2026-07-29'
@@ -74,18 +86,6 @@ recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
-  kind: web
-- slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape
-  title: Neutral PDK / EDA layer for heterogeneous photonic integration — landscape check (Scintil essay correction research)
-  date: '2026-07-11'
-  kind: web
-- slug: 2026-07-02-pilot-photonics-awarded-104-mln-from-european-innovation-cou
-  title: Pilot Photonics Awarded €10.4 Mln From European Innovation Council - TradingView
-  date: '2026-07-02'
-  kind: web
-- slug: 2026-07-02-pilot-photonics-awarded-104-million-from-european-innovation
-  title: PILOT PHOTONICS AWARDED €10.4 MILLION FROM EUROPEAN INNOVATION COUNCIL - PR Newswire
-  date: '2026-07-02'
   kind: web
 neighbors: []
 ---

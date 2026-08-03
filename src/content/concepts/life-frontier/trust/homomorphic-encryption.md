@@ -30,7 +30,7 @@ tags:
 - technology
 mention_count: 38
 last_reorg_date: '2026-05-13'
-sources_7d: 7
+sources_7d: 6
 sources_30d: 15
 recent_mentions:
 - slug: 2025-10-09-a-specific-theory-of-sovereign-ai

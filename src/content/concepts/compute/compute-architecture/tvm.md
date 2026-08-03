@@ -38,9 +38,9 @@ tags:
 - reference
 descendants:
 - mlc-llm
-mention_count: 37
-sources_7d: 1
-sources_30d: 9
+mention_count: 39
+sources_7d: 2
+sources_30d: 11
 recent_mentions:
 - slug: 2026-05-14-nasa-draws-on-industry-for-mars-telecommunications-network
   title: NASA Draws on Industry for Mars Telecommunications Network

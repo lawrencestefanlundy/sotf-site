@@ -37,15 +37,23 @@ last_updated: '2026-06-23'
 tags:
 - concept
 - technology
-mention_count: 145
+mention_count: 147
 last_reorg_date: '2026-05-14'
-sources_7d: 6
-sources_30d: 20
+sources_7d: 4
+sources_30d: 18
 recent_mentions:
+- slug: 2026-07-31-positron-research-sprint
+  title: 'Positron AI research sprint: architecture, funding, customers, manufacturing'
+  date: '2026-07-31'
+  kind: web
 - slug: 2026-07-27-cxmt-star-market-debut
   title: CXMT's 466% STAR Market debut makes it China's most valuable mainland-listed company
   date: '2026-07-27'
   kind: web
+- slug: 2026-07-27-arxiv-dynamic-rowhammer-threshold-managementtemperature-aware-thre
+  title: Dynamic Rowhammer Threshold Management:Temperature-Aware Threshold Degradation for In-DRAM Defenses
+  date: '2026-07-27'
+  kind: paper
 - slug: 2026-07-25-thoughts-on-ai-and-power
   title: Thoughts on AI and power
   date: '2026-07-25'
@@ -65,14 +73,6 @@ recent_mentions:
 - slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
   title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
   date: '2026-07-02'
-  kind: web
-- slug: 2026-06-25-data-value-migrates-to-retrieval-layer-kioxia-s-q1-2026
-  title: Kioxia's Q1 2026 Revenue and Operating Profit Surge on AI Chip Demand
-  date: '2026-06-25'
-  kind: web
-- slug: 2025-26-lapedus-next-gen-ferroelectric-memory
-  title: Next-Gen Ferroelectric Memory Still A Work In Progress
-  date: '2026-06-23'
   kind: web
 neighbors: []
 ---

@@ -33,7 +33,7 @@ last_updated: '2026-07-26'
 tags:
 - concept
 - technology
-mention_count: 163
+mention_count: 166
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration
@@ -41,8 +41,20 @@ descendants:
 - osat
 last_reorg_date: '2026-05-13'
 sources_7d: 2
-sources_30d: 10
+sources_30d: 11
 recent_mentions:
+- slug: 2026-07-31-chips-act-equity-deals-us-gains-10-stake-in-intel-874m-for-s
+  title: 'CHIPS Act Equity Deals: U.S. Gains 10% Stake in Intel, $874M for Seven Companies - News and Statistics - IndexBox'
+  date: '2026-07-31'
+  kind: web
+- slug: 2026-07-31-memory-optics-packaging-chips-act-targets-ais-compute-bottle
+  title: 'Memory, optics, packaging: CHIPS Act targets AI''s compute bottleneck - Electronics360'
+  date: '2026-07-31'
+  kind: web
+- slug: 2026-07-31-tim-market-sizing-refresh
+  title: TIM market sizing refresh — the definitional 2x split and the real addressable slot
+  date: '2026-07-31'
+  kind: web
 - slug: 2026-07-25-thoughts-on-ai-and-power
   title: Thoughts on AI and power
   date: '2026-07-25'
@@ -62,18 +74,6 @@ recent_mentions:
 - slug: 2026-07-13-bosch-begins-production-at-roseville-chip-fab-secures-225-mi
   title: Bosch begins production at Roseville chip fab, secures $225 million in CHIPS Act funding - The Business Journals
   date: '2026-07-13'
-  kind: web
-- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
-  title: 'Startup Funding: Q2 2026'
-  date: '2026-07-13'
-  kind: web
-- slug: 2026-07-09-in-die-microfluidic-cooling-sprint
-  title: In-die microfluidic cooling — cluster research sprint
-  date: '2026-07-09'
-  kind: web
-- slug: 2026-07-07-high-bandwidth-flash-the-full-report
-  title: 'High Bandwidth Flash: The Full Report'
-  date: '2026-07-07'
   kind: web
 neighbors: []
 ---

@@ -53,6 +53,26 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 1
 recent_mentions:
+- slug: 2026-07-31-memory-fakes-and-thermodynamic-compute-chips-act-bets-874m-o
+  title: 'Memory, Fakes, and Thermodynamic Compute: CHIPS Act Bets $874M on Six AI Stack Gaps - Tech Times'
+  date: '2026-07-31'
+  kind: web
+- slug: 2026-07-31-trump-administration-unveils-874-million-chips-act-ai-push-w
+  title: Trump Administration Unveils $874 Million CHIPS Act AI Push, With GlobalFoundries Securing Top Award - TradingView
+  date: '2026-07-31'
+  kind: web
+- slug: 2026-07-31-inference-silicon-roster-sprint
+  title: 'Inference-silicon roster verification sprint: 10 companies for the competitive-analysis capital map'
+  date: '2026-07-31'
+  kind: web
+- slug: 2026-07-31-positron-research-sprint
+  title: 'Positron AI research sprint: architecture, funding, customers, manufacturing'
+  date: '2026-07-31'
+  kind: web
+- slug: 2026-07-30-chips-act-targets-the-smaller-players-powering-ai-chips---fi
+  title: CHIPS Act Targets The Smaller Players Powering AI Chips - Finimize
+  date: '2026-07-30'
+  kind: web
 - slug: 2026-07-28-south-korea-to-introduce-k-chips-act-tax-credits-for-domesti
   title: South Korea to Introduce 'K-Chips Act' Tax Credits for Domestic Production of Semiconductors, AI Robots, and More Next Year - finance.biggo.com
   date: '2026-07-28'
@@ -64,26 +84,6 @@ recent_mentions:
 - slug: 2026-07-13-chips-act-20-targets-european-semiconductor-demand-as-eu-exp
   title: Chips Act 2.0 Targets European Semiconductor Demand as EU Expands AI Strategy - Astute Group
   date: '2026-07-13'
-  kind: web
-- slug: 2026-07-13-sk-hynix-record-fall-hbm4-three-supplier
-  title: SK Hynix record one-day fall as HBM4 goes three-supplier
-  date: '2026-07-13'
-  kind: web
-- slug: 2026-07-10-cornyn-chips-act-will-help-america-win-the-ai-race-with-chin
-  title: 'Cornyn: CHIPS Act will help America win the AI race with China - Dallas News'
-  date: '2026-07-10'
-  kind: web
-- slug: 2026-07-09-inside-the-ai-power-wars---latitude-media
-  title: Inside the AI power wars - Latitude Media
-  date: '2026-07-09'
-  kind: web
-- slug: 2026-07-08-why-ai-infrastructure-must-evolve-for-agent-experience-aksha
-  title: Why AI Infrastructure must evolve for Agent Experience — Akshat Bubna, Modal CTO
-  date: '2026-07-08'
-  kind: web
-- slug: 2026-06-23-semidoped-daily-update
-  title: Semi Doped — Daily Update, June 23rd 2026
-  date: '2026-06-23'
   kind: web
 neighbors: []
 ---

@@ -40,9 +40,13 @@ descendants:
 - processing-in-memory
 - sram-cim
 last_reorg_date: '2026-05-14'
-sources_7d: 4
-sources_30d: 11
+sources_7d: 3
+sources_30d: 10
 recent_mentions:
+- slug: 2026-07-31-inference-silicon-roster-sprint
+  title: 'Inference-silicon roster verification sprint: 10 companies for the competitive-analysis capital map'
+  date: '2026-07-31'
+  kind: web
 - slug: 2026-01-22-ai-chips-computeram-and-the-future
   title: 'AI Chips, ComputeRAM and the Future of Data Movement: A Conversation with Manu, Founder of Synthara'
   date: '2026-01-22'
@@ -70,10 +74,6 @@ recent_mentions:
 - slug: 2023-11-20-e21-can-we-make-enough-ai-chips
   title: Can we make enough AI chips?
   date: '2023-11-20'
-  kind: substack
-- slug: 2023-07-23-analog-computing-the-once-and-future
-  title: '🔮 E09: Analog Computing: The Once and Future King'
-  date: '2023-07-23'
   kind: substack
 neighbors:
 - slug: memcapacitor

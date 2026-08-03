@@ -29,11 +29,19 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - material
-mention_count: 713
+mention_count: 718
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 8
+sources_30d: 7
 recent_mentions:
+- slug: 2026-07-31-etched-research-sprint
+  title: Etched research sprint — tape-out speed, HBM supply, customer orders (4-lane web sweep)
+  date: '2026-07-31'
+  kind: web
+- slug: 2026-07-31-tim-market-sizing-refresh
+  title: TIM market sizing refresh — the definitional 2x split and the real addressable slot
+  date: '2026-07-31'
+  kind: web
 - slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint
   title: 'What actually limits a humanoid to minutes: the thermal cliff, not the battery'
   date: '2026-07-26'
@@ -57,14 +65,6 @@ recent_mentions:
 - slug: 2026-06-24-thermal-stack-arms-race-diamond-heat-spreaders-companies-in
   title: Diamond Heat Spreaders Companies in 2026
   date: '2026-06-24'
-  kind: web
-- slug: 2026-06-23-semianalysis-space-datacenters
-  title: 'To Boldly Go: The Case for Space Datacenters'
-  date: '2026-06-23'
-  kind: web
-- slug: 2026-06-23-arxiv-2512-09044-orbital-datacenter-tether
-  title: Tether-architecture orbital data center design (UPenn)
-  date: '2026-06-23'
   kind: web
 neighbors: []
 ---

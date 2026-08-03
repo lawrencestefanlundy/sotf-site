@@ -30,8 +30,8 @@ sources:
 - '[[2026-04-20-fixing-the-gan-problem]]'
 - '[[2026-06-22-tim-approaches-full-sweep]]'
 mention_count: 132
-sources_7d: 2
-sources_30d: 24
+sources_7d: 0
+sources_30d: 18
 recent_mentions: []
 neighbors: []
 ---

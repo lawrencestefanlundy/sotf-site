@@ -56,12 +56,24 @@ last_updated: '2026-06-02'
 tags:
 - concept
 - technology
-mention_count: 1397
+mention_count: 1405
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 1
 sources_30d: 9
 recent_mentions:
+- slug: 2026-07-31-etched-research-sprint
+  title: Etched research sprint — tape-out speed, HBM supply, customer orders (4-lane web sweep)
+  date: '2026-07-31'
+  kind: web
+- slug: 2026-07-31-tim-market-sizing-refresh
+  title: TIM market sizing refresh — the definitional 2x split and the real addressable slot
+  date: '2026-07-31'
+  kind: web
+- slug: 2026-07-30-mike-mccalister-brian-mast-has-the-tools-to-close-chinas-sem
+  title: 'Mike McCalister: Brian Mast has the tools to close China’s semiconductor backdoor - Florida Politics'
+  date: '2026-07-30'
+  kind: web
 - slug: 2026-07-29-aeluma-secures-loi-for-up-to-30-million-in-chips-act-funding
   title: Aeluma Secures LOI for Up to $30 Million in CHIPS Act Funding to Advance Photonics Semiconductor R&D - Quiver Quantitative
   date: '2026-07-29'
@@ -81,18 +93,6 @@ recent_mentions:
 - slug: 2026-07-13-chips-act-20-targets-european-semiconductor-demand-as-eu-exp
   title: Chips Act 2.0 Targets European Semiconductor Demand as EU Expands AI Strategy - Astute Group
   date: '2026-07-13'
-  kind: web
-- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
-  title: 'Startup Funding: Q2 2026'
-  date: '2026-07-13'
-  kind: web
-- slug: 2026-07-13-sk-hynix-record-fall-hbm4-three-supplier
-  title: SK Hynix record one-day fall as HBM4 goes three-supplier
-  date: '2026-07-13'
-  kind: web
-- slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape
-  title: Neutral PDK / EDA layer for heterogeneous photonic integration — landscape check (Scintil essay correction research)
-  date: '2026-07-11'
   kind: web
 neighbors:
 - slug: maskless-lithography

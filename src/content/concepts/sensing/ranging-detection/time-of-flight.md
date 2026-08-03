@@ -19,7 +19,7 @@ tags:
 mention_count: 15
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 2
+sources_30d: 1
 recent_mentions:
 - slug: 2026-06-02-singular-photonics-launch
   title: Singular Photonics — launch, SPAD portfolio + Meta collaboration (coverage)

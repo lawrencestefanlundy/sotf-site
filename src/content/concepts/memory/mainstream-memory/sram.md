@@ -15,6 +15,7 @@ sources:
 - '[[2026-06-16-cim-landscape-2026]]'
 - '[[2026-07-25-thoughts-on-ai-and-power]]'
 - '[[2026-07-10-workload-phase-silicon-sweep]]'
+- '[[2026-07-31-etched-research-sprint]]'
 - '[[2026-07-10-inference-silicon-deep-research]]'
 - '[[2026-07-02-semianalysis-ectc2026-advanced-packaging]]'
 - '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
@@ -23,6 +24,7 @@ sources:
 - '[[2026-01-13-semianalysis-interconnects-beyond-copper]]'
 - '[[2026-06-15-gf-investor-day-2026]]'
 - '[[2026-06-17-femtoai-spu-ces2026]]'
+- '[[2026-07-31-inference-silicon-roster-sprint]]'
 - '[[2026-05-13-semianalysis-cerebras-faster-tokens]]'
 - '[[2026-06-03-tendrils-compute]]'
 - '[[2026-04-15-semianalysis-isscc-2026]]'
@@ -33,11 +35,19 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 85
+mention_count: 87
 last_reorg_date: '2026-05-14'
-sources_7d: 5
+sources_7d: 6
 sources_30d: 23
 recent_mentions:
+- slug: 2026-07-31-etched-research-sprint
+  title: Etched research sprint — tape-out speed, HBM supply, customer orders (4-lane web sweep)
+  date: '2026-07-31'
+  kind: web
+- slug: 2026-07-31-inference-silicon-roster-sprint
+  title: 'Inference-silicon roster verification sprint: 10 companies for the competitive-analysis capital map'
+  date: '2026-07-31'
+  kind: web
 - slug: 2026-07-25-thoughts-on-ai-and-power
   title: Thoughts on AI and power
   date: '2026-07-25'
@@ -61,14 +71,6 @@ recent_mentions:
 - slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
   title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
   date: '2026-07-02'
-  kind: web
-- slug: 2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology
-  title: IBM Debuts World's First Sub-1 Nanometer Chip Technology
-  date: '2026-06-25'
-  kind: web
-- slug: 2026-06-17-femtoai-spu-ces2026
-  title: femtoAI to Highlight its Sparse Processing Unit Edge AI Accelerator at CES 2026
-  date: '2026-06-17'
   kind: web
 neighbors: []
 ---

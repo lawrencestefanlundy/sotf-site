@@ -81,8 +81,16 @@ descendants:
 - token-cost-stack
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 12
+sources_30d: 11
 recent_mentions:
+- slug: 2026-07-31-positron-research-sprint
+  title: 'Positron AI research sprint: architecture, funding, customers, manufacturing'
+  date: '2026-07-31'
+  kind: web
+- slug: 2026-07-27-arxiv-dynamic-rowhammer-threshold-managementtemperature-aware-thre
+  title: Dynamic Rowhammer Threshold Management:Temperature-Aware Threshold Degradation for In-DRAM Defenses
+  date: '2026-07-27'
+  kind: paper
 - slug: 2026-07-25-thoughts-on-ai-and-power
   title: Thoughts on AI and power
   date: '2026-07-25'
@@ -106,14 +114,6 @@ recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
-  kind: web
-- slug: 2026-07-13-sk-hynix-record-fall-hbm4-three-supplier
-  title: SK Hynix record one-day fall as HBM4 goes three-supplier
-  date: '2026-07-13'
-  kind: web
-- slug: 2026-07-10-hyperscaler-token-economics-sweep
-  title: 'Hyperscaler inference-economics language sweep: cost per token as the datacentre KPI'
-  date: '2026-07-10'
   kind: web
 neighbors: []
 ---

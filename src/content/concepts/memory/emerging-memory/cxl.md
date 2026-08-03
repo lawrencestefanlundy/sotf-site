@@ -15,15 +15,20 @@ related_concepts:
 sources:
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
 - '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
+- '[[2026-07-31-positron-research-sprint]]'
 frontier:
 - ''
 last_updated: 2026-06-03
 tags:
 - concept
-mention_count: 4
-sources_7d: 0
-sources_30d: 1
+mention_count: 5
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
+- slug: 2026-07-31-positron-research-sprint
+  title: 'Positron AI research sprint: architecture, funding, customers, manufacturing'
+  date: '2026-07-31'
+  kind: web
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'

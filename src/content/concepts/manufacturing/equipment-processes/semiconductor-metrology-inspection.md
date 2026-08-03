@@ -31,7 +31,7 @@ tags:
 - technology
 mention_count: 197
 sources_7d: 10
-sources_30d: 29
+sources_30d: 27
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'

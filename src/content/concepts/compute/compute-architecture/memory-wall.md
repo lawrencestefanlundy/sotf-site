@@ -26,8 +26,8 @@ tags:
 descendants:
 - inference-economics
 - token-cost-stack
-mention_count: 12
-sources_7d: 1
+mention_count: 13
+sources_7d: 0
 sources_30d: 2
 recent_mentions:
 - slug: 2026-07-31-positron-research-sprint

@@ -21,9 +21,9 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 66
+mention_count: 67
 last_reorg_date: '2026-05-13'
-sources_7d: 2
+sources_7d: 1
 sources_30d: 8
 recent_mentions:
 - slug: 2026-06-17-single-photon-detector-market-spad-snspd

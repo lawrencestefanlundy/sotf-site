@@ -40,7 +40,7 @@ descendants:
 - processing-in-memory
 - sram-cim
 last_reorg_date: '2026-05-14'
-sources_7d: 3
+sources_7d: 2
 sources_30d: 10
 recent_mentions:
 - slug: 2026-07-31-inference-silicon-roster-sprint

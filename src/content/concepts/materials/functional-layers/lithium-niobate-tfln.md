@@ -25,18 +25,16 @@ sources:
 - '[[2026-04-22-photonics-material-class-war-320-gb-s-unamplified]]'
 - '[[2026-01-09-photonics-material-class-war-thin-film-lithium-niobate-tfln]]'
 - '[[2026-05-02-top-tfln-modulator-companies-2026]]'
-- '[[2026-03-12-photonics-material-class-war-hyperlight-umc-and-wavetek]]'
-- '[[2026-05-02-standardized-tfln-pics-ieee]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - material
-mention_count: 128
+mention_count: 134
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 16
+sources_7d: 6
+sources_30d: 21
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'

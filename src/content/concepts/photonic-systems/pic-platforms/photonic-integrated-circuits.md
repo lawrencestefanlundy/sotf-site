@@ -25,7 +25,7 @@ last_updated: '2026-07-26'
 tags:
 - concept
 - technology
-mention_count: 116
+mention_count: 119
 last_reorg_date: '2026-05-13'
 descendants:
 - avalanche-photodiode
@@ -36,7 +36,7 @@ descendants:
 - pic-packaging-stack
 - uni-traveling-carrier-photodiode
 sources_7d: 3
-sources_30d: 11
+sources_30d: 13
 recent_mentions:
 - slug: 2026-07-29-aeluma-signs-letter-of-intent-for-30m-chips-act-funding---in
   title: Aeluma signs letter of intent for $30M CHIPS Act funding - Investing.com

@@ -80,6 +80,10 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-03-perimeter-compute-wants-to-turn-spare-office-power-into-edge
+  title: Perimeter Compute wants to turn spare office power into edge AI data centers - Latitude Media
+  date: '2026-08-03'
+  kind: web
 - slug: 2026-07-31-memory-fakes-and-thermodynamic-compute-chips-act-bets-874m-o
   title: 'Memory, Fakes, and Thermodynamic Compute: CHIPS Act Bets $874M on Six AI Stack Gaps - Tech Times'
   date: '2026-07-31'
@@ -106,10 +110,6 @@ recent_mentions:
   kind: web
 - slug: 2026-07-17-the-data-center-backlash-isnt-just-nimbyism
   title: The data center backlash isn’t just NIMBYism
-  date: '2026-07-17'
-  kind: web
-- slug: 2026-07-17-the-off-grid-data-center-fantasy---latitude-media
-  title: The off-grid data center fantasy - Latitude Media
   date: '2026-07-17'
   kind: web
 neighbors: []

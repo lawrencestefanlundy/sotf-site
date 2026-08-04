@@ -37,9 +37,9 @@ last_updated: '2026-06-23'
 tags:
 - concept
 - technology
-mention_count: 147
+mention_count: 148
 last_reorg_date: '2026-05-14'
-sources_7d: 4
+sources_7d: 3
 sources_30d: 18
 recent_mentions:
 - slug: 2026-07-31-positron-research-sprint

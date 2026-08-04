@@ -42,7 +42,7 @@ last_updated: '2026-07-26'
 tags:
 - concept
 - theme
-mention_count: 931
+mention_count: 944
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -52,8 +52,8 @@ descendants:
 - optical-frequency-division
 - optoelectronic-oscillator
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 10
+sources_7d: 5
+sources_30d: 13
 recent_mentions:
 - slug: 2026-07-31-memory-optics-packaging-chips-act-targets-ais-compute-bottle
   title: 'Memory, optics, packaging: CHIPS Act targets AI''s compute bottleneck - Electronics360'

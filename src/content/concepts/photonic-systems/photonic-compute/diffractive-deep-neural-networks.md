@@ -33,7 +33,7 @@ tags:
 - d2nn
 last_reorg_date: '2026-05-13'
 mention_count: 6
-sources_7d: 1
+sources_7d: 0
 sources_30d: 1
 recent_mentions: []
 neighbors:

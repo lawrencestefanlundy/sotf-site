@@ -56,12 +56,16 @@ last_updated: '2026-06-02'
 tags:
 - concept
 - technology
-mention_count: 1405
+mention_count: 1423
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 9
+sources_7d: 2
+sources_30d: 10
 recent_mentions:
+- slug: 2026-08-01-on-semiconductor-stock-and-2-chip-picks-near-the-chips-act-f
+  title: ON Semiconductor Stock and 2 Chip Picks Near the CHIPS Act Funding Shift - simplywall.st
+  date: '2026-08-01'
+  kind: web
 - slug: 2026-07-31-etched-research-sprint
   title: Etched research sprint — tape-out speed, HBM supply, customer orders (4-lane web sweep)
   date: '2026-07-31'
@@ -74,6 +78,10 @@ recent_mentions:
   title: 'Mike McCalister: Brian Mast has the tools to close China’s semiconductor backdoor - Florida Politics'
   date: '2026-07-30'
   kind: web
+- slug: 2026-07-29-chipagents-series-a2-134m
+  title: ChipAgents Expands Series A Funding to $134 Million as Demand Grows for Agentic AI in Semiconductor Design
+  date: '2026-07-29'
+  kind: web
 - slug: 2026-07-29-aeluma-secures-loi-for-up-to-30-million-in-chips-act-funding
   title: Aeluma Secures LOI for Up to $30 Million in CHIPS Act Funding to Advance Photonics Semiconductor R&D - Quiver Quantitative
   date: '2026-07-29'
@@ -85,14 +93,6 @@ recent_mentions:
 - slug: 2026-07-24-trust-stamp-selected-for-eu-advanced-semiconductor-technolog
   title: Trust Stamp selected for EU advanced semiconductor technology initiative - Proactive Investors
   date: '2026-07-24'
-  kind: web
-- slug: 2026-07-16-china-open-weight-strategy-loeber-teortaxes
-  title: Why does China keep releasing open-weight models? — Loeber + Teortaxes threads (K3 week)
-  date: '2026-07-16'
-  kind: web
-- slug: 2026-07-13-chips-act-20-targets-european-semiconductor-demand-as-eu-exp
-  title: Chips Act 2.0 Targets European Semiconductor Demand as EU Expands AI Strategy - Astute Group
-  date: '2026-07-13'
   kind: web
 neighbors:
 - slug: maskless-lithography

@@ -29,6 +29,10 @@ recent_mentions:
   title: ON Semiconductor Stock and 2 Chip Picks Near the CHIPS Act Funding Shift - simplywall.st
   date: '2026-08-01'
   kind: web
+- slug: 2026-08-01-south-dakota-mines-receives-31m-federal-grant-to-map-rare-ra
+  title: South Dakota Mines receives $3.1M federal grant to map rare rarth elements - KOTA Territory News
+  date: '2026-08-01'
+  kind: web
 - slug: 2026-07-31-commerce-dept-signs-874-million-in-chips-act-incentives-with
   title: Commerce Dept. Signs $874 Million in CHIPS Act Incentives With Seven Companies - marketscreener.com
   date: '2026-07-31'
@@ -51,10 +55,6 @@ recent_mentions:
   kind: web
 - slug: 2026-07-29-aeluma-signs-letter-of-intent-for-30m-chips-act-funding---in
   title: Aeluma signs letter of intent for $30M CHIPS Act funding - Investing.com
-  date: '2026-07-29'
-  kind: web
-- slug: 2026-07-29-aeluma-signs-letter-of-intent-for-30-million-in-chips-act-fu
-  title: Aeluma Signs Letter of Intent for $30 Million in CHIPS Act Funding - marketscreener.com
   date: '2026-07-29'
   kind: web
 neighbors: []

@@ -31,7 +31,7 @@ tags:
 - technology
 mention_count: 20
 last_reorg_date: '2026-05-13'
-sources_7d: 1
+sources_7d: 0
 sources_30d: 8
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
@@ -94,6 +94,8 @@ Trapped ion is, alongside superconducting, the most commercially mature modality
 **The binding constraint is shifting from qubit count to integration and interconnect.** Two scaling paths, not mutually exclusive: (1) **QCCD** (quantum charge-coupled device) — shuttle ions between zones on a single chip (Quantinuum's approach); (2) **photonic networking** — entangle ions across separate trap modules over optical links (the route to >10k qubits in every public roadmap). This is why the modalities thesis predicts interconnect/networking becomes the openly-acknowledged "next wall" — see **Quantum Computing Modalities**.
 
 Conventional ion traps deliver control light with **bulk free-space optics** — large optical tables, mirrors, manual alignment — which does not scale past a lab. The frontier is putting the optics *on the trap chip*: integrated **waveguides, grating couplers, splitters and modulators** delivering multi-wavelength light (Doppler cooling, state prep, gates, readout) to each zone. Demonstrated 375–866 nm delivery in alumina and silicon-nitride waveguides; leading groups are MIT Lincoln Laboratory, ETH Zurich, Sandia and UC Berkeley (integrated optical MEMS). **2026 06 16 Trapped Ion Landscape 2026**
+
+Two ways to "integrate", and they compete: **integrated photonics** (deliver laser light on-chip — Pathfinder's bet, plus the academic groups, and IonQ for some wavelengths) vs **integrated electronics** (skip on-chip lasers entirely via microwave/electronic control — Oxford Ionics). Pathfinder is pursuing the less commercially-crowded photonics route; the open question on its frontier list is whether on-chip photonic light delivery reaches production fidelity before electronic control makes it moot.
 
 ## Competitive landscape — trapped-ion vendors
 

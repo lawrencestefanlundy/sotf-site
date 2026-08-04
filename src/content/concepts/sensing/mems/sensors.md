@@ -36,6 +36,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 9
 recent_mentions:
+- slug: 2026-08-03-nasa-delivers-navigation-system-for-commercial-lunar-relay
+  title: NASA Delivers Navigation System for Commercial Lunar Relay
+  date: '2026-08-03'
+  kind: web
 - slug: 2026-08-02-shipments-of-wireless-devices-in-industrial-automation-to-re
   title: Shipments of wireless devices in industrial automation to reach 8.5 million by 2030 - TyN Magazine
   date: '2026-08-02'
@@ -63,10 +67,6 @@ recent_mentions:
 - slug: 2026-07-08-robotics-labour-augmentation-tesla-optimus-hardware
   title: 'Tesla Optimus Hardware Specifications: Actuators, Hands & Sensors 2026'
   date: '2026-07-08'
-  kind: web
-- slug: 2026-06-22-beyond-cmos-device-layer-research
-  title: Beyond-CMOS device layer — grounded research (MRAM/FeFET beachhead + capture base rate)
-  date: '2026-06-22'
   kind: web
 neighbors: []
 ---

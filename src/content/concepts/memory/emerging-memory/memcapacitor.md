@@ -39,7 +39,7 @@ tags:
 - analog-computing
 - in-memory-computing
 - semron
-mention_count: 18
+mention_count: 19
 last_reorg_date: '2026-05-14'
 descendants:
 - capram

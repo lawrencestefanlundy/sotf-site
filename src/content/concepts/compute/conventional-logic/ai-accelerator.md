@@ -53,6 +53,14 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 1
 recent_mentions:
+- slug: 2026-08-03-perimeter-compute-wants-to-turn-spare-office-power-into-edge
+  title: Perimeter Compute wants to turn spare office power into edge AI data centers - Latitude Media
+  date: '2026-08-03'
+  kind: web
+- slug: 2026-08-03-the-inference-engineering-masterclass-philip-kiely-ali-taha-
+  title: The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten
+  date: '2026-08-03'
+  kind: web
 - slug: 2026-07-31-memory-fakes-and-thermodynamic-compute-chips-act-bets-874m-o
   title: 'Memory, Fakes, and Thermodynamic Compute: CHIPS Act Bets $874M on Six AI Stack Gaps - Tech Times'
   date: '2026-07-31'
@@ -76,14 +84,6 @@ recent_mentions:
 - slug: 2026-07-28-south-korea-to-introduce-k-chips-act-tax-credits-for-domesti
   title: South Korea to Introduce 'K-Chips Act' Tax Credits for Domestic Production of Semiconductors, AI Robots, and More Next Year - finance.biggo.com
   date: '2026-07-28'
-  kind: web
-- slug: 2026-07-25-thoughts-on-ai-and-power
-  title: Thoughts on AI and power
-  date: '2026-07-25'
-  kind: web
-- slug: 2026-07-13-chips-act-20-targets-european-semiconductor-demand-as-eu-exp
-  title: Chips Act 2.0 Targets European Semiconductor Demand as EU Expands AI Strategy - Astute Group
-  date: '2026-07-13'
   kind: web
 neighbors: []
 ---

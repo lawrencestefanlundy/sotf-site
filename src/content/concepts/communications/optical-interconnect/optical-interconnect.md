@@ -34,7 +34,7 @@ last_updated: '2026-05-07'
 tags:
 - concept
 - technology
-mention_count: 87
+mention_count: 88
 descendants:
 - datacenter-network-stack
 - lpo-linear-pluggable-optics
@@ -44,8 +44,8 @@ descendants:
 - optical-packet-switching
 - pluggable-transceivers
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 5
+sources_7d: 1
+sources_30d: 6
 recent_mentions:
 - slug: 2026-07-29-serenity-globalfoundries-receives-support-from-the-us-chips-
   title: 'Serenity: GlobalFoundries receives support from the US CHIPS Act, benefiting Sivers and Lumentum - Bitget'

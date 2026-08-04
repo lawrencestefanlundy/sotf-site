@@ -35,9 +35,9 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 87
+mention_count: 88
 last_reorg_date: '2026-05-14'
-sources_7d: 6
+sources_7d: 2
 sources_30d: 23
 recent_mentions:
 - slug: 2026-07-31-etched-research-sprint

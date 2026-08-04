@@ -60,7 +60,7 @@ public_expressions:
 - 000660.KS
 - 005930.KS
 - MU
-mention_count: 67
+mention_count: 68
 sources_7d: 6
 sources_30d: 18
 recent_mentions:

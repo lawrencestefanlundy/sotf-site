@@ -32,7 +32,7 @@ last_updated: 2026-06-02
 tags:
 - concept
 mention_count: 102
-sources_7d: 2
+sources_7d: 0
 sources_30d: 17
 recent_mentions:
 - slug: 2026-06-17-single-photon-detector-market-spad-snspd

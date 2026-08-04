@@ -48,9 +48,9 @@ tags:
 - category
 - packaging
 - supply-chain
-mention_count: 76
-sources_7d: 1
-sources_30d: 16
+mention_count: 79
+sources_7d: 2
+sources_30d: 17
 recent_mentions:
 - slug: 2026-07-27-cxmt-star-market-debut
   title: CXMT's 466% STAR Market debut makes it China's most valuable mainland-listed company

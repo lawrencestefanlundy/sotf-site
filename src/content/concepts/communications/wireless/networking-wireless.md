@@ -20,6 +20,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-03-quectel-adds-wi-fi-7-and-bluetooth-60-modules-for-consumer-a
+  title: Quectel Adds Wi-Fi 7 and Bluetooth 6.0 Modules for Consumer and Edge Devices - IoT Business News
+  date: '2026-08-03'
+  kind: web
 - slug: 2026-08-02-shipments-of-wireless-devices-in-industrial-automation-to-re
   title: Shipments of wireless devices in industrial automation to reach 8.5 million by 2030 - TyN Magazine
   date: '2026-08-02'

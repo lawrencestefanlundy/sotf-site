@@ -29,6 +29,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 1
 recent_mentions:
+- slug: 2026-08-03-uk-chip-startup-olix-raises-312m-at-33bn-valuation---techeu
+  title: UK chip startup Olix raises $312M at $3.3BN valuation - Tech.eu
+  date: '2026-08-03'
+  kind: web
 - slug: 2026-08-01-on-semiconductor-stock-and-2-chip-picks-near-the-chips-act-f
   title: ON Semiconductor Stock and 2 Chip Picks Near the CHIPS Act Funding Shift - simplywall.st
   date: '2026-08-01'
@@ -55,10 +59,6 @@ recent_mentions:
   kind: web
 - slug: 2026-07-30-commerce-department-signs-874m-in-chips-act-rd-incentives---
   title: Commerce Department Signs $874M in CHIPS Act R&D Incentives - ExecutiveGov
-  date: '2026-07-30'
-  kind: web
-- slug: 2026-07-30-chips-act-targets-the-smaller-players-powering-ai-chips---fi
-  title: CHIPS Act Targets The Smaller Players Powering AI Chips - Finimize
   date: '2026-07-30'
   kind: web
 neighbors: []

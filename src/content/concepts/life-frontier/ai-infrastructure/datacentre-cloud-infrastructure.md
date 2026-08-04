@@ -20,6 +20,14 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-03-perimeter-compute-wants-to-turn-spare-office-power-into-edge
+  title: Perimeter Compute wants to turn spare office power into edge AI data centers - Latitude Media
+  date: '2026-08-03'
+  kind: web
+- slug: 2026-08-03-the-inference-engineering-masterclass-philip-kiely-ali-taha-
+  title: The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten
+  date: '2026-08-03'
+  kind: web
 - slug: 2026-07-31-memory-optics-packaging-chips-act-targets-ais-compute-bottle
   title: 'Memory, optics, packaging: CHIPS Act targets AI''s compute bottleneck - Electronics360'
   date: '2026-07-31'
@@ -43,14 +51,6 @@ recent_mentions:
 - slug: 2026-07-22-microns-100-billion-mega-plant-sparks-workforce-revolution-i
   title: Micron's $100 billion mega-plant sparks workforce revolution in Central NY - Press & Sun-Bulletin
   date: '2026-07-22'
-  kind: web
-- slug: 2026-07-21-bnef-nearly-doubled-its-forecast-for-us-data-center-power-de
-  title: BNEF nearly doubled its forecast for US data center power demand - Latitude Media
-  date: '2026-07-21'
-  kind: web
-- slug: 2026-07-20-making-sense-of-the-data-center-backlash
-  title: Making sense of the data center backlash
-  date: '2026-07-20'
   kind: web
 neighbors: []
 ---

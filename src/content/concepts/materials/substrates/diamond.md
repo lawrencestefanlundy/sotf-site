@@ -25,9 +25,9 @@ last_updated: '2026-06-17'
 tags:
 - concept
 - technology
-mention_count: 267
+mention_count: 273
 last_reorg_date: '2026-05-13'
-sources_7d: 3
+sources_7d: 4
 sources_30d: 19
 recent_mentions:
 - slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging

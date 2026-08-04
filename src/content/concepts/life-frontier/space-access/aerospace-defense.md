@@ -21,6 +21,10 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-03-nasa-delivers-navigation-system-for-commercial-lunar-relay
+  title: NASA Delivers Navigation System for Commercial Lunar Relay
+  date: '2026-08-03'
+  kind: web
 - slug: 2026-07-31-tb-26-04-webbings-for-use-in-elevated-oxygen-environments
   title: TB 26-04 Webbings for Use in Elevated Oxygen Environments
   date: '2026-07-31'
@@ -47,10 +51,6 @@ recent_mentions:
   kind: web
 - slug: 2026-07-21-a-new-compact-instrument-enables-high-fidelity-measurements-
   title: A New Compact Instrument Enables High-Fidelity Measurements of Energetic Particles on CubeSats
-  date: '2026-07-21'
-  kind: web
-- slug: 2026-07-21-interworld-slingshot-resource-surveys
-  title: Interworld Slingshot Resource Surveys
   date: '2026-07-21'
   kind: web
 neighbors: []

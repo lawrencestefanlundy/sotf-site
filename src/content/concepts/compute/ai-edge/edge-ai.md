@@ -29,13 +29,13 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - framework
-mention_count: 68
+mention_count: 69
 descendants:
 - hearing-aid-silicon-beachhead
 - nvidia-jetson
 last_reorg_date: '2026-05-13'
 sources_7d: 2
-sources_30d: 9
+sources_30d: 10
 recent_mentions:
 - slug: 2026-07-10-edge-buyer-kpi-sweep
   title: 'Edge-AI buyer KPI sweep: power envelope + energy per work; cost per token absent'

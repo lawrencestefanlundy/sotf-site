@@ -30,7 +30,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 50
+mention_count: 51
 descendants:
 - adc-bottleneck
 - analog-in-memory-compute
@@ -41,7 +41,7 @@ descendants:
 - sram-cim
 last_reorg_date: '2026-05-14'
 sources_7d: 2
-sources_30d: 10
+sources_30d: 11
 recent_mentions:
 - slug: 2026-07-31-inference-silicon-roster-sprint
   title: 'Inference-silicon roster verification sprint: 10 companies for the competitive-analysis capital map'

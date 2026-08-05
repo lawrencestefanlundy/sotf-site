@@ -41,7 +41,7 @@ descendants:
 - osat
 last_reorg_date: '2026-05-13'
 sources_7d: 3
-sources_30d: 12
+sources_30d: 10
 recent_mentions:
 - slug: 2026-07-31-chips-act-equity-deals-us-gains-10-stake-in-intel-874m-for-s
   title: 'CHIPS Act Equity Deals: U.S. Gains 10% Stake in Intel, $874M for Seven Companies - News and Statistics - IndexBox'

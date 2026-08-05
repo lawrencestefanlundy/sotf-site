@@ -35,9 +35,9 @@ tags:
 - concept
 - photonics
 - photodetector
-mention_count: 49
-sources_7d: 1
-sources_30d: 1
+mention_count: 51
+sources_7d: 2
+sources_30d: 2
 recent_mentions:
 - slug: 2026-06-17-single-photon-detector-market-spad-snspd
   title: Single-photon detector market aggregation — SPAD, SiPM, SNSPD (2024–2035)

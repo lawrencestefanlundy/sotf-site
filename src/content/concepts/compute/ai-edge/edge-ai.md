@@ -22,6 +22,7 @@ sources:
 - '[[2024-yole-advanced-packaging-2024]]'
 - '[[2026-06-15-gf-investor-day-2026]]'
 - '[[2026-06-17-femtoai-spu-ces2026]]'
+- '[[2026-08-03-perimeter-compute-wants-to-turn-spare-office-power-into-edge]]'
 - '[[2026-07-10-edge-buyer-kpi-sweep]]'
 frontier:
 - ''
@@ -29,14 +30,18 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - framework
-mention_count: 69
+mention_count: 72
 descendants:
 - hearing-aid-silicon-beachhead
 - nvidia-jetson
 last_reorg_date: '2026-05-13'
 sources_7d: 2
-sources_30d: 10
+sources_30d: 12
 recent_mentions:
+- slug: 2026-08-03-perimeter-compute-wants-to-turn-spare-office-power-into-edge
+  title: Perimeter Compute wants to turn spare office power into edge AI data centers - Latitude Media
+  date: '2026-08-03'
+  kind: web
 - slug: 2026-07-10-edge-buyer-kpi-sweep
   title: 'Edge-AI buyer KPI sweep: power envelope + energy per work; cost per token absent'
   date: '2026-07-10'
@@ -65,10 +70,6 @@ recent_mentions:
   title: 'Edge AI: Analog Chips (feat. Aron Kirschen, SEMRON)'
   date: '2025-02-12'
   kind: substack
-- slug: 2024-yole-advanced-packaging-2024
-  title: Yole Group — Advanced Packaging 2024 Market Analysis
-  date: '2024-12-01'
-  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

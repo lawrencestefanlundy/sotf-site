@@ -26,7 +26,7 @@ mention_count: 12
 descendants: []
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 2
+sources_30d: 0
 recent_mentions:
 - slug: 2026-05-18-advanced-geothermal-energy-is-widely-available-clean-and-may
   title: Advanced Geothermal Energy Is Widely Available, Clean, and Maybe Cheap Enough to Make a Big Impact - Information Technology and Innovation Foundation (ITIF)

@@ -30,17 +30,22 @@ sources:
 - '[[2025-11-04-sennheiser-promotes-dect-nr-next-generation-wireless-technol]]'
 - '[[2025-12-15-coming-soon-to-pro-av-dect-nr---avnetwork]]'
 - '[[2023-06-22-single-ic-for-cellular-iot-and-dect-nr-includes-rf-front-end]]'
+- '[[2026-07-09-norik-systems-introduces-nrf9151-based-usb-dongle-for-dect-n]]'
 frontier:
 - ''
 last_updated: '2026-06-05'
 tags:
 - concept
 - technology
-mention_count: 23
+mention_count: 24
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 1
+sources_7d: 0
+sources_30d: 2
 recent_mentions:
+- slug: 2026-07-09-norik-systems-introduces-nrf9151-based-usb-dongle-for-dect-n
+  title: Norik Systems introduces nRF9151-based USB Dongle for DECT NR+ deployments - CNX Software
+  date: '2026-07-09'
+  kind: web
 - slug: 2026-06-12-dect-nr-demystified---sennheiser
   title: DECT NR+ demystified - Sennheiser
   date: '2026-06-12'
@@ -68,10 +73,6 @@ recent_mentions:
 - slug: 2025-11-04-sennheiser-promotes-dect-nr-next-generation-wireless-technol
   title: Sennheiser Promotes DECT NR+ Next-Generation Wireless Technology at DECT World 2025 - audioXpress
   date: '2025-11-04'
-  kind: web
-- slug: 2025-11-03-sennheiser-experts-to-explore-dect-nr-opportunities-at-dect-
-  title: Sennheiser experts to explore DECT NR+ opportunities at DECT World 2025 - Inavate
-  date: '2025-11-03'
   kind: web
 neighbors: []
 ---

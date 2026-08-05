@@ -23,9 +23,9 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 71
+mention_count: 75
 last_reorg_date: '2026-05-13'
-sources_7d: 7
+sources_7d: 9
 sources_30d: 26
 recent_mentions:
 - slug: 2026-07-26-ai-breach-frequency-autonomous-soc

@@ -23,11 +23,11 @@ last_updated: '2026-07-20'
 tags:
 - concept
 - technology
-mention_count: 58
+mention_count: 60
 last_reorg_date: '2026-05-14'
 descendants:
 - spiking-neural-networks
-sources_7d: 3
+sources_7d: 4
 sources_30d: 16
 recent_mentions:
 - slug: 2026-07-31-inference-silicon-roster-sprint

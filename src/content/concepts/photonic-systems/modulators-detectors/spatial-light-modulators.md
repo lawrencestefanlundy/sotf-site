@@ -44,9 +44,9 @@ tags:
 - slm
 - photonic-compute
 last_reorg_date: '2026-05-13'
-mention_count: 39
-sources_7d: 0
-sources_30d: 4
+mention_count: 42
+sources_7d: 3
+sources_30d: 7
 recent_mentions:
 - slug: 2026-06-23-on-device-llms-state-of-union-2026
   title: On-device LLMs, the small-model frontier, and NPU throughput (2025-26 update)

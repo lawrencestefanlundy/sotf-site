@@ -25,6 +25,7 @@ sources:
 - '[[2023-05-31-three-underrated-technologies-from]]'
 - '[[2026-02-12-how-to-invest-in-ai-sovereignty-sovereign]]'
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
+- '[[2026-08-03-nasa-delivers-navigation-system-for-commercial-lunar-relay]]'
 - '[[2026-05-14-nasa-draws-on-industry-for-mars-telecommunications-network]]'
 frontier:
 - BYOC is the standard on-ramp for novel silicon — is it the mechanism a Cloudberry novel-hardware deal should plan to use, vs building a compiler from scratch?
@@ -38,10 +39,14 @@ tags:
 - reference
 descendants:
 - mlc-llm
-mention_count: 40
-sources_7d: 3
-sources_30d: 12
+mention_count: 44
+sources_7d: 7
+sources_30d: 15
 recent_mentions:
+- slug: 2026-08-03-nasa-delivers-navigation-system-for-commercial-lunar-relay
+  title: NASA Delivers Navigation System for Commercial Lunar Relay
+  date: '2026-08-03'
+  kind: web
 - slug: 2026-05-14-nasa-draws-on-industry-for-mars-telecommunications-network
   title: NASA Draws on Industry for Mars Telecommunications Network
   date: '2026-05-14'

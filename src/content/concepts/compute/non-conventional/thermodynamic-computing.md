@@ -34,10 +34,10 @@ tags:
 - technology
 - physics-based-asics
 - thermodynamic-ai
-mention_count: 9
+mention_count: 10
 last_reorg_date: '2026-05-27'
-sources_7d: 0
-sources_30d: 1
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
 - slug: 2026-07-25-thoughts-on-ai-and-power
   title: Thoughts on AI and power

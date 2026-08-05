@@ -21,9 +21,9 @@ last_updated: '2026-06-26'
 tags:
 - concept
 - technology
-mention_count: 8
-sources_7d: 0
-sources_30d: 0
+mention_count: 10
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
 - slug: 2026-02-02-photonic-engines-for-data-centers
   title: Photonic "Engines" for Data Centers

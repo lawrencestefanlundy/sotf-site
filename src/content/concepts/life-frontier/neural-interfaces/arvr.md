@@ -18,13 +18,13 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 29
+mention_count: 30
 last_reorg_date: '2026-05-13'
 descendants:
 - ar-glasses-stack
 - ar-optical-combiners
 sources_7d: 1
-sources_30d: 3
+sources_30d: 4
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'

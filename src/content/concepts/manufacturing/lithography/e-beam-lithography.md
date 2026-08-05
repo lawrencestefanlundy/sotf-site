@@ -56,12 +56,20 @@ last_updated: '2026-06-02'
 tags:
 - concept
 - technology
-mention_count: 1423
+mention_count: 1445
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 2
+sources_7d: 1
 sources_30d: 10
 recent_mentions:
+- slug: 2026-08-03-uk-chip-firm-olix-valued-at-more-than-2bn-after-major-invest
+  title: UK chip firm OLIX valued at more than £2bn after major investment - UKTN
+  date: '2026-08-03'
+  kind: web
+- slug: 2026-08-03-uk-chip-startup-olix-raises-312m-at-33bn-valuation---techeu
+  title: UK chip startup Olix raises $312M at $3.3BN valuation - Tech.eu
+  date: '2026-08-03'
+  kind: web
 - slug: 2026-08-01-on-semiconductor-stock-and-2-chip-picks-near-the-chips-act-f
   title: ON Semiconductor Stock and 2 Chip Picks Near the CHIPS Act Funding Shift - simplywall.st
   date: '2026-08-01'
@@ -85,14 +93,6 @@ recent_mentions:
 - slug: 2026-07-29-aeluma-secures-loi-for-up-to-30-million-in-chips-act-funding
   title: Aeluma Secures LOI for Up to $30 Million in CHIPS Act Funding to Advance Photonics Semiconductor R&D - Quiver Quantitative
   date: '2026-07-29'
-  kind: web
-- slug: 2026-07-25-thoughts-on-ai-and-power
-  title: Thoughts on AI and power
-  date: '2026-07-25'
-  kind: web
-- slug: 2026-07-24-trust-stamp-selected-for-eu-advanced-semiconductor-technolog
-  title: Trust Stamp selected for EU advanced semiconductor technology initiative - Proactive Investors
-  date: '2026-07-24'
   kind: web
 neighbors:
 - slug: maskless-lithography

@@ -27,9 +27,6 @@ sources:
 - '[[2026-06-16-hbm-supercycle-2026]]'
 - '[[2024-10-23-optical-dram-integrated-non-reciprocal-magneto-optics-with]]'
 - '[[2024-08-30-optical-dram-integrated-magneto-photonic-non-volatile-multi]]'
-- '[[2026-04-08-tech-inflation-silicon-shock-gartner-forecasts-worldwide]]'
-- '[[2026-07-02-semianalysis-ectc2026-advanced-packaging]]'
-- '[[2026-06-01-tech-inflation-silicon-shock-rapid-contract-price-surge]]'
 frontier:
 - Does CXMT convert its 12%-of-global-HBM-*wafer*-share (2028, SemiAnalysis) into competitive HBM *bit* share, or does ~25% 8-hi stacking yield cap it as low-grade domestic supply?
 - Does Chinese domestic DRAM (CXMT ~11%→17% of global capacity by 2028) tip commodity DDR5 into oversupply and break the ASP super-cycle?
@@ -37,23 +34,23 @@ last_updated: '2026-06-23'
 tags:
 - concept
 - technology
-mention_count: 148
+mention_count: 151
 last_reorg_date: '2026-05-14'
-sources_7d: 3
-sources_30d: 18
+sources_7d: 4
+sources_30d: 20
 recent_mentions:
 - slug: 2026-07-31-positron-research-sprint
   title: 'Positron AI research sprint: architecture, funding, customers, manufacturing'
   date: '2026-07-31'
   kind: web
-- slug: 2026-07-27-cxmt-star-market-debut
-  title: CXMT's 466% STAR Market debut makes it China's most valuable mainland-listed company
-  date: '2026-07-27'
-  kind: web
 - slug: 2026-07-27-arxiv-dynamic-rowhammer-threshold-managementtemperature-aware-thre
   title: Dynamic Rowhammer Threshold Management:Temperature-Aware Threshold Degradation for In-DRAM Defenses
   date: '2026-07-27'
   kind: paper
+- slug: 2026-07-27-cxmt-star-market-debut
+  title: CXMT's 466% STAR Market debut makes it China's most valuable mainland-listed company
+  date: '2026-07-27'
+  kind: web
 - slug: 2026-07-25-thoughts-on-ai-and-power
   title: Thoughts on AI and power
   date: '2026-07-25'

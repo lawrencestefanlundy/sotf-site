@@ -25,7 +25,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 56
+mention_count: 58
 last_reorg_date: '2026-05-13'
 descendants:
 - aluminium-gallium-nitride
@@ -40,7 +40,7 @@ descendants:
 - solid-state-circuit-breakers
 - wireless-power-transfer
 sources_7d: 3
-sources_30d: 14
+sources_30d: 13
 recent_mentions:
 - slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint
   title: 'What actually limits a humanoid to minutes: the thermal cliff, not the battery'

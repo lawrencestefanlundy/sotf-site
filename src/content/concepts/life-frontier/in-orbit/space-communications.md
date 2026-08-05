@@ -30,7 +30,7 @@ tags:
 mention_count: 23
 descendants: []
 last_reorg_date: '2026-05-14'
-sources_7d: 1
+sources_7d: 0
 sources_30d: 4
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026

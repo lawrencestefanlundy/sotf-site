@@ -29,10 +29,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - material
-mention_count: 729
+mention_count: 752
 last_reorg_date: '2026-05-13'
 sources_7d: 2
-sources_30d: 8
+sources_30d: 7
 recent_mentions:
 - slug: 2026-07-31-etched-research-sprint
   title: Etched research sprint — tape-out speed, HBM supply, customer orders (4-lane web sweep)

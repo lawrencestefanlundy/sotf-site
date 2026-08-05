@@ -27,7 +27,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 90
+mention_count: 93
 descendants:
 - diffractive-deep-neural-network
 - diffractive-deep-neural-networks
@@ -36,8 +36,8 @@ descendants:
 - photonic-compute-memory
 - photonic-tensor-cores
 last_reorg_date: '2026-05-13'
-sources_7d: 3
-sources_30d: 14
+sources_7d: 4
+sources_30d: 17
 recent_mentions:
 - slug: 2026-07-31-inference-silicon-roster-sprint
   title: 'Inference-silicon roster verification sprint: 10 companies for the competitive-analysis capital map'

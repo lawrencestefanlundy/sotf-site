@@ -48,10 +48,10 @@ last_updated: '2026-07-26'
 tags:
 - concept
 - technology
-mention_count: 93
+mention_count: 96
 last_reorg_date: '2026-05-14'
-sources_7d: 0
-sources_30d: 1
+sources_7d: 2
+sources_30d: 4
 recent_mentions:
 - slug: 2026-08-03-perimeter-compute-wants-to-turn-spare-office-power-into-edge
   title: Perimeter Compute wants to turn spare office power into edge AI data centers - Latitude Media

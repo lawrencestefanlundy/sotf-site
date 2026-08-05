@@ -30,9 +30,9 @@ tags:
 - pim
 - memory-idm
 - map
-mention_count: 25
-sources_7d: 3
-sources_30d: 9
+mention_count: 27
+sources_7d: 2
+sources_30d: 10
 recent_mentions:
 - slug: 2026-07-10-workload-phase-silicon-sweep
   title: 'Workload-phase silicon sweep: pre-training / RL / prefill / decode procurement split'

@@ -21,7 +21,15 @@ mention_count: 13
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 2
-recent_mentions: []
+recent_mentions:
+- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
+  title: 'Startup Funding: Q2 2026'
+  date: '2026-07-13'
+  kind: web
+- slug: 2026-05-26-semianalysis-800vdc-revolution
+  title: Inside the 800VDC Revolution – Part 1
+  date: '2026-05-26'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

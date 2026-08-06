@@ -56,11 +56,11 @@ last_updated: '2026-06-02'
 tags:
 - concept
 - technology
-mention_count: 1445
+mention_count: 1452
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 1
-sources_30d: 10
+sources_30d: 9
 recent_mentions:
 - slug: 2026-08-03-uk-chip-firm-olix-valued-at-more-than-2bn-after-major-invest
   title: UK chip firm OLIX valued at more than £2bn after major investment - UKTN

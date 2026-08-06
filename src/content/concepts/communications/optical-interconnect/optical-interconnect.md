@@ -34,7 +34,7 @@ last_updated: '2026-05-07'
 tags:
 - concept
 - technology
-mention_count: 89
+mention_count: 90
 descendants:
 - datacenter-network-stack
 - lpo-linear-pluggable-optics
@@ -44,7 +44,7 @@ descendants:
 - optical-packet-switching
 - pluggable-transceivers
 last_reorg_date: '2026-05-13'
-sources_7d: 2
+sources_7d: 3
 sources_30d: 7
 recent_mentions:
 - slug: 2026-07-29-serenity-globalfoundries-receives-support-from-the-us-chips-

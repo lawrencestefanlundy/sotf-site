@@ -42,7 +42,7 @@ last_updated: '2026-07-26'
 tags:
 - concept
 - theme
-mention_count: 965
+mention_count: 972
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -55,6 +55,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 4
 sources_30d: 13
 recent_mentions:
+- slug: 2026-08-05-uk-neocloud-landscape-sweep
+  title: UK neocloud landscape sweep — filling the coverage gap under the neocloud/serving map
+  date: '2026-08-05'
+  kind: web
 - slug: 2026-07-31-memory-optics-packaging-chips-act-targets-ais-compute-bottle
   title: 'Memory, optics, packaging: CHIPS Act targets AI''s compute bottleneck - Electronics360'
   date: '2026-07-31'
@@ -83,10 +87,6 @@ recent_mentions:
   title: The Once and Future Kimi
   date: '2026-07-17'
   kind: substack
-- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
-  title: 'Startup Funding: Q2 2026'
-  date: '2026-07-13'
-  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

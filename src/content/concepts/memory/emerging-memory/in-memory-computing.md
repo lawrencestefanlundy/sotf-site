@@ -40,8 +40,8 @@ descendants:
 - processing-in-memory
 - sram-cim
 last_reorg_date: '2026-05-14'
-sources_7d: 2
-sources_30d: 11
+sources_7d: 1
+sources_30d: 9
 recent_mentions:
 - slug: 2026-07-31-inference-silicon-roster-sprint
   title: 'Inference-silicon roster verification sprint: 10 companies for the competitive-analysis capital map'

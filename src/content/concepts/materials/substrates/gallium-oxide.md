@@ -15,10 +15,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - material
-mention_count: 10
+mention_count: 11
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 1
+sources_7d: 2
+sources_30d: 2
 recent_mentions: []
 neighbors: []
 ---

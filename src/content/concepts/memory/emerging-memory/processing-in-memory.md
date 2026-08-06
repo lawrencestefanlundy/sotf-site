@@ -30,8 +30,8 @@ tags:
 - pim
 - memory-idm
 - map
-mention_count: 27
-sources_7d: 2
+mention_count: 28
+sources_7d: 3
 sources_30d: 10
 recent_mentions:
 - slug: 2026-07-10-workload-phase-silicon-sweep

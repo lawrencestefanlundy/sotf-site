@@ -24,7 +24,7 @@ descendants:
 - ar-glasses-stack
 - ar-optical-combiners
 sources_7d: 1
-sources_30d: 4
+sources_30d: 3
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'

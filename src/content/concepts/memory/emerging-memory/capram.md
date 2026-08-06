@@ -34,9 +34,9 @@ tags:
 - semron
 - memcapacitor
 - product-brand
-mention_count: 42
-sources_7d: 1
-sources_30d: 7
+mention_count: 43
+sources_7d: 2
+sources_30d: 8
 recent_mentions:
 - slug: 2026-07-31-positron-research-sprint
   title: 'Positron AI research sprint: architecture, funding, customers, manufacturing'

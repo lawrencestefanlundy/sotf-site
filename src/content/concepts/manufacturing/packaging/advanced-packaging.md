@@ -40,7 +40,7 @@ descendants:
 - micro-transfer-printing
 - osat
 last_reorg_date: '2026-05-13'
-sources_7d: 3
+sources_7d: 2
 sources_30d: 10
 recent_mentions:
 - slug: 2026-07-31-chips-act-equity-deals-us-gains-10-stake-in-intel-874m-for-s

@@ -19,7 +19,11 @@ mention_count: 0
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-08-05-uk-neocloud-landscape-sweep
+  title: UK neocloud landscape sweep — filling the coverage gap under the neocloud/serving map
+  date: '2026-08-05'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

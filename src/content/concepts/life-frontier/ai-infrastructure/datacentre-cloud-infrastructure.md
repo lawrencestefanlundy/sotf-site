@@ -20,6 +20,14 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-05-stealthium-gpu-powered-security-intelligence-site-docs-compe
+  title: Stealthium — GPU-Powered Security Intelligence (site + docs + competitive context)
+  date: '2026-08-05'
+  kind: web
+- slug: 2026-08-05-uk-neocloud-landscape-sweep
+  title: UK neocloud landscape sweep — filling the coverage gap under the neocloud/serving map
+  date: '2026-08-05'
+  kind: web
 - slug: 2026-08-03-perimeter-compute-wants-to-turn-spare-office-power-into-edge
   title: Perimeter Compute wants to turn spare office power into edge AI data centers - Latitude Media
   date: '2026-08-03'
@@ -43,14 +51,6 @@ recent_mentions:
 - slug: 2026-07-23-why-energy-bills-may-keep-rising-even-as-utilities-join-trum
   title: Why energy bills may keep rising, even as utilities join Trump’s AI ratepayer pledge - Latitude Media
   date: '2026-07-23'
-  kind: web
-- slug: 2026-07-23-datacenter-capex-is-spilling-over-into-a-chatgpt-of-robotics
-  title: Datacenter Capex is Spilling over into a ChatGPT of Robotics Moment set for 2027 and this decade.
-  date: '2026-07-23'
-  kind: web
-- slug: 2026-07-22-microns-100-billion-mega-plant-sparks-workforce-revolution-i
-  title: Micron's $100 billion mega-plant sparks workforce revolution in Central NY - Press & Sun-Bulletin
-  date: '2026-07-22'
   kind: web
 neighbors: []
 ---

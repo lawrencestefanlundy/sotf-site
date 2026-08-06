@@ -24,7 +24,7 @@ tags:
 mention_count: 16
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 2
+sources_30d: 0
 recent_mentions:
 - slug: 2026-03-30-photonics-material-class-war-silicon-photonics-and-photonic
   title: 'Silicon Photonics and Photonic Integrated Circuits 2026-2036: Technologies, Markets, and Forecasts'

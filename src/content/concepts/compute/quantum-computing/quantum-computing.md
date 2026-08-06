@@ -50,7 +50,7 @@ descendants:
 - trapped-ion
 last_reorg_date: '2026-05-13'
 sources_7d: 9
-sources_30d: 26
+sources_30d: 22
 recent_mentions:
 - slug: 2026-07-28-exclusive-eth-zurich-spinout-zuriq-raises-255m-seed---sifted
   title: 'Exclusive: ETH Zurich spinout ZuriQ raises $25.5m seed - Sifted'

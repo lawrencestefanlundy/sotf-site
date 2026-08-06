@@ -50,9 +50,13 @@ tags:
 - technology
 mention_count: 96
 last_reorg_date: '2026-05-14'
-sources_7d: 2
+sources_7d: 1
 sources_30d: 4
 recent_mentions:
+- slug: 2026-08-05-stealthium-gpu-powered-security-intelligence-site-docs-compe
+  title: Stealthium — GPU-Powered Security Intelligence (site + docs + competitive context)
+  date: '2026-08-05'
+  kind: web
 - slug: 2026-08-03-perimeter-compute-wants-to-turn-spare-office-power-into-edge
   title: Perimeter Compute wants to turn spare office power into edge AI data centers - Latitude Media
   date: '2026-08-03'
@@ -80,10 +84,6 @@ recent_mentions:
 - slug: 2026-07-30-chips-act-targets-the-smaller-players-powering-ai-chips---fi
   title: CHIPS Act Targets The Smaller Players Powering AI Chips - Finimize
   date: '2026-07-30'
-  kind: web
-- slug: 2026-07-28-south-korea-to-introduce-k-chips-act-tax-credits-for-domesti
-  title: South Korea to Introduce 'K-Chips Act' Tax Credits for Domestic Production of Semiconductors, AI Robots, and More Next Year - finance.biggo.com
-  date: '2026-07-28'
   kind: web
 neighbors: []
 ---

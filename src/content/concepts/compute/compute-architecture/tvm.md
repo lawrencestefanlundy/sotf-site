@@ -39,9 +39,9 @@ tags:
 - reference
 descendants:
 - mlc-llm
-mention_count: 44
-sources_7d: 7
-sources_30d: 15
+mention_count: 45
+sources_7d: 5
+sources_30d: 10
 recent_mentions:
 - slug: 2026-08-03-nasa-delivers-navigation-system-for-commercial-lunar-relay
   title: NASA Delivers Navigation System for Commercial Lunar Relay

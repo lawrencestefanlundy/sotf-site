@@ -19,7 +19,7 @@ tags:
 - concept
 - technology
 mention_count: 15
-sources_7d: 3
+sources_7d: 2
 sources_30d: 4
 recent_mentions:
 - slug: 2023-06-23-e05-the-future-of-edge-ai-brain-inspired

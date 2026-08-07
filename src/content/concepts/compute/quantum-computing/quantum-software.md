@@ -20,7 +20,7 @@ tags:
 mention_count: 23
 last_reorg_date: '2026-05-13'
 sources_7d: 1
-sources_30d: 7
+sources_30d: 6
 recent_mentions:
 - slug: 2026-06-08-quantum-roadmap-funded-not-demand-funded-quantum-computing
   title: Quantum Computing Startup Funding 2025-2026 – New Market Pitch

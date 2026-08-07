@@ -42,7 +42,7 @@ last_updated: '2026-07-26'
 tags:
 - concept
 - theme
-mention_count: 972
+mention_count: 970
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -53,11 +53,15 @@ descendants:
 - optoelectronic-oscillator
 last_reorg_date: '2026-05-13'
 sources_7d: 4
-sources_30d: 13
+sources_30d: 12
 recent_mentions:
 - slug: 2026-08-05-uk-neocloud-landscape-sweep
   title: UK neocloud landscape sweep — filling the coverage gap under the neocloud/serving map
   date: '2026-08-05'
+  kind: web
+- slug: 2026-08-03-spad-single-photon-market-scan
+  title: SPAD / single-photon detector market scan — incumbent structure and company cohort
+  date: '2026-08-03'
   kind: web
 - slug: 2026-07-31-memory-optics-packaging-chips-act-targets-ais-compute-bottle
   title: 'Memory, optics, packaging: CHIPS Act targets AI''s compute bottleneck - Electronics360'
@@ -83,10 +87,6 @@ recent_mentions:
   title: NIAC 2026 Selections
   date: '2026-07-21'
   kind: web
-- slug: 2026-07-17-the-once-and-future-kimi
-  title: The Once and Future Kimi
-  date: '2026-07-17'
-  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

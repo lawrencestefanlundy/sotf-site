@@ -9,6 +9,7 @@ parent_concepts:
 - ranging-detection
 related_concepts: []
 sources:
+- '[[2026-08-03-spad-single-photon-market-scan]]'
 - '[[2026-06-02-singular-photonics-launch]]'
 frontier:
 - ''
@@ -16,11 +17,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 15
+mention_count: 16
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 1
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
+- slug: 2026-08-03-spad-single-photon-market-scan
+  title: SPAD / single-photon detector market scan — incumbent structure and company cohort
+  date: '2026-08-03'
+  kind: web
 - slug: 2026-06-02-singular-photonics-launch
   title: Singular Photonics — launch, SPAD portfolio + Meta collaboration (coverage)
   date: '2026-06-02'

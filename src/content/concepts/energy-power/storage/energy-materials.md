@@ -15,7 +15,7 @@ last_updated: '2026-05-07'
 tags:
 - concept
 - category
-mention_count: 4
+mention_count: 5
 last_reorg_date: '2026-05-14'
 sources_7d: 1
 sources_30d: 2

@@ -30,8 +30,8 @@ frontier:
 last_updated: 2026-06-02
 tags:
 - concept
-mention_count: 44
-sources_7d: 4
+mention_count: 45
+sources_7d: 3
 sources_30d: 12
 recent_mentions:
 - slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint

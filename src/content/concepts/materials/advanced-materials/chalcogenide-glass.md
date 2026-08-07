@@ -63,8 +63,6 @@ Chalcogenide glasses contain group VI elements (S, Se, Te) bonded with As, Ge, o
 
 ## Competitive landscape
 
-Mid-IR ChG production: IRflex, CorActive, Schott (specialty fibre + bulk), no integrated photonic foundry. Programmable photonics with GST: Oxford (Bhaskaran group), EPFL, IBM Zurich, Cambridge (Wright group). Commercial scale-up: Salience Labs (Oxford spinout, photonic compute), Lightelligence and Lightmatter (different photonic compute approaches but adjacent thesis).
-
 ## Frontier (open questions)
 
 See frontmatter `frontier:` block.

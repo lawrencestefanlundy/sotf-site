@@ -28,9 +28,9 @@ tags:
 - ai-infrastructure
 - llm-inference
 - memory-bound
-mention_count: 3
-sources_7d: 1
-sources_30d: 1
+mention_count: 4
+sources_7d: 2
+sources_30d: 2
 recent_mentions:
 - slug: 2026-07-31-positron-research-sprint
   title: 'Positron AI research sprint: architecture, funding, customers, manufacturing'

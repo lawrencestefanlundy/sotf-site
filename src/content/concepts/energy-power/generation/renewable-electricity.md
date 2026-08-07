@@ -21,6 +21,10 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-05-which-ldes-companies-are-poised-to-land-the-next-big-contrac
+  title: Which LDES companies are poised to land the next big contracts? - Latitude Media
+  date: '2026-08-05'
+  kind: web
 - slug: 2026-07-30-cfs-thinks-fusion-isnt-ready-for-public-markets---latitude-m
   title: CFS thinks fusion isn’t ready for public markets - Latitude Media
   date: '2026-07-30'
@@ -48,10 +52,6 @@ recent_mentions:
 - slug: 2026-04-14-nexus-greentech-supports-companies-in-the-photovoltaic-indus
   title: NEXUS GreenTech Supports Companies in the Photovoltaic Industry - Fraunhofer-Institut für Solare Energiesysteme ISE
   date: '2026-04-14'
-  kind: web
-- slug: 2023-11-16-barriers-to-next-gen-geothermal---institute-for-progress-ifp
-  title: Barriers to Next-Gen Geothermal - Institute for Progress (IFP)
-  date: '2023-11-16'
   kind: web
 neighbors: []
 ---

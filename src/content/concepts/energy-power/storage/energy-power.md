@@ -80,6 +80,14 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-06-the-electrician-shortage-slowing-the-ai-boom---latitude-medi
+  title: The electrician shortage slowing the AI boom - Latitude Media
+  date: '2026-08-06'
+  kind: web
+- slug: 2026-08-05-which-ldes-companies-are-poised-to-land-the-next-big-contrac
+  title: Which LDES companies are poised to land the next big contracts? - Latitude Media
+  date: '2026-08-05'
+  kind: web
 - slug: 2026-08-03-perimeter-compute-wants-to-turn-spare-office-power-into-edge
   title: Perimeter Compute wants to turn spare office power into edge AI data centers - Latitude Media
   date: '2026-08-03'
@@ -103,14 +111,6 @@ recent_mentions:
 - slug: 2026-07-21-bnef-nearly-doubled-its-forecast-for-us-data-center-power-de
   title: BNEF nearly doubled its forecast for US data center power demand - Latitude Media
   date: '2026-07-21'
-  kind: web
-- slug: 2026-07-20-making-sense-of-the-data-center-backlash
-  title: Making sense of the data center backlash
-  date: '2026-07-20'
-  kind: web
-- slug: 2026-07-17-the-data-center-backlash-isnt-just-nimbyism
-  title: The data center backlash isn’t just NIMBYism
-  date: '2026-07-17'
   kind: web
 neighbors: []
 ---

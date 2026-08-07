@@ -56,12 +56,16 @@ last_updated: '2026-06-02'
 tags:
 - concept
 - technology
-mention_count: 1452
+mention_count: 1382
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 1
-sources_30d: 9
+sources_30d: 8
 recent_mentions:
+- slug: 2026-08-03-spad-single-photon-market-scan
+  title: SPAD / single-photon detector market scan — incumbent structure and company cohort
+  date: '2026-08-03'
+  kind: web
 - slug: 2026-08-03-uk-chip-firm-olix-valued-at-more-than-2bn-after-major-invest
   title: UK chip firm OLIX valued at more than £2bn after major investment - UKTN
   date: '2026-08-03'
@@ -88,10 +92,6 @@ recent_mentions:
   kind: web
 - slug: 2026-07-29-chipagents-series-a2-134m
   title: ChipAgents Expands Series A Funding to $134 Million as Demand Grows for Agentic AI in Semiconductor Design
-  date: '2026-07-29'
-  kind: web
-- slug: 2026-07-29-aeluma-secures-loi-for-up-to-30-million-in-chips-act-funding
-  title: Aeluma Secures LOI for Up to $30 Million in CHIPS Act Funding to Advance Photonics Semiconductor R&D - Quiver Quantitative
   date: '2026-07-29'
   kind: web
 neighbors:

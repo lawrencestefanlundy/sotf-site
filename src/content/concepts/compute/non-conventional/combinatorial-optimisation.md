@@ -25,7 +25,7 @@ last_updated: 2026-06-02
 tags:
 - concept
 mention_count: 56
-sources_7d: 3
+sources_7d: 1
 sources_30d: 15
 recent_mentions:
 - slug: 2025-04-30-has-the-time-come-to-take-mortal

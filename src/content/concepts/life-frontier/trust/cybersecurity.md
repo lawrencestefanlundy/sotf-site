@@ -25,7 +25,7 @@ tags:
 - technology
 mention_count: 76
 last_reorg_date: '2026-05-13'
-sources_7d: 8
+sources_7d: 5
 sources_30d: 27
 recent_mentions:
 - slug: 2026-07-26-ai-breach-frequency-autonomous-soc

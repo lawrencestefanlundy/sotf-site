@@ -20,8 +20,16 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-06-the-electrician-shortage-slowing-the-ai-boom---latitude-medi
+  title: The electrician shortage slowing the AI boom - Latitude Media
+  date: '2026-08-06'
+  kind: web
 - slug: 2026-08-05-stealthium-gpu-powered-security-intelligence-site-docs-compe
   title: Stealthium — GPU-Powered Security Intelligence (site + docs + competitive context)
+  date: '2026-08-05'
+  kind: web
+- slug: 2026-08-05-which-ldes-companies-are-poised-to-land-the-next-big-contrac
+  title: Which LDES companies are poised to land the next big contracts? - Latitude Media
   date: '2026-08-05'
   kind: web
 - slug: 2026-08-05-uk-neocloud-landscape-sweep
@@ -43,14 +51,6 @@ recent_mentions:
 - slug: 2026-07-29-does-blue-state-purge-hit-a-transmission-project-promising-c
   title: DOE’s blue-state purge hit a transmission project promising cost savings - Latitude Media
   date: '2026-07-29'
-  kind: web
-- slug: 2026-07-24-18b-illinois-chips-act-supports-zero-point-cryogenics-us-ent
-  title: $1.8B Illinois Chips Act Supports Zero Point Cryogenics’ U.S. Entry - Quantum Zeitgeist
-  date: '2026-07-24'
-  kind: web
-- slug: 2026-07-23-why-energy-bills-may-keep-rising-even-as-utilities-join-trum
-  title: Why energy bills may keep rising, even as utilities join Trump’s AI ratepayer pledge - Latitude Media
-  date: '2026-07-23'
   kind: web
 neighbors: []
 ---

@@ -35,7 +35,7 @@ tags:
 mention_count: 5
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2025-12-16-lithography-patterning-market-new-1-4nm-nanoimprint
   title: New 1.4nm nanoimprint lithography template could reduce the need for EUV steps in advanced process nodes

@@ -23,13 +23,13 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 200
+mention_count: 202
 last_reorg_date: '2026-05-13'
 descendants:
 - external-laser-source
 - laser-display-light-engines
 sources_7d: 4
-sources_30d: 17
+sources_30d: 16
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
@@ -55,13 +55,13 @@ recent_mentions:
   title: Optical-interconnect / photonic-packaging M&A ledger (2019-2026)
   date: '2026-05-30'
   kind: web
-- slug: 2026-04-15-any-color-you-like-nist-scientists-create-any-wavelength-las
-  title: 'Any Color You Like: NIST Scientists Create ‘Any Wavelength’ Lasers in Tiny Circuits for Light'
-  date: '2026-04-15'
-  kind: web
 - slug: 2026-06-17-sivers-onet-enablence-external-light-source-cpo
   title: Sivers, O-Net and Enablence partner to develop external light sources for AI data centers
   date: '2026-03-17'
+  kind: web
+- slug: 2026-03-15-photonic-light-source-supply-silicon-photonics-market
+  title: 'Silicon Photonics Market: Integration of On-Chip Lasers Remains Thorny Technical Hurdle'
+  date: '2026-03-15'
   kind: web
 neighbors: []
 ---

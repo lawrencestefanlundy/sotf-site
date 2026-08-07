@@ -27,13 +27,13 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 143
+mention_count: 145
 last_reorg_date: '2026-05-13'
 descendants:
 - avalanche-photodiode
 - optical-gyroscope
 sources_7d: 1
-sources_30d: 7
+sources_30d: 6
 recent_mentions:
 - slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape
   title: Neutral PDK / EDA layer for heterogeneous photonic integration — landscape check (Scintil essay correction research)

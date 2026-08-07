@@ -29,7 +29,7 @@ tags:
 - reference
 mention_count: 12
 sources_7d: 0
-sources_30d: 4
+sources_30d: 3
 recent_mentions:
 - slug: 2026-06-22-llm-kernel-compiler-synthesis-evidence
   title: LLM / agentic GPU-kernel and compiler synthesis — dated evidence arc 2025-2026

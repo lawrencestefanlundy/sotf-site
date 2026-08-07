@@ -27,7 +27,7 @@ descendants:
 - wafer-level-burn-in
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-08-03-uk-chip-startup-olix-raises-312m-at-33bn-valuation---techeu
   title: UK chip startup Olix raises $312M at $3.3BN valuation - Tech.eu

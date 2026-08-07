@@ -46,7 +46,7 @@ tags:
 last_reorg_date: '2026-05-13'
 mention_count: 44
 sources_7d: 5
-sources_30d: 8
+sources_30d: 7
 recent_mentions:
 - slug: 2026-06-23-on-device-llms-state-of-union-2026
   title: On-device LLMs, the small-model frontier, and NPU throughput (2025-26 update)

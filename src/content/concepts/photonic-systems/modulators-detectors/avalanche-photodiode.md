@@ -23,6 +23,7 @@ related_concepts:
 - photonic-imaging
 - quantum-cascade-lasers
 sources:
+- '[[2026-08-03-spad-single-photon-market-scan]]'
 - '[[2026-06-17-single-photon-detector-market-spad-snspd]]'
 - '[[2026-06-02-singular-photonics-launch]]'
 frontier:
@@ -35,10 +36,14 @@ tags:
 - concept
 - photonics
 - photodetector
-mention_count: 51
-sources_7d: 2
-sources_30d: 2
+mention_count: 52
+sources_7d: 3
+sources_30d: 3
 recent_mentions:
+- slug: 2026-08-03-spad-single-photon-market-scan
+  title: SPAD / single-photon detector market scan — incumbent structure and company cohort
+  date: '2026-08-03'
+  kind: web
 - slug: 2026-06-17-single-photon-detector-market-spad-snspd
   title: Single-photon detector market aggregation — SPAD, SiPM, SNSPD (2024–2035)
   date: '2026-06-17'

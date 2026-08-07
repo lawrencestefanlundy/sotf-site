@@ -32,7 +32,7 @@ tags:
 mention_count: 4
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 1
+sources_7d: 0
 sources_30d: 2
 recent_mentions: []
 neighbors:

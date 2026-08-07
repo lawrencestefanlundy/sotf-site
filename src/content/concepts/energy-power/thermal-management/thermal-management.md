@@ -37,7 +37,7 @@ tags:
 mention_count: 91
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 2
+sources_7d: 1
 sources_30d: 9
 recent_mentions:
 - slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint
@@ -68,10 +68,10 @@ recent_mentions:
   title: 'Thermal Interface Materials Market Report 2026-2036: High-Performance TIMs for Data Centers, AI Servers, and 5G Infrastructure'
   date: '2025-08-19'
   kind: web
-- slug: 2024-yole-thermal-management-2024
-  title: Yole Group — Thermal Management 2024 Market Analysis
-  date: '2024-10-01'
-  kind: web
+- slug: 2025-04-30-has-the-time-come-to-take-mortal
+  title: Has the time come to take Mortal Computing seriously?
+  date: '2025-04-30'
+  kind: substack
 neighbors:
 - slug: thermal-stack-map
   name: AI Thermal Stack Map (junction-to-ambient)

@@ -33,15 +33,15 @@ last_updated: '2026-07-26'
 tags:
 - concept
 - technology
-mention_count: 169
+mention_count: 170
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration
 - micro-transfer-printing
 - osat
 last_reorg_date: '2026-05-13'
-sources_7d: 2
-sources_30d: 10
+sources_7d: 0
+sources_30d: 9
 recent_mentions:
 - slug: 2026-07-31-chips-act-equity-deals-us-gains-10-stake-in-intel-874m-for-s
   title: 'CHIPS Act Equity Deals: U.S. Gains 10% Stake in Intel, $874M for Seven Companies - News and Statistics - IndexBox'

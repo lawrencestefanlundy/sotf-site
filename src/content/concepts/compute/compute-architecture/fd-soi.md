@@ -12,6 +12,7 @@ related_concepts: []
 sources:
 - '[[2026-06-22-beyond-cmos-device-layer-research]]'
 - '[[2024-eu-chips-act-final-text]]'
+- '[[2026-08-03-spad-single-photon-market-scan]]'
 - '[[2026-06-04-globalfoundries-emram-22fdx-availability]]'
 - '[[2026-06-15-gf-investor-day-2026]]'
 - '[[2026-05-21-gf-quantum-technology-solutions]]'
@@ -21,11 +22,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 19
+mention_count: 20
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 1
+sources_7d: 2
+sources_30d: 2
 recent_mentions:
+- slug: 2026-08-03-spad-single-photon-market-scan
+  title: SPAD / single-photon detector market scan — incumbent structure and company cohort
+  date: '2026-08-03'
+  kind: web
 - slug: 2026-06-22-beyond-cmos-device-layer-research
   title: Beyond-CMOS device layer — grounded research (MRAM/FeFET beachhead + capture base rate)
   date: '2026-06-22'

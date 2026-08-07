@@ -37,7 +37,7 @@ descendants:
 - photonic-tensor-cores
 last_reorg_date: '2026-05-13'
 sources_7d: 4
-sources_30d: 16
+sources_30d: 15
 recent_mentions:
 - slug: 2026-07-31-inference-silicon-roster-sprint
   title: 'Inference-silicon roster verification sprint: 10 companies for the competitive-analysis capital map'
@@ -84,14 +84,6 @@ neighbors: []
 
 ### Integrated PIC · workload-specific
 | **Optalysys** | UK | optical accelerator for **FHE / homomorphic encryption**; ~$50M+ (raise early 2026) | active |
-
-### Pivoted / defunct / mis-categorised (do not treat as live optical-compute)
-- **Salience Labs** — **pivoted** photonic compute → optical *switches* ($30M Series A 2025); now a switch-layer play.
-- **Lighton** — **pivoted** to generative-AI **software** (Euronext-listed Nov 2024); optical hardware (OPU random projections, once in the Jean Zay TOP500 machine) discontinued in all but name. The instructive failure: the fixed random matrix its hardware computed wasn't a workload anyone paid for.
-- **Fathom Computing** (US) — free-space NN *training* in light; demoed 2018-19, dormant since (~$6M raised). *(untracked — dead)*
-- **Luminous Computing** — **effectively defunct** (photonics team gutted 2023; asset auctions). The old "$120M, Bill-Gates-backed" reference is stale.
-- **Celestial Ai** — **interconnect, not compute** (Photonic Fabric; being acquired by Marvell ~$3.25B).
-- **Taalas** — **not optical** (model-specific ASIC etched in silicon).
 
 ### vs other compute approaches
 | Approach | Latency | Power | Maturity |

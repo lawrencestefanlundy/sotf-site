@@ -36,8 +36,8 @@ mention_count: 14
 last_reorg_date: '2026-05-13'
 descendants:
 - tim-approach-map
-sources_7d: 1
-sources_30d: 3
+sources_7d: 0
+sources_30d: 1
 recent_mentions:
 - slug: 2026-07-31-tim-market-sizing-refresh
   title: TIM market sizing refresh — the definitional 2x split and the real addressable slot

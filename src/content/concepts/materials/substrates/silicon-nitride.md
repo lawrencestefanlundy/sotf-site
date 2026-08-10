@@ -19,6 +19,7 @@ sources:
 - '[[2026-03-13-photonic-foundry-capacity-new-origin-to-collaborate-with]]'
 - '[[2026-06-04-q-memory-site]]'
 - '[[2023-09-04-sinq-csa-catapult]]'
+- '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
 - '[[2026-06-16-trapped-ion-landscape-2026]]'
 frontier:
 - Does the SiN dual-use AI-accelerator / optical-matmul mode give full-stack photonic-QC players a fundable near-term wedge, or is it quantum-washing? (Q-Memory test.)
@@ -26,11 +27,15 @@ last_updated: '2026-06-04'
 tags:
 - concept
 - material
-mention_count: 84
+mention_count: 85
 last_reorg_date: '2026-05-13'
 sources_7d: 7
 sources_30d: 17
 recent_mentions:
+- slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
+  title: Chip Industry Week in Review (7 Aug 2026)
+  date: '2026-08-07'
+  kind: web
 - slug: 2026-06-16-trapped-ion-landscape-2026
   title: Trapped-ion quantum computing landscape 2026 (vendors, scale, integrated photonics)
   date: '2026-06-16'
@@ -58,10 +63,6 @@ recent_mentions:
 - slug: 2025-12-02-the-future-of-computing-is-glass
   title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
   date: '2025-12-02'
-  kind: substack
-- slug: 2024-12-16-willow-and-the-race-to-quantum-advantage
-  title: Willow and The Race to Quantum Advantage (Feat. Kris Kaczmarek)
-  date: '2024-12-16'
   kind: substack
 neighbors: []
 ---

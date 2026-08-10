@@ -17,6 +17,7 @@ sources:
 - '[[2026-07-10-workload-phase-silicon-sweep]]'
 - '[[2026-07-31-etched-research-sprint]]'
 - '[[2026-07-10-inference-silicon-deep-research]]'
+- '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
 - '[[2026-07-02-semianalysis-ectc2026-advanced-packaging]]'
 - '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
 - '[[2026-06-04-globalfoundries-emram-22fdx-availability]]'
@@ -35,11 +36,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 89
+mention_count: 90
 last_reorg_date: '2026-05-14'
-sources_7d: 1
-sources_30d: 20
+sources_7d: 2
+sources_30d: 19
 recent_mentions:
+- slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
+  title: Chip Industry Week in Review (7 Aug 2026)
+  date: '2026-08-07'
+  kind: web
 - slug: 2026-07-31-etched-research-sprint
   title: Etched research sprint — tape-out speed, HBM supply, customer orders (4-lane web sweep)
   date: '2026-07-31'
@@ -67,10 +72,6 @@ recent_mentions:
 - slug: 2026-07-07-high-bandwidth-flash-the-full-report
   title: 'High Bandwidth Flash: The Full Report'
   date: '2026-07-07'
-  kind: web
-- slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
-  title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
-  date: '2026-07-02'
   kind: web
 neighbors: []
 ---

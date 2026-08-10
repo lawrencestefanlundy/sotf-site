@@ -56,12 +56,16 @@ last_updated: '2026-06-02'
 tags:
 - concept
 - technology
-mention_count: 1382
+mention_count: 1321
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 8
+sources_7d: 0
+sources_30d: 6
 recent_mentions:
+- slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
+  title: Chip Industry Week in Review (7 Aug 2026)
+  date: '2026-08-07'
+  kind: web
 - slug: 2026-08-03-spad-single-photon-market-scan
   title: SPAD / single-photon detector market scan — incumbent structure and company cohort
   date: '2026-08-03'
@@ -89,10 +93,6 @@ recent_mentions:
 - slug: 2026-07-30-mike-mccalister-brian-mast-has-the-tools-to-close-chinas-sem
   title: 'Mike McCalister: Brian Mast has the tools to close China’s semiconductor backdoor - Florida Politics'
   date: '2026-07-30'
-  kind: web
-- slug: 2026-07-29-chipagents-series-a2-134m
-  title: ChipAgents Expands Series A Funding to $134 Million as Demand Grows for Agentic AI in Semiconductor Design
-  date: '2026-07-29'
   kind: web
 neighbors:
 - slug: maskless-lithography

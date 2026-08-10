@@ -17,6 +17,7 @@ sources:
 - '[[2025-04-16-the-state-of-photonic-computing]]'
 - '[[2026-03-12-optical-displaces-copper-broadcom-ships-tomahawk-6-world-s]]'
 - '[[2026-05-02-co-packaged-optics-2026-2036-idtechex]]'
+- '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
 - '[[2026-07-26-ai-backend-network-optics-2026]]'
 - '[[2026-06-17-sjtu-ge-si-photodetector-110ghz-fowlp]]'
 - '[[2026-06-15-gf-investor-day-2026]]'
@@ -31,11 +32,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 57
+mention_count: 58
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 3
+sources_7d: 1
+sources_30d: 4
 recent_mentions:
+- slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
+  title: Chip Industry Week in Review (7 Aug 2026)
+  date: '2026-08-07'
+  kind: web
 - slug: 2026-07-26-ai-backend-network-optics-2026
   title: 'Dell''Oro: AI back-end switching past $100B by 2030, optical transport $16B in 2025'
   date: '2026-07-26'
@@ -63,10 +68,6 @@ recent_mentions:
 - slug: 2026-06-22-thermal-stack-layer-landscape
   title: AI datacentre thermal stack, junction-to-ambient — per-layer players, M&A, capture (web research synthesis)
   date: '2026-06-22'
-  kind: web
-- slug: 2026-06-17-sjtu-ge-si-photodetector-110ghz-fowlp
-  title: Shanghai Jiao Tong University creates reconfigurable Ge-Si photodetector for high-speed datacoms
-  date: '2026-06-17'
   kind: web
 neighbors: []
 ---

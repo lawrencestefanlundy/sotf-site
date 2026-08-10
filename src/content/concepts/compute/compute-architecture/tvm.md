@@ -40,7 +40,7 @@ tags:
 descendants:
 - mlc-llm
 mention_count: 45
-sources_7d: 4
+sources_7d: 2
 sources_30d: 10
 recent_mentions:
 - slug: 2026-08-03-nasa-delivers-navigation-system-for-commercial-lunar-relay

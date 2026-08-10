@@ -13,6 +13,7 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
+- '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
 - '[[2026-04-08-tech-inflation-silicon-shock-gartner-forecasts-worldwide]]'
 - '[[2026-07-03-tech-inflation-silicon-shock-ai-server-demand-continues-to]]'
 - '[[2026-07-07-high-bandwidth-flash-the-full-report]]'
@@ -25,11 +26,15 @@ last_updated: '2026-07-07'
 tags:
 - concept
 - technology
-mention_count: 38
+mention_count: 39
 last_reorg_date: '2026-05-14'
 sources_7d: 3
-sources_30d: 8
+sources_30d: 9
 recent_mentions:
+- slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
+  title: Chip Industry Week in Review (7 Aug 2026)
+  date: '2026-08-07'
+  kind: web
 - slug: 2026-07-10-inference-silicon-deep-research
   title: 'Deep research: measured vs claimed inference-silicon economics (adversarially verified, 23/25 claims confirmed)'
   date: '2026-07-10'

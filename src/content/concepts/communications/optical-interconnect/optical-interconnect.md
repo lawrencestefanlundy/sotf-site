@@ -21,6 +21,7 @@ sources:
 - '[[2026-05-30-optical-interconnect-ma-ledger]]'
 - '[[2026-06-23-semidoped-daily-update]]'
 - '[[2026-03-02-nvidia-4bn-lumentum-coherent-photonics-investment]]'
+- '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
 - '[[2026-05-30-opsydia-glass-waveguide-packaging]]'
 - '[[2026-05-30-intel-glass-substrates-program]]'
 - '[[2026-03-31-scale-up-interconnect-nvidia-s-2-billion-bet-on-marvell-the]]'
@@ -34,7 +35,7 @@ last_updated: '2026-05-07'
 tags:
 - concept
 - technology
-mention_count: 90
+mention_count: 91
 descendants:
 - datacenter-network-stack
 - lpo-linear-pluggable-optics
@@ -45,8 +46,16 @@ descendants:
 - pluggable-transceivers
 last_reorg_date: '2026-05-13'
 sources_7d: 3
-sources_30d: 7
+sources_30d: 8
 recent_mentions:
+- slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
+  title: Chip Industry Week in Review (7 Aug 2026)
+  date: '2026-08-07'
+  kind: web
+- slug: 2026-08-06-the-year-ai-science-and-the-physical-ai-industry-came-alive
+  title: The Year AI Science and the Physical AI Industry Came Alive
+  date: '2026-08-06'
+  kind: web
 - slug: 2026-07-29-serenity-globalfoundries-receives-support-from-the-us-chips-
   title: 'Serenity: GlobalFoundries receives support from the US CHIPS Act, benefiting Sivers and Lumentum - Bitget'
   date: '2026-07-29'
@@ -70,14 +79,6 @@ recent_mentions:
 - slug: 2026-05-30-optical-interconnect-ma-ledger
   title: Optical-interconnect / photonic-packaging M&A ledger (2019-2026)
   date: '2026-05-30'
-  kind: web
-- slug: 2026-04-28-optical-displaces-copper-ofc-2026-semtech-advances-ai-data
-  title: 'OFC 2026: Semtech advances AI data center optical interconnects'
-  date: '2026-04-28'
-  kind: web
-- slug: 2026-04-15-semianalysis-isscc-2026
-  title: 'ISSCC 2026: NVIDIA & Broadcom CPO, HBM4 & LPDDR6, TSMC Active LSI, Logic-Based SRAM, UCIe-S and More'
-  date: '2026-04-15'
   kind: web
 neighbors:
 - slug: optical-circuit-switching

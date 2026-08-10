@@ -25,6 +25,18 @@ descendants:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
+  title: Chip Industry Week in Review (7 Aug 2026)
+  date: '2026-08-07'
+  kind: web
+- slug: 2026-08-06-us-commits-874m-to-strengthen-semiconductor-supply-chain-thr
+  title: US commits $874m to strengthen semiconductor supply chain through CHIPS Act - Innovation News Network
+  date: '2026-08-06'
+  kind: web
+- slug: 2026-08-04-eu-chips-act-20-ambition-requires-funding---dqindiacom
+  title: 'EU Chips Act 2.0: Ambition requires funding - dqindia.com'
+  date: '2026-08-04'
+  kind: web
 - slug: 2026-08-01-on-semiconductor-stock-and-2-chip-picks-near-the-chips-act-f
   title: ON Semiconductor Stock and 2 Chip Picks Near the CHIPS Act Funding Shift - simplywall.st
   date: '2026-08-01'
@@ -44,18 +56,6 @@ recent_mentions:
 - slug: 2026-07-31-halt-der-eu-chips-act-20-was-er-verspricht-championnat-darab
   title: Hält Der EU-Chips-Act 2.0, Was Er Verspricht? Championnat D'arabie Saoudite (0AbPIbOWRq) - Mshale
   date: '2026-07-31'
-  kind: web
-- slug: 2026-07-30-commerce-department-signs-874m-in-chips-act-rd-incentives---
-  title: Commerce Department Signs $874M in CHIPS Act R&D Incentives - ExecutiveGov
-  date: '2026-07-30'
-  kind: web
-- slug: 2026-07-30-chips-act-targets-the-smaller-players-powering-ai-chips---fi
-  title: CHIPS Act Targets The Smaller Players Powering AI Chips - Finimize
-  date: '2026-07-30'
-  kind: web
-- slug: 2026-07-29-aeluma-signs-letter-of-intent-for-30m-chips-act-funding---in
-  title: Aeluma signs letter of intent for $30M CHIPS Act funding - Investing.com
-  date: '2026-07-29'
   kind: web
 neighbors: []
 ---

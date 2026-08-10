@@ -86,8 +86,6 @@ Glass photonics writes optical waveguides *inside* a glass substrate (typically 
 
 ## Competitive landscape — the glass-photonics cohort
 
-Adjacent but different category: **Akhetonics** (Germany, all-optical general-purpose compute chip, ~€8.3M raised) appears as an "Optoscribe competitor" in databases but is optical *compute*, not glass interconnect/packaging — though it *consumes* a laser-etched glass interposer + photonic wire bonding (Fraunhofer-IZM SPOC project).
-
 Contrast with the *electrical* glass-substrate primes (Corning, Absolics/SKC, AGC, Samsung, KCC, LG) tracked under [Glass Interposers](/manufacturing/packaging/glass-interposers/) — those carry copper, not light.
 
 ## Evidence base

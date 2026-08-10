@@ -22,6 +22,7 @@ sources:
 - '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2026-04-09-photonics-material-class-war-photonic-integrated-circuit]]'
+- '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
 - '[[2026-07-11-neutral-pdk-heterogeneous-integration-landscape]]'
 - '[[2026-04-10-photonic-light-source-supply-co-packaged-optics-cpo-scaling]]'
 frontier:
@@ -31,10 +32,14 @@ frontier:
 last_updated: '2026-06-02'
 tags:
 - concept
-mention_count: 62
+mention_count: 63
 sources_7d: 6
 sources_30d: 10
 recent_mentions:
+- slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
+  title: Chip Industry Week in Review (7 Aug 2026)
+  date: '2026-08-07'
+  kind: web
 - slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape
   title: Neutral PDK / EDA layer for heterogeneous photonic integration — landscape check (Scintil essay correction research)
   date: '2026-07-11'
@@ -62,10 +67,6 @@ recent_mentions:
 - slug: 2024-10-29-deploy-intelligence-too-cheap-to
   title: Deploy! Intelligence too cheap to meter @ $0.0001 per million tokens.
   date: '2024-10-29'
-  kind: substack
-- slug: 2023-08-31-e13-chiplets-how-chip-lego-is-driving
-  title: '🔮 E13: Chiplets - How Chip Lego is Driving AI Progress'
-  date: '2023-08-31'
   kind: substack
 neighbors:
 - slug: 3d-ic-stacking

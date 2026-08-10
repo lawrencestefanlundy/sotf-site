@@ -28,7 +28,7 @@ descendants:
 - arpes
 - electron-scale-metrology
 - stm
-mention_count: 43
+mention_count: 44
 sources_7d: 4
 sources_30d: 12
 recent_mentions:

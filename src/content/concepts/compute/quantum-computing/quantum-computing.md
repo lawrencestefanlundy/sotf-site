@@ -31,7 +31,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 534
+mention_count: 541
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -49,9 +49,17 @@ descendants:
 - topological-qubits
 - trapped-ion
 last_reorg_date: '2026-05-13'
-sources_7d: 9
+sources_7d: 5
 sources_30d: 22
 recent_mentions:
+- slug: 2026-08-06-rgti-q2-2026-earnings-call-rigetti-revenue-jumps-183-as-on-p
+  title: '[RGTI Q2 2026 Earnings Call] Rigetti Revenue Jumps 183% as On-Premises Quantum System Sales Surge, CHIPS Act LOI Signals Government Backing - finance.biggo.com'
+  date: '2026-08-06'
+  kind: web
+- slug: 2026-08-05-spooky-particles-transit-dc-suburbs-a-step-toward-a-quantum-
+  title: ‘Spooky’ Particles Transit DC Suburbs, a Step Toward a Quantum Network
+  date: '2026-08-05'
+  kind: web
 - slug: 2026-07-28-exclusive-eth-zurich-spinout-zuriq-raises-255m-seed---sifted
   title: 'Exclusive: ETH Zurich spinout ZuriQ raises $25.5m seed - Sifted'
   date: '2026-07-28'
@@ -75,14 +83,6 @@ recent_mentions:
 - slug: 2026-07-09-munichs-quantumdiamonds-raises-91-million-to-scale-its-quant
   title: Munich’s QuantumDiamonds raises €91 million to scale its quantum-based semiconductor inspection technology - EU-Startups
   date: '2026-07-09'
-  kind: web
-- slug: 2026-06-30-quantum-roadmap-funded-not-demand-funded-q2-2026-bit-by
-  title: 'Q2 2026 Bit by Qubit: Global Quantum Computing Funding Hits New Records and Is Accelerating'
-  date: '2026-06-30'
-  kind: web
-- slug: 2026-06-25-quantum-roadmap-funded-not-demand-funded-q2-2026-bit-by
-  title: 'Q2 2026 Bit by Qubit: Global Quantum Computing Funding Hits New Records and Is Accelerating'
-  date: '2026-06-25'
   kind: web
 neighbors: []
 ---

@@ -35,7 +35,7 @@ descendants:
 - photodetector
 - pic-packaging-stack
 - uni-traveling-carrier-photodiode
-sources_7d: 6
+sources_7d: 4
 sources_30d: 11
 recent_mentions:
 - slug: 2026-07-29-aeluma-signs-letter-of-intent-for-30m-chips-act-funding---in

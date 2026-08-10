@@ -15,6 +15,7 @@ sources:
 - '[[2025-12-16-draft-nist-guidelines-rethink-cybersecurity-for-the-ai-era]]'
 - '[[2026-07-25-thoughts-on-ai-and-power]]'
 - '[[2026-07-26-ai-breach-frequency-autonomous-soc]]'
+- '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
 - '[[2026-03-28-agentic-ai-security-funding-mna]]'
 - '[[2026-05-29-silicon-shock-the-macro-of-tech-inflation]]'
 frontier:
@@ -23,11 +24,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 76
+mention_count: 79
 last_reorg_date: '2026-05-13'
-sources_7d: 5
-sources_30d: 27
+sources_7d: 6
+sources_30d: 29
 recent_mentions:
+- slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
+  title: Chip Industry Week in Review (7 Aug 2026)
+  date: '2026-08-07'
+  kind: web
 - slug: 2026-07-26-ai-breach-frequency-autonomous-soc
   title: AI-enabled attack frequency and autonomous-SOC economics, 2026
   date: '2026-07-26'
@@ -55,10 +60,6 @@ recent_mentions:
 - slug: 2023-10-19-e20-the-state-of-privacy-enhancing
   title: Understanding Privacy Enhancing Technology (Feat. Karim Eldefrawy, Confidencial.io)
   date: '2023-10-19'
-  kind: substack
-- slug: 2023-08-25-e12-nanomechanical-computing-gears
-  title: '🔮E12: Nanomechanical Computing- Gears of Space War? Old Ideas at New Scales'
-  date: '2023-08-25'
   kind: substack
 neighbors: []
 ---

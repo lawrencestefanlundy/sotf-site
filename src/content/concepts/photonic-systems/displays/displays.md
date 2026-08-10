@@ -12,13 +12,14 @@ sources:
 - '[[2026-06-15-barry-silverstein-rochester-cxr]]'
 - '[[2026-06-15-ai-glasses-display-timing-idc-q1-2026-smart-glasses-surge]]'
 - '[[2026-06-15-luminate-ny-accelerator-terms]]'
+- '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 114
+mention_count: 115
 last_reorg_date: '2026-05-14'
 descendants:
 - ar-glasses-stack
@@ -31,6 +32,10 @@ descendants:
 sources_7d: 3
 sources_30d: 20
 recent_mentions:
+- slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
+  title: Chip Industry Week in Review (7 Aug 2026)
+  date: '2026-08-07'
+  kind: web
 - slug: 2026-06-15-barry-silverstein-rochester-cxr
   title: University of Rochester hires former Meta exec Barry Silverstein to direct Center for Extended Reality
   date: '2026-06-15'

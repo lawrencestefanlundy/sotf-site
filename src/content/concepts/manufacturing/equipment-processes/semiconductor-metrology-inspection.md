@@ -29,10 +29,14 @@ last_updated: '2026-05-30'
 tags:
 - concept
 - technology
-mention_count: 220
-sources_7d: 11
+mention_count: 223
+sources_7d: 10
 sources_30d: 28
 recent_mentions:
+- slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
+  title: Chip Industry Week in Review (7 Aug 2026)
+  date: '2026-08-07'
+  kind: web
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
@@ -61,10 +65,6 @@ recent_mentions:
   title: Compound Semiconductor Inspection Equipment Market (IntelMarketResearch)
   date: '2025-12-31'
   kind: web
-- slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
-  title: 'UK Opportunity in AI: Compound Semiconductors'
-  date: '2025-09-10'
-  kind: substack
 neighbors:
 - slug: lithography
   name: Lithography

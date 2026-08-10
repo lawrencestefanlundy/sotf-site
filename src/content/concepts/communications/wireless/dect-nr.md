@@ -40,7 +40,7 @@ tags:
 mention_count: 24
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 2
+sources_30d: 1
 recent_mentions:
 - slug: 2026-07-09-norik-systems-introduces-nrf9151-based-usb-dongle-for-dect-n
   title: Norik Systems introduces nRF9151-based USB Dongle for DECT NR+ deployments - CNX Software

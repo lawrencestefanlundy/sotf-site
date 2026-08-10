@@ -33,7 +33,7 @@ last_updated: '2026-07-26'
 tags:
 - concept
 - technology
-mention_count: 170
+mention_count: 171
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration
@@ -41,8 +41,12 @@ descendants:
 - osat
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 9
+sources_30d: 8
 recent_mentions:
+- slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
+  title: Chip Industry Week in Review (7 Aug 2026)
+  date: '2026-08-07'
+  kind: web
 - slug: 2026-07-31-chips-act-equity-deals-us-gains-10-stake-in-intel-874m-for-s
   title: 'CHIPS Act Equity Deals: U.S. Gains 10% Stake in Intel, $874M for Seven Companies - News and Statistics - IndexBox'
   date: '2026-07-31'
@@ -69,10 +73,6 @@ recent_mentions:
   kind: web
 - slug: 2026-07-13-department-of-commerce-announces-direct-funding-agreement-wi
   title: Department of Commerce Announces Direct Funding Agreement with Bosch for a $225 Million CHIPS Program Award to Support Domestic Production of Silicon Carbide Semiconductors - National Institute of Standards and Technology (.gov)
-  date: '2026-07-13'
-  kind: web
-- slug: 2026-07-13-bosch-begins-production-at-roseville-chip-fab-secures-225-mi
-  title: Bosch begins production at Roseville chip fab, secures $225 million in CHIPS Act funding - The Business Journals
   date: '2026-07-13'
   kind: web
 neighbors: []

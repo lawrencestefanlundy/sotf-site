@@ -28,7 +28,7 @@ tags:
 mention_count: 102
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 11
+sources_7d: 8
 sources_30d: 30
 recent_mentions:
 - slug: 2026-08-03-spad-single-photon-market-scan

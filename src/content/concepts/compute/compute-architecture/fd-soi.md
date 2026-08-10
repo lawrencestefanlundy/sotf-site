@@ -24,7 +24,7 @@ tags:
 - technology
 mention_count: 20
 last_reorg_date: '2026-05-13'
-sources_7d: 2
+sources_7d: 1
 sources_30d: 2
 recent_mentions:
 - slug: 2026-08-03-spad-single-photon-market-scan

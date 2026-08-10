@@ -25,7 +25,7 @@ descendants:
 - quantum-magnetometry
 - quantum-sensing
 last_reorg_date: '2026-05-13'
-sources_7d: 15
+sources_7d: 14
 sources_30d: 44
 recent_mentions:
 - slug: 2026-07-21-precision-astrometry-using-optically-independent-spacecraft-
@@ -35,10 +35,6 @@ recent_mentions:
 - slug: 2026-03-08-diamonds-are-semiconductors-best-friend
   title: Diamonds are Semiconductors' Best Friend 2026
   date: '2026-03-08'
-  kind: web
-- slug: 2025-09-10-in-quantum-sensing-what-beats-beating-noise-meeting-noise-ha
-  title: In Quantum Sensing, What Beats Beating Noise? Meeting Noise Halfway.
-  date: '2025-09-10'
   kind: web
 - slug: 2024-12-16-willow-and-the-race-to-quantum-advantage
   title: Willow and The Race to Quantum Advantage (Feat. Kris Kaczmarek)

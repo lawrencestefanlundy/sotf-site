@@ -58,6 +58,10 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 3
 recent_mentions:
+- slug: 2026-08-05-spooky-particles-transit-dc-suburbs-a-step-toward-a-quantum-
+  title: ‘Spooky’ Particles Transit DC Suburbs, a Step Toward a Quantum Network
+  date: '2026-08-05'
+  kind: web
 - slug: 2026-07-24-nasa-announces-new-spacecraft-technology-demonstration-missi
   title: NASA Announces New Spacecraft Technology Demonstration Mission at Moon
   date: '2026-07-24'
@@ -85,10 +89,6 @@ recent_mentions:
 - slug: 2026-05-14-nasa-draws-on-industry-for-mars-telecommunications-network
   title: NASA Draws on Industry for Mars Telecommunications Network
   date: '2026-05-14'
-  kind: web
-- slug: 2026-05-13-20-years-of-space-communications-and-navigation
-  title: 20 Years of Space Communications and Navigation
-  date: '2026-05-13'
   kind: web
 neighbors: []
 ---

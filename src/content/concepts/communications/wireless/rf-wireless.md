@@ -37,6 +37,10 @@ recent_mentions:
   title: Access Point Modules Market Forecast Points Higher Toward 2035, Driven by Wi-Fi 7 and Industrial Iot Expansion - IndexBox
   date: '2026-07-08'
   kind: web
+- slug: 2026-06-11-a-new-approach-to-designing-rf-power-amplifiers-for-modern-m
+  title: A New Approach to Designing RF Power Amplifiers for Modern Military Systems - Tech Briefs
+  date: '2026-06-11'
+  kind: web
 - slug: 2025-11-14-advantech-partners-with-rohde-schwarz-to-deliver-wi-fi-compl
   title: Advantech partners with Rohde & Schwarz to deliver Wi-Fi compliant and deployment-ready industrial Wi-Fi 7 modules - Plataforma Media
   date: '2025-11-14'
@@ -48,10 +52,6 @@ recent_mentions:
 - slug: 2025-10-09-wi-fi-7-advanced-integrates-sensing-iot-and-ai-security-into
   title: Wi-Fi 7 Advanced integrates sensing, IoT, and AI security into 10Gbps wireless networks - TechRadar
   date: '2025-10-09'
-  kind: web
-- slug: 2024-02-28-distributech-2024-nordic-semiconductor-unveils-the-power-of-
-  title: 'DISTRIBUTECH 2024: Nordic Semiconductor Unveils the Power of DECT NR+ for Private Networks - MarketScale'
-  date: '2024-02-28'
   kind: web
 neighbors: []
 ---

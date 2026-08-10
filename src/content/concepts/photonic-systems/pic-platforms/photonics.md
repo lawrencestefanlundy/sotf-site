@@ -42,7 +42,7 @@ last_updated: '2026-07-26'
 tags:
 - concept
 - theme
-mention_count: 970
+mention_count: 964
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -52,9 +52,13 @@ descendants:
 - optical-frequency-division
 - optoelectronic-oscillator
 last_reorg_date: '2026-05-13'
-sources_7d: 4
-sources_30d: 12
+sources_7d: 0
+sources_30d: 11
 recent_mentions:
+- slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
+  title: Chip Industry Week in Review (7 Aug 2026)
+  date: '2026-08-07'
+  kind: web
 - slug: 2026-08-05-uk-neocloud-landscape-sweep
   title: UK neocloud landscape sweep — filling the coverage gap under the neocloud/serving map
   date: '2026-08-05'
@@ -82,10 +86,6 @@ recent_mentions:
 - slug: 2026-07-22-photonics21-welcomes-chips-act-20-inclusion-of-photonics---o
   title: Photonics21 welcomes Chips Act 2.0 inclusion of photonics - Optics.org
   date: '2026-07-22'
-  kind: web
-- slug: 2026-07-21-niac-2026-selections
-  title: NIAC 2026 Selections
-  date: '2026-07-21'
   kind: web
 neighbors: []
 ---

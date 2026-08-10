@@ -27,7 +27,7 @@ last_updated: '2026-05-08'
 tags:
 - concept
 - technology
-mention_count: 176
+mention_count: 178
 descendants:
 - computational-lithography
 - directed-self-assembly
@@ -46,9 +46,13 @@ descendants:
 - x-ray-lithography
 - xolography
 last_reorg_date: '2026-05-13'
-sources_7d: 4
-sources_30d: 10
+sources_7d: 3
+sources_30d: 9
 recent_mentions:
+- slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
+  title: Chip Industry Week in Review (7 Aug 2026)
+  date: '2026-08-07'
+  kind: web
 - slug: 2026-07-09-in-die-microfluidic-cooling-sprint
   title: In-die microfluidic cooling — cluster research sprint
   date: '2026-07-09'
@@ -76,10 +80,6 @@ recent_mentions:
 - slug: 2026-06-11-semianalysis-intel-should-raise-capital
   title: Intel Should Raise Capital
   date: '2026-06-11'
-  kind: web
-- slug: 2026-06-03-semianalysis-space-datacenters
-  title: 'To Boldly Go: The Case for Space Datacenters'
-  date: '2026-06-03'
   kind: web
 neighbors: []
 ---

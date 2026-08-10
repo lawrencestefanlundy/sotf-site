@@ -19,10 +19,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - material
-mention_count: 71
+mention_count: 73
 last_reorg_date: '2026-05-13'
 sources_7d: 10
-sources_30d: 22
+sources_30d: 21
 recent_mentions:
 - slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape
   title: Neutral PDK / EDA layer for heterogeneous photonic integration — landscape check (Scintil essay correction research)

@@ -26,6 +26,7 @@ sources:
 - '[[2026-04-10-thermal-stack-arms-race-liquid-cooling-for-ai-data-centers]]'
 - '[[2025-12-17-ai-power-thermal-binding-power-availability-remains-the]]'
 - '[[2026-05-21-specialisation-beats-generality-the-custom-ai-asic-state-of]]'
+- '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
 - '[[2026-03-03-ai-power-thermal-binding-nvidia-vera-rubin-and-feynman]]'
 - '[[2024-yole-thermal-management-2024]]'
 - '[[2026-05-06-specialisation-beats-generality-north-american-ai-data]]'
@@ -48,11 +49,15 @@ last_updated: '2026-07-26'
 tags:
 - concept
 - technology
-mention_count: 96
+mention_count: 97
 last_reorg_date: '2026-05-14'
-sources_7d: 1
-sources_30d: 4
+sources_7d: 2
+sources_30d: 5
 recent_mentions:
+- slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
+  title: Chip Industry Week in Review (7 Aug 2026)
+  date: '2026-08-07'
+  kind: web
 - slug: 2026-08-05-stealthium-gpu-powered-security-intelligence-site-docs-compe
   title: Stealthium — GPU-Powered Security Intelligence (site + docs + competitive context)
   date: '2026-08-05'
@@ -80,10 +85,6 @@ recent_mentions:
 - slug: 2026-07-31-positron-research-sprint
   title: 'Positron AI research sprint: architecture, funding, customers, manufacturing'
   date: '2026-07-31'
-  kind: web
-- slug: 2026-07-30-chips-act-targets-the-smaller-players-powering-ai-chips---fi
-  title: CHIPS Act Targets The Smaller Players Powering AI Chips - Finimize
-  date: '2026-07-30'
   kind: web
 neighbors: []
 ---

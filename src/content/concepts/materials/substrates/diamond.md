@@ -25,11 +25,15 @@ last_updated: '2026-06-17'
 tags:
 - concept
 - technology
-mention_count: 292
+mention_count: 295
 last_reorg_date: '2026-05-13'
-sources_7d: 5
-sources_30d: 15
+sources_7d: 4
+sources_30d: 13
 recent_mentions:
+- slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
+  title: Chip Industry Week in Review (7 Aug 2026)
+  date: '2026-08-07'
+  kind: web
 - slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
   title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
   date: '2026-07-02'
@@ -56,10 +60,6 @@ recent_mentions:
   kind: web
 - slug: 2026-05-02-high-sensitivity-nv-diamond-resonator-comm-materials-2025
   title: High-sensitivity NV diamond resonator (Comm. Materials 2025)
-  date: '2026-05-02'
-  kind: web
-- slug: 2026-05-02-quantumdiamonds-iq-capital
-  title: QuantumDiamonds (IQ Capital)
   date: '2026-05-02'
   kind: web
 neighbors:

@@ -22,6 +22,10 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-06-the-year-ai-science-and-the-physical-ai-industry-came-alive
+  title: The Year AI Science and the Physical AI Industry Came Alive
+  date: '2026-08-06'
+  kind: web
 - slug: 2026-08-03-the-inference-engineering-masterclass-philip-kiely-ali-taha-
   title: The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten
   date: '2026-08-03'

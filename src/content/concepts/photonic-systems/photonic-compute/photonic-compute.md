@@ -19,6 +19,7 @@ sources:
 - '[[2025-04-16-the-state-of-photonic-computing]]'
 - '[[2026-05-24-mose2-exciton-polariton-all-optical-switch]]'
 - '[[2025-07-14-solving-compute-crisis-physics-based-asics]]'
+- '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
 - '[[2023-03-29-oxford-spinout-lumai-secures-11m-grant-to-power-optical-comp]]'
 frontier:
 - Does photonic compute ship as more than a MAC / interconnect co-processor by 2028?
@@ -27,7 +28,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 94
+mention_count: 95
 descendants:
 - diffractive-deep-neural-network
 - diffractive-deep-neural-networks
@@ -39,6 +40,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 4
 sources_30d: 15
 recent_mentions:
+- slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
+  title: Chip Industry Week in Review (7 Aug 2026)
+  date: '2026-08-07'
+  kind: web
 - slug: 2026-07-31-inference-silicon-roster-sprint
   title: 'Inference-silicon roster verification sprint: 10 companies for the competitive-analysis capital map'
   date: '2026-07-31'
@@ -67,10 +72,6 @@ recent_mentions:
   title: what happens when we hollow out work?
   date: '2025-03-12'
   kind: substack
-- slug: 2023-07-23-analog-computing-the-once-and-future
-  title: '🔮 E09: Analog Computing: The Once and Future King'
-  date: '2023-07-23'
-  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism
@@ -91,8 +92,6 @@ neighbors: []
 | Photonic MZI mesh / free-space | Sub-ns | ~10 fJ/MAC optical | Pre-production |
 | Analog SRAM compute | ~10 ns | ~1 pJ/MAC | Production (edge) |
 | Digital GPU/TPU | ~100 ns | ~10 pJ/MAC | Mature |
-
-Adjacent (not optical compute): in-memory SRAM (Mythic), neuromorphic (Loihi, NorthPole), and the **thermodynamic** plays (**Normal Computing**, extropic). Optical *interconnect* (Ayar, NcodiN) and *switching* (OCS/OPS) are separate layers — see [Datacenter Optical Networking — Plain-English Stack Primer](/communications/optical-interconnect/datacenter-network-stack/).
 
 ## Investment relevance (all routes)
 The market read and routing live on **Photonic Compute Market** (interconnect/IO → public markets; workload-native + enabling-layer EU pre-seed → venture routes). GlobalFoundries' silicon photonics PDK (GF Fotonix, 300mm) is a manufacturing hook — companies fabbing on GF get photonic IP access without captive fab risk, and a GF tape-out commitment is a seriousness signal for any early-stage entrant. Enterprise-software exposure (Lunar lens) intersects where photonic inference sits behind API abstractions.

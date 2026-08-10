@@ -28,10 +28,15 @@ tags:
 - map
 sources:
 - '[[2024-10-22-state-of-the-future-part-deux]]'
-mention_count: 2
-sources_7d: 0
-sources_30d: 0
+- '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
+mention_count: 3
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
+- slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
+  title: Chip Industry Week in Review (7 Aug 2026)
+  date: '2026-08-07'
+  kind: web
 - slug: 2024-10-22-state-of-the-future-part-deux
   title: 'An AI Thesis: State of the Future! Part Deux'
   date: '2024-10-22'

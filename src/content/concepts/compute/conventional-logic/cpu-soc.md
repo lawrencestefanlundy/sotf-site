@@ -25,6 +25,10 @@ recent_mentions:
   title: Owner of UK chip designer Arm may float some of firm’s shares in London - The Guardian
   date: '2022-06-15'
   kind: web
+- slug: 2019-05-22-uk-chip-designer-arm-suspends-business-with-huawei-to-comply
+  title: UK chip designer ARM suspends business with Huawei to comply with new U.S. rules - ET Telecom
+  date: '2019-05-22'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

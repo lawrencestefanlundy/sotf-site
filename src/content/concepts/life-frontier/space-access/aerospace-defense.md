@@ -21,6 +21,18 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-07-nasas-lunar-development-and-test-facility-prepares-artemis-h
+  title: NASA’s Lunar Development and Test Facility Prepares Artemis Hardware for Moon
+  date: '2026-08-07'
+  kind: web
+- slug: 2026-08-07-iris2-reinforced-and-accelerated-as-implementation-advances
+  title: IRIS² reinforced and accelerated as implementation advances
+  date: '2026-08-07'
+  kind: web
+- slug: 2026-08-05-your-chance-to-run-software-in-deep-space-on-esas-asteroid-m
+  title: Your chance to run software in deep space on ESA's asteroid mission
+  date: '2026-08-05'
+  kind: web
 - slug: 2026-08-03-nasa-delivers-navigation-system-for-commercial-lunar-relay
   title: NASA Delivers Navigation System for Commercial Lunar Relay
   date: '2026-08-03'
@@ -40,18 +52,6 @@ recent_mentions:
 - slug: 2026-07-24-nasa-announces-new-spacecraft-technology-demonstration-missi
   title: NASA Announces New Spacecraft Technology Demonstration Mission at Moon
   date: '2026-07-24'
-  kind: web
-- slug: 2026-07-21-robotically-assembled-electromagnetic-metamaterials-for-long
-  title: Robotically Assembled Electromagnetic Metamaterials for Long-Range Space Situational Awareness
-  date: '2026-07-21'
-  kind: web
-- slug: 2026-07-21-niac-2026-selections
-  title: NIAC 2026 Selections
-  date: '2026-07-21'
-  kind: web
-- slug: 2026-07-21-a-new-compact-instrument-enables-high-fidelity-measurements-
-  title: A New Compact Instrument Enables High-Fidelity Measurements of Energetic Particles on CubeSats
-  date: '2026-07-21'
   kind: web
 neighbors: []
 ---

@@ -20,11 +20,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 254
+mention_count: 256
 last_reorg_date: '2026-05-13'
-sources_7d: 12
+sources_7d: 8
 sources_30d: 36
 recent_mentions:
+- slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
+  title: Chip Industry Week in Review (7 Aug 2026)
+  date: '2026-08-07'
+  kind: web
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
@@ -53,10 +57,6 @@ recent_mentions:
   title: ETH Zurich spinout Chiral bags $12M to scale robotic platform for graphene chip integration - Tech Funding News
   date: '2026-02-06'
   kind: web
-- slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
-  title: Carbon Nanotubes in the Datacentre
-  date: '2025-11-25'
-  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

@@ -18,17 +18,16 @@ sources:
 - '[[2026-05-02-return-of-lithium-niobate-photonics-spectra-jan-2026]]'
 - '[[2024-05-15-photonic-packaging-cpo-sales-of-silicon-photonics-chips]]'
 - '[[2026-05-02-lightium-tfln-foundry-csem-spin-off]]'
-- '[[2026-03-30-photonics-material-class-war-silicon-photonics-and-photonic]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - material
-mention_count: 142
+mention_count: 143
 last_reorg_date: '2026-05-13'
-sources_7d: 6
-sources_30d: 20
+sources_7d: 3
+sources_30d: 21
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'

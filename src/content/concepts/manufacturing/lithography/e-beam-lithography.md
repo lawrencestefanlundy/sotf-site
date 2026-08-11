@@ -56,7 +56,7 @@ last_updated: '2026-06-02'
 tags:
 - concept
 - technology
-mention_count: 1321
+mention_count: 1336
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
@@ -65,6 +65,10 @@ recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
+  kind: web
+- slug: 2026-08-06-us-commits-874m-to-strengthen-semiconductor-supply-chain-thr
+  title: US commits $874m to strengthen semiconductor supply chain through CHIPS Act - Innovation News Network
+  date: '2026-08-06'
   kind: web
 - slug: 2026-08-03-spad-single-photon-market-scan
   title: SPAD / single-photon detector market scan — incumbent structure and company cohort
@@ -89,10 +93,6 @@ recent_mentions:
 - slug: 2026-07-31-tim-market-sizing-refresh
   title: TIM market sizing refresh — the definitional 2x split and the real addressable slot
   date: '2026-07-31'
-  kind: web
-- slug: 2026-07-30-mike-mccalister-brian-mast-has-the-tools-to-close-chinas-sem
-  title: 'Mike McCalister: Brian Mast has the tools to close China’s semiconductor backdoor - Florida Politics'
-  date: '2026-07-30'
   kind: web
 neighbors:
 - slug: maskless-lithography

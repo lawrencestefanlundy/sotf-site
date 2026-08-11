@@ -11,6 +11,7 @@ parent_concepts:
 - wireless
 related_concepts: []
 sources:
+- '[[2008-07-04-dect-forum-invites-designs-for-cat-iq-design-competition---t]]'
 - '[[2025-08-29-from-smart-cities-to-pro-audio-dect-nr-and-its-potential-for]]'
 - '[[2026-03-10-nr-plus-interop-demo-light-building]]'
 - '[[2024-02-21-how-dect-nr-revolutionizes-smart-building-connectivity---ee-]]'
@@ -37,7 +38,7 @@ last_updated: '2026-06-05'
 tags:
 - concept
 - technology
-mention_count: 24
+mention_count: 25
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 1

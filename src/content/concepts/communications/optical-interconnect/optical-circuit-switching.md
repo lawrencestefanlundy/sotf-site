@@ -28,9 +28,9 @@ last_updated: '2026-06-14'
 tags:
 - concept
 - technology
-mention_count: 21
+mention_count: 22
 sources_7d: 2
-sources_30d: 6
+sources_30d: 7
 recent_mentions:
 - slug: 2026-06-15-gf-investor-day-2026
   title: GlobalFoundries Investor Day 2026 (presentation)

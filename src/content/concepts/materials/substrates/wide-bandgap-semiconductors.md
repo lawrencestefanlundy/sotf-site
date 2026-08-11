@@ -18,7 +18,8 @@ related_concepts:
 - compound-semiconductors
 - power-electronics
 - silicon-carbide-photonics
-sources: []
+sources:
+- '[[2017-10-10-arpa-e-funds-projects-using-wide-bandgap-semiconductors-for-]]'
 frontier:
 - Can ultra-wide-bandgap materials (AlN ~6.2 eV, Ga2O3 ~4.9 eV, diamond ~5.5 eV) move from lab to commercially manufacturable devices before 2030?
 - Will WBG substrates (SiC, GaN boule) ever reach silicon-scale wafer economics, or will material cost permanently cap WBG to premium applications?
@@ -31,10 +32,14 @@ descendants:
 - gallium-nitride
 - indium-gallium-nitride
 - silicon-carbide
-mention_count: 12
-sources_7d: 0
-sources_30d: 1
-recent_mentions: []
+mention_count: 15
+sources_7d: 2
+sources_30d: 3
+recent_mentions:
+- slug: 2017-10-10-arpa-e-funds-projects-using-wide-bandgap-semiconductors-for-
+  title: ARPA-E Funds Projects Using Wide Bandgap Semiconductors for Power Conversion - Electronic Design
+  date: '2017-10-10'
+  kind: web
 neighbors:
 - slug: silicon-carbide
   name: Silicon Carbide

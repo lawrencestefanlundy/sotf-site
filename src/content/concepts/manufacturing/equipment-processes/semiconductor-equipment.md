@@ -29,6 +29,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-10-esd-cable-management-trays-market-to-reach-178-index-by-2035
+  title: ESD Cable Management Trays Market to Reach 178 Index by 2035 on Semiconductor Fab Build-Out - IndexBox
+  date: '2026-08-10'
+  kind: web
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
@@ -55,10 +59,6 @@ recent_mentions:
   kind: web
 - slug: 2026-07-31-commerce-dept-signs-874-million-in-chips-act-incentives-with
   title: Commerce Dept. Signs $874 Million in CHIPS Act Incentives With Seven Companies - marketscreener.com
-  date: '2026-07-31'
-  kind: web
-- slug: 2026-07-31-trump-administration-unveils-874-million-chips-act-ai-push-w
-  title: Trump Administration Unveils $874 Million CHIPS Act AI Push, With GlobalFoundries Securing Top Award - TradingView
   date: '2026-07-31'
   kind: web
 neighbors: []

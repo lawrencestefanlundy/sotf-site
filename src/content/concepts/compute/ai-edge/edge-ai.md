@@ -16,11 +16,14 @@ sources:
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
+- '[[2026-06-18-low-power-edge-compute-tinyml-ai-chipset-shipments-to-top-4]]'
 - '[[2026-06-17-femtoai-company-profile]]'
+- '[[2025-05-13-low-power-edge-compute-edge-ai-accelerator-market-research]]'
 - '[[2026-06-18-sensifai-hybrids-deck]]'
 - '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
 - '[[2024-02-26-micron-hbm3e-volume-production]]'
 - '[[2024-yole-advanced-packaging-2024]]'
+- '[[2025-10-15-low-power-edge-compute-neuromorphic-hardware-market-size]]'
 - '[[2026-06-15-gf-investor-day-2026]]'
 - '[[2026-06-17-femtoai-spu-ces2026]]'
 - '[[2026-08-03-perimeter-compute-wants-to-turn-spare-office-power-into-edge]]'
@@ -31,13 +34,13 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - framework
-mention_count: 74
+mention_count: 78
 descendants:
 - hearing-aid-silicon-beachhead
 - nvidia-jetson
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 12
+sources_7d: 2
+sources_30d: 13
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
@@ -50,6 +53,10 @@ recent_mentions:
 - slug: 2026-07-10-edge-buyer-kpi-sweep
   title: 'Edge-AI buyer KPI sweep: power envelope + energy per work; cost per token absent'
   date: '2026-07-10'
+  kind: web
+- slug: 2026-06-18-low-power-edge-compute-tinyml-ai-chipset-shipments-to-top-4
+  title: TinyML AI Chipset Shipments to Top 4.1 Billion by 2031 as Embedded AI Scales Across Industrial IoT
+  date: '2026-06-18'
   kind: web
 - slug: 2026-06-18-sensifai-hybrids-deck
   title: SensifAI — Funding Round deck (sensifai.vercel.app/hybrids)
@@ -67,10 +74,6 @@ recent_mentions:
   title: GlobalFoundries Investor Day 2026 (presentation)
   date: '2026-06-15'
   kind: web
-- slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
-  title: 'UK Opportunity in AI: Compound Semiconductors'
-  date: '2025-09-10'
-  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

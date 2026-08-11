@@ -15,7 +15,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 62
+mention_count: 63
 descendants:
 - aluminium-gallium-nitride
 - batteries-energy-storage
@@ -78,8 +78,12 @@ descendants:
 - wireless-power-transfer
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 0
+sources_30d: 1
 recent_mentions:
+- slug: 2026-08-10-how-ais-demand-for-compute-could-disrupt-america
+  title: How AI's Demand for Compute could Disrupt America
+  date: '2026-08-10'
+  kind: web
 - slug: 2026-08-06-the-electrician-shortage-slowing-the-ai-boom---latitude-medi
   title: The electrician shortage slowing the AI boom - Latitude Media
   date: '2026-08-06'
@@ -107,10 +111,6 @@ recent_mentions:
 - slug: 2026-07-23-why-energy-bills-may-keep-rising-even-as-utilities-join-trum
   title: Why energy bills may keep rising, even as utilities join Trump’s AI ratepayer pledge - Latitude Media
   date: '2026-07-23'
-  kind: web
-- slug: 2026-07-21-bnef-nearly-doubled-its-forecast-for-us-data-center-power-de
-  title: BNEF nearly doubled its forecast for US data center power demand - Latitude Media
-  date: '2026-07-21'
   kind: web
 neighbors: []
 ---

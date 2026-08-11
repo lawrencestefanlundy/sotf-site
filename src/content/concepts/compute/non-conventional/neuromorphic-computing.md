@@ -14,6 +14,7 @@ sources:
 - '[[2023-06-30-e06-the-model-t-moment-for-bits-llms]]'
 - '[[2023-07-23-analog-computing-the-once-and-future]]'
 - '[[2026-01-22-ai-chips-computeram-and-the-future]]'
+- '[[2026-04-01-low-power-edge-compute-neuromorphic-computing-chip-patents]]'
 - '[[2026-06-17-femtoai-spu-ces2026]]'
 frontier:
 - 'ANSWERED (20 Jul 2026, [[2026-07-20-neuromorphic-market-sockets-and-algorithm-vs-hardware]]): Does any SPIKING chip find a volume socket beyond research/niche sensing? NO. The always-on edge volume sockets are real but won by conventional low-power digital (Ambiq 280M+, Syntiant 20M+) and sparse-digital (femtoAI 100k+), not spikes. Only defensible spiking wedge = defense RF signal classification, still POC (BrainChip FY25 revenue $1.89M). Base rate confirmed poor.'
@@ -23,12 +24,12 @@ last_updated: '2026-07-20'
 tags:
 - concept
 - technology
-mention_count: 62
+mention_count: 66
 last_reorg_date: '2026-05-14'
 descendants:
 - spiking-neural-networks
-sources_7d: 3
-sources_30d: 16
+sources_7d: 4
+sources_30d: 18
 recent_mentions:
 - slug: 2026-07-31-inference-silicon-roster-sprint
   title: 'Inference-silicon roster verification sprint: 10 companies for the competitive-analysis capital map'
@@ -37,6 +38,10 @@ recent_mentions:
 - slug: 2026-06-17-femtoai-spu-ces2026
   title: femtoAI to Highlight its Sparse Processing Unit Edge AI Accelerator at CES 2026
   date: '2026-06-17'
+  kind: web
+- slug: 2026-04-01-low-power-edge-compute-neuromorphic-computing-chip-patents
+  title: Neuromorphic Computing Chip Patents Surge 401% in 2025
+  date: '2026-04-01'
   kind: web
 - slug: 2026-01-22-ai-chips-computeram-and-the-future
   title: 'AI Chips, ComputeRAM and the Future of Data Movement: A Conversation with Manu, Founder of Synthara'

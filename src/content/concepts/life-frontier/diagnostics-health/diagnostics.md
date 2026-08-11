@@ -18,18 +18,17 @@ sources:
 - '[[2026-01-13-chip-scale-bio-instrumentation-point-of-care-diagnostics]]'
 - '[[2024-04-11-nsf-awards-275k-grant-to-amplified-sciences-to-develop-new-p]]'
 - '[[2026-03-18-bacteria-reveal-themselves-through-unique-sounds-a-breakthro]]'
-- '[[2026-02-16-chip-scale-bio-instrumentation-lex-diagnostics-receives-fda]]'
 frontier:
 - ''
 last_updated: '2026-05-07'
 tags:
 - concept
 - category
-mention_count: 102
+mention_count: 106
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 8
-sources_30d: 30
+sources_7d: 10
+sources_30d: 33
 recent_mentions:
 - slug: 2026-08-03-spad-single-photon-market-scan
   title: SPAD / single-photon detector market scan — incumbent structure and company cohort

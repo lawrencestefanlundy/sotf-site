@@ -20,6 +20,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-10-how-ais-demand-for-compute-could-disrupt-america
+  title: How AI's Demand for Compute could Disrupt America
+  date: '2026-08-10'
+  kind: web
 - slug: 2026-08-06-the-electrician-shortage-slowing-the-ai-boom---latitude-medi
   title: The electrician shortage slowing the AI boom - Latitude Media
   date: '2026-08-06'
@@ -47,10 +51,6 @@ recent_mentions:
 - slug: 2026-07-31-memory-optics-packaging-chips-act-targets-ais-compute-bottle
   title: 'Memory, optics, packaging: CHIPS Act targets AI''s compute bottleneck - Electronics360'
   date: '2026-07-31'
-  kind: web
-- slug: 2026-07-29-does-blue-state-purge-hit-a-transmission-project-promising-c
-  title: DOE’s blue-state purge hit a transmission project promising cost savings - Latitude Media
-  date: '2026-07-29'
   kind: web
 neighbors: []
 ---

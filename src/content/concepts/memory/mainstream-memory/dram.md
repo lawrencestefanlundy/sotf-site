@@ -15,14 +15,6 @@ sources:
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2026-01-22-ai-chips-computeram-and-the-future]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
-- '[[2026-06-22-beyond-cmos-device-layer-research]]'
-- '[[2026-06-01-hbm-state-of-play]]'
-- '[[2025-10-23-data-value-migrates-to-retrieval-layer-agentic-databases]]'
-- '[[2026-03-25-the-geopolitical-chokepoints-of-artificial-intelligence]]'
-- '[[2026-06-16-cim-landscape-2026]]'
-- '[[2026-07-25-thoughts-on-ai-and-power]]'
-- '[[2026-02-06-semianalysis-memory-mania-supercycle]]'
-- '[[2026-01-15-sovereignty-semi-bifurcation-revision-to-license-review]]'
 frontier:
 - Does CXMT convert its 12%-of-global-HBM-*wafer*-share (2028, SemiAnalysis) into competitive HBM *bit* share, or does ~25% 8-hi stacking yield cap it as low-grade domestic supply?
 - Does Chinese domestic DRAM (CXMT ~11%→17% of global capacity by 2028) tip commodity DDR5 into oversupply and break the ASP super-cycle?
@@ -30,10 +22,10 @@ last_updated: '2026-06-23'
 tags:
 - concept
 - technology
-mention_count: 159
+mention_count: 169
 last_reorg_date: '2026-05-14'
-sources_7d: 7
-sources_30d: 23
+sources_7d: 11
+sources_30d: 29
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)

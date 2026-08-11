@@ -39,10 +39,10 @@ last_updated: '2026-06-13'
 tags:
 - concept
 - technology
-mention_count: 18
+mention_count: 19
 descendants: []
 sources_7d: 0
-sources_30d: 0
+sources_30d: 1
 recent_mentions:
 - slug: 2026-06-13-smr-datacentre-baseload-research
   title: SMR / advanced-nuclear for datacentre baseload — research sweep (Jun 2026)

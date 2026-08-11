@@ -17,11 +17,11 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 29
+mention_count: 31
 descendants: []
 last_reorg_date: '2026-05-14'
-sources_7d: 0
-sources_30d: 5
+sources_7d: 2
+sources_30d: 7
 recent_mentions: []
 neighbors: []
 ---

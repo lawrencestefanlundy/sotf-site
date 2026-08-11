@@ -19,6 +19,7 @@ sources:
 - '[[2026-03-02-chiplets-architecture-share-rebellions-rebel-100-industry-s]]'
 - '[[2025-09-17-ai-power-thermal-binding-ai-datacenter-power-demand]]'
 - '[[2026-06-17-femtoai-company-profile]]'
+- '[[2025-05-13-low-power-edge-compute-edge-ai-accelerator-market-research]]'
 - '[[2026-04-28-thermal-stack-arms-race-global-diamond-heat-spreaders]]'
 - '[[2026-02-21-hyperscaler-asic-profit-pool-nvidia-ai-gpu-market-share]]'
 - '[[2026-01-20-specialisation-beats-generality-global-ai-server-shipments]]'
@@ -49,11 +50,15 @@ last_updated: '2026-07-26'
 tags:
 - concept
 - technology
-mention_count: 97
+mention_count: 99
 last_reorg_date: '2026-05-14'
 sources_7d: 2
-sources_30d: 5
+sources_30d: 6
 recent_mentions:
+- slug: 2026-08-10-how-ais-demand-for-compute-could-disrupt-america
+  title: How AI's Demand for Compute could Disrupt America
+  date: '2026-08-10'
+  kind: web
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
@@ -80,10 +85,6 @@ recent_mentions:
   kind: web
 - slug: 2026-07-31-inference-silicon-roster-sprint
   title: 'Inference-silicon roster verification sprint: 10 companies for the competitive-analysis capital map'
-  date: '2026-07-31'
-  kind: web
-- slug: 2026-07-31-positron-research-sprint
-  title: 'Positron AI research sprint: architecture, funding, customers, manufacturing'
   date: '2026-07-31'
   kind: web
 neighbors: []

@@ -27,11 +27,11 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 10
+mention_count: 11
 descendants: []
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 1
+sources_30d: 2
 recent_mentions:
 - slug: 2024-10-22-state-of-the-future-part-deux
   title: 'An AI Thesis: State of the Future! Part Deux'

@@ -26,11 +26,11 @@ last_updated: 2026-06-02
 tags:
 - concept
 - category
-mention_count: 38
+mention_count: 39
 descendants: []
 last_reorg_date: '2026-05-14'
 sources_7d: 2
-sources_30d: 11
+sources_30d: 12
 recent_mentions:
 - slug: 2026-05-06-putting-the-super-into-a-supersite-for-earth-observation
   title: Putting the ‘super’ into a supersite for Earth observation

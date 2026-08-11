@@ -22,10 +22,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 70
+mention_count: 72
 last_reorg_date: '2026-05-13'
 sources_7d: 2
-sources_30d: 9
+sources_30d: 10
 recent_mentions:
 - slug: 2026-08-03-spad-single-photon-market-scan
   title: SPAD / single-photon detector market scan — incumbent structure and company cohort

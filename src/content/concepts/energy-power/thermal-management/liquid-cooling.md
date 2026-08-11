@@ -39,10 +39,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 29
+mention_count: 30
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 2
+sources_30d: 3
 recent_mentions:
 - slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint
   title: 'What actually limits a humanoid to minutes: the thermal cliff, not the battery'

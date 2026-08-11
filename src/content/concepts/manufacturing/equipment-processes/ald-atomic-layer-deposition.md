@@ -35,10 +35,10 @@ last_updated: '2026-07-31'
 tags:
 - concept
 - technology
-mention_count: 9
+mention_count: 10
 last_reorg_date: '2026-05-13'
 sources_7d: 1
-sources_30d: 2
+sources_30d: 3
 recent_mentions:
 - slug: 2026-02-22-deposition-materials-process-market-companies-that-master
   title: Companies that master AS-ALD today specifically ASM and AMAT are positioned to dominate the $15B deposition market of the late 2020s

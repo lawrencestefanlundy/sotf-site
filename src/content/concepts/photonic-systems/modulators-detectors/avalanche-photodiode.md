@@ -37,7 +37,7 @@ tags:
 - photonics
 - photodetector
 mention_count: 52
-sources_7d: 1
+sources_7d: 0
 sources_30d: 3
 recent_mentions:
 - slug: 2026-08-03-spad-single-photon-market-scan

@@ -8,18 +8,23 @@ parent_concepts:
 - compute
 - ai-edge
 related_concepts: []
-sources: []
+sources:
+- '[[2026-06-18-low-power-edge-compute-tinyml-ai-chipset-shipments-to-top-4]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 4
+mention_count: 5
 last_reorg_date: '2026-05-13'
 sources_7d: 1
 sources_30d: 1
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-18-low-power-edge-compute-tinyml-ai-chipset-shipments-to-top-4
+  title: TinyML AI Chipset Shipments to Top 4.1 Billion by 2031 as Embedded AI Scales Across Industrial IoT
+  date: '2026-06-18'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

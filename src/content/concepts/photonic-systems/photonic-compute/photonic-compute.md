@@ -28,7 +28,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 97
+mention_count: 98
 descendants:
 - diffractive-deep-neural-network
 - diffractive-deep-neural-networks
@@ -37,8 +37,8 @@ descendants:
 - photonic-compute-memory
 - photonic-tensor-cores
 last_reorg_date: '2026-05-13'
-sources_7d: 3
-sources_30d: 17
+sources_7d: 4
+sources_30d: 18
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)

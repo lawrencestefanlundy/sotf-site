@@ -35,10 +35,10 @@ last_updated: '2026-07-31'
 tags:
 - concept
 - technology
-mention_count: 46
+mention_count: 49
 last_reorg_date: '2026-05-13'
-sources_7d: 5
-sources_30d: 16
+sources_7d: 8
+sources_30d: 19
 recent_mentions: []
 neighbors:
 - slug: ald-atomic-layer-deposition

@@ -21,6 +21,14 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-11-building-the-moon-base-nasa-stories-at-the-ion
+  title: 'Building the Moon Base: NASA Stories at the Ion'
+  date: '2026-08-11'
+  kind: web
+- slug: 2026-08-11-nasa-completes-astronaut-deployed-science-instrument-for-lun
+  title: NASA Completes Astronaut-Deployed Science Instrument for Lunar Surface
+  date: '2026-08-11'
+  kind: web
 - slug: 2026-08-07-nasas-lunar-development-and-test-facility-prepares-artemis-h
   title: NASA’s Lunar Development and Test Facility Prepares Artemis Hardware for Moon
   date: '2026-08-07'
@@ -44,14 +52,6 @@ recent_mentions:
 - slug: 2026-07-30-major-rehearsal-takes-themis-one-step-closer-to-flight
   title: Major rehearsal takes Themis one step closer to flight
   date: '2026-07-30'
-  kind: web
-- slug: 2026-07-28-vertical-liftoff-as-ariane-6-takes-flight-for-the-first-time
-  title: Vertical liftoff as Ariane 6 takes flight for the first time
-  date: '2026-07-28'
-  kind: web
-- slug: 2026-07-24-nasa-announces-new-spacecraft-technology-demonstration-missi
-  title: NASA Announces New Spacecraft Technology Demonstration Mission at Moon
-  date: '2026-07-24'
   kind: web
 neighbors: []
 ---

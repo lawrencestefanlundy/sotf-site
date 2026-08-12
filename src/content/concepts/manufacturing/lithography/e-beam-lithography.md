@@ -56,12 +56,20 @@ last_updated: '2026-06-02'
 tags:
 - concept
 - technology
-mention_count: 1336
+mention_count: 1338
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 6
 recent_mentions:
+- slug: 2026-08-10-esd-cable-management-trays-market-to-reach-178-index-by-2035
+  title: ESD Cable Management Trays Market to Reach 178 Index by 2035 on Semiconductor Fab Build-Out - IndexBox
+  date: '2026-08-10'
+  kind: web
+- slug: 2026-08-10-chips-act-funding-opportunities-what-companies-in-the-semico
+  title: 'CHIPS Act Funding Opportunities: What Companies in the Semiconductor Ecosystem Need to Know - Mayer Brown'
+  date: '2026-08-10'
+  kind: web
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
@@ -85,14 +93,6 @@ recent_mentions:
 - slug: 2026-08-01-on-semiconductor-stock-and-2-chip-picks-near-the-chips-act-f
   title: ON Semiconductor Stock and 2 Chip Picks Near the CHIPS Act Funding Shift - simplywall.st
   date: '2026-08-01'
-  kind: web
-- slug: 2026-07-31-etched-research-sprint
-  title: Etched research sprint — tape-out speed, HBM supply, customer orders (4-lane web sweep)
-  date: '2026-07-31'
-  kind: web
-- slug: 2026-07-31-tim-market-sizing-refresh
-  title: TIM market sizing refresh — the definitional 2x split and the real addressable slot
-  date: '2026-07-31'
   kind: web
 neighbors:
 - slug: maskless-lithography

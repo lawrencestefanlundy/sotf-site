@@ -33,10 +33,10 @@ tags:
 - metalens
 - meta-optics
 - photonics
-mention_count: 36
+mention_count: 38
 last_reorg_date: '2026-05-13'
 sources_7d: 1
-sources_30d: 6
+sources_30d: 7
 recent_mentions:
 - slug: 2025-01-06-radiant-acquires-nilt
   title: Radiant Opto-Electronics Corporation Completes Acquisition of NIL Technology

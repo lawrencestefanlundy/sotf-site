@@ -18,7 +18,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 67
+mention_count: 69
 descendants:
 - automated-test-equipment
 - ion-implantation
@@ -26,11 +26,19 @@ descendants:
 - probe-cards
 - wafer-level-burn-in
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
+- slug: 2026-08-11-stanton-marks-four-years-of-chips-act-with-facility-visits-h
+  title: Stanton Marks Four Years of CHIPS Act with Facility Visits, Highlights Impact Across Arizona - Congressman Greg Stanton (.gov)
+  date: '2026-08-11'
+  kind: web
 - slug: 2026-08-10-esd-cable-management-trays-market-to-reach-178-index-by-2035
   title: ESD Cable Management Trays Market to Reach 178 Index by 2035 on Semiconductor Fab Build-Out - IndexBox
+  date: '2026-08-10'
+  kind: web
+- slug: 2026-08-10-chips-act-funding-opportunities-what-companies-in-the-semico
+  title: 'CHIPS Act Funding Opportunities: What Companies in the Semiconductor Ecosystem Need to Know - Mayer Brown'
   date: '2026-08-10'
   kind: web
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
@@ -52,14 +60,6 @@ recent_mentions:
 - slug: 2026-08-01-on-semiconductor-stock-and-2-chip-picks-near-the-chips-act-f
   title: ON Semiconductor Stock and 2 Chip Picks Near the CHIPS Act Funding Shift - simplywall.st
   date: '2026-08-01'
-  kind: web
-- slug: 2026-07-31-chips-act-equity-deals-us-gains-10-stake-in-intel-874m-for-s
-  title: 'CHIPS Act Equity Deals: U.S. Gains 10% Stake in Intel, $874M for Seven Companies - News and Statistics - IndexBox'
-  date: '2026-07-31'
-  kind: web
-- slug: 2026-07-31-commerce-dept-signs-874-million-in-chips-act-incentives-with
-  title: Commerce Dept. Signs $874 Million in CHIPS Act Incentives With Seven Companies - marketscreener.com
-  date: '2026-07-31'
   kind: web
 neighbors: []
 ---

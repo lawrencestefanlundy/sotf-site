@@ -16,10 +16,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - material
-mention_count: 29
+mention_count: 31
 last_reorg_date: '2026-05-13'
 sources_7d: 3
-sources_30d: 10
+sources_30d: 12
 recent_mentions: []
 neighbors:
 - slug: rare-earth-elements

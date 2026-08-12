@@ -32,9 +32,9 @@ descendants:
 - gallium-nitride
 - indium-gallium-nitride
 - silicon-carbide
-mention_count: 15
-sources_7d: 2
-sources_30d: 3
+mention_count: 16
+sources_7d: 3
+sources_30d: 4
 recent_mentions:
 - slug: 2017-10-10-arpa-e-funds-projects-using-wide-bandgap-semiconductors-for-
   title: ARPA-E Funds Projects Using Wide Bandgap Semiconductors for Power Conversion - Electronic Design

@@ -16,18 +16,16 @@ sources:
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 - '[[2026-05-02-return-of-lithium-niobate-photonics-spectra-jan-2026]]'
-- '[[2024-05-15-photonic-packaging-cpo-sales-of-silicon-photonics-chips]]'
-- '[[2026-05-02-lightium-tfln-foundry-csem-spin-off]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
 tags:
 - concept
 - material
-mention_count: 143
+mention_count: 145
 last_reorg_date: '2026-05-13'
-sources_7d: 3
-sources_30d: 21
+sources_7d: 5
+sources_30d: 22
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'

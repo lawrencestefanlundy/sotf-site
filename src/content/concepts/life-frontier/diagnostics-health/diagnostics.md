@@ -16,19 +16,17 @@ sources:
 - '[[2026-08-03-spad-single-photon-market-scan]]'
 - '[[2026-06-04-asg-biosensor-host-cell-protein-bioprocess]]'
 - '[[2026-01-13-chip-scale-bio-instrumentation-point-of-care-diagnostics]]'
-- '[[2024-04-11-nsf-awards-275k-grant-to-amplified-sciences-to-develop-new-p]]'
-- '[[2026-03-18-bacteria-reveal-themselves-through-unique-sounds-a-breakthro]]'
 frontier:
 - ''
 last_updated: '2026-05-07'
 tags:
 - concept
 - category
-mention_count: 106
+mention_count: 107
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 10
-sources_30d: 33
+sources_7d: 9
+sources_30d: 34
 recent_mentions:
 - slug: 2026-08-03-spad-single-photon-market-scan
   title: SPAD / single-photon detector market scan — incumbent structure and company cohort
@@ -54,14 +52,14 @@ recent_mentions:
   title: Confidential AI
   date: '2024-11-05'
   kind: substack
-- slug: 2024-04-11-nsf-awards-275k-grant-to-amplified-sciences-to-develop-new-p
-  title: NSF awards $275K grant to Amplified Sciences to develop new platform of ultrasensitive clinical diagnostics - Purdue University
-  date: '2024-04-11'
-  kind: web
 - slug: 2023-07-14-e08-optical-computing
   title: '🔮E08: Optical Computing'
   date: '2023-07-14'
   kind: substack
+- slug: 2022-01-13-ucf-researcher-leads-15-million-darpa-project-to-improve-nig
+  title: UCF Researcher Leads $1.5 Million DARPA Project to Improve Night Vision, Space Exploration and Healthcare Diagnostics - University of Central Florida
+  date: '2022-01-13'
+  kind: web
 neighbors: []
 ---
 *Stub leader page for `concepts/biotech/diagnostics/`*

@@ -25,6 +25,14 @@ descendants:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-11-stanton-marks-four-years-of-chips-act-with-facility-visits-h
+  title: Stanton Marks Four Years of CHIPS Act with Facility Visits, Highlights Impact Across Arizona - Congressman Greg Stanton (.gov)
+  date: '2026-08-11'
+  kind: web
+- slug: 2026-08-10-chips-act-funding-opportunities-what-companies-in-the-semico
+  title: 'CHIPS Act Funding Opportunities: What Companies in the Semiconductor Ecosystem Need to Know - Mayer Brown'
+  date: '2026-08-10'
+  kind: web
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
@@ -47,14 +55,6 @@ recent_mentions:
   kind: web
 - slug: 2026-07-31-commerce-dept-signs-874-million-in-chips-act-incentives-with
   title: Commerce Dept. Signs $874 Million in CHIPS Act Incentives With Seven Companies - marketscreener.com
-  date: '2026-07-31'
-  kind: web
-- slug: 2026-07-31-memory-optics-packaging-chips-act-targets-ais-compute-bottle
-  title: 'Memory, optics, packaging: CHIPS Act targets AI''s compute bottleneck - Electronics360'
-  date: '2026-07-31'
-  kind: web
-- slug: 2026-07-31-halt-der-eu-chips-act-20-was-er-verspricht-championnat-darab
-  title: Hält Der EU-Chips-Act 2.0, Was Er Verspricht? Championnat D'arabie Saoudite (0AbPIbOWRq) - Mshale
   date: '2026-07-31'
   kind: web
 neighbors: []

@@ -22,7 +22,19 @@ mention_count: 18
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 2
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-16-trapped-ion-landscape-2026
+  title: Trapped-ion quantum computing landscape 2026 (vendors, scale, integrated photonics)
+  date: '2026-06-16'
+  kind: web
+- slug: 2026-02-02-photonic-engines-for-data-centers
+  title: Photonic "Engines" for Data Centers
+  date: '2026-02-02'
+  kind: substack
+- slug: 2025-04-16-the-state-of-photonic-computing
+  title: 'Photonic Computing: A Primer'
+  date: '2025-04-16'
+  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

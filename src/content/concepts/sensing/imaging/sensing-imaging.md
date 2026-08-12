@@ -21,6 +21,14 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-11-building-the-moon-base-nasa-stories-at-the-ion
+  title: 'Building the Moon Base: NASA Stories at the Ion'
+  date: '2026-08-11'
+  kind: web
+- slug: 2026-08-11-nasa-completes-astronaut-deployed-science-instrument-for-lun
+  title: NASA Completes Astronaut-Deployed Science Instrument for Lunar Surface
+  date: '2026-08-11'
+  kind: web
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
@@ -44,14 +52,6 @@ recent_mentions:
 - slug: 2026-07-21-precision-astrometry-using-optically-independent-spacecraft-
   title: Precision Astrometry Using Optically Independent Spacecraft for Graviational Wave Detection
   date: '2026-07-21'
-  kind: web
-- slug: 2026-07-09-munichs-quantumdiamonds-raises-91-million-to-scale-its-quant
-  title: Munich’s QuantumDiamonds raises €91 million to scale its quantum-based semiconductor inspection technology - EU-Startups
-  date: '2026-07-09'
-  kind: web
-- slug: 2025-10-09-wi-fi-7-advanced-integrates-sensing-iot-and-ai-security-into
-  title: Wi-Fi 7 Advanced integrates sensing, IoT, and AI security into 10Gbps wireless networks - TechRadar
-  date: '2025-10-09'
   kind: web
 neighbors: []
 ---

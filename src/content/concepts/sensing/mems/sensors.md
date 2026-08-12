@@ -36,6 +36,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 6
 recent_mentions:
+- slug: 2026-08-11-nasa-completes-astronaut-deployed-science-instrument-for-lun
+  title: NASA Completes Astronaut-Deployed Science Instrument for Lunar Surface
+  date: '2026-08-11'
+  kind: web
 - slug: 2026-08-07-nasas-lunar-development-and-test-facility-prepares-artemis-h
   title: NASA’s Lunar Development and Test Facility Prepares Artemis Hardware for Moon
   date: '2026-08-07'
@@ -62,10 +66,6 @@ recent_mentions:
   kind: web
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
-  date: '2026-07-13'
-  kind: web
-- slug: 2026-07-13-robotics-labour-augmentation-global-emerging-robotics
-  title: 'Global Emerging Robotics Market 2027–2037: Value Capture and BOM Decomposition'
   date: '2026-07-13'
   kind: web
 neighbors: []

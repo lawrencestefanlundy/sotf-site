@@ -31,7 +31,7 @@ sources:
 - '[[2026-06-22-tim-approaches-full-sweep]]'
 mention_count: 132
 sources_7d: 0
-sources_30d: 10
+sources_30d: 8
 recent_mentions: []
 neighbors: []
 ---

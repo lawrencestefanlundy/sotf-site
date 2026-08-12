@@ -26,7 +26,7 @@ tags:
 sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-04-16-the-state-of-photonic-computing]]'
-mention_count: 239
+mention_count: 241
 sources_7d: 3
 sources_30d: 22
 recent_mentions:

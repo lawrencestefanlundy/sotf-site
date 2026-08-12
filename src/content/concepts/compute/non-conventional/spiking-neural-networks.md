@@ -18,9 +18,9 @@ last_updated: 2026-06-17
 tags:
 - concept
 - technology
-mention_count: 15
-sources_7d: 0
-sources_30d: 4
+mention_count: 16
+sources_7d: 1
+sources_30d: 5
 recent_mentions:
 - slug: 2023-06-23-e05-the-future-of-edge-ai-brain-inspired
   title: '🔮 E05: Neuromorphic Computing & The Future of Edge AI'

@@ -27,7 +27,7 @@ last_updated: '2026-05-08'
 tags:
 - concept
 - technology
-mention_count: 183
+mention_count: 187
 descendants:
 - computational-lithography
 - directed-self-assembly
@@ -46,8 +46,8 @@ descendants:
 - x-ray-lithography
 - xolography
 last_reorg_date: '2026-05-13'
-sources_7d: 3
-sources_30d: 9
+sources_7d: 5
+sources_30d: 11
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)

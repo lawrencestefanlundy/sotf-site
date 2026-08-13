@@ -31,7 +31,7 @@ tags:
 - memory-idm
 - map
 mention_count: 31
-sources_7d: 3
+sources_7d: 2
 sources_30d: 12
 recent_mentions:
 - slug: 2026-07-10-workload-phase-silicon-sweep

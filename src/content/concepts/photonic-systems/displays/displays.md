@@ -29,7 +29,7 @@ descendants:
 - laser-display-light-engines
 - micro-leds
 - oled
-sources_7d: 5
+sources_7d: 3
 sources_30d: 20
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026

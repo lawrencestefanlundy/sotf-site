@@ -15,7 +15,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - material
-mention_count: 54
+mention_count: 55
 last_reorg_date: '2026-05-13'
 sources_7d: 3
 sources_30d: 17

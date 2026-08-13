@@ -43,6 +43,10 @@ last_reorg_date: '2026-05-14'
 sources_7d: 2
 sources_30d: 11
 recent_mentions:
+- slug: 2026-08-12-snapdragon-ar1-sensing-hub-micro-npu
+  title: Snapdragon AR1 Gen 1 Platform Product Brief — Sensing Hub with Micro NPU for audio and sensors
+  date: '2026-08-12'
+  kind: web
 - slug: 2026-07-31-inference-silicon-roster-sprint
   title: 'Inference-silicon roster verification sprint: 10 companies for the competitive-analysis capital map'
   date: '2026-07-31'
@@ -70,10 +74,6 @@ recent_mentions:
 - slug: 2024-10-22-state-of-the-future-part-deux
   title: 'An AI Thesis: State of the Future! Part Deux'
   date: '2024-10-22'
-  kind: substack
-- slug: 2023-11-20-e21-can-we-make-enough-ai-chips
-  title: Can we make enough AI chips?
-  date: '2023-11-20'
   kind: substack
 neighbors:
 - slug: memcapacitor

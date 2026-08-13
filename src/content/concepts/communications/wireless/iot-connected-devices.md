@@ -48,9 +48,9 @@ recent_mentions:
   title: Wi-Fi 7 Advanced integrates sensing, IoT, and AI security into 10Gbps wireless networks - TechRadar
   date: '2025-10-09'
   kind: web
-- slug: 2024-02-28-distributech-2024-nordic-semiconductor-unveils-the-power-of-
-  title: 'DISTRIBUTECH 2024: Nordic Semiconductor Unveils the Power of DECT NR+ for Private Networks - MarketScale'
-  date: '2024-02-28'
+- slug: 2024-05-07-vitec-and-rfmondial-showcase-ultra-low-latency-video-streami
+  title: VITEC and RFmondial showcase ultra-low latency video streaming over DECT NR+ - SourceSecurity.com
+  date: '2024-05-07'
   kind: web
 neighbors: []
 ---

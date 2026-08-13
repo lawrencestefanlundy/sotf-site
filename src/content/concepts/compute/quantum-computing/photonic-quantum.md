@@ -23,7 +23,7 @@ tags:
 - technology
 mention_count: 81
 last_reorg_date: '2026-05-13'
-sources_7d: 4
+sources_7d: 2
 sources_30d: 19
 recent_mentions:
 - slug: 2026-06-04-q-memory-site

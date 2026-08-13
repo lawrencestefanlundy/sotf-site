@@ -44,7 +44,7 @@ tags:
 - sovereignty
 mention_count: 21
 sources_7d: 1
-sources_30d: 2
+sources_30d: 1
 recent_mentions:
 - slug: 2026-07-14-artificial-bloom
   title: Artificial Bloom

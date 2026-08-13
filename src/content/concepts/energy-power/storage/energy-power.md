@@ -80,9 +80,21 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 1
 recent_mentions:
+- slug: 2026-08-12-did-someone-just-figure-out-how-to-project-finance-nuclear--
+  title: Did someone just figure out how to project finance nuclear? - Latitude Media
+  date: '2026-08-12'
+  kind: web
+- slug: 2026-08-11-can-the-advanced-geothermal-industry-follow-in-fervos-wake--
+  title: Can the advanced geothermal industry follow in Fervo’s wake? - Latitude Media
+  date: '2026-08-11'
+  kind: web
 - slug: 2026-08-10-how-ais-demand-for-compute-could-disrupt-america
   title: How AI's Demand for Compute could Disrupt America
   date: '2026-08-10'
+  kind: web
+- slug: 2026-08-06-how-foreign-turbine-suppliers-are-gearing-up-for-a-us-geothe
+  title: How foreign turbine suppliers are gearing up for a US geothermal boom - Latitude Media
+  date: '2026-08-06'
   kind: web
 - slug: 2026-08-06-the-electrician-shortage-slowing-the-ai-boom---latitude-medi
   title: The electrician shortage slowing the AI boom - Latitude Media
@@ -99,18 +111,6 @@ recent_mentions:
 - slug: 2026-07-31-memory-fakes-and-thermodynamic-compute-chips-act-bets-874m-o
   title: 'Memory, Fakes, and Thermodynamic Compute: CHIPS Act Bets $874M on Six AI Stack Gaps - Tech Times'
   date: '2026-07-31'
-  kind: web
-- slug: 2026-07-30-cfs-thinks-fusion-isnt-ready-for-public-markets---latitude-m
-  title: CFS thinks fusion isn’t ready for public markets - Latitude Media
-  date: '2026-07-30'
-  kind: web
-- slug: 2026-07-29-does-blue-state-purge-hit-a-transmission-project-promising-c
-  title: DOE’s blue-state purge hit a transmission project promising cost savings - Latitude Media
-  date: '2026-07-29'
-  kind: web
-- slug: 2026-07-23-why-energy-bills-may-keep-rising-even-as-utilities-join-trum
-  title: Why energy bills may keep rising, even as utilities join Trump’s AI ratepayer pledge - Latitude Media
-  date: '2026-07-23'
   kind: web
 neighbors: []
 ---

@@ -55,6 +55,10 @@ last_reorg_date: '2026-05-14'
 sources_7d: 1
 sources_30d: 6
 recent_mentions:
+- slug: 2026-08-12-snapdragon-ar1-sensing-hub-micro-npu
+  title: Snapdragon AR1 Gen 1 Platform Product Brief — Sensing Hub with Micro NPU for audio and sensors
+  date: '2026-08-12'
+  kind: web
 - slug: 2026-08-10-how-ais-demand-for-compute-could-disrupt-america
   title: How AI's Demand for Compute could Disrupt America
   date: '2026-08-10'
@@ -81,10 +85,6 @@ recent_mentions:
   kind: web
 - slug: 2026-07-31-trump-administration-unveils-874-million-chips-act-ai-push-w
   title: Trump Administration Unveils $874 Million CHIPS Act AI Push, With GlobalFoundries Securing Top Award - TradingView
-  date: '2026-07-31'
-  kind: web
-- slug: 2026-07-31-inference-silicon-roster-sprint
-  title: 'Inference-silicon roster verification sprint: 10 companies for the competitive-analysis capital map'
   date: '2026-07-31'
   kind: web
 neighbors: []

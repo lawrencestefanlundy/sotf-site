@@ -35,7 +35,7 @@ tags:
 descendants:
 - aluminium-gallium-nitride
 - indium-gallium-nitride
-mention_count: 27
+mention_count: 28
 sources_7d: 1
 sources_30d: 5
 recent_mentions:

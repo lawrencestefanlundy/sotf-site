@@ -31,7 +31,7 @@ frontier:
 last_updated: 2026-06-02
 tags:
 - concept
-mention_count: 110
+mention_count: 111
 sources_7d: 2
 sources_30d: 15
 recent_mentions:

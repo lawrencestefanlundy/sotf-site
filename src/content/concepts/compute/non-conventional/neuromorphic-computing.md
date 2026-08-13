@@ -28,7 +28,7 @@ mention_count: 67
 last_reorg_date: '2026-05-14'
 descendants:
 - spiking-neural-networks
-sources_7d: 4
+sources_7d: 3
 sources_30d: 19
 recent_mentions:
 - slug: 2026-07-31-inference-silicon-roster-sprint

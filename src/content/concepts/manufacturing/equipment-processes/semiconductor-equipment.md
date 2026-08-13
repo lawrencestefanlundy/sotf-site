@@ -29,6 +29,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 1
 sources_30d: 1
 recent_mentions:
+- slug: 2026-08-12-chips-act-20-part-1-europes-second-semiconductor-push---eene
+  title: 'Chips Act 2.0. Part 1: Europe’s second semiconductor push - eeNews Europe'
+  date: '2026-08-12'
+  kind: web
 - slug: 2026-08-11-stanton-marks-four-years-of-chips-act-with-facility-visits-h
   title: Stanton Marks Four Years of CHIPS Act with Facility Visits, Highlights Impact Across Arizona - Congressman Greg Stanton (.gov)
   date: '2026-08-11'
@@ -56,10 +60,6 @@ recent_mentions:
 - slug: 2026-08-03-uk-chip-startup-olix-raises-312m-at-33bn-valuation---techeu
   title: UK chip startup Olix raises $312M at $3.3BN valuation - Tech.eu
   date: '2026-08-03'
-  kind: web
-- slug: 2026-08-01-on-semiconductor-stock-and-2-chip-picks-near-the-chips-act-f
-  title: ON Semiconductor Stock and 2 Chip Picks Near the CHIPS Act Funding Shift - simplywall.st
-  date: '2026-08-01'
   kind: web
 neighbors: []
 ---

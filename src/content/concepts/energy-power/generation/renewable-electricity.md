@@ -21,6 +21,18 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-12-did-someone-just-figure-out-how-to-project-finance-nuclear--
+  title: Did someone just figure out how to project finance nuclear? - Latitude Media
+  date: '2026-08-12'
+  kind: web
+- slug: 2026-08-11-can-the-advanced-geothermal-industry-follow-in-fervos-wake--
+  title: Can the advanced geothermal industry follow in Fervo’s wake? - Latitude Media
+  date: '2026-08-11'
+  kind: web
+- slug: 2026-08-06-how-foreign-turbine-suppliers-are-gearing-up-for-a-us-geothe
+  title: How foreign turbine suppliers are gearing up for a US geothermal boom - Latitude Media
+  date: '2026-08-06'
+  kind: web
 - slug: 2026-08-05-which-ldes-companies-are-poised-to-land-the-next-big-contrac
   title: Which LDES companies are poised to land the next big contracts? - Latitude Media
   date: '2026-08-05'
@@ -40,18 +52,6 @@ recent_mentions:
 - slug: 2026-07-17-the-off-grid-data-center-fantasy---latitude-media
   title: The off-grid data center fantasy - Latitude Media
   date: '2026-07-17'
-  kind: web
-- slug: 2026-07-16-five-trends-that-are-shaping-the-new-market-for-distributed-
-  title: Five trends that are shaping the new market for distributed capacity - Latitude Media
-  date: '2026-07-16'
-  kind: web
-- slug: 2026-05-18-advanced-geothermal-energy-is-widely-available-clean-and-may
-  title: Advanced Geothermal Energy Is Widely Available, Clean, and Maybe Cheap Enough to Make a Big Impact - Information Technology and Innovation Foundation (ITIF)
-  date: '2026-05-18'
-  kind: web
-- slug: 2026-04-14-nexus-greentech-supports-companies-in-the-photovoltaic-indus
-  title: NEXUS GreenTech Supports Companies in the Photovoltaic Industry - Fraunhofer-Institut für Solare Energiesysteme ISE
-  date: '2026-04-14'
   kind: web
 neighbors: []
 ---

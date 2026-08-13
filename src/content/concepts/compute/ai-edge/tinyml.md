@@ -18,7 +18,7 @@ tags:
 - technology
 mention_count: 5
 last_reorg_date: '2026-05-13'
-sources_7d: 1
+sources_7d: 0
 sources_30d: 1
 recent_mentions:
 - slug: 2026-06-18-low-power-edge-compute-tinyml-ai-chipset-shipments-to-top-4

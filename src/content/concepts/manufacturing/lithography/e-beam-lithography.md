@@ -56,7 +56,7 @@ last_updated: '2026-06-02'
 tags:
 - concept
 - technology
-mention_count: 1338
+mention_count: 1340
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0

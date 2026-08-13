@@ -19,7 +19,7 @@ tags:
 - technology
 mention_count: 170
 last_reorg_date: '2026-05-13'
-sources_7d: 10
+sources_7d: 8
 sources_30d: 41
 recent_mentions:
 - slug: 2024-12-16-willow-and-the-race-to-quantum-advantage

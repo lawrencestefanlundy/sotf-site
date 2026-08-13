@@ -59,6 +59,10 @@ recent_mentions:
   title: TIM market sizing refresh — the definitional 2x split and the real addressable slot
   date: '2026-07-31'
   kind: web
+- slug: 2026-07-30-commerce-dept-signs-874-million-in-chips-act-incentives-with
+  title: Commerce Dept. Signs $874 Million in CHIPS Act Incentives With Seven Companies - Yahoo Finance
+  date: '2026-07-30'
+  kind: web
 - slug: 2026-07-25-thoughts-on-ai-and-power
   title: Thoughts on AI and power
   date: '2026-07-25'
@@ -70,10 +74,6 @@ recent_mentions:
 - slug: 2026-07-14-chips-act-20-ambition-requires-funding---digitaleurope
   title: 'Chips Act 2.0: Ambition requires funding - DigitalEurope'
   date: '2026-07-14'
-  kind: web
-- slug: 2026-07-13-department-of-commerce-announces-direct-funding-agreement-wi
-  title: Department of Commerce Announces Direct Funding Agreement with Bosch for a $225 Million CHIPS Program Award to Support Domestic Production of Silicon Carbide Semiconductors - National Institute of Standards and Technology (.gov)
-  date: '2026-07-13'
   kind: web
 neighbors: []
 ---

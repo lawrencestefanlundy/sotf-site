@@ -21,6 +21,10 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-12-nasa-data-helps-commercial-space-plan-living-off-our-moon
+  title: NASA Data Helps Commercial Space Plan Living Off Our Moon
+  date: '2026-08-12'
+  kind: web
 - slug: 2026-08-11-building-the-moon-base-nasa-stories-at-the-ion
   title: 'Building the Moon Base: NASA Stories at the Ion'
   date: '2026-08-11'
@@ -48,10 +52,6 @@ recent_mentions:
 - slug: 2026-07-31-tb-26-04-webbings-for-use-in-elevated-oxygen-environments
   title: TB 26-04 Webbings for Use in Elevated Oxygen Environments
   date: '2026-07-31'
-  kind: web
-- slug: 2026-07-30-major-rehearsal-takes-themis-one-step-closer-to-flight
-  title: Major rehearsal takes Themis one step closer to flight
-  date: '2026-07-30'
   kind: web
 neighbors: []
 ---

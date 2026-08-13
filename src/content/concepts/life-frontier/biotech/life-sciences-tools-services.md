@@ -20,6 +20,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-11-the-bioai-phase-shift---matthew-mcpartlon-neil-patil-chai-di
+  title: 🔬The BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery
+  date: '2026-08-11'
+  kind: web
 - slug: 2026-07-16-the-lab-of-the-future-should-feel-like-a-data-center-andy-be
   title: 🔬 The Lab of the Future Should Feel Like a Data Center — Andy Beam & Rafa Gómez-Bombarelli, Lila Sciences
   date: '2026-07-16'

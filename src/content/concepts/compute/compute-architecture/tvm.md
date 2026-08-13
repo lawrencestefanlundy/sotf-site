@@ -39,7 +39,7 @@ tags:
 - reference
 descendants:
 - mlc-llm
-mention_count: 48
+mention_count: 49
 sources_7d: 2
 sources_30d: 13
 recent_mentions:

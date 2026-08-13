@@ -46,7 +46,7 @@ descendants:
 - x-ray-lithography
 - xolography
 last_reorg_date: '2026-05-13'
-sources_7d: 5
+sources_7d: 4
 sources_30d: 11
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026

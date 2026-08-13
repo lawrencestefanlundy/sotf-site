@@ -24,7 +24,7 @@ last_updated: 2026-06-02
 tags:
 - concept
 mention_count: 36
-sources_7d: 2
+sources_7d: 1
 sources_30d: 13
 recent_mentions:
 - slug: 2024-12-04-cubits-in-a-fridge-why-is-nobody

@@ -31,7 +31,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 568
+mention_count: 570
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -49,8 +49,8 @@ descendants:
 - topological-qubits
 - trapped-ion
 last_reorg_date: '2026-05-13'
-sources_7d: 3
-sources_30d: 24
+sources_7d: 4
+sources_30d: 25
 recent_mentions:
 - slug: 2026-08-06-rgti-q2-2026-earnings-call-rigetti-revenue-jumps-183-as-on-p
   title: '[RGTI Q2 2026 Earnings Call] Rigetti Revenue Jumps 183% as On-Premises Quantum System Sales Surge, CHIPS Act LOI Signals Government Backing - finance.biggo.com'

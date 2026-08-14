@@ -16,10 +16,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 54
+mention_count: 55
 last_reorg_date: '2026-05-13'
-sources_7d: 3
-sources_30d: 18
+sources_7d: 4
+sources_30d: 19
 recent_mentions:
 - slug: 2023-08-25-e12-nanomechanical-computing-gears
   title: '🔮E12: Nanomechanical Computing- Gears of Space War? Old Ideas at New Scales'

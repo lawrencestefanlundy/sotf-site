@@ -34,9 +34,9 @@ tags:
 - semron
 - memcapacitor
 - product-brand
-mention_count: 48
-sources_7d: 2
-sources_30d: 9
+mention_count: 49
+sources_7d: 1
+sources_30d: 10
 recent_mentions: []
 neighbors:
 - slug: memcapacitor

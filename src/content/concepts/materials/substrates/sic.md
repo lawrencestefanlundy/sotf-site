@@ -27,7 +27,7 @@ sources:
 - '[[2026-06-12-hku-sic-cryogenic-neuromorphic-chip-10mk]]'
 mention_count: 101
 sources_7d: 0
-sources_30d: 7
+sources_30d: 6
 recent_mentions: []
 neighbors: []
 ---

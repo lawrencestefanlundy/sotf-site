@@ -31,7 +31,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 570
+mention_count: 575
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -52,6 +52,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 4
 sources_30d: 25
 recent_mentions:
+- slug: 2026-08-13-infleqtion-reports-q2-2026-results-record-revenue-up-116-yoy
+  title: 'Infleqtion Reports Q2 2026 Results: Record Revenue Up 116% YoY, Raised Guidance to $43M, and $100M CHIPS Act LOI - Quantum Computing Report'
+  date: '2026-08-13'
+  kind: web
 - slug: 2026-08-06-rgti-q2-2026-earnings-call-rigetti-revenue-jumps-183-as-on-p
   title: '[RGTI Q2 2026 Earnings Call] Rigetti Revenue Jumps 183% as On-Premises Quantum System Sales Surge, CHIPS Act LOI Signals Government Backing - finance.biggo.com'
   date: '2026-08-06'
@@ -79,10 +83,6 @@ recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
-  kind: web
-- slug: 2026-07-09-munichs-quantumdiamonds-raises-91-million-to-scale-its-quant
-  title: Munich’s QuantumDiamonds raises €91 million to scale its quantum-based semiconductor inspection technology - EU-Startups
-  date: '2026-07-09'
   kind: web
 neighbors: []
 ---

@@ -22,9 +22,9 @@ frontier:
 last_updated: '2026-06-02'
 tags:
 - concept
-mention_count: 24
-sources_7d: 1
-sources_30d: 2
+mention_count: 25
+sources_7d: 2
+sources_30d: 3
 recent_mentions:
 - slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
   title: 'UK Opportunity in AI: Compound Semiconductors'

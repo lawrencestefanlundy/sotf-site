@@ -21,6 +21,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-12-viavi-introduces-industrys-first-channel-emulator-for-6g-and
+  title: VIAVI Introduces Industry's First Channel Emulator for 6G and Wi-Fi 7/8 - barchart.com
+  date: '2026-08-12'
+  kind: web
 - slug: 2026-08-07-iris2-reinforced-and-accelerated-as-implementation-advances
   title: IRIS² reinforced and accelerated as implementation advances
   date: '2026-08-07'
@@ -48,10 +52,6 @@ recent_mentions:
 - slug: 2025-11-14-advantech-partners-with-rohde-schwarz-to-deliver-wi-fi-compl
   title: Advantech partners with Rohde & Schwarz to deliver Wi-Fi compliant and deployment-ready industrial Wi-Fi 7 modules - Plataforma Media
   date: '2025-11-14'
-  kind: web
-- slug: 2025-10-21-hms-networks-releases-the-worlds-first-industrial-5g-router-
-  title: HMS Networks Releases the World’s First Industrial 5G Router and Starterkit - Industrial Engineering News Europe
-  date: '2025-10-21'
   kind: web
 neighbors: []
 ---

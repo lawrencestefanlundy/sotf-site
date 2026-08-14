@@ -38,8 +38,8 @@ tags:
 - technology
 mention_count: 92
 last_reorg_date: '2026-05-14'
-sources_7d: 2
-sources_30d: 19
+sources_7d: 1
+sources_30d: 18
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)

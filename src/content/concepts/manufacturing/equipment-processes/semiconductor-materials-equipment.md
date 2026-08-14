@@ -25,6 +25,10 @@ descendants:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-13-how-the-chips-act-changed-binghamton-and-upstate-new-york---
+  title: How the CHIPS Act changed Binghamton and Upstate New York - Press & Sun-Bulletin
+  date: '2026-08-13'
+  kind: web
 - slug: 2026-08-12-chips-act-20-part-1-europes-second-semiconductor-push---eene
   title: 'Chips Act 2.0. Part 1: Europe’s second semiconductor push - eeNews Europe'
   date: '2026-08-12'
@@ -51,10 +55,6 @@ recent_mentions:
   kind: web
 - slug: 2026-08-01-on-semiconductor-stock-and-2-chip-picks-near-the-chips-act-f
   title: ON Semiconductor Stock and 2 Chip Picks Near the CHIPS Act Funding Shift - simplywall.st
-  date: '2026-08-01'
-  kind: web
-- slug: 2026-08-01-south-dakota-mines-receives-31m-federal-grant-to-map-rare-ra
-  title: South Dakota Mines receives $3.1M federal grant to map rare rarth elements - KOTA Territory News
   date: '2026-08-01'
   kind: web
 neighbors: []

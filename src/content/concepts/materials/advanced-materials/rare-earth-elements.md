@@ -43,7 +43,7 @@ tags:
 - critical-minerals
 - sovereignty
 mention_count: 21
-sources_7d: 1
+sources_7d: 0
 sources_30d: 1
 recent_mentions:
 - slug: 2026-07-14-artificial-bloom

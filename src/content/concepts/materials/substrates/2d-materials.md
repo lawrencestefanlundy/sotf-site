@@ -18,11 +18,11 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 53
+mention_count: 54
 last_reorg_date: '2026-05-13'
 descendants: []
-sources_7d: 5
-sources_30d: 13
+sources_7d: 6
+sources_30d: 14
 recent_mentions:
 - slug: 2026-05-24-mose2-exciton-polariton-all-optical-switch
   title: New light-based switch could cut chip energy use and speed future AI photonics

@@ -21,7 +21,11 @@ descendants:
 - semiconductor-metrology-inspection
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-08-12-viavi-introduces-industrys-first-channel-emulator-for-6g-and
+  title: VIAVI Introduces Industry's First Channel Emulator for 6G and Wi-Fi 7/8 - barchart.com
+  date: '2026-08-12'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

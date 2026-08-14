@@ -15,7 +15,6 @@ sources:
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
-- '[[2026-05-02-return-of-lithium-niobate-photonics-spectra-jan-2026]]'
 frontier:
 - ''
 last_updated: '2026-05-04'
@@ -25,15 +24,11 @@ tags:
 mention_count: 146
 last_reorg_date: '2026-05-13'
 sources_7d: 4
-sources_30d: 22
+sources_30d: 23
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
-  kind: web
-- slug: 2026-05-02-return-of-lithium-niobate-photonics-spectra-jan-2026
-  title: Return of Lithium Niobate (Photonics Spectra Jan 2026)
-  date: '2026-05-02'
   kind: web
 - slug: 2026-05-02-lightium-tfln-foundry-csem-spin-off
   title: Lightium TFLN Foundry (CSEM spin-off)
@@ -58,6 +53,10 @@ recent_mentions:
 - slug: 2026-03-30-photonics-material-class-war-silicon-photonics-and-photonic
   title: 'Silicon Photonics and Photonic Integrated Circuits 2026-2036: Technologies, Markets, and Forecasts'
   date: '2026-03-30'
+  kind: web
+- slug: 2026-03-12-photonics-material-class-war-hyperlight-umc-and-wavetek
+  title: HyperLight, UMC, and Wavetek Announce Strategic Partnership for High-Volume Foundry Production of TFLN Chiplet Platform
+  date: '2026-03-12'
   kind: web
 neighbors: []
 ---

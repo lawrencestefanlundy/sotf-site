@@ -26,7 +26,7 @@ tags:
 mention_count: 101
 last_reorg_date: '2026-05-14'
 descendants: []
-sources_7d: 4
+sources_7d: 3
 sources_30d: 11
 recent_mentions:
 - slug: 2026-05-08-nasa-fuel-cell-tests-pave-way-for-energy-storage-on-moon

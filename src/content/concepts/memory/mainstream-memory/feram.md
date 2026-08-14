@@ -18,11 +18,11 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 136
+mention_count: 139
 last_reorg_date: '2026-05-14'
 descendants:
 - fefet
-sources_7d: 7
+sources_7d: 9
 sources_30d: 31
 recent_mentions:
 - slug: 2025-26-lapedus-next-gen-ferroelectric-memory

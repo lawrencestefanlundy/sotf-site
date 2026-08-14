@@ -21,6 +21,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-12-viavi-introduces-industrys-first-channel-emulator-for-6g-and
+  title: VIAVI Introduces Industry's First Channel Emulator for 6G and Wi-Fi 7/8 - barchart.com
+  date: '2026-08-12'
+  kind: web
 - slug: 2026-08-03-quectel-adds-wi-fi-7-and-bluetooth-60-modules-for-consumer-a
   title: Quectel Adds Wi-Fi 7 and Bluetooth 6.0 Modules for Consumer and Edge Devices - IoT Business News
   date: '2026-08-03'
@@ -48,10 +52,6 @@ recent_mentions:
 - slug: 2025-10-21-hms-networks-releases-the-worlds-first-industrial-5g-router-
   title: HMS Networks Releases the World’s First Industrial 5G Router and Starterkit - Industrial Engineering News Europe
   date: '2025-10-21'
-  kind: web
-- slug: 2025-10-09-wi-fi-7-advanced-integrates-sensing-iot-and-ai-security-into
-  title: Wi-Fi 7 Advanced integrates sensing, IoT, and AI security into 10Gbps wireless networks - TechRadar
-  date: '2025-10-09'
   kind: web
 neighbors: []
 ---

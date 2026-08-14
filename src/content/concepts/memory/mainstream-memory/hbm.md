@@ -60,9 +60,9 @@ public_expressions:
 - 000660.KS
 - 005930.KS
 - MU
-mention_count: 71
-sources_7d: 1
-sources_30d: 14
+mention_count: 72
+sources_7d: 2
+sources_30d: 15
 recent_mentions:
 - slug: 2026-07-31-etched-research-sprint
   title: Etched research sprint — tape-out speed, HBM supply, customer orders (4-lane web sweep)

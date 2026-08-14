@@ -46,6 +46,10 @@ recent_mentions:
   title: UK AI Hardware Plan - GOV.UK
   date: '2026-06-08'
   kind: web
+- slug: 2026-04-29-uk-chip-startup-fractile-seeks-200m-round-at-1b-valuation-to
+  title: UK chip startup Fractile seeks $200M round at $1B valuation to take on Nvidia in AI inference - Dealroom
+  date: '2026-04-29'
+  kind: web
 - slug: 2024-11-08-tsmc-to-suspend-production-for-some-chinese-ai-chip-customer
   title: TSMC to suspend production for some Chinese AI chip customers - Harici
   date: '2024-11-08'

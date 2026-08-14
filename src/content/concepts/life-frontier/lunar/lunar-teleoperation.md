@@ -17,7 +17,7 @@ tags:
 - concept
 - redirect
 mention_count: 17
-sources_7d: 1
+sources_7d: 0
 sources_30d: 6
 recent_mentions: []
 neighbors: []

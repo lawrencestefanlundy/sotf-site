@@ -18,6 +18,7 @@ sources:
 - '[[2024-02-26-nordic-nrf9151-a-smaller-lte-mnb-iot-and-dect-nr-sip-with-en]]'
 - '[[2024-06-03-conexio-stratus-pro-a-battery-powered-nrf9161-development-ki]]'
 - '[[2024-01-15-nordics-nrf9161-sip-and-dk-add-additional-lte-bands-and-redu]]'
+- '[[2024-05-07-vitec-and-rfmondial-showcase-ultra-low-latency-video-streami]]'
 - '[[2026-06-12-dect-nr-demystified---sennheiser]]'
 - '[[2024-01-29-nordics-nrf9161-sip-and-dk-support-cellular-iot-and-dect-nr-]]'
 - '[[2026-05-07-stratum-9-launches-first-industrial-grade-dect-nr-gateway---]]'
@@ -38,7 +39,7 @@ last_updated: '2026-06-05'
 tags:
 - concept
 - technology
-mention_count: 25
+mention_count: 26
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 1

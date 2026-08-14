@@ -33,14 +33,14 @@ last_updated: '2026-07-26'
 tags:
 - concept
 - technology
-mention_count: 178
+mention_count: 179
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration
 - micro-transfer-printing
 - osat
 last_reorg_date: '2026-05-13'
-sources_7d: 5
+sources_7d: 3
 sources_30d: 13
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026

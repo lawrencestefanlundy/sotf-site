@@ -18,7 +18,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 69
+mention_count: 70
 descendants:
 - automated-test-equipment
 - ion-implantation
@@ -29,6 +29,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 1
 sources_30d: 1
 recent_mentions:
+- slug: 2026-08-13-how-the-chips-act-changed-binghamton-and-upstate-new-york---
+  title: How the CHIPS Act changed Binghamton and Upstate New York - Press & Sun-Bulletin
+  date: '2026-08-13'
+  kind: web
 - slug: 2026-08-12-chips-act-20-part-1-europes-second-semiconductor-push---eene
   title: 'Chips Act 2.0. Part 1: Europe’s second semiconductor push - eeNews Europe'
   date: '2026-08-12'
@@ -56,10 +60,6 @@ recent_mentions:
 - slug: 2026-08-04-eu-chips-act-20-ambition-requires-funding---dqindiacom
   title: 'EU Chips Act 2.0: Ambition requires funding - dqindia.com'
   date: '2026-08-04'
-  kind: web
-- slug: 2026-08-03-uk-chip-startup-olix-raises-312m-at-33bn-valuation---techeu
-  title: UK chip startup Olix raises $312M at $3.3BN valuation - Tech.eu
-  date: '2026-08-03'
   kind: web
 neighbors: []
 ---

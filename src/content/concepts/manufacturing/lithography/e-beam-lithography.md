@@ -56,12 +56,16 @@ last_updated: '2026-06-02'
 tags:
 - concept
 - technology
-mention_count: 1340
+mention_count: 1322
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 6
 recent_mentions:
+- slug: 2026-08-12-chips-act-20-part-1-europes-second-semiconductor-push---eene
+  title: 'Chips Act 2.0. Part 1: Europe’s second semiconductor push - eeNews Europe'
+  date: '2026-08-12'
+  kind: web
 - slug: 2026-08-10-esd-cable-management-trays-market-to-reach-178-index-by-2035
   title: ESD Cable Management Trays Market to Reach 178 Index by 2035 on Semiconductor Fab Build-Out - IndexBox
   date: '2026-08-10'
@@ -89,10 +93,6 @@ recent_mentions:
 - slug: 2026-08-03-uk-chip-startup-olix-raises-312m-at-33bn-valuation---techeu
   title: UK chip startup Olix raises $312M at $3.3BN valuation - Tech.eu
   date: '2026-08-03'
-  kind: web
-- slug: 2026-08-01-on-semiconductor-stock-and-2-chip-picks-near-the-chips-act-f
-  title: ON Semiconductor Stock and 2 Chip Picks Near the CHIPS Act Funding Shift - simplywall.st
-  date: '2026-08-01'
   kind: web
 neighbors:
 - slug: maskless-lithography

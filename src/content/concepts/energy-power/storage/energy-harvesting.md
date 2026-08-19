@@ -20,8 +20,8 @@ tags:
 mention_count: 31
 descendants: []
 last_reorg_date: '2026-05-14'
-sources_7d: 2
-sources_30d: 7
+sources_7d: 0
+sources_30d: 6
 recent_mentions: []
 neighbors: []
 ---

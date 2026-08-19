@@ -18,9 +18,9 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 53
+mention_count: 54
 last_reorg_date: '2026-05-13'
-sources_7d: 4
+sources_7d: 3
 sources_30d: 14
 recent_mentions:
 - slug: 2026-06-22-tim-approaches-full-sweep

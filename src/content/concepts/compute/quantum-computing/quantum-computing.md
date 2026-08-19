@@ -31,7 +31,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 575
+mention_count: 583
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -49,8 +49,8 @@ descendants:
 - topological-qubits
 - trapped-ion
 last_reorg_date: '2026-05-13'
-sources_7d: 4
-sources_30d: 25
+sources_7d: 3
+sources_30d: 26
 recent_mentions:
 - slug: 2026-08-13-infleqtion-reports-q2-2026-results-record-revenue-up-116-yoy
   title: 'Infleqtion Reports Q2 2026 Results: Record Revenue Up 116% YoY, Raised Guidance to $43M, and $100M CHIPS Act LOI - Quantum Computing Report'

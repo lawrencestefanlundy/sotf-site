@@ -56,12 +56,16 @@ last_updated: '2026-06-02'
 tags:
 - concept
 - technology
-mention_count: 1322
+mention_count: 1331
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 6
+sources_7d: 1
+sources_30d: 4
 recent_mentions:
+- slug: 2026-08-13-rochester-region-sees-semiconductor-growth-from-chips-act-in
+  title: Rochester region sees semiconductor growth from CHIPS Act investments - Rochester Business Journal
+  date: '2026-08-13'
+  kind: web
 - slug: 2026-08-12-chips-act-20-part-1-europes-second-semiconductor-push---eene
   title: 'Chips Act 2.0. Part 1: Europe’s second semiconductor push - eeNews Europe'
   date: '2026-08-12'
@@ -88,10 +92,6 @@ recent_mentions:
   kind: web
 - slug: 2026-08-03-uk-chip-firm-olix-valued-at-more-than-2bn-after-major-invest
   title: UK chip firm OLIX valued at more than £2bn after major investment - UKTN
-  date: '2026-08-03'
-  kind: web
-- slug: 2026-08-03-uk-chip-startup-olix-raises-312m-at-33bn-valuation---techeu
-  title: UK chip startup Olix raises $312M at $3.3BN valuation - Tech.eu
   date: '2026-08-03'
   kind: web
 neighbors:

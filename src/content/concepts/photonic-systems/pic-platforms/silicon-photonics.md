@@ -27,12 +27,12 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 149
+mention_count: 150
 last_reorg_date: '2026-05-13'
 descendants:
 - avalanche-photodiode
 - optical-gyroscope
-sources_7d: 1
+sources_7d: 0
 sources_30d: 7
 recent_mentions:
 - slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape

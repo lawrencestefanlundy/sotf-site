@@ -40,7 +40,7 @@ neighbors:
 ---
 > **DISAMBIGUATION (renamed 13 Jun 2026 from `lunar-teleoperation`):** this page is about operating robots on the **physical Moon** despite Earth-Moon latency. It is NOT about Lunar Ventures. For the Lunar Ventures / Elad Verbin Earth-robotics teleoperation INVESTMENT thesis see **Teleoperation Bridge**; for the autonomy destination see **Robot Autonomy Destination**. The old slug `lunar-teleoperation` now redirects here.
 
-*Active research thread. Half-day per week. Connected to State of the Future writing + Telekine DD work.*
+*Active research thread. Half-day per week. Connected to State of the Future writing + Telekin DD work.*
 
 ## What it is
 
@@ -66,7 +66,7 @@ Three converging signals:
 
 ## Active threads
 
-- **Telekine DD work** — Lunar Ventures pipeline; specific company doing teleoperation for industrial/extreme environments. (Tracked in the Earth-robotics thesis **Teleoperation Bridge**.)
+- **Telekin DD work** — Lunar Ventures pipeline; specific company doing teleoperation for industrial/extreme environments. (Tracked in the Earth-robotics thesis **Teleoperation Bridge**.)
 - **Stan Boland conversations** — Wayve founder, autonomous systems lineage. Relevance: foundation-model-based driving stacks may port to teleop.
 - **Wayve latency adaptation** — open question, worth a direct conversation.
 - **Global Foundries lunar-grade silicon** — does GF have a rad-hard process? Worth asking the LP.

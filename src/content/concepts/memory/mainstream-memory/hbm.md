@@ -60,8 +60,8 @@ public_expressions:
 - 000660.KS
 - 005930.KS
 - MU
-mention_count: 72
-sources_7d: 2
+mention_count: 75
+sources_7d: 3
 sources_30d: 15
 recent_mentions:
 - slug: 2026-07-31-etched-research-sprint

@@ -14,6 +14,7 @@ sources:
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
+- '[[2026-06-16-coherent-signs-loi-for-up-to-50m-chips-act-grant-to-expand-t]]'
 - '[[2026-03-30-photonics-material-class-war-silicon-photonics-and-photonic]]'
 frontier:
 - ''
@@ -21,11 +22,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - material
-mention_count: 16
+mention_count: 17
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-06-16-coherent-signs-loi-for-up-to-50m-chips-act-grant-to-expand-t
+  title: Coherent signs LOI for up to $50M CHIPS Act grant to expand Texas indium phosphide fab - Dealroom
+  date: '2026-06-16'
+  kind: web
 - slug: 2026-03-30-photonics-material-class-war-silicon-photonics-and-photonic
   title: 'Silicon Photonics and Photonic Integrated Circuits 2026-2036: Technologies, Markets, and Forecasts'
   date: '2026-03-30'

@@ -29,7 +29,7 @@ tags:
 - electro-optic
 mention_count: 18
 last_reorg_date: '2026-05-13'
-sources_7d: 1
+sources_7d: 0
 sources_30d: 4
 recent_mentions: []
 neighbors:

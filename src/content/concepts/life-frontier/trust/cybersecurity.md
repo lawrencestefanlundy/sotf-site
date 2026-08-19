@@ -26,7 +26,7 @@ tags:
 - technology
 mention_count: 106
 last_reorg_date: '2026-05-13'
-sources_7d: 25
+sources_7d: 2
 sources_30d: 55
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026

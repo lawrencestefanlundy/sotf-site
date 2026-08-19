@@ -27,7 +27,7 @@ tags:
 mention_count: 62
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 1
+sources_7d: 0
 sources_30d: 6
 recent_mentions:
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre

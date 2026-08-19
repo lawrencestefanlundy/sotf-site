@@ -39,12 +39,12 @@ tags:
 - analog-computing
 - in-memory-computing
 - semron
-mention_count: 26
+mention_count: 29
 last_reorg_date: '2026-05-14'
 descendants:
 - capram
-sources_7d: 0
-sources_30d: 3
+sources_7d: 2
+sources_30d: 5
 recent_mentions:
 - slug: 2026-07-31-positron-research-sprint
   title: 'Positron AI research sprint: architecture, funding, customers, manufacturing'

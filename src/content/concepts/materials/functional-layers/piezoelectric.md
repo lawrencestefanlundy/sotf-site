@@ -16,9 +16,9 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 55
+mention_count: 56
 last_reorg_date: '2026-05-13'
-sources_7d: 4
+sources_7d: 2
 sources_30d: 19
 recent_mentions:
 - slug: 2023-08-25-e12-nanomechanical-computing-gears

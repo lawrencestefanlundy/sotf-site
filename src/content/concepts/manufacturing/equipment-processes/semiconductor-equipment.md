@@ -26,7 +26,7 @@ descendants:
 - probe-cards
 - wafer-level-burn-in
 last_reorg_date: '2026-05-13'
-sources_7d: 1
+sources_7d: 0
 sources_30d: 1
 recent_mentions:
 - slug: 2026-08-13-how-the-chips-act-changed-binghamton-and-upstate-new-york---

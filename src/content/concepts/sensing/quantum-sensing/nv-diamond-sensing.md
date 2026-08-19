@@ -20,10 +20,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 78
+mention_count: 79
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 5
+sources_7d: 3
 sources_30d: 31
 recent_mentions:
 - slug: 2026-05-02-high-sensitivity-nv-diamond-resonator-comm-materials-2025

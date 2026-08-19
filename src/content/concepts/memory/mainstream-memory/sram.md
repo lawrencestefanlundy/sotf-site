@@ -29,6 +29,7 @@ sources:
 - '[[2026-05-13-semianalysis-cerebras-faster-tokens]]'
 - '[[2026-06-03-tendrils-compute]]'
 - '[[2026-04-15-semianalysis-isscc-2026]]'
+- '[[2026-08-14-chip-tail-verification-sweep]]'
 - '[[2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology]]'
 frontier:
 - ''
@@ -36,11 +37,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 92
+mention_count: 94
 last_reorg_date: '2026-05-14'
-sources_7d: 1
-sources_30d: 18
+sources_7d: 2
+sources_30d: 19
 recent_mentions:
+- slug: 2026-08-14-chip-tail-verification-sweep
+  title: 'Chip-comparison tail verification sweep: 37 companies re-verified, consolidation wave confirmed'
+  date: '2026-08-14'
+  kind: web
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
@@ -68,10 +73,6 @@ recent_mentions:
 - slug: 2026-07-10-inference-silicon-deep-research
   title: 'Deep research: measured vs claimed inference-silicon economics (adversarially verified, 23/25 claims confirmed)'
   date: '2026-07-10'
-  kind: web
-- slug: 2026-07-07-high-bandwidth-flash-the-full-report
-  title: 'High Bandwidth Flash: The Full Report'
-  date: '2026-07-07'
   kind: web
 neighbors: []
 ---

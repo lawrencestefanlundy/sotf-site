@@ -26,8 +26,8 @@ tags:
 sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-04-16-the-state-of-photonic-computing]]'
-mention_count: 243
-sources_7d: 3
+mention_count: 247
+sources_7d: 2
 sources_30d: 23
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026

@@ -20,7 +20,7 @@ tags:
 mention_count: 4
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 2
+sources_30d: 1
 recent_mentions:
 - slug: 2023-05-24-launching-state-of-the-future
   title: '💡 E01: Launching State of the Future: The Worlds First Deep Tech Tracker'

@@ -14,19 +14,17 @@ sources:
 - '[[2015-12-14-darpa-sbir-injectable-diagnostics-chemical-sensors-synthetic]]'
 - '[[2022-01-13-ucf-researcher-leads-15-million-darpa-project-to-improve-nig]]'
 - '[[2026-08-03-spad-single-photon-market-scan]]'
-- '[[2026-06-04-asg-biosensor-host-cell-protein-bioprocess]]'
-- '[[2026-01-13-chip-scale-bio-instrumentation-point-of-care-diagnostics]]'
 frontier:
 - ''
 last_updated: '2026-05-07'
 tags:
 - concept
 - category
-mention_count: 107
+mention_count: 109
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 5
-sources_30d: 33
+sources_7d: 4
+sources_30d: 34
 recent_mentions:
 - slug: 2026-08-03-spad-single-photon-market-scan
   title: SPAD / single-photon detector market scan — incumbent structure and company cohort

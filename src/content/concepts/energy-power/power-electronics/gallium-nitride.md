@@ -36,7 +36,7 @@ descendants:
 - aluminium-gallium-nitride
 - indium-gallium-nitride
 mention_count: 28
-sources_7d: 1
+sources_7d: 0
 sources_30d: 5
 recent_mentions:
 - slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint

@@ -31,7 +31,7 @@ mention_count: 11
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 3
+sources_30d: 2
 recent_mentions:
 - slug: 2026-06-22-tim-approaches-full-sweep
   title: TIM approaches — exhaustive in-market + R&D sweep (vendors, classes, startups)

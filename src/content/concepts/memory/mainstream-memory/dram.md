@@ -24,8 +24,8 @@ tags:
 - technology
 mention_count: 170
 last_reorg_date: '2026-05-14'
-sources_7d: 2
-sources_30d: 28
+sources_7d: 1
+sources_30d: 23
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
@@ -35,14 +35,14 @@ recent_mentions:
   title: 'Positron AI research sprint: architecture, funding, customers, manufacturing'
   date: '2026-07-31'
   kind: web
-- slug: 2026-07-27-cxmt-star-market-debut
-  title: CXMT's 466% STAR Market debut makes it China's most valuable mainland-listed company
-  date: '2026-07-27'
-  kind: web
 - slug: 2026-07-27-arxiv-dynamic-rowhammer-threshold-managementtemperature-aware-thre
   title: Dynamic Rowhammer Threshold Management:Temperature-Aware Threshold Degradation for In-DRAM Defenses
   date: '2026-07-27'
   kind: paper
+- slug: 2026-07-27-cxmt-star-market-debut
+  title: CXMT's 466% STAR Market debut makes it China's most valuable mainland-listed company
+  date: '2026-07-27'
+  kind: web
 - slug: 2026-07-25-thoughts-on-ai-and-power
   title: Thoughts on AI and power
   date: '2026-07-25'

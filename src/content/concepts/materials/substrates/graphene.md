@@ -20,10 +20,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 273
+mention_count: 277
 last_reorg_date: '2026-05-13'
-sources_7d: 3
-sources_30d: 36
+sources_7d: 1
+sources_30d: 31
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)

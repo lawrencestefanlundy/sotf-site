@@ -16,10 +16,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - material
-mention_count: 14
+mention_count: 15
 last_reorg_date: '2026-05-14'
 sources_7d: 1
-sources_30d: 7
+sources_30d: 8
 recent_mentions:
 - slug: 2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth
   title: '🔮E14: The Real AI Bottleneck: High Bandwidth Memory (HBM)'

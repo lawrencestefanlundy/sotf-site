@@ -34,7 +34,7 @@ tags:
 mention_count: 337
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 6
+sources_30d: 4
 recent_mentions:
 - slug: 2026-08-11-nasa-completes-astronaut-deployed-science-instrument-for-lun
   title: NASA Completes Astronaut-Deployed Science Instrument for Lunar Surface

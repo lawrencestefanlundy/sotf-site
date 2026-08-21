@@ -56,11 +56,11 @@ last_updated: '2026-06-02'
 tags:
 - concept
 - technology
-mention_count: 1331
+mention_count: 1335
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 1
-sources_30d: 4
+sources_30d: 3
 recent_mentions:
 - slug: 2026-08-13-rochester-region-sees-semiconductor-growth-from-chips-act-in
   title: Rochester region sees semiconductor growth from CHIPS Act investments - Rochester Business Journal

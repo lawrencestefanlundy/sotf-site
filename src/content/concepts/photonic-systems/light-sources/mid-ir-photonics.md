@@ -32,8 +32,8 @@ last_updated: 2026-06-02
 tags:
 - concept
 mention_count: 115
-sources_7d: 3
-sources_30d: 18
+sources_7d: 1
+sources_30d: 10
 recent_mentions:
 - slug: 2026-06-17-single-photon-detector-market-spad-snspd
   title: Single-photon detector market aggregation — SPAD, SiPM, SNSPD (2024–2035)

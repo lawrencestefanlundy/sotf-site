@@ -19,7 +19,7 @@ tags:
 mention_count: 4
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2025-02-20-the-promise-and-perils-of-sodium-ion-batteries---latitude-me
   title: The promise and perils of sodium-ion batteries - Latitude Media

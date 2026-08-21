@@ -44,7 +44,7 @@ last_reorg_date: '2026-05-14'
 descendants:
 - capram
 sources_7d: 2
-sources_30d: 5
+sources_30d: 4
 recent_mentions:
 - slug: 2026-07-31-positron-research-sprint
   title: 'Positron AI research sprint: architecture, funding, customers, manufacturing'

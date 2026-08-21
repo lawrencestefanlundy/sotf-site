@@ -13,18 +13,17 @@ sources:
 - '[[2023-07-14-e08-optical-computing]]'
 - '[[2015-12-14-darpa-sbir-injectable-diagnostics-chemical-sensors-synthetic]]'
 - '[[2022-01-13-ucf-researcher-leads-15-million-darpa-project-to-improve-nig]]'
-- '[[2026-08-03-spad-single-photon-market-scan]]'
 frontier:
 - ''
 last_updated: '2026-05-07'
 tags:
 - concept
 - category
-mention_count: 109
+mention_count: 110
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 4
-sources_30d: 34
+sources_7d: 3
+sources_30d: 24
 recent_mentions:
 - slug: 2026-08-03-spad-single-photon-market-scan
   title: SPAD / single-photon detector market scan — incumbent structure and company cohort

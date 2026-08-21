@@ -22,7 +22,15 @@ mention_count: 20
 last_reorg_date: '2026-05-14'
 sources_7d: 2
 sources_30d: 3
-recent_mentions: []
+recent_mentions:
+- slug: 2026-02-02-photonic-engines-for-data-centers
+  title: Photonic "Engines" for Data Centers
+  date: '2026-02-02'
+  kind: substack
+- slug: 2025-04-16-the-state-of-photonic-computing
+  title: 'Photonic Computing: A Primer'
+  date: '2025-04-16'
+  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

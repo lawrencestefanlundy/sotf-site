@@ -24,17 +24,9 @@ last_updated: '2026-06-16'
 tags:
 - concept
 mention_count: 9
-sources_7d: 2
+sources_7d: 0
 sources_30d: 2
-recent_mentions:
-- slug: 2026-01-22-ai-chips-computeram-and-the-future
-  title: 'AI Chips, ComputeRAM and the Future of Data Movement: A Conversation with Manu, Founder of Synthara'
-  date: '2026-01-22'
-  kind: substack
-- slug: 2025-02-12-wen-babelfish-feat-aron-of-semron
-  title: 'Edge AI: Analog Chips (feat. Aron Kirschen, SEMRON)'
-  date: '2025-02-12'
-  kind: substack
+recent_mentions: []
 neighbors:
 - slug: in-memory-computing
   name: In-Memory Computing

@@ -20,8 +20,8 @@ last_updated: 2026-06-03
 tags:
 - concept
 mention_count: 121
-sources_7d: 1
-sources_30d: 29
+sources_7d: 0
+sources_30d: 25
 recent_mentions:
 - slug: 2025-12-09-gallium-nitride-photonics-w-james
   title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics

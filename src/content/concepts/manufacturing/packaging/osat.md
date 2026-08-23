@@ -50,7 +50,7 @@ tags:
 - supply-chain
 mention_count: 97
 sources_7d: 0
-sources_30d: 20
+sources_30d: 17
 recent_mentions:
 - slug: 2026-07-27-cxmt-star-market-debut
   title: CXMT's 466% STAR Market debut makes it China's most valuable mainland-listed company

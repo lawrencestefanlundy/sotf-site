@@ -24,7 +24,7 @@ tags:
 - concept
 mention_count: 22
 sources_7d: 0
-sources_30d: 6
+sources_30d: 5
 recent_mentions: []
 neighbors:
 - slug: indium-antimonide

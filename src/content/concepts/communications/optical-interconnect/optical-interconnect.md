@@ -45,8 +45,8 @@ descendants:
 - optical-packet-switching
 - pluggable-transceivers
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 9
+sources_7d: 0
+sources_30d: 7
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)

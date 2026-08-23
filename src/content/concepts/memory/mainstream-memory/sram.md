@@ -39,8 +39,8 @@ tags:
 - technology
 mention_count: 94
 last_reorg_date: '2026-05-14'
-sources_7d: 2
-sources_30d: 15
+sources_7d: 0
+sources_30d: 13
 recent_mentions:
 - slug: 2026-08-14-chip-tail-verification-sweep
   title: 'Chip-comparison tail verification sweep: 37 companies re-verified, consolidation wave confirmed'

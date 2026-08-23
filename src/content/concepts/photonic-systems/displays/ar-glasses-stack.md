@@ -35,7 +35,7 @@ sources:
 - '[[2026-05-21-semianalysis-eda-market-primer]]'
 mention_count: 19
 sources_7d: 0
-sources_30d: 3
+sources_30d: 1
 recent_mentions:
 - slug: 2026-05-21-semianalysis-eda-market-primer
   title: EDA Market Primer - Market Dynamics, Cadence, Synopsys, Siemens, China EDA Rise

@@ -56,7 +56,7 @@ descendants:
 - timing-clock-generation
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 3
+sources_30d: 2
 recent_mentions:
 - slug: 2026-08-05-spooky-particles-transit-dc-suburbs-a-step-toward-a-quantum-
   title: ‘Spooky’ Particles Transit DC Suburbs, a Step Toward a Quantum Network

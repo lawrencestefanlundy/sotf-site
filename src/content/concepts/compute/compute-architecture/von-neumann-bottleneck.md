@@ -21,7 +21,7 @@ last_updated: '2026-06-16'
 tags:
 - concept
 mention_count: 5
-sources_7d: 1
+sources_7d: 0
 sources_30d: 1
 recent_mentions:
 - slug: 2024-10-22-state-of-the-future-part-deux

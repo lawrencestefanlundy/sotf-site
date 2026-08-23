@@ -23,7 +23,7 @@ mention_count: 13
 descendants: []
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 2
+sources_30d: 1
 recent_mentions:
 - slug: 2025-03-04-doe-funds-uk-research-on-critical-materials-for-commercial-f
   title: DOE funds UK research on critical materials for commercial fusion energy - UKNow

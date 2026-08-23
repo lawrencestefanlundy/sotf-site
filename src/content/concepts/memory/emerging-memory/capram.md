@@ -35,9 +35,41 @@ tags:
 - memcapacitor
 - product-brand
 mention_count: 51
-sources_7d: 3
-sources_30d: 10
-recent_mentions: []
+sources_7d: 0
+sources_30d: 8
+recent_mentions:
+- slug: 2026-07-31-positron-research-sprint
+  title: 'Positron AI research sprint: architecture, funding, customers, manufacturing'
+  date: '2026-07-31'
+  kind: web
+- slug: 2026-07-17-the-once-and-future-kimi
+  title: The Once and Future Kimi
+  date: '2026-07-17'
+  kind: substack
+- slug: 2026-07-10-inference-silicon-deep-research
+  title: 'Deep research: measured vs claimed inference-silicon economics (adversarially verified, 23/25 claims confirmed)'
+  date: '2026-07-10'
+  kind: web
+- slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
+  title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
+  date: '2026-07-02'
+  kind: web
+- slug: 2026-06-16-cim-landscape-2026
+  title: 'Compute-in-memory landscape 2026: efficiency claims, the digital-readout shift, IDM PIM'
+  date: '2026-06-16'
+  kind: web
+- slug: 2025-09-23-the-compute-gradient
+  title: The Compute Gradient
+  date: '2025-09-23'
+  kind: substack
+- slug: 2025-02-12-wen-babelfish-feat-aron-of-semron
+  title: 'Edge AI: Analog Chips (feat. Aron Kirschen, SEMRON)'
+  date: '2025-02-12'
+  kind: substack
+- slug: 2023-07-23-analog-computing-the-once-and-future
+  title: '🔮 E09: Analog Computing: The Once and Future King'
+  date: '2023-07-23'
+  kind: substack
 neighbors:
 - slug: memcapacitor
   name: Memcapacitor

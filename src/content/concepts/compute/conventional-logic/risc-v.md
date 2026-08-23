@@ -32,8 +32,8 @@ tags:
 - technology
 mention_count: 95
 last_reorg_date: '2026-05-14'
-sources_7d: 1
-sources_30d: 21
+sources_7d: 0
+sources_30d: 17
 recent_mentions:
 - slug: 2026-07-17-the-once-and-future-kimi
   title: The Once and Future Kimi

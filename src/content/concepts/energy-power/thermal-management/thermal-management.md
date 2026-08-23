@@ -38,7 +38,7 @@ mention_count: 96
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 1
-sources_30d: 12
+sources_30d: 11
 recent_mentions:
 - slug: 2025-04-30-has-the-time-come-to-take-mortal
   title: Has the time come to take Mortal Computing seriously?

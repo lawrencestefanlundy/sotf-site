@@ -26,7 +26,7 @@ last_updated: '2026-06-02'
 tags:
 - concept
 mention_count: 147
-sources_7d: 1
+sources_7d: 0
 sources_30d: 26
 recent_mentions:
 - slug: 2025-26-lapedus-next-gen-ferroelectric-memory

@@ -29,7 +29,7 @@ descendants:
 - external-laser-source
 - laser-display-light-engines
 sources_7d: 0
-sources_30d: 12
+sources_30d: 11
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'

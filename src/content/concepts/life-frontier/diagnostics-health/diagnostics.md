@@ -22,8 +22,8 @@ tags:
 mention_count: 110
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 23
+sources_7d: 0
+sources_30d: 22
 recent_mentions:
 - slug: 2026-08-03-spad-single-photon-market-scan
   title: SPAD / single-photon detector market scan — incumbent structure and company cohort

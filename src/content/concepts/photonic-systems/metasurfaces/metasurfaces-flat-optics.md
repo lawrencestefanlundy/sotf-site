@@ -31,7 +31,7 @@ tags:
 - technology
 mention_count: 128
 last_reorg_date: '2026-05-13'
-sources_7d: 2
+sources_7d: 0
 sources_30d: 26
 recent_mentions:
 - slug: 2026-07-21-robotically-assembled-electromagnetic-metamaterials-for-long

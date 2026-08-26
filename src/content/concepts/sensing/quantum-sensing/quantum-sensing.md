@@ -26,7 +26,7 @@ descendants:
 - quantum-sensing
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 32
+sources_30d: 30
 recent_mentions:
 - slug: 2026-07-21-precision-astrometry-using-optically-independent-spacecraft-
   title: Precision Astrometry Using Optically Independent Spacecraft for Graviational Wave Detection

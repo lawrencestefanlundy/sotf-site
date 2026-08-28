@@ -21,7 +21,7 @@ tags:
 mention_count: 9
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-06-15-pic-market-structure-2030-cpo-npo-market-expected-to-exceed
   title: CPO/NPO Market Expected to Exceed US$39 Billion by 2030

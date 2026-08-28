@@ -20,7 +20,7 @@ tags:
 mention_count: 13
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 3
+sources_30d: 0
 recent_mentions:
 - slug: 2024-12-04-cubits-in-a-fridge-why-is-nobody
   title: Silicon Spin Quantum Computing (Feat. Himadri Majumdar, SemiQon)

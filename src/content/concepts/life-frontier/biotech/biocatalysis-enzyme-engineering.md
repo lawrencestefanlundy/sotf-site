@@ -33,7 +33,7 @@ tags:
 - markets
 mention_count: 9
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-06-04-droplet-microfluidics-directed-evolution-throughput
   title: High-throughput droplet-based microfluidics for directed evolution of enzymes

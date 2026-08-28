@@ -28,7 +28,7 @@ sources:
 - '[[2025-04-16-the-state-of-photonic-computing]]'
 mention_count: 247
 sources_7d: 0
-sources_30d: 16
+sources_30d: 13
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'

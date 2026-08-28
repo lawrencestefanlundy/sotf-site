@@ -37,27 +37,7 @@ tags:
 mention_count: 51
 sources_7d: 0
 sources_30d: 8
-recent_mentions:
-- slug: 2026-07-17-the-once-and-future-kimi
-  title: The Once and Future Kimi
-  date: '2026-07-17'
-  kind: substack
-- slug: 2025-09-23-the-compute-gradient
-  title: The Compute Gradient
-  date: '2025-09-23'
-  kind: substack
-- slug: 2025-02-12-wen-babelfish-feat-aron-of-semron
-  title: 'Edge AI: Analog Chips (feat. Aron Kirschen, SEMRON)'
-  date: '2025-02-12'
-  kind: substack
-- slug: 2023-07-23-analog-computing-the-once-and-future
-  title: '🔮 E09: Analog Computing: The Once and Future King'
-  date: '2023-07-23'
-  kind: substack
-- slug: 2023-06-23-e05-the-future-of-edge-ai-brain-inspired
-  title: '🔮 E05: Neuromorphic Computing & The Future of Edge AI'
-  date: '2023-06-23'
-  kind: substack
+recent_mentions: []
 neighbors:
 - slug: memcapacitor
   name: Memcapacitor

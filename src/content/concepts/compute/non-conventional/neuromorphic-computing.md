@@ -29,7 +29,7 @@ last_reorg_date: '2026-05-14'
 descendants:
 - spiking-neural-networks
 sources_7d: 0
-sources_30d: 13
+sources_30d: 10
 recent_mentions:
 - slug: 2026-07-31-inference-silicon-roster-sprint
   title: 'Inference-silicon roster verification sprint: 10 companies for the competitive-analysis capital map'

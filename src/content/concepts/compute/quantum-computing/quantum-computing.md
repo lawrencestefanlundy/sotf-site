@@ -50,7 +50,7 @@ descendants:
 - trapped-ion
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 17
+sources_30d: 15
 recent_mentions:
 - slug: 2026-08-13-infleqtion-reports-q2-2026-results-record-revenue-up-116-yoy
   title: 'Infleqtion Reports Q2 2026 Results: Record Revenue Up 116% YoY, Raised Guidance to $43M, and $100M CHIPS Act LOI - Quantum Computing Report'

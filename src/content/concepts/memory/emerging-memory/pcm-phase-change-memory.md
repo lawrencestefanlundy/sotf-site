@@ -22,7 +22,7 @@ tags:
 mention_count: 9
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-06-04-q-memory-site
   title: Q-Memory — company website (q-memory.tech)

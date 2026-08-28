@@ -41,7 +41,7 @@ descendants:
 - sram-cim
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 8
+sources_30d: 5
 recent_mentions:
 - slug: 2026-08-12-snapdragon-ar1-sensing-hub-micro-npu
   title: Snapdragon AR1 Gen 1 Platform Product Brief — Sensing Hub with Micro NPU for audio and sensors

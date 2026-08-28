@@ -34,7 +34,7 @@ descendants:
 - silicon-carbide
 mention_count: 17
 sources_7d: 0
-sources_30d: 5
+sources_30d: 4
 recent_mentions:
 - slug: 2017-10-10-arpa-e-funds-projects-using-wide-bandgap-semiconductors-for-
   title: ARPA-E Funds Projects Using Wide Bandgap Semiconductors for Power Conversion - Electronic Design

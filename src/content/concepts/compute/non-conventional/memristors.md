@@ -19,7 +19,7 @@ tags:
 mention_count: 15
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 6
+sources_30d: 5
 recent_mentions:
 - slug: 2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth
   title: '🔮E14: The Real AI Bottleneck: High Bandwidth Memory (HBM)'

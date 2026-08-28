@@ -38,8 +38,24 @@ mention_count: 96
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 9
-recent_mentions: []
+sources_30d: 8
+recent_mentions:
+- slug: 2025-04-30-has-the-time-come-to-take-mortal
+  title: Has the time come to take Mortal Computing seriously?
+  date: '2025-04-30'
+  kind: substack
+- slug: 2025-04-16-the-state-of-photonic-computing
+  title: 'Photonic Computing: A Primer'
+  date: '2025-04-16'
+  kind: substack
+- slug: 2024-10-22-state-of-the-future-part-deux
+  title: 'An AI Thesis: State of the Future! Part Deux'
+  date: '2024-10-22'
+  kind: substack
+- slug: 2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth
+  title: '🔮E14: The Real AI Bottleneck: High Bandwidth Memory (HBM)'
+  date: '2023-09-08'
+  kind: substack
 neighbors:
 - slug: thermal-stack-map
   name: AI Thermal Stack Map (junction-to-ambient)

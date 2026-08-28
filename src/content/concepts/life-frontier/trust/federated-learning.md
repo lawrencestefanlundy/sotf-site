@@ -32,7 +32,7 @@ tags:
 mention_count: 30
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 6
+sources_30d: 5
 recent_mentions:
 - slug: 2025-10-09-a-specific-theory-of-sovereign-ai
   title: A Specific Theory of Sovereign AI

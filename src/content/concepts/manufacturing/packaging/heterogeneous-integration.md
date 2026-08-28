@@ -34,7 +34,7 @@ tags:
 - concept
 mention_count: 67
 sources_7d: 0
-sources_30d: 12
+sources_30d: 11
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)

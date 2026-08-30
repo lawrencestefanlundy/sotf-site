@@ -129,6 +129,16 @@ h3 {
 /* ── main + body content ─────────────────────────────────────── */
 main { padding-top: 1.5rem; padding-bottom: 4rem; }
 
+/* Prose measure: uncapped, 17px body text runs ~150 characters per line on the
+   1360px container. Cap reading content at a broadsheet measure; listing grids
+   (cards, atlas, search) are untouched. */
+article,
+.frontier-list,
+.related-list,
+.recent-mentions {
+  max-width: 72ch;
+}
+
 article p, article ul, article ol {
   font-size: 17px;
   line-height: 1.65;

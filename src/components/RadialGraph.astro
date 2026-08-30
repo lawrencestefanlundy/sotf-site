@@ -52,7 +52,7 @@ function pointOnRing(i: number): { x: number; y: number; angle: number } {
 
 {visible.length > 0 && (
   <figure class="radial-graph">
-    <svg viewBox="0 0 440 400" role="img" aria-label={`Concept neighborhood for ${centre}`}>
+    <svg viewBox="-40 0 520 400" role="img" aria-label={`Concept neighborhood for ${centre}`}>
       {/* Spokes — drawn first so they sit under the nodes */}
       {visible.map((_, i) => {
         const p = pointOnRing(i);
@@ -68,11 +68,13 @@ function pointOnRing(i: number): { x: number; y: number; angle: number } {
         const ly = cy + (r + labelOffset) * Math.sin(p.angle);
         const anchor = Math.cos(p.angle) < -0.3 ? "end" : Math.cos(p.angle) > 0.3 ? "start" : "middle";
         const baseline = Math.sin(p.angle) > 0.5 ? "hanging" : Math.sin(p.angle) < -0.5 ? "auto" : "middle";
+        const label = node.name.length > 20 ? node.name.slice(0, 19) + "…" : node.name;
         return (
           <a href={node.path}>
             <circle cx={p.x} cy={p.y} r={nodeR} fill={MACRO_FILLS[node.macro] ?? "#334155"} />
             <text x={lx} y={ly} text-anchor={anchor} dominant-baseline={baseline}>
-              {node.name}
+              <title>{node.name}</title>
+              {label}
             </text>
           </a>
         );
@@ -81,7 +83,7 @@ function pointOnRing(i: number): { x: number; y: number; angle: number } {
       {/* Centre node — current concept */}
       <circle cx={cx} cy={cy} r={centreR} fill="#073429" />
       <text x={cx} y={cy} text-anchor="middle" dominant-baseline="middle" class="centre-label">
-        {centre.length > 12 ? centre.slice(0, 11) + "…" : centre}
+        {centre.length > 10 ? centre.slice(0, 9) + "…" : centre}
       </text>
     </svg>
     {neighbors.length > visible.length && (
@@ -104,7 +106,9 @@ function pointOnRing(i: number): { x: number; y: number; angle: number } {
   .radial-graph svg {
     display: block;
     margin: 0 auto;
-    max-width: 100%;
+    /* Unbounded, the SVG scales to the full content column (~1200px), blowing the
+       10px labels up to ~27px and pushing the article a full viewport down. */
+    max-width: min(100%, 560px);
     height: auto;
   }
   .radial-graph svg text {

@@ -40,14 +40,37 @@ python3 "$SITE_DIR/scripts/publish_kb.py" >> "$LOG_FILE" 2>&1
 # Step 2: stage + commit (only if there are real changes; git commit
 #   --allow-empty=NO will exit 1 if nothing to commit — we treat that as success).
 cd "$SITE_DIR"
+
+# Push with retry: launchd at 07:30 sometimes runs before DNS/network is up
+# ("Could not resolve host: github.com" — 10 failures, 19-28 Aug 2026, which left
+# the live site 11 days stale). 3 attempts, 60s apart; a final failure is loud.
+push_with_retry() {
+  local attempt
+  for attempt in 1 2 3; do
+    if git push -q >> "$LOG_FILE" 2>&1; then
+      return 0
+    fi
+    echo "push attempt $attempt failed; retrying in 60s" >> "$LOG_FILE"
+    sleep 60
+  done
+  echo "PUSH FAILED after 3 attempts — site NOT deployed; commits remain local" >> "$LOG_FILE"
+  return 1
+}
+
 git add src/content/concepts >> "$LOG_FILE" 2>&1
 
 if git diff --cached --quiet; then
-  echo "No changes since last publish — skipping commit + push." >> "$LOG_FILE"
+  # Even with no new content, catch up any commits stranded by earlier push failures.
+  if [ -n "$(git log --oneline @{u}..HEAD 2>/dev/null)" ]; then
+    echo "No new changes, but unpushed commits found — pushing backlog." >> "$LOG_FILE"
+    push_with_retry
+  else
+    echo "No changes since last publish — skipping commit + push." >> "$LOG_FILE"
+  fi
   exit 0
 fi
 
 today=$(date '+%Y-%m-%d')
 git commit -q -m "Nightly KB publish — $today" >> "$LOG_FILE" 2>&1
-git push -q >> "$LOG_FILE" 2>&1
+push_with_retry
 echo "Pushed snapshot. GitHub Action will rebuild + redeploy." >> "$LOG_FILE"

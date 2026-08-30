@@ -12,8 +12,7 @@ sources:
 - '[[2023-07-27-e10-pushing-moores-law-to-the-limit]]'
 - '[[2025-12-19-lfg-for-semiconductors]]'
 - '[[2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

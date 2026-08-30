@@ -11,8 +11,7 @@ related_concepts: []
 sources:
 - '[[2023-07-27-e10-pushing-moores-law-to-the-limit]]'
 - '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

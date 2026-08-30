@@ -12,8 +12,7 @@ sources:
 - '[[2025-02-25-data-driven-vc-is-over]]'
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2025-04-30-has-the-time-come-to-take-mortal]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

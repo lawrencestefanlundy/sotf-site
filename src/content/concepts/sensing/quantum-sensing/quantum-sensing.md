@@ -10,8 +10,7 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2024-12-16-willow-and-the-race-to-quantum-advantage]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
@@ -26,7 +25,7 @@ descendants:
 - quantum-sensing
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 24
+sources_30d: 18
 recent_mentions:
 - slug: 2026-07-21-precision-astrometry-using-optically-independent-spacecraft-
   title: Precision Astrometry Using Optically Independent Spacecraft for Graviational Wave Detection

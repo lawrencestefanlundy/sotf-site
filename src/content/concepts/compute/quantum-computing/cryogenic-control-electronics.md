@@ -10,8 +10,7 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

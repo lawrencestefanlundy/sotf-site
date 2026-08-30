@@ -19,8 +19,7 @@ sources:
 - '[[2024-12-16-willow-and-the-race-to-quantum-advantage]]'
 - '[[2024-12-04-cubits-in-a-fridge-why-is-nobody]]'
 - '[[2023-05-31-three-underrated-technologies-from]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-06-17'
 tags:
 - concept
@@ -28,7 +27,7 @@ tags:
 mention_count: 313
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 9
+sources_30d: 8
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)

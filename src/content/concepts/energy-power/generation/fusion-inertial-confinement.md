@@ -10,8 +10,7 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2024-11-20-nuclear-fusion-the-state-of-play]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

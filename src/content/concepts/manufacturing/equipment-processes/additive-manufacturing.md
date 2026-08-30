@@ -18,8 +18,7 @@ sources:
 - '[[2020-12-17-university-additive-manufacturing-spin-out-secures-12m-innov]]'
 - '[[2025-08-18-nist-awards-over-18-million-to-small-businesses-advancing-ai]]'
 - '[[2024-09-11-bis-imposes-new-export-controls-on-quantum-semiconductor-and]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

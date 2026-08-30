@@ -18,8 +18,7 @@ sources:
 - '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
 - '[[2023-08-25-e12-nanomechanical-computing-gears]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
@@ -34,7 +33,7 @@ descendants:
 - near-field-rf-coupling
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 2
+sources_30d: 1
 recent_mentions:
 - slug: 2025-02-12-wen-babelfish-feat-aron-of-semron
   title: 'Edge AI: Analog Chips (feat. Aron Kirschen, SEMRON)'

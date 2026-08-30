@@ -30,9 +30,9 @@ frontier:
 last_updated: 2026-06-02
 tags:
 - concept
-mention_count: 51
+mention_count: 52
 sources_7d: 0
-sources_30d: 9
+sources_30d: 7
 recent_mentions:
 - slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint
   title: 'What actually limits a humanoid to minutes: the thermal cliff, not the battery'

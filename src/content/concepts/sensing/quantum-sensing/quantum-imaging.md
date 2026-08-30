@@ -9,8 +9,7 @@ parent_concepts:
 - quantum-sensing
 related_concepts: []
 sources: []
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
@@ -18,7 +17,7 @@ tags:
 mention_count: 14
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 4
+sources_30d: 3
 recent_mentions: []
 neighbors: []
 ---

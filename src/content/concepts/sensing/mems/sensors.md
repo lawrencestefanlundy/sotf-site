@@ -25,8 +25,7 @@ sources:
 - '[[2025-04-30-has-the-time-come-to-take-mortal]]'
 - '[[2023-08-25-e12-nanomechanical-computing-gears]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

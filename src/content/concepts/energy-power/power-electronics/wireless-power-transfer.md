@@ -10,8 +10,7 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2024-10-29-deploy-intelligence-too-cheap-to]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

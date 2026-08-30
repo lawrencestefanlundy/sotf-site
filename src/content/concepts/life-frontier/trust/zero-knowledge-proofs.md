@@ -16,8 +16,7 @@ sources:
 - '[[2023-10-13-e19-trusted-execution-environments]]'
 - '[[2023-07-06-e07-decentralised-ai]]'
 - '[[2023-05-05-interview-rick-hao-partner-at-speedinvest]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

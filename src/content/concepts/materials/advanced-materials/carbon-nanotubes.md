@@ -15,8 +15,7 @@ sources:
 - '[[2025-04-30-has-the-time-come-to-take-mortal]]'
 - '[[2025-08-19-thermal-stack-arms-race-thermal-interface-materials-market]]'
 - '[[2026-06-17-nawah-vacnt-technology]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

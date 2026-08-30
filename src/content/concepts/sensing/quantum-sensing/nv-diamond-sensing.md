@@ -14,17 +14,16 @@ sources:
 - '[[2024-12-16-willow-and-the-race-to-quantum-advantage]]'
 - '[[2026-05-02-high-sensitivity-nv-diamond-resonator-comm-materials-2025]]'
 - '[[2026-03-08-diamonds-are-semiconductors-best-friend]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 79
+mention_count: 80
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 17
+sources_30d: 14
 recent_mentions:
 - slug: 2026-05-02-high-sensitivity-nv-diamond-resonator-comm-materials-2025
   title: High-sensitivity NV diamond resonator (Comm. Materials 2025)

@@ -18,8 +18,7 @@ sources:
 - '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
 - '[[2026-03-28-agentic-ai-security-funding-mna]]'
 - '[[2026-05-29-silicon-shock-the-macro-of-tech-inflation]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
@@ -27,7 +26,7 @@ tags:
 mention_count: 107
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 39
+sources_30d: 34
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)

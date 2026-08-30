@@ -10,8 +10,7 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2026-07-11-neutral-pdk-heterogeneous-integration-landscape]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

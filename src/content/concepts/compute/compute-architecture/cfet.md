@@ -12,8 +12,7 @@ sources:
 - '[[2026-06-22-beyond-cmos-device-layer-research]]'
 - '[[2026-01-13-semianalysis-interconnects-beyond-copper]]'
 - '[[2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

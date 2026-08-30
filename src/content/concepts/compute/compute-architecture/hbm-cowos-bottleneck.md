@@ -30,7 +30,7 @@ tags:
 - hbm
 mention_count: 6
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-04-26-litho-tool-supply-bottleneck-ai-semiconductor-supply-chain
   title: 'AI Semiconductor Supply Chain: The Bottleneck Has Shifted'

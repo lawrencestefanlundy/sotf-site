@@ -19,8 +19,7 @@ sources:
 - '[[2024-omdia-power-electronics-forecast]]'
 - '[[2026-02-19-the-rise-of-grid-power-electronics-with-drew-baglino---latit]]'
 - '[[2026-07-26-humanoid-duty-cycle-thermal-constraint]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
@@ -40,7 +39,7 @@ descendants:
 - solid-state-circuit-breakers
 - wireless-power-transfer
 sources_7d: 0
-sources_30d: 6
+sources_30d: 5
 recent_mentions:
 - slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint
   title: 'What actually limits a humanoid to minutes: the thermal cliff, not the battery'

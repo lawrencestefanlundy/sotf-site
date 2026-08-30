@@ -17,8 +17,7 @@ sources:
 - '[[2025-06-26-arpa-e-winning-thermal-energy-storage-in-sand-wins-commercia]]'
 - '[[2025-09-01-uh-researcher-joins-project-to-transform-energy-storage---un]]'
 - '[[2025-12-29-the-unexpected-clean-energy-winner-of-2025-energy-storage---]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-07'
 tags:
 - concept
@@ -27,7 +26,7 @@ mention_count: 101
 last_reorg_date: '2026-05-14'
 descendants: []
 sources_7d: 0
-sources_30d: 6
+sources_30d: 5
 recent_mentions:
 - slug: 2026-05-08-nasa-fuel-cell-tests-pave-way-for-energy-storage-on-moon
   title: NASA Fuel Cell Tests Pave Way for Energy Storage on Moon

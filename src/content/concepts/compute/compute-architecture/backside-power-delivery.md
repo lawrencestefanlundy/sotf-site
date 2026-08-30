@@ -11,8 +11,7 @@ related_concepts: []
 sources:
 - '[[2025-12-19-lfg-for-semiconductors]]'
 - '[[2026-06-22-thermal-stack-layer-landscape]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

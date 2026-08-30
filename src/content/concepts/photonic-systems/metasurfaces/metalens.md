@@ -33,7 +33,7 @@ tags:
 - metalens
 - meta-optics
 - photonics
-mention_count: 40
+mention_count: 41
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 3

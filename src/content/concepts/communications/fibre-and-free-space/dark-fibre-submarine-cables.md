@@ -9,8 +9,7 @@ parent_concepts:
 - fibre-and-free-space
 related_concepts: []
 sources: []
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

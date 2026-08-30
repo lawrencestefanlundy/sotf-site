@@ -22,16 +22,15 @@ sources:
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2023-04-05-interview-stijn-christiaens-ceo-of]]'
 - '[[2023-05-05-interview-rick-hao-partner-at-speedinvest]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 45
+mention_count: 46
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 9
+sources_30d: 6
 recent_mentions:
 - slug: 2025-10-09-a-specific-theory-of-sovereign-ai
   title: A Specific Theory of Sovereign AI

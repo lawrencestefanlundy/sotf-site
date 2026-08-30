@@ -33,8 +33,7 @@ sources:
 - '[[2026-04-15-semianalysis-isscc-2026]]'
 - '[[2024-tsmc-cowos-roadmap-disclosure]]'
 - '[[2026-03-31-semianalysis-nvidia-blackwell-dissection]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

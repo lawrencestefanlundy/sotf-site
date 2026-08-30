@@ -24,8 +24,7 @@ sources:
 - '[[2026-02-09-semianalysis-datacenter-cpu-2026]]'
 - '[[2025-10-09-risc-v-open-silicon-share-risc-v-summit-2025-keynote-risc-v]]'
 - '[[2026-05-21-semianalysis-eda-market-primer]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
@@ -33,7 +32,7 @@ tags:
 mention_count: 95
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 13
+sources_30d: 9
 recent_mentions:
 - slug: 2026-07-17-the-once-and-future-kimi
   title: The Once and Future Kimi

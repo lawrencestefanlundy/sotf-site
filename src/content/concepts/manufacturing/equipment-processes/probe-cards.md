@@ -12,8 +12,7 @@ related_concepts:
 - automated-test-equipment
 - known-good-die-test
 sources: []
-frontier:
-- ''
+frontier: []
 last_updated: 2026-06-03
 tags:
 - concept

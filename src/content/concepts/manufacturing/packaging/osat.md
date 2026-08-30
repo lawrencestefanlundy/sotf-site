@@ -50,7 +50,7 @@ tags:
 - supply-chain
 mention_count: 97
 sources_7d: 0
-sources_30d: 13
+sources_30d: 12
 recent_mentions:
 - slug: 2026-07-27-cxmt-star-market-debut
   title: CXMT's 466% STAR Market debut makes it China's most valuable mainland-listed company
@@ -110,7 +110,7 @@ neighbors:
   path: /manufacturing/packaging/fiber-to-chip-coupling/
   macro: manufacturing
 ---
-*The **back-end** of the chip supply chain — the firms that take finished wafers and turn them into packaged, tested chips. Archetype #5 in **2026 05 30 Photonic Packaging Acquirer Map**; the assembly layer of the [PIC Packaging Stack](/manufacturing/packaging/pic-packaging-stack/).*
+*The **back-end** of the chip supply chain — the firms that take finished wafers and turn them into packaged, tested chips. Archetype #5 in photonic packaging acquirer map; the assembly layer of the [PIC Packaging Stack](/manufacturing/packaging/pic-packaging-stack/).*
 
 ## What an OSAT is
 

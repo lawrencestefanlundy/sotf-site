@@ -15,8 +15,7 @@ sources:
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

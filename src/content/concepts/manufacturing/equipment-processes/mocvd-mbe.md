@@ -9,8 +9,7 @@ parent_concepts:
 - equipment-processes
 related_concepts: []
 sources: []
-frontier:
-- ''
+frontier: []
 last_updated: '2026-07-31'
 tags:
 - concept

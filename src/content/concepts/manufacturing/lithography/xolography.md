@@ -16,8 +16,7 @@ sources:
 - '[[2024-05-15-photonic-packaging-cpo-sales-of-silicon-photonics-chips]]'
 - '[[2026-05-02-continuous-volumetric-3d-printing-in-flow-adv-materials-2024]]'
 - '[[2026-04-03-photonic-packaging-cpo-the-soitec-twin-a-massive]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

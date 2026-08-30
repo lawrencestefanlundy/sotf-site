@@ -13,8 +13,7 @@ sources:
 - '[[2023-09-28-e16-in-conversation-with-shiv-malik]]'
 - '[[2021-07-21-why-privacy-tech-is-actually-collaborative]]'
 - '[[2025-10-09-a-specific-theory-of-sovereign-ai]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

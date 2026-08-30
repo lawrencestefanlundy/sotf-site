@@ -16,8 +16,7 @@ related_concepts:
 - lasers
 sources:
 - '[[2026-05-30-intel-optoscribe-acquisition]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-07-25'
 tags:
 - concept
@@ -57,7 +56,7 @@ Edge-emitting lasers (EELs/FP/DFB) offer higher power-per-emitter and longer coh
 
 ## Array scaling: the industry solved dot-count with optics, not with emitters (25 Jul 2026)
 
-*Source: René Kromhof, **2026 07 24 Rene Vcsel Faceid Emitter Count** — sent "just for your KB" as a correction to a figure Lawrence had put in writing to GlobalFoundries.*
+*Source: René Kromhof, rene vcsel faceid emitter count — sent "just for your KB" as a correction to a figure Lawrence had put in writing to GlobalFoundries.*
 
 **The structural point matters more than the number.** Face ID is the highest-volume VCSEL array ever manufactured, and when its designers needed a dense dot field they did **not** scale emitter count on die — they kept the array small and added an optical element. That is the revealed cost-and-yield answer from the one application with the volume to justify brute-forcing array size. Two consequences for diligence:
 

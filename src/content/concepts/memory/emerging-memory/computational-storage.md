@@ -13,8 +13,7 @@ related_concepts:
 - cxl
 - storage-class-memory
 sources: []
-frontier:
-- ''
+frontier: []
 last_updated: 2026-06-03
 tags:
 - concept

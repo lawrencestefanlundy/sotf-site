@@ -42,7 +42,7 @@ last_updated: '2026-07-26'
 tags:
 - concept
 - theme
-mention_count: 1004
+mention_count: 1006
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -99,9 +99,9 @@ Sub-field map (this page is the orientation layer; depth belongs on child pages 
 
 Silicon photonics competes with and complements III-V (InP, GaAs) and the emerging SiN and thin-film lithium niobate platforms. The trade is always among loss, nonlinearity, active gain, and CMOS-foundry compatibility: silicon is cheap and foundry-native but has no gain and no second-order nonlinearity; SiN is the low-loss passive; InP has monolithic lasers at higher cost; LNOI brings fast electro-optics but hybrid integration. No fresh source this cycle re-benchmarks the platform loss/bandwidth numbers, so specific dB/cm and GHz figures previously quoted here are dropped rather than restated (medium confidence they are still roughly right; re-cite before reuse).
 
-A second battle is moving up the stack, from devices to design. Inverse design is becoming the bottleneck and the opportunity: FDTD-trained convolutional surrogates plus diffusion-model generative design now hit R^2 of about 0.97 on metasurfaces over 230x larger than the training apertures, in work affiliated with STMicroelectronics **2026 07 24 Design And Optimization Of Metasurfaces For Silicon Photonic**. That supports the view that a photonic design/EDA layer is forming (**Photonic Pdk Eda Layer**, **Electron Informed Materials Discovery**).
+A second battle is moving up the stack, from devices to design. Inverse design is becoming the bottleneck and the opportunity: FDTD-trained convolutional surrogates plus diffusion-model generative design now hit R^2 of about 0.97 on metasurfaces over 230x larger than the training apertures, in work affiliated with STMicroelectronics design and optimization of metasurfaces for silicon photonic. That supports the view that a photonic design/EDA layer is forming (**Photonic Pdk Eda Layer**, **Electron Informed Materials Discovery**).
 
-Where value is moving, on current evidence: (1) datacentre optical interconnect remains the volume driver (own synthesis, **2026 02 02 Photonic Engines For Data Centers**; this cycle's tier-1 flow is research-side, so the market read is medium confidence and not freshly re-verified); (2) quantum photonic components (sources, isolators, polarization control **2026 07 24 Compact Deterministic Liquid Crystal Polarization Controller**) are crossing from lab to deployable hardware, a component-vendor opportunity that exists whichever quantum modality wins; (3) design automation for photonics is separating into its own layer.
+Where value is moving, on current evidence: (1) datacentre optical interconnect remains the volume driver (own synthesis, photonic engines for data centers; this cycle's tier-1 flow is research-side, so the market read is medium confidence and not freshly re-verified); (2) quantum photonic components (sources, isolators, polarization control compact deterministic liquid crystal polarization controller) are crossing from lab to deployable hardware, a component-vendor opportunity that exists whichever quantum modality wins; (3) design automation for photonics is separating into its own layer.
 
 ## Investment routing
 

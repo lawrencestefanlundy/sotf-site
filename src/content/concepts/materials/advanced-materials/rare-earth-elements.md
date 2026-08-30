@@ -104,15 +104,15 @@ The 17 rare-earth elements (the 15 lanthanides plus scandium and yttrium) are, d
 - **The magnet four-plus-two:** Nd + Pr (the bulk of an NdFeB magnet) + Dy + Tb (high-temp dopants); Sm for SmCo magnets.
 
 ## Why it matters for **energy**
-NdFeB permanent magnets are the torque-density core of **EV traction motors** and **direct-drive wind-turbine generators**, plus heat-pump compressors. The energy transition is, materially, a magnet build-out — and the magnets need exactly the Nd/Pr/Dy/Tb that China controls. China's April-2025 export licensing on Dy/Tb-bearing magnets (see **2026 06 13 Iea Critical Minerals Export Controls 2025**) directly forced Western/EU carmakers to cut utilisation or idle lines in 2025.
+NdFeB permanent magnets are the torque-density core of **EV traction motors** and **direct-drive wind-turbine generators**, plus heat-pump compressors. The energy transition is, materially, a magnet build-out — and the magnets need exactly the Nd/Pr/Dy/Tb that China controls. China's April-2025 export licensing on Dy/Tb-bearing magnets (see iea critical minerals export controls 2025) directly forced Western/EU carmakers to cut utilisation or idle lines in 2025.
 
 So a rare-earth supply shock hits the semiconductor/photonics stack from several directions at once, not just via motors — which is why it sits beside **Eu Semiconductor Sovereignty** and **Sovereignty Semi Bifurcation**.
 
 ## Supply concentration (the structural fact)
-Per USGS (**2026 06 13 Usgs Mcs Rare Earths Supply Concentration**): China mines **~60%** of global REE but **separates ~90%** and makes **~94% of NdFeB magnets** — the bottleneck is downstream (separation + magnet-making), not the ore. The US (Mountain Pass), Australia (Lynas), and Myanmar supply ore; almost everyone still sends it to China to separate. This is the same "controls the chokepoint, not the commodity" shape as the **semiconductor toll-booths**, one tier up the periodic table.
+Per USGS (usgs mcs rare earths supply concentration): China mines **~60%** of global REE but **separates ~90%** and makes **~94% of NdFeB magnets** — the bottleneck is downstream (separation + magnet-making), not the ore. The US (Mountain Pass), Australia (Lynas), and Myanmar supply ore; almost everyone still sends it to China to separate. This is the same "controls the chokepoint, not the commodity" shape as the **semiconductor toll-booths**, one tier up the periodic table.
 
 ## The fundable wedges (vs the un-fundable layers)
-Mining and magnet high-volume-manufacturing are capital-heavy and increasingly state-funded (USA Rare Earth $1.6bn; Vulcan Elements $1.3bn, **2025 11 07 Observations 004**). The deep-tech, venture-scale layers are:
+Mining and magnet high-volume-manufacturing are capital-heavy and increasingly state-funded (USA Rare Earth $1.6bn; Vulcan Elements $1.3bn, observations 004). The deep-tech, venture-scale layers are:
 1. **Recovery / recycling** of REE from e-waste, swarf, and end-of-life magnets — EU recycling is <1% today (**Rare Labs**, Cyclic, Noveon/Hypromag, Momentum).
 2. **Novel separation chemistry** (replacing solvent extraction) — the actual China chokepoint (Reetec, Less Common Metals).
 3. **Rare-earth-free / reduced magnets** — iron-nitride / tetrataenite class ([Niron-class](/materials/advanced-materials/magnetic-materials/)); the long-shot that removes the dependency.

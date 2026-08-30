@@ -9,8 +9,7 @@ parent_concepts:
 - quantum-comms
 related_concepts: []
 sources: []
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
@@ -18,7 +17,7 @@ tags:
 mention_count: 65
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 8
+sources_30d: 7
 recent_mentions: []
 neighbors: []
 ---

@@ -9,8 +9,7 @@ parent_concepts:
 - photonic-compute
 related_concepts: []
 sources: []
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-07'
 tags:
 - concept
@@ -19,7 +18,7 @@ mention_count: 22
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 3
+sources_30d: 2
 recent_mentions: []
 neighbors: []
 ---

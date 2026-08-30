@@ -12,8 +12,7 @@ sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2026-05-24-mose2-exciton-polariton-all-optical-switch]]'
 - '[[2026-01-13-semianalysis-interconnects-beyond-copper]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

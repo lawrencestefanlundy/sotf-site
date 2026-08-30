@@ -26,8 +26,7 @@ sources:
 - '[[2026-04-10-photonic-light-source-supply-co-packaged-optics-cpo-scaling]]'
 - '[[2026-05-30-senko-gf-cpo-detachable-fiber]]'
 - '[[2026-06-23-photonic-foundry-capacity-co-packaged-optics-is-not-delayed]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
@@ -35,7 +34,7 @@ tags:
 mention_count: 62
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 3
+sources_30d: 2
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)

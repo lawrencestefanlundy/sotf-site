@@ -17,8 +17,7 @@ related_concepts:
 sources:
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2026-01-27-photonics-material-class-war-veeco-and-imec-develop-300mm]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-06-07'
 tags:
 - concept
@@ -26,7 +25,7 @@ tags:
 mention_count: 31
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 5
+sources_30d: 4
 recent_mentions:
 - slug: 2026-05-02-hybrid-bto-sin-ultra-low-power-tuning-acs-photonics
   title: Hybrid BTO-SiN ultra-low power tuning (ACS Photonics)
@@ -80,7 +79,7 @@ Barium Titanate (BaTiO3, BTO) is a ferroelectric oxide with one of the largest k
 
 ## Yield, integration & material quality
 
-Expert read from **George Li** (ex-Harvard BTO thin-film grower; **2026 06 07 George Bto Question Feb Call**) — the load-bearing constraints behind BTO's slow path to production, and why the headline Pockels spec overstates the practical case:
+Expert read from **George Li** (ex-Harvard BTO thin-film grower; george bto question feb call) — the load-bearing constraints behind BTO's slow path to production, and why the headline Pockels spec overstates the practical case:
 
 - **Monolithic BTO is a yield problem, not a capex problem.** BTO thin films are hard to grow well, and even when you get a film the **ferroelectric domains orient randomly across the wafer** (distribution varies with thickness, deposition, and epitaxy). **Monolithic etched waveguides therefore effectively require poling.** With no foundry or wafer supply chain to absorb the process risk, a company funds both the process and the ecosystem from scratch (e.g. **PsiQuantum** running their own MBE machines for wafers, the "bottomless pit").
 - **The manufacturable path is heterogeneous, not monolithic.** SiN strip-loaded on top of BTO (the PsiQuantum route, also the GF SiN-on-BTO hybrid stack) **does not etch the BTO, so it sidesteps the domain problem entirely.** The trade-off: you **lose the raw-BTO on-paper specs** (real performance falls short of the >358 pm/V headline), but it is **much cheaper** than monolithic BTO. George: "monolithic BTO probably doesn't make a lot of sense."

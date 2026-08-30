@@ -10,8 +10,7 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
@@ -28,8 +27,6 @@ recent_mentions:
 neighbors: []
 ---
 ## Physics / mechanism
-
-Micro-LEDs are inorganic III-nitride (typically GaN-on-Si or GaN-on-sapphire) or AlInGaP emitters with pixel pitch below ~100 µm, often 1–50 µm for high-density displays. Electroluminescence efficiency peaks at optimal current density; at micro-scale, external quantum efficiency (EQE) degrades due to surface recombination at mesa sidewalls — the "size-effect" problem. State-of-the-art EQE sits ~10–20% at small pitches without passivation; best-in-class (Porotech, Apple internal) pushes toward 40%+ with ALD sidewall passivation. Key fabrication bottleneck: mass transfer of millions of dies at yield >99.9999%. Peak brightness >1M nits; contrast ratio effectively infinite (per-pixel off-state).
 
 ## Competitive landscape
 

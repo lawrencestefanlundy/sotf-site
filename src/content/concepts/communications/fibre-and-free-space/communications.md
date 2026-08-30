@@ -17,8 +17,7 @@ sources:
 - '[[2025-12-19-lfg-for-semiconductors]]'
 - '[[2025-04-30-has-the-time-come-to-take-mortal]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

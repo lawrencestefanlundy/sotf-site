@@ -11,8 +11,7 @@ related_concepts: []
 sources:
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
 - '[[2024-10-23-optical-dram-integrated-non-reciprocal-magneto-optics-with]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
@@ -20,7 +19,7 @@ tags:
 mention_count: 28
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 4
+sources_30d: 3
 recent_mentions:
 - slug: 2025-12-02-the-future-of-computing-is-glass
   title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos

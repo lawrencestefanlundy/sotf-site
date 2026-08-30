@@ -22,7 +22,7 @@ sources:
 - '[[2026-07-02-scale-up-interconnect-upscale-ai-s-500m-bet-to-reinvent-ai]]'
 - '[[2026-03-01-scale-up-interconnect-nvidia-nvlink-explained-a-guide-to]]'
 frontier:
-- Does a merchant UALink switch ship into a volume NVL72-class integrated rack before end-2027, or does it stay spec-ahead-of-silicon? (The [[scale-up-interconnect]] prediction 2.)
+- Does a merchant UALink switch ship into a volume NVL72-class integrated rack before end-2027, or does it stay spec-ahead-of-silicon? (The scale up interconnect prediction 2.)
 - Does the open scale-up camp consolidate, or stay fragmented three ways (UALink vs Broadcom SUE vs Meta ESUN)?
 last_updated: '2026-06-22'
 tags:

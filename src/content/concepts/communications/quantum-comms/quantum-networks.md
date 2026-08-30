@@ -9,16 +9,15 @@ parent_concepts:
 - quantum-comms
 related_concepts: []
 sources: []
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 126
+mention_count: 127
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 34
+sources_30d: 25
 recent_mentions: []
 neighbors: []
 ---

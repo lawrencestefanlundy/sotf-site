@@ -16,8 +16,7 @@ sources:
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 - '[[2026-06-16-coherent-signs-loi-for-up-to-50m-chips-act-grant-to-expand-t]]'
 - '[[2026-03-30-photonics-material-class-war-silicon-photonics-and-photonic]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

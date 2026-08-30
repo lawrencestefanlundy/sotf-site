@@ -14,8 +14,7 @@ sources:
 - '[[2026-05-02-designing-surfaces-and-devices-with-icvd-adv-materials-2024]]'
 - '[[2026-05-02-initiated-cvd-overview-wiley-analytical-science-2024]]'
 - '[[2026-05-02-conformal-polymer-cvd-llnl]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

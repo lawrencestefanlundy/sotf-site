@@ -13,8 +13,7 @@ sources:
 - '[[2023-05-25-interview-ben-mildenhall-co-inventor]]'
 - '[[2026-08-03-spad-single-photon-market-scan]]'
 - '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

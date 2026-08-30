@@ -13,8 +13,7 @@ sources:
 - '[[2024-11-20-nuclear-fusion-the-state-of-play]]'
 - '[[2023-05-31-three-underrated-technologies-from]]'
 - '[[2025-03-04-doe-funds-uk-research-on-critical-materials-for-commercial-f]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-07'
 tags:
 - concept

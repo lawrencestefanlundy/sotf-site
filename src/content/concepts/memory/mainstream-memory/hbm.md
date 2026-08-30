@@ -62,7 +62,7 @@ public_expressions:
 - MU
 mention_count: 75
 sources_7d: 0
-sources_30d: 10
+sources_30d: 4
 recent_mentions:
 - slug: 2026-07-31-etched-research-sprint
   title: Etched research sprint — tape-out speed, HBM supply, customer orders (4-lane web sweep)
@@ -122,7 +122,7 @@ neighbors:
   path: /manufacturing/packaging/tsv-through-silicon-via/
   macro: manufacturing
 ---
-*the memory denominator for **Hbm Bottleneck**. Research base: **2026 06 01 Hbm State Of Play** (mid-2026), **2026 05 07 Hbm Supercycle Thesis Update**.*
+*the memory denominator for **Hbm Bottleneck**. Research base: hbm state of play (mid-2026), hbm supercycle thesis update.*
 
 ## What it is (physics / mechanism)
 
@@ -166,7 +166,7 @@ The HBM4 per-stack bandwidth quoted as 2.0 / 2.8 / 3.3 TB/s is a pin-speed-quoti
 
 **Micron — solid #3, the US/Western hedge, and a 2026 surprise.** At GTC (Mar 2026) Micron announced high-volume HBM4 36GB 12-high for Nvidia Vera Rubin (>11 Gb/s, >2.8 TB/s) and is sampling 48GB 16-high, using a low-cost internal CMOS base die. The only US-based supplier, so it carries the CHIPS-aligned structural angle (ties to **Sovereignty Semi Bifurcation**). 2026 supply fully booked; FY26 capex ~$20B; >50% gross margin. *(Divergence flag: an earlier TrendForce note framed Micron as "limited to mid-tier Rubin CPX"; Micron's own IR contradicts it. Trust the primary.)*
 
-**CXMT, the China entrant: real on wafers, not yet on bits (~70% confidence the gap holds to 2028).** SemiAnalysis models CXMT's HBM wafer capacity at 5 → 30 → 55 → 100 kwspm (2025→2028), which *"increase[s] the company's share of global HBM wafer supply from 1% in 2025 to 12% in 2028"* (**2026 06 23 Semianalysis Cxmt Set To Challenge Dram Incumbents**). The headline reads like a fourth force arriving; the yield reads otherwise. On technology readiness SemiAnalysis is explicit: *"we believe CXMT is still struggling to stabilize supply for HBM3 8-hi, with even greater challenges in 12-hi."* It models 8-hi front-end/back-end yields at ~35% / ~70%, an **overall yield of only ~25%**, gated by back-end stacking (thermal stress, die cracking, warpage, bonding defects) and a low front-end wafer-sort yield, with HBM3 attempted **without EUV**. So 12% of HBM *wafers* by 2028 ≠ 12% of competitive HBM *bits*: most of CXMT's stacks are lost or low-grade, and it remains ~3–4 years behind on the gen roadmap (HBM2E mass production targeted H1 2026, HBM3 in 2026, HBM3E in 2027). **The competitive moat the leaders hold is back-end stacking yield, and CXMT's struggle is the clearest evidence that it holds longer than the wafer-share chart implies.** The live risk is sovereignty, not displacement: even sub-scale, low-yield domestic HBM relieves Chinese-AI memory dependence (**Sovereignty Semi Bifurcation**, **Cxmt**). Full maker volumes/revenue + the wafer-capacity chart sit on [DRAM](/memory/mainstream-memory/dram/).
+**CXMT, the China entrant: real on wafers, not yet on bits (~70% confidence the gap holds to 2028).** SemiAnalysis models CXMT's HBM wafer capacity at 5 → 30 → 55 → 100 kwspm (2025→2028), which *"increase[s] the company's share of global HBM wafer supply from 1% in 2025 to 12% in 2028"* (semianalysis cxmt set to challenge dram incumbents). The headline reads like a fourth force arriving; the yield reads otherwise. On technology readiness SemiAnalysis is explicit: *"we believe CXMT is still struggling to stabilize supply for HBM3 8-hi, with even greater challenges in 12-hi."* It models 8-hi front-end/back-end yields at ~35% / ~70%, an **overall yield of only ~25%**, gated by back-end stacking (thermal stress, die cracking, warpage, bonding defects) and a low front-end wafer-sort yield, with HBM3 attempted **without EUV**. So 12% of HBM *wafers* by 2028 ≠ 12% of competitive HBM *bits*: most of CXMT's stacks are lost or low-grade, and it remains ~3–4 years behind on the gen roadmap (HBM2E mass production targeted H1 2026, HBM3 in 2026, HBM3E in 2027). **The competitive moat the leaders hold is back-end stacking yield, and CXMT's struggle is the clearest evidence that it holds longer than the wafer-share chart implies.** The live risk is sovereignty, not displacement: even sub-scale, low-yield domestic HBM relieves Chinese-AI memory dependence (**Sovereignty Semi Bifurcation**, **Cxmt**). Full maker volumes/revenue + the wafer-capacity chart sit on [DRAM](/memory/mainstream-memory/dram/).
 
 ## Routes (how to express it)
 

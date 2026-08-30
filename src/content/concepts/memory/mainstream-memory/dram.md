@@ -25,7 +25,7 @@ tags:
 mention_count: 170
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 17
+sources_30d: 15
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
@@ -71,7 +71,7 @@ DRAM competes directly with SRAM (faster, 6T, no refresh, 50–100× area penalt
 
 ## DRAM makers: volumes, revenue & HBM-capacity contribution (mid-2026)
 
-DRAM is a ~$170B+ market in the 2026 super-cycle (HBM ≈ one-third of value), and it is an oligopoly: three IDMs hold the overwhelming majority of bits, with CXMT the rising fourth and Nanya the commodity tail. Sizing is what routes this: the structure (a handful of public giants) makes **public markets the first-class route**; everything else is a downstream line. Data below from the SemiAnalysis Memory Model and the HBM state-of-play synthesis (**2026 06 23 Semianalysis Cxmt Set To Challenge Dram Incumbents**, **2026 06 01 Hbm State Of Play**).
+DRAM is a ~$170B+ market in the 2026 super-cycle (HBM ≈ one-third of value), and it is an oligopoly: three IDMs hold the overwhelming majority of bits, with CXMT the rising fourth and Nanya the commodity tail. Sizing is what routes this: the structure (a handful of public giants) makes **public markets the first-class route**; everything else is a downstream line. Data below from the SemiAnalysis Memory Model and the HBM state-of-play synthesis (semianalysis cxmt set to challenge dram incumbents, hbm state of play).
 
 **2025 DRAM revenue (SemiAnalysis):** Samsung ~$72.3B · SK Hynix ~$52.1B · Micron ~$37.2B · **CXMT ~$8.6B** · Nanya ~$3.4B TTM (pure-play commodity, no HBM; Q1-26 revenue +582% YoY on the ASP spike).
 

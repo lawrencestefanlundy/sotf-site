@@ -42,7 +42,7 @@ tags:
 mention_count: 19
 descendants: []
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-06-13-smr-datacentre-baseload-research
   title: SMR / advanced-nuclear for datacentre baseload — research sweep (Jun 2026)
@@ -84,7 +84,7 @@ neighbors:
 ---
 ## Physics / mechanism
 
-SMRs are nuclear fission reactors **smaller** (50-300 MWe per module vs 1,000-1,600 MWe for traditional plants) and **modular** (factory-built, shipped as units, assembled on site — "Ford assembly line for nuclear"). Architecture varies widely, and maturity tracks that variance (**2024 11 12 Atomic Energy Can Nuclear Power Our**):
+SMRs are nuclear fission reactors **smaller** (50-300 MWe per module vs 1,000-1,600 MWe for traditional plants) and **modular** (factory-built, shipped as units, assembled on site — "Ford assembly line for nuclear"). Architecture varies widely, and maturity tracks that variance (atomic energy can nuclear power our):
 
 - **Light-Water Reactors (LWR-SMR)** — most mature, proven PWR/BWR physics scaled down, ~15-16 MPa, ~315 °C. GE Hitachi BWRX-300 (300 MWe), Rolls-Royce SMR (470 MWe), NuScale VOYGR (250 MWe/module, the only US-design-certified SMR). Challenge is cost, not physics.
 - **High-Temperature Gas-Cooled (HTGR)** — helium-cooled, ~750 °C, TRISO fuel; enables industrial process heat + hydrogen. X-energy Xe-100 (80 MWe), General Atomics EM2, USNC MMR.
@@ -96,7 +96,7 @@ Key advantage cluster: capacity factor >90% (true baseload, vs 35-45% wind / 15-
 
 ## Market driver — datacentre power is the catalyst
 
-Decarbonisation and energy security are secondary. The catalyst is **AI datacentre firm-power demand** (**2024 11 12 Atomic Energy Can Nuclear Power Our**, **Ai Power Thermal Binding**): Google-Kairos (500 MWe, ~$2B incl. dedicated manufacturing), Amazon-X-energy (4× Xe-100), Microsoft-Constellation (Three Mile Island restart, ~$65/MWh PPA benchmark), Meta (load-following AI-datacentre design). Hyperscalers are becoming the anchor customers next-gen nuclear never had. Global nuclear is ~10% of electricity, ~$350-400B/yr, 440 reactors; IAEA sees capacity potentially doubling by 2050 mostly via SMRs, and datacentres are demand *outside* those forecasts.
+Decarbonisation and energy security are secondary. The catalyst is **AI datacentre firm-power demand** (atomic energy can nuclear power our, **Ai Power Thermal Binding**): Google-Kairos (500 MWe, ~$2B incl. dedicated manufacturing), Amazon-X-energy (4× Xe-100), Microsoft-Constellation (Three Mile Island restart, ~$65/MWh PPA benchmark), Meta (load-following AI-datacentre design). Hyperscalers are becoming the anchor customers next-gen nuclear never had. Global nuclear is ~10% of electricity, ~$350-400B/yr, 440 reactors; IAEA sees capacity potentially doubling by 2050 mostly via SMRs, and datacentres are demand *outside* those forecasts.
 
 ## Companies using
 

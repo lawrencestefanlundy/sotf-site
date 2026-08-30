@@ -109,7 +109,7 @@ Two hard datapoints bound any "new programming model for heterogeneous compute" 
 
 - Incumbent moat being attacked: **Cuda Moat**
 - Why novel silicon needs this layer at all: [Compiler as Bottleneck for Novel Hardware](/compute/compute-architecture/compiler-as-bottleneck-for-novel-hardware/)
-- The live deal this map serves: **Callosum** · its competitive thread: **2026 06 22 Compute As Racks Routing Callosum**
+- The live deal this map serves: **Callosum** · its competitive thread: compute as racks routing callosum
 - The distinct/more-fundamental adjacent bet: **Ai Kernel Synthesis** (auto-generating the fast kernels — the layer that makes any of the above actually fast; complement to Callosum)
 - Theses it touches: **Compute Specialisation Equilibrium** (the porting/software tax is the historical brake) · **Agents Need New Silicon** · **Ai Compute Toll Booths**
 - Detail pages: [MLIR (Multi-Level Intermediate Representation)](/compute/compute-architecture/mlir/) · [XLA / OpenXLA](/compute/compute-architecture/xla/) · [Apache TVM](/compute/compute-architecture/tvm/) · [IREE (Intermediate Representation Execution Environment)](/compute/compute-architecture/iree/) · [Triton (OpenAI Triton)](/compute/compute-architecture/triton/) · **Modular** · **Octoml**

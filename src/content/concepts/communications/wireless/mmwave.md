@@ -13,8 +13,7 @@ sources:
 - '[[2026-07-27-optimal-compute-vega-investor-briefing]]'
 - '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
 - '[[2026-06-01-photonic-mmwave-generation-research]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

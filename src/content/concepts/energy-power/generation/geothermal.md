@@ -16,8 +16,7 @@ sources:
 - '[[2023-07-23-analog-computing-the-once-and-future]]'
 - '[[2023-05-31-three-underrated-technologies-from]]'
 - '[[2026-05-18-advanced-geothermal-energy-is-widely-available-clean-and-may]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-07'
 tags:
 - concept

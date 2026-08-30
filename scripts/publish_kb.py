@@ -466,11 +466,33 @@ def strip_private_wikilinks(body: str) -> str:
         if slug in slug_paths:
             label = display or canonical.get(slug) or slug.replace("-", " ").title()
             return f"[{label}]({BASE_PATH}/{slug_paths[slug]}/)"
-        # Private — render display or de-slugged name as plain bold
+        # Private date-prefixed SOURCE slug: a bold de-slugged filename mid-sentence
+        # reads as debris ("**2026 07 23 Basert Advancing…**"), so render plain text
+        # with the date prefix dropped and no emphasis.
+        m_date = re.match(r"^\d{4}-\d{2}-\d{2}-(.+)$", slug)
+        if m_date and not display:
+            return m_date.group(1).replace("-", " ")
+        # Other private entities (companies, ideas, people) — plain bold label.
         label = display or slug.replace("-", " ").title()
         return f"**{label}**"
 
     return re.sub(r"\[\[([^\]]+)\]\]", repl, body)
+
+
+def wikilinks_to_plain(value: str) -> str:
+    """For frontmatter strings rendered as raw text (frontier questions):
+    collapse any wikilink to its display name — no links, no bold."""
+    canonical = _canonical_names()
+
+    def repl(m):
+        inner = m.group(1)
+        if "|" in inner:
+            _, display = inner.split("|", 1)
+            return display.strip()
+        slug = inner.strip()
+        return canonical.get(slug) or slug.replace("-", " ")
+
+    return re.sub(r"\[\[([^\]]+)\]\]", repl, value)
 
 
 def filter_concept(fm: dict, body: str, slug: str) -> tuple[dict, str]:
@@ -484,6 +506,16 @@ def filter_concept(fm: dict, body: str, slug: str) -> tuple[dict, str]:
                   "related_concepts", "descendants"):
         if field in out:
             out[field] = coerce_str_list(out[field])
+
+    # Frontier questions render as raw text on the page: drop empty items
+    # (the KB's `frontier: ['']` stubs were emitting empty bullets on 292 pages)
+    # and collapse wikilinks to plain display names.
+    if "frontier" in out:
+        out["frontier"] = [
+            wikilinks_to_plain(q).strip()
+            for q in out["frontier"]
+            if isinstance(q, str) and q.strip()
+        ]
 
     # Filter sources to public-only
     if "sources" in out:

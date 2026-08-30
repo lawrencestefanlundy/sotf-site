@@ -66,7 +66,7 @@ The core problem: a silicon-photonics waveguide mode is **~0.5 µm**; a single-m
 
 ## Competitive landscape
 
-Full screen + business-model split in **2026 05 30 Fiber To Chip Coupling Screen**. Headline: coupling-IP specialists get absorbed by connector/foundry primes (**Teramount**→Molex, **Optoscribe**→Intel); durable independents are the assembly-equipment + packaging-foundry layer (**Ficontec**, **Phix Photonics Assembly**); the one venture-and-stage-appropriate name is **Opsydia** (alignment-free glass coupling, IP moat).
+Full screen + business-model split in fiber to chip coupling screen. Headline: coupling-IP specialists get absorbed by connector/foundry primes (**Teramount**→Molex, **Optoscribe**→Intel); durable independents are the assembly-equipment + packaging-foundry layer (**Ficontec**, **Phix Photonics Assembly**); the one venture-and-stage-appropriate name is **Opsydia** (alignment-free glass coupling, IP moat).
 
 ## Companies using
 

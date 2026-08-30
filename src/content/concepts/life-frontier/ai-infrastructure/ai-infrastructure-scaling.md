@@ -10,8 +10,7 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2025-04-16-the-state-of-photonic-computing]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-07'
 tags:
 - concept

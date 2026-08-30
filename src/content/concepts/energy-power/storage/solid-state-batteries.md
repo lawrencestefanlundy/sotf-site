@@ -12,8 +12,7 @@ sources:
 - '[[2025-07-01-a-primer-carbon-nanotubes]]'
 - '[[2024-10-29-deploy-intelligence-too-cheap-to]]'
 - '[[2025-11-06-successful-funding-round-for-empa-eth-spin-off-57-million-to]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

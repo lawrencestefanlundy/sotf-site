@@ -11,8 +11,7 @@ related_concepts: []
 sources:
 - '[[2024-11-20-nuclear-fusion-the-state-of-play]]'
 - '[[2024-12-04-cubits-in-a-fridge-why-is-nobody]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

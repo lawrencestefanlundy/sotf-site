@@ -12,8 +12,7 @@ related_concepts: []
 sources:
 - '[[2024-yole-thermal-management-2024]]'
 - '[[2024-idtechex-thermal-interface-materials-2026-2036]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

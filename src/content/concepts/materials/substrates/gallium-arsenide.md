@@ -13,15 +13,14 @@ sources:
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 - '[[2026-06-22-thermal-stack-layer-landscape]]'
 - '[[2026-07-11-neutral-pdk-heterogeneous-integration-landscape]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
 - material
-mention_count: 79
+mention_count: 80
 last_reorg_date: '2026-05-13'
-sources_7d: 0
+sources_7d: 1
 sources_30d: 16
 recent_mentions:
 - slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape

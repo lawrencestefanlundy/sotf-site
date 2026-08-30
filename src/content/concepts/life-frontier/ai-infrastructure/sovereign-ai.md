@@ -13,8 +13,7 @@ sources:
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2026-03-08-diamonds-are-semiconductors-best-friend]]'
 - '[[2026-06-09-uk-pumps-money-into-sovereign-ai-as-ai-startups-start-to-sho]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
@@ -22,7 +21,7 @@ tags:
 mention_count: 24
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 2
+sources_30d: 1
 recent_mentions:
 - slug: 2026-06-09-uk-pumps-money-into-sovereign-ai-as-ai-startups-start-to-sho
   title: UK pumps money into sovereign AI, as AI startups start to show their mettle - RCR Wireless News

@@ -15,8 +15,7 @@ sources:
 - '[[2026-07-02-semianalysis-ectc2026-advanced-packaging]]'
 - '[[2024-yole-advanced-packaging-2024]]'
 - '[[2026-04-15-semianalysis-isscc-2026]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

@@ -11,8 +11,7 @@ related_concepts: []
 sources:
 - '[[2025-07-14-solving-compute-crisis-physics-based-asics]]'
 - '[[2024-10-28-aria-scaling-compute-normal-computing]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-07'
 tags:
 - concept

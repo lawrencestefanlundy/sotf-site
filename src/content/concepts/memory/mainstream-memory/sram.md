@@ -31,8 +31,7 @@ sources:
 - '[[2026-04-15-semianalysis-isscc-2026]]'
 - '[[2026-08-14-chip-tail-verification-sweep]]'
 - '[[2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
@@ -40,7 +39,7 @@ tags:
 mention_count: 94
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 8
+sources_30d: 5
 recent_mentions:
 - slug: 2026-08-14-chip-tail-verification-sweep
   title: 'Chip-comparison tail verification sweep: 37 companies re-verified, consolidation wave confirmed'

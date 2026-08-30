@@ -20,7 +20,7 @@ sources:
 - '[[2026-06-17-sjtu-ge-si-photodetector-110ghz-fowlp]]'
 frontier:
 - Can Ge-on-Si reach <1 dB/cm waveguide loss in the 3-8 μm band at production scale?
-- Does Ge integration with QCL sources ([[quantum-cascade-lasers]]) enable a fully-integrated mid-IR sensing chip by 2028?
+- Does Ge integration with QCL sources (Quantum Cascade Lasers) enable a fully-integrated mid-IR sensing chip by 2028?
 - Ge vs chalcogenide for mid-IR — does the CMOS-fab compatibility of Ge-on-Si win the battle, or does chalcogenide's wider transparency window matter more?
 - Does Ge-Sn alloy waveguides extend the transparency window further into the long-wave IR (10+ μm), unlocking new sensing applications?
 last_updated: 2026-05-08

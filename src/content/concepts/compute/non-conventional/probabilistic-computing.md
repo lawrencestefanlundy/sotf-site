@@ -9,8 +9,7 @@ parent_concepts:
 - non-conventional
 related_concepts: []
 sources: []
-frontier:
-- ''
+frontier: []
 last_updated: '2026-06-03'
 tags:
 - concept
@@ -18,7 +17,7 @@ tags:
 mention_count: 14
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 5
+sources_30d: 4
 recent_mentions: []
 neighbors: []
 ---

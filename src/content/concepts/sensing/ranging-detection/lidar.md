@@ -16,8 +16,7 @@ sources:
 - '[[2026-05-31-companiesmarketcap]]'
 - '[[2026-06-17-single-photon-detector-market-spad-snspd]]'
 - '[[2026-05-30-companiesmarketcap]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

@@ -17,7 +17,7 @@ sources:
 - '[[2026-04-01-low-power-edge-compute-neuromorphic-computing-chip-patents]]'
 - '[[2026-06-17-femtoai-spu-ces2026]]'
 frontier:
-- 'ANSWERED (20 Jul 2026, [[2026-07-20-neuromorphic-market-sockets-and-algorithm-vs-hardware]]): Does any SPIKING chip find a volume socket beyond research/niche sensing? NO. The always-on edge volume sockets are real but won by conventional low-power digital (Ambiq 280M+, Syntiant 20M+) and sparse-digital (femtoAI 100k+), not spikes. Only defensible spiking wedge = defense RF signal classification, still POC (BrainChip FY25 revenue $1.89M). Base rate confirmed poor.'
+- 'ANSWERED (20 Jul 2026, 2026 07 20 neuromorphic market sockets and algorithm vs hardware): Does any SPIKING chip find a volume socket beyond research/niche sensing? NO. The always-on edge volume sockets are real but won by conventional low-power digital (Ambiq 280M+, Syntiant 20M+) and sparse-digital (femtoAI 100k+), not spikes. Only defensible spiking wedge = defense RF signal classification, still POC (BrainChip FY25 revenue $1.89M). Base rate confirmed poor.'
 - 'ANSWERED (20 Jul 2026): brain-inspired ALGORITHM (Camp A, >$2B in 2026 — Flourish, AMI/LeCun, Liquid, Sakana) runs on GPUs and does NOT need neuromorphic silicon; spiking HARDWARE (Camp B) is a separate ~$0.5B chip market. Never underwrite a hardware bet on the brain-inspired tailwind — it is a software story.'
 - Do analog / memcapacitor devices become the substrate for neuromorphic, or stay separate?
 last_updated: '2026-07-20'
@@ -29,7 +29,7 @@ last_reorg_date: '2026-05-14'
 descendants:
 - spiking-neural-networks
 sources_7d: 0
-sources_30d: 10
+sources_30d: 7
 recent_mentions:
 - slug: 2026-07-31-inference-silicon-roster-sprint
   title: 'Inference-silicon roster verification sprint: 10 companies for the competitive-analysis capital map'
@@ -96,4 +96,4 @@ Neuromorphic's economic prize is the always-on sensing/inference tier inside dev
 
 ## Frontier (open questions)
 
-- **Brain-inspired *algorithm* vs spiking-neuromorphic *hardware* — keep them distinct.** The 2026 mega-rounds in "brain-like AI" (Flourish, ~$500M at ~$2.5B, Bezos/Lux/GV; **2026 06 04 Bezos Flourish Brain Core Algorithm**) chase a *canonical cortical-column algorithm* re-run on conventional silicon, NOT spiking SNN hardware (Loihi/TrueNorth lineage). This page is the hardware substrate; the algorithm bet sits with **Extreme Low Power Compute** and **Biocomputing Substrate**. Watch whether the algorithm camp ever needs neuromorphic silicon to hit its 50 W target, or whether GPUs suffice once the algorithm is sparse enough.
+- **Brain-inspired *algorithm* vs spiking-neuromorphic *hardware* — keep them distinct.** The 2026 mega-rounds in "brain-like AI" (Flourish, ~$500M at ~$2.5B, Bezos/Lux/GV; bezos flourish brain core algorithm) chase a *canonical cortical-column algorithm* re-run on conventional silicon, NOT spiking SNN hardware (Loihi/TrueNorth lineage). This page is the hardware substrate; the algorithm bet sits with **Extreme Low Power Compute** and **Biocomputing Substrate**. Watch whether the algorithm camp ever needs neuromorphic silicon to hit its 50 W target, or whether GPUs suffice once the algorithm is sparse enough.

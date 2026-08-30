@@ -104,10 +104,10 @@ Both target the same workload class — **sampling-heavy AI** (diffusion models,
 
 ## Why now (as of May 2026)
 
-1. **First silicon shipped.** Normal Computing's **CN101** taped out June 2025 (**2025 08 12 Normal Computing Cn101 Tape Out**); Extropic's **X0** proof-of-concept Q1 2025; Extropic's **Z1** production chip targets early 2026. Both companies have moved from theory to silicon within the same window.
+1. **First silicon shipped.** Normal Computing's **CN101** taped out June 2025 (normal computing cn101 tape out); Extropic's **X0** proof-of-concept Q1 2025; Extropic's **Z1** production chip targets early 2026. Both companies have moved from theory to silicon within the same window.
 2. **Diffusion-model demand inflection.** Image, video, and 3D generative workloads dominate consumer AI cost. Sampling these distributions on GPUs is the bottleneck thermodynamic chips claim to solve.
-3. **Government endorsement.** UK Government's ARIA agency funded Normal Computing UK as 1 of 12 teams in the £100M Scaling Compute programme — explicit goal of 1000x AI hardware cost reduction (**2024 10 28 Aria Scaling Compute Normal Computing**). Suraj Bramhavar (ARIA programme director, ex-Sync Computing) personally co-authored Normal's coalition paper (**2025 07 14 Solving Compute Crisis Physics Based Asics**).
-4. **Strategic-LP money flowing.** Samsung Catalyst Fund led Normal's $50M strategic round March 2026 (**2026 03 25 Normal Computing Samsung Catalyst 50M**) — signals foundry interest. (Note: process node / foundry partner for CN101 remains undisclosed as of May 2026.)
+3. **Government endorsement.** UK Government's ARIA agency funded Normal Computing UK as 1 of 12 teams in the £100M Scaling Compute programme — explicit goal of 1000x AI hardware cost reduction (aria scaling compute normal computing). Suraj Bramhavar (ARIA programme director, ex-Sync Computing) personally co-authored Normal's coalition paper (solving compute crisis physics based asics).
+4. **Strategic-LP money flowing.** Samsung Catalyst Fund led Normal's $50M strategic round March 2026 (normal computing samsung catalyst 50m) — signals foundry interest. (Note: process node / foundry partner for CN101 remains undisclosed as of May 2026.)
 
 ## Competitive landscape
 

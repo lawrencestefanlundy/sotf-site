@@ -28,8 +28,7 @@ sources:
 - '[[2026-07-26-humanoid-duty-cycle-thermal-constraint]]'
 - '[[2026-04-01-ai-power-thermal-binding-market-projection-35-of-new-ai]]'
 - '[[2025-08-19-thermal-stack-arms-race-thermal-interface-materials-market]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
@@ -38,23 +37,39 @@ mention_count: 96
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 8
+sources_30d: 5
 recent_mentions:
+- slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint
+  title: 'What actually limits a humanoid to minutes: the thermal cliff, not the battery'
+  date: '2026-07-26'
+  kind: web
+- slug: 2026-04-28-thermal-stack-arms-race-global-diamond-heat-spreaders
+  title: Global Diamond Heat Spreaders Emerging for AI Chip Cooling
+  date: '2026-04-28'
+  kind: web
+- slug: 2026-04-24-thermal-stack-arms-race-global-thermal-management-market-to
+  title: Global Thermal Management Market to Reach £22bn by 2030, Driven by AI and Data Centres
+  date: '2026-04-24'
+  kind: web
+- slug: 2026-04-10-thermal-stack-arms-race-liquid-cooling-for-ai-data-centers
+  title: Liquid Cooling For AI Data Centers Market Growth Analysis - Size and Forecast 2026-2030
+  date: '2026-04-10'
+  kind: web
+- slug: 2026-04-01-ai-power-thermal-binding-market-projection-35-of-new-ai
+  title: 'Market projection: 35%+ of new AI datacenter capacity specifying liquid cooling by 2026'
+  date: '2026-04-01'
+  kind: web
+- slug: 2026-03-08-diamonds-are-semiconductors-best-friend
+  title: Diamonds are Semiconductors' Best Friend 2026
+  date: '2026-03-08'
+  kind: web
+- slug: 2025-08-19-thermal-stack-arms-race-thermal-interface-materials-market
+  title: 'Thermal Interface Materials Market Report 2026-2036: High-Performance TIMs for Data Centers, AI Servers, and 5G Infrastructure'
+  date: '2025-08-19'
+  kind: web
 - slug: 2025-04-30-has-the-time-come-to-take-mortal
   title: Has the time come to take Mortal Computing seriously?
   date: '2025-04-30'
-  kind: substack
-- slug: 2025-04-16-the-state-of-photonic-computing
-  title: 'Photonic Computing: A Primer'
-  date: '2025-04-16'
-  kind: substack
-- slug: 2024-10-22-state-of-the-future-part-deux
-  title: 'An AI Thesis: State of the Future! Part Deux'
-  date: '2024-10-22'
-  kind: substack
-- slug: 2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth
-  title: '🔮E14: The Real AI Bottleneck: High Bandwidth Memory (HBM)'
-  date: '2023-09-08'
   kind: substack
 neighbors:
 - slug: thermal-stack-map

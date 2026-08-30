@@ -20,7 +20,7 @@ tags:
 - technology
 mention_count: 18
 sources_7d: 0
-sources_30d: 5
+sources_30d: 4
 recent_mentions:
 - slug: 2023-06-23-e05-the-future-of-edge-ai-brain-inspired
   title: '🔮 E05: Neuromorphic Computing & The Future of Edge AI'

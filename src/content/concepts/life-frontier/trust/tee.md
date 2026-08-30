@@ -14,8 +14,7 @@ sources:
 - '[[2025-10-09-a-specific-theory-of-sovereign-ai]]'
 - '[[2023-10-13-e19-trusted-execution-environments]]'
 - '[[2026-01-21-confidential-computing-hardware-tee-integration-in-cpus]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

@@ -10,8 +10,7 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2023-08-25-e12-nanomechanical-computing-gears]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
@@ -19,7 +18,7 @@ tags:
 mention_count: 56
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 13
+sources_30d: 9
 recent_mentions:
 - slug: 2023-08-25-e12-nanomechanical-computing-gears
   title: '🔮E12: Nanomechanical Computing- Gears of Space War? Old Ideas at New Scales'

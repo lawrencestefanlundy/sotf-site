@@ -12,8 +12,7 @@ sources:
 - '[[2026-04-07-optical-displaces-copper-all-ai-data-center-interconnects]]'
 - '[[2026-04-10-optical-interconnect-cpo-transition-co-packaged-optics-cpo]]'
 - '[[2026-06-15-pic-market-structure-2030-cpo-npo-market-expected-to-exceed]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

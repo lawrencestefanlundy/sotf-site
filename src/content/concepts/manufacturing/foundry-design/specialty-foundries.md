@@ -11,8 +11,7 @@ related_concepts: []
 sources:
 - '[[2026-07-11-neutral-pdk-heterogeneous-integration-landscape]]'
 - '[[2024-trendforce-foundry-2024]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

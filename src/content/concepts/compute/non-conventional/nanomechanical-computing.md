@@ -11,8 +11,7 @@ related_concepts: []
 sources:
 - '[[2023-10-19-e20-the-state-of-privacy-enhancing]]'
 - '[[2023-08-25-e12-nanomechanical-computing-gears]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

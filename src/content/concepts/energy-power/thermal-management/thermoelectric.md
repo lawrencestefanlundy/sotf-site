@@ -12,16 +12,15 @@ sources:
 - '[[2024-10-29-deploy-intelligence-too-cheap-to]]'
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2026-06-22-tim-approaches-full-sweep]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 56
+mention_count: 57
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 11
+sources_30d: 10
 recent_mentions:
 - slug: 2026-06-22-tim-approaches-full-sweep
   title: TIM approaches — exhaustive in-market + R&D sweep (vendors, classes, startups)

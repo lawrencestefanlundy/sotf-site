@@ -11,8 +11,7 @@ related_concepts: []
 sources:
 - '[[2026-07-21-robotically-assembled-electromagnetic-metamaterials-for-long]]'
 - '[[2025-08-19-thermal-stack-arms-race-thermal-interface-materials-market]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

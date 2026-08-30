@@ -16,8 +16,7 @@ sources:
 - '[[2026-06-04-globalfoundries-emram-22fdx-availability]]'
 - '[[2026-06-15-gf-investor-day-2026]]'
 - '[[2026-05-21-gf-quantum-technology-solutions]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

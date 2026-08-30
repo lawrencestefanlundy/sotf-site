@@ -28,8 +28,7 @@ sources:
 - '[[2026-06-17-femtoai-spu-ces2026]]'
 - '[[2026-08-03-perimeter-compute-wants-to-turn-spare-office-power-into-edge]]'
 - '[[2026-07-10-edge-buyer-kpi-sweep]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
@@ -40,7 +39,7 @@ descendants:
 - nvidia-jetson
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 5
+sources_30d: 4
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)

@@ -18,7 +18,7 @@ sources:
 - '[[2023-06-15-e04-no10-downing-street-and-vector]]'
 - '[[2026-06-22-llm-kernel-compiler-synthesis-evidence]]'
 frontier:
-- NVIDIA shipping a CUDA Tile-IR backend for Triton (Jan 2026) — co-opting the abstraction threat, or legitimising it? (Mirrors the open question on [[cuda-moat]].)
+- NVIDIA shipping a CUDA Tile-IR backend for Triton (Jan 2026) — co-opting the abstraction threat, or legitimising it? (Mirrors the open question on CUDA (the moat, and where it's eroding).)
 - Triton partially refutes 'single-source fails across hardware' WITHIN the GPU/SIMT family. Does anyone extend a kernel language past SIMT to non-GPU silicon, or is that the hard wall?
 last_updated: '2026-06-22'
 tags:

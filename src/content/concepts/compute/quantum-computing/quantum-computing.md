@@ -25,13 +25,12 @@ sources:
 - '[[2026-01-22-ai-chips-computeram-and-the-future]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 - '[[2025-03-05-occupational-downgrading]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 589
+mention_count: 590
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -50,7 +49,7 @@ descendants:
 - trapped-ion
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 15
+sources_30d: 14
 recent_mentions:
 - slug: 2026-08-13-infleqtion-reports-q2-2026-results-record-revenue-up-116-yoy
   title: 'Infleqtion Reports Q2 2026 Results: Record Revenue Up 116% YoY, Raised Guidance to $43M, and $100M CHIPS Act LOI - Quantum Computing Report'

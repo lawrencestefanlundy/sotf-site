@@ -12,8 +12,7 @@ parent_concepts:
 - lithography
 related_concepts: []
 sources: []
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

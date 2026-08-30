@@ -69,6 +69,11 @@ const description =
   deriveDescription(concept.body) ??
   `${concept.data.canonical_name} — ${macroName} / ${mesoName}. From Lawrence Lundy-Bryan's deep-tech reference, rebuilt nightly.`;
 
+// Stub pages (a handful of KB category placeholders) stay browsable but are
+// noindexed until they carry real content — thin pages drag search standing.
+const bodyWords = (concept.body ?? "").split(/\s+/).filter(Boolean).length;
+const noindex = bodyWords < 60 || (concept.body ?? "").includes("Stub leader page");
+
 const pageUrl = new URL(`${BASE}/${macro}/${meso}/${slug}/`, Astro.site).toString();
 const jsonLd = [
   {
@@ -97,7 +102,7 @@ const jsonLd = [
 ];
 ---
 
-<Base title={concept.data.canonical_name} description={description} jsonLd={jsonLd}>
+<Base title={concept.data.canonical_name} description={description} jsonLd={jsonLd} noindex={noindex}>
   <div class="breadcrumb">
     <a href={`${BASE}/`}>Now</a> &nbsp;/&nbsp;
     <a href={`${BASE}/${macro}/`}>{macroName}</a> &nbsp;/&nbsp;

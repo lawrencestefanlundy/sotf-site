@@ -33,8 +33,7 @@ sources:
 - '[[2025-05-03-datacentre-thermal-power-market-intel-foundry-thermal]]'
 - '[[2026-05-22-ai-power-thermal-binding-goldman-sachs-ai-infrastructure]]'
 - '[[2026-02-15-ai-power-thermal-binding-oracle-announces-direct-to-chip]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
@@ -42,7 +41,7 @@ tags:
 mention_count: 30
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint
   title: 'What actually limits a humanoid to minutes: the thermal cliff, not the battery'

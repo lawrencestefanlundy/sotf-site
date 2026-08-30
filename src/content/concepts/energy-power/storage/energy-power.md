@@ -9,8 +9,7 @@ parent_concepts:
 - storage
 related_concepts: []
 sources: []
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
@@ -78,7 +77,7 @@ descendants:
 - wireless-power-transfer
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-08-12-did-someone-just-figure-out-how-to-project-finance-nuclear--
   title: Did someone just figure out how to project finance nuclear? - Latitude Media

@@ -26,8 +26,7 @@ sources:
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2026-01-22-ai-chips-computeram-and-the-future]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
@@ -35,7 +34,7 @@ tags:
 mention_count: 815
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 6
+sources_30d: 7
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)

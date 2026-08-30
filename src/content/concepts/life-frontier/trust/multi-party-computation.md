@@ -18,8 +18,7 @@ sources:
 - '[[2023-07-06-e07-decentralised-ai]]'
 - '[[2022-12-15-unbundling-the-database]]'
 - '[[2023-05-05-interview-rick-hao-partner-at-speedinvest]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

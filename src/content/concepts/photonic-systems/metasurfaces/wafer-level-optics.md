@@ -9,8 +9,7 @@ parent_concepts:
 - metasurfaces-flat-optics
 related_concepts: []
 sources: []
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

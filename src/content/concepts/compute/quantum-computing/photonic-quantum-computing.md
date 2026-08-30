@@ -12,13 +12,12 @@ sources:
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
 - '[[2024-12-16-willow-and-the-race-to-quantum-advantage]]'
 - '[[2024-12-04-cubits-in-a-fridge-why-is-nobody]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 17
+mention_count: 18
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0

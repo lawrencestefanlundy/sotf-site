@@ -30,7 +30,7 @@ frontier:
 - Can SPAD arrays integrated on 300 mm CMOS silicon reach single-photon timing jitter below 50 ps at wafer-level yield?
 - Will InGaAs/InP APDs be displaced by Si-SPAD arrays for 1550 nm LiDAR as process nodes shrink, or does the NIR absorption edge remain a hard limit?
 - What gating/quench circuit co-integration approach best amortises the per-pixel readout overhead in megapixel SPAD imagers?
-- Does a single-photon detector (SPAD array / SNSPD) cross from niche into a system play big enough to escape the commodity-detector ceiling, outside incumbent capture? (see [[photonic-photodetection-layer]])
+- Does a single-photon detector (SPAD array / SNSPD) cross from niche into a system play big enough to escape the commodity-detector ceiling, outside incumbent capture? (see photonic photodetection layer)
 last_updated: 2026-06-17
 tags:
 - concept
@@ -111,11 +111,11 @@ The defining material parameters are the **impact-ionisation coefficients** (α 
 
 ## Applications
 
-SPADs are the key detector in **time-of-flight 3D imaging**, single-photon LiDAR, quantum-key-distribution receivers, and fluorescence-lifetime microscopy. Market sizing for the single-photon family (SPAD/SiPM ~$2.1B→$9.4B 2024–2031; SNSPD a smaller cryo-niche) is in **2026 06 17 Single Photon Detector Market Spad Snspd** — but SPAD/SiPM volume is incumbent-captured (Sony, STMicro, **Onsemi On Semiconductor**).
+SPADs are the key detector in **time-of-flight 3D imaging**, single-photon LiDAR, quantum-key-distribution receivers, and fluorescence-lifetime microscopy. Market sizing for the single-photon family (SPAD/SiPM ~$2.1B→$9.4B 2024–2031; SNSPD a smaller cryo-niche) is in single photon detector market spad snspd — but SPAD/SiPM volume is incumbent-captured (Sony, STMicro, **Onsemi On Semiconductor**).
 
 ## Investment view (vehicle-agnostic)
 
-The discrete high-speed / high-sensitivity detector is a single-component layer with a strategic-acquisition ceiling: value integrates into the silicon-photonics receiver or is bought by incumbents (the **Photonic Photodetection Layer** non-area). The larger, faster-growing pool is the single-photon / SiPM family for LiDAR, 3D sensing and quantum (**2026 06 17 Single Photon Detector Market Spad Snspd**: SPAD/SiPM ~$2.1B→$9.4B 2024–2031), but that volume is incumbent-captured (Sony, STMicro, **Onsemi On Semiconductor**) and SNSPD is a small cryogenic niche held by specialists.
+The discrete high-speed / high-sensitivity detector is a single-component layer with a strategic-acquisition ceiling: value integrates into the silicon-photonics receiver or is bought by incumbents (the **Photonic Photodetection Layer** non-area). The larger, faster-growing pool is the single-photon / SiPM family for LiDAR, 3D sensing and quantum (single photon detector market spad snspd: SPAD/SiPM ~$2.1B→$9.4B 2024–2031), but that volume is incumbent-captured (Sony, STMicro, **Onsemi On Semiconductor**) and SNSPD is a small cryogenic niche held by specialists.
 
 Routes: **public** via the captured incumbents and SiPh primes; **track** a SiPh-native SPAD displacement play (monolithic Ge APD/SPAD on a CMOS SiPh platform, defensible IP in quench circuitry and pixel architecture) — a foundry-process-advantaged angle (GF 45CLO / 22FDX) that a European team could pursue. Worked single-component pass-case: **Moon Photonics** (HgCdTe e-APD).
 

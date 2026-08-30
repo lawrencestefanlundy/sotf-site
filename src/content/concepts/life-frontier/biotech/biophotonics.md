@@ -9,13 +9,12 @@ parent_concepts:
 - biotech
 related_concepts: []
 sources: []
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 47
+mention_count: 48
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0

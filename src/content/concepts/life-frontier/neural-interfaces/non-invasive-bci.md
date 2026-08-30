@@ -11,8 +11,7 @@ related_concepts: []
 sources:
 - '[[2023-05-31-three-underrated-technologies-from]]'
 - '[[2026-06-13-noninvasive-bci-modality-research]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

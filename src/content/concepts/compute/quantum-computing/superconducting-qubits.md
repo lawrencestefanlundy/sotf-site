@@ -14,16 +14,15 @@ sources:
 - '[[2024-12-04-cubits-in-a-fridge-why-is-nobody]]'
 - '[[2025-09-18-qphox-and-rigetti-awarded-58m-contract-from-afrl-to-enable-o]]'
 - '[[2026-06-12-hku-sic-cryogenic-neuromorphic-chip-10mk]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 74
+mention_count: 75
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 14
+sources_30d: 10
 recent_mentions:
 - slug: 2026-06-12-hku-sic-cryogenic-neuromorphic-chip-10mk
   title: HKU world-first cryogenic neuromorphic chip at 10 mK (silicon carbide, impact-ionisation spiking)

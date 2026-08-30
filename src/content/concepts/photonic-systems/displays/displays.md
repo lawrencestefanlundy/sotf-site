@@ -13,8 +13,7 @@ sources:
 - '[[2026-06-15-ai-glasses-display-timing-idc-q1-2026-smart-glasses-surge]]'
 - '[[2026-06-15-luminate-ny-accelerator-terms]]'
 - '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
@@ -30,7 +29,7 @@ descendants:
 - micro-leds
 - oled
 sources_7d: 0
-sources_30d: 10
+sources_30d: 8
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)

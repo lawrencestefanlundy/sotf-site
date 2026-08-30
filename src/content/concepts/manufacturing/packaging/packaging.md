@@ -9,8 +9,7 @@ parent_concepts:
 - packaging
 related_concepts: []
 sources: []
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-07'
 tags:
 - concept

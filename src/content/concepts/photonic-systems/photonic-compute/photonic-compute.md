@@ -28,7 +28,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 100
+mention_count: 101
 descendants:
 - diffractive-deep-neural-network
 - diffractive-deep-neural-networks
@@ -38,7 +38,7 @@ descendants:
 - photonic-tensor-cores
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 11
+sources_30d: 9
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
@@ -115,7 +115,7 @@ The market read and routing live on **Photonic Compute Market** (interconnect/IO
 
 ## Update 10 Jul 2026 — the buyer-KPI test
 
-Placed in the **Inference Economics** frame (the 2 customer KPIs): photonic INTERCONNECT moves the datacentre tokens/watt KPI at system level and is where photonic value has actually settled (Lightmatter Passage, Celestial→Marvell $3.25B, the Salience pivot); photonic COMPUTE has yet to publish a buyable number on either KPI, failing the edge envelope on laser static power (Roelkens, 6 Jul 2026: no credible path; µW static needs hero photonic-crystal cavity lasers — **2026 07 06 Lawrence Re Quick Question On Laser Logic**) and inheriting an OEO conversion tax analogous to the [ADC Bottleneck (analog in-memory compute)](/compute/compute-architecture/adc-bottleneck/) in the datacentre. Company mapping: **2026 07 10 Two Kpi Approach Map**.
+Placed in the **Inference Economics** frame (the 2 customer KPIs): photonic INTERCONNECT moves the datacentre tokens/watt KPI at system level and is where photonic value has actually settled (Lightmatter Passage, Celestial→Marvell $3.25B, the Salience pivot); photonic COMPUTE has yet to publish a buyable number on either KPI, failing the edge envelope on laser static power (Roelkens, 6 Jul 2026: no credible path; µW static needs hero photonic-crystal cavity lasers — lawrence re quick question on laser logic) and inheriting an OEO conversion tax analogous to the [ADC Bottleneck (analog in-memory compute)](/compute/compute-architecture/adc-bottleneck/) in the datacentre. Company mapping: two kpi approach map.
 
 **The depth ceiling — the single most useful benchmark on this page.** The basic photonic functional unit is a **Mach-Zehnder interferometer**, performing an SU(2) matrix multiplication. Losses accumulate as they are stacked, capping the achievable **depth**, and depth sets the matrix size that can be mapped onto the chip.
 

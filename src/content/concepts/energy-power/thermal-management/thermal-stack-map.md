@@ -142,4 +142,4 @@ See frontmatter `frontier:` block.
 - **Ai Power Thermal Binding** / **Datacentre Thermal Power Market** — demand spine + buy-side market
 - **Cnt Tim Billion Revenue** / **Liquid Metal Tim** / **Sintered Silver Die Attach** — the L1 material slices
 - **In Chip Microfluidic Cooling** (L0) / **Dielectric Coolant Pfas Transition** (L5) — the thin-layer build-outs
-- **2026 06 22 Thermal Stack Layer Landscape** — the per-layer ground-truth source note
+- thermal stack layer landscape — the per-layer ground-truth source note

@@ -11,8 +11,7 @@ related_concepts: []
 sources:
 - '[[2026-08-03-spad-single-photon-market-scan]]'
 - '[[2026-06-02-singular-photonics-launch]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept

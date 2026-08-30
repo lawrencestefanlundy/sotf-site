@@ -24,8 +24,7 @@ sources:
 - '[[2026-06-03-datam-specialty-foundry-forecast-2035]]'
 - '[[2026-06-21-yole-mems-market-momentum]]'
 - '[[2026-06-21-marketsandmarkets-mems-2030]]'
-frontier:
-- ''
+frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
@@ -38,7 +37,7 @@ descendants:
 - sensors
 - spectral-sensing
 sources_7d: 0
-sources_30d: 9
+sources_30d: 7
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'

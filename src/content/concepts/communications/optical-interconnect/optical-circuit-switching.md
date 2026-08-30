@@ -22,15 +22,15 @@ frontier:
 - Does any standalone OCS company break the pattern in which no standalone OCS company has ever reached venture scale (they get acquired or stay small) by 2030, or do all outcomes stay strategic-acquisition?
 - Does ns-class optical switching arrive, moving OCS from slow topology reconfiguration toward NVLink-class fabric contention?
 - 'Which switching medium wins for scale-up AI fabrics: MEMS, LCOS, free-space diffractive, or soliton-microcomb?'
-- Is the binding constraint the switch medium or transceiver re-synchronisation (after the switch changes path, the link must re-lock its timing before data can flow, which can take longer than the data burst itself)? And if it is the timing, does the fix need a photonic oscillator ([[lumisync]]) or does an electronic precision clock + algorithms suffice ([[oriole-networks]])? (Two-source corroboration that the re-locking delay is the constraint; Oriole vs LumiSync diverge on the fix.)
-- 'The buffering crux for OPS: can all-optical packet switching ([[finchetto]]) actually run with NO buffering, or is packet switching fundamentally buffer-bound as Oriole/Zervas argue ([[2026-06-01-oriole-networks]])? Turns on output-contention handling and whether address-bus synchronisation reintroduces a re-locking delay.'
+- Is the binding constraint the switch medium or transceiver re-synchronisation (after the switch changes path, the link must re-lock its timing before data can flow, which can take longer than the data burst itself)? And if it is the timing, does the fix need a photonic oscillator (lumisync) or does an electronic precision clock + algorithms suffice (oriole networks)? (Two-source corroboration that the re-locking delay is the constraint; Oriole vs LumiSync diverge on the fix.)
+- 'The buffering crux for OPS: can all-optical packet switching (finchetto) actually run with NO buffering, or is packet switching fundamentally buffer-bound as Oriole/Zervas argue (2026 06 01 oriole networks)? Turns on output-contention handling and whether address-bus synchronisation reintroduces a re-locking delay.'
 last_updated: '2026-06-14'
 tags:
 - concept
 - technology
 mention_count: 22
 sources_7d: 0
-sources_30d: 5
+sources_30d: 2
 recent_mentions:
 - slug: 2026-06-15-gf-investor-day-2026
   title: GlobalFoundries Investor Day 2026 (presentation)

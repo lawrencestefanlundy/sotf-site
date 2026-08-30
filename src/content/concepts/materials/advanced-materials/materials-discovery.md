@@ -37,6 +37,18 @@ recent_mentions:
   date: '2024-09-19'
   kind: web
 neighbors:
+- slug: arpes
+  name: ARPES (Angular-Resolved Photoemission Spectroscopy)
+  path: /manufacturing/equipment-processes/arpes/
+  macro: manufacturing
+- slug: electron-scale-metrology
+  name: Electron-scale metrology
+  path: /manufacturing/equipment-processes/electron-scale-metrology/
+  macro: manufacturing
+- slug: stm
+  name: STM (Scanning Tunneling Microscopy)
+  path: /manufacturing/equipment-processes/stm/
+  macro: manufacturing
 - slug: electronic-materials
   name: Electronic Materials
   path: /materials/advanced-materials/electronic-materials/
@@ -52,7 +64,7 @@ neighbors:
 ---
 Materials discovery is the systematic search for novel solid-state compounds or thin-film compositions with target functional properties — electronic, optical, mechanical, or thermal. Historically Edisonian (combinatorial synthesis + post-growth characterisation), the field is shifting toward **autonomous discovery loops**: high-throughput density functional theory (DFT) calculations screen candidates, robotics or molecular-beam epitaxy (MBE) synthesise promising compositions, and in-situ spectroscopic probes close the feedback loop in near-real-time.
 
-The decisive measurement tools are angle-resolved photoemission spectroscopy (**Arpes** — resolves electronic band structure in momentum space), scanning tunnelling microscopy (**Stm** — atomic-scale surface states), and **Electron Scale Metrology** techniques such as contact-resistance measurement at heterojunction interfaces. Together these translate quantum-mechanical predictions into measurable material fingerprints during or immediately after deposition, reducing the synthesis-to-insight cycle from weeks to hours.
+The decisive measurement tools are angle-resolved photoemission spectroscopy ([ARPES (Angular-Resolved Photoemission Spectroscopy)](/manufacturing/equipment-processes/arpes/) — resolves electronic band structure in momentum space), scanning tunnelling microscopy ([STM (Scanning Tunneling Microscopy)](/manufacturing/equipment-processes/stm/) — atomic-scale surface states), and [Electron-scale metrology](/manufacturing/equipment-processes/electron-scale-metrology/) techniques such as contact-resistance measurement at heterojunction interfaces. Together these translate quantum-mechanical predictions into measurable material fingerprints during or immediately after deposition, reducing the synthesis-to-insight cycle from weeks to hours.
 
 ## Frontier
 

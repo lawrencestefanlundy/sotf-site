@@ -27,6 +27,14 @@ recent_mentions:
   date: '2025-12-09'
   kind: substack
 neighbors:
+- slug: deposition
+  name: Deposition
+  path: /manufacturing/equipment-processes/deposition/
+  macro: manufacturing
+- slug: etch
+  name: Etch
+  path: /manufacturing/equipment-processes/etch/
+  macro: manufacturing
 - slug: materials-process
   name: Materials & Process
   path: /materials/advanced-materials/materials-process/

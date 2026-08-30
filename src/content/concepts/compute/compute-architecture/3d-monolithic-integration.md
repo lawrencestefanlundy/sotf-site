@@ -44,6 +44,10 @@ neighbors:
   name: HBM (High-Bandwidth Memory)
   path: /memory/mainstream-memory/hbm/
   macro: memory
+- slug: 3d-stacking
+  name: 3d Stacking
+  path: /manufacturing/packaging/3d-stacking/
+  macro: manufacturing
 ---
 ## Monolithic 3D vs stacked 3D
 

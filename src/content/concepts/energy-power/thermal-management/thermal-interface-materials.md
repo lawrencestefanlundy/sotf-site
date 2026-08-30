@@ -80,6 +80,10 @@ neighbors:
   name: AI Thermal Stack Map (junction-to-ambient)
   path: /energy-power/thermal-management/thermal-stack-map/
   macro: energy-power
+- slug: ai-thermal-management
+  name: Ai Thermal Management
+  path: /energy-power/thermal-management/ai-thermal-management/
+  macro: energy-power
 - slug: phase-change-materials
   name: Phase-Change Materials (Thermal)
   path: /energy-power/thermal-management/phase-change-materials/

@@ -81,6 +81,10 @@ neighbors:
   name: Datacentre & Cloud Infrastructure
   path: /life-frontier/ai-infrastructure/datacentre-cloud-infrastructure/
   macro: life-frontier
+- slug: ai-thermal-management
+  name: Ai Thermal Management
+  path: /energy-power/thermal-management/ai-thermal-management/
+  macro: energy-power
 ---
 ## Physics / mechanism
 

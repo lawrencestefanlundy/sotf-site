@@ -34,6 +34,10 @@ neighbors:
   name: MLIR (Multi-Level Intermediate Representation)
   path: /compute/compute-architecture/mlir/
   macro: compute
+- slug: cuda-moat
+  name: Cuda Moat
+  path: /ai-software/models-inference/cuda-moat/
+  macro: ai-software
 - slug: tvm
   name: Apache TVM
   path: /compute/compute-architecture/tvm/

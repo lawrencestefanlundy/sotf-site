@@ -57,6 +57,10 @@ neighbors:
   name: HBM (High-Bandwidth Memory)
   path: /memory/mainstream-memory/hbm/
   macro: memory
+- slug: weight-reuse-factor
+  name: Weight Reuse Factor
+  path: /compute/compute-architecture/weight-reuse-factor/
+  macro: compute
 - slug: charge-domain-compute
   name: Charge-Domain Compute
   path: /compute/non-conventional/charge-domain-compute/

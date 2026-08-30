@@ -48,6 +48,10 @@ neighbors:
   name: Photonic Tensor Cores
   path: /photonic-systems/photonic-compute/photonic-tensor-cores/
   macro: photonic-systems
+- slug: diffractive-deep-neural-network
+  name: Diffractive Deep Neural Network
+  path: /photonic-systems/photonic-compute/diffractive-deep-neural-network/
+  macro: photonic-systems
 - slug: spatial-light-modulators
   name: Spatial Light Modulators (SLMs)
   path: /photonic-systems/modulators-detectors/spatial-light-modulators/
@@ -67,7 +71,7 @@ neighbors:
 ---
 **Photonic compute and memory** is the category of architectures that process or store information using light rather than — or alongside — electrons. It is the hardware substrate for the investment theses explored in **Photonic Compute Market** and **Optical Memory Market**, and covers two distinct device classes:
 
-**Photonic compute** uses optical interference, diffraction, or nonlinear effects to perform operations — most commonly **matrix–vector multiplication** — at the speed of light and without charge transport. Implementations range from Mach–Zehnder interferometer meshes (integrated silicon-photonic) and [SLM](/photonic-systems/modulators-detectors/spatial-light-modulators/)-based free-space matmul, to **D²NNs** and [Photonic Tensor Cores](/photonic-systems/photonic-compute/photonic-tensor-cores/). The canonical figure of merit is **operations-per-joule at the system boundary**, which must account for optical-to-electrical-to-optical (O/E/O) conversion losses that can erase the in-fabric efficiency gain. [Optical Neural Networks](/photonic-systems/photonic-compute/optical-neural-networks/) are the primary inference target.
+**Photonic compute** uses optical interference, diffraction, or nonlinear effects to perform operations — most commonly **matrix–vector multiplication** — at the speed of light and without charge transport. Implementations range from Mach–Zehnder interferometer meshes (integrated silicon-photonic) and [SLM](/photonic-systems/modulators-detectors/spatial-light-modulators/)-based free-space matmul, to [D²NNs](/photonic-systems/photonic-compute/diffractive-deep-neural-network/) and [Photonic Tensor Cores](/photonic-systems/photonic-compute/photonic-tensor-cores/). The canonical figure of merit is **operations-per-joule at the system boundary**, which must account for optical-to-electrical-to-optical (O/E/O) conversion losses that can erase the in-fabric efficiency gain. [Optical Neural Networks](/photonic-systems/photonic-compute/optical-neural-networks/) are the primary inference target.
 
 ## Frontier
 

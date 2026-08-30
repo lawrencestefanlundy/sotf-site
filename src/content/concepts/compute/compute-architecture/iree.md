@@ -42,6 +42,10 @@ neighbors:
   name: Apache TVM
   path: /compute/compute-architecture/tvm/
   macro: compute
+- slug: cuda-moat
+  name: Cuda Moat
+  path: /ai-software/models-inference/cuda-moat/
+  macro: ai-software
 ---
 > The **MLIR-native end-to-end compiler + runtime** of the [AI Compiler & Heterogeneous Programming-Model Landscape](/compute/compute-architecture/ai-compiler-landscape/) — the most direct realisation of "compile one model, run on many genuinely different backends." For diligence: of the open stacks, **IREE is the most direct competitor on the literal portability claim**, and it is now effectively **AMD-backed**, so it is free, vendor-funded, and motivated to break NVIDIA lock-in.
 

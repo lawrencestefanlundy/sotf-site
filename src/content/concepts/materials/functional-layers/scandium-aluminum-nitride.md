@@ -38,6 +38,10 @@ neighbors:
   name: Aluminum Nitride (AlN)
   path: /materials/functional-layers/aluminum-nitride/
   macro: materials
+- slug: electro-optic-modulators
+  name: Electro Optic Modulators
+  path: /photonic-systems/modulators-detectors/electro-optic-modulators/
+  macro: photonic-systems
 - slug: piezoelectric
   name: Piezoelectric
   path: /materials/functional-layers/piezoelectric/

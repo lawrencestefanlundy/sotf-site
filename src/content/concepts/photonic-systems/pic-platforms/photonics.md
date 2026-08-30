@@ -93,7 +93,7 @@ neighbors: []
 
 Photonics is the generation, manipulation, and detection of photons across UV, visible, near-IR, and mid-IR. Photons carry no charge and no rest mass, so optical signals move with low loss and no resistive heating; the cost is that photons barely interact with each other, so switching, gain, memory, and non-reciprocity all need an intermediating material. Nearly every platform battle in the field is a fight over which material stack best mediates light-matter interaction while staying manufacturable.
 
-Sub-field map (this page is the orientation layer; depth belongs on child pages such as [Free-Space Photonics](/communications/fibre-and-free-space/free-space-photonics/), **Microwave Photonics**, [Mid-Infrared Photonics](/photonic-systems/light-sources/mid-ir-photonics/), **Optical Frequency Comb**):
+Sub-field map (this page is the orientation layer; depth belongs on child pages such as [Free-Space Photonics](/communications/fibre-and-free-space/free-space-photonics/), [Microwave Photonics](/communications/wireless/microwave-photonics/), [Mid-Infrared Photonics](/photonic-systems/light-sources/mid-ir-photonics/), [Optical Frequency Comb](/photonic-systems/light-sources/optical-frequency-comb/)):
 
 ## Competitive landscape
 

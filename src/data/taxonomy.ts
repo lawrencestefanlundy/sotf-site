@@ -1,5 +1,5 @@
 /**
- * Canonical descriptions for the 9 macros + 42 mesos.
+ * Canonical descriptions for the 12 macros + 53 mesos.
  *
  * Macro and meso names are referenced by slug. Descriptions are 1-2 short
  * sentences — readable, opinionated, not promotional.
@@ -28,6 +28,9 @@ export const MACROS: MacroEntry[] = [
   { slug: "materials",        name: "Materials",        blurb: "Substrates, functional layers, advanced materials, coatings. What chips are made of — silicon and far beyond." },
   { slug: "photonic-systems", name: "Photonic Systems", blurb: "PIC platforms, light sources, displays, modulators, metasurfaces, photonic compute. Light as the carrier — increasingly the cheapest way to move and process information." },
   { slug: "life-frontier",    name: "Life & Frontier",  blurb: "Biotech, neural interfaces, space, AI infrastructure, trust. The edges of the stack where deep-tech reaches into bodies, orbits, and institutions." },
+  { slug: "robotics",         name: "Robotics",         blurb: "Embodiment and robot learning. Physical AI — where models meet motors, and the data flywheel decides who wins." },
+  { slug: "semiconductor-process-flow", name: "Process Flow", blurb: "The chip lifecycle step by step: design, wafer, frontend fab, test, packaging. A guided walk through how sand becomes silicon." },
+  { slug: "ai-software",      name: "AI & Software",    blurb: "Agents, models, inference economics, vertical AI, AI security. The layer where compute's value actually gets captured." },
 ];
 
 export const MESOS: MesoEntry[] = [
@@ -132,6 +135,34 @@ export const MESOS: MesoEntry[] = [
     blurb: "AI-grade datacentre real estate, GW-scale power delivery, datacentre cloud infrastructure, sovereign AI. The physical and political substrate under the AI scaling laws." },
   { macroSlug: "life-frontier", slug: "trust", name: "Trust",
     blurb: "Cybersecurity, federated learning, homomorphic encryption, MPC, zero-knowledge proofs, TEEs, differential privacy, data unions. The cryptographic and architectural layer that makes shared computation possible without shared visibility." },
+
+  // ── ROBOTICS ────────────────────────────────────────────────────────
+  { macroSlug: "robotics", slug: "embodiment", name: "Embodiment",
+    blurb: "Actuators, dexterous manipulation, tactile sensing, humanoid platforms, factory automation. The hardware half of physical AI — where torque, compliance and cost decide what's buildable." },
+  { macroSlug: "robotics", slug: "robot-learning", name: "Robot learning",
+    blurb: "Vision-language-action models, world models, sim-to-real transfer, robot data collection. The bet that robotics is now a data problem wearing a hardware costume." },
+
+  // ── PROCESS FLOW ────────────────────────────────────────────────────
+  { macroSlug: "semiconductor-process-flow", slug: "design", name: "Design",
+    blurb: "RTL to tape-out: synthesis, place-and-route, timing signoff, verification, DFT, IP licensing, OPC. Where a chip exists only as software." },
+  { macroSlug: "semiconductor-process-flow", slug: "wafer-materials", name: "Wafer materials",
+    blurb: "Polysilicon, crystal growth, slicing and polishing. Sand to substrate." },
+  { macroSlug: "semiconductor-process-flow", slug: "frontend", name: "Frontend",
+    blurb: "Oxidation, lithography, etch, implant, deposition, CMP, the transistor module, damascene interconnect. The wafer's thousand-step gauntlet." },
+  { macroSlug: "semiconductor-process-flow", slug: "test-metrology", name: "Test & metrology",
+    blurb: "Defect inspection, CD/overlay metrology, wafer sort, parametric test, final test, burn-in. Where yield is measured and margins are made." },
+  { macroSlug: "semiconductor-process-flow", slug: "packaging", name: "Packaging",
+    blurb: "Backgrind, dicing, die attach, bonding, molding, substrates, bumping, 2.5D/3D/fan-out, OSAT. The back end that became the front line." },
+
+  // ── AI & SOFTWARE ───────────────────────────────────────────────────
+  { macroSlug: "ai-software", slug: "agents", name: "Agents",
+    blurb: "AI agents, orchestration, agent identity and KYA, agentic payments, x402, stablecoin rails. Software that acts — and the trust and money plumbing it needs." },
+  { macroSlug: "ai-software", slug: "models-inference", name: "Models & inference",
+    blurb: "LLMs, open-weight models, post-training, RL, inference economics, KV cache, state-space models, the CUDA moat. What the models are and what they cost to run." },
+  { macroSlug: "ai-software", slug: "ai-applications", name: "AI applications",
+    blurb: "AI for EDA, diagnostics, materials discovery, simulation, physics, geospatial. Vertical AI where the domain is the moat." },
+  { macroSlug: "ai-software", slug: "ai-security", name: "AI security",
+    blurb: "Workload sandboxing, hypervisor isolation, microkernels, unikernels. Running untrusted intelligence safely." },
 ];
 
 export function macroBySlug(slug: string): MacroEntry | undefined {

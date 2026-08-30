@@ -37,6 +37,10 @@ neighbors:
   name: Lithium Niobate (TFLN)
   path: /materials/functional-layers/lithium-niobate-tfln/
   macro: materials
+- slug: electro-optic-modulators
+  name: Electro Optic Modulators
+  path: /photonic-systems/modulators-detectors/electro-optic-modulators/
+  macro: photonic-systems
 - slug: piezoelectric
   name: Piezoelectric
   path: /materials/functional-layers/piezoelectric/

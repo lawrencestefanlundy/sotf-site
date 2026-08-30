@@ -43,6 +43,10 @@ neighbors:
   name: Piezoelectric
   path: /materials/functional-layers/piezoelectric/
   macro: materials
+- slug: electro-optic-modulators
+  name: Electro Optic Modulators
+  path: /photonic-systems/modulators-detectors/electro-optic-modulators/
+  macro: photonic-systems
 - slug: silicon-photonics
   name: Silicon Photonics
   path: /photonic-systems/pic-platforms/silicon-photonics/

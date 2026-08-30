@@ -16,13 +16,6 @@ related_concepts:
 - physics-native-compute
 sources:
 - '[[2024-12-04-cubits-in-a-fridge-why-is-nobody]]'
-frontier:
-- At what problem size and density does a quantum annealer outperform best-in-class classical heuristics (simulated annealing, CPLEX) on commercially relevant instances, and has that crossover been demonstrated outside benchmark suites?
-- Does coherent quantum annealing (superconducting qubits with tunable couplers) provide a genuine advantage over classical Ising-machine emulators (CMOS, FPGA-based SIM) for sparse graphs typical of logistics and finance problems?
-- What is the viable path to room-temperature quantum-annealing hardware, and is gate-native (QAOA on gate-model QPU) or dedicated annealing the better long-run substrate for combinatorial problems?
-last_updated: 2026-06-02
-tags:
-- concept
 mention_count: 39
 sources_7d: 0
 sources_30d: 5
@@ -57,16 +50,39 @@ neighbors:
   path: /compute/non-conventional/physics-native-compute/
   macro: compute
 ---
-Quantum annealing is a metaheuristic optimisation technique that exploits quantum mechanical tunnelling to escape local minima when searching the energy landscape of a combinatorial problem. It maps a problem onto an Ising Hamiltonian — a network of binary spins with pairwise couplings — and evolves the system from an initial quantum superposition toward its ground state by slowly reducing a transverse magnetic field (the quantum fluctuation term). The goal is for the system to settle in, or near, the lowest-energy configuration, which corresponds to the optimal or near-optimal solution.
+The cryogenic member of the Ising-machine family. A quantum annealer encodes a problem as an Ising Hamiltonian across superconducting flux qubits, starts the system in the ground state of a strong transverse field, then slowly turns that field down. If the evolution is slow enough, the adiabatic theorem says the system stays in its ground state and ends up in the ground state of your problem — the answer.
 
-The physics distinguishing it from classical simulated annealing: tunnelling allows the system to pass through energy barriers rather than over them, which in theory enables faster escape from local minima at low temperature. Whether this translates to a practical advantage on real problem instances remains the central open question — benchmark evidence is mixed and highly instance-dependent.
+The claimed advantage over classical annealing is **tunnelling**: where a thermal annealer must climb over an energy barrier to escape a local minimum, a quantum system can pass through it. Whether that mechanism delivers a practical speedup on problems anyone cares about has been contested for over a decade, and the contest is not going the technology's way.
 
-The dominant hardware platform is the superconducting flux-qubit architecture pioneered by **D Wave Systems** (Advantage system: ~5,000 qubits with Pegasus graph topology). **Qilimanjaro Quantum Tech** is developing coherent quantum annealing processors. Classical digital annealers — CMOS or FPGA chips that emulate Ising dynamics without quantum coherence — are built by **Fujitsu Digital Annealer Division** and others; they reach thousands of spins at room temperature, making hardware comparison with true quantum annealers non-trivial.
+## Where it stands
 
-In the KB, quantum annealing sits within the **Extreme Low Power Compute** thesis as the "Ising/annealing" substrate vertical — investable where there is a demonstrated energy-per-operation advantage on a specific customer problem class, not as a general-purpose compute bet. Its closest conceptual siblings are [Stochastic / Ising Machines](/compute/non-conventional/stochastic-ising-machines/) (classical probabilistic emulation) and [Coherent Ising Machine](/compute/non-conventional/coherent-ising-machine/) (photonic or optical-parametric Ising machines).
+****D Wave Quantum**** is effectively the whole commercial field. Its sixth-generation **Advantage2** (~4,400 qubits) reached general availability in **May 2025**. Reported customer usage of Advantage2 systems grew **314%** year on year.
 
-## Frontier
+The scientific story is more turbulent:
 
-- At what problem size and density does a quantum annealer outperform best-in-class classical heuristics (simulated annealing, CPLEX) on commercially relevant instances, and has that crossover been demonstrated outside benchmark suites?
-- Does coherent quantum annealing (superconducting qubits with tunable couplers) provide a genuine advantage over classical Ising-machine emulators (CMOS, FPGA-based SIM) for sparse graphs typical of logistics and finance problems?
-- What is the viable path to room-temperature quantum-annealing hardware, and is gate-native (QAOA on gate-model QPU) or dedicated annealing the better long-run substrate for combinatorial problems?
+- **March 2025** — D-Wave published in *Science*, reporting that Advantage2 simulated the non-equilibrium dynamics of a spin glass faster and more accurately than Oak Ridge's Frontier supercomputer could, with chief scientist Mohammad Amin claiming problems "that cannot be solved classically" ([Physics World](https://physicsworld.com/a/d-wave-systems-claims-quantum-advantage-but-some-physicists-are-not-convinced/), [HPCwire](https://www.hpcwire.com/2025/03/13/d-wave-reports-quantum-supremacy-stirs-immediate-challenge-and-rebuttal/)).
+- **Within days** — two independent groups, in Switzerland and the US, posted arXiv preprints reporting the same calculations classically.
+- **July 2026** — the Flatiron Institute matched the *Science* paper's spin-glass dynamics using 3D tensor networks with belief propagation, **on a laptop, with open-source software** ([TechTimes](https://www.techtimes.com/articles/321190/20260721/d-wave-said-classical-computers-could-not-match-its-quantum-chip-laptop-just-did.htm)).
+- D-Wave has **formally rebutted**, arguing the classical method does not reproduce the full result and that the hardest instances and highest-order measurements remain out of classical reach.
+
+## The honest read
+
+**This is the canonical cautionary tale for the whole Ising-machine field, and it should be read as such rather than as a story about quantum.** A well-funded company with real hardware, real customers and a *Science* paper made a specific advantage claim, and within sixteen months a laptop reproduced it. The pattern — impressive physics demonstration, quiet classical catch-up, receding advantage claim — has now repeated enough times to be the base rate. Anyone underwriting a physical Ising machine ([Coherent Ising Machine](/compute/non-conventional/coherent-ising-machine/), [Stochastic / Ising Machines](/compute/non-conventional/stochastic-ising-machines/), [Thermodynamic Computing](/compute/non-conventional/thermodynamic-computing/)) is betting they escape a pattern that has caught every predecessor.
+
+Note what the strongest surviving claim actually is: the *hardest instances* and *highest-order measurements*. That is a retreat to a narrow technical frontier, not a commercial position. And the demonstration was **spin-glass simulation** — physics, where the hardware is a natural analogue of the problem — not the optimisation problems the machines are sold for.
+
+Two structural points also matter for the room-temperature families, because both cut in their favour:
+
+- **Cryogenics is a genuine cost and integration burden.** ~15 mK dilution refrigerators are why the room-temperature pitch works, and it is the one uncontested advantage its competitors have.
+- **Embedding overhead is worse here than anywhere.** D-Wave's qubits are physically connected in a fixed sparse lattice, so a logical problem variable often needs a *chain* of physical qubits to reach its neighbours. Overhead grows severely with connectivity density — dense problems can consume the machine before they are solved. See [Combinatorial Optimisation](/compute/non-conventional/combinatorial-optimisation/).
+
+## Relationship to the neighbours
+
+Same Ising target, different escape mechanism. [Coherent Ising Machine](/compute/non-conventional/coherent-ising-machine/) and oscillator-based machines relax deterministically; [Stochastic / Ising Machines](/compute/non-conventional/stochastic-ising-machines/) and [Thermodynamic Computing](/compute/non-conventional/thermodynamic-computing/) escape minima by thermal sampling; a quantum annealer escapes by tunnelling. The room-temperature families exist substantially because the cryogenic one proved expensive and its advantage proved contestable — which is why every one of their pitches opens by naming D-Wave.
+
+## Evaluation test
+
+1. **Simulation or optimisation?** Spin-glass physics is the home fixture. Commercial optimisation is the away one, and the records differ.
+2. **Has a classical method matched it, and how long did that take?** The gap has been shrinking, and the July 2026 result set a new low bar for the effort required.
+3. **What did embedding cost?** Logical variables versus physical qubits consumed is the number that reveals whether a demo scales.
+4. **Usage or production?** Growth in access hours is not the same as workloads that would be paid for at unsubsidised prices.

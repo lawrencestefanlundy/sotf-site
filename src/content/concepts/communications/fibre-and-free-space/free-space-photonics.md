@@ -78,6 +78,10 @@ neighbors:
   name: Optical Interconnect
   path: /communications/optical-interconnect/optical-interconnect/
   macro: communications
+- slug: diffractive-deep-neural-network
+  name: Diffractive Deep Neural Network
+  path: /photonic-systems/photonic-compute/diffractive-deep-neural-network/
+  macro: photonic-systems
 - slug: spatial-light-modulators
   name: Spatial Light Modulators (SLMs)
   path: /photonic-systems/modulators-detectors/spatial-light-modulators/

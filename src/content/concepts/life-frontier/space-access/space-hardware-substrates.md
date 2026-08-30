@@ -41,6 +41,10 @@ neighbors:
   name: Diamond Heat Spreader
   path: /energy-power/thermal-management/diamond-heat-spreader/
   macro: energy-power
+- slug: ai-thermal-management
+  name: Ai Thermal Management
+  path: /energy-power/thermal-management/ai-thermal-management/
+  macro: energy-power
 ---
 ## What it is
 

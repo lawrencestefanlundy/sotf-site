@@ -50,6 +50,6 @@ neighbors:
   path: /memory/emerging-memory/computational-storage/
   macro: memory
 ---
-An open interconnect standard that lets hosts pool, expand and share DRAM across a fabric (CXL memory expanders, smart-memory controllers, switches). Rides the HBM-scarcity / disaggregated-memory why-now, but the value sits at the controller/standards/system layer (Astera Labs, Marvell, Panmnesia, Montage) — out of the device/materials mandate; routed to a software-layer fund.
+Open cache-coherent interconnect standard built on PCIe physicals, whose main economic promise is **memory disaggregation**: pooling DRAM behind a switch so hosts share capacity instead of stranding it per-server. CXL 3.x adds fabric topologies and peer-to-peer sharing; CXL 3.2 is the current revision new silicon targets.
 
-*Concept stub created 2026-06-03 from the semi+photonics gap-map research (segment backfill).*
+**Why the page exists now.** Q2 2026 put real capital on the *computational* variant: ****Xcena**** raised a $135M Series B for CXL 3.2 pooled DDR5 with near-data processing (thousands of embedded RISC-V cores doing KV-cache management and preprocessing on the memory tier), and Dnotitia (Seoul, ~$61M Series A, no KB page yet) is building a vector-processing unit on the same disaggregated-memory logic. Both are Korean, so the non-area's European re-open trigger is unfired, but the incumbent-capture premise now has a well-funded independent counter-example to watch. Evidence lands on the non-area's ledger; papers and standards activity tagged here join it via the graph index.

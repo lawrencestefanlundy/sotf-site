@@ -41,6 +41,10 @@ sources_7d: 0
 sources_30d: 16
 recent_mentions: []
 neighbors:
+- slug: chemical-vapor-deposition
+  name: CVD (Chemical Vapor Deposition)
+  path: /manufacturing/equipment-processes/chemical-vapor-deposition/
+  macro: manufacturing
 - slug: ald-atomic-layer-deposition
   name: ALD (Atomic Layer Deposition)
   path: /manufacturing/equipment-processes/ald-atomic-layer-deposition/

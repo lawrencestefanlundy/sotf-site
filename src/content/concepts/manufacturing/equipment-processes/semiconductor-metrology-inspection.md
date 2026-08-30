@@ -74,6 +74,10 @@ neighbors:
   name: Etch Tools (ALE, plasma etch)
   path: /manufacturing/equipment-processes/etch-tools/
   macro: manufacturing
+- slug: electron-scale-metrology
+  name: Electron-scale metrology
+  path: /manufacturing/equipment-processes/electron-scale-metrology/
+  macro: manufacturing
 - slug: ald-atomic-layer-deposition
   name: ALD (Atomic Layer Deposition)
   path: /manufacturing/equipment-processes/ald-atomic-layer-deposition/

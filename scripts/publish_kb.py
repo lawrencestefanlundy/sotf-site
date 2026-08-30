@@ -45,6 +45,7 @@ BASE_PATH = os.environ.get("SOTF_BASE", "/sotf-site").rstrip("/")
 PUBLIC_MACROS = {
     "compute", "memory", "sensing", "communications", "energy-power",
     "manufacturing", "materials", "photonic-systems", "life-frontier",
+    "robotics", "semiconductor-process-flow", "ai-software",
 }
 
 # Source kinds that are public-safe
@@ -522,7 +523,7 @@ def filter_concept(fm: dict, body: str, slug: str) -> tuple[dict, str]:
         out["sources"] = filter_sources(out["sources"])
 
     # Compute freshness (uses pre-filter source list — captures all citations including private)
-    freshness = compute_freshness(slug, fm.get("sources", []))
+    freshness = compute_freshness(slug, fm.get("sources") or [])
     out["sources_7d"] = freshness["sources_7d"]
     out["sources_30d"] = freshness["sources_30d"]
 
@@ -675,8 +676,7 @@ def main():
     by_macro = Counter(r.get("macro") for r in rows if r["status"] in ("emitted", "would emit"))
     print()
     print("By macro:")
-    for macro in ["compute", "memory", "sensing", "communications", "energy-power",
-                  "manufacturing", "materials", "photonic-systems", "life-frontier"]:
+    for macro in sorted(PUBLIC_MACROS):
         if macro in by_macro:
             print(f"  {macro:<22} {by_macro[macro]}")
 

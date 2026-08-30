@@ -52,6 +52,10 @@ neighbors:
   name: Piezoelectric
   path: /materials/functional-layers/piezoelectric/
   macro: materials
+- slug: electro-optic-modulators
+  name: Electro Optic Modulators
+  path: /photonic-systems/modulators-detectors/electro-optic-modulators/
+  macro: photonic-systems
 ---
 *Wide-bandgap photonic + piezoelectric platform with UV transparency*
 

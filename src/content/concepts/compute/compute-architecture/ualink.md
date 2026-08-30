@@ -67,6 +67,10 @@ recent_mentions:
   date: '2026-03-01'
   kind: web
 neighbors:
+- slug: cuda-moat
+  name: Cuda Moat
+  path: /ai-software/models-inference/cuda-moat/
+  macro: ai-software
 - slug: co-packaged-optics
   name: Co-Packaged Optics
   path: /manufacturing/packaging/co-packaged-optics/

@@ -80,6 +80,10 @@ neighbors:
   name: MLC-LLM (Machine Learning Compilation for LLMs)
   path: /compute/compute-architecture/mlc-llm/
   macro: compute
+- slug: cuda-moat
+  name: Cuda Moat
+  path: /ai-software/models-inference/cuda-moat/
+  macro: ai-software
 ---
 > The **breadth / edge** compiler of the [AI Compiler & Heterogeneous Programming-Model Landscape](/compute/compute-architecture/ai-compiler-landscape/), and the closest historical precedent for "the cross-hardware compiler company" — a precedent that ended in absorption by NVIDIA (see **Octoml**). Two distinctive things matter for diligence: its **search-based auto-tuning** (a real differentiator vs [XLA / OpenXLA](/compute/compute-architecture/xla/)) and **BYOC**, the mechanism novel-silicon companies actually use to plug in.
 

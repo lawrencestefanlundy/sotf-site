@@ -79,6 +79,10 @@ recent_mentions:
   date: '2023-07-23'
   kind: substack
 neighbors:
+- slug: memristor
+  name: Memristor
+  path: /memory/emerging-memory/memristor/
+  macro: memory
 - slug: rram-reram
   name: RRAM / ReRAM
   path: /memory/emerging-memory/rram-reram/

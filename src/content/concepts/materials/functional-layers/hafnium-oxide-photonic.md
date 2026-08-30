@@ -39,6 +39,18 @@ neighbors:
   name: Silicon Photonics
   path: /photonic-systems/pic-platforms/silicon-photonics/
   macro: photonic-systems
+- slug: electro-optic-modulators
+  name: Electro Optic Modulators
+  path: /photonic-systems/modulators-detectors/electro-optic-modulators/
+  macro: photonic-systems
+- slug: gallium-foundries
+  name: Gallium Foundries
+  path: /manufacturing/foundry-design/gallium-foundries/
+  macro: manufacturing
+- slug: 22fdx
+  name: 22fdx
+  path: /manufacturing/foundry-design/22fdx/
+  macro: manufacturing
 ---
 *CMOS-native dielectric emerging as photonic EO + ferroelectric memory platform*
 

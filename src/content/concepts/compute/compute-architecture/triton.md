@@ -18,7 +18,7 @@ sources:
 - '[[2023-06-15-e04-no10-downing-street-and-vector]]'
 - '[[2026-06-22-llm-kernel-compiler-synthesis-evidence]]'
 frontier:
-- NVIDIA shipping a CUDA Tile-IR backend for Triton (Jan 2026) — co-opting the abstraction threat, or legitimising it? (Mirrors the open question on CUDA (the moat, and where it's eroding).)
+- NVIDIA shipping a CUDA Tile-IR backend for Triton (Jan 2026) — co-opting the abstraction threat, or legitimising it? (Mirrors the open question on Cuda Moat.)
 - Triton partially refutes 'single-source fails across hardware' WITHIN the GPU/SIMT family. Does anyone extend a kernel language past SIMT to non-GPU silicon, or is that the hard wall?
 last_updated: '2026-06-22'
 tags:
@@ -48,6 +48,10 @@ neighbors:
   name: XLA / OpenXLA
   path: /compute/compute-architecture/xla/
   macro: compute
+- slug: cuda-moat
+  name: Cuda Moat
+  path: /ai-software/models-inference/cuda-moat/
+  macro: ai-software
 ---
 > The **kernel-language** layer of the [AI Compiler & Heterogeneous Programming-Model Landscape](/compute/compute-architecture/ai-compiler-landscape/). The crucial diligence fact: Triton **partially refutes the strongest form of the "single-source kernel languages structurally fail for heterogeneous hardware" claim** — it is single-source and runs across NVIDIA + AMD + experimental Intel/CPU. But only *within* the GPU/SIMT family. That boundary is precisely where a "new programming model" startup's defensible wedge has to live.
 
@@ -63,7 +67,7 @@ A **Python-embedded language and compiler for writing GPU kernels** at the *tile
 
 Triton is **fundamentally GPU-oriented** — its abstraction is tile-over-SIMT, designed for the GPU memory hierarchy and Tensor Cores. It does **not** natively target wafer-scale, in-memory/analog, or optical silicon. Its "heterogeneity" is **multi-GPU-vendor + experimental CPU** via separately maintained backends: NVIDIA (mature), **AMD** (mature enough that vLLM V1's attention path on AMD is Triton kernels), **Intel GPU** (in development), experimental **CPU** (official `triton-cpu`, Microsoft `triton-shared`, Cambricon `triton-linalg`, a RISC-V effort). So Triton reaches "one *kernel language*, several *GPU-like* targets" — broader than CUDA, but it stops at the boundary of the SIMT/GPU execution model. It is a *kernel* abstraction, not a whole-program/graph abstraction like [XLA / OpenXLA](/compute/compute-architecture/xla/), and not an architecture-neutral programming model for radically different silicon.
 
-**The Tile-IR signal (verified, strategically important).** NVIDIA published a **CUDA Tile-IR backend for OpenAI Triton on 30 Jan 2026** — Triton can compile to CUDA Tile IR instead of PTX (requires CUDA 13.1+ and Blackwell; incomplete). What it signals: **NVIDIA is moving its own virtual ISA away from per-thread SIMT toward a tile/tensor-based model** — conceding that the *tile* abstraction (Triton's whole premise) is right for Tensor-Core-era hardware, and co-opting Triton as a first-class front-end onto NVIDIA's next-gen IR. The incumbent endorsing the higher-level model and pulling it into its orbit. Mirrors the open question on **Cuda Moat**.
+**The Tile-IR signal (verified, strategically important).** NVIDIA published a **CUDA Tile-IR backend for OpenAI Triton on 30 Jan 2026** — Triton can compile to CUDA Tile IR instead of PTX (requires CUDA 13.1+ and Blackwell; incomplete). What it signals: **NVIDIA is moving its own virtual ISA away from per-thread SIMT toward a tile/tensor-based model** — conceding that the *tile* abstraction (Triton's whole premise) is right for Tensor-Core-era hardware, and co-opting Triton as a first-class front-end onto NVIDIA's next-gen IR. The incumbent endorsing the higher-level model and pulling it into its orbit. Mirrors the open question on [Cuda Moat](/ai-software/models-inference/cuda-moat/).
 
 ## Governance + adoption (2025-26)
 

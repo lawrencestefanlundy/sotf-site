@@ -271,6 +271,56 @@ article blockquote {
   flex: 1 1 auto;
 }
 
+/* ── macro card with clickable meso sub-boxes ────────────────── */
+.macro-card {
+  padding: 0;
+  transition: none;
+}
+.macro-card:hover { background: var(--bg); }
+.macro-card-head {
+  display: block;
+  padding: 1.5rem 1.4rem 1.25rem;
+  color: inherit;
+  text-decoration: none;
+  transition: background 0.15s;
+  flex: 1 1 auto;
+}
+.macro-card-head:hover { background: var(--paper); }
+.macro-card-head p {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 1rem;
+  color: var(--ink-80);
+  line-height: 1.5;
+  margin: 0;
+}
+.meso-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  padding: 0 1.4rem 1.25rem;
+  border-top: 1px solid var(--rule);
+  padding-top: 1rem;
+}
+.meso-box {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.45rem;
+  padding: 0.35rem 0.7rem;
+  border: 1px solid var(--ink);
+  background: var(--bg);
+  color: var(--ink);
+  text-decoration: none;
+  transition: background 0.12s, color 0.12s;
+}
+.meso-box:hover { background: var(--ink); color: var(--bg); }
+.meso-box:hover .meta { color: inherit; }
+.meso-box .meso-name {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
 /* ── homepage hero ───────────────────────────────────────────── */
 .hero {
   padding: 2.5rem 0 2rem;

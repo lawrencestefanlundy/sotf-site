@@ -1,12 +1,15 @@
 ---
 import Base from "../layouts/Base.astro";
 import { getCollection } from "astro:content";
-import { MACROS } from "../data/taxonomy";
+import { MACROS, mesosForMacro } from "../data/taxonomy";
 
 const concepts = await getCollection("concepts");
 
 function countForMacro(slug: string): number {
   return concepts.filter((c) => c.id.startsWith(`${slug}/`)).length;
+}
+function countForMeso(macroSlug: string, mesoSlug: string): number {
+  return concepts.filter((c) => c.id.startsWith(`${macroSlug}/${mesoSlug}/`)).length;
 }
 const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
 ---
@@ -20,11 +23,21 @@ const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
   <section>
     <div class="grid-3">
       {MACROS.map((m) => (
-        <a href={`${BASE}/${m.slug}/`} class="card">
-          <h2>{m.name}</h2>
-          <div class="meta">{countForMacro(m.slug)} concepts</div>
-          <p>{m.blurb}</p>
-        </a>
+        <div class="card macro-card">
+          <a href={`${BASE}/${m.slug}/`} class="macro-card-head">
+            <h2>{m.name}</h2>
+            <div class="meta">{countForMacro(m.slug)} concepts</div>
+            <p>{m.blurb}</p>
+          </a>
+          <div class="meso-boxes">
+            {mesosForMacro(m.slug).map((meso) => (
+              <a href={`${BASE}/${m.slug}/${meso.slug}/`} class="meso-box">
+                <span class="meso-name">{meso.name}</span>
+                <span class="meta">{countForMeso(m.slug, meso.slug)}</span>
+              </a>
+            ))}
+          </div>
+        </div>
       ))}
     </div>
   </section>

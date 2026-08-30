@@ -1,5 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
@@ -8,6 +9,8 @@ export default defineConfig({
   // set `site` back to https://lawrencestefanlundy.github.io, add base:'/sotf-site',
   // and remove public/CNAME.
   site: 'https://stateofthefuture.io',
+
+  integrations: [sitemap()],
 
   prefetch: {
     prefetchAll: true,

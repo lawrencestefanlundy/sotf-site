@@ -4,9 +4,23 @@ import { ClientRouter } from "astro:transitions";
 interface Props {
   title: string;
   description?: string;
+  jsonLd?: object[];
 }
-const { title, description } = Astro.props;
+const { title, description, jsonLd } = Astro.props;
 const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
+const metaDescription = description ?? "State of the Future — Lawrence Lundy-Bryan's deep-tech reference";
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const siteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "State of the Future",
+  url: Astro.site?.toString(),
+  author: {
+    "@type": "Person",
+    name: "Lawrence Lundy-Bryan",
+    url: "https://stateofthefuture.substack.com",
+  },
+};
 ---
 
 <!doctype html>
@@ -14,8 +28,22 @@ const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content={description ?? "State of the Future — Lawrence Lundy-Bryan's deep-tech reference"} />
+    <meta name="description" content={metaDescription} />
     <title>{title} · State of the Future</title>
+    <link rel="canonical" href={canonicalURL} />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="State of the Future" />
+    <meta property="og:title" content={`${title} · State of the Future`} />
+    <meta property="og:description" content={metaDescription} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={`${title} · State of the Future`} />
+    <meta name="twitter:description" content={metaDescription} />
+    <script type="application/ld+json" set:html={JSON.stringify(siteJsonLd)} />
+    {jsonLd && jsonLd.map((obj) => (
+      <script type="application/ld+json" set:html={JSON.stringify(obj)} />
+    ))}
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap" />
@@ -40,6 +68,19 @@ const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
       <slot />
     </main>
     <footer class="site-footer">
+      <div class="subscribe-cta">
+        <p><strong>This page rebuilds itself nightly</strong> from the research base behind my investing. The analysis goes out on the newsletter.</p>
+        <iframe
+          src="https://stateofthefuture.substack.com/embed"
+          width="100%"
+          height="120"
+          style="border:none; background:transparent; max-width: 480px;"
+          frameborder="0"
+          scrolling="no"
+          title="Subscribe to State of the Future"
+          loading="lazy"
+        ></iframe>
+      </div>
       <p>State of the Future — Lawrence Lundy-Bryan · public reference layer, rebuilt nightly from the underlying KB</p>
     </footer>
   </body>

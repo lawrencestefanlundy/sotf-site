@@ -68,18 +68,18 @@ ECD touches essentially every logic and DRAM wafer, at every metal level (10+ pl
 Net read: steady-to-accelerating, with the growth weighted to the packaging and 3D side rather than front-end damascene. The served pool is being pulled up by AI/HPC interconnect density even as front-end faces a long-dated copper-displacement risk.
 
 - **Drivers**
-  - Copper plating chemistry hit ~USD 1.38bn in 2025, up 9.3% YoY, split roughly evenly between device interconnects (~USD 495m) and advanced packaging (~USD 509m), with TECHCET pinning the pull to "rising interconnect densities in advanced logic, demand from HPC and AI, and increasing adoption of advanced packaging" [10].
-  - Backside power delivery (Intel 18A PowerVia now, TSMC A16 Super Power Rail in H2 2026) adds nano-TSV (<100nm) plating as a new copper-fill step on leading-edge wafers, on top of the existing 10+ damascene passes [11].
-  - Hybrid bonding turns ECD into a precision step: fine-grain (<0.2um), (111)-textured copper enabling sub-10um pitch and 12+ layer HBM stacks, which raises chemistry value-per-wafer well above commodity electrofill [12].
-  - Capacity is being committed: MKS/Atotech USD 40m chemicals plant (Thailand), Moses Lake USD 100m Arizona electrolyte/Cu R&D site, plus TSMC/Amkor/ASE US packaging build-out [10].
+ - Copper plating chemistry hit ~USD 1.38bn in 2025, up 9.3% YoY, split roughly evenly between device interconnects (~USD 495m) and advanced packaging (~USD 509m), with TECHCET pinning the pull to "rising interconnect densities in advanced logic, demand from HPC and AI, and increasing adoption of advanced packaging" [10].
+ - Backside power delivery (Intel 18A PowerVia now, TSMC A16 Super Power Rail in H2 2026) adds nano-TSV (<100nm) plating as a new copper-fill step on leading-edge wafers, on top of the existing 10+ damascene passes [11].
+ - Hybrid bonding turns ECD into a precision step: fine-grain (<0.2um), (111)-textured copper enabling sub-10um pitch and 12+ layer HBM stacks, which raises chemistry value-per-wafer well above commodity electrofill [12].
+ - Capacity is being committed: MKS/Atotech USD 40m chemicals plant (Thailand), Moses Lake USD 100m Arizona electrolyte/Cu R&D site, plus TSMC/Amkor/ASE US packaging build-out [10].
 - **Constraints**
-  - Front-end is the structural threat: below ~10nm line width copper loses to ruthenium/molybdenum, and chipmakers may swap copper at some levels as early as 2nm, so the narrowest, highest-value damascene lines migrate off ECD over the decade [13].
-  - The pool stays cyclical and capex-gated on WFE; front-end damascene plating is a near-saturated Lam/Applied duopoly with little unit-growth headroom.
-  - Smaller features leave less room for the organic inhibitor molecules that drive bottom-up superfill, raising the technical bar (seedless plating, new seed/barrier) just to hold the existing copper window [13].
+ - Front-end is the structural threat: below ~10nm line width copper loses to ruthenium/molybdenum, and chipmakers may swap copper at some levels as early as 2nm, so the narrowest, highest-value damascene lines migrate off ECD over the decade [13].
+ - The pool stays cyclical and capex-gated on WFE; front-end damascene plating is a near-saturated Lam/Applied duopoly with little unit-growth headroom.
+ - Smaller features leave less room for the organic inhibitor molecules that drive bottom-up superfill, raising the technical bar (seedless plating, new seed/barrier) just to hold the existing copper window [13].
 - **Trends & inflections to watch**
-  - Copper-to-ruthenium displacement at narrow lines. Tripwire: a foundry confirming Ru (not Cu) for the tightest metal layers at the 2nm/A16 node in production (watch TSMC A16 / Intel 14A disclosures through 2026-27) [13].
-  - Panel-level packaging on glass shifting plating off round wafers. Tripwire: volume POs / customer qualification of ACM's horizontal panel ECP (first tool shipped Nov 2025) over the next 6-18 months [14].
-  - Hybrid-bonding migration in HBM. Tripwire: a memory maker moving an HBM generation from micro-bump to Cu-Cu hybrid bonding in volume, lifting fine-grain chemistry demand [12].
+ - Copper-to-ruthenium displacement at narrow lines. Tripwire: a foundry confirming Ru (not Cu) for the tightest metal layers at the 2nm/A16 node in production (watch TSMC A16 / Intel 14A disclosures through 2026-27) [13].
+ - Panel-level packaging on glass shifting plating off round wafers. Tripwire: volume POs / customer qualification of ACM's horizontal panel ECP (first tool shipped Nov 2025) over the next 6-18 months [14].
+ - Hybrid-bonding migration in HBM. Tripwire: a memory maker moving an HBM generation from micro-bump to Cu-Cu hybrid bonding in volume, lifting fine-grain chemistry demand [12].
 
 ## Connections
 [Ru / W / Co Metallisation](/manufacturing/equipment-processes/ru-w-co-metallisation/) · [Barrier / liner / seed deposition (process step)](/semiconductor-process-flow/frontend/flow-barrier-liner-seed/) · [Metrology (CD, overlay, film, OCD) (process step)](/semiconductor-process-flow/test-metrology/flow-metrology-cd-overlay/)

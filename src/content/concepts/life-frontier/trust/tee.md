@@ -13,14 +13,6 @@ sources:
 - '[[2023-06-30-e06-the-model-t-moment-for-bits-llms]]'
 - '[[2025-10-09-a-specific-theory-of-sovereign-ai]]'
 - '[[2023-10-13-e19-trusted-execution-environments]]'
-- '[[2026-01-21-confidential-computing-hardware-tee-integration-in-cpus]]'
-frontier: []
-last_updated: '2026-05-04'
-tags:
-- concept
-- technology
-mention_count: 15
-last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:

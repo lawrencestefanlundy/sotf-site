@@ -24,22 +24,22 @@ neighbors: []
 ---
 ## Physics / mechanism
 
-PCB assembly is the stage of the printed circuit board life cycle in which components are populated onto a fabricated board and the resulting unit is validated and distributed. It sits downstream of system specification, circuit design, layout and optimisation, and shares the life cycle with validation and test activities surveying genai based automation in printed circuit board de.
+PCB assembly is the stage of the printed circuit board life cycle in which components are populated onto a fabricated board and the resulting unit is validated and distributed. It sits downstream of system specification, circuit design, layout and optimisation, and shares the life cycle with validation and test activities.
 
-The available source treats assembly not as a standalone physical process but as one segment of an end-to-end chain that also includes supply chains and distribution surveying genai based automation in printed circuit board de. This framing matters for automation work: assembly decisions are constrained by upstream layout choices and by component availability, so tooling aimed at assembly is often coupled to design and procurement data.
+The available source treats assembly not as a standalone physical process but as one segment of an end-to-end chain that also includes supply chains and distribution. This framing matters for automation work: assembly decisions are constrained by upstream layout choices and by component availability, so tooling aimed at assembly is often coupled to design and procurement data.
 
 The source does not supply process parameters (placement rates, solder profiles, yield figures, defect classes), so no quantitative characterisation of the assembly step can be given here from the supplied material.
 
 ## Competitive landscape
 
-The one available source draws its comparison along a different axis: automation of integrated circuit design, largely via hardware description languages, versus automation across the PCB life cycle including assembly. It argues that generative AI effort in hardware has concentrated on the integrated circuit side, with PCB-oriented work, assembly included, less developed surveying genai based automation in printed circuit board de. No comparison between specific assembly techniques or equipment classes is supported by the sources.
+The one available source draws its comparison along a different axis: automation of integrated circuit design, largely via hardware description languages, versus automation across the PCB life cycle including assembly. It argues that generative AI effort in hardware has concentrated on the integrated circuit side, with PCB-oriented work, assembly included, less developed. No comparison between specific assembly techniques or equipment classes is supported by the sources.
 
 ## Evidence base
 
-- A survey published 17 June 2026 examines generative AI use across the PCB design life cycle, explicitly including PCB assembly and distribution alongside supply chains, system specification, circuit design, layout and optimisation, and validation and test surveying genai based automation in printed circuit board de.
-- The same survey states that most generative AI work in the hardware space has focused on design automation of integrated circuits, particularly using hardware description languages, rather than on PCBs surveying genai based automation in printed circuit board de.
-- The survey presents a taxonomy of the discovered works, categorised by intent and contribution, and identifies key technical themes surveying genai based automation in printed circuit board de.
-- The stated motivation for applying generative AI is reduction of manual effort in developing and testing complex systems before release surveying genai based automation in printed circuit board de.
+- A survey published 17 June 2026 examines generative AI use across the PCB design life cycle, explicitly including PCB assembly and distribution alongside supply chains, system specification, circuit design, layout and optimisation, and validation and test.
+- The same survey states that most generative AI work in the hardware space has focused on design automation of integrated circuits, particularly using hardware description languages, rather than on PCBs.
+- The survey presents a taxonomy of the discovered works, categorised by intent and contribution, and identifies key technical themes.
+- The stated motivation for applying generative AI is reduction of manual effort in developing and testing complex systems before release.
 
 ## Frontier (open questions)
 

@@ -41,8 +41,12 @@ sources:
 - '[[2023-08-25-e12-nanomechanical-computing-gears]]'
 - '[[2026-01-22-ai-chips-computeram-and-the-future]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
-frontier: []
-last_updated: '2026-05-04'
+frontier:
+- Does the dually-addressable memory primitive show a measured speedup against a software graph database on commodity DRAM, or only a resource-efficiency result on FPGA? The ISCAS paper is abstract-level in this source set 2025 05 25 resource efficient dually addressable memory fpga.
+- Can ferroelectric HZO device-to-device variability be reduced at the process level rather than merely predicted by clustering, and at what yield 2026 05 04 an unsupervised machine learning based framework for wafer s?
+- Will an integrated sub-diffraction magneto-optical write or address scheme be demonstrated before end-2027, the milestone that unlocks optical memory addressing density 2024 08 30 optical dram integrated magneto photonic non volatile multi?
+- Do software cache-offload gains such as LMCache's 15x saturate, and if so at what point does the marginal bandwidth become cheaper to buy in silicon than in software 2025 10 09 data value migrates to retrieval layer lmcache an efficient?
+last_updated: '2026-08-31'
 tags:
 - concept
 - technology
@@ -94,6 +98,15 @@ descendants:
 - storage-class-memory
 - token-cost-stack
 last_reorg_date: '2026-05-14'
+scorecard:
+  viability: 4
+  drivers: 5
+  novelty: 2
+  diffusion: 4
+  impact: 5
+  timing_band: Now (0-2yr)
+  verdict: Fairly rated
+scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
@@ -131,32 +144,67 @@ recent_mentions:
   kind: web
 neighbors: []
 ---
-## Physics / mechanism
+**Memory is the store that feeds the processor, and it has become the binding constraint on modern computing: over twenty years peak compute grew ~60,000x while DRAM bandwidth grew ~100x, so most of the current engineering effort in the field is about working around the gap rather than closing it **2024 Gholami Ai And Memory Wall**.**
 
-Memory stores binary state via a physical mechanism that can be written, held, and read non-destructively. DRAM uses capacitor charge (leaks, needs refresh every ~64 ms, ~10 ns latency, ~50 fJ/bit). SRAM uses cross-coupled inverters (faster, ~1 ns, ~1 pJ/bit, no refresh, large cell area). NAND flash exploits floating-gate or charge-trap transistor threshold-voltage shift (non-volatile, ~100 µs program, ~100K erase cycles). Emerging NVM candidates — MRAM, RRAM, PCM, FeRAM — target the gap: non-volatile + byte-addressable + sub-100 ns write. MRAM (STT or SOT) is closest to production at scale; GlobalFoundries offers embedded MRAM (eMRAM) on 22FDX.
+## Summary
 
-## Competitive landscape
+Memory in the mainstream sense is the hierarchy of volatile and non-volatile stores (SRAM caches, DRAM, HBM stacks, CXL-attached pools, SSD) that hold the operands a processor works on. The economics of the field are set by three separate scaling curves that have diverged badly. Gholami et al. quantify it: peak server FLOPS have grown at roughly 3.0x every two years, DRAM bandwidth at 1.6x, and interconnect bandwidth at 1.4x, giving a twenty-year divergence of ~60,000x in compute against ~100x in DRAM bandwidth and ~30x in interconnect **2024 Gholami Ai And Memory Wall**. The energy side runs the same way: an arithmetic operation costs sub-picojoule while an off-chip DRAM fetch costs roughly 1.3 to 2.6 nJ, so moving data, not computing on it, dominates the power bill **2024 Gholami Ai And Memory Wall**.
 
-DRAM and NAND dominate by volume (Samsung, SK Hynix, Micron). SRAM is embedded in logic; no standalone market. The contested space is storage-class memory and embedded NVM for edge AI / IoT. PCM (Intel Optane, now discontinued) showed the latency-density trade-off is hard to commercialise. FeRAM (Infineon, TI) wins in ultra-low-power write cycles. RRAM competes on process simplicity. The real battle is embedded NVM for MCUs and neuromorphic inference accelerators.
+The practical consequence is that an ever-larger share of workloads is memory-bound rather than compute-bound. For LLM serving this is most visible in the decode phase, which is bandwidth-bound **2024 Gholami Ai And Memory Wall**. That single fact drives most of what is currently interesting in memory: HBM stacking, cache offload tiers, content-addressable and near-memory primitives, and a long tail of physics-level replacements for the DRAM cell itself.
 
-| Type | Latency | Non-volatile | Endurance |
-|------|---------|--------------|-----------|
-| SRAM | ~1 ns | No | Unlimited |
-| eMRAM | ~10 ns | Yes | 10⁸ cycles |
-| FeRAM | ~50 ns | Yes | 10¹⁴ cycles |
+The parameter that decides which tier matters is where the marginal bandwidth or capacity is cheapest to buy. So far the answer has been software and packaging, not new cells. Note that several sources in this cluster concern quantum memory, a different object entirely (storing photonic states for repeaters and transduction) and not part of the mainstream-memory assessment below.
 
-## Companies using
+## Viability (4/5)
 
-<!-- dataview block stripped for public site -->
+Mainstream memory is not a question of viability but of scaling rates, and those are measured: 1.6x DRAM bandwidth per two years against 3.0x compute **2024 Gholami Ai And Memory Wall**. The workaround layer is demonstrably viable, with LMCache reporting 15x throughput and shipping inside four separate production inference stacks <sup class="ref"><a href="https://arxiv.org/abs/2510.09665" title="LMCache: An Efficient KV Cache Layer for Enterprise-Scale LLM Inference" rel="noopener">ref</a></sup>. The addressing-primitive layer has at least cleared the device-agnosticism bar: the content-addressable primitive was rebuilt from ReRAM onto conventional FPGA Block RAM and the architecture survived, though the underlying data model remains an unrefereed preprint.
 
-## Connected ideas
+**TLDR: The commodity path plus software works and ships today; every proposed physical replacement is at single-device or wafer-variability stage.**
 
-<!-- dataview block stripped for public site -->
+## Drivers (5/5)
 
-## Sources
+Supply: the constraint is arithmetic, not sentiment. DRAM bandwidth compounds at 1.6x every two years and interconnect at 1.4x, against 3.0x for peak FLOPS **2024 Gholami Ai And Memory Wall**. There is no source here suggesting that gap narrows. Every additional generation of accelerator therefore pushes more of the workload across the boundary into memory-bound territory, and the decode phase of LLM serving is already on the wrong side of it **2024 Gholami Ai And Memory Wall**.
 
-<!-- dataview block stripped for public site -->
+Demand: the ferroelectric memory work states plainly that with skyrocketing AI workload, demand for non-volatile and computational memories is growing exponentially, and frames high-volume manufacturing variability as the formidable barrier. On the deployment side, the rapid absorption of a KV cache offload layer into vLLM, Dynamo, llm-d and KServe within a single ecosystem cycle is direct evidence of pull <sup class="ref"><a href="https://arxiv.org/abs/2510.09665" title="LMCache: An Efficient KV Cache Layer for Enterprise-Scale LLM Inference" rel="noopener">ref</a></sup>. Both sides of the driver argument are supported by tier-1 sources; this is the strongest-evidenced dimension on the page.
 
-## Frontier (open questions)
+**TLDR: Supply scaling is structurally slower than compute and demand is being described as exponential in the primary literature.**
 
-- *To be added.*
+## Novelty (2/5)
+
+The genuinely differentiated claim in this set is architectural rather than material: memory that is readable both by address and by content, removing data duplication for database manipulation, with a graph model whose linked-list linknode organisation lets traversal follow pointers without broadcasting the whole memory. That is a plausible answer to a bandwidth problem rather than a faster transistor. But it is one paywalled conference paper and one preprint, with no measured speedup against a software graph database in the supplied material.
+
+**TLDR: The incumbent is not novel and the challengers' gains are measured at device level, not system level.**
+
+## Diffusion (4/5)
+
+Adoption in this field is strongly asymmetric. Anything that runs on existing DRAM, CXL and SSD spreads through the open inference stacks quickly, as the LMCache integration across vLLM Production Stack, Dynamo, llm-d and KServe shows <sup class="ref"><a href="https://arxiv.org/abs/2510.09665" title="LMCache: An Efficient KV Cache Layer for Enterprise-Scale LLM Inference" rel="noopener">ref</a></sup>. The market thesis attached to that source is explicit: through 2028 the retrieval and memory tier is expected to be captured by software on commodity memory rather than by dedicated silicon, and it resolves wrong only if an Atlas-class retrieval accelerator reaches production design-win volume <sup class="ref"><a href="https://arxiv.org/abs/2510.09665" title="LMCache: An Efficient KV Cache Layer for Enterprise-Scale LLM Inference" rel="noopener">ref</a></sup>.
+
+**TLDR: Software over commodity memory diffuses in months; new memory physics faces manufacturing variability, cryogenics and diffraction limits.**
+
+## Impact (5/5)
+
+If the binding constraint on training and especially inference is memory bandwidth and capacity rather than arithmetic throughput **2024 Gholami Ai And Memory Wall**, then memory sets the price of every token served. The energy asymmetry compounds it: arithmetic at sub-picojoule against 1.3 to 2.6 nJ for an off-chip DRAM fetch means data movement dominates the energy bill, so improvements in memory translate directly into datacentre power **2024 Gholami Ai And Memory Wall**. A 15x throughput improvement from cache placement alone, with no change to the silicon, gives a sense of how much value is currently trapped on the wrong side of the wall <sup class="ref"><a href="https://arxiv.org/abs/2510.09665" title="LMCache: An Efficient KV Cache Layer for Enterprise-Scale LLM Inference" rel="noopener">ref</a></sup>.
+
+The impact score is about the size of the prize, not about who wins it. That distinction matters here: the sources support the claim that memory is where the value is, and simultaneously support the claim that the value may be captured by software layers on commodity parts rather than by anyone selling a new kind of memory <sup class="ref"><a href="https://arxiv.org/abs/2510.09665" title="LMCache: An Efficient KV Cache Layer for Enterprise-Scale LLM Inference" rel="noopener">ref</a></sup>.
+
+**TLDR: Memory bandwidth and capacity, not arithmetic, now set the cost and energy of AI inference.**
+
+## Timing Now (0-2yr)
+
+The memory wall is not a forecast. The divergence has already accumulated over twenty years and the decode phase of LLM serving is bandwidth-bound now **2024 Gholami Ai And Memory Wall**. Cache offload software is deployed across mainstream inference stacks as of late 2025 <sup class="ref"><a href="https://arxiv.org/abs/2510.09665" title="LMCache: An Efficient KV Cache Layer for Enterprise-Scale LLM Inference" rel="noopener">ref</a></sup>.
+
+**TLDR: The constraint binds today and the profitable responses are already in production.**
+
+## Overrated or underrated? Fairly rated
+
+The memory wall itself is correctly priced. Gholami et al. gave the field the canonical numbers and the industry has responded with HBM stacking, cache tiering and near-memory work, which is roughly the right response to a 60,000x versus 100x divergence **2024 Gholami Ai And Memory Wall**. Nobody sensible now argues that FLOPS are the binding constraint.
+
+## Prediction
+
+By 31 December 2028, no dedicated agentic-retrieval or content-addressable memory silicon will have reached production design-win volume at a hyperscaler or major neocloud, with the retrieval and KV-cache tier still served by software over commodity DRAM, CXL and SSD <sup class="ref"><a href="https://arxiv.org/abs/2510.09665" title="LMCache: An Efficient KV Cache Layer for Enterprise-Scale LLM Inference" rel="noopener">ref</a></sup>.
+
+## Evidence base
+
+## Open questions
+
+---
+*Assessment drafted 2026-08-31 from up to 18 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

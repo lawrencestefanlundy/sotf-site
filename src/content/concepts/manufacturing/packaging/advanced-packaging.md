@@ -22,26 +22,18 @@ sources:
 - '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
-frontier:
-- 'Glass substrates: do TGV yield and reliability barriers hold CoPoS commercialisation to ~2030 as DigiTimes projects, or does China''s early sampling (Enflame at WAIC 2026) and equipment ordering pull the timeline in?'
-- 'Pricing power vs capacity glut: ASE quote hikes above 20% plus record capex across ASE, Amkor, TSMC, SMIC and SK Hynix; does 2027-28 bring over-capacity in mature 2.5D flows, and who eats the margin compression first?'
-- Does known-good-die screening extend to post-assembly reliability guarantees (KGRD), and does a mandatory new test step create a venture-scale wedge?
-- 'What limits 3D stacking first in practice: TSV power delivery (IR drop) or heat extraction? Evidence would be qualified stacks failing thermal rather than electrical sign-off, or vice versa.'
-- Do cross-chiplet side-channel attacks become a qualification requirement for multi-vendor chiplet packages (UCIe ecosystem), creating a security-test market?
-- 'Photonic packaging: does flip-chip electrical interfacing at 50 GHz-class bandwidth to TFLN scale from lab platform to foundry-qualified flow, and which packaging house owns electro-optic assembly?'
-last_updated: '2026-07-26'
-tags:
-- concept
-- technology
-mention_count: 180
-descendants:
-- 3d-monolithic-integration
-- heterogeneous-integration
-- micro-transfer-printing
-- osat
-last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 5
+scorecard:
+  viability: 4
+  drivers: 4
+  novelty: 3
+  diffusion: 4
+  impact: 4
+  timing_band: Now (0-2yr)
+  verdict: Fairly rated
+scorecard_status: draft
+mention_count: 185
+sources_7d: 2
+sources_30d: 7
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
@@ -77,49 +69,92 @@ recent_mentions:
   kind: web
 neighbors: []
 ---
-## Physics / mechanism
+**Advanced packaging is the set of techniques for wiring multiple dice together inside one package (2.5D interposers, 3D stacks, flip-chip, co-packaged optics) instead of shrinking one big die, and it has become the main lever for scaling AI compute now that monolithic scaling has stalled.**
 
-Advanced packaging integrates multiple dies (chiplets) into one module at interconnect densities far beyond a board, sidestepping the reticle-size and yield limits of monolithic SoCs. Two mechanism families: 2.5D places dies side by side on a silicon interposer or fan-out substrate; 3D bonds active dies vertically through-silicon vias (TSVs) or hybrid bonding. Die-crossing at roughly 10 µm pitch is routable in production-representative flows today, and architecture modeling shows 3D stacking buys up to 14% wirelength reduction and 6% critical-path improvement over 2D at that pitch, while 2.5D pays only a 2-4% overhead for the yield and capacity gain modeling optimizing and exploring multi die fpga routing arc. TSMC CoWoS/SoIC, Intel EMIB/Foveros, Samsung X-Cube, and ASE/Amkor on the OSAT side still define the production envelope.
+## Summary
 
-Superseded claim: this page previously stated hybrid bonding at "<1 µm pitch" and "~0.1 pJ/bit" as the current envelope, with a bandwidth-density table. Those figures were uncited and the current source set does not support them as production numbers; sub-micron pitch is a roadmap target. Confidence in the replacement 10 µm figure is moderate (single modeling source).
+Advanced packaging covers everything that happens between the finished silicon die and the socket: bonding several dice side by side on a passive silicon interposer (2.5D), stacking active dice directly on top of one another with through-silicon vias (3D), flip-chip attachment of high-speed electrical interfaces to a photonic or electronic die, and co-packaging optics with the compute. The purpose is to build systems larger than the reticle limit while keeping yield tolerable, because a system assembled from small known-good dice loses less silicon to defects than one enormous die. The sources describe this as the standard route to "complex heterogeneous systems beyond the limits of monolithic scaling", and treat multi-chiplet GPUs and 2.5D FPGAs as existing device classes rather than proposals.
 
-Where the 2025-26 tier-1 literature says the binding constraints now sit:
+The physics that decides it is interconnect and heat. Crossing between dice costs more energy and latency than staying on one die, so inter-die connection density and latency constrain the architecture and force a bespoke routing design. In multi-chiplet GPUs, memory splits into local and remote HBM regions across the interposer, and remote traffic for a single matrix multiplication can vary by up to 58x depending on kernel and placement choices. Heat is the second constraint: a stack contains materials whose feature sizes span many orders of magnitude, and the back-end-of-line metallisation structures repeated billions of times across a stack are described as a near insurmountable hurdle for analysis at the speed a design flow needs. Power delivery follows: through-silicon via placement determines effective resistance and IR drop across a 3D stack.
 
-- I/O overhead. Conventional ESD protection and I/O circuitry is the main blocker to shrinking chiplets below ~100 mm²; simplified interfaces enabled by dense 2.5D/3D interconnect open the way to much smaller, composable chiplets tiny chiplets enabled by packaging scaling opportunities in .
-- Power delivery and heat. TSV planning against IR drop is a primary reliability problem in 3D power-delivery networks gpu accelerated effective resistance analysis for 3d ic powe, and thermal analysis of 3D stacks needs dedicated multiscale workflows a multiscale workflow for thermal analysis of 3di chip stack.
-- Test and reliability. Known-good-die screening guarantees pre-assembly function but says nothing about post-assembly lifetime; formal known-good-reliable-die (KGRD) screening is being proposed as the missing step for chiplet AI SoCs formal foundations for known good reliable die screening in .
-- Software-visible non-uniformity. In multi-chiplet GPUs, remote-HBM traffic varies up to 58x with kernel mapping choices, so package topology has become a software design constraint, not only a hardware one a fast locality simulator for gemm design space exploration  making locality aware gemm compatible with page granularity .
-- Security. Side-channel attacks can be mounted between chiplets inside one package, an attack surface unique to heterogeneous integration spying across chiplets side channel attacks in 253d integrat.
-- Memory-centric architectures ride on packaging. 3D heterogeneous accelerators stacking FeFET and DRAM chiplets report order-of-magnitude gains for MoE inference thame 3d memory enabled heterogeneous accelerator for llm mi; startup architectures such as UAiM's per-bank-group DRAM read scheme depend entirely on bonding LPDDR dies to a compute die uaim call.
-- Photonics. Packaging is the gating step for electro-optic integration: a flip-chip platform now delivers 13 high-speed channels at up to 50 GHz to a centimetre-scale thin-film lithium niobate chip multi channel high speed flip chip packaging platform for th. New interconnect physics (spoof-plasmon lines on silicon) attack the same bandwidth-plus-thermal problem electrical and thermal performance tuning of spoof plasmonic.
+The parameters that decide how far this goes are therefore not fabrication alone. They are: how small a chiplet can economically be, which today is bounded near 100 mm2 by the area overhead of electrostatic discharge protection and inter-chiplet signalling circuitry; how much interconnect bandwidth per unit footprint the package substrate can carry while still dissipating heat; whether design tools can predict thermal, power and routing behaviour early enough to be useful; and whether software can be made to respect the resulting non-uniform memory system.
 
-## Competitive landscape
+A distinct branch is packaging as an enabler for non-silicon dice: a flip-chip platform delivering 13 high-speed and 32 low-speed signals to a thin-film lithium niobate photonic chip with bandwidth to 50 GHz, and architectures that assume co-packaged optics as a given.
 
-Demand and pricing. Advanced packaging revenue is growing faster than front-end manufacturing exclusive advanced packaging outpaces front end growth while, with forecasts around $79.4B by 2030 advanced packaging market set to reach 794 billion by 2030   and IDC running a 2025-2030 forecast line worldwide semiconductor advanced packaging forecast and anal (headline-level citations; confidence in exact figures moderate). Supply is tight enough for pricing power: ASE reportedly raised packaging quotes by more than 20% in July 2026 news ase reportedly raises advanced packaging quotes by more after lifting 2026 capex to a record $8.5B ase raises 2026 capex to record us85 billion on strong advan. Amkor posted strong 2025 results on packaging growth amkor posts strong 2025 results as advanced packaging drives and widened its Nvidia AI-packaging partnership with US capacity amkor nvidia widen ai packaging partnership as us capacity e.
+## Viability (4/5)
 
-Structure. TSMC remains the reference but is reshaping its expansion (AP8, AP7, US fab plans) exclusive tsmc reshapes advanced packaging expansion shiftin, and the trade press reads 2026 as a shift from TSMC dominance toward a broader collaborative supply base analysis advanced packaging shifts from tsmc dominance to in. The entrant list is long: Intel courting entry-level packaging customers intel targets entry level advanced packaging draws interest , SMIC scaling a packaging team for AI chips smic returns to advanced packaging scales team to boost ai c, Chinese OSATs stepping up investment china osats step up investment drive as ai demand lifts adva including SJ Semiconductor's $1.5B build china advanced packaging maker sj semiconductor starts us15b, SK Hynix funding a new packaging plant sk hynix to invest in new advanced packaging plant amid ai m, Japan targeting packaging to close the gap with TSMC analysis japan targets advanced packaging to crack tsmcs man, and Southeast Asia moving from test-and-pack to multi-centre advanced packaging southeast asia shifts from test and pack to multi center adv.
+The sources treat 2.5D and 3D integration as deployed technology. Die stacking "has enabled 2.5D FPGAs by integrating multiple active dice on a passive silicon interposer for improved yield and capacity", and multi-chiplet GPUs with local and remote HBM regions across an interposer are the baseline for optimisation work rather than a hypothesis. Flip-chip electrical interfacing to a centimetre-sized photonic die has been demonstrated with measured low bonding loss and low inter-channel crosstalk to 50 GHz, driving a working 2x8 switch and a 20 Gbit/s transmitter.
 
-Substrates are the live materials contest. Huawei's "Tau law" framing has pushed the AI-chip race toward glass substrates and packaging rather than node scaling huaweis tau law shifts ai chip race to glass substrates adva. Enflame showed China's first glass-based CoPoS AI chip sample at WAIC 2026 waic 2026 enflame debuts chinas first glass based copos ai c and Chinese equipment makers are winning early TGV production orders chinese equipment makers win early production orders as tgv , but through-glass vias still face technical barriers and DigiTimes puts CoPoS commercialisation around 2030 tgv still faces technical barriers copos commercialization n. The incumbent organic-substrate chain is meanwhile supply-constrained: a T-glass shortage rippled through memory and packaging in early 2026 exclusive t glass shortage ripples through memory and advanc.
+What is not yet solved is design-time prediction. Thermal analysis of stacks is described as facing a near insurmountable hurdle at the required speed and accuracy, with material properties deviating significantly from bulk values at these sizes; multi-die routing architecture questions are "unanswered" for lack of accurate modelling tools; power delivery network analysis needed a 5 to 6 order of magnitude GPU speedup over conventional direct solvers to be usable at early design stages. The technology works; the engineering discipline around it is being built in public, which is why the score is 4 and not 5.
 
-## Investment routing (all vehicles)
+**TLDR: In production for GPUs and FPGAs; the unresolved parts are analysis tooling and thermal headroom, not feasibility.**
 
-## Companies using
+## Drivers (4/5)
 
-<!-- dataview block stripped for public site -->
+On demand, the sources are consistent: large language models drive the need for capacity and bandwidth that a single die cannot supply. Mixture-of-experts inference is bottlenecked by memory bandwidth for non-contiguous expert weights and by scatter-gather routing traffic, motivating a 3D heterogeneous multi-chiplet design mixing FeFET non-volatile and DRAM chiplets. Separately, "rising pressure on DRAM availability and contract pricing" from generative AI and hyperscale data centre expansion is cited as the motivation for radically different memory architectures built on co-packaged optics. The general framing is that packaging "provides abundant interconnection resources for 2.5D/3D heterogeneous integration, thereby enabling larger-scale VLSI systems with higher energy efficiency in data movement".
 
-## Connected ideas
+On supply, the enabling capabilities in evidence are silicon interposers (modelled at a 45 nm interposer node with 7 nm active dice), TSVs for 3D power and signal delivery, and flip-chip bonding platforms extending to non-silicon photonic substrates. The sources do not give capacity, cost or throughput figures for packaging lines, so the supply-side constraint that matters most commercially is not assessable here.
 
-<!-- dataview block stripped for public site -->
+**TLDR: Demand is AI memory and compute scaling; supply is interposer, TSV and flip-chip capability plus a maturing tool layer.**
 
-## Sources
+## Novelty (3/5)
 
-<!-- dataview block stripped for public site -->
+The benefits over monolithic integration are stated qualitatively across the corpus: modularity, yield, capacity and performance. No source quantifies the yield or cost delta against a hypothetical single large die, so the central economic claim for advanced packaging is not evidenced here.
 
-## Frontier (open questions)
+Where numbers exist, they are within-domain comparisons and they are substantial. A spoof-surface-plasmon-polariton interconnect on a 50 um oxide layer over silicon achieved 0.015 dB/cm insertion loss, a 10 dB crosstalk reduction within 5 GHz and 2.5x the bandwidth of a standard microstripline of the same footprint, with a fourfold temperature reduction relative to an FR4 substrate, in full-wave simulation. A chiplet-contiguous memory layout cut remote HBM traffic by 13.0x on Qwen 3 30B and 20.7x on Llama 3.1 70B GEMMs versus 4 KB interleaving, and by 3.3x and 3.7x over coarse locality-aware placement, without OS or hardware changes. A fibre delay-line memory concept claims elimination of redundant weight storage across 10,000 accelerators and over 70% lower weight-delivery energy than HBM3e, though this is a case-study evaluation, not hardware. Score of 3 reflects strong local results against a poorly quantified baseline.
 
-- Glass substrates: do TGV yield and reliability barriers hold CoPoS commercialisation to ~2030 tgv still faces technical barriers copos commercialization n, or does China's early sampling and equipment ordering waic 2026 enflame debuts chinas first glass based copos ai c chinese equipment makers win early production orders as tgv  pull the timeline in?
-- Pricing power vs capacity glut: quote hikes and record capex are running together news ase reportedly raises advanced packaging quotes by more ase raises 2026 capex to record us85 billion on strong advan; does 2027-28 bring over-capacity in mature 2.5D flows, and who eats the margin compression first?
-- Does known-good-die screening extend to post-assembly reliability guarantees (KGRD) formal foundations for known good reliable die screening in , and does a mandatory new test step create a venture-scale wedge?
-- What limits 3D stacking first in practice: TSV power delivery (IR drop) gpu accelerated effective resistance analysis for 3d ic powe or heat extraction a multiscale workflow for thermal analysis of 3di chip stack?
-- Do cross-chiplet side-channel attacks spying across chiplets side channel attacks in 253d integrat become a qualification requirement for multi-vendor chiplet packages, creating a security-test market?
-- Photonic packaging: does flip-chip electrical interfacing at 50 GHz-class bandwidth to TFLN multi channel high speed flip chip packaging platform for th scale from lab platform to foundry-qualified flow, and which packaging house owns electro-optic assembly?
+**TLDR: Clear quantified gains within the packaging domain; the head-to-head advantage over monolithic dice is asserted rather than measured in these sources.**
+
+## Diffusion (4/5)
+
+Adoption at the top of the market is under way, which is why the barriers being written about are second-order. Four are visible in the sources. First, minimum economic chiplet size: conventional ESD protection and inter-chiplet signalling impose area overhead identified as a major constraint on reducing chiplet size below 100 mm2, though SPICE and parasitic-extraction analysis suggests both can be substantially simplified in future 2.5D/3D packaging, which would improve composability and reusability of small chiplets. Second, tooling: multi-die routing architecture questions remain open because accurate versatile models did not exist until open-source CAD tools were extended for the purpose, and thermal and PDN analysis both required new methods to become tractable.
+
+Third, software: the non-uniform memory system created by packaging is exposed to the programmer, and optimal placement granularity varies widely across workloads, making locality-aware placement incompatible with fixed page-granularity interleaving until the layout is redesigned. Fourth, security: a communication-oriented chiplet with an antenna or contactless coupling structure can be repurposed as an internal observation platform, and captured signals were experimentally shown to correlate with the activity of a neighbouring victim chiplet. This is a genuine new attack surface for multi-vendor chiplet supply chains, and the sources give no evidence of countermeasures yet.
+
+**TLDR: Already diffusing in high-end GPUs and FPGAs; the residual barriers are EDA tooling, chiplet-level I/O overhead, software locality and a new security surface.**
+
+## Impact (4/5)
+
+If packaging continues to scale, the sources point to three compounding effects: larger-scale VLSI systems with better data-movement energy efficiency; heterogeneous memory hierarchies that mix technologies within one stack, such as FeFET non-volatile and DRAM chiplets tuned separately to attention and expert routing; and integration of entirely different material systems, with flip-chip packaging serving as the missing electrical interface for thin-film lithium niobate photonics that then delivers sub-34 ps switching and 50 GHz electro-optic comb generation.
+
+The most consequential claim, that packaging plus co-packaged optics could displace part of the DRAM hierarchy under current pricing pressure, is a proposal with a case-study evaluation rather than a result. Scoring 4 rather than 5 reflects that the sources demonstrate impact on component metrics and architectural options, not on delivered system-level cost or performance in the field.
+
+**TLDR: It is the substrate for continued AI hardware scaling and for integrating photonics and novel memory; the value is large but the sources quantify it only in fragments.**
+
+## Timing Now (0-2yr)
+
+2.5D interposer FPGAs and multi-chiplet GPUs are treated throughout as existing hardware to be modelled and optimised, not as future devices. Software-side gains are available immediately because they need no OS or hardware change.
+
+The items with a longer fuse are those framed as future or prospective by their own authors: simplified ESD and signalling in "future 2.5D/3D packaging technologies" enabling sub-100 mm2 chiplets, metastructure interconnects still at full-wave simulation stage, and optical delay-line memory at case-study stage. Expect the interesting commercial questions over the next two years to be about tools, thermal budgets and chiplet interface standards rather than about whether packaging works.
+
+**TLDR: The packaging itself is shipping; the tooling, chiplet miniaturisation and security responses are the 2 to 5 year work.**
+
+## Overrated or underrated? Fairly rated
+
+The headline direction is not in dispute and is already priced in: monolithic scaling has run out of room, and 2.5D/3D integration is how large systems get built. Treating advanced packaging as an emerging bet would be a misreading of this evidence base.
+
+The underrated part is the supporting layer. Three separate 2026 papers exist because standard analysis was too slow or too inaccurate to use: multiscale thermal modelling of BEOL structures replicated billions of times, effective-resistance analysis for TSV planning needing a 5 to 6 order of magnitude speedup to fit an early-stage flow, and multi-die routing architecture exploration that required extending open-source CAD before the questions could even be posed. Add the software layer, where a layout change alone bought a 20.7x reduction in remote HBM traffic, and the cross-chiplet side-channel surface, which is demonstrated but unaddressed. Value is migrating from the bonding step to thermal, power, interface and security co-design.
+
+## Prediction
+
+By December 2028, locality-aware cross-chiplet data placement of the kind that cut remote HBM traffic by 13.0x to 20.7x in will be a documented, user-visible feature of at least one mainstream GPU or accelerator software stack rather than a research prototype.
+
+## Evidence base
+
+- 2026-06-15: 2.5D FPGAs already integrate multiple active dice on a passive silicon interposer for yield and capacity, but inter-die connection density and latency force a bespoke routing architecture, modelled by HSPICE at a 7 nm node with a 45 nm interposer 
+- 2026-06-15: remote HBM traffic for a fixed GEMM varies by up to 58x across the multi-chiplet design space, and a 2D block-swizzle CTA traversal cut remote traffic by up to 5.1x over the best 1D traversal 
+- 2026-06-15: a chiplet-contiguous global memory layout reduced remote HBM traffic by 13.0x on Qwen 3 30B and 20.7x on Llama 3.1 70B GEMMs versus 4 KB interleaving, with no OS or hardware changes 
+- 2026-06-05: ESD protection and inter-chiplet signalling area overhead is a major constraint on reducing chiplet size below 100 mm2, and SPICE plus parasitic extraction indicates both can be substantially simplified in future 2.5D/3D packaging 
+- 2026-06-16: a flip-chip platform delivered 13 high-speed and 32 low-speed signals to a centimetre-sized thin-film lithium niobate chip with low bonding loss and crosstalk to 50 GHz, enabling a 2x8 switch at ~3 dB insertion loss, under -20 dB crosstalk and switching under 34 ps 
+- 2026-05-08: signals captured through a communication-oriented chiplet's antenna or contactless coupling interface were experimentally shown to correlate with the activity of a neighbouring victim chiplet in the same package or stack 
+- 2026-07-08: GPU-accelerated effective-resistance analysis for 3D IC power delivery networks achieved a 5 to 6 order of magnitude speedup over a conventional direct solver with negligible error, making early-stage TSV planning tractable 
+
+## Open questions
+
+- Can the ESD and inter-chiplet signalling simplifications proposed in survive real reliability qualification, and does chiplet area genuinely fall below 100 mm2 as a result?
+- What is the thermal ceiling on 3D logic-on-logic stacks once the multiscale effects described in are accounted for, as opposed to bulk-property estimates?
+- Does the cross-chiplet side-channel leakage demonstrated in force shielding, isolation or certification requirements on multi-vendor chiplet marketplaces, and at what area and cost penalty?
+- Do simulated interconnect gains such as the 2.5x bandwidth and fourfold thermal improvement of the spoof-plasmonic structure survive fabrication at package scale?
+
+---
+*Assessment drafted 2026-08-31 from up to 18 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

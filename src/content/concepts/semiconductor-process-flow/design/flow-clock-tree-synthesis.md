@@ -70,17 +70,17 @@ No physical consumables. The recurring-revenue analogues: (1) the foundry standa
 Net read: the served market (the digital-implementation EDA slice CTS rides inside) is accelerating, pulled by AI design demand and the rising clock-distribution difficulty of multi-die parts, with a single sharp tail risk in China export policy.
 
 - **Drivers**
-  - AI/datacentre design demand is lifting the host suite directly: Cadence Q1 FY2026 revenue grew 18.7% YoY to $1.474B with a record $8.0B backlog, and it raised full-year 2026 guidance to ~17% growth on AI-driven tool adoption [10][11]. The faster-growing AI-EDA layer is forecast at ~24% CAGR ($4.27B 2026 to $15.85B 2032) [12].
-  - 3D-IC / multi-die is the strongest CTS-specific tailwind: inter-die skew and delay alignment across stacked dies is a hard new clock problem, and Cadence's 3D-IC-linked System Design & Analysis grew 18% YoY [11][13]. More dies per design means more independent clock trees to balance and cross-couple.
-  - GAA + backside power delivery (Intel 18A in production; PowerVia/PowerDirect) reshape the clock and power mesh, forcing tools to re-learn the flow and re-characterise libraries, which deepens methodology lock-in on the incumbent P&R engine [14][15].
+ - AI/datacentre design demand is lifting the host suite directly: Cadence Q1 FY2026 revenue grew 18.7% YoY to $1.474B with a record $8.0B backlog, and it raised full-year 2026 guidance to ~17% growth on AI-driven tool adoption [10][11]. The faster-growing AI-EDA layer is forecast at ~24% CAGR ($4.27B 2026 to $15.85B 2032) [12].
+ - 3D-IC / multi-die is the strongest CTS-specific tailwind: inter-die skew and delay alignment across stacked dies is a hard new clock problem, and Cadence's 3D-IC-linked System Design & Analysis grew 18% YoY [11][13]. More dies per design means more independent clock trees to balance and cross-couple.
+ - GAA + backside power delivery (Intel 18A in production; PowerVia/PowerDirect) reshape the clock and power mesh, forcing tools to re-learn the flow and re-characterise libraries, which deepens methodology lock-in on the incumbent P&R engine [14][15].
 - **Constraints**
-  - China export controls are the dominant risk: BIS curbs imposed Q3 2025 then rescinded already dented Synopsys' China business; China was ~16% of Synopsys and ~12% of Cadence FY2024 revenue, all now licence-gated case by case [16][17].
-  - Commoditisation at the bottom: open-source TritonCTS (OpenROAD) covers mature-node CTS for free, capping pricing power outside the leading edge.
-  - Cyclicality and concentration: design starts track the broader semi cycle, and the AI-renewal uplift depends on a handful of leading-edge customers continuing to tape out.
+ - China export controls are the dominant risk: BIS curbs imposed Q3 2025 then rescinded already dented Synopsys' China business; China was ~16% of Synopsys and ~12% of Cadence FY2024 revenue, all now licence-gated case by case [16][17].
+ - Commoditisation at the bottom: open-source TritonCTS (OpenROAD) covers mature-node CTS for free, capping pricing power outside the leading edge.
+ - Cyclicality and concentration: design starts track the broader semi cycle, and the AI-renewal uplift depends on a handful of leading-edge customers continuing to tape out.
 - **Trends & inflections to watch**
-  - Agentic AI flows (Cadence AgentStack/ChipStack, Synopsys agentic 3DIC Compiler) move CTS toward usage-metered revenue on top of seat licences. Tripwire: a vendor disclosing AI/agentic design as a separately reported, double-digit revenue line by FY2027 [11][18].
-  - High-NA EUV node ramp (Intel 14A risk production 2027, first GAA+High-NA node) seeds a fresh wave of leading-edge design starts. Tripwire: first 14A customer tapeouts reported through an incumbent P&R flow in 2027 [19].
-  - Backside-power adoption broadening beyond Intel. Tripwire: TSMC/Samsung backside-power node entering volume design starts, each needing re-tuned clock/power-mesh CTS methodology [14].
+ - Agentic AI flows (Cadence AgentStack/ChipStack, Synopsys agentic 3DIC Compiler) move CTS toward usage-metered revenue on top of seat licences. Tripwire: a vendor disclosing AI/agentic design as a separately reported, double-digit revenue line by FY2027 [11][18].
+ - High-NA EUV node ramp (Intel 14A risk production 2027, first GAA+High-NA node) seeds a fresh wave of leading-edge design starts. Tripwire: first 14A customer tapeouts reported through an incumbent P&R flow in 2027 [19].
+ - Backside-power adoption broadening beyond Intel. Tripwire: TSMC/Samsung backside-power node entering volume design starts, each needing re-tuned clock/power-mesh CTS methodology [14].
 
 ## Connections
 - [EDA & Design Tools](/manufacturing/foundry-design/eda-design-tools/) (cluster page for the design-tools layer)

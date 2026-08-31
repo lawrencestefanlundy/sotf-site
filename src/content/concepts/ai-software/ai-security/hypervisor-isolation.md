@@ -56,7 +56,7 @@ neighbors:
 ---
 Giving every workload its own kernel rather than sharing the host's. A Type 1 (bare-metal) hypervisor sits directly on hardware and hands each guest an isolated kernel, so container escape and lateral movement stop being detection problems and become impossible-by-construction problems.
 
-**Open technical problem (Aug 2026):** NVIDIA's own Kata/Confidential-Containers integration supports single-GPU passthrough only, with no multi-GPU or vGPU path. So hypervisor isolation stops exactly where AI training runs, on multi-GPU nodes with NVLink between devices. See isolation sourcing sprint.
+**Open technical problem (Aug 2026):** NVIDIA's own Kata/Confidential-Containers integration supports single-GPU passthrough only, with no multi-GPU or vGPU path. So hypervisor isolation stops exactly where AI training runs, on multi-GPU nodes with NVLink between devices. See.
 
 ## Related
 

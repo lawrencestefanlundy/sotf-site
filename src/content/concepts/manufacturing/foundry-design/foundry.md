@@ -10,14 +10,7 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2025-12-19-lfg-for-semiconductors]]'
-frontier: []
-last_updated: '2026-05-07'
-tags:
-- concept
-- category
 mention_count: 3
-descendants: []
-last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
@@ -27,7 +20,22 @@ recent_mentions:
   kind: substack
 neighbors: []
 ---
-*Stub leader page for `concepts/semiconductors/foundry/`*
+web-]]'
+deal_count: 0
+frontier:
+- ''
+last_updated: '2026-05-07'
+tags:
+- concept
+- category
+mention_count: 3
+descendants: []
+last_reorg_date: '2026-05-13'
+---
+
+# Semiconductor Foundries
+
+*Kind: category · Stub leader page for `concepts/semiconductors/foundry/`*
 
 Pure-play and IDM foundries — TSMC, Samsung, GlobalFoundries, UMC, SMIC, Tower, X-FAB, specialty fabs.
 

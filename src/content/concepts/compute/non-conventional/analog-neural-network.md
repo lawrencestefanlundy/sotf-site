@@ -29,22 +29,22 @@ neighbors: []
 ---
 ## Physics / mechanism
 
-An analog neural network implements the arithmetic of a neural network using continuously varying physical quantities rather than binary digits. The framing offered in the available source is that digitisation is a modelling choice rather than a physical necessity: the world is continuous, and binary representation is convenient but not intrinsically matched to the signals being processed analog computing the once and future.
+An analog neural network implements the arithmetic of a neural network using continuously varying physical quantities rather than binary digits. The framing offered in the available source is that digitisation is a modelling choice rather than a physical necessity: the world is continuous, and binary representation is convenient but not intrinsically matched to the signals being processed <sup class="ref"><a href="https://stateofthefuture.substack.com/p/analog-computing-the-once-and-future" title="🔮 E09: Analog Computing: The Once and Future King" rel="noopener">ref</a></sup>.
 
-The supplied material does not specify device physics, precision, energy figures, or circuit topologies for analog neural network accelerators. What it does identify is the commercial form factor expected to carry the approach: mixed-signal integrated circuits that combine analog and digital blocks on the same die, targeted at edge AI inference analog computing the once and future.
+The supplied material does not specify device physics, precision, energy figures, or circuit topologies for analog neural network accelerators. What it does identify is the commercial form factor expected to carry the approach: mixed-signal integrated circuits that combine analog and digital blocks on the same die, targeted at edge AI inference <sup class="ref"><a href="https://stateofthefuture.substack.com/p/analog-computing-the-once-and-future" title="🔮 E09: Analog Computing: The Once and Future King" rel="noopener">ref</a></sup>.
 
 Key parameters that would determine viability (bit-equivalent precision, drift and temperature stability, analog-to-digital conversion overhead, area per multiply-accumulate) are not covered by the source and should be treated as open.
 
 ## Competitive landscape
 
-The source places analog computing alongside several other non-conventional compute approaches covered in the same series: neuromorphic computing, optical computing, and, prospectively, quantum, mechanical, molecular, magnetic and acoustic computing analog computing the once and future. It treats these as distinct entries rather than a single category, but does not give a technical comparison between them. Analog neural networks therefore sit in this reference base as one member of a cluster of alternatives to digital CMOS von Neumann inference, with the mixed-signal variant presented as the nearest-term commercial expression.
+The source places analog computing alongside several other non-conventional compute approaches covered in the same series: neuromorphic computing, optical computing, and, prospectively, quantum, mechanical, molecular, magnetic and acoustic computing <sup class="ref"><a href="https://stateofthefuture.substack.com/p/analog-computing-the-once-and-future" title="🔮 E09: Analog Computing: The Once and Future King" rel="noopener">ref</a></sup>. It treats these as distinct entries rather than a single category, but does not give a technical comparison between them. Analog neural networks therefore sit in this reference base as one member of a cluster of alternatives to digital CMOS von Neumann inference, with the mixed-signal variant presented as the nearest-term commercial expression.
 
 ## Evidence base
 
-- The stated thesis is that mixed-signal analog-digital ICs capture 50% of a $60bn edge AI hardware market, framed as an underrated outcome analog computing the once and future.
-- Analog computing is presented as one of a sequence of exotic computing paradigms alongside neuromorphic and optical computing, published 23 July 2023 analog computing the once and future.
-- The motivating argument is representational: continuous physical signals are reduced to binary for convenience rather than fidelity analog computing the once and future.
-- The Antikythera Mechanism is cited as the oldest analog computer, establishing analog computation as a pre-digital lineage rather than a new invention analog computing the once and future.
+- The stated thesis is that mixed-signal analog-digital ICs capture 50% of a $60bn edge AI hardware market, framed as an underrated outcome <sup class="ref"><a href="https://stateofthefuture.substack.com/p/analog-computing-the-once-and-future" title="🔮 E09: Analog Computing: The Once and Future King" rel="noopener">ref</a></sup>.
+- Analog computing is presented as one of a sequence of exotic computing paradigms alongside neuromorphic and optical computing, published 23 July 2023 <sup class="ref"><a href="https://stateofthefuture.substack.com/p/analog-computing-the-once-and-future" title="🔮 E09: Analog Computing: The Once and Future King" rel="noopener">ref</a></sup>.
+- The motivating argument is representational: continuous physical signals are reduced to binary for convenience rather than fidelity <sup class="ref"><a href="https://stateofthefuture.substack.com/p/analog-computing-the-once-and-future" title="🔮 E09: Analog Computing: The Once and Future King" rel="noopener">ref</a></sup>.
+- The Antikythera Mechanism is cited as the oldest analog computer, establishing analog computation as a pre-digital lineage rather than a new invention <sup class="ref"><a href="https://stateofthefuture.substack.com/p/analog-computing-the-once-and-future" title="🔮 E09: Analog Computing: The Once and Future King" rel="noopener">ref</a></sup>.
 
 ## Frontier (open questions)
 

@@ -60,8 +60,8 @@ Data starts electrical on a chip; to send it far you put it on light and read it
 - **Modulator** — impresses data onto the beam by flicking it billions of times/sec (the hand flicking the flashlight into Morse). The materials race (TFLN, BTO, silicon — [Lithium Niobate (TFLN)](/materials/functional-layers/lithium-niobate-tfln/)) is just ways to flick faster/cheaper/cooler.
 - **Photodetector** — converts light back to electrical at the far end (reads the Morse).
 - **Transceiver** — does both directions: TRANS-mitter (laser+modulator) + re-CEIVER (detector) + DSP. The translator at each fiber end. Each conversion (**O-E-O**, optical-electrical-optical) burns power — the villain of the whole story.
-  - **Pluggable** — a transceiver as a removable faceplate module (a dongle). Most of the market.
-  - **[Co-Packaged Optics](/manufacturing/packaging/co-packaged-optics/) (CPO)** — moves the transceiver next to the switch chip (mm not cm of electrical trace) to cut power. "CPO vs pluggables" = *where you put the converter*.
+ - **Pluggable** — a transceiver as a removable faceplate module (a dongle). Most of the market.
+ - **[Co-Packaged Optics](/manufacturing/packaging/co-packaged-optics/) (CPO)** — moves the transceiver next to the switch chip (mm not cm of electrical trace) to cut power. "CPO vs pluggables" = *where you put the converter*.
 - **Fiber** — the road.
 
 ## The deciders (where OCS fits)

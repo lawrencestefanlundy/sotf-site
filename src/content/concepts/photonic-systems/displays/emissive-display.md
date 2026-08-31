@@ -48,11 +48,11 @@ quality one.
 ## The mechanism
 
 - **Modulated** (LCoS, DLP): a separate illumination source runs, and a spatial modulator
-  subtracts light to form the image. A black pixel is light that was generated and then
-  thrown away. **Power is roughly independent of content.**
+ subtracts light to form the image. A black pixel is light that was generated and then
+ thrown away. **Power is roughly independent of content.**
 - **Emissive** ([MicroLED microdisplays](/photonic-systems/displays/microled/), microOLED) and **additive** (laser beam scanning — the
-  lasers simply are not switched on for a dark pixel): only lit pixels consume power.
-  **Power scales with content.**
+ lasers simply are not switched on for a dark pixel): only lit pixels consume power.
+ **Power scales with content.**
 
 AR content is overwhelmingly sparse — notifications, a few lines of text, a glyph on an
 otherwise black field. So for an always-on device the gap between the two is not marginal;

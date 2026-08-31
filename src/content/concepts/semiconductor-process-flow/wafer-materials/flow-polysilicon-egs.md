@@ -77,19 +77,19 @@ Tight non-Chinese oligopoly at 11N: Wacker (Germany, largest EGS producer, ~22,0
 Net read: the EGS served pool grows steadily on AI-driven wafer demand, but the trajectory is hostage to the solar cycle that funds the scale, and any re-rate is policy- and shortage-driven rather than volume-driven.
 
 - **Drivers**
-  - Wafer demand is the pull: SEMI reports Q1 2026 silicon-wafer shipments up 13% year-on-year, with AI data centres taking the lion's share and a new shipment record expected by 2028 [10]. Every extra leading-edge wafer needs 11N feedstock, and report-mills already put 2026 semiconductor polysilicon uptake up ~10% [11].
-  - Sovereignty/reshoring is opening captive demand: Hemlock secured a ~$325M CHIPS grant for new Michigan EGS capacity (~2026) and the Jan 2026 US-Taiwan reshoring deal pulls more leading-edge fab build onshore, lengthening the qualified-feedstock queue [12][13].
-  - Pricing resilience at the top: Wacker reports its hyperpure semiconductor-grade business performing very well with rising volumes into 2026 even as solar prices stay crushed, confirming EGS sits out the price war [14].
+ - Wafer demand is the pull: SEMI reports Q1 2026 silicon-wafer shipments up 13% year-on-year, with AI data centres taking the lion's share and a new shipment record expected by 2028 [10]. Every extra leading-edge wafer needs 11N feedstock, and report-mills already put 2026 semiconductor polysilicon uptake up ~10% [11].
+ - Sovereignty/reshoring is opening captive demand: Hemlock secured a ~$325M CHIPS grant for new Michigan EGS capacity (~2026) and the Jan 2026 US-Taiwan reshoring deal pulls more leading-edge fab build onshore, lengthening the qualified-feedstock queue [12][13].
+ - Pricing resilience at the top: Wacker reports its hyperpure semiconductor-grade business performing very well with rising volumes into 2026 even as solar prices stay crushed, confirming EGS sits out the price war [14].
 
 - **Constraints**
-  - The scale trap: domestic EGS economics depend on high-volume solar-grade output to hit the utilisation that makes 11N affordable; the solar glut and China's ~93% capacity share threaten that base [13][8].
-  - Capex and qualification gate growth: new EGS lines cost billions and qualification runs years, so supply cannot flex to a demand spike, risking price volatility not volume [11].
-  - Cyclicality overshoot: Bernreuter warns the solar shakeout could overcorrect into a polysilicon shortage by 2028, repeating 2018-20, which would whipsaw feedstock cost for EGS makers [15].
+ - The scale trap: domestic EGS economics depend on high-volume solar-grade output to hit the utilisation that makes 11N affordable; the solar glut and China's ~93% capacity share threaten that base [13][8].
+ - Capex and qualification gate growth: new EGS lines cost billions and qualification runs years, so supply cannot flex to a demand spike, risking price volatility not volume [11].
+ - Cyclicality overshoot: Bernreuter warns the solar shakeout could overcorrect into a polysilicon shortage by 2028, repeating 2018-20, which would whipsaw feedstock cost for EGS makers [15].
 
 - **Trends & inflections to watch**
-  - Capacity-step from the West: Wacker commissioned its >€300M Etching Line Next at Burghausen, lifting top-grade EGS capacity by >50% [16]. Tripwire: a second Western +50%-class EGS line announced (Wacker, Hemlock, OCI) by end-2027 confirms the demand pull is structural.
-  - Section 232 re-rate: the US polysilicon Section 232 probe opened 1 July 2025 with a determination due by ~March 2026 [8][17]. Tripwire: a tariff or tariff-rate-quota on imported polysilicon issued in 2026 would re-rate non-Chinese EGS supply security overnight.
-  - Shortage flip: Tripwire: Chinese polysilicon spot rising back above ~$10/kg (from ~$4.50/kg end-2024) signals the 2028 shortage thesis arriving early and pricing power returning to qualified producers [15].
+ - Capacity-step from the West: Wacker commissioned its >€300M Etching Line Next at Burghausen, lifting top-grade EGS capacity by >50% [16]. Tripwire: a second Western +50%-class EGS line announced (Wacker, Hemlock, OCI) by end-2027 confirms the demand pull is structural.
+ - Section 232 re-rate: the US polysilicon Section 232 probe opened 1 July 2025 with a determination due by ~March 2026 [8][17]. Tripwire: a tariff or tariff-rate-quota on imported polysilicon issued in 2026 would re-rate non-Chinese EGS supply security overnight.
+ - Shortage flip: Tripwire: Chinese polysilicon spot rising back above ~$10/kg (from ~$4.50/kg end-2024) signals the 2028 shortage thesis arriving early and pricing power returning to qualified producers [15].
 
 ## Connections
 [Materials & Process](/materials/advanced-materials/materials-process/)

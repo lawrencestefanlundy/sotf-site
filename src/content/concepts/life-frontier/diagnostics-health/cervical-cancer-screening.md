@@ -11,11 +11,6 @@ parent_concepts:
 - life-frontier
 related_concepts: []
 sources: []
-frontier: []
-last_updated: '2026-06-01'
-tags:
-- concept
-- seeded-stub
 mention_count: 2
 sources_7d: 0
 sources_30d: 0

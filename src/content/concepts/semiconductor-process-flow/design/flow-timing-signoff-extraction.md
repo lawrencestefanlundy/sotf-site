@@ -69,19 +69,19 @@ The moat is reference status plus switching cost: golden-tool certification by f
 Net read: a steadily accelerating served market. Signoff is the most defensible slice of an EDA pool growing ~9-9.4% to ~$43B by 2034 [10], and every structural shift in chip design (more corners, more dies, more parasitics) sells deeper into the same locked-in tools.
 
 - **Drivers**
-  - Design complexity is compounding: GAA + backside power + multi-die produce a roughly ten-fold rise in design-rule checks versus 7nm, and chiplet/2.5D-3D growth (3D-IC packaging ~$33B by 2030, ~15% CAGR) forces new multi-die timing, thermal and cross-die parasitic signoff that single-die flows cannot do [11][12].
-  - Verification/signoff intensity is rising faster than wafer volume: semiconductor R&D intensity is climbing toward ~9% and EDA's share of that R&D is expanding through node-transition pricing and AI-tool premiums [13].
-  - MCMM closure sells by the core: large SoC teams run hundreds of PrimeTime/Tempus cores in parallel, so more corners and modes expand peak-core licensing without new logos [10][13].
+ - Design complexity is compounding: GAA + backside power + multi-die produce a roughly ten-fold rise in design-rule checks versus 7nm, and chiplet/2.5D-3D growth (3D-IC packaging ~$33B by 2030, ~15% CAGR) forces new multi-die timing, thermal and cross-die parasitic signoff that single-die flows cannot do [11][12].
+ - Verification/signoff intensity is rising faster than wafer volume: semiconductor R&D intensity is climbing toward ~9% and EDA's share of that R&D is expanding through node-transition pricing and AI-tool premiums [13].
+ - MCMM closure sells by the core: large SoC teams run hundreds of PrimeTime/Tempus cores in parallel, so more corners and modes expand peak-core licensing without new logos [10][13].
 
 - **Constraints**
-  - Cyclicality and geopolitics: China was ~16% of Synopsys and ~12% of Cadence FY24 revenue, and the May 2025 US export-control whipsaw (imposed, rescinded six weeks later) shows how fast this pool can be gated [14][15].
-  - Pure-software TAM cap: signoff stays a low-single-digit-billion slice of EDA, and assistive AI that closes timing faster can compress per-design runtime/seats even as it adds value [13].
-  - Foundry-certification lock-in cuts both ways: it protects incumbents but caps any new-entrant share, so the pool grows only as fast as design starts and complexity, not as fast as new vendors can enter [16].
+ - Cyclicality and geopolitics: China was ~16% of Synopsys and ~12% of Cadence FY24 revenue, and the May 2025 US export-control whipsaw (imposed, rescinded six weeks later) shows how fast this pool can be gated [14][15].
+ - Pure-software TAM cap: signoff stays a low-single-digit-billion slice of EDA, and assistive AI that closes timing faster can compress per-design runtime/seats even as it adds value [13].
+ - Foundry-certification lock-in cuts both ways: it protects incumbents but caps any new-entrant share, so the pool grows only as fast as design starts and complexity, not as fast as new vendors can enter [16].
 
 - **Trends & inflections to watch**
-  - AI/agentic signoff is moving from copilot to autonomous ECO and closure (Synopsys.ai, Cadence Cerebrus). Tripwire: a named foundry certifies an AI-assisted extraction/STA flow as golden at <=2nm [13][16].
-  - Field-solver extraction for non-planar GAA/CFET and backside-power layouts is being rebuilt; rule-based decks lose accuracy. Tripwire: a TSMC/Samsung 2nm PDK ships requiring full 3D field-solver MOL/FEOL extraction by 2027 [11][16].
-  - Multi-die signoff becoming its own product line (Siemens Innovator 3D IC + Calibre 3D Stress, Jun 2025). Tripwire: a hyperscaler tapes out a stacked AI accelerator whose signoff is priced as a separate multi-die tier [12][17].
+ - AI/agentic signoff is moving from copilot to autonomous ECO and closure (Synopsys.ai, Cadence Cerebrus). Tripwire: a named foundry certifies an AI-assisted extraction/STA flow as golden at <=2nm [13][16].
+ - Field-solver extraction for non-planar GAA/CFET and backside-power layouts is being rebuilt; rule-based decks lose accuracy. Tripwire: a TSMC/Samsung 2nm PDK ships requiring full 3D field-solver MOL/FEOL extraction by 2027 [11][16].
+ - Multi-die signoff becoming its own product line (Siemens Innovator 3D IC + Calibre 3D Stress, Jun 2025). Tripwire: a hyperscaler tapes out a stacked AI accelerator whose signoff is priced as a separate multi-die tier [12][17].
 
 ## Connections
 [EDA & Design Tools](/manufacturing/foundry-design/eda-design-tools/) · [Routing (process step)](/semiconductor-process-flow/design/flow-routing/) · [Physical verification (DRC/LVS/DFM) (process step)](/semiconductor-process-flow/design/flow-physical-verification-drc-lvs/)

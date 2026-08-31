@@ -76,7 +76,7 @@ neighbors:
 ---
 *The photonic-active cousin of [Glass Interposers](/manufacturing/packaging/glass-interposers/). Glass-interposers = glass carrying **electrical** routing; glass-photonics = glass carrying **light**.*
 
-> **Stack context:** glass photonics is **one option in Layer 1 (fibre-to-chip optical coupling)** of the PIC packaging stack, competing with polymer [Photonic Wire Bonding](/manufacturing/packaging/photonic-wire-bonding/) and edge/grating coupling. It is *not* a [Silicon Photonics](/photonic-systems/pic-platforms/silicon-photonics/) replacement — SiPh is the active platform; glass is the coupling/passive-routing medium around it. Full landscape: pic packaging approaches landscape.
+> **Stack context:** glass photonics is **one option in Layer 1 (fibre-to-chip optical coupling)** of the PIC packaging stack, competing with polymer [Photonic Wire Bonding](/manufacturing/packaging/photonic-wire-bonding/) and edge/grating coupling. It is *not* a [Silicon Photonics](/photonic-systems/pic-platforms/silicon-photonics/) replacement — SiPh is the active platform; glass is the coupling/passive-routing medium around it. Full landscape:.
 
 ## Physics / mechanism
 

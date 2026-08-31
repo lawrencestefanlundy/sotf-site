@@ -76,17 +76,17 @@ Routing line: this is a mature, scale-and-yield commodity with no defensible sof
 ## Market drivers, constraints & trends
 Net read: a low-single-digit, cyclical grind with a power and automotive pull lifting it off the floor, but no structural re-rating. The served pool (frame product plus thin equipment/consumables layer) tracks roughly 3.4 to 4.4 percent a year [1][3].
 - **Drivers**
-  - Power discretes and modules for EVs, motor drives and renewables are the strongest pull; the SiC/GaN transition needs robust copper interconnect, and copper-clip bonding for power devices was about USD 1.41bn in 2024 growing ~7.2 percent to 2033, well above the frame base [9][10]. Automotive is now roughly a quarter of frame demand [11].
-  - AI data-centre power management is a new, faster lane: CWTC cites industrial control, networking and AI server power as the recovery drivers, reaching a ~40-month revenue high in January 2026 [12][13].
-  - Precious-metal-cost-driven price hikes (gold, silver) let frame makers push IC/LED leadframe price increases that took effect in 4Q25, lifting revenue not just volume [14][13].
+ - Power discretes and modules for EVs, motor drives and renewables are the strongest pull; the SiC/GaN transition needs robust copper interconnect, and copper-clip bonding for power devices was about USD 1.41bn in 2024 growing ~7.2 percent to 2033, well above the frame base [9][10]. Automotive is now roughly a quarter of frame demand [11].
+ - AI data-centre power management is a new, faster lane: CWTC cites industrial control, networking and AI server power as the recovery drivers, reaching a ~40-month revenue high in January 2026 [12][13].
+ - Precious-metal-cost-driven price hikes (gold, silver) let frame makers push IC/LED leadframe price increases that took effect in 4Q25, lifting revenue not just volume [14][13].
 - **Constraints**
-  - High-I/O migration to laminated substrates keeps eroding the fine-pitch ceiling; frames hold only where reliability and cost dominate (auto, power) [15].
-  - The product is copper plus silver/palladium plating with pass-through, not pricing, power; margins compress when metal costs spike but demand is soft [14][10].
-  - China capacity additions under domestic-fab policy intensify price competition and overcapacity-driven erosion in downturns [16].
+ - High-I/O migration to laminated substrates keeps eroding the fine-pitch ceiling; frames hold only where reliability and cost dominate (auto, power) [15].
+ - The product is copper plus silver/palladium plating with pass-through, not pricing, power; margins compress when metal costs spike but demand is soft [14][10].
+ - China capacity additions under domestic-fab policy intensify price competition and overcapacity-driven erosion in downturns [16].
 - **Trends & inflections to watch**
-  - Clip-bond and EMC/premold "leadframe-as-coreless-substrate" formats (Rt-QFN) push frames upmarket into intermediate I/O [10][17]. Tripwire: a top-3 maker reporting clip-bond/EMC frames as a double-digit revenue share by FY2026 reporting.
-  - Capacity expansion as a demand signal. Tripwire: CWTC's new Malaysia plant reaching its targeted late-2026 launch on schedule confirms the power/AI pull is durable, not a restock blip [12].
-  - Sustained price-hike stick. Tripwire: frame ASPs holding or rising through a soft-demand quarter in 2026 would mark a structural, not cyclical, shift [13][14].
+ - Clip-bond and EMC/premold "leadframe-as-coreless-substrate" formats (Rt-QFN) push frames upmarket into intermediate I/O [10][17]. Tripwire: a top-3 maker reporting clip-bond/EMC frames as a double-digit revenue share by FY2026 reporting.
+ - Capacity expansion as a demand signal. Tripwire: CWTC's new Malaysia plant reaching its targeted late-2026 launch on schedule confirms the power/AI pull is durable, not a restock blip [12].
+ - Sustained price-hike stick. Tripwire: frame ASPs holding or rising through a soft-demand quarter in 2026 would mark a structural, not cyclical, shift [13][14].
 
 ## Connections
 - [Semiconductor Packaging](/manufacturing/packaging/packaging/)

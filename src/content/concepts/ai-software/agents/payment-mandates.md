@@ -55,7 +55,7 @@ neighbors:
 ---
 The cryptographic record that a human authorised an agent to spend: what, how much, with whom, for how long. Distinct from moving the money, and distinct from proving which agent is calling. Mandates sit above the rail ([x402](/ai-software/agents/x402/), cards) and beside identity ([Agent Identity (KYA)](/ai-software/agents/agent-identity-kya/)).
 
-> Researched 21 July 2026 (agent identity kya landscape, x402 protocol state).
+> Researched 21 July 2026 (, <sup class="ref"><a href="https://www.linuxfoundation.org/press/linux-foundation-announces-operational-launch-of-x402-foundation-to-standardize-internet-native-payments-for-ai-agents-and-applications" title="x402 protocol state, governance and volume — commissioned research pass" rel="noopener">ref</a></sup>).
 
 ## The standards, and who owns them
 

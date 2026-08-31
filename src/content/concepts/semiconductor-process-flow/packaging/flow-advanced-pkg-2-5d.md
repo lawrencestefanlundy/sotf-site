@@ -93,19 +93,19 @@ CoWoS is sold out through 2026 [1]. TSMC monthly CoWoS capacity: ~35-40k wafers/
 Net read: the served equipment + materials pool keeps accelerating through 2027 because the bottleneck is architectural, not cyclical, but the served market is concentrated on three buyers and a handful of chokepoints.
 
 - **Drivers**
-  - AI accelerator wafer demand is forecast to rise ~11x from 2022 to 2026, and CoWoS capacity to compound at a >80% CAGR 2022-2027, dragging the whole back-end tool + consumable pool with it [11][12].
-  - The shortage is structural, not a cycle: shortages are now architectural (allocation, not wafer starts, is the binding constraint), so the demand floor holds even if a capex pause hits front-end fabs [14].
-  - Capacity is being doubled twice over: TSMC ~120-140k wafers/month in 2026 toward ~160-170k by end-2027, plus ~50-60k of new OSAT capacity, lifting industry capacity toward ~200k/month, every wafer of which burns interposer, substrate, and bonder time [13].
+ - AI accelerator wafer demand is forecast to rise ~11x from 2022 to 2026, and CoWoS capacity to compound at a >80% CAGR 2022-2027, dragging the whole back-end tool + consumable pool with it [11][12].
+ - The shortage is structural, not a cycle: shortages are now architectural (allocation, not wafer starts, is the binding constraint), so the demand floor holds even if a capex pause hits front-end fabs [14].
+ - Capacity is being doubled twice over: TSMC ~120-140k wafers/month in 2026 toward ~160-170k by end-2027, plus ~50-60k of new OSAT capacity, lifting industry capacity toward ~200k/month, every wafer of which burns interposer, substrate, and bonder time [13].
 
 - **Constraints**
-  - Demand concentration: NVIDIA, Broadcom and AMD together hold ~85%+ of CoWoS capacity (NVIDIA alone ~60%, ~595k wafers booked), so a single hyperscaler order cut would whipsaw the served market [14].
-  - Materials chokepoints stay binding: ABF resin (Ajinomoto ~95%) raised film prices ~30% with the supply-demand gap extending to end-2027 [15]; substrate makers (Unimicron, Kinsus, Nan Ya) are sold out [16].
-  - Asymmetric overbuild risk: the substrate market has split into scarce AI-grade vs over-supplied commodity PC-grade; if every announced expansion ships, 2026-27 overcapacity hits the commodity tier first [15].
+ - Demand concentration: NVIDIA, Broadcom and AMD together hold ~85%+ of CoWoS capacity (NVIDIA alone ~60%, ~595k wafers booked), so a single hyperscaler order cut would whipsaw the served market [14].
+ - Materials chokepoints stay binding: ABF resin (Ajinomoto ~95%) raised film prices ~30% with the supply-demand gap extending to end-2027 [15]; substrate makers (Unimicron, Kinsus, Nan Ya) are sold out [16].
+ - Asymmetric overbuild risk: the substrate market has split into scarce AI-grade vs over-supplied commodity PC-grade; if every announced expansion ships, 2026-27 overcapacity hits the commodity tier first [15].
 
 - **Trends & inflections to watch**
-  - Panel-level / CoPoS (Chip-on-Panel-on-Substrate) is the next reticle break. Tripwire: TSMC starting CoPoS production in 2027 alongside Rubin Ultra (~9.5x reticle) confirms the panel transition is real [12][13].
-  - Glass-core substrates moving from sample to volume. Tripwire: glass-core revenue clearing ~$460M-scale by 2030 with adoption visibly starting 2027-28 would re-rate the materials pool toward EU/Korea entrants (Absolics, SCHOTT) [10][12].
-  - 2.5D bleeding into 3D via hybrid bonding sub-10um. Tripwire: TSMC SoIC face-to-face hybrid bonding at ~6um in production and CoWoS holding 24 HBM stacks targeted for 2029 would shift tool spend from TCB toward hybrid bonders (BESI/EVG) faster than the base case [11][17].
+ - Panel-level / CoPoS (Chip-on-Panel-on-Substrate) is the next reticle break. Tripwire: TSMC starting CoPoS production in 2027 alongside Rubin Ultra (~9.5x reticle) confirms the panel transition is real [12][13].
+ - Glass-core substrates moving from sample to volume. Tripwire: glass-core revenue clearing ~$460M-scale by 2030 with adoption visibly starting 2027-28 would re-rate the materials pool toward EU/Korea entrants (Absolics, SCHOTT) [10][12].
+ - 2.5D bleeding into 3D via hybrid bonding sub-10um. Tripwire: TSMC SoIC face-to-face hybrid bonding at ~6um in production and CoWoS holding 24 HBM stacks targeted for 2029 would shift tool spend from TCB toward hybrid bonders (BESI/EVG) faster than the base case [11][17].
 
 ## Connections
 [CoWoS (TSMC)](/manufacturing/packaging/cowos/) · [Advanced Packaging](/manufacturing/packaging/advanced-packaging/) · [Glass Interposers](/manufacturing/packaging/glass-interposers/) · [Heterogeneous Integration](/manufacturing/packaging/heterogeneous-integration/) · theses: **Advanced Packaging Market** · **Chiplets Architecture Share** · **Photonic Packaging Cpo**

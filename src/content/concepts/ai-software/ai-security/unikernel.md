@@ -44,7 +44,7 @@ An application compiled together with only the OS components it actually calls, 
 
 The commercial pitch has almost always been cost and cold-start speed rather than security. **Unikraft** (NEC Laboratories Europe spinout, seeded Oct 2025 by Heavybit and Vercel Ventures) sells up to 50% lower cloud spend; the isolation property is real but unpriced. That gap is the interesting part: the AI-agent sandbox market (**E2B**, **Daytona**) pays specifically for untrusted code that cannot escape, which is the property a unikernel has natively.
 
-Open question for the sourcing map: whether unikernels can carry GPU workloads at all, since compiling away the OS is hardest exactly where a fat proprietary driver stack is mandatory. See isolation sourcing sprint.
+Open question for the sourcing map: whether unikernels can carry GPU workloads at all, since compiling away the OS is hardest exactly where a fat proprietary driver stack is mandatory. See.
 
 ## Related
 

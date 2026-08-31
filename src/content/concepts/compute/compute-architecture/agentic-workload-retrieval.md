@@ -71,7 +71,7 @@ The retrieval layer for agentic AI workloads — distinct from chatbot inference
 
 ## The agentic-silicon screen (DD heuristic)
 
-When a founder pitches "silicon for agents," locate the *claimed* bottleneck on this tree before anything else (evidence base: agentic runtime silicon necessity):
+When a founder pitches "silicon for agents," locate the *claimed* bottleneck on this tree before anything else (evidence base:):
 
 One-line version: **the silicon agents strain is memory, not the agent loop; and within memory, the measured bind is capacity, with access-pattern (retrieval) the least-evidenced of the three as of 2 Jun 2026.** When a deck says "agent chip," the first question is *compute or memory*, and the second is *capacity, bandwidth, or access-pattern*.
 

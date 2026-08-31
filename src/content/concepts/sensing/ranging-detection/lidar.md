@@ -16,15 +16,9 @@ sources:
 - '[[2026-05-31-companiesmarketcap]]'
 - '[[2026-06-17-single-photon-detector-market-spad-snspd]]'
 - '[[2026-05-30-companiesmarketcap]]'
-frontier: []
-last_updated: '2026-05-04'
-tags:
-- concept
-- technology
-mention_count: 72
-last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 4
+mention_count: 73
+sources_7d: 1
+sources_30d: 5
 recent_mentions:
 - slug: 2026-08-03-spad-single-photon-market-scan
   title: SPAD / single-photon detector market scan — incumbent structure and company cohort

@@ -69,18 +69,18 @@ Volumes scale with die count, not wafer count: a single advanced package can sta
 Net read: the served market (equipment + materials) accelerates over the next 2-5 years, but the growth is concentrated in the AI-packaging frontier and paced by two architecture inflections, not the broad unit cycle.
 
 - **Drivers**
-  - AI advanced-packaging capex is the dominant pull: TSMC is quadrupling CoWoS toward ~130k wafers/month by late 2026, roughly 10x its 2023 footprint, with die bonders and hybrid bonders called out as capacity-constrained bottlenecks [9][10]. Advanced packaging overall is forecast at ~$65B by 2027 (+74% vs 2021) [9].
-  - HBM stack heights pushing past 12-16 layers force every stack onto thermo-compression bonding (TCB) today, multiplying high-precision placements per package [11][12].
-  - K&S is expanding TCB to support ~$400M annual system sales and lifting FY26 capex; ASMPT's fluxless AOR TCB is winning HBM qualification, a direct read on frontier demand [12][3].
-  - Power/automotive: SiC MOSFET migration and 800V EV architectures (junction temps >200C) force silver-sinter die attach, the fastest-growing material slice at ~10-15% CAGR; >65% of sinter demand is power electronics [13].
+ - AI advanced-packaging capex is the dominant pull: TSMC is quadrupling CoWoS toward ~130k wafers/month by late 2026, roughly 10x its 2023 footprint, with die bonders and hybrid bonders called out as capacity-constrained bottlenecks [9][10]. Advanced packaging overall is forecast at ~$65B by 2027 (+74% vs 2021) [9].
+ - HBM stack heights pushing past 12-16 layers force every stack onto thermo-compression bonding (TCB) today, multiplying high-precision placements per package [11][12].
+ - K&S is expanding TCB to support ~$400M annual system sales and lifting FY26 capex; ASMPT's fluxless AOR TCB is winning HBM qualification, a direct read on frontier demand [12][3].
+ - Power/automotive: SiC MOSFET migration and 800V EV architectures (junction temps >200C) force silver-sinter die attach, the fastest-growing material slice at ~10-15% CAGR; >65% of sinter demand is power electronics [13].
 - **Constraints**
-  - Demand is tightly coupled to one cycle (AI/HBM datacentre capex); a hyperscaler capex pause re-rates the frontier tier hard, and mainstream die bonders already ride a slow unit cycle.
-  - Equipment is lumpy capex, not annuity, so the equipment pool is cyclical even while materials stay sticky.
-  - Hybrid-bonding adoption is being deferred (see below), so the highest-margin tool category grows from a small base and is exposed to slip risk.
+ - Demand is tightly coupled to one cycle (AI/HBM datacentre capex); a hyperscaler capex pause re-rates the frontier tier hard, and mainstream die bonders already ride a slow unit cycle.
+ - Equipment is lumpy capex, not annuity, so the equipment pool is cyclical even while materials stay sticky.
+ - Hybrid-bonding adoption is being deferred (see below), so the highest-margin tool category grows from a small base and is exposed to slip risk.
 - **Trends & inflections to watch**
-  - Hybrid bonding postponed: JEDEC lifted the HBM4 height limit to 775um, letting HBM4 stay on microbumps/TCB; mass hybrid-bonding adoption now slides to HBM5 ~2028-2029 [11]. Tripwire: SK Hynix's $3.87B Indiana hybrid-bonding plant reaching production in 2028 [11] confirms the shift on schedule.
-  - Pitch scaling: 6um hybrid-bond pitch is the 2026 high-volume standard, with 4um and 3um in test for late-2026 deployments [14]. Tripwire: a 3um-pitch die-to-wafer line qualified for production confirms the density curve accelerating.
-  - In-line metrology folding into the bonder head (e.g. real-time X-ray die-to-wafer alignment correction) [14]. Tripwire: a metrology-integrated bonder shipped in volume signals the accuracy frontier (and its pricing power) moving again.
+ - Hybrid bonding postponed: JEDEC lifted the HBM4 height limit to 775um, letting HBM4 stay on microbumps/TCB; mass hybrid-bonding adoption now slides to HBM5 ~2028-2029 [11]. Tripwire: SK Hynix's $3.87B Indiana hybrid-bonding plant reaching production in 2028 [11] confirms the shift on schedule.
+ - Pitch scaling: 6um hybrid-bond pitch is the 2026 high-volume standard, with 4um and 3um in test for late-2026 deployments [14]. Tripwire: a 3um-pitch die-to-wafer line qualified for production confirms the density curve accelerating.
+ - In-line metrology folding into the bonder head (e.g. real-time X-ray die-to-wafer alignment correction) [14]. Tripwire: a metrology-integrated bonder shipped in volume signals the accuracy frontier (and its pricing power) moving again.
 
 ## Connections
 [Bonding & Dicing Equipment](/manufacturing/equipment-processes/bonding-dicing-equipment/)

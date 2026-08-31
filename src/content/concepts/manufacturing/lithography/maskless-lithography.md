@@ -30,23 +30,7 @@ related_concepts:
 sources:
 - '[[2023-07-27-e10-pushing-moores-law-to-the-limit]]'
 - '[[2025-01-06-radiant-acquires-nilt]]'
-frontier:
-- Production state of multi-beam direct-write in 2026 — IMS Nanofabrication (Intel-acquired), Mapper-derived programs, NuFlare. Are any shipping volume tools to fabs, or still mask-writing only?
-- Per-wafer cost crossover where mask amortisation no longer wins — what volume threshold makes maskless economic?
-- Lateral resolution + throughput frontier on optical maskless (DMD-based) vs e-beam vs NIL
-- Customer profile of current maskless-tool buyers — research labs, photonic foundries, MEMS, specialty-IC?
-- Multi-beam mask writing/inspection bottleneck — already binding on the mask side rather than the scanner side?
-- Photonic foundry adoption — does maskless become the natural pairing for low-volume photonic-IC fabs?
-- European maskless ecosystem outside ASML — UK, Scotland, Germany, France clusters?
-last_updated: 2026-05-08
-tags:
-- concept
-- technology
-- lithography
-- maskless
-- direct-write
 mention_count: 30
-last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:

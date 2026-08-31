@@ -67,7 +67,7 @@ neighbors:
 
 A D2NN is a stack of diffractive optical elements (DOEs) where each layer applies a programmable phase transformation to an incoming light wavefront. The composition of multiple layers computes complex optical transformations, originally for classification (image → class) and more recently for arbitrary information routing.
 
-**Architecture in words:** light passes through DOE1 → DOE2 → DOE3 → ... → output. Each DOE is implemented as a spatial light modulator (SLM): a 2D pixel array where each pixel applies a controllable phase delay. Reprogram the phase pattern, change the optical transformation.
+**Architecture in words:** light passes through DOE1 → DOE2 → DOE3 →... → output. Each DOE is implemented as a spatial light modulator (SLM): a 2D pixel array where each pixel applies a controllable phase delay. Reprogram the phase pattern, change the optical transformation.
 
 **Trade-off:** SLM-class switching speed (single-µs to ms depending on technology — liquid-crystal SLMs slowest, LCOS/DMD faster) bounds the architecture's applicability. Sub-ns electrical switching is not in reach.
 

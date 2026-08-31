@@ -22,13 +22,26 @@ sources:
 - '[[2026-03-mamba-3-iclr]]'
 - '[[2026-06-23-on-device-llms-state-of-union-2026]]'
 frontier:
+- Do Mamba-3's smaller states and MIMO decoding hold their parameter-efficiency gains at frontier scale, or does the gap with attention re-open above the sizes reported at ICLR 2026?
+- Have the core SSM primitives stabilised enough after Mamba-2 to Mamba-3 that a fixed-function accelerator taped out in 2026 is still relevant in 2029?
+- Does the hybrid attention-to-SSM layer ratio converge to a stable value across labs, which is what determines whether disaggregated designs like DUET are worth building?
+- Can any commercial vendor reproduce eMamba's ~48× energy advantage on its own silicon against a like-for-like accuracy baseline, rather than citing the academic 22nm ViT comparison?
 - Does the energy advantage of dedicated SSM silicon over optimised kernels on existing NPUs stay large (>5x) and durable, or does software close it to ~2x?
 - Does a sub-watt always-on streaming socket (hearing aids, AR perception) reach volume general silicon cannot serve, giving a dedicated SSM ASIC a why-now?
 - Does the architecture stabilise (Mamba-3 onwards) enough to tape out fixed-function silicon, or does it keep moving fast enough to favour programmable / kernel approaches?
-last_updated: 2026-06-18
+last_updated: '2026-08-31'
 tags:
 - concept
 mention_count: 22
+scorecard:
+  viability: 4
+  drivers: 4
+  novelty: 4
+  diffusion: 4
+  impact: 4
+  timing_band: Now (0-2yr)
+  verdict: Fairly rated
+scorecard_status: draft
 sources_7d: 0
 sources_30d: 2
 recent_mentions:
@@ -78,51 +91,77 @@ neighbors:
   path: /compute/ai-edge/edge-ai/
   macro: compute
 ---
-## What an SSM is (one paragraph)
+**State space models replace the quadratic attention of transformers with a linear-time recurrence carrying a fixed-size state, and as of 2026 they are shipping inside mainstream hybrid checkpoints such as Qwen3-Next and NVIDIA Nemotron rather than displacing transformers outright <sup class="ref"><a href="https://v-chandra.github.io/on-device-llms/" title="On-device LLMs, the small-model frontier, and NPU throughput (2025-26 update)" rel="noopener">ref</a></sup>.**
 
-A state-space model processes a sequence by carrying a **fixed-size internal "state"** that summarises everything seen so far, updating it token by token, instead of re-attending over the whole history like a transformer. The cost is **linear in sequence length** (O(L)) with **constant memory at inference**, versus the transformer's quadratic O(L²) attention and a KV-cache that grows with context. The modern, practical form is the **selective SSM** (Mamba lineage), where the state-update is input-dependent. Those two properties (linear scaling, constant inference memory) are the entire reason SSMs matter for edge and streaming.
+## Summary
 
-## Model state of the art (2026): hybrids won, not pure SSMs
+The architecture is still moving. Mamba-3, published at ICLR 2026 by authors at CMU, Princeton, Cartesia AI and Together AI, claims 2× smaller states, enhanced multi-input multi-output decoding aimed explicitly at hardware efficiency, improved scaling laws that narrow the gap with transformers at equal parameter counts, and cleaner integration with attention layers in hybrid stacks **2026 03 Mamba 3 Iclr**. That last point matters more than the others: the dominant deployment pattern is not pure SSM but Mamba-plus-attention hybrids, which is how Qwen3-Next and NVIDIA Nemotron-3 handle long context <sup class="ref"><a href="https://v-chandra.github.io/on-device-llms/" title="On-device LLMs, the small-model frontier, and NPU throughput (2025-26 update)" rel="noopener">ref</a></sup>.
 
-## Why-now for the edge (the strongest part of the bull case)
+## Viability (4/5)
 
-- **Streaming without buffering.** An SSM does not need to wait for a full context window: streaming models emit a first token ~120ms after the first audio arrives. For always-on audio, this is a structural fit general transformer inference cannot match on the same power budget.
-- **World models / physical AI.** Real-time, causal, on-device world models (NVIDIA Cosmos 3 Edge, Odyssey-2, 6G agentic world-modelling research) increasingly use lightweight recurrent state-space cores for fast look-ahead reasoning at the edge. This is the emerging, datable why-now narrative, though still nascent.
-- The honest counter: the why-now has been "forming" for ~2 years (SSM hype peaked around 2024) without yet producing a sub-watt volume socket. That is exactly the open question for Sensifai.
+The evidence for basic viability is no longer benchmark-only. Mamba-2 and related linear mixers appear as production sequence-mixer designs in checkpoints instrumented by third parties, alongside MLA, MHA and GQA variants, in a study spanning DeepSeek, Qwen and Nemotron models. Accelerator work is evaluated against real hybrid models including Nemotron-H-56B and Zamba2-7B. Mamba-3 reports narrowing the parameter-efficiency gap with transformers rather than closing it **2026 03 Mamba 3 Iclr**, which is the honest reading: SSMs are viable as a component, and the mainstream answer is a hybrid.
 
-## Hardware-acceleration landscape: where the value is being captured
+The unresolved half is execution. Multiple independent 2026 architecture papers converge on the same diagnosis: Mamba workloads cannot run at near-peak speed on current hardware because of irregular data movement, prefix dependencies and unfusable operator cascades. That is a solvable engineering problem with visible progress, not an existence question, which is why this scores 4 rather than 5.
 
-The decisive question for a chip company is **who serves SSM inference, and on what silicon.** Three layers:
+**TLDR: Trained, published and shipping inside production hybrid checkpoints; the residual doubt is hardware efficiency, not learnability.**
 
-**Read across the layers:** the energy advantage of dedicated SSM silicon is genuine, but the commercial gravity so far sits at layer 1 (software on commodity silicon). A dedicated-ASIC company has to prove its layer-3 energy/cost delta is big and durable enough to beat a fast-moving layer-1 incumbent into a specific socket.
+## Drivers (4/5)
 
-## Comparable set for a dedicated SSM edge play (hand-built; the auto comp query returned none)
+Supply: the research pipeline is unusually thick for a single architecture family. Between August 2025 and August 2026 the sources show eMamba (edge framework, up to 10× speedup and 48.6× lower energy on FPGA/ASIC) **2025 08 Emamba Edge Acceleration**, a first Mamba chiplet tape-out in GlobalFoundries 22nm **2025 06 Wisconsin Mamba Chiplet Gf22**, Mambalaya, HEMERA, LowRank-SSM and DUET, plus two NSF awards of $400,000 each on rethinking spiking networks as SSMs. Note also a counter-driver on the supply side: mobile NPUs already deliver over 100 tokens/sec decode and around 11,000 tokens/sec prefill on optimised small models <sup class="ref"><a href="https://v-chandra.github.io/on-device-llms/" title="On-device LLMs, the small-model frontier, and NPU throughput (2025-26 update)" rel="noopener">ref</a></sup>, which reduces the urgency of SSM-specific silicon for phone-class devices.
 
-| Company | What | Hardware axis | Relevance to Sensifai |
-|---|---|---|---|
-| **Cartesia** | SSM voice (Sonic), Rene LM, Mamba-3 co-author | **Software** kernels on Apple/commodity | Primary competitor; owns the architecture; phone/laptop, not sub-watt |
-| **Applied Brain Research** | LMU state-space edge AI + silicon/IP | Own silicon/IP | Closest commercial dedicated-SSM-hardware analogue |
-| **Femtoai** | Sparsity accelerator | Own ASIC, component | Precedent for the realistic exit (hearing-aid component, not IPO) |
-| UW-Madison (e-chip-V1) | First Mamba ASIC chiplet | ASIC on ****Globalfoundries** 22nm** | Proves silicon feasibility; academic, GF-lane |
-| **Etched** | Transformer-only ASIC (Sohu) | Own ASIC | The "one-architecture ASIC" analogy Lawrence used; different (datacentre, transformer) |
+**TLDR: Demand from long-context and battery-powered streaming inference; supply from a dense 2025-26 wave of kernel, accelerator and architecture work.**
 
-## Is there room for Sensifai?
+## Novelty (4/5)
 
-**Bear (the default gravity)**
-- SSMs plateaued into a hybrid niche; the addressable "SSM-specific silicon" TAM is a subset of an already-niche edge-inference market.
-- The architecture is still moving (Mamba-2 → Mamba-3 in ~18 months): fixed-function tape-out risks being out of date, the classic edge-AI-silicon trap (cf. Mythic, Blaze, Accelero, which died of moving targets + no market pull).
-- Cartesia owns the architecture, moves faster, has no fab risk, and can push down into more devices as Apple/Qualcomm NPUs improve. Customers default to "good enough" ARM Cortex / Qualcomm.
-- Realistic exit is a component sale (femtoAI-shaped), capping upside; no startup cohort suggests the market is early or absent.
+The comparison class is transformer attention. The structural claim is that SSMs remove both the O(n²) sequence scaling and the growing KV cache, giving a fixed inference memory footprint **2025 Cartesia On Device Ssm**. The measured margins split by axis. On energy in dedicated silicon the gap is order-of-magnitude: eMamba reports up to 10× speedup and 48.6× lower energy on FPGAs and ASICs, and explicitly notes that no hardware-acceleration framework had previously been optimised for Mamba at the edge **2025 08 Emamba Edge Acceleration**. On end-user latency on commodity silicon the margins are smaller: roughly 1.5× lower time-to-first-audio and 2× lower real-time factor for Cartesia's Sonic against transformers **2025 Cartesia On Device Ssm**. On model quality per parameter, Mamba-3 narrows rather than reverses the transformer advantage **2026 03 Mamba 3 Iclr**.
 
-**Provisional verdict (pre-DD):** Room exists, but it is the **narrow exception**, not the broad case. The architecture-displacement story is over (hybrids won), so the entire thesis rests on a sub-watt streaming niche plus a durable silicon energy advantage. That is investible *if* DD lands a real why-now socket and a >5x energy delta; otherwise it routes to the same component-not-IPO, demand-gated read as the rest of **Low Power Edge Compute**. Worth the diligence; not yet a conviction yes.
+**TLDR: Linear-time inference with no KV cache is a genuine asymptotic change from attention; the measured margins are large on energy and moderate on latency.**
 
-## Frontier
+## Diffusion (4/5)
 
-- Does the energy advantage of dedicated SSM silicon over optimised kernels on existing NPUs stay large (>5x) and durable, or does software close it to ~2x?
-- Does a sub-watt always-on streaming socket (hearing aids, AR perception) reach volume general silicon cannot serve, giving a dedicated SSM ASIC a why-now?
-- Does the architecture stabilise (Mamba-3 onwards) enough to justify fixed-function silicon, or keep favouring programmable / kernel approaches?
-- Where does value accrue: the model (Cartesia), the kernels (open-source), or the silicon? If the model and kernels are open/commodity, can the chip alone hold durable value?
+The adoption question has largely resolved in one specific form. Qwen3-Next and NVIDIA Nemotron-3 use Mamba-attention hybrids for efficient long context, which the sources read as confirmation that the SSM line is mainstream rather than speculative <sup class="ref"><a href="https://v-chandra.github.io/on-device-llms/" title="On-device LLMs, the small-model frontier, and NPU throughput (2025-26 update)" rel="noopener">ref</a></sup>. Independent systems research now treats Mamba-2 as one of five standard sequence-mixer designs when sampling production MoE checkpoints. That is diffusion into the frontier stack, achieved in roughly two years.
 
-## Sources
+The barriers apply to the remaining forms. Kernel and hardware support is the first: SSM recurrences map poorly to matmul-centric accelerators, so vendors must either co-design (DUET reports 4× faster time to first token, 1.4× higher throughput and 1.5× lower time between tokens versus a B200 GPU by disaggregating prefill and decode packages) or accept sub-peak utilisation. The second is architectural churn: Mamba-2 to Mamba-3 changed the core primitives, which is a direct risk to anyone taping out fixed-function SSM silicon **2026 03 Mamba 3 Iclr**. The only dedicated SSM ASIC in the sources is an academic chiplet, first taped out in early May 2025 **2025 06 Wisconsin Mamba Chiplet Gf22**; the commercial leader competes on software and custom kernels on commodity Apple silicon instead **2025 Cartesia On Device Ssm**.
 
-Primary anchors (filed): **2026 03 Mamba 3 Iclr** (tier 1), **2025 08 Emamba Edge Acceleration** (tier 1), **2025 06 Wisconsin Mamba Chiplet Gf22** (tier 5), **2025 Cartesia On Device Ssm** (tier 6). Supporting (web, 18 Jun 2026 sweep): AI21 "rise of hybrid LLMs"; Applied Brain Research "Why SSMs are the future of edge AI"; "Quantizing Small-Scale State-Space Models for Edge AI" (arXiv 2506.12480); NVIDIA Cosmos 3 (physical-AI why-now).
+**TLDR: Already diffused as a hybrid component in frontier checkpoints; diffusion as a full transformer replacement, or as dedicated silicon, has not happened.**
+
+## Impact (4/5)
+
+The deduction is that the hybrid architecture caps the upside. Because attention layers remain, DUET still has to build a runtime-configurable accelerator that handles both mixed Mamba and attention layers, and the asymmetric prefill/decode problem does not disappear, it inherits. Real cost reductions, not a new cost curve.
+
+**TLDR: Changes the cost structure of long-context and streaming inference, and opens battery-powered continuous perception, but mostly as a component rather than a regime change.**
+
+## Timing Now (0-2yr)
+
+The software side has already arrived. Hybrid Mamba-attention models are shipping from major labs <sup class="ref"><a href="https://v-chandra.github.io/on-device-llms/" title="On-device LLMs, the small-model frontier, and NPU throughput (2025-26 update)" rel="noopener">ref</a></sup>, the frontier architecture was published in March 2026 **2026 03 Mamba 3 Iclr**, and third-party systems papers benchmark against real hybrid checkpoints as a matter of routine. Anyone building inference infrastructure needs an answer to SSM layers now, not later.
+
+The hardware side is two to five years behind. The accelerator literature dated mid-2026 is still FPGA prototypes, simulator evaluations and academic ASIC chiplets **2025 06 Wisconsin Mamba Chiplet Gf22**, and NSF's foundational SSM-at-the-edge programme only started on 1 July 2026. Until the primitives stabilise, the near-term efficiency gains will come from kernels and dataflow on general hardware rather than fixed-function chips.
+
+**TLDR: Hybrid SSM models are in production today; the hardware efficiency layer lands over the next two to five years.**
+
+## Overrated or underrated? Fairly rated
+
+The claim that SSMs replace transformers is overrated, and the sources do not support it: Mamba-3 narrows the gap at equal parameter counts, and the deployed form is hybrid with attention retained **2026 03 Mamba 3 Iclr** <sup class="ref"><a href="https://v-chandra.github.io/on-device-llms/" title="On-device LLMs, the small-model frontier, and NPU throughput (2025-26 update)" rel="noopener">ref</a></sup>. The claim that SSMs are a lab curiosity is also wrong, and has been for at least a year. What is fairly rated is the middle position: linear-time state-space mixers are now a standard component of frontier sequence models, they measurably cut memory traffic and energy for long sequences, and they will be a permanent part of the inference stack.
+
+## Prediction
+
+By 31 July 2027, at least one further frontier checkpoint from a major lab will ship with a Mamba-family linear mixer in a hybrid attention configuration, while no commercial fixed-function SSM-only ASIC will be in volume production.
+
+## Evidence base
+
+- Aug 2025: eMamba reports up to 10× speedup and 48.6× lower energy for Mamba on FPGAs and ASICs, and states no prior hardware-acceleration framework was optimised for edge Mamba deployment **2025 08 Emamba Edge Acceleration**.
+- Early May 2025: the first dedicated Mamba accelerator chiplet (e-chip-V1) taped out in GlobalFoundries 22nm, from an academic lab rather than a startup **2025 06 Wisconsin Mamba Chiplet Gf22**.
+- March 2026: Mamba-3 published at ICLR 2026 by CMU, Princeton, Cartesia AI and Together AI, claiming 2× smaller states, MIMO decoding for hardware efficiency, and improved scaling that narrows the gap with transformers at equal parameter counts **2026 03 Mamba 3 Iclr**.
+- June 2026: Qwen3-Next and NVIDIA Nemotron-3 confirmed as shipping Mamba-attention hybrids for efficient long context; mobile NPUs meanwhile exceed 100 tokens/sec decode and ~11,000 tokens/sec prefill on optimised small models <sup class="ref"><a href="https://v-chandra.github.io/on-device-llms/" title="On-device LLMs, the small-model frontier, and NPU throughput (2025-26 update)" rel="noopener">ref</a></sup>.
+- June 2026: DUET, a disaggregated prefill/decode accelerator for hybrid Mamba-Transformer models, reports 4× faster time to first token, 1.4× higher throughput and 1.5× lower time between tokens versus a B200 GPU on Nemotron-H-56B, Zamba2-7B and Llama3-8B, on the grounds that SSM recurrences map poorly to matmul-centric accelerators.
+- Aug 2026: LowRank-SSM finds Mamba input and output projection layers account for over 60% of per-token runtime at sequence lengths of 1,024 and beyond on FPGA, identifying projection rank as an unexplored hardware design variable.
+
+## Open questions
+
+- Do Mamba-3's smaller states and MIMO decoding hold their parameter-efficiency gains at frontier scale, or does the gap with attention re-open above the sizes reported at ICLR 2026?
+- Have the core SSM primitives stabilised enough after Mamba-2 to Mamba-3 that a fixed-function accelerator taped out in 2026 is still relevant in 2029?
+- Does the hybrid attention-to-SSM layer ratio converge to a stable value across labs, which is what determines whether disaggregated designs like DUET are worth building?
+- Can any commercial vendor reproduce eMamba's ~48× energy advantage on its own silicon against a like-for-like accuracy baseline, rather than citing the academic 22nm ViT comparison?
+
+---
+*Assessment drafted 2026-08-31 from up to 16 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

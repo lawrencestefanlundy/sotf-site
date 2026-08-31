@@ -10,14 +10,7 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2025-04-16-the-state-of-photonic-computing]]'
-frontier: []
-last_updated: '2026-05-07'
-tags:
-- concept
-- category
 mention_count: 2
-descendants: []
-last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
@@ -27,7 +20,22 @@ recent_mentions:
   kind: substack
 neighbors: []
 ---
-*Stub leader page for `concepts/ai-infrastructure/scaling/`*
+super-conductivity]]'
+deal_count: 0
+frontier:
+- ''
+last_updated: '2026-05-07'
+tags:
+- concept
+- category
+mention_count: 2
+descendants: []
+last_reorg_date: '2026-05-13'
+---
+
+# AI Infrastructure Scaling
+
+*Kind: category · Stub leader page for `concepts/ai-infrastructure/scaling/`*
 
 Datacentre-scale AI infrastructure — GW-scale power, cooling, real estate, dark fibre, hyperscaler architecture.
 

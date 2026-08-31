@@ -76,17 +76,17 @@ The moat is a triple lock: (1) Calibre is the accuracy/golden reference foundrie
 Net read: the served market grows steadily-to-accelerating, with rule-deck inflation and the AI-EDA layer the two things that could re-rate it above EDA's ~8% baseline.
 
 - **Drivers**
-  - **Rule-deck inflation per node.** Gate-all-around plus backside power plus multi-die produces roughly a 10x rise in DRC count versus 7nm, and each advanced tape-out consumes more compute and more licence tokens than the last, so revenue per design start compounds independent of unit volume [10].
-  - **AI/datacentre capex pulls advanced-node design starts.** The AI-EDA layer (ML-driven verification, hotspot prediction, root-cause) is forecast to grow from ~$4.3B (2026) to ~$15.9B (2032), a ~24% CAGR, far above the verification base, and this is the layer that re-rates PV pricing [11].
-  - **Advanced packaging is a net-new verification surface.** 2.5D/3D-IC needs inter-die DRC/LVS, alignment and 3D-aware ESD checks (Calibre 3DSTACK, 3DBlox standard) that did not exist on a flat die, adding a fresh foundry-mandated deck per stack [12].
+ - **Rule-deck inflation per node.** Gate-all-around plus backside power plus multi-die produces roughly a 10x rise in DRC count versus 7nm, and each advanced tape-out consumes more compute and more licence tokens than the last, so revenue per design start compounds independent of unit volume [10].
+ - **AI/datacentre capex pulls advanced-node design starts.** The AI-EDA layer (ML-driven verification, hotspot prediction, root-cause) is forecast to grow from ~$4.3B (2026) to ~$15.9B (2032), a ~24% CAGR, far above the verification base, and this is the layer that re-rates PV pricing [11].
+ - **Advanced packaging is a net-new verification surface.** 2.5D/3D-IC needs inter-die DRC/LVS, alignment and 3D-aware ESD checks (Calibre 3DSTACK, 3DBlox standard) that did not exist on a flat die, adding a fresh foundry-mandated deck per stack [12].
 - **Constraints**
-  - **Capped by design starts, not wafer volume.** PV scales with tape-outs and seats; node economics ($30M+ mask sets at 2nm) concentrate design starts in a few large customers, which limits unit-count growth [13].
-  - **Cloud parallelism is partly deflationary.** Elastic-CPU signoff cuts ~40% of compute and 2000+ core runs compress run-time, so some of the per-tape-out compute uplift is given back to customers rather than captured [14].
-  - **China access is a policy yo-yo.** The May 2025 BIS halt on EDA sales to China was largely reversed by July 2025, so the domestic-substitution tailwind for the incumbents' served market is real but reversible at short notice [15].
+ - **Capped by design starts, not wafer volume.** PV scales with tape-outs and seats; node economics ($30M+ mask sets at 2nm) concentrate design starts in a few large customers, which limits unit-count growth [13].
+ - **Cloud parallelism is partly deflationary.** Elastic-CPU signoff cuts ~40% of compute and 2000+ core runs compress run-time, so some of the per-tape-out compute uplift is given back to customers rather than captured [14].
+ - **China access is a policy yo-yo.** The May 2025 BIS halt on EDA sales to China was largely reversed by July 2025, so the domestic-substitution tailwind for the incumbents' served market is real but reversible at short notice [15].
 - **Trends & inflections to watch**
-  - **GAA/backside-power node ramp.** Tripwire: N2P volume ramp in early 2026 and A16 (backside Super Power Rail) parts by end-2026 lift per-tape-out deck size and signoff compute on the dominant tool [16].
-  - **2nm-class GAA going mainstream.** Tripwire: TSMC A14 (1.4nm, 2nd-gen GAA) entering production in 2028 marks the next step-change in rule count and DFM scope [16].
-  - **China domestic signoff share.** Tripwire: Empyrean H1-2025 revenue RMB 502M (~$70M, +13% YoY) with self-sufficiency past 10%; a full-process domestic DRC/LVS flow qualified by SMIC at an advanced node would confirm a real share-shift, not just a stub [17].
+ - **GAA/backside-power node ramp.** Tripwire: N2P volume ramp in early 2026 and A16 (backside Super Power Rail) parts by end-2026 lift per-tape-out deck size and signoff compute on the dominant tool [16].
+ - **2nm-class GAA going mainstream.** Tripwire: TSMC A14 (1.4nm, 2nd-gen GAA) entering production in 2028 marks the next step-change in rule count and DFM scope [16].
+ - **China domestic signoff share.** Tripwire: Empyrean H1-2025 revenue RMB 502M (~$70M, +13% YoY) with self-sufficiency past 10%; a full-process domestic DRC/LVS flow qualified by SMIC at an advanced node would confirm a real share-shift, not just a stub [17].
 
 ## Connections
 [EDA & Design Tools](/manufacturing/foundry-design/eda-design-tools/) · [Timing signoff & parasitic extraction (process step)](/semiconductor-process-flow/design/flow-timing-signoff-extraction/) · [Mask data prep & computational litho (OPC/ILT) (process step)](/semiconductor-process-flow/design/flow-mask-data-prep-opc/)

@@ -77,21 +77,21 @@ The moat is talent density plus a proven advanced-node track record plus a capti
 Net read on this step's served market (design-services fee pool + the AI-custom-silicon programs it leads): accelerating into 2027-28, then a concentration overhang that decides who keeps the margin.
 
 - **Drivers**
-  - Custom ASIC server shipments forecast to grow ~44.6% in 2026, nearly triple merchant-GPU growth (~16.1%), so design-services NRE is the leading indicator of a step-change in production silicon [12]. Broadcom guides to up to ~$100bn AI chip revenue by 2027; Marvell ~$11bn AI ASIC in 2026 [12].
-  - New first-party programs widen the design-win pool beyond the original four hyperscalers: OpenAI + Broadcom 10GW of OpenAI-designed accelerators, deployments starting H2 2026 through 2029 [13]; Google now runs four silicon partners plus an in-house team [14].
-  - Chiplet disaggregation turns one SoC into many dies and multiplies partitioning, UCIe, and HBM integration work that merchant houses are positioned to sell; ASIC design-service market ~$11.4bn 2025 toward ~$26.8bn 2034 (~10% CAGR) [15].
-  - EU Chips Act 2.0 European Design Platform aims to tape out chips from 100 fabless startups (10 unicorns) by 2035, opening a sovereign design-services demand line for the few EU-relevant houses [16].
+ - Custom ASIC server shipments forecast to grow ~44.6% in 2026, nearly triple merchant-GPU growth (~16.1%), so design-services NRE is the leading indicator of a step-change in production silicon [12]. Broadcom guides to up to ~$100bn AI chip revenue by 2027; Marvell ~$11bn AI ASIC in 2026 [12].
+ - New first-party programs widen the design-win pool beyond the original four hyperscalers: OpenAI + Broadcom 10GW of OpenAI-designed accelerators, deployments starting H2 2026 through 2029 [13]; Google now runs four silicon partners plus an in-house team [14].
+ - Chiplet disaggregation turns one SoC into many dies and multiplies partitioning, UCIe, and HBM integration work that merchant houses are positioned to sell; ASIC design-service market ~$11.4bn 2025 toward ~$26.8bn 2034 (~10% CAGR) [15].
+ - EU Chips Act 2.0 European Design Platform aims to tape out chips from 100 fabless startups (10 unicorns) by 2035, opening a sovereign design-services demand line for the few EU-relevant houses [16].
 
 - **Constraints**
-  - Disintermediation: if any hyperscaler internalises the design work now flowing through the Broadcom + Marvell ~95% duopoly, the fee pool erodes; Google's in-house team and MediaTek/Marvell second-sourcing already show the path [14][17].
-  - Talent is the hard ceiling: advanced-node physical design, SerDes/mixed-signal, and UVM verification engineers are critically scarce (SIA flags ~115k unfilled US roles by 2030), capping how many parallel tapeouts the merchant houses can staff [18].
-  - Concentration and customer captivity: Alchip's ~60% AWS dependence and ~20% gross margin show how fragile the broker position is when a single program moves [4].
+ - Disintermediation: if any hyperscaler internalises the design work now flowing through the Broadcom + Marvell ~95% duopoly, the fee pool erodes; Google's in-house team and MediaTek/Marvell second-sourcing already show the path [14][17].
+ - Talent is the hard ceiling: advanced-node physical design, SerDes/mixed-signal, and UVM verification engineers are critically scarce (SIA flags ~115k unfilled US roles by 2030), capping how many parallel tapeouts the merchant houses can staff [18].
+ - Concentration and customer captivity: Alchip's ~60% AWS dependence and ~20% gross margin show how fragile the broker position is when a single program moves [4].
 
 - **Trends & inflections to watch**
-  - Architecture shift to chiplets + UCIe 2.0 (64 Gbps, optical die-to-die in 2026-27) raises the value of houses with captive UCIe/3D IP [15]. Tripwire: a merchant ASIC house wins a named UCIe-based multi-die hyperscaler socket in 2026.
-  - First-party silicon spreading past hyperscalers to AI labs and sovereigns. Tripwire: a second non-hyperscaler (after OpenAI) signs a multi-GW custom-accelerator design deal by end-2026 [13].
-  - Hyperscaler insourcing as the bear. Tripwire: a top-four hyperscaler moves a flagship accelerator fully in-house (no merchant design partner) on a 2026-27 tapeout [17].
-  - EU sovereign-design route turning real. Tripwire: first European Design Platform tape-out funded through an EU-domiciled design-services house by 2027 [16].
+ - Architecture shift to chiplets + UCIe 2.0 (64 Gbps, optical die-to-die in 2026-27) raises the value of houses with captive UCIe/3D IP [15]. Tripwire: a merchant ASIC house wins a named UCIe-based multi-die hyperscaler socket in 2026.
+ - First-party silicon spreading past hyperscalers to AI labs and sovereigns. Tripwire: a second non-hyperscaler (after OpenAI) signs a multi-GW custom-accelerator design deal by end-2026 [13].
+ - Hyperscaler insourcing as the bear. Tripwire: a top-four hyperscaler moves a flagship accelerator fully in-house (no merchant design partner) on a 2026-27 tapeout [17].
+ - EU sovereign-design route turning real. Tripwire: first European Design Platform tape-out funded through an EU-domiciled design-services house by 2027 [16].
 
 ## Connections
 - [EDA & Design Tools](/manufacturing/foundry-design/eda-design-tools/) (the software layer used at this step)

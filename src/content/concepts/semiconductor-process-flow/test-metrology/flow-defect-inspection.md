@@ -71,19 +71,19 @@ The moat is the deepest in equipment: decades of defect-detection physics, the i
 Net read: a structurally accelerating served market, growing meaningfully faster than WFE through 2030 on AI-die complexity and advanced packaging, with China the one drag on an otherwise compounding base.
 
 - **Drivers**
-  - **AI-die inspection intensity is rising per wafer**: larger AI/HBM dies mean a single flaw scraps proportionally more silicon, so leading-edge logic and DRAM buy more inspection passes per layer. KLA frames a ~15% process-control revenue CAGR off exactly this plus packaging [8]. JPMorgan models a path to ~20% annual process-control growth to 2030 on GAA + backside power delivery [9].
-  - **Advanced packaging is the fastest new pool**: KLA's packaging process-control revenue is on track for ~$1B in CY2026, up from ~$635M (2025) and ~$300M the year before, growing in the high-50s percent; share went from <1% three years ago to >6% now [9]. 2.5D/3D, hybrid bonding and heterogeneous integration each add alignment and bond-void inspection that did not exist at this scale before [10].
-  - **Node transitions force new sensitivity**: GAA, 3D stacks and High-NA EUV each create defect modes prior tools cannot resolve, with KLA's Gen-4 optical and e-beam aimed at GAA structures [9].
+ - **AI-die inspection intensity is rising per wafer**: larger AI/HBM dies mean a single flaw scraps proportionally more silicon, so leading-edge logic and DRAM buy more inspection passes per layer. KLA frames a ~15% process-control revenue CAGR off exactly this plus packaging [8]. JPMorgan models a path to ~20% annual process-control growth to 2030 on GAA + backside power delivery [9].
+ - **Advanced packaging is the fastest new pool**: KLA's packaging process-control revenue is on track for ~$1B in CY2026, up from ~$635M (2025) and ~$300M the year before, growing in the high-50s percent; share went from <1% three years ago to >6% now [9]. 2.5D/3D, hybrid bonding and heterogeneous integration each add alignment and bond-void inspection that did not exist at this scale before [10].
+ - **Node transitions force new sensitivity**: GAA, 3D stacks and High-NA EUV each create defect modes prior tools cannot resolve, with KLA's Gen-4 optical and e-beam aimed at GAA structures [9].
 
 - **Constraints**
-  - **China is the live drag**: China fell to ~30% of KLA revenue in Q4 FY25 from ~44% a year earlier, a ~$500M incremental export-control hit, with a further ~20% China decline guided and a 50% domestic-equipment mandate threatening the trailing-edge pool [11].
-  - **E-beam throughput ceiling**: single-column e-beam can take hours to days per 300mm wafer, capping how much of the rising defect load can actually be inspected and limiting how fast the highest-margin segment converts demand to revenue [12].
-  - **Cyclicality + concentration**: a sampling-driven, equipment-led pool tied to fab capex still rides the WFE cycle, and KLA's >85% optical share leaves the served market's growth hostage to one vendor's roadmap [7].
+ - **China is the live drag**: China fell to ~30% of KLA revenue in Q4 FY25 from ~44% a year earlier, a ~$500M incremental export-control hit, with a further ~20% China decline guided and a 50% domestic-equipment mandate threatening the trailing-edge pool [11].
+ - **E-beam throughput ceiling**: single-column e-beam can take hours to days per 300mm wafer, capping how much of the rising defect load can actually be inspected and limiting how fast the highest-margin segment converts demand to revenue [12].
+ - **Cyclicality + concentration**: a sampling-driven, equipment-led pool tied to fab capex still rides the WFE cycle, and KLA's >85% optical share leaves the served market's growth hostage to one vendor's roadmap [7].
 
 - **Trends & inflections to watch**
-  - **Multibeam e-beam scaling**: multi-column platforms lifted throughput ~28% with ~53% of logic makers expanding deployment in 2024; tripwire = a >100-beam production-qualified inspection tool shipping at a leading-edge logic/DRAM fab [1][12].
-  - **High-NA stochastic-defect inspection**: ppt-level stochastic defects make High-NA layers uninspectable by today's optics; tripwire = a named foundry qualifying a dedicated High-NA stochastic-defect inspection flow (the planned 2026-27 High-NA era) [12].
-  - **Packaging re-rate**: tripwire = KLA's packaging process-control line printing >$1B in CY2026, confirming the new pool compounds rather than spikes [9][10].
+ - **Multibeam e-beam scaling**: multi-column platforms lifted throughput ~28% with ~53% of logic makers expanding deployment in 2024; tripwire = a >100-beam production-qualified inspection tool shipping at a leading-edge logic/DRAM fab [1][12].
+ - **High-NA stochastic-defect inspection**: ppt-level stochastic defects make High-NA layers uninspectable by today's optics; tripwire = a named foundry qualifying a dedicated High-NA stochastic-defect inspection flow (the planned 2026-27 High-NA era) [12].
+ - **Packaging re-rate**: tripwire = KLA's packaging process-control line printing >$1B in CY2026, confirming the new pool compounds rather than spikes [9][10].
 
 ## Connections
 - [Semiconductor Metrology & Inspection](/manufacturing/equipment-processes/semiconductor-metrology-inspection/) — the metrology + inspection equipment cluster page

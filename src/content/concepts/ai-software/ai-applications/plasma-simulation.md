@@ -43,7 +43,7 @@ neighbors:
   path: /ai-software/models-inference/machine-learning/
   macro: ai-software
 ---
-Modelling of plasma physics — the two ends being **fusion plasma** (hot, magnetically/inertially confined; GENE/XGC/SOLPS/SOL-KiT, mostly free national-lab codes) and **low-temperature plasma (LTP)** for semiconductor manufacturing (etch/deposition; HPEM/COMSOL/CFD-ACE+). The codes are **disjoint ecosystems** (a fusion model won't run a wafer chamber), though the underlying kinetic machinery (Boltzmann/Vlasov, PIC-MCC, non-Maxwellian EEDF) overlaps — the bridge **Zenithon**'s team exploits via the tokamak scrape-off-layer (see zenithon fusion to semiconductor transfer and synthetic data).
+Modelling of plasma physics — the two ends being **fusion plasma** (hot, magnetically/inertially confined; GENE/XGC/SOLPS/SOL-KiT, mostly free national-lab codes) and **low-temperature plasma (LTP)** for semiconductor manufacturing (etch/deposition; HPEM/COMSOL/CFD-ACE+). The codes are **disjoint ecosystems** (a fusion model won't run a wafer chamber), though the underlying kinetic machinery (Boltzmann/Vlasov, PIC-MCC, non-Maxwellian EEDF) overlaps — the bridge **Zenithon**'s team exploits via the tokamak scrape-off-layer (see).
 
 ## The market sub-cluster (consolidation-by-acquisition)
 Standalone plasma-sim software is a **small, consolidated, acqui-buy-shaped niche** — every credible solver asset has been bought by an OEM/EDA player:

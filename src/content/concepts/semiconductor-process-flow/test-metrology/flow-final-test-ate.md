@@ -80,19 +80,19 @@ EU / seed angle is thin. The prime contractors are Japanese and US; Europe's exp
 Net read: the served market (testers, handlers, SLT, sockets/boards) is accelerating into a multi-year AI-test upcycle, but the acceleration is concentrated in high-power SoC/HBM and is exposed to a hardware cycle and to China localisation at the low end.
 
 - **Drivers**
-  - Test time per device is exploding at the high end: a Blackwell-class accelerator (two reticle dies, eight HBM3E stacks, ~1,000W) can sit on a tester well over 20 minutes versus 30-60 seconds for a smartphone SoC, so accelerator volume converts into outsized tester demand [9]. Advantest is lifting SoC-tester capacity from ~3,000 units (Jul 2025) toward ~5,000 in 2026 and guides the SoC tester market to ~USD 8.7-9.5bn CY26 from ~USD 6.9bn CY25 [10].
-  - HBM is a structurally test-heavy demand pool: HBM3E runs roughly 2x HBM2E test time and HBM4 16-Hi extends it further; memory ATE alone is forecast ~USD 1.29bn (2025) to ~USD 2.03bn (2032), ~6.8% CAGR [9][11].
-  - SLT is shifting from sample to 100% screening as advanced-package defect rates rise; the burn-in plus SLT pool for AI accelerators grows ~9.3% CAGR, ~USD 0.8bn (2025) toward ~USD 2.2bn by 2036 [12].
+ - Test time per device is exploding at the high end: a Blackwell-class accelerator (two reticle dies, eight HBM3E stacks, ~1,000W) can sit on a tester well over 20 minutes versus 30-60 seconds for a smartphone SoC, so accelerator volume converts into outsized tester demand [9]. Advantest is lifting SoC-tester capacity from ~3,000 units (Jul 2025) toward ~5,000 in 2026 and guides the SoC tester market to ~USD 8.7-9.5bn CY26 from ~USD 6.9bn CY25 [10].
+ - HBM is a structurally test-heavy demand pool: HBM3E runs roughly 2x HBM2E test time and HBM4 16-Hi extends it further; memory ATE alone is forecast ~USD 1.29bn (2025) to ~USD 2.03bn (2032), ~6.8% CAGR [9][11].
+ - SLT is shifting from sample to 100% screening as advanced-package defect rates rise; the burn-in plus SLT pool for AI accelerators grows ~9.3% CAGR, ~USD 0.8bn (2025) toward ~USD 2.2bn by 2036 [12].
 
 - **Constraints**
-  - Cyclicality: the tester pool still tracks a hardware capex cycle; an AI-capex digestion phase would hit unit shipments fast, and tester ATE lead times tightening now can unwind.
-  - China localisation caps the low end: ChangChuan/Accotest have driven China to ~70% share in linear/discrete test tools and are pushing into SoC/memory under export-control-driven reshoring, eroding the duopoly's China-facing volume [13].
-  - Thermal/power is a hard engineering ceiling: 700-1,200W parts force coolant-integrated handlers and longer at-load intervals, raising cost-per-insertion and constraining throughput [9].
+ - Cyclicality: the tester pool still tracks a hardware capex cycle; an AI-capex digestion phase would hit unit shipments fast, and tester ATE lead times tightening now can unwind.
+ - China localisation caps the low end: ChangChuan/Accotest have driven China to ~70% share in linear/discrete test tools and are pushing into SoC/memory under export-control-driven reshoring, eroding the duopoly's China-facing volume [13].
+ - Thermal/power is a hard engineering ceiling: 700-1,200W parts force coolant-integrated handlers and longer at-load intervals, raising cost-per-insertion and constraining throughput [9].
 
 - **Trends & inflections to watch**
-  - SLT going mandatory on accelerators. Tripwire: a flagship AI-accelerator vendor (Nvidia/AMD) confirming 100% SLT in 2026-2027, or Advantest/Teradyne breaking out SLT past ~USD 1bn run-rate.
-  - HBM4 16-Hi ramp lifting per-stack test cost. Tripwire: HBM4 volume production at SK Hynix/Micron in 2026 with disclosed test-time step-up.
-  - China climbing into SoC/HBM test. Tripwire: a domestic Chinese SoC or HBM tester design-win at CXMT/YMTC reported in 2026-2027 [13].
+ - SLT going mandatory on accelerators. Tripwire: a flagship AI-accelerator vendor (Nvidia/AMD) confirming 100% SLT in 2026-2027, or Advantest/Teradyne breaking out SLT past ~USD 1bn run-rate.
+ - HBM4 16-Hi ramp lifting per-stack test cost. Tripwire: HBM4 volume production at SK Hynix/Micron in 2026 with disclosed test-time step-up.
+ - China climbing into SoC/HBM test. Tripwire: a domestic Chinese SoC or HBM tester design-win at CXMT/YMTC reported in 2026-2027 [13].
 
 ## Connections
 - [Automated Test Equipment (ATE)](/manufacturing/equipment-processes/automated-test-equipment/)

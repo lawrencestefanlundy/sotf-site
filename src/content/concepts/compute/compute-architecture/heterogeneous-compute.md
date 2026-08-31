@@ -9,14 +9,8 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2026-01-22-ai-chips-computeram-and-the-future]]'
-auto_stub: true
-last_updated: 2026-07-08
-tags:
-- concept
-- auto-stub
-mention_count: 14
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-08-20-callosum-100m-seed-announcement
   title: Callosum announces $100M seed led by Atomico (round coverage + Companies House filings)

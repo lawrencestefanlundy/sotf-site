@@ -55,4 +55,4 @@ A three-leg research sprint ([The ear as a sensing site](/sensing/biosensing/ear
 - **The one un-absorbed corner:** **Naox Technologies** took the **first-ever FDA 510(k) for in-ear EEG (Jan 2026)**. Regulated-medical is the only position with a proof point — and it is a medical-device business, not a silicon one. This is the exception that defines the rule, not a counter-example to it.
 
 ## Sources
-- hearing aid market structure edge ai beachhead (size, growth, concentration, Apple/OTC, ONsemi/Sonova silicon)
+- (size, growth, concentration, Apple/OTC, ONsemi/Sonova silicon)

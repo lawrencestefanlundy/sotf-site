@@ -105,20 +105,20 @@ neighbors:
   path: /manufacturing/packaging/fiber-to-chip-coupling/
   macro: manufacturing
 ---
-*The synthesis page for "how you package a photonic IC." Full decision brief: pic packaging approaches landscape.*
+*The synthesis page for "how you package a photonic IC." Full decision brief:.*
 
 ## The core idea — two axes, not one
 
 "Packaging a PIC" is constantly conflated with "which PIC platform wins." They are **different axes**:
 
-1. **Platform axis** — what the PIC is *made of* (where light is generated/modulated/detected): [Silicon Photonics](/photonic-systems/pic-platforms/silicon-photonics/), [InP Photonics](/photonic-systems/pic-platforms/inp-photonics/), SiN, TFLN, polymer, glass. Covered by **Photonics Material Class War** / pic market structure.
+1. **Platform axis** — what the PIC is *made of* (where light is generated/modulated/detected): [Silicon Photonics](/photonic-systems/pic-platforms/silicon-photonics/), [InP Photonics](/photonic-systems/pic-platforms/inp-photonics/), SiN, TFLN, polymer, glass. Covered by **Photonics Material Class War** /.
 2. **Packaging axis** — how you *connect* the PIC: a **4-layer stack**, each layer its own contest. This page.
 
 **[Silicon Photonics](/photonic-systems/pic-platforms/silicon-photonics/) is the platform; [Glass Photonics](/photonic-systems/pic-platforms/glass-photonics/), [Photonic Wire Bonding](/manufacturing/packaging/photonic-wire-bonding/), [Hybrid Bonding (Cu-Cu)](/manufacturing/packaging/hybrid-bonding/) and [Co-Packaged Optics](/manufacturing/packaging/co-packaged-optics/) are competing answers to the packaging axis.** They are mostly complementary, not rival: a SiPh die does the electro-optics, and the packaging stack gets light + power on and off it.
 
 ## Why packaging is a sub-industry
 
-Silicon's high index contrast makes the on-chip mode **~0.5 µm** vs a fibre's **~10 µm** — a ~20× mode mismatch that no glue can bridge. That, plus silicon's lack of a native laser and its two-photon absorption at high power, generates the whole stack below. Commercially this is where the value is: packaging is **~25% of a datacom pluggable's value, ~50% of early-CPO value**; Yole sizes photonics packaging at **$4.5B (2025) → $14.4B (2031), ~21.5% CAGR** (pic market structure).
+Silicon's high index contrast makes the on-chip mode **~0.5 µm** vs a fibre's **~10 µm** — a ~20× mode mismatch that no glue can bridge. That, plus silicon's lack of a native laser and its two-photon absorption at high power, generates the whole stack below. Commercially this is where the value is: packaging is **~25% of a datacom pluggable's value, ~50% of early-CPO value**; Yole sizes photonics packaging at **$4.5B (2025) → $14.4B (2031), ~21.5% CAGR** ().
 
 ## The four layers
 
@@ -129,7 +129,7 @@ Silicon's high index contrast makes the on-chip mode **~0.5 µm** vs a fibre's *
 | **3. Die-to-die / die-to-substrate** | fine pitch, no optical misalignment | flip-chip bump · [Hybrid Bonding (Cu-Cu)](/manufacturing/packaging/hybrid-bonding/) · 2.5D interposer ([Glass Interposers](/manufacturing/packaging/glass-interposers/)) | glass-*core* substrate (primes' game) |
 | **4. System co-packaging** | optics next to ASIC | [Co-Packaged Optics](/manufacturing/packaging/co-packaged-optics/) vs pluggable vs LPO/LRO | sets timing for all above |
 
-Layer 1 is the contested, venture-relevant layer and the one the [Glass Photonics](/photonic-systems/pic-platforms/glass-photonics/) cohort lives in. See the cohort screen in pic packaging approaches landscape.
+Layer 1 is the contested, venture-relevant layer and the one the [Glass Photonics](/photonic-systems/pic-platforms/glass-photonics/) cohort lives in. See the cohort screen in.
 
 ## The investable spine
 

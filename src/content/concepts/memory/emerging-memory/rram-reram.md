@@ -82,7 +82,7 @@ RRAM competes primarily with embedded Flash (eFlash), MRAM, and PCM for NVM appl
 
 ## Production status: three forks (4 Jun 2026)
 
-"Is ReRAM scalable" has three answers, because ReRAM is three bets (full synthesis: reram scalability what it enables):
+"Is ReRAM scalable" has three answers, because ReRAM is three bets (full synthesis:):
 
 ## Frontier (open questions)
 
@@ -93,4 +93,4 @@ See frontmatter `frontier:` block. Key resolution markers:
 
 ## 2026 update: the digital-readout shift
 
-*Source: cim landscape 2026.*
+*Source: <sup class="ref"><a href="https://spectrum.ieee.org/analog-ai-chip-architecture" title="Compute-in-memory landscape 2026: efficiency claims, the digital-readout shift, IDM PIM" rel="noopener">ref</a></sup>.*

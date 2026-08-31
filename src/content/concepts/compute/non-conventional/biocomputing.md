@@ -19,6 +19,7 @@ sources:
 - '[[2025-statnews-biocomputing-backlash]]'
 - '[[2024-nsf-efri-begin-organoid-intelligence]]'
 - '[[2025-iea-datacentre-electricity]]'
+- '[[2026-08-31-tbc-neurally-optimised-video-model]]'
 frontier:
 - Vascularisation / scale — can organoids exceed ~500 µm and ~100k cells with viable interior? (the consensus gating blocker)
 - Reproducible, durable training — has anyone shown a learned task that holds and transfers, beyond classification of which electrode fired?
@@ -30,9 +31,13 @@ tags:
 - concept
 - technology
 mention_count: 15
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
+- slug: 2026-08-31-tbc-neurally-optimised-video-model
+  title: 'TBC repositions from neuron substrate to neural optimiser: "23x retained" video-model claim (tbc.co + founder LinkedIn, Aug 2026)'
+  date: '2026-08-31'
+  kind: web
 - slug: 2026-06-04-bezos-flourish-brain-core-algorithm
   title: Jeff Bezos Is Funding a Wild Hunt for the Brain's 'Core Algorithm'
   date: '2026-06-04'

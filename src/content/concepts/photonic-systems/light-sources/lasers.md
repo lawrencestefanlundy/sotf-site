@@ -17,18 +17,9 @@ sources:
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
-frontier: []
-last_updated: '2026-05-04'
-tags:
-- concept
-- technology
-mention_count: 217
-last_reorg_date: '2026-05-13'
-descendants:
-- external-laser-source
-- laser-display-light-engines
-sources_7d: 0
-sources_30d: 7
+mention_count: 220
+sources_7d: 1
+sources_30d: 8
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'

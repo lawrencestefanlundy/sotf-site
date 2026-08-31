@@ -68,19 +68,19 @@ The revenue pool splits two ways. Tools are a lumpy ~US$5-6B equipment market th
 Net read: this is the structurally fastest-growing deposition step, set to outgrow WFE through the decade, but the served market still rides the memory and fab-capex cycle.
 
 - **Drivers**
-  - ALD intensity compounds with every vertical transition at once: GAA at 2nm/1.4nm, 3D DRAM, and taller 3D NAND each add conformal-film steps, and ASM guides to double-digit growth in application layers per node [7][9]. The single-wafer ALD market is put at US$4.2-5.0B by 2027 (10-14% CAGR) [9].
-  - New metal chemistry expands the recipe pool: Lam's ALTUS Halo molybdenum ALD (Feb 2025) replaces tungsten, removes barrier/liner steps and is being adopted at 3D NAND fabs in Korea and Singapore [7].
-  - Advanced DRAM/HBM is adopting logic-like ALD: ASM won new ALD dipole and work-function layer orders for DRAM/HBM ramping 2026-2027 [9].
+ - ALD intensity compounds with every vertical transition at once: GAA at 2nm/1.4nm, 3D DRAM, and taller 3D NAND each add conformal-film steps, and ASM guides to double-digit growth in application layers per node [7][9]. The single-wafer ALD market is put at US$4.2-5.0B by 2027 (10-14% CAGR) [9].
+ - New metal chemistry expands the recipe pool: Lam's ALTUS Halo molybdenum ALD (Feb 2025) replaces tungsten, removes barrier/liner steps and is being adopted at 3D NAND fabs in Korea and Singapore [7].
+ - Advanced DRAM/HBM is adopting logic-like ALD: ASM won new ALD dipole and work-function layer orders for DRAM/HBM ramping 2026-2027 [9].
 
 - **Constraints**
-  - The equipment pool is lumpy and cyclical, tracking memory and leading-edge fab capex rather than steady end-demand [9].
-  - China is both a demand prop and a threat: domestic tool-makers now supply ~40% of China's deposition/etch market (2024-25), commoditising trailing-edge ALD even as export controls cap leading-edge sales [8].
-  - Value stays locked to a few incumbents owning the qualified recipe; new entrants face years-long node qualification [11].
+ - The equipment pool is lumpy and cyclical, tracking memory and leading-edge fab capex rather than steady end-demand [9].
+ - China is both a demand prop and a threat: domestic tool-makers now supply ~40% of China's deposition/etch market (2024-25), commoditising trailing-edge ALD even as export controls cap leading-edge sales [8].
+ - Value stays locked to a few incumbents owning the qualified recipe; new entrants face years-long node qualification [11].
 
 - **Trends & inflections to watch**
-  - Area-selective deposition (ASD) is the late-2020s battleground, deleting litho steps via bottom-up growth; tripwire: first ASD/AS-ALD module qualified in HVM logic (watch ASM/AMAT/Lam 2026-2027 disclosures) [10].
-  - Molybdenum displacing tungsten/copper; tripwire: SK Hynix 375-layer Mo-NAND reaching mass production by end-2026 [7].
-  - Backside power delivery adds ALD layers; tripwire: BSPDN entering HVM at 2nm/A16 from 2026 [9].
+ - Area-selective deposition (ASD) is the late-2020s battleground, deleting litho steps via bottom-up growth; tripwire: first ASD/AS-ALD module qualified in HVM logic (watch ASM/AMAT/Lam 2026-2027 disclosures) [10].
+ - Molybdenum displacing tungsten/copper; tripwire: SK Hynix 375-layer Mo-NAND reaching mass production by end-2026 [7].
+ - Backside power delivery adds ALD layers; tripwire: BSPDN entering HVM at 2nm/A16 from 2026 [9].
 
 ## Connections
 - Cluster concept: [ALD (Atomic Layer Deposition)](/manufacturing/equipment-processes/ald-atomic-layer-deposition/)

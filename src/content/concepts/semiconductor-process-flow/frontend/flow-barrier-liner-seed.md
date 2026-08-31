@@ -89,19 +89,19 @@ The moat is integration and qualification, not any single chamber. Applied wins 
 Net read: the served market (metal-PVD plus the fast-growing conformal liner ALD/CVD and the ruthenium/cobalt precursor annuity) is set to grow faster than the wider deposition pool, because this is the one BEOL step where physics is forcing a materials and tool re-buy at every leading node, on top of an AI-driven wafer-fab-equipment supercycle.
 
 - **Drivers** —
-  - WFE crossed $100B for the first time in 2025 and is forecast to reach ~$145B in 2026 and peak ~$156B in 2027 on AI/datacentre demand; leading-edge logic and HBM wafer starts (which run this step 10-15+ times each) are the fastest-growing slice [12][13].
-  - Each node transition re-qualifies the barrier/liner/seed module: RuCo liners are now in high-volume use at 2nm across all leading logic makers, a brand-new tool and precursor buy versus the old TaN/Ta scheme [14][16].
-  - Backside power delivery (2nm-era) adds new low-resistance power vias and rails that need their own tailored barrier/liner and fill, expanding the served process count per wafer [15].
+ - WFE crossed $100B for the first time in 2025 and is forecast to reach ~$145B in 2026 and peak ~$156B in 2027 on AI/datacentre demand; leading-edge logic and HBM wafer starts (which run this step 10-15+ times each) are the fastest-growing slice [12][13].
+ - Each node transition re-qualifies the barrier/liner/seed module: RuCo liners are now in high-volume use at 2nm across all leading logic makers, a brand-new tool and precursor buy versus the old TaN/Ta scheme [14][16].
+ - Backside power delivery (2nm-era) adds new low-resistance power vias and rails that need their own tailored barrier/liner and fill, expanding the served process count per wafer [15].
 
 - **Constraints** —
-  - Ruthenium is a hard supply chokepoint: ~32 tonnes/yr, ~80% South African by-product, a 7th straight deficit and a ~203k oz shortfall forecast for 2026, with price up from ~$500 to >$1,700/oz in a year, much of it pulled by HDD/HAMR storage demand competing with interconnects [17][18].
-  - Demand tracks leading-edge capex, so the pool is cyclical and concentrated on a handful of fabs; an AI-capex digestion phase would hit it hard.
-  - The core tool layer is a near-monopoly, so most equipment upside accrues to one incumbent, not a broad supplier base (capped competitive entry).
+ - Ruthenium is a hard supply chokepoint: ~32 tonnes/yr, ~80% South African by-product, a 7th straight deficit and a ~203k oz shortfall forecast for 2026, with price up from ~$500 to >$1,700/oz in a year, much of it pulled by HDD/HAMR storage demand competing with interconnects [17][18].
+ - Demand tracks leading-edge capex, so the pool is cyclical and concentrated on a handful of fabs; an AI-capex digestion phase would hit it hard.
+ - The core tool layer is a near-monopoly, so most equipment upside accrues to one incumbent, not a broad supplier base (capped competitive entry).
 
 - **Trends & inflections to watch** —
-  - Barrierless/subtractive metal: below ~20nm CD, barrierless Ru and molybdenum beat lined copper, and Intel showed a subtractive-Ru scheme at IEDM 2024. Tripwire: a foundry disclosing Mo or barrierless-Ru on a *production* metal level (not just local interconnect) by IEDM 2026-2027 would shrink the classic barrier/seed module and re-rate the precursor mix [14][16].
-  - Semi-damascene with fully self-aligned vias: imec has two-layer Ru at 16-18nm pitch, >80% yield. Tripwire: first HVM semi-damascene metal level at a leading fab (~A14/2027) flips this step from PVD-barrier toward Ru-fill plus area-selective deposition [16][19].
-  - Area-selective deposition eliminating the via-bottom barrier. Tripwire: an ASD fully-self-aligned-via process entering a production flow would directly cannibalise the barrier sub-step while growing ALD precursor spend [19].
+ - Barrierless/subtractive metal: below ~20nm CD, barrierless Ru and molybdenum beat lined copper, and Intel showed a subtractive-Ru scheme at IEDM 2024. Tripwire: a foundry disclosing Mo or barrierless-Ru on a *production* metal level (not just local interconnect) by IEDM 2026-2027 would shrink the classic barrier/seed module and re-rate the precursor mix [14][16].
+ - Semi-damascene with fully self-aligned vias: imec has two-layer Ru at 16-18nm pitch, >80% yield. Tripwire: first HVM semi-damascene metal level at a leading fab (~A14/2027) flips this step from PVD-barrier toward Ru-fill plus area-selective deposition [16][19].
+ - Area-selective deposition eliminating the via-bottom barrier. Tripwire: an ASD fully-self-aligned-via process entering a production flow would directly cannibalise the barrier sub-step while growing ALD precursor spend [19].
 
 ## Connections
 

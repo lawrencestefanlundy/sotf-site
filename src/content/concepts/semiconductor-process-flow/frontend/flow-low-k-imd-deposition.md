@@ -80,21 +80,21 @@ The moat is integration knowledge, not the chemistry alone. A low-k recipe is co
 Net read: the served market grows with leading-edge logic, but it is cyclical and the RC fight is migrating away from the dielectric, so the dielectric slice grows slower than the deposition pool around it.
 
 - **Drivers**
-  - Sub-2nm / GAA capacity build-out is the prime pull: SEMI puts 300mm fab equipment at ~$133B in 2026 rising to ~$151B in 2027, with Logic & Micro the lead segment (~$175B invested 2026-2028), and foundry sub-2nm the driver [11][12].
-  - Metal-layer count keeps rising at advanced logic (12-18+ levels), so each new node multiplies IMD/ILD passes per wafer [14].
-  - Backside power delivery adds a *new* dielectric module: a back-side ILD plus backside-RDL build, a net-additive deposition step that did not exist on frontside-only flows [13].
-  - Advanced-packaging RDL pulls an adjacent low-Dk pool (photo-imageable dielectrics, Dk ~2.9 at 10GHz) as AI/HPC heterogeneous integration scales [15].
+ - Sub-2nm / GAA capacity build-out is the prime pull: SEMI puts 300mm fab equipment at ~$133B in 2026 rising to ~$151B in 2027, with Logic & Micro the lead segment (~$175B invested 2026-2028), and foundry sub-2nm the driver [11][12].
+ - Metal-layer count keeps rising at advanced logic (12-18+ levels), so each new node multiplies IMD/ILD passes per wafer [14].
+ - Backside power delivery adds a *new* dielectric module: a back-side ILD plus backside-RDL build, a net-additive deposition step that did not exist on frontside-only flows [13].
+ - Advanced-packaging RDL pulls an adjacent low-Dk pool (photo-imageable dielectrics, Dk ~2.9 at 10GHz) as AI/HPC heterogeneous integration scales [15].
 
 - **Constraints**
-  - The physics is capping out: porous low-k below k~2.2 is mechanically fragile (peeling, package-stress failure), so each further k-point is harder and slower to qualify [14][16].
-  - The RC battle has shifted to the *metal* side (thinner/barrier-free liners, Cu to Ru/Mo/Rh) where the incremental spend is now going, not to the dielectric film [17][18].
-  - Near-monopoly capture (AMAT Black Diamond) means a stable but not expanding vendor TAM, and the whole step rides WFE cyclicality.
+ - The physics is capping out: porous low-k below k~2.2 is mechanically fragile (peeling, package-stress failure), so each further k-point is harder and slower to qualify [14][16].
+ - The RC battle has shifted to the *metal* side (thinner/barrier-free liners, Cu to Ru/Mo/Rh) where the incremental spend is now going, not to the dielectric film [17][18].
+ - Near-monopoly capture (AMAT Black Diamond) means a stable but not expanding vendor TAM, and the whole step rides WFE cyclicality.
 
 - **Trends & inflections to watch**
-  - Advanced low-k (ALK): IBM showed a high-modulus dense (k~3.2) / lightly-porous (k~2.8-3.0) ILD for 2nm-and-beyond at IITC 2025 (Busan, 2-5 Jun 2025). Tripwire: a foundry naming an ALK-class film in a qualified 1.4nm/A14-era flow [16][18].
-  - Air-gap integration at 18-26nm metal pitch in semi-damascene is in R&D. Tripwire: first air-gap module in a volume node [14][16].
-  - GAA-plus-backside-power: TSMC A16 is slated for H2 2026. Tripwire: A16 reaching HVM, which makes the back-side ILD a recurring line item [13].
-  - Barrier-free / post-Cu metallisation (Ru, Rh damascene) at 2nm. Tripwire: a post-Cu metal in production, which re-rates spend toward the conductor and away from this step [17][18].
+ - Advanced low-k (ALK): IBM showed a high-modulus dense (k~3.2) / lightly-porous (k~2.8-3.0) ILD for 2nm-and-beyond at IITC 2025 (Busan, 2-5 Jun 2025). Tripwire: a foundry naming an ALK-class film in a qualified 1.4nm/A14-era flow [16][18].
+ - Air-gap integration at 18-26nm metal pitch in semi-damascene is in R&D. Tripwire: first air-gap module in a volume node [14][16].
+ - GAA-plus-backside-power: TSMC A16 is slated for H2 2026. Tripwire: A16 reaching HVM, which makes the back-side ILD a recurring line item [13].
+ - Barrier-free / post-Cu metallisation (Ru, Rh damascene) at 2nm. Tripwire: a post-Cu metal in production, which re-rates spend toward the conductor and away from this step [17][18].
 
 ## Connections
 - [Low-K Dielectrics](/materials/functional-layers/low-k-dielectrics/)

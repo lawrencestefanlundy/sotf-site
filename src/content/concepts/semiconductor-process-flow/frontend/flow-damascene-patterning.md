@@ -85,19 +85,19 @@ Moat: this is the deepest moat surface in the flow. EUV is a literal monopoly (A
 Net read: the served pool grows with WFE through 2030, but this specific step faces an architectural inflection that splits its future into two divergent pools rather than one smooth ramp.
 
 - **Drivers**
-  - AI/HPC layer-count inflation: leading-edge logic is pushing 15-18+ metal levels and every level re-runs the litho-plus-etch loop, so wafer-fab equipment growth compounds through this step directly [1][2].
-  - Advanced packaging is a new copper-damascene demand pool: dual-damascene now builds sub-2um RDL, interposers and hybrid-bonding interfaces, and the packaging market is rising from ~$51.6B (2025) to ~$57.5B (2026), with hybrid bonding ~$165M (2025) to ~$634M (2032), 21.2% CAGR [15][16].
-  - High-NA EUV pull-through: Intel installed two EXE:5200 units by late-2025; Samsung/TSMC secured tools for 2026-2028 ramps, expanding the leading-edge litho pool this step feeds [14].
+ - AI/HPC layer-count inflation: leading-edge logic is pushing 15-18+ metal levels and every level re-runs the litho-plus-etch loop, so wafer-fab equipment growth compounds through this step directly [1][2].
+ - Advanced packaging is a new copper-damascene demand pool: dual-damascene now builds sub-2um RDL, interposers and hybrid-bonding interfaces, and the packaging market is rising from ~$51.6B (2025) to ~$57.5B (2026), with hybrid bonding ~$165M (2025) to ~$634M (2032), 21.2% CAGR [15][16].
+ - High-NA EUV pull-through: Intel installed two EXE:5200 units by late-2025; Samsung/TSMC secured tools for 2026-2028 ramps, expanding the leading-edge litho pool this step feeds [14].
 
 - **Constraints**
-  - Copper RC wall: below ~17nm line width, copper resistivity (grain/surface scattering) caps performance, threatening the classic dual-damascene scheme at the tightest BEOL levels [12].
-  - High-NA partly deflates litho intensity: it removes 40+ process steps on critical layers vs multi-patterning, so more exposures-per-layer is not guaranteed [14].
-  - Capex intensity + cyclicality + extreme supplier concentration leave fabs little patterning-margin to capture (see above).
+ - Copper RC wall: below ~17nm line width, copper resistivity (grain/surface scattering) caps performance, threatening the classic dual-damascene scheme at the tightest BEOL levels [12].
+ - High-NA partly deflates litho intensity: it removes 40+ process steps on critical layers vs multi-patterning, so more exposures-per-layer is not guaranteed [14].
+ - Capex intensity + cyclicality + extreme supplier concentration leave fabs little patterning-margin to capture (see above).
 
 - **Trends & inflections to watch**
-  - Damascene-to-subtractive shift: tight levels move to direct-etched ruthenium/molybdenum (semi-damascene + airgaps, ~25% capacitance cut at <=25nm pitch), shrinking dual-damascene tool/chemistry demand but growing direct-metal-etch demand. Tripwire: TSMC A14 subtractive-Ru in volume production, slated 2028 [12][13].
-  - DRAM/3D NAND molybdenum interconnect adoption "moving quickly" diversifies the metal-etch pool. Tripwire: first HVM Mo interconnect node disclosed by a memory maker [12].
-  - Panel/2.5D RDL scale-up. Tripwire: a foundry announcing a sub-2um damascene RDL line at panel format [15].
+ - Damascene-to-subtractive shift: tight levels move to direct-etched ruthenium/molybdenum (semi-damascene + airgaps, ~25% capacitance cut at <=25nm pitch), shrinking dual-damascene tool/chemistry demand but growing direct-metal-etch demand. Tripwire: TSMC A14 subtractive-Ru in volume production, slated 2028 [12][13].
+ - DRAM/3D NAND molybdenum interconnect adoption "moving quickly" diversifies the metal-etch pool. Tripwire: first HVM Mo interconnect node disclosed by a memory maker [12].
+ - Panel/2.5D RDL scale-up. Tripwire: a foundry announcing a sub-2um damascene RDL line at panel format [15].
 
 ## Connections
 [Lithography](/manufacturing/lithography/lithography/) · [Etch Tools (ALE, plasma etch)](/manufacturing/equipment-processes/etch-tools/) · thesis **Lithography Patterning Market**

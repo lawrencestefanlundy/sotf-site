@@ -39,6 +39,10 @@ sources:
 - '[[2026-06-17-femtoai-spu-ces2026]]'
 - '[[2024-tsmc-cowos-roadmap-disclosure]]'
 frontier:
+- Can a photonic tensor core hold multiplication error near 3.9% while scaling from a 4x2x1 unit to matrix dimensions used in production transformers, or does error grow with channel count 2026 05 14 on chip 1 tops hyperdimensional photonic tensor core using a?
+- Do the simulated 3.66x throughput and 1.40x latency gains from replacing local HBM with a photonic memory fabric survive measurement on real silicon rather than CelestiSim 2026 06 05 photonic fabric platform for ai accelerators?
+- Will vendors expose per-rail energy telemetry that firmware already computes, so that accelerator efficiency claims become verifiable in procurement 2026 06 16 the energy blind spot nvidias flagship edge ai hardware cann?
+- If CPU-side processing accounts for up to 90.6% of agentic latency, how much of the accelerator gain is recoverable at system level rather than kernel level 2026 06 16 the energy blind spot nvidias flagship edge ai hardware cann?
 - Do hyperscaler in-house ASICs reach >=35% of new AI-accelerator deployments by end-2028, taking NVIDIA merchant share below ~65%? Watch TrendForce/Omdia shipment trackers.
 - 'Does NVIDIA''s moat migrate from the die to the network and rack layer (NVLink, Spectrum-6 Ethernet)? Evidence: attach rate of NVIDIA networking on non-NVIDIA accelerators.'
 - Does inference fragment decisively across substrates (hyperscaler ASIC, on-device NPU, edge) while training stays on merchant GPUs? Watch the ASIC share of AI-server shipments past the 27.8% 2026 projection.
@@ -46,12 +50,21 @@ frontier:
 - 'What does the 60% H100 spot-price crash imply for challenger unit economics: does cheap depreciated merchant compute close the window for new inference-chip entrants?'
 - Can photonic or in-memory accelerators cross from lab demo to a foundry-qualified part with a named customer? No source yet shows one in production.
 - Does China's domestic accelerator stack (Enflame, Huawei Ascend, advanced packaging on glass substrates) become competitive at the system level despite process-node lag?
-last_updated: '2026-07-26'
+last_updated: '2026-08-31'
 tags:
 - concept
 - technology
 mention_count: 99
 last_reorg_date: '2026-05-14'
+scorecard:
+  viability: 4
+  drivers: 4
+  novelty: 3
+  diffusion: 3
+  impact: 4
+  timing_band: Now (0-2yr)
+  verdict: Fairly rated
+scorecard_status: draft
 sources_7d: 0
 sources_30d: 3
 recent_mentions:
@@ -89,53 +102,90 @@ recent_mentions:
   kind: web
 neighbors: []
 ---
-## Physics / mechanism
+**An AI accelerator is purpose-built silicon that runs neural network and inference maths far more efficiently than a general-purpose CPU, and the current research frontier has moved away from raw multiply-accumulate throughput towards moving data less: memory locality, interconnect, and in-network or photonic fabrics.**
 
-Dedicated silicon optimised for the tensor and matrix operations that dominate neural-network workloads: thousands of MAC units operating concurrently on weight matrices, fed by the widest memory system the package can carry. The binding constraint is memory bandwidth, not raw FLOPS, and the sources show the whole architecture stack organising around it. LLM inference splits into a compute-bound prefill phase and a memory-bound decode phase, and current runtimes route them to different hardware paths on the same die: Apple's M5 puts a dedicated neural accelerator in every GPU core and the fastest runtimes send matrix-heavy prefill to those tensor units while decode stays on bandwidth-optimised kernels basert advancing best in class llm inference with apple m5 n. On the datacentre side the same pressure drives precision and cache compression: algorithm-hardware co-design now runs both linear and attention layers in block floating point, compressing the KV cache from FP16 to 4-bit-mantissa BFP with under 1% accuracy loss for roughly 2x energy efficiency and 3x speedup harmonia algorithm hardware co design for memory  and comput, and per-bit fault-sensitivity work cuts ECC storage overhead 37 to 62% by protecting only the exponent and high-order bits from bit position sensitivity to unequal error protection fo. Even inside the flagship GPUs the memory system is now NUMA: microbenchmarking of A100/H100 reveals non-uniform L2 and DRAM access that vendors do not document, which matters for kernel and simulator design dgna dissecting gpu numa architecture through microbenchmark sim fa a gpgpu simulator framework for fine grained asynchro.
+## Summary
 
-Compute density at the top of the market (mid-2026): NVIDIA B200 at 4,500 TFLOPS with 192 GB HBM3e, AMD MI350X at 4,600 TFLOPS with 288 GB, Google TPU v7 at 4,614 TFLOPS, Amazon Trainium 3 at 2,517 TFLOPS, Microsoft Maia 200 above 5 PFLOPS a guide to ai in 2026 woodside capital partners. NVIDIA's roadmap (Vera Rubin H2 2026, Feynman 2028) moves to HBM4; TDP figures are undisclosed ai power thermal binding nvidia vera rubin and feynman. The superseded figures on this page (H100 ~4 PFLOPS as the reference part, HBM3e as the frontier) described the 2024 state; HBM bandwidth as the original bottleneck framing dates to e14 the real ai bottleneck high bandwidth and micron hbm3e volume production and has held up. Packaging is becoming a differentiator in its own right: Enflame demonstrated China's first glass-substrate CoPoS AI chip sample at WAIC 2026 waic 2026 enflame debuts chinas first glass based copos ai c.
+An AI accelerator is a processor whose datapath is specialised to the arithmetic that machine learning actually performs, chiefly dense matrix multiplication (GEMM) plus a small set of nonlinearities, quantised to low precision. By dropping the generality of a CPU, an accelerator can spend most of its area on multiply-accumulate units and on the memory hierarchy that feeds them. The category spans several very different physical implementations: digital ASICs and GPUs at the datacentre end, FPGAs where flexibility or radiation tolerance dominates, tiny fixed-function blocks stacked directly onto image sensors, event-driven neuromorphic cores for spiking networks, and analogue optical tensor cores.
 
-Research-stage substrates keep attacking the same constraint from below, all still at lab-demo proximity: ECRAM-based in-memory computing for edge continual learning (67x speedup over GPU training on MNIST-scale tasks) leveraging ecram for edge continual learning, dual-sided bit-serial sparsity reaching 90% PE utilisation brim workload balanced dual sided bit serial sparse inferenc, RFET-based stochastic computing an energy efficient rfet based stochastic computing neural n, photonic near-sensor vision transformers with on-chip fine-tuning at over 100 KFPS/W opto vit v2 noise resilient on chip fine tuning for photonic, compute-in-memory retrieval surrogates polysim deterministic polynomial surrogates for cross modal , nitride spintronics nitrospinics as a platform from orbital torque memory to art, and quantum reservoir computing, where the survey evidence explicitly finds no established advantage over well-matched classical reservoirs quantum reservoir computing recent advances and future direc.
+The parameter that now decides accelerator design is not FLOPS but where the bytes live. On multi-chiplet GPUs, memory is split into local and remote high-bandwidth memory across an interposer, and inter-chiplet traffic for the same GEMM shape varies by up to 58x depending on operand layout, thread-block traversal order and data placement. Fixing the memory layout so that chiplet-local data is contiguous cuts remote HBM traffic by an average of 13.0x on Qwen 3 30B and 20.7x on Llama 3.1 70B GEMMs relative to 4 KB page interleaving. Mixture-of-experts models make this worse: only a subset of experts fires per token, so expert loading latency, not compute, becomes the dominant cost.
 
-## Competitive landscape
+Two escape routes from the memory wall appear in the sources. The first is to attack the beachfront constraint that fixes the memory-to-compute ratio on every current accelerator package, by replacing a local HBM stack with a photonic chiplet into a shared switched pool: a described appliance offers up to 32 TB of shared memory and 115 Tbps of all-to-all digital switching, with simulated gains of up to 3.66x throughput and 1.40x latency in LLM inference and no significant change to the GPU core. The second is to push computation into the network or memory side, a lineage running from Fetch-and-Add in the NYU Ultracomputer to NVIDIA SHARP and HPE Slingshot, and now to memory-side NIC instruction sets that collapse dependent round-trips, cutting 10-hop graph traversal latency by 2.85x at 3.4x higher throughput on an FPGA prototype.
 
-NVIDIA holds roughly 77% of AI accelerator share, down from 87%; AMD ~9%, Google TPU ~7%, custom ASICs ~5% a guide to ai in 2026 woodside capital partners. The prior ~80% figure on this page is consistent with that trajectory (one tracker put 2025 at ~80% with 75% projected for 2026 hyperscaler asic profit pool nvidia ai gpu market share). The share erosion is real but slow, and it decomposes into three distinct vectors.
+At the low-power end the same specialisation logic produces very different chips: a 65 nm probabilistic decision-tree engine for hypoglycemia forecasting at 11.3 nJ per inference and an F1 of 0.825 on 30-minute forecasts, and a 16 nm RISC-V SoC with a 2D mesh of 16 cores carrying custom Knuth-Yao samplers for Markov chain Monte Carlo inference, a workload that parallelises badly on CPUs and GPUs.
 
-First, hyperscaler captive ASICs are the volume story. ASIC-based systems are projected at 27.8% of AI-server shipments in 2026, the highest share since 2023, with custom ASIC shipments growing 44.6% year on year against 16.1% for merchant GPUs specialisation beats generality global ai server shipments specialisation beats generality the custom ai asic state of. Every hyperscaler now builds custom silicon and both Google and Amazon are expanding those programmes inside a $725B 2026 capex envelope a guide to ai in 2026 woodside capital partners.
+## Viability (4/5)
 
-Second, AMD is the only merchant challenger with traction at the training frontier: Meta's $100B commitment validated the MI-series, and Anthropic signed as its third marquee customer in July 2026 amd lands anthropic as its third marquee ai customer chippin. NVIDIA's response is to move the moat up the stack, from the die to the network and rack: Spectrum-6 Ethernet extends its grip on the cluster network layer even where the accelerator is contested nvidia pushes spectrum 6 ethernet into gigascale ai factorie. China runs a parallel stack (Huawei Ascend 910C at ~800 TFLOPS, China only; Enflame's packaging advances) that competes on system integration rather than node parity a guide to ai in 2026 woodside capital partners waic 2026 enflame debuts chinas first glass based copos ai c.
+For the digital branch the question of whether it works is settled by tape-outs. The AIA approximate-inference SoC exists in Intel 16 nm with a RISC-V host and a 16-core mesh plus a custom compiler chain; the hypoglycemia engine is fabricated in 65 nm with measured energy per inference; an optoelectronic Ising machine integrates coupling and nonlinearity into 3.1 mm2 of 65 nm CMOS running at 1 GHz with 4-bit weights, removing benchtop equipment from the loop. Memory-layout and traversal-order fixes are software-only and claimed to need no operating system or hardware changes.
 
-Third, the training/inference split is now also a pricing story. Cloud H100 spot prices crashed ~60% as Blackwell ramped ($1.03/hr spot by June 2026), while inference costs fall roughly 10x per year a guide to ai in 2026 woodside capital partners. Cheap depreciated merchant compute compresses the window in which a dedicated inference chip (Groq, Tenstorrent, Hailo, Axelera and the long tail on this page's company list) can undercut on cost per token; the durable openings are where merchant GPUs structurally cannot go, on-device (Apple M5 class NPUs basert advancing best in class llm inference with apple m5 n), sub-watt edge (neuromorphic parts running vision inference at ~850 mW gluse enhanced channel wise adaptive gated linear units se f), and captive hyperscaler volume. Photonic and analog in-memory accelerators remain pre-commercial across every source reviewed; the earlier 10-100x energy-efficiency claims for photonics are unverified at product level and the strongest current evidence is noise-resilient lab hardware opto vit v2 noise resilient on chip fine tuning for photonic. Confidence: the share and shipment numbers above are analyst projections (tier 2-5), not audited actuals; treat the 27.8% ASIC share as a forecast.
+The analogue and photonic branch is demonstrably real but not yet competitive on fidelity. A time-space-wavelength multiplexed silicon photonic crossbar reaches 0.96 TOPS on chip with an average multiplication error of 3.9%, and its Iris classification accuracy falls from 93.3% to 83.3% as the data rate rises from 4x30 to 4x60 GBd. A programmable 2D waveguide with roughly 10^4 spatial degrees of freedom runs inference on vectors up to 49 dimensions in a single pass. Those are legitimate results at a scale several orders of magnitude below production model dimensions. The photonic memory fabric result, by contrast, is a simulation on a validated analytical model rather than a measured system.
 
-A secondary layer is forming around accelerator-adjacent security: timing side channels leak model architecture from production GPU serving leaky language models stealing architecture and inference op, KV-cache reuse is exploitable hijackkv new threat in position independent kv cache reuse, and TEE-based auditing of cloud inference is becoming practical trusting what you cannot see auditable fine tuning and infer. Inference-time optimisations are now attack surface, which couples accelerator design to the confidential-computing agenda.
+**TLDR: Digital accelerators are fabricated, measured silicon; photonic tensor cores are working but small and lossy in accuracy.**
 
-| Axis | Merchant GPU (NVIDIA, AMD) | Hyperscaler ASIC | Inference challenger | Photonic / in-memory |
-|---|---|---|---|---|
-| Flexibility | High | Low (captive workloads) | Low | Very low |
-| Power efficiency | Moderate | High | High | Claimed extreme, unproven |
-| Maturity | Production | Production (captive) | Production at edge, weak in cloud | Lab demo |
-| Share trend | 77% and eroding slowly | 27.8% of 2026 server shipments, fastest growth | Squeezed by GPU price crash | Pre-commercial |
+## Drivers (4/5)
 
-## Investment routes
+Demand: large language model inference and training are the named target of the chiplet locality, photonic fabric and MoE prefetching work, with model names attached to the benchmarks. Agentic workloads are being pushed to the edge, with NVIDIA, Dell, HP, ASUS, MSI, Acer and Gigabyte all shipping GB10-based desktop AI systems in 2026, and orchestration overheads that consume 4.33x more energy per successful goal than linear baselines make efficiency commercially material rather than academic. Separate pull comes from wearable biomedical devices and neural prosthetics with hard power budgets, continuous glucose monitoring, onboard spacecraft autonomy and data compression, and safety-critical reasoning that needs probabilistic rather than deep-network inference.
 
-## Companies using
+Supply: the sources show access to credible process nodes and packaging without exotic requirements, 16 nm and 65 nm CMOS, 2.5D electro-optical system-in-package with HBM3E and DDR5, 3-layer 3D-stacked image sensors, and thin-film lithium niobate for photonics. The sources say nothing about fab capacity, HBM supply or cost, so the supply constraint that actually governs the market is not assessable here.
 
-<!-- dataview block stripped for public site -->
+## Novelty (3/5)
 
-## Connected ideas
+Specialised parallel hardware and in-network computation are not new ideas, and one of the sources makes that explicit by tracing today's SHARP and Slingshot in-network reductions back to Fetch-and-Add in the NYU Ultracomputer and the IBM RP3. What is new and quantified is the size of the remaining headroom in data movement rather than arithmetic: up to 58x variation in remote traffic across the GEMM design space for identical dimensions, 5.1x from a 2D block-swizzle traversal over the best 1D traversal, 13.0x to 20.7x from a contiguous chiplet layout over 4 KB interleaving, and 2.85x latency with 3.4x throughput from resolving indirection at the memory-side NIC instead of the client.
 
-<!-- dataview block stripped for public site -->
+The better-than comparison for the exotic branches is more modest. Photonic tensor cores are compared against the scaling limits of electronic computing in principle, and one architecture's real contribution is reducing DAC and electro-optic conversion overhead from O(n^2) to O(n), an architectural fix to the reason previous photonic cores did not scale, but no source demonstrates a photonic core beating a commercial digital accelerator on a real workload. Domain-specific digital engines do show clean wins over the wrong tool: MCMC executes inefficiently on CPU and GPU platforms because it parallelises poorly, and a probabilistic tree engine beats conventional decision trees and random forests on noise robustness as well as energy.
 
-## Sources
+**TLDR: The accelerator concept is decades old; the genuinely new results are in data movement, where the multiples are large and measured.**
 
-<!-- dataview block stripped for public site -->
+## Diffusion (3/5)
 
-## Frontier (open questions)
+The sources are unusually clear that adoption is gated by how much of the existing stack a design forces you to replace. The winners on this axis explicitly minimise disruption: a memory layout that requires no operating system or hardware change, and a photonic memory fabric positioned as a chiplet swap with no significant change to the GPU core design. Elsewhere the toolchain is the deliverable rather than an afterthought: an edge sensor accelerator ships with a framework covering host and accelerator programming plus post-training quantisation, a neuromorphic core ships with a precision design-space explorer, and the MCMC SoC needed a custom compiler for spatial mapping and scheduling. That per-architecture compiler burden is the structural reason most novel accelerators do not diffuse.
 
-- Do hyperscaler in-house ASICs reach 35% or more of new AI-accelerator deployments by end-2028, taking NVIDIA's merchant share below ~65%? Resolves on analyst shipment trackers; current trajectory is 27.8% of 2026 AI-server shipments specialisation beats generality global ai server shipments.
-- Does NVIDIA's moat migrate from the die to the network and rack layer? Evidence that would update: NVIDIA networking attach on non-NVIDIA accelerators nvidia pushes spectrum 6 ethernet into gigascale ai factorie.
-- Does inference fragment decisively across substrates (hyperscaler ASIC, on-device NPU, sub-watt edge) while training consolidates on merchant GPUs?
-- Do KV-cache compression and 4-bit block-floating-point formats harmonia algorithm hardware co design for memory  and comput relieve the memory-bandwidth constraint enough to enable HBM-light inference silicon at competitive cost per token?
-- Does the ~60% H100 spot-price crash a guide to ai in 2026 woodside capital partners close the economic window for new merchant inference-chip entrants?
-- Can any photonic or in-memory accelerator cross from lab demo to a foundry-qualified part with a named customer? Nothing in the current sources shows one in production.
-- Does China's domestic stack become system-level competitive despite node lag, with packaging (glass CoPoS waic 2026 enflame debuts chinas first glass based copos ai c) as the lever?
+Two further frictions are documented. Security: quantised networks on TinyML accelerators have had essentially no domain-specific analysis, and a two-step attack pipeline already surpasses the state of the art against them, which matters for medical and safety-critical deployment. Observability: an audit of a flagship edge AI platform found no CPU energy counter, no power-rail monitor, no BMC and no powercap interface, with instantaneous GPU power via NVML the only telemetry, while per-rail energy is computed internally by firmware and not exposed. If buyers cannot measure energy per goal, efficiency claims cannot be verified in procurement, which slows the substitution of specialised parts for general ones. The sources give no evidence on unit volumes or design wins, so this score reflects technical barriers only.
+
+**TLDR: Software compatibility decides which of these ship; the least intrusive results will diffuse fast, the analogue ones face a toolchain vacuum.**
+
+## Impact (4/5)
+
+The measured and simulated gains land on workloads that dominate current compute spend. Cutting remote HBM traffic by an order of magnitude on Qwen 3 30B and Llama 3.1 70B GEMMs, or lifting LLM inference throughput 3.66x by breaking the fixed memory-to-compute ratio imposed by silicon beachfront, translates directly into serving cost and energy per token. On the edge, 11.3 nJ per inference with a usable 30-minute hypoglycemia F1 of 0.825 is the difference between a wearable that works on a coin cell and one that does not, and the same reasoning applies to onboard spacecraft autonomy where the alternative is downlinking raw data.
+
+Two caveats hold the score below 5. First, the largest headline numbers come from a simulator rather than measured hardware, albeit one validated against H100 and H200 systems. Second, the bottleneck keeps moving: one source reports CPU-side processing accounting for up to 90.6% of latency and 44% of dynamic energy in agentic workloads, which caps what any improvement to the matrix engine can deliver at the system level. The sources contain no revenue, market-size or cost-per-unit data, so the economic magnitude is inferred from performance multiples, not measured.
+
+**TLDR: Multiples of 3x to 20x on traffic, throughput or energy on named production-scale models, applied to the largest cost line in AI.**
+
+## Timing Now (0-2yr)
+
+The category is in production now. GB10-based desktop AI systems from seven named vendors are shipping in 2026, multi-chiplet GPUs with local and remote HBM are the assumed baseline in several 2026 papers, and the highest-leverage improvements identified, kernel traversal order and chiplet-contiguous memory layout, are software changes deployable within a product cycle. Small fabricated edge and probabilistic accelerators are at the stage where the remaining work is productisation and toolchain, not physics.
+
+The photonic branch is on a different clock. Sub-TOPS on-chip cores with 3.9% average multiplication error and accuracy that degrades with data rate, and single-pass inference limited to 49-dimensional vectors, are early-stage. Photonics used as switching and memory fabric rather than as an arithmetic unit is nearer, because it does not require the model to tolerate analogue error. Ising and physics-based solvers remain at 64 spins and are further out still.
+
+**TLDR: Digital and memory-side accelerators are already shipping or software-deployable; photonic compute cores are a later story.**
+
+## Overrated or underrated? Fairly rated
+
+AI accelerators as a category are correctly valued: the demand is real, the silicon exists, and the efficiency gains over general-purpose execution are measured rather than promised. What is misallocated inside the category is attention. The sources show the binding constraint has moved off the multiply-accumulate array and onto data movement, and the largest multiples in this evidence base come from unglamorous work: choosing a thread-block traversal order, laying out memory contiguously per chiplet, prefetching MoE experts, and executing pointer chases at the memory-side NIC. That work is cheap, compatible with deployed hardware, and delivers 5x to 20x on traffic.
+
+Against that, on-chip photonic and physics-based compute cores are further from displacing digital accelerators than their headline framing suggests: under a teraop, a few per cent multiplication error, tens of dimensions per pass, and accuracy that falls when you push the modulators. The credible near-term role for photonics in this stack is interconnect and disaggregated memory, where analogue error does not touch the arithmetic. Two soft spots deserve more weight than they get: nobody can audit the energy claims on flagship edge hardware, and quantised models on TinyML accelerators are attackable in ways that have not been studied.
+
+## Prediction
+
+By the end of 2028, no AI accelerator shipping in commercial volume will use an on-chip photonic or analogue tensor core as its primary matrix engine, while at least one production system will use photonic switching or disaggregated memory in an otherwise digital accelerator package.
+
+## Evidence base
+
+- 14 May 2026: on-chip time-space-wavelength multiplexed silicon photonic crossbar reaches 0.96 TOPS with 3.9% average error, Iris accuracy 93.3% at 4x10 to 4x30 GBd falling to 83.3% at 4x60 GBd 
+- Photonic Fabric Appliance combines HBM3E, an on-module photonic switch and DDR5 in a 2.5D electro-optical package for up to 32 TB shared memory and 115 Tbps all-to-all switching, simulated at up to 3.66x throughput and 1.40x latency improvement for LLM inference 
+- 15 Jun 2026: remote HBM traffic varies by up to 58x across the GEMM design space for the same dimensions, and a 2D block-swizzle traversal found by an agentic search cuts remote traffic up to 5.1x versus the best 1D traversal 
+- 15 Jun 2026: Chiplet-Contiguous Layout reduces remote HBM traffic by 13.0x on Qwen 3 30B and 20.7x on Llama 3.1 70B GEMMs versus 4 KB interleaving, with no operating system or hardware changes 
+- 16 Jun 2026: audit of the ASUS Ascent GX10 (GB10 SoC) finds no CPU energy counter, no power-rail monitor, no IPMI/BMC and no powercap interface, with GB10 desktop AI systems shipping in 2026 from NVIDIA, Dell, HP, ASUS, MSI, Acer and Gigabyte 
+- 16 Jun 2026: fabricated 65 nm probabilistic decision-tree engine achieves 11.3 nJ per inference and an F1 of 0.825 for 30-minute hypoglycemia forecasting, with a 4x24x24 node array and on-chip RISC-V core 
+- 15 Jun 2026: Tiara's memory-side NIC instruction set cuts 10-hop graph traversal latency by 2.85x at 3.4x higher throughput and reduces page-table walk latency by 62% on an FPGA prototype 
+
+## Open questions
+
+- Can a photonic tensor core hold multiplication error near 3.9% while scaling from a 4x2x1 unit to matrix dimensions used in production transformers, or does error grow with channel count?
+- Do the simulated 3.66x throughput and 1.40x latency gains from replacing local HBM with a photonic memory fabric survive measurement on real silicon rather than CelestiSim?
+- Will vendors expose per-rail energy telemetry that firmware already computes, so that accelerator efficiency claims become verifiable in procurement?
+- If CPU-side processing accounts for up to 90.6% of agentic latency, how much of the accelerator gain is recoverable at system level rather than kernel level?
+
+---
+*Assessment drafted 2026-08-31 from up to 18 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

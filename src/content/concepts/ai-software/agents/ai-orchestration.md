@@ -29,7 +29,7 @@ neighbors: []
 ---
 ## Physics / mechanism
 
-Callosum's version of the same idea is packaged as "Tailored Inference": task-based APIs spanning heterogeneous compute, in production, under a "programmable heterogeneity" framing, with initial applications in cybersecurity and finance callosum 100m seed announcement. The company's flagship Cerebras partnership targets ultra-low-latency heterogeneous multi-agent inference, implying that orchestration latency itself becomes a design constraint when many agents call out in sequence callosum 100m seed announcement.
+Callosum's version of the same idea is packaged as "Tailored Inference": task-based APIs spanning heterogeneous compute, in production, under a "programmable heterogeneity" framing, with initial applications in cybersecurity and finance <sup class="ref"><a href="https://sifted.eu/articles/callosum-raise-atomico-plural-uk-sovereign-ai" title="Callosum announces $100M seed led by Atomico (round coverage + Companies House filings)" rel="noopener">ref</a></sup>. The company's flagship Cerebras partnership targets ultra-low-latency heterogeneous multi-agent inference, implying that orchestration latency itself becomes a design constraint when many agents call out in sequence <sup class="ref"><a href="https://sifted.eu/articles/callosum-raise-atomico-plural-uk-sovereign-ai" title="Callosum announces $100M seed led by Atomico (round coverage + Companies House filings)" rel="noopener">ref</a></sup>.
 
 ## Competitive landscape
 

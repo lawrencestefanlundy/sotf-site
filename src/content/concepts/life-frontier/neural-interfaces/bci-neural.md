@@ -23,18 +23,7 @@ sources:
 - '[[2026-06-04-bezos-flourish-brain-core-algorithm]]'
 - '[[2018-09-10-brain-computer-interface-allows-for-telepathic-piloting-of-d]]'
 - '[[2026-06-23-inbrain-graphene-first-in-human]]'
-frontier:
-- Can flexible, minimally invasive ECoG arrays achieve the channel count and longevity needed for high-bandwidth motor prosthetics without open-skull surgery?
-- What is the signal fidelity ceiling for non-invasive EEG at scalp, and can dry electrode arrays close the gap with wet gel?
-- How do regulatory pathways (FDA Breakthrough Device, CE MDR) shape the viable commercial BCI entry point — medical vs consumer first?
-last_updated: 2026-06-02
-tags:
-- concept
-- category
 mention_count: 10
-descendants:
-- non-invasive-neural-recording-modalities
-last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
@@ -84,6 +73,29 @@ neighbors:
   path: /life-frontier/neural-interfaces/connectomics/
   macro: life-frontier
 ---
+033]]'
+- ''
+deal_count: 0
+frontier:
+- Can flexible, minimally invasive ECoG arrays achieve the channel count and longevity
+ needed for high-bandwidth motor prosthetics without open-skull surgery?
+- What is the signal fidelity ceiling for non-invasive EEG at scalp, and can dry electrode
+ arrays close the gap with wet gel?
+- How do regulatory pathways (FDA Breakthrough Device, CE MDR) shape the viable commercial
+ BCI entry point — medical vs consumer first?
+last_updated: 2026-06-02
+data_source: domain-knowledge-2026-06-02
+tags:
+- concept
+- category
+mention_count: 10
+descendants:
+- non-invasive-neural-recording-modalities
+last_reorg_date: '2026-05-13'
+---
+
+# BCI & Neural Interfaces
+
 A brain-computer interface (BCI) is a system that establishes a direct communication or control pathway between the brain and an external device, bypassing conventional motor or peripheral pathways. The field splits on two fundamental axes: **invasive vs non-invasive** recording, and **medical vs consumer** application.
 
 **Invasive BCIs** — electrodes implanted into or on cortical tissue. Electrocorticography (ECoG) grids sit on the brain surface (subdural); microelectrode arrays (MEAs, e.g. Utah Array, Neuralink N1) penetrate cortex to record single-unit action potentials, giving the highest spatial resolution (~100 µm). Signal quality degrades over months to years due to glial scarring (the foreign-body response to implanted materials). See [Invasive BCI (Neuralink, Synchron, Paradromics)](/life-frontier/neural-interfaces/invasive-bci/).

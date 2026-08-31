@@ -47,7 +47,7 @@ This is why, under **Agents Need New Silicon**, a clean-sheet interaction-net CP
 
 ## Diligence reduction
 
-For any interaction-net hardware claim the question collapses to the benchmark gate (agentic control plane benchmark gate): **does expressing the real workload as interaction-net graph rewriting beat a conventional CPU + scheduler, with the advantage GROWING as concurrency rises** (FPGA or cycle-accurate sim is sufficient)? A concurrency-growing win re-opens the thesis; a flat or shrinking curve is the failure mode the constant factors predict.
+For any interaction-net hardware claim the question collapses to the benchmark gate (): **does expressing the real workload as interaction-net graph rewriting beat a conventional CPU + scheduler, with the advantage GROWING as concurrency rises** (FPGA or cycle-accurate sim is sufficient)? A concurrency-growing win re-opens the thesis; a flat or shrinking curve is the failure mode the constant factors predict.
 
 ## Not to be confused with
 

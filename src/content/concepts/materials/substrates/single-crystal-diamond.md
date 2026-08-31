@@ -26,21 +26,21 @@ neighbors: []
 
 Single crystal diamond is a substrate material in which the carbon lattice is continuous and free of grain boundaries, distinguishing it from polycrystalline or nanocrystalline diamond films. In quantum sensing applications the crystal serves as a host matrix for point defects, most prominently the nitrogen vacancy (NV) centre, a substitutional nitrogen atom adjacent to a carbon vacancy. Because the defect sits in a defined crystallographic setting, its high symmetry axis is fixed relative to the lattice, and the crystal orientation therefore determines the vector projection axis along which magnetic fields are measured.
 
-The substrate can be micro- and nanostructured while retaining the optical and spin properties of embedded defects. Individual, scannable NV centres in single crystal diamond nanostructures allow nanoscale, quantitative imaging of magnetic stray fields methods for traceable scanning magnetometry using single nit. In this geometry the diamond nanostructure acts simultaneously as the mechanical scanning probe, the optical waveguide collecting NV fluorescence, and the crystalline reference frame that sets the sensing axis.
+The substrate can be micro- and nanostructured while retaining the optical and spin properties of embedded defects. Individual, scannable NV centres in single crystal diamond nanostructures allow nanoscale, quantitative imaging of magnetic stray fields. In this geometry the diamond nanostructure acts simultaneously as the mechanical scanning probe, the optical waveguide collecting NV fluorescence, and the crystalline reference frame that sets the sensing axis.
 
-Two parameters dominate quantitative use of such probes: the distance between the NV centre and the sample surface, d_NV, and the azimuthal orientation of the NV high symmetry axis. These are frequently unknown with precision and are absorbed into data evaluation as free fitting parameters, which limits traceability of the reconstructed field methods for traceable scanning magnetometry using single nit. Calibration against known magnetisation patterns, specifically micro-patterned, perpendicularly magnetised stripes and discs, allows both d_NV and the azimuthal orientation to be inferred directly without an external vector magnet methods for traceable scanning magnetometry using single nit.
+Two parameters dominate quantitative use of such probes: the distance between the NV centre and the sample surface, d_NV, and the azimuthal orientation of the NV high symmetry axis. These are frequently unknown with precision and are absorbed into data evaluation as free fitting parameters, which limits traceability of the reconstructed field. Calibration against known magnetisation patterns, specifically micro-patterned, perpendicularly magnetised stripes and discs, allows both d_NV and the azimuthal orientation to be inferred directly without an external vector magnet.
 
 ## Competitive landscape
 
-The supplied source does not compare single crystal diamond against alternative substrates or sensor hosts. Its positioning is narrower: single crystal diamond is treated as the enabling host for individual, addressable NV centres in scanning-probe form, where defect placement and crystal axis orientation must be controlled at the level of a single emitter. Competing calibration strategies within the same platform are distinguished by whether an external vector magnet is required to establish the NV orientation; the reported method does not need one methods for traceable scanning magnetometry using single nit.
+The supplied source does not compare single crystal diamond against alternative substrates or sensor hosts. Its positioning is narrower: single crystal diamond is treated as the enabling host for individual, addressable NV centres in scanning-probe form, where defect placement and crystal axis orientation must be controlled at the level of a single emitter. Competing calibration strategies within the same platform are distinguished by whether an external vector magnet is required to establish the NV orientation; the reported method does not need one.
 
 ## Evidence base
 
-- Individual, scannable NV centres in single crystal diamond nanostructures enable nanoscale, quantitative imaging of magnetic stray fields (announced 6 August 2026) methods for traceable scanning magnetometry using single nit.
-- NV-sample distance and the orientation of the NV high symmetry axis are often not known precisely and enter data evaluation as free fitting parameters methods for traceable scanning magnetometry using single nit.
-- Scanning NV imaging of micro-patterned, perpendicularly magnetised stripes and discs was used to infer d_NV and the NV azimuthal orientation directly methods for traceable scanning magnetometry using single nit.
-- The reported determination of orientation and distance does not require control of an external vector magnet methods for traceable scanning magnetometry using single nit.
-- The work is framed as a set of methods for traceable scanning magnetometry, covering orientation, distance and localisation methods for traceable scanning magnetometry using single nit.
+- Individual, scannable NV centres in single crystal diamond nanostructures enable nanoscale, quantitative imaging of magnetic stray fields (announced 6 August 2026).
+- NV-sample distance and the orientation of the NV high symmetry axis are often not known precisely and enter data evaluation as free fitting parameters.
+- Scanning NV imaging of micro-patterned, perpendicularly magnetised stripes and discs was used to infer d_NV and the NV azimuthal orientation directly.
+- The reported determination of orientation and distance does not require control of an external vector magnet.
+- The work is framed as a set of methods for traceable scanning magnetometry, covering orientation, distance and localisation.
 
 ## Frontier (open questions)
 

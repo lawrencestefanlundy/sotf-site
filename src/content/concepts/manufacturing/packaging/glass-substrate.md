@@ -11,11 +11,6 @@ sources:
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2026-05-30-intel-glass-substrates-program]]'
-auto_stub: true
-last_updated: 2026-07-08
-tags:
-- concept
-- auto-stub
 mention_count: 26
 sources_7d: 0
 sources_30d: 1

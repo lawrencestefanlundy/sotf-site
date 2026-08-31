@@ -73,19 +73,19 @@ The defining structural fact: crystal growth is mostly captive. The big wafer ma
 Net read: the served market is cyclical with a structurally higher floor. AI has pulled 300mm wafers from glut to tightness, but the value still accrues to captive wafer makers, and a 2027 correction is the consensus base case.
 
 - **Drivers**
-  - AI/datacentre demand has flipped the cycle: Q1 2026 silicon wafer shipments hit 3,275 MSI, up 13.1% year-on-year, led by 300mm for AI logic and HBM [9][10]. SemiAnalysis frames the industry as now in a genuine "silicon shortage" phase, with hyperscaler capex gated by fab/wafer supply, not appetite [11].
-  - Node transitions lift wafer spec and price: Shin-Etsu and SUMCO put in JPY 150bn (~$1bn) in 2025 for 200,000 wpm of ultra-flat 2nm/3nm-grade 300mm capacity, and SUMCO is killing 200mm at Miyazaki by late 2026 to shift to AI-grade 300mm [12].
-  - Reshoring/sovereignty adds greenfield demand: GlobalWafers opened Sherman, Texas (now a $7.5bn programme) and started Italy's first 300mm plant in Oct 2025 on multi-year STMicro/Infineon deals [12].
+ - AI/datacentre demand has flipped the cycle: Q1 2026 silicon wafer shipments hit 3,275 MSI, up 13.1% year-on-year, led by 300mm for AI logic and HBM [9][10]. SemiAnalysis frames the industry as now in a genuine "silicon shortage" phase, with hyperscaler capex gated by fab/wafer supply, not appetite [11].
+ - Node transitions lift wafer spec and price: Shin-Etsu and SUMCO put in JPY 150bn (~$1bn) in 2025 for 200,000 wpm of ultra-flat 2nm/3nm-grade 300mm capacity, and SUMCO is killing 200mm at Miyazaki by late 2026 to shift to AI-grade 300mm [12].
+ - Reshoring/sovereignty adds greenfield demand: GlobalWafers opened Sherman, Texas (now a $7.5bn programme) and started Italy's first 300mm plant in Oct 2025 on multi-year STMicro/Infineon deals [12].
 
 - **Constraints**
-  - Hard cyclicality: SEMI's base case is +5.1%/+5.4% in 2025/26, a -6.2% correction in 2027, recovery in 2028 [13] — the served market is not a smooth compounder.
-  - ASP erosion: all five incumbents have secured greenfield capacity and, under depreciation pressure, will run it hard; Chinese suppliers pivoting from 200mm to 300mm add structural price pressure [13].
-  - Captive value capture: the big-5 hold ~85% of 300mm capacity and grow crystals in-house as a trade secret, so the merchant puller-OEM pool stays thin even as wafer demand climbs [12].
+ - Hard cyclicality: SEMI's base case is +5.1%/+5.4% in 2025/26, a -6.2% correction in 2027, recovery in 2028 [13] — the served market is not a smooth compounder.
+ - ASP erosion: all five incumbents have secured greenfield capacity and, under depreciation pressure, will run it hard; Chinese suppliers pivoting from 200mm to 300mm add structural price pressure [13].
+ - Captive value capture: the big-5 hold ~85% of 300mm capacity and grow crystals in-house as a trade secret, so the merchant puller-OEM pool stays thin even as wafer demand climbs [12].
 
 - **Trends & inflections to watch**
-  - Silicon-shortage re-rating: substrate scarcity could re-price the wafer layer above its historic cyclical band. Tripwire: SEMI quarterly shipments holding double-digit YoY growth into the back-half of 2026 [9][10], rather than rolling over toward the forecast 2027 dip [13].
-  - SiC to larger diameters: the 150mm to 200mm shift is underway and Wolfspeed demoed a single-crystal 300mm SiC wafer [14], lifting demand for specialty pullers (PVA TePla). Tripwire: first volume 200mm SiC supply contract or a foundry committing to 300mm SiC.
-  - China 300mm entry: Chinese wafer capacity moving into 300mm is the clearest downside catalyst. Tripwire: a Chinese maker qualifying 300mm at a non-Chinese logic/memory fab [13].
+ - Silicon-shortage re-rating: substrate scarcity could re-price the wafer layer above its historic cyclical band. Tripwire: SEMI quarterly shipments holding double-digit YoY growth into the back-half of 2026 [9][10], rather than rolling over toward the forecast 2027 dip [13].
+ - SiC to larger diameters: the 150mm to 200mm shift is underway and Wolfspeed demoed a single-crystal 300mm SiC wafer [14], lifting demand for specialty pullers (PVA TePla). Tripwire: first volume 200mm SiC supply contract or a foundry committing to 300mm SiC.
+ - China 300mm entry: Chinese wafer capacity moving into 300mm is the clearest downside catalyst. Tripwire: a Chinese maker qualifying 300mm at a non-Chinese logic/memory fab [13].
 
 ## Connections
 [Materials & Process](/materials/advanced-materials/materials-process/) · thesis: **Specialty Silicon Non Leading Edge**

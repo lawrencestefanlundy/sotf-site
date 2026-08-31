@@ -19,12 +19,21 @@ sources:
 - '[[2022-12-15-unbundling-the-database]]'
 - '[[2023-05-05-interview-rick-hao-partner-at-speedinvest]]'
 frontier: []
-last_updated: '2026-05-04'
+last_updated: '2026-08-31'
 tags:
 - concept
 - technology
 mention_count: 14
 last_reorg_date: '2026-05-13'
+scorecard:
+  viability: null
+  drivers: null
+  novelty: null
+  diffusion: null
+  impact: null
+  timing_band: Unclear
+  verdict: ''
+scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
@@ -62,30 +71,29 @@ recent_mentions:
   kind: substack
 neighbors: []
 ---
-## Physics / mechanism
+**Multi-party computation lets several parties jointly compute a result over private inputs without any of them revealing those inputs, and recent work shows it working cheaply in hardware authentication while still fighting accuracy and speed penalties in machine learning.**
 
-Multi-party computation is a cryptographic protocol family allowing *n* parties to jointly compute a function over private inputs without any party revealing its data to others. Core mechanism: secret sharing (Shamir, additive) splits each input into shares distributed across parties; computation proceeds on shares via arithmetic or Boolean circuits, with results reconstructed only at output. Variants include garbled circuits (Yao, two-party, constant rounds), GMW protocol (multi-party, linear rounds), and SPDZ (preprocessing model, malicious security). Performance benchmarks: AES evaluation ~0.1–1ms in semi-honest LAN settings; malicious-secure protocols add 5–10× overhead. Homomorphic encryption (FHE) handles single-party computation on encrypted data and is often conflated but distinct. MPC maturity is high for specific applications (threshold signatures, private set intersection); general-purpose MPC remains latency-constrained.
+## Summary
 
-## Competitive landscape
+Secure multi-party computation (MPC) is a cryptographic technique in which several parties each hold a private input, jointly compute an agreed function, and learn only the output. Inputs are typically split into shares distributed across the participants so that no single party, and no subset below a threshold, can reconstruct anything sensitive. It sits inside the wider family of privacy-enhancing technologies alongside homomorphic encryption, zero-knowledge proofs and verifiable computation. The problem this family addresses is the gap in the standard communication chain: data can be encrypted at rest on a device and protected in transit with TLS, but it is normally decrypted during processing, which is where the exposure sits <sup class="ref"><a href="https://stateofthefuture.substack.com/p/why-privacy-tech-is-actually-collaborative" title="💡Collaborative Computing" rel="noopener">ref</a></sup>.
 
-| Approach | Security model | Latency | Compute overhead |
-|---|---|---|---|
-| MPC (SPDZ/GMW) | Multi-party, malicious | Medium–High | 10–100× vs plaintext |
-| FHE (CKKS/BFV) | Single-party compute | High | 1000–10000× |
-| TEE (SGX/TrustZone) | Hardware attestation | Low | ~1–2× |
+Two quite different application classes appear in the current literature. The first is machine learning. In MPC-based ML, a model owner and a data owner run inference or training without either surrendering their asset: the model owner keeps proprietary weights, the user keeps private samples. The engineering difficulty is that cryptographic protocols cannot execute arbitrary non-linear operators cheaply, so frameworks apply a chain of MPC-specific transformations, notably operator approximation, which introduce both error and overhead and are largely opaque to the user.
 
-## Companies using
+The second class is hardware trust. Chiplet-based heterogeneous integration fragments the semiconductor supply chain across multiple vendors and post-fabrication assembly, opening the door to cloning, overproduction and chiplet substitution, and existing authentication schemes rely on trusted integrators or centralised anchors that create single points of failure. Here MPC is used to verify device signatures collaboratively across several chiplets so that raw signatures are never exposed, in one case combined with a route-based delay physically unclonable function embedded in a reconfigurable interposer.
 
-<!-- dataview block stripped for public site -->
+The parameters that decide MPC's fate are the same in both cases: how much computation and communication overhead the protocol adds versus the plaintext baseline, how much accuracy is lost to approximation, whether a credible set of mutually non-colluding parties exists, and whether trusted hardware (a TEE, treated in this knowledge base as the practical route to confidential cloud computing) solves the same problem more cheaply <sup class="ref"><a href="https://stateofthefuture.substack.com/p/e19-trusted-execution-environments" title="Understanding Confidential Computing (feat. Ilja Aizenberg, M Ventures)" rel="noopener">ref</a></sup>.
 
-## Connected ideas
+## Viability (unscored)
 
-<!-- dataview block stripped for public site -->
+## Drivers (unscored)
 
-## Sources
+## Novelty (unscored)
 
-<!-- dataview block stripped for public site -->
+## Diffusion (unscored)
 
-## Frontier (open questions)
+## Impact (unscored)
 
-- *To be added.*
+## Timing Unclear
+
+---
+*Assessment drafted 2026-08-31 from up to 13 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

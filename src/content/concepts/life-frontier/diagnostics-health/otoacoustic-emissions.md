@@ -106,9 +106,9 @@ not commercialise it, and the unanswered question has moved from "does the signa
 ## Frontier
 
 - ~~Does any published work demonstrate **cross-session, open-set** identity from a true
-  cochlear emission, as opposed to canal transfer function?~~ **Answered 28 Jul 2026: yes,
-  EarNet 2021, EER 0.581%/0.057% with open-set generalisation.** The live question is now why
-  no one commercialised it.
+ cochlear emission, as opposed to canal transfer function?~~ **Answered 28 Jul 2026: yes,
+ EarNet 2021, EER 0.581%/0.057% with open-set generalisation.** The live question is now why
+ no one commercialised it.
 - What averaging time is needed to pull an identity-bearing OAE out of the noise floor in a
-  moving subject, and does it fit a passive-authentication interaction budget?
+ moving subject, and does it fit a passive-authentication interaction budget?
 - How much of a reported "OAE identity" result is actually earbud fit and session artefact?

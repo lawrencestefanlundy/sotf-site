@@ -69,19 +69,19 @@ The revenue pool is the ~USD 1-1.8bn equipment market plus a modest service/part
 Net read: the broad RTP base grows with WFE (low-to-mid single digits, cyclical), but the laser/millisecond slice re-rates faster as thermal budget collapses, so the served market accelerates around the leading-edge tools while the furnace tail flattens.
 
 - **Drivers**
-  - 2nm GAA ramp is the core pull: dopant activation at gate-all-around mandates sub-millisecond cycling, and TSMC/Samsung are expanding excimer/laser-anneal capacity for it; leading-edge foundry/logic capex is forecast +5.5% in 2026 [8][10]. Veeco's LSA is Tool-of-Record at 2nm GAA, which compounds into volume reorders as the node ramps [4].
-  - Memory is the new adjacency: a tier-1 memory maker selected Veeco LSA for advanced DRAM/HBM evaluation (Dec 2025), with follow-on orders flagged for 2027+; HBM is growing ~30% CAGR to ~USD 100bn by 2030, opening a second laser-anneal demand pool beyond logic [6][9].
-  - SiC power for EVs adds a separate served market: thin-wafer (<=80um) SiC backside ohmic contacts can no longer use furnace anneal, forcing pulsed laser anneal; SiC power devices grow >30% CAGR toward ~USD 9bn by 2028 [11].
+ - 2nm GAA ramp is the core pull: dopant activation at gate-all-around mandates sub-millisecond cycling, and TSMC/Samsung are expanding excimer/laser-anneal capacity for it; leading-edge foundry/logic capex is forecast +5.5% in 2026 [8][10]. Veeco's LSA is Tool-of-Record at 2nm GAA, which compounds into volume reorders as the node ramps [4].
+ - Memory is the new adjacency: a tier-1 memory maker selected Veeco LSA for advanced DRAM/HBM evaluation (Dec 2025), with follow-on orders flagged for 2027+; HBM is growing ~30% CAGR to ~USD 100bn by 2030, opening a second laser-anneal demand pool beyond logic [6][9].
+ - SiC power for EVs adds a separate served market: thin-wafer (<=80um) SiC backside ohmic contacts can no longer use furnace anneal, forcing pulsed laser anneal; SiC power devices grow >30% CAGR toward ~USD 9bn by 2028 [11].
 
 - **Constraints**
-  - Cyclicality and capex concentration: this is ~2-3% of WFE (USD ~135bn in 2026, +9%), so a downcycle or a few delayed fab decisions swing the small unit count hard [8].
-  - China exposure unwinds: China falls to ~31% of WFE in 2026 from 36% in 2024 as export controls bite and domestic tools substitute; the lamp-RTP installed base most exposed to mature-node China is the softest part of the pool [8].
-  - Incumbent + qualification lock-in caps new entrants: recipes are co-developed and node-certified, so value stays with AMAT/Veeco/SCREEN/TEL and there is no commoditisation upside for a challenger [4].
+ - Cyclicality and capex concentration: this is ~2-3% of WFE (USD ~135bn in 2026, +9%), so a downcycle or a few delayed fab decisions swing the small unit count hard [8].
+ - China exposure unwinds: China falls to ~31% of WFE in 2026 from 36% in 2024 as export controls bite and domestic tools substitute; the lamp-RTP installed base most exposed to mature-node China is the softest part of the pool [8].
+ - Incumbent + qualification lock-in caps new entrants: recipes are co-developed and node-certified, so value stays with AMAT/Veeco/SCREEN/TEL and there is no commoditisation upside for a challenger [4].
 
 - **Trends & inflections to watch**
-  - Implant-anneal consolidation: the Axcelis-Veeco merger (stockholders approved Feb 2026) is expected to close H2 2026 pending China SAMR clearance. Tripwire: a confirmed close announcement in 2026 forms the 4th-largest US WFE supplier and bundles implant+anneal pricing [12].
-  - Memory crossover from eval to HVM. Tripwire: a Veeco DRAM/HBM follow-on production order booked in 2027 would confirm the second demand pool is real, not just an R&D placement [9].
-  - Furnace-to-laser mix shift as budgets fall. Tripwire: laser-anneal sustaining ~10% CAGR vs ~7-8% for broad RTP through 2027 would confirm the leading-edge slice is doing the work [7][8].
+ - Implant-anneal consolidation: the Axcelis-Veeco merger (stockholders approved Feb 2026) is expected to close H2 2026 pending China SAMR clearance. Tripwire: a confirmed close announcement in 2026 forms the 4th-largest US WFE supplier and bundles implant+anneal pricing [12].
+ - Memory crossover from eval to HVM. Tripwire: a Veeco DRAM/HBM follow-on production order booked in 2027 would confirm the second demand pool is real, not just an R&D placement [9].
+ - Furnace-to-laser mix shift as budgets fall. Tripwire: laser-anneal sustaining ~10% CAGR vs ~7-8% for broad RTP through 2027 would confirm the leading-edge slice is doing the work [7][8].
 
 ## Connections
 [Semiconductor Materials & Equipment](/manufacturing/equipment-processes/semiconductor-materials-equipment/)

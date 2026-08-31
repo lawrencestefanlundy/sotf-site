@@ -17,17 +17,6 @@ related_concepts:
 - material-class-displacement
 - qualification-path-risk
 sources: []
-frontier:
-- Which materials become more relevant in space (CVD diamond, BTO, graphene films)?
-- Foundry options for space-qualified processes (GF SkyWater rad-hard?)
-- Cost-down curve — when does space silicon become affordable for non-defence?
-last_updated: '2026-05-04'
-tags:
-- concept
-- framework
-- research
-descendants: []
-last_reorg_date: '2026-05-14'
 mention_count: 3
 sources_7d: 0
 sources_30d: 0

@@ -94,15 +94,15 @@ The supplied sources do not describe device-level physics. They treat compute at
 
 ## Competitive landscape
 
-The sources do not support a technical comparison between compute architectures. What they do show is that compute is being underwritten alongside electricity generation and delivery as parts of the same investment category, and that public-market and private exposure to compute infrastructure can diverge sharply in a stress event: in the July 2026 episode the public equities book was sold while a private AI-lab stake was carved out and retained situational awareness lp case study. Any architecture-level ranking (accelerator families, interconnect topologies, memory tiers) would require sources not present here.
+The sources do not support a technical comparison between compute architectures. What they do show is that compute is being underwritten alongside electricity generation and delivery as parts of the same investment category, and that public-market and private exposure to compute infrastructure can diverge sharply in a stress event: in the July 2026 episode the public equities book was sold while a private AI-lab stake was carved out and retained. Any architecture-level ranking (accelerator families, interconnect topologies, memory tiers) would require sources not present here.
 
 ## Evidence base
 
-- A fund with concentrated AI-infrastructure exposure launched in September 2024 with roughly $225M and reached $20B+ by June 2026, reporting >1,000% lifetime net return situational awareness lp case study.
-- The same vehicle reported +439% for H1 2026 in a 24 July 2026 investor letter situational awareness lp case study.
-- On 30 July 2026 it sold its public equities book to Citadel at a steep discount after a July 2026 AI-infrastructure rout triggered margin calls situational awareness lp case study.
-- The private stake in an AI lab was carved out of that sale and retained, indicating differing treatment of liquid and illiquid compute exposure situational awareness lp case study.
-- The drawdown size, total borrowing, and the discount paid are not disclosed; widely circulated figures for AUM, leverage and sale price are flagged as unverified situational awareness lp case study.
+- A fund with concentrated AI-infrastructure exposure launched in September 2024 with roughly $225M and reached $20B+ by June 2026, reporting >1,000% lifetime net return.
+- The same vehicle reported +439% for H1 2026 in a 24 July 2026 investor letter.
+- On 30 July 2026 it sold its public equities book to Citadel at a steep discount after a July 2026 AI-infrastructure rout triggered margin calls.
+- The private stake in an AI lab was carved out of that sale and retained, indicating differing treatment of liquid and illiquid compute exposure.
+- The drawdown size, total borrowing, and the discount paid are not disclosed; widely circulated figures for AUM, leverage and sale price are flagged as unverified.
 
 ## Frontier (open questions)
 

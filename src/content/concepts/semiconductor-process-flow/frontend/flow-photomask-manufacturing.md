@@ -98,19 +98,19 @@ European / seed angle: the leading-edge writer maker IMS Nanofabrication is Aust
 Net read: the served pool (mask-shop tools plus EUV blanks and pellicles) grows mid-teens at the EUV edge while the broad merchant mask market plods at high single digits; the upside is concentrated in the consumable annuity and a one-off High-NA refresh, the downside in a thin two-supplier blank chain and export-control demand loss.
 
 - **Drivers**
-  - EUV layers per chip rise from ~14-18 at 5nm to 25-30+ at 2nm, multiplying blank and pellicle consumption per wafer-out, and AI/HPC pulls 3nm/2nm into high-volume manufacturing where almost every advanced part uses EUV [11].
-  - High-NA brings a new high-value reticle class: 0.55 NA anamorphic optics need larger 6x10.5" half-field reticles versus 6x6", a fresh blank/pellicle spec, and a refresh cycle rather than a like-for-like swap [12][13].
-  - 93% of mask professionals expect multi-beam writer purchases to rise over the next three years, driven by curvilinear/ILT masks whose write time is fixed regardless of shape complexity [14].
-  - Recurring annuity: EUV blanks ~$835M in 2025 toward ~$1.94B by 2032 (~13% CAGR), EUV pellicles ~$558M (2024) to ~$1.6B (2030, ~14%) [15][5].
+ - EUV layers per chip rise from ~14-18 at 5nm to 25-30+ at 2nm, multiplying blank and pellicle consumption per wafer-out, and AI/HPC pulls 3nm/2nm into high-volume manufacturing where almost every advanced part uses EUV [11].
+ - High-NA brings a new high-value reticle class: 0.55 NA anamorphic optics need larger 6x10.5" half-field reticles versus 6x6", a fresh blank/pellicle spec, and a refresh cycle rather than a like-for-like swap [12][13].
+ - 93% of mask professionals expect multi-beam writer purchases to rise over the next three years, driven by curvilinear/ILT masks whose write time is fixed regardless of shape complexity [14].
+ - Recurring annuity: EUV blanks ~$835M in 2025 toward ~$1.94B by 2032 (~13% CAGR), EUV pellicles ~$558M (2024) to ~$1.6B (2030, ~14%) [15][5].
 - **Constraints**
-  - Two-supplier blank duopoly (AGC, Hoya) with defect densities above ~5/cm2 forcing scrap of up to 25% of EUV blanks at $50-100k each, capping throughput and inflating fab ramp cost [15].
-  - Substrate chokepoint upstream: Shin-Etsu and Tosoh control 80%+ of ultra-low-expansion quartz, and Shin-Etsu's $545M Gunma capacity does not arrive until 2026 [15].
-  - Export controls cut China off from EUV blanks, pellicles and Lasertec actinic inspection, removing the fastest-growing fab-build demand pool from the single-source vendors [15].
-  - Curvilinear/ILT data-volume explosion strains mask data prep and inspection; full-chip curvilinear EUV write/inspect remains slow enough to gate cost and turnaround [14].
+ - Two-supplier blank duopoly (AGC, Hoya) with defect densities above ~5/cm2 forcing scrap of up to 25% of EUV blanks at $50-100k each, capping throughput and inflating fab ramp cost [15].
+ - Substrate chokepoint upstream: Shin-Etsu and Tosoh control 80%+ of ultra-low-expansion quartz, and Shin-Etsu's $545M Gunma capacity does not arrive until 2026 [15].
+ - Export controls cut China off from EUV blanks, pellicles and Lasertec actinic inspection, removing the fastest-growing fab-build demand pool from the single-source vendors [15].
+ - Curvilinear/ILT data-volume explosion strains mask data prep and inspection; full-chip curvilinear EUV write/inspect remains slow enough to gate cost and turnaround [14].
 - **Trends & inflections to watch**
-  - High-NA half-field reticles at Intel 14A and Samsung SF1.4. Tripwire: first High-NA high-volume tape-out (Intel/Samsung 2027-28) confirms the new blank/pellicle spec ramps; TSMC at A14 (~2028) is the volume switch [12][13].
-  - CNT pellicles for 600W+ EUV sources (imec/Mitsui), transmitting >94% and surviving >1000W. Tripwire: first fab HVM qualification of a CNT pellicle (road-mapped 2025-26) re-rates the pellicle annuity upward [11].
-  - Curvilinear ILT going mainstream at 2nm logic. Tripwire: a step-change in multi-beam writer bookings (IMS/NuFlare) as ILT becomes standard, lifting the writer pool above its ~12% trend [14].
+ - High-NA half-field reticles at Intel 14A and Samsung SF1.4. Tripwire: first High-NA high-volume tape-out (Intel/Samsung 2027-28) confirms the new blank/pellicle spec ramps; TSMC at A14 (~2028) is the volume switch [12][13].
+ - CNT pellicles for 600W+ EUV sources (imec/Mitsui), transmitting >94% and surviving >1000W. Tripwire: first fab HVM qualification of a CNT pellicle (road-mapped 2025-26) re-rates the pellicle annuity upward [11].
+ - Curvilinear ILT going mainstream at 2nm logic. Tripwire: a step-change in multi-beam writer bookings (IMS/NuFlare) as ILT becomes standard, lifting the writer pool above its ~12% trend [14].
 
 ## Connections
 

@@ -90,7 +90,7 @@ The meta-thesis over the whole map is **Thermal Stack Arms Race**: **the stack s
 
 Heat flux at the hotspot now exceeds ~1 kW/cm²; package TDP is passing 1 kW and heading to 1.8–2.3 kW (Nvidia Rubin, CES Jan 2026). Each layer below is where some of that heat is conducted, acquired, transported, or rejected.
 
-### L0 — In-die / embedded cooling  *(the frontier that bypasses the TIM problem)*
+### L0 — In-die / embedded cooling *(the frontier that bypasses the TIM problem)*
 - **Role:** remove heat *inside* the silicon — microchannels etched into the die or interposer backside, on-die hotspot management. If heat never has to cross a die-attach interface, layers L1–L3 stop binding.
 - **Binding question:** does the **foundry/OSAT absorb** the in-silicon primitive, or does a specialist hold a manufacturable one?
 - **Approaches / who:** **Corintis** (EPFL; in-silicon microfluidics + Glacierware design software; Microsoft co-dev, ~3× heat removal / 65% lower peak temp, vendor-demoed); **TSMC IMC-Si** (microchannels fusion-bonded into CoWoS, >2.6 kW TDP, ~2027 commercialisation — *the* competitive fact); **Jetcool** SmartSilicon (on-die); Maxwell Labs (laser cooling, pre-product); imec/IBM-Zurich legacy; Adeia IP. See **In Chip Microfluidic Cooling**.
@@ -142,4 +142,4 @@ See frontmatter `frontier:` block.
 - **Ai Power Thermal Binding** / **Datacentre Thermal Power Market** — demand spine + buy-side market
 - **Cnt Tim Billion Revenue** / **Liquid Metal Tim** / **Sintered Silver Die Attach** — the L1 material slices
 - **In Chip Microfluidic Cooling** (L0) / **Dielectric Coolant Pfas Transition** (L5) — the thin-layer build-outs
-- thermal stack layer landscape — the per-layer ground-truth source note
+- — the per-layer ground-truth source note

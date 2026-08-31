@@ -73,4 +73,4 @@ Note the lineage concentration: **Edinburgh (Robert Henderson's lab) and EPFL (C
 
 Why have the incumbents not fully internalised in-pixel-compute SPAD, and can they? Canon's weighted-photon-counting prototype suggests they are moving on exactly this ground. This is the single question that decides whether **Image Sensor Silicon** is a theme or a thesis, and it remains unresolved.
 
-*Full scan, sources and source-quality flags: spad single photon market scan.*
+*Full scan, sources and source-quality flags:.*

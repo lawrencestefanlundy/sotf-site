@@ -46,21 +46,21 @@ neighbors: []
 ---
 ## Physics / mechanism
 
-"Compute architecture" here denotes the digital processing substrate that generates, sequences and updates control signals in a physical experiment or machine, as distinct from the analog signal chain that delivers those signals to the device under control. In the one supplied source, the term is used to partition a control instrument into two co-designed halves: an analog conversion path and a programmable digital controller that drives it low cost ultra low noise dac system on module for scalable i.
+"Compute architecture" here denotes the digital processing substrate that generates, sequences and updates control signals in a physical experiment or machine, as distinct from the analog signal chain that delivers those signals to the device under control. In the one supplied source, the term is used to partition a control instrument into two co-designed halves: an analog conversion path and a programmable digital controller that drives it.
 
-The design parameters stated for the module are bandwidth, noise characteristics and control flexibility, with a modular and scalable DC electrode control platform as the target low cost ultra low noise dac system on module for scalable i. Two non-performance parameters are given equal weight: supply-chain management and cost effectiveness at scale low cost ultra low noise dac system on module for scalable i. This reflects a common constraint in trapped-ion systems, where the number of independently controlled DC electrodes grows with trap complexity, so per-channel cost and component availability bound how far a control architecture can scale.
+The design parameters stated for the module are bandwidth, noise characteristics and control flexibility, with a modular and scalable DC electrode control platform as the target. Two non-performance parameters are given equal weight: supply-chain management and cost effectiveness at scale. This reflects a common constraint in trapped-ion systems, where the number of independently controlled DC electrodes grows with trap complexity, so per-channel cost and component availability bound how far a control architecture can scale.
 
 ## Competitive landscape
 
-The single available source does not compare alternative compute architectures. It sits in the class of open-hardware, FPGA-based control electronics for quantum experiments, where the choice is between commercial instrumentation and modular in-house designs; the paper's stated positioning is cost effectiveness and supply-chain robustness for scaling rather than peak specification low cost ultra low noise dac system on module for scalable i. No performance figures against competing platforms are supplied.
+The single available source does not compare alternative compute architectures. It sits in the class of open-hardware, FPGA-based control electronics for quantum experiments, where the choice is between commercial instrumentation and modular in-house designs; the paper's stated positioning is cost effectiveness and supply-chain robustness for scaling rather than peak specification. No performance figures against competing platforms are supplied.
 
 ## Evidence base
 
-- A design for an open-hardware DAC system-on-module for low-noise ion-trap electrode control was published on 5 May 2026 low cost ultra low noise dac system on module for scalable i.
-- The analog signal path uses the Texas Instruments DAC81416; the compute architecture uses an AMD Xilinx Spartan-7 FPGA low cost ultra low noise dac system on module for scalable i.
-- Design specifications were set for bandwidth, noise characteristics and control flexibility in a modular, scalable DC electrode control platform low cost ultra low noise dac system on module for scalable i.
-- Supply-chain management and cost effectiveness for scaling were treated as priority design constraints low cost ultra low noise dac system on module for scalable i.
-- Characterisation of a prototype device is reported as suggesting suitability for ion-trap physics experiments and quantum computing applications low cost ultra low noise dac system on module for scalable i.
+- A design for an open-hardware DAC system-on-module for low-noise ion-trap electrode control was published on 5 May 2026.
+- The analog signal path uses the Texas Instruments DAC81416; the compute architecture uses an AMD Xilinx Spartan-7 FPGA.
+- Design specifications were set for bandwidth, noise characteristics and control flexibility in a modular, scalable DC electrode control platform.
+- Supply-chain management and cost effectiveness for scaling were treated as priority design constraints.
+- Characterisation of a prototype device is reported as suggesting suitability for ion-trap physics experiments and quantum computing applications.
 
 ## Frontier (open questions)
 

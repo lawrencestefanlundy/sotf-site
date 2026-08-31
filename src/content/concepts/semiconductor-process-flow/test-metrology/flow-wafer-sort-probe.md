@@ -84,16 +84,16 @@ The testers earn the richest margins (duopoly pricing power, ~50-60% gross); pro
 ## Market drivers, constraints & trends
 Net read: this is one of the better-positioned steps in the flow, because test intensity is rising structurally faster than wafer volume, so the served pool grows even in a flat wafer-start year.
 - **Drivers**
-  - Test time per unit has jumped roughly 20-40x at the leading edge: a Blackwell-class accelerator can sit on the tester for over 20 minutes versus 30-60 seconds for a mobile SoC, and cost-of-test as a share of chip ASP has roughly tripled from under 2% toward 5-7% on the most complex AI packages [10].
-  - Advantest puts the SoC-tester market at USD 6.9bn in CY25 rising to USD 8.7-9.5bn in CY26 and is ramping capacity from 7,500 to 10,000 systems a year to keep pace with Blackwell Ultra, MI400 and HBM4 [11]; Advantest's own SoC-tester share jumped from ~56% to ~66% in CY25 by sitting inside the AI-accelerator supply chain, evidence that test capture is concentrating where the AI content is [16].
-  - HBM4 raises probe counts and cuts allowable pitch versus HBM3E, and chiplet/2.5D assembly means one bad die can scrap a USD 30k package, both of which pull probe-card content per wafer up [12].
+ - Test time per unit has jumped roughly 20-40x at the leading edge: a Blackwell-class accelerator can sit on the tester for over 20 minutes versus 30-60 seconds for a mobile SoC, and cost-of-test as a share of chip ASP has roughly tripled from under 2% toward 5-7% on the most complex AI packages [10].
+ - Advantest puts the SoC-tester market at USD 6.9bn in CY25 rising to USD 8.7-9.5bn in CY26 and is ramping capacity from 7,500 to 10,000 systems a year to keep pace with Blackwell Ultra, MI400 and HBM4 [11]; Advantest's own SoC-tester share jumped from ~56% to ~66% in CY25 by sitting inside the AI-accelerator supply chain, evidence that test capture is concentrating where the AI content is [16].
+ - HBM4 raises probe counts and cuts allowable pitch versus HBM3E, and chiplet/2.5D assembly means one bad die can scrap a USD 30k package, both of which pull probe-card content per wafer up [12].
 - **Constraints**
-  - The end-mix is still cyclical: PC and smartphone test demand is soft, which is why FormFactor is steering toward memory, automotive-power and photonics, targeting non-foundry/logic above 30% of sales by end-2026 [13].
-  - China export controls and counter-cyclical domestic equipment build-out (local share 25%->35% 2024-2025) risk a sealed-off China test market served by domestic probers/cards rather than the incumbents [14].
-  - Supply is consolidating: the Jan 2025 Advantest-FormFactor-Technoprobe partnership tightens the probe-card oligopoly and raises qualification lock-in [13].
+ - The end-mix is still cyclical: PC and smartphone test demand is soft, which is why FormFactor is steering toward memory, automotive-power and photonics, targeting non-foundry/logic above 30% of sales by end-2026 [13].
+ - China export controls and counter-cyclical domestic equipment build-out (local share 25%->35% 2024-2025) risk a sealed-off China test market served by domestic probers/cards rather than the incumbents [14].
+ - Supply is consolidating: the Jan 2025 Advantest-FormFactor-Technoprobe partnership tightens the probe-card oligopoly and raises qualification lock-in [13].
 - **Trends & inflections to watch**
-  - Optical wafer test for silicon photonics / co-packaged optics is the new content layer: FormFactor launched the TRITON SiPh test system at OFC 2025 (co-developed with Advantest + TEL) and acquired Keystone Photonics in Dec 2025. Tripwire already tripping: in April 2026 foundries (TSMC, Tower) confirmed wafer-level optical test is now a mandatory gating step for CPO-destined silicon, which turns optical sort from optional R&D into a required production step and opens a fresh probe-card/ATE category [15][17].
-  - HBM stack height climbing 12->16 layers with HBM4. Tripwire: HBM4 entering volume production at SK hynix/Micron in 2026 lifting probe-card DRAM revenue to fresh records [12].
+ - Optical wafer test for silicon photonics / co-packaged optics is the new content layer: FormFactor launched the TRITON SiPh test system at OFC 2025 (co-developed with Advantest + TEL) and acquired Keystone Photonics in Dec 2025. Tripwire already tripping: in April 2026 foundries (TSMC, Tower) confirmed wafer-level optical test is now a mandatory gating step for CPO-destined silicon, which turns optical sort from optional R&D into a required production step and opens a fresh probe-card/ATE category [15][17].
+ - HBM stack height climbing 12->16 layers with HBM4. Tripwire: HBM4 entering volume production at SK hynix/Micron in 2026 lifting probe-card DRAM revenue to fresh records [12].
 
 ## Connections
 - [Wafer Probe Cards & Test Interconnect](/manufacturing/equipment-processes/probe-cards/) - the recurring consumable that captures much of the value at this step.

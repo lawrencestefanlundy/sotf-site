@@ -445,6 +445,34 @@ def _canonical_names() -> dict[str, str]:
     return out
 
 
+
+_source_meta_cache: dict | None = None
+
+
+def _source_meta() -> dict:
+    """slug -> (title, url) for PUBLIC source pages, so an inline citation can
+    become a real reference instead of a de-slugged prose fragment."""
+    global _source_meta_cache
+    if _source_meta_cache is not None:
+        return _source_meta_cache
+    out = {}
+    for kind in PUBLIC_SOURCE_KINDS:
+        d = KB / "sources" / kind
+        if not d.exists():
+            continue
+        for f in d.glob("*.md"):
+            try:
+                fm, _ = parse_fm(f.read_text(encoding="utf-8", errors="ignore"))
+            except Exception:
+                continue
+            if not fm:
+                continue
+            out[f.stem] = (str(fm.get("title") or f.stem),
+                           str(fm.get("url") or "").strip())
+    _source_meta_cache = out
+    return out
+
+
 def strip_private_wikilinks(body: str) -> str:
     """Resolve wikilinks:
        - Public concept slug → markdown link `[Canonical Name](/macro/meso/slug/)`
@@ -472,12 +500,26 @@ def strip_private_wikilinks(body: str) -> str:
         # with the date prefix dropped and no emphasis.
         m_date = re.match(r"^\d{4}-\d{2}-\d{2}-(.+)$", slug)
         if m_date and not display:
-            return m_date.group(1).replace("-", " ")
+            # A source citation. Rendering it as de-slugged prose produced
+            # unreadable run-ons ("...the post silicon semiconductor era a
+            # review of physics synth"), so public sources become a superscript
+            # reference link and everything else is dropped outright.
+            title, url = _source_meta().get(slug, ("", ""))
+            if url.startswith("http"):
+                safe = title.replace('"', "'")[:120]
+                return (f'<sup class="ref"><a href="{url}" title="{safe}" '
+                        f'rel="noopener">ref</a></sup>')
+            return ""
         # Other private entities (companies, ideas, people) — plain bold label.
         label = display or slug.replace("-", " ").title()
         return f"**{label}**"
 
     body = re.sub(r"\[\[([^\]]+)\]\]", repl, body)
+    # A dropped citation (source with no URL) leaves an orphan space before the
+    # punctuation it preceded: "...the thermal ceiling ." Tidy those up.
+    body = re.sub(r"[ \t]+([.,;:!?\)])", r"\1", body)
+    body = re.sub(r"\(\s+", "(", body)
+    body = re.sub(r"[ \t]{2,}", " ", body)
     # Malformed half-wikilinks ("[[slug-]" with a dropped bracket — LLM-synthesised
     # bodies occasionally produce these) survive the pattern above and render as
     # literal [[ debris. Collapse them to plain de-dated text.

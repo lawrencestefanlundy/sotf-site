@@ -7,7 +7,7 @@ phase: design
 related_concepts:
 - eda-design-tools
 created: 2026-06-20
-last_updated: 2026-06-20
+last_updated: '2026-08-31'
 tags:
 - concept
 - process-flow
@@ -19,12 +19,30 @@ sources:
 - '[[2023-08-31-e13-chiplets-how-chip-lego-is-driving]]'
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
-mention_count: 125
+mention_count: 129
 parent_concepts:
 - flow-rtl-design
-sources_7d: 0
-sources_30d: 22
+scorecard:
+  viability: 3
+  drivers: 4
+  novelty: 4
+  diffusion: 2
+  impact: 4
+  timing_band: Soon (2-5yr)
+  verdict: Underrated
+scorecard_status: draft
+frontier:
+- Do the compact thermal and warpage models used by ATMPlace correlate with measured package temperature and warpage on fabricated 2.5D parts, and within what error band?
+- How do the reported 146% and 52% wirelength gains over TAP 2.5D and TACPlace compare against a commercial production placer rather than academic baselines?
+- Does the approximately 10x runtime advantage hold beyond 'dozens of chiplets', and where does the analytical formulation break down as element count grows?
+- Can 420 nm 3-sigma micro-transfer-printing placement accuracy and greater than 95% yield be held across high-volume production lots, and what is the accuracy budget for the resulting photonic device performance?
+sources_7d: 2
+sources_30d: 24
 recent_mentions:
+- slug: 2026-08-20-callosum-100m-seed-announcement
+  title: Callosum announces $100M seed led by Atomico (round coverage + Companies House filings)
+  date: '2026-08-20'
+  kind: web
 - slug: 2026-06-02-agentic-runtime-silicon-necessity
   title: Deep-research dossier — does the stateful agent runtime / control-plane layer need a novel silicon primitive?
   date: '2026-06-02'
@@ -53,92 +71,97 @@ recent_mentions:
   title: 'UK Opportunity in AI: Compound Semiconductors'
   date: '2025-09-10'
   kind: substack
-- slug: 2025-08-12-ai-and-junior-white-collar-automation
-  title: 'AI and Junior White Collar Automation: Update after EIG’s New Report'
-  date: '2025-08-12'
-  kind: substack
 neighbors:
 - slug: eda-design-tools
   name: EDA & Design Tools
   path: /manufacturing/foundry-design/eda-design-tools/
   macro: manufacturing
 ---
-> Step 8 of 56 in the semiconductor flow (Design). Prev: [Floorplanning & power planning (process step)](/semiconductor-process-flow/design/flow-floorplanning-power/) · Next: [Clock tree synthesis (process step)](/semiconductor-process-flow/design/flow-clock-tree-synthesis/)
+**Placement is the design step that fixes where circuit elements physically sit before routing, and it is turning from a wirelength-minimisation problem into a multi-physics optimisation that decides thermal and warpage reliability in 2.5D chiplet packages and routing overhead in quantum processors.**
 
-## What this step does
-Placement is the stage of physical implementation (place-and-route, P&R) where the place-and-route tool assigns a physical location on the die to every standard cell in the synthesised netlist, inside the floorplan handed over from the previous step. It is an optimisation problem with hundreds of millions of cells competing on timing, wirelength, congestion and power, so the result sets how routable the chip is and how much of its timing budget survives. Done badly, no amount of downstream routing can recover the design. The unit sub-processes inside it:
-- Global placement (spread cells coarsely to minimise total wirelength and balance density)
-- Legalisation (snap cells onto legal rows/sites, remove overlaps)
-- Detailed placement (local cell swaps and shifts to recover timing and reduce congestion)
-- Timing-driven and congestion-driven optimisation (cell sizing, buffering, in-place restructuring)
-- Placement of physical-only cells (tap cells, decap, filler) and handoff to clock-tree synthesis
+## Summary
 
-## Where it sits and why it matters
-Placement sits in the middle of the digital back-end, between floorplanning and clock-tree synthesis, and it is the first point where the abstract netlist becomes a real geometry. The same tool that does placement does routing, signoff timing and physical verification, so the customer is buying a flow, not a feature. That sequential dependency is the lock-in: change the placement engine and you re-run route, signoff and verification, so customers almost never switch mid-design. Placement is also the part of the flow where AI has bitten hardest, because it is a huge combinatorial search that reinforcement learning can attack directly.
+Placement is the stage of the physical design flow in which the locations of circuit elements are chosen on a die, an interposer or a package substrate. Everything downstream depends on it: routing feasibility, total wirelength, timing closure, power, and, increasingly, thermal and mechanical behaviour. Classical placers minimise a wirelength proxy under density constraints, usually by an analytical formulation that turns the discrete assignment problem into a differentiable optimisation solved at scale.
 
-## Equipment market
-There is no physical "equipment" here; the value is software licences and compute. The relevant pool is the place-and-route / physical implementation slice of EDA. Total EDA software was about $17.2bn in 2024, growing ~10% CAGR to the early 2030s [1][2]. IC physical design and verification (the bucket P&R sits in) is the single largest component, roughly 38% of EDA spend in 2025 [3], which puts the physical-implementation pool very roughly in the $5-6bn/yr range (estimate, derived from [1][3], not a directly reported figure). P&R is the one EDA category that has seen real share movement in a decade [4].
+The pressure on that formulation comes from heterogeneous integration. In 2.5D integrated circuits, multiple chiplets are packed tightly on an interposer to enable high-speed interconnects, and demand from AI and automotive applications is accelerating adoption; as chiplet counts grow, tools limited by poor scalability and reliance on slow simulations must move beyond wirelength to address thermal and mechanical reliability. ATMPlace is presented as the first analytical 2.5D placer that jointly optimises wirelength, peak temperature and operational warpage using physics-based compact models, producing Pareto-optimal placements for systems with dozens of chiplets. The parameters that decide the step are therefore: how many objectives can be folded into a differentiable cost function, how fast the physics surrogate is compared with full simulation, and how well the solver scales with element count.
 
-| Vendor | HQ | Est. share of P&R / phys. impl. | Notable |
-|--------|-----|-------------------------------|---------|
-| Synopsys | USA | ~45-50% (rough est.) | Fusion Compiler, IC Compiler II (ICC2); DSO.ai layered on top |
-| Cadence | USA | ~40-45% (rough est.) | Innovus; gained 10-15pp on Synopsys 2015-2020 then stabilised [4]; Cerebrus / Cerebrus AI Studio |
-| Siemens EDA | Germany/USA | low single digits in P&R | Aprisa P&R; ~13% of total EDA but weak in digital impl. [2] |
+Placement also exists as a physical manufacturing tolerance, not just a design abstraction. Micro-transfer printing of thin-film lithium niobate onto silicon photonics across four full 200 mm wafers achieved 3-sigma placement accuracy down to 420 nm with printing yield above 95%, insertion loss below 2 dB over 600 phase modulators, and a half-wave voltage of 4 V. Here placement accuracy is the yield-limiting parameter of a heterogeneous integration process rather than an optimisation objective.
 
-Concentration note: this is a duopoly. Synopsys (~31% of all EDA) and Cadence (~30%) together hold over 60% of total EDA and an even higher combined share of advanced-node P&R, with Siemens a distant third [2][5]. At 7nm and below, placement is effectively a two-horse race between Synopsys and Cadence. Per-segment P&R shares above are estimates; vendors do not break out P&R revenue separately.
+The same word covers a third family of problems in the supplied sources: where to put qubits, links, magic-state factories, antennas or sensors. Inter-chip coupler link placement in chiplet quantum systems, hub-trap placement in neutral-atom compilers, magic-state cultivation placement in lattice surgery, and antenna placement in movable-antenna radio systems are all combinatorial-plus-continuous siting problems attacked with the same toolkit of graph methods, reinforcement learning and convex relaxations. That convergence is the reason this page treats placement as a general design primitive rather than a single EDA tool feature.
 
-## Materials & consumables
-No physical consumables. The recurring spend is the software itself: P&R sells as time-based licences (3-year terms are typical) plus the compute and cloud cycles AI placement burns. The "consumable" analogue is licence renewals and AI-tool token/compute consumption. SemiAnalysis notes 95%+ customer retention combined with 3-7% annual contractual escalators in the digital flow, and that AI-enhanced renewals (DSO.ai-style) carry roughly a 20% revenue uplift over the baseline contract [4]. The required process design kit (PDK) and standard-cell library come from the foundry, not the EDA vendor, but they are inputs to placement rather than a sold consumable.
+## Viability (3/5)
 
-## Volumes, revenue, profitability
-"Units" are tapeouts and design starts, not wafers; the AI-placement adoption proxy is commercial tapeouts. Synopsys DSO.ai passed 100 commercial tapeouts (first in Aug 2021) [6]; Cadence Cerebrus passed 1,000+ production designs by early 2025 [4][7]. The revenue pool is the ~$5-6bn physical-implementation slice (estimate) inside the $17bn EDA market [1][3]. Margins are why this is a great business: company-level FY2024 gross margins are ~84% at Synopsys and ~86% at Cadence, with non-GAAP operating margins of ~37% (Synopsys) and ~42.5% (Cadence) [8][9][10][11]. The margin is earned by the two EDA vendors; the chip designer pays the licence and captures the design value downstream.
+The strongest direct evidence is ATMPlace, which reports 146% and 52% geometric mean wirelength improvement over TAP 2.5D and TACPlace respectively, with 3 to 13% lower temperature and 5 to 27% less warpage, approximately 10 times faster. Those are large margins, but they are measured against prior academic placers using physics-based compact models, not against a commercial flow and not against measured hardware. Compact thermal and warpage models are the load-bearing assumption: if they mispredict, the Pareto front is decorative.
 
-## Competitive landscape & value capture
-The moat is the flow, not any single tool. Placement is locked in by sequential dependency (re-running it forces re-run of route + signoff), deep methodology embedding (scripts, constraints, reference flows), and tight coupling to foundry-certified reference flows at each node. AI placement has not broken the duopoly; if anything it has reinforced it, because both incumbents folded reinforcement learning into their own engines. Google's AlphaChip (Nature 2021, addendum 2024) showed RL could generate superhuman macro placement and is open-sourced, but it has been absorbed as a capability inside Synopsys DSO.ai and Cadence Cerebrus rather than spawning a viable standalone challenger [12][13]. There is no European or seed-stage player of consequence in P&R itself; the open-source RTL-to-GDS flow OpenROAD is real and improving but is not a commercial threat at advanced nodes. Seed-relevant adjacency exists only one layer out (AI optimisation wrappers, verification, analog/RF tooling), not in core placement.
+On the manufacturing side of placement the evidence is harder. Wafer-scale micro-transfer printing across four 200 mm wafers with 420 nm 3-sigma placement accuracy and greater than 95% printing yield is a demonstrated process result on real wafers with device-level performance attached. Placement as a physical tolerance is therefore further along than placement as a multi-objective optimisation. A score of 3 reflects credible but simulation-bound evidence for the algorithmic claim.
 
-## Market drivers, constraints & trends
-Net read: the P&R/physical-implementation slice grows faster than the broad EDA market this cycle, because the two forces lifting it (more design starts and harder-to-place geometries) compound, but it carries real China-policy tail risk. Total EDA is now put at ~$19-21bn (2025-26) on ~8% CAGR to ~$31bn by 2031, and the AI-EDA layer that wraps placement grows far faster, ~24% CAGR ($4.3bn 2026 to ~$15.9bn 2032) [14][15][16].
+**TLDR: Multi-physics analytical placement works in benchmarks against academic baselines; nothing in the sources shows silicon validation.**
 
-- **Drivers**
-  - Custom-silicon explosion: custom ASIC AI-server shipments grow ~45% YoY in 2026 (nearly triple merchant-GPU growth), and every hyperscaler/Tier-2 accelerator is a new design start that re-runs placement on the same licensed flow [17][18].
-  - Geometry difficulty: GAA + backside power + multi-die push a ~10x rise in design-rule checks vs 7nm, so each placement job consumes more tool runtime, more AI optimisation cycles and higher-tier licences [14].
-  - AI-renewal uplift: RL/agentic placement layers (DSO.ai, Cerebrus) carry ~20% revenue uplift over baseline contracts on 95%+ retention, so the same customer base re-rates upward [4][16].
+## Drivers (4/5)
 
-- **Constraints**
-  - China export controls: a 29 May 2025 BIS directive briefly halted all EDA sales to China (Synopsys ~$990m/16%, Cadence ~$550m/12% of FY24 revenue), lifted again Jul 2025 but now a recurring policy switch on a tenth-plus of revenue [19][20].
-  - Duopoly capex intensity: both incumbents reinvest >30% of revenue in R&D to stay node-certified, so margin expansion is capped even as revenue compounds [15].
-  - Cyclicality and design-start sensitivity: the served market tracks tapeout/design-start volume, which softens with semiconductor capex cycles.
+Demand side: rising demand in AI and automotive applications is explicitly named as the force accelerating 2.5D IC adoption, with multiple chiplets tightly placed to enable high-speed interconnects and heterogeneous integration. The same AI and data-centre growth is cited as driving demand for photonic interconnects combining high speed with low energy, which is what makes wafer-scale heterogeneous placement processes worth industrialising. The demand signal is consistent across two independent source domains.
 
-- **Trends & inflections to watch**
-  - Agentic autonomy: Cadence pushed ChipStack to L5 and Synopsys shipped an L4 AgentEngineer flow in 2026; tripwire — either incumbent reporting a placement-to-signoff loop run with no human-in-the-loop on a production tapeout [21][22].
-  - Multi-die / 3D-IC placement: placement is extending to cross-die co-placement; tripwire — a foundry-certified 3D-IC reference flow citing AI co-placement at A16/N2 by end-2026 [14].
-  - Democratisation of design: Arm CSS-style platforms lowering the ASIC entry bar; tripwire — a Tier-2 cloud or enterprise taping out a first custom accelerator on a commodity AI-P&R flow [18].
+Supply side: the constraint is tooling. Traditional placement tools are described as limited by poor scalability and reliance on slow simulations as chiplet counts grow. Machine learning has already been integrated into agile chip design at logic synthesis, placement and routing, and LLM-driven chiplet design is being extended to 2.5D integration to save area overhead and development cost, though it currently suffers from flattened designs, high validation cost and imprecise parameter optimisation. So the supply of new placement methods is active but immature.
 
-## Connections
-[EDA & Design Tools](/manufacturing/foundry-design/eda-design-tools/)
+**TLDR: AI and automotive demand for chiplet integration is the pull; scalability limits of existing placers are the push.**
 
-- Owning idea: **Eda Chip Design** (EDA design-tool layer).
+## Novelty (4/5)
 
-## Sources
-1. Aspirenis / market sizing summary — EDA $17.2bn (2024), ~10.5% CAGR to 2032. https://www.persistencemarketresearch.com/market-research/electronic-design-automation-eda-market.asp
-2. TrendForce via Silicon UK — Synopsys ~31%, Cadence ~30%, Siemens ~13% EDA share (2024). https://www.silicon.co.uk/e-regulation/china-chip-design-620616
-3. EDA market by component — IC physical design & verification ~38% of EDA (2025). https://www.psmarketresearch.com/market-analysis/electronic-design-automation-market
-4. SemiAnalysis, EDA Market Primer — P&R is the only category with real share movement; retention 95%+, 3-7% escalators, ~20% AI renewal uplift; Cadence Cerebrus 1,000+ tapeouts; Synopsys/Cadence FY24 operating margins. https://newsletter.semianalysis.com/p/eda-market-primer
-5. Klover.ai — Synopsys EDA dominance analysis. https://www.klover.ai/synopsys-ai-strategy-analysis-of-dominance-in-tools-services-for-semiconductor-design-manufacturing/
-6. EE Times — AI-powered chip design mainstream; DSO.ai 100 commercial tapeouts. https://www.eetimes.com/ai-powered-chip-design-goes-mainstream/
-7. Cadence — Cerebrus AI Studio / Cerebrus Intelligent Chip Explorer (1,000+ production designs). https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/soc-implementation-and-floorplanning/cadence-cerebrus-ai-studio.html
-8. Synopsys FY2024 10-K — revenue $6.127bn, gross margin ~84.1%. https://www.sec.gov/Archives/edgar/data/0000883241/000088324124000024/snps-20241031.htm
-9. Synopsys Q4/FY2024 results press release — operating margin context. https://investor.synopsys.com/news/news-details/2024/Synopsys-Posts-Financial-Results-for-Fourth-Quarter-and-Fiscal-Year-2024/default.aspx
-10. Cadence FY2024 results — revenue $4.641bn, gross margin ~86%, non-GAAP operating margin 42.5%. https://www.gurufocus.com/news/2702619/cadence-design-systems-exceeds-q4-2024-expectations-with-124-eps-and-1356-billion-revenue
-11. Cadence FY2024 CFO commentary (8-K). https://www.sec.gov/Archives/edgar/data/0000813672/000081367225000016/cfocommentary2182025ex9902.htm
-12. Nature — A graph placement methodology for fast chip design (AlphaChip), 2021 + 2024 addendum. https://www.nature.com/articles/s41586-021-03544-w
-13. Google DeepMind — How AlphaChip transformed computer chip design (open-sourced, adopted by external chipmakers). https://deepmind.google/blog/how-alphachip-transformed-computer-chip-design/
-14. SemiEngineering — AI's growing impact on chip design & EDA; GAA + backside power + multi-die ~10x rise in DRCs vs 7nm; TSMC N2 HVM 2H 2025; Synopsys A16/N2P backside-routing certification. https://semiengineering.com/ai-growing-impact-on-chip-design-and-eda-tools/
-15. PS Market Research — EDA market sizing & forecast (~$19-21bn 2025-26, ~8% CAGR to ~$31bn 2031; >30% R&D reinvestment by incumbents). https://www.psmarketresearch.com/market-analysis/electronic-design-automation-market
-16. MarketsandMarkets — AI EDA market $4.27bn (2026) to $15.85bn (2032), ~24.4% CAGR. https://www.marketsandmarkets.com/Market-Reports/ai-eda-market-212473295.html
-17. Tom's Hardware — Custom AI ASIC state of play (May 2026); custom ASIC shipments +44.6% YoY 2026, ~27.8% of AI-server market. https://www.tomshardware.com/tech-industry/semiconductors/custom-ai-asics-examined-from-broadcom-to-mtia
-18. Arm Newsroom — How Arm CSS/CSA democratize custom AI silicon (chiplet platforms lowering ASIC entry bar). https://newsroom.arm.com/blog/how-arms-css-platform-democratizes-custom-ai-silicon
-19. TrendForce — China revenue at risk as US curbs hit EDA giants; 29 May 2025 BIS directive halting all EDA sales to China; Synopsys $989.5m/16%, Cadence $550m/12% of FY24 revenue. https://www.trendforce.com/news/2025/06/02/news-china-revenue-at-risk-as-u-s-curbs-slam-eda-giants-impact-on-synopsys-cadence-and-more/
-20. AInvest — EDA's rebound as US lifts EDA-to-China export restrictions (Jul 2025), revenue-recovery path for Synopsys/Cadence. https://www.ainvest.com/news/eda-rebound-synopsys-cadence-poised-growth-trade-tensions-ease-2507/
-21. Futurum Group — Cadence and Synopsys accelerate the agentic EDA race at Computex 2026 (Cadence ChipStack L5, Synopsys L4 AgentEngineer). https://futurumgroup.com/insights/cadence-and-synopsys-accelerate-agentic-eda-race-at-computex/
-22. Synopsys news — Outlines vision for engineering the future; L4 agentic design-and-verification workflow via AgentEngineer (11 Mar 2026). https://news.synopsys.com/2026-03-11-Synopsys-Outlines-Vision-for-Engineering-the-Future
+The comparison set is explicit. ATMPlace is claimed as the first analytical placer for 2.5D ICs to jointly optimise wirelength, peak temperature and operational warpage, and it is better than TAP 2.5D and TACPlace by 146% and 52% geometric mean wirelength respectively while simultaneously running about 10 times faster and delivering 3 to 13% lower temperature and 5 to 27% less warpage. Getting better wirelength, better thermals and better speed at the same time is the interesting part: it suggests the previous tools were paying a large price for using slow simulation in the loop rather than differentiable compact models.
+
+Outside the EDA case, placement-as-siting shows comparable quantified deltas against its own baselines. InterPlace reports up to 53.0% fidelity improvement and up to 33.3% reduction in combined on-chip SWAPs and inter-chip operations versus the state of the art. PureMagic reports 40% to 150% efficiency improvement over bus routing, 19% to 80% fewer logical qubits, 4.5x faster average magic state preparation, and up to 15x better efficiency than the static scheduler DASCOT, by abandoning the static peripheral placement that distillation factories force. In a neutral-atom compiler, dynamically placed hub traps make circuits compile in seconds to minutes that a placement-matched SWAP-only baseline could not schedule within a practical time budget, even at nine qubits. The pattern is consistent: relaxing a placement constraint buys order-of-magnitude changes in solvability, not marginal gains.
+
+**TLDR: Joint wirelength, temperature and warpage in a single analytical placer is a genuine first with quantified margins over the prior academic state of the art.**
+
+## Diffusion (2/5)
+
+The sources contain almost no adoption evidence for the algorithmic step. The single relevant statement is that agile chip design has already benefited from machine learning integration at logic synthesis, placement and routing, which establishes that new placement methods do reach practice but says nothing about the thermo-mechanical-aware variant. The barriers implied by the sources are sign-off credibility (compact models must be trusted enough to replace simulation), validation cost, which is named as a specific limitation of LLM-driven chiplet design, and the fact that a placer must slot into an existing routing and timing closure flow that the sources do not describe.
+
+Physical placement diffusion looks better evidenced: greater than 95% printing yield across four full 200 mm wafers with sub-micron 3-sigma accuracy and consistent modulator performance over 600 devices is the kind of statistical result a fab would need before qualifying a process. Score 2 is for the design step; the process step would score higher but is a different object.
+
+**TLDR: No source shows a physics-aware placer inside a production flow; the physical-placement process is closer to industrial use.**
+
+## Impact (4/5)
+
+In 2.5D systems, thermal and mechanical reliability are described as critical challenges in heterogeneous integration, and placement is where they are decided; the reported spread of 3 to 13% peak temperature and 5 to 27% warpage between placement solutions is the size of the lever. Warpage and peak temperature translate into package yield and field reliability, so this is a value-at-risk argument as much as a performance one. Combined with wirelength effects on power and latency, placement quality propagates into the economics of every chiplet product.
+
+In quantum systems the value is even more direct because placement changes what is computable at all. Hub-trap placement converts circuits that returned no schedule within a practical time budget into circuits that compile in seconds to minutes, while removing SWAP gates entirely on every completed circuit. Repurposing all ancilla patches rather than accepting static peripheral factory placement cuts logical qubit count by 19% to 80%, and calibration-aware placement of circuits onto QPUs is proposed as a fix for latency that inflates convergence time from minutes to hours. Logical qubit count is the dominant cost term in fault-tolerant architectures, so an 80% reduction is not an incremental result. The score is 4 rather than 5 because the chiplet-side numbers are simulated and the quantum-side numbers are benchmark or emulator results.
+
+**TLDR: Placement decisions set peak temperature, warpage and interconnect cost in chiplet systems, and gate the feasibility of quantum circuit compilation.**
+
+## Timing Soon (2-5yr)
+
+Placement itself is a mature step, so the timing question is about the shift to multi-objective, physics-aware placement for chiplets. The pull is present-tense: 2.5D adoption is described as already accelerating on AI and automotive demand, and the enabling assembly processes are demonstrating wafer-scale yield today. The gap is validation: the placement results rest on compact models and academic baselines, and LLM-assisted chiplet design is still limited by high validation cost.
+
+The quantum placement work is on a different clock and its usefulness depends on hardware that does not yet exist at the scale assumed; the compiler and scheduler results are evaluated with analytic execution-time estimates and fidelity proxies or on emulated backends. Treat that branch as Later.
+
+**TLDR: The demand and the prototype tools exist now; silicon-validated multi-physics placement in production flows is a few years out.**
+
+## Overrated or underrated? Underrated
+
+Placement is usually treated as a commoditised, solved step inside a licensed EDA flow. The sources argue otherwise for heterogeneous integration: it is the step where peak temperature, warpage and interconnect cost are jointly determined, and the first analytical placer to treat all three at once reports margins over prior tools that are far too large to be the signature of a mature, well-optimised problem. Simultaneous improvement in wirelength, thermals and runtime is the tell that the incumbent approach was structurally handicapped by simulation-in-the-loop.
+
+The caution is that all of this is prototype evidence. There is no silicon correlation, no commercial tool comparison and no adoption data in the supplied sources. An investor should read this as an underpriced bottleneck rather than a proven product: the demand driver is documented, the technical headroom is quantified, and the missing piece is validation credibility. The parallel quantum results, where relaxing placement constraints changes circuits from uncompilable to compilable and cuts logical qubit counts by up to 80%, reinforce the general point that placement is where the largest unexploited leverage in physical design currently sits.
+
+## Prediction
+
+By June 2029, at least one published 2.5D chiplet placement result will report joint wirelength, peak-temperature and warpage optimisation validated against measured hardware rather than compact-model simulation alone; if no such silicon-correlated result appears, the ATMPlace-class margins should be treated as model artefacts.
+
+## Evidence base
+
+- ATMPlace, posted 21 November 2025, reports 146% and 52% geometric mean wirelength improvement over TAP 2.5D and TACPlace, 3 to 13% lower temperature, 5 to 27% less warpage, and approximately 10x faster runtime, for systems with dozens of chiplets.
+- Micro-transfer printing of thin-film lithium niobate onto silicon photonics across four full 200 mm wafers achieved 3-sigma placement accuracy down to 420 nm, printing yield above 95%, insertion loss below 2 dB over 600 phase modulators and a 4 V half-wave voltage, reported 29 May 2026.
+- InterPlace, posted 12 September 2025, reports up to 53.0% fidelity improvement and up to 33.3% reduction in combined on-chip SWAPs and inter-chip operations by optimising inter-chip coupler link placement.
+- PureMagic, 4 June 2026, achieves 40% to 150% efficiency improvement over bus routing, 19% to 80% fewer logical qubits and 4.5x faster average magic state preparation by removing the static peripheral placement of distillation factories, and is up to 15x more efficient than the static scheduler DASCOT.
+- A neutral-atom compiler using dynamically placed hub traps compiles, in seconds to minutes, circuits as small as nine qubits that a placement-matched SWAP-only baseline could not schedule within a practical time budget, across seventeen benchmarks, 29 May 2026.
+- MAHL, posted 8 August 2025, states that agile chip design has already integrated machine learning at logic synthesis, placement and routing, while LLM-driven chiplet design remains limited by flattened designs, high validation cost and imprecise parameter optimisation.
+
+## Open questions
+
+- Do the compact thermal and warpage models used by ATMPlace correlate with measured package temperature and warpage on fabricated 2.5D parts, and within what error band?
+- How do the reported 146% and 52% wirelength gains over TAP 2.5D and TACPlace compare against a commercial production placer rather than academic baselines?
+- Does the approximately 10x runtime advantage hold beyond 'dozens of chiplets', and where does the analytical formulation break down as element count grows?
+- Can 420 nm 3-sigma micro-transfer-printing placement accuracy and greater than 95% yield be held across high-volume production lots, and what is the accuracy budget for the resulting photonic device performance?
+
+---
+*Assessment drafted 2026-08-31 from up to 18 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

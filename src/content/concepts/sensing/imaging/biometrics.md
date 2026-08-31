@@ -25,16 +25,29 @@ sources:
 - '[[2026-07-28-cen-ts-18099-injection-attack-detection]]'
 - '[[2026-07-28-world-enterprise-pivot-and-layoffs]]'
 frontier:
+- Once ISO/IEC 25456 publishes, do any of the liveness vendors that passed RIVR Phase 3 on presentation attacks also pass injection-resilience testing, or is the passing set disjoint?
+- Does World's per-verification application fee model, introduced June 2026, produce disclosed revenue that justifies Orb manufacturing and per-jurisdiction compliance cost?
+- Have any ear-based results been reproduced cross-session and open-set on a verified subject count, given that the EarNet subject count could not be confirmed and the MDPI and arXiv figures were taken from indexed abstracts?
+- 'With Google''s ZKP libraries and the EU age-verification blueprint free and open source, what layer of the human identity stack retains pricing power: capture hardware, liveness and injection detection, or nothing?'
 - Does proof-of-humanity spend ever reach a sensing modality, or does it stay in remote verification and platform-owned attestation?
 - Is there a durable channel where the platform does not own the endpoint (defence comms, contact centres), and can it be priced per seat rather than per device?
 - Does passkeys/FIDO2 absorb the "authentication is broken by genAI" thesis before any new modality gets a hearing?
 - Does capture-time attestation (C2PA, platform integrity APIs) displace detection outright, and on what timeline? This decides whether deepfake detection is a decade-long market or a transitional one.
 - Is there any certification path for a novel modality, or does its absence cap every new sensor at consumer convenience regardless of how good the physics is?
 - Does the EAB explainability mandate advantage physics-grounded sensing over black-box classifiers, and is that the one entry point a novel modality has?
-last_updated: 2026-07-28
+last_updated: '2026-08-31'
 tags:
 - concept
 mention_count: 17
+scorecard:
+  viability: 4
+  drivers: 3
+  novelty: 2
+  diffusion: 3
+  impact: 3
+  timing_band: Now (0-2yr)
+  verdict: Fairly rated
+scorecard_status: draft
 sources_7d: 0
 sources_30d: 1
 recent_mentions:
@@ -84,228 +97,92 @@ neighbors:
   path: /compute/ai-edge/edge-ai/
   macro: compute
 ---
-## The structural fact: the modality is never the business
+**Biometrics is the recognition of people from physical or behavioural traits, and the deployed reality in 2026 is that matching largely works while liveness, injection resilience and commercial capture do not.**
 
-The biometrics market is not small. Roughly $60–70bn, growing mid-teens. Almost none of that money
-has ever gone to whoever owned the modality.
+## Summary
 
-The evidence is company revenue, not market reports:
+Biometrics covers the recognition of individuals from physical and behavioural traits such as fingerprints, face, iris, voice and gait, and is increasingly the default replacement for passwords in device unlock, border control, national ID and financial account protection. A system has three layers that are usually confused with each other: a sensor and feature extractor that turns a body into a template or embedding; a comparison step that produces a match score; and a defence layer that decides whether the thing in front of the sensor is a live human at all, and whether the data reaching the comparison step actually came from that sensor.
 
-- **Fingerprint Cards** is the pure-play in the largest modality in biometrics, around a third of the
-  market. Revenue SEK 78m in 2025 and a market capitalisation of about **$11m**. Precise Biometrics,
-  IDEX and Aware sit in the same microcap band.
-- **Face recognition** made zero dollars for any licensor. Apple built Face ID in-house.
-- **Voice** is the partial exception at roughly $3bn in 2026, and only because 45% of it is contact
-  centres — a channel Apple and Google do not own.
-- **Clear Secure** owns no modality at all and does around $880m of revenue, profitably, at a
-  multi-billion valuation. It owns enrolled users, airport lanes and a subscription.
+The numbers that decide a biometric are operating-point numbers, not accuracy numbers. False accept rate (FAR) and false reject rate (FRR) trade against each other, and equal error rate (EER) is the point where they cross, which is almost never where a security product runs. The ear-acoustic literature is the clearest illustration: sub-1% EER coexists with roughly 22% FRR at a security-grade FAR of 0.1%, improved to about 14% by a dedicated methods paper, against a Face ID FAR of around one in a million **2022 Ear Acoustic Between Class Features**. For the defence layer the equivalent metrics are BPCER (rejecting genuine users) and APCER (accepting attacks), plus a separate question of injection resilience, meaning whether an attacker can bypass the sensor entirely with a virtual camera, hooked system call or manipulated network traffic <sup class="ref"><a href="https://www.iproov.com/blog/cen-ts-18099-standard-proves-injection-attack-resilience" title="CEN/TS 18099: the standard that proves injection attack resilience" rel="noopener">ref</a></sup>.
 
-**The rule that generalises: a biometric modality only earns money where the platform does not
-already own the device.** Fingerprint failed as a business because Apple owned the phone. That places
-ear authentication in the fingerprint pattern rather than the voice pattern, because earbuds are
-owned by Apple, Samsung, Google and Xiaomi.
+The live frontier is therefore not new sensing modalities but that defence layer. A US government evaluation run by the Maryland Test Facility for DHS Science and Technology tested six active and twelve passive liveness systems, and of the twelve passive systems exactly one met the APCER threshold; the report places presentation attack detection between document validation (poor) and face matching (substantially better) in the identity stack <sup class="ref"><a href="https://www.biometricupdate.com/202603/rivr-results-show-biometric-liveness-detection-effectiveness-highly-variable" title="RIVR results show biometric liveness detection effectiveness highly variable" rel="noopener">ref</a></sup>. Standards are following: ISO/IEC 30107-3:2023 covers presentation attacks only, CEN/TS 18099:2024 is the only published specification that proves injection resilience, ISO/IEC 25456 is in development, and ETSI EN 119 461 already mandates injection-attack testing with documented evidence <sup class="ref"><a href="https://www.biometricupdate.com/202607/eab-previews-biometric-injection-attack-detection-standardization-developments" title="EAB previews biometric injection attack detection standardization developments" rel="noopener">ref</a></sup>.
 
-## Per-device royalties cap the outcome arithmetically
+Alongside this, exotic modalities keep being reintroduced as novel. Transient evoked otoacoustic emission identity, including the liveness-by-construction argument that you cannot replay a signal the cochlea must actively generate, was published as a University of Toronto thesis in 2014 with 99.44% identification and 0.02% EER on both-ear fusion **2014 Liu Earprint Teoae Biometrics Thesis**, and again with proper verification metrics in 2021 **2021 Earnet Teoae Biometric Embeddings**. Anyone assessing a biometrics pitch should check the prior art, the operating point rather than the EER, and whether the claim covers injection as well as presentation attacks.
 
-A licensor charging per device earns units × price, whatever the market is. Global true wireless
-earbud shipments were about 332m units in 2024 inside a ~455m personal-audio category. At €1/device,
-**one hundred percent of every earbud shipped on earth is €350–400m of revenue.** No licensor has
-ever held a whole category, so a realistic ten percent is €35–40m.
+## Viability (4/5)
 
-## Report-mill sizing is unusable at modality level
+The core recognition function works. The RIVR Phase 3 evaluation explicitly ranks face matching as substantially better than liveness detection, which in turn is better than document validation <sup class="ref"><a href="https://www.biometricupdate.com/202603/rivr-results-show-biometric-liveness-detection-effectiveness-highly-variable" title="RIVR results show biometric liveness detection effectiveness highly variable" rel="noopener">ref</a></sup>, and one vendor has issued over 475 million iris-based identity proofs to more than 18 million verified people across 160 countries <sup class="ref"><a href="https://www.biometricupdate.com/202606/world-shifts-from-crypto-identity-experiment-to-enterprise-proof-of-humanity" title="World (Tools for Humanity) pivots to enterprise fees and cuts staff as revenue lags" rel="noopener">ref</a></sup>. That is demonstrated field performance, not a lab result.
 
-Do not put a per-modality TAM in any artefact. In one search on 28 Jul 2026 the same segment (voice)
-appeared at $49.8bn by 2029 and at $3.06bn in 2026 — a sixteen-fold disagreement. The quoted "ear
-biometrics market" of ~$1.07bn in 2025 almost certainly counts **ear-shape recognition from
-photographs**, a forensic and surveillance technique, and not in-ear acoustic authentication, which
-has no meaningful commercial revenue anywhere after ten years of NEC pursuing it. Same failure mode
-already documented on machine identity at **Agent Identity Value Capture**, where four firms
-disagreed 5.5x for the same year.
+The defence layer is where viability breaks. Only one of twelve passive liveness systems met the APCER threshold in the only independent benchmark of deployed systems, and the best reported combination was 0.5% BPCER with 1.7% APCER at 2.3 seconds <sup class="ref"><a href="https://www.biometricupdate.com/202603/rivr-results-show-biometric-liveness-detection-effectiveness-highly-variable" title="RIVR results show biometric liveness detection effectiveness highly variable" rel="noopener">ref</a></sup>; that benchmark covers presentation attacks only and tests nothing about injection <sup class="ref"><a href="https://www.biometricupdate.com/202607/eab-previews-biometric-injection-attack-detection-standardization-developments" title="EAB previews biometric injection attack detection standardization developments" rel="noopener">ref</a></sup>. A vendor can hold PAD certification and have zero injection resilience <sup class="ref"><a href="https://www.iproov.com/blog/cen-ts-18099-standard-proves-injection-attack-resilience" title="CEN/TS 18099: the standard that proves injection attack resilience" rel="noopener">ref</a></sup>. Novel modalities are further back still: ear-canal acoustic authentication still rejects roughly one in seven legitimate users at FAR 0.1% after a paper written specifically to fix that **2022 Ear Acoustic Between Class Features**. Score reflects a mature core with a measured, unsolved perimeter.
 
-## Proof of liveness is real growth that lands somewhere else
+**TLDR: Matching is close to solved and deployed at scale; the liveness and injection layers demonstrably are not.**
 
-The deepfake why-now is genuine. Identity verification runs from ~$14bn in 2026 to ~$43bn by 2036 at
-13%; deepfake detection specifically from ~$0.85bn in 2025 to ~$7.3bn by 2031, about 43% a year.
+## Drivers (3/5)
 
-But that spend buys **remote** verification: onboarding over video, document-plus-selfie checks,
-contact-centre screening. Priced per check, sold to banks and platforms, and the entire premise is
-that the channel cannot be trusted. An on-device biometric authenticates you to hardware already in
-your hand, which was never the deepfake problem.
+Demand side: biometrics is displacing passwords as the preferred authentication approach across smartphones, border security, national ID and financial accounts, with the skills shortage explicit enough for NSF to fund a dedicated undergraduate research site at $450,000. Regulation is a harder driver than fraud narratives: ETSI EN 119 461 already mandates injection-attack testing across face-to-face, remote-assisted and unattended remote identification, and eIDAS 2.0 encourages privacy-enhancing technologies in the wallet <sup class="ref"><a href="https://www.biometricupdate.com/202607/eab-previews-biometric-injection-attack-detection-standardization-developments" title="EAB previews biometric injection attack detection standardization developments" rel="noopener">ref</a></sup>, <sup class="ref"><a href="https://blog.google/innovation-and-ai/technology/safety-security/opening-up-zero-knowledge-proof-technology-to-promote-privacy-in-age-assurance/" title="Google open-sources its ZKP libraries, the EU ships an open-source age-verification blueprint, and eIDAS 2.0 encourages " rel="noopener">ref</a></sup>. The structural why-now on the attack side is that injection attacks are software and scale to thousands of simultaneous attempts, whereas presentation attacks require physical presence <sup class="ref"><a href="https://www.iproov.com/blog/cen-ts-18099-standard-proves-injection-attack-resilience" title="CEN/TS 18099: the standard that proves injection attack resilience" rel="noopener">ref</a></sup>.
 
-Bridging a device biometric to a remote counterparty needs **attestation** — the device signs a claim
-the far end trusts — and that is a PKI problem owned by whoever owns the operating system.
-[Agent Identity (KYA)](/ai-software/agents/agent-identity-kya/) records how that layer resolves: Google donated AP2 to FIDO, Cloudflare put
-Web Bot Auth into the IETF, Coinbase gave x402 to the Linux Foundation. The platforms are
-deliberately commoditising attestation to protect the profit pools above it.
+Supply and monetisation are the weak half. The best-capitalised, best-distributed proof-of-personhood vendor, valued at $2.5bn with Zoom, Tinder, DocuSign and Okta as named partners, restructured a roughly 500-person team on 8 June 2026 because revenue had not kept pace with hardware and compliance costs, and only introduced per-verification application fees in June 2026 <sup class="ref"><a href="https://www.biometricupdate.com/202606/world-shifts-from-crypto-identity-experiment-to-enterprise-proof-of-humanity" title="World (Tools for Humanity) pivots to enterprise fees and cuts staff as revenue lags" rel="noopener">ref</a></sup>. Fraud-side growth numbers driving the demand story are largely vendor-published and uncheckable, including a claimed 495% increase in deepfake identity fraud in 2026 and 740% growth in iOS injection attacks during 2025, <sup class="ref"><a href="https://www.iproov.com/blog/cen-ts-18099-standard-proves-injection-attack-resilience" title="CEN/TS 18099: the standard that proves injection attack resilience" rel="noopener">ref</a></sup>.
 
-So the growth accrues to remote-verification vendors and to platform-owned attestation roots. A new
-sensing modality sits outside both.
+**TLDR: Regulatory mandates and software-scale fraud pull hard on demand; the leading vendor still cannot convert it into revenue.**
 
-## Routing
+## Novelty (2/5)
 
-**Public markets is where this is investable.** Screening list, not a recommendation: Mitek (owns
-ID R&D), NICE and Verint on contact-centre fraud, Clear Secure on consumer enrolment, Thales on
-government ID. Onfido sits inside Entrust; Socure, Persona and iProov are private.
+Very little in these sources is new. Otoacoustic-emission identity and its entire security framing, including the liveness and anti-replay argument and the term 'earprint' itself, were published in 2014 with 0.02% EER on both-ear fusion **2014 Liu Earprint Teoae Biometrics Thesis**, and restated with authentication metrics and an open-set claim in 2021 at 0.057% EER for the right ear and 99.92% fused identification accuracy **2021 Earnet Teoae Biometric Embeddings**. The edge-compute story is also already met: an October 2025 system extracts a stable binary key from the ear canal on the earbud itself in 226 ms with no classifier, reporting 98.7% accuracy and FAR below 1% **2025 Earid Ear Canal Biometric Key Extraction**. That fuzzy-commitment architecture is strictly better than storing embeddings, because there is no template to leak.
 
-**Insig:** no. Proof-of-humanity in the crypto framing is World, which is token-funded rather than a
-revenue business.
+Where something is genuinely better than what came before, the margins are modest and well characterised. Bilateral ear fusion buys roughly a 3x error reduction over one ear, 0.39% EER against 1.31% **2022 Bilateral Ear Acoustic Authentication**. Between-class features improve the security-grade operating point by 7.95 points of FRR **2022 Ear Acoustic Between Class Features**. Meanwhile the privacy primitives that would differentiate a product have been commoditised by the platforms and the regulator: Google open-sourced its zero-knowledge-proof libraries under Apache 2.0, the EU shipped an open-source age-verification blueprint behind the app announced 15 April 2026, and ZKPassport covers over 120 countries free and open source <sup class="ref"><a href="https://blog.google/innovation-and-ai/technology/safety-security/opening-up-zero-knowledge-proof-technology-to-promote-privacy-in-age-assurance/" title="Google open-sources its ZKP libraries, the EU ships an open-source age-verification blueprint, and eIDAS 2.0 encourages " rel="noopener">ref</a></sup>. The defensible novelty left is injection-attack detection and its test methodology, which is early enough that the standard is still in development <sup class="ref"><a href="https://www.biometricupdate.com/202607/eab-previews-biometric-injection-attack-detection-standardization-developments" title="EAB previews biometric injection attack detection standardization developments" rel="noopener">ref</a></sup>.
 
-**Angel:** the vehicle for anything here, because the outcomes are €250–500m.
+**TLDR: The category is old, the exotic modalities are older than their pitches, and the privacy layer is being given away free.**
+
+## Diffusion (3/5)
+
+Diffusion is already deep in some segments and reversing in others. Identity verification is an observable $14-16bn market in 2026 across four independent houses, roughly 56% cloud-deployed and 32.7% BFSI by vertical, and iris-based proof-of-personhood reached 1,500 Orbs live in 23 countries with a US launch on 1 May 2026 <sup class="ref"><a href="https://www.biometricupdate.com/202606/world-shifts-from-crypto-identity-experiment-to-enterprise-proof-of-humanity" title="World (Tools for Humanity) pivots to enterprise fees and cuts staff as revenue lags" rel="noopener">ref</a></sup>. That is real distribution.
+
+The adoption barriers are consent, cost and error rates. The number-two proof-of-personhood vendor, with over 8 million palm-based Human IDs, abandoned the category in February 2026 for a verifiable-credential network, while a $30m-funded competitor positions explicitly against 'invasive biometric scans' using passport NFC and zero-knowledge proofs instead <sup class="ref"><a href="https://www.biometricupdate.com/202602/humanity-protocol-pivots-from-proof-of-personhood-but-sticks-with-palm-biometrics" title="Proof-of-personhood competitive landscape — Humanity Protocol pivots out, Billions goes non-biometric" rel="noopener">ref</a></sup>. Hardware-based capture carries manufacturing, deployment and per-jurisdiction compliance costs that outran revenue at the category leader <sup class="ref"><a href="https://www.biometricupdate.com/202606/world-shifts-from-crypto-identity-experiment-to-enterprise-proof-of-humanity" title="World (Tools for Humanity) pivots to enterprise fees and cuts staff as revenue lags" rel="noopener">ref</a></sup>. For new modalities the barrier is arithmetic: no consumer product ships an authenticator that rejects one user in seven at a usable FAR <sup class="ref"><a href="https://www.biometricupdate.com/202607/eab-previews-biometric-injection-attack-detection-standardization-developments" title="EAB previews biometric injection attack detection standardization developments" rel="noopener">ref</a></sup>, **2022 Ear Acoustic Between Class Features**. Fragmented certification, with PAD certification not covering injection, adds procurement friction on top <sup class="ref"><a href="https://www.iproov.com/blog/cen-ts-18099-standard-proves-injection-attack-resilience" title="CEN/TS 18099: the standard that proves injection attack resilience" rel="noopener">ref</a></sup>.
+
+**TLDR: Ubiquitous in device unlock and identity verification, but the biometric-first identity vendors are retreating from biometrics.**
+
+## Impact (3/5)
+
+The stakes are substantive: biometrics gates devices, facilities, borders, national identification and financial accounts, and the observable base market for identity verification is $14-16bn in 2026 with houses disagreeing only on growth, between 11.2% and 18.2% CAGR. Because liveness sits in the middle of the stack as the weakest measured link, spend concentrating there is a structurally coherent expectation rather than an assertion <sup class="ref"><a href="https://www.biometricupdate.com/202603/rivr-results-show-biometric-liveness-detection-effectiveness-highly-variable" title="RIVR results show biometric liveness detection effectiveness highly variable" rel="noopener">ref</a></sup>. Bot farms using real human workers to defeat anti-bot protections, now the subject of a $471,822 NSF award, give an additional reason why proving a live, unique human has economic value.
+
+Value capture is the constraint on the score. Adjacent decentralised-identity forecasts are unusable, disagreeing 6.5x on the same year with CAGRs between 51% and 80%, while the one layer-specific number is small: zero-knowledge KYC at $83.6m in 2025 rising to $903.5m by 2032. Regulators and platforms are donating the privacy layer, making it a compliance expectation rather than a differentiator <sup class="ref"><a href="https://blog.google/innovation-and-ai/technology/safety-security/opening-up-zero-knowledge-proof-technology-to-promote-privacy-in-age-assurance/" title="Google open-sources its ZKP libraries, the EU ships an open-source age-verification blueprint, and eIDAS 2.0 encourages " rel="noopener">ref</a></sup>, and the leading biometric vendor's layoffs are harder evidence than any forecast that the value is not yet reaching the people building the sensors <sup class="ref"><a href="https://www.biometricupdate.com/202606/world-shifts-from-crypto-identity-experiment-to-enterprise-proof-of-humanity" title="World (Tools for Humanity) pivots to enterprise fees and cuts staff as revenue lags" rel="noopener">ref</a></sup>.
+
+**TLDR: A real, measurable market with genuine security stakes, but the sources show value leaking to free primitives rather than accruing to vendors.**
+
+## Timing Now (0-2yr)
+
+There is nothing speculative about the timing of core biometrics. Face and iris matching are deployed at hundreds of millions of transactions, the US launch of the largest proof-of-personhood network was 1 May 2026, and the identity verification market is being measured rather than projected <sup class="ref"><a href="https://www.biometricupdate.com/202606/world-shifts-from-crypto-identity-experiment-to-enterprise-proof-of-humanity" title="World (Tools for Humanity) pivots to enterprise fees and cuts staff as revenue lags" rel="noopener">ref</a></sup>,. What is in motion over the next two years is the defence layer: CEN/TS 18099:2024 is published, ISO/IEC 25456 is in development with weighted attack-complexity levels expected, and the European Association for Biometrics is working on capture-environment vulnerability methodology and explainability requirements for deepfake and injection detection <sup class="ref"><a href="https://www.biometricupdate.com/202607/eab-previews-biometric-injection-attack-detection-standardization-developments" title="EAB previews biometric injection attack detection standardization developments" rel="noopener">ref</a></sup>.
+
+The exception is exotic modalities. Ear-canal and otoacoustic authentication have been in the literature since at least 2014 and still sit at security-grade operating points no consumer product would tolerate **2014 Liu Earprint Teoae Biometrics Thesis**, **2022 Ear Acoustic Between Class Features**. On the evidence here their timing is unclear rather than soon, and twelve years of published prior art without a shipped product is itself the signal.
+
+**TLDR: Deployment is already happening; the contested liveness and injection layer is being standardised and independently benchmarked right now.**
+
+## Overrated or underrated? Fairly rated
+
+Split the category and the picture is consistent. Biometric matching is fairly rated: it works, it is deployed, the independent benchmark says so, and the market for it is one of the few in this space where four forecasting houses agree on the base <sup class="ref"><a href="https://www.biometricupdate.com/202603/rivr-results-show-biometric-liveness-detection-effectiveness-highly-variable" title="RIVR results show biometric liveness detection effectiveness highly variable" rel="noopener">ref</a></sup>,. Injection attack detection is arguably underrated, because it is the only layer with a published operational standard, an ISO successor in development, an existing ETSI mandate and a structural argument for why attacks scale that does not depend on deepfake quality improving <sup class="ref"><a href="https://www.biometricupdate.com/202607/eab-previews-biometric-injection-attack-detection-standardization-developments" title="EAB previews biometric injection attack detection standardization developments" rel="noopener">ref</a></sup>, <sup class="ref"><a href="https://www.iproov.com/blog/cen-ts-18099-standard-proves-injection-attack-resilience" title="CEN/TS 18099: the standard that proves injection attack resilience" rel="noopener">ref</a></sup>.
+
+Two things are clearly overrated. Biometric proof-of-personhood as a business: the leader has $2.5bn of valuation, 18 million verified humans and layoffs in the same year, and the number-two player left the category entirely <sup class="ref"><a href="https://www.biometricupdate.com/202606/world-shifts-from-crypto-identity-experiment-to-enterprise-proof-of-humanity" title="World (Tools for Humanity) pivots to enterprise fees and cuts staff as revenue lags" rel="noopener">ref</a></sup>, <sup class="ref"><a href="https://www.biometricupdate.com/202602/humanity-protocol-pivots-from-proof-of-personhood-but-sticks-with-palm-biometrics" title="Proof-of-personhood competitive landscape — Humanity Protocol pivots out, Billions goes non-biometric" rel="noopener">ref</a></sup>. And novel ear-based modalities: the liveness pitch, the name and the headline error rates are all prior art from 2014 and 2021, the edge-compute and template-privacy arguments were closed by an October 2025 paper, and the honest operating point is roughly 14% FRR at 0.1% FAR against Face ID's four-orders-of-magnitude better FAR **2014 Liu Earprint Teoae Biometrics Thesis**, **2025 Earid Ear Canal Biometric Key Extraction**, **2022 Ear Acoustic Between Class Features**. Treat any EER-only claim as a flattering operating point until FRR at FAR 0.1% is stated.
+
+## Prediction
+
+By 31 December 2028, no ear-acoustic or otoacoustic authentication system will have been independently benchmarked (by a body such as the Maryland Test Facility or an iBeta-equivalent lab) at an FRR below 5% at FAR 0.1%.
+
+## Evidence base
+
+- In the only independent benchmark of deployed liveness systems, run by the Maryland Test Facility for DHS S&T, only two of six active systems met the BPCER threshold and exactly one of twelve passive systems met APCER; the best result was 0.5% BPCER, 1.7% APCER, 2.3 s (Mar 2026 reporting) <sup class="ref"><a href="https://www.biometricupdate.com/202603/rivr-results-show-biometric-liveness-detection-effectiveness-highly-variable" title="RIVR results show biometric liveness detection effectiveness highly variable" rel="noopener">ref</a></sup>.
+- CEN/TS 18099:2024 is the only published specification proving injection resilience, ISO/IEC 25456 is in development, ETSI EN 119 461 already mandates injection-attack testing, and a report-mill forecast puts injection attacks above 4 billion by 2028 (Jul 2026) <sup class="ref"><a href="https://www.biometricupdate.com/202607/eab-previews-biometric-injection-attack-detection-standardization-developments" title="EAB previews biometric injection attack detection standardization developments" rel="noopener">ref</a></sup>.
+- World held a $2.5bn valuation, 18M+ Orb-verified humans, 475M+ proofs and 1,500+ Orbs in 23 countries, and restructured a ~500-person team on 8 June 2026 because revenue lagged Orb manufacturing and compliance costs <sup class="ref"><a href="https://www.biometricupdate.com/202606/world-shifts-from-crypto-identity-experiment-to-enterprise-proof-of-humanity" title="World (Tools for Humanity) pivots to enterprise fees and cuts staff as revenue lags" rel="noopener">ref</a></sup>.
+- Humanity Protocol abandoned proof-of-personhood in February 2026 after 8M+ palm-based Human IDs, while Billions raised $30m positioning explicitly against invasive biometric scans using passport NFC plus zero-knowledge proofs <sup class="ref"><a href="https://www.biometricupdate.com/202602/humanity-protocol-pivots-from-proof-of-personhood-but-sticks-with-palm-biometrics" title="Proof-of-personhood competitive landscape — Humanity Protocol pivots out, Billions goes non-biometric" rel="noopener">ref</a></sup>.
+- Ear-canal acoustic authentication's baseline is ~22% FRR at FAR 0.1%, improved to ~14% by a dedicated methods paper (arXiv 2205.08778, May 2022), against a Face ID FAR of roughly one in 1,000,000 **2022 Ear Acoustic Between Class Features**.
+- Otoacoustic-emission identity with the liveness and anti-replay argument, 99.44% identification and 0.02% EER on both-ear fusion, was published in a 2014 University of Toronto thesis titled 'Earprint' **2014 Liu Earprint Teoae Biometrics Thesis**.
+- Four houses put the 2026 identity verification market at $14-16bn but diverge from 11.2% to 18.2% CAGR, changing the 2033 answer by ~2.4x; cloud is ~56% of deployment and BFSI ~32.7% of verticals (accessed 28 Jul 2026).
+
+## Open questions
+
+- Once ISO/IEC 25456 publishes, do any of the liveness vendors that passed RIVR Phase 3 on presentation attacks also pass injection-resilience testing, or is the passing set disjoint?
+- Does World's per-verification application fee model, introduced June 2026, produce disclosed revenue that justifies Orb manufacturing and per-jurisdiction compliance cost?
+- Have any ear-based results been reproduced cross-session and open-set on a verified subject count, given that the EarNet subject count could not be confirmed and the MDPI and arXiv figures were taken from indexed abstracts?
+- With Google's ZKP libraries and the EU age-verification blueprint free and open source, what layer of the human identity stack retains pricing power: capture hardware, liveness and injection detection, or nothing?
 
 ---
-
-# State of the art, technical (research pass 28 Jul 2026)
-
-*Added the same day, from an independent literature and standards sweep. The sections above
-answer "who captures the value". These answer "what actually works, and what would a new
-modality have to clear". They reinforce the same conclusion from a different direction, with
-one figure correction flagged below.*
-
-## Which layer of the stack is actually unsolved
-
-Three layers, in very different states. **Matching** (is this the right person, given a genuine
-sample) is close to solved for face. **Document validation** is bad. **Liveness** is the
-contested middle, and it is where the spend is going.
-
-That ranking is measured rather than asserted. The **Remote Identity Validation Rally**, run by
-the Maryland Test Facility for DHS Science & Technology, placed presentation attack detection
-between document validation (soberingly poor) and face matching (substantially better)
-(rivr phase3 liveness results). The corollary for sizing: the growth is not in
-recognising people, it is in proving they exist.
-
-## Two threat models, and the industry's main error
-
-A sample can be faked in two structurally different places, and almost every "liveness
-certified" claim in market addresses only the first.
-
-| | Presentation attack | Injection attack |
-|---|---|---|
-| Where | At the sensor: photo, screen replay, 3D mask | Downstream of it: virtual camera, hooked system calls, manipulated traffic |
-| What is faked | A physical artefact | The data stream itself |
-| Attacker economics | Physical presence, linear effort | Software, scales to thousands of simultaneous attempts |
-| Standard | **ISO/IEC 30107-3:2023** | **CEN/TS 18099:2024** |
-| Certification in market | iBeta Level 1/2, widely held | Almost nobody, and only since 2024 |
-
-**Deepfakes mostly arrive by injection.** They are not held up to a camera, so the entire
-installed base of iBeta-certified PAD says nothing about them: a product can hold PAD
-certification and have zero injection resilience
-(cen ts 18099 injection attack detection).
-
-This sharpens the why-now on the section above. The usual claim is that deepfakes got good. The
-structural claim is better: **the attack moved from a physical channel that scales linearly to a
-software channel that scales freely, while the certification regime stayed pointed at the
-physical one.** The standards only started closing that gap in 2024, which dates the window.
-
-### Where the standards stand, July 2026
-
-| Instrument | Body | Status | Covers |
-|---|---|---|---|
-| ISO/IEC 30107-3:2023 | ISO/IEC | Published, mature, iBeta-tested | Presentation only |
-| CEN/TS 18099:2024 | CEN | Published; the only operational injection specification | Injection |
-| ISO/IEC 25456 | ISO/IEC | **In development**, based on the CEN work | Injection, internationally |
-| ETSI EN 119 461 | ETSI | In force; mandates injection testing with evidence | Remote identity proofing under eIDAS |
-| NIST SP 800-63-4 | NIST | Published | Requires resistance to both |
-
-Source: eab injection attack standardisation. Europe leads, and the pull-through
-is **regulatory rather than demand-led**: ETSI EN 119 461 sits under eIDAS and the EUDI wallet,
-forcing certified remote verification into banking and qualified signatures on a legislated
-timetable. This corroborates the routing section above from the other end. The demand is
-compliance demand, arriving through remote-verification vendors, and it never reaches a sensor.
-
-### What deployed systems actually score
-
-RIVR Phase 3 tested 6 active and 12 passive liveness systems. Of the twelve passive systems,
-three met the false-reject goal and **exactly one** met the attack-rejection threshold (best:
-Paravision, 0.5% BPCER / 1.7% APCER in 2.3 s). Discount vendor accuracy claims accordingly.
-
-## The rival paradigm: provenance, not detection
-
-Detection is a classifier arms race in which the side holding the generator iterates against the
-detector. The structural alternative is signing content at capture: **C2PA / Content
-Credentials**, and on mobile the platform integrity APIs (Play Integrity, App Attest) attesting
-that a real sensor produced the frames.
-
-**If attested capture wins, detection becomes the fallback rather than the product**, and the
-durable position sits with whoever owns attestation, meaning Apple and Google. This is the same
-mechanism [Agent Identity (KYA)](/ai-software/agents/agent-identity-kya/) documents one layer up, and the ~43%/yr deepfake-detection
-growth is, read structurally, a bet that injection attacks scale faster than attested capture
-rolls out.
-
-## The certification ceiling on any novel modality
-
-Every standard, accredited lab, certification tier and regulatory instrument above is written
-for **face, fingerprint and iris**. A new sensing modality has **no certification path at all**.
-It cannot be iBeta Level 2 certified because no test protocol exists for it, and it cannot
-satisfy ETSI EN 119 461 for the same reason.
-
-This is a second, independent reason for the "modality is never the business" rule above, and a
-harder one: it is not a value-chain argument that a clever go-to-market might route around, it
-is a gate. A novel modality is **structurally barred from the regulated identity-proofing market
-where the growth is**, and confined to device convenience unlocking, where the buyer is an OEM
-and the comparison is Face ID. Writing the protocol takes years and is done by committees the
-incumbents sit on.
-
-Modality benchmarks for context: voice has **ASVspoof 5**, whose key finding travels well —
-zero-shot neural TTS is detected fairly reliably yet remains highly effective as an attack on
-speaker verification, so a good detector does not imply a secure system. Fingerprint has
-**LivDet**, running since 2009.
-
-## Ear and in-ear acoustic biometrics: the published record
-
-Denser than pitch-deck framing suggests. Mechanism matters and the two get conflated; see
-[Otoacoustic Emissions](/life-frontier/diagnostics-health/otoacoustic-emissions/) for why the passive canal transfer function and an active cochlear
-emission are different physics selecting different prior art.
-
-| Work | Year | Mechanism | Reported | The catch |
-|---|---|---|---|---|
-| **EarNet** **2021 Earnet Teoae Biometric Embeddings** | 2021 | TEOAE (true cochlear emission) | EER **0.581% / 0.057%** L/R, fused ID 99.92%, open-set generalisation | Subject count unverified, paywalled |
-| **Bilateral ear acoustic** **2022 Bilateral Ear Acoustic Authentication** | 2022 | Canal acoustic, both ears | EER **0.39%**, AUC 0.9995 (vs 1.31% one ear) | Requires a special earphone |
-| **Between-class features** **2022 Ear Acoustic Between Class Features** | 2022 | Canal acoustic | FRR **14% at FAR 0.1%**, improved from ~22% | The deployable operating point, and it is bad |
-| **EarID** **2025 Earid Ear Canal Biometric Key Extraction** | 2025 | Canal scanning | 98.7% acc, FAR <1%, **226 ms on-earbud**, no classifier | Fuzzy commitment, so no template to steal |
-| **EarDynamic** | 2021 | Canal deformation while speaking | Recall 97.38%, F1 96.84% | Needs the user to speak |
-| **EarCapAuth** | 2024 | Capacitive eartips | EER 7.62%; FRR 16.14% at FAR 1% | Different sensing entirely |
-
-Three conclusions to carry into any ear-biometrics diligence.
-
-**EER flatters this field badly.** Sub-1% EER and 14% FRR at 0.1% FAR are both true of canal
-response, because EER is the crossover point and not where a security product runs. Face ID
-operates near a one-in-a-million false accept. Quoting EER alone is how this modality reads
-better than it deploys, so **asking for FRR at a fixed security-grade FAR is the single most
-useful question in the room**.
-
-**The liveness argument is prior art, not a novelty.** EarNet's authors wrote in 2021 that TEOAE
-is immune to replay and falsification because the cochlea must actively generate the signal.
-Cochlear-emission liveness pitched as a 2026 insight is five years behind a published paper, and
-"Earprint" is already a term of art here (a University of Toronto thesis carries that exact
-title).
-
-**The edge-compute layer is not the moat.** EarID enrols in 226 ms on the earbud with no
-classifier at all. Differentiation resting on an on-device runtime plus edge inference claims a
-layer a 2025 academic paper reached on commodity hardware.
-
-On incumbency, reinforcing the fingerprint-pattern read above: **NEC** has published on ear
-acoustic authentication since 2017, shipped a crowdfunded hearable in 2022, and has no OEM
-design win a decade on. **Apple** holds a granted 2022 patent on ultrasonic ear-canal echo
-identification in AirPods. A specialist that shipped and could not sell it, plus a platform
-owner with granted IP and the sockets.
-
-## Unresolved conflict: the deepfake-detection series
-
-The section above quotes deepfake detection at **~$0.85bn in 2025 to ~$7.3bn by 2031, about 43%
-a year**. An independent sweep on 28 Jul 2026 could not reproduce that series and found
-published estimates for overlapping years differing by an order of magnitude: **$635.7M (2025)
-growing to $712.3M (2026)** from one house, against **"$5.5bn in 2023 to $15.7bn by 2026 at
-42%"** from another. Those cannot both be true.
-
-**Not a correction to apply, a conflict to resolve** — the $0.85bn/$7.3bn pair may well come
-from a specific house's series this sweep did not surface. Until one house's series is quoted
-end to end, the 43% CAGR should not go into a memo, an artefact or the newsletter. This is the
-same failure mode already logged on **Agent Identity Value Capture** (four firms, 5.5x apart)
-and on the voice segment above (16x apart).
-
-The identity-verification headline is firmer: four houses put 2026 at **$14–16bn**, then diverge
-from 11.2% to 18.2% CAGR (identity verification market forecasts). The $14bn to
-$43bn at 13% figure is Future Market Insights specifically, and it sits at the **conservative**
-end of the range.
-
-## Connected
+*Assessment drafted 2026-08-31 from up to 16 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

@@ -10,12 +10,6 @@ parent_concepts:
 - energy-power
 related_concepts: []
 sources: []
-frontier:
-- Does incumbent c-Si cost decline outpace tandem efficiency gains long enough to keep the crowded lane closed to startups?
-last_updated: '2026-07-08'
-tags:
-- concept
-mention_count: 5
 sources_7d: 0
 sources_30d: 0
 recent_mentions: []

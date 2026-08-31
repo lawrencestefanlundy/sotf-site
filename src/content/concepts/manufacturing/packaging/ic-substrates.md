@@ -35,13 +35,13 @@ The supplied sources treat IC substrates as a component category adjacent to pri
 
 ## Competitive landscape
 
-The one available source groups IC substrates together with PCBs as "key electronic components" within a European defence electronics funding line sovereign electronics manufacturing edip opens the door eu. That grouping is the only positional signal present: substrates are being framed as part of the same sovereignty and supply-security problem as bare board manufacture, rather than as a distinct competitive field. No comparison between substrate technologies or between regional suppliers is supported by the sources.
+The one available source groups IC substrates together with PCBs as "key electronic components" within a European defence electronics funding line <sup class="ref"><a href="https://www.electronics.org/blog/edip-opens-door-eu-funding-now-available-defence-electronics-including-pcbs-and-substrates" title="EDIP Opens the Door: EU Funding Now Available for Defence Electronics Including PCBs and Substrates" rel="noopener">ref</a></sup>. That grouping is the only positional signal present: substrates are being framed as part of the same sovereignty and supply-security problem as bare board manufacture, rather than as a distinct competitive field. No comparison between substrate technologies or between regional suppliers is supported by the sources.
 
 ## Evidence base
 
-- The EU's European Defence Industry Programme (EDIP) allocates €122.25 million to key electronic components including PCBs and IC substrates sovereign electronics manufacturing edip opens the door eu.
-- That allocation is described as unlocking up to €350M+ in new defence manufacturing capacity sovereign electronics manufacturing edip opens the door eu.
-- The EU PCB and substrate earmark was recorded as resolving a prediction correct on EDIP, dated 23 June 2026 sovereign electronics manufacturing edip opens the door eu.
+- The EU's European Defence Industry Programme (EDIP) allocates €122.25 million to key electronic components including PCBs and IC substrates <sup class="ref"><a href="https://www.electronics.org/blog/edip-opens-door-eu-funding-now-available-defence-electronics-including-pcbs-and-substrates" title="EDIP Opens the Door: EU Funding Now Available for Defence Electronics Including PCBs and Substrates" rel="noopener">ref</a></sup>.
+- That allocation is described as unlocking up to €350M+ in new defence manufacturing capacity <sup class="ref"><a href="https://www.electronics.org/blog/edip-opens-door-eu-funding-now-available-defence-electronics-including-pcbs-and-substrates" title="EDIP Opens the Door: EU Funding Now Available for Defence Electronics Including PCBs and Substrates" rel="noopener">ref</a></sup>.
+- The EU PCB and substrate earmark was recorded as resolving a prediction correct on EDIP, dated 23 June 2026 <sup class="ref"><a href="https://www.electronics.org/blog/edip-opens-door-eu-funding-now-available-defence-electronics-including-pcbs-and-substrates" title="EDIP Opens the Door: EU Funding Now Available for Defence Electronics Including PCBs and Substrates" rel="noopener">ref</a></sup>.
 
 ## Frontier (open questions)
 

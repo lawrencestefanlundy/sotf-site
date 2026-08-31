@@ -74,19 +74,19 @@ The moat is among the deepest in technology: decades of engineering, qualified f
 Net read: the served digital-implementation pool is accelerating, pulled up by AI-accelerator design starts and a step-specific shift (backside power, multi-die) that makes floorplanning harder and stickier.
 
 - **Drivers**
-  - AI-accelerator demand is multiplying advanced-node design starts, the true unit driver for this step: TSMC's N2 family has logged ~1.5x the tape-outs 3nm had at the same point [9], and Cadence raised 2026 guidance to ~17% YoY with core EDA up 18%, citing advanced digital implementation at AI-infrastructure customers [10].
-  - The AI-EDA sub-segment (RL optimisers like DSO.ai/Cerebrus, now agentic) is forecast at ~24% CAGR to 2032 [11], and these tools sit directly on floorplanning/PPA search, raising the value of the platform per seat.
-  - Multi-die / 3D-IC re-architects floorplanning into system-level chiplet+interposer planning (Cadence Integrity 3D-IC, Synopsys 3DIC Compiler), a higher-priced flow than single-die P&R [12].
+ - AI-accelerator demand is multiplying advanced-node design starts, the true unit driver for this step: TSMC's N2 family has logged ~1.5x the tape-outs 3nm had at the same point [9], and Cadence raised 2026 guidance to ~17% YoY with core EDA up 18%, citing advanced digital implementation at AI-infrastructure customers [10].
+ - The AI-EDA sub-segment (RL optimisers like DSO.ai/Cerebrus, now agentic) is forecast at ~24% CAGR to 2032 [11], and these tools sit directly on floorplanning/PPA search, raising the value of the platform per seat.
+ - Multi-die / 3D-IC re-architects floorplanning into system-level chiplet+interposer planning (Cadence Integrity 3D-IC, Synopsys 3DIC Compiler), a higher-priced flow than single-die P&R [12].
 
 - **Constraints**
-  - Two-vendor concentration plus brutal switching/certification costs cap who captures the upside, but also cap new-entrant growth; the pool grows with the incumbents, not around them (see body).
-  - China is ~12-16% of incumbent revenue and a policy football: BIS restricted EDA sales to China in May 2025, then reversed in July 2025 [13]. A re-imposed control is a live downside to the served market.
-  - Demand tracks the semiconductor capex cycle and design-start volume; a fabless slowdown outside AI would slow seat growth.
+ - Two-vendor concentration plus brutal switching/certification costs cap who captures the upside, but also cap new-entrant growth; the pool grows with the incumbents, not around them (see body).
+ - China is ~12-16% of incumbent revenue and a policy football: BIS restricted EDA sales to China in May 2025, then reversed in July 2025 [13]. A re-imposed control is a live downside to the served market.
+ - Demand tracks the semiconductor capex cycle and design-start volume; a fabless slowdown outside AI would slow seat growth.
 
 - **Trends & inflections to watch**
-  - Backside power delivery (BSPDN) at 2nm forces BPDN-aware floorplanning and PDN re-architecture, a genuine tool-content increase for THIS step [14]. Tripwire: foundry 2nm BSPDN reaches volume production with EDA-certified backside-aware P&R flows shipping (TSMC/Intel, 2026-2027).
-  - Agentic EDA moving from point-optimiser to full-flow autonomy (Cadence InnoStack/AgentStack for digital implementation) [10]. Tripwire: an incumbent reports a named customer taping out a 2nm-class design through an agentic implementation flow at production quality.
-  - Cerebrus-class RL is past 1,000 tape-outs [15]. Tripwire: AI-optimiser attach disclosed as a distinct double-digit % of implementation-tool revenue on an earnings call.
+ - Backside power delivery (BSPDN) at 2nm forces BPDN-aware floorplanning and PDN re-architecture, a genuine tool-content increase for THIS step [14]. Tripwire: foundry 2nm BSPDN reaches volume production with EDA-certified backside-aware P&R flows shipping (TSMC/Intel, 2026-2027).
+ - Agentic EDA moving from point-optimiser to full-flow autonomy (Cadence InnoStack/AgentStack for digital implementation) [10]. Tripwire: an incumbent reports a named customer taping out a 2nm-class design through an agentic implementation flow at production quality.
+ - Cerebrus-class RL is past 1,000 tape-outs [15]. Tripwire: AI-optimiser attach disclosed as a distinct double-digit % of implementation-tool revenue on an earnings call.
 
 ## Connections
 - [EDA & Design Tools](/manufacturing/foundry-design/eda-design-tools/)

@@ -74,15 +74,15 @@ Value capture is weak and dispersed. There is no moat in the step itself, it is 
 ## Market drivers, constraints & trends
 Net read: low-single-digit growth in the commodity core, with one genuine up-mix lever (inspection moving up-value as packaging gets harder to look at).
 - **Drivers**
-  - Unit volume + miniaturisation: >740m metres of carrier tape consumed/year, and sub-3mm parts force tighter ±0.02mm cavity tolerance, a higher-spec (higher-ASP) tape; embossed-tape pool ~USD 0.67bn 2026 at ~3.4% CAGR [10].
-  - Traceability mandates: AEC-Q100 automotive qualification and lifetime root-cause tracing make a per-die 2D data-matrix mark non-optional, locking marking volume to every automotive/industrial part [11].
-  - Advanced-packaging up-mix: chiplet / 3D-IC / heterogeneous integration needs custom-cavity tape and AI defect classification, and pushes a new wafer-level marking slice (wafer laser marker ~USD 222m 2023 to ~334m 2030, 6.2% [12]) growing faster than legacy package marking.
+ - Unit volume + miniaturisation: >740m metres of carrier tape consumed/year, and sub-3mm parts force tighter ±0.02mm cavity tolerance, a higher-spec (higher-ASP) tape; embossed-tape pool ~USD 0.67bn 2026 at ~3.4% CAGR [10].
+ - Traceability mandates: AEC-Q100 automotive qualification and lifetime root-cause tracing make a per-die 2D data-matrix mark non-optional, locking marking volume to every automotive/industrial part [11].
+ - Advanced-packaging up-mix: chiplet / 3D-IC / heterogeneous integration needs custom-cavity tape and AI defect classification, and pushes a new wafer-level marking slice (wafer laser marker ~USD 222m 2023 to ~334m 2030, 6.2% [12]) growing faster than legacy package marking.
 - **Constraints**
-  - Commoditisation: Chinese builders (Han's Laser et al) price entry fiber/CO2 markers 50-70% below Western tools, compressing margins (Han's net ~7% 2025); the step's economics get worse, not better [13].
-  - Cyclicality + pass-through: revenue tracks unit shipments and OSAT capex, no pricing power; value accrues upstream and is merely passed through here.
+ - Commoditisation: Chinese builders (Han's Laser et al) price entry fiber/CO2 markers 50-70% below Western tools, compressing margins (Han's net ~7% 2025); the step's economics get worse, not better [13].
+ - Cyclicality + pass-through: revenue tracks unit shipments and OSAT capex, no pricing power; value accrues upstream and is merely passed through here.
 - **Trends & inflections to watch**
-  - AI/deep-learning AOI: rule-based inspection gives way to trained models (>99% vs ~80% human), the one place a smaller player can differentiate on algorithms [14]. Tripwire: an OSAT publicly qualifying a deep-learning ADC AOI line as primary (not assist) by 2027.
-  - Glass-substrate / FOPLP shift: glass reportedly renders legacy AOI obsolete (transparent/reflective), implying an inspection replacement super-cycle [15]; but pilot only in 2026, >20% penetration not before 2028 [15]. Absolics' Covington (Georgia) high-volume glass line is now built, targeting AMD/Amazon AI-package contracts by end-2026 [16], which forces new transparent-substrate AOI. Tripwire: a named panel/TGV-substrate AOI tool qualified into an Absolics or Samsung Electro-Mechanics glass line in volume by 2027-28.
+ - AI/deep-learning AOI: rule-based inspection gives way to trained models (>99% vs ~80% human), the one place a smaller player can differentiate on algorithms [14]. Tripwire: an OSAT publicly qualifying a deep-learning ADC AOI line as primary (not assist) by 2027.
+ - Glass-substrate / FOPLP shift: glass reportedly renders legacy AOI obsolete (transparent/reflective), implying an inspection replacement super-cycle [15]; but pilot only in 2026, >20% penetration not before 2028 [15]. Absolics' Covington (Georgia) high-volume glass line is now built, targeting AMD/Amazon AI-package contracts by end-2026 [16], which forces new transparent-substrate AOI. Tripwire: a named panel/TGV-substrate AOI tool qualified into an Absolics or Samsung Electro-Mechanics glass line in volume by 2027-28.
 
 ## Connections
 [Semiconductor Packaging](/manufacturing/packaging/packaging/)

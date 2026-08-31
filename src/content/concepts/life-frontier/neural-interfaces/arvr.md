@@ -13,16 +13,16 @@ sources:
 - '[[2023-05-25-interview-ben-mildenhall-co-inventor]]'
 - '[[2026-08-03-spad-single-photon-market-scan]]'
 - '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
-frontier: []
-last_updated: '2026-05-04'
-tags:
-- concept
-- technology
+scorecard:
+  viability: null
+  drivers: null
+  novelty: null
+  diffusion: null
+  impact: null
+  timing_band: Unclear
+  verdict: ''
+scorecard_status: draft
 mention_count: 33
-last_reorg_date: '2026-05-13'
-descendants:
-- ar-glasses-stack
-- ar-optical-combiners
 sources_7d: 0
 sources_30d: 4
 recent_mentions:
@@ -44,32 +44,29 @@ recent_mentions:
   kind: substack
 neighbors: []
 ---
-## Physics / mechanism
+**AR/VR is the near-eye display and spatial-computing category that pulls together miniature optics, depth sensing, stretchable displays and on-device 3D reconstruction, and the 2026 literature shows its enabling components advancing in the lab while the flagship optical shortcut, the metalens eyepiece, fails at system level.**
 
-AR overlays digital content onto the physical world; VR replaces it entirely. Both pipelines share a common optics stack: display (micro-OLED, microLED, LCoS, or laser scanning), waveguide or lens combiner, and tracking (IMU + SLAM + eye-tracking). Key parameters: field of view (current AR ~50–60°, target >90°), exit pupil, see-through efficiency, and photon-to-photon latency (<20 ms threshold for comfort). Waveguides — diffractive (surface relief gratings, volume holograms) or reflective — are the critical bottleneck; coupling efficiency and rainbow artifact suppression remain unsolved at volume yield. MicroLED arrays (1–5 µm pitch) are the likely long-term display winner but fab yield at colour is <40% today.
+## Summary
 
-## Competitive landscape
+AR/VR head-worn systems need four things at once: an image source, an optic that puts that image on the retina from a few millimetres away, sensors that map the room and the wearer, and enough local compute to render and track at low latency inside a thermal budget. Each of those is a separate hardware discipline, and the sources here are almost entirely component papers that name AR/VR as their motivating application rather than assessments of headsets themselves.
 
-Meta Quest 3 dominates volumetric VR; Apple Vision Pro anchors premium passthrough AR at $3,499 — neither is a mass market device. Competing form factors: smart glasses (Ray-Ban Meta, no waveguide), laser-scanning retinal (Bosch, Dispelix), and holographic waveguide (WaveOptics/Snap, Lumus, Vuzix). Key substitutes are 2D mobile and large-format displays — incumbent inertia is enormous.
+On optics, the standard proposal has been to replace the bulky refractive eyepiece with a metalens, a flat nanostructured surface that focuses by diffraction. A 2026 study designed, fabricated and benchmarked a single-layer silicon nitride metalens tuned to the three emission peaks of an RGB OLED, and found that although it looks excellent by the usual metrics of point spread function and modulation transfer function under coherent light, it produces pronounced ghosting and background haze in a realistic testbed with incoherent OLED illumination, a dynamic-pupil eye model and near-eye focal lengths. The cause is intrinsic: polychromatic diffractive focusing is inherently multifocal. That is a rare and useful negative result, and it tells you the metric you evaluate a near-eye optic on decides whether you believe it works.
 
-| Approach | FOV | Efficiency | Fab complexity |
-|---|---|---|---|
-| SRG diffractive waveguide | 50–60° | ~5–15% | High (nanoimprint/etch) |
-| Reflective waveguide (Lumus) | 50–55° | ~70% | Medium |
-| Retinal laser scan | ~70°+ | High | Medium (MEMS) |
+Around that sit the supporting layers. Visible-wavelength photonic integrated circuits are the route to compact RGB light engines, and a 200 mm CMOS pilot line now demonstrates a dual silicon nitride platform with active components added by micro-transfer printing as a back-end step; a visible spectral-domain OCT method has just been shown as the missing nondestructive diagnostic for those circuits, with 50 dB dynamic range and 8 um axial resolution in silicon nitride. For sensing, a 320x240 SPAD direct time-of-flight flash LiDAR reaches 108 m range with 2.93 mm depth resolution at 167.4 mW array power in 110 nm CMOS. For compute, a compute-in-memory architecture for Gaussian splatting reports 18 pJ per log-likelihood inference, aimed at edge robotics and AR/VR. And for form factor, a heterogeneous-modulus PDMS substrate achieves near-zero Poisson ratio so stretchable displays stop distorting laterally under strain.
 
-## Companies using
+The parameters that decide the category, as these sources frame it, are: system-level image quality under incoherent, dynamic-pupil conditions rather than bench PSF; milliwatt-class power for always-on depth sensing and reconstruction; and whether visible photonics can be manufactured at wafer scale with usable process control. Note that this concept sits under neural interfaces in the taxonomy, but none of the supplied sources connect AR/VR to neural interfacing in any way.
 
-<!-- dataview block stripped for public site -->
+## Viability (unscored)
 
-## Connected ideas
+## Drivers (unscored)
 
-<!-- dataview block stripped for public site -->
+## Novelty (unscored)
 
-## Sources
+## Diffusion (unscored)
 
-<!-- dataview block stripped for public site -->
+## Impact (unscored)
 
-## Frontier (open questions)
+## Timing Unclear
 
-- *To be added.*
+---
+*Assessment drafted 2026-08-31 from up to 11 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

@@ -16,11 +16,11 @@ sources:
 - '[[2023-08-31-e13-chiplets-how-chip-lego-is-driving]]'
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
-mention_count: 18
+mention_count: 19
 parent_concepts:
 - packaging
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
 - slug: 2023-08-31-e13-chiplets-how-chip-lego-is-driving
   title: '🔮 E13: Chiplets - How Chip Lego is Driving AI Progress'
@@ -87,7 +87,7 @@ Net read: a steady-to-cyclical mature pool, not a decliner. The volume centre ke
 3. K&S ball-bonder historic share (near 60-70% peaks) — https://portersfiveforce.com/blogs/competitors/kns
 4. Wire-bonder competitive landscape (ASMPT largest back-end vendor; K&S, Hesse, F&K Delvotec, Palomar) — https://www.maximizemarketresearch.com/market-report/global-wire-bonder-equipment-market/72738/
 5. ASMPT 2024 annual results (group rev ~USD 1.69bn; largest back-end assembly equipment vendor) — https://www.asmpt.com/en/investor-relations/news-events/asmpt-announces-2024-fourth-quarter-results/
-6. Hesse & F&K Delvotec (German wedge/heavy-wire bonder leaders) — https://www.hesse-mechatronics.com/en/ ; https://www.fkdelvotec.com/en/
+6. Hesse & F&K Delvotec (German wedge/heavy-wire bonder leaders) — https://www.hesse-mechatronics.com/en/; https://www.fkdelvotec.com/en/
 7. Bonding-wire market size and share (Heraeus/Tanaka/MK Electron ~29%; Heraeus+Tanaka >40% of gold wire; ~USD 9-13bn 2024 scope-dependent) — https://reports.valuates.com/market-reports/QYRE-Auto-26Y16315/global-semiconductor-packaging-bonding-wire
 8. Tighter semiconductor packaging bonding-wire sizing (~USD 4bn cut; gold ~55% of wire by type 2023) — https://www.verifiedmarketreports.com/product/bonding-wires-market/
 9. Gold-to-copper/PCC transition drivers (gold > USD 2,000/oz; PCC fastest growth) — https://www.intelmarketresearch.com/palladium-coated-copper-bonding-wires-market-15387

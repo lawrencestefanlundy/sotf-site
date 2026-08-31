@@ -74,19 +74,19 @@ The revenue pool sits in the substrate itself: ~$16.6bn (2024) heading to ~$31bn
 Net read: accelerating into a multi-year up-cycle. ABF substrates re-entered shortage in H1 2026 and the served pool (substrate makers' capex plus per-unit ABF) is forecast to widen its supply gap through 2027-2028 [9][11].
 
 - **Drivers**
-  - AI accelerator packages are climbing from 3+3 to 11+11 and toward 13+13 build-up layers, so substrate area and ABF volume per chip rise simultaneously, not linearly [9]. AI-packaging demand is forecast at ~30% annual growth over the next two years [12].
-  - Capex is committing ahead of revenue: Ibiden is spending ~$3.3bn (JPY 500bn) over three years from FY2026, Unimicron and Kinsus have raised 2026 capex, and Morgan Stanley models a ~105% earnings CAGR for Unimicron 2025-2028 [11]. Each build pulls equipment spend (litho, plating, inspection).
-  - The glass-core route opens a second, parallel toolset and materials chain on top of organic, not a substitution [13].
+ - AI accelerator packages are climbing from 3+3 to 11+11 and toward 13+13 build-up layers, so substrate area and ABF volume per chip rise simultaneously, not linearly [9]. AI-packaging demand is forecast at ~30% annual growth over the next two years [12].
+ - Capex is committing ahead of revenue: Ibiden is spending ~$3.3bn (JPY 500bn) over three years from FY2026, Unimicron and Kinsus have raised 2026 capex, and Morgan Stanley models a ~105% earnings CAGR for Unimicron 2025-2028 [11]. Each build pulls equipment spend (litho, plating, inspection).
+ - The glass-core route opens a second, parallel toolset and materials chain on top of organic, not a substitution [13].
 
 - **Constraints**
-  - Announced capacity and real supply are ~36 months apart, gated by a yield learning curve money cannot compress; upside is materials-limited (Ibiden has secured ABF for guidance but "not yet" for upside) [9].
-  - ABF is a single-vendor chokepoint: Ajinomoto (>95% share) hiked film prices ~30% and only adds ~50% capacity by ~2030, its third plant not online until 2032 [10][11].
-  - Board-economics cyclicality: a >30% annual demand swing can flip the pool from shortage to overbuild fast [12].
+ - Announced capacity and real supply are ~36 months apart, gated by a yield learning curve money cannot compress; upside is materials-limited (Ibiden has secured ABF for guidance but "not yet" for upside) [9].
+ - ABF is a single-vendor chokepoint: Ajinomoto (>95% share) hiked film prices ~30% and only adds ~50% capacity by ~2030, its third plant not online until 2032 [10][11].
+ - Board-economics cyclicality: a >30% annual demand swing can flip the pool from shortage to overbuild fast [12].
 
 - **Trends & inflections to watch**
-  - Glass-core qualification: 2026-2027 is the qualification phase, 2027-2028 the start of high-volume manufacturing. Tripwire: Absolics commercial output to AMD by end-2026; Samsung SEMCO mass production post-2027 [13][14].
-  - Panel-level scale-up to ~600mm formats (Onto JetStep S3500, Dragonfly G5 shipping June 2026). Tripwire: first AI substrate qualified on panel rather than strip [12].
-  - Sub-30um line/space FC-BGA for 2.5D/3D. Tripwire: a 13+13-layer substrate in volume confirms the layer-count ramp [9].
+ - Glass-core qualification: 2026-2027 is the qualification phase, 2027-2028 the start of high-volume manufacturing. Tripwire: Absolics commercial output to AMD by end-2026; Samsung SEMCO mass production post-2027 [13][14].
+ - Panel-level scale-up to ~600mm formats (Onto JetStep S3500, Dragonfly G5 shipping June 2026). Tripwire: first AI substrate qualified on panel rather than strip [12].
+ - Sub-30um line/space FC-BGA for 2.5D/3D. Tripwire: a 13+13-layer substrate in volume confirms the layer-count ramp [9].
 
 ## Connections
 [BT / ABF Substrates](/manufacturing/packaging/substrate-bt-abf/) · [Glass Interposers](/manufacturing/packaging/glass-interposers/) · thesis: **Advanced Packaging Market**

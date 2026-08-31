@@ -28,16 +28,15 @@ sources:
 - '[[2024-08-30-optical-dram-integrated-magneto-photonic-non-volatile-multi]]'
 - '[[2026-04-20-optical-dram-photonic-memory-device-technology-2026-patsnap]]'
 - '[[2026-05-07-optical-dram-startup-funding-q1-2026]]'
-frontier:
-- Does anyone demonstrate integrated, on-chip sub-diffraction magneto-optical addressing? This is the field-wide open gap and the single observable that converts the density argument from physics-in-principle into a device.
-- Does optical (not electrical/Hall) readout of a magnetic bit get integrated on a PIC? The strongest demo in the class (arXiv 2511.02440) still reads out electrically.
-- Is the integration process cornerable by a startup, or is it the kind of process moat only a capex-heavy incumbent holds?
-last_updated: '2026-07-15'
-tags:
-- concept
-- core-concept
-descendants:
-- all-optical-switching
+scorecard:
+  viability: 2
+  drivers: 2
+  novelty: 3
+  diffusion: 2
+  impact: null
+  timing_band: Later (5-10yr)
+  verdict: Too early to say
+scorecard_status: draft
 mention_count: 23
 sources_7d: 0
 sources_30d: 1
@@ -84,35 +83,49 @@ neighbors:
   path: /memory/emerging-memory/magnetic-tunnel-junction/
   macro: memory
 ---
-The memory medium where **the bit is a magnetic domain, not an optical mode**. Light is used to write (and ideally read) the state, but the state itself lives in magnetisation. This distinction is the whole reason the concept matters, and it is the core of **Optical Dram**.
+**Magneto-optical memory stores bits in the magnetisation of a material and writes or reads them with light on a photonic chip; cell-level demonstrations and wafer-scale garnet films on silicon now exist, but nothing resembling an addressable array does.**
 
-## Why the distinction is load-bearing
+## Summary
 
-Store-it-in-light memory (optical modes, resonators, PCM in a waveguide) is confined by the diffraction limit: the bit cannot be much smaller than roughly the wavelength, which puts the cell around 750 nm and up, orders of magnitude away from a DRAM cell. That density ceiling is the standard, correct reason to dismiss optical memory as cache-only.
+Magneto-optical (MO) memory combines two mature ideas. The storage element is magnetic and therefore non-volatile: a magnetic tunnel junction, a ferrimagnetic garnet film, or a two-dimensional magnet. The access mechanism is optical: light either flips the magnetisation directly (all-optical switching, typically with femtosecond pulses) or senses it through the Faraday and Kerr effects, in which magnetisation rotates the polarisation of transmitted or reflected light. Put on a photonic integrated circuit, the appeal is that a photonic processor could keep its weights or state in place without converting to the electrical domain to read or write them.
 
-Magneto-optical escapes the miniaturisation leg of that ceiling. Magnetic domains are nm-scale and can in principle be addressed sub-diffraction; **HAMR is the shipped precedent** (Seagate's near-field transducer takes an 830 nm source to a ~35 nm spot, in a product). What it concedes is multiplexing: a magnetic domain is stateful and cannot be wavelength-multiplexed the way light in a waveguide can.
+## Viability (2/5)
 
-So the density argument is a trade, not a free win, and the binding constraint moves from the medium to the **addressing**: how one diffraction-limited optical port serves many nanoscale domains on a photonic IC. Nobody has shown this integrated and at scale. Racetrack/domain-wall shifting is proposed in the literature as the route, not demonstrated.
+**TLDR: Working single cells and wafer-scale films; no addressable array and no solution to sub-diffraction addressing.**
 
-## State of the art (as of Jul 2026)
+## Drivers (2/5)
 
-**The field-wide gap: optical readout integration.** Everyone can write with light. Reading the bit back optically, on-chip, at density, is unshown.
+On the supply side there is a coherent push: wafer-scale garnet on silicon with the metrology needed to qualify it, a steady flow of magnetic-materials work that improves the underlying switching physics (strain tuning of demagnetisation in a room-temperature van der Waals ferromagnet, with 1.2% tensile strain cutting demagnetisation time by about 20%; magnetically switchable chiral second-harmonic emission with remanent states in bilayer CrSBr), and adjacent chip-scale light modulation capability such as a non-suspended push-pull TFLN acousto-optic modulator at 1.004 V cm and 132.5 MHz bandwidth.
 
-## Research lineage
+On the demand side the evidence points elsewhere. Money is flowing into photonic compute boxes with integrated memory (Olix raised $220M Series A for an optical tensor processing unit with integrated memory <sup class="ref"><a href="https://semiengineering.com/startup-funding-q1-2026/" title="Startup Funding: Q1 2026" rel="noopener">ref</a></sup>) and into electrically-addressed MRAM, where Everspin reported 238 design wins in 2025 ramping to production <sup class="ref"><a href="https://www.sec.gov/Archives/edgar/data/0001438423/000162828026028376/mram-20260331xexx991.htm" title="Everspin Reports Q1 2026 Financial Results" rel="noopener">ref</a></sup>. Neither is a customer asking for optically addressed magnetic memory; both are plausible acquirers of the IP. Score 2 because pull is inferred, not observed.
 
-**Corrected 15 Jul 2026 by the sourcing sprint** (optical dram lab map). The prior KB claim — that a Dutch axis is the whole field, with TU/e producing AIMA and Radboud producing MemStera — is wrong twice over.
+**TLDR: Supply-side materials and metrology progress is genuine; the sources show no demand pull for MO memory specifically.**
 
-There are **two disjoint communities that barely co-author**, and they own opposite halves of the product:
+## Novelty (3/5)
 
-| | Optical WRITE | Optical READ |
-|---|---|---|
-| **TU Eindhoven** (Koopmans, Lavrijsen, Jiao) + LioniX | On-chip AOS, Co/Gd on SiN waveguide, 90% contrast at 500 nm (arXiv 2511.02440) | No. Readout is electrical (Hall). |
-| **UCSB / Pittsburgh** (Pintus, Youngblood, Bowers) + AIST/Tokyo Tech | No. Write is an integrated gold electromagnet. | Ce:YIG on Si microring, **2.4 billion cycles, ~1 ns, 143 fJ/bit** (Nature Photonics 2025) |
+**TLDR: One quantified 100x speed advantage over incumbent photonic memory, with an unnamed comparator and no comparison against electronic memory.**
 
-Nobody has demonstrated optical write **and** optical read of a sub-diffraction magnetic bit on chip. The gap is not closed — but both halves exist, in labs on different continents with no incentive to combine. That is the sprint's central structural finding.
+## Diffusion (2/5)
 
-**IP caution:** Radboud's AOS estate likely traces to **SPICE** (EU Horizon 2020 FET-Open), co-partied with **Aarhus, imec and CEA-Spintec**, and rated "Excellent Innovation" by the EC Innovation Radar in Feb 2021. Any licence may carry co-rights. Unresolved; needs an Espacenet inventor search.
+**TLDR: The garnet process is heading for isolators, not memory; MO memory has no product channel in the sources.**
 
-## Position
+## Impact (unscored)
 
-Full argument, sizing, and the capture risk: **Optical Dram**.
+A score here would be invented. It is left null deliberately. The specific numbers that would allow one are listed in the open questions.
+
+**TLDR: The sources do not size the system-level gain or the market, so no defensible score.**
+
+## Timing Later (5-10yr)
+
+Even on an optimistic reading in which that milestone clears in 2027, the path from a sub-diffraction single-cell write to an array with characterised read margin, retention and yield is a multi-year programme, and the sources give no evidence that any organisation is running one. Later (5-10yr) is the honest band for a memory product; anyone promising sooner should be asked for the addressing scheme.
+
+## Overrated or underrated? Too early to say
+
+## Prediction
+
+## Evidence base
+
+## Open questions
+
+---
+*Assessment drafted 2026-08-31 from up to 11 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

@@ -99,7 +99,7 @@ neighbors:
 ---
 Dollar tokens redeemable 1:1 against reserves, used as an on-chain settlement instrument. The thing worth understanding about them in mid-2026 is not that they work but that the economics of issuing them are being taken apart, which changes who is worth backing anywhere in the stack.
 
-> Researched 21 July 2026 (stablecoin market structure). Figures are point-in-time. Where sources disagree the spread is shown rather than averaged.
+> Researched 21 July 2026 (). Figures are point-in-time. Where sources disagree the spread is shown rather than averaged.
 
 ## Size and structure
 

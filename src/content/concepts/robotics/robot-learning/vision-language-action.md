@@ -26,21 +26,21 @@ neighbors: []
 
 Vision language action (VLA) models are robot policies that take camera images and a natural language instruction as input and output motor commands. Because the language channel is a first-class input, the mapping from instruction text to joint trajectories is learned from demonstration episodes rather than specified programmatically. This makes the training corpus, typically a set of teleoperated episodes recorded on a specific robot and task, the primary determinant of behaviour.
 
-The same property creates a specific failure surface. Because instruction text conditions the action output, a token that appears in a small number of demonstrations can be associated with an arbitrary target behaviour. Work on smolVLA shows that trigger-word data poisoning of VLA models is practical: a few poisoned samples embed a backdoor that disables the robot on command imperio smolvla the implications of data poisoning on open s.
+The same property creates a specific failure surface. Because instruction text conditions the action output, a token that appears in a small number of demonstrations can be associated with an arbitrary target behaviour. Work on smolVLA shows that trigger-word data poisoning of VLA models is practical: a few poisoned samples embed a backdoor that disables the robot on command.
 
-The key parameter is the poison ratio. Three poisoned episodes in 320 clean episodes were sufficient for complete denial of service on a real-world pick-and-place task, with success rate dropping to 0.0 plus minus 0.0% across all trigger-word conditions; the robot locked into a fixed joint configuration rather than executing task-relevant motion imperio smolvla the implications of data poisoning on open s. Behaviour under clean prompts remained at approximately 50% success across all poison ratios tested, so the attack is not detectable from nominal task performance imperio smolvla the implications of data poisoning on open s.
+The key parameter is the poison ratio. Three poisoned episodes in 320 clean episodes were sufficient for complete denial of service on a real-world pick-and-place task, with success rate dropping to 0.0 plus minus 0.0% across all trigger-word conditions; the robot locked into a fixed joint configuration rather than executing task-relevant motion. Behaviour under clean prompts remained at approximately 50% success across all poison ratios tested, so the attack is not detectable from nominal task performance.
 
 ## Competitive landscape
 
-The sources do not compare VLA architectures against each other or against classical robot control. They position VLAs within an open-source robotics ecosystem, with smolVLA trained and evaluated on the LeRobot platform, and note that this ecosystem holds trust assumptions about community contributions that the poisoning result undermines imperio smolvla the implications of data poisoning on open s. The relevant axis of comparison is therefore supply-chain provenance for datasets and checkpoints rather than policy performance.
+The sources do not compare VLA architectures against each other or against classical robot control. They position VLAs within an open-source robotics ecosystem, with smolVLA trained and evaluated on the LeRobot platform, and note that this ecosystem holds trust assumptions about community contributions that the poisoning result undermines. The relevant axis of comparison is therefore supply-chain provenance for datasets and checkpoints rather than policy performance.
 
 ## Evidence base
 
-- Trigger-word data poisoning of vision language action models was shown to be practical against smolVLA on a real-world pick-and-place task, evaluated on the LeRobot platform (7 July 2026) imperio smolvla the implications of data poisoning on open s.
-- Three poisoned episodes among 320 clean episodes sufficed for a complete denial of service imperio smolvla the implications of data poisoning on open s.
-- Success rate fell to 0.0 plus minus 0.0% across all trigger-word conditions, with the robot locking into a fixed joint configuration imperio smolvla the implications of data poisoning on open s.
-- Clean-prompt success held at approximately 50% across all poison ratios, indicating the backdoor is stealthy under normal operation imperio smolvla the implications of data poisoning on open s.
-- The work was published in the cs.CR category as arXiv:2607.04146v1 (7 July 2026) imperio smolvla the implications of data poisoning on open s.
+- Trigger-word data poisoning of vision language action models was shown to be practical against smolVLA on a real-world pick-and-place task, evaluated on the LeRobot platform (7 July 2026).
+- Three poisoned episodes among 320 clean episodes sufficed for a complete denial of service.
+- Success rate fell to 0.0 plus minus 0.0% across all trigger-word conditions, with the robot locking into a fixed joint configuration.
+- Clean-prompt success held at approximately 50% across all poison ratios, indicating the backdoor is stealthy under normal operation.
+- The work was published in the cs.CR category as arXiv:2607.04146v1 (7 July 2026).
 
 ## Frontier (open questions)
 

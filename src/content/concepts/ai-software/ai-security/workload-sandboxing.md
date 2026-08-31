@@ -64,7 +64,7 @@ Running untrusted code so that it cannot reach anything it was not given. The 20
 
 **Kata Containers** is the orchestration layer that makes microVMs behave like containers under Kubernetes, and since 3.x it carries confidential-container support (Intel TDX, AMD SEV-SNP) so the host operator cannot read guest memory. NVIDIA's GPU Operator integrates it directly, single-GPU passthrough only.
 
-**Why this is now a market:** AI agents write and execute code, so somebody must run untrusted code as a product. **E2B** ($35M, per-run Firecracker kernels) and **Daytona** ($24M Series A, shared-kernel containers, went closed-source in Jun 2026 citing security) monetise it as a developer SDK, with Modal and Fly Machines pressing from the platform side. The 2026 read is that the sandbox is the most contested slot in the agent stack. See isolation sourcing sprint.
+**Why this is now a market:** AI agents write and execute code, so somebody must run untrusted code as a product. **E2B** ($35M, per-run Firecracker kernels) and **Daytona** ($24M Series A, shared-kernel containers, went closed-source in Jun 2026 citing security) monetise it as a developer SDK, with Modal and Fly Machines pressing from the platform side. The 2026 read is that the sandbox is the most contested slot in the agent stack. See.
 
 ## Related
 

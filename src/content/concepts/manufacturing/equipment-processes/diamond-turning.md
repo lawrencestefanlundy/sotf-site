@@ -9,13 +9,7 @@ parent_concepts:
 - equipment-processes
 related_concepts: []
 sources: []
-frontier: []
-last_updated: '2026-05-04'
-tags:
-- concept
-- technology
 mention_count: 3
-last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions: []

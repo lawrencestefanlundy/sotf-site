@@ -12,7 +12,7 @@ related_concepts:
 - confidential-computing
 - photonic-compute-market
 created: 2026-06-20
-last_updated: 2026-06-20
+last_updated: '2026-08-31'
 tags:
 - concept
 - landscape
@@ -25,6 +25,20 @@ mention_count: 14
 parent_concepts:
 - compute-architecture
 - compute
+scorecard:
+  viability: null
+  drivers: null
+  novelty: null
+  diffusion: null
+  impact: null
+  timing_band: Unclear
+  verdict: Too early to say
+scorecard_status: draft
+frontier:
+- What end-to-end speedup, not kernel-level speedup, does dedicated hardware achieve for FHE bootstrapping and for zero-knowledge proof generation against a well-tuned contemporaneous GPU baseline?
+- Are these workloads limited by arithmetic throughput or by on-chip capacity and external bandwidth, and does that make the problem a memory-system problem that general-purpose parts will absorb rather than a case for dedicated silicon?
+- Does the post-quantum migration create demand for new accelerator arithmetic, or is it absorbed by existing CPU instruction-set extensions and firmware updates?
+- How much of the design and verification budget for a cryptographic accelerator goes to side-channel and fault resistance, given the argument that heterogeneity and third-party IP have pushed security validation to the forefront of semiconductor design 2026 06 05 emulation based system on chip security verification challen?
 sources_7d: 0
 sources_30d: 1
 recent_mentions:
@@ -38,66 +52,87 @@ recent_mentions:
   kind: substack
 neighbors: []
 ---
-Map built 20 Jun 2026 from four parallel research passes (ZKP, PQC + secure-element/HSM, classical offload, mining + MPC + convergence), broadening out from **Fhe Acceleration Silicon**. Vehicle-agnostic: ranked by where durable value accrues; the investment vehicle is the routing line at the foot.
+**Cryptographic compute acceleration is the class of specialised silicon and hardware/software co-design built to make expensive cryptographic primitives (homomorphic encryption, zero-knowledge proofs, multiparty computation, post-quantum lattice schemes) cheap enough to run in production, and the supplied source set contains no material on it, so no scored assessment is possible here.**
 
-## The one-line read
-**Across every category the cryptographic primitive itself is free, public and standardised, so value does not accrue to the standalone accelerator. It accrues to the substrate the accelerator rents (TSMC leading-edge foundry, Nvidia GPUs), the EDA/IP catalogue it competes against (Synopsys / Cadence / Rambus), and the certified-implementation + software/ISA layer on top.** The whole stack is incumbent- or foundry-captured. The only non-consensus seed-shaped wedge is a *programmable* crypto accelerator hedging algorithm churn. NOTE (corrected 20 Jun 2026 after Lawrence pushback): a unified primitive IS real — see the convergence section. The earlier "over-claimed" framing was too strong.
+## Summary
 
-## Taxonomy (six categories)
+Modern privacy and verifiability primitives are not slow because they are badly written. They are slow because of what they compute. Fully homomorphic encryption turns a single plaintext arithmetic operation into work over large polynomial rings, with ciphertexts orders of magnitude larger than the data they hide and periodic bootstrapping to control noise growth. Zero-knowledge proof systems turn a computation into a large algebraic argument whose prover cost dwarfs the cost of just doing the computation. Multiparty computation adds communication rounds. Post-quantum key exchange and signature schemes shift the arithmetic profile away from the elliptic-curve and RSA operations that existing crypto offload engines were designed for. In every case there is a measurable overhead multiple against running the same workload in the clear, and the whole field is an attempt to grind that multiple down.
 
-| Category | What it accelerates | Maturity | Value-capture verdict | Routing |
-|---|---|---|---|---|
-| **PoW mining ASICs** | SHA-256, Scrypt, Ethash | Mature, ~$11B market | Chinese oligopoly (Bitmain/MicroBT/Canaan ~90%+); margin leaks to power/datacentre | Public (CAN, XYZ) |
-| **Classical offload** | AES/RSA/ECC, TLS/IPsec/MACsec | Mature, embedded feature | Fully incumbent-captured (DPU 5 + IP oligopoly 3 + hyperscaler in-house) | Public |
-| **PQC + secure element / HSM** | ML-KEM/ML-DSA, root-of-trust | Ramping (NIST 2024, CNSA-2.0 dates) | IP-licensing + incumbent SoC/HSM; pure-plays are acqui-hire-shaped | Public + PQShield-watch |
-| **ZKP / verifiable compute** | SNARK/STARK proving (MSM, NTT) | Early, token-financed, tiny fee revenue | Leaks to GPUs (Supranational does 75% of proofs); rollups commoditise | Watch (Nvidia proxy) |
-| **FHE acceleration** | Bootstrapping, encrypted inference | Early, mostly pilots | Absorbed by incumbents (Intel Heracles, Nvidia, Apple); photonic the only moat | Watch (see **Fhe Acceleration Silicon**) |
-| **MPC acceleration** | Secure multi-party compute | No real HW category | Bottleneck is network rounds, not silicon; software on commodity HW | N/A |
+"Cryptographic compute acceleration" is the landscape term for the hardware answers to that problem: fixed-function blocks in general-purpose CPUs, GPU kernels, FPGA designs, and purpose-built ASICs targeting number-theoretic transforms, large-integer modular arithmetic, polynomial multiplication, hashing and Merkle-tree construction, and elliptic-curve or lattice sampling. The interesting engineering is rarely the arithmetic unit. It is the memory system: ciphertext and witness expansion makes these workloads bandwidth and on-chip-capacity bound, so the decisive parameters are on-die SRAM per arithmetic unit, external bandwidth, and how much of the working set can be kept resident. Secondary parameters that decide products rather than papers are programmability (a fixed-function accelerator dies when the scheme or parameter set changes), toolchain and compiler maturity, and side-channel and fault resistance, since an accelerator that leaks keys is worse than no accelerator.
 
-## Where value accrues (cross-cutting)
-1. **Foundry + EDA/IP, not the chip designer.** Every credible player is fabless on TSMC leading-edge; the certain winners are TSMC and the Synopsys/Cadence/Rambus IP catalogue that bundles crypto blocks for near-zero marginal price.
-2. **GPUs hold the floor.** Supranational's sppark generates >75% of all ZKPs on commodity Nvidia; Nvidia ArctyrEX + GPU-FHE close the FHE gap. Custom silicon only wins a narrow, closeable window.
-3. **The software/ISA + certification layer is the only durable moat.** The GPU lesson is CUDA, not the transistor (Fabric's ISA, Ingonyama's ICICLE, Cysic's token-network). In PQC the moat is FIPS 140-3 / CC-certified, side-channel-hardened implementation, not the math.
-4. **Hyperscalers vertically integrate.** AWS Nitro, Azure Boost (Fungible), Google E2000 removed the biggest buyers from the merchant market. They buy startups rather than partner.
+The economics are simple to state and hard to satisfy. An accelerator has to close enough of the overhead gap that someone with a real privacy, regulatory or verifiability requirement prefers it to the status quo of trusted hardware enclaves, contractual controls, or simply not doing the computation. That means the assessment turns on measured speedups against a well-tuned CPU and GPU baseline, on whether those speedups survive end-to-end rather than kernel-level benchmarking, and on whether demand is broad or confined to a handful of blockchain and regulated-data niches.
 
-## Vendor map
+The supplied sources do not address any of this. They cover polaritonics, quantum algorithms and codes, quantum nonlocality, variational-algorithm optimisation landscapes, prompt injection in browser agents, pre-silicon security verification methodology, and investor and policy documents on compute and photonics generally. None of them contains a benchmark, a product, a market number or a research result about cryptographic accelerators. Everything below therefore records the absence of evidence rather than a judgement dressed up as one.
 
-### ZKP / verifiable-compute hardware
-| Vendor | HQ | Accelerates | Form | Stage | KB |
-|---|---|---|---|---|---|
-| Cysic | US/SG | ZK proving, MSM/NTT | ASIC (C1) + GPU; $CYS token Dec-2025 | ~$30M+ raised | **Cysic** |
-| Fabric Cryptography | US | ZK **+ FHE** (VPU, custom ISA) | programmable ASIC | $33M Series A | **Fabric Cryptography** |
-| Irreducible (ex-Ulvetanna) | US | ZK via own Binius SNARK | FPGA, ASIC roadmap | $24M Series A (Paradigm) | **Irreducible** (dup **Ulvetanna**) |
-| Ingonyama | IL | MSM/NTT; ICICLE GPU lib; ZPU | GPU lib + FPGA | $21M seed | **Ingonyama** |
-| Accseal | CN | MSM/NTT (LEO ASIC) | ASIC 12nm | opaque (~$100M val claim) | new — low-confidence |
-| Ponos Technology | CH (EU) | ZK proving | FPGA | seed Feb-2025 | new — **EU watch** |
-| Snarkify | US | GPU proving + network | GPU | a16z CSX seed | new |
-| Supranational | US | sppark/blst GPU MSM/NTT | GPU library | foundational (>75% of proofs) | new |
-| Auradine | US | bitcoin ASIC; ZK unconfirmed | 3nm ASIC | $153M Series C | new — ZK claim unverified |
+## Viability (unscored)
 
-*Software/network context (not hardware, likely buyers of merchant HW):* Succinct (SP1), Risc Zero (**Risc Zero**), =nil; (**Nil Foundation**), Lagrange, ZKM, Jolt (a16z), StarkWare S-two (client-side proving = an anti-ASIC signal). zkML toolkits (EZKL, Modulus, Giza) — no dedicated zkML silicon exists yet.
+A viability judgement here would need at least one of: measured end-to-end speedup for FHE, ZK proving or post-quantum primitives on dedicated hardware; a tape-out or FPGA demonstration with area, power and bandwidth figures; or evidence that a general-purpose part already closes the gap. The supplied sources contain none of these. The nearest hardware-security material is a survey of emulation-based system-on-chip security verification, which argues that simulation and formal methods often fail to expose vulnerabilities that only appear under realistic execution and adversarial stimuli, and that hardware emulation is emerging as a pre-silicon verification technology for security-critical designs. That is a statement about how you validate secure silicon, not about whether cryptographic accelerators work or how fast they are.
 
-*Secure elements (incumbent):* Infineon (OPTIGA), NXP, STMicro, Samsung, IDEMIA. *ISARA pivoted out of PQC-IP (cautionary tale).*
+The honest position is that this concept is present in the taxonomy without supporting evidence in this corpus. Any score assigned from these documents would be an artefact of adjacency, not of data.
 
-### PoW mining ASICs
-Bitmain (Antminer, ~50-82% share), MicroBT (Whatsminer), **Canaan** (Avalon, NASDAQ:CAN — only listed pure-play), Auradine (US reshoring, $153M C), Block/Proto (open-source 3nm, NYSE:XYZ), Jasminer (Ethash niche). Intel Blockscale discontinued; Bitfury exited Nov-2025. ~$11B market, Chinese oligopoly, US-reshoring wave on tariffs.
+**TLDR: No source in the set reports a cryptographic accelerator, benchmark or speedup, so viability cannot be scored.**
 
-## The convergence / "crypto VPU" crux (the most investable question)
-Genuine multi-primitive plays are few: **Fabric** (ZK+FHE, programmable), **Cornami** (**Cornami**, reconfigurable fabric for FHE+ZK+AI), **Ingonyama** (ZK chip + FHE via Cornami). Everyone else is single-primitive.
+## Drivers (unscored)
 
-**The shared primitive is real (verified).** Fabric's VPU has a custom ISA "including ZKP, FHE, MPC, and other algorithms" (MSM, NTT, polynomial eval, Poseidon/Blake), RISC-V core for programmability, high-bandwidth DRAM ([EE Times](https://www.eetimes.com/startup-builds-cryptography-chip/)). The academic literature backs this: lattice FHE, most ZK systems, and lattice-PQC all bottleneck on **NTT + modular arithmetic**, and a *unified* NTT/modular datapath shares almost all its circuitry across them ("apart from modular reduction circuits and multiplexors, all other circuitry in unified butterfly units is already required"; [arXiv 2504.11124](https://arxiv.org/pdf/2504.11124), [PQShield NTT](https://pqshield.com/wp-content/uploads/2024/10/High-Performance-NTT-Hardware-Accelerator-to-Support-ML-KEM-and-ML-DSA.pdf)). So a programmable engine doing ZK + FHE + PQC "well enough" is sound engineering, not marketing.
+On the demand side, the usual arguments for this technology are regulatory pressure on data use, cross-organisation analytics on sensitive data, verifiable computation for blockchains and outsourced compute, and migration to post-quantum cryptography. None of those appears in the supplied sources with any quantification. Two quantum-computing papers in the set touch the cryptanalytic story only in the most abstract way: one re-examines the role of the quantum Fourier transform in canonical query problems and introduces a single-query algorithm for an index-q hidden subgroup problem, and another extends the design space of topological quantum error-correcting codes by building them from space groups rather than pure translations. The hidden subgroup problem is the structural home of the algorithms that threaten classical public-key cryptography, and error correction is on the critical path to running them at scale, but neither paper makes a claim about cryptographic risk, timelines or hardware demand. Treating them as drivers for this concept would be reading in facts the sources do not state.
 
-**Distinguish two claims:**
-- *Well enough* (programmable engine beats CPU/GPU across all, hedges algorithm churn, amortises one tape-out over several markets) — **credible**. This is Fabric's actual claim and your correct reading.
-- *Best-in-class per workload simultaneously* — **not**, because resource ratios diverge: ZK is compute-bound (MSM ~60% of proof time + NTT), FHE is memory-bound (bootstrapping wants hundreds of MB on-chip SRAM + ~100 TB/s). A programmable die handles both but pays an efficiency tax vs a dedicated ASIC tuned to one.
+On the supply side, the set contains nothing on foundry access, IP availability, design-team formation, or funding for cryptographic accelerator work. Sources in the set that do discuss compute-hardware investment and industrial capability are either restricted from external use or address other layers of the stack entirely. No driver assessment is supportable.
 
-**Three surviving caveats:**
-1. **MPC is the weak member**, not co-equal. Most MPC is communication-bound (network rounds/bandwidth), not arithmetic-bound, so a crypto-arithmetic engine only helps the HE-based or garbled-circuit-hashing parts. ZK+FHE+PQC strong; +MPC partial.
-2. **The efficiency tax bites hardest on FHE.** Fabric uses high-bandwidth DRAM (a ZK-shaped memory system) and ships 3x FC1000 "for parallel ZK proof generation" — it is ZK-first, FHE-capable, not FHE-optimal. A dedicated FHE ASIC (SRAM-heavy: CraterLake/SHARP) still wins FHE on perf-per-watt.
-3. **Technical feasibility ≠ value capture.** A unified chip being real does not make the company a fund-returner: the programmability that makes it general concedes efficiency to single-purpose ASICs and is approximated by GPUs, and the demand is still small/subsidised. (Verdict in the routing section unchanged.)
+**TLDR: Neither supply-side capability nor demand-side pull is documented in the sources.**
 
-## Market sizing (cited in dossiers; treat as directional)
-Mining ~$11B (only real product market today). HSM ~$1.7-3.3B. Classical offload / security-IP: tens of $B but mature/slow. PQC ~$0.3-0.9B → $2-4.6B by 2030 (~40% CAGR, mostly services). ZK proving: ~$97M in 2025 (two-thirds token subsidy) → ~$1.3B by 2030 if the Ethereum L1 real-time-proving mandate lands. FHE hardware <$1B through 2030.
+## Novelty (unscored)
 
-## Sources
-Full cited vendor detail in the four 20-Jun-2026 research passes (ZKP, PQC/HSM, classical offload, mining/MPC/convergence). Key anchors: Supranational sppark (>75% of ZKPs); Chorus One ZK-proving economics; Intel Heracles (ISSCC Feb-2026); NIST FIPS 203/204/205 (Aug-2024) + CNSA-2.0; Hashrate Index mining-share; IACR/arXiv on the NTT-shared / compute-vs-memory-divergent kernel argument. See also **Fhe Acceleration Silicon Value Capture 2026 06 20**.
+Novelty in this category is measured against a specific and moving baseline, namely well-optimised CPU and GPU implementations of the same cryptographic schemes, plus the algorithmic side where better parameter choices and proof systems have repeatedly delivered improvements that eliminated the need for custom silicon. Assessing novelty therefore requires paired numbers: accelerator throughput or latency against a contemporaneous software baseline, ideally end to end. The supplied sources contain no such pairing, and indeed no cryptographic performance figures of any kind.
+
+The only hardware-adjacent quantitative claims available in this set concern unrelated layers of the compute stack and cannot substitute. This dimension is unscored.
+
+**TLDR: No baseline and no comparison: the sources never say what this would be better than, or by how much.**
+
+## Diffusion (unscored)
+
+The generic barriers for this class are well known: an accelerator is only adopted if its programming model plugs into existing cryptographic libraries and compilers, if it tracks scheme and parameter churn rather than freezing one standard into gates, if it survives security review including side-channel and fault analysis, and if it can be procured as IP or a card rather than as a research prototype. The one supplied source that speaks to any part of this is the security-verification survey, which organises prior work across assertion-based security checking, coverage-driven exploration, adversarial testing, information-flow tracking, fault injection and side-channel-oriented evaluation, and notes that increasing heterogeneity, deep hardware/software integration and third-party IP have pushed security validation to the forefront of semiconductor design. Read charitably, that supports the general claim that shipping trustworthy cryptographic hardware carries a verification cost that grows with integration complexity.
+
+That is one weak, indirect data point about the cost of validation, not evidence about who is adopting cryptographic accelerators, at what scale, or against what friction. No diffusion score is justified.
+
+**TLDR: Adoption barriers can be named generically but none is evidenced in the sources.**
+
+## Impact (unscored)
+
+If overheads for homomorphic and verifiable computation fell by the margins the field targets, the consequence would be structural rather than incremental: computation on data whose owner never decrypts it, and verifiable outsourcing of work to untrusted compute. That is the reason the category attracts attention. It is also a conditional claim, and conditional claims need evidence about how far the overhead has actually fallen and what fraction of workloads would migrate.
+
+The supplied sources provide no measurement of current overheads, no adoption data, no market sizing and no case study. Impact is unscored. Anyone needing a number here should treat this page as a request for sources rather than an assessment.
+
+**TLDR: The value at stake is plausible in principle and entirely unquantified in these sources.**
+
+## Timing Unclear
+
+Timing for this concept would be set by two clocks. The first is the overhead clock: the point at which encrypted or proven computation is cheap enough that a mainstream buyer chooses it, which is observable from benchmarks and product launches. The second is the migration clock for post-quantum cryptography, which is set by standards, compliance deadlines and any credible acceleration in cryptographically relevant quantum hardware.
+
+Neither clock is readable from the supplied sources. The quantum-side papers in the set are theory contributions on query algorithms for the index-q hidden subgroup problem and on constructing topological codes from space groups; neither offers a hardware timeline, logical-qubit count or resource estimate. Assigning a band on this basis would be invention.
+
+**TLDR: The source set contains no evidence bearing on when cryptographic acceleration matters.**
+
+## Overrated or underrated? Too early to say
+
+This is a coverage failure, not a technology judgement. The concept sits in the taxonomy under compute architecture, but the twelve supplied sources contain no cryptographic accelerator result, no benchmark, no company and no market datum. The closest genuinely relevant document is a survey of emulation-based pre-silicon security verification, which tells us something about the cost of assuring security-critical silicon under realistic and adversarial workloads, and nothing about accelerating cryptography.
+
+The correct next step is source acquisition rather than scoring: FHE and ZK hardware benchmark papers with software baselines, post-quantum migration mandates and deadlines, and any silicon or IP release in the category. Until those exist in the corpus, this page should be read as a definition and a scoping note. Readers who see confident scores on this concept elsewhere should ask what they were computed from.
+
+## Evidence base
+
+- No supplied source reports a cryptographic accelerator, benchmark, product or market figure; all scores on this page are therefore null.
+- A survey announced in 2026 argues that simulation and formal verification often fail to expose vulnerabilities that emerge only under realistic execution and adversarial stimuli, and positions hardware emulation as an increasingly important pre-silicon security verification technology as heterogeneity and third-party IP use grow.
+- The same survey organises the security-verification landscape across assertion-based checking, coverage-driven exploration, adversarial testing, information-flow tracking, fault injection and side-channel-oriented evaluation, which is the assurance burden any cryptographic hardware must carry.
+- A May 2026 theory paper re-examines the necessity of the quantum Fourier transform and gives a single-query algorithm distinguishing index 1 from index q for the hidden subgroup problem, with exact identification under stated conditions; it makes no claim about cryptanalytic capability or timelines.
+- A June 2026 paper constructs CSS topological codes from space groups combining translations with point-group operations and reports that these can exhibit greater locality than purely translation-based codes, broadening the code design space for hardware co-design.
+- A July 2026 paper shows that variational quantum algorithm optimisation landscapes with multiple objective terms can contain false traps, that is local optima that are not global, complicating trainability claims for near-term quantum methods.
+
+## Open questions
+
+- What end-to-end speedup, not kernel-level speedup, does dedicated hardware achieve for FHE bootstrapping and for zero-knowledge proof generation against a well-tuned contemporaneous GPU baseline?
+- Are these workloads limited by arithmetic throughput or by on-chip capacity and external bandwidth, and does that make the problem a memory-system problem that general-purpose parts will absorb rather than a case for dedicated silicon?
+- Does the post-quantum migration create demand for new accelerator arithmetic, or is it absorbed by existing CPU instruction-set extensions and firmware updates?
+- How much of the design and verification budget for a cryptographic accelerator goes to side-channel and fault resistance, given the argument that heterogeneity and third-party IP have pushed security validation to the forefront of semiconductor design?
+
+---
+*Assessment drafted 2026-08-31 from up to 12 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

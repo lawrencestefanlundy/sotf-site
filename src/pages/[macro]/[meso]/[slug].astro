@@ -1,6 +1,7 @@
 ---
 import Base from "../../../layouts/Base.astro";
 import RadialGraph from "../../../components/RadialGraph.astro";
+import Scorecard from "../../../components/Scorecard.astro";
 import { getCollection, render } from "astro:content";
 
 export async function getStaticPaths() {
@@ -137,6 +138,10 @@ const jsonLd = [
       {lastUpdated && `last updated ${lastUpdated}`}
       {concept.data.sources_30d > 0 && ` · +${concept.data.sources_30d} sources in last 30d`}
     </div>
+  )}
+
+  {concept.data.scorecard && (
+    <Scorecard scorecard={concept.data.scorecard} status={concept.data.scorecard_status} />
   )}
 
   {concept.data.neighbors && concept.data.neighbors.length > 0 && (

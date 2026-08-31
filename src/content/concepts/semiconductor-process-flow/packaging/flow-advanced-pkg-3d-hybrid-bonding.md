@@ -88,19 +88,19 @@ European angle: this step is unusually European-heavy at the tool layer. EVG (Au
 Net read: the served market (bonders + surface-prep + metrology + consumables) is accelerating, but the curve is back-end-loaded. The logic-SoIC pull is here now; the big HBM volume wave slipped to ~2028-29.
 
 - **Drivers**
-  - AI logic stacking is the live driver: TSMC is building 10,000-15,000 SoIC wafers/month by 2026 (SoIC capacity CAGR >90% from 2022-27), with NVIDIA Rubin Ultra (2027) and Feynman (2028) the step-up where "SoIC usage rises significantly" [12][13]. SoIC capex is ~$6.8-7.0B per 10k wafers, so each unit of capacity is heavily bonder/prep-intensive [12].
-  - First HBM mass-production hybrid-bonding order placed: SK Hynix ordered the AMAT+BESI inline system (~KRW 20B) in late March 2026 after completing 12-Hi hybrid-bonding validation, moving the platform from R&D to volume [14][15].
-  - New volume pools beyond HBM/logic: hybrid bonding is being designed into 300-layer+ V10 NAND (SK Hynix targeting ~2027 mass production), widening the served wafer base [16].
+ - AI logic stacking is the live driver: TSMC is building 10,000-15,000 SoIC wafers/month by 2026 (SoIC capacity CAGR >90% from 2022-27), with NVIDIA Rubin Ultra (2027) and Feynman (2028) the step-up where "SoIC usage rises significantly" [12][13]. SoIC capex is ~$6.8-7.0B per 10k wafers, so each unit of capacity is heavily bonder/prep-intensive [12].
+ - First HBM mass-production hybrid-bonding order placed: SK Hynix ordered the AMAT+BESI inline system (~KRW 20B) in late March 2026 after completing 12-Hi hybrid-bonding validation, moving the platform from R&D to volume [14][15].
+ - New volume pools beyond HBM/logic: hybrid bonding is being designed into 300-layer+ V10 NAND (SK Hynix targeting ~2027 mass production), widening the served wafer base [16].
 
 - **Constraints**
-  - HBM4/4E timing slip is the key near-term cap: JEDEC relaxed the HBM stack-height spec to ~900um, so HBM4/4E 12-16-Hi stays on TCB/microbumps and MR-MUF, postponing the large HBM hybrid-bonding step to HBM5 (~2028-29, 20+ layers) [17][18].
-  - Capex intensity + cyclicality: tools are big-ticket and lumpy; BESI commentary flags FX/mix margin pressure and the uncertain pace at which dev tools convert to volume [15].
-  - Yield brutality (particles, sub-micron overlay) keeps adoption gated to a few qualified foundry/memory lines, slowing the served-market ramp versus the demand narrative.
+ - HBM4/4E timing slip is the key near-term cap: JEDEC relaxed the HBM stack-height spec to ~900um, so HBM4/4E 12-16-Hi stays on TCB/microbumps and MR-MUF, postponing the large HBM hybrid-bonding step to HBM5 (~2028-29, 20+ layers) [17][18].
+ - Capex intensity + cyclicality: tools are big-ticket and lumpy; BESI commentary flags FX/mix margin pressure and the uncertain pace at which dev tools convert to volume [15].
+ - Yield brutality (particles, sub-micron overlay) keeps adoption gated to a few qualified foundry/memory lines, slowing the served-market ramp versus the demand narrative.
 
 - **Trends & inflections to watch**
-  - SoIC pitch shrink (6um in 2025 to 4.5um by 2029) raises bonder + metrology intensity per wafer [3]. Tripwire: TSMC confirming sub-4um or wafer-on-wafer SoIC in a 2027-28 symposium.
-  - HBM hybrid-bonding inflection. Tripwire: a named DRAM maker placing volume (not pilot) hybrid-bonding HBM5 orders in 2027-28 [17].
-  - NAND as a third leg. Tripwire: SK Hynix or a peer confirming hybrid-bonded 300-layer NAND in mass production in 2027 [16].
+ - SoIC pitch shrink (6um in 2025 to 4.5um by 2029) raises bonder + metrology intensity per wafer [3]. Tripwire: TSMC confirming sub-4um or wafer-on-wafer SoIC in a 2027-28 symposium.
+ - HBM hybrid-bonding inflection. Tripwire: a named DRAM maker placing volume (not pilot) hybrid-bonding HBM5 orders in 2027-28 [17].
+ - NAND as a third leg. Tripwire: SK Hynix or a peer confirming hybrid-bonded 300-layer NAND in mass production in 2027 [16].
 
 ## Connections
 [Hybrid Bonding (Cu-Cu)](/manufacturing/packaging/hybrid-bonding/) · [TSV / Through-Silicon Via](/manufacturing/packaging/tsv-through-silicon-via/) · [3D IC Stacking](/manufacturing/packaging/3d-ic-stacking/) · theses: **Hybrid Bonding Interconnect** · **Advanced Packaging Market** · **Advanced Packaging Metrology**

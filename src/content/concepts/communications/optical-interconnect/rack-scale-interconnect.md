@@ -31,19 +31,19 @@ neighbors: []
 
 Rack-scale interconnect covers the links that carry data between accelerators, switches and memory inside a single rack or a small group of adjacent racks, sitting between on-package/on-board wiring and campus-scale networking. In the taxonomy used here it is grouped under optical interconnect, reflecting the shift of these short-reach, high-bandwidth links from electrical backplanes and copper cabling towards optical media as aggregate bandwidth per rack rises.
 
-The supplied source material does not describe device physics, modulation formats, reach, energy per bit, or channel counts for this concept. What it does establish is the commercial context: interconnect is named as one of two components of a continuing datacentre-infrastructure investment wave, alongside higher-voltage power delivery semiengineering startup funding q2 2026. The pairing is itself informative, since interconnect bandwidth and power delivery are the two rack-level constraints that scale together as accelerator density increases.
+The supplied source material does not describe device physics, modulation formats, reach, energy per bit, or channel counts for this concept. What it does establish is the commercial context: interconnect is named as one of two components of a continuing datacentre-infrastructure investment wave, alongside higher-voltage power delivery <sup class="ref"><a href="https://semiengineering.com/startup-funding-q2-2026/" title="Startup Funding: Q2 2026" rel="noopener">ref</a></sup>. The pairing is itself informative, since interconnect bandwidth and power delivery are the two rack-level constraints that scale together as accelerator density increases.
 
 Beyond that, no parameters can be stated from the sources without extrapolation.
 
 ## Competitive landscape
 
-The sources do not support a comparison between rack-scale interconnect approaches (for example copper versus co-packaged optics versus pluggable optics, or between competing switch fabrics). The only positioning available is that interconnect belongs to the datacentre-infrastructure segment of semiconductor startup funding, which continued through Q2 2026 while edge silicon re-emerged and AI hardware remained the dominant category semiengineering startup funding q2 2026.
+The sources do not support a comparison between rack-scale interconnect approaches (for example copper versus co-packaged optics versus pluggable optics, or between competing switch fabrics). The only positioning available is that interconnect belongs to the datacentre-infrastructure segment of semiconductor startup funding, which continued through Q2 2026 while edge silicon re-emerged and AI hardware remained the dominant category <sup class="ref"><a href="https://semiengineering.com/startup-funding-q2-2026/" title="Startup Funding: Q2 2026" rel="noopener">ref</a></sup>.
 
 ## Evidence base
 
-- In Q2 2026, 80 semiconductor startups raised over $6.0B, down from $8.4B across 80 startups in Q1 2026 semiengineering startup funding q2 2026.
-- Interconnect was identified as part of a continuing datacentre-infrastructure funding wave in Q2 2026, alongside higher-voltage power delivery semiengineering startup funding q2 2026.
-- AI hardware remained the dominant funding category in Q2 2026, with 18 companies raising $100M or more, several at early stage semiengineering startup funding q2 2026.
+- In Q2 2026, 80 semiconductor startups raised over $6.0B, down from $8.4B across 80 startups in Q1 2026 <sup class="ref"><a href="https://semiengineering.com/startup-funding-q2-2026/" title="Startup Funding: Q2 2026" rel="noopener">ref</a></sup>.
+- Interconnect was identified as part of a continuing datacentre-infrastructure funding wave in Q2 2026, alongside higher-voltage power delivery <sup class="ref"><a href="https://semiengineering.com/startup-funding-q2-2026/" title="Startup Funding: Q2 2026" rel="noopener">ref</a></sup>.
+- AI hardware remained the dominant funding category in Q2 2026, with 18 companies raising $100M or more, several at early stage <sup class="ref"><a href="https://semiengineering.com/startup-funding-q2-2026/" title="Startup Funding: Q2 2026" rel="noopener">ref</a></sup>.
 
 ## Frontier (open questions)
 

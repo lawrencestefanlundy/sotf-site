@@ -35,22 +35,22 @@ neighbors:
 ---
 ## Physics / mechanism
 
-Geospatial analytics is the computational analysis of data indexed by location, treated in the cited work as one of several data-intensive scientific domains whose workflows depend on access to large datasets held at distributed computing sites rather than on a single local machine nsf 2609583 category ii idlab a federated interactiv.
+Geospatial analytics is the computational analysis of data indexed by location, treated in the cited work as one of several data-intensive scientific domains whose workflows depend on access to large datasets held at distributed computing sites rather than on a single local machine.
 
-The binding constraints identified for this class of work are infrastructural rather than algorithmic: the volume of data to be moved between storage and compute, the consistency of the software environment in which analysis applications run, and the technical overhead of gaining access to high-performance computing and cloud resources. The iDLab design responds to these by offering a web-based interactive application catalogue, access to data resources local to each site, and a shared data partition visible across all participating sites, so that analysis can be co-located with data and reduce transfer requirements nsf 2609583 category ii idlab a federated interactiv. The federated scope covers five NSF-supported HPC sites and two public cloud platforms nsf 2609583 category ii idlab a federated interactiv.
+The binding constraints identified for this class of work are infrastructural rather than algorithmic: the volume of data to be moved between storage and compute, the consistency of the software environment in which analysis applications run, and the technical overhead of gaining access to high-performance computing and cloud resources. The iDLab design responds to these by offering a web-based interactive application catalogue, access to data resources local to each site, and a shared data partition visible across all participating sites, so that analysis can be co-located with data and reduce transfer requirements. The federated scope covers five NSF-supported HPC sites and two public cloud platforms.
 
 ## Competitive landscape
 
-The available source does not compare geospatial analytics platforms or methods against one another. It positions geospatial analytics alongside natural hazards engineering, spatial biology, neuroscience and computational physics as a consumer of shared federated data cyberinfrastructure, which implies competition at the infrastructure layer (federated academic HPC plus public cloud versus single-site or purely commercial cloud provisioning) rather than at the analytics layer nsf 2609583 category ii idlab a federated interactiv.
+The available source does not compare geospatial analytics platforms or methods against one another. It positions geospatial analytics alongside natural hazards engineering, spatial biology, neuroscience and computational physics as a consumer of shared federated data cyberinfrastructure, which implies competition at the infrastructure layer (federated academic HPC plus public cloud versus single-site or purely commercial cloud provisioning) rather than at the analytics layer.
 
 ## Evidence base
 
-- The NSF made a $9,000,000 Category II Data Cyberinfrastructure award (ID 2609583) dated 22 May 2026 for iDLab, a federated interactive discovery lab nsf 2609583 category ii idlab a federated interactiv.
-- iDLab spans five NSF-supported HPC sites and two public cloud platforms under a single web-based access layer nsf 2609583 category ii idlab a federated interactiv.
-- The platform provides a consistent catalogue of interactive applications, access to site-local data, and a shared data partition accessible across all sites nsf 2609583 category ii idlab a federated interactiv.
-- Geospatial analytics is named as one of the target scientific fields for AI-enabled, data-driven discovery on the platform, alongside natural hazards engineering, spatial biology, neuroscience and computational physics nsf 2609583 category ii idlab a federated interactiv.
-- The stated mechanism of benefit is reduction of technical barriers and data transfer requirements, with environment consistency across sites nsf 2609583 category ii idlab a federated interactiv.
-- The award is led by PI Amit Chourasia at the University of California-Los Angeles nsf 2609583 category ii idlab a federated interactiv.
+- The NSF made a $9,000,000 Category II Data Cyberinfrastructure award (ID 2609583) dated 22 May 2026 for iDLab, a federated interactive discovery lab.
+- iDLab spans five NSF-supported HPC sites and two public cloud platforms under a single web-based access layer.
+- The platform provides a consistent catalogue of interactive applications, access to site-local data, and a shared data partition accessible across all sites.
+- Geospatial analytics is named as one of the target scientific fields for AI-enabled, data-driven discovery on the platform, alongside natural hazards engineering, spatial biology, neuroscience and computational physics.
+- The stated mechanism of benefit is reduction of technical barriers and data transfer requirements, with environment consistency across sites.
+- The award is led by PI Amit Chourasia at the University of California-Los Angeles.
 
 ## Frontier (open questions)
 

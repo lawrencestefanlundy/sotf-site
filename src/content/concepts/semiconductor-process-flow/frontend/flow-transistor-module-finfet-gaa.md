@@ -69,17 +69,17 @@ Volume is best read as leading-edge wafer starts: GAA capacity (TSMC N2, Samsung
 Net read: this is one of the few steps where the served market is structurally accelerating, because every node transition adds deposition, epi and selective-etch steps faster than wafer volumes grow, and AI is now funding the leading-edge ramp.
 
 - **Drivers**
-  - AI is pulling the leading-edge ramp hard: TSMC put N2 (its first GAA node) into volume production in early 2026 with Apple, AMD, Nvidia and Qualcomm committed, and Nvidia's N2-based Rubin in production [14][18]. SEMI forecasts equipment sales hitting a record $156B in 2027, with the foundry/logic segment alone at $75.2B, driven explicitly by AI leading-edge logic [17].
-  - Pricing power is in the supply chain: TSMC 2nm wafers are ~$30k versus ~$20k for 3nm, so each GAA wafer carries far more embedded tool and precursor value [18].
-  - Two GAA-capable fabs ramping at once on strong customer pull, with N2P trial production from March 2026, compounds the deposition/epi/etch pull through 2026-2027 [14][18].
+ - AI is pulling the leading-edge ramp hard: TSMC put N2 (its first GAA node) into volume production in early 2026 with Apple, AMD, Nvidia and Qualcomm committed, and Nvidia's N2-based Rubin in production [14][18]. SEMI forecasts equipment sales hitting a record $156B in 2027, with the foundry/logic segment alone at $75.2B, driven explicitly by AI leading-edge logic [17].
+ - Pricing power is in the supply chain: TSMC 2nm wafers are ~$30k versus ~$20k for 3nm, so each GAA wafer carries far more embedded tool and precursor value [18].
+ - Two GAA-capable fabs ramping at once on strong customer pull, with N2P trial production from March 2026, compounds the deposition/epi/etch pull through 2026-2027 [14][18].
 - **Constraints**
-  - Capex intensity and cyclicality: this content sits on a handful of multi-billion-dollar leading-edge nodes, so a single customer push-out (Samsung SF2 meaningful volume has already slipped toward 2028) swings the served market [18].
-  - China and export controls cap the addressable share: GAA tool sales are concentrated in TSMC/Samsung/Intel, while China WFE spend stays largely on mature and select advanced nodes [17].
-  - Samsung undercutting 2nm to ~$20k pressures the pricing-power story if a share war breaks out [18].
+ - Capex intensity and cyclicality: this content sits on a handful of multi-billion-dollar leading-edge nodes, so a single customer push-out (Samsung SF2 meaningful volume has already slipped toward 2028) swings the served market [18].
+ - China and export controls cap the addressable share: GAA tool sales are concentrated in TSMC/Samsung/Intel, while China WFE spend stays largely on mature and select advanced nodes [17].
+ - Samsung undercutting 2nm to ~$20k pressures the pricing-power story if a share war breaks out [18].
 - **Trends & inflections to watch**
-  - Backside power delivery is the next content layer: Intel 18A (RibbonFET GAA + PowerVia) is in production ahead of TSMC's A16 Super Power Rail, expected end-2026; it adds high-aspect-ratio etch, fill and extreme wafer-thinning steps. Tripwire: A16 reaching volume production by Q4 2026 [15][16].
-  - CFET (n/p stacked) is the larger step-up, targeted ~2031 (imec A7), needing HAR etch and wafer bonding. Tripwire: a foundry committing CFET to a named production node on a public roadmap [15].
-  - ASM's disclosed SAM step-ups (+$400M first-gen GAA, +$450-500M at 1.4nm) are the cleanest gauge. Tripwire: ASM/AMAT raising per-node GAA content guidance at the next investor day [4][17].
+ - Backside power delivery is the next content layer: Intel 18A (RibbonFET GAA + PowerVia) is in production ahead of TSMC's A16 Super Power Rail, expected end-2026; it adds high-aspect-ratio etch, fill and extreme wafer-thinning steps. Tripwire: A16 reaching volume production by Q4 2026 [15][16].
+ - CFET (n/p stacked) is the larger step-up, targeted ~2031 (imec A7), needing HAR etch and wafer bonding. Tripwire: a foundry committing CFET to a named production node on a public roadmap [15].
+ - ASM's disclosed SAM step-ups (+$400M first-gen GAA, +$450-500M at 1.4nm) are the cleanest gauge. Tripwire: ASM/AMAT raising per-node GAA content guidance at the next investor day [4][17].
 
 ## Connections
 - [High-K Dielectrics (HfO2, ZrO2)](/materials/functional-layers/high-k-dielectrics/) — the gate-stack ALD films deposited into the nanosheet gaps in this module.

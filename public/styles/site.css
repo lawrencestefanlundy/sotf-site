@@ -162,6 +162,102 @@ main,
   .site-search { flex: 1 1 100%; order: 3; }
 }
 
+/* inline source references */
+sup.ref { font-size: 0.62em; line-height: 0; margin-left: 1px; }
+sup.ref a {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  color: var(--ink-60);
+  text-decoration: none;
+  border-bottom: 1px solid var(--ink-25);
+  padding: 0 1px;
+}
+sup.ref a:hover { color: var(--ink); border-bottom-color: var(--ink); }
+
+/* ── technology scorecard ────────────────────────────────────── */
+.scorecard {
+  border: 1px solid var(--ink);
+  background: var(--bg-soft);
+  padding: 0.9rem 1.1rem 1rem;
+  margin: 0 0 1.75rem;
+}
+.sc-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.7rem;
+}
+.sc-title {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+.sc-flag {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 0.66rem;
+  color: var(--ink-60);
+}
+.sc-grid { margin: 0; }
+.sc-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.3rem 0;
+}
+.sc-row dt {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 1.02rem;
+  color: var(--ink);
+  cursor: help;
+}
+.sc-row dd {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+.sc-row.is-unscored dt { color: var(--ink-60); }
+.sc-dots { display: inline-flex; gap: 3px; }
+.sc-dot {
+  width: 9px; height: 9px;
+  border: 1px solid var(--ink-60);
+  display: inline-block;
+}
+.sc-dot.on { background: var(--ink); border-color: var(--ink); }
+.sc-num {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 0.72rem;
+  color: var(--ink-60);
+  min-width: 2.2rem;
+  text-align: right;
+}
+.sc-unscored {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 0.68rem;
+  color: var(--ink-60);
+  font-style: normal;
+}
+.sc-foot {
+  border-top: 1px solid var(--rule);
+  margin: 0.7rem 0 0;
+  padding-top: 0.6rem;
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 0.72rem;
+  color: var(--ink-80);
+}
+.sc-foot strong {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-weight: 600;
+  color: var(--ink-60);
+  margin-right: 0.35rem;
+}
+.sc-sep { margin: 0 0.6rem; color: var(--ink-25); }
+
 /* ── writing archive ─────────────────────────────────────────── */
 .standfirst {
   font-family: 'EB Garamond', Georgia, serif;

@@ -90,19 +90,19 @@ The moat is classic capital-equipment: beam physics know-how, a 20+ year qualifi
 Net read: a cyclical trough now, with two structural pulls (advanced-logic implant-step growth, wide-bandgap power) setting up a faster recovery from ~2027 than the flat ~4.5% base CAGR implies.
 
 - **Drivers**
-  - Implant-step count keeps climbing: a modern CMOS IC with embedded memory now needs up to ~60 implants, and GAA nanosheet nodes add new recipes (super-steep retrograde wells, channel/halo tuning) on top of the FinFET set, so the per-wafer implant intensity rises even before wafer-starts grow [10][11].
-  - Wide-bandgap power is the high-growth overlay: SiC device revenue is forecast toward ~$10B by 2030 (~19-27% CAGR), and SiC/GaN are far more implant-intensive (high-energy, high-dose, hot recipes) than logic [12].
-  - Consolidation re-rates the tool layer: the Axcelis-Veeco all-stock merger (announced Oct 2025, ~$4.4B EV, close 2026) expands the combined served market to over $5B by pairing implant with laser anneal, IBD and GaN/SiC MOCVD epi, aimed squarely at AI-power and wide-bandgap [13][14].
+ - Implant-step count keeps climbing: a modern CMOS IC with embedded memory now needs up to ~60 implants, and GAA nanosheet nodes add new recipes (super-steep retrograde wells, channel/halo tuning) on top of the FinFET set, so the per-wafer implant intensity rises even before wafer-starts grow [10][11].
+ - Wide-bandgap power is the high-growth overlay: SiC device revenue is forecast toward ~$10B by 2030 (~19-27% CAGR), and SiC/GaN are far more implant-intensive (high-energy, high-dose, hot recipes) than logic [12].
+ - Consolidation re-rates the tool layer: the Axcelis-Veeco all-stock merger (announced Oct 2025, ~$4.4B EV, close 2026) expands the combined served market to over $5B by pairing implant with laser anneal, IBD and GaN/SiC MOCVD epi, aimed squarely at AI-power and wide-bandgap [13][14].
 
 - **Constraints**
-  - Deep cyclicality is biting now: Axcelis FY25 revenue fell to ~$839M from ~$1.02B in 2024 as SiC and memory digested; SiC upstream utilisation sat near 50% with an overcapacity downturn running into 2027-2028 [12][14].
-  - China is both a demand risk and a share threat: 2024 BIS export rules cut Axcelis revenue by ~$20-50M in FY25, and China's first domestic high-energy implanter (POWER-750H, Jan 2026) targets exactly the mature power/IGBT lane where Western OEMs sell most units [15][12].
-  - Extreme incumbency caps any new-entrant TAM: an AMAT-led duopoly (~80-85% of systems) plus a few gas majors leaves no room at the tool layer.
+ - Deep cyclicality is biting now: Axcelis FY25 revenue fell to ~$839M from ~$1.02B in 2024 as SiC and memory digested; SiC upstream utilisation sat near 50% with an overcapacity downturn running into 2027-2028 [12][14].
+ - China is both a demand risk and a share threat: 2024 BIS export rules cut Axcelis revenue by ~$20-50M in FY25, and China's first domestic high-energy implanter (POWER-750H, Jan 2026) targets exactly the mature power/IGBT lane where Western OEMs sell most units [15][12].
+ - Extreme incumbency caps any new-entrant TAM: an AMAT-led duopoly (~80-85% of systems) plus a few gas majors leaves no room at the tool layer.
 
 - **Trends & inflections to watch**
-  - GAA-to-CFET ramp adding implant steps. Tripwire: TSMC N2/A16 and Intel 18A volume ramp through 2026 disclosed as a step-up in implant tool buys per fab [10][11].
-  - SiC cycle turn. Tripwire: SiC device-line utilisation back above ~80% and a fresh power-implanter order upcycle reported in 2027 [12].
-  - Axcelis-Veeco close + China localisation. Tripwire: deal closes in 2026 with the >$5B combined TAM affirmed, against domestic Chinese power-implanter design-ins [13][15].
+ - GAA-to-CFET ramp adding implant steps. Tripwire: TSMC N2/A16 and Intel 18A volume ramp through 2026 disclosed as a step-up in implant tool buys per fab [10][11].
+ - SiC cycle turn. Tripwire: SiC device-line utilisation back above ~80% and a fresh power-implanter order upcycle reported in 2027 [12].
+ - Axcelis-Veeco close + China localisation. Tripwire: deal closes in 2026 with the >$5B combined TAM affirmed, against domestic Chinese power-implanter design-ins [13][15].
 
 ## Connections
 

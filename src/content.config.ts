@@ -44,6 +44,21 @@ const concepts = defineCollection({
         }))
         .default([]),
       frontier: z.array(z.string()).default([]),
+      // Technology scorecard (methodology/technology-scorecard.md). Scores are
+      // nullable on purpose: a dimension the sources cannot support is left
+      // unscored rather than filled with a confident-looking number.
+      scorecard: z
+        .object({
+          viability: z.number().nullable().optional(),
+          drivers: z.number().nullable().optional(),
+          novelty: z.number().nullable().optional(),
+          diffusion: z.number().nullable().optional(),
+          impact: z.number().nullable().optional(),
+          timing_band: z.string().optional(),
+          verdict: z.string().optional(),
+        })
+        .optional(),
+      scorecard_status: z.string().optional(),
       last_updated: z.union([z.string(), z.date()]).optional(),
       last_reorg_date: z.union([z.string(), z.date()]).optional(),
       mention_count: z.number().optional(),

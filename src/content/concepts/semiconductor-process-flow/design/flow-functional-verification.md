@@ -99,19 +99,19 @@ EU / seed-relevant edge: open-source verification (Verilator, OSVVM, cocotb, CHI
 Net read: the served market is accelerating off an AI-complexity base, but with one sharp policy tail-risk and one structural question about whether AI productivity erodes seat counts.
 
 - **Drivers**
-  - AI, multi-die and chiplet designs explode the state space to verify; hardware emulation is now ~61% of the hardware-assisted verification pool, the segment growing ~15-16% CAGR toward ~$3.3B by 2035 [6][7]. Verification intensity scaling faster than headcount is what compounds spend [1].
-  - Emulation/prototyping demand is the visible pull: Cadence grew Q1-25 revenue 23% YoY on broad demand for its AI-driven and emulation platforms, exiting 2024 with a record ~$6.8B backlog; Synopsys Q3-25 revenue rose to $1.74B from $1.53B [8][9]. New boxes (Palladium Z3 / Protium X3, ZeBu EP, Veloce with NVIDIA) reset the ~$50M-class install + maintenance annuity [8][10].
-  - Agentic-AI EDA adds a new pricing axis on top of seats: Cadence frames three tiers (subscription base, usage-based AI compute, a "virtual engineer" headcount-equivalent tier); ChipStack at Level-5 autonomy claims 40x faster RTL validation [11]. This re-rates the per-engineer ceiling upward [1].
+ - AI, multi-die and chiplet designs explode the state space to verify; hardware emulation is now ~61% of the hardware-assisted verification pool, the segment growing ~15-16% CAGR toward ~$3.3B by 2035 [6][7]. Verification intensity scaling faster than headcount is what compounds spend [1].
+ - Emulation/prototyping demand is the visible pull: Cadence grew Q1-25 revenue 23% YoY on broad demand for its AI-driven and emulation platforms, exiting 2024 with a record ~$6.8B backlog; Synopsys Q3-25 revenue rose to $1.74B from $1.53B [8][9]. New boxes (Palladium Z3 / Protium X3, ZeBu EP, Veloce with NVIDIA) reset the ~$50M-class install + maintenance annuity [8][10].
+ - Agentic-AI EDA adds a new pricing axis on top of seats: Cadence frames three tiers (subscription base, usage-based AI compute, a "virtual engineer" headcount-equivalent tier); ChipStack at Level-5 autonomy claims 40x faster RTL validation [11]. This re-rates the per-engineer ceiling upward [1].
 
 - **Constraints**
-  - China policy whipsaw: BIS ordered licensing on all EDA sales to China on 29 May 2025 (Synopsys ~16% / Cadence ~12% of FY24 revenue at risk), suspending Synopsys guidance; rescinded 2 July 2025 [12][13]. The risk is dormant, not gone.
-  - The market rides the chip-design-starts cycle; a capex pause at fabless/hyperscaler customers slows licence and box demand directly [6].
-  - Productivity paradox: if agents verify faster per engineer, seat-based revenue could compress unless the "virtual engineer" tier offsets it; unproven at scale [11].
+ - China policy whipsaw: BIS ordered licensing on all EDA sales to China on 29 May 2025 (Synopsys ~16% / Cadence ~12% of FY24 revenue at risk), suspending Synopsys guidance; rescinded 2 July 2025 [12][13]. The risk is dormant, not gone.
+ - The market rides the chip-design-starts cycle; a capex pause at fabless/hyperscaler customers slows licence and box demand directly [6].
+ - Productivity paradox: if agents verify faster per engineer, seat-based revenue could compress unless the "virtual engineer" tier offsets it; unproven at scale [11].
 
 - **Trends & inflections to watch**
-  - Agentic autonomy climbing the ladder (L4 to L5). Tripwire: a Big-3 print where "virtual engineer" / usage-based revenue is disclosed as a distinct, growing line (FY26-27 calls) [11].
-  - Hardware-emulation refresh super-cycle. Tripwire: a quarter where hardware (lower-margin) materially outpaces software growth and dents blended gross margin [8][10].
-  - Open-source mid-end encroachment. Tripwire: a sign-off-grade tape-out citing Verilator/cocotb in the verification flow, or a funded AI-native verification startup raising a Series B [5].
+ - Agentic autonomy climbing the ladder (L4 to L5). Tripwire: a Big-3 print where "virtual engineer" / usage-based revenue is disclosed as a distinct, growing line (FY26-27 calls) [11].
+ - Hardware-emulation refresh super-cycle. Tripwire: a quarter where hardware (lower-margin) materially outpaces software growth and dents blended gross margin [8][10].
+ - Open-source mid-end encroachment. Tripwire: a sign-off-grade tape-out citing Verilator/cocotb in the verification flow, or a funded AI-native verification startup raising a Series B [5].
 
 ## Connections
 

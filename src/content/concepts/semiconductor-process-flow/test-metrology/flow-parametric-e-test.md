@@ -83,18 +83,18 @@ Rough niche figures only. One source models ~2,600 units of global WAT capacity,
 Net read: the served pool (parametric testers plus the probe-card razor-blade layer) is steady-to-accelerating, dragged up by the AI/advanced-packaging test wave and node complexity, capped by its small absolute size and incumbent concentration.
 
 - **Drivers**
-  - Test equipment is the fastest-moving capex line: SEMI puts total test equipment at USD 11.2bn in 2025, up 48.1% y/y, with +12% (2026) and +7.1% (2027) to follow, on AI logic, memory and advanced packaging [10]. Parametric rides this even if it is the slow-throughput cousin.
-  - China leads global fab capex through 2027 (China/Taiwan/Korea the top three) [10], and its mature-node buildout is WAT-intensive (automotive, power, industrial on proven nodes) [11]; domestic WAT vendors (Semitronix, Semight, AccoTEST) are localising the tester pool [12].
-  - Advanced packaging adds test insertions: chiplets and sub-10um hybrid bonding push I/O parametric and inline checks upstream to catch defects before high-value stacking [13][14].
+ - Test equipment is the fastest-moving capex line: SEMI puts total test equipment at USD 11.2bn in 2025, up 48.1% y/y, with +12% (2026) and +7.1% (2027) to follow, on AI logic, memory and advanced packaging [10]. Parametric rides this even if it is the slow-throughput cousin.
+ - China leads global fab capex through 2027 (China/Taiwan/Korea the top three) [10], and its mature-node buildout is WAT-intensive (automotive, power, industrial on proven nodes) [11]; domestic WAT vendors (Semitronix, Semight, AccoTEST) are localising the tester pool [12].
+ - Advanced packaging adds test insertions: chiplets and sub-10um hybrid bonding push I/O parametric and inline checks upstream to catch defects before high-value stacking [13][14].
 - **Constraints**
-  - Tiny absolute pool (~USD 0.6-0.7bn equipment) inside a USD 11bn test market [10]; a winner-takes-most niche where one incumbent owns the standard, so the served market grows but new-entrant value capture is thin.
-  - Cyclicality: parametric tracks fab utilisation and WFE, so a capex air-pocket hits unit shipments directly.
-  - The report-mill high-teens CAGR claim [1] overstates; broader test grows mid-single to low-double digits [10], so discount the headline.
+ - Tiny absolute pool (~USD 0.6-0.7bn equipment) inside a USD 11bn test market [10]; a winner-takes-most niche where one incumbent owns the standard, so the served market grows but new-entrant value capture is thin.
+ - Cyclicality: parametric tracks fab utilisation and WFE, so a capex air-pocket hits unit shipments directly.
+ - The report-mill high-teens CAGR claim [1] overstates; broader test grows mid-single to low-double digits [10], so discount the headline.
 - **Trends & inflections to watch**
-  - GAA/CFET nodes push femtoamp-range leakage and variation measurement, raising the value of the high-precision SMU and lengthening test programs [15]. Tripwire: foundry WAT spec adding standard sub-pA leakage structures on 2nm-class PCM.
-  - HBM4 and co-packaged optics lift probe/test intensity 25-30% per HBM transition; HBM4 roughly doubles pin count vs HBM3E, so probe cards wear out and re-spin faster, fattening the razor-blade layer; FormFactor targets a revenue double to ~USD 1.6bn by 2030 with CPO the named engine and a new Triton CPO test platform [16][17]. Tripwire: FormFactor systems/CPO segment hitting volume production revenue in 2026 prints.
-  - ML-on-WAT-data yield analytics is the seed-shaped software entry: AI/predictive test now influences an estimated 35-40% of modern test deployments [17], turning the PCM/WAT data feed (not the SMU) into the value layer. Tripwire: a fab or fabless adopting a third-party ML-on-PCM platform as the primary yield-prediction gate.
-  - China domestic-WAT substitution. Tripwire: a tier-1 Chinese fab qualifying a domestic parallel WAT tester as primary, not just second-tier [12].
+ - GAA/CFET nodes push femtoamp-range leakage and variation measurement, raising the value of the high-precision SMU and lengthening test programs [15]. Tripwire: foundry WAT spec adding standard sub-pA leakage structures on 2nm-class PCM.
+ - HBM4 and co-packaged optics lift probe/test intensity 25-30% per HBM transition; HBM4 roughly doubles pin count vs HBM3E, so probe cards wear out and re-spin faster, fattening the razor-blade layer; FormFactor targets a revenue double to ~USD 1.6bn by 2030 with CPO the named engine and a new Triton CPO test platform [16][17]. Tripwire: FormFactor systems/CPO segment hitting volume production revenue in 2026 prints.
+ - ML-on-WAT-data yield analytics is the seed-shaped software entry: AI/predictive test now influences an estimated 35-40% of modern test deployments [17], turning the PCM/WAT data feed (not the SMU) into the value layer. Tripwire: a fab or fabless adopting a third-party ML-on-PCM platform as the primary yield-prediction gate.
+ - China domestic-WAT substitution. Tripwire: a tier-1 Chinese fab qualifying a domestic parallel WAT tester as primary, not just second-tier [12].
 
 ## Connections
 
@@ -120,4 +120,4 @@ Net read: the served pool (parametric testers plus the probe-card razor-blade la
 14. Basler, Hybrid bonding the new precision bottleneck (sub-10um pitch, inline before high-value assembly): https://www.baslerweb.com/en/learning/semicon-hybrid-bonding/
 15. PMC / NCBI, Process variation + leakage in sub-1nm GAA Si nanosheet CFETs (femtoamp-class leakage metrology challenge): https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12430615/
 16. FormFactor Q3 FY2025 + 2030 targets: revenue double to ~$1.6bn by 2030, CPO the engine, HBM transitions +25-30% test intensity: https://finance.yahoo.com/sectors/technology/articles/formfactor-targets-revenue-doubling-2030-180507795.html
-17. SEMI test-equipment forecast detail ($12.5bn 2026, +12%; AI/predictive test 35-40% of modern deployments) + FormFactor HBM4 pin-count doubling drives faster probe-card replacement + Triton CPO platform: https://www.mordorintelligence.com/industry-reports/semiconductor-test-equipment-market ; https://markets.financialcontent.com/stocks/article/finterra-2026-3-25-the-testing-wall-a-comprehensive-analysis-of-formfactor-inc-form-in-the-hbm4-era
+17. SEMI test-equipment forecast detail ($12.5bn 2026, +12%; AI/predictive test 35-40% of modern deployments) + FormFactor HBM4 pin-count doubling drives faster probe-card replacement + Triton CPO platform: https://www.mordorintelligence.com/industry-reports/semiconductor-test-equipment-market; https://markets.financialcontent.com/stocks/article/finterra-2026-3-25-the-testing-wall-a-comprehensive-analysis-of-formfactor-inc-form-in-the-hbm4-era

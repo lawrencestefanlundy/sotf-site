@@ -43,7 +43,7 @@ neighbors:
 ---
 Data transmission by modulating a millimetre-wave / sub-THz RF carrier onto a **plastic dielectric waveguide** instead of driving copper conductors or optical fibre. The transmitter and receiver are CMOS/SiGe RF SoCs; the channel is a low-loss dielectric "tube" or ribbon. The pitch: copper's reach collapses above 200G/lane while optics carries laser, photonic assembly, and reliability cost; a purely electrical RF front-end with a waveguide channel claims the **mid-range (roughly 1-10m, in-rack and adjacent-rack) socket** at optics-class bandwidth without optics-class complexity.
 
-Two funded proponents as of Q2 2026 (see semiengineering startup funding q2 2026):
+Two funded proponents as of Q2 2026 (see <sup class="ref"><a href="https://semiengineering.com/startup-funding-q2-2026/" title="Startup Funding: Q2 2026" rel="noopener">ref</a></sup>):
 
 - ****Attotude**** (f. 2024, Menlo Park; $143M raised, $52M Series C with Keysight strategic): "THz radio over wire", ASIC signal generation + low-loss dielectric waveguides at 200G/400G/800G per lane, aimed at AI scale-up fabrics.
 - ****Point2 Technology**** (f. 2016, San Jose; Series B extensions incl. Nvidia NVentures, UMC Capital): "Active RF Cable" mmWave transceiver SoCs and smart retimers through plastic dielectric waveguide, roadmap to 800G/1.6T/3.2T cable classes.

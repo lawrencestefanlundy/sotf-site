@@ -97,7 +97,7 @@ No comparison is possible from the available sources. Adjacent approaches within
 
 ## Evidence base
 
-- One of the two sources attached to this concept, dated 26 July 2026, concerns PostgreSQL-first M&A and native vector search in data platforms, and contains no material on energy storage postgres absorption vector layer.
+- One of the two sources attached to this concept, dated 26 July 2026, concerns PostgreSQL-first M&A and native vector search in data platforms, and contains no material on energy storage <sup class="ref"><a href="https://venturebeat.com/data/six-data-shifts-that-will-shape-enterprise-ai-in-2026" title="Write-path owners absorb the retrieval layer: $1.25B of PostgreSQL-first M&A, native vector everywhere" rel="noopener">ref</a></sup>.
 - The second attached source is a confidential limited-partner letter and is excluded from this public reference page.
 - No dated technical or market claim about energy storage is available from the supplied sources.
 

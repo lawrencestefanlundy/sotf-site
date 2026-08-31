@@ -79,21 +79,21 @@ The moat is foundry qualification plus 20+ years of calibrated models tied to sp
 Net read: a small but structurally accelerating served market, because compute-per-tapeout is rising faster than tapeout count. Each advanced node consumes more correction compute even if unit volumes stay flat.
 
 - **Drivers**
-  - Node transition is the engine: TSMC N2 hit HVM in late 2025 (fully booked, faster ramp through 2026), A16 with backside power enters mass production Q4 2026, and A14 / High-NA arrives 2027-28 [9][13]. Each step adds EUV mask layers and tighter process windows, lifting correction compute per design.
-  - Curvilinear ILT moves from optional to mandatory for High-NA EUV (process-window and stitching needs) [10]; a single ILT mask can already consume 10K+ CPU cores for days, so compute demand scales super-linearly with adoption [10].
-  - GPU acceleration plus generative AI is expanding the addressable pool, not just cutting cost: cuLitho is in TSMC/Synopsys production, and a generative-AI workflow adds ~2x on top of the ~40x GPU speed-up, making ILT-everywhere economically feasible and pulling spend toward GPU-hours [11].
-  - AI/HPC demand: 2nm initial capacity is fully booked on HPC/AI accelerators and chiplets, so the high-value advanced-tapeout mix (the segment that needs the most correction) is the part growing [12].
+ - Node transition is the engine: TSMC N2 hit HVM in late 2025 (fully booked, faster ramp through 2026), A16 with backside power enters mass production Q4 2026, and A14 / High-NA arrives 2027-28 [9][13]. Each step adds EUV mask layers and tighter process windows, lifting correction compute per design.
+ - Curvilinear ILT moves from optional to mandatory for High-NA EUV (process-window and stitching needs) [10]; a single ILT mask can already consume 10K+ CPU cores for days, so compute demand scales super-linearly with adoption [10].
+ - GPU acceleration plus generative AI is expanding the addressable pool, not just cutting cost: cuLitho is in TSMC/Synopsys production, and a generative-AI workflow adds ~2x on top of the ~40x GPU speed-up, making ILT-everywhere economically feasible and pulling spend toward GPU-hours [11].
+ - AI/HPC demand: 2nm initial capacity is fully booked on HPC/AI accelerators and chiplets, so the high-value advanced-tapeout mix (the segment that needs the most correction) is the part growing [12].
 
 - **Constraints**
-  - Only a few hundred advanced-node tapeouts happen per year, so the unit base is thin and cyclical with foundry capex; a leading-edge digestion pause hits this step directly [12].
-  - Foundry qualification is the chokepoint: TSMC/Samsung/Intel certify which tools may tapeout, capping share gains and entrant access [10].
-  - China / export-control whiplash: EDA-to-China was restricted May 2025 then rescinded July 2025; China is ~16% of Synopsys and ~12% of Cadence revenue, so policy can swing the addressable base sharply [14].
-  - Tool-side dependency: curvilinear masks need multibeam e-beam writers, tying compute-litho demand to a separate, capacity-constrained equipment ramp [10].
+ - Only a few hundred advanced-node tapeouts happen per year, so the unit base is thin and cyclical with foundry capex; a leading-edge digestion pause hits this step directly [12].
+ - Foundry qualification is the chokepoint: TSMC/Samsung/Intel certify which tools may tapeout, capping share gains and entrant access [10].
+ - China / export-control whiplash: EDA-to-China was restricted May 2025 then rescinded July 2025; China is ~16% of Synopsys and ~12% of Cadence revenue, so policy can swing the addressable base sharply [14].
+ - Tool-side dependency: curvilinear masks need multibeam e-beam writers, tying compute-litho demand to a separate, capacity-constrained equipment ramp [10].
 
 - **Trends & inflections to watch**
-  - Generative/ML ILT collapsing the runtime-quality trade-off [11] — tripwire: a foundry qualifies a full-chip ML-ILT flow for a production node (named, dated), which would re-rate the GPU/software pool.
-  - Backside power and CFET adding mask layers and 3D-aware correction [13] — tripwire: A16/SF2Z volume ramp in 2026-27 disclosing higher mask-layer counts per tapeout.
-  - High-NA EUV insertion — tripwire: first High-NA logic node in HVM (Intel/TSMC, 2027-28) shipping curvilinear-ILT reticles at scale [9][10].
+ - Generative/ML ILT collapsing the runtime-quality trade-off [11] — tripwire: a foundry qualifies a full-chip ML-ILT flow for a production node (named, dated), which would re-rate the GPU/software pool.
+ - Backside power and CFET adding mask layers and 3D-aware correction [13] — tripwire: A16/SF2Z volume ramp in 2026-27 disclosing higher mask-layer counts per tapeout.
+ - High-NA EUV insertion — tripwire: first High-NA logic node in HVM (Intel/TSMC, 2027-28) shipping curvilinear-ILT reticles at scale [9][10].
 
 ## Connections
 - [Computational Lithography](/manufacturing/lithography/computational-lithography/) - parent concept cluster.

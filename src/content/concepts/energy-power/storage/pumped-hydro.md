@@ -39,7 +39,7 @@ No comparison is possible from the available sources. Neither source contains da
 
 ## Evidence base
 
-- The one publicly citable source that surfaced against this concept, dated 12 November 2024, is a primer on nuclear fission and datacentre power; its excerpt discusses LCOE and baseload for nuclear and contains no pumped hydro content atomic energy can nuclear power our.
+- The one publicly citable source that surfaced against this concept, dated 12 November 2024, is a primer on nuclear fission and datacentre power; its excerpt discusses LCOE and baseload for nuclear and contains no pumped hydro content <sup class="ref"><a href="https://stateofthefuture.substack.com/p/atomic-energy-can-nuclear-power-our" title="Nuclear Fission: A Primer" rel="noopener">ref</a></sup>.
 - The second source matched to this concept is marked confidential and non-public and is therefore excluded from this page.
 
 ## Frontier (open questions)

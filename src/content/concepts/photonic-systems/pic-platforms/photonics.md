@@ -31,27 +31,16 @@ sources:
 - '[[2025-04-16-the-state-of-photonic-computing]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
-frontier:
-- Photon-photon gates look fundamentally fidelity-limited under realistic imperfections while linear cluster states survive; does photonic quantum computing consolidate on measurement-based architectures, and what demonstrated gate fidelity would reverse that?
-- Can a monolithic on-chip isolator close the gap from ~20 dB insertion loss to the ~1-3 dB a usable link budget needs, while keeping a mass-production-compatible process (local laser annealing or an alternative)?
-- Does ML-driven inverse design (surrogate EM solvers, generative/diffusion design) become a standalone photonic EDA value pool with a foundry-endorsed flow, or stay an in-house tool at incumbents like STMicroelectronics?
-- Telecom-band quantum-dot photon sources are now rack-integrated with >50% transmission; when does a fielded network pick them over SPDC sources, and is that component market venture-scale?
-- Where does datacentre optics value settle between pluggables, co-packaged optics, and optical switching? Evidence this cycle is research-side only; needs market-side sources to update.
-- Do 2D/TMD and diamond photonic materials get a credible high-volume manufacturing route by 2028, or stay lab platforms?
-last_updated: '2026-07-26'
-tags:
-- concept
-- theme
-mention_count: 1006
-descendants:
-- diffractive-deep-neural-network
-- free-space-photonics
-- microwave-photonics
-- mid-ir-photonics
-- optical-frequency-comb
-- optical-frequency-division
-- optoelectronic-oscillator
-last_reorg_date: '2026-05-13'
+scorecard:
+  viability: null
+  drivers: null
+  novelty: null
+  diffusion: null
+  impact: null
+  timing_band: Unclear
+  verdict: ''
+scorecard_status: draft
+mention_count: 1009
 sources_7d: 0
 sources_30d: 5
 recent_mentions:
@@ -89,52 +78,29 @@ recent_mentions:
   kind: web
 neighbors: []
 ---
-## Physics / mechanism
+**Photonic integrated circuits are chip-scale optical systems built from waveguides, modulators, detectors and gain elements, and the current evidence shows a field consolidating around silicon photonics as a foundry base with multiple exotic materials bolted on top rather than converging on one winning platform.**
 
-Photonics is the generation, manipulation, and detection of photons across UV, visible, near-IR, and mid-IR. Photons carry no charge and no rest mass, so optical signals move with low loss and no resistive heating; the cost is that photons barely interact with each other, so switching, gain, memory, and non-reciprocity all need an intermediating material. Nearly every platform battle in the field is a fight over which material stack best mediates light-matter interaction while staying manufacturable.
+## Summary
 
-Sub-field map (this page is the orientation layer; depth belongs on child pages such as [Free-Space Photonics](/communications/fibre-and-free-space/free-space-photonics/), [Microwave Photonics](/communications/wireless/microwave-photonics/), [Mid-Infrared Photonics](/photonic-systems/light-sources/mid-ir-photonics/), [Optical Frequency Comb](/photonic-systems/light-sources/optical-frequency-comb/)):
+Photonics, in the sense used here, means integrated photonics: routing and manipulating light in lithographically defined waveguides on a chip, in the same way electronics routes current in metal traces. A working photonic integrated circuit (PIC) needs four functional blocks: passive waveguides to move light with low loss, a modulator to imprint electrical signals onto it, a photodetector to convert back, and increasingly a gain medium (laser or amplifier) on the same die. No single material does all four well. Silicon provides excellent low-loss waveguides and CMOS-compatible manufacturing but is a poor modulator material; silicon nitride and aluminium oxide extend transparency to visible and ultraviolet wavelengths but are passive; indium phosphide provides gain and nonlinearity; thin-film lithium niobate (TFLN), thin-film lithium tantalate (TFLT) and barium titanate provide strong electro-optic (Pockels) modulation. The dominant engineering strategy in the sources is therefore heterogeneous integration: bonding or growing the exotic material onto a foundry silicon or nitride platform.
 
-## Competitive landscape
+The clearest demonstration of that strategy is a 320 Gb/s unamplified link built from a 100 GHz germanium photodiode and a TFLN Mach-Zehnder modulator on a foundry-compatible silicon photonics platform at imec, dated April 2026, which is read in the sources as evidence for multi-platform coexistence rather than convergence to a single material <sup class="ref"><a href="https://techxplore.com/news/2026-04-silicon-photonics-gained-powerful-ally.html" title="320 Gb/s Unamplified Transmission Using 100 GHz Ge PD and TFLN MZM on a Foundry-Compatible SiPh Platform" rel="noopener">ref</a></sup>. Comparable platform-extension results appear at the wavelength extremes and in gain: the first integrated ultraviolet electro-optic modulator on TFLT reports a VπL of 85 mV·cm at 375 nm, 22.7 dB extinction ratio and 1.3 dB insertion loss, claimed as up to four orders of magnitude better bandwidth/VπL than bulk crystals; ytterbium gain integrated into an aluminium oxide platform delivers over 0.5 W output, above 70% optical-to-optical conversion efficiency, a 3.3 dB noise figure and 14 kW peak power in femtosecond amplification.
 
-Silicon photonics competes with and complements III-V (InP, GaAs) and the emerging SiN and thin-film lithium niobate platforms. The trade is always among loss, nonlinearity, active gain, and CMOS-foundry compatibility: silicon is cheap and foundry-native but has no gain and no second-order nonlinearity; SiN is the low-loss passive; InP has monolithic lasers at higher cost; LNOI brings fast electro-optics but hybrid integration. No fresh source this cycle re-benchmarks the platform loss/bandwidth numbers, so specific dB/cm and GHz figures previously quoted here are dropped rather than restated (medium confidence they are still roughly right; re-cite before reuse).
+The parameters that decide any given photonic platform are: insertion loss per component and per centimetre, modulation efficiency (VπL) against bandwidth, whether gain is on-chip or off-chip, operating temperature, and whether the process exists inside a commercial foundry with a design kit. That last one is doing most of the work commercially. Two of the compute-oriented results in this set are explicitly designed against named foundry processes, a photonic ROM lookup-table engine simulated on the GlobalFoundries 45SPCLO silicon photonics platform, and the integrated ytterbium gain platform is stated to be compatible with heterogeneous integration into standard photonic platforms.
 
-A second battle is moving up the stack, from devices to design. Inverse design is becoming the bottleneck and the opportunity: FDTD-trained convolutional surrogates plus diffusion-model generative design now hit R^2 of about 0.97 on metasurfaces over 230x larger than the training apertures, in work affiliated with STMicroelectronics design and optimization of metasurfaces for silicon photonic. That supports the view that a photonic design/EDA layer is forming (**Photonic Pdk Eda Layer**, **Electron Informed Materials Discovery**).
+Beyond interconnect, the sources cover two speculative application layers. Optical computing: an InP semiconductor-optical-amplifier all-optical neuron using cross-gain modulation as the nonlinearity, analysed at system level, reports 47 TMAC/s (about 2.5 times a then-state-of-the-art GPU), 12 pJ/MAC (about 2 times better) and under 20 pJ/op including transceivers and electrical control when synapses per neuron exceed 18. Quantum photonics: an integrated rare-earth quantum memory in Eu:Y2SiO5 reaching 80.3% storage-retrieval efficiency and 69.8% for telecom-heralded single photons, but only at cryogenic temperature <sup class="ref"><a href="https://arxiv.org/abs/2511.05928" title="Efficient integrated quantum memory for light (¹⁵¹Eu³⁺:Y₂SiO₅, AFC, telecom-heralded)" rel="noopener">ref</a></sup>.
 
-Where value is moving, on current evidence: (1) datacentre optical interconnect remains the volume driver (own synthesis, photonic engines for data centers; this cycle's tier-1 flow is research-side, so the market read is medium confidence and not freshly re-verified); (2) quantum photonic components (sources, isolators, polarization control compact deterministic liquid crystal polarization controller) are crossing from lab to deployable hardware, a component-vendor opportunity that exists whichever quantum modality wins; (3) design automation for photonics is separating into its own layer.
+## Viability (unscored)
 
-## Investment routing
+## Drivers (unscored)
 
-## Companies using
+## Novelty (unscored)
 
-<!-- dataview block stripped for public site -->
+## Diffusion (unscored)
 
-## Connected ideas
+## Impact (unscored)
 
-<!-- dataview block stripped for public site -->
+## Timing Unclear
 
-## Sources
-
-<!-- dataview block stripped for public site -->
-
-## Frontier (open questions)
-
-## Merged from `photonics-optics` (archived 2026-05-07)
-
-*Hyphenated variant. Photonics is the canonical concept; 'photonics-optics' was an Attio-tag-derived duplicate (kind: technology,  at merge). Its prose duplicated the sections above and was folded into the main body on re-synthesis 2026-07-26; the Dataview blocks below are kept because companies and sources still carry the legacy `photonics-optics` tag.*
-
-## Companies using
-
-<!-- dataview block stripped for public site -->
-
-## Connected ideas
-
-<!-- dataview block stripped for public site -->
-
-## Sources
-
-<!-- dataview block stripped for public site -->
-
-## Frontier (open questions)
-
-- *To be added.*
+---
+*Assessment drafted 2026-08-31 from up to 18 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

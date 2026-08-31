@@ -1,0 +1,72 @@
+---
+/**
+ * Technology scorecard — the at-a-glance assessment block.
+ * Spec: ~/kb/methodology/technology-scorecard.md
+ *
+ * A null score is rendered as "unscored", never as a zero or a blank that
+ * reads as low: the framework's rule is that a dimension the sources cannot
+ * support is left unscored on purpose.
+ */
+interface Props {
+  scorecard: Record<string, unknown>;
+  status?: string;
+}
+const { scorecard, status } = Astro.props;
+
+const DIMS: [string, string, string][] = [
+  ["viability", "Viability", "How technically mature is it?"],
+  ["drivers", "Drivers", "How powerful are the adoption forces?"],
+  ["novelty", "Novelty", "How much better than the alternatives?"],
+  ["diffusion", "Diffusion", "How easily will it be adopted?"],
+  ["impact", "Impact", "How much value if it works?"],
+];
+
+const rows = DIMS.map(([key, label, question]) => {
+  const raw = scorecard?.[key];
+  const score = typeof raw === "number" && raw >= 1 && raw <= 5 ? raw : null;
+  return { key, label, question, score };
+});
+
+const timing = typeof scorecard?.timing_band === "string" ? scorecard.timing_band : "";
+const verdict = typeof scorecard?.verdict === "string" ? scorecard.verdict : "";
+const scored = rows.filter((r) => r.score !== null).length;
+---
+
+{scored > 0 && (
+  <section class="scorecard" aria-label="Technology scorecard">
+    <div class="sc-head">
+      <span class="sc-title">Assessment</span>
+      {status === "draft" && <span class="sc-flag">draft · unreviewed</span>}
+    </div>
+
+    <dl class="sc-grid">
+      {rows.map((r) => (
+        <div class={`sc-row${r.score === null ? " is-unscored" : ""}`}>
+          <dt title={r.question}>{r.label}</dt>
+          <dd>
+            {r.score === null ? (
+              <span class="sc-unscored">unscored</span>
+            ) : (
+              <>
+                <span class="sc-dots" aria-hidden="true">
+                  {[1, 2, 3, 4, 5].map((i) => (
+                    <span class={`sc-dot${i <= r.score! ? " on" : ""}`}></span>
+                  ))}
+                </span>
+                <span class="sc-num">{r.score}/5</span>
+              </>
+            )}
+          </dd>
+        </div>
+      ))}
+    </dl>
+
+    {(timing || verdict) && (
+      <p class="sc-foot">
+        {timing && <><strong>Timing</strong> {timing}</>}
+        {timing && verdict && <span class="sc-sep">·</span>}
+        {verdict && <><strong>Read</strong> {verdict}</>}
+      </p>
+    )}
+  </section>
+)}

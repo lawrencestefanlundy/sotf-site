@@ -15,13 +15,15 @@ sources:
 - '[[2024-12-04-cubits-in-a-fridge-why-is-nobody]]'
 - '[[2025-11-26-orca-computing-37m-series-b]]'
 - '[[2026-06-04-q-memory-site]]'
-frontier: []
-last_updated: '2026-05-04'
-tags:
-- concept
-- technology
-mention_count: 85
-last_reorg_date: '2026-05-13'
+scorecard:
+  viability: null
+  drivers: null
+  novelty: null
+  diffusion: null
+  impact: null
+  timing_band: Unclear
+  verdict: ''
+scorecard_status: draft
 sources_7d: 0
 sources_30d: 9
 recent_mentions:
@@ -51,32 +53,29 @@ recent_mentions:
   kind: substack
 neighbors: []
 ---
-## Physics / mechanism
+**Photonic quantum computing encodes quantum information in light and processes it with waveguide circuits, squeezers and photon detectors; the 2026 literature shows the individual components improving measurably but no integrated machine, and loss remains the deciding parameter.**
 
-Photonic quantum computing encodes qubits in photons—typically via polarisation, path, or time-bin degrees of freedom. Linear optical quantum computing (LOQC) uses beam splitters, phase shifters, and single-photon detectors to perform gate operations; measurement-based variants (MBQC) pre-entangle photons into cluster states then consume them through adaptive measurements. Key parameters: photon indistinguishability (>99% demonstrated in InGaAs QDs), two-photon interference visibility, detector efficiency (SNSPDs >98%), and loss per component (<0.1 dB on-chip is target). PsiQuantum targets silicon photonics fabs at scale; Quix Quantum ships 20+ mode processors; Xanadu's Borealis demonstrated 216-mode Gaussian boson sampling. Error correction overhead remains the critical bottleneck—photon loss is the dominant error channel.
+## Summary
 
-## Competitive landscape
+Photonic quantum computing uses optical modes rather than superconducting circuits or trapped ions as the carrier of quantum information. Two encodings dominate. The discrete-variable route builds small entangled states of single photons and stitches them into large resource states using probabilistic "fusion" measurements; without ancillary resources, the success probability of a fusion gate is capped at 1/2. The continuous-variable route uses squeezed light from optical parametric oscillators, homodyne detection, and non-Gaussian resources such as Gottesman-Kitaev-Preskill (GKP) states to encode logical qubits with intrinsic error robustness. Both routes are measurement-based: the computation is driven by detection outcomes fed forward into subsequent optics in real time.
 
-Competing modalities: superconducting qubits (IBM, Google) lead on gate fidelity and speed but require dilution refrigeration; trapped ions (IonQ, Quantinuum) offer best coherence but low clock rates; neutral atoms (Atom Computing, QuEra) scale spatially but face control complexity. Photonic competes primarily on room-temperature operation, telecom-wavelength networking, and fabrication in standard CMOS/silicon-photonics fabs.
+The appeal is manufacturability and telecom compatibility. Photon pair sources, filters, modulators and pulse shapers can be patterned on silicon, silicon nitride or thin-film ferroelectrics using processes borrowed from classical integrated photonics. A single silicon chip has now been shown to host a biphoton frequency comb source, pump rejection, high-speed phase modulators and a four-channel pulse shaper together, delivering frequency beamsplitters with success probabilities above 94% and fidelities above 99.9%, and on-chip Bell-state tomography at 95.7(3)% fidelity. New material platforms are entering the same way: thin-film lithium tantalate microrings have produced correlated photon pairs across 1510 to 1570 nm at 24 MHz/mW^2, with heralded antibunching of g2_H(0) = 0.071 +- 0.004.
 
-| Approach | Operating temp | Integration path | Key weakness |
-|---|---|---|---|
-| Photonic | Room temp (detectors ~4K) | Si-photonics foundry | Photon loss, non-determinism |
-| Superconducting | ~15 mK | Custom fab | Cryogenic infrastructure |
-| Trapped ion | Room temp | Hybrid MEMS | Clock rate, shuttling overhead |
+The parameters that decide the technology are loss, source brightness and indistinguishability, feedforward latency, and reproducibility. Loss is not merely a performance tax: in Gaussian Boson Sampling it destroys entanglement to the point where the output becomes classically simulable, which is why proposals now add optical parametric amplifier networks inside the interferometer to sustain quantum correlations under realistic loss. Latency decides whether measurement-based protocols run at all rather than in post-processing; an FPGA feedforward system with a fibre homodyne detector at greater than 95% quantum efficiency has demonstrated 196 ns total system latency. Reproducibility is a quieter problem: nominally identical squeezers show large threshold variations traced to crystal-edge termination and coating phases.
 
-## Companies using
+A fourth parameter is the interface to matter. Modular scaling and quantum memories require spin-photon interfaces, pursued via colour centres in diamond integrated as chiplets onto other photonic platforms, erbium dopants addressed individually in silicon photonic crystal waveguides, and single emitters in two-dimensional materials, which still fight blinking, spectral wandering and charge-noise broadening.
 
-<!-- dataview block stripped for public site -->
+## Viability (unscored)
 
-## Connected ideas
+## Drivers (unscored)
 
-<!-- dataview block stripped for public site -->
+## Novelty (unscored)
 
-## Sources
+## Diffusion (unscored)
 
-<!-- dataview block stripped for public site -->
+## Impact (unscored)
 
-## Frontier (open questions)
+## Timing Unclear
 
-- *To be added.*
+---
+*Assessment drafted 2026-08-31 from up to 18 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

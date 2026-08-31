@@ -72,20 +72,20 @@ The moat is process know-how and qualification lock-in: a deposition recipe is c
 Net read: steady-to-accelerating served market, but the equipment half rides a memory-led capex cycle while the precursor/gas half is the smoother compounder.
 
 - **Drivers**
-  - Deposition intensity outgrows wafer count. The move to sub-5nm and gate-all-around adds roughly 30-50% more CVD/ALD process steps per wafer vs 7nm, so tool and precursor consumption rise even when output is flat [9]. TSMC put GAA into production at N2 in 2025; GAA plus backside power at A16 adds more conformal film steps again [10].
-  - 3D NAND vertical scaling. Stacks now exceed 300 layers, with ~1,000 layers projected by 2030; every added layer is more conformal dielectric and metal deposition [10][11].
-  - AI/memory capex. SEMI sees WFE up ~9% in 2026 and ~7% in 2027 to a record ~$156B in equipment sales by 2027, with NAND WFE +35% and DRAM/HBM +18% in 2026 pulling deposition-heavy memory spend [12].
-  - Advanced packaging. Hybrid-bonding equipment is forecast at ~21% CAGR 2025-2030; the SiCN/oxide bonding dielectric and TSV passivation are PECVD/CVD steps, opening a packaging-side demand pool on top of front-end [13].
+ - Deposition intensity outgrows wafer count. The move to sub-5nm and gate-all-around adds roughly 30-50% more CVD/ALD process steps per wafer vs 7nm, so tool and precursor consumption rise even when output is flat [9]. TSMC put GAA into production at N2 in 2025; GAA plus backside power at A16 adds more conformal film steps again [10].
+ - 3D NAND vertical scaling. Stacks now exceed 300 layers, with ~1,000 layers projected by 2030; every added layer is more conformal dielectric and metal deposition [10][11].
+ - AI/memory capex. SEMI sees WFE up ~9% in 2026 and ~7% in 2027 to a record ~$156B in equipment sales by 2027, with NAND WFE +35% and DRAM/HBM +18% in 2026 pulling deposition-heavy memory spend [12].
+ - Advanced packaging. Hybrid-bonding equipment is forecast at ~21% CAGR 2025-2030; the SiCN/oxide bonding dielectric and TSV passivation are PECVD/CVD steps, opening a packaging-side demand pool on top of front-end [13].
 
 - **Constraints**
-  - China digestion and localisation. China is the largest WFE buyer but stops expanding from 2026, and a domestic-tool mandate is sidelining foreign suppliers; Piotech (China thin-film deposition) roughly doubled nine-month 2025 revenue to ~$617M, eroding the served pool the incumbents can address [14].
-  - Cyclicality and capex lumpiness. Equipment orders swing with the memory cycle (NAND WFE itself moved from deep cuts to +35%), so the tool line is volatile even as the secular trend rises [12].
-  - Step-count erosion from new metals. Molybdenum replaces tungsten in NAND wordlines and needs no barrier/adhesion layer, removing process steps; lower step count per layer is a mild headwind to CVD intensity even as it triggers a tool refresh [13].
+ - China digestion and localisation. China is the largest WFE buyer but stops expanding from 2026, and a domestic-tool mandate is sidelining foreign suppliers; Piotech (China thin-film deposition) roughly doubled nine-month 2025 revenue to ~$617M, eroding the served pool the incumbents can address [14].
+ - Cyclicality and capex lumpiness. Equipment orders swing with the memory cycle (NAND WFE itself moved from deep cuts to +35%), so the tool line is volatile even as the secular trend rises [12].
+ - Step-count erosion from new metals. Molybdenum replaces tungsten in NAND wordlines and needs no barrier/adhesion layer, removing process steps; lower step count per layer is a mild headwind to CVD intensity even as it triggers a tool refresh [13].
 
 - **Trends & inflections to watch**
-  - Tungsten-to-molybdenum metallisation. Lam's ALTUS Halo Mo-ALD (Feb 2025) and Applied's Selectra Mo etch mark the shift. Tripwire: Mo wordlines qualified into high-volume 1,000-layer NAND by ~2027-28 confirms a metal-deposition refresh cycle [13].
-  - Packaging deposition as a second engine. Tripwire: hybrid-bonding lines reaching sub-1um pitch in HVM at a leading memory/foundry maker would re-rate the PECVD packaging pool [13].
-  - China share crossover. Tripwire: a foreign deposition vendor reporting China revenue below ~25% of total (from ~35-40%) would confirm localisation is permanently shrinking the addressable pool [14].
+ - Tungsten-to-molybdenum metallisation. Lam's ALTUS Halo Mo-ALD (Feb 2025) and Applied's Selectra Mo etch mark the shift. Tripwire: Mo wordlines qualified into high-volume 1,000-layer NAND by ~2027-28 confirms a metal-deposition refresh cycle [13].
+ - Packaging deposition as a second engine. Tripwire: hybrid-bonding lines reaching sub-1um pitch in HVM at a leading memory/foundry maker would re-rate the PECVD packaging pool [13].
+ - China share crossover. Tripwire: a foreign deposition vendor reporting China revenue below ~25% of total (from ~35-40%) would confirm localisation is permanently shrinking the addressable pool [14].
 
 ## Connections
 [Semiconductor Materials & Equipment](/manufacturing/equipment-processes/semiconductor-materials-equipment/) · **Deposition Materials Process Market** · [Annealing / rapid thermal processing (process step)](/semiconductor-process-flow/frontend/flow-annealing-rtp/) · [Atomic layer deposition (ALD) (process step)](/semiconductor-process-flow/frontend/flow-ald-atomic-layer-deposition/) · [Plasma / dry etch (process step)](/semiconductor-process-flow/frontend/flow-plasma-dry-etch/)

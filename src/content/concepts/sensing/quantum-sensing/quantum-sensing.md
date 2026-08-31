@@ -11,11 +11,11 @@ related_concepts: []
 sources:
 - '[[2024-12-16-willow-and-the-race-to-quantum-advantage]]'
 frontier: []
-last_updated: '2026-05-04'
+last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 152
+mention_count: 156
 descendants:
 - atomic-clocks
 - nv-diamond-sensing
@@ -25,8 +25,17 @@ descendants:
 - quantum-magnetometry
 - quantum-sensing
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 18
+scorecard:
+  viability: null
+  drivers: null
+  novelty: null
+  diffusion: null
+  impact: null
+  timing_band: Unclear
+  verdict: ''
+scorecard_status: draft
+sources_7d: 2
+sources_30d: 20
 recent_mentions:
 - slug: 2026-07-21-precision-astrometry-using-optically-independent-spacecraft-
   title: Precision Astrometry Using Optically Independent Spacecraft for Graviational Wave Detection
@@ -42,32 +51,29 @@ recent_mentions:
   kind: substack
 neighbors: []
 ---
-## Physics / mechanism
+**Quantum sensing uses individual quantum systems (spin defects in crystals, cold atoms, squeezed light) as measurement probes whose coherence turns tiny fields into readable phase shifts; the diamond nitrogen-vacancy and cold-atom platforms now deliver real physics results, while the entangled-network promises remain largely theoretical.**
 
-Quantum sensing exploits quantum mechanical properties—superposition, entanglement, squeezing—to measure physical quantities with precision beyond classical limits. Primary modalities: atomic interferometers (gravimeters, gyroscopes), nitrogen-vacancy (NV) centres in diamond (magnetometry, thermometry), optical atomic clocks, and squeezed-light interferometers. Key figure of merit is sensitivity floor, often expressed as shot-noise or standard quantum limit (SQL). NV magnetometers reach ~1 pT/√Hz at room temperature; atom interferometers achieve gravimetric sensitivity ~10⁻⁹ g/√Hz. DARPA, NIST, PTB driving SOA. Commercial readiness is modality-dependent: optical clocks and MEMS-hybrid gravimeters nearest to deployment; entanglement-enhanced sensors remain largely lab-stage.
+## Summary
 
-## Competitive landscape
+A quantum sensor is a probe whose quantum state, rather than a bulk material property, carries the measurement. The dominant solid-state version is the nitrogen-vacancy (NV) centre, a point defect in diamond whose electron spin resonance frequency shifts with magnetic field and can be initialised and read out optically; NV centres are described in the current literature as the most important solid-state quantum sensors. The other main families are atomic: alkali vapour magnetometers operating in the spin-exchange relaxation-free regime, atom interferometers that split and recombine matter waves to sense forces and fields, and photonic or microwave schemes that use squeezed vacuum to beat shot noise.
 
-Classical alternatives—SQUID magnetometers, MEMS accelerometers, fluxgate sensors—compete on cost and form factor, not sensitivity. Quantum wins at extreme precision: subsurface mapping, inertial navigation without GPS, medical imaging (MEG/MRI enhancement). Adjacent: photonic integrated circuits (PIC-based sensor readout), cryogenic electronics for coherence preservation, precision MEMS as hybrid classical-quantum front-ends.
+The parameters that decide performance are few and physical. Sensitivity scales with coherence time, the number of probes, and readout contrast, which is why several current results attack contrast directly: embedding NV ensembles in a laser cavity so the magnetic resonance switches the laser off entirely gives 100 per cent optical contrast against a few per cent for conventional ensembles, with photon-shot-noise-limited sensitivity below 400 fT/√Hz on all vector components and output up to 50 mW. A separate protocol that purifies the NV charge state with a strong laser pulse before weak repumping improves readout contrast by 17 per cent and cuts initialisation error by more than half. Sensor-target distance matters as much as sensitivity, which motivates moving spin defects into atomically thin hosts, since NV performance degrades near surfaces and in nanoscale volumes.
 
-| Modality | Sensitivity | Maturity |
-|---|---|---|
-| NV-diamond magnetometer | ~1 pT/√Hz | Pilot / early commercial |
-| Atom interferometer gravimeter | ~10⁻⁹ g/√Hz | Field deployable |
-| SQUID (classical baseline) | ~1 fT/√Hz | Mature, cryogenic |
+Above the single-sensor level sits a second research programme: distributed and entangled sensing, where a network of probes estimates a non-local property of a field. Recent theory gives explicit conditions on sensor placement for error-free estimators and argues that entanglement yields maximal precision in distributed sensing under global resource constraints, and separate work shows that in Gaussian networks with more than two nodes perfect privacy is achievable only asymptotically in large photon number, while local homodyne detection is essentially optimal and gives quadratic scaling of precision with total photon number. This layer is analytical and simulated; the sources contain no experimental network.
 
-## Companies using
+The practical question for any application is whether the quantum probe reaches somewhere no classical instrument can. The clearest example in these sources is magnetometry inside a diamond anvil cell: NV centres fabricated directly on the anvil surface imaged the stray field of iron up to 30 GPa and resolved the α-ε magnetic transition, in a regime where magnetometry techniques were previously limited.
 
-<!-- dataview block stripped for public site -->
+## Viability (unscored)
 
-## Connected ideas
+## Drivers (unscored)
 
-<!-- dataview block stripped for public site -->
+## Novelty (unscored)
 
-## Sources
+## Diffusion (unscored)
 
-<!-- dataview block stripped for public site -->
+## Impact (unscored)
 
-## Frontier (open questions)
+## Timing Unclear
 
-- *To be added.*
+---
+*Assessment drafted 2026-08-31 from up to 18 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

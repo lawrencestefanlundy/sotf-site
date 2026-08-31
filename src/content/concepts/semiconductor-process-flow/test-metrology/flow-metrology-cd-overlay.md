@@ -84,19 +84,19 @@ European/seed angle: Europe punches above its weight in this layer. ASML (NL) ow
 Net read: accelerating. The served market grows faster than WFE because process control is taking a rising share of every fab dollar, and the AI/3D transitions all add measurement steps.
 
 - **Drivers**
-  - Process-control intensity is rising structurally: from ~7.4% of WFE in 2025 toward ~9% by 2030, so this step grows faster than the equipment market it sits inside [10]. The 2nm node captures a meaningfully greater share of WFE than 3nm, a step-function increase in addressable spend per dollar of customer capex [10].
-  - 3D device transitions multiply measurement steps: GAA nanosheets, backside power delivery and High-NA EUV all need denser CD/overlay/OCD sampling, with metrology called out as a key enabling building block for High-NA [11][12].
-  - Advanced packaging is the fastest sub-pool: KLA's advanced-packaging process-control revenue is guided from ~USD 635m (2025) to ~USD 1bn (2026) [13]; HBM4 and custom stacks are more metrology-intensive than HBM3E [14].
+ - Process-control intensity is rising structurally: from ~7.4% of WFE in 2025 toward ~9% by 2030, so this step grows faster than the equipment market it sits inside [10]. The 2nm node captures a meaningfully greater share of WFE than 3nm, a step-function increase in addressable spend per dollar of customer capex [10].
+ - 3D device transitions multiply measurement steps: GAA nanosheets, backside power delivery and High-NA EUV all need denser CD/overlay/OCD sampling, with metrology called out as a key enabling building block for High-NA [11][12].
+ - Advanced packaging is the fastest sub-pool: KLA's advanced-packaging process-control revenue is guided from ~USD 635m (2025) to ~USD 1bn (2026) [13]; HBM4 and custom stacks are more metrology-intensive than HBM3E [14].
 
 - **Constraints**
-  - Cyclicality and capex concentration: the pool tracks leading-edge and HBM capex, which is concentrated in a handful of buyers (TSMC, Samsung, Intel, the HBM makers) and swings with the cycle.
-  - China is the largest WFE buyer but its spend is forecast to fall from ~USD 50bn (2024) to ~USD 36-38bn (2025-26), and export controls now restrict advanced metrology/inspection tools into China, capping that channel [15][16].
-  - Domestic Chinese metrology suppliers (still <10% value share, mostly >=28nm) are scaling toward 20-25% by 2035, eroding the mature-node tail over time [16].
+ - Cyclicality and capex concentration: the pool tracks leading-edge and HBM capex, which is concentrated in a handful of buyers (TSMC, Samsung, Intel, the HBM makers) and swings with the cycle.
+ - China is the largest WFE buyer but its spend is forecast to fall from ~USD 50bn (2024) to ~USD 36-38bn (2025-26), and export controls now restrict advanced metrology/inspection tools into China, capping that channel [15][16].
+ - Domestic Chinese metrology suppliers (still <10% value share, mostly >=28nm) are scaling toward 20-25% by 2035, eroding the mature-node tail over time [16].
 
 - **Trends & inflections to watch**
-  - AI-driven virtual/in-line metrology that infers measurements to cut physical steps, the main software re-rate axis. Tripwire: an incumbent quantifies virtual-metrology revenue or a fab discloses measured measurement-step reduction at 2nm.
-  - Hybrid bonding below 10um: sub-micron bond-interface metrology becomes a discrete pool. Tripwire: KLA hits its ~USD 1bn 2026 advanced-packaging target and HBM4 ramps in volume [13][14].
-  - High-NA EUV in production. Tripwire: a foundry confirms High-NA volume wafers in 2026, pulling new mask + on-wafer metrology demand [12].
+ - AI-driven virtual/in-line metrology that infers measurements to cut physical steps, the main software re-rate axis. Tripwire: an incumbent quantifies virtual-metrology revenue or a fab discloses measured measurement-step reduction at 2nm.
+ - Hybrid bonding below 10um: sub-micron bond-interface metrology becomes a discrete pool. Tripwire: KLA hits its ~USD 1bn 2026 advanced-packaging target and HBM4 ramps in volume [13][14].
+ - High-NA EUV in production. Tripwire: a foundry confirms High-NA volume wafers in 2026, pulling new mask + on-wafer metrology demand [12].
 
 ## Connections
 - [Metrology & Testing](/manufacturing/equipment-processes/metrology-testing/)

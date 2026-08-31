@@ -18,34 +18,16 @@ sources:
 - '[[2023-08-25-e12-nanomechanical-computing-gears]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
-frontier:
-- Lithography as three-way optimisation (throughput / feature size / feature complexity) — does any single tool win on all three, or does the market remain a portfolio of specialised tools each winning on two?
-- Multi-material patterning at production volume — does a tool emerge that patterns dissimilar materials in the same step, or does multi-material foundry remain a retrofit (transfer printing, hybrid integration, post-processing)?
-- ASML chokepoint resilience — TSMC's roadmap is gated on EUV ship rate. What's the bear case for ASML output bottleneck (geopolitics, Veldhoven workforce, parts supply chain) materially constraining global compute output 2027-2030?
-- Photonic-specific lithography wedge — at what segment volume does dedicated photonics-lithography (Cnuic, SWHL, Eulitha) economics beat immersion-on-CMOS retrofit?
-last_updated: '2026-05-08'
-tags:
-- concept
-- technology
-mention_count: 191
-descendants:
-- computational-lithography
-- directed-self-assembly
-- duv-immersion-lithography
-- e-beam-lithography
-- euv-light-sources
-- high-na-euv-lithography
-- lithography
-- lithography-tools
-- mask-blank-manufacturing
-- maskless-lithography
-- nanoimprint-lithography
-- photonic-manufacturing
-- photoresists
-- two-photon-polymerization
-- x-ray-lithography
-- xolography
-last_reorg_date: '2026-05-13'
+scorecard:
+  viability: 5
+  drivers: 4
+  novelty: 3
+  diffusion: 3
+  impact: 4
+  timing_band: Now (0-2yr)
+  verdict: Fairly rated
+scorecard_status: draft
+mention_count: 193
 sources_7d: 0
 sources_30d: 9
 recent_mentions:
@@ -83,38 +65,91 @@ recent_mentions:
   kind: web
 neighbors: []
 ---
-## Physics / mechanism
+**Lithography is the set of techniques that define patterns on a substrate, and across the supplied evidence it is the step that sets cost per bit, device uniformity and yield for memory, CMOS qubit arrays, photonics and 3D micro-optics alike.**
 
-Lithography is the patterning process that defines transistor features, interconnects, and devices on semiconductor wafers by projecting light (or particle beams) through a mask onto photoresist-coated substrates. Resolution is governed by the Rayleigh criterion: R = k₁λ/NA, where k₁ is a process-dependent factor, λ is wavelength, and NA is numerical aperture. EUV (13.5 nm wavelength) is current leading-edge, enabling sub-5 nm nodes at ~200 wafers/hour on ASML's NXE/EXE platforms. Deep-UV (193 nm immersion) remains dominant for mature nodes. Overlay accuracy, dose uniformity, and mask defectivity are the binding constraints at leading edge. High-NA EUV (0.55 NA) is entering HVM, pushing single-exposure resolution below 8 nm half-pitch.
+## Summary
 
-## Competitive landscape
+Lithography is pattern definition: transferring a designed geometry into a resist or mask layer so that subsequent etch, deposition or implant steps land where intended. The supplied sources span four distinct families. First, projection optical lithography, including EUV, used in high-volume 300 mm CMOS lines; one source characterises a 7x7 silicon MOS quantum dot array with 392 dots patterned by EUV lithography in a 300 mm CMOS process. Second, serial charged-particle and scanning-probe writing: electron-beam lithography combined with ion implantation for chip-scale optical data storage, AFM nano-oxidation to place quantum dots, and electrochemical AFM writing of sub-10 nm graphene nanoribbon FETs. Third, two-photon lithography and two-photon polymerisation, which write true 3D microstructures in a photoresist by nonlinear absorption at a focal voxel. Fourth, computational lithography: inverse mask optimisation that pre-distorts the drawn layout so the fabricated result matches intent.
 
-| Technique | Wavelength / Method | Node range | Key players |
-|---|---|---|---|
-| DUV (193i) | 193 nm immersion | 28 nm–65 nm | ASML, Nikon |
-| EUV (Low-NA) | 13.5 nm, 0.33 NA | 5 nm–7 nm | ASML only |
-| High-NA EUV | 13.5 nm, 0.55 NA | <2 nm | ASML only |
-| Nanoimprint (NIL) | Contact mechanical | ~14 nm | Canon, EV Group |
-| e-beam direct-write | Electron beam | Mask-making, R&D | IMS, Raith |
+The parameters that decide any lithography choice are resolution, throughput, cost per critical layer, and pattern fidelity, meaning how faithfully corners, sidewall angles and edge placement survive. Fidelity is not a cosmetic issue. A study of Ge2Sb2Te5 metasurfaces shows that trapezoidal sidewall deviations from the drawn rectangle degrade the quasi-BIC quality factor, with an inverse-quadratic scaling of Q with disorder amplitude in the loss-free limit. In inverse-designed photonics the same effect compounds through cascaded circuits, which is the stated reason inverse-designed devices underperform their simulations.
 
-## Companies using
+The economic parameter is mask count. A rigorous 3D NAND cost model shows that adding device layers does not monotonically reduce die cost per bit: because any deep etch has a non-zero taper angle, the cell pitch at the top of the stack grows linearly with layer count, so array footprint eventually rises with layers and die cost passes through a minimum **Walker 2013 Rigorous 3D Nand Flash Cost Analysis**. The same paper shows that a lithography-intensive layered approach using three critical masks per device layer can reach a smaller die and undercut the vertical-channel approach on total cost **Walker 2013 Rigorous 3D Nand Flash Cost Analysis**. Lithography steps are therefore a design variable to be traded, not simply a cost to be eliminated.
 
-<!-- dataview block stripped for public site -->
+A fifth pattern in the evidence is displacement: moving the hard lithography off the awkward substrate. Silicon masks fabricated in commercial semiconductor foundries are microtransfer-printed onto diamond, replacing bespoke direct writing on diamond and yielding hundreds of quantum microchiplets with improved uniformity, yield and throughput.
 
-## Connected ideas
+## Viability (5/5)
 
-<!-- dataview block stripped for public site -->
+There is no question of feasibility. EUV lithography is used inside a 300 mm CMOS process to pattern dense quantum dot arrays, with 392 dots characterised statistically and threshold voltage variability held below 63 mV standard deviation at the optimal 17 nm oxide. The 3D NAND cost analysis treats lithography as a costed, well-understood production step **Walker 2013 Rigorous 3D Nand Flash Cost Analysis**. Electron-beam lithography plus ion implantation delivers deterministic, multi-bit grayscale encoding over millimetre areas.
 
-## Sources
+The emerging modalities are also past proof of principle, though at very different maturity. Two-photon lithography has produced centimetre-scale continuous 3D structures with grayscale voxel control using a DMD to temporally focus femtosecond pulses at above 10 kHz refresh, and TPL-patterned substrates have induced 2.2% biaxial strain in monolayer MoS2 stable over months. Scanning-probe writing reaches sub-10 nm graphene features and 51(28) nm placement accuracy for quantum dots, but as inherently serial techniques their viability claim is for research and small-volume use, not volume manufacturing.
 
-<!-- dataview block stripped for public site -->
+**TLDR: Working in high-volume production and demonstrated across every emerging modality in the evidence set.**
 
-## Lawrence's framing
+## Drivers (4/5)
 
-Lithography is the most important machine you've probably never heard of. Every chip in every device you own was patterned by one. The principle: silicon wafer + photoresist + UV through a stencil (photomask) + dissolve/harden + etch. Stack 50-100 patterning steps and at the end you have a chip. *No lithography, no chips. No chips, no computing.*
+Demand is well evidenced and comes from several directions at once. AI systems scaling to multi-chiplet and wafer-level architectures have outpaced electrical interconnects, driving electronic-photonic integration and with it the need for fabrication-aware physical design and yield optimisation. Growth in global data generation is cited as the motivation for chip-fabricated optical storage using EBL. Quantum hardware needs uniform, reproducible patterning at scale, which is the explicit reason for using EUV in a CMOS line for spin qubit arrays and for shifting diamond photonics onto foundry-made masks. Memory cost per bit remains a direct commercial driver of lithography strategy **Walker 2013 Rigorous 3D Nand Flash Cost Analysis**.
 
-The market for these machines is a Dutch monopoly. ASML's EUV scanners cost north of $300M each. TSMC, Samsung, and Intel buy almost all of them. **The entire global compute supply chain runs through one car park in Veldhoven.** Those machines are all optimised end-to-end for shrinking transistors. Photonics needs the opposite shape of problem: larger structures sized to the wavelength of light (hundreds of nanometres rather than tens), different materials beyond silicon, three-dimensional geometries. The whole optimisation surface flips. That's the gap that opens space for specialty-lithography startups (see [Maskless Lithography](/manufacturing/lithography/maskless-lithography/), [Two-Photon Polymerization](/manufacturing/lithography/two-photon-polymerization/), [Xolography](/manufacturing/lithography/xolography/)).
+On supply the evidence is thin. None of the sources addresses lithography tool availability, exposure tool cost, resist or mask supply chains, or fab capacity, so nothing here supports a view on whether supply constrains adoption. The one supply-side signal is software rather than hardware: adoption of variable-dose TPP has been held back by a lack of slicer software and validated measurement methods, which one source addresses with an open-source slicer and a refractive index calibration methodology.
 
-## Frontier (open questions)
+**TLDR: Strong, diverse demand pull; the sources say almost nothing about equipment supply or capex.**
 
-See frontmatter `frontier:` block.
+## Novelty (3/5)
+
+Lithography itself is not novel, so the question is what the new variants beat and by how much. Computational inverse lithography is established in electronics but the source states plainly that photonics lacks a systematic, flexible mask optimisation flow, and that calibrating fabrication models is costly and expertise-heavy, requiring repeated fabrication cycles. Filling that gap is a real novelty claim, extended to a full physical design flow including placement and routing. Mask transfer printing is novel against the incumbent of sequential direct lithography on diamond, claiming improved uniformity, yield and throughput, though the source gives no numeric margin.
+
+In two-photon lithography the claimed advance is the first demonstration of true continuous 3D nanolithography with full-bandwidth data streaming, against prior parallel-exposure approaches whose practical rate on large parts was limited by toolpath, data transfer and stop-and-go stitching. Scanning-probe writing is offered as lower cost and simpler than photo and e-beam lithography for sub-10 nm graphene devices, but no throughput or cost comparison is given. The most contrarian novelty in the set is conceptual rather than technical: the demonstration that a lithography-intensive layered 3D memory, at three critical masks per device layer, can undercut a low-mask-count vertical-channel architecture on total cost **Walker 2013 Rigorous 3D Nand Flash Cost Analysis**.
+
+**TLDR: The base technology is mature; the genuinely new items are computational mask flows for photonics, mask transfer printing and continuous 3D writing, and the improvement margins are mostly unquantified.**
+
+## Diffusion (3/5)
+
+For mainstream projection lithography the barrier is not adoption but access and cost per critical layer, which the memory cost model treats as the central trade **Walker 2013 Rigorous 3D Nand Flash Cost Analysis**. For the newer branches the stated barriers are consistent across sources. Two-photon lithography is limited by practical fabrication rate on large structures, attributed to bandwidth mismatch between toolpath generation, data transfer and laser patterning, and to stop-and-go stitching. Variable-dose TPP has been held back by absent software and validation techniques, a high barrier of entry that an open-source slicer is intended to lower. Quality control is not solved either: static computer vision models cannot detect unseen defect classes or adapt to new part geometries, motivating few-shot and domain-adaptation frameworks for TPL inspection.
+
+Metrology is a second gate. Recovering 3D surface geometry from SEM signals is hard enough that a neural field method is needed to resolve 478 nm layered features in two-photon lithography samples. For computational lithography in photonics the barrier is model calibration cost and the need for repeated fabrication cycles, which puts it out of reach of most designers today. Scanning-probe lithography, being serial and tip-based, has no diffusion path to volume in anything the sources show; its role is research prototyping and deterministic placement.
+
+**TLDR: Projection lithography is already diffused; the direct-write and computational branches are gated by throughput, software, calibration and metrology.**
+
+## Impact (4/5)
+
+The clearest quantified impact is economic. The 3D NAND model shows die cost per bit does not fall monotonically with layer count and instead passes through a minimum, because top-of-stack cell pitch grows linearly with layers through the taper term 2·N_L(L_g + L_s)·tanθ; a lithography-intensive layered alternative can reach a smaller die and lower total cost **Walker 2013 Rigorous 3D Nand Flash Cost Analysis**. That reframes lithography spend as the lever on memory economics rather than a tax on it. In photonics, lithography-induced deviation is the stated cause of large optical response drift, low yield and the gap between simulated and fabricated performance for inverse-designed circuits, with a quantified mechanism in metasurfaces where Q scales inverse-quadratically with sidewall disorder amplitude.
+
+Enabling impact is broad but mostly demonstrated at device rather than system level: 245-fold photoluminescence enhancement from AFM-positioned quantum dots in circular Bragg gratings, roughly 0.4 eV band gap tuning, about 25% of the intrinsic gap, in monolayer MoS2 strained on TPL-patterned substrates, hundreds of diamond quantum microchiplets from foundry masks, and 3D exchange-biased microwires built by combining two-photon lithography with sputtering. The sources do not quantify market or macroeconomic value, which is why this is not a 5.
+
+**TLDR: In the domains the sources cover, lithography choice decides cost per bit, device uniformity and photonic yield outright.**
+
+## Timing Now (0-2yr)
+
+Projection lithography is in production and is already the cost and uniformity determinant in the applications shown, from EUV-patterned 300 mm qubit arrays to memory die cost modelling **Walker 2013 Rigorous 3D Nand Flash Cost Analysis**. Nothing here is waiting on a physics result.
+
+The adjacent branches are converging on the practical layer rather than the physical one. In 2026 the published work is about slicers, calibration methods, inspection models, mask optimisation flows and SEM reconstruction. That is the profile of a field in the two-year tooling phase, not a decade-out research phase. The exception is scanning-probe lithography, where the sources show no throughput path and give no timing signal at all.
+
+**TLDR: Mainstream lithography is already the deciding variable; the newer branches are in the software and metrology consolidation phase now.**
+
+## Overrated or underrated? Fairly rated
+
+Lithography's centrality is not in dispute and the evidence does not suggest anyone underestimates it. Two sub-claims inside the field are mispriced, however. The first is the assumption that architectures which reduce lithography steps automatically reduce cost. The 3D NAND analysis dismantles that for vertical-channel memory, showing a cost minimum in layer count driven by etch taper, and showing that three critical masks per device layer can win on total cost **Walker 2013 Rigorous 3D Nand Flash Cost Analysis**. Any roadmap that treats mask count as a pure cost to be minimised should be checked against that mechanism.
+
+The second is that the binding constraint on the newer lithography modalities is no longer resolution. Two-photon lithography already writes centimetre-scale continuous 3D parts with grayscale voxel control; what limits it is data bandwidth, slicer software, inspection and metrology. Likewise the gap between simulated and fabricated inverse-designed photonics is a mask-flow and calibration problem, not an optics problem. Value in the next few years accrues to the software and metrology layer around lithography rather than to new exposure physics.
+
+## Prediction
+
+By 31 December 2028, at least one commercial silicon photonics foundry will offer a photonics-aware inverse lithography or mask optimisation option as a documented part of its PDK, closing the gap identified in.
+
+## Evidence base
+
+- November 2013: a rigorous 3D NAND cost model shows die cost per bit passes through a minimum in layer count because etch taper grows top-of-stack cell pitch linearly with layers, and that a layered approach using three critical masks per device layer can undercut vertical-channel on total cost **Walker 2013 Rigorous 3D Nand Flash Cost Analysis**.
+- 14 May 2026: a 7x7 silicon MOS quantum dot array patterned by EUV lithography in a 300 mm CMOS process yields 392 characterised dots, with threshold voltage variability below 63 mV standard deviation at an optimal 17 nm SiO2 thickness.
+- 6 May 2026: room-temperature AFM nano-oxidation lithography positions GaAs quantum dots to 51(28) nm radial displacement, giving 245-fold photoluminescence enhancement in circular Bragg gratings with polarisation imbalance below 5%.
+- 8 May 2026: in Ge2Sb2Te5 metasurfaces the quasi-BIC quality factor scales inverse-quadratically with the amplitude of trapezoidal lithography disorder in the loss-free limit, quantifying how sidewall fidelity rather than resolution sets device performance.
+- 28 December 2025 (indexed 5 June 2026): line-illumination temporal focusing two-photon lithography using a DMD at above 10 kHz refresh demonstrates continuous, full-bandwidth 3D writing of centimetre-scale structures with grayscale voxel tuning.
+- 27 January 2026 (indexed 5 June 2026): silicon masks made in commercial foundries and microtransfer-printed onto diamond produce hundreds of quantum microchiplets, shifting the demanding pattern-definition step off the diamond substrate and improving uniformity, yield and throughput.
+
+## Open questions
+
+- Does the layer-count cost minimum identified for vertical-channel 3D NAND still bind at current stack heights, and has the lithography-intensive layered alternative ever been costed against a modern process flow? **Walker 2013 Rigorous 3D Nand Flash Cost Analysis**
+- What throughput and cost per part does line-illumination temporal focusing two-photon lithography achieve against existing commercial TPL tools, in parts per hour rather than peak patterning rate? 
+- How much fabrication data is needed to calibrate a photonics inverse lithography model to useful accuracy, and does the yield gain survive on a foundry PDK the designer cannot probe? 
+- Does foundry mask transfer printing onto non-standard substrates such as diamond scale beyond hundreds of chiplets, and with what quantified yield relative to direct writing? 
+
+---
+*Assessment drafted 2026-08-31 from up to 18 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

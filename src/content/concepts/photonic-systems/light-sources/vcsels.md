@@ -16,13 +16,7 @@ related_concepts:
 - lasers
 sources:
 - '[[2026-05-30-intel-optoscribe-acquisition]]'
-frontier: []
-last_updated: '2026-07-25'
-tags:
-- concept
-- technology
 mention_count: 28
-last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 2
 recent_mentions:
@@ -44,6 +38,26 @@ neighbors:
   path: /photonic-systems/light-sources/lasers/
   macro: photonic-systems
 ---
+5-technical-questions]]'
+- ''
+- ''
+- '**Idea Evidence 2026 07 22**'
+- '**Idea Evidence 2026 08 06**'
+deal_count: 0
+frontier:
+- ''
+last_updated: '2026-07-25'
+tags:
+- concept
+- technology
+mention_count: 28
+last_reorg_date: '2026-05-13'
+---
+
+# VCSELs
+
+*Kind: technology*
+
 ## Physics / mechanism
 
 Vertical-Cavity Surface-Emitting Lasers emit light perpendicular to the wafer surface via a resonant cavity formed between two distributed Bragg reflector (DBR) mirror stacks sandwiching a quantum-well active region. Stimulated emission occurs along the growth axis; single-mode operation is achievable at small apertures (3–5 µm). Key parameters: threshold current (sub-1 mA for small aperture), wall-plug efficiency (up to ~60% for 850 nm GaAs devices), modulation bandwidth (>30 GHz for datacom VCSELs), and beam quality (circular, low-divergence). Wavelengths span 670 nm–1550 nm depending on material system. State-of-the-art 940 nm VCSELs (Apple Face ID era) achieve >50% PCE; 1550 nm InP VCSELs remain efficiency-constrained. High-volume fabs now run VCSEL wafers on 6-inch GaAs.
@@ -56,7 +70,7 @@ Edge-emitting lasers (EELs/FP/DFB) offer higher power-per-emitter and longer coh
 
 ## Array scaling: the industry solved dot-count with optics, not with emitters (25 Jul 2026)
 
-*Source: René Kromhof, rene vcsel faceid emitter count — sent "just for your KB" as a correction to a figure Lawrence had put in writing to GlobalFoundries.*
+*Source: René Kromhof, — sent "just for your KB" as a correction to a figure Lawrence had put in writing to GlobalFoundries.*
 
 **The structural point matters more than the number.** Face ID is the highest-volume VCSEL array ever manufactured, and when its designers needed a dense dot field they did **not** scale emitter count on die — they kept the array small and added an optical element. That is the revealed cost-and-yield answer from the one application with the volume to justify brute-forcing array size. Two consequences for diligence:
 

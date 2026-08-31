@@ -15,12 +15,11 @@ const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
 ---
 
 <Base title="Now" description="Lawrence Lundy-Bryan — deep-tech reference">
-  <section class="hero">
-    <h1>State of the Future</h1>
-    <p>A public reference layer for the technology graph Lawrence Lundy-Bryan tracks. {concepts.length} concepts across nine macro domains — compute, sensing, energy, materials, photonic systems, and the frontier where they meet. Updated nightly from the underlying knowledge base.</p>
-  </section>
+  {/* Visually hidden, but kept for search engines and screen readers: a page
+      with no h1 reads as untitled to both. */}
+  <h1 class="sr-only">State of the Future — a public deep-tech reference, {concepts.length} concepts updated nightly</h1>
 
-  <section>
+  <section class="home-grid">
     <div class="grid-3">
       {MACROS.map((m) => (
         <div class="card macro-card">

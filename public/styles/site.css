@@ -87,6 +87,119 @@ main,
 }
 .site-nav a:hover { background: var(--bg-soft); }
 
+/* ── header search ───────────────────────────────────────────── */
+.site-search {
+  position: relative;
+  flex: 0 1 260px;
+  min-width: 150px;
+}
+.site-search input {
+  width: 100%;
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 0.78rem;
+  padding: 0.45rem 0.7rem;
+  border: 1px solid var(--ink);
+  background: var(--bg);
+  color: var(--ink);
+  border-radius: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.site-search input::placeholder { color: var(--ink-60); }
+.site-search input:focus {
+  outline: none;
+  background: var(--bg-soft);
+}
+.search-results {
+  position: absolute;
+  top: calc(100% + 0.4rem);
+  right: 0;
+  width: min(460px, 88vw);
+  max-height: 70vh;
+  overflow-y: auto;
+  background: var(--bg);
+  border: 1px solid var(--ink);
+  z-index: 50;
+}
+.search-results a {
+  display: block;
+  padding: 0.7rem 0.85rem;
+  border-bottom: 1px solid var(--rule);
+  color: var(--ink);
+}
+.search-results a:last-child { border-bottom: none; }
+.search-results a:hover,
+.search-results a:focus { background: var(--bg-soft); outline: none; }
+.search-results .r-title {
+  display: block;
+  font-family: 'EB Garamond', Georgia, serif;
+  font-weight: 700;
+  font-size: 1.05rem;
+  line-height: 1.2;
+  margin-bottom: 0.2rem;
+}
+.search-results .r-excerpt {
+  display: block;
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 0.92rem;
+  color: var(--ink-80);
+  line-height: 1.4;
+}
+.search-results mark {
+  background: var(--paper);
+  color: var(--ink);
+  font-weight: 500;
+}
+.search-empty {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 0.78rem;
+  color: var(--ink-60);
+  padding: 0.8rem 0.85rem;
+  margin: 0;
+}
+@media (max-width: 860px) {
+  .site-header nav { flex-wrap: wrap; }
+  .site-search { flex: 1 1 100%; order: 3; }
+}
+
+/* ── writing archive ─────────────────────────────────────────── */
+.standfirst {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 1.15rem;
+  color: var(--ink-80);
+  line-height: 1.55;
+  margin-bottom: 2rem;
+}
+.year-block h2 {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  color: var(--ink-60);
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 0.4rem;
+  margin: 2rem 0 0.25rem;
+}
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.post-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+.post-list a {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 1.1rem;
+  color: var(--ink);
+}
+.post-list a:hover { text-decoration: underline; }
+.post-list .meta { white-space: nowrap; }
+
 /* ── breadcrumb ──────────────────────────────────────────────── */
 .breadcrumb {
   font-family: 'JetBrains Mono', ui-monospace, monospace;

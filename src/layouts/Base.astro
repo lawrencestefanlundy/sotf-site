@@ -9,6 +9,8 @@ interface Props {
   prose?: boolean; // text-heavy page: centre the whole content column at reading measure
 }
 const { title, description, jsonLd, noindex, prose } = Astro.props;
+// Members pages must never enter the public Pagefind index.
+const isMembers = Astro.url.pathname.startsWith("/members");
 const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
 const metaDescription = description ?? "State of the Future — Lawrence Lundy-Bryan's deep-tech reference";
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
@@ -53,24 +55,34 @@ const siteJsonLd = {
     <link rel="stylesheet" href="/styles/site.css" />
     <ClientRouter />
   </head>
-  <body>
+  <body data-pagefind-ignore={isMembers ? "all" : undefined}>
     <header class="site-header">
       <nav>
         <a href={`${BASE}/`} class="site-title">State of the Future</a>
-        <ul class="site-nav">
+        <ul class="site-nav" data-pagefind-ignore>
           <li><a href={`${BASE}/`}>Now</a></li>
           <li><a href={`${BASE}/tours/`}>Tours</a></li>
           <li><a href={`${BASE}/writing/`}>Writing</a></li>
           <li><a href={`${BASE}/atlas/`}>Atlas</a></li>
-          <li><a href={`${BASE}/search/`}>Search</a></li>
           <li><a href={`${BASE}/about/`}>About</a></li>
         </ul>
+        <div class="site-search" data-pagefind-ignore>
+          <input
+            type="search"
+            id="site-search-input"
+            placeholder="Search concepts…"
+            autocomplete="off"
+            aria-label="Search the reference"
+            aria-controls="site-search-results"
+          />
+          <div id="site-search-results" class="search-results" hidden></div>
+        </div>
       </nav>
     </header>
     <main class={prose ? "prose-main" : ""}>
       <slot />
     </main>
-    <footer class="site-footer">
+    <footer class="site-footer" data-pagefind-ignore>
       <div class="subscribe-cta">
         <p><strong>This page rebuilds itself nightly</strong> from the research base behind my investing. The analysis goes out on the newsletter.</p>
         <iframe
@@ -86,5 +98,111 @@ const siteJsonLd = {
       </div>
       <p>State of the Future — Lawrence Lundy-Bryan · public reference layer, rebuilt nightly from the underlying KB</p>
     </footer>
+
+    <script is:inline>
+      // Header search, Pagefind-backed. Bound once and re-armed on every
+      // client-side navigation: ClientRouter means DOMContentLoaded fires only
+      // on the first load, which is why the old /search page rendered dead.
+      (() => {
+        let pagefind = null;
+        let loading = null;
+
+        async function getPagefind() {
+          if (pagefind) return pagefind;
+          if (!loading) {
+            loading = import(/* @vite-ignore */ "/pagefind/pagefind.js")
+              .then((m) => { m.init(); pagefind = m; return m; })
+              .catch(() => null);
+          }
+          return loading;
+        }
+
+        function wire() {
+          const input = document.getElementById("site-search-input");
+          const panel = document.getElementById("site-search-results");
+          if (!input || !panel || input.dataset.wired === "1") return;
+          input.dataset.wired = "1";
+
+          let seq = 0;
+          const close = () => { panel.hidden = true; panel.replaceChildren(); };
+
+          const run = async (q) => {
+            const mine = ++seq;
+            if (q.trim().length < 2) return close();
+            const pf = await getPagefind();
+            if (!pf) {
+              const p = document.createElement("p");
+              p.className = "search-empty";
+              p.textContent = "Search index unavailable.";
+              panel.replaceChildren(p);
+              panel.hidden = false;
+              return;
+            }
+            const search = await pf.search(q);
+            if (mine !== seq) return; // a newer keystroke already won
+            const top = await Promise.all(search.results.slice(0, 8).map((r) => r.data()));
+            if (mine !== seq) return;
+            panel.replaceChildren();
+            if (!top.length) {
+              const p = document.createElement("p");
+              p.className = "search-empty";
+              p.textContent = "No matches.";
+              panel.append(p);
+              panel.hidden = false;
+              return;
+            }
+            // Built with DOM methods, not innerHTML. Pagefind excerpts carry
+            // <mark> highlight tags, so those are re-created from the parsed
+            // text; every other tag is discarded rather than trusted.
+            for (const d of top) {
+              const a = document.createElement("a");
+              a.href = d.url;
+              const title = document.createElement("span");
+              title.className = "r-title";
+              title.textContent = (d.meta && d.meta.title) || d.url;
+              const ex = document.createElement("span");
+              ex.className = "r-excerpt";
+              const parsed = new DOMParser().parseFromString(
+                String(d.excerpt || ""), "text/html");
+              for (const node of parsed.body.childNodes) {
+                if (node.nodeType === Node.TEXT_NODE) {
+                  ex.append(node.textContent);
+                } else if (node.nodeName === "MARK") {
+                  const m = document.createElement("mark");
+                  m.textContent = node.textContent;
+                  ex.append(m);
+                } else {
+                  ex.append(node.textContent || "");
+                }
+              }
+              a.append(title, ex);
+              panel.append(a);
+            }
+            panel.hidden = false;
+          };
+
+          let t;
+          input.addEventListener("input", () => {
+            clearTimeout(t);
+            const q = input.value;
+            t = setTimeout(() => run(q), 140);
+          });
+          input.addEventListener("keydown", (e) => {
+            if (e.key === "Escape") { input.value = ""; close(); input.blur(); }
+            if (e.key === "ArrowDown") {
+              const first = panel.querySelector("a");
+              if (first) { e.preventDefault(); first.focus(); }
+            }
+          });
+          document.addEventListener("click", (e) => {
+            if (!e.target.closest(".site-search")) close();
+          });
+        }
+
+        document.addEventListener("DOMContentLoaded", wire);
+        document.addEventListener("astro:page-load", wire);
+        wire();
+      })();
+    </script>
   </body>
 </html>

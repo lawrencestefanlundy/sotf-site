@@ -114,7 +114,7 @@ const jsonLd = [
 ---
 
 <Base title={concept.data.canonical_name} description={description} jsonLd={jsonLd} noindex={noindex} prose={true}>
-  <div class="breadcrumb">
+  <div class="breadcrumb" data-pagefind-ignore>
     <a href={`${BASE}/`}>Now</a> &nbsp;/&nbsp;
     <a href={`${BASE}/${macro}/`}>{macroName}</a> &nbsp;/&nbsp;
     <a href={`${BASE}/${macro}/${meso}/`}>{mesoName}</a> &nbsp;/&nbsp;
@@ -133,14 +133,14 @@ const jsonLd = [
   )}
 
   {(concept.data.sources_30d > 0 || concept.data.last_updated) && (
-    <div class="meta" style="margin-bottom: 1rem;">
+    <div class="meta" style="margin-bottom: 1rem;" data-pagefind-ignore>
       {lastUpdated && `last updated ${lastUpdated}`}
       {concept.data.sources_30d > 0 && ` · +${concept.data.sources_30d} sources in last 30d`}
     </div>
   )}
 
   {concept.data.neighbors && concept.data.neighbors.length > 0 && (
-    <RadialGraph centre={concept.data.canonical_name} neighbors={concept.data.neighbors} />
+    <div data-pagefind-ignore><RadialGraph centre={concept.data.canonical_name} neighbors={concept.data.neighbors} /></div>
   )}
 
   <article>

@@ -37,6 +37,9 @@ echo "=== $stamp — nightly publish ===" >> "$LOG_FILE"
 # Step 1: emit filtered KB snapshot into the Astro content collection.
 python3 "$SITE_DIR/scripts/publish_kb.py" >> "$LOG_FILE" 2>&1
 
+# Step 1a: Substack archive index (URL-verified, cached).
+python3 "$SITE_DIR/scripts/publish_writing.py" >> "$LOG_FILE" 2>&1
+
 # Step 2: stage + commit (only if there are real changes; git commit
 #   --allow-empty=NO will exit 1 if nothing to commit — we treat that as success).
 cd "$SITE_DIR"
@@ -57,7 +60,7 @@ push_with_retry() {
   return 1
 }
 
-git add src/content/concepts >> "$LOG_FILE" 2>&1
+git add src/content/concepts src/content/writing >> "$LOG_FILE" 2>&1
 
 if git diff --cached --quiet; then
   # Even with no new content, catch up any commits stranded by earlier push failures.

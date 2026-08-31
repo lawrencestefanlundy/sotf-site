@@ -75,6 +75,10 @@ const writing = defineCollection({
     published_date: z.union([z.string(), z.date()]).optional(),
     external_url: z.string().optional(),
     summary: z.string().optional(),
+    // Undeclared keys are stripped by Zod, so these must be listed or the
+    // Writing page's filters silently see every post as an untagged Essay.
+    format: z.string().optional(),
+    topics: z.array(z.string()).default([]),
   }),
 });
 

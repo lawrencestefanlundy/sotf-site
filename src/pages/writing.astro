@@ -10,9 +10,25 @@ function isoDate(v: unknown): string {
 }
 
 const posts = (await getCollection("writing"))
-  .map((p) => ({ ...p.data, date: isoDate(p.data.published_date) }))
-  .filter((p) => p.date && p.external_url)
+  .map((p) => ({
+    title: p.data.title as string,
+    url: p.data.external_url as string,
+    date: isoDate(p.data.published_date),
+    format: ((p.data as Record<string, unknown>).format as string) ?? "Essay",
+    topics: (((p.data as Record<string, unknown>).topics as string[]) ?? []),
+  }))
+  .filter((p) => p.date && p.url)
   .sort((a, b) => b.date.localeCompare(a.date));
+
+const FORMAT_ORDER = ["Essay", "Interview", "Dispatch"];
+const formats = FORMAT_ORDER.filter((f) => posts.some((p) => p.format === f));
+
+const topicCounts = new Map<string, number>();
+for (const p of posts) for (const t of p.topics) topicCounts.set(t, (topicCounts.get(t) ?? 0) + 1);
+const topics = [...topicCounts.entries()]
+  .filter(([, n]) => n >= 2)
+  .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+  .map(([t]) => t);
 
 const byYear = new Map<string, typeof posts>();
 for (const p of posts) {
@@ -37,17 +53,109 @@ const years = [...byYear.keys()].sort().reverse();
     indexed here.
   </p>
 
+  <div class="filter-bar" id="writing-filters">
+    <div class="filter-row">
+      <span class="filter-label">Type</span>
+      <button class="pill is-on" data-kind="format" data-value="">All</button>
+      {formats.map((f) => (
+        <button class="pill" data-kind="format" data-value={f}>{f}</button>
+      ))}
+    </div>
+    <div class="filter-row">
+      <span class="filter-label">Topic</span>
+      <button class="pill is-on" data-kind="topic" data-value="">All</button>
+      {topics.map((t) => (
+        <button class="pill" data-kind="topic" data-value={t}>{t}</button>
+      ))}
+    </div>
+    <p class="filter-count" id="writing-count">{posts.length} pieces</p>
+  </div>
+
   {years.map((year) => (
-    <section class="year-block">
+    <section class="year-block" data-year={year}>
       <h2>{year}</h2>
       <ul class="post-list">
         {byYear.get(year)!.map((p) => (
-          <li>
-            <a href={p.external_url} rel="noopener">{p.title}</a>
+          <li data-format={p.format} data-topics={p.topics.join("|")}>
+            <span class="post-main">
+              <a href={p.url} rel="noopener">{p.title}</a>
+              <span class="tag-row">
+                <span class={`tag tag-${p.format.toLowerCase()}`}>{p.format}</span>
+                {p.topics.map((t) => <span class="tag">{t}</span>)}
+              </span>
+            </span>
             <span class="meta">{p.date}</span>
           </li>
         ))}
       </ul>
     </section>
   ))}
+
+  <p class="filter-empty" id="writing-empty" hidden>
+    Nothing matches that combination. <button class="linkish" id="writing-reset">Clear filters</button>
+  </p>
+
+  <script is:inline>
+    (() => {
+      function wire() {
+        const bar = document.getElementById("writing-filters");
+        if (!bar || bar.dataset.wired === "1") return;
+        bar.dataset.wired = "1";
+
+        const state = { format: "", topic: "" };
+        const items = Array.from(document.querySelectorAll(".post-list li"));
+        const countEl = document.getElementById("writing-count");
+        const emptyEl = document.getElementById("writing-empty");
+
+        const apply = () => {
+          let shown = 0;
+          for (const li of items) {
+            const fmt = li.getAttribute("data-format") || "";
+            const tops = (li.getAttribute("data-topics") || "").split("|").filter(Boolean);
+            const ok =
+              (!state.format || fmt === state.format) &&
+              (!state.topic || tops.includes(state.topic));
+            li.hidden = !ok;
+            if (ok) shown++;
+          }
+          // Hide a year heading once everything under it is filtered out.
+          for (const sec of document.querySelectorAll(".year-block")) {
+            const any = Array.from(sec.querySelectorAll("li")).some((li) => !li.hidden);
+            sec.hidden = !any;
+          }
+          if (countEl) {
+            countEl.textContent =
+              shown === items.length ? items.length + " pieces" : shown + " of " + items.length;
+          }
+          if (emptyEl) emptyEl.hidden = shown !== 0;
+        };
+
+        bar.addEventListener("click", (e) => {
+          const btn = e.target.closest("button.pill");
+          if (!btn) return;
+          const kind = btn.dataset.kind;
+          state[kind] = btn.dataset.value;
+          bar
+            .querySelectorAll('button.pill[data-kind="' + kind + '"]')
+            .forEach((b) => b.classList.toggle("is-on", b === btn));
+          apply();
+        });
+
+        const reset = document.getElementById("writing-reset");
+        if (reset) {
+          reset.addEventListener("click", () => {
+            state.format = "";
+            state.topic = "";
+            bar.querySelectorAll("button.pill").forEach((b) =>
+              b.classList.toggle("is-on", b.dataset.value === ""));
+            apply();
+          });
+        }
+      }
+
+      document.addEventListener("DOMContentLoaded", wire);
+      document.addEventListener("astro:page-load", wire);
+      wire();
+    })();
+  </script>
 </Base>

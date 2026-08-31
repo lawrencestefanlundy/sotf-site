@@ -189,9 +189,11 @@ main,
   justify-content: space-between;
   align-items: baseline;
   gap: 1rem;
-  padding: 0.55rem 0;
+  padding: 0.6rem 0;
   border-bottom: 1px solid var(--rule);
 }
+.post-list li[hidden] { display: none; }
+.post-main { display: block; }
 .post-list a {
   font-family: 'EB Garamond', Georgia, serif;
   font-size: 1.1rem;
@@ -199,6 +201,87 @@ main,
 }
 .post-list a:hover { text-decoration: underline; }
 .post-list .meta { white-space: nowrap; }
+
+/* entry tags */
+.tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 0.28rem;
+}
+.tag {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 0.66rem;
+  letter-spacing: 0.03em;
+  padding: 0.1rem 0.4rem;
+  border: 1px solid var(--ink-25);
+  color: var(--ink-60);
+  white-space: nowrap;
+}
+.tag-interview { border-color: var(--ink); color: var(--ink); }
+.tag-dispatch { background: var(--paper); }
+
+/* filter bar */
+.filter-bar {
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  padding: 0.85rem 0 0.7rem;
+  margin-bottom: 0.5rem;
+}
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+  margin-bottom: 0.4rem;
+}
+.filter-label {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-60);
+  width: 4.2rem;
+  flex: 0 0 auto;
+}
+.pill {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 0.72rem;
+  padding: 0.25rem 0.6rem;
+  border: 1px solid var(--ink-25);
+  background: var(--bg);
+  color: var(--ink-80);
+  cursor: pointer;
+  border-radius: 0;
+  transition: background 0.12s, color 0.12s, border-color 0.12s;
+}
+.pill:hover { border-color: var(--ink); color: var(--ink); }
+.pill.is-on {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--bg);
+}
+.filter-count {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 0.7rem;
+  color: var(--ink-60);
+  margin: 0.25rem 0 0;
+}
+.filter-empty {
+  font-family: 'EB Garamond', Georgia, serif;
+  color: var(--ink-80);
+  margin-top: 1.5rem;
+}
+.linkish {
+  font: inherit;
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--link);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.year-block[hidden] { display: none; }
 
 /* ── breadcrumb ──────────────────────────────────────────────── */
 .breadcrumb {

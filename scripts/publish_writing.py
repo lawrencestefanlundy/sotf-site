@@ -147,6 +147,11 @@ def main() -> None:
             slug = ALIASES.get(local_slug, local_slug)
             url = BASE_URL + slug
             if slug in posts:
+                # Already have it from the KB, but the KB `date:` is the SOURCE
+                # date (when the piece was drafted/recorded) and can precede
+                # publication. The archive filename carries Substack's true
+                # publish date, so that wins for an archive index.
+                posts[slug]["published_date"] = date
                 continue
             checked += 1
             if not verify(url, cache, session):

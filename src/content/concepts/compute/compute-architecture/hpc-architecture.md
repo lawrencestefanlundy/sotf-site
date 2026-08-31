@@ -3,9 +3,7 @@ type: concept
 slug: hpc-architecture
 canonical_name: Hpc Architecture
 aliases: []
-parent_concepts:
-- compute-architecture
-- compute
+parent_concepts: []
 related_concepts: []
 sources: []
 auto_stub: true

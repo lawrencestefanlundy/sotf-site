@@ -477,7 +477,16 @@ def strip_private_wikilinks(body: str) -> str:
         label = display or slug.replace("-", " ").title()
         return f"**{label}**"
 
-    return re.sub(r"\[\[([^\]]+)\]\]", repl, body)
+    body = re.sub(r"\[\[([^\]]+)\]\]", repl, body)
+    # Malformed half-wikilinks ("[[slug-]" with a dropped bracket — LLM-synthesised
+    # bodies occasionally produce these) survive the pattern above and render as
+    # literal [[ debris. Collapse them to plain de-dated text.
+    body = re.sub(
+        r"\[\[(?:\d{4}-\d{2}-\d{2}-)?([^\]\n]{1,90})\]?",
+        lambda m: m.group(1).replace("-", " ").rstrip(),
+        body,
+    )
+    return body
 
 
 def wikilinks_to_plain(value: str) -> str:
@@ -493,7 +502,14 @@ def wikilinks_to_plain(value: str) -> str:
         slug = inner.strip()
         return canonical.get(slug) or slug.replace("-", " ")
 
-    return re.sub(r"\[\[([^\]]+)\]\]", repl, value)
+    value = re.sub(r"\[\[([^\]]+)\]\]", repl, value)
+    # malformed half-wikilinks (dropped bracket) — same cleanup as body
+    value = re.sub(
+        r"\[\[(?:\d{4}-\d{2}-\d{2}-)?([^\]\n]{1,90})\]?",
+        lambda m: m.group(1).replace("-", " ").rstrip(),
+        value,
+    )
+    return value
 
 
 def filter_concept(fm: dict, body: str, slug: str) -> tuple[dict, str]:

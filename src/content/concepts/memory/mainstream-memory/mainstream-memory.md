@@ -3,12 +3,11 @@ type: concept
 slug: mainstream-memory
 canonical_name: Mainstream Memory
 aliases: []
-parent_concepts:
-- memory
+parent_concepts: []
 related_concepts: []
 sources: []
 auto_stub: true
-last_updated: 2026-07-08
+last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
@@ -16,9 +15,7 @@ descendants:
 - 3d-dram
 - adc-bottleneck
 - agentic-workload-retrieval
-- all-optical-switching
 - analog-in-memory-compute
-- analog-non-volatile-memory
 - capram
 - charge-domain-compute
 - computational-storage
@@ -26,38 +23,30 @@ descendants:
 - digital-in-memory-compute
 - dram
 - embedded-non-volatile-memory
-- emerging-memory
 - fefet
 - feram
-- gain-cell-ram
-- hamr
-- hard-disk-drive
 - hbm
 - in-memory-computing
 - inference-economics
-- magnetic-tunnel-junction
-- magneto-optical
-- mainstream-memory
 - memcapacitor
 - memory
 - memory-wall
-- memristor
 - mram
 - nand-flash
 - near-memory-compute
-- non-volatile-memory
 - pcm-phase-change-memory
 - photonic-memory
 - processing-in-memory
 - rram-reram
-- sot-mram
-- specialty-memory
-- spintronics
 - sram
 - sram-cim
-- st-fmr
 - storage-class-memory
 - token-cost-stack
+frontier:
+- What are HBF's write bandwidth, write latency and programme/erase endurance, and do they permit KV-cache or weight-update traffic or only static weight residency?
+- What is the measured read latency of an HBF stack relative to an HBM4 stack, and how much of it can be hidden in decode pipelines?
+- What is the cost per bit and power per bit of an HBF stack versus HBM4 at equal read bandwidth, once TSV stacking yield is accounted for?
+- Do the H2 2026 Sandisk memory samples and the early 2027 inference device samples arrive on schedule, and do measured parts hit the claimed HBM4-equivalent read bandwidth?
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
@@ -67,4 +56,31 @@ recent_mentions:
   kind: web
 neighbors: []
 ---
-> **Auto-stub** created 2026-07-08 to resolve 7 inbound reference(s) (e.g. `concepts/memory/mainstream-memory/mram.md`). Type inferred from field. Needs enrichment (replace this banner with real content, then drop the `auto-stub` tag).
+## Physics / mechanism
+
+Mainstream memory covers the two commodity semiconductor storage classes in volume production: DRAM, which holds a bit as charge on a capacitor and must be refreshed, and NAND flash, which stores charge on a floating gate or charge-trap layer and retains it without power. The available sources address this category through one specific development at the boundary between the two: High Bandwidth Flash (HBF), which applies the packaging techniques of High Bandwidth Memory to NAND dies rather than DRAM dies high bandwidth flash the full report.
+
+The construction is the same as an HBM stack. Dies are stacked vertically, connected with through-silicon vias (TSVs), and the resulting stack is placed on the package interposer immediately adjacent to the GPU high bandwidth flash the full report. Bandwidth in this arrangement comes from the very wide, short parallel interface that TSV stacking and interposer proximity permit, not from raising the per-pin signalling rate.
+
+The stated performance point is read bandwidth equal to an HBM4 stack with roughly 10x the capacity, achieved because NAND is the cheaper and denser of the two mainstream memory types high bandwidth flash the full report. The trade-offs of flash relative to DRAM are described as tolerable specifically for inference decode workloads, which are read-dominated high bandwidth flash the full report; the source does not quantify write bandwidth, latency or endurance.
+
+## Competitive landscape
+
+The comparison the source supports is between two ways of packaging mainstream memory next to an accelerator. HBM4 uses DRAM dies, and an HBF stack matches its read bandwidth while offering around 10x the capacity at NAND cost high bandwidth flash the full report. This positions HBF as a capacity tier rather than an HBM replacement, since the flash trade-offs are argued to be acceptable only for particular workload shapes, notably inference decode high bandwidth flash the full report. No pricing, power or endurance figures are given in the available material, so the cost-per-bit and total-cost-of-ownership comparison remains unquantified here.
+
+## Evidence base
+
+- HBF is a stack of NAND dies built the way an HBM stack is built: vertical stacking, TSV interconnect, mounted on the package interposer next to the GPU high bandwidth flash the full report.
+- HBF is stated to have the same read bandwidth as an HBM4 stack with roughly 10x the capacity high bandwidth flash the full report.
+- First samples of HBF memory are expected from Sandisk in the second half of 2026 high bandwidth flash the full report.
+- Samples of the first AI inference devices built with HBF are expected in early 2027 high bandwidth flash the full report.
+- The flash trade-offs are characterised as manageable for inference decode workloads specifically, rather than for memory workloads in general high bandwidth flash the full report.
+
+## Frontier (open questions)
+
+- What are HBF's write bandwidth, write latency and programme/erase endurance, and do they permit KV-cache or weight-update traffic or only static weight residency?
+- What is the measured read latency of an HBF stack relative to an HBM4 stack, and how much of it can be hidden in decode pipelines?
+- What is the cost per bit and power per bit of an HBF stack versus HBM4 at equal read bandwidth, once TSV stacking yield is accounted for?
+- Do the H2 2026 Sandisk memory samples and the early 2027 inference device samples arrive on schedule, and do measured parts hit the claimed HBM4-equivalent read bandwidth?
+
+*Synthesised 2026-08-31 from 1 KB sources by the resynth pipeline; citations are KB source slugs.*

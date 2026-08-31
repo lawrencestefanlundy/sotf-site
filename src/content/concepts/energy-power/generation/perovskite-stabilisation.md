@@ -3,9 +3,7 @@ type: concept
 slug: perovskite-stabilisation
 canonical_name: Perovskite Stabilisation
 aliases: []
-parent_concepts:
-- generation
-- energy-power
+parent_concepts: []
 related_concepts: []
 sources: []
 auto_stub: true

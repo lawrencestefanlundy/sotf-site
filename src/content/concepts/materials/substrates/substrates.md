@@ -3,8 +3,7 @@ type: concept
 slug: substrates
 canonical_name: Substrates
 aliases: []
-parent_concepts:
-- materials
+parent_concepts: []
 related_concepts: []
 sources:
 - '[[2025-04-23-what-if-ai-can-already-feel]]'
@@ -17,7 +16,7 @@ sources:
 - '[[2023-11-20-e21-can-we-make-enough-ai-chips]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 auto_stub: true
-last_updated: 2026-07-27
+last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
@@ -27,21 +26,16 @@ descendants:
 - aluminium-gallium-nitride
 - compound-semiconductors
 - diamond
-- gaas
 - gallium-antimonide
 - gallium-arsenide
 - gallium-nitride
 - gallium-oxide
 - gallium-phosphide
-- gan-on-diamond
-- gan-on-silicon
 - ge-on-si-mid-ir
-- germanium-on-silicon
 - graphene
 - graphene-2d-materials
 - hbn-hexagonal-boron-nitride
 - hgcdte
-- iii-v-compound-semiconductors
 - indium-antimonide
 - indium-arsenide
 - indium-gallium-arsenide
@@ -51,11 +45,12 @@ descendants:
 - silicon-carbide-photonics
 - silicon-germanium
 - silicon-nitride
-- single-crystal-diamond
 - tmds-mos2-wse2
 - wide-bandgap-semiconductors
 - zinc-oxide
 - zinc-selenide
+frontier:
+- Does the 0.5 nm silicide/amorphous interlayer route on Si(111) hold its low vertical resistance and ohmic behaviour at 150 mm or 200 mm wafer scale and after full device thermal budgets, and what is the measured specific interface resistance an advanced epitaxial strategy enabling vertical g
 sources_7d: 0
 sources_30d: 15
 recent_mentions:
@@ -93,4 +88,20 @@ recent_mentions:
   kind: substack
 neighbors: []
 ---
-> **Auto-stub** created 2026-07-27 to resolve 13 inbound reference(s) (e.g. `concepts/materials/substrates/graphene-2d-materials.md`). Type inferred from field. Needs enrichment (replace this banner with real content, then drop the `auto-stub` tag).
+## Physics / mechanism
+
+A substrate is the crystalline or amorphous carrier on which a functional film is grown or deposited. It performs several distinct jobs at once: mechanical support, crystallographic template that sets the orientation, polytype and strain state of the overlayer, and a conduction path for current and heat. Substrate choice therefore couples directly to device metrics that have nothing to do with the film's intrinsic chemistry, which is why the same material is often reported with very different properties on different wafers.
+
+Where the lattice mismatch is too large for direct coherent growth, an engineered interlayer takes over the accommodation role. For vertical GaN on Si(111), the bottleneck is the high vertical electrical resistance of conventional epitaxial buffer layers; a sputtering-based route forms a sub-nanometre (0.5 nm) silicide template in situ by rapid thermal annealing, demonstrated across 25 different metallic species, producing an amorphous-like interlayer that accommodates mismatch while giving low vertical resistance and ohmic behaviour an advanced epitaxial strategy enabling vertical gan devices. In this architecture the substrate is also the current-carrying back contact, so interface resistance is a device parameter rather than a growth artefact.
+
+Electrical and thermal transport through the substrate set separate limits. In electrochemical thin-film work, fluorine-doped tin oxide (FTO) is selected as a substrate precisely for its electrical conductivity and stability as an electrode material under spin-coated NiO/ZnO layers sol gel derived niozno thin films with single and heterostru. At millikelvin temperatures the substrate becomes the dominant thermal bottleneck in integrated quantum systems; a comparison of high-resistivity silicon, low-resistivity silicon, borosilicate and sapphire found high-resistivity silicon to have the highest sub-kelvin thermal conductivity of the four, reported as 5·10⁻² W/m·K sub kelvin thermal conductivity of substrates and on chip ro. Substrate surface topography can also be the functional variable: nanostructured versus flat zirconia substrates have been compared as interfaces for astrocytes and dorsal root ganglion neuron-glia co-cultures, with nanostructured cluster-assembled ns-ZrOx films chosen for biomimetic morphology and mechanotransductive properties biorxiv nanostructured zirconia thin films as neurogli.
+
+## Competitive landscape
+
+## Evidence base
+
+## Frontier (open questions)
+
+- Does the 0.5 nm silicide/amorphous interlayer route on Si(111) hold its low vertical resistance and ohmic behaviour at 150 mm or 200 mm wafer scale and after full device thermal budgets, and what is the measured specific interface resistance an advanced epitaxial strategy enabling vertical g
+
+*Synthesised 2026-08-31 from 12 KB sources by the resynth pipeline; citations are KB source slugs.*

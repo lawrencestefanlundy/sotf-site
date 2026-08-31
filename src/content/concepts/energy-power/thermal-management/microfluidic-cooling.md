@@ -3,9 +3,7 @@ type: concept
 slug: microfluidic-cooling
 canonical_name: Microfluidic Cooling
 aliases: []
-parent_concepts:
-- ai-thermal-management
-- energy-power
+parent_concepts: []
 related_concepts: []
 sources:
 - '[[2025-12-16-datacentre-thermal-power-market-boston-materials-liquid]]'
@@ -17,11 +15,17 @@ sources:
 - '[[2025-11-10-datacentre-thermal-power-market-microsoft-s-in-chip]]'
 - '[[2025-05-27-datacentre-thermal-power-market-intel-foundry-s-integrated]]'
 auto_stub: true
-last_updated: 2026-07-08
+last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
 mention_count: 11
+frontier:
+- Does any in-package microfluidic or advanced-TIM supplier convert a hyperscaler or accelerator-vendor engagement into a disclosed design win (not a pilot) by 2028, or does the layer stay pilot-only with incumbent cold-plate and TIM vendors holding it?
+- Does a top-tier foundry or OSAT list an in-package thermal primitive as a qualified package option by end-2027, and on what terms relative to specialists like Corintis and EMCOOL?
+- Do the 3x heat-removal and 65% peak-temperature-rise figures survive independent or peer-reviewed replication, and at what flow rate, pressure drop and pumping power?
+- Does Corintis actually reach the stated >1M microfluidic cold plates per year by end-2026, and what fraction of that volume is in-die rather than external copper microfluidic plates?
+- What are the reliability, erosion, fouling and field-serviceability results for coolant channels inside the die backside over multi-year operation?
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
@@ -59,4 +63,43 @@ recent_mentions:
   kind: web
 neighbors: []
 ---
-> **Auto-stub** created 2026-07-08 to resolve 2 inbound reference(s) (e.g. `ideas/ai-power-thermal-binding.md`). Type inferred from field. Needs enrichment (replace this banner with real content, then drop the `auto-stub` tag).
+## Physics / mechanism
+
+Microfluidic cooling moves the coolant boundary from an external cold plate to channels etched into or immediately adjacent to the silicon, removing one or more conductive interfaces (thermal interface material, lid, base plate) from the junction-to-ambient path. Microsoft's implementation with Corintis routes coolant through roughly 15 µm bio-inspired branching channels, patterned in leaf-vein and butterfly-wing geometries, with AI used to map die hotspots and lay out the channel network so flow is concentrated where power density is highest corintis microsoft in chip microfluidic cooling.
+
+The governing parameters are hydraulic channel dimension, thermal resistance per watt, and how much of the stack the coolant displaces. TSMC's IMC-Si (Si-Integrated Micro Cooler) uses MEMS-etched mesh and stripe microchannels of 30 to 150 µm fusion-bonded to the die backside, eliminating the TIM layer entirely, with reported thermal resistance around 0.055 °C/W, about 15% better than the best comparison case, and integration into CoWoS-R and CoWoS-L packaging in die microfluidic cooling sprint. The same primitive was demonstrated at IEEE ECTC 2025 thermal stack layer landscape.
+
+Claimed performance at the device level: up to 3x the heat removal of conventional cold plates and up to a 65% reduction in peak silicon temperature rise in GPU tests corintis microsoft in chip microfluidic cooling. These figures are vendor-demonstrated and not peer-reviewed, and the lineage traces to IBM Zurich embedded cooling work of 2008 to 2013 that was never productised thermal stack layer landscape.
+
+Not all products in the category etch channels into the die. Corintis currently ships copper microfluidic cold plates, with a roadmap to channels inside the package, alongside Glacierware cooling-design software and Therminator thermal-emulation test chips thermal stack layer landscape. EMCOOL's approach is an embedded microfluidic pin-fin block integrated into the package in die microfluidic cooling sprint.
+
+## Competitive landscape
+
+The contest is over which layer captures the margin: a specialist pure-play, the foundry/OSAT absorbing the primitive as a qualified package option, or incumbent cold-plate and TIM vendors holding the interface.
+
+| Approach | Representative player | Reported metric |
+|---|---|---|
+| In-die / embedded microchannels | Corintis with Microsoft; EMCOOL | up to 3x heat removal vs cold plates, 65% lower peak temp rise corintis microsoft in chip microfluidic cooling |
+| Foundry-integrated micro cooler | TSMC IMC-Si; Intel Foundry integrated cold plate | ~0.055 °C/W, ~15% better than best comparison in die microfluidic cooling sprint; 20% thermal and 15% performance improvement in early testing datacentre thermal power market intel foundry s integrated |
+| Two-phase direct-to-chip (external) | Accelsius NeuCool IR150 | general availability, hyperscale AI pilots datacentre thermal power market accelsius announces general |
+| Advanced TIM (keeps external cold plate) | Boston Materials Liquid Metal ZRT | 10 °C reduction in kilowatt-class liquid-cooled accelerators datacentre thermal power market boston materials liquid |
+
+## Evidence base
+
+- Microsoft announced an in-chip microfluidic cooling system co-developed with Corintis on 25 September 2025, using ~15 µm bio-inspired branching channels and AI-designed hotspot mapping corintis microsoft in chip microfluidic cooling.
+- Corintis raised a $24M Series A led by BlueYard Capital (Founderful, Acequia, Celsius Industries, XTX Ventures) announced 25 September 2025, with Lip-Bu Tan and Geoff Lyon joining the board thermal stack layer landscape.
+- Corintis had shipped more than 10,000 cold plates and targeted scaling to over 1M microfluidic units per year by end-2026 in die microfluidic cooling sprint.
+- Intel Foundry was developing integrated cold plates (in-package microfluidic cooling) as of 27 May 2025, with early testing showing 20% thermal improvement and 15% performance gains versus conventional approaches datacentre thermal power market intel foundry s integrated.
+- TSMC demonstrated IMC-Si at IEEE ECTC 2025: microchannels fusion-bonded to the die backside, no TIM, integrating into CoWoS-R and CoWoS-L thermal stack layer landscape.
+- Datacenter Frontier reported on 10 November 2025 that Microsoft demonstrated up to 3x better heat removal versus cold plates, acknowledging Corintis as design partner datacentre thermal power market microsoft s in chip.
+- Accelsius reached general availability of the NeuCool IR150 two-phase direct-to-chip system, with several hyperscale AI providers engaged under pilot programmes as of 1 January 2026 datacentre thermal power market accelsius announces general.
+
+## Frontier (open questions)
+
+- Does any in-package microfluidic or advanced-TIM supplier convert a hyperscaler or accelerator-vendor engagement into a disclosed design win (not a pilot) by 2028, or does the layer stay pilot-only with incumbent cold-plate and TIM vendors holding it?
+- Does a top-tier foundry or OSAT list an in-package thermal primitive as a qualified package option by end-2027, and on what terms relative to specialists like Corintis and EMCOOL?
+- Do the 3x heat-removal and 65% peak-temperature-rise figures survive independent or peer-reviewed replication, and at what flow rate, pressure drop and pumping power?
+- Does Corintis actually reach the stated >1M microfluidic cold plates per year by end-2026, and what fraction of that volume is in-die rather than external copper microfluidic plates?
+- What are the reliability, erosion, fouling and field-serviceability results for coolant channels inside the die backside over multi-year operation?
+
+*Synthesised 2026-08-31 from 8 KB sources by the resynth pipeline; citations are KB source slugs.*

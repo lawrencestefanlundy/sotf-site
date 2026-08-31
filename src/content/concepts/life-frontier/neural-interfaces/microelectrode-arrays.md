@@ -3,9 +3,7 @@ type: concept
 slug: microelectrode-arrays
 canonical_name: Microelectrode Arrays
 aliases: []
-parent_concepts:
-- neural-interfaces
-- life-frontier
+parent_concepts: []
 related_concepts: []
 sources: []
 auto_stub: true

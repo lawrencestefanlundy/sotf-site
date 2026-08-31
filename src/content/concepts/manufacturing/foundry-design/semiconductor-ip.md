@@ -3,9 +3,7 @@ type: concept
 slug: semiconductor-ip
 canonical_name: Semiconductor Ip
 aliases: []
-parent_concepts:
-- foundry-design
-- manufacturing
+parent_concepts: []
 related_concepts: []
 sources: []
 auto_stub: true

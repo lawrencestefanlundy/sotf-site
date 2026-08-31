@@ -36,4 +36,3 @@ neighbors:
 ---
 Screening individual die as good BEFORE they are committed to an expensive multi-die 2.5D/3D package (one bad die scraps a package worth thousands). Made mandatory by chiplet/heterogeneous integration; a binding yield gate for AI-die packaging.
 
-*Concept stub created 2026-06-03 from the semi+photonics gap-map research (segment backfill).*

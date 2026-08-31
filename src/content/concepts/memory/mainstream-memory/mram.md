@@ -88,8 +88,6 @@ STT-MRAM competes directly with eFlash (dominant embedded NVM below 28 nm, but s
 - Does any MRAM-CIM (in-array compute) reach product, or does MRAM stay a cache / eNVM device?
 - How far does eMRAM displace eFlash at advanced nodes?
 
-## Merged from root duplicate (mram.md at concepts/ root, 2026-06-10)
-
 # MRAM (Magnetoresistive RAM)
 
 Non-volatile memory that stores bits in the magnetisation of a magnetic tunnel junction. STT-MRAM (spin-transfer torque) and SOT-MRAM (spin-orbit torque) are the leading embedded-NVM candidates to displace eFlash at advanced nodes for MCU and last-level-cache use. One cohort in the **Emerging Nvm** race alongside ferroelectric (FeRAM/FeFET) and ReRAM.

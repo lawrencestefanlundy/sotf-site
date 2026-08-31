@@ -107,8 +107,6 @@ Co-packaged optics (CPO) integrates optical I/O directly with the switch/compute
 - [CPO market and tech update (Cignal AI, Feb 2025)](https://cignal.ai/2025/02/co-packaged-optics-market-and-technology-update/) — tier 5
 - [CPO market to grow at 37% CAGR (Semiconductor Today)](https://www.semiconductor-today.com/news_items/2025/dec/idtechex-291225.shtml) — tier 5
 
-## Merged from root duplicate (co-packaged-optics.md at concepts/ root, 2026-06-10)
-
 # Co-Packaged Optics (CPO)
 
 Integrating the optical engine (photonic IC plus driver/TIA) into the same package as the switch or accelerator ASIC, replacing pluggable optics to cut the energy-per-bit and reach of the electrical link at the package edge. The convergence point of silicon photonics, advanced packaging and [Chiplets](/compute/compute-architecture/chiplets/); central to the AI-fabric and switch-bandwidth roadmaps that 11 active theses bet on (packaging, foundry, interconnect, photonic-compute).

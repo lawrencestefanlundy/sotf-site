@@ -43,7 +43,7 @@ neighbors:
   path: /compute/compute-architecture/tvm/
   macro: compute
 - slug: cuda-moat
-  name: CUDA (the moat, and where it's eroding)
+  name: Cuda Moat
   path: /ai-software/models-inference/cuda-moat/
   macro: ai-software
 ---

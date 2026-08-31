@@ -130,13 +130,19 @@ h3 {
 main { padding-top: 1.5rem; padding-bottom: 4rem; }
 
 /* Prose measure: uncapped, 17px body text runs ~150 characters per line on the
-   1360px container. Cap reading content at a broadsheet measure; listing grids
-   (cards, atlas, search) are untouched. */
+   1360px container. Text-heavy pages (concepts, members, tours) set the
+   .prose-main class on <main>, which centres the WHOLE content column —
+   breadcrumb, heading, meta and article all share one measure instead of
+   hugging the left edge of a 1360px container. Listing/grid pages are untouched. */
+main.prose-main {
+  max-width: calc(76ch + 2 * clamp(1rem, 2.5vw, 2.25rem));
+}
+/* Fallback caps for prose elements on non-prose pages (meso/macro lists). */
 article,
 .frontier-list,
 .related-list,
 .recent-mentions {
-  max-width: 72ch;
+  max-width: 76ch;
 }
 
 article p, article ul, article ol {
@@ -357,6 +363,37 @@ article blockquote {
   padding: 2rem 0 2.5rem;
   margin-top: 4rem;
   background: var(--bg);
+}
+.subscribe-cta {
+  max-width: 1360px;
+  width: 100%;
+  margin: 0 auto 1.75rem;
+  padding-left: clamp(1rem, 2.5vw, 2.25rem);
+  padding-right: clamp(1rem, 2.5vw, 2.25rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.75rem;
+}
+.site-footer .subscribe-cta p {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 1.05rem;
+  color: var(--ink-80);
+  max-width: 52ch;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.subscribe-cta iframe {
+  border: 1px solid var(--ink) !important;
+  background: #fff;
+  max-width: 480px;
+}
+.site-footer > p {
+  border-top: 1px solid var(--rule);
+  padding-top: 1.25rem;
+  text-align: center;
 }
 .site-footer p {
   font-family: 'JetBrains Mono', ui-monospace, monospace;

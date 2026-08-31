@@ -32,4 +32,3 @@ neighbors:
 ---
 Stress-testing die at wafer level under temperature/voltage to force early-life failures before packaging. AI-die power forces liquid-cooled / high-current burn-in chucks and sockets. Aehr Test Systems is the standalone pure-play proof.
 
-*Concept stub created 2026-06-03 from the semi+photonics gap-map research (segment backfill).*

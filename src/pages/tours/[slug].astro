@@ -15,7 +15,7 @@ const { Content } = await render(tour);
 const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
 ---
 
-<Base title={tour.data.title}>
+<Base title={tour.data.title} prose={true}>
   <div class="breadcrumb">
     <a href={`${BASE}/`}>Now</a> &nbsp;/&nbsp; <a href={`${BASE}/tours/`}>Tours</a> &nbsp;/&nbsp; {tour.data.title}
   </div>

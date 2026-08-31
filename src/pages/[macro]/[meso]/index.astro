@@ -32,7 +32,7 @@ const sorted = [...inMeso].sort((a, b) =>
 const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
 ---
 
-<Base title={`${mesoName} · ${macroName}`}>
+<Base title={`${mesoName} · ${macroName}`} prose={true}>
   <div class="breadcrumb">
     <a href={`${BASE}/`}>Now</a> &nbsp;/&nbsp; <a href={`${BASE}/${macro}/`}>{macroName}</a> &nbsp;/&nbsp; {mesoName}
   </div>

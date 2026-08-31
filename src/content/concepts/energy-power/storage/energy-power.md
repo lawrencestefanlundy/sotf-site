@@ -120,6 +120,14 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-31-qcells-tandem-iec-ul-certification-tuv-rheinland
+  title: Qcells secures TUV Rheinland certification for perovskite-silicon tandem solar tech (pv magazine, 16 Jul 2026; pv-tech corroborating)
+  date: '2026-08-31'
+  kind: web
+- slug: 2026-08-31-ferc-206-show-cause-orders-large-load-interconnection
+  title: FERC Issues Section 206 Show Cause Orders Directing All Six RTOs/ISOs to Justify or Reform Large Load Integration Rules (McGuireWoods client alert; FERC docket RM26-4 page corroborating)
+  date: '2026-08-31'
+  kind: web
 - slug: 2026-08-27-the-case-against-relying-on-behind-the-meter-power-for-data-
   title: The case against relying on behind-the-meter power for data centers - staging.latitudemedia.com
   date: '2026-08-27'
@@ -143,14 +151,6 @@ recent_mentions:
 - slug: 2026-08-06-how-foreign-turbine-suppliers-are-gearing-up-for-a-us-geothe
   title: How foreign turbine suppliers are gearing up for a US geothermal boom - Latitude Media
   date: '2026-08-06'
-  kind: web
-- slug: 2026-08-06-the-electrician-shortage-slowing-the-ai-boom---latitude-medi
-  title: The electrician shortage slowing the AI boom - Latitude Media
-  date: '2026-08-06'
-  kind: web
-- slug: 2026-08-05-which-ldes-companies-are-poised-to-land-the-next-big-contrac
-  title: Which LDES companies are poised to land the next big contracts? - Latitude Media
-  date: '2026-08-05'
   kind: web
 neighbors: []
 ---

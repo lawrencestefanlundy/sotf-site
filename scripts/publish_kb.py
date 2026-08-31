@@ -512,6 +512,20 @@ def wikilinks_to_plain(value: str) -> str:
     return value
 
 
+def strip_internal_annotations(body: str) -> str:
+    """KB housekeeping lines that read as debris on the public page:
+    merge/backfill provenance headings and stub-creation notes."""
+    out = []
+    for line in body.split("\n"):
+        s = line.strip().strip("*_# ").rstrip(")").strip()
+        if s.startswith("Merged from root duplicate"):
+            continue
+        if s.startswith("Concept stub created"):
+            continue
+        out.append(line)
+    return "\n".join(out)
+
+
 def filter_concept(fm: dict, body: str, slug: str) -> tuple[dict, str]:
     """Apply publish filter to a concept's frontmatter + body."""
     # Strip private fields
@@ -564,6 +578,7 @@ def filter_concept(fm: dict, body: str, slug: str) -> tuple[dict, str]:
     out["neighbors"] = neighbors[:20]  # cap for the radial
 
     # Strip noise + Cloudberry + private-company paragraphs + leading template lines + private wikilinks
+    body = strip_internal_annotations(body)
     new_body = strip_dataview_blocks(body)
     new_body = strip_external_images(new_body)
     new_body = strip_cloudberry_content(new_body)

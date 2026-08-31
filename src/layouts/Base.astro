@@ -6,8 +6,9 @@ interface Props {
   description?: string;
   jsonLd?: object[];
   noindex?: boolean;
+  prose?: boolean; // text-heavy page: centre the whole content column at reading measure
 }
-const { title, description, jsonLd, noindex } = Astro.props;
+const { title, description, jsonLd, noindex, prose } = Astro.props;
 const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
 const metaDescription = description ?? "State of the Future — Lawrence Lundy-Bryan's deep-tech reference";
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
@@ -66,7 +67,7 @@ const siteJsonLd = {
         </ul>
       </nav>
     </header>
-    <main>
+    <main class={prose ? "prose-main" : ""}>
       <slot />
     </main>
     <footer class="site-footer">

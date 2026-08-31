@@ -32,4 +32,3 @@ neighbors:
 ---
 The consumable electrical contact between the tester and the wafer at wafer-sort. A FormFactor + Technoprobe duopoly; MEMS/vertical probe cards (~38% of a ~$3.4-3.9B 2025 market) are the defensible, AI-die-driven high-current/fine-pitch segment. Qualification-locked to node/customer.
 
-*Concept stub created 2026-06-03 from the semi+photonics gap-map research (segment backfill).*

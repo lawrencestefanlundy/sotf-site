@@ -37,4 +37,3 @@ neighbors:
 ---
 Big-iron testers that exercise logic/SoC and memory die at wafer and package level to screen for defects. A qualification-locked duopoly: Advantest + Teradyne hold ~90%+ of SoC/memory ATE. AI/HBM multiplies test insertions (every stacked HBM die adds inserts), making it the fastest-growing back-end equipment line, but value accrues to the incumbents.
 
-*Concept stub created 2026-06-03 from the semi+photonics gap-map research (segment backfill).*

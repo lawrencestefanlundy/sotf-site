@@ -16,15 +16,25 @@ tags:
 - technology
 mention_count: 63
 descendants:
+- advanced-nuclear
+- ai-power-delivery
+- ai-thermal-management
 - aluminium-gallium-nitride
+- ambient-energy-harvesting
 - batteries-energy-storage
 - beccs
 - carbon
+- carbon-capture
 - ccus
 - closed-loop-geothermal
 - compressed-air-energy-storage
+- cryogenic-cooling
+- cryogenics
+- datacentre-power-shell
 - deep-geothermal
+- diamond-fet
 - diamond-heat-spreader
+- dilution-refrigerators
 - direct-air-capture
 - electric-motors-drives
 - energy-generation
@@ -32,6 +42,7 @@ descendants:
 - energy-materials
 - energy-power
 - energy-storage
+- floating-offshore-platform
 - flow-batteries
 - fusion
 - fusion-frc
@@ -41,44 +52,82 @@ descendants:
 - fusion-z-pinch
 - gallium-nitride
 - gan-on-si
+- generation
 - geothermal
 - graphene-thermal-films
 - gravity-thermal-storage
 - gw-scale-power-delivery
+- haleu
 - heat-pipes
+- heterojunction-solar-hjt
+- iec-61215-qualification
+- immersion-cooling
 - indium-gallium-nitride
+- integrated-voltage-regulator
+- lead-fast-reactor
 - liquid-cooling
 - liquid-cooling-datacentre
 - lithium-sulphur-batteries
+- long-duration-energy-storage
 - long-duration-storage
+- microfluidic-cooling
 - mineralisation
+- molten-salt-reactor
+- nuclear-instrumentation
 - ocean-alkalinity
+- organic-photovoltaics
 - pem-electrolysers
+- perovskite
 - perovskite-solar
+- perovskite-stabilisation
 - phase-change-materials
+- photovoltaics
 - power
 - power-electronics
 - power-management-ic
+- pumped-hydro
+- pv-cost-down-curve
+- radiative-cooling
 - renewable-electricity
+- shockley-queisser-limit
+- silicon-photovoltaics
 - small-modular-reactors
+- sodium-fast-reactor
 - sodium-ion-batteries
 - solar-photovoltaic
 - solid-oxide-fuel-cells
 - solid-state-batteries
 - solid-state-circuit-breakers
+- solid-state-cooling
+- space-solar
+- storage
+- tandem-solar
 - tandem-solar-cells
 - thermal
 - thermal-interface-materials
 - thermal-management
+- thermal-stack-map
 - thermoelectric
 - tim-approach-map
+- topcon
+- triso-fuel
+- two-phase-cooling
 - vapor-chambers
+- vertical-gan
 - wave-tidal
 - wireless-power-transfer
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-27-the-case-against-relying-on-behind-the-meter-power-for-data-
+  title: The case against relying on behind-the-meter power for data centers - staging.latitudemedia.com
+  date: '2026-08-27'
+  kind: web
+- slug: 2026-08-26-making-data-centers-flexible-so-they-can-serve-the-grid-rath
+  title: Making data centers flexible so they can serve the grid rather than stress it out
+  date: '2026-08-26'
+  kind: web
 - slug: 2026-08-12-did-someone-just-figure-out-how-to-project-finance-nuclear--
   title: Did someone just figure out how to project finance nuclear? - Latitude Media
   date: '2026-08-12'
@@ -102,14 +151,6 @@ recent_mentions:
 - slug: 2026-08-05-which-ldes-companies-are-poised-to-land-the-next-big-contrac
   title: Which LDES companies are poised to land the next big contracts? - Latitude Media
   date: '2026-08-05'
-  kind: web
-- slug: 2026-08-03-perimeter-compute-wants-to-turn-spare-office-power-into-edge
-  title: Perimeter Compute wants to turn spare office power into edge AI data centers - Latitude Media
-  date: '2026-08-03'
-  kind: web
-- slug: 2026-07-31-memory-fakes-and-thermodynamic-compute-chips-act-bets-874m-o
-  title: 'Memory, Fakes, and Thermodynamic Compute: CHIPS Act Bets $874M on Six AI Stack Gaps - Tech Times'
-  date: '2026-07-31'
   kind: web
 neighbors: []
 ---

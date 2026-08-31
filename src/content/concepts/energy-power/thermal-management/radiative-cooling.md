@@ -3,7 +3,9 @@ type: concept
 slug: radiative-cooling
 canonical_name: Radiative Cooling
 aliases: []
-parent_concepts: []
+parent_concepts:
+- ai-thermal-management
+- energy-power
 related_concepts: []
 sources:
 - '[[2026-06-23-semianalysis-space-datacenters]]'

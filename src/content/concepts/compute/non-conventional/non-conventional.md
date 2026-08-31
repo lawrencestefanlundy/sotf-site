@@ -3,7 +3,8 @@ type: concept
 slug: non-conventional
 canonical_name: Non Conventional
 aliases: []
-parent_concepts: []
+parent_concepts:
+- compute
 related_concepts: []
 sources: []
 auto_stub: true
@@ -14,25 +15,34 @@ tags:
 descendants:
 - adc-bottleneck
 - analog-computing
+- analog-neural-network
+- beyond-cmos-logic
 - biocomputing
+- cellular-neural-networks
 - charge-domain-compute
 - coherent-ising-machine
 - combinatorial-optimisation
+- compute-in-memory
 - compute-paradigms
 - coupled-oscillator-networks
+- exotic-compute
 - fdtd-calibration-wall
 - interaction-nets
 - memristors
 - nanomechanical-computing
 - near-field-rf-coupling
 - neuromorphic-computing
+- non-conventional-computing
 - physics-native-compute
 - probabilistic-computing
 - reversible-computing
+- single-flux-quantum
 - spiking-neural-networks
 - stochastic-ising-machines
+- superconducting-electronics
 - thermodynamic-computing
 - time-domain-computing
+- unary-computing
 - von-neumann-bottleneck
 sources_7d: 0
 sources_30d: 0

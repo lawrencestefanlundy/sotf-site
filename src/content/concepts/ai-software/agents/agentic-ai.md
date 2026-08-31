@@ -3,7 +3,8 @@ type: concept
 slug: agentic-ai
 canonical_name: Agentic AI
 aliases: []
-parent_concepts: []
+parent_concepts:
+- ai-agents
 related_concepts: []
 sources:
 - '[[2026-06-23-semidoped-daily-update]]'

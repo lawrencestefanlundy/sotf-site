@@ -17,9 +17,12 @@ related_concepts:
 - maskless-lithography
 - e-beam-lithography
 descendants:
+- diffractive-optical-element
+- diffractive-optics
 - metalens
 - metamaterials
 - metasurfaces-flat-optics
+- optoplasmonics
 - wafer-level-optics
 sources:
 - '[[2025-01-06-radiant-acquires-nilt]]'

@@ -3,7 +3,9 @@ type: concept
 slug: organic-photovoltaics
 canonical_name: Organic Photovoltaics
 aliases: []
-parent_concepts: []
+parent_concepts:
+- generation
+- energy-power
 related_concepts: []
 sources: []
 auto_stub: true

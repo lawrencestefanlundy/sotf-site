@@ -32,9 +32,13 @@ descendants:
 - datacenter-network-stack
 - dect-nr
 - diffractive-deep-neural-network
+- digital-rf
+- fiber-connectors
 - fiber-optics
+- fibre-and-free-space
 - free-space-optics
 - free-space-photonics
+- gan-rf
 - iot-connected-devices
 - lpo-linear-pluggable-optics
 - mmwave
@@ -44,19 +48,38 @@ descendants:
 - optical-io-chip-level
 - optical-packet-switching
 - phased-array-antennas
+- phased-array-beamforming
+- pll
 - pluggable-transceivers
 - qkd
+- qrng
+- quantum-comms
 - quantum-communications
+- quantum-key-distribution
 - quantum-networks
+- quantum-random-number-generation
 - quantum-repeaters
+- rack-scale-interconnect
+- rf-frontend
+- rf-over-dielectric-waveguide
+- rf-power
 - rf-wireless
+- rfic
+- serdes
 - software-defined-radio
 - sub-thz-6g
 - timing-clock-generation
+- timing-synchronization
+- ultra-low-power-rf
+- wireless
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-27-opener-is-an-open-source-reference-implementation-of-the-dec
+  title: Opener is an open-source reference implementation of the DECT NR+ massive IoT, low-latency standard - CNX Software
+  date: '2026-08-27'
+  kind: web
 - slug: 2026-08-05-spooky-particles-transit-dc-suburbs-a-step-toward-a-quantum-
   title: ‘Spooky’ Particles Transit DC Suburbs, a Step Toward a Quantum Network
   date: '2026-08-05'
@@ -64,6 +87,10 @@ recent_mentions:
 - slug: 2026-07-24-nasa-announces-new-spacecraft-technology-demonstration-missi
   title: NASA Announces New Spacecraft Technology Demonstration Mission at Moon
   date: '2026-07-24'
+  kind: web
+- slug: 2026-07-09-non-cellular-5g-networks-simplified---hacksterio
+  title: Non-Cellular 5G Networks Simplified - Hackster.io
+  date: '2026-07-09'
   kind: web
 - slug: 2026-06-12-hku-sic-cryogenic-neuromorphic-chip-10mk
   title: HKU world-first cryogenic neuromorphic chip at 10 mK (silicon carbide, impact-ionisation spiking)
@@ -80,14 +107,6 @@ recent_mentions:
 - slug: 2026-06-01-nibras-ucl-chipstart
   title: UCL EEE ventures selected for national ChipStart programme (incl. Nibras Communications)
   date: '2026-06-01'
-  kind: web
-- slug: 2026-05-30-optical-interconnect-ma-ledger
-  title: Optical-interconnect / photonic-packaging M&A ledger (2019-2026)
-  date: '2026-05-30'
-  kind: web
-- slug: 2026-05-14-nasa-draws-on-industry-for-mars-telecommunications-network
-  title: NASA Draws on Industry for Mars Telecommunications Network
-  date: '2026-05-14'
   kind: web
 neighbors: []
 ---

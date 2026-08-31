@@ -3,7 +3,8 @@ type: concept
 slug: ai-edge
 canonical_name: AI Edge
 aliases: []
-parent_concepts: []
+parent_concepts:
+- compute
 related_concepts: []
 sources:
 - '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
@@ -15,8 +16,12 @@ tags:
 mention_count: 2
 descendants:
 - ai-accelerator-ip
+- edge
 - edge-ai
+- edge-ai-accelerator
 - edge-ai-infra
+- edge-compute
+- edge-inference
 - hearing-aid-silicon-beachhead
 - iot-embedded
 - nvidia-jetson

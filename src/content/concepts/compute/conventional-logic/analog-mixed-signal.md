@@ -3,7 +3,9 @@ type: concept
 slug: analog-mixed-signal
 canonical_name: Analog Mixed Signal
 aliases: []
-parent_concepts: []
+parent_concepts:
+- conventional-logic
+- compute
 related_concepts: []
 sources: []
 auto_stub: true

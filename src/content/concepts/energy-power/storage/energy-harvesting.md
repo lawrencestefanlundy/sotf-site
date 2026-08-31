@@ -21,15 +21,7 @@ descendants: []
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 3
-recent_mentions:
-- slug: 2025-2026-european-next-gen-pv-cohort
-  title: European next-gen PV cohort 2025-2026, Dracula, SunXT/Solertix, Perovion, HyET Solaris, Sofab Inks, Coatema
-  date: '2026-06-01'
-  kind: web
-- slug: 2025-04-16-the-state-of-photonic-computing
-  title: 'Photonic Computing: A Primer'
-  date: '2025-04-16'
-  kind: substack
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

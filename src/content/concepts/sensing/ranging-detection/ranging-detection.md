@@ -3,7 +3,8 @@ type: concept
 slug: ranging-detection
 canonical_name: Ranging Detection
 aliases: []
-parent_concepts: []
+parent_concepts:
+- sensing
 related_concepts: []
 sources: []
 auto_stub: true
@@ -12,6 +13,8 @@ tags:
 - concept
 - auto-stub
 descendants:
+- counter-uas
+- electronic-warfare
 - lidar
 - mmwave-radar
 - spad-arrays

@@ -54,13 +54,13 @@ recent_mentions:
   title: Optical-interconnect / photonic-packaging M&A ledger (2019-2026)
   date: '2026-05-30'
   kind: web
+- slug: 2026-04-26-fraunhofer-ilt-improves-diode-lasers-thanks-to-fiber-bragg-g
+  title: Fraunhofer ILT improves diode lasers thanks to fiber Bragg gratings... - Optics.org
+  date: '2026-04-26'
+  kind: web
 - slug: 2026-06-17-sivers-onet-enablence-external-light-source-cpo
   title: Sivers, O-Net and Enablence partner to develop external light sources for AI data centers
   date: '2026-03-17'
-  kind: web
-- slug: 2026-03-15-photonic-light-source-supply-silicon-photonics-market
-  title: 'Silicon Photonics Market: Integration of On-Chip Lasers Remains Thorny Technical Hurdle'
-  date: '2026-03-15'
   kind: web
 neighbors: []
 ---

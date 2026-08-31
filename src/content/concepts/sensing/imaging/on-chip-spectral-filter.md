@@ -9,6 +9,9 @@ related_concepts:
 last_updated: '2026-06-02'
 tags:
 - concept
+parent_concepts:
+- imaging
+- sensing
 sources_7d: 0
 sources_30d: 0
 recent_mentions: []

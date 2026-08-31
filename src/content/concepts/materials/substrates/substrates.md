@@ -3,7 +3,8 @@ type: concept
 slug: substrates
 canonical_name: Substrates
 aliases: []
-parent_concepts: []
+parent_concepts:
+- materials
 related_concepts: []
 sources:
 - '[[2025-04-23-what-if-ai-can-already-feel]]'
@@ -26,16 +27,21 @@ descendants:
 - aluminium-gallium-nitride
 - compound-semiconductors
 - diamond
+- gaas
 - gallium-antimonide
 - gallium-arsenide
 - gallium-nitride
 - gallium-oxide
 - gallium-phosphide
+- gan-on-diamond
+- gan-on-silicon
 - ge-on-si-mid-ir
+- germanium-on-silicon
 - graphene
 - graphene-2d-materials
 - hbn-hexagonal-boron-nitride
 - hgcdte
+- iii-v-compound-semiconductors
 - indium-antimonide
 - indium-arsenide
 - indium-gallium-arsenide
@@ -45,6 +51,7 @@ descendants:
 - silicon-carbide-photonics
 - silicon-germanium
 - silicon-nitride
+- single-crystal-diamond
 - tmds-mos2-wse2
 - wide-bandgap-semiconductors
 - zinc-oxide

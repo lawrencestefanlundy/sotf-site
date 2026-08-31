@@ -3,7 +3,8 @@ type: concept
 slug: wireless
 canonical_name: Wireless
 aliases: []
-parent_concepts: []
+parent_concepts:
+- communications
 related_concepts: []
 sources: []
 auto_stub: true
@@ -16,14 +17,23 @@ descendants:
 - beamforming-ics
 - communications-equipment
 - dect-nr
+- digital-rf
+- gan-rf
 - iot-connected-devices
 - mmwave
 - networking-wireless
 - phased-array-antennas
+- phased-array-beamforming
+- pll
+- rf-frontend
+- rf-power
 - rf-wireless
+- rfic
 - software-defined-radio
 - sub-thz-6g
 - timing-clock-generation
+- timing-synchronization
+- ultra-low-power-rf
 sources_7d: 0
 sources_30d: 0
 recent_mentions: []

@@ -3,7 +3,9 @@ type: concept
 slug: optomechanics
 canonical_name: Optomechanics
 aliases: []
-parent_concepts: []
+parent_concepts:
+- quantum-sensing
+- sensing
 related_concepts: []
 sources: []
 auto_stub: true

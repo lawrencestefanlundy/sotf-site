@@ -16,6 +16,19 @@ sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 mention_count: 7
+descendants:
+- flow-clock-tree-synthesis
+- flow-design-for-test-dft
+- flow-floorplanning-power
+- flow-functional-verification
+- flow-ip-licensing-cores
+- flow-logic-synthesis
+- flow-mask-data-prep-opc
+- flow-physical-verification-drc-lvs
+- flow-placement
+- flow-product-architecture-spec
+- flow-routing
+- flow-timing-signoff-extraction
 sources_7d: 0
 sources_30d: 0
 recent_mentions:

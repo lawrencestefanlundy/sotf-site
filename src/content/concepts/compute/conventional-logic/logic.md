@@ -21,6 +21,14 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-29-us-commerce-department-moves-to-block-china-ai-firms-from-re
+  title: U.S. Commerce Department moves to block China AI firms from remote access to advanced chips - 디지털투데이
+  date: '2026-08-29'
+  kind: web
+- slug: 2026-08-27-ainews-hot-chips-openais-jalapeno-cerebras-cs-5-groq-3-lpx-a
+  title: '[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6'
+  date: '2026-08-27'
+  kind: web
 - slug: 2026-08-06-the-year-ai-science-and-the-physical-ai-industry-came-alive
   title: The Year AI Science and the Physical AI Industry Came Alive
   date: '2026-08-06'
@@ -33,6 +41,10 @@ recent_mentions:
   title: 'Memory, Fakes, and Thermodynamic Compute: CHIPS Act Bets $874M on Six AI Stack Gaps - Tech Times'
   date: '2026-07-31'
   kind: web
+- slug: 2026-07-29-department-of-commerce-announces-letters-of-intent-with-7-co
+  title: Department of Commerce Announces Letters of Intent With 7 Companies for $874 Million to Accelerate Semiconductor R&D for the Compute Supply Chain - National Institute of Standards and Technology (.gov)
+  date: '2026-07-29'
+  kind: web
 - slug: 2026-07-25-thoughts-on-ai-and-power
   title: Thoughts on AI and power
   date: '2026-07-25'
@@ -40,18 +52,6 @@ recent_mentions:
 - slug: 2026-06-10-europe-pursues-new-ai-chip-dream---center-for-european-polic
   title: Europe Pursues New AI Chip Dream - Center for European Policy Analysis (CEPA)
   date: '2026-06-10'
-  kind: web
-- slug: 2026-06-08-uk-ai-hardware-plan---govuk
-  title: UK AI Hardware Plan - GOV.UK
-  date: '2026-06-08'
-  kind: web
-- slug: 2026-04-29-uk-chip-startup-fractile-seeks-200m-round-at-1b-valuation-to
-  title: UK chip startup Fractile seeks $200M round at $1B valuation to take on Nvidia in AI inference - Dealroom
-  date: '2026-04-29'
-  kind: web
-- slug: 2024-11-08-tsmc-to-suspend-production-for-some-chinese-ai-chip-customer
-  title: TSMC to suspend production for some Chinese AI chip customers - Harici
-  date: '2024-11-08'
   kind: web
 neighbors: []
 ---

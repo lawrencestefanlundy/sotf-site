@@ -3,7 +3,9 @@ type: concept
 slug: backlight-modules
 canonical_name: Backlight Modules
 aliases: []
-parent_concepts: []
+parent_concepts:
+- displays
+- photonic-systems
 related_concepts: []
 sources: []
 auto_stub: true

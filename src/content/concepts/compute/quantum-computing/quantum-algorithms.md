@@ -3,7 +3,9 @@ type: concept
 slug: quantum-algorithms
 canonical_name: Quantum Algorithms
 aliases: []
-parent_concepts: []
+parent_concepts:
+- quantum-computing
+- compute
 related_concepts: []
 sources:
 - '[[2023-10-19-e20-the-state-of-privacy-enhancing]]'

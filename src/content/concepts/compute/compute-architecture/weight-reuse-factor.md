@@ -3,7 +3,9 @@ type: concept
 slug: weight-reuse-factor
 canonical_name: Weight Reuse Factor
 aliases: []
-parent_concepts: []
+parent_concepts:
+- compute-architecture
+- compute
 related_concepts: []
 sources: []
 auto_stub: true

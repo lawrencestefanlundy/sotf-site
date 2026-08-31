@@ -3,7 +3,8 @@ type: concept
 slug: modulators-detectors
 canonical_name: Modulators Detectors
 aliases: []
-parent_concepts: []
+parent_concepts:
+- photonic-systems
 related_concepts: []
 sources: []
 auto_stub: true
@@ -13,6 +14,7 @@ tags:
 - auto-stub
 descendants:
 - electro-absorption-modulators
+- electro-optic-modulators
 - germanium-photodiodes
 - ingaas-photodiodes
 - mach-zehnder-modulators

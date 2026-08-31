@@ -3,7 +3,9 @@ type: concept
 slug: shared-memory-pooling
 canonical_name: Shared Memory Pooling
 aliases: []
-parent_concepts: []
+parent_concepts:
+- compute-architecture
+- compute
 related_concepts: []
 sources: []
 auto_stub: true

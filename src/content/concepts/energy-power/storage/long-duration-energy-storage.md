@@ -3,7 +3,9 @@ type: concept
 slug: long-duration-energy-storage
 canonical_name: Long Duration Energy Storage
 aliases: []
-parent_concepts: []
+parent_concepts:
+- storage
+- energy-power
 related_concepts: []
 sources: []
 auto_stub: true

@@ -3,7 +3,9 @@ type: concept
 slug: conducting-polymers
 canonical_name: Conducting Polymers
 aliases: []
-parent_concepts: []
+parent_concepts:
+- functional-layers
+- materials
 related_concepts: []
 sources: []
 auto_stub: true

@@ -11,7 +11,8 @@ aliases:
 - EMT
 - payment stablecoin
 route: insig
-parent_concepts: []
+parent_concepts:
+- ai-agents
 related_concepts:
 - stablecoin-clearing
 - agentic-payments

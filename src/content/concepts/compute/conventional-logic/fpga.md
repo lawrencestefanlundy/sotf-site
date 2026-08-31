@@ -3,7 +3,9 @@ type: concept
 slug: fpga
 canonical_name: Fpga
 aliases: []
-parent_concepts: []
+parent_concepts:
+- conventional-logic
+- compute
 related_concepts: []
 sources:
 - '[[2023-08-31-e13-chiplets-how-chip-lego-is-driving]]'

@@ -3,7 +3,9 @@ type: concept
 slug: pcb-assembly
 canonical_name: Pcb Assembly
 aliases: []
-parent_concepts: []
+parent_concepts:
+- equipment-processes
+- manufacturing
 related_concepts: []
 sources: []
 auto_stub: true

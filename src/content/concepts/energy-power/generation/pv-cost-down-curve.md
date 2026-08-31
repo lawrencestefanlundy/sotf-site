@@ -3,7 +3,9 @@ type: concept
 slug: pv-cost-down-curve
 canonical_name: Pv Cost Down Curve
 aliases: []
-parent_concepts: []
+parent_concepts:
+- generation
+- energy-power
 related_concepts: []
 sources: []
 auto_stub: true

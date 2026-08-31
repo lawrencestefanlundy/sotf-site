@@ -3,7 +3,9 @@ type: concept
 slug: qrng
 canonical_name: Qrng
 aliases: []
-parent_concepts: []
+parent_concepts:
+- quantum-comms
+- communications
 related_concepts: []
 sources:
 - '[[2026-08-03-spad-single-photon-market-scan]]'

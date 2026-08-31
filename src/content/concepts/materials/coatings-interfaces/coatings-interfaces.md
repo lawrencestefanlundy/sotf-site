@@ -3,7 +3,8 @@ type: concept
 slug: coatings-interfaces
 canonical_name: Coatings Interfaces
 aliases: []
-parent_concepts: []
+parent_concepts:
+- materials
 related_concepts: []
 sources: []
 auto_stub: true
@@ -17,6 +18,7 @@ descendants:
 - diffusion-barriers
 - hydrophobic-oleophobic-coatings
 - optical-coatings
+- pfas-free-coatings
 sources_7d: 0
 sources_30d: 0
 recent_mentions: []

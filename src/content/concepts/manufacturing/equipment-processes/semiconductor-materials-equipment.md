@@ -24,6 +24,14 @@ descendants:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-27-gao-warns-chips-rd-stall-could-cost-us-chip-leadership---iee
+  title: GAO Warns CHIPS R&D Stall Could Cost U.S. Chip Leadership - IEEE Spectrum
+  date: '2026-08-27'
+  kind: web
+- slug: 2026-08-18-chips-act-funds-40-fab-projects-faces-2026-deadline---legis1
+  title: CHIPS Act Funds 40 Fab Projects, Faces 2026 Deadline - Legis1
+  date: '2026-08-18'
+  kind: web
 - slug: 2026-08-13-how-the-chips-act-changed-binghamton-and-upstate-new-york---
   title: How the CHIPS Act changed Binghamton and Upstate New York - Press & Sun-Bulletin
   date: '2026-08-13'
@@ -47,14 +55,6 @@ recent_mentions:
 - slug: 2026-08-06-us-commits-874m-to-strengthen-semiconductor-supply-chain-thr
   title: US commits $874m to strengthen semiconductor supply chain through CHIPS Act - Innovation News Network
   date: '2026-08-06'
-  kind: web
-- slug: 2026-08-04-eu-chips-act-20-ambition-requires-funding---dqindiacom
-  title: 'EU Chips Act 2.0: Ambition requires funding - dqindia.com'
-  date: '2026-08-04'
-  kind: web
-- slug: 2026-08-01-on-semiconductor-stock-and-2-chip-picks-near-the-chips-act-f
-  title: ON Semiconductor Stock and 2 Chip Picks Near the CHIPS Act Funding Shift - simplywall.st
-  date: '2026-08-01'
   kind: web
 neighbors: []
 ---

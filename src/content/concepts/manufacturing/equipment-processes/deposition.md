@@ -3,7 +3,9 @@ type: concept
 slug: deposition
 canonical_name: Deposition
 aliases: []
-parent_concepts: []
+parent_concepts:
+- equipment-processes
+- manufacturing
 related_concepts:
 - chemical-vapor-deposition
 - initiated-cvd-icvd

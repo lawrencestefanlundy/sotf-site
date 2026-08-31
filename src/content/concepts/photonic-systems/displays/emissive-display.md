@@ -21,6 +21,9 @@ tags:
 - concept
 descendants:
 - microled
+parent_concepts:
+- displays
+- photonic-systems
 sources_7d: 0
 sources_30d: 1
 recent_mentions: []

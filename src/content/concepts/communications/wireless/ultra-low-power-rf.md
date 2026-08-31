@@ -3,7 +3,9 @@ type: concept
 slug: ultra-low-power-rf
 canonical_name: Ultra Low Power RF
 aliases: []
-parent_concepts: []
+parent_concepts:
+- wireless
+- communications
 related_concepts: []
 sources: []
 auto_stub: true

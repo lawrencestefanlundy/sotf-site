@@ -3,7 +3,9 @@ type: concept
 slug: rf-frontend
 canonical_name: RF Frontend
 aliases: []
-parent_concepts: []
+parent_concepts:
+- wireless
+- communications
 related_concepts: []
 sources: []
 auto_stub: true

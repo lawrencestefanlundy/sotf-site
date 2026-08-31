@@ -3,7 +3,9 @@ type: concept
 slug: thin-film-stability
 canonical_name: Thin Film Stability
 aliases: []
-parent_concepts: []
+parent_concepts:
+- functional-layers
+- materials
 related_concepts: []
 sources: []
 auto_stub: true

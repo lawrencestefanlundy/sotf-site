@@ -3,7 +3,9 @@ type: concept
 slug: high-level-synthesis
 canonical_name: High Level Synthesis
 aliases: []
-parent_concepts: []
+parent_concepts:
+- foundry-design
+- manufacturing
 related_concepts: []
 sources: []
 auto_stub: true

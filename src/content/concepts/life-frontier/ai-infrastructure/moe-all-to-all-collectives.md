@@ -3,7 +3,9 @@ type: concept
 slug: moe-all-to-all-collectives
 canonical_name: Moe All to All Collectives
 aliases: []
-parent_concepts: []
+parent_concepts:
+- ai-infrastructure
+- life-frontier
 related_concepts: []
 sources: []
 auto_stub: true

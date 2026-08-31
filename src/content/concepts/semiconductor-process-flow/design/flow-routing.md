@@ -20,6 +20,8 @@ sources:
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 mention_count: 274
+parent_concepts:
+- flow-rtl-design
 sources_7d: 0
 sources_30d: 15
 recent_mentions:

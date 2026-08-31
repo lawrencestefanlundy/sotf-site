@@ -3,7 +3,8 @@ type: concept
 slug: in-orbit
 canonical_name: In Orbit
 aliases: []
-parent_concepts: []
+parent_concepts:
+- life-frontier
 related_concepts: []
 sources:
 - '[[2026-06-22-thermal-stack-layer-landscape]]'
@@ -22,8 +23,13 @@ descendants:
 - gnss-pnt
 - hyperspectral-satellites
 - leo-mega-constellations
+- microgravity-manufacturing
 - optical-eo
 - optical-inter-satellite-links
+- rad-hard-compute
+- rad-hard-electronics
+- radiation-hard-sensors
+- radiation-shielding
 - sar-satellites
 - space-communications
 mention_count: 12

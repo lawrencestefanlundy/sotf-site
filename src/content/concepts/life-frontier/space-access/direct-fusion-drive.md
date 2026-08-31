@@ -3,7 +3,9 @@ type: concept
 slug: direct-fusion-drive
 canonical_name: Direct Fusion Drive
 aliases: []
-parent_concepts: []
+parent_concepts:
+- space-access
+- life-frontier
 related_concepts: []
 sources: []
 auto_stub: true

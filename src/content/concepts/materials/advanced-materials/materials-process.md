@@ -33,6 +33,10 @@ recent_mentions:
   title: The Chemistry of Chips
   date: '2026-07-08'
   kind: web
+- slug: 2026-03-25-sallea-extends-salt-based-templating-technology-to-advanced-
+  title: Sallea extends salt-based templating technology to advanced composites manufacturing - CompositesWorld
+  date: '2026-03-25'
+  kind: web
 - slug: 2021-05-06-weav3d-awarded-nsf-funding-to-further-develop-next-generatio
   title: WEAV3D awarded NSF funding to further develop next-generation composite forming machine - Design World
   date: '2021-05-06'

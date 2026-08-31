@@ -3,7 +3,9 @@ type: concept
 slug: security-ic
 canonical_name: Security Ic
 aliases: []
-parent_concepts: []
+parent_concepts:
+- trust
+- life-frontier
 related_concepts: []
 sources: []
 auto_stub: true

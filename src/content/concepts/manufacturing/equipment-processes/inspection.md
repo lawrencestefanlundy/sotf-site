@@ -3,7 +3,9 @@ type: concept
 slug: inspection
 canonical_name: Inspection
 aliases: []
-parent_concepts: []
+parent_concepts:
+- equipment-processes
+- manufacturing
 related_concepts: []
 sources:
 - '[[2023-07-27-e10-pushing-moores-law-to-the-limit]]'

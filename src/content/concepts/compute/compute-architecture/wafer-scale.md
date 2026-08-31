@@ -3,7 +3,9 @@ type: concept
 slug: wafer-scale
 canonical_name: Wafer Scale
 aliases: []
-parent_concepts: []
+parent_concepts:
+- compute-architecture
+- compute
 related_concepts: []
 sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'

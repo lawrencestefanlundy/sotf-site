@@ -3,7 +3,9 @@ type: concept
 slug: beyond-cmos-logic
 canonical_name: Beyond Cmos Logic
 aliases: []
-parent_concepts: []
+parent_concepts:
+- non-conventional
+- compute
 related_concepts: []
 sources: []
 auto_stub: true

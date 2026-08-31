@@ -3,7 +3,9 @@ type: concept
 slug: powder-metallurgy
 canonical_name: Powder Metallurgy
 aliases: []
-parent_concepts: []
+parent_concepts:
+- equipment-processes
+- manufacturing
 related_concepts: []
 sources: []
 auto_stub: true

@@ -3,7 +3,9 @@ type: concept
 slug: single-photon-detectors
 canonical_name: Single Photon Detectors
 aliases: []
-parent_concepts: []
+parent_concepts:
+- imaging
+- sensing
 related_concepts:
 - avalanche-photodiode
 - image-sensors

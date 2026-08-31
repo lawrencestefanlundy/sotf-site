@@ -3,7 +3,9 @@ type: concept
 slug: quantum-key-distribution
 canonical_name: Quantum Key Distribution
 aliases: []
-parent_concepts: []
+parent_concepts:
+- quantum-comms
+- communications
 related_concepts: []
 sources: []
 auto_stub: true

@@ -25,6 +25,10 @@ recent_mentions:
   title: VIAVI Introduces Industry's First Channel Emulator for 6G and Wi-Fi 7/8 - barchart.com
   date: '2026-08-12'
   kind: web
+- slug: 2026-07-10-quantumdiamonds-raises-91m-in-eu-chips-act-first-for-its-dia
+  title: QuantumDiamonds raises €91M in EU Chips Act first for its diamond chip scanner - Dealroom
+  date: '2026-07-10'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

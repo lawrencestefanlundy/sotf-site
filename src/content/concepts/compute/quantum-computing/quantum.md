@@ -6,7 +6,9 @@ aliases:
 - quantum-technologies
 - quantum-tech
 - quantum-technology
-parent_concepts: []
+parent_concepts:
+- quantum-computing
+- compute
 related_concepts:
 - quantum-computing
 - quantum-sensing

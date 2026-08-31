@@ -3,7 +3,9 @@ type: concept
 slug: gan-on-diamond
 canonical_name: Gan on Diamond
 aliases: []
-parent_concepts: []
+parent_concepts:
+- substrates
+- materials
 related_concepts: []
 sources: []
 auto_stub: true

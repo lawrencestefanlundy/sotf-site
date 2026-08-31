@@ -3,7 +3,8 @@ type: concept
 slug: generation
 canonical_name: Generation
 aliases: []
-parent_concepts: []
+parent_concepts:
+- energy-power
 related_concepts: []
 sources: []
 auto_stub: true
@@ -12,8 +13,12 @@ tags:
 - concept
 - auto-stub
 descendants:
+- advanced-nuclear
+- ambient-energy-harvesting
 - closed-loop-geothermal
+- datacentre-power-shell
 - deep-geothermal
+- floating-offshore-platform
 - fusion
 - fusion-frc
 - fusion-inertial-confinement
@@ -21,13 +26,31 @@ descendants:
 - fusion-stellarators
 - fusion-z-pinch
 - geothermal
+- haleu
+- heterojunction-solar-hjt
+- iec-61215-qualification
+- lead-fast-reactor
+- molten-salt-reactor
+- nuclear-instrumentation
+- organic-photovoltaics
 - pem-electrolysers
+- perovskite
 - perovskite-solar
+- perovskite-stabilisation
+- photovoltaics
+- pv-cost-down-curve
 - renewable-electricity
+- shockley-queisser-limit
+- silicon-photovoltaics
 - small-modular-reactors
+- sodium-fast-reactor
 - solar-photovoltaic
 - solid-oxide-fuel-cells
+- space-solar
+- tandem-solar
 - tandem-solar-cells
+- topcon
+- triso-fuel
 - wave-tidal
 sources_7d: 0
 sources_30d: 0

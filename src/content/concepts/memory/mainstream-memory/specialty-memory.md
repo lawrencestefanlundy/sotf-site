@@ -3,7 +3,9 @@ type: concept
 slug: specialty-memory
 canonical_name: Specialty Memory
 aliases: []
-parent_concepts: []
+parent_concepts:
+- mainstream-memory
+- memory
 related_concepts: []
 sources: []
 auto_stub: true

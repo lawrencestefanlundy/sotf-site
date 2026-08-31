@@ -13,7 +13,9 @@ aliases:
 - FAPbI3
 - perovskite film
 - perovskite absorber
-parent_concepts: []
+parent_concepts:
+- generation
+- energy-power
 related_concepts:
 - organic-photovoltaics
 - silicon-photovoltaics

@@ -20,6 +20,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-24-nist-researchers-supersize-quantum-technology-to-help-detect
+  title: NIST Researchers Supersize Quantum Technology to Help Detect Faint Photons
+  date: '2026-08-24'
+  kind: web
 - slug: 2026-08-11-building-the-moon-base-nasa-stories-at-the-ion
   title: 'Building the Moon Base: NASA Stories at the Ion'
   date: '2026-08-11'
@@ -46,10 +50,6 @@ recent_mentions:
   kind: web
 - slug: 2026-07-21-interworld-slingshot-resource-surveys
   title: Interworld Slingshot Resource Surveys
-  date: '2026-07-21'
-  kind: web
-- slug: 2026-07-21-precision-astrometry-using-optically-independent-spacecraft-
-  title: Precision Astrometry Using Optically Independent Spacecraft for Graviational Wave Detection
   date: '2026-07-21'
   kind: web
 neighbors: []

@@ -3,7 +3,9 @@ type: concept
 slug: heterojunction-solar-hjt
 canonical_name: Heterojunction Solar Hjt
 aliases: []
-parent_concepts: []
+parent_concepts:
+- generation
+- energy-power
 related_concepts: []
 sources: []
 auto_stub: true

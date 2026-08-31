@@ -19,6 +19,7 @@ mention_count: 152
 descendants:
 - atomic-clocks
 - nv-diamond-sensing
+- optomechanics
 - quantum-gravimetry
 - quantum-imaging
 - quantum-magnetometry

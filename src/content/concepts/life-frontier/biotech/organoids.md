@@ -3,7 +3,9 @@ type: concept
 slug: organoids
 canonical_name: Organoids
 aliases: []
-parent_concepts: []
+parent_concepts:
+- biotech
+- life-frontier
 related_concepts: []
 sources:
 - '[[2023-05-24-launching-state-of-the-future]]'

@@ -17,21 +17,32 @@ tags:
 - stub
 descendants:
 - adc-bottleneck
+- all-optical-switching
 - analog-in-memory-compute
+- analog-non-volatile-memory
 - capram
 - charge-domain-compute
 - computational-storage
 - cxl
 - digital-in-memory-compute
+- gain-cell-ram
 - in-memory-computing
+- magnetic-tunnel-junction
+- magneto-optical
 - memcapacitor
+- memristor
 - pcm-phase-change-memory
 - photonic-memory
 - processing-in-memory
 - rram-reram
+- sot-mram
+- spintronics
 - sram-cim
+- st-fmr
 - storage-class-memory
 mention_count: 12
+parent_concepts:
+- memory
 sources_7d: 0
 sources_30d: 1
 recent_mentions:

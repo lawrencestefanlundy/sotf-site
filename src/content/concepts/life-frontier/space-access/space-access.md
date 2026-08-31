@@ -3,7 +3,8 @@ type: concept
 slug: space-access
 canonical_name: Space Access
 aliases: []
-parent_concepts: []
+parent_concepts:
+- life-frontier
 related_concepts: []
 sources: []
 auto_stub: true
@@ -13,10 +14,14 @@ tags:
 - auto-stub
 descendants:
 - aerospace-defense
+- direct-fusion-drive
 - electric-propulsion
 - in-space-propulsion
+- launch-economics
 - nuclear-thermal-propulsion
+- propulsion-systems
 - rad-hard-ics
+- reentry-downmass
 - reusable-launch
 - space-grade-fpgas
 - space-hardware

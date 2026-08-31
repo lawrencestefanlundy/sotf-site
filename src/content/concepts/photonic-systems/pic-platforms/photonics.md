@@ -55,6 +55,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 5
 recent_mentions:
+- slug: 2026-08-24-nist-researchers-supersize-quantum-technology-to-help-detect
+  title: NIST Researchers Supersize Quantum Technology to Help Detect Faint Photons
+  date: '2026-08-24'
+  kind: web
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
@@ -82,10 +86,6 @@ recent_mentions:
 - slug: 2026-07-29-aeluma-secures-loi-for-up-to-30-million-in-chips-act-funding
   title: Aeluma Secures LOI for Up to $30 Million in CHIPS Act Funding to Advance Photonics Semiconductor R&D - Quiver Quantitative
   date: '2026-07-29'
-  kind: web
-- slug: 2026-07-22-photonics21-welcomes-chips-act-20-inclusion-of-photonics---o
-  title: Photonics21 welcomes Chips Act 2.0 inclusion of photonics - Optics.org
-  date: '2026-07-22'
   kind: web
 neighbors: []
 ---

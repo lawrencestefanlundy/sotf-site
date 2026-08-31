@@ -3,7 +3,9 @@ type: concept
 slug: edge
 canonical_name: Edge
 aliases: []
-parent_concepts: []
+parent_concepts:
+- ai-edge
+- compute
 related_concepts: []
 sources: []
 auto_stub: true

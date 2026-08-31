@@ -3,7 +3,9 @@ type: concept
 slug: chemical-additives
 canonical_name: Chemical Additives
 aliases: []
-parent_concepts: []
+parent_concepts:
+- advanced-materials
+- materials
 related_concepts: []
 sources: []
 auto_stub: true

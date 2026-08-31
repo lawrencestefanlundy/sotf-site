@@ -5,7 +5,9 @@ canonical_name: Spintronics
 aliases:
 - spin-orbitronics
 - spin electronics
-parent_concepts: []
+parent_concepts:
+- emerging-memory
+- memory
 related_concepts:
 - mram
 - beyond-cmos-logic

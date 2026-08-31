@@ -22,6 +22,9 @@ sources:
 - '[[2025-01-15-the-end-of-zero-marginal-costs-the]]'
 - '[[2026-07-09-in-die-microfluidic-cooling-sprint]]'
 mention_count: 14
+parent_concepts:
+- compute-architecture
+- compute
 sources_7d: 0
 sources_30d: 1
 recent_mentions:

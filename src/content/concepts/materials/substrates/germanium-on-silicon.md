@@ -3,7 +3,9 @@ type: concept
 slug: germanium-on-silicon
 canonical_name: Germanium on Silicon
 aliases: []
-parent_concepts: []
+parent_concepts:
+- substrates
+- materials
 related_concepts: []
 sources: []
 auto_stub: true

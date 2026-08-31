@@ -3,7 +3,9 @@ type: concept
 slug: swir-detector
 canonical_name: Swir Detector
 aliases: []
-parent_concepts: []
+parent_concepts:
+- imaging
+- sensing
 related_concepts: []
 sources: []
 auto_stub: true

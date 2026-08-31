@@ -3,7 +3,9 @@ type: concept
 slug: sot-mram
 canonical_name: Sot Mram
 aliases: []
-parent_concepts: []
+parent_concepts:
+- emerging-memory
+- memory
 related_concepts: []
 sources: []
 auto_stub: true

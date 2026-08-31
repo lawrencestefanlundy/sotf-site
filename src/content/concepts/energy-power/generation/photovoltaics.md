@@ -3,7 +3,9 @@ type: concept
 slug: photovoltaics
 canonical_name: Photovoltaics
 aliases: []
-parent_concepts: []
+parent_concepts:
+- generation
+- energy-power
 related_concepts: []
 sources:
 - '[[2024-10-29-deploy-intelligence-too-cheap-to]]'

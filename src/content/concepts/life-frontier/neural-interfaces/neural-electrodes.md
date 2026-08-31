@@ -3,7 +3,9 @@ type: concept
 slug: neural-electrodes
 canonical_name: Neural Electrodes
 aliases: []
-parent_concepts: []
+parent_concepts:
+- neural-interfaces
+- life-frontier
 related_concepts: []
 sources: []
 auto_stub: true

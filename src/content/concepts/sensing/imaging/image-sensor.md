@@ -14,6 +14,9 @@ sources:
 - '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
 - '[[2026-06-02-singular-photonics-launch]]'
 mention_count: 24
+parent_concepts:
+- imaging
+- sensing
 sources_7d: 0
 sources_30d: 2
 recent_mentions:

@@ -20,6 +20,14 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-28-nasa-awards-first-prize-in-phase-2-of-agencys-lunarecycle-ch
+  title: NASA Awards First Prize in Phase 2 of Agency’s LunaRecycle Challenge
+  date: '2026-08-28'
+  kind: web
+- slug: 2026-08-27-first-contracts-kick-off-european-launcher-challenge
+  title: First contracts kick off European Launcher Challenge
+  date: '2026-08-27'
+  kind: web
 - slug: 2026-08-12-nasa-data-helps-commercial-space-plan-living-off-our-moon
   title: NASA Data Helps Commercial Space Plan Living Off Our Moon
   date: '2026-08-12'
@@ -43,14 +51,6 @@ recent_mentions:
 - slug: 2026-08-05-your-chance-to-run-software-in-deep-space-on-esas-asteroid-m
   title: Your chance to run software in deep space on ESA's asteroid mission
   date: '2026-08-05'
-  kind: web
-- slug: 2026-08-03-nasa-delivers-navigation-system-for-commercial-lunar-relay
-  title: NASA Delivers Navigation System for Commercial Lunar Relay
-  date: '2026-08-03'
-  kind: web
-- slug: 2026-07-31-tb-26-04-webbings-for-use-in-elevated-oxygen-environments
-  title: TB 26-04 Webbings for Use in Elevated Oxygen Environments
-  date: '2026-07-31'
   kind: web
 neighbors: []
 ---

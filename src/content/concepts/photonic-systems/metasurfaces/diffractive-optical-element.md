@@ -3,7 +3,9 @@ type: concept
 slug: diffractive-optical-element
 canonical_name: Diffractive Optical Element
 aliases: []
-parent_concepts: []
+parent_concepts:
+- metasurfaces-flat-optics
+- photonic-systems
 related_concepts: []
 sources: []
 auto_stub: true

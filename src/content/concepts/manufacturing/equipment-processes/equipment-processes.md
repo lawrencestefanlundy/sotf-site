@@ -3,7 +3,8 @@ type: concept
 slug: equipment-processes
 canonical_name: Equipment Processes
 aliases: []
-parent_concepts: []
+parent_concepts:
+- manufacturing
 related_concepts: []
 sources: []
 auto_stub: true
@@ -17,25 +18,36 @@ descendants:
 - arpes
 - automated-test-equipment
 - bonding-dicing-equipment
+- chemical-vapor-deposition
 - cmp-chemical-mechanical-planarisation
 - contact-resistance
+- cvd-growth
+- deposition
 - diamond-turning
 - electron-scale-metrology
+- electronics-manufacturing
+- epitaxy
 - equipment
 - equipment-design
+- etch
 - etch-tools
 - initiated-cvd-icvd
+- inspection
 - ion-beam-figuring
 - ion-implantation
 - known-good-die-test
+- metal-additive-manufacturing
 - metrology-testing
 - mocvd-mbe
+- pcb-assembly
+- powder-metallurgy
 - probe-cards
 - pvd-sputtering
 - ru-w-co-metallisation
 - semiconductor-equipment
 - semiconductor-materials-equipment
 - semiconductor-metrology-inspection
+- semiconductor-test
 - stm
 - wafer-handling-robotics
 - wafer-level-burn-in

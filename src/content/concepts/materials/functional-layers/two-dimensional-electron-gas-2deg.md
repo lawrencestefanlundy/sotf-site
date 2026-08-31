@@ -3,7 +3,9 @@ type: concept
 slug: two-dimensional-electron-gas-2deg
 canonical_name: Two Dimensional Electron Gas 2deg
 aliases: []
-parent_concepts: []
+parent_concepts:
+- functional-layers
+- materials
 related_concepts: []
 sources: []
 auto_stub: true

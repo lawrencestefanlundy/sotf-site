@@ -3,7 +3,9 @@ type: concept
 slug: exotic-compute
 canonical_name: Exotic Compute
 aliases: []
-parent_concepts: []
+parent_concepts:
+- non-conventional
+- compute
 related_concepts: []
 sources: []
 auto_stub: true

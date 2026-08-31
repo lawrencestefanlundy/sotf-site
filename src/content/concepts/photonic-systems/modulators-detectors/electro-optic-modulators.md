@@ -3,7 +3,9 @@ type: concept
 slug: electro-optic-modulators
 canonical_name: Electro Optic Modulators
 aliases: []
-parent_concepts: []
+parent_concepts:
+- modulators-detectors
+- photonic-systems
 related_concepts: []
 sources: []
 auto_stub: true

@@ -3,7 +3,9 @@ type: concept
 slug: lead-fast-reactor
 canonical_name: Lead Fast Reactor
 aliases: []
-parent_concepts: []
+parent_concepts:
+- generation
+- energy-power
 related_concepts: []
 sources: []
 auto_stub: true

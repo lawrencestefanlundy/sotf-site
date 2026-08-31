@@ -3,7 +3,9 @@ type: concept
 slug: iii-v-compound-semiconductors
 canonical_name: Iii V Compound Semiconductors
 aliases: []
-parent_concepts: []
+parent_concepts:
+- substrates
+- materials
 related_concepts: []
 sources: []
 auto_stub: true

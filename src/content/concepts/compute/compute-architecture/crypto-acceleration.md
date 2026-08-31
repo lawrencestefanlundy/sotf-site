@@ -3,7 +3,9 @@ type: concept
 slug: crypto-acceleration
 canonical_name: Crypto Acceleration
 aliases: []
-parent_concepts: []
+parent_concepts:
+- compute-architecture
+- compute
 related_concepts: []
 sources: []
 auto_stub: true

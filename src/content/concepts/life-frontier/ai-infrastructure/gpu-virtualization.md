@@ -9,7 +9,9 @@ aliases:
 - GPU partitioning
 - GPU multi-tenancy
 - time-slicing
-parent_concepts: []
+parent_concepts:
+- ai-infrastructure
+- life-frontier
 related_concepts:
 - hypervisor-isolation
 - workload-sandboxing

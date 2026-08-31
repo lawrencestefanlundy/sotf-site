@@ -43,6 +43,9 @@ descendants:
 - optical-io-chip-level
 - optical-packet-switching
 - pluggable-transceivers
+- rack-scale-interconnect
+- rf-over-dielectric-waveguide
+- serdes
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 6

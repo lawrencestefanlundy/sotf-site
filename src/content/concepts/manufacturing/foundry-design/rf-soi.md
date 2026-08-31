@@ -3,7 +3,9 @@ type: concept
 slug: rf-soi
 canonical_name: RF Soi
 aliases: []
-parent_concepts: []
+parent_concepts:
+- foundry-design
+- manufacturing
 related_concepts: []
 sources:
 - '[[2026-06-15-gf-investor-day-2026]]'

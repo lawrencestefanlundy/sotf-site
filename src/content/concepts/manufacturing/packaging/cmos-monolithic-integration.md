@@ -3,7 +3,9 @@ type: concept
 slug: cmos-monolithic-integration
 canonical_name: Cmos Monolithic Integration
 aliases: []
-parent_concepts: []
+parent_concepts:
+- packaging
+- manufacturing
 related_concepts: []
 sources: []
 auto_stub: true

@@ -3,7 +3,9 @@ type: concept
 slug: cellular-neural-networks
 canonical_name: Cellular Neural Networks
 aliases: []
-parent_concepts: []
+parent_concepts:
+- non-conventional
+- compute
 related_concepts: []
 sources: []
 auto_stub: true

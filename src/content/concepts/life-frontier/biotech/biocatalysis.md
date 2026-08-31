@@ -3,7 +3,9 @@ type: concept
 slug: biocatalysis
 canonical_name: Biocatalysis
 aliases: []
-parent_concepts: []
+parent_concepts:
+- biotech
+- life-frontier
 related_concepts: []
 sources:
 - '[[2026-06-04-industrial-enzymes-market-size]]'

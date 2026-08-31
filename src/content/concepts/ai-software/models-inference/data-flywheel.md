@@ -20,7 +20,7 @@ tags:
 - auto-stub
 mention_count: 14
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-07-26-ai-native-app-retention-margins
   title: AI-native application retention and gross margin benchmarks, mid-2026

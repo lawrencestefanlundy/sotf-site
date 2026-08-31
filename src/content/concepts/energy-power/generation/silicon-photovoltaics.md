@@ -5,7 +5,9 @@ canonical_name: Silicon photovoltaics
 aliases:
 - silicon PV
 - c-Si solar
-parent_concepts: []
+parent_concepts:
+- generation
+- energy-power
 related_concepts: []
 sources: []
 frontier:

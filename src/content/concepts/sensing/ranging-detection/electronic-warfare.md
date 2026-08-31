@@ -3,7 +3,9 @@ type: concept
 slug: electronic-warfare
 canonical_name: Electronic Warfare
 aliases: []
-parent_concepts: []
+parent_concepts:
+- ranging-detection
+- sensing
 related_concepts: []
 sources: []
 auto_stub: true

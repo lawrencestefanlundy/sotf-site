@@ -3,7 +3,9 @@ type: concept
 slug: low-latency-compute
 canonical_name: Low Latency Compute
 aliases: []
-parent_concepts: []
+parent_concepts:
+- compute-architecture
+- compute
 related_concepts: []
 sources: []
 auto_stub: true

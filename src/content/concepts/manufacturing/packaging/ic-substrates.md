@@ -3,7 +3,9 @@ type: concept
 slug: ic-substrates
 canonical_name: Ic Substrates
 aliases: []
-parent_concepts: []
+parent_concepts:
+- packaging
+- manufacturing
 related_concepts: []
 sources:
 - '[[2026-04-14-sovereign-electronics-manufacturing-edip-opens-the-door-eu]]'

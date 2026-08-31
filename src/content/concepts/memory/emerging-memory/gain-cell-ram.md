@@ -3,7 +3,9 @@ type: concept
 slug: gain-cell-ram
 canonical_name: Gain Cell Ram
 aliases: []
-parent_concepts: []
+parent_concepts:
+- emerging-memory
+- memory
 related_concepts: []
 sources: []
 auto_stub: true

@@ -3,7 +3,9 @@ type: concept
 slug: tandem-solar
 canonical_name: Tandem Solar
 aliases: []
-parent_concepts: []
+parent_concepts:
+- generation
+- energy-power
 related_concepts: []
 sources: []
 auto_stub: true

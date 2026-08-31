@@ -3,7 +3,9 @@ type: concept
 slug: epitaxy
 canonical_name: Epitaxy
 aliases: []
-parent_concepts: []
+parent_concepts:
+- equipment-processes
+- manufacturing
 related_concepts: []
 sources:
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'

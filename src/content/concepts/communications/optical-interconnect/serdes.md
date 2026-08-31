@@ -3,7 +3,9 @@ type: concept
 slug: serdes
 canonical_name: Serdes
 aliases: []
-parent_concepts: []
+parent_concepts:
+- optical-interconnect
+- communications
 related_concepts: []
 sources:
 - '[[2025-04-30-has-the-time-come-to-take-mortal]]'

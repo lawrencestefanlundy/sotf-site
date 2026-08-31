@@ -38,9 +38,12 @@ descendants:
 - nv-diamond-spin-qubits
 - photonic-quantum
 - photonic-quantum-computing
+- quantum
+- quantum-algorithms
 - quantum-annealing
 - quantum-compilers
 - quantum-computing
+- quantum-control
 - quantum-error-correction
 - quantum-software
 - silicon-spin-qubits
@@ -51,6 +54,14 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 14
 recent_mentions:
+- slug: 2026-08-24-nist-researchers-supersize-quantum-technology-to-help-detect
+  title: NIST Researchers Supersize Quantum Technology to Help Detect Faint Photons
+  date: '2026-08-24'
+  kind: web
+- slug: 2026-08-16-is-rigetti-computing-rgti-fully-valued-after-chips-act-fundi
+  title: Is Rigetti Computing (RGTI) Fully Valued After CHIPS Act Funding News And Quantum Progress? - simplywall.st
+  date: '2026-08-16'
+  kind: web
 - slug: 2026-08-13-infleqtion-reports-q2-2026-results-record-revenue-up-116-yoy
   title: 'Infleqtion Reports Q2 2026 Results: Record Revenue Up 116% YoY, Raised Guidance to $43M, and $100M CHIPS Act LOI - Quantum Computing Report'
   date: '2026-08-13'
@@ -74,14 +85,6 @@ recent_mentions:
 - slug: 2026-07-21-d-wave-quantum-chips-act-backing-and-nasdaq-shift-fail-to-re
   title: 'D-Wave Quantum: CHIPS Act Backing and Nasdaq Shift Fail to Reverse a Brutal Selloff - Ad-hoc-news.de'
   date: '2026-07-21'
-  kind: web
-- slug: 2026-07-16-when-will-quantum-computing-have-its-breakout-moment---latit
-  title: When will quantum computing have its breakout moment? - Latitude Media
-  date: '2026-07-16'
-  kind: web
-- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
-  title: 'Startup Funding: Q2 2026'
-  date: '2026-07-13'
   kind: web
 neighbors: []
 ---

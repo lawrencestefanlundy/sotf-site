@@ -3,7 +3,8 @@ type: concept
 slug: carbon-capture
 canonical_name: Carbon Capture
 aliases: []
-parent_concepts: []
+parent_concepts:
+- energy-power
 related_concepts: []
 sources:
 - '[[2024-11-20-nuclear-fusion-the-state-of-play]]'

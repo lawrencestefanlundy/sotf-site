@@ -19,6 +19,18 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-27-the-case-against-relying-on-behind-the-meter-power-for-data-
+  title: The case against relying on behind-the-meter power for data centers - staging.latitudemedia.com
+  date: '2026-08-27'
+  kind: web
+- slug: 2026-08-26-making-data-centers-flexible-so-they-can-serve-the-grid-rath
+  title: Making data centers flexible so they can serve the grid rather than stress it out
+  date: '2026-08-26'
+  kind: web
+- slug: 2026-08-19-ainews-memory-prices-up-500-in-12-months
+  title: '[AINews] Memory prices up 500% in 12 months'
+  date: '2026-08-19'
+  kind: web
 - slug: 2026-08-10-how-ais-demand-for-compute-could-disrupt-america
   title: How AI's Demand for Compute could Disrupt America
   date: '2026-08-10'
@@ -38,18 +50,6 @@ recent_mentions:
 - slug: 2026-08-05-uk-neocloud-landscape-sweep
   title: UK neocloud landscape sweep — filling the coverage gap under the neocloud/serving map
   date: '2026-08-05'
-  kind: web
-- slug: 2026-08-03-perimeter-compute-wants-to-turn-spare-office-power-into-edge
-  title: Perimeter Compute wants to turn spare office power into edge AI data centers - Latitude Media
-  date: '2026-08-03'
-  kind: web
-- slug: 2026-08-03-the-inference-engineering-masterclass-philip-kiely-ali-taha-
-  title: The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten
-  date: '2026-08-03'
-  kind: web
-- slug: 2026-07-31-memory-optics-packaging-chips-act-targets-ais-compute-bottle
-  title: 'Memory, optics, packaging: CHIPS Act targets AI''s compute bottleneck - Electronics360'
-  date: '2026-07-31'
   kind: web
 neighbors: []
 ---

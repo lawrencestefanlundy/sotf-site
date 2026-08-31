@@ -3,7 +3,9 @@ type: concept
 slug: algorithm-to-silicon
 canonical_name: Algorithm to Silicon
 aliases: []
-parent_concepts: []
+parent_concepts:
+- foundry-design
+- manufacturing
 related_concepts: []
 sources: []
 auto_stub: true

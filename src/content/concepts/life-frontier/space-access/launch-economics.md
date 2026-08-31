@@ -3,7 +3,9 @@ type: concept
 slug: launch-economics
 canonical_name: Launch Economics
 aliases: []
-parent_concepts: []
+parent_concepts:
+- space-access
+- life-frontier
 related_concepts: []
 sources: []
 auto_stub: true

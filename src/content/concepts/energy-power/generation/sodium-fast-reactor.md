@@ -3,7 +3,9 @@ type: concept
 slug: sodium-fast-reactor
 canonical_name: Sodium Fast Reactor
 aliases: []
-parent_concepts: []
+parent_concepts:
+- generation
+- energy-power
 related_concepts: []
 sources: []
 auto_stub: true

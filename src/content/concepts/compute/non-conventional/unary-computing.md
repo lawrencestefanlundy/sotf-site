@@ -3,7 +3,9 @@ type: concept
 slug: unary-computing
 canonical_name: Unary Computing
 aliases: []
-parent_concepts: []
+parent_concepts:
+- non-conventional
+- compute
 related_concepts: []
 sources: []
 auto_stub: true

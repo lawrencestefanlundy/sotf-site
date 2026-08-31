@@ -3,7 +3,8 @@ type: concept
 slug: conventional-logic
 canonical_name: Conventional Logic
 aliases: []
-parent_concepts: []
+parent_concepts:
+- compute
 related_concepts: []
 sources: []
 auto_stub: true
@@ -13,7 +14,9 @@ tags:
 - auto-stub
 descendants:
 - ai-accelerator
+- analog-mixed-signal
 - cpu-soc
+- fpga
 - logic
 - risc-v
 sources_7d: 0

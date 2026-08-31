@@ -11,7 +11,9 @@ aliases:
 - NVL1152
 - Kyber rack
 - nvidia accelerator roadmap
-parent_concepts: []
+parent_concepts:
+- compute-architecture
+- compute
 related_concepts:
 - hbm
 - optical-interconnect

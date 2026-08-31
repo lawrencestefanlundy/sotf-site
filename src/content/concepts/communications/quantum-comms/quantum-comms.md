@@ -3,7 +3,8 @@ type: concept
 slug: quantum-comms
 canonical_name: Quantum Comms
 aliases: []
-parent_concepts: []
+parent_concepts:
+- communications
 related_concepts: []
 sources:
 - '[[2026-06-17-single-photon-detector-market-spad-snspd]]'
@@ -14,8 +15,11 @@ tags:
 - auto-stub
 descendants:
 - qkd
+- qrng
 - quantum-communications
+- quantum-key-distribution
 - quantum-networks
+- quantum-random-number-generation
 - quantum-repeaters
 mention_count: 3
 sources_7d: 0

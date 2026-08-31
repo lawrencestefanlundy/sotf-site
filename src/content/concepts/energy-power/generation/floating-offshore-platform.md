@@ -3,7 +3,9 @@ type: concept
 slug: floating-offshore-platform
 canonical_name: Floating Offshore Platform
 aliases: []
-parent_concepts: []
+parent_concepts:
+- generation
+- energy-power
 related_concepts: []
 sources: []
 auto_stub: true

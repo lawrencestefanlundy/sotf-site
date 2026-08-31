@@ -3,7 +3,9 @@ type: concept
 slug: gan-on-silicon
 canonical_name: Gan on Silicon
 aliases: []
-parent_concepts: []
+parent_concepts:
+- substrates
+- materials
 related_concepts: []
 sources: []
 auto_stub: true

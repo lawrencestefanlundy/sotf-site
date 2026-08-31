@@ -3,7 +3,9 @@ type: concept
 slug: raman-spectroscopy
 canonical_name: Raman Spectroscopy
 aliases: []
-parent_concepts: []
+parent_concepts:
+- imaging
+- sensing
 related_concepts: []
 sources:
 - '[[2026-07-21-interworld-slingshot-resource-surveys]]'

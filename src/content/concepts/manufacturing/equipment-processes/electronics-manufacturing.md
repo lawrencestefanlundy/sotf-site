@@ -3,7 +3,9 @@ type: concept
 slug: electronics-manufacturing
 canonical_name: Electronics Manufacturing
 aliases: []
-parent_concepts: []
+parent_concepts:
+- equipment-processes
+- manufacturing
 related_concepts: []
 sources:
 - '[[2026-06-13-sovereign-electronics-manufacturing-reshoring-digest]]'

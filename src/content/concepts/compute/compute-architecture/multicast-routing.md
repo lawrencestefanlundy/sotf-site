@@ -3,7 +3,9 @@ type: concept
 slug: multicast-routing
 canonical_name: Multicast Routing
 aliases: []
-parent_concepts: []
+parent_concepts:
+- compute-architecture
+- compute
 related_concepts: []
 sources: []
 auto_stub: true

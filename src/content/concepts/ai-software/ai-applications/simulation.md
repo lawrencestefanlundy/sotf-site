@@ -28,6 +28,10 @@ last_updated: 2026-06-22
 tags:
 - concept
 mention_count: 661
+descendants:
+- neural-operators
+- physics-ai
+- plasma-simulation
 sources_7d: 0
 sources_30d: 0
 recent_mentions:

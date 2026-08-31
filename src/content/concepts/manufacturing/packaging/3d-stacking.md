@@ -3,7 +3,9 @@ type: concept
 slug: 3d-stacking
 canonical_name: 3d Stacking
 aliases: []
-parent_concepts: []
+parent_concepts:
+- packaging
+- manufacturing
 related_concepts: []
 sources:
 - '[[2023-08-31-e13-chiplets-how-chip-lego-is-driving]]'

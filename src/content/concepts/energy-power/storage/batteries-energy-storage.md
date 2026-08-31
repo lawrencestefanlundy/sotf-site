@@ -19,9 +19,17 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-19-ainews-memory-prices-up-500-in-12-months
+  title: '[AINews] Memory prices up 500% in 12 months'
+  date: '2026-08-19'
+  kind: web
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
+  kind: web
+- slug: 2026-06-01-micron-technology-secures-61b-chips-act-funding-for-us-memor
+  title: Micron Technology secures $6.1B CHIPS Act funding for US memory fabs - Dealroom
+  date: '2026-06-01'
   kind: web
 - slug: 2025-11-06-successful-funding-round-for-empa-eth-spin-off-57-million-to
   title: 'Successful funding round for Empa-ETH spin-off: $ 5.7 million to industrialize ultra-thin solid-state batteries - admin.ch'

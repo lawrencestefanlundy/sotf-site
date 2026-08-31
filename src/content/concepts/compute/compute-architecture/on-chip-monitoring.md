@@ -3,7 +3,9 @@ type: concept
 slug: on-chip-monitoring
 canonical_name: On Chip Monitoring
 aliases: []
-parent_concepts: []
+parent_concepts:
+- compute-architecture
+- compute
 related_concepts: []
 sources: []
 auto_stub: true

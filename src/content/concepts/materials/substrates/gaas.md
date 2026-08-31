@@ -3,7 +3,9 @@ type: concept
 slug: gaas
 canonical_name: Gaas
 aliases: []
-parent_concepts: []
+parent_concepts:
+- substrates
+- materials
 related_concepts: []
 sources:
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'

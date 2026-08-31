@@ -3,7 +3,9 @@ type: concept
 slug: shockley-queisser-limit
 canonical_name: Shockley Queisser Limit
 aliases: []
-parent_concepts: []
+parent_concepts:
+- generation
+- energy-power
 related_concepts: []
 sources: []
 auto_stub: true

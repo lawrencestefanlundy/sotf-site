@@ -3,7 +3,9 @@ type: concept
 slug: model-in-silicon
 canonical_name: Model in Silicon
 aliases: []
-parent_concepts: []
+parent_concepts:
+- compute-architecture
+- compute
 related_concepts: []
 sources: []
 auto_stub: true

@@ -3,7 +3,9 @@ type: concept
 slug: cryogenics
 canonical_name: Cryogenics
 aliases: []
-parent_concepts: []
+parent_concepts:
+- ai-thermal-management
+- energy-power
 related_concepts: []
 sources:
 - '[[2026-07-24-18b-illinois-chips-act-supports-zero-point-cryogenics-us-ent]]'

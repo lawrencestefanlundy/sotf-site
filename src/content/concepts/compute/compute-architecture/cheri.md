@@ -6,7 +6,9 @@ aliases:
 - CHERIoT
 - CHERI-RISC-V
 - capability hardware
-parent_concepts: []
+parent_concepts:
+- compute-architecture
+- compute
 related_concepts:
 - tee
 sources: []

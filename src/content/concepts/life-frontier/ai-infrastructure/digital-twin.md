@@ -4,7 +4,9 @@ slug: digital-twin
 canonical_name: Digital Twin
 aliases:
 - digital twins
-parent_concepts: []
+parent_concepts:
+- ai-infrastructure
+- life-frontier
 related_concepts:
 - datacenter-network-stack
 last_updated: '2026-07-01'

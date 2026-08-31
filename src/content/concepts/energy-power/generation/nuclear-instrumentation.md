@@ -3,7 +3,9 @@ type: concept
 slug: nuclear-instrumentation
 canonical_name: Nuclear Instrumentation
 aliases: []
-parent_concepts: []
+parent_concepts:
+- generation
+- energy-power
 related_concepts: []
 sources:
 - '[[2026-06-13-smr-datacentre-baseload-research]]'

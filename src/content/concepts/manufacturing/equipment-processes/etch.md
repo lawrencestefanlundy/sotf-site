@@ -3,7 +3,9 @@ type: concept
 slug: etch
 canonical_name: Etch
 aliases: []
-parent_concepts: []
+parent_concepts:
+- equipment-processes
+- manufacturing
 related_concepts: []
 sources:
 - '[[2025-07-01-a-primer-carbon-nanotubes]]'

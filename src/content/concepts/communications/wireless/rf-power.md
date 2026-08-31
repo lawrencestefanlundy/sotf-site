@@ -3,7 +3,9 @@ type: concept
 slug: rf-power
 canonical_name: RF Power
 aliases: []
-parent_concepts: []
+parent_concepts:
+- wireless
+- communications
 related_concepts: []
 sources:
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'

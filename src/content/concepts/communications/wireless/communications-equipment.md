@@ -20,6 +20,18 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-21-dect-nr-gateway-brings-deterministic-wireless-to-industrial-
+  title: DECT NR+ gateway brings deterministic wireless to industrial automation - eeNews Europe
+  date: '2026-08-21'
+  kind: web
+- slug: 2026-08-19-wi-fi-7-breaks-into-the-mcu-field-next-gen-wireless-connecti
+  title: 'Wi-Fi 7 Breaks into the MCU Field: Next-Gen Wireless Connectivity for Microcontroller Applications - 36 Kr'
+  date: '2026-08-19'
+  kind: web
+- slug: 2026-08-18-wi-fi-7-accelerates-into-the-mcu-space-as-infineon-and-synap
+  title: Wi-Fi 7 Accelerates into the MCU Space as Infineon and Synaptics Move First - finance.biggo.com
+  date: '2026-08-18'
+  kind: web
 - slug: 2026-08-12-viavi-introduces-industrys-first-channel-emulator-for-6g-and
   title: VIAVI Introduces Industry's First Channel Emulator for 6G and Wi-Fi 7/8 - barchart.com
   date: '2026-08-12'
@@ -36,21 +48,9 @@ recent_mentions:
   title: NASA Delivers Navigation System for Commercial Lunar Relay
   date: '2026-08-03'
   kind: web
-- slug: 2026-07-16-wi-fi-network-equipment-amplifiers-market-demand-to-accelera
-  title: Wi-Fi Network Equipment Amplifiers Market Demand to Accelerate by 2035 on Wi-Fi 7 Rollout and 6 Ghz Band Expansion - IndexBox
-  date: '2026-07-16'
-  kind: web
-- slug: 2026-07-09-norik-systems-introduces-nrf9151-based-usb-dongle-for-dect-n
-  title: Norik Systems introduces nRF9151-based USB Dongle for DECT NR+ deployments - CNX Software
-  date: '2026-07-09'
-  kind: web
-- slug: 2026-07-08-access-point-modules-market-forecast-points-higher-toward-20
-  title: Access Point Modules Market Forecast Points Higher Toward 2035, Driven by Wi-Fi 7 and Industrial Iot Expansion - IndexBox
-  date: '2026-07-08'
-  kind: web
-- slug: 2025-11-14-advantech-partners-with-rohde-schwarz-to-deliver-wi-fi-compl
-  title: Advantech partners with Rohde & Schwarz to deliver Wi-Fi compliant and deployment-ready industrial Wi-Fi 7 modules - Plataforma Media
-  date: '2025-11-14'
+- slug: 2026-08-01-inje-university-partners-with-huawei-to-build-a-cutting-edge
+  title: Inje University Partners with Huawei to Build a Cutting-Edge Wi-Fi 7 Smart Campus - Huawei Enterprise
+  date: '2026-08-01'
   kind: web
 neighbors: []
 ---

@@ -3,7 +3,9 @@ type: concept
 slug: 22fdx
 canonical_name: 22fdx
 aliases: []
-parent_concepts: []
+parent_concepts:
+- foundry-design
+- manufacturing
 related_concepts: []
 sources:
 - '[[2024-yole-emerging-memories-2024]]'

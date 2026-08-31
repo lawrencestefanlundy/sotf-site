@@ -19,6 +19,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-25-why-ramp-built-its-own-in-house-coding-agent-inspect
+  title: Why Ramp built its own in-house coding agent, Inspect
+  date: '2026-08-25'
+  kind: web
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'

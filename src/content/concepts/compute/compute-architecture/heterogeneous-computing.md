@@ -3,7 +3,9 @@ type: concept
 slug: heterogeneous-computing
 canonical_name: Heterogeneous Computing
 aliases: []
-parent_concepts: []
+parent_concepts:
+- compute-architecture
+- compute
 related_concepts: []
 sources:
 - '[[2023-07-23-analog-computing-the-once-and-future]]'

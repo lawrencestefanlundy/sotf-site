@@ -3,7 +3,9 @@ type: concept
 slug: gallium-foundries
 canonical_name: Gallium Foundries
 aliases: []
-parent_concepts: []
+parent_concepts:
+- foundry-design
+- manufacturing
 related_concepts: []
 sources: []
 auto_stub: true

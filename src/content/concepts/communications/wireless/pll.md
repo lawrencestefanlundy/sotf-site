@@ -7,7 +7,9 @@ aliases:
 - phase locked loop
 - phase-locked loops
 - phase locked loops
-parent_concepts: []
+parent_concepts:
+- wireless
+- communications
 related_concepts: []
 sources: []
 auto_stub: true

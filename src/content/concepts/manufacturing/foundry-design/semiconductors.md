@@ -8,7 +8,9 @@ aliases:
 - semiconductor-industry
 - chips
 - chip-industry
-parent_concepts: []
+parent_concepts:
+- foundry-design
+- manufacturing
 related_concepts:
 - logic
 - advanced-packaging
@@ -47,37 +49,37 @@ mention_count: 766
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-29-us-commerce-department-moves-to-block-china-ai-firms-from-re
+  title: U.S. Commerce Department moves to block China AI firms from remote access to advanced chips - 디지털투데이
+  date: '2026-08-29'
+  kind: web
+- slug: 2026-08-27-gao-warns-chips-rd-stall-could-cost-us-chip-leadership---iee
+  title: GAO Warns CHIPS R&D Stall Could Cost U.S. Chip Leadership - IEEE Spectrum
+  date: '2026-08-27'
+  kind: web
+- slug: 2026-08-27-when-chips-run-short-the-crisis-regime-of-the-chips-act-20--
+  title: 'When Chips Run Short: The Crisis Regime of the Chips Act 2.0 - Freshfields'
+  date: '2026-08-27'
+  kind: web
+- slug: 2026-08-27-ainews-hot-chips-openais-jalapeno-cerebras-cs-5-groq-3-lpx-a
+  title: '[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6'
+  date: '2026-08-27'
+  kind: web
+- slug: 2026-08-26-we-have-foundation-models-for-language-not-for-physics-anima
+  title: 🔬“We have foundation models for language, not for physics” — Anima Anandkumar, Bren Professor of Computing
+  date: '2026-08-26'
+  kind: web
+- slug: 2026-08-19-ainews-memory-prices-up-500-in-12-months
+  title: '[AINews] Memory prices up 500% in 12 months'
+  date: '2026-08-19'
+  kind: web
+- slug: 2026-08-18-chips-act-funds-40-fab-projects-faces-2026-deadline---legis1
+  title: CHIPS Act Funds 40 Fab Projects, Faces 2026 Deadline - Legis1
+  date: '2026-08-18'
+  kind: web
 - slug: 2026-08-13-how-the-chips-act-changed-binghamton-and-upstate-new-york---
   title: How the CHIPS Act changed Binghamton and Upstate New York - Press & Sun-Bulletin
   date: '2026-08-13'
-  kind: web
-- slug: 2026-08-13-rochester-region-sees-semiconductor-growth-from-chips-act-in
-  title: Rochester region sees semiconductor growth from CHIPS Act investments - Rochester Business Journal
-  date: '2026-08-13'
-  kind: web
-- slug: 2026-08-12-chips-act-20-part-1-europes-second-semiconductor-push---eene
-  title: 'Chips Act 2.0. Part 1: Europe’s second semiconductor push - eeNews Europe'
-  date: '2026-08-12'
-  kind: web
-- slug: 2026-08-11-stanton-marks-four-years-of-chips-act-with-facility-visits-h
-  title: Stanton Marks Four Years of CHIPS Act with Facility Visits, Highlights Impact Across Arizona - Congressman Greg Stanton (.gov)
-  date: '2026-08-11'
-  kind: web
-- slug: 2026-08-10-esd-cable-management-trays-market-to-reach-178-index-by-2035
-  title: ESD Cable Management Trays Market to Reach 178 Index by 2035 on Semiconductor Fab Build-Out - IndexBox
-  date: '2026-08-10'
-  kind: web
-- slug: 2026-08-10-chips-act-funding-opportunities-what-companies-in-the-semico
-  title: 'CHIPS Act Funding Opportunities: What Companies in the Semiconductor Ecosystem Need to Know - Mayer Brown'
-  date: '2026-08-10'
-  kind: web
-- slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
-  title: Chip Industry Week in Review (7 Aug 2026)
-  date: '2026-08-07'
-  kind: web
-- slug: 2026-08-06-us-commits-874m-to-strengthen-semiconductor-supply-chain-thr
-  title: US commits $874m to strengthen semiconductor supply chain through CHIPS Act - Innovation News Network
-  date: '2026-08-06'
   kind: web
 neighbors:
 - slug: logic

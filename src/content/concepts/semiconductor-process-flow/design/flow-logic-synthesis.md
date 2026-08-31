@@ -17,6 +17,8 @@ sources:
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2026-05-12-semianalysis-eda-rtl-to-silicon]]'
 mention_count: 15
+parent_concepts:
+- flow-rtl-design
 sources_7d: 0
 sources_30d: 1
 recent_mentions:

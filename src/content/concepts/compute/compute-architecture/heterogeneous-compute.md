@@ -3,7 +3,9 @@ type: concept
 slug: heterogeneous-compute
 canonical_name: Heterogeneous Compute
 aliases: []
-parent_concepts: []
+parent_concepts:
+- compute-architecture
+- compute
 related_concepts: []
 sources:
 - '[[2026-01-22-ai-chips-computeram-and-the-future]]'

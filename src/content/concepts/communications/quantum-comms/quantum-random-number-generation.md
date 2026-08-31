@@ -3,7 +3,9 @@ type: concept
 slug: quantum-random-number-generation
 canonical_name: Quantum Random Number Generation
 aliases: []
-parent_concepts: []
+parent_concepts:
+- quantum-comms
+- communications
 related_concepts: []
 sources: []
 auto_stub: true

@@ -30,6 +30,14 @@ scaffold: true
 tags:
 - concept
 mention_count: 56
+descendants:
+- ai-compiler-landscape
+- iree
+- mlc-llm
+- mlir
+- triton
+- tvm
+- xla
 sources_7d: 0
 sources_30d: 3
 recent_mentions:

@@ -3,7 +3,9 @@ type: concept
 slug: open-source-eda
 canonical_name: Open Source Eda
 aliases: []
-parent_concepts: []
+parent_concepts:
+- foundry-design
+- manufacturing
 related_concepts: []
 sources: []
 auto_stub: true

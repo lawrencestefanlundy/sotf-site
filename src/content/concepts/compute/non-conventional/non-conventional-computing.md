@@ -3,7 +3,9 @@ type: concept
 slug: non-conventional-computing
 canonical_name: Non Conventional Computing
 aliases: []
-parent_concepts: []
+parent_concepts:
+- non-conventional
+- compute
 related_concepts: []
 sources: []
 auto_stub: true

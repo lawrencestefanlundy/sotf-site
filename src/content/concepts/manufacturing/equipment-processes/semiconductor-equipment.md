@@ -28,6 +28,22 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 1
 recent_mentions:
+- slug: 2026-08-27-gao-warns-chips-rd-stall-could-cost-us-chip-leadership---iee
+  title: GAO Warns CHIPS R&D Stall Could Cost U.S. Chip Leadership - IEEE Spectrum
+  date: '2026-08-27'
+  kind: web
+- slug: 2026-08-27-the-case-against-relying-on-behind-the-meter-power-for-data-
+  title: The case against relying on behind-the-meter power for data centers - staging.latitudemedia.com
+  date: '2026-08-27'
+  kind: web
+- slug: 2026-08-18-wi-fi-7-accelerates-into-the-mcu-space-as-infineon-and-synap
+  title: Wi-Fi 7 Accelerates into the MCU Space as Infineon and Synaptics Move First - finance.biggo.com
+  date: '2026-08-18'
+  kind: web
+- slug: 2026-08-18-chips-act-funds-40-fab-projects-faces-2026-deadline---legis1
+  title: CHIPS Act Funds 40 Fab Projects, Faces 2026 Deadline - Legis1
+  date: '2026-08-18'
+  kind: web
 - slug: 2026-08-13-how-the-chips-act-changed-binghamton-and-upstate-new-york---
   title: How the CHIPS Act changed Binghamton and Upstate New York - Press & Sun-Bulletin
   date: '2026-08-13'
@@ -43,22 +59,6 @@ recent_mentions:
 - slug: 2026-08-10-esd-cable-management-trays-market-to-reach-178-index-by-2035
   title: ESD Cable Management Trays Market to Reach 178 Index by 2035 on Semiconductor Fab Build-Out - IndexBox
   date: '2026-08-10'
-  kind: web
-- slug: 2026-08-10-chips-act-funding-opportunities-what-companies-in-the-semico
-  title: 'CHIPS Act Funding Opportunities: What Companies in the Semiconductor Ecosystem Need to Know - Mayer Brown'
-  date: '2026-08-10'
-  kind: web
-- slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
-  title: Chip Industry Week in Review (7 Aug 2026)
-  date: '2026-08-07'
-  kind: web
-- slug: 2026-08-06-us-commits-874m-to-strengthen-semiconductor-supply-chain-thr
-  title: US commits $874m to strengthen semiconductor supply chain through CHIPS Act - Innovation News Network
-  date: '2026-08-06'
-  kind: web
-- slug: 2026-08-04-eu-chips-act-20-ambition-requires-funding---dqindiacom
-  title: 'EU Chips Act 2.0: Ambition requires funding - dqindia.com'
-  date: '2026-08-04'
   kind: web
 neighbors: []
 ---

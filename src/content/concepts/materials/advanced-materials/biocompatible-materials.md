@@ -3,7 +3,9 @@ type: concept
 slug: biocompatible-materials
 canonical_name: Biocompatible Materials
 aliases: []
-parent_concepts: []
+parent_concepts:
+- advanced-materials
+- materials
 related_concepts: []
 sources: []
 auto_stub: true

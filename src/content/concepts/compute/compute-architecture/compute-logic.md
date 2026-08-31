@@ -7,7 +7,9 @@ aliases:
 - Compute & Logic
 - compute-and-logic
 kind: theme
-parent_concepts: []
+parent_concepts:
+- compute-architecture
+- compute
 related_concepts:
 - photonic-compute
 - neuromorphic-computing

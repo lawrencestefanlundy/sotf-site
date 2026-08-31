@@ -3,7 +3,9 @@ type: concept
 slug: triso-fuel
 canonical_name: Triso Fuel
 aliases: []
-parent_concepts: []
+parent_concepts:
+- generation
+- energy-power
 related_concepts: []
 sources:
 - '[[2024-11-12-atomic-energy-can-nuclear-power-our]]'

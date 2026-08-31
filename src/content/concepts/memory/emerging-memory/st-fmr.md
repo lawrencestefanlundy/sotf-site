@@ -12,6 +12,9 @@ tags:
 - concept
 - stub
 mention_count: 5
+parent_concepts:
+- emerging-memory
+- memory
 sources_7d: 0
 sources_30d: 0
 recent_mentions: []

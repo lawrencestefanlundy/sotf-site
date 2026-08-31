@@ -18,7 +18,11 @@ mention_count: 48
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-08-24-nist-researchers-supersize-quantum-technology-to-help-detect
+  title: NIST Researchers Supersize Quantum Technology to Help Detect Faint Photons
+  date: '2026-08-24'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

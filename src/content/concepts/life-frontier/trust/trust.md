@@ -22,8 +22,10 @@ descendants:
 - federated-learning
 - homomorphic-encryption
 - multi-party-computation
+- post-quantum-cryptography
 - privacy-tech
 - security-cyber
+- security-ic
 - tee
 - trust
 - zero-knowledge-proofs

@@ -3,7 +3,9 @@ type: concept
 slug: silicon-avalanche-detector
 canonical_name: Silicon Avalanche Detector
 aliases: []
-parent_concepts: []
+parent_concepts:
+- imaging
+- sensing
 related_concepts: []
 sources: []
 auto_stub: true

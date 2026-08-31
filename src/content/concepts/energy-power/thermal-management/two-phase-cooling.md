@@ -3,7 +3,9 @@ type: concept
 slug: two-phase-cooling
 canonical_name: Two Phase Cooling
 aliases: []
-parent_concepts: []
+parent_concepts:
+- ai-thermal-management
+- energy-power
 related_concepts: []
 sources: []
 auto_stub: true

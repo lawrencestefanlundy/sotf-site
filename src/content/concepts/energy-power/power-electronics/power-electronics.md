@@ -27,16 +27,20 @@ tags:
 mention_count: 60
 last_reorg_date: '2026-05-13'
 descendants:
+- ai-power-delivery
 - aluminium-gallium-nitride
+- diamond-fet
 - electric-motors-drives
 - gallium-nitride
 - gan-on-si
 - gw-scale-power-delivery
 - indium-gallium-nitride
+- integrated-voltage-regulator
 - power
 - power-electronics
 - power-management-ic
 - solid-state-circuit-breakers
+- vertical-gan
 - wireless-power-transfer
 sources_7d: 0
 sources_30d: 5

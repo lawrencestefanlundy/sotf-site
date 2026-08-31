@@ -3,7 +3,9 @@ type: concept
 slug: quantum-control
 canonical_name: Quantum Control
 aliases: []
-parent_concepts: []
+parent_concepts:
+- quantum-computing
+- compute
 related_concepts: []
 sources:
 - '[[2026-03-31-memq-10m-series-a]]'

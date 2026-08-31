@@ -11,6 +11,9 @@ tags:
 - concept
 sources: []
 mention_count: 5
+parent_concepts:
+- imaging
+- sensing
 sources_7d: 0
 sources_30d: 0
 recent_mentions: []

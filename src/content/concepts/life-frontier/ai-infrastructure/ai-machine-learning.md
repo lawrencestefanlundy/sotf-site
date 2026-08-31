@@ -20,6 +20,18 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-26-we-have-foundation-models-for-language-not-for-physics-anima
+  title: 🔬“We have foundation models for language, not for physics” — Anima Anandkumar, Bren Professor of Computing
+  date: '2026-08-26'
+  kind: web
+- slug: 2026-08-26-making-data-centers-flexible-so-they-can-serve-the-grid-rath
+  title: Making data centers flexible so they can serve the grid rather than stress it out
+  date: '2026-08-26'
+  kind: web
+- slug: 2026-08-25-why-ramp-built-its-own-in-house-coding-agent-inspect
+  title: Why Ramp built its own in-house coding agent, Inspect
+  date: '2026-08-25'
+  kind: web
 - slug: 2026-08-11-the-bioai-phase-shift---matthew-mcpartlon-neil-patil-chai-di
   title: 🔬The BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery
   date: '2026-08-11'
@@ -36,9 +48,9 @@ recent_mentions:
   title: 🔬 The Lab of the Future Should Feel Like a Data Center — Andy Beam & Rafa Gómez-Bombarelli, Lila Sciences
   date: '2026-07-16'
   kind: web
-- slug: 2025-10-09-wi-fi-7-advanced-integrates-sensing-iot-and-ai-security-into
-  title: Wi-Fi 7 Advanced integrates sensing, IoT, and AI security into 10Gbps wireless networks - TechRadar
-  date: '2025-10-09'
+- slug: 2026-07-15-us-commerce-department-signals-upcoming-regulatory-action-on
+  title: US Commerce Department signals upcoming regulatory action on AI and chips - Crypto Briefing
+  date: '2026-07-15'
   kind: web
 neighbors: []
 ---

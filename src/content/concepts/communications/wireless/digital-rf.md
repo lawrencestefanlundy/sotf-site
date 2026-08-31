@@ -3,7 +3,9 @@ type: concept
 slug: digital-rf
 canonical_name: Digital RF
 aliases: []
-parent_concepts: []
+parent_concepts:
+- wireless
+- communications
 related_concepts: []
 sources: []
 auto_stub: true

@@ -3,7 +3,9 @@ type: concept
 slug: datacentre-power-shell
 canonical_name: Datacentre Power Shell
 aliases: []
-parent_concepts: []
+parent_concepts:
+- generation
+- energy-power
 related_concepts: []
 sources: []
 auto_stub: true

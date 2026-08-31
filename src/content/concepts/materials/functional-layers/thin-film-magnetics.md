@@ -3,7 +3,9 @@ type: concept
 slug: thin-film-magnetics
 canonical_name: Thin Film Magnetics
 aliases: []
-parent_concepts: []
+parent_concepts:
+- functional-layers
+- materials
 related_concepts: []
 sources: []
 auto_stub: true

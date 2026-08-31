@@ -23,10 +23,14 @@ last_reorg_date: '2026-05-14'
 descendants:
 - ar-glasses-stack
 - ar-optical-combiners
+- backlight-modules
 - displays
+- emissive-display
 - holographic-volumetric-displays
+- laser-beam-scanning
 - laser-display-light-engines
 - micro-leds
+- microled
 - oled
 sources_7d: 0
 sources_30d: 8

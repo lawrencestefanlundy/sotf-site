@@ -10,7 +10,9 @@ aliases:
 - PAD
 - injection attack detection
 - proof of liveness
-parent_concepts: []
+parent_concepts:
+- imaging
+- sensing
 related_concepts:
 - otoacoustic-emissions
 - ear-as-sensing-site

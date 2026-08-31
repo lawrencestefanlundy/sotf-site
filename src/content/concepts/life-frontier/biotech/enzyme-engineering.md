@@ -3,7 +3,9 @@ type: concept
 slug: enzyme-engineering
 canonical_name: Enzyme Engineering
 aliases: []
-parent_concepts: []
+parent_concepts:
+- biotech
+- life-frontier
 related_concepts: []
 sources: []
 auto_stub: true

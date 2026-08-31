@@ -3,7 +3,9 @@ type: concept
 slug: photonic-clock-oscillator
 canonical_name: Photonic Clock Oscillator
 aliases: []
-parent_concepts: []
+parent_concepts:
+- light-sources
+- photonic-systems
 related_concepts: []
 sources: []
 auto_stub: true

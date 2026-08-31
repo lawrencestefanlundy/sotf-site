@@ -25,9 +25,12 @@ tags:
 - auto-stub
 descendants:
 - agent-identity-kya
+- agentic-ai
 - agentic-payments
+- ai-orchestration
 - payment-mandates
 - stablecoin-clearing
+- stablecoins
 - x402
 mention_count: 76
 sources_7d: 0

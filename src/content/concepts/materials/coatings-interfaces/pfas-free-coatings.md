@@ -3,7 +3,9 @@ type: concept
 slug: pfas-free-coatings
 canonical_name: Pfas Free Coatings
 aliases: []
-parent_concepts: []
+parent_concepts:
+- coatings-interfaces
+- materials
 related_concepts: []
 sources: []
 auto_stub: true

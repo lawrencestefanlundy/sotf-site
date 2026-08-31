@@ -3,7 +3,9 @@ type: concept
 slug: rack-scale-interconnect
 canonical_name: Rack Scale Interconnect
 aliases: []
-parent_concepts: []
+parent_concepts:
+- optical-interconnect
+- communications
 related_concepts: []
 sources: []
 auto_stub: true

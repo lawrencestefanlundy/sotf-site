@@ -3,7 +3,9 @@ type: concept
 slug: photonic-eda
 canonical_name: Photonic Eda
 aliases: []
-parent_concepts: []
+parent_concepts:
+- pic-platforms
+- photonic-systems
 related_concepts: []
 sources: []
 auto_stub: true

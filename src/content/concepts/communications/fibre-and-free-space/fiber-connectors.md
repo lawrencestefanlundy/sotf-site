@@ -3,7 +3,9 @@ type: concept
 slug: fiber-connectors
 canonical_name: Fiber Connectors
 aliases: []
-parent_concepts: []
+parent_concepts:
+- fibre-and-free-space
+- communications
 related_concepts: []
 sources: []
 auto_stub: true

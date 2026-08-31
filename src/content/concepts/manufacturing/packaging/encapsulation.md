@@ -3,7 +3,9 @@ type: concept
 slug: encapsulation
 canonical_name: Encapsulation
 aliases: []
-parent_concepts: []
+parent_concepts:
+- packaging
+- manufacturing
 related_concepts: []
 sources:
 - '[[2025-02-25-data-driven-vc-is-over]]'

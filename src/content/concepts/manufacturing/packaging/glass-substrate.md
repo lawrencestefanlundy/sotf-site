@@ -3,7 +3,9 @@ type: concept
 slug: glass-substrate
 canonical_name: Glass Substrate
 aliases: []
-parent_concepts: []
+parent_concepts:
+- packaging
+- manufacturing
 related_concepts: []
 sources:
 - '[[2025-12-02-the-future-of-computing-is-glass]]'

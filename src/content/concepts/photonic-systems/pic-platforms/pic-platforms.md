@@ -3,7 +3,8 @@ type: concept
 slug: pic-platforms
 canonical_name: PIC Platforms
 aliases: []
-parent_concepts: []
+parent_concepts:
+- photonic-systems
 related_concepts: []
 sources: []
 auto_stub: true
@@ -19,6 +20,7 @@ descendants:
 - gaas-photonics
 - glass-photonics
 - heterogeneous-photonic-integration
+- hybrid-integration
 - inp-photonics
 - micro-transfer-printing
 - microwave-photonics
@@ -28,12 +30,14 @@ descendants:
 - optical-gyroscope
 - optoelectronic-oscillator
 - photodetector
+- photonic-eda
 - photonic-integrated-circuits
 - photonics
 - pic-packaging-stack
 - polymer-photonics
 - silicon-photonics
 - uni-traveling-carrier-photodiode
+- waveguides
 sources_7d: 0
 sources_30d: 0
 recent_mentions: []

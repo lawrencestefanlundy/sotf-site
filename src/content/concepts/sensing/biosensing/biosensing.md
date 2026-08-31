@@ -3,7 +3,8 @@ type: concept
 slug: biosensing
 canonical_name: Biosensing
 aliases: []
-parent_concepts: []
+parent_concepts:
+- sensing
 related_concepts: []
 sources:
 - '[[2023-07-23-analog-computing-the-once-and-future]]'
@@ -16,6 +17,8 @@ tags:
 - concept
 - auto-stub
 mention_count: 37
+descendants:
+- biosensors
 sources_7d: 0
 sources_30d: 3
 recent_mentions:

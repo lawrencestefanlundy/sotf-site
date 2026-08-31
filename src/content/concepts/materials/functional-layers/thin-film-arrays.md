@@ -3,7 +3,9 @@ type: concept
 slug: thin-film-arrays
 canonical_name: Thin Film Arrays
 aliases: []
-parent_concepts: []
+parent_concepts:
+- functional-layers
+- materials
 related_concepts: []
 sources: []
 auto_stub: true

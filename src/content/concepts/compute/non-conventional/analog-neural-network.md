@@ -3,7 +3,9 @@ type: concept
 slug: analog-neural-network
 canonical_name: Analog Neural Network
 aliases: []
-parent_concepts: []
+parent_concepts:
+- non-conventional
+- compute
 related_concepts: []
 sources:
 - '[[2023-07-23-analog-computing-the-once-and-future]]'

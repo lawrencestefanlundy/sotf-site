@@ -3,7 +3,8 @@ type: concept
 slug: ai-infrastructure
 canonical_name: AI Infrastructure
 aliases: []
-parent_concepts: []
+parent_concepts:
+- life-frontier
 related_concepts: []
 sources:
 - '[[2024-11-05-confidential-ai-the-dog-that-didnt]]'
@@ -53,6 +54,9 @@ descendants:
 - ai-infrastructure-scaling
 - ai-machine-learning
 - datacentre-cloud-infrastructure
+- digital-twin
+- gpu-virtualization
+- moe-all-to-all-collectives
 - prefill-vs-decode
 - sovereign-ai
 mention_count: 102

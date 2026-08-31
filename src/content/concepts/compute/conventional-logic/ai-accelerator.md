@@ -55,6 +55,18 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 3
 recent_mentions:
+- slug: 2026-08-29-us-commerce-department-moves-to-block-china-ai-firms-from-re
+  title: U.S. Commerce Department moves to block China AI firms from remote access to advanced chips - 디지털투데이
+  date: '2026-08-29'
+  kind: web
+- slug: 2026-08-27-ainews-hot-chips-openais-jalapeno-cerebras-cs-5-groq-3-lpx-a
+  title: '[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6'
+  date: '2026-08-27'
+  kind: web
+- slug: 2026-08-19-ainews-memory-prices-up-500-in-12-months
+  title: '[AINews] Memory prices up 500% in 12 months'
+  date: '2026-08-19'
+  kind: web
 - slug: 2026-08-12-snapdragon-ar1-sensing-hub-micro-npu
   title: Snapdragon AR1 Gen 1 Platform Product Brief — Sensing Hub with Micro NPU for audio and sensors
   date: '2026-08-12'
@@ -74,18 +86,6 @@ recent_mentions:
 - slug: 2026-08-03-perimeter-compute-wants-to-turn-spare-office-power-into-edge
   title: Perimeter Compute wants to turn spare office power into edge AI data centers - Latitude Media
   date: '2026-08-03'
-  kind: web
-- slug: 2026-08-03-the-inference-engineering-masterclass-philip-kiely-ali-taha-
-  title: The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten
-  date: '2026-08-03'
-  kind: web
-- slug: 2026-07-31-memory-fakes-and-thermodynamic-compute-chips-act-bets-874m-o
-  title: 'Memory, Fakes, and Thermodynamic Compute: CHIPS Act Bets $874M on Six AI Stack Gaps - Tech Times'
-  date: '2026-07-31'
-  kind: web
-- slug: 2026-07-31-trump-administration-unveils-874-million-chips-act-ai-push-w
-  title: Trump Administration Unveils $874 Million CHIPS Act AI Push, With GlobalFoundries Securing Top Award - TradingView
-  date: '2026-07-31'
   kind: web
 neighbors: []
 ---

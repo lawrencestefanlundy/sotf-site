@@ -25,6 +25,30 @@ scaffold: true
 tags:
 - concept
 mention_count: 96
+parent_concepts:
+- energy-power
+descendants:
+- cryogenic-cooling
+- cryogenics
+- diamond-heat-spreader
+- dilution-refrigerators
+- graphene-thermal-films
+- heat-pipes
+- immersion-cooling
+- liquid-cooling
+- liquid-cooling-datacentre
+- microfluidic-cooling
+- phase-change-materials
+- radiative-cooling
+- solid-state-cooling
+- thermal
+- thermal-interface-materials
+- thermal-management
+- thermal-stack-map
+- thermoelectric
+- tim-approach-map
+- two-phase-cooling
+- vapor-chambers
 sources_7d: 0
 sources_30d: 5
 recent_mentions:

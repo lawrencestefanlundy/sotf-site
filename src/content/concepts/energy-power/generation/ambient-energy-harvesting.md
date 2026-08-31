@@ -6,7 +6,9 @@ aliases:
 - ambient power
 - energy harvesting
 - battery-free electronics
-parent_concepts: []
+parent_concepts:
+- generation
+- energy-power
 related_concepts:
 - edge-compute
 sources:

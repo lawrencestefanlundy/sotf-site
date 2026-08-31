@@ -3,7 +3,9 @@ type: concept
 slug: image-sensors
 canonical_name: Image Sensors
 aliases: []
-parent_concepts: []
+parent_concepts:
+- imaging
+- sensing
 related_concepts: []
 sources:
 - '[[2026-08-12-snapdragon-ar1-sensing-hub-micro-npu]]'

@@ -3,7 +3,9 @@ type: concept
 slug: diamond-fet
 canonical_name: Diamond Fet
 aliases: []
-parent_concepts: []
+parent_concepts:
+- power-electronics
+- energy-power
 related_concepts: []
 sources: []
 auto_stub: true

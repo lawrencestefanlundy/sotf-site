@@ -3,7 +3,9 @@ type: concept
 slug: edge-inference
 canonical_name: Edge Inference
 aliases: []
-parent_concepts: []
+parent_concepts:
+- ai-edge
+- compute
 related_concepts: []
 sources:
 - '[[2024-11-05-confidential-ai-the-dog-that-didnt]]'

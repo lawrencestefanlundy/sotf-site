@@ -3,7 +3,9 @@ type: concept
 slug: semiconductor-materials
 canonical_name: Semiconductor Materials
 aliases: []
-parent_concepts: []
+parent_concepts:
+- advanced-materials
+- materials
 related_concepts: []
 sources: []
 auto_stub: true

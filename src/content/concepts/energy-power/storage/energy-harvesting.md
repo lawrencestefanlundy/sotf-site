@@ -34,15 +34,7 @@ scorecard:
 scorecard_status: draft
 sources_7d: 0
 sources_30d: 3
-recent_mentions:
-- slug: 2025-2026-european-next-gen-pv-cohort
-  title: European next-gen PV cohort 2025-2026, Dracula, SunXT/Solertix, Perovion, HyET Solaris, Sofab Inks, Coatema
-  date: '2026-06-01'
-  kind: web
-- slug: 2025-04-16-the-state-of-photonic-computing
-  title: 'Photonic Computing: A Primer'
-  date: '2025-04-16'
-  kind: substack
+recent_mentions: []
 neighbors: []
 ---
 **Energy harvesting converts ambient light, heat, vibration or radio waves into microwatts-to-milliwatts of electricity to run sensors without batteries; indoor printed photovoltaics and RF/backscatter links are already at production or testbed stage, while thermal and piezoelectric routes remain low-efficiency laboratory physics.**

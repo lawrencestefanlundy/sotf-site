@@ -23,6 +23,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 sources:
+- '[[2026-08-31-qcells-tandem-iec-ul-certification-tuv-rheinland]]'
 - '[[2025-2026-european-next-gen-pv-cohort]]'
 - '[[2024-09-05-oxford-pv-first-commercial-tandem-shipment]]'
 - '[[2025-04-18-longi-34-85-tandem-nrel-record]]'
@@ -35,8 +36,9 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 20
+mention_count: 102
+sources_7d: 2
+sources_30d: 22
 recent_mentions:
 - slug: 2026-08-31-qcells-tandem-iec-ul-certification-tuv-rheinland
   title: Qcells secures TUV Rheinland certification for perovskite-silicon tandem solar tech (pv magazine, 16 Jul 2026; pv-tech corroborating)

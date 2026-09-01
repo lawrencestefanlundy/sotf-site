@@ -3,7 +3,8 @@ type: concept
 slug: functional-layers
 canonical_name: Functional Layers
 aliases: []
-parent_concepts: []
+parent_concepts:
+- materials
 related_concepts: []
 sources: []
 auto_stub: true
@@ -18,6 +19,7 @@ descendants:
 - aluminum-nitride
 - barium-titanate
 - cadmium-telluride
+- conducting-polymers
 - ferroelectric-hfo2
 - hafnium-oxide
 - hafnium-oxide-photonic
@@ -29,6 +31,10 @@ descendants:
 - polymer-waveguides
 - pzt-piezoelectric-photonic
 - scandium-aluminum-nitride
+- thin-film-arrays
+- thin-film-magnetics
+- thin-film-stability
+- two-dimensional-electron-gas-2deg
 frontier:
 - What insertion loss per layer does the silicon-on-lithium-niobate GMR metasurface incur, and how many layers can be cascaded before throughput or wavefront fidelity collapses?
 - What drive voltage and modulation bandwidth accompany the reported resonance shift, and how do they trade against the Q >2000 operating point?

@@ -6,7 +6,19 @@ aliases: []
 parent_concepts:
 - ai-agents
 related_concepts: []
-sources: []
+sources:
+- '[[2026-06-23-semidoped-daily-update]]'
+- '[[2026-03-17-compute-specialisation-equilibrium-aws-rises-to-the-agentic]]'
+- '[[2025-06-slm-future-agentic-ai-nvidia]]'
+- '[[2026-07-26-postgres-absorption-vector-layer]]'
+- '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
+- '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
+- '[[2026-05-01-semianalysis-ai-value-capture-model-labs]]'
+- '[[2026-03-25-fog-computing-middleware-agentic-ai-rewriting-the-rules-of]]'
+- '[[2026-03-23-data-value-migrates-to-retrieval-layer-memory-is-the-new]]'
+- '[[2026-04-15-agentic-ai-foundation-linux]]'
+- '[[2026-02-05-semianalysis-claude-code-inflection]]'
+- '[[2026-06-02-agentic-runtime-silicon-necessity]]'
 scorecard:
   viability: 3
   drivers: 4
@@ -16,8 +28,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
+mention_count: 72
 sources_7d: 0
-sources_30d: 3
+sources_30d: 15
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)

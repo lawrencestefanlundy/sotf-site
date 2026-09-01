@@ -40,7 +40,15 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-mention_count: 1009
+mention_count: 1007
+descendants:
+- diffractive-deep-neural-network
+- free-space-photonics
+- microwave-photonics
+- mid-ir-photonics
+- optical-frequency-comb
+- optical-frequency-division
+- optoelectronic-oscillator
 sources_7d: 0
 sources_30d: 5
 recent_mentions:

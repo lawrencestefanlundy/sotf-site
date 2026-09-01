@@ -16,6 +16,7 @@ related_concepts:
 sources:
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2026-01-22-ai-chips-computeram-and-the-future]]'
+- '[[2025-08-12-scaling-the-memory-wall-the-rise-and-roadmap-of-hbm]]'
 scorecard:
   viability: 5
   drivers: 4
@@ -25,8 +26,12 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 0
+mention_count: 15
+descendants:
+- inference-economics
+- token-cost-stack
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
 - slug: 2026-07-31-positron-research-sprint
   title: 'Positron AI research sprint: architecture, funding, customers, manufacturing'

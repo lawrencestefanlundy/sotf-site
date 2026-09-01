@@ -3,7 +3,9 @@ type: concept
 slug: graphite
 canonical_name: Graphite
 aliases: []
-parent_concepts: []
+parent_concepts:
+- advanced-materials
+- materials
 related_concepts: []
 sources:
 - '[[2025-07-01-a-primer-carbon-nanotubes]]'

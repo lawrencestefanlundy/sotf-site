@@ -3,10 +3,21 @@ type: concept
 slug: carbon-capture
 canonical_name: Carbon Capture
 aliases: []
-parent_concepts: []
+parent_concepts:
+- energy-power
 related_concepts: []
 sources:
 - '[[2024-11-20-nuclear-fusion-the-state-of-play]]'
+- '[[2025-04-17-serving-data-center-load-with-carbon-capture---latitude-medi]]'
+- '[[2019-02-21-asu-nau-and-ut-austin-awarded-15m-from-doe-to-transform-ener]]'
+mention_count: 4
+descendants:
+- beccs
+- carbon
+- ccus
+- direct-air-capture
+- mineralisation
+- ocean-alkalinity
 sources_7d: 0
 sources_30d: 0
 recent_mentions:

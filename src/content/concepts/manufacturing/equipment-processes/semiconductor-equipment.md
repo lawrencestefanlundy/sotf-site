@@ -22,6 +22,12 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 70
+descendants:
+- automated-test-equipment
+- ion-implantation
+- known-good-die-test
+- probe-cards
+- wafer-level-burn-in
 sources_7d: 0
 sources_30d: 1
 recent_mentions:

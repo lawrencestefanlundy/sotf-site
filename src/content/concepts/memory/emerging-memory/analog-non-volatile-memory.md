@@ -3,7 +3,9 @@ type: concept
 slug: analog-non-volatile-memory
 canonical_name: Analog Non Volatile Memory
 aliases: []
-parent_concepts: []
+parent_concepts:
+- emerging-memory
+- memory
 related_concepts: []
 sources: []
 auto_stub: true

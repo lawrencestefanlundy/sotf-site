@@ -3,7 +3,9 @@ type: concept
 slug: rare-earth-magnets
 canonical_name: Rare Earth Magnets
 aliases: []
-parent_concepts: []
+parent_concepts:
+- advanced-materials
+- materials
 related_concepts: []
 sources:
 - '[[2025-07-21-critical-materials-supply-rare-earth-magnets-2026-2036]]'

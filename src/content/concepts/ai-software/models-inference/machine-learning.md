@@ -47,9 +47,14 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 0
+mention_count: 848
+sources_7d: 2
+sources_30d: 8
 recent_mentions:
+- slug: 2026-08-26-we-have-foundation-models-for-language-not-for-physics-anima
+  title: 🔬“We have foundation models for language, not for physics” — Anima Anandkumar, Bren Professor of Computing
+  date: '2026-08-26'
+  kind: web
 - slug: 2026-07-06-willdepue-stargate-for-data
   title: A Stargate for Data — will depue (OpenAI) on >$100B/year data spend by 2030
   date: '2026-07-06'
@@ -77,10 +82,6 @@ recent_mentions:
 - slug: 2024-11-05-confidential-ai-the-dog-that-didnt
   title: Confidential AI
   date: '2024-11-05'
-  kind: substack
-- slug: 2023-11-20-e21-can-we-make-enough-ai-chips
-  title: Can we make enough AI chips?
-  date: '2023-11-20'
   kind: substack
 neighbors:
 - slug: physics-ai

@@ -19,11 +19,7 @@ tags:
 mention_count: 19
 sources_7d: 1
 sources_30d: 3
-recent_mentions:
-- slug: 2026-05-30-intel-optoscribe-acquisition
-  title: Intel Acquires Optoscribe (3D glass photonics, Livingston, Scotland)
-  date: '2022-01-27'
-  kind: web
+recent_mentions: []
 neighbors: []
 ---
 > Renamed 13 Jun 2026 to kill a naming collision. "Lunar" here was being read two ways: the **Moon** (this page's original subject) and **Lunar Ventures** (the VC fund). To stop future sessions conflating them, the content moved.

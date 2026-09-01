@@ -3,7 +3,9 @@ type: concept
 slug: post-quantum-cryptography
 canonical_name: Post Quantum Cryptography
 aliases: []
-parent_concepts: []
+parent_concepts:
+- trust
+- life-frontier
 related_concepts: []
 sources: []
 auto_stub: true

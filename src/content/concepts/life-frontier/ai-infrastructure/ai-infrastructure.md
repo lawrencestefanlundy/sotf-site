@@ -54,6 +54,16 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 102
+descendants:
+- ai-grade-datacentre-real-estate
+- ai-infrastructure-scaling
+- ai-machine-learning
+- datacentre-cloud-infrastructure
+- digital-twin
+- gpu-virtualization
+- moe-all-to-all-collectives
+- prefill-vs-decode
+- sovereign-ai
 sources_7d: 0
 sources_30d: 8
 recent_mentions:

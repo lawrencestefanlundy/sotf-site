@@ -3,7 +3,9 @@ type: concept
 slug: radiation-shielding
 canonical_name: Radiation Shielding
 aliases: []
-parent_concepts: []
+parent_concepts:
+- in-orbit
+- life-frontier
 related_concepts: []
 sources: []
 auto_stub: true

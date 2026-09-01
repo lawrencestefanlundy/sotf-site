@@ -3,7 +3,9 @@ type: concept
 slug: microgravity-manufacturing
 canonical_name: Microgravity Manufacturing
 aliases: []
-parent_concepts: []
+parent_concepts:
+- in-orbit
+- life-frontier
 related_concepts: []
 sources: []
 auto_stub: true

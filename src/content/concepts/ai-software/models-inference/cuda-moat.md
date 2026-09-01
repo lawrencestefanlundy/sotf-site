@@ -7,22 +7,6 @@ related_concepts: []
 sources:
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2026-01-22-ai-chips-computeram-and-the-future]]'
-- '[[2023-10-16-nvidia-ceo-jensen-huang]]'
-- '[[2025-11-26-orca-computing-37m-series-b]]'
-- '[[2026-08-05-stealthium-gpu-powered-security-intelligence-site-docs-compe]]'
-- '[[2026-07-31-etched-research-sprint]]'
-- '[[2026-03-16-nvidia-vera-rubin-platform]]'
-- '[[2026-06-09-semianalysis-deepseek-v4-inference]]'
-- '[[2026-05-01-semianalysis-ai-value-capture-model-labs]]'
-- '[[2023-09-06-nvidia-part-iii-the-dawn-of-the-ai-era-2022-2023]]'
-- '[[2026-03-15-compute-specialisation-equilibrium-towards-cold-start]]'
-- '[[2025-07-23-nvidia-cuda-on-risc-v]]'
-- '[[2026-06-22-llm-kernel-compiler-synthesis-evidence]]'
-- '[[2025-11-20-compute-specialisation-equilibrium-qimeng-kernel-macro]]'
-- '[[2026-03-31-semianalysis-nvidia-blackwell-dissection]]'
-- '[[2026-02-23-specialisation-beats-generality-custom-silicon-inflection]]'
-- '[[2026-05-26-specialisation-beats-generality-custom-ai-chips-outpace]]'
-- '[[2026-02-21-specialisation-beats-generality-nvidia-ai-gpu-market-share]]'
 frontier:
 - Do cold-start drafting plus continual refinement approaches close the 92%-to-14% CUDA/Ascend C gap, and how much target-specific human-authored kernel data does that still require?
 - Can KForge-style synthesis for diverse accelerators (Metal, OpenCL) reach expert performance on hard kernels such as Flash Attention and FP16 matmul, where automated CUDA generation still hits only 9% and 52% of expert performance?
@@ -33,7 +17,7 @@ last_updated: '2026-08-31'
 scaffold: true
 tags:
 - concept
-mention_count: 56
+mention_count: 3
 descendants:
 - ai-compiler-landscape
 - iree
@@ -52,7 +36,7 @@ scorecard:
   verdict: Underrated
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 3
+sources_30d: 0
 recent_mentions:
 - slug: 2026-08-05-stealthium-gpu-powered-security-intelligence-site-docs-compe
   title: Stealthium — GPU-Powered Security Intelligence (site + docs + competitive context)

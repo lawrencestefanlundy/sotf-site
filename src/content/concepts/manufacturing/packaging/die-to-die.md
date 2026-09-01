@@ -3,7 +3,9 @@ type: concept
 slug: die-to-die
 canonical_name: Die to Die
 aliases: []
-parent_concepts: []
+parent_concepts:
+- packaging
+- manufacturing
 related_concepts: []
 sources: []
 auto_stub: true

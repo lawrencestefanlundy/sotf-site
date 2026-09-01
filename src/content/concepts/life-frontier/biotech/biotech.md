@@ -3,7 +3,8 @@ type: concept
 slug: biotech
 canonical_name: Biotech
 aliases: []
-parent_concepts: []
+parent_concepts:
+- life-frontier
 related_concepts: []
 sources:
 - '[[2023-06-15-e04-no10-downing-street-and-vector]]'
@@ -18,6 +19,7 @@ mention_count: 30
 descendants:
 - 3d-bioprinting-platforms
 - 3d-printed-bioscaffolds
+- biocatalysis
 - biocatalysis-enzyme-engineering
 - biocompatible-polymers
 - biomaterials
@@ -26,10 +28,13 @@ descendants:
 - crispr-gene-editing
 - dna-synthesis
 - drug-delivery-substrates
+- enzyme-engineering
 - health-care-equipment
 - hydrogels
 - life-sciences-tools-services
+- organoids
 - polyoxazoline-bioink
+- proteomics
 - single-cell-sequencing
 - spatial-transcriptomics
 - synbio
@@ -51,7 +56,7 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 3
+sources_7d: 2
 sources_30d: 5
 recent_mentions:
 - slug: 2025-11-05-consensus-capital

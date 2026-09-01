@@ -38,6 +38,29 @@ scorecard:
   verdict: Underrated
 scorecard_status: draft
 mention_count: 97
+descendants:
+- ai-thermal-management
+- cryogenic-cooling
+- cryogenics
+- diamond-heat-spreader
+- dilution-refrigerators
+- graphene-thermal-films
+- heat-pipes
+- immersion-cooling
+- liquid-cooling
+- liquid-cooling-datacentre
+- microfluidic-cooling
+- phase-change-materials
+- radiative-cooling
+- solid-state-cooling
+- thermal
+- thermal-interface-materials
+- thermal-management
+- thermal-stack-map
+- thermoelectric
+- tim-approach-map
+- two-phase-cooling
+- vapor-chambers
 sources_7d: 1
 sources_30d: 6
 recent_mentions:

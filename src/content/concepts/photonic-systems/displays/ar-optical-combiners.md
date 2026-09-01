@@ -36,7 +36,7 @@ scorecard:
   verdict: Too early to say
 scorecard_status: draft
 mention_count: 250
-sources_7d: 1
+sources_7d: 0
 sources_30d: 12
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026

@@ -3,7 +3,9 @@ type: concept
 slug: hardware-software-co-design
 canonical_name: Hardware Software Co Design
 aliases: []
-parent_concepts: []
+parent_concepts:
+- compute-architecture
+- compute
 related_concepts: []
 sources: []
 auto_stub: true

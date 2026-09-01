@@ -31,6 +31,13 @@ scorecard:
   verdict: Too early to say
 scorecard_status: draft
 mention_count: 101
+descendants:
+- diffractive-deep-neural-network
+- diffractive-deep-neural-networks
+- optical-neural-networks
+- photonic-compute
+- photonic-compute-memory
+- photonic-tensor-cores
 sources_7d: 0
 sources_30d: 9
 recent_mentions:

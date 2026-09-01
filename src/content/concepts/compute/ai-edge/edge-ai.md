@@ -16,6 +16,18 @@ sources:
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
+- '[[2026-06-18-low-power-edge-compute-tinyml-ai-chipset-shipments-to-top-4]]'
+- '[[2026-06-17-femtoai-company-profile]]'
+- '[[2025-05-13-low-power-edge-compute-edge-ai-accelerator-market-research]]'
+- '[[2026-06-18-sensifai-hybrids-deck]]'
+- '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
+- '[[2024-02-26-micron-hbm3e-volume-production]]'
+- '[[2024-yole-advanced-packaging-2024]]'
+- '[[2025-10-15-low-power-edge-compute-neuromorphic-hardware-market-size]]'
+- '[[2026-06-15-gf-investor-day-2026]]'
+- '[[2026-06-17-femtoai-spu-ces2026]]'
+- '[[2026-08-03-perimeter-compute-wants-to-turn-spare-office-power-into-edge]]'
+- '[[2026-07-10-edge-buyer-kpi-sweep]]'
 scorecard:
   viability: 4
   drivers: 4
@@ -25,8 +37,12 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 2
+mention_count: 81
+descendants:
+- hearing-aid-silicon-beachhead
+- nvidia-jetson
+sources_7d: 2
+sources_30d: 6
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)

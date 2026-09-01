@@ -3,7 +3,9 @@ type: concept
 slug: diffractive-optics
 canonical_name: Diffractive Optics
 aliases: []
-parent_concepts: []
+parent_concepts:
+- metasurfaces-flat-optics
+- photonic-systems
 related_concepts: []
 sources: []
 auto_stub: true

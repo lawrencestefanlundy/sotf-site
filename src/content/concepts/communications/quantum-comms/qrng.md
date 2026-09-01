@@ -3,7 +3,9 @@ type: concept
 slug: qrng
 canonical_name: Qrng
 aliases: []
-parent_concepts: []
+parent_concepts:
+- quantum-comms
+- communications
 related_concepts: []
 sources:
 - '[[2026-08-03-spad-single-photon-market-scan]]'
@@ -12,7 +14,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 21
+mention_count: 22
 frontier:
 - What certified bit rate per second, not per round, does the integrated contextuality QRNG achieve, and does the 0.077 bits-per-round min-entropy scale with mesh size or qutrit dimension 2026 06 07 on chip semi device independent quantum random number genera?
 - 'Can the SPOQC CV-QRNG certified yield be raised above the ~2% of raw key achieved per pass, and what specifically limits it: ADC resolution, min-entropy bounding conservatism, or extractor overhead 2026 08 11 quantum random number generation from the continuous variabl?'

@@ -3,7 +3,9 @@ type: concept
 slug: iec-61215-qualification
 canonical_name: Iec 61215 Qualification
 aliases: []
-parent_concepts: []
+parent_concepts:
+- generation
+- energy-power
 related_concepts: []
 sources: []
 auto_stub: true

@@ -3,7 +3,9 @@ type: concept
 slug: immersion-cooling
 canonical_name: Immersion Cooling
 aliases: []
-parent_concepts: []
+parent_concepts:
+- thermal-management
+- energy-power
 related_concepts: []
 sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'

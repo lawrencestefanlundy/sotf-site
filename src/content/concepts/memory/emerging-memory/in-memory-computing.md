@@ -33,6 +33,14 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 54
+descendants:
+- adc-bottleneck
+- analog-in-memory-compute
+- capram
+- charge-domain-compute
+- digital-in-memory-compute
+- processing-in-memory
+- sram-cim
 sources_7d: 0
 sources_30d: 4
 recent_mentions:

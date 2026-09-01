@@ -3,7 +3,9 @@ type: concept
 slug: swir-imaging
 canonical_name: Swir Imaging
 aliases: []
-parent_concepts: []
+parent_concepts:
+- imaging
+- sensing
 related_concepts: []
 sources: []
 auto_stub: true

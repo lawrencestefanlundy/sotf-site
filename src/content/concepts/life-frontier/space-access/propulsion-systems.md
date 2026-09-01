@@ -3,7 +3,9 @@ type: concept
 slug: propulsion-systems
 canonical_name: Propulsion Systems
 aliases: []
-parent_concepts: []
+parent_concepts:
+- space-access
+- life-frontier
 related_concepts: []
 sources: []
 auto_stub: true

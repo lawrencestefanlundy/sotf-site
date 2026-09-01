@@ -31,7 +31,12 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 185
+mention_count: 182
+descendants:
+- 3d-monolithic-integration
+- heterogeneous-integration
+- micro-transfer-printing
+- osat
 sources_7d: 2
 sources_30d: 7
 recent_mentions:

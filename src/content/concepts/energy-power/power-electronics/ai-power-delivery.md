@@ -3,7 +3,9 @@ type: concept
 slug: ai-power-delivery
 canonical_name: AI Power Delivery
 aliases: []
-parent_concepts: []
+parent_concepts:
+- power-electronics
+- energy-power
 related_concepts: []
 sources:
 - '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'

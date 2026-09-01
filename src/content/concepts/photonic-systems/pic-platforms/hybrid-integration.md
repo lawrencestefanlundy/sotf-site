@@ -3,7 +3,9 @@ type: concept
 slug: hybrid-integration
 canonical_name: Hybrid Integration
 aliases: []
-parent_concepts: []
+parent_concepts:
+- pic-platforms
+- photonic-systems
 related_concepts: []
 sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'

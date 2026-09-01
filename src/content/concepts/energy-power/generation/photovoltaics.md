@@ -3,17 +3,20 @@ type: concept
 slug: photovoltaics
 canonical_name: Photovoltaics
 aliases: []
-parent_concepts: []
+parent_concepts:
+- generation
+- energy-power
 related_concepts: []
 sources:
 - '[[2024-10-29-deploy-intelligence-too-cheap-to]]'
+- '[[2026-08-31-qcells-tandem-iec-ul-certification-tuv-rheinland]]'
 - '[[2025-06-25-meyer-burger-insolvency-europe]]'
 auto_stub: true
 last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 36
+mention_count: 38
 frontier:
 - 'If bulk point-defect Shockley-Read-Hall recombination cannot explain the efficiency limits of trigonal selenium cells 2026 06 16 defect tolerance in trigonal selenium photovoltaics, what does: interfaces, contacts, grain boundaries or transport?'
 - Can the deep-level defects and mixed cation valences in solution-deposited Bi2FeCrO6 and Bi2MnCrO6 films be suppressed enough to yield a working cell, and what open-circuit voltage does that give 2026 05 06 beyond lead halide perovskites visible light photovoltaics w?
@@ -33,8 +36,8 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 2
+sources_7d: 1
+sources_30d: 3
 recent_mentions:
 - slug: 2026-08-31-qcells-tandem-iec-ul-certification-tuv-rheinland
   title: Qcells secures TUV Rheinland certification for perovskite-silicon tandem solar tech (pv magazine, 16 Jul 2026; pv-tech corroborating)

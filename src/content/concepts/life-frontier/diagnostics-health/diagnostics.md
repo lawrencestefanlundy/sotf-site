@@ -52,9 +52,9 @@ recent_mentions:
   title: '🔮E08: Optical Computing'
   date: '2023-07-14'
   kind: substack
-- slug: 2022-01-13-ucf-researcher-leads-15-million-darpa-project-to-improve-nig
-  title: UCF Researcher Leads $1.5 Million DARPA Project to Improve Night Vision, Space Exploration and Healthcare Diagnostics - University of Central Florida
-  date: '2022-01-13'
+- slug: 2015-12-14-darpa-sbir-injectable-diagnostics-chemical-sensors-synthetic
+  title: 'DARPA SBIR: Injectable Diagnostics, Chemical Sensors, Synthetic Biology - Global Biodefense'
+  date: '2015-12-14'
   kind: web
 neighbors: []
 ---

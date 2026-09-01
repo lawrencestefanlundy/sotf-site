@@ -12,6 +12,12 @@ sources:
 - '[[2025-10-09-a-specific-theory-of-sovereign-ai]]'
 - '[[2025-01-15-the-end-of-zero-marginal-costs-the]]'
 - '[[2025-05-15-young-people-cant-get-jobs-now-what]]'
+- '[[2026-05-06-data-value-migrates-to-retrieval-layer-google-cloud-next]]'
+- '[[2026-08-05-stealthium-gpu-powered-security-intelligence-site-docs-compe]]'
+- '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
+- '[[2026-07-26-seat-pricing-regime-break]]'
+- '[[2026-06-18-aeon-verification]]'
+- '[[2026-05-28-semianalysis-finding-miscompiles]]'
 scorecard:
   viability: 3
   drivers: 4
@@ -21,8 +27,18 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
+mention_count: 76
+descendants:
+- agent-identity-kya
+- agentic-ai
+- agentic-payments
+- ai-orchestration
+- payment-mandates
+- stablecoin-clearing
+- stablecoins
+- x402
 sources_7d: 0
-sources_30d: 2
+sources_30d: 15
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)

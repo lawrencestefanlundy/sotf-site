@@ -29,7 +29,7 @@ scorecard:
   verdict: Too early to say
 scorecard_status: draft
 mention_count: 253
-sources_7d: 3
+sources_7d: 1
 sources_30d: 21
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026

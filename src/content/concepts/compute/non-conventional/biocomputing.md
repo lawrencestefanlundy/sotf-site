@@ -18,8 +18,8 @@ sources:
 - '[[2026-06-04-bezos-flourish-brain-core-algorithm]]'
 - '[[2025-statnews-biocomputing-backlash]]'
 - '[[2024-nsf-efri-begin-organoid-intelligence]]'
-- '[[2025-iea-datacentre-electricity]]'
 - '[[2026-08-31-tbc-neurally-optimised-video-model]]'
+- '[[2025-iea-datacentre-electricity]]'
 frontier:
 - Vascularisation / scale — can organoids exceed ~500 µm and ~100k cells with viable interior? (the consensus gating blocker)
 - Reproducible, durable training — has anyone shown a learned task that holds and transfers, beyond classification of which electrode fired?
@@ -30,7 +30,7 @@ last_updated: '2026-06-03'
 tags:
 - concept
 - technology
-mention_count: 15
+mention_count: 16
 sources_7d: 1
 sources_30d: 1
 recent_mentions:

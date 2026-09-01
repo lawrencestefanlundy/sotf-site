@@ -3,7 +3,9 @@ type: concept
 slug: pumped-hydro
 canonical_name: Pumped Hydro
 aliases: []
-parent_concepts: []
+parent_concepts:
+- storage
+- energy-power
 related_concepts: []
 sources:
 - '[[2024-11-12-atomic-energy-can-nuclear-power-our]]'

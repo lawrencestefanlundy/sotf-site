@@ -5,5 +5,5 @@ external_url: https://stateofthefuture.substack.com/p/has-the-time-come-to-take-
 format: Essay
 topics:
 - Compute
-- Comms
+- Energy
 ---

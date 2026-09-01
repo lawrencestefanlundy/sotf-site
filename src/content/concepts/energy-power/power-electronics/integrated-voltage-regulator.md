@@ -3,7 +3,9 @@ type: concept
 slug: integrated-voltage-regulator
 canonical_name: Integrated Voltage Regulator
 aliases: []
-parent_concepts: []
+parent_concepts:
+- power-electronics
+- energy-power
 related_concepts: []
 sources: []
 auto_stub: true

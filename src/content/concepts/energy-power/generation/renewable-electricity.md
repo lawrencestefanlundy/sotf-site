@@ -19,6 +19,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
+mention_count: 82
 sources_7d: 0
 sources_30d: 0
 recent_mentions:

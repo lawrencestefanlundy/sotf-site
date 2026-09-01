@@ -3,9 +3,12 @@ type: concept
 slug: rfic
 canonical_name: Rfic
 aliases: []
-parent_concepts: []
+parent_concepts:
+- wireless
+- communications
 related_concepts: []
 sources: []
+mention_count: 7
 sources_7d: 0
 sources_30d: 0
 recent_mentions: []

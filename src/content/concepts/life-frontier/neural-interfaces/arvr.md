@@ -23,6 +23,9 @@ scorecard:
   verdict: ''
 scorecard_status: draft
 mention_count: 33
+descendants:
+- ar-glasses-stack
+- ar-optical-combiners
 sources_7d: 0
 sources_30d: 4
 recent_mentions:

@@ -3,7 +3,9 @@ type: concept
 slug: single-crystal-diamond
 canonical_name: Single Crystal Diamond
 aliases: []
-parent_concepts: []
+parent_concepts:
+- substrates
+- materials
 related_concepts: []
 sources: []
 auto_stub: true

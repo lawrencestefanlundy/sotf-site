@@ -15,9 +15,16 @@ related_concepts:
 - stochastic-ising-machines
 - analog-computing
 - neuromorphic-computing
-sources: []
+sources:
+- '[[2025-07-14-solving-compute-crisis-physics-based-asics]]'
+- '[[2024-10-28-aria-scaling-compute-normal-computing]]'
+- '[[2025-08-12-normal-computing-cn101-tape-out]]'
+- '[[2023-02-13-thermodynamic-ai-fluctuation-frontier]]'
+- '[[2024-01-23-normal-computing-first-thermodynamic-computer]]'
+- '[[2025-04-15-nature-comm-thermodynamic-computing-system]]'
+mention_count: 10
 sources_7d: 0
-sources_30d: 0
+sources_30d: 1
 recent_mentions:
 - slug: 2026-07-25-thoughts-on-ai-and-power
   title: Thoughts on AI and power

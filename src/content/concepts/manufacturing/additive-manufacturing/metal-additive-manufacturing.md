@@ -3,7 +3,9 @@ type: concept
 slug: metal-additive-manufacturing
 canonical_name: Metal Additive Manufacturing
 aliases: []
-parent_concepts: []
+parent_concepts:
+- additive-manufacturing
+- manufacturing
 related_concepts: []
 sources:
 - '[[2022-05-09-elementum-funded-by-darpa-to-develop-am-process-for-rhenium-]]'

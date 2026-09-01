@@ -38,6 +38,8 @@ scorecard:
   verdict: Too early to say
 scorecard_status: draft
 mention_count: 23
+descendants:
+- all-optical-switching
 sources_7d: 0
 sources_30d: 1
 recent_mentions:

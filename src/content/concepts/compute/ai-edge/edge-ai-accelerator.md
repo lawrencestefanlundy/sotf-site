@@ -3,7 +3,9 @@ type: concept
 slug: edge-ai-accelerator
 canonical_name: Edge AI Accelerator
 aliases: []
-parent_concepts: []
+parent_concepts:
+- ai-edge
+- compute
 related_concepts: []
 sources:
 - '[[2026-06-17-femtoai-company-profile]]'

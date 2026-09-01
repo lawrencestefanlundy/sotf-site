@@ -19,6 +19,19 @@ related_concepts:
 - optical-interconnect
 sources:
 - '[[2025-04-16-the-state-of-photonic-computing]]'
+- '[[2026-06-23-semidoped-daily-update]]'
+- '[[2026-06-01-hbm-state-of-play]]'
+- '[[2026-03-17-compute-specialisation-equilibrium-aws-rises-to-the-agentic]]'
+- '[[2026-03-11-ai-power-thermal-binding-direct-to-chip-liquid-cooling]]'
+- '[[2026-07-10-workload-phase-silicon-sweep]]'
+- '[[2026-07-05-semianalysis-kyber-nvl144-delayed-2028]]'
+- '[[2026-03-16-nvidia-vera-rubin-platform]]'
+- '[[2026-06-30-compute-specialisation-equilibrium-deepseek-s-dspark-just]]'
+- '[[2026-03-03-ai-power-thermal-binding-nvidia-vera-rubin-and-feynman]]'
+- '[[2026-openai-titan-custom-chip]]'
+- '[[2026-07-13-sk-hynix-record-fall-hbm4-three-supplier]]'
+- '[[2026-03-19-compute-specialisation-equilibrium-how-nvidia-s-20-billion]]'
+- '[[2026-stargate-expansion-7gw]]'
 scorecard:
   viability: 4
   drivers: 4
@@ -28,8 +41,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
+mention_count: 38
 sources_7d: 0
-sources_30d: 0
+sources_30d: 4
 recent_mentions:
 - slug: 2026-07-13-sk-hynix-record-fall-hbm4-three-supplier
   title: SK Hynix record one-day fall as HBM4 goes three-supplier

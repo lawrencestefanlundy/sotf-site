@@ -10,6 +10,7 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2024-12-16-willow-and-the-race-to-quantum-advantage]]'
+- '[[2026-06-08-quantum-roadmap-funded-not-demand-funded-quantum-computing]]'
 scorecard:
   viability: null
   drivers: null
@@ -19,8 +20,9 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
+mention_count: 31
 sources_7d: 0
-sources_30d: 4
+sources_30d: 7
 recent_mentions:
 - slug: 2026-06-08-quantum-roadmap-funded-not-demand-funded-quantum-computing
   title: Quantum Computing Startup Funding 2025-2026 – New Market Pitch

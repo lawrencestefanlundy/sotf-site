@@ -3,7 +3,8 @@ type: concept
 slug: light-sources
 canonical_name: Light Sources
 aliases: []
-parent_concepts: []
+parent_concepts:
+- photonic-systems
 related_concepts: []
 sources:
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
@@ -20,7 +21,9 @@ descendants:
 - frequency-combs
 - laser-display-light-engines
 - lasers
+- photonic-clock-oscillator
 - quantum-cascade-lasers
+- semiconductor-optical-amplifier
 - single-photon-sources
 - vcsels
 mention_count: 73

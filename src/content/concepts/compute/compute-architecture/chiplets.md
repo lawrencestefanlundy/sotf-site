@@ -21,6 +21,18 @@ sources:
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
+- '[[2026-03-02-chiplets-architecture-share-rebellions-rebel-100-industry-s]]'
+- '[[2026-06-22-beyond-cmos-device-layer-research]]'
+- '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
+- '[[2026-03-05-chiplets-architecture-share-chiplet-summit-2026-ucie]]'
+- '[[2026-07-02-semianalysis-ectc2026-advanced-packaging]]'
+- '[[2024-yole-advanced-packaging-2024]]'
+- '[[2025-12-31-chiplets-architecture-share-chiplet-market-size-share]]'
+- '[[2026-05-30-intel-glass-substrates-program]]'
+- '[[2026-05-28-europes-semiconductor-strategy-chiplets-ecosystem-integratio]]'
+- '[[2026-04-15-semianalysis-isscc-2026]]'
+- '[[2024-tsmc-cowos-roadmap-disclosure]]'
+- '[[2026-03-31-semianalysis-nvidia-blackwell-dissection]]'
 scorecard:
   viability: 4
   drivers: 4
@@ -30,8 +42,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
+mention_count: 104
 sources_7d: 0
-sources_30d: 1
+sources_30d: 2
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)

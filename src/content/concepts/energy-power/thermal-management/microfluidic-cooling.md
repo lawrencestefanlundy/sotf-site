@@ -3,7 +3,9 @@ type: concept
 slug: microfluidic-cooling
 canonical_name: Microfluidic Cooling
 aliases: []
-parent_concepts: []
+parent_concepts:
+- thermal-management
+- energy-power
 related_concepts: []
 sources:
 - '[[2025-12-16-datacentre-thermal-power-market-boston-materials-liquid]]'

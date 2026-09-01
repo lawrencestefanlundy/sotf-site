@@ -10,7 +10,31 @@ parent_concepts:
 - communications
 - wireless
 related_concepts: []
-sources: []
+sources:
+- '[[2008-07-04-dect-forum-invites-designs-for-cat-iq-design-competition---t]]'
+- '[[2025-08-29-from-smart-cities-to-pro-audio-dect-nr-and-its-potential-for]]'
+- '[[2026-03-10-nr-plus-interop-demo-light-building]]'
+- '[[2024-02-21-how-dect-nr-revolutionizes-smart-building-connectivity---ee-]]'
+- '[[2024-02-26-nordic-nrf9151-a-smaller-lte-mnb-iot-and-dect-nr-sip-with-en]]'
+- '[[2024-06-03-conexio-stratus-pro-a-battery-powered-nrf9161-development-ki]]'
+- '[[2024-01-15-nordics-nrf9161-sip-and-dk-add-additional-lte-bands-and-redu]]'
+- '[[2024-05-07-vitec-and-rfmondial-showcase-ultra-low-latency-video-streami]]'
+- '[[2026-06-12-dect-nr-demystified---sennheiser]]'
+- '[[2024-01-29-nordics-nrf9161-sip-and-dk-support-cellular-iot-and-dect-nr-]]'
+- '[[2026-05-07-stratum-9-launches-first-industrial-grade-dect-nr-gateway---]]'
+- '[[2024-11-15-conexio-stratus-pro-nrf9151-low-power-iot-development-kit-su]]'
+- '[[2026-08-27-opener-is-an-open-source-reference-implementation-of-the-dec]]'
+- '[[2026-04-01-non-cellular-5g-for-pro-av-dect-nr---avnetwork]]'
+- '[[2026-08-21-dect-nr-gateway-brings-deterministic-wireless-to-industrial-]]'
+- '[[2024-02-28-distributech-2024-nordic-semiconductor-unveils-the-power-of-]]'
+- '[[2025-11-03-sennheiser-experts-to-explore-dect-nr-opportunities-at-dect-]]'
+- '[[2023-08-16-the-first-non-cellular-5g-standard-dect-nr---5g-technology-w]]'
+- '[[2025-10-23-merci-project-takes-dect-nr-from-vision-to-reality---sennhei]]'
+- '[[2026-03-24-dect-nr-a-wireless-solution-for-real-time-audio---audioxpres]]'
+- '[[2025-11-04-sennheiser-promotes-dect-nr-next-generation-wireless-technol]]'
+- '[[2025-12-15-coming-soon-to-pro-av-dect-nr---avnetwork]]'
+- '[[2023-06-22-single-ic-for-cellular-iot-and-dect-nr-includes-rf-front-end]]'
+- '[[2026-07-09-norik-systems-introduces-nrf9151-based-usb-dongle-for-dect-n]]'
 scorecard:
   viability: 3
   drivers: 2
@@ -20,9 +44,18 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 0
+mention_count: 28
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
+- slug: 2026-08-27-opener-is-an-open-source-reference-implementation-of-the-dec
+  title: Opener is an open-source reference implementation of the DECT NR+ massive IoT, low-latency standard - CNX Software
+  date: '2026-08-27'
+  kind: web
+- slug: 2026-08-21-dect-nr-gateway-brings-deterministic-wireless-to-industrial-
+  title: DECT NR+ gateway brings deterministic wireless to industrial automation - eeNews Europe
+  date: '2026-08-21'
+  kind: web
 - slug: 2026-07-09-norik-systems-introduces-nrf9151-based-usb-dongle-for-dect-n
   title: Norik Systems introduces nRF9151-based USB Dongle for DECT NR+ deployments - CNX Software
   date: '2026-07-09'
@@ -46,14 +79,6 @@ recent_mentions:
 - slug: 2026-03-10-nr-plus-interop-demo-light-building
   title: Legrand and Schneider Electric demonstrate world's first NR+ interoperability demo for smart buildings
   date: '2026-03-10'
-  kind: web
-- slug: 2025-12-15-coming-soon-to-pro-av-dect-nr---avnetwork
-  title: 'Coming Soon to Pro AV: DECT NR+ - AVNetwork'
-  date: '2025-12-15'
-  kind: web
-- slug: 2025-11-04-sennheiser-promotes-dect-nr-next-generation-wireless-technol
-  title: Sennheiser Promotes DECT NR+ Next-Generation Wireless Technology at DECT World 2025 - audioXpress
-  date: '2025-11-04'
   kind: web
 neighbors: []
 ---

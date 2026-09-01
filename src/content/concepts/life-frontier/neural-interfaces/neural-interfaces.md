@@ -3,7 +3,8 @@ type: concept
 slug: neural-interfaces
 canonical_name: Neural Interfaces
 aliases: []
-parent_concepts: []
+parent_concepts:
+- life-frontier
 related_concepts: []
 sources:
 - '[[2023-09-18-e15-in-conversation-with-wisear-on]]'
@@ -24,6 +25,8 @@ descendants:
 - connectomics
 - hearables-silent-speech
 - invasive-bci
+- microelectrode-arrays
+- neural-electrodes
 - non-invasive-bci
 - non-invasive-neural-recording-modalities
 mention_count: 11

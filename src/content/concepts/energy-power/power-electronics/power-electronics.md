@@ -29,6 +29,22 @@ scorecard:
   verdict: Underrated
 scorecard_status: draft
 mention_count: 61
+descendants:
+- ai-power-delivery
+- aluminium-gallium-nitride
+- diamond-fet
+- electric-motors-drives
+- gallium-nitride
+- gan-on-si
+- gw-scale-power-delivery
+- indium-gallium-nitride
+- integrated-voltage-regulator
+- power
+- power-electronics
+- power-management-ic
+- solid-state-circuit-breakers
+- vertical-gan
+- wireless-power-transfer
 sources_7d: 1
 sources_30d: 6
 recent_mentions:

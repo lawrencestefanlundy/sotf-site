@@ -16,6 +16,9 @@ frontier:
 - How does total acquisition time for a compressive single-pixel spectrometer compare with a noisy multi-pixel mid-infrared array at equal signal-to-noise ratio?
 - What instantaneous bandwidth, channel count, and dynamic range does frequency-modulated local oscillator multiplexing deliver in a Rydberg receiver, and does sensitivity per channel fall relative to single-channel operation?
 - Do compressive reconstructions remain reliable for dense or non-sparse spectra, and what sparsity threshold marks failure in each architecture?
+parent_concepts:
+- imaging
+- sensing
 sources_7d: 0
 sources_30d: 0
 recent_mentions: []

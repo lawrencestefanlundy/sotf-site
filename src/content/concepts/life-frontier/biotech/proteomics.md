@@ -3,7 +3,9 @@ type: concept
 slug: proteomics
 canonical_name: Proteomics
 aliases: []
-parent_concepts: []
+parent_concepts:
+- biotech
+- life-frontier
 related_concepts: []
 sources: []
 auto_stub: true

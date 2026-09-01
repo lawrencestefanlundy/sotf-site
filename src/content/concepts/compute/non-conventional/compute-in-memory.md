@@ -3,7 +3,9 @@ type: concept
 slug: compute-in-memory
 canonical_name: Compute in Memory
 aliases: []
-parent_concepts: []
+parent_concepts:
+- non-conventional
+- compute
 related_concepts: []
 sources: []
 auto_stub: true

@@ -31,6 +31,10 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
+descendants:
+- neural-operators
+- physics-ai
+- plasma-simulation
 sources_7d: 0
 sources_30d: 0
 recent_mentions:

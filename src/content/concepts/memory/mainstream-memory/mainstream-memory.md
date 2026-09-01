@@ -3,7 +3,8 @@ type: concept
 slug: mainstream-memory
 canonical_name: Mainstream Memory
 aliases: []
-parent_concepts: []
+parent_concepts:
+- memory
 related_concepts: []
 sources: []
 auto_stub: true
@@ -15,7 +16,9 @@ descendants:
 - 3d-dram
 - adc-bottleneck
 - agentic-workload-retrieval
+- all-optical-switching
 - analog-in-memory-compute
+- analog-non-volatile-memory
 - capram
 - charge-domain-compute
 - computational-storage
@@ -23,23 +26,36 @@ descendants:
 - digital-in-memory-compute
 - dram
 - embedded-non-volatile-memory
+- emerging-memory
 - fefet
 - feram
+- gain-cell-ram
+- hamr
+- hard-disk-drive
 - hbm
 - in-memory-computing
 - inference-economics
+- magnetic-tunnel-junction
+- magneto-optical
+- mainstream-memory
 - memcapacitor
 - memory
 - memory-wall
+- memristor
 - mram
 - nand-flash
 - near-memory-compute
+- non-volatile-memory
 - pcm-phase-change-memory
 - photonic-memory
 - processing-in-memory
 - rram-reram
+- sot-mram
+- specialty-memory
+- spintronics
 - sram
 - sram-cim
+- st-fmr
 - storage-class-memory
 - token-cost-stack
 frontier:

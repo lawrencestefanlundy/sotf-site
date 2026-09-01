@@ -5,5 +5,5 @@ external_url: https://stateofthefuture.substack.com/p/the-state-of-photonic-comp
 format: Essay
 topics:
 - Photonics
-- AI
+- Energy
 ---

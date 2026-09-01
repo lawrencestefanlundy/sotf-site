@@ -7,7 +7,8 @@ parent_concepts:
 - quantum-computing
 - compute
 related_concepts: []
-sources: []
+sources:
+- '[[2026-03-31-memq-10m-series-a]]'
 scorecard:
   viability: 4
   drivers: 4
@@ -17,8 +18,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 9
+mention_count: 66
+sources_7d: 1
+sources_30d: 10
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'

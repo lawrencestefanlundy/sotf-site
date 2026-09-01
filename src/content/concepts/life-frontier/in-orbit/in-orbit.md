@@ -12,6 +12,22 @@ sources:
 - '[[2026-06-03-nasa-says-farewell-to-maven-mars-mission-hosts-media-call-to]]'
 - '[[2026-05-07-nasas-prithvi-becomes-first-ai-geospatial-foundation-model-i]]'
 mention_count: 12
+descendants:
+- atmospheric-sensing
+- direct-to-cell-leo
+- earth-observation
+- gnss-pnt
+- hyperspectral-satellites
+- leo-mega-constellations
+- microgravity-manufacturing
+- optical-eo
+- optical-inter-satellite-links
+- rad-hard-compute
+- rad-hard-electronics
+- radiation-hard-sensors
+- radiation-shielding
+- sar-satellites
+- space-communications
 sources_7d: 0
 sources_30d: 0
 recent_mentions:

@@ -29,6 +29,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
+parent_concepts:
+- imaging
+- sensing
 sources_7d: 0
 sources_30d: 0
 recent_mentions: []

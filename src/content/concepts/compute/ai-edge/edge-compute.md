@@ -3,7 +3,9 @@ type: concept
 slug: edge-compute
 canonical_name: Edge Compute
 aliases: []
-parent_concepts: []
+parent_concepts:
+- ai-edge
+- compute
 related_concepts: []
 sources:
 - '[[2026-04-01-low-power-edge-compute-neuromorphic-computing-chip-patents]]'

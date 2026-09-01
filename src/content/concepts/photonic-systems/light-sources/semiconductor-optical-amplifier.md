@@ -3,7 +3,9 @@ type: concept
 slug: semiconductor-optical-amplifier
 canonical_name: Semiconductor Optical Amplifier
 aliases: []
-parent_concepts: []
+parent_concepts:
+- light-sources
+- photonic-systems
 related_concepts: []
 sources: []
 auto_stub: true

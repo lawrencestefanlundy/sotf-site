@@ -21,7 +21,12 @@ related_concepts:
 - hbm
 - nand-flash
 - photonic-compute
-sources: []
+sources:
+- '[[2026-07-10-hyperscaler-token-economics-sweep]]'
+- '[[2026-07-07-high-bandwidth-flash-the-full-report]]'
+- '[[2026-07-31-positron-research-sprint]]'
+- '[[2026-06-28-frontier-llm-scaling-chinese-open-weight-models-are-nipping]]'
+- '[[2026-05-29-silicon-shock-the-macro-of-tech-inflation]]'
 scorecard:
   viability: 4
   drivers: 4
@@ -31,6 +36,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
+mention_count: 22
+descendants:
+- token-cost-stack
 sources_7d: 0
 sources_30d: 0
 recent_mentions:

@@ -3,7 +3,9 @@ type: concept
 slug: dilution-refrigerators
 canonical_name: Dilution Refrigerators
 aliases: []
-parent_concepts: []
+parent_concepts:
+- thermal-management
+- energy-power
 related_concepts: []
 sources: []
 auto_stub: true

@@ -3,7 +3,9 @@ type: concept
 slug: gan-rf
 canonical_name: Gan RF
 aliases: []
-parent_concepts: []
+parent_concepts:
+- wireless
+- communications
 related_concepts: []
 sources: []
 auto_stub: true

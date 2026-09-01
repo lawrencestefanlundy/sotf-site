@@ -23,6 +23,10 @@ mention_count: 80
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-31-what-happened-this-month-at-the-european-space-agency-august
+  title: What happened this month at the European Space Agency? (August 2026)
+  date: '2026-08-31'
+  kind: web
 - slug: 2026-08-28-nasa-awards-first-prize-in-phase-2-of-agencys-lunarecycle-ch
   title: NASA Awards First Prize in Phase 2 of Agency’s LunaRecycle Challenge
   date: '2026-08-28'
@@ -50,10 +54,6 @@ recent_mentions:
 - slug: 2026-08-07-iris2-reinforced-and-accelerated-as-implementation-advances
   title: IRIS² reinforced and accelerated as implementation advances
   date: '2026-08-07'
-  kind: web
-- slug: 2026-08-05-your-chance-to-run-software-in-deep-space-on-esas-asteroid-m
-  title: Your chance to run software in deep space on ESA's asteroid mission
-  date: '2026-08-05'
   kind: web
 neighbors: []
 ---

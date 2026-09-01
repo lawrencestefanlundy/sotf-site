@@ -18,6 +18,9 @@ sources:
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 mention_count: 220
+descendants:
+- external-laser-source
+- laser-display-light-engines
 sources_7d: 1
 sources_30d: 8
 recent_mentions:

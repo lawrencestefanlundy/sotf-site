@@ -3,7 +3,8 @@ type: concept
 slug: foundry-design
 canonical_name: Foundry Design
 aliases: []
-parent_concepts: []
+parent_concepts:
+- manufacturing
 related_concepts: []
 sources: []
 auto_stub: true
@@ -13,10 +14,18 @@ tags:
 - auto-stub
 mention_count: 1
 descendants:
+- 22fdx
+- algorithm-to-silicon
 - eda-design-tools
 - foundry
+- gallium-foundries
+- high-level-synthesis
 - mpw-multi-project-wafer
+- open-source-eda
 - pdk-process-design-kit
+- rf-soi
+- semiconductor-ip
+- semiconductors
 - specialty-foundries
 frontier:
 - Does the learned compliant manifold contain devices matching the performance of unconstrained inverse designs, and what is the measured figure-of-merit penalty relative to a penalty-term or filter-based baseline on the same component?

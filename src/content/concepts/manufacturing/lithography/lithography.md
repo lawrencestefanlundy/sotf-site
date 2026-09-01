@@ -28,6 +28,23 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 193
+descendants:
+- computational-lithography
+- directed-self-assembly
+- duv-immersion-lithography
+- e-beam-lithography
+- euv-light-sources
+- high-na-euv-lithography
+- lithography
+- lithography-tools
+- mask-blank-manufacturing
+- maskless-lithography
+- nanoimprint-lithography
+- photonic-manufacturing
+- photoresists
+- two-photon-polymerization
+- x-ray-lithography
+- xolography
 sources_7d: 0
 sources_30d: 9
 recent_mentions:

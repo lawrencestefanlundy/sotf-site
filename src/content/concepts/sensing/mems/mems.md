@@ -34,6 +34,11 @@ scorecard:
   verdict: Underrated
 scorecard_status: draft
 mention_count: 107
+descendants:
+- mems
+- nems
+- sensors
+- spectral-sensing
 sources_7d: 1
 sources_30d: 8
 recent_mentions:

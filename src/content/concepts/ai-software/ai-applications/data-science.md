@@ -5,7 +5,8 @@ canonical_name: Data Science
 aliases: []
 parent_concepts: []
 related_concepts: []
-sources: []
+sources:
+- '[[2026-06-23-engram-98m-learned-memory-token-costs]]'
 scorecard:
   viability: 4
   drivers: 4
@@ -15,8 +16,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 2
+mention_count: 66
+sources_7d: 9
+sources_30d: 18
 recent_mentions:
 - slug: 2026-06-23-engram-98m-learned-memory-token-costs
   title: AI memory startup focused on cutting token costs raises $98 million

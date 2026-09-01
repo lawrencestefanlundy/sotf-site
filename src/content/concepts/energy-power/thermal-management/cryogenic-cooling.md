@@ -3,7 +3,9 @@ type: concept
 slug: cryogenic-cooling
 canonical_name: Cryogenic Cooling
 aliases: []
-parent_concepts: []
+parent_concepts:
+- thermal-management
+- energy-power
 related_concepts: []
 sources:
 - '[[2024-11-20-nuclear-fusion-the-state-of-play]]'

@@ -31,6 +31,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
+parent_concepts:
+- emerging-memory
+- memory
 sources_7d: 0
 sources_30d: 2
 recent_mentions:

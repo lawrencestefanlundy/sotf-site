@@ -3,7 +3,9 @@ type: concept
 slug: semiconductor-test
 canonical_name: Semiconductor Test
 aliases: []
-parent_concepts: []
+parent_concepts:
+- equipment-processes
+- manufacturing
 related_concepts: []
 sources: []
 auto_stub: true

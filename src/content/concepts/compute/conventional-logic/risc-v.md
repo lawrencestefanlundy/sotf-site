@@ -12,6 +12,18 @@ sources:
 - '[[2023-08-18-e11-in-conversation-with-lux-capital]]'
 - '[[2026-07-17-the-once-and-future-kimi]]'
 - '[[2026-01-22-ai-chips-computeram-and-the-future]]'
+- '[[2025-07-20-risc-v-open-silicon-share-shd-group-risc-v-market-analysis]]'
+- '[[2024-eu-chips-act-final-text]]'
+- '[[2026-01-23-risc-v-open-silicon-share-risc-v-hits-25-design-share-as]]'
+- '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
+- '[[2025-07-23-nvidia-cuda-on-risc-v]]'
+- '[[2026-06-17-qualcomm-tenstorrent-talks]]'
+- '[[2026-04-09-sifive-series-g]]'
+- '[[2026-06-15-gf-investor-day-2026]]'
+- '[[2025-12-18-risc-v-25pct-penetration]]'
+- '[[2026-02-09-semianalysis-datacenter-cpu-2026]]'
+- '[[2025-10-09-risc-v-open-silicon-share-risc-v-summit-2025-keynote-risc-v]]'
+- '[[2026-05-21-semianalysis-eda-market-primer]]'
 scorecard:
   viability: 4
   drivers: 3
@@ -21,8 +33,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 0
+mention_count: 97
+sources_7d: 1
+sources_30d: 10
 recent_mentions:
 - slug: 2026-07-17-the-once-and-future-kimi
   title: The Once and Future Kimi

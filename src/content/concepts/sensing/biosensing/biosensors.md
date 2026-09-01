@@ -3,7 +3,9 @@ type: concept
 slug: biosensors
 canonical_name: Biosensors
 aliases: []
-parent_concepts: []
+parent_concepts:
+- biosensing
+- sensing
 related_concepts: []
 sources:
 - '[[2026-06-04-magnetoresistive-gmr-mtj-biosensor-turbid-samples]]'

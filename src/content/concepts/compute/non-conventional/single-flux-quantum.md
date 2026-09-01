@@ -3,7 +3,9 @@ type: concept
 slug: single-flux-quantum
 canonical_name: Single Flux Quantum
 aliases: []
-parent_concepts: []
+parent_concepts:
+- non-conventional
+- compute
 related_concepts: []
 sources: []
 auto_stub: true

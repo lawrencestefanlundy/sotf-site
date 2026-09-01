@@ -3,7 +3,9 @@ type: concept
 slug: timing-synchronization
 canonical_name: Timing Synchronization
 aliases: []
-parent_concepts: []
+parent_concepts:
+- wireless
+- communications
 related_concepts: []
 sources: []
 auto_stub: true

@@ -3,7 +3,8 @@ type: concept
 slug: ai-orchestration
 canonical_name: AI Orchestration
 aliases: []
-parent_concepts: []
+parent_concepts:
+- ai-agents
 related_concepts: []
 sources: []
 auto_stub: true

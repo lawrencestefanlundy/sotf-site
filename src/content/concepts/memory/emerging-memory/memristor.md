@@ -3,7 +3,9 @@ type: concept
 slug: memristor
 canonical_name: Memristor
 aliases: []
-parent_concepts: []
+parent_concepts:
+- emerging-memory
+- memory
 related_concepts: []
 sources:
 - '[[2023-06-23-e05-the-future-of-edge-ai-brain-inspired]]'

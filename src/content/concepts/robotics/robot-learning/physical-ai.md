@@ -42,6 +42,15 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 78
+descendants:
+- dexterous-manipulation
+- humanoid-robots
+- robot-actuators
+- robot-data-collection
+- sim-to-real-robot-data
+- tactile-sensing
+- vision-language-action-models
+- world-models
 sources_7d: 2
 sources_30d: 9
 recent_mentions:

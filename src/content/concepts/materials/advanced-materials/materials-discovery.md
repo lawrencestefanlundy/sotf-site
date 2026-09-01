@@ -27,6 +27,10 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 54
+descendants:
+- arpes
+- electron-scale-metrology
+- stm
 sources_7d: 2
 sources_30d: 12
 recent_mentions:

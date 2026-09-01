@@ -20,6 +20,9 @@ frontier:
 - Can 3D-stacked on-sensor DNN accelerators deliver measured TOPS/W and area figures competitive with off-sensor edge SoCs at equivalent task accuracy 2026 06 05 j3dai a tiny dnn based edge ai accelerator for 3d stacked cm?
 - At what exposure time and source flux does qCMOS overtake EMCCD entirely, and does the crossover hold on apertures larger than 1 m 2026 06 05 the orca twin qcmos project i commissioning at calar alto ob?
 - Does the 512× sketch compression preserve depth accuracy and photon-timing statistics well enough for LiDAR ranging at full sensor resolution, and how does the ratio scale with array size 2026 06 05 fpga implementation of sketched lidar for a 192 x 128 spad i?
+parent_concepts:
+- imaging
+- sensing
 sources_7d: 0
 sources_30d: 3
 recent_mentions:

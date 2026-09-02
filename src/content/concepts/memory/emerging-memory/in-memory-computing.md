@@ -32,7 +32,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 54
+mention_count: 57
 descendants:
 - adc-bottleneck
 - analog-in-memory-compute
@@ -41,8 +41,8 @@ descendants:
 - digital-in-memory-compute
 - processing-in-memory
 - sram-cim
-sources_7d: 0
-sources_30d: 4
+sources_7d: 3
+sources_30d: 7
 recent_mentions:
 - slug: 2026-08-12-snapdragon-ar1-sensing-hub-micro-npu
   title: Snapdragon AR1 Gen 1 Platform Product Brief — Sensing Hub with Micro NPU for audio and sensors

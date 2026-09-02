@@ -13,7 +13,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 27
+mention_count: 30
 frontier:
 - Does the unbiased conditional-covariance estimator, when applied to existing claims of macroscopic conditional quantum states, confirm or overturn them, given the reported bias of order d_M ~ 5 for a milligram mirror 2026 07 08 unbiased estimation of conditional covariance for quantum op?
 - Can Purcell-engineered suppression of recoil heating be measured, and by what factor, in a real microcavity rather than in theory 2026 05 29 engineering recoil heating in coherent scattering levitated ?
@@ -32,8 +32,8 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 1
-sources_30d: 4
+sources_7d: 3
+sources_30d: 6
 recent_mentions: []
 neighbors: []
 ---

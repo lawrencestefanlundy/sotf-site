@@ -37,7 +37,7 @@ tags:
 descendants:
 - avalanche-photodiode
 - uni-traveling-carrier-photodiode
-mention_count: 19
+mention_count: 21
 scorecard:
   viability: 5
   drivers: 4
@@ -47,8 +47,8 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Underrated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 1
+sources_7d: 2
+sources_30d: 3
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)

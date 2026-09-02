@@ -19,7 +19,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - material
-mention_count: 15
+mention_count: 16
 last_reorg_date: '2026-05-14'
 scorecard:
   viability: 3
@@ -30,8 +30,8 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 5
+sources_7d: 1
+sources_30d: 6
 recent_mentions:
 - slug: 2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth
   title: '🔮E14: The Real AI Bottleneck: High Bandwidth Memory (HBM)'

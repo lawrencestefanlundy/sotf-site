@@ -32,7 +32,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 30
+mention_count: 33
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 3
@@ -43,7 +43,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
+sources_7d: 2
 sources_30d: 5
 recent_mentions:
 - slug: 2025-10-09-a-specific-theory-of-sovereign-ai

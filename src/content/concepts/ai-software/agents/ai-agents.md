@@ -15,6 +15,7 @@ sources:
 - '[[2026-05-06-data-value-migrates-to-retrieval-layer-google-cloud-next]]'
 - '[[2026-08-05-stealthium-gpu-powered-security-intelligence-site-docs-compe]]'
 - '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
+- '[[2026-08-24-embedd-pre-seed-siliconangle]]'
 - '[[2026-07-26-seat-pricing-regime-break]]'
 - '[[2026-06-18-aeon-verification]]'
 - '[[2026-05-28-semianalysis-finding-miscompiles]]'
@@ -27,7 +28,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 76
+mention_count: 86
 descendants:
 - agent-identity-kya
 - agentic-ai
@@ -37,9 +38,13 @@ descendants:
 - stablecoin-clearing
 - stablecoins
 - x402
-sources_7d: 0
-sources_30d: 15
+sources_7d: 8
+sources_30d: 22
 recent_mentions:
+- slug: 2026-08-24-embedd-pre-seed-siliconangle
+  title: Chip software automation startup Embedd raises $2.7M
+  date: '2026-08-24'
+  kind: web
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
@@ -67,10 +72,6 @@ recent_mentions:
 - slug: 2026-05-28-semianalysis-finding-miscompiles
   title: Finding Miscompiles for Fun, Not Profit
   date: '2026-05-28'
-  kind: web
-- slug: 2026-05-06-data-value-migrates-to-retrieval-layer-google-cloud-next
-  title: 'Google Cloud Next 2026: AI agents, A2A protocol, Workspace Studio, and the full-stack bet against OpenAI and Anthropic'
-  date: '2026-05-06'
   kind: web
 neighbors: []
 ---

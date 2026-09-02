@@ -14,14 +14,14 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 22
+mention_count: 23
 frontier:
 - What certified bit rate per second, not per round, does the integrated contextuality QRNG achieve, and does the 0.077 bits-per-round min-entropy scale with mesh size or qutrit dimension 2026 06 07 on chip semi device independent quantum random number genera?
 - 'Can the SPOQC CV-QRNG certified yield be raised above the ~2% of raw key achieved per pass, and what specifically limits it: ADC resolution, min-entropy bounding conservatism, or extractor overhead 2026 08 11 quantum random number generation from the continuous variabl?'
 - Does the two-source seedless bootstrapping scheme survive an adversary with partial correlation between the two supposedly independent entropy sources, and what independence assumption is required quantitatively 2026 08 13 information theoretic solutions for seedless qrng bootstrapp?
 - Does the predictability-coherence equality for multi-path interferometry yield an operationally tighter min-entropy bound than existing semi-DI certification for interference-based QRNGs 2026 07 22 trade off between predictability and quantum coherence for m?
 sources_7d: 0
-sources_30d: 3
+sources_30d: 2
 recent_mentions:
 - slug: 2026-08-03-spad-single-photon-market-scan
   title: SPAD / single-photon detector market scan — incumbent structure and company cohort

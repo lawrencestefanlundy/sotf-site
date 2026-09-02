@@ -24,9 +24,9 @@ frontier:
 last_updated: 2026-08-05
 tags:
 - concept
-mention_count: 2
-sources_7d: 0
-sources_30d: 1
+mention_count: 3
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
 - slug: 2026-08-05-stealthium-gpu-powered-security-intelligence-site-docs-compe
   title: Stealthium — GPU-Powered Security Intelligence (site + docs + competitive context)

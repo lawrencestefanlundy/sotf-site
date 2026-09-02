@@ -21,9 +21,6 @@ related_concepts:
 sources:
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
-- '[[2026-05-24-mose2-exciton-polariton-all-optical-switch]]'
-- '[[2023-10-05-nynomic-nlir-investment]]'
-- '[[2026-06-17-single-photon-detector-market-spad-snspd]]'
 scorecard:
   viability: 4
   drivers: 2
@@ -33,9 +30,9 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 117
-sources_7d: 0
-sources_30d: 8
+mention_count: 123
+sources_7d: 5
+sources_30d: 13
 recent_mentions:
 - slug: 2026-06-17-single-photon-detector-market-spad-snspd
   title: Single-photon detector market aggregation — SPAD, SiPM, SNSPD (2024–2035)

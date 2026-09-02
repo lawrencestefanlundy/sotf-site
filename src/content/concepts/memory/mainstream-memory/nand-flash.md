@@ -30,7 +30,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 49
+mention_count: 52
 last_reorg_date: '2026-05-14'
 scorecard:
   viability: 4
@@ -41,8 +41,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 1
-sources_30d: 11
+sources_7d: 4
+sources_30d: 13
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)

@@ -21,7 +21,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 169
+mention_count: 174
 descendants:
 - 2d-materials
 - aluminium-gallium-nitride
@@ -71,8 +71,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-sources_7d: 1
-sources_30d: 16
+sources_7d: 4
+sources_30d: 17
 recent_mentions:
 - slug: 2026-08-31-qcells-tandem-iec-ul-certification-tuv-rheinland
   title: Qcells secures TUV Rheinland certification for perovskite-silicon tandem solar tech (pv magazine, 16 Jul 2026; pv-tech corroborating)

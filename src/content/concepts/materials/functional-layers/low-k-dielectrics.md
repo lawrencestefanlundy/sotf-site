@@ -18,7 +18,7 @@ tags:
 mention_count: 5
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2025-02-12-wen-babelfish-feat-aron-of-semron
   title: 'Edge AI: Analog Chips (feat. Aron Kirschen, SEMRON)'

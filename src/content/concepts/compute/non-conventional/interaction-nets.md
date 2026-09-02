@@ -20,7 +20,7 @@ tags:
 - concept
 mention_count: 15
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-06-03-tendrils-compute
   title: Tendrils Compute — company site (about / background / jobs)

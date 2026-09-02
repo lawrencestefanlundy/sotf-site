@@ -30,7 +30,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 125
+mention_count: 126
 last_reorg_date: '2026-05-13'
 descendants:
 - avalanche-photodiode
@@ -49,8 +49,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 7
+sources_7d: 1
+sources_30d: 6
 recent_mentions:
 - slug: 2026-07-29-aeluma-signs-letter-of-intent-for-30m-chips-act-funding---in
   title: Aeluma signs letter of intent for $30M CHIPS Act funding - Investing.com

@@ -31,7 +31,7 @@ frontier:
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 8
+mention_count: 9
 scorecard:
   viability: 3
   drivers: 2
@@ -41,8 +41,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Overrated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 2
+sources_7d: 1
+sources_30d: 3
 recent_mentions:
 - slug: 2026-07-26-ai-breach-frequency-autonomous-soc
   title: AI-enabled attack frequency and autonomous-SOC economics, 2026

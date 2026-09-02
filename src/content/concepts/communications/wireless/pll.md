@@ -17,13 +17,13 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 4
+mention_count: 5
 frontier:
 - What measured SINR gain does joint channel and phase noise estimation deliver over CPE-only compensation in OTFS, and how does that gain differ between continuous-time and discrete-time PLL references 2026 05 15 joint phase noise and channel estimation for otfs?
 - What absolute power consumption and jitter does the a-IGZO TFT PLL achieve, and what fraction of a flexible AMS system's power budget does it occupy compared with the up-to-90% figure cited for alternative clock sources 2026 08 03 low power pll based clock stabilization for flexible igzo am?
 - By what factor does hybrid-loop demodulation exceed conventional PLL bandwidth as a function of sensor resonant frequency, and does it introduce additional noise at that bandwidth 2026 06 04 high temperature and high speed atomic force microscopy usin?
 - Has the proposed 1596 nm multi-wavelength arm-length stabilisation scheme been demonstrated experimentally on an AlGaAs/GaAs-coated cavity, and does it reach the residual velocity required for lock acquisition 2026 06 24 a novel arm length stabilization scheme for gravitational wa?
-sources_7d: 0
+sources_7d: 1
 sources_30d: 1
 recent_mentions: []
 neighbors: []

@@ -33,9 +33,9 @@ sources:
 - '[[2025-04-16-the-state-of-photonic-computing]]'
 - '[[2026-05-12-semianalysis-eda-rtl-to-silicon]]'
 - '[[2026-05-21-semianalysis-eda-market-primer]]'
-mention_count: 19
-sources_7d: 0
-sources_30d: 1
+mention_count: 20
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
 - slug: 2026-05-21-semianalysis-eda-market-primer
   title: EDA Market Primer - Market Dynamics, Cadence, Synopsys, Siemens, China EDA Rise

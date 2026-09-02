@@ -36,8 +36,20 @@ frontier:
 - Does dead-time mitigation, whether by automatic attenuation control or statistical correction, hold up in real high-background field conditions such as daylight LiDAR, rather than in the analytical and numerical models presented?
 - Will simulated datasets and diffusion-model priors close the training-data gap well enough that models trained synthetically transfer to real SPAD data across sensors and light levels, or does each sensor need its own captured corpus?
 sources_7d: 0
-sources_30d: 3
-recent_mentions: []
+sources_30d: 1
+recent_mentions:
+- slug: 2026-08-03-spad-single-photon-market-scan
+  title: SPAD / single-photon detector market scan — incumbent structure and company cohort
+  date: '2026-08-03'
+  kind: web
+- slug: 2026-06-17-single-photon-detector-market-spad-snspd
+  title: Single-photon detector market aggregation — SPAD, SiPM, SNSPD (2024–2035)
+  date: '2026-06-17'
+  kind: web
+- slug: 2026-06-02-singular-photonics-launch
+  title: Singular Photonics — launch, SPAD portfolio + Meta collaboration (coverage)
+  date: '2026-06-02'
+  kind: web
 neighbors:
 - slug: avalanche-photodiode
   name: Avalanche Photodiode (APD / SPAD)

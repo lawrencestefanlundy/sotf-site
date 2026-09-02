@@ -30,7 +30,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - category
-mention_count: 48
+mention_count: 50
 descendants: []
 last_reorg_date: '2026-05-14'
 scorecard:
@@ -42,8 +42,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 7
-sources_30d: 12
+sources_7d: 8
+sources_30d: 13
 recent_mentions:
 - slug: 2026-05-06-putting-the-super-into-a-supersite-for-earth-observation
   title: Putting the ‘super’ into a supersite for Earth observation

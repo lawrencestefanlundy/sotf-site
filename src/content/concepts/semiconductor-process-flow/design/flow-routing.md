@@ -19,7 +19,7 @@ sources:
 - '[[2024-10-29-deploy-intelligence-too-cheap-to]]'
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
-mention_count: 278
+mention_count: 290
 parent_concepts:
 - flow-rtl-design
 scorecard:
@@ -36,7 +36,7 @@ frontier:
 - Does the 15 to 30 per cent congestion reduction from affine derandomisation, and the Theta(log N) routing number, hold on physically realisable acousto-optic lattices with finite move times, or only in the idealised matching model?
 - Will the single-photon switching community actually adopt consistent reporting of speed, efficiency and fidelity, and when it does, which platform among quantum dots, neutral atoms, superconducting qubits and colour centres leads?
 - At what routing density does the sub-kelvin thermal conductivity of the substrate, spanning 5x10^-2 down to 8x10^-4 W/m.K at 300 mK depending on material, become the binding limit on co-integrating control and readout with qubits?
-sources_7d: 0
+sources_7d: 3
 sources_30d: 15
 recent_mentions:
 - slug: 2026-08-20-callosum-100m-seed-announcement

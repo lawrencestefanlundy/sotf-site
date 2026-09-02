@@ -19,9 +19,9 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 57
-sources_7d: 1
-sources_30d: 10
+mention_count: 59
+sources_7d: 3
+sources_30d: 9
 recent_mentions:
 - slug: 2023-08-25-e12-nanomechanical-computing-gears
   title: '🔮E12: Nanomechanical Computing- Gears of Space War? Old Ideas at New Scales'

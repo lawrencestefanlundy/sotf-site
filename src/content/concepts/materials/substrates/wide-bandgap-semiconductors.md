@@ -36,7 +36,7 @@ descendants:
 - gallium-nitride
 - indium-gallium-nitride
 - silicon-carbide
-mention_count: 17
+mention_count: 18
 scorecard:
   viability: 4
   drivers: 4

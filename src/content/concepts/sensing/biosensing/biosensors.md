@@ -26,8 +26,8 @@ frontier:
 - Is the electric-double-layer FET workaround generalisable across analytes and matrices, or does each target need its own gate-channel geometry 2026 06 04 debye screening fet biosensor high ionic strength?
 - For point-of-care and implantable formats, what sample volume is actually available, and does the Damköhler-based required-volume prediction rule out the sensitivity being advertised 2026 05 05 sample volume as a key design parameter in affinity based bi?
 mention_count: 20
-sources_7d: 1
-sources_30d: 4
+sources_7d: 0
+sources_30d: 3
 recent_mentions:
 - slug: 2026-06-04-magnetoresistive-gmr-mtj-biosensor-turbid-samples
   title: Integrated Microfluidic Giant Magnetoresistance (GMR) Biosensor Platform for Magnetoresistive Immunoassay (and related GMR/MTJ bead-detection literature)

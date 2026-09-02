@@ -19,7 +19,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - material
-mention_count: 35
+mention_count: 36
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 3
@@ -30,7 +30,7 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 3
+sources_7d: 4
 sources_30d: 11
 recent_mentions: []
 neighbors:

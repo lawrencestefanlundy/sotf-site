@@ -30,7 +30,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 152
+mention_count: 153
 descendants:
 - avalanche-photodiode
 - optical-gyroscope

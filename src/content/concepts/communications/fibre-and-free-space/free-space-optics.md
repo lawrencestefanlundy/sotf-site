@@ -21,7 +21,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 20
+mention_count: 21
 last_reorg_date: '2026-05-14'
 scorecard:
   viability: 3
@@ -32,9 +32,21 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 2
-recent_mentions: []
+sources_7d: 1
+sources_30d: 3
+recent_mentions:
+- slug: 2026-06-16-trapped-ion-landscape-2026
+  title: Trapped-ion quantum computing landscape 2026 (vendors, scale, integrated photonics)
+  date: '2026-06-16'
+  kind: web
+- slug: 2026-02-02-photonic-engines-for-data-centers
+  title: Photonic "Engines" for Data Centers
+  date: '2026-02-02'
+  kind: substack
+- slug: 2025-04-16-the-state-of-photonic-computing
+  title: 'Photonic Computing: A Primer'
+  date: '2025-04-16'
+  kind: substack
 neighbors: []
 ---
 **Free-space optics sends data as modulated light through air or vacuum instead of fibre, and the current evidence base is laboratory-scale: >100 Gb/s hybrid optical/millimetre-wave transmitters, machine-learning receivers to fight bandwidth limits, and design studies that make inter-satellite laser links the backbone of proposed orbital AI compute clusters.**

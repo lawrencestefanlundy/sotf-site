@@ -19,8 +19,8 @@ last_updated: '2026-06-23'
 tags:
 - concept
 - security
-mention_count: 4
-sources_7d: 0
+mention_count: 5
+sources_7d: 1
 sources_30d: 1
 recent_mentions: []
 neighbors:

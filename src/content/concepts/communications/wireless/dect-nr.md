@@ -15,6 +15,7 @@ sources:
 - '[[2025-08-29-from-smart-cities-to-pro-audio-dect-nr-and-its-potential-for]]'
 - '[[2026-03-10-nr-plus-interop-demo-light-building]]'
 - '[[2024-02-21-how-dect-nr-revolutionizes-smart-building-connectivity---ee-]]'
+- '[[2026-08-31-opener-open-sources-dect-nr-for-iot---opensourceforucom]]'
 - '[[2024-02-26-nordic-nrf9151-a-smaller-lte-mnb-iot-and-dect-nr-sip-with-en]]'
 - '[[2024-06-03-conexio-stratus-pro-a-battery-powered-nrf9161-development-ki]]'
 - '[[2024-01-15-nordics-nrf9161-sip-and-dk-add-additional-lte-bands-and-redu]]'
@@ -44,10 +45,14 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 28
-sources_7d: 1
-sources_30d: 2
+mention_count: 30
+sources_7d: 2
+sources_30d: 3
 recent_mentions:
+- slug: 2026-08-31-opener-open-sources-dect-nr-for-iot---opensourceforucom
+  title: Opener Open-Sources DECT NR+ for IoT - opensourceforu.com
+  date: '2026-08-31'
+  kind: web
 - slug: 2026-08-27-opener-is-an-open-source-reference-implementation-of-the-dec
   title: Opener is an open-source reference implementation of the DECT NR+ massive IoT, low-latency standard - CNX Software
   date: '2026-08-27'
@@ -75,10 +80,6 @@ recent_mentions:
 - slug: 2026-03-24-dect-nr-a-wireless-solution-for-real-time-audio---audioxpres
   title: 'DECT NR+: A Wireless Solution for Real-Time Audio? - audioXpress'
   date: '2026-03-24'
-  kind: web
-- slug: 2026-03-10-nr-plus-interop-demo-light-building
-  title: Legrand and Schneider Electric demonstrate world's first NR+ interoperability demo for smart buildings
-  date: '2026-03-10'
   kind: web
 neighbors: []
 ---

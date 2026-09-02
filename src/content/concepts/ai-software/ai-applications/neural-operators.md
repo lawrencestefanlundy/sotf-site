@@ -27,7 +27,7 @@ frontier:
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 40
+mention_count: 42
 scorecard:
   viability: 4
   drivers: 4
@@ -37,9 +37,13 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Underrated
 scorecard_status: draft
-sources_7d: 3
-sources_30d: 11
-recent_mentions: []
+sources_7d: 5
+sources_30d: 12
+recent_mentions:
+- slug: 2026-09-01-physics-ai-incumbent-consolidation-and-horizontal-repricing
+  title: 'Physics AI: the two structural facts — Synopsys closed Ansys, and PhysicsX repriced at ~$2.4B'
+  date: '2026-09-01'
+  kind: web
 neighbors:
 - slug: plasma-simulation
   name: Plasma Simulation

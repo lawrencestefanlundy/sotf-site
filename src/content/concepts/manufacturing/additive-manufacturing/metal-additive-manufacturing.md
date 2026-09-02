@@ -15,14 +15,14 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 5
+mention_count: 6
 frontier:
 - Does the parametric PINN framework reproduce measured melt-pool temperature fields for materials entirely absent from training, and at what quantified error against thermography or thermocouple data?
 - Can in-situ alloying and hybrid processing raise the fraction of reliably printable aluminium alloys, and by how much relative to the current "small percentage" baseline?
 - Do L-DED aluminium parts achieve the claimed stress corrosion cracking resistance advantage over steel counterparts in standardised testing?
 - What deposition rates, densities and mechanical properties were achieved in the DARPA-funded rhenium AM process, and did it progress beyond feasibility?
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
 - slug: 2022-05-09-elementum-funded-by-darpa-to-develop-am-process-for-rhenium-
   title: Elementum funded by DARPA to develop AM process for rhenium - Metal Additive Manufacturing magazine

@@ -23,7 +23,7 @@ tags:
 - concept
 mention_count: 14
 sources_7d: 1
-sources_30d: 2
+sources_30d: 1
 recent_mentions:
 - slug: 2026-05-29-silicon-shock-the-macro-of-tech-inflation
   title: 'Silicon Shock: The Macro of Tech Inflation'

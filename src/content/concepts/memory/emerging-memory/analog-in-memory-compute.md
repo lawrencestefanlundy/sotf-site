@@ -28,7 +28,7 @@ frontier:
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 19
+mention_count: 20
 scorecard:
   viability: null
   drivers: null
@@ -38,7 +38,7 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-sources_7d: 0
+sources_7d: 1
 sources_30d: 2
 recent_mentions:
 - slug: 2026-02-02-photonic-engines-for-data-centers

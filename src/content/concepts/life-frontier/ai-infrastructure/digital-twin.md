@@ -21,9 +21,10 @@ sources:
 - '[[2025-04-30-has-the-time-come-to-take-mortal]]'
 - '[[2025-12-18-digital-twins-for-chip-manufacturing-rd-faces-unexpected-set]]'
 - '[[2026-07-27-embedd-bsp-generation]]'
+- '[[2026-08-24-embedd-pre-seed-siliconangle]]'
 - '[[2025-07-21-intel-18a-details-cost-future-of-dram-4f2-vs-3d-backside-pow]]'
 - '[[2023-01-10-eth-zurich-spin-offs-digital-twins-new-cancer-treatments-and]]'
-mention_count: 77
+mention_count: 79
 scorecard:
   viability: 3
   drivers: 4
@@ -38,9 +39,13 @@ frontier:
 - Does calibration against real measurements or gap-aware robust training win the sim-to-real problem, or does deployment require both, and at what data cost per site 2026 05 28 how to bridge the sim to real gap in digital twin aided tele?
 - Can real-time surrogates preserve enough multi-physics fidelity to replace finite-element analysis in packaging reliability decisions, or is accuracy lost exactly where hot spots and warpage matter 2026 06 05 toward digital twins in 3d ic packaging a critical review of?
 - For biological twins, does reconstruction quality from in vivo imaging reach the topological correctness needed for predictive, rather than merely descriptive, simulation 2026 06 26 biorxiv cerebrovascular imaging to graph reconstructio?
-sources_7d: 5
-sources_30d: 23
+sources_7d: 6
+sources_30d: 24
 recent_mentions:
+- slug: 2026-08-24-embedd-pre-seed-siliconangle
+  title: Chip software automation startup Embedd raises $2.7M
+  date: '2026-08-24'
+  kind: web
 - slug: 2026-07-27-embedd-bsp-generation
   title: Embedd — BSP, driver and devicetree generation from chip documentation
   date: '2026-07-27'
@@ -68,10 +73,6 @@ recent_mentions:
 - slug: 2024-11-12-atomic-energy-can-nuclear-power-our
   title: 'Nuclear Fission: A Primer'
   date: '2024-11-12'
-  kind: substack
-- slug: 2023-05-25-interview-ben-mildenhall-co-inventor
-  title: '☎️ Interview: Ben Mildenhall, Co-Inventor of Neural Radiance Fields (NeRFs) on the State of the Neural Rendering, Generative AI, and the Metaverse #007'
-  date: '2023-05-25'
   kind: substack
 neighbors:
 - slug: datacenter-network-stack

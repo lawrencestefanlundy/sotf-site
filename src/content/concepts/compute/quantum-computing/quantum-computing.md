@@ -38,7 +38,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 600
+mention_count: 614
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -68,8 +68,8 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 1
-sources_30d: 14
+sources_7d: 3
+sources_30d: 12
 recent_mentions:
 - slug: 2026-08-24-nist-researchers-supersize-quantum-technology-to-help-detect
   title: NIST Researchers Supersize Quantum Technology to Help Detect Faint Photons

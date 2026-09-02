@@ -25,9 +25,9 @@ scorecard:
   timing_band: Unclear
   verdict: Overrated
 scorecard_status: draft
-mention_count: 39
-sources_7d: 0
-sources_30d: 5
+mention_count: 40
+sources_7d: 1
+sources_30d: 6
 recent_mentions:
 - slug: 2024-12-04-cubits-in-a-fridge-why-is-nobody
   title: Silicon Spin Quantum Computing (Feat. Himadri Majumdar, SemiQon)

@@ -32,9 +32,9 @@ frontier:
 last_updated: 2026-07-29
 tags:
 - concept
-mention_count: 51
-sources_7d: 1
-sources_30d: 18
+mention_count: 52
+sources_7d: 2
+sources_30d: 16
 recent_mentions:
 - slug: 2026-07-17-the-once-and-future-kimi
   title: The Once and Future Kimi

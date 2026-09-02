@@ -38,6 +38,10 @@ descendants:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-01-physics-ai-incumbent-consolidation-and-horizontal-repricing
+  title: 'Physics AI: the two structural facts — Synopsys closed Ansys, and PhysicsX repriced at ~$2.4B'
+  date: '2026-09-01'
+  kind: web
 - slug: 2026-07-25-thoughts-on-ai-and-power
   title: Thoughts on AI and power
   date: '2026-07-25'
@@ -65,10 +69,6 @@ recent_mentions:
 - slug: 2026-06-16-phasecraft-appointed-by-arpa-e-to-advance-catalyst-simulatio
   title: Phasecraft Appointed by ARPA-E to Advance Catalyst Simulation Frameworks for Hydrogen Electrolysis - Quantum Computing Report
   date: '2026-06-16'
-  kind: web
-- slug: 2026-06-13-private-fusion-2026-update
-  title: Private fusion — 2026 progress update (Helion Polaris D-T, CFS $863M)
-  date: '2026-06-13'
   kind: web
 neighbors:
 - slug: physics-ai

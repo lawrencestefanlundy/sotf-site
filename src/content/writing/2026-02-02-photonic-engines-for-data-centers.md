@@ -5,5 +5,5 @@ external_url: https://stateofthefuture.substack.com/p/photonic-engines-for-data-
 format: Essay
 topics:
 - Compute
-- Manufacturing
+- Comms
 ---

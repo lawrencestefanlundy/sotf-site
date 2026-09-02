@@ -31,8 +31,8 @@ tags:
 descendants:
 - coupled-oscillator-networks
 - near-field-rf-coupling
-mention_count: 4
-sources_7d: 0
+mention_count: 5
+sources_7d: 1
 sources_30d: 1
 recent_mentions:
 - slug: 2026-07-27-optimal-compute-vega-investor-briefing

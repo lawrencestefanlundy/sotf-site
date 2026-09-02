@@ -6,12 +6,12 @@ aliases:
 - ST-FMR
 - spin-torque ferromagnetic resonance
 sources: []
-mention_count: 5
+mention_count: 7
 parent_concepts:
 - emerging-memory
 - memory
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions: []
 neighbors: []
 ---

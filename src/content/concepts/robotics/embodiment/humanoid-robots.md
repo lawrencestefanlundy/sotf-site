@@ -63,9 +63,9 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Overrated
 scorecard_status: draft
-mention_count: 75
+mention_count: 76
 sources_7d: 0
-sources_30d: 5
+sources_30d: 4
 recent_mentions:
 - slug: 2026-08-15-telekin-call-to-arms
   title: Telekin — Call to Arms (company thesis + Horatio prototype findings)

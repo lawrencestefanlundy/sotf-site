@@ -26,12 +26,12 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 15
+mention_count: 16
 descendants:
 - inference-economics
 - token-cost-stack
-sources_7d: 1
-sources_30d: 1
+sources_7d: 2
+sources_30d: 2
 recent_mentions:
 - slug: 2026-07-31-positron-research-sprint
   title: 'Positron AI research sprint: architecture, funding, customers, manufacturing'

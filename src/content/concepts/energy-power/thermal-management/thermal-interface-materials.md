@@ -50,7 +50,7 @@ scorecard:
   verdict: Overrated
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-07-31-tim-market-sizing-refresh
   title: TIM market sizing refresh — the definitional 2x split and the real addressable slot

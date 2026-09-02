@@ -13,7 +13,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 4
+mention_count: 5
 frontier:
 - What band gaps do the β2SnGeX6 compositions have, and does any halide variant fall in the 1.6-1.8 eV window needed for a top cell over silicon?
 - Can any member of the series be synthesised as a phase-pure thin film, and do measured lattice parameters and elastic moduli match the DFT predictions?

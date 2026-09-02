@@ -9,9 +9,9 @@ parent_concepts:
 - generation
 related_concepts: []
 sources: []
-mention_count: 6
-sources_7d: 0
-sources_30d: 2
+mention_count: 8
+sources_7d: 1
+sources_30d: 3
 recent_mentions: []
 neighbors: []
 ---

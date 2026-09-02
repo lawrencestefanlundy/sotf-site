@@ -28,8 +28,8 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 320
-sources_7d: 2
+mention_count: 326
+sources_7d: 3
 sources_30d: 9
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026

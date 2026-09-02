@@ -18,7 +18,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 127
+mention_count: 128
 last_reorg_date: '2026-05-14'
 scorecard:
   viability: 3
@@ -30,7 +30,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 25
+sources_30d: 21
 recent_mentions: []
 neighbors: []
 ---

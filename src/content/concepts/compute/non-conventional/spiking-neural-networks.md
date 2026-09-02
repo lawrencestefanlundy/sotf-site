@@ -18,7 +18,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 18
+mention_count: 21
 scorecard:
   viability: 3
   drivers: 3
@@ -33,8 +33,8 @@ frontier:
 - Can the state space model reframing of SNNs actually deliver long-range dependency and generative capability at the edge, and on what timescale do the NSF FET awards begun on 07/01/2026 produce hardware-validated results 2026 07 06 nsf 2617390 collaborative research fet neuro ai foun?
 - Is there a cheap runtime defence against sponge attacks that raise SynOps 1.5-2.6x while leaving predictions unchanged, or does the threat force always-on devices to budget for worst-case rather than average energy 2026 07 31 driving up inference energy on snns per sample and universal?
 - Does a common hardware and software substrate emerge from the current fragmented landscape of fixed neuron models and one-off accelerators, or does every deployment stay a bespoke co-design 2026 07 07 aigor a modular event driven neuromorphic architecture for c?
-sources_7d: 0
-sources_30d: 4
+sources_7d: 2
+sources_30d: 6
 recent_mentions:
 - slug: 2023-06-23-e05-the-future-of-edge-ai-brain-inspired
   title: '🔮 E05: Neuromorphic Computing & The Future of Edge AI'

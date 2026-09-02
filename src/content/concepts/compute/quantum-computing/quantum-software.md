@@ -22,7 +22,7 @@ scorecard:
 scorecard_status: draft
 mention_count: 31
 sources_7d: 0
-sources_30d: 7
+sources_30d: 6
 recent_mentions:
 - slug: 2026-06-08-quantum-roadmap-funded-not-demand-funded-quantum-computing
   title: Quantum Computing Startup Funding 2025-2026 – New Market Pitch

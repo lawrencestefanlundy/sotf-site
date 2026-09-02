@@ -22,7 +22,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - category
-mention_count: 13
+mention_count: 14
 descendants: []
 last_reorg_date: '2026-05-14'
 scorecard:
@@ -34,7 +34,7 @@ scorecard:
   timing_band: Distant (10yr+)
   verdict: Overrated
 scorecard_status: draft
-sources_7d: 0
+sources_7d: 1
 sources_30d: 1
 recent_mentions:
 - slug: 2025-03-04-doe-funds-uk-research-on-critical-materials-for-commercial-f

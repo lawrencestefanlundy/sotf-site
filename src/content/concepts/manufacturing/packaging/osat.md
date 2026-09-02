@@ -52,7 +52,7 @@ tags:
 - category
 - packaging
 - supply-chain
-mention_count: 100
+mention_count: 104
 scorecard:
   viability: 4
   drivers: 4
@@ -62,8 +62,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Overrated
 scorecard_status: draft
-sources_7d: 2
-sources_30d: 14
+sources_7d: 5
+sources_30d: 15
 recent_mentions:
 - slug: 2026-07-27-cxmt-star-market-debut
   title: CXMT's 466% STAR Market debut makes it China's most valuable mainland-listed company

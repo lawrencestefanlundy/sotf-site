@@ -40,7 +40,7 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-mention_count: 1007
+mention_count: 1021
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -50,7 +50,7 @@ descendants:
 - optical-frequency-division
 - optoelectronic-oscillator
 sources_7d: 0
-sources_30d: 5
+sources_30d: 1
 recent_mentions:
 - slug: 2026-08-24-nist-researchers-supersize-quantum-technology-to-help-detect
   title: NIST Researchers Supersize Quantum Technology to Help Detect Faint Photons

@@ -41,7 +41,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 78
+mention_count: 81
 descendants:
 - dexterous-manipulation
 - humanoid-robots
@@ -51,8 +51,8 @@ descendants:
 - tactile-sensing
 - vision-language-action-models
 - world-models
-sources_7d: 2
-sources_30d: 9
+sources_7d: 5
+sources_30d: 12
 recent_mentions:
 - slug: 2026-08-06-the-year-ai-science-and-the-physical-ai-industry-came-alive
   title: The Year AI Science and the Physical AI Industry Came Alive

@@ -17,10 +17,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 10
+mention_count: 12
 last_reorg_date: '2026-05-14'
-sources_7d: 0
-sources_30d: 0
+sources_7d: 2
+sources_30d: 2
 recent_mentions:
 - slug: 2025-11-06-successful-funding-round-for-empa-eth-spin-off-57-million-to
   title: 'Successful funding round for Empa-ETH spin-off: $ 5.7 million to industrialize ultra-thin solid-state batteries - admin.ch'

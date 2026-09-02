@@ -21,7 +21,7 @@ frontier:
 - Can the eight-layer cool-window stack be deposited over architectural-scale glass at a cost per m² competitive with existing low-emissivity coatings, and does it survive standard glazing durability tests?
 - What radiator area, mass and $/kW does a megawatt-class orbital data centre require, and does that figure close the 4.4x 2026 cost gap between space and terrestrial compute 2026 06 23 semianalysis space datacenters?
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-06-23-semianalysis-space-datacenters
   title: 'To Boldly Go: The Case for Space Datacenters'

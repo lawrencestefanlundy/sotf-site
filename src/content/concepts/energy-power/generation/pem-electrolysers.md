@@ -15,10 +15,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 5
+mention_count: 6
 last_reorg_date: '2026-05-14'
-sources_7d: 1
-sources_30d: 1
+sources_7d: 2
+sources_30d: 2
 recent_mentions:
 - slug: 2023-09-24-e16-in-conversation-with-john-waite
   title: '☎️ E16: In Conversation with John Waite, Co-Founder and CEO of Phycobloom and a Breakthrough Energy Fellow on the State of Biofuels and Algae Fuel 🌱⛽'

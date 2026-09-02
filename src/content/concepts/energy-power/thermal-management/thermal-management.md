@@ -37,7 +37,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 97
+mention_count: 99
 descendants:
 - ai-thermal-management
 - cryogenic-cooling
@@ -61,8 +61,8 @@ descendants:
 - tim-approach-map
 - two-phase-cooling
 - vapor-chambers
-sources_7d: 1
-sources_30d: 6
+sources_7d: 3
+sources_30d: 8
 recent_mentions:
 - slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint
   title: 'What actually limits a humanoid to minutes: the thermal cliff, not the battery'

@@ -28,8 +28,8 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-mention_count: 112
-sources_7d: 4
+mention_count: 113
+sources_7d: 5
 sources_30d: 39
 recent_mentions:
 - slug: 2026-08-20-callosum-100m-seed-announcement

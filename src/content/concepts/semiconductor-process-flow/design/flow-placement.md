@@ -19,7 +19,7 @@ sources:
 - '[[2023-08-31-e13-chiplets-how-chip-lego-is-driving]]'
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
-mention_count: 129
+mention_count: 131
 parent_concepts:
 - flow-rtl-design
 scorecard:
@@ -36,8 +36,8 @@ frontier:
 - How do the reported 146% and 52% wirelength gains over TAP 2.5D and TACPlace compare against a commercial production placer rather than academic baselines?
 - Does the approximately 10x runtime advantage hold beyond 'dozens of chiplets', and where does the analytical formulation break down as element count grows?
 - Can 420 nm 3-sigma micro-transfer-printing placement accuracy and greater than 95% yield be held across high-volume production lots, and what is the accuracy budget for the resulting photonic device performance?
-sources_7d: 2
-sources_30d: 24
+sources_7d: 4
+sources_30d: 22
 recent_mentions:
 - slug: 2026-08-20-callosum-100m-seed-announcement
   title: Callosum announces $100M seed led by Atomico (round coverage + Companies House filings)

@@ -26,7 +26,7 @@ descendants:
 - semiconductor-optical-amplifier
 - single-photon-sources
 - vcsels
-mention_count: 73
+mention_count: 79
 scorecard:
   viability: 4
   drivers: 3
@@ -42,8 +42,8 @@ frontier:
 - Can the crystal-edge and coating phase contributions identified in linear optical parametric oscillators be controlled well enough to make squeezer thresholds predictable at manufacture 2026 06 02 phase sensitive crystal edge effects in linear optical param?
 - Are microwatt-level chip-scale blue and nanowatt mid-IR outputs sufficient for atomic clock, sensing or spectroscopy applications, or is a power scaling route required 2026 05 05 nonlinear frequency translation in micromachined rb vapor ce?
 - Do the theoretical advantages claimed for correlated and superradiant sources survive contact with real mode-matching and synchronisation constraints, given that these constraints already forced a switch to a narrowband laser in a covert-communication experiment 2026 05 29 toward practical two way covert communication?
-sources_7d: 1
-sources_30d: 13
+sources_7d: 7
+sources_30d: 18
 recent_mentions:
 - slug: 2026-05-02-energetiq-euv-light-sources
   title: Energetiq EUV light sources

@@ -28,7 +28,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 70
+mention_count: 71
 last_reorg_date: '2026-05-14'
 descendants:
 - spiking-neural-networks
@@ -41,8 +41,8 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Overrated
 scorecard_status: draft
-sources_7d: 1
-sources_30d: 8
+sources_7d: 2
+sources_30d: 9
 recent_mentions:
 - slug: 2026-07-31-inference-silicon-roster-sprint
   title: 'Inference-silicon roster verification sprint: 10 companies for the competitive-analysis capital map'

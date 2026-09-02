@@ -30,6 +30,14 @@ frontier:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-25-embedd-pre-seed-inelectronics
+  title: Embedd raises EUR 2.3m for semiconductor integration software
+  date: '2026-08-25'
+  kind: web
+- slug: 2026-08-24-embedd-pre-seed-siliconangle
+  title: Chip software automation startup Embedd raises $2.7M
+  date: '2026-08-24'
+  kind: web
 - slug: 2026-07-27-embedd-bsp-generation
   title: Embedd — BSP, driver and devicetree generation from chip documentation
   date: '2026-07-27'

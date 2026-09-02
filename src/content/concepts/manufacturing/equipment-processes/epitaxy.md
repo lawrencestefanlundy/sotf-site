@@ -22,7 +22,7 @@ scorecard:
 scorecard_status: draft
 mention_count: 71
 sources_7d: 2
-sources_30d: 10
+sources_30d: 8
 recent_mentions:
 - slug: 2026-05-02-self-buffered-bto-epitaxy-on-oxide-insulator-light-sci-app-2
   title: 'Self-buffered BTO epitaxy on oxide insulator (Light: Sci & App 2025)'

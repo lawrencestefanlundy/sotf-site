@@ -14,14 +14,14 @@ tags:
 - auto-stub
 descendants:
 - agentic-workload-retrieval
-mention_count: 3
+mention_count: 4
 frontier:
 - What is the measured traversal latency and energy per linknode hop for the Views model on real hardware, and how does it compare with a conventional property-graph engine on the same query set?
 - Has the Views preprint passed peer review, and have any of its ISA operations, including CAR, been implemented in silicon rather than simulated?
 - Do graph-structured retrieval pipelines built on such a store show measurable answer-quality or cost gains over vector-index RAG on a published benchmark?
 - At what graph size does the claim of traversal without whole-memory broadcast break down, and what is the memory-capacity ceiling per device?
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
 - slug: 2025-08-12-ai-and-junior-white-collar-automation
   title: 'AI and Junior White Collar Automation: Update after EIG’s New Report'

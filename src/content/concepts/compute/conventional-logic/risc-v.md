@@ -33,8 +33,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 97
-sources_7d: 1
+mention_count: 98
+sources_7d: 2
 sources_30d: 10
 recent_mentions:
 - slug: 2026-07-17-the-once-and-future-kimi

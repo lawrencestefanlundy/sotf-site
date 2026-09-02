@@ -29,8 +29,8 @@ scorecard:
   verdict: Overrated
 scorecard_status: draft
 mention_count: 81
-sources_7d: 1
-sources_30d: 6
+sources_7d: 0
+sources_30d: 5
 recent_mentions:
 - slug: 2026-06-01-hbm-state-of-play
   title: HBM state of play (mid-2026) — technology, supercycle, three-supplier standing

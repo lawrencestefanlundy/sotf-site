@@ -14,9 +14,12 @@ related_concepts:
 - quantum-sensing
 - photonics
 sources:
+- '[[2026-07-24-the-huggingface-incident]]'
+- '[[2026-06-05-recursive-until-the-power-bill]]'
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-07-01-a-primer-carbon-nanotubes]]'
 - '[[2024-12-16-willow-and-the-race-to-quantum-advantage]]'
+- '[[2026-04-14-the-photonic-foundry-fallacy]]'
 - '[[2024-12-04-cubits-in-a-fridge-why-is-nobody]]'
 - '[[2023-05-31-three-underrated-technologies-from]]'
 scorecard:
@@ -28,14 +31,18 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 326
-sources_7d: 3
-sources_30d: 9
+mention_count: 332
+sources_7d: 5
+sources_30d: 10
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
   kind: web
+- slug: 2026-07-24-the-huggingface-incident
+  title: The HuggingFace Incident
+  date: '2026-07-24'
+  kind: substack
 - slug: 2026-07-10-quantumdiamonds-raises-91m-in-eu-chips-act-first-for-its-dia
   title: QuantumDiamonds raises €91M in EU Chips Act first for its diamond chip scanner - Dealroom
   date: '2026-07-10'
@@ -58,10 +65,6 @@ recent_mentions:
   kind: web
 - slug: 2026-06-22-thermal-stack-arms-race-ai-computing-power-fuels-diamond
   title: AI Computing Power Fuels 'Diamond Cooling' Multi-Billion-Dollar Race
-  date: '2026-06-22'
-  kind: web
-- slug: 2026-06-22-tim-approaches-full-sweep
-  title: TIM approaches — exhaustive in-market + R&D sweep (vendors, classes, startups)
   date: '2026-06-22'
   kind: web
 neighbors:

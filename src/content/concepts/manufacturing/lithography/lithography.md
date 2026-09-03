@@ -9,14 +9,21 @@ parent_concepts:
 - lithography
 related_concepts: []
 sources:
+- '[[2026-07-03-thats-a-learning-curve-mate-not-rsi]]'
 - '[[2023-07-27-e10-pushing-moores-law-to-the-limit]]'
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
+- '[[2026-04-17-state-of-the-future-friday-four-67c]]'
+- '[[2026-06-05-recursive-until-the-power-bill]]'
 - '[[2023-07-14-e08-optical-computing]]'
+- '[[2026-04-14-the-photonic-foundry-fallacy]]'
 - '[[2024-10-29-deploy-intelligence-too-cheap-to]]'
+- '[[2026-06-19-the-housefab-always-wins]]'
 - '[[2025-12-19-lfg-for-semiconductors]]'
+- '[[2026-07-07-the-asml-killer]]'
 - '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
 - '[[2023-08-25-e12-nanomechanical-computing-gears]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
+- '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
 scorecard:
   viability: 5
@@ -27,7 +34,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 196
+mention_count: 203
 descendants:
 - computational-lithography
 - directed-self-assembly
@@ -45,17 +52,29 @@ descendants:
 - two-photon-polymerization
 - x-ray-lithography
 - xolography
-sources_7d: 1
-sources_30d: 9
+sources_7d: 0
+sources_30d: 8
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
   kind: web
+- slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
+  title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
+  date: '2026-07-28'
+  kind: substack
 - slug: 2026-07-09-in-die-microfluidic-cooling-sprint
   title: In-die microfluidic cooling — cluster research sprint
   date: '2026-07-09'
   kind: web
+- slug: 2026-07-07-the-asml-killer
+  title: The ASML Killer?
+  date: '2026-07-07'
+  kind: substack
+- slug: 2026-07-03-thats-a-learning-curve-mate-not-rsi
+  title: That’s a learning curve mate, not RSI
+  date: '2026-07-03'
+  kind: substack
 - slug: 2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology
   title: IBM Debuts World's First Sub-1 Nanometer Chip Technology
   date: '2026-06-25'
@@ -64,22 +83,10 @@ recent_mentions:
   title: Semi Doped — Daily Update, June 23rd 2026
   date: '2026-06-23'
   kind: web
-- slug: 2026-06-19-sovereignty-semi-bifurcation-us-tells-asml-it-has-evidence
-  title: US Tells ASML It Has Evidence EUV Lithography Tool Reached China
+- slug: 2026-06-19-the-housefab-always-wins
+  title: The House/Fab Always Wins
   date: '2026-06-19'
-  kind: web
-- slug: 2026-06-14-frontier-ai-value-capture
-  title: 'Frontier AI value capture: where the $4T accrues (research synthesis)'
-  date: '2026-06-14'
-  kind: web
-- slug: 2026-06-14-semianalysis-smic-n3-vs-intel-18a
-  title: Is SMIC N+3's Metal Pitch Smaller than Intel 18A's?
-  date: '2026-06-14'
-  kind: web
-- slug: 2026-06-11-semianalysis-intel-should-raise-capital
-  title: Intel Should Raise Capital
-  date: '2026-06-11'
-  kind: web
+  kind: substack
 neighbors: []
 ---
 **Lithography is the set of techniques that define patterns on a substrate, and across the supplied evidence it is the step that sets cost per bit, device uniformity and yield for memory, CMOS qubit arrays, photonics and 3D micro-optics alike.**

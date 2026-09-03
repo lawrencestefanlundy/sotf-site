@@ -8,10 +8,15 @@ related_concepts: []
 sources:
 - '[[2024-11-05-confidential-ai-the-dog-that-didnt]]'
 - '[[2025-08-12-ai-and-junior-white-collar-automation]]'
+- '[[2026-06-05-recursive-until-the-power-bill]]'
 - '[[2025-02-05-you-like-ai-agents-you-are-gonna]]'
+- '[[2026-04-10-state-of-the-future-friday-four-551]]'
 - '[[2025-10-09-a-specific-theory-of-sovereign-ai]]'
 - '[[2025-01-15-the-end-of-zero-marginal-costs-the]]'
+- '[[2026-05-08-consensus-capital-national-ai-stacks]]'
 - '[[2025-05-15-young-people-cant-get-jobs-now-what]]'
+- '[[2026-02-13-four-things-friday]]'
+- '[[2026-02-20-four-things-friday-575]]'
 - '[[2026-05-06-data-value-migrates-to-retrieval-layer-google-cloud-next]]'
 - '[[2026-08-05-stealthium-gpu-powered-security-intelligence-site-docs-compe]]'
 - '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
@@ -28,7 +33,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 86
+mention_count: 91
 descendants:
 - agent-identity-kya
 - agentic-ai
@@ -39,7 +44,7 @@ descendants:
 - stablecoins
 - x402
 sources_7d: 8
-sources_30d: 22
+sources_30d: 21
 recent_mentions:
 - slug: 2026-08-24-embedd-pre-seed-siliconangle
   title: Chip software automation startup Embedd raises $2.7M
@@ -69,10 +74,10 @@ recent_mentions:
   title: AEON product verification — facilitator + merchant network + atomic settlement, not a netting competitor
   date: '2026-06-18'
   kind: web
-- slug: 2026-05-28-semianalysis-finding-miscompiles
-  title: Finding Miscompiles for Fun, Not Profit
-  date: '2026-05-28'
-  kind: web
+- slug: 2026-06-05-recursive-until-the-power-bill
+  title: Recursive, Until the Power Bill
+  date: '2026-06-05'
+  kind: substack
 neighbors: []
 ---
 **AI agents are LLM-driven systems that plan, call external tools and act autonomously over long horizons, and by mid-2026 the field's centre of gravity has shifted from demonstrating capability to measuring it on realistic end-to-end tasks and containing the security failures that autonomy creates.**

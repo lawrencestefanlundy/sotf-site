@@ -23,6 +23,22 @@ mention_count: 80
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-02-esas-first-lunar-rover-rolls-forward
+  title: ESA’s first lunar rover rolls forward
+  date: '2026-09-02'
+  kind: web
+- slug: 2026-09-02-clusters-encore-for-reentry-science-a-success
+  title: Cluster’s encore for reentry science a success
+  date: '2026-09-02'
+  kind: web
+- slug: 2026-09-01-nasa-selects-blue-origin-as-mars-telecommunications-network-
+  title: NASA Selects Blue Origin as Mars Telecommunications Network Provider
+  date: '2026-09-01'
+  kind: web
+- slug: 2026-09-01-chinas-rare-earths-duopoly
+  title: China's Rare Earths Duopoly
+  date: '2026-09-01'
+  kind: web
 - slug: 2026-08-31-what-happened-this-month-at-the-european-space-agency-august
   title: What happened this month at the European Space Agency? (August 2026)
   date: '2026-08-31'
@@ -38,22 +54,6 @@ recent_mentions:
 - slug: 2026-08-12-nasa-data-helps-commercial-space-plan-living-off-our-moon
   title: NASA Data Helps Commercial Space Plan Living Off Our Moon
   date: '2026-08-12'
-  kind: web
-- slug: 2026-08-11-building-the-moon-base-nasa-stories-at-the-ion
-  title: 'Building the Moon Base: NASA Stories at the Ion'
-  date: '2026-08-11'
-  kind: web
-- slug: 2026-08-11-nasa-completes-astronaut-deployed-science-instrument-for-lun
-  title: NASA Completes Astronaut-Deployed Science Instrument for Lunar Surface
-  date: '2026-08-11'
-  kind: web
-- slug: 2026-08-07-nasas-lunar-development-and-test-facility-prepares-artemis-h
-  title: NASA’s Lunar Development and Test Facility Prepares Artemis Hardware for Moon
-  date: '2026-08-07'
-  kind: web
-- slug: 2026-08-07-iris2-reinforced-and-accelerated-as-implementation-advances
-  title: IRIS² reinforced and accelerated as implementation advances
-  date: '2026-08-07'
   kind: web
 neighbors: []
 ---

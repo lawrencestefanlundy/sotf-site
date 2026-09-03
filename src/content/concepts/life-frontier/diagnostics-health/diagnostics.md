@@ -11,6 +11,8 @@ related_concepts: []
 sources:
 - '[[2024-11-05-confidential-ai-the-dog-that-didnt]]'
 - '[[2023-07-14-e08-optical-computing]]'
+- '[[2026-04-22-detecting-proteins-in-blood-with]]'
+- '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
 scorecard:
   viability: 3
   drivers: 3
@@ -20,22 +22,26 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 115
+mention_count: 116
 sources_7d: 5
-sources_30d: 20
+sources_30d: 18
 recent_mentions:
 - slug: 2026-08-03-spad-single-photon-market-scan
   title: SPAD / single-photon detector market scan — incumbent structure and company cohort
   date: '2026-08-03'
   kind: web
+- slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
+  title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
+  date: '2026-07-28'
+  kind: substack
 - slug: 2026-06-04-asg-biosensor-host-cell-protein-bioprocess
   title: Startup's biosensor makes drug development and manufacturing cheaper (MIT News — Advanced Silicon Group)
   date: '2026-06-04'
   kind: web
-- slug: 2026-03-18-bacteria-reveal-themselves-through-unique-sounds-a-breakthro
-  title: 'Bacteria reveal themselves through unique sounds: a breakthrough for rapid diagnostics - TU Delft'
-  date: '2026-03-18'
-  kind: web
+- slug: 2026-04-22-detecting-proteins-in-blood-with
+  title: Detecting Proteins in Blood with Photonics w/ Prateek of Proteins1
+  date: '2026-04-22'
+  kind: substack
 - slug: 2026-02-16-chip-scale-bio-instrumentation-lex-diagnostics-receives-fda
   title: LEX Diagnostics Receives FDA 510(k) Clearance and CLIA Waiver for LEX VELO System
   date: '2026-02-16'
@@ -52,10 +58,6 @@ recent_mentions:
   title: '🔮E08: Optical Computing'
   date: '2023-07-14'
   kind: substack
-- slug: 2015-12-14-darpa-sbir-injectable-diagnostics-chemical-sensors-synthetic
-  title: 'DARPA SBIR: Injectable Diagnostics, Chemical Sensors, Synthetic Biology - Global Biodefense'
-  date: '2015-12-14'
-  kind: web
 neighbors: []
 ---
 **"Diagnostics" here is not one technology but a measurement layer that has recently been rebuilt around nonlinear frequency conversion, single-photon silicon detection and machine-learning reconstruction, with strong benchtop results in physics instrumentation and only early, pre-clinical evidence on the health side.**

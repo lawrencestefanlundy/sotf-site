@@ -9,6 +9,7 @@ parent_concepts:
 - metasurfaces-flat-optics
 related_concepts: []
 sources:
+- '[[2026-07-07-the-asml-killer]]'
 - '[[2026-07-21-robotically-assembled-electromagnetic-metamaterials-for-long]]'
 - '[[2025-08-19-thermal-stack-arms-race-thermal-interface-materials-market]]'
 scorecard:
@@ -20,7 +21,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 58
+mention_count: 59
 sources_7d: 3
 sources_30d: 8
 recent_mentions:
@@ -28,6 +29,10 @@ recent_mentions:
   title: Robotically Assembled Electromagnetic Metamaterials for Long-Range Space Situational Awareness
   date: '2026-07-21'
   kind: web
+- slug: 2026-07-07-the-asml-killer
+  title: The ASML Killer?
+  date: '2026-07-07'
+  kind: substack
 - slug: 2025-08-19-thermal-stack-arms-race-thermal-interface-materials-market
   title: 'Thermal Interface Materials Market Report 2026-2036: High-Performance TIMs for Data Centers, AI Servers, and 5G Infrastructure'
   date: '2025-08-19'

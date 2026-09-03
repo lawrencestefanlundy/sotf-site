@@ -90,6 +90,19 @@ The meta-thesis over the whole map is **Thermal Stack Arms Race**: **the stack s
 
 Heat flux at the hotspot now exceeds ~1 kW/cm²; package TDP is passing 1 kW and heading to 1.8–2.3 kW (Nvidia Rubin, CES Jan 2026). Each layer below is where some of that heat is conducted, acquired, transported, or rejected.
 
+### Off-ladder — the power-converter plane *(added 2 Sep 2026)*
+
+**L0-L8 is one path: the accelerator's own junction to ambient.** An AI assembly has a second
+heat source that does not sit on it. The 48V-to-sub-1V conversion plane is mounted beneath the
+package, on the **far side of the die from the cold plate**, dissipating 3-4kW in one plane on a
+~23kW part with 2mm or less of height for switches, magnetics and any thermal solution combined.
+It has its own junction-to-ambient path and that path terminates nowhere.
+
+Consequence for anyone reading this map as a coverage check: a layer can be fully covered here
+and the assembly still be thermally bound, which is what a Cerebras architect reported in Aug 2026
+(cooling the wafer is easy, cooling the converters is very difficult). Bet page:
+**Converter Plane Thermal**. Evidence: <sup class="ref"><a href="https://arxiv.org/pdf/2606.28837" title="Vertical power delivery: the thermal limit at the 48V-to-point-of-load stage" rel="noopener">ref</a></sup>.
+
 ### L0 — In-die / embedded cooling *(the frontier that bypasses the TIM problem)*
 - **Role:** remove heat *inside* the silicon — microchannels etched into the die or interposer backside, on-die hotspot management. If heat never has to cross a die-attach interface, layers L1–L3 stop binding.
 - **Binding question:** does the **foundry/OSAT absorb** the in-silicon primitive, or does a specialist hold a manufacturable one?

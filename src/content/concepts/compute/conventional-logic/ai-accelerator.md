@@ -12,6 +12,7 @@ sources:
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
 - '[[2024-10-29-deploy-intelligence-too-cheap-to]]'
 - '[[2024-10-22-state-of-the-future-part-deux]]'
+- '[[2026-07-16-the-path-to-agi-runs-through-hbm]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
 - '[[2024-yole-emerging-memories-2024]]'
@@ -54,7 +55,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 102
+mention_count: 103
 last_reorg_date: '2026-05-14'
 scorecard:
   viability: 4
@@ -66,8 +67,16 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 1
-sources_30d: 5
+sources_30d: 4
 recent_mentions:
+- slug: 2026-09-01-nvidia-earnings-dollars-per-gigawatt-open-and-hugging-face
+  title: Nvidia Earnings, Dollars Per Gigawatt, Open and Hugging Face
+  date: '2026-09-01'
+  kind: web
+- slug: 2026-09-01-chinas-ai-rally-is-real-most-global-investors-are-missing-it
+  title: China’s AI Rally Is Real. Most Global Investors Are Missing It.
+  date: '2026-09-01'
+  kind: web
 - slug: 2026-08-29-us-commerce-department-moves-to-block-china-ai-firms-from-re
   title: U.S. Commerce Department moves to block China AI firms from remote access to advanced chips - 디지털투데이
   date: '2026-08-29'
@@ -75,6 +84,10 @@ recent_mentions:
 - slug: 2026-08-27-ainews-hot-chips-openais-jalapeno-cerebras-cs-5-groq-3-lpx-a
   title: '[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6'
   date: '2026-08-27'
+  kind: web
+- slug: 2026-08-26-from-gitex-global-to-ces-how-eic-accelerator-company-multive
+  title: 'From GITEX Global to CES: How EIC Accelerator company Multiverse Computing secured a strategic alliance with Axelera AI - European Innovation Council'
+  date: '2026-08-26'
   kind: web
 - slug: 2026-08-19-ainews-memory-prices-up-500-in-12-months
   title: '[AINews] Memory prices up 500% in 12 months'
@@ -87,18 +100,6 @@ recent_mentions:
 - slug: 2026-08-10-how-ais-demand-for-compute-could-disrupt-america
   title: How AI's Demand for Compute could Disrupt America
   date: '2026-08-10'
-  kind: web
-- slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
-  title: Chip Industry Week in Review (7 Aug 2026)
-  date: '2026-08-07'
-  kind: web
-- slug: 2026-08-05-stealthium-gpu-powered-security-intelligence-site-docs-compe
-  title: Stealthium — GPU-Powered Security Intelligence (site + docs + competitive context)
-  date: '2026-08-05'
-  kind: web
-- slug: 2026-08-03-perimeter-compute-wants-to-turn-spare-office-power-into-edge
-  title: Perimeter Compute wants to turn spare office power into edge AI data centers - Latitude Media
-  date: '2026-08-03'
   kind: web
 neighbors: []
 ---

@@ -9,8 +9,11 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2025-07-01-a-primer-carbon-nanotubes]]'
+- '[[2026-04-14-the-photonic-foundry-fallacy]]'
+- '[[2026-07-07-the-asml-killer]]'
 - '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
+- '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
 - '[[2026-06-22-thermal-stack-layer-landscape]]'
 - '[[2026-07-09-in-die-microfluidic-cooling-sprint]]'
@@ -21,7 +24,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 42
+mention_count: 45
 frontier:
 - What taper angle is achievable at production throughput for high-aspect-ratio stack etches, and at what layer count does the resulting die-cost minimum fall for current 3D memory nodes walker 2013 rigorous 3d nand flash cost analysis?
 - Can SC-1 wet etching of Nb and TiN be shown to improve superconducting resonator or qubit coherence relative to plasma-etched controls, with quantitative loss-tangent comparison 2026 05 28 sc 1 etching of niobium and titanium nitride thin films?
@@ -34,10 +37,18 @@ recent_mentions:
   title: Etched research sprint — tape-out speed, HBM supply, customer orders (4-lane web sweep)
   date: '2026-07-31'
   kind: web
+- slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
+  title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
+  date: '2026-07-28'
+  kind: substack
 - slug: 2026-07-09-in-die-microfluidic-cooling-sprint
   title: In-die microfluidic cooling — cluster research sprint
   date: '2026-07-09'
   kind: web
+- slug: 2026-07-07-the-asml-killer
+  title: The ASML Killer?
+  date: '2026-07-07'
+  kind: substack
 - slug: 2026-06-22-thermal-stack-layer-landscape
   title: AI datacentre thermal stack, junction-to-ambient — per-layer players, M&A, capture (web research synthesis)
   date: '2026-06-22'
@@ -46,21 +57,13 @@ recent_mentions:
   title: Physics-AI / ML-surrogate simulation competitive landscape (Zenithon comp set beyond PhysicsX)
   date: '2026-06-22'
   kind: web
+- slug: 2026-04-14-the-photonic-foundry-fallacy
+  title: The Photonic Foundry Fallacy
+  date: '2026-04-14'
+  kind: substack
 - slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
   title: 'UK Opportunity in AI: Compound Semiconductors'
   date: '2025-09-10'
-  kind: substack
-- slug: 2025-07-01-a-primer-carbon-nanotubes
-  title: 'A Primer: Carbon Nanotubes'
-  date: '2025-07-01'
-  kind: substack
-- slug: 2025-02-12-wen-babelfish-feat-aron-of-semron
-  title: 'Edge AI: Analog Chips (feat. Aron Kirschen, SEMRON)'
-  date: '2025-02-12'
-  kind: substack
-- slug: 2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth
-  title: '🔮E14: The Real AI Bottleneck: High Bandwidth Memory (HBM)'
-  date: '2023-09-08'
   kind: substack
 neighbors: []
 ---

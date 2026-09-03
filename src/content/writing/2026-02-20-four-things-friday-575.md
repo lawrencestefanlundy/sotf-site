@@ -1,7 +1,8 @@
 ---
-title: 'The Security Versus Productivity Dial: Turn It Up To 11'
+title: Four Things Friday
 published_date: '2026-02-20'
 external_url: https://stateofthefuture.substack.com/p/four-things-friday-575
-format: Essay
-topics: []
+format: Dispatch
+topics:
+- AI
 ---

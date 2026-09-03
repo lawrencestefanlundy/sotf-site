@@ -36,7 +36,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 3
-sources_30d: 12
+sources_30d: 11
 recent_mentions:
 - slug: 2026-06-12-hku-sic-cryogenic-neuromorphic-chip-10mk
   title: HKU world-first cryogenic neuromorphic chip at 10 mK (silicon carbide, impact-ionisation spiking)

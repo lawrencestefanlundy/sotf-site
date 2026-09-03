@@ -25,6 +25,7 @@ sources:
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 - '[[2026-05-26-semianalysis-800vdc-revolution]]'
 - '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
+- '[[2026-09-02-vertical-power-delivery-thermal-limits]]'
 frontier:
 - Does the sputtered sub-nanometre silicide template on Si(111) survive to a complete vertical device with measured blocking voltage, leakage and switching loss, and at what wafer diameter 2026 05 04 an advanced epitaxial strategy enabling vertical gan devices?
 - Can the 2000 Ω/square channel sheet resistance in N-polar AlN/GaN HEMTs be reduced without losing the abrupt heterostructure that delivered the 10,000 on/off ratio 2026 05 15 depletion mode n polar aln based high electron mobility tran?
@@ -39,7 +40,7 @@ tags:
 descendants:
 - aluminium-gallium-nitride
 - indium-gallium-nitride
-mention_count: 31
+mention_count: 33
 scorecard:
   viability: 4
   drivers: null
@@ -49,9 +50,13 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 1
-sources_30d: 3
+sources_7d: 3
+sources_30d: 4
 recent_mentions:
+- slug: 2026-09-02-vertical-power-delivery-thermal-limits
+  title: 'Vertical power delivery: the thermal limit at the 48V-to-point-of-load stage'
+  date: '2026-09-02'
+  kind: web
 - slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint
   title: 'What actually limits a humanoid to minutes: the thermal cliff, not the battery'
   date: '2026-07-26'
@@ -79,10 +84,6 @@ recent_mentions:
 - slug: 2026-04-20-fixing-the-gan-problem
   title: Fixing the GaN Problem
   date: '2026-04-20'
-  kind: web
-- slug: 2026-03-08-diamonds-are-semiconductors-best-friend
-  title: Diamonds are Semiconductors' Best Friend 2026
-  date: '2026-03-08'
   kind: web
 neighbors:
 - slug: wide-bandgap-semiconductors

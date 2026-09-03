@@ -11,6 +11,7 @@ parent_concepts:
 - quantum-sensing
 related_concepts: []
 sources:
+- '[[2026-06-05-recursive-until-the-power-bill]]'
 - '[[2024-12-16-willow-and-the-race-to-quantum-advantage]]'
 - '[[2026-05-02-high-sensitivity-nv-diamond-resonator-comm-materials-2025]]'
 - '[[2026-03-08-diamonds-are-semiconductors-best-friend]]'
@@ -23,7 +24,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 85
+mention_count: 86
 descendants: []
 last_reorg_date: '2026-05-13'
 scorecard:
@@ -36,8 +37,12 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 4
-sources_30d: 16
+sources_30d: 13
 recent_mentions:
+- slug: 2026-06-05-recursive-until-the-power-bill
+  title: Recursive, Until the Power Bill
+  date: '2026-06-05'
+  kind: substack
 - slug: 2026-05-02-high-sensitivity-nv-diamond-resonator-comm-materials-2025
   title: High-sensitivity NV diamond resonator (Comm. Materials 2025)
   date: '2026-05-02'

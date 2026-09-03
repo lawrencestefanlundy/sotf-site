@@ -9,16 +9,21 @@ parent_concepts:
 - packaging
 related_concepts: []
 sources:
+- '[[2026-07-16-the-path-to-agi-runs-through-hbm]]'
 - '[[2026-06-23-semidoped-daily-update]]'
 - '[[2026-06-22-sintered-metal-die-attach-landscape]]'
 - '[[2026-06-01-hbm-state-of-play]]'
 - '[[2026-07-02-semianalysis-ectc2026-advanced-packaging]]'
 - '[[2026-04-15-semianalysis-isscc-2026]]'
 - '[[2026-06-22-tim-approaches-full-sweep]]'
-mention_count: 15
+mention_count: 16
 sources_7d: 1
 sources_30d: 1
 recent_mentions:
+- slug: 2026-07-16-the-path-to-agi-runs-through-hbm
+  title: The Path To AGI Runs Through HBM
+  date: '2026-07-16'
+  kind: substack
 - slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
   title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
   date: '2026-07-02'

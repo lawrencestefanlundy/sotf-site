@@ -10,11 +10,15 @@ sources:
 - '[[2024-11-05-confidential-ai-the-dog-that-didnt]]'
 - '[[2023-06-15-e04-no10-downing-street-and-vector]]'
 - '[[2025-09-23-the-compute-gradient]]'
+- '[[2026-05-22-category-3-ai-x-xr-the-glasses-stack]]'
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
+- '[[2026-04-17-state-of-the-future-friday-four-67c]]'
 - '[[2025-10-09-a-specific-theory-of-sovereign-ai]]'
+- '[[2026-04-14-the-photonic-foundry-fallacy]]'
 - '[[2024-10-29-deploy-intelligence-too-cheap-to]]'
 - '[[2024-11-12-atomic-energy-can-nuclear-power-our]]'
 - '[[2024-10-22-state-of-the-future-part-deux]]'
+- '[[2026-05-01-state-of-the-future-friday-four-7b7]]'
 - '[[2025-04-16-the-state-of-photonic-computing]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
@@ -53,7 +57,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 103
+mention_count: 108
 descendants:
 - ai-grade-datacentre-real-estate
 - ai-infrastructure-scaling
@@ -64,8 +68,8 @@ descendants:
 - moe-all-to-all-collectives
 - prefill-vs-decode
 - sovereign-ai
-sources_7d: 0
-sources_30d: 8
+sources_7d: 1
+sources_30d: 9
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
@@ -149,7 +153,7 @@ The barriers are downstream of the decision to build. Skilled-trades capacity is
 
 In pure magnitude the impact case is settled: dedicated AI infrastructure spend passing $1T by 2029 **2026 Idc Ai Infrastructure Tracker** and hyperscaler capex plausibly above $1T in 2027 <sup class="ref"><a href="https://valueaddvc.com/blog/big-tech-ai-capex-in-2025-microsoft-google-meta-amazon-and-the-spending-race" title="Big Tech AI Capex 2026: Microsoft, Google, Meta, Amazon at $725 Billion" rel="noopener">ref</a></sup> make this one of the largest capital formations in the technology economy. Value capture research places the durable rents upstream in foundry, accelerators, memory, litho and packaging, protected by multi-year contracts new entrants cannot replicate, with AI accelerators taking 60% of N3 output in 2026 and 90% in 2027. That is infrastructure capturing surplus, not merely enabling it.
 
-The reason this is not a 5 is that the same analysis shows value flowing away from the frontier-model layer, with open-weight pricing (DeepSeek V3.2 at $0.28/M against GPT-5.2 at roughly $10/M) imposing a ceiling, and structural unprofitability at high revenue. If model-layer economics compress, the demand curve for the most expensive infrastructure legs is less secure than the aggregate spend figures suggest. The counterweight is that inference is already about two-thirds of compute <sup class="ref"><a href="https://www.ark-invest.com/articles/analyst-research/the-state-of-ai-infrastructure-demand-costs-custom-silicon" title="The State of AI Infrastructure: Demand, Costs, Custom Silicon" rel="noopener">ref</a></sup> and that distribution platforms can convert token volume into margin <sup class="ref"><a href="https://newsletter.semianalysis.com/p/anthropic-growth-and-bedrock-mix" title="Anthropic Growth and Bedrock Mix Drive AWS Margins Higher While Peers Lag" rel="noopener">ref</a></sup>, which makes utilisation-linked infrastructure more resilient than training-linked infrastructure.
+The reason this is not a 5 is that the same analysis shows value flowing away from the frontier-model layer, with open-weight pricing (DeepSeek V3.2 at $0.28/M against GPT-5.2 at roughly $10/M) imposing a ceiling, and structural unprofitability at high revenue. If model-layer economics compress, the demand curve for the most expensive infrastructure parts is less secure than the aggregate spend figures suggest. The counterweight is that inference is already about two-thirds of compute <sup class="ref"><a href="https://www.ark-invest.com/articles/analyst-research/the-state-of-ai-infrastructure-demand-costs-custom-silicon" title="The State of AI Infrastructure: Demand, Costs, Custom Silicon" rel="noopener">ref</a></sup> and that distribution platforms can convert token volume into margin <sup class="ref"><a href="https://newsletter.semianalysis.com/p/anthropic-growth-and-bedrock-mix" title="Anthropic Growth and Bedrock Mix Drive AWS Margins Higher While Peers Lag" rel="noopener">ref</a></sup>, which makes utilisation-linked infrastructure more resilient than training-linked infrastructure.
 
 **TLDR: Trillion-dollar-scale spend with durable rents, but the sources show the value concentrating in specific layers rather than the category as a whole.**
 

@@ -5,5 +5,5 @@ external_url: https://stateofthefuture.substack.com/p/the-next-vc-meme-is
 format: Essay
 topics:
 - Photonics
-- Sensing
+- Memory
 ---

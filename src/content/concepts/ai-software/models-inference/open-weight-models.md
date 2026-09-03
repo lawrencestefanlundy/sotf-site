@@ -6,13 +6,14 @@ aliases: []
 parent_concepts: []
 related_concepts: []
 sources:
+- '[[2026-07-24-the-huggingface-incident]]'
 - '[[2026-07-18-post-training-inference-loop-open-weight-models-are-turning]]'
 auto_stub: true
 last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 1
+mention_count: 2
 frontier:
 - Did independent benchmarking after the 27 July 2026 weight release reproduce Moonshot's claimed K3 parameter activation, 1M context behaviour and 2.5x scaling-efficiency figure 2026 07 15 kimi k3 launch moonshot?
 - What is the measured cost per million tokens of self-serving K3 on a 64-plus accelerator supernode, and does it beat the $3/$15 hosted price at realistic utilisation 2026 07 17 the once and future kimi?
@@ -21,6 +22,10 @@ frontier:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-07-24-the-huggingface-incident
+  title: The HuggingFace Incident
+  date: '2026-07-24'
+  kind: substack
 - slug: 2026-07-20-ai-inference-economics-column
   title: Money Stuff-style column on AI model pricing, open weights and datacentre monetisation
   date: '2026-07-20'

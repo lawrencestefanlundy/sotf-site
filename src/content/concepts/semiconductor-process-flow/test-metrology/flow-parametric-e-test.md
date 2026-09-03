@@ -15,9 +15,9 @@ tags:
 sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
-mention_count: 7
-sources_7d: 0
-sources_30d: 0
+mention_count: 9
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
   title: Carbon Nanotubes in the Datacentre
@@ -100,7 +100,7 @@ Net read: the served pool (parametric testers plus the probe-card razor-blade la
 
 - [Automated Test Equipment (ATE)](/manufacturing/equipment-processes/automated-test-equipment/) (the larger sibling category; parametric is the in-line cousin, ATE is functional/at-speed)
 - [Defect inspection & review (process step)](/semiconductor-process-flow/test-metrology/flow-defect-inspection/) (prior step) · [Wafer sort / probe (process step)](/semiconductor-process-flow/test-metrology/flow-wafer-sort-probe/) (next step, shares the prober)
-- Thesis: **Back End Test Equipment Non Area**
+- Thesis: **Back End Test Equipment No Wedge**
 
 ## Sources
 

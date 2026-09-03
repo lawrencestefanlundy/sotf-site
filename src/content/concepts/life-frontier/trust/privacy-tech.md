@@ -24,6 +24,7 @@ sources:
 - '[[2023-07-06-e07-decentralised-ai]]'
 - '[[2022-12-15-unbundling-the-database]]'
 - '[[2023-03-05-interview-dr-hyoduk-shin-professor]]'
+- '[[2026-02-13-four-things-friday]]'
 - '[[2023-04-05-interview-stijn-christiaens-ceo-of]]'
 - '[[2023-05-05-interview-rick-hao-partner-at-speedinvest]]'
 - '[[2026-07-28-zk-identity-primitives-commoditised]]'
@@ -40,7 +41,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - seeded-stub
-mention_count: 20
+mention_count: 21
 scorecard:
   viability: 3
   drivers: 3
@@ -57,6 +58,10 @@ recent_mentions:
   title: Google open-sources its ZKP libraries, the EU ships an open-source age-verification blueprint, and eIDAS 2.0 encourages ZKP in the wallet
   date: '2026-04-15'
   kind: web
+- slug: 2026-02-13-four-things-friday
+  title: Four Things Friday
+  date: '2026-02-13'
+  kind: substack
 - slug: 2025-10-09-a-specific-theory-of-sovereign-ai
   title: A Specific Theory of Sovereign AI
   date: '2025-10-09'
@@ -80,10 +85,6 @@ recent_mentions:
 - slug: 2023-07-06-e07-decentralised-ai
   title: '🔮E07: Decentralised AI'
   date: '2023-07-06'
-  kind: substack
-- slug: 2023-06-08-three-overrated-technologies-from
-  title: '💡E03: Three Overrated Technologies from the Future Fusion, Bitcoin & LEO Internet + Ultrasound for Hibernation; Wind Power; Skeletal Editing; Carbon Pricing; & Psychedelics++'
-  date: '2023-06-08'
   kind: substack
 neighbors: []
 ---

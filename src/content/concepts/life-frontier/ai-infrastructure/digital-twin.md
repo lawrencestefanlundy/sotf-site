@@ -40,7 +40,7 @@ frontier:
 - Can real-time surrogates preserve enough multi-physics fidelity to replace finite-element analysis in packaging reliability decisions, or is accuracy lost exactly where hot spots and warpage matter 2026 06 05 toward digital twins in 3d ic packaging a critical review of?
 - For biological twins, does reconstruction quality from in vivo imaging reach the topological correctness needed for predictive, rather than merely descriptive, simulation 2026 06 26 biorxiv cerebrovascular imaging to graph reconstructio?
 sources_7d: 6
-sources_30d: 24
+sources_30d: 22
 recent_mentions:
 - slug: 2026-08-24-embedd-pre-seed-siliconangle
   title: Chip software automation startup Embedd raises $2.7M

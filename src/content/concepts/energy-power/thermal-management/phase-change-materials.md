@@ -14,7 +14,9 @@ sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-07-01-a-primer-carbon-nanotubes]]'
 - '[[2023-06-30-e06-the-model-t-moment-for-bits-llms]]'
+- '[[2026-04-22-detecting-proteins-in-blood-with]]'
 - '[[2024-11-20-nuclear-fusion-the-state-of-play]]'
+- '[[2026-04-14-the-photonic-foundry-fallacy]]'
 - '[[2024-10-29-deploy-intelligence-too-cheap-to]]'
 - '[[2024-11-12-atomic-energy-can-nuclear-power-our]]'
 - '[[2024-10-22-state-of-the-future-part-deux]]'
@@ -22,6 +24,7 @@ sources:
 - '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
 - '[[2025-04-16-the-state-of-photonic-computing]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
+- '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
 scorecard:
   viability: null
@@ -32,10 +35,14 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 873
-sources_7d: 0
-sources_30d: 4
+mention_count: 879
+sources_7d: 1
+sources_30d: 5
 recent_mentions:
+- slug: 2026-09-02-vertical-power-delivery-thermal-limits
+  title: 'Vertical power delivery: the thermal limit at the 48V-to-point-of-load stage'
+  date: '2026-09-02'
+  kind: web
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
@@ -48,6 +55,10 @@ recent_mentions:
   title: TIM market sizing refresh — the definitional 2x split and the real addressable slot
   date: '2026-07-31'
   kind: web
+- slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
+  title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
+  date: '2026-07-28'
+  kind: substack
 - slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint
   title: 'What actually limits a humanoid to minutes: the thermal cliff, not the battery'
   date: '2026-07-26'
@@ -59,14 +70,6 @@ recent_mentions:
 - slug: 2026-07-10-edge-buyer-kpi-sweep
   title: 'Edge-AI buyer KPI sweep: power envelope + energy per work; cost per token absent'
   date: '2026-07-10'
-  kind: web
-- slug: 2026-07-09-in-die-microfluidic-cooling-sprint
-  title: In-die microfluidic cooling — cluster research sprint
-  date: '2026-07-09'
-  kind: web
-- slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
-  title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
-  date: '2026-07-02'
   kind: web
 neighbors: []
 ---

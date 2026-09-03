@@ -14,6 +14,8 @@ sources:
 - '[[2023-06-23-e05-the-future-of-edge-ai-brain-inspired]]'
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2023-07-14-e08-optical-computing]]'
+- '[[2026-08-07-the-memory-trade-isnt-over-weights]]'
+- '[[2026-04-14-the-photonic-foundry-fallacy]]'
 - '[[2023-11-20-e21-can-we-make-enough-ai-chips]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 auto_stub: true
@@ -21,7 +23,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 174
+mention_count: 177
 descendants:
 - 2d-materials
 - aluminium-gallium-nitride
@@ -72,12 +74,16 @@ scorecard:
   verdict: Underrated
 scorecard_status: draft
 sources_7d: 4
-sources_30d: 17
+sources_30d: 14
 recent_mentions:
 - slug: 2026-08-31-qcells-tandem-iec-ul-certification-tuv-rheinland
   title: Qcells secures TUV Rheinland certification for perovskite-silicon tandem solar tech (pv magazine, 16 Jul 2026; pv-tech corroborating)
   date: '2026-08-31'
   kind: web
+- slug: 2026-08-07-the-memory-trade-isnt-over-weights
+  title: 'The Memory Trade Isn''t Over: Weights and KV Cache'
+  date: '2026-08-07'
+  kind: substack
 - slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
   title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
   date: '2026-07-02'
@@ -98,14 +104,10 @@ recent_mentions:
   title: 'ISSCC 2026: NVIDIA & Broadcom CPO, HBM4 & LPDDR6, TSMC Active LSI, Logic-Based SRAM, UCIe-S and More'
   date: '2026-04-15'
   kind: web
-- slug: 2026-04-14-sovereign-electronics-manufacturing-edip-opens-the-door-eu
-  title: 'EDIP Opens the Door: EU Funding Now Available for Defence Electronics Including PCBs and Substrates'
+- slug: 2026-04-14-the-photonic-foundry-fallacy
+  title: The Photonic Foundry Fallacy
   date: '2026-04-14'
-  kind: web
-- slug: 2026-03-08-diamonds-are-semiconductors-best-friend
-  title: Diamonds are Semiconductors' Best Friend 2026
-  date: '2026-03-08'
-  kind: web
+  kind: substack
 neighbors: []
 ---
 **The substrate is the wafer or support film underneath a device layer, and recent work shows it is an active design variable, with measured cases where changing substrate material, miscut angle or interfacial template alters crystal quality, vertical resistance, cryogenic heat flow and mechanical distortion by factors of several to tens.**

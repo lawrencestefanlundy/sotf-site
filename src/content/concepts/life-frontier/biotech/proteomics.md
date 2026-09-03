@@ -7,21 +7,26 @@ parent_concepts:
 - biotech
 - life-frontier
 related_concepts: []
-sources: []
+sources:
+- '[[2026-04-22-detecting-proteins-in-blood-with]]'
 auto_stub: true
 last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 6
+mention_count: 7
 frontier:
 - Do the reported in-memory acceleration figures hold on measured silicon rather than simulated PCM and SOT-MRAM arrays, and what are the endurance and drift limits of superlattice PCM under repeated analog spectral matching?
 - Is a 0.3% increase in clustering error and 96% search overlap acceptable at the proteoform level, or does the loss fall preferentially on low-abundance and modified peptides?
 - Can incremental clustering initialised from pre-clustered reference data generalise to samples whose spectra are poorly represented in the initialisation set, for example novel post-translational modifications?
 - What throughput and cost per sample would be needed for MS proteomics to resolve the modification states that programmable dCas13-kinase systems are designed to install?
-sources_7d: 1
+sources_7d: 0
 sources_30d: 1
-recent_mentions: []
+recent_mentions:
+- slug: 2026-04-22-detecting-proteins-in-blood-with
+  title: Detecting Proteins in Blood with Photonics w/ Prateek of Proteins1
+  date: '2026-04-22'
+  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

@@ -15,7 +15,9 @@ related_concepts:
 - robot-actuators
 - tactile-sensing
 sources:
+- '[[2026-05-08-consensus-capital-national-ai-stacks]]'
 - '[[2025-04-30-has-the-time-come-to-take-mortal]]'
+- '[[2026-02-20-four-things-friday-575]]'
 - '[[2026-06-08-semianalysis-unitree-robotics]]'
 - '[[2026-06-19-humanoid-actuator-supply-chain-china-s-dexterous-hand-boom]]'
 - '[[2025-10-28-humanoid-robot-market-chinese-humanoid-pricing-collapse-and]]'
@@ -31,6 +33,7 @@ sources:
 - '[[2026-05-12-humanoid-actuator-supply-chain-humanoid-robotics-in-2026]]'
 - '[[2025-12-18-humanoid-actuator-supply-chain-10-000-dexterous-hands]]'
 - '[[2026-06-21-robot-autonomy-destination-humanoid-robots-in-2026-pilots]]'
+- '[[2026-09-01-chinas-ai-rally-is-real-most-global-investors-are-missing-it]]'
 - '[[2026-07-16-robotics-labour-augmentation-humanoid-robot-bom-cost]]'
 - '[[2026-06-10-robotics-labour-augmentation-humanoid-robotics-company]]'
 - '[[2026-07-13-robotics-labour-augmentation-global-emerging-robotics]]'
@@ -63,10 +66,14 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Overrated
 scorecard_status: draft
-mention_count: 76
-sources_7d: 0
+mention_count: 79
+sources_7d: 1
 sources_30d: 4
 recent_mentions:
+- slug: 2026-09-01-chinas-ai-rally-is-real-most-global-investors-are-missing-it
+  title: China’s AI Rally Is Real. Most Global Investors Are Missing It.
+  date: '2026-09-01'
+  kind: web
 - slug: 2026-08-15-telekin-call-to-arms
   title: Telekin — Call to Arms (company thesis + Horatio prototype findings)
   date: '2026-08-15'
@@ -95,10 +102,6 @@ recent_mentions:
   title: 'Humanoid Robots in 2026: What Is Actually Deployed'
   date: '2026-07-18'
   kind: web
-- slug: 2026-07-18-robotics-labour-augmentation-humanoid-robot-deployment
-  title: 'Humanoid Robot Deployment Report: Real-World Milestones Industry Adoption Tracker July 2026'
-  date: '2026-07-18'
-  kind: web
 neighbors:
 - slug: vision-language-action-models
   name: Vision-Language-Action (VLA) Models
@@ -121,7 +124,7 @@ neighbors:
 
 ## Summary
 
-A humanoid robot is a general-purpose mobile manipulator built in roughly human form: two legs (or a wheeled base), two arms, dexterous hands, and a head carrying cameras and microphones. The design bet is that human-shaped machines can be dropped into environments built for humans (warehouses, factories, shops, receptions) without re-engineering the environment, and that one hardware platform can be retasked by software rather than rebuilt per job. That is the opposite of the classical industrial robot bet, where a fixed arm in a caged cell is cheap and reliable because the world around it is redesigned to suit it.
+A humanoid robot is a general-purpose mobile manipulator built in roughly human form: two parts (or a wheeled base), two arms, dexterous hands, and a head carrying cameras and microphones. The design bet is that human-shaped machines can be dropped into environments built for humans (warehouses, factories, shops, receptions) without re-engineering the environment, and that one hardware platform can be retasked by software rather than rebuilt per job. That is the opposite of the classical industrial robot bet, where a fixed arm in a caged cell is cheap and reliable because the world around it is redesigned to suit it.
 
 The machine decomposes into three cost-and-difficulty layers. First, actuation: electric motors plus reducers (harmonic or strain-wave drives) at each joint. Actuation, including dexterous hands, is the overwhelming majority of a humanoid's bill of materials, with semiconductors a small and shrinking fraction, and even the on-board silicon mostly motor control rather than AI compute <sup class="ref"><a href="https://www.futuremarketsinc.com/the-global-emerging-robotics-market-2027-2037/" title="Global Emerging Robotics Market 2027–2037: Value Capture and BOM Decomposition" rel="noopener">ref</a></sup>. Actuators, reducers, force sensors and tactile systems are the components with the highest BOM share and the steepest qualification barriers <sup class="ref"><a href="https://ohsem.me/2026/07/the-us58-9-billion-humanoid-robot-opportunity-starts-with-actuators-sensors-and-batteries-says-datam-intelligence/" title="Humanoid Robot BOM Cost Analysis: Actuators, Sensors and Batteries Market Focus" rel="noopener">ref</a></sup>. Second, sensing: vision, depth, and touch. Tactile stacks are still de facto rather than standardised, with Meta's Sparsh-X touch encoders trained on around 1M Digit 360 sensor interactions sitting at the integration layer <sup class="ref"><a href="https://arxiv.org/html/2506.14754v1" title="Sparsh-X: Multisensory Touch Representations for Robot Manipulation" rel="noopener">ref</a></sup>, while the IEEE Humanoid Study Group's published framework addresses general humanoid safety rather than tactile interfaces <sup class="ref"><a href="https://www.therobotreport.com/ieee-study-group-publishes-framework-for-humanoid-standards/" title="IEEE Humanoid Study Group publishes framework for humanoid standards" rel="noopener">ref</a></sup>. Third, autonomy: the policy that turns instructions into useful multi-hour work. This is the weakest layer, and much current deployment is teleoperated or teleop-assisted.
 

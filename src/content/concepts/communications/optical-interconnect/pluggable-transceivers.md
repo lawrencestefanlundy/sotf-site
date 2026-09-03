@@ -9,6 +9,8 @@ parent_concepts:
 - optical-interconnect
 related_concepts: []
 sources:
+- '[[2026-04-14-the-photonic-foundry-fallacy]]'
+- '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
 - '[[2026-04-07-optical-displaces-copper-all-ai-data-center-interconnects]]'
 - '[[2026-04-10-optical-interconnect-cpo-transition-co-packaged-optics-cpo]]'
 - '[[2026-06-15-pic-market-structure-2030-cpo-npo-market-expected-to-exceed]]'
@@ -17,15 +19,23 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 9
+mention_count: 11
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
+  title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
+  date: '2026-07-28'
+  kind: substack
 - slug: 2026-06-15-pic-market-structure-2030-cpo-npo-market-expected-to-exceed
   title: CPO/NPO Market Expected to Exceed US$39 Billion by 2030
   date: '2026-06-15'
   kind: web
+- slug: 2026-04-14-the-photonic-foundry-fallacy
+  title: The Photonic Foundry Fallacy
+  date: '2026-04-14'
+  kind: substack
 - slug: 2026-04-10-optical-interconnect-cpo-transition-co-packaged-optics-cpo
   title: Co Packaged Optics (CPO) – Scaling with Light for the Next Wave of Interconnect
   date: '2026-04-10'

@@ -20,7 +20,7 @@ frontier:
 - Can InAs or Weyl-semimetal thermoradiative devices close the two-orders-of-magnitude gap between measured reverse saturation current and the radiative limit, and if so at what device area and cost 2026 05 06 initial development of mbe grown inas diodes for thermoradia 2026 06 16 designing strong and broadband nonreciprocal thermal radiati?
 - Does Dracula's stated 600M cm2/yr capacity translate into shipped volume and a cost per cm2 that undercuts a coin cell over the sensor's service life 2025 2026 european next gen pv cohort?
 - Will unified SWIPT receivers that rectify power and demodulate information in the same analogue hardware reach a power budget compatible with a 452 nA quiescent node, or does the harvesting-plus-decoding overhead cancel the gain 2026 07 27 nsf 2616563 cif unified swipt emerging models and de 2026 06 16 a hardware based multi stage dynamic power management archit?
-- 'Theme work-up ran 16 Jul 2026 and landed as energy harvesting non area: sub-venture market, incumbent-owned silicon socket, dated ambient-IoT re-open trigger. This concept page tracks the technology; the verdict lives there.'
+- 'Theme work-up ran 16 Jul 2026 and landed as energy harvesting no wedge: sub-venture market, incumbent-owned silicon socket, dated ambient-IoT re-open trigger. This concept page tracks the technology; the verdict lives there.'
 - What does Casimir (the Q2 2026 'Ambient Power' fundraise) actually build? Unverified from the table alone.
 last_updated: '2026-08-31'
 tags:

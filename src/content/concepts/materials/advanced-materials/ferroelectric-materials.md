@@ -40,7 +40,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 4
-sources_30d: 18
+sources_30d: 17
 recent_mentions:
 - slug: 2025-26-lapedus-next-gen-ferroelectric-memory
   title: Next-Gen Ferroelectric Memory Still A Work In Progress

@@ -22,6 +22,10 @@ related_concepts:
 - nand-flash
 - photonic-compute
 sources:
+- '[[2026-07-03-thats-a-learning-curve-mate-not-rsi]]'
+- '[[2026-08-07-the-memory-trade-isnt-over-weights]]'
+- '[[2026-04-28-making-ai-inference-cheap-with-analog]]'
+- '[[2026-07-16-the-path-to-agi-runs-through-hbm]]'
 - '[[2026-07-10-hyperscaler-token-economics-sweep]]'
 - '[[2026-07-07-high-bandwidth-flash-the-full-report]]'
 - '[[2026-07-31-positron-research-sprint]]'
@@ -36,16 +40,20 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 22
+mention_count: 26
 descendants:
 - token-cost-stack
 sources_7d: 0
-sources_30d: 0
+sources_30d: 1
 recent_mentions:
 - slug: 2026-08-14-chip-tail-verification-sweep
   title: 'Chip-comparison tail verification sweep: 37 companies re-verified, consolidation wave confirmed'
   date: '2026-08-14'
   kind: web
+- slug: 2026-08-07-the-memory-trade-isnt-over-weights
+  title: 'The Memory Trade Isn''t Over: Weights and KV Cache'
+  date: '2026-08-07'
+  kind: substack
 - slug: 2026-07-31-positron-research-sprint
   title: 'Positron AI research sprint: architecture, funding, customers, manufacturing'
   date: '2026-07-31'
@@ -58,20 +66,16 @@ recent_mentions:
   title: Money Stuff-style column on AI model pricing, open weights and datacentre monetisation
   date: '2026-07-20'
   kind: web
+- slug: 2026-07-16-the-path-to-agi-runs-through-hbm
+  title: The Path To AGI Runs Through HBM
+  date: '2026-07-16'
+  kind: substack
 - slug: 2026-07-10-workload-phase-silicon-sweep
   title: 'Workload-phase silicon sweep: pre-training / RL / prefill / decode procurement split'
   date: '2026-07-10'
   kind: web
 - slug: 2026-07-10-inference-silicon-deep-research
   title: 'Deep research: measured vs claimed inference-silicon economics (adversarially verified, 23/25 claims confirmed)'
-  date: '2026-07-10'
-  kind: web
-- slug: 2026-07-10-hyperscaler-token-economics-sweep
-  title: 'Hyperscaler inference-economics language sweep: cost per token as the datacentre KPI'
-  date: '2026-07-10'
-  kind: web
-- slug: 2026-07-10-edge-buyer-kpi-sweep
-  title: 'Edge-AI buyer KPI sweep: power envelope + energy per work; cost per token absent'
   date: '2026-07-10'
   kind: web
 neighbors:

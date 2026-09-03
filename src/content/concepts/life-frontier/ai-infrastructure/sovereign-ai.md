@@ -9,7 +9,13 @@ parent_concepts:
 - ai-infrastructure
 related_concepts: []
 sources:
+- '[[2026-05-22-category-3-ai-x-xr-the-glasses-stack]]'
+- '[[2026-04-17-state-of-the-future-friday-four-67c]]'
 - '[[2025-10-09-a-specific-theory-of-sovereign-ai]]'
+- '[[2026-05-08-consensus-capital-national-ai-stacks]]'
+- '[[2026-04-28-making-ai-inference-cheap-with-analog]]'
+- '[[2026-05-01-state-of-the-future-friday-four-7b7]]'
+- '[[2026-02-20-four-things-friday-575]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2026-03-08-diamonds-are-semiconductors-best-friend]]'
 - '[[2026-06-09-uk-pumps-money-into-sovereign-ai-as-ai-startups-start-to-sho]]'
@@ -19,7 +25,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - framework
-mention_count: 25
+mention_count: 31
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 1
@@ -32,18 +38,30 @@ recent_mentions:
   title: UK pumps money into sovereign AI, as AI startups start to show their mettle - RCR Wireless News
   date: '2026-06-09'
   kind: web
+- slug: 2026-05-22-category-3-ai-x-xr-the-glasses-stack
+  title: 'Category 3: AI x XR, the Glasses Stack, But Ultimately the Meaninglessness of it All'
+  date: '2026-05-22'
+  kind: substack
+- slug: 2026-05-08-consensus-capital-national-ai-stacks
+  title: 'Consensus Capital: National AI Stacks Taking Shape'
+  date: '2026-05-08'
+  kind: substack
+- slug: 2026-05-01-state-of-the-future-friday-four-7b7
+  title: 'State of the Future: Friday Four'
+  date: '2026-05-01'
+  kind: substack
+- slug: 2026-04-28-making-ai-inference-cheap-with-analog
+  title: Making AI inference Cheap with Analog Computing w/ Shwetank Kumar @ EnCharge AI
+  date: '2026-04-28'
+  kind: substack
+- slug: 2026-04-17-state-of-the-future-friday-four-67c
+  title: 'State of the Future: Friday Four'
+  date: '2026-04-17'
+  kind: substack
 - slug: 2026-03-08-diamonds-are-semiconductors-best-friend
   title: Diamonds are Semiconductors' Best Friend 2026
   date: '2026-03-08'
   kind: web
-- slug: 2025-10-09-a-specific-theory-of-sovereign-ai
-  title: A Specific Theory of Sovereign AI
-  date: '2025-10-09'
-  kind: substack
-- slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
-  title: 'UK Opportunity in AI: Compound Semiconductors'
-  date: '2025-09-10'
-  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

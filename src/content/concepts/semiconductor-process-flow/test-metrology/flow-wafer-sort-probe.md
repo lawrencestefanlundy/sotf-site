@@ -16,9 +16,9 @@ tags:
 sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
-mention_count: 7
-sources_7d: 0
-sources_30d: 0
+mention_count: 9
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
   title: Carbon Nanotubes in the Datacentre
@@ -99,7 +99,7 @@ Net read: this is one of the better-positioned steps in the flow, because test i
 - [Wafer Probe Cards & Test Interconnect](/manufacturing/equipment-processes/probe-cards/) - the recurring consumable that captures much of the value at this step.
 - [Automated Test Equipment (ATE)](/manufacturing/equipment-processes/automated-test-equipment/) - the tester duopoly that anchors the test cell.
 - **Known Good Die Test Wedge** - thesis: rising KGD intensity from chiplets/HBM as the growth driver.
-- **Back End Test Equipment Non Area** - thesis: test/assembly capex grows off the lithography area-scaling treadmill.
+- **Back End Test Equipment No Wedge** - thesis: test/assembly capex grows off the lithography area-scaling treadmill.
 
 ## Sources
 1. Grand View Research, Automated Test Equipment Market - https://www.grandviewresearch.com/industry-analysis/automated-test-equipment-market

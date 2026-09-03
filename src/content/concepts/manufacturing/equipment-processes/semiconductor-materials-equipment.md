@@ -37,6 +37,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-28-the-us-is-building-chips-act-fabs-but-neglecting-rd---aolcom
+  title: The U.S. Is Building CHIPS Act Fabs but Neglecting R&D - AOL.com
+  date: '2026-08-28'
+  kind: web
 - slug: 2026-08-27-gao-warns-chips-rd-stall-could-cost-us-chip-leadership---iee
   title: GAO Warns CHIPS R&D Stall Could Cost U.S. Chip Leadership - IEEE Spectrum
   date: '2026-08-27'
@@ -64,10 +68,6 @@ recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
-  kind: web
-- slug: 2026-08-06-us-commits-874m-to-strengthen-semiconductor-supply-chain-thr
-  title: US commits $874m to strengthen semiconductor supply chain through CHIPS Act - Innovation News Network
-  date: '2026-08-06'
   kind: web
 neighbors: []
 ---

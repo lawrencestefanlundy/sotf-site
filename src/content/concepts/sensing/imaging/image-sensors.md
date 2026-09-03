@@ -8,6 +8,7 @@ parent_concepts:
 - sensing
 related_concepts: []
 sources:
+- '[[2026-07-10-the-next-vc-meme-is]]'
 - '[[2026-08-12-snapdragon-ar1-sensing-hub-micro-npu]]'
 - '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
 - '[[2026-06-02-singular-photonics-launch]]'
@@ -21,7 +22,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 23
+mention_count: 24
 sources_7d: 0
 sources_30d: 2
 recent_mentions:
@@ -37,6 +38,10 @@ recent_mentions:
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
   kind: web
+- slug: 2026-07-10-the-next-vc-meme-is
+  title: The Next VC Meme Is...
+  date: '2026-07-10'
+  kind: substack
 - slug: 2026-06-20-launch-cost-curve-web
   title: Launch-cost curve + LEO deployment + constellation compute (web bundle)
   date: '2026-06-20'

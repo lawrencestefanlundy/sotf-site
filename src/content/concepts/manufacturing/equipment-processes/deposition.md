@@ -13,13 +13,14 @@ related_concepts:
 sources:
 - '[[2023-07-27-e10-pushing-moores-law-to-the-limit]]'
 - '[[2025-07-01-a-primer-carbon-nanotubes]]'
+- '[[2026-04-14-the-photonic-foundry-fallacy]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
 auto_stub: false
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 203
+mention_count: 205
 descendants:
 - ald-atomic-layer-deposition
 - chemical-vapor-deposition
@@ -39,8 +40,8 @@ frontier:
 - Does the 0.5 nm sputtered silicide template for GaN on Si(111) reproduce on production-diameter wafers and across the full set of 25 metallic species, and what vertical resistance is achieved in a finished device rather than a test structure?
 - Is the 6% growth-axis elastic anisotropy in ion-beam-sputtered silica a general property of ion-beam-sputtered oxides, and does removing it at 900 C degrade other coating properties?
 - Can kinetically driven dopant patterning during CVD, demonstrated in vanadium-doped WS2, be controlled deliberately rather than observed after the fact?
-sources_7d: 5
-sources_30d: 16
+sources_7d: 6
+sources_30d: 15
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
@@ -58,6 +59,10 @@ recent_mentions:
   title: Initiated CVD overview (Wiley Analytical Science 2024)
   date: '2026-05-02'
   kind: web
+- slug: 2026-04-14-the-photonic-foundry-fallacy
+  title: The Photonic Foundry Fallacy
+  date: '2026-04-14'
+  kind: substack
 - slug: 2026-02-22-deposition-materials-process-market-companies-that-master
   title: Companies that master AS-ALD today specifically ASM and AMAT are positioned to dominate the $15B deposition market of the late 2020s
   date: '2026-02-22'
@@ -70,10 +75,6 @@ recent_mentions:
   title: 'A Primer: Carbon Nanotubes'
   date: '2025-07-01'
   kind: substack
-- slug: 2025-03-11-deposition-materials-process-market-atlant-3d-secures-15-m
-  title: ATLANT 3D Secures $15 M Series A+ as Demand Grows for its Atomic Layer Processing Technology
-  date: '2025-03-11'
-  kind: web
 neighbors:
 - slug: chemical-vapor-deposition
   name: CVD (Chemical Vapor Deposition)

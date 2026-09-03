@@ -15,6 +15,7 @@ sources:
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
 - '[[2023-07-14-e08-optical-computing]]'
 - '[[2023-07-23-analog-computing-the-once-and-future]]'
+- '[[2026-07-07-the-asml-killer]]'
 - '[[2025-04-30-has-the-time-come-to-take-mortal]]'
 - '[[2025-04-16-the-state-of-photonic-computing]]'
 - '[[2026-05-24-mose2-exciton-polariton-all-optical-switch]]'
@@ -30,7 +31,7 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 103
+mention_count: 104
 descendants:
 - diffractive-deep-neural-network
 - diffractive-deep-neural-networks
@@ -39,7 +40,7 @@ descendants:
 - photonic-compute-memory
 - photonic-tensor-cores
 sources_7d: 2
-sources_30d: 10
+sources_30d: 8
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
@@ -49,6 +50,10 @@ recent_mentions:
   title: 'Inference-silicon roster verification sprint: 10 companies for the competitive-analysis capital map'
   date: '2026-07-31'
   kind: web
+- slug: 2026-07-07-the-asml-killer
+  title: The ASML Killer?
+  date: '2026-07-07'
+  kind: substack
 - slug: 2026-05-24-mose2-exciton-polariton-all-optical-switch
   title: New light-based switch could cut chip energy use and speed future AI photonics
   date: '2026-05-24'
@@ -68,10 +73,6 @@ recent_mentions:
 - slug: 2025-04-16-the-state-of-photonic-computing
   title: 'Photonic Computing: A Primer'
   date: '2025-04-16'
-  kind: substack
-- slug: 2025-03-12-project-mayhem-ai-inward-collapse
-  title: what happens when we hollow out work?
-  date: '2025-03-12'
   kind: substack
 neighbors: []
 ---

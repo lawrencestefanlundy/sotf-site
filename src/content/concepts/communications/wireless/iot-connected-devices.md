@@ -37,6 +37,10 @@ recent_mentions:
   title: Wi-Fi 7 Accelerates into the MCU Space as Infineon and Synaptics Move First - finance.biggo.com
   date: '2026-08-18'
   kind: web
+- slug: 2026-08-11-anybus-communicators-are-cra-ready---august-2026---industria
+  title: Anybus Communicators are CRA-ready - August 2026 - Industrial Data Xchange (IDX) - SA Instrumentation & Control
+  date: '2026-08-11'
+  kind: web
 - slug: 2026-08-03-quectel-adds-wi-fi-7-and-bluetooth-60-modules-for-consumer-a
   title: Quectel Adds Wi-Fi 7 and Bluetooth 6.0 Modules for Consumer and Edge Devices - IoT Business News
   date: '2026-08-03'
@@ -48,10 +52,6 @@ recent_mentions:
 - slug: 2026-08-01-inje-university-partners-with-huawei-to-build-a-cutting-edge
   title: Inje University Partners with Huawei to Build a Cutting-Edge Wi-Fi 7 Smart Campus - Huawei Enterprise
   date: '2026-08-01'
-  kind: web
-- slug: 2026-07-09-non-cellular-5g-networks-simplified---hacksterio
-  title: Non-Cellular 5G Networks Simplified - Hackster.io
-  date: '2026-07-09'
   kind: web
 neighbors: []
 ---

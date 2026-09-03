@@ -13,7 +13,10 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
+- '[[2026-04-17-state-of-the-future-friday-four-67c]]'
+- '[[2026-04-14-the-photonic-foundry-fallacy]]'
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
+- '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 frontier:
 - Can fibre-to-chip and laser-to-chip coupling losses be cut from the 15-16 dB bare-chip figures reported in hybrid TFLN transmitter arrays to link-budget-viable levels, and at what packaging cost 2026 06 05 hybrid integrated dfb laser coupled 1 8 thin film lithium ni?
@@ -24,7 +27,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - material
-mention_count: 153
+mention_count: 156
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 4
@@ -36,8 +39,12 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 3
-sources_30d: 15
+sources_30d: 11
 recent_mentions:
+- slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
+  title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
+  date: '2026-07-28'
+  kind: substack
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
@@ -58,18 +65,14 @@ recent_mentions:
   title: 320 Gb/s Unamplified Transmission Using 100 GHz Ge PD and TFLN MZM on a Foundry-Compatible SiPh Platform
   date: '2026-04-22'
   kind: web
-- slug: 2026-04-03-photonic-packaging-cpo-the-soitec-twin-a-massive
-  title: The Soitec Twin? A Massive Undiscovered Foundational Photonics Play & The Fab Nobody Is Watching
-  date: '2026-04-03'
-  kind: web
-- slug: 2026-03-30-photonics-material-class-war-silicon-photonics-and-photonic
-  title: 'Silicon Photonics and Photonic Integrated Circuits 2026-2036: Technologies, Markets, and Forecasts'
-  date: '2026-03-30'
-  kind: web
-- slug: 2026-03-12-photonics-material-class-war-hyperlight-umc-and-wavetek
-  title: HyperLight, UMC, and Wavetek Announce Strategic Partnership for High-Volume Foundry Production of TFLN Chiplet Platform
-  date: '2026-03-12'
-  kind: web
+- slug: 2026-04-17-state-of-the-future-friday-four-67c
+  title: 'State of the Future: Friday Four'
+  date: '2026-04-17'
+  kind: substack
+- slug: 2026-04-14-the-photonic-foundry-fallacy
+  title: The Photonic Foundry Fallacy
+  date: '2026-04-14'
+  kind: substack
 neighbors: []
 ---
 **Thin-film lithium niobate is a sub-micron single-crystal Pockels-effect layer bonded onto silicon or oxide wafers, and in 2026 it moved from lab modulators to 200 mm wafer-scale integration with >95% printing yield and 320 Gb/s unamplified links, while simultaneously setting records in integrated quantum optics such as 18 dB of on-chip squeezing <sup class="ref"><a href="https://techxplore.com/news/2026-04-silicon-photonics-gained-powerful-ally.html" title="320 Gb/s Unamplified Transmission Using 100 GHz Ge PD and TFLN MZM on a Foundry-Compatible SiPh Platform" rel="noopener">ref</a></sup>.**

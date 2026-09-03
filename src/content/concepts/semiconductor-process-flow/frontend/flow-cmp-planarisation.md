@@ -15,9 +15,9 @@ tags:
 sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
-mention_count: 7
-sources_7d: 0
-sources_30d: 0
+mention_count: 9
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
   title: Carbon Nanotubes in the Datacentre
@@ -76,11 +76,11 @@ Net read: this is one of the better structurally-growing consumables pools in WF
 - **Drivers**
  - Step-count compounding is the core engine: sub-7nm logic now runs 30-40 CMP steps per wafer vs 15-20 at 28nm, with steps rising ~20-30% per node generation as metal layers and multi-patterning multiply [9][10].
  - Three roadmap shifts each bolt on net-new CMP: 3D NAND scaling toward >1,000 layers, GAA nanosheet release/isolation, and backside power delivery (which needs aggressive wafer thinning from >700um to 1-3um then fine CMP) [8][11].
- - Advanced packaging is the second leg: NVIDIA Blackwell interposers use ~14 CMP steps per package (2x the prior generation), and SK hynix is reportedly adding ~36 CMP tools by 2027 for HBM, with hybrid bonding demanding sub-1um co-planarity [7].
+ - Advanced packaging is the second part: NVIDIA Blackwell interposers use ~14 CMP steps per package (2x the prior generation), and SK hynix is reportedly adding ~36 CMP tools by 2027 for HBM, with hybrid bonding demanding sub-1um co-planarity [7].
 
 - **Constraints**
  - Cerium-oxide chokepoint: China controls ~70% of ceria extraction/refining; 2025 export quotas lifted ceria prices ~34% YoY, squeezing slurry-maker margins even after ~7% list-price rises [7]. Colloidal-silica substitution cuts oxide removal rates up to ~30%, so it is not a clean swap [7].
- - WFE cyclicality and capex pauses still gate the equipment leg; consumables are stickier but track wafer-passes, which fall in a memory downturn.
+ - WFE cyclicality and capex pauses still gate the equipment part; consumables are stickier but track wafer-passes, which fall in a memory downturn.
  - Qualification lock-in cuts both ways: hard for incumbents to lose, but also hard for a new abrasive/formulation to displace, capping how fast the materials pool re-prices.
 
 - **Trends & inflections to watch**

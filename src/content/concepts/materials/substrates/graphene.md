@@ -11,6 +11,7 @@ related_concepts: []
 sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-07-01-a-primer-carbon-nanotubes]]'
+- '[[2026-05-29-blairs-been-on-the-tokens-again]]'
 - '[[2024-10-29-deploy-intelligence-too-cheap-to]]'
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
@@ -23,9 +24,9 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 308
+mention_count: 309
 sources_7d: 10
-sources_30d: 19
+sources_30d: 16
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
@@ -55,10 +56,10 @@ recent_mentions:
   title: Fulfilling the promise of graphene - enterprise.cam.ac.uk
   date: '2026-06-04'
   kind: web
-- slug: 2026-02-06-eth-zurich-spinout-chiral-bags-12m-to-scale-robotic-platform
-  title: ETH Zurich spinout Chiral bags $12M to scale robotic platform for graphene chip integration - Tech Funding News
-  date: '2026-02-06'
-  kind: web
+- slug: 2026-05-29-blairs-been-on-the-tokens-again
+  title: Blair's Been On The Tokens Again
+  date: '2026-05-29'
+  kind: substack
 neighbors: []
 ---
 **Graphene is a single atomic layer of carbon whose Dirac-like electrons and mechanical robustness make it the default substrate and tuning platform across 2D materials research, but the May 2026 literature shows it functioning mainly as a laboratory building block rather than a deployed material.**

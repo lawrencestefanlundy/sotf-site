@@ -15,6 +15,8 @@ related_concepts:
 - in-memory-computing
 sources:
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
+- '[[2026-07-16-the-path-to-agi-runs-through-hbm]]'
+- '[[2026-02-13-four-things-friday]]'
 - '[[2026-01-22-ai-chips-computeram-and-the-future]]'
 - '[[2025-08-12-scaling-the-memory-wall-the-rise-and-roadmap-of-hbm]]'
 scorecard:
@@ -26,7 +28,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 16
+mention_count: 18
 descendants:
 - inference-economics
 - token-cost-stack
@@ -37,6 +39,14 @@ recent_mentions:
   title: 'Positron AI research sprint: architecture, funding, customers, manufacturing'
   date: '2026-07-31'
   kind: web
+- slug: 2026-07-16-the-path-to-agi-runs-through-hbm
+  title: The Path To AGI Runs Through HBM
+  date: '2026-07-16'
+  kind: substack
+- slug: 2026-02-13-four-things-friday
+  title: Four Things Friday
+  date: '2026-02-13'
+  kind: substack
 - slug: 2026-02-02-photonic-engines-for-data-centers
   title: Photonic "Engines" for Data Centers
   date: '2026-02-02'

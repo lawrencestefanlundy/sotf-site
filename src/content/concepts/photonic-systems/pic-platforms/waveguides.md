@@ -9,13 +9,17 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
+- '[[2026-04-17-state-of-the-future-friday-four-67c]]'
+- '[[2026-04-14-the-photonic-foundry-fallacy]]'
+- '[[2026-07-07-the-asml-killer]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
+- '[[2026-07-10-the-next-vc-meme-is]]'
 auto_stub: true
 last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 153
+mention_count: 157
 scorecard:
   viability: 5
   drivers: 4
@@ -31,12 +35,20 @@ frontier:
 - How far below dB/cm can visible-band lithium tantalate loss be pushed while keeping the 5 dBm power stability advantage over lithium niobate, and does that advantage hold at higher powers 2026 05 14 robust and active visible light integrated photonics on thin?
 - What pump power and waveguide length does the cavity-less comb architecture actually require to beat a microresonator on total system efficiency, given the resonator's inherently lower threshold 2026 05 28 a cavity less architecture for high power integrated frequen?
 sources_7d: 1
-sources_30d: 13
+sources_30d: 11
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
   kind: web
+- slug: 2026-07-10-the-next-vc-meme-is
+  title: The Next VC Meme Is...
+  date: '2026-07-10'
+  kind: substack
+- slug: 2026-07-07-the-asml-killer
+  title: The ASML Killer?
+  date: '2026-07-07'
+  kind: substack
 - slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
   title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
   date: '2026-07-02'
@@ -57,14 +69,6 @@ recent_mentions:
   title: Waveguide Display Technology Trends and Outlook 2026
   date: '2026-05-25'
   kind: web
-- slug: 2025-12-09-gallium-nitride-photonics-w-james
-  title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
-  date: '2025-12-09'
-  kind: substack
-- slug: 2025-12-02-the-future-of-computing-is-glass
-  title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
-  date: '2025-12-02'
-  kind: substack
 neighbors: []
 ---
 **A waveguide is the basic wire of integrated photonics, a channel that confines light (or spin waves, or microwaves) by refractive-index or material contrast, and the current research frontier is no longer whether it works but which material platform, loss figure and crosstalk pitch you can get out of a foundry.**

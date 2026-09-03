@@ -19,7 +19,11 @@ mention_count: 52
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2017-05-04-making-3-d-printing-as-simple-as-printing-on-paper---mit-new
+  title: Making 3-D printing as simple as printing on paper - MIT News
+  date: '2017-05-04'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

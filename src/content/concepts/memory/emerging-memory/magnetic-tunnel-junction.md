@@ -35,7 +35,7 @@ parent_concepts:
 - emerging-memory
 - memory
 sources_7d: 1
-sources_30d: 3
+sources_30d: 2
 recent_mentions:
 - slug: 2024-08-30-optical-dram-integrated-magneto-photonic-non-volatile-multi
   title: Integrated magneto-photonic non-volatile multi-bit memory

@@ -8,17 +8,22 @@ parent_concepts:
 - materials
 - functional-layers
 related_concepts: []
-sources: []
+sources:
+- '[[2026-04-14-the-photonic-foundry-fallacy]]'
 frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 2
+mention_count: 3
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-04-14-the-photonic-foundry-fallacy
+  title: The Photonic Foundry Fallacy
+  date: '2026-04-14'
+  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

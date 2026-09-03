@@ -19,6 +19,7 @@ sources:
 - '[[2024-omdia-power-electronics-forecast]]'
 - '[[2026-02-19-the-rise-of-grid-power-electronics-with-drew-baglino---latit]]'
 - '[[2026-07-26-humanoid-duty-cycle-thermal-constraint]]'
+- '[[2026-09-02-vertical-power-delivery-thermal-limits]]'
 scorecard:
   viability: 5
   drivers: 4
@@ -28,7 +29,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 61
+mention_count: 62
 descendants:
 - ai-power-delivery
 - aluminium-gallium-nitride
@@ -45,9 +46,13 @@ descendants:
 - solid-state-circuit-breakers
 - vertical-gan
 - wireless-power-transfer
-sources_7d: 1
+sources_7d: 2
 sources_30d: 4
 recent_mentions:
+- slug: 2026-09-02-vertical-power-delivery-thermal-limits
+  title: 'Vertical power delivery: the thermal limit at the 48V-to-point-of-load stage'
+  date: '2026-09-02'
+  kind: web
 - slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint
   title: 'What actually limits a humanoid to minutes: the thermal cliff, not the battery'
   date: '2026-07-26'
@@ -75,10 +80,6 @@ recent_mentions:
 - slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
   title: 'UK Opportunity in AI: Compound Semiconductors'
   date: '2025-09-10'
-  kind: substack
-- slug: 2025-07-01-a-primer-carbon-nanotubes
-  title: 'A Primer: Carbon Nanotubes'
-  date: '2025-07-01'
   kind: substack
 neighbors: []
 ---

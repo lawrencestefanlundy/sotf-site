@@ -52,9 +52,25 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-01-nvidia-earnings-dollars-per-gigawatt-open-and-hugging-face
+  title: Nvidia Earnings, Dollars Per Gigawatt, Open and Hugging Face
+  date: '2026-09-01'
+  kind: web
+- slug: 2026-09-01-chinas-ai-rally-is-real-most-global-investors-are-missing-it
+  title: China’s AI Rally Is Real. Most Global Investors Are Missing It.
+  date: '2026-09-01'
+  kind: web
+- slug: 2026-09-01-chinas-rare-earths-duopoly
+  title: China's Rare Earths Duopoly
+  date: '2026-09-01'
+  kind: web
 - slug: 2026-08-29-us-commerce-department-moves-to-block-china-ai-firms-from-re
   title: U.S. Commerce Department moves to block China AI firms from remote access to advanced chips - 디지털투데이
   date: '2026-08-29'
+  kind: web
+- slug: 2026-08-28-the-us-is-building-chips-act-fabs-but-neglecting-rd---aolcom
+  title: The U.S. Is Building CHIPS Act Fabs but Neglecting R&D - AOL.com
+  date: '2026-08-28'
   kind: web
 - slug: 2026-08-27-gao-warns-chips-rd-stall-could-cost-us-chip-leadership---iee
   title: GAO Warns CHIPS R&D Stall Could Cost U.S. Chip Leadership - IEEE Spectrum
@@ -67,22 +83,6 @@ recent_mentions:
 - slug: 2026-08-27-ainews-hot-chips-openais-jalapeno-cerebras-cs-5-groq-3-lpx-a
   title: '[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6'
   date: '2026-08-27'
-  kind: web
-- slug: 2026-08-26-we-have-foundation-models-for-language-not-for-physics-anima
-  title: 🔬“We have foundation models for language, not for physics” — Anima Anandkumar, Bren Professor of Computing
-  date: '2026-08-26'
-  kind: web
-- slug: 2026-08-19-ainews-memory-prices-up-500-in-12-months
-  title: '[AINews] Memory prices up 500% in 12 months'
-  date: '2026-08-19'
-  kind: web
-- slug: 2026-08-18-chips-act-funds-40-fab-projects-faces-2026-deadline---legis1
-  title: CHIPS Act Funds 40 Fab Projects, Faces 2026 Deadline - Legis1
-  date: '2026-08-18'
-  kind: web
-- slug: 2026-08-13-how-the-chips-act-changed-binghamton-and-upstate-new-york---
-  title: How the CHIPS Act changed Binghamton and Upstate New York - Press & Sun-Bulletin
-  date: '2026-08-13'
   kind: web
 neighbors:
 - slug: logic

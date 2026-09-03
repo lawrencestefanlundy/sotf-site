@@ -5,5 +5,5 @@ external_url: https://stateofthefuture.substack.com/p/the-photonic-foundry-falla
 format: Essay
 topics:
 - Manufacturing
-- Photonics
+- Materials
 ---

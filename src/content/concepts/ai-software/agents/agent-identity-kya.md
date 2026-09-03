@@ -18,6 +18,7 @@ related_concepts:
 - x402
 - stablecoin-clearing
 sources:
+- '[[2026-05-08-consensus-capital-national-ai-stacks]]'
 - '[[2026-07-21-agent-identity-kya-landscape]]'
 frontier:
 - Does any buyer emerge with a budget line for agent identity itself, as opposed to agent security operations or key custody, where an existing budget line demonstrably converts to acquisitions?
@@ -31,7 +32,7 @@ frontier:
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 9
+mention_count: 10
 scorecard:
   viability: 3
   drivers: 2
@@ -64,6 +65,10 @@ recent_mentions:
   title: World (Tools for Humanity) pivots to enterprise fees and cuts staff as revenue lags
   date: '2026-06-08'
   kind: web
+- slug: 2026-05-08-consensus-capital-national-ai-stacks
+  title: 'Consensus Capital: National AI Stacks Taking Shape'
+  date: '2026-05-08'
+  kind: substack
 - slug: 2026-07-28-zk-identity-primitives-commoditised
   title: Google open-sources its ZKP libraries, the EU ships an open-source age-verification blueprint, and eIDAS 2.0 encourages ZKP in the wallet
   date: '2026-04-15'

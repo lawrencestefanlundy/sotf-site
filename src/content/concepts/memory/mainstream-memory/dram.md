@@ -9,11 +9,16 @@ parent_concepts:
 - mainstream-memory
 related_concepts: []
 sources:
+- '[[2026-07-03-thats-a-learning-curve-mate-not-rsi]]'
 - '[[2023-06-23-e05-the-future-of-edge-ai-brain-inspired]]'
+- '[[2026-08-07-the-memory-trade-isnt-over-weights]]'
 - '[[2023-07-23-analog-computing-the-once-and-future]]'
 - '[[2023-11-20-e21-can-we-make-enough-ai-chips]]'
 - '[[2024-10-22-state-of-the-future-part-deux]]'
+- '[[2026-07-16-the-path-to-agi-runs-through-hbm]]'
+- '[[2026-02-13-four-things-friday]]'
 - '[[2026-01-22-ai-chips-computeram-and-the-future]]'
+- '[[2026-07-10-the-next-vc-meme-is]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
 scorecard:
   viability: 5
@@ -24,10 +29,14 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 175
+mention_count: 181
 sources_7d: 3
-sources_30d: 18
+sources_30d: 16
 recent_mentions:
+- slug: 2026-08-07-the-memory-trade-isnt-over-weights
+  title: 'The Memory Trade Isn''t Over: Weights and KV Cache'
+  date: '2026-08-07'
+  kind: substack
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
@@ -48,17 +57,13 @@ recent_mentions:
   title: Thoughts on AI and power
   date: '2026-07-25'
   kind: web
+- slug: 2026-07-16-the-path-to-agi-runs-through-hbm
+  title: The Path To AGI Runs Through HBM
+  date: '2026-07-16'
+  kind: substack
 - slug: 2026-07-15-kimi-k3-launch-moonshot
   title: Kimi K3 — Moonshot launch post (architecture, quantisation, serving requirements)
   date: '2026-07-15'
-  kind: web
-- slug: 2026-07-07-high-bandwidth-flash-the-full-report
-  title: 'High Bandwidth Flash: The Full Report'
-  date: '2026-07-07'
-  kind: web
-- slug: 2026-07-03-tech-inflation-silicon-shock-ai-server-demand-continues-to
-  title: AI Server Demand Continues to Support Memory Prices in 3Q26, but Gains Moderate as Consumer Demand Weakens and High Base Effects Take Hold
-  date: '2026-07-03'
   kind: web
 neighbors: []
 ---

@@ -22,8 +22,12 @@ sources:
 - '[[2023-10-06-e18-the-state-of-silent-speech-and]]'
 - '[[2023-08-31-e13-chiplets-how-chip-lego-is-driving]]'
 - '[[2023-11-20-e21-can-we-make-enough-ai-chips]]'
+- '[[2026-06-19-the-housefab-always-wins]]'
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2026-02-12-how-to-invest-in-ai-sovereignty-sovereign]]'
+- '[[2026-04-24-state-of-the-future-friday-four-002]]'
+- '[[2026-07-16-the-path-to-agi-runs-through-hbm]]'
+- '[[2026-07-10-the-next-vc-meme-is]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
 - '[[2026-06-23-semidoped-daily-update]]'
 - '[[2026-06-22-sintered-metal-die-attach-landscape]]'
@@ -51,7 +55,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 75
+mention_count: 80
 sources_7d: 0
 sources_30d: 4
 recent_mentions:
@@ -75,16 +79,16 @@ recent_mentions:
   title: The Once and Future Kimi
   date: '2026-07-17'
   kind: substack
+- slug: 2026-07-16-the-path-to-agi-runs-through-hbm
+  title: The Path To AGI Runs Through HBM
+  date: '2026-07-16'
+  kind: substack
 - slug: 2026-07-15-kimi-k3-launch-moonshot
   title: Kimi K3 — Moonshot launch post (architecture, quantisation, serving requirements)
   date: '2026-07-15'
   kind: web
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
-  date: '2026-07-13'
-  kind: web
-- slug: 2026-07-13-sk-hynix-record-fall-hbm4-three-supplier
-  title: SK Hynix record one-day fall as HBM4 goes three-supplier
   date: '2026-07-13'
   kind: web
 neighbors:

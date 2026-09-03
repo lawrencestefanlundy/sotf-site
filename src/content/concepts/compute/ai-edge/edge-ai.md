@@ -10,9 +10,11 @@ parent_concepts:
 - ai-edge
 related_concepts: []
 sources:
+- '[[2026-05-22-category-3-ai-x-xr-the-glasses-stack]]'
 - '[[2023-06-23-e05-the-future-of-edge-ai-brain-inspired]]'
 - '[[2023-07-23-analog-computing-the-once-and-future]]'
 - '[[2024-10-29-deploy-intelligence-too-cheap-to]]'
+- '[[2026-04-28-making-ai-inference-cheap-with-analog]]'
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
@@ -37,7 +39,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 83
+mention_count: 85
 descendants:
 - hearing-aid-silicon-beachhead
 - nvidia-jetson

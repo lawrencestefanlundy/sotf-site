@@ -14,6 +14,7 @@ related_concepts:
 sources:
 - '[[2025-02-05-you-like-ai-agents-you-are-gonna]]'
 - '[[2025-01-27-ai-for-nuclear-fusion-feat-martin]]'
+- '[[2026-05-01-state-of-the-future-friday-four-7b7]]'
 - '[[2026-07-01-sensifai-memo-streaming-physical-ai]]'
 frontier:
 - Over what horizon does a learned world model stay accurate enough for closed-loop control on a real process, and does any source yet report that horizon for a physical robot rather than a mesh or a text environment?
@@ -29,7 +30,7 @@ tags:
 - robotics
 - ai
 - world-models
-mention_count: 37
+mention_count: 38
 scorecard:
   viability: 2
   drivers: 3
@@ -46,6 +47,10 @@ recent_mentions:
   title: SensifAI — Purpose-Built Silicon for Streaming Physical AI (funding memo)
   date: '2026-07-01'
   kind: web
+- slug: 2026-05-01-state-of-the-future-friday-four-7b7
+  title: 'State of the Future: Friday Four'
+  date: '2026-05-01'
+  kind: substack
 - slug: 2025-02-05-you-like-ai-agents-you-are-gonna
   title: Decentralised AI (Feat. Richard Blythman of Naptha)
   date: '2025-02-05'

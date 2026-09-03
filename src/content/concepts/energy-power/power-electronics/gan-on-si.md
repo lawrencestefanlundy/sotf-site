@@ -11,24 +11,17 @@ related_concepts: []
 sources:
 - '[[2026-05-26-semianalysis-800vdc-revolution]]'
 - '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
+- '[[2026-09-02-vertical-power-delivery-thermal-limits]]'
 frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 16
+mention_count: 17
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 0
-recent_mentions:
-- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
-  title: 'Startup Funding: Q2 2026'
-  date: '2026-07-13'
-  kind: web
-- slug: 2026-05-26-semianalysis-800vdc-revolution
-  title: Inside the 800VDC Revolution – Part 1
-  date: '2026-05-26'
-  kind: web
+sources_7d: 1
+sources_30d: 1
+recent_mentions: []
 neighbors: []
 ---
 ## Physics / mechanism

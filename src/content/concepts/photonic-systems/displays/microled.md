@@ -17,6 +17,7 @@ related_concepts:
 - gallium-nitride
 sources:
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
+- '[[2026-07-10-the-next-vc-meme-is]]'
 - '[[2026-06-15-barry-silverstein-rochester-cxr]]'
 - '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
 - '[[2026-06-01-ai-glasses-display-timing-jbd-introduces-roadrunner-ii-full]]'
@@ -31,7 +32,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 29
+mention_count: 30
 sources_7d: 0
 sources_30d: 1
 recent_mentions:
@@ -39,6 +40,10 @@ recent_mentions:
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
   kind: web
+- slug: 2026-07-10-the-next-vc-meme-is
+  title: The Next VC Meme Is...
+  date: '2026-07-10'
+  kind: substack
 - slug: 2026-06-15-barry-silverstein-rochester-cxr
   title: University of Rochester hires former Meta exec Barry Silverstein to direct Center for Extended Reality
   date: '2026-06-15'

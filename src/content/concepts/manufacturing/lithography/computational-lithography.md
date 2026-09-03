@@ -17,7 +17,8 @@ related_concepts:
 - mask-blank-manufacturing
 - e-beam-lithography
 - lithography-tools
-sources: []
+sources:
+- '[[2026-06-05-recursive-until-the-power-bill]]'
 frontier:
 - Can ML-trained ILT models generalise across process nodes, or does each node require a full re-training cycle with proprietary process data that a startup cannot access?
 - At what customer segment does the specialty-fab qualification cycle drop below 12 months, and does any such segment have sufficient revenue to justify venture scale?
@@ -28,10 +29,14 @@ last_updated: '2026-05-30'
 tags:
 - concept
 - technology
-mention_count: 16
+mention_count: 17
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-06-05-recursive-until-the-power-bill
+  title: Recursive, Until the Power Bill
+  date: '2026-06-05'
+  kind: substack
 neighbors:
 - slug: maskless-lithography
   name: Maskless Lithography

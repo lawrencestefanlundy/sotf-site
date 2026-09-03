@@ -13,7 +13,9 @@ sources:
 - '[[2022-12-15-im-doing-research-in-venture-capital]]'
 - '[[2024-10-29-deploy-intelligence-too-cheap-to]]'
 - '[[2024-10-22-state-of-the-future-part-deux]]'
+- '[[2026-05-01-state-of-the-future-friday-four-7b7]]'
 - '[[2025-04-16-the-state-of-photonic-computing]]'
+- '[[2026-02-20-four-things-friday-575]]'
 scorecard:
   viability: 3
   drivers: 3
@@ -23,10 +25,18 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 117
-sources_7d: 6
-sources_30d: 20
+mention_count: 119
+sources_7d: 5
+sources_30d: 16
 recent_mentions:
+- slug: 2026-05-01-state-of-the-future-friday-four-7b7
+  title: 'State of the Future: Friday Four'
+  date: '2026-05-01'
+  kind: substack
+- slug: 2026-02-20-four-things-friday-575
+  title: Four Things Friday
+  date: '2026-02-20'
+  kind: substack
 - slug: 2025-04-16-the-state-of-photonic-computing
   title: 'Photonic Computing: A Primer'
   date: '2025-04-16'
@@ -50,14 +60,6 @@ recent_mentions:
 - slug: 2023-08-31-e13-chiplets-how-chip-lego-is-driving
   title: '🔮 E13: Chiplets - How Chip Lego is Driving AI Progress'
   date: '2023-08-31'
-  kind: substack
-- slug: 2023-06-30-e06-the-model-t-moment-for-bits-llms
-  title: '🔮 E06: Large Language Models and the Assembly Line'
-  date: '2023-06-30'
-  kind: substack
-- slug: 2022-12-15-im-doing-research-in-venture-capital
-  title: 🔮 I’m doing research in venture capital, AMA
-  date: '2022-12-15'
   kind: substack
 neighbors: []
 ---

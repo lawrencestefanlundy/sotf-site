@@ -5,6 +5,7 @@ canonical_name: Cuda Moat
 aliases: []
 related_concepts: []
 sources:
+- '[[2026-07-03-thats-a-learning-curve-mate-not-rsi]]'
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2026-01-22-ai-chips-computeram-and-the-future]]'
 frontier:
@@ -17,7 +18,7 @@ last_updated: '2026-08-31'
 scaffold: true
 tags:
 - concept
-mention_count: 3
+mention_count: 4
 descendants:
 - ai-compiler-landscape
 - iree
@@ -46,6 +47,10 @@ recent_mentions:
   title: Etched research sprint — tape-out speed, HBM supply, customer orders (4-lane web sweep)
   date: '2026-07-31'
   kind: web
+- slug: 2026-07-03-thats-a-learning-curve-mate-not-rsi
+  title: That’s a learning curve mate, not RSI
+  date: '2026-07-03'
+  kind: substack
 - slug: 2026-06-22-llm-kernel-compiler-synthesis-evidence
   title: LLM / agentic GPU-kernel and compiler synthesis — dated evidence arc 2025-2026
   date: '2026-06-22'
@@ -65,10 +70,6 @@ recent_mentions:
 - slug: 2026-03-31-semianalysis-nvidia-blackwell-dissection
   title: Dissecting Nvidia Blackwell - Tensor Cores, PTX Instructions, SASS, Floorsweep, Yield
   date: '2026-03-31'
-  kind: web
-- slug: 2026-03-16-nvidia-vera-rubin-platform
-  title: 'Inside the NVIDIA Rubin Platform: Six New Chips, One AI Supercomputer'
-  date: '2026-03-16'
   kind: web
 neighbors: []
 ---

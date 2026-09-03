@@ -16,9 +16,9 @@ tags:
 sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
-mention_count: 7
-sources_7d: 0
-sources_30d: 0
+mention_count: 9
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
   title: Carbon Nanotubes in the Datacentre
@@ -80,7 +80,7 @@ So the foundry layer earns the margin only where it holds a process-node lead; m
 The moat is cumulative: hundreds of billions in capex, a decade of yield learning, a deep PDK/IP ecosystem and customer switching costs that compound at each node. Value accrues overwhelmingly to TSMC (~64% of foundry revenue in 2024, ~70% in 2025) [1][8], and within the supply chain to the monopoly tool vendors (ASML, KLA) and annuity materials suppliers. Europe / seed-relevant: the European edge is in specialty foundries, not leading-edge logic. X-FAB (Erfurt, ~USD 700-750m revenue) leads analog / high-voltage BCD-on-SOI; STMicroelectronics and Infineon run IDM-plus-foundry capacity in BCD and FD-SOI; Tower (now Israeli/under Intel-adjacent ownership) does analog, RF, power and silicon photonics. These are the natural home for **Specialty Silicon Non Leading Edge** and **New Uk Fab** thinking.
 
 ## Market drivers, constraints & trends
-Net read: the served market (equipment plus materials the foundry buys) is in a structural up-leg, but a two-tier one where almost all the growth concentrates at the leading edge and in packaging while mature-node tool demand softens.
+Net read: the served market (equipment plus materials the foundry buys) is in a structural up-slice, but a two-tier one where almost all the growth concentrates at the leading edge and in packaging while mature-node tool demand softens.
 
 - **Drivers** — Total semiconductor equipment sales are forecast to a record ~USD 156bn in 2027, with the WFE segment growing ~9.0% in 2026 and ~7.3% in 2027, and SEMI projecting double-digit 300mm fab-equipment spend growth in both years [15][16]. The AI capex super-cycle is the pull: pure-play foundry revenue grew ~30% year-on-year in Q1 2026 on AI GPU/ASIC orders [17]. Materials are the recurring annuity riding wafer volume: the market reached ~USD 73.2bn in 2025 (+6.8%), fab materials ~USD 45.8bn (+5.4%) with lithography materials posting double-digit growth as process intensity climbs [18].
 - **Constraints** — Mature-node (28nm+) overcapacity, much of it Chinese build-out, caps the trailing-edge tool/materials pool; China equipment spend is falling from its 2024 record of ~USD 49.5bn after front-loaded buying ahead of controls [17][19]. US export controls (24 tool types, 140+ Entity List additions) ring-fence leading-edge tool sales [19]. Capex intensity (~30-35% of revenue) and deep cyclicality keep the layer concentrated and sensitive to a single AI-capex air-pocket.

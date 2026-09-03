@@ -15,6 +15,7 @@ related_concepts:
 - probabilistic-computing
 - physics-native-compute
 sources:
+- '[[2026-06-05-recursive-until-the-power-bill]]'
 - '[[2024-12-04-cubits-in-a-fridge-why-is-nobody]]'
 scorecard:
   viability: 3
@@ -25,10 +26,14 @@ scorecard:
   timing_band: Unclear
   verdict: Overrated
 scorecard_status: draft
-mention_count: 40
+mention_count: 41
 sources_7d: 1
 sources_30d: 6
 recent_mentions:
+- slug: 2026-06-05-recursive-until-the-power-bill
+  title: Recursive, Until the Power Bill
+  date: '2026-06-05'
+  kind: substack
 - slug: 2024-12-04-cubits-in-a-fridge-why-is-nobody
   title: Silicon Spin Quantum Computing (Feat. Himadri Majumdar, SemiQon)
   date: '2024-12-04'

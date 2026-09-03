@@ -25,6 +25,7 @@ sources:
 - '[[2023-09-24-e16-in-conversation-with-john-waite]]'
 - '[[2024-11-12-atomic-energy-can-nuclear-power-our]]'
 - '[[2024-10-22-state-of-the-future-part-deux]]'
+- '[[2026-07-10-the-next-vc-meme-is]]'
 - '[[2026-06-13-smr-datacentre-baseload-research]]'
 - '[[2026-02-16-energy-buildout-keeps-pace-interconnection-queue-and-grid]]'
 - '[[2025-12-09-energy-buildout-keeps-pace-gas-turbine-capacity-constraints]]'
@@ -43,7 +44,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 19
+mention_count: 20
 descendants: []
 scorecard:
   viability: 3
@@ -57,6 +58,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-07-10-the-next-vc-meme-is
+  title: The Next VC Meme Is...
+  date: '2026-07-10'
+  kind: substack
 - slug: 2026-06-13-smr-datacentre-baseload-research
   title: SMR / advanced-nuclear for datacentre baseload — research sweep (Jun 2026)
   date: '2026-06-13'
@@ -84,10 +89,6 @@ recent_mentions:
 - slug: 2024-11-12-atomic-energy-can-nuclear-power-our
   title: 'Nuclear Fission: A Primer'
   date: '2024-11-12'
-  kind: substack
-- slug: 2024-10-22-state-of-the-future-part-deux
-  title: 'An AI Thesis: State of the Future! Part Deux'
-  date: '2024-10-22'
   kind: substack
 neighbors:
 - slug: datacentre-cloud-infrastructure

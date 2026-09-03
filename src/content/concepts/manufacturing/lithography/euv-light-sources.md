@@ -10,6 +10,7 @@ parent_concepts:
 - lithography
 related_concepts: []
 sources:
+- '[[2026-07-07-the-asml-killer]]'
 - '[[2026-05-02-energetiq-euv-light-sources]]'
 frontier:
 - What is the current delivered in-band source power, conversion efficiency and availability, and does High-NA EUV require more source power per exposure than the 0.33-NA generation?
@@ -20,7 +21,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 3
+mention_count: 4
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 4
@@ -46,6 +47,10 @@ recent_mentions:
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
   kind: web
+- slug: 2026-07-07-the-asml-killer
+  title: The ASML Killer?
+  date: '2026-07-07'
+  kind: substack
 - slug: 2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology
   title: IBM Debuts World's First Sub-1 Nanometer Chip Technology
   date: '2026-06-25'
@@ -61,10 +66,6 @@ recent_mentions:
 - slug: 2026-06-19-sovereignty-semi-bifurcation-us-tells-asml-it-has-evidence
   title: US Tells ASML It Has Evidence EUV Lithography Tool Reached China
   date: '2026-06-19'
-  kind: web
-- slug: 2026-06-14-semianalysis-smic-n3-vs-intel-18a
-  title: Is SMIC N+3's Metal Pitch Smaller than Intel 18A's?
-  date: '2026-06-14'
   kind: web
 neighbors: []
 ---

@@ -11,6 +11,7 @@ related_concepts: []
 sources:
 - '[[2025-01-07-fund-frontier-expeditions-otherwise]]'
 - '[[2023-05-25-interview-ben-mildenhall-co-inventor]]'
+- '[[2026-07-07-the-asml-killer]]'
 - '[[2026-08-03-spad-single-photon-market-scan]]'
 - '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
 scorecard:
@@ -22,12 +23,12 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-mention_count: 33
+mention_count: 34
 descendants:
 - ar-glasses-stack
 - ar-optical-combiners
 sources_7d: 0
-sources_30d: 3
+sources_30d: 2
 recent_mentions:
 - slug: 2026-08-03-spad-single-photon-market-scan
   title: SPAD / single-photon detector market scan — incumbent structure and company cohort
@@ -37,6 +38,10 @@ recent_mentions:
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
   kind: web
+- slug: 2026-07-07-the-asml-killer
+  title: The ASML Killer?
+  date: '2026-07-07'
+  kind: substack
 - slug: 2025-01-07-fund-frontier-expeditions-otherwise
   title: Fund Frontier Expeditions otherwise just buy the "Magnificent Seven"
   date: '2025-01-07'

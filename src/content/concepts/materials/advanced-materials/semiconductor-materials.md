@@ -13,7 +13,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 136
+mention_count: 137
 frontier:
 - Can printed metal chalcogenides reach useful carrier mobility with inorganic additives replacing the organic surfactants that leave insulating residues, and what performance penalty remains versus vapour-grown films 2026 05 18 nsf 2542773 career manipulating the interfacial stru?
 - Does geometric confinement actually yield single-crystal 2D semiconductors on amorphous glass, and over what area and with what defect density 2026 07 06 nsf 2544157 career activating glass direct growth of?
@@ -33,8 +33,8 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 2
-sources_30d: 7
+sources_7d: 3
+sources_30d: 8
 recent_mentions: []
 neighbors: []
 ---

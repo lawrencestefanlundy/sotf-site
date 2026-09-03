@@ -25,6 +25,7 @@ sources:
 - '[[2025-12-15-department-of-commerce-awards-chips-incentives-to-a-subsidia]]'
 - '[[2025-08-21-exclusive-trump-weighs-using-2-billion-in-chips-act-funding-]]'
 - '[[2026-06-30-critical-materials-supply-g7-can-mine-rare-earths-but-85-of]]'
+- '[[2026-09-01-chinas-rare-earths-duopoly]]'
 - '[[2026-06-13-usgs-mcs-rare-earths-supply-concentration]]'
 - '[[2026-06-23-rare-earths]]'
 - '[[2025-05-13-the-uphill-battle-against-chinas-rare-earths-dominance---lat]]'
@@ -41,10 +42,14 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 23
-sources_7d: 1
-sources_30d: 3
+mention_count: 24
+sources_7d: 2
+sources_30d: 4
 recent_mentions:
+- slug: 2026-09-01-chinas-rare-earths-duopoly
+  title: China's Rare Earths Duopoly
+  date: '2026-09-01'
+  kind: web
 - slug: 2026-07-14-artificial-bloom
   title: Artificial Bloom
   date: '2026-07-14'
@@ -72,10 +77,6 @@ recent_mentions:
 - slug: 2026-04-22-deglobalisation-continues-china-s-global-exports-of-rare
   title: China's Global Exports of Rare Earth Elements and Rare Earth Permanent Magnets
   date: '2026-04-22'
-  kind: web
-- slug: 2026-01-27-deglobalisation-continues-rare-earth-supply-bottlenecks-set
-  title: Rare Earth Supply Bottlenecks Set to Persist in 2026
-  date: '2026-01-27'
   kind: web
 neighbors:
 - slug: magnetic-materials

@@ -9,21 +9,33 @@ parent_concepts:
 - light-sources
 related_concepts: []
 sources:
+- '[[2026-07-03-thats-a-learning-curve-mate-not-rsi]]'
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
+- '[[2026-04-17-state-of-the-future-friday-four-67c]]'
+- '[[2026-06-05-recursive-until-the-power-bill]]'
 - '[[2025-07-01-a-primer-carbon-nanotubes]]'
+- '[[2026-04-22-detecting-proteins-in-blood-with]]'
 - '[[2024-11-20-nuclear-fusion-the-state-of-play]]'
+- '[[2026-04-14-the-photonic-foundry-fallacy]]'
 - '[[2025-12-19-lfg-for-semiconductors]]'
 - '[[2026-02-12-how-to-invest-in-ai-sovereignty-sovereign]]'
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
+- '[[2026-07-07-the-asml-killer]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
+- '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
-mention_count: 223
+- '[[2026-07-10-the-next-vc-meme-is]]'
+mention_count: 232
 descendants:
 - external-laser-source
 - laser-display-light-engines
-sources_7d: 1
-sources_30d: 7
+sources_7d: 2
+sources_30d: 5
 recent_mentions:
+- slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
+  title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
+  date: '2026-07-28'
+  kind: substack
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
@@ -32,6 +44,18 @@ recent_mentions:
   title: Neutral PDK / EDA layer for heterogeneous photonic integration — landscape check (Scintil essay correction research)
   date: '2026-07-11'
   kind: web
+- slug: 2026-07-10-the-next-vc-meme-is
+  title: The Next VC Meme Is...
+  date: '2026-07-10'
+  kind: substack
+- slug: 2026-07-07-the-asml-killer
+  title: The ASML Killer?
+  date: '2026-07-07'
+  kind: substack
+- slug: 2026-07-03-thats-a-learning-curve-mate-not-rsi
+  title: That’s a learning curve mate, not RSI
+  date: '2026-07-03'
+  kind: substack
 - slug: 2026-06-22-thermal-stack-layer-landscape
   title: AI datacentre thermal stack, junction-to-ambient — per-layer players, M&A, capture (web research synthesis)
   date: '2026-06-22'
@@ -39,22 +63,6 @@ recent_mentions:
 - slug: 2026-06-16-trapped-ion-landscape-2026
   title: Trapped-ion quantum computing landscape 2026 (vendors, scale, integrated photonics)
   date: '2026-06-16'
-  kind: web
-- slug: 2026-06-04-nist-researchers-discover-a-new-way-to-whisk-alloys-together
-  title: NIST Researchers Discover a New Way to Whisk Alloys Together With Lasers
-  date: '2026-06-04'
-  kind: web
-- slug: 2026-05-30-optical-interconnect-ma-ledger
-  title: Optical-interconnect / photonic-packaging M&A ledger (2019-2026)
-  date: '2026-05-30'
-  kind: web
-- slug: 2026-04-26-fraunhofer-ilt-improves-diode-lasers-thanks-to-fiber-bragg-g
-  title: Fraunhofer ILT improves diode lasers thanks to fiber Bragg gratings... - Optics.org
-  date: '2026-04-26'
-  kind: web
-- slug: 2026-06-17-sivers-onet-enablence-external-light-source-cpo
-  title: Sivers, O-Net and Enablence partner to develop external light sources for AI data centers
-  date: '2026-03-17'
   kind: web
 neighbors: []
 ---

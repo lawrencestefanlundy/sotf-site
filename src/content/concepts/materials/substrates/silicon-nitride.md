@@ -13,7 +13,10 @@ related_concepts: []
 sources:
 - '[[2023-07-27-e10-pushing-moores-law-to-the-limit]]'
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
+- '[[2026-04-17-state-of-the-future-friday-four-67c]]'
 - '[[2024-12-16-willow-and-the-race-to-quantum-advantage]]'
+- '[[2026-04-14-the-photonic-foundry-fallacy]]'
+- '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 - '[[2026-05-24-mose2-exciton-polariton-all-optical-switch]]'
 - '[[2026-03-13-photonic-foundry-capacity-new-origin-to-collaborate-with]]'
@@ -30,14 +33,18 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 99
+mention_count: 102
 sources_7d: 2
-sources_30d: 16
+sources_30d: 14
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
   kind: web
+- slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
+  title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
+  date: '2026-07-28'
+  kind: substack
 - slug: 2026-06-16-trapped-ion-landscape-2026
   title: Trapped-ion quantum computing landscape 2026 (vendors, scale, integrated photonics)
   date: '2026-06-16'
@@ -54,17 +61,13 @@ recent_mentions:
   title: Hybrid BTO-SiN ultra-low power tuning (ACS Photonics)
   date: '2026-05-02'
   kind: web
-- slug: 2026-03-13-photonic-foundry-capacity-new-origin-to-collaborate-with
-  title: New Origin to Collaborate with Imec to Scale Photonic IC Manufacturing in Industrial Environment
-  date: '2026-03-13'
-  kind: web
-- slug: 2025-12-09-gallium-nitride-photonics-w-james
-  title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
-  date: '2025-12-09'
+- slug: 2026-04-17-state-of-the-future-friday-four-67c
+  title: 'State of the Future: Friday Four'
+  date: '2026-04-17'
   kind: substack
-- slug: 2025-12-02-the-future-of-computing-is-glass
-  title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
-  date: '2025-12-02'
+- slug: 2026-04-14-the-photonic-foundry-fallacy
+  title: The Photonic Foundry Fallacy
+  date: '2026-04-14'
   kind: substack
 neighbors: []
 ---

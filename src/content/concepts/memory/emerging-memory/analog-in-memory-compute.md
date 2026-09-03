@@ -20,6 +20,7 @@ related_concepts:
 - memory-wall
 sources:
 - '[[2023-07-23-analog-computing-the-once-and-future]]'
+- '[[2026-04-28-making-ai-inference-cheap-with-analog]]'
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
 frontier:
@@ -28,7 +29,7 @@ frontier:
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 20
+mention_count: 21
 scorecard:
   viability: null
   drivers: null
@@ -41,6 +42,10 @@ scorecard_status: draft
 sources_7d: 1
 sources_30d: 2
 recent_mentions:
+- slug: 2026-04-28-making-ai-inference-cheap-with-analog
+  title: Making AI inference Cheap with Analog Computing w/ Shwetank Kumar @ EnCharge AI
+  date: '2026-04-28'
+  kind: substack
 - slug: 2026-02-02-photonic-engines-for-data-centers
   title: Photonic "Engines" for Data Centers
   date: '2026-02-02'

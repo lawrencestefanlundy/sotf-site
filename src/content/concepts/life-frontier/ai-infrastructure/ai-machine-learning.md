@@ -33,6 +33,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-01-chinas-ai-rally-is-real-most-global-investors-are-missing-it
+  title: China’s AI Rally Is Real. Most Global Investors Are Missing It.
+  date: '2026-09-01'
+  kind: web
 - slug: 2026-08-26-we-have-foundation-models-for-language-not-for-physics-anima
   title: 🔬“We have foundation models for language, not for physics” — Anima Anandkumar, Bren Professor of Computing
   date: '2026-08-26'
@@ -60,10 +64,6 @@ recent_mentions:
 - slug: 2026-07-16-the-lab-of-the-future-should-feel-like-a-data-center-andy-be
   title: 🔬 The Lab of the Future Should Feel Like a Data Center — Andy Beam & Rafa Gómez-Bombarelli, Lila Sciences
   date: '2026-07-16'
-  kind: web
-- slug: 2026-07-15-us-commerce-department-signals-upcoming-regulatory-action-on
-  title: US Commerce Department signals upcoming regulatory action on AI and chips - Crypto Briefing
-  date: '2026-07-15'
   kind: web
 neighbors: []
 ---

@@ -16,7 +16,8 @@ related_concepts:
 - silicon-nitride
 - piezoelectric
 - electro-optic-modulators
-sources: []
+sources:
+- '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
 frontier:
 - Does AlN reach 0.1 dB/cm waveguide loss at scale, or stay at ~1 dB/cm prototype demonstrations?
 - Does ScAlN displace AlN for piezo-photonic devices because of its 5-10× stronger piezo+EO coefficients?
@@ -29,12 +30,16 @@ tags:
 - aluminum-nitride
 - piezo
 - uv
-mention_count: 5
+mention_count: 6
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 1
 sources_30d: 1
-recent_mentions: []
+recent_mentions:
+- slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
+  title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
+  date: '2026-07-28'
+  kind: substack
 neighbors:
 - slug: scandium-aluminum-nitride
   name: Scandium Aluminum Nitride (ScAlN)

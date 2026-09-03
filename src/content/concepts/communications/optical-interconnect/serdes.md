@@ -9,6 +9,7 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2025-04-30-has-the-time-come-to-take-mortal]]'
+- '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
 - '[[2026-06-23-semidoped-daily-update]]'
 - '[[2026-07-31-etched-research-sprint]]'
@@ -17,7 +18,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 13
+mention_count: 14
 frontier:
 - Has the reported MediaTek 336G SerDes win on Google TPU v9 been confirmed by either party, and at what lane count and aggregate bandwidth does the shipped interface run?
 - What is the measured energy per bit and reach (package, board, cable) of 336G-class electrical SerDes, and at what distance does it lose to optical interconnect?
@@ -30,6 +31,10 @@ recent_mentions:
   title: Etched research sprint — tape-out speed, HBM supply, customer orders (4-lane web sweep)
   date: '2026-07-31'
   kind: web
+- slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
+  title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
+  date: '2026-07-28'
+  kind: substack
 - slug: 2026-06-23-semidoped-daily-update
   title: Semi Doped — Daily Update, June 23rd 2026
   date: '2026-06-23'

@@ -16,11 +16,11 @@ tags:
 sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
-mention_count: 8
+mention_count: 10
 parent_concepts:
 - flow-rtl-design
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
   title: Carbon Nanotubes in the Datacentre

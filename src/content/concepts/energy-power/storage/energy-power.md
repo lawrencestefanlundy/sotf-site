@@ -123,6 +123,10 @@ descendants:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-01-chinas-rare-earths-duopoly
+  title: China's Rare Earths Duopoly
+  date: '2026-09-01'
+  kind: web
 - slug: 2026-08-31-qcells-tandem-iec-ul-certification-tuv-rheinland
   title: Qcells secures TUV Rheinland certification for perovskite-silicon tandem solar tech (pv magazine, 16 Jul 2026; pv-tech corroborating)
   date: '2026-08-31'
@@ -150,10 +154,6 @@ recent_mentions:
 - slug: 2026-08-10-how-ais-demand-for-compute-could-disrupt-america
   title: How AI's Demand for Compute could Disrupt America
   date: '2026-08-10'
-  kind: web
-- slug: 2026-08-06-how-foreign-turbine-suppliers-are-gearing-up-for-a-us-geothe
-  title: How foreign turbine suppliers are gearing up for a US geothermal boom - Latitude Media
-  date: '2026-08-06'
   kind: web
 neighbors: []
 ---

@@ -15,11 +15,11 @@ tags:
 sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
-mention_count: 7
+mention_count: 9
 parent_concepts:
 - packaging
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
   title: Carbon Nanotubes in the Datacentre
@@ -73,7 +73,7 @@ Net read: the served market grows clearly faster than the ~6-9% headline because
 - **Drivers**
  - HBM is the engine: HBM4 entered mass production in Feb 2026 at Samsung and SK Hynix, with 16-high 48GB stacks pushing to Q3 2026 [9][10]. Every stack needs void-free mold underfill over fragile TSV joints, the exact job that pulls TOWA's compression tools and high-spec EMC; the HBM-grade EMC sub-pool is sized small (~$500M 2025) but quoted at ~15% CAGR vs ~6% for the base pool [11].
  - TSMC, Samsung and Intel are standing up advanced-packaging capacity through 2025-26, and fan-out wafer-level packaging now takes >25% of advanced-packaging EMC demand, shifting the mix toward ultra-low-warpage compounds [11].
- - Automotive/power electronics is a second leg: EV inverters and SiC/GaN modules need high-heat-resistant, thermally conductive encapsulants, and Sumitomo Bakelite is adding JPY20bn of Shizuoka capacity explicitly for AI plus automotive power [12].
+ - Automotive/power electronics is a second part: EV inverters and SiC/GaN modules need high-heat-resistant, thermally conductive encapsulants, and Sumitomo Bakelite is adding JPY20bn of Shizuoka capacity explicitly for AI plus automotive power [12].
 - **Constraints**
  - Warpage is the physical ceiling on panel scale-up: the CTE gap between silicon (~2.6ppm/C) and EMC (~7ppm/C) drives warpage of several mm on a 600mm panel, gating how fast FOPLP and glass adopt [13].
  - China localization compresses the commodity tail: Sumitomo Bakelite's new Suzhou plant lifts capacity ~1.3x and domestic Chinese suppliers are pressuring Resonac's share and margin in standard grades [12][14].

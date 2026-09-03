@@ -9,8 +9,10 @@ parent_concepts:
 - conventional-logic
 related_concepts: []
 sources:
+- '[[2026-07-03-thats-a-learning-curve-mate-not-rsi]]'
 - '[[2023-08-18-e11-in-conversation-with-lux-capital]]'
 - '[[2026-07-17-the-once-and-future-kimi]]'
+- '[[2026-02-13-four-things-friday]]'
 - '[[2026-01-22-ai-chips-computeram-and-the-future]]'
 - '[[2025-07-20-risc-v-open-silicon-share-shd-group-risc-v-market-analysis]]'
 - '[[2024-eu-chips-act-final-text]]'
@@ -33,9 +35,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 98
+mention_count: 100
 sources_7d: 2
-sources_30d: 10
+sources_30d: 9
 recent_mentions:
 - slug: 2026-07-17-the-once-and-future-kimi
   title: The Once and Future Kimi
@@ -45,6 +47,10 @@ recent_mentions:
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
   kind: web
+- slug: 2026-07-03-thats-a-learning-curve-mate-not-rsi
+  title: That’s a learning curve mate, not RSI
+  date: '2026-07-03'
+  kind: substack
 - slug: 2026-06-17-qualcomm-tenstorrent-talks
   title: Qualcomm in advanced talks to acquire Tenstorrent at $8-10B (reported)
   date: '2026-06-17'
@@ -61,14 +67,10 @@ recent_mentions:
   title: SiFive raises $400M Series G at $3.65B valuation
   date: '2026-04-09'
   kind: web
-- slug: 2026-02-09-semianalysis-datacenter-cpu-2026
-  title: 'CPUs are Back: The Datacenter CPU Landscape in 2026'
-  date: '2026-02-09'
-  kind: web
-- slug: 2026-01-23-risc-v-open-silicon-share-risc-v-hits-25-design-share-as
-  title: RISC-V Hits 25% Design Share as GlobalFoundries Bolsters Open-Standard Ecosystem
-  date: '2026-01-23'
-  kind: web
+- slug: 2026-02-13-four-things-friday
+  title: Four Things Friday
+  date: '2026-02-13'
+  kind: substack
 neighbors: []
 ---
 **RISC-V is an open, modular instruction set architecture that lets designers strip out, extend or specialise the CPU instruction set for a given workload, and the research literature now shows it fabricated in production nodes (Intel 16 nm, 12 nm FinFET chiplets) as the programmable substrate inside domain-specific accelerators rather than as a drop-in replacement for proprietary high-performance CPUs.**

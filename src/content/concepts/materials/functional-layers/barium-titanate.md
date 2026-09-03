@@ -16,6 +16,7 @@ related_concepts:
 - heterogeneous-photonic-integration
 sources:
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
+- '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
 - '[[2026-01-27-photonics-material-class-war-veeco-and-imec-develop-300mm]]'
 frontier:
 - Is the gap between bulk r42 above 1200 pm/V and the 154 pm/V effective coefficient measured in devices a fundamental consequence of film domain structure, or can domain-wall engineering capture the predicted local response above 4000 pm/V?
@@ -26,7 +27,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - material
-mention_count: 31
+mention_count: 32
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 4
@@ -38,8 +39,12 @@ scorecard:
   verdict: Underrated
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 4
+sources_30d: 2
 recent_mentions:
+- slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
+  title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
+  date: '2026-07-28'
+  kind: substack
 - slug: 2026-05-02-hybrid-bto-sin-ultra-low-power-tuning-acs-photonics
   title: Hybrid BTO-SiN ultra-low power tuning (ACS Photonics)
   date: '2026-05-02'

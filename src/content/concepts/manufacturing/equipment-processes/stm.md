@@ -36,7 +36,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 1
-sources_30d: 7
+sources_30d: 6
 recent_mentions: []
 neighbors:
 - slug: arpes

@@ -31,6 +31,10 @@ frontier:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-02-vertical-power-delivery-thermal-limits
+  title: 'Vertical power delivery: the thermal limit at the 48V-to-point-of-load stage'
+  date: '2026-09-02'
+  kind: web
 - slug: 2026-07-09-in-die-microfluidic-cooling-sprint
   title: In-die microfluidic cooling — cluster research sprint
   date: '2026-07-09'
@@ -58,10 +62,6 @@ recent_mentions:
 - slug: 2025-09-25-corintis-microsoft-in-chip-microfluidic-cooling
   title: 'Microsoft + Corintis in-chip microfluidic cooling: 3x heat removal vs cold plates, 65% peak-temp reduction'
   date: '2025-09-25'
-  kind: web
-- slug: 2025-05-27-datacentre-thermal-power-market-intel-foundry-s-integrated
-  title: 'Intel Foundry''s Integrated Cold Plate: Thermal Innovation for Next-Gen AI'
-  date: '2025-05-27'
   kind: web
 neighbors: []
 ---

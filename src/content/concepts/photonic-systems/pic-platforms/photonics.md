@@ -14,11 +14,15 @@ sources:
 - '[[2025-09-23-the-compute-gradient]]'
 - '[[2025-04-23-what-if-ai-can-already-feel]]'
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
+- '[[2026-04-17-state-of-the-future-friday-four-67c]]'
+- '[[2026-06-05-recursive-until-the-power-bill]]'
 - '[[2023-08-31-e13-chiplets-how-chip-lego-is-driving]]'
 - '[[2023-06-23-e05-the-future-of-edge-ai-brain-inspired]]'
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2023-07-14-e08-optical-computing]]'
+- '[[2026-04-22-detecting-proteins-in-blood-with]]'
 - '[[2024-12-16-willow-and-the-race-to-quantum-advantage]]'
+- '[[2026-04-14-the-photonic-foundry-fallacy]]'
 - '[[2024-12-04-cubits-in-a-fridge-why-is-nobody]]'
 - '[[2023-07-23-analog-computing-the-once-and-future]]'
 - '[[2022-12-15-im-doing-research-in-venture-capital]]'
@@ -26,11 +30,17 @@ sources:
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2026-02-12-how-to-invest-in-ai-sovereignty-sovereign]]'
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
+- '[[2026-07-07-the-asml-killer]]'
 - '[[2026-07-17-the-once-and-future-kimi]]'
+- '[[2026-04-24-state-of-the-future-friday-four-002]]'
+- '[[2026-07-16-the-path-to-agi-runs-through-hbm]]'
+- '[[2026-05-01-state-of-the-future-friday-four-7b7]]'
 - '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
 - '[[2025-04-16-the-state-of-photonic-computing]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
+- '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
+- '[[2026-07-10-the-next-vc-meme-is]]'
 scorecard:
   viability: null
   drivers: null
@@ -40,7 +50,7 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-mention_count: 1021
+mention_count: 1036
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -50,7 +60,7 @@ descendants:
 - optical-frequency-division
 - optoelectronic-oscillator
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-08-24-nist-researchers-supersize-quantum-technology-to-help-detect
   title: NIST Researchers Supersize Quantum Technology to Help Detect Faint Photons

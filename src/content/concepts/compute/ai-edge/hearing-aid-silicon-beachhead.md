@@ -48,7 +48,7 @@ Genuine always-on, sub-watt, latency-bound inference in a wearable form factor. 
 - **Commoditised from above.** FDA-cleared **AirPods Pro 2 as an OTC hearing aid** (Sept 2024), $250 vs $1,000+, 100M+ units — value migrates to Apple's own silicon in the CE tier you can't sell into.
 
 ## Confirmed arithmetically, 15 Jul 2026
-A three-leg research sprint ([The ear as a sensing site](/sensing/biosensing/ear-as-sensing-site/)) tested this page rather than assuming it, and **confirmed it at ~80%** with better numbers. Quote these rather than re-deriving:
+A three-part research sprint ([The ear as a sensing site](/sensing/biosensing/ear-as-sensing-site/)) tested this page rather than assuming it, and **confirmed it at ~80%** with better numbers. Quote these rather than re-deriving:
 - **23.16M hearing aids sold in 2025, +2.1% YoY** — [EHIMA](https://www.ehima.com/about-ehima/hearing-aid-sales/), the manufacturers' own association, i.e. **actual member sales, not an analyst forecast**. This is the highest-quality number in the cluster. (Prior years: 22.69M/2024, 21.81M/2023.)
 - **Top-5 concentration 92.4% (2024)** — tighter than the ~84%/90% previously carried here.
 - **Chip-layer TAM ~$115M–$460M/yr** at $5–20 sensing/SoC content. ⚠️ The content figure is an **estimate** — no independent BOM teardown found. Treat as an order-of-magnitude check that the answer is "hundreds of millions, not billions"; that survives a 3× error either way. Unit count and concentration are solid, the BOM is not.

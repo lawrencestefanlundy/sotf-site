@@ -15,11 +15,11 @@ tags:
 sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
-mention_count: 7
+mention_count: 9
 parent_concepts:
 - packaging
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
   title: Carbon Nanotubes in the Datacentre
@@ -81,8 +81,8 @@ The moat is process know-how compounded by a service/consumables flywheel: every
 Net read: the served market accelerates this decade, with the demand mix rotating hard from power/automotive toward AI memory and logic. The cyclicality fear has eased: DISCO's Q4 FY2026 shipments beat guidance, so the structural story (thinning moving from cost step to yield-critical enabler) is in front of the cycle, not behind it.
 
 - **Drivers** — HBM is the swing factor: 16-Hi HBM4 must thin DRAM die to ~30 micrometres to fit 16 layers under JEDEC's 775 micrometre stack height, with HBM4 in production through 2026 and HBM4E in 2027 [8][9]. AI/GPU demand drove DISCO to a record Q3 FY2026 quarter (shipments ¥113.6bn, operating margin 43.3%), then a Q4 (Jan-Mar 2026) that beat guidance at ¥118.2bn on strong AI logic, recovering HBM and solid China demand [10][14]. SiC power devices add a separate, hardware-intensive thinning pull (SiC power market ~25%+ CAGR; SiC near diamond hardness so it eats grinding wheels faster, lifting the consumables attach) [11].
-- **Constraints** — Cyclicality is structural even if currently benign: the demand leg now rests heavily on a single AI capex wave, and the prior EV slowdown that cut power-semiconductor investment showed how fast a second leg can disappear [12]. China strength (no visible geopolitical drag yet) is a tail risk if export controls tighten [14]. The position is also un-disruptable from the outside, which caps any new-entrant upside, and report-mill sizing for this niche is unreliable.
-- **Trends & inflections to watch** — Hybrid bonding for HBM is postponed: HBM4 stays on microbumps (SK Hynix on MR-MUF), pushing direct copper bonding to HBM4E/HBM5, which keeps grind-and-thin volume central rather than displacing it near-term [8][15]. Glass-core substrates and panel-level packaging are the second structural pull: they need ultra-flat temporary-bond glass carriers for backside thinning, expanding the served carrier/thinning pool, with SK Absolics and a TSMC mini-line targeting 2026 and mass production 2028-2030 [16]. Tripwire 1: a glass-substrate line reaching qualified mass production (SK Absolics 2026, TSMC 2028-2030) would confirm the panel-level thinning leg [16]. Tripwire 2: DISCO posting two more consecutive up quarters into 2H-CY2026 after the Q4 beat would confirm the AI leg has outrun the power-cycle drag [10][14].
+- **Constraints** — Cyclicality is structural even if currently benign: the demand part now rests heavily on a single AI capex wave, and the prior EV slowdown that cut power-semiconductor investment showed how fast a second part can disappear [12]. China strength (no visible geopolitical drag yet) is a tail risk if export controls tighten [14]. The position is also un-disruptable from the outside, which caps any new-entrant upside, and report-mill sizing for this niche is unreliable.
+- **Trends & inflections to watch** — Hybrid bonding for HBM is postponed: HBM4 stays on microbumps (SK Hynix on MR-MUF), pushing direct copper bonding to HBM4E/HBM5, which keeps grind-and-thin volume central rather than displacing it near-term [8][15]. Glass-core substrates and panel-level packaging are the second structural pull: they need ultra-flat temporary-bond glass carriers for backside thinning, expanding the served carrier/thinning pool, with SK Absolics and a TSMC mini-line targeting 2026 and mass production 2028-2030 [16]. Tripwire 1: a glass-substrate line reaching qualified mass production (SK Absolics 2026, TSMC 2028-2030) would confirm the panel-level thinning part [16]. Tripwire 2: DISCO posting two more consecutive up quarters into 2H-CY2026 after the Q4 beat would confirm the AI part has outrun the power-cycle drag [10][14].
 
 ## Connections
 

@@ -15,9 +15,9 @@ tags:
 sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
-mention_count: 7
-sources_7d: 0
-sources_30d: 0
+mention_count: 9
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
   title: Carbon Nanotubes in the Datacentre
@@ -96,7 +96,7 @@ Net read: the served market (testers, handlers, SLT, sockets/boards) is accelera
 
 ## Connections
 - [Automated Test Equipment (ATE)](/manufacturing/equipment-processes/automated-test-equipment/)
-- Thesis: **Back End Test Equipment Non Area**
+- Thesis: **Back End Test Equipment No Wedge**
 - Adjacent steps: [OSAT (outsourced assembly & test) services (process step)](/semiconductor-process-flow/packaging/flow-osat-assembly-test-services/) · [Wafer sort / probe (process step)](/semiconductor-process-flow/test-metrology/flow-wafer-sort-probe/) · [Burn-in & reliability (process step)](/semiconductor-process-flow/test-metrology/flow-burn-in-reliability/) · [Design-for-test (DFT) (process step)](/semiconductor-process-flow/design/flow-design-for-test-dft/)
 
 ## Sources

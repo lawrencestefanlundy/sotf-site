@@ -18,6 +18,7 @@ related_concepts:
 - co-packaged-optics
 sources:
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
+- '[[2026-04-14-the-photonic-foundry-fallacy]]'
 - '[[2026-05-30-optical-interconnect-ma-ledger]]'
 frontier:
 - What lateral and vertical alignment tolerance, in micrometres, do the leading edge and grating couplers achieve at their stated losses, and does that permit passive machine-placed assembly or force active alignment?
@@ -32,7 +33,7 @@ tags:
 - technology
 - photonics
 - packaging
-mention_count: 14
+mention_count: 15
 scorecard:
   viability: 4
   drivers: 4
@@ -43,12 +44,16 @@ scorecard:
   verdict: Underrated
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-05-30-optical-interconnect-ma-ledger
   title: Optical-interconnect / photonic-packaging M&A ledger (2019-2026)
   date: '2026-05-30'
   kind: web
+- slug: 2026-04-14-the-photonic-foundry-fallacy
+  title: The Photonic Foundry Fallacy
+  date: '2026-04-14'
+  kind: substack
 - slug: 2025-12-02-the-future-of-computing-is-glass
   title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
   date: '2025-12-02'

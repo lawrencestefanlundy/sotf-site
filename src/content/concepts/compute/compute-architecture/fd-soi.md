@@ -10,6 +10,8 @@ parent_concepts:
 - compute-architecture
 related_concepts: []
 sources:
+- '[[2026-06-05-recursive-until-the-power-bill]]'
+- '[[2026-05-01-state-of-the-future-friday-four-7b7]]'
 - '[[2026-06-22-beyond-cmos-device-layer-research]]'
 - '[[2024-eu-chips-act-final-text]]'
 - '[[2026-08-03-spad-single-photon-market-scan]]'
@@ -25,7 +27,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 23
+mention_count: 25
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 5
@@ -51,6 +53,10 @@ recent_mentions:
   title: GlobalFoundries Investor Day 2026 (presentation)
   date: '2026-06-15'
   kind: web
+- slug: 2026-06-05-recursive-until-the-power-bill
+  title: Recursive, Until the Power Bill
+  date: '2026-06-05'
+  kind: substack
 - slug: 2026-06-04-globalfoundries-emram-22fdx-availability
   title: GLOBALFOUNDRIES Announces Availability of Embedded MRAM on Leading 22FDX FD-SOI Platform
   date: '2026-06-04'
@@ -59,6 +65,10 @@ recent_mentions:
   title: GlobalFoundries launches Quantum Technology Solutions to scale U.S. quantum manufacturing
   date: '2026-05-21'
   kind: web
+- slug: 2026-05-01-state-of-the-future-friday-four-7b7
+  title: 'State of the Future: Friday Four'
+  date: '2026-05-01'
+  kind: substack
 - slug: 2024-eu-chips-act-final-text
   title: European Chips Act — Regulation (EU) 2023/1781
   date: '2023-09-20'

@@ -9,17 +9,22 @@ parent_concepts:
 - ai-edge
 related_concepts: []
 sources:
+- '[[2026-07-10-the-next-vc-meme-is]]'
 - '[[2026-06-18-low-power-edge-compute-tinyml-ai-chipset-shipments-to-top-4]]'
 frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 5
+mention_count: 6
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 1
 recent_mentions:
+- slug: 2026-07-10-the-next-vc-meme-is
+  title: The Next VC Meme Is...
+  date: '2026-07-10'
+  kind: substack
 - slug: 2026-06-18-low-power-edge-compute-tinyml-ai-chipset-shipments-to-top-4
   title: TinyML AI Chipset Shipments to Top 4.1 Billion by 2031 as Embedded AI Scales Across Industrial IoT
   date: '2026-06-18'

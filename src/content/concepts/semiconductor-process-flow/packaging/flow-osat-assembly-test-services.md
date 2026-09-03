@@ -16,11 +16,11 @@ tags:
 sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
-mention_count: 7
+mention_count: 9
 parent_concepts:
 - packaging
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
   title: Carbon Nanotubes in the Datacentre
@@ -84,7 +84,7 @@ Net read: the served market (back-end equipment + packaging-materials pool) is a
 **Drivers**
 - AI/HPC packaging is the engine. CoWoS-class capacity is expanding ~33% in 2026 with NVIDIA booking over half of TSMC's allocation through 2026-27, spilling overflow to ASE/Amkor/UMC [8]. The OSAT market is put near $52B in 2025 growing ~9% CAGR [9].
 - Test intensity rises faster than units: more test steps per chiplet package plus system-level test push the test-equipment pool from ~$16.0B (2026) to ~$21.6B by 2031 [10].
-- Memory packaging (HBM4, 16-Hi) and electrification/automotive functional-safety test add a second, non-AI demand leg lifting Powertech, JCET and others [9][10].
+- Memory packaging (HBM4, 16-Hi) and electrification/automotive functional-safety test add a second, non-AI demand part lifting Powertech, JCET and others [9][10].
 
 **Constraints**
 - ABF substrate is the live chokepoint: Ajinomoto holds ~95% of the film and is raising prices ~30% in Q3 2026, with the supply gap stretching to end-2027 as AI build-ups go 11+11/13+13 layers [11]. Scarcity is a margin event for substrate makers, not OSATs.
@@ -99,7 +99,7 @@ Net read: the served market (back-end equipment + packaging-materials pool) is a
 - [OSAT (Outsourced Semiconductor Assembly & Test)](/manufacturing/packaging/osat/) - the business-model cluster this step instantiates
 - [Advanced Packaging](/manufacturing/packaging/advanced-packaging/) - the technology mix shift reshaping OSAT margins
 - **Advanced Packaging Market** - the AP thesis (where the growth and better margins sit)
-- **Back End Test Equipment Non Area** - the test side, feeding into [Final test (ATE) (process step)](/semiconductor-process-flow/test-metrology/flow-final-test-ate/)
+- **Back End Test Equipment No Wedge** - the test side, feeding into [Final test (ATE) (process step)](/semiconductor-process-flow/test-metrology/flow-final-test-ate/)
 
 ## Sources
 1. Precedence Research, semiconductor assembly and packaging equipment market ($9.06B 2024 to $20.96B 2034). https://www.precedenceresearch.com/semiconductor-assembly-and-packaging-equipment-market

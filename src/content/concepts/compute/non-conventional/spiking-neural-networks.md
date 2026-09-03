@@ -34,7 +34,7 @@ frontier:
 - Is there a cheap runtime defence against sponge attacks that raise SynOps 1.5-2.6x while leaving predictions unchanged, or does the threat force always-on devices to budget for worst-case rather than average energy 2026 07 31 driving up inference energy on snns per sample and universal?
 - Does a common hardware and software substrate emerge from the current fragmented landscape of fixed neuron models and one-off accelerators, or does every deployment stay a bespoke co-design 2026 07 07 aigor a modular event driven neuromorphic architecture for c?
 sources_7d: 2
-sources_30d: 6
+sources_30d: 4
 recent_mentions:
 - slug: 2023-06-23-e05-the-future-of-edge-ai-brain-inspired
   title: '🔮 E05: Neuromorphic Computing & The Future of Edge AI'

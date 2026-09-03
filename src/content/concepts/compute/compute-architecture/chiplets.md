@@ -11,16 +11,19 @@ related_concepts: []
 sources:
 - '[[2023-10-06-e18-the-state-of-silent-speech-and]]'
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
+- '[[2026-04-17-state-of-the-future-friday-four-67c]]'
 - '[[2026-03-26-sotf-interview-dorian-haci-mintneuro]]'
 - '[[2023-08-31-e13-chiplets-how-chip-lego-is-driving]]'
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2023-05-24-launching-state-of-the-future]]'
+- '[[2026-04-14-the-photonic-foundry-fallacy]]'
 - '[[2024-10-29-deploy-intelligence-too-cheap-to]]'
 - '[[2023-11-20-e21-can-we-make-enough-ai-chips]]'
 - '[[2025-12-19-lfg-for-semiconductors]]'
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
+- '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
 - '[[2026-03-02-chiplets-architecture-share-rebellions-rebel-100-industry-s]]'
 - '[[2026-06-22-beyond-cmos-device-layer-research]]'
 - '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
@@ -42,7 +45,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 107
+mention_count: 110
 sources_7d: 2
 sources_30d: 4
 recent_mentions:
@@ -50,6 +53,10 @@ recent_mentions:
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
   kind: web
+- slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
+  title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
+  date: '2026-07-28'
+  kind: substack
 - slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
   title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
   date: '2026-07-02'
@@ -62,22 +69,18 @@ recent_mentions:
   title: 'Europe’s Semiconductor Strategy: Chiplets, Ecosystem Integration, and Chips Act 2.0 in 2026 - News and Statistics - IndexBox'
   date: '2026-05-28'
   kind: web
+- slug: 2026-04-17-state-of-the-future-friday-four-67c
+  title: 'State of the Future: Friday Four'
+  date: '2026-04-17'
+  kind: substack
 - slug: 2026-04-15-semianalysis-isscc-2026
   title: 'ISSCC 2026: NVIDIA & Broadcom CPO, HBM4 & LPDDR6, TSMC Active LSI, Logic-Based SRAM, UCIe-S and More'
   date: '2026-04-15'
   kind: web
-- slug: 2026-03-31-semianalysis-nvidia-blackwell-dissection
-  title: Dissecting Nvidia Blackwell - Tensor Cores, PTX Instructions, SASS, Floorsweep, Yield
-  date: '2026-03-31'
-  kind: web
-- slug: 2026-03-26-sotf-interview-dorian-haci-mintneuro
-  title: 'Chips for the Brain: Modular Semiconductors for Neural Interfaces (MintNeuro) / Dorian Haci)'
-  date: '2026-03-26'
+- slug: 2026-04-14-the-photonic-foundry-fallacy
+  title: The Photonic Foundry Fallacy
+  date: '2026-04-14'
   kind: substack
-- slug: 2026-03-05-chiplets-architecture-share-chiplet-summit-2026-ucie
-  title: 'Chiplet Summit 2026: UCIe Momentum Across Growing Ecosystem (UCIe Consortium)'
-  date: '2026-03-05'
-  kind: web
 neighbors: []
 ---
 **Chiplets replace a single large monolithic die with several smaller dies co-packaged on an interposer or 3D stack, trading a new set of packaging, thermal and tooling problems for better yield, cost and heterogeneity, and the AI architecture literature now treats them as the default substrate for large accelerators.**

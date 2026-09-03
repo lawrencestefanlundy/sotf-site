@@ -14,7 +14,8 @@ related_concepts:
 - xla
 - tvm
 - cuda-moat
-sources: []
+sources:
+- '[[2026-07-03-thats-a-learning-curve-mate-not-rsi]]'
 frontier:
 - IREE is the open, AMD-backed answer on the literal 'one model, many backends' claim. Does AMD's backing make it the durable open standard, or stay a SHARK-distribution niche?
 - Does a layer above IREE (a programming model / workload-placement runtime) capture value IREE itself doesn't, or does IREE's open+free+vendor-backed status commoditise that layer too?
@@ -25,10 +26,14 @@ tags:
 - runtime
 - compute
 - reference
-mention_count: 1
+mention_count: 2
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-07-03-thats-a-learning-curve-mate-not-rsi
+  title: That’s a learning curve mate, not RSI
+  date: '2026-07-03'
+  kind: substack
 neighbors:
 - slug: mlir
   name: MLIR (Multi-Level Intermediate Representation)

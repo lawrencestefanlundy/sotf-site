@@ -15,7 +15,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 214
+mention_count: 213
 frontier:
 - At what point does each of these workloads migrate to ASIC? eMamba reports its 10x/48.6x gains across FPGAs and ASICs jointly 2025 08 emamba edge acceleration, but gives no crossover volume or NRE analysis that would let one date the transition.
 - Do 2.5D and 3D die-stacked FPGAs actually relieve the capacity ceiling that forced multi-FPGA partitioning in EMiX, and at what inter-die latency penalty 2026 06 15 modeling optimizing and exploring multi die fpga routing arc?
@@ -36,7 +36,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 5
-sources_30d: 13
+sources_30d: 9
 recent_mentions:
 - slug: 2026-07-31-etched-research-sprint
   title: Etched research sprint — tape-out speed, HBM supply, customer orders (4-lane web sweep)

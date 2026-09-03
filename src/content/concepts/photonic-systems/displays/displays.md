@@ -9,6 +9,8 @@ parent_concepts:
 - displays
 related_concepts: []
 sources:
+- '[[2026-07-07-the-asml-killer]]'
+- '[[2026-07-10-the-next-vc-meme-is]]'
 - '[[2026-06-15-barry-silverstein-rochester-cxr]]'
 - '[[2026-06-15-ai-glasses-display-timing-idc-q1-2026-smart-glasses-surge]]'
 - '[[2026-06-15-luminate-ny-accelerator-terms]]'
@@ -22,7 +24,7 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 119
+mention_count: 121
 descendants:
 - ar-glasses-stack
 - ar-optical-combiners
@@ -42,6 +44,14 @@ recent_mentions:
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
   kind: web
+- slug: 2026-07-10-the-next-vc-meme-is
+  title: The Next VC Meme Is...
+  date: '2026-07-10'
+  kind: substack
+- slug: 2026-07-07-the-asml-killer
+  title: The ASML Killer?
+  date: '2026-07-07'
+  kind: substack
 - slug: 2026-06-15-barry-silverstein-rochester-cxr
   title: University of Rochester hires former Meta exec Barry Silverstein to direct Center for Extended Reality
   date: '2026-06-15'

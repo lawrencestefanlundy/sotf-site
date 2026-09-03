@@ -28,6 +28,7 @@ sources:
 - '[[2026-07-26-humanoid-duty-cycle-thermal-constraint]]'
 - '[[2026-04-01-ai-power-thermal-binding-market-projection-35-of-new-ai]]'
 - '[[2025-08-19-thermal-stack-arms-race-thermal-interface-materials-market]]'
+- '[[2026-09-02-vertical-power-delivery-thermal-limits]]'
 scorecard:
   viability: 3
   drivers: 4
@@ -37,7 +38,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 99
+mention_count: 102
 descendants:
 - ai-thermal-management
 - cryogenic-cooling
@@ -61,9 +62,13 @@ descendants:
 - tim-approach-map
 - two-phase-cooling
 - vapor-chambers
-sources_7d: 3
-sources_30d: 8
+sources_7d: 5
+sources_30d: 11
 recent_mentions:
+- slug: 2026-09-02-vertical-power-delivery-thermal-limits
+  title: 'Vertical power delivery: the thermal limit at the 48V-to-point-of-load stage'
+  date: '2026-09-02'
+  kind: web
 - slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint
   title: 'What actually limits a humanoid to minutes: the thermal cliff, not the battery'
   date: '2026-07-26'
@@ -92,10 +97,6 @@ recent_mentions:
   title: 'Thermal Interface Materials Market Report 2026-2036: High-Performance TIMs for Data Centers, AI Servers, and 5G Infrastructure'
   date: '2025-08-19'
   kind: web
-- slug: 2025-04-30-has-the-time-come-to-take-mortal
-  title: Has the time come to take Mortal Computing seriously?
-  date: '2025-04-30'
-  kind: substack
 neighbors:
 - slug: thermal-stack-map
   name: AI Thermal Stack Map (junction-to-ambient)

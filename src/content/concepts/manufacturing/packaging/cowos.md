@@ -9,22 +9,34 @@ parent_concepts:
 - packaging
 related_concepts: []
 sources:
+- '[[2026-07-03-thats-a-learning-curve-mate-not-rsi]]'
+- '[[2026-07-24-the-huggingface-incident]]'
 - '[[2023-07-27-e10-pushing-moores-law-to-the-limit]]'
+- '[[2026-04-17-state-of-the-future-friday-four-67c]]'
+- '[[2026-06-05-recursive-until-the-power-bill]]'
 - '[[2026-03-26-sotf-interview-dorian-haci-mintneuro]]'
 - '[[2023-08-31-e13-chiplets-how-chip-lego-is-driving]]'
 - '[[2025-11-05-consensus-capital]]'
+- '[[2026-04-14-the-photonic-foundry-fallacy]]'
+- '[[2026-05-08-consensus-capital-national-ai-stacks]]'
 - '[[2024-12-04-cubits-in-a-fridge-why-is-nobody]]'
 - '[[2024-10-29-deploy-intelligence-too-cheap-to]]'
 - '[[2023-10-13-e19-trusted-execution-environments]]'
 - '[[2023-11-20-e21-can-we-make-enough-ai-chips]]'
+- '[[2026-06-19-the-housefab-always-wins]]'
 - '[[2025-12-19-lfg-for-semiconductors]]'
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2026-02-12-how-to-invest-in-ai-sovereignty-sovereign]]'
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
+- '[[2026-07-07-the-asml-killer]]'
+- '[[2026-04-24-state-of-the-future-friday-four-002]]'
+- '[[2026-07-16-the-path-to-agi-runs-through-hbm]]'
+- '[[2026-05-01-state-of-the-future-friday-four-7b7]]'
 - '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
 - '[[2025-04-16-the-state-of-photonic-computing]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2026-01-22-ai-chips-computeram-and-the-future]]'
+- '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
 frontier:
 - Do organic-substrate die-to-die links (Intel UCIe-S) or bridge approaches (TSMC Active LSI) let a meaningful share of accelerator designs step off silicon interposers by 2028, and at what bandwidth penalty?
@@ -35,7 +47,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 838
+mention_count: 859
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 5
@@ -46,9 +58,13 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 5
+sources_7d: 2
+sources_30d: 7
 recent_mentions:
+- slug: 2026-09-02-vertical-power-delivery-thermal-limits
+  title: 'Vertical power delivery: the thermal limit at the 48V-to-point-of-load stage'
+  date: '2026-09-02'
+  kind: web
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
@@ -61,26 +77,22 @@ recent_mentions:
   title: 'Inference-silicon roster verification sprint: 10 companies for the competitive-analysis capital map'
   date: '2026-07-31'
   kind: web
+- slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
+  title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
+  date: '2026-07-28'
+  kind: substack
 - slug: 2026-07-25-thoughts-on-ai-and-power
   title: Thoughts on AI and power
   date: '2026-07-25'
   kind: web
-- slug: 2026-07-10-inference-silicon-deep-research
-  title: 'Deep research: measured vs claimed inference-silicon economics (adversarially verified, 23/25 claims confirmed)'
-  date: '2026-07-10'
-  kind: web
-- slug: 2026-07-09-in-die-microfluidic-cooling-sprint
-  title: In-die microfluidic cooling — cluster research sprint
-  date: '2026-07-09'
-  kind: web
-- slug: 2026-07-05-semianalysis-kyber-nvl144-delayed-2028
-  title: 'SemiAnalysis: NVIDIA Kyber NVL144 delayed >12 months to 2028; NVL72x2 cancelled'
-  date: '2026-07-05'
-  kind: web
-- slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
-  title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
-  date: '2026-07-02'
-  kind: web
+- slug: 2026-07-24-the-huggingface-incident
+  title: The HuggingFace Incident
+  date: '2026-07-24'
+  kind: substack
+- slug: 2026-07-16-the-path-to-agi-runs-through-hbm
+  title: The Path To AGI Runs Through HBM
+  date: '2026-07-16'
+  kind: substack
 neighbors: []
 ---
 **CoWoS is TSMC's silicon-interposer packaging platform that bolts logic dies and HBM stacks into a single module, and through 2026 it is the physical chokepoint metering how many AI accelerators the world can build <sup class="ref"><a href="https://www.dwarkesh.com/p/dylan-patel" title="SemiAnalysis (Dylan Patel) — the three shifting bottlenecks to scaling AI compute (logic/litho, memory, power)" rel="noopener">ref</a></sup>.**

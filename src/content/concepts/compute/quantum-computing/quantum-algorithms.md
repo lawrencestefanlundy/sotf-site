@@ -38,7 +38,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 7
-sources_30d: 25
+sources_30d: 24
 recent_mentions:
 - slug: 2024-12-04-cubits-in-a-fridge-why-is-nobody
   title: Silicon Spin Quantum Computing (Feat. Himadri Majumdar, SemiQon)

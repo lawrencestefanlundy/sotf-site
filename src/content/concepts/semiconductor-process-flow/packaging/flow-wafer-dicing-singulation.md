@@ -15,11 +15,11 @@ tags:
 sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
-mention_count: 7
+mention_count: 9
 parent_concepts:
 - packaging
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
   title: Carbon Nanotubes in the Datacentre
@@ -70,7 +70,7 @@ Net read: the equipment-plus-consumable pool grows mid-to-high-single-digits str
  - SiC/power electrification shifts mix to laser: hard (Mohs 9.5) wide-bandgap wafers saw poorly, and the 150mm-to-200mm transition pulls in stealth/ultrafast-laser dicing; SiC was already ~37% of dicing-service value in 2025 [9][10].
 
 - **Constraints**
- - Severe cyclicality and concentration: the served market now rides AI capex, so a CoWoS/HBM digestion pause would hit dicing tool orders hard, with DISCO's ~38-44% margins amplifying any down-leg [3][6].
+ - Severe cyclicality and concentration: the served market now rides AI capex, so a CoWoS/HBM digestion pause would hit dicing tool orders hard, with DISCO's ~38-44% margins amplifying any down-slice [3][6].
  - Geopolitical: allied export controls on China (a large equipment-revenue source for the top-5 SME makers) can cut a meaningful demand slice at a stroke [11].
  - Glass-substrate fragility is a yield headwind, not yet a volume driver: glass cracks during and after singulation, large-scale panel adoption slips to ~2028+ [8].
 

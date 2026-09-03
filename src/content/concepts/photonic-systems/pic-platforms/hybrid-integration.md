@@ -9,13 +9,14 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
+- '[[2026-07-07-the-asml-killer]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 auto_stub: true
 last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 7
+mention_count: 8
 frontier:
 - What are the measured die-to-chip coupling losses and alignment tolerances for the SPAD-array-to-silica-waveguide interface, and do they hold across a full wafer-scale or pick-and-place assembly run 2026 06 05 hybrid integrated ingaasinp spad arrays for quantum communic?
 - How does hybrid SPAD receiver performance (detection efficiency, dark count rate, secure key rate) compare quantitatively with cryogenic superconducting receiver chips at the same wavelength?
@@ -24,6 +25,10 @@ frontier:
 sources_7d: 0
 sources_30d: 1
 recent_mentions:
+- slug: 2026-07-07-the-asml-killer
+  title: The ASML Killer?
+  date: '2026-07-07'
+  kind: substack
 - slug: 2025-12-09-gallium-nitride-photonics-w-james
   title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
   date: '2025-12-09'

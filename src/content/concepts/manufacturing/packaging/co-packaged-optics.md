@@ -11,10 +11,15 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
+- '[[2026-04-17-state-of-the-future-friday-four-67c]]'
+- '[[2026-06-05-recursive-until-the-power-bill]]'
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
+- '[[2026-04-14-the-photonic-foundry-fallacy]]'
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2025-04-16-the-state-of-photonic-computing]]'
+- '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
+- '[[2026-07-10-the-next-vc-meme-is]]'
 - '[[2026-03-12-optical-displaces-copper-broadcom-ships-tomahawk-6-world-s]]'
 - '[[2026-05-02-co-packaged-optics-2026-2036-idtechex]]'
 - '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
@@ -35,7 +40,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 62
+mention_count: 67
 sources_7d: 0
 sources_30d: 2
 recent_mentions:
@@ -43,6 +48,10 @@ recent_mentions:
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
   kind: web
+- slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
+  title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
+  date: '2026-07-28'
+  kind: substack
 - slug: 2026-07-26-ai-backend-network-optics-2026
   title: 'Dell''Oro: AI back-end switching past $100B by 2030, optical transport $16B in 2025'
   date: '2026-07-26'
@@ -55,6 +64,10 @@ recent_mentions:
   title: Neutral PDK / EDA layer for heterogeneous photonic integration — landscape check (Scintil essay correction research)
   date: '2026-07-11'
   kind: web
+- slug: 2026-07-10-the-next-vc-meme-is
+  title: The Next VC Meme Is...
+  date: '2026-07-10'
+  kind: substack
 - slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
   title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
   date: '2026-07-02'
@@ -62,14 +75,6 @@ recent_mentions:
 - slug: 2026-06-23-semidoped-daily-update
   title: Semi Doped — Daily Update, June 23rd 2026
   date: '2026-06-23'
-  kind: web
-- slug: 2026-06-23-photonic-foundry-capacity-co-packaged-optics-is-not-delayed
-  title: Co-Packaged Optics Is Not Delayed. SemiAnalysis Is Just Wrong
-  date: '2026-06-23'
-  kind: web
-- slug: 2026-06-22-thermal-stack-layer-landscape
-  title: AI datacentre thermal stack, junction-to-ambient — per-layer players, M&A, capture (web research synthesis)
-  date: '2026-06-22'
   kind: web
 neighbors: []
 ---

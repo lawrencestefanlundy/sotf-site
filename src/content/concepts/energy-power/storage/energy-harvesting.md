@@ -34,15 +34,7 @@ scorecard:
 scorecard_status: draft
 sources_7d: 0
 sources_30d: 3
-recent_mentions:
-- slug: 2025-2026-european-next-gen-pv-cohort
-  title: European next-gen PV cohort 2025-2026, Dracula, SunXT/Solertix, Perovion, HyET Solaris, Sofab Inks, Coatema
-  date: '2026-06-01'
-  kind: web
-- slug: 2025-04-16-the-state-of-photonic-computing
-  title: 'Photonic Computing: A Primer'
-  date: '2025-04-16'
-  kind: substack
+recent_mentions: []
 neighbors: []
 ---
 **Energy harvesting converts ambient light, heat, vibration or radio waves into microwatts-to-milliwatts of electricity to run sensors without batteries; indoor printed photovoltaics and RF/backscatter links are already at production or testbed stage, while thermal and piezoelectric routes remain low-efficiency laboratory physics.**
@@ -69,7 +61,7 @@ Against that: the thermoradiative branch is at the level of getting diode leakag
 
 Supply is visible. Public funding is flowing to the specific sub-problems: $199,975 for bistable stochastic harvesting in self-powered tyres, $950,000 for unified simultaneous wireless information and power transfer receivers, $565,091 for circuit metamaterials with integrated sensing and harvesting, and $400,000 plus $1,200,000 across two collaborating institutions for lead-free electromechanical oxides. Private capital is concentrated in the indoor PV branch: €30M Series A extension in October 2025 including the EIC Fund and France 2030 instruments, and roughly $34M raised to date by a second printed-OPV firm **2025 2026 European Next Gen Pv Cohort**.
 
-Demand is the weaker leg in the evidence. The pull is described qualitatively as IoT sensor deployment, wearables, soft robotics and structural or logistics monitoring, and as avoidance of battery replacement and e-waste. None of the sources gives shipment volumes, design-win counts or willingness-to-pay. One source is explicit that the closest historical analogue, far-field RF power transfer, has not found much commercial success despite decades of information-transmission progress. A regulatory driver towards lead-free piezoelectrics is implied by the framing of the DMREF projects but no rule or date is given.
+Demand is the weaker part in the evidence. The pull is described qualitatively as IoT sensor deployment, wearables, soft robotics and structural or logistics monitoring, and as avoidance of battery replacement and e-waste. None of the sources gives shipment volumes, design-win counts or willingness-to-pay. One source is explicit that the closest historical analogue, far-field RF power transfer, has not found much commercial success despite decades of information-transmission progress. A regulatory driver towards lead-free piezoelectrics is implied by the framing of the DMREF projects but no rule or date is given.
 
 **TLDR: Supply-side funding is documented and dated; demand is asserted in grant rationales rather than measured.**
 

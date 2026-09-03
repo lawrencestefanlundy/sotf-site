@@ -10,12 +10,13 @@ sources:
 - '[[2023-06-15-e04-no10-downing-street-and-vector]]'
 - '[[2023-10-19-e20-the-state-of-privacy-enhancing]]'
 - '[[2025-11-05-consensus-capital]]'
+- '[[2026-04-22-detecting-proteins-in-blood-with]]'
 auto_stub: true
 last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 30
+mention_count: 31
 descendants:
 - 3d-bioprinting-platforms
 - 3d-printed-bioscaffolds
@@ -59,6 +60,10 @@ scorecard_status: draft
 sources_7d: 2
 sources_30d: 5
 recent_mentions:
+- slug: 2026-04-22-detecting-proteins-in-blood-with
+  title: Detecting Proteins in Blood with Photonics w/ Prateek of Proteins1
+  date: '2026-04-22'
+  kind: substack
 - slug: 2025-11-05-consensus-capital
   title: Consensus Capital
   date: '2025-11-05'

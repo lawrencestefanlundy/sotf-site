@@ -46,7 +46,7 @@ scorecard:
   verdict: Too early to say
 scorecard_status: draft
 mention_count: 30
-sources_7d: 2
+sources_7d: 1
 sources_30d: 3
 recent_mentions:
 - slug: 2026-08-31-opener-open-sources-dect-nr-for-iot---opensourceforucom

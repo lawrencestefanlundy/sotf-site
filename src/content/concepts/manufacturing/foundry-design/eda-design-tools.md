@@ -48,6 +48,10 @@ recent_mentions:
   title: Southampton To Help Expand UK Chip Design Capabilities - Mirage News
   date: '2026-06-11'
   kind: web
+- slug: 2025-05-30-chip-design-software-firm-synopsys-halts-china-sales-due-to-
+  title: Chip design software firm Synopsys halts China sales due to new US export curbs - The Straits Times
+  date: '2025-05-30'
+  kind: web
 neighbors: []
 ---
 **EDA is the software layer that turns design intent into manufacturable silicon, and the 2026 research front is rebuilding it around large language models, differentiable optimisation and surrogate models, with benchmark results showing real gains in design turnaround but verification quality still well short of sign-off.**

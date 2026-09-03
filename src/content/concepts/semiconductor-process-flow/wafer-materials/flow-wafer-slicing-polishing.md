@@ -16,9 +16,9 @@ tags:
 sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
-mention_count: 7
-sources_7d: 0
-sources_30d: 0
+mention_count: 9
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
   title: Carbon Nanotubes in the Datacentre
@@ -71,9 +71,9 @@ Unit volume is enormous: worldwide silicon shipped ~12,973 million square inches
 The margin accrues to (a) DISCO on grinders/wheels and (b) the consumables suppliers, more reliably than to the cyclical wafer makers themselves.
 
 ## Market drivers, constraints & trends
-Net read: the served pool splits into a cyclical, oversupply-threatened bare-wafer leg and a structurally accelerating thinning/grinding leg, so the blended trajectory is steady-to-accelerating, paced by advanced-packaging tool intensity.
+Net read: the served pool splits into a cyclical, oversupply-threatened bare-wafer part and a structurally accelerating thinning/grinding part, so the blended trajectory is steady-to-accelerating, paced by advanced-packaging tool intensity.
 - **Drivers** — AI/HBM and sub-2nm logic are pulling polished-wafer and grinding demand: silicon shipments resumed growth to ~13,076 MSI in 2025 (+5.4%), led by a ~7% rise in 300mm for AI/HPC and HBM [9], and SEMI projects 300mm fab equipment spend at $133B in 2026 (+18%) and $151B in 2027 (+14%) [10]. The high-margin layer is wafer thinning: this back-end pool is ~$582M in 2025 growing to ~$845M by 2030 as TSV-reveal grinding and sub-100um dies go mainstream across HBM stacks and logic [11]. HBM4 raises per-wafer grind/CMP intensity over standard DRAM [9].
-- **Constraints** — Chinese bare-wafer capacity is the bear: Eswin alone targets 1.2M 12-inch wafers/month by 2026 (>10% global share) and 6-inch is already in discounted oversupply [12], capping bare-wafer pricing and slicing-tool capex even as units rise. GlobalWafers saw prices bottoming only in 1Q26 [12]; the wafer-maker leg eats the cycle.
+- **Constraints** — Chinese bare-wafer capacity is the bear: Eswin alone targets 1.2M 12-inch wafers/month by 2026 (>10% global share) and 6-inch is already in discounted oversupply [12], capping bare-wafer pricing and slicing-tool capex even as units rise. GlobalWafers saw prices bottoming only in 1Q26 [12]; the wafer-maker part eats the cycle.
 - **Trends & inflections to watch** — Backside power delivery at 2nm forces new ultra-thin grinding/CMP to ~500nm remaining silicon, with imec and DISCO co-developing uniformity [13]; tripwire: TSMC/Samsung/Intel 2nm BSPDN volume ramp confirmed 2026-27. Glass-substrate panel-level packaging (Intel Clearwater Forest shipping, Samsung 2027 ramp [14]) shifts value toward panel tools and away from round-wafer processing; tripwire: a 2027 high-volume glass-PLP AI part. Hybrid bonding scaling (bonders ~$152M→$397M, 21% CAGR [11]) lifts demand for sub-1um wafer flatness and thinning.
 
 ## Connections

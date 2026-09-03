@@ -18,7 +18,9 @@ related_concepts:
 - hbm
 - optical-interconnect
 sources:
+- '[[2026-05-14-compute-is-defence-now]]'
 - '[[2025-04-16-the-state-of-photonic-computing]]'
+- '[[2026-07-10-the-next-vc-meme-is]]'
 - '[[2026-06-23-semidoped-daily-update]]'
 - '[[2026-06-01-hbm-state-of-play]]'
 - '[[2026-03-17-compute-specialisation-equilibrium-aws-rises-to-the-agentic]]'
@@ -41,7 +43,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 38
+mention_count: 40
 sources_7d: 0
 sources_30d: 4
 recent_mentions:
@@ -49,6 +51,10 @@ recent_mentions:
   title: SK Hynix record one-day fall as HBM4 goes three-supplier
   date: '2026-07-13'
   kind: web
+- slug: 2026-07-10-the-next-vc-meme-is
+  title: The Next VC Meme Is...
+  date: '2026-07-10'
+  kind: substack
 - slug: 2026-07-10-workload-phase-silicon-sweep
   title: 'Workload-phase silicon sweep: pre-training / RL / prefill / decode procurement split'
   date: '2026-07-10'
@@ -69,14 +75,10 @@ recent_mentions:
   title: HBM state of play (mid-2026) — technology, supercycle, three-supplier standing
   date: '2026-06-01'
   kind: web
-- slug: 2026-03-19-compute-specialisation-equilibrium-how-nvidia-s-20-billion
-  title: How Nvidia's $20 billion Groq 3 LPU deal reshapes the Nvidia Vera Rubin Platform
-  date: '2026-03-19'
-  kind: web
-- slug: 2026-03-17-compute-specialisation-equilibrium-aws-rises-to-the-agentic
-  title: AWS Rises to the Agentic AI Moment with Cerebras Integration for Fast Inference
-  date: '2026-03-17'
-  kind: web
+- slug: 2026-05-14-compute-is-defence-now
+  title: Compute Is Defence Now
+  date: '2026-05-14'
+  kind: substack
 neighbors:
 - slug: hbm
   name: HBM (High-Bandwidth Memory)
@@ -101,7 +103,7 @@ Demand-side, the roadmap is the reference architecture for the largest committed
 
 ## Viability (4/5)
 
-The near-term leg is demonstrated rather than promised. The Vera Rubin platform was formally launched on 16 March 2026, ships H2 2026, is fully liquid-cooled, and the first LPX rack is live at Microsoft Azure with no CUDA code changes required <sup class="ref"><a href="https://developer.nvidia.com/blog/inside-the-nvidia-rubin-platform-six-new-chips-one-ai-supercomputer/" title="Inside the NVIDIA Rubin Platform: Six New Chips, One AI Supercomputer" rel="noopener">ref</a></sup>. Deployment against a named customer programme is also dated: Vera Rubin rolls out across Stargate sites in H2 2026 **2026 Openai Titan Custom Chip**. That is a high bar of evidence for a compute-architecture page.
+The near-term part is demonstrated rather than promised. The Vera Rubin platform was formally launched on 16 March 2026, ships H2 2026, is fully liquid-cooled, and the first LPX rack is live at Microsoft Azure with no CUDA code changes required <sup class="ref"><a href="https://developer.nvidia.com/blog/inside-the-nvidia-rubin-platform-six-new-chips-one-ai-supercomputer/" title="Inside the NVIDIA Rubin Platform: Six New Chips, One AI Supercomputer" rel="noopener">ref</a></sup>. Deployment against a named customer programme is also dated: Vera Rubin rolls out across Stargate sites in H2 2026 **2026 Openai Titan Custom Chip**. That is a high bar of evidence for a compute-architecture page.
 
 The out-years are where the score is capped. Kyber NVL144 slipped more than twelve months to 2028 for PCB midplane manufacturability reasons, and the NVL72x2 fallback was cancelled, leaving NVIDIA with no proven path to expand the scale-up world size for Rubin Ultra, which stays at an NVL72-class domain far longer than roadmapped <sup class="ref"><a href="https://x.com/SemiAnalysis_/status/2073874671498387899" title="SemiAnalysis: NVIDIA Kyber NVL144 delayed >12 months to 2028; NVL72x2 cancelled" rel="noopener">ref</a></sup>. Rubin CPX was announced then cancelled inside six months. Feynman is on the roadmap for 2028 with no disclosed TDP or configuration <sup class="ref"><a href="https://intuitionlabs.ai/articles/nvidia-data-center-gpu-specs" title="NVIDIA Vera Rubin and Feynman roadmap confirmed at GTC 2025 with HBM4 support" rel="noopener">ref</a></sup>, and the sources give no independent basis for treating that date as firm. Component supply adds a second constraint: HBM4 volumes had not materialised at scale as of July 2026 <sup class="ref"><a href="https://finance.yahoo.com/markets/stocks/articles/sk-hynix-shares-fall-much-003035107.html" title="SK Hynix record one-day fall as HBM4 goes three-supplier" rel="noopener">ref</a></sup>.
 
@@ -139,7 +141,7 @@ The slip case shows the same leverage in reverse. Because Rubin Ultra now has no
 
 ## Timing Now (0-2yr)
 
-The current leg is live. Vera Rubin launched 16 March 2026, ships H2 2026, with the first LPX rack already running at Azure and rollout across Stargate in the same window <sup class="ref"><a href="https://developer.nvidia.com/blog/inside-the-nvidia-rubin-platform-six-new-chips-one-ai-supercomputer/" title="Inside the NVIDIA Rubin Platform: Six New Chips, One AI Supercomputer" rel="noopener">ref</a></sup> **2026 Openai Titan Custom Chip**. The Groq 3 LPX decode co-processor targets Q3 2026. So there is nothing speculative about the 0-2 year band.
+The current part is live. Vera Rubin launched 16 March 2026, ships H2 2026, with the first LPX rack already running at Azure and rollout across Stargate in the same window <sup class="ref"><a href="https://developer.nvidia.com/blog/inside-the-nvidia-rubin-platform-six-new-chips-one-ai-supercomputer/" title="Inside the NVIDIA Rubin Platform: Six New Chips, One AI Supercomputer" rel="noopener">ref</a></sup> **2026 Openai Titan Custom Chip**. The Groq 3 LPX decode co-processor targets Q3 2026. So there is nothing speculative about the 0-2 year band.
 
 The interesting timing question is 2028, where two roadmap items now converge: Feynman, confirmed for 2028 with no disclosed specifications <sup class="ref"><a href="https://intuitionlabs.ai/articles/nvidia-data-center-gpu-specs" title="NVIDIA Vera Rubin and Feynman roadmap confirmed at GTC 2025 with HBM4 support" rel="noopener">ref</a></sup>, and Kyber NVL144, pushed to 2028 by the midplane slip <sup class="ref"><a href="https://x.com/SemiAnalysis_/status/2073874671498387899" title="SemiAnalysis: NVIDIA Kyber NVL144 delayed >12 months to 2028; NVL72x2 cancelled" rel="noopener">ref</a></sup>. A generation and a rack architecture arriving in the same year, after one of them has already lost twelve months to manufacturability, is a compression risk the sources do not resolve. Also unresolved in the sources: whether HBM4E at 3+ TB/s, timed for 2027, arrives in step with the parts meant to use it.
 

@@ -21,12 +21,14 @@ related_concepts:
 sources:
 - '[[2025-04-23-what-if-ai-can-already-feel]]'
 - '[[2025-03-26-on-educating-our-children-in-the]]'
+- '[[2026-04-28-making-ai-inference-cheap-with-analog]]'
 - '[[2026-06-23-semidoped-daily-update]]'
 - '[[2025-10-21-ceva-launches-wi-fi-7-ip-for-smarter-ai-driven-iot-and-physi]]'
 - '[[2025-10-21-ceva-introduces-wi-fi-7-1x1-client-ip-to-power-smarter-more-]]'
 - '[[2026-robot-data-supply-funding-wave]]'
 - '[[2026-04-20-robot-autonomy-destination-bessemer-venture-partners]]'
 - '[[2026-08-06-the-year-ai-science-and-the-physical-ai-industry-came-alive]]'
+- '[[2026-09-01-chinas-ai-rally-is-real-most-global-investors-are-missing-it]]'
 - '[[2026-04-20-physical-ai-deploys-this-decade-bessemer-predicts-robotics]]'
 - '[[2026-07-01-sensifai-memo-streaming-physical-ai]]'
 - '[[2026-06-15-gf-investor-day-2026]]'
@@ -41,7 +43,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 81
+mention_count: 83
 descendants:
 - dexterous-manipulation
 - humanoid-robots
@@ -51,9 +53,13 @@ descendants:
 - tactile-sensing
 - vision-language-action-models
 - world-models
-sources_7d: 5
+sources_7d: 6
 sources_30d: 12
 recent_mentions:
+- slug: 2026-09-01-chinas-ai-rally-is-real-most-global-investors-are-missing-it
+  title: China’s AI Rally Is Real. Most Global Investors Are Missing It.
+  date: '2026-09-01'
+  kind: web
 - slug: 2026-08-06-the-year-ai-science-and-the-physical-ai-industry-came-alive
   title: The Year AI Science and the Physical AI Industry Came Alive
   date: '2026-08-06'
@@ -80,10 +86,6 @@ recent_mentions:
   kind: web
 - slug: 2026-robot-data-supply-funding-wave
   title: 'Robot data-supply & sensor layer funding wave (2025-26): PitchBook, Encord, PaXini, DAIMON'
-  date: '2026-06-13'
-  kind: web
-- slug: 2026-06-13-sovereign-electronics-manufacturing-reshoring-digest
-  title: 'Western/European electronics manufacturing reshoring (PCB/PCBA): market + why-now digest'
   date: '2026-06-13'
   kind: web
 neighbors:

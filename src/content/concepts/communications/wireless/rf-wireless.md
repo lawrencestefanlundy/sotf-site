@@ -33,6 +33,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-01-nasa-selects-blue-origin-as-mars-telecommunications-network-
+  title: NASA Selects Blue Origin as Mars Telecommunications Network Provider
+  date: '2026-09-01'
+  kind: web
 - slug: 2026-08-27-opener-is-an-open-source-reference-implementation-of-the-dec
   title: Opener is an open-source reference implementation of the DECT NR+ massive IoT, low-latency standard - CNX Software
   date: '2026-08-27'
@@ -53,17 +57,13 @@ recent_mentions:
   title: VIAVI Introduces Industry's First Channel Emulator for 6G and Wi-Fi 7/8 - barchart.com
   date: '2026-08-12'
   kind: web
+- slug: 2026-08-11-anybus-communicators-are-cra-ready---august-2026---industria
+  title: Anybus Communicators are CRA-ready - August 2026 - Industrial Data Xchange (IDX) - SA Instrumentation & Control
+  date: '2026-08-11'
+  kind: web
 - slug: 2026-08-03-quectel-adds-wi-fi-7-and-bluetooth-60-modules-for-consumer-a
   title: Quectel Adds Wi-Fi 7 and Bluetooth 6.0 Modules for Consumer and Edge Devices - IoT Business News
   date: '2026-08-03'
-  kind: web
-- slug: 2026-08-01-inje-university-partners-with-huawei-to-build-a-cutting-edge
-  title: Inje University Partners with Huawei to Build a Cutting-Edge Wi-Fi 7 Smart Campus - Huawei Enterprise
-  date: '2026-08-01'
-  kind: web
-- slug: 2026-07-16-wi-fi-network-equipment-amplifiers-market-demand-to-accelera
-  title: Wi-Fi Network Equipment Amplifiers Market Demand to Accelerate by 2035 on Wi-Fi 7 Rollout and 6 Ghz Band Expansion - IndexBox
-  date: '2026-07-16'
   kind: web
 neighbors: []
 ---

@@ -9,6 +9,7 @@ parent_concepts:
 - foundry-design
 related_concepts: []
 sources:
+- '[[2026-07-03-thats-a-learning-curve-mate-not-rsi]]'
 - '[[2026-07-11-neutral-pdk-heterogeneous-integration-landscape]]'
 - '[[2024-trendforce-foundry-2024]]'
 frontier: []
@@ -16,7 +17,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 5
+mention_count: 6
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
@@ -25,6 +26,10 @@ recent_mentions:
   title: Neutral PDK / EDA layer for heterogeneous photonic integration — landscape check (Scintil essay correction research)
   date: '2026-07-11'
   kind: web
+- slug: 2026-07-03-thats-a-learning-curve-mate-not-rsi
+  title: That’s a learning curve mate, not RSI
+  date: '2026-07-03'
+  kind: substack
 - slug: 2024-trendforce-foundry-2024
   title: TrendForce — Global Foundry Industry Outlook 2024-2026
   date: '2024-11-15'

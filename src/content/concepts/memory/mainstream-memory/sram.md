@@ -10,8 +10,13 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2023-06-23-e05-the-future-of-edge-ai-brain-inspired]]'
+- '[[2026-08-07-the-memory-trade-isnt-over-weights]]'
+- '[[2026-04-28-making-ai-inference-cheap-with-analog]]'
+- '[[2026-07-16-the-path-to-agi-runs-through-hbm]]'
 - '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
+- '[[2026-02-13-four-things-friday]]'
 - '[[2026-01-22-ai-chips-computeram-and-the-future]]'
+- '[[2026-07-10-the-next-vc-meme-is]]'
 - '[[2026-06-16-cim-landscape-2026]]'
 - '[[2026-07-25-thoughts-on-ai-and-power]]'
 - '[[2026-07-10-workload-phase-silicon-sweep]]'
@@ -40,14 +45,18 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 97
+mention_count: 102
 sources_7d: 2
-sources_30d: 7
+sources_30d: 8
 recent_mentions:
 - slug: 2026-08-14-chip-tail-verification-sweep
   title: 'Chip-comparison tail verification sweep: 37 companies re-verified, consolidation wave confirmed'
   date: '2026-08-14'
   kind: web
+- slug: 2026-08-07-the-memory-trade-isnt-over-weights
+  title: 'The Memory Trade Isn''t Over: Weights and KV Cache'
+  date: '2026-08-07'
+  kind: substack
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
@@ -64,17 +73,13 @@ recent_mentions:
   title: Thoughts on AI and power
   date: '2026-07-25'
   kind: web
+- slug: 2026-07-16-the-path-to-agi-runs-through-hbm
+  title: The Path To AGI Runs Through HBM
+  date: '2026-07-16'
+  kind: substack
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
-  kind: web
-- slug: 2026-07-10-workload-phase-silicon-sweep
-  title: 'Workload-phase silicon sweep: pre-training / RL / prefill / decode procurement split'
-  date: '2026-07-10'
-  kind: web
-- slug: 2026-07-10-inference-silicon-deep-research
-  title: 'Deep research: measured vs claimed inference-silicon economics (adversarially verified, 23/25 claims confirmed)'
-  date: '2026-07-10'
   kind: web
 neighbors: []
 ---

@@ -34,6 +34,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-01-nvidia-earnings-dollars-per-gigawatt-open-and-hugging-face
+  title: Nvidia Earnings, Dollars Per Gigawatt, Open and Hugging Face
+  date: '2026-09-01'
+  kind: web
 - slug: 2026-08-29-us-commerce-department-moves-to-block-china-ai-firms-from-re
   title: U.S. Commerce Department moves to block China AI firms from remote access to advanced chips - 디지털투데이
   date: '2026-08-29'
@@ -61,10 +65,6 @@ recent_mentions:
 - slug: 2026-07-25-thoughts-on-ai-and-power
   title: Thoughts on AI and power
   date: '2026-07-25'
-  kind: web
-- slug: 2026-06-10-europe-pursues-new-ai-chip-dream---center-for-european-polic
-  title: Europe Pursues New AI Chip Dream - Center for European Policy Analysis (CEPA)
-  date: '2026-06-10'
   kind: web
 neighbors: []
 ---

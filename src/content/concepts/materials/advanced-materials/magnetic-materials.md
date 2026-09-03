@@ -31,7 +31,7 @@ scorecard:
   verdict: Too early to say
 scorecard_status: draft
 sources_7d: 4
-sources_30d: 11
+sources_30d: 10
 recent_mentions: []
 neighbors:
 - slug: rare-earth-elements

@@ -16,11 +16,15 @@ related_concepts:
 - co-packaged-optics
 - chiplets
 sources:
+- '[[2026-04-17-state-of-the-future-friday-four-67c]]'
 - '[[2026-03-26-sotf-interview-dorian-haci-mintneuro]]'
 - '[[2023-08-31-e13-chiplets-how-chip-lego-is-driving]]'
+- '[[2026-04-14-the-photonic-foundry-fallacy]]'
 - '[[2024-10-29-deploy-intelligence-too-cheap-to]]'
+- '[[2026-07-07-the-asml-killer]]'
 - '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
+- '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
 - '[[2026-04-09-photonics-material-class-war-photonic-integrated-circuit]]'
 - '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
 - '[[2026-07-11-neutral-pdk-heterogeneous-integration-landscape]]'
@@ -36,7 +40,7 @@ frontier:
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 67
+mention_count: 72
 scorecard:
   viability: 4
   drivers: 4
@@ -46,17 +50,33 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 10
+sources_7d: 1
+sources_30d: 7
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
   kind: web
+- slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
+  title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
+  date: '2026-07-28'
+  kind: substack
 - slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape
   title: Neutral PDK / EDA layer for heterogeneous photonic integration — landscape check (Scintil essay correction research)
   date: '2026-07-11'
   kind: web
+- slug: 2026-07-07-the-asml-killer
+  title: The ASML Killer?
+  date: '2026-07-07'
+  kind: substack
+- slug: 2026-04-17-state-of-the-future-friday-four-67c
+  title: 'State of the Future: Friday Four'
+  date: '2026-04-17'
+  kind: substack
+- slug: 2026-04-14-the-photonic-foundry-fallacy
+  title: The Photonic Foundry Fallacy
+  date: '2026-04-14'
+  kind: substack
 - slug: 2026-04-10-photonic-light-source-supply-co-packaged-optics-cpo-scaling
   title: Co-Packaged Optics (CPO) – Scaling with Light for the Next Wave of Interconnect
   date: '2026-04-10'
@@ -65,22 +85,6 @@ recent_mentions:
   title: Photonic Integrated Circuit Technology Landscape 2026
   date: '2026-04-09'
   kind: web
-- slug: 2026-03-26-sotf-interview-dorian-haci-mintneuro
-  title: 'Chips for the Brain: Modular Semiconductors for Neural Interfaces (MintNeuro) / Dorian Haci)'
-  date: '2026-03-26'
-  kind: substack
-- slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
-  title: 'UK Opportunity in AI: Compound Semiconductors'
-  date: '2025-09-10'
-  kind: substack
-- slug: 2025-02-12-wen-babelfish-feat-aron-of-semron
-  title: 'Edge AI: Analog Chips (feat. Aron Kirschen, SEMRON)'
-  date: '2025-02-12'
-  kind: substack
-- slug: 2024-10-29-deploy-intelligence-too-cheap-to
-  title: Deploy! Intelligence too cheap to meter @ $0.0001 per million tokens.
-  date: '2024-10-29'
-  kind: substack
 neighbors:
 - slug: 3d-ic-stacking
   name: 3D IC Stacking

@@ -27,6 +27,7 @@ related_concepts:
 - lithium-niobate-tfln
 - indium-phosphide
 sources:
+- '[[2026-07-07-the-asml-killer]]'
 - '[[2025-06-slm-future-agentic-ai-nvidia]]'
 - '[[2026-06-23-on-device-llms-state-of-union-2026]]'
 frontier:
@@ -48,7 +49,7 @@ tags:
 - slm
 - photonic-compute
 last_reorg_date: '2026-05-13'
-mention_count: 49
+mention_count: 50
 scorecard:
   viability: 4
   drivers: 4
@@ -59,8 +60,12 @@ scorecard:
   verdict: Underrated
 scorecard_status: draft
 sources_7d: 2
-sources_30d: 10
+sources_30d: 8
 recent_mentions:
+- slug: 2026-07-07-the-asml-killer
+  title: The ASML Killer?
+  date: '2026-07-07'
+  kind: substack
 - slug: 2026-06-23-on-device-llms-state-of-union-2026
   title: On-device LLMs, the small-model frontier, and NPU throughput (2025-26 update)
   date: '2026-06-23'

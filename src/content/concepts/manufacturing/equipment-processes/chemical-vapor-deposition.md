@@ -50,7 +50,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 4
-sources_30d: 9
+sources_30d: 8
 recent_mentions:
 - slug: 2025-07-01-a-primer-carbon-nanotubes
   title: 'A Primer: Carbon Nanotubes'

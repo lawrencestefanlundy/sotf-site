@@ -33,6 +33,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-01-nvidia-earnings-dollars-per-gigawatt-open-and-hugging-face
+  title: Nvidia Earnings, Dollars Per Gigawatt, Open and Hugging Face
+  date: '2026-09-01'
+  kind: web
 - slug: 2026-08-27-the-case-against-relying-on-behind-the-meter-power-for-data-
   title: The case against relying on behind-the-meter power for data centers - staging.latitudemedia.com
   date: '2026-08-27'
@@ -59,10 +63,6 @@ recent_mentions:
   kind: web
 - slug: 2026-08-05-which-ldes-companies-are-poised-to-land-the-next-big-contrac
   title: Which LDES companies are poised to land the next big contracts? - Latitude Media
-  date: '2026-08-05'
-  kind: web
-- slug: 2026-08-05-uk-neocloud-landscape-sweep
-  title: UK neocloud landscape sweep — filling the coverage gap under the neocloud/serving map
   date: '2026-08-05'
   kind: web
 neighbors: []

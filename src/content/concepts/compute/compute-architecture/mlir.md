@@ -30,7 +30,7 @@ tags:
 - reference
 mention_count: 12
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-06-02-agentic-runtime-silicon-necessity
   title: Deep-research dossier — does the stateful agent runtime / control-plane layer need a novel silicon primitive?

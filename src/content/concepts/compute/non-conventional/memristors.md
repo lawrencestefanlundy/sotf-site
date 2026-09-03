@@ -9,6 +9,7 @@ parent_concepts:
 - non-conventional
 related_concepts: []
 sources:
+- '[[2026-08-07-the-memory-trade-isnt-over-weights]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
 frontier:
 - Can filament formation be made deterministic enough for uniform multi-level analogue weights, given that as of 2026 charge transport is dominated by a small number of discrete filaments rather than uniform conduction 2026 05 05 investigation of filamentation in a siagcu memristors with a?
@@ -19,7 +20,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - material
-mention_count: 16
+mention_count: 17
 last_reorg_date: '2026-05-14'
 scorecard:
   viability: 3
@@ -33,6 +34,10 @@ scorecard_status: draft
 sources_7d: 1
 sources_30d: 6
 recent_mentions:
+- slug: 2026-08-07-the-memory-trade-isnt-over-weights
+  title: 'The Memory Trade Isn''t Over: Weights and KV Cache'
+  date: '2026-08-07'
+  kind: substack
 - slug: 2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth
   title: '🔮E14: The Real AI Bottleneck: High Bandwidth Memory (HBM)'
   date: '2023-09-08'

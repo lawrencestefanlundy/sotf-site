@@ -19,7 +19,8 @@ sources:
 - '[[2024-10-29-deploy-intelligence-too-cheap-to]]'
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
-mention_count: 290
+- '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
+mention_count: 293
 parent_concepts:
 - flow-rtl-design
 scorecard:
@@ -36,8 +37,8 @@ frontier:
 - Does the 15 to 30 per cent congestion reduction from affine derandomisation, and the Theta(log N) routing number, hold on physically realisable acousto-optic lattices with finite move times, or only in the idealised matching model?
 - Will the single-photon switching community actually adopt consistent reporting of speed, efficiency and fidelity, and when it does, which platform among quantum dots, neutral atoms, superconducting qubits and colour centres leads?
 - At what routing density does the sub-kelvin thermal conductivity of the substrate, spanning 5x10^-2 down to 8x10^-4 W/m.K at 300 mK depending on material, become the binding limit on co-integrating control and readout with qubits?
-sources_7d: 3
-sources_30d: 15
+sources_7d: 4
+sources_30d: 14
 recent_mentions:
 - slug: 2026-08-20-callosum-100m-seed-announcement
   title: Callosum announces $100M seed led by Atomico (round coverage + Companies House filings)
@@ -47,6 +48,10 @@ recent_mentions:
   title: UK neocloud landscape sweep — filling the coverage gap under the neocloud/serving map
   date: '2026-08-05'
   kind: web
+- slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
+  title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
+  date: '2026-07-28'
+  kind: substack
 - slug: 2026-07-27-optimal-compute-vega-investor-briefing
   title: Optimal Compute / VEGA — Investor Briefing, July 2026 (7-page DocSend)
   date: '2026-07-27'
@@ -66,10 +71,6 @@ recent_mentions:
 - slug: 2026-07-15-kimi-k3-launch-moonshot
   title: Kimi K3 — Moonshot launch post (architecture, quantisation, serving requirements)
   date: '2026-07-15'
-  kind: web
-- slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
-  title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
-  date: '2026-07-02'
   kind: web
 neighbors:
 - slug: eda-design-tools

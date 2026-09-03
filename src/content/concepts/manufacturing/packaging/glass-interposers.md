@@ -8,17 +8,22 @@ parent_concepts:
 - manufacturing
 - packaging
 related_concepts: []
-sources: []
+sources:
+- '[[2026-07-16-the-path-to-agi-runs-through-hbm]]'
 frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 4
+mention_count: 5
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-07-16-the-path-to-agi-runs-through-hbm
+  title: The Path To AGI Runs Through HBM
+  date: '2026-07-16'
+  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

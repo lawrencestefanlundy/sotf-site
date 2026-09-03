@@ -13,7 +13,8 @@ related_concepts:
 - charge-domain-compute
 - sram-cim
 - memcapacitor
-sources: []
+sources:
+- '[[2026-04-28-making-ai-inference-cheap-with-analog]]'
 frontier:
 - Does any analog-CIM vendor publish a full-chip (not array-only) TOPS/W that holds up once ADC + DAC + SRAM buffering are counted? This is the number to demand before believing a 20× claim.
 - Does charge-domain + clever ADC sharing / time-multiplexing get the ADC below ~50% of array energy at production precision (8-bit), or does it stay the dominant cost?
@@ -24,10 +25,14 @@ tags:
 - analog-computing
 - in-memory-compute
 - counter-thesis
-mention_count: 4
+mention_count: 5
 sources_7d: 0
 sources_30d: 1
-recent_mentions: []
+recent_mentions:
+- slug: 2026-04-28-making-ai-inference-cheap-with-analog
+  title: Making AI inference Cheap with Analog Computing w/ Shwetank Kumar @ EnCharge AI
+  date: '2026-04-28'
+  kind: substack
 neighbors:
 - slug: charge-domain-compute
   name: Charge-Domain Compute

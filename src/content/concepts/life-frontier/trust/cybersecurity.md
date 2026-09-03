@@ -9,7 +9,9 @@ parent_concepts:
 - trust
 related_concepts: []
 sources:
+- '[[2026-07-24-the-huggingface-incident]]'
 - '[[2023-10-19-e20-the-state-of-privacy-enhancing]]'
+- '[[2026-04-10-state-of-the-future-friday-four-551]]'
 - '[[2023-08-25-e12-nanomechanical-computing-gears]]'
 - '[[2026-07-06-willdepue-stargate-for-data]]'
 - '[[2025-12-16-draft-nist-guidelines-rethink-cybersecurity-for-the-ai-era]]'
@@ -28,9 +30,9 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-mention_count: 113
+mention_count: 115
 sources_7d: 5
-sources_30d: 39
+sources_30d: 37
 recent_mentions:
 - slug: 2026-08-20-callosum-100m-seed-announcement
   title: Callosum announces $100M seed led by Atomico (round coverage + Companies House filings)
@@ -48,6 +50,10 @@ recent_mentions:
   title: Thoughts on AI and power
   date: '2026-07-25'
   kind: web
+- slug: 2026-07-24-the-huggingface-incident
+  title: The HuggingFace Incident
+  date: '2026-07-24'
+  kind: substack
 - slug: 2026-07-06-willdepue-stargate-for-data
   title: A Stargate for Data — will depue (OpenAI) on >$100B/year data spend by 2030
   date: '2026-07-06'
@@ -56,14 +62,10 @@ recent_mentions:
   title: 'Silicon Shock: The Macro of Tech Inflation'
   date: '2026-05-29'
   kind: web
-- slug: 2026-03-28-agentic-ai-security-funding-mna
-  title: 'Agentic-AI security startups: funding and M&A, RSAC 2026'
-  date: '2026-03-28'
-  kind: web
-- slug: 2025-12-16-draft-nist-guidelines-rethink-cybersecurity-for-the-ai-era
-  title: Draft NIST Guidelines Rethink Cybersecurity for the AI Era
-  date: '2025-12-16'
-  kind: web
+- slug: 2026-04-10-state-of-the-future-friday-four-551
+  title: 'State of the Future: Friday Four'
+  date: '2026-04-10'
+  kind: substack
 neighbors: []
 ---
 **Cybersecurity is being restructured around autonomous LLM agents that now perform triage, vulnerability discovery and incident response, while simultaneously becoming the largest new attack surface and lowering the skill floor for offence.**

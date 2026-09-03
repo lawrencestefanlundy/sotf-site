@@ -25,18 +25,29 @@ tags:
 - displays
 - smart-glasses
 sources:
+- '[[2026-04-17-state-of-the-future-friday-four-67c]]'
+- '[[2026-06-05-recursive-until-the-power-bill]]'
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-07-01-a-primer-carbon-nanotubes]]'
 - '[[2024-11-20-nuclear-fusion-the-state-of-play]]'
 - '[[2024-11-12-atomic-energy-can-nuclear-power-our]]'
 - '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
 - '[[2025-04-16-the-state-of-photonic-computing]]'
+- '[[2026-07-10-the-next-vc-meme-is]]'
 - '[[2026-05-12-semianalysis-eda-rtl-to-silicon]]'
 - '[[2026-05-21-semianalysis-eda-market-primer]]'
-mention_count: 20
+mention_count: 23
 sources_7d: 1
 sources_30d: 2
 recent_mentions:
+- slug: 2026-07-10-the-next-vc-meme-is
+  title: The Next VC Meme Is...
+  date: '2026-07-10'
+  kind: substack
+- slug: 2026-06-05-recursive-until-the-power-bill
+  title: Recursive, Until the Power Bill
+  date: '2026-06-05'
+  kind: substack
 - slug: 2026-05-21-semianalysis-eda-market-primer
   title: EDA Market Primer - Market Dynamics, Cadence, Synopsys, Siemens, China EDA Rise
   date: '2026-05-21'
@@ -45,6 +56,10 @@ recent_mentions:
   title: 'The EDA Primer: From RTL to Silicon'
   date: '2026-05-12'
   kind: web
+- slug: 2026-04-17-state-of-the-future-friday-four-67c
+  title: 'State of the Future: Friday Four'
+  date: '2026-04-17'
+  kind: substack
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
   title: Carbon Nanotubes in the Datacentre
   date: '2025-11-25'
@@ -56,18 +71,6 @@ recent_mentions:
 - slug: 2025-04-16-the-state-of-photonic-computing
   title: 'Photonic Computing: A Primer'
   date: '2025-04-16'
-  kind: substack
-- slug: 2025-02-12-wen-babelfish-feat-aron-of-semron
-  title: 'Edge AI: Analog Chips (feat. Aron Kirschen, SEMRON)'
-  date: '2025-02-12'
-  kind: substack
-- slug: 2024-11-20-nuclear-fusion-the-state-of-play
-  title: 'Nuclear Fusion: A Primer'
-  date: '2024-11-20'
-  kind: substack
-- slug: 2024-11-12-atomic-energy-can-nuclear-power-our
-  title: 'Nuclear Fission: A Primer'
-  date: '2024-11-12'
   kind: substack
 neighbors:
 - slug: laser-display-light-engines

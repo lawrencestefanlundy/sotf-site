@@ -9,6 +9,7 @@ parent_concepts:
 - equipment-processes
 related_concepts: []
 sources:
+- '[[2026-07-07-the-asml-killer]]'
 - '[[2025-12-30-us-eases-semiconductor-equipment-rules-for-samsung-sk-hynix-]]'
 - '[[2024-bis-export-controls-china-semis]]'
 - '[[2023-04-25-us-deals-signal-heightened-semiconductor-equipment-competiti]]'
@@ -21,7 +22,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 70
+mention_count: 71
 descendants:
 - automated-test-equipment
 - ion-implantation
@@ -31,6 +32,10 @@ descendants:
 sources_7d: 0
 sources_30d: 1
 recent_mentions:
+- slug: 2026-08-28-the-us-is-building-chips-act-fabs-but-neglecting-rd---aolcom
+  title: The U.S. Is Building CHIPS Act Fabs but Neglecting R&D - AOL.com
+  date: '2026-08-28'
+  kind: web
 - slug: 2026-08-27-gao-warns-chips-rd-stall-could-cost-us-chip-leadership---iee
   title: GAO Warns CHIPS R&D Stall Could Cost U.S. Chip Leadership - IEEE Spectrum
   date: '2026-08-27'
@@ -58,10 +63,6 @@ recent_mentions:
 - slug: 2026-08-11-stanton-marks-four-years-of-chips-act-with-facility-visits-h
   title: Stanton Marks Four Years of CHIPS Act with Facility Visits, Highlights Impact Across Arizona - Congressman Greg Stanton (.gov)
   date: '2026-08-11'
-  kind: web
-- slug: 2026-08-10-esd-cable-management-trays-market-to-reach-178-index-by-2035
-  title: ESD Cable Management Trays Market to Reach 178 Index by 2035 on Semiconductor Fab Build-Out - IndexBox
-  date: '2026-08-10'
   kind: web
 neighbors: []
 ---

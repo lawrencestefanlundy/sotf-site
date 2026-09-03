@@ -44,6 +44,10 @@ descendants:
 sources_7d: 0
 sources_30d: 1
 recent_mentions:
+- slug: 2026-09-02-vertical-power-delivery-thermal-limits
+  title: 'Vertical power delivery: the thermal limit at the 48V-to-point-of-load stage'
+  date: '2026-09-02'
+  kind: web
 - slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint
   title: 'What actually limits a humanoid to minutes: the thermal cliff, not the battery'
   date: '2026-07-26'
@@ -72,10 +76,6 @@ recent_mentions:
   title: Diamonds are Semiconductors' Best Friend 2026
   date: '2026-03-08'
   kind: web
-- slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
-  title: Carbon Nanotubes in the Datacentre
-  date: '2025-11-25'
-  kind: substack
 neighbors: []
 ---
 **Thermal management is the discipline of moving waste heat out of AI compute hardware and the nanoscale materials it is built from, and it is now shifting from a downstream packaging concern to an architectural constraint that decides whether 3D chiplet stacks and co-packaged optics can scale at all.**

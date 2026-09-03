@@ -43,7 +43,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 8
-sources_30d: 13
+sources_30d: 12
 recent_mentions:
 - slug: 2026-05-06-putting-the-super-into-a-supersite-for-earth-observation
   title: Putting the ‘super’ into a supersite for Earth observation

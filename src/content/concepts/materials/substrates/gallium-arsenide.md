@@ -9,7 +9,9 @@ parent_concepts:
 - substrates
 related_concepts: []
 sources:
+- '[[2026-04-14-the-photonic-foundry-fallacy]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
+- '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 - '[[2026-06-22-thermal-stack-layer-landscape]]'
 - '[[2026-07-11-neutral-pdk-heterogeneous-integration-landscape]]'
@@ -22,10 +24,14 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 82
+mention_count: 84
 sources_7d: 2
-sources_30d: 17
+sources_30d: 15
 recent_mentions:
+- slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
+  title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
+  date: '2026-07-28'
+  kind: substack
 - slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape
   title: Neutral PDK / EDA layer for heterogeneous photonic integration — landscape check (Scintil essay correction research)
   date: '2026-07-11'
@@ -34,6 +40,10 @@ recent_mentions:
   title: AI datacentre thermal stack, junction-to-ambient — per-layer players, M&A, capture (web research synthesis)
   date: '2026-06-22'
   kind: web
+- slug: 2026-04-14-the-photonic-foundry-fallacy
+  title: The Photonic Foundry Fallacy
+  date: '2026-04-14'
+  kind: substack
 - slug: 2025-12-09-gallium-nitride-photonics-w-james
   title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
   date: '2025-12-09'

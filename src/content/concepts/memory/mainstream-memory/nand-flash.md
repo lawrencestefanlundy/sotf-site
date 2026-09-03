@@ -12,6 +12,7 @@ parent_concepts:
 - mainstream-memory
 related_concepts: []
 sources:
+- '[[2026-08-07-the-memory-trade-isnt-over-weights]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
 - '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
 - '[[2026-04-08-tech-inflation-silicon-shock-gartner-forecasts-worldwide]]'
@@ -30,7 +31,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 52
+mention_count: 53
 last_reorg_date: '2026-05-14'
 scorecard:
   viability: 4
@@ -44,6 +45,10 @@ scorecard_status: draft
 sources_7d: 4
 sources_30d: 13
 recent_mentions:
+- slug: 2026-08-07-the-memory-trade-isnt-over-weights
+  title: 'The Memory Trade Isn''t Over: Weights and KV Cache'
+  date: '2026-08-07'
+  kind: substack
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
@@ -72,10 +77,6 @@ recent_mentions:
   title: Interconnects Beyond Copper, 1,000 CFETs, SK Hynix Next-Gen NAND, 2D Materials, and More
   date: '2026-01-13'
   kind: web
-- slug: 2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth
-  title: '🔮E14: The Real AI Bottleneck: High Bandwidth Memory (HBM)'
-  date: '2023-09-08'
-  kind: substack
 neighbors: []
 ---
 **NAND flash is the non-volatile memory behind all solid-state storage; its economics now hinge on whether stacking more device layers still cuts cost per bit (a 2013 model says no, past a point) and whether the array itself can be turned into a search engine for data-movement-bound workloads.**

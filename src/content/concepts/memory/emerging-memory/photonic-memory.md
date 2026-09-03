@@ -14,7 +14,9 @@ sources:
 - '[[2023-07-14-e08-optical-computing]]'
 - '[[2025-12-19-lfg-for-semiconductors]]'
 - '[[2025-02-25-data-driven-vc-is-over]]'
+- '[[2026-04-28-making-ai-inference-cheap-with-analog]]'
 - '[[2025-04-16-the-state-of-photonic-computing]]'
+- '[[2026-02-13-four-things-friday]]'
 - '[[2026-06-01-hbm-state-of-play]]'
 - '[[2026-04-29-optical-dram-everspin-reports-q1-2026-financial-results]]'
 - '[[2026-04-20-optical-dram-photonic-memory-device-technology-2026-patsnap]]'
@@ -28,7 +30,7 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Overrated
 scorecard_status: draft
-mention_count: 81
+mention_count: 83
 sources_7d: 0
 sources_30d: 5
 recent_mentions:
@@ -44,10 +46,18 @@ recent_mentions:
   title: Everspin Reports Q1 2026 Financial Results
   date: '2026-04-29'
   kind: web
+- slug: 2026-04-28-making-ai-inference-cheap-with-analog
+  title: Making AI inference Cheap with Analog Computing w/ Shwetank Kumar @ EnCharge AI
+  date: '2026-04-28'
+  kind: substack
 - slug: 2026-04-20-optical-dram-photonic-memory-device-technology-2026-patsnap
   title: Photonic Memory Device Technology 2026 — PatSnap Eureka
   date: '2026-04-20'
   kind: web
+- slug: 2026-02-13-four-things-friday
+  title: Four Things Friday
+  date: '2026-02-13'
+  kind: substack
 - slug: 2025-12-19-lfg-for-semiconductors
   title: LFG (for semiconductors)
   date: '2025-12-19'
@@ -55,14 +65,6 @@ recent_mentions:
 - slug: 2025-04-16-the-state-of-photonic-computing
   title: 'Photonic Computing: A Primer'
   date: '2025-04-16'
-  kind: substack
-- slug: 2025-02-25-data-driven-vc-is-over
-  title: data-driven VC is over
-  date: '2025-02-25'
-  kind: substack
-- slug: 2023-07-14-e08-optical-computing
-  title: '🔮E08: Optical Computing'
-  date: '2023-07-14'
   kind: substack
 neighbors: []
 ---

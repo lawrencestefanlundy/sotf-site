@@ -23,7 +23,7 @@ neighbors: []
 ---
 ## Physics / mechanism
 
-Reusable launch recovers and reflights rocket stages rather than discarding them, collapsing the dominant cost driver in space access. SpaceX Falcon 9 achieves first-stage reuse via cold-gas grid-fin guidance, retropropulsion descent, and deployable landing legs; boosters have flown 20+ times. Payload penalty for reuse is ~15–20% versus expendable mode on Falcon 9 (GTO capacity ~5.5 t reusable vs ~8.3 t expendable). Starship targets full-stack reusability with rapid turnaround (<24 h ambition). Rocket Lab's Neutron, in development, is designed reusable from the outset; Electron recovery is partial (booster only, ocean catch). Key metrics: turnaround time, refurbishment cost per flight, structural fatigue margins.
+Reusable launch recovers and reflights rocket stages rather than discarding them, collapsing the dominant cost driver in space access. SpaceX Falcon 9 achieves first-stage reuse via cold-gas grid-fin guidance, retropropulsion descent, and deployable landing parts; boosters have flown 20+ times. Payload penalty for reuse is ~15–20% versus expendable mode on Falcon 9 (GTO capacity ~5.5 t reusable vs ~8.3 t expendable). Starship targets full-stack reusability with rapid turnaround (<24 h ambition). Rocket Lab's Neutron, in development, is designed reusable from the outset; Electron recovery is partial (booster only, ocean catch). Key metrics: turnaround time, refurbishment cost per flight, structural fatigue margins.
 
 ## Competitive landscape
 

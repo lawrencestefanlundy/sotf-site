@@ -22,6 +22,8 @@ related_concepts:
 - fiber-to-chip-coupling
 sources:
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
+- '[[2026-06-05-recursive-until-the-power-bill]]'
+- '[[2026-07-07-the-asml-killer]]'
 - '[[2026-05-02-plug-and-play-sub-db-photonic-packaging-pubmed-2025]]'
 - '[[2026-05-30-osat-market-structure]]'
 - '[[2026-05-30-teramount-50m-molex-acquisition]]'
@@ -39,10 +41,18 @@ tags:
 - packaging
 descendants:
 - fiber-to-chip-coupling
-mention_count: 17
+mention_count: 19
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-07-07-the-asml-killer
+  title: The ASML Killer?
+  date: '2026-07-07'
+  kind: substack
+- slug: 2026-06-05-recursive-until-the-power-bill
+  title: Recursive, Until the Power Bill
+  date: '2026-06-05'
+  kind: substack
 - slug: 2026-05-30-osat-market-structure
   title: OSAT market structure 2024-2025 — rankings, advanced-packaging split, photonic assembly
   date: '2026-05-30'

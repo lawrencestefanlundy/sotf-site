@@ -7,6 +7,7 @@ parent_concepts:
 - sensing
 related_concepts: []
 sources:
+- '[[2026-07-03-thats-a-learning-curve-mate-not-rsi]]'
 - '[[2023-07-23-analog-computing-the-once-and-future]]'
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2026-06-04-magnetoresistive-gmr-mtj-biosensor-turbid-samples]]'
@@ -20,12 +21,16 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 40
+mention_count: 41
 descendants:
 - biosensors
 sources_7d: 2
 sources_30d: 4
 recent_mentions:
+- slug: 2026-07-03-thats-a-learning-curve-mate-not-rsi
+  title: That’s a learning curve mate, not RSI
+  date: '2026-07-03'
+  kind: substack
 - slug: 2026-06-04-magnetoresistive-gmr-mtj-biosensor-turbid-samples
   title: Integrated Microfluidic Giant Magnetoresistance (GMR) Biosensor Platform for Magnetoresistive Immunoassay (and related GMR/MTJ bead-detection literature)
   date: '2026-06-04'

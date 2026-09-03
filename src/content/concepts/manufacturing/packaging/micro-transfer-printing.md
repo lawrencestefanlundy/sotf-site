@@ -16,15 +16,25 @@ related_concepts:
 - inp-photonics
 - silicon-nitride
 sources:
+- '[[2026-04-14-the-photonic-foundry-fallacy]]'
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
+- '[[2026-07-07-the-asml-killer]]'
 last_updated: '2026-06-26'
 tags:
 - concept
 - technology
-mention_count: 10
+mention_count: 12
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
+- slug: 2026-07-07-the-asml-killer
+  title: The ASML Killer?
+  date: '2026-07-07'
+  kind: substack
+- slug: 2026-04-14-the-photonic-foundry-fallacy
+  title: The Photonic Foundry Fallacy
+  date: '2026-04-14'
+  kind: substack
 - slug: 2026-02-02-photonic-engines-for-data-centers
   title: Photonic "Engines" for Data Centers
   date: '2026-02-02'

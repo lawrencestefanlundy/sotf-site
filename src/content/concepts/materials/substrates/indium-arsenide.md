@@ -26,7 +26,7 @@ scorecard:
 scorecard_status: draft
 mention_count: 27
 sources_7d: 4
-sources_30d: 7
+sources_30d: 6
 recent_mentions: []
 neighbors:
 - slug: indium-antimonide

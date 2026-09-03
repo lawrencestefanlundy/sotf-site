@@ -19,6 +19,7 @@ related_concepts:
 - e-beam-lithography
 - silicon-photonics
 sources:
+- '[[2026-07-07-the-asml-killer]]'
 - '[[2025-01-06-radiant-acquires-nilt]]'
 scorecard:
   viability: 4
@@ -29,10 +30,14 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 42
+mention_count: 43
 sources_7d: 0
-sources_30d: 3
+sources_30d: 2
 recent_mentions:
+- slug: 2026-07-07-the-asml-killer
+  title: The ASML Killer?
+  date: '2026-07-07'
+  kind: substack
 - slug: 2025-01-06-radiant-acquires-nilt
   title: Radiant Opto-Electronics Corporation Completes Acquisition of NIL Technology
   date: '2025-01-06'

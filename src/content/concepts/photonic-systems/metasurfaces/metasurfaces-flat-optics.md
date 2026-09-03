@@ -25,6 +25,7 @@ descendants:
 - optoplasmonics
 - wafer-level-optics
 sources:
+- '[[2026-07-07-the-asml-killer]]'
 - '[[2025-01-06-radiant-acquires-nilt]]'
 scorecard:
   viability: 4
@@ -35,9 +36,9 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 135
+mention_count: 136
 sources_7d: 5
-sources_30d: 21
+sources_30d: 17
 recent_mentions:
 - slug: 2026-07-21-robotically-assembled-electromagnetic-metamaterials-for-long
   title: Robotically Assembled Electromagnetic Metamaterials for Long-Range Space Situational Awareness
@@ -47,6 +48,10 @@ recent_mentions:
   title: Precision Astrometry Using Optically Independent Spacecraft for Graviational Wave Detection
   date: '2026-07-21'
   kind: web
+- slug: 2026-07-07-the-asml-killer
+  title: The ASML Killer?
+  date: '2026-07-07'
+  kind: substack
 - slug: 2025-01-06-radiant-acquires-nilt
   title: Radiant Opto-Electronics Corporation Completes Acquisition of NIL Technology
   date: '2025-01-06'

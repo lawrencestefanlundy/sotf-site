@@ -15,6 +15,7 @@ related_concepts:
 sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
+- '[[2026-07-07-the-asml-killer]]'
 - '[[2025-04-16-the-state-of-photonic-computing]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
@@ -38,7 +39,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 97
+mention_count: 98
 descendants:
 - datacenter-network-stack
 - lpo-linear-pluggable-optics
@@ -51,7 +52,7 @@ descendants:
 - rf-over-dielectric-waveguide
 - serdes
 sources_7d: 1
-sources_30d: 6
+sources_30d: 5
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
@@ -73,6 +74,10 @@ recent_mentions:
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
   kind: web
+- slug: 2026-07-07-the-asml-killer
+  title: The ASML Killer?
+  date: '2026-07-07'
+  kind: substack
 - slug: 2026-06-23-semidoped-daily-update
   title: Semi Doped — Daily Update, June 23rd 2026
   date: '2026-06-23'
@@ -80,10 +85,6 @@ recent_mentions:
 - slug: 2026-06-15-optical-interconnect-cpo-transition-optical-interconnects
   title: Optical Interconnects Become Critical to AI Factory Expansion; CPO/NPO Market Expected to Exceed US$39 Billion by 2030
   date: '2026-06-15'
-  kind: web
-- slug: 2026-05-30-optical-interconnect-ma-ledger
-  title: Optical-interconnect / photonic-packaging M&A ledger (2019-2026)
-  date: '2026-05-30'
   kind: web
 neighbors:
 - slug: optical-circuit-switching

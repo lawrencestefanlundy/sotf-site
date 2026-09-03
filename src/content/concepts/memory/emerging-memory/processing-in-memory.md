@@ -18,6 +18,7 @@ related_concepts:
 - hbm
 - 3d-dram
 sources:
+- '[[2026-07-10-the-next-vc-meme-is]]'
 - '[[2026-06-16-cim-landscape-2026]]'
 frontier:
 - Do the chiplet and CXL-attached designs survive fabrication, and how do measured end-to-end numbers compare with the simulated 1.20x-2.23x system speedups reported for NPU plus PIM platforms 2026 07 29 beyond prefill decode disaggregation dissecting llm inferenc?
@@ -34,7 +35,7 @@ tags:
 - pim
 - memory-idm
 - map
-mention_count: 36
+mention_count: 37
 scorecard:
   viability: 3
   drivers: 4
@@ -45,8 +46,12 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 2
-sources_30d: 8
+sources_30d: 7
 recent_mentions:
+- slug: 2026-07-10-the-next-vc-meme-is
+  title: The Next VC Meme Is...
+  date: '2026-07-10'
+  kind: substack
 - slug: 2026-07-10-workload-phase-silicon-sweep
   title: 'Workload-phase silicon sweep: pre-training / RL / prefill / decode procurement split'
   date: '2026-07-10'

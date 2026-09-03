@@ -15,6 +15,7 @@ sources:
 - '[[2025-10-09-a-specific-theory-of-sovereign-ai]]'
 - '[[2023-10-13-e19-trusted-execution-environments]]'
 - '[[2023-07-06-e07-decentralised-ai]]'
+- '[[2026-02-13-four-things-friday]]'
 - '[[2023-05-05-interview-rick-hao-partner-at-speedinvest]]'
 frontier:
 - How does NanoZK's roughly 6.3 second per-MLP-sub-circuit CPU prove time change on GPU or dedicated proving hardware, and does the layerwise parallelism deliver near-linear speedup in practice 2026 07 21 nanozk privacy preserving verifiable inference for large lan?
@@ -25,7 +26,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 11
+mention_count: 12
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 3
@@ -39,6 +40,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-02-13-four-things-friday
+  title: Four Things Friday
+  date: '2026-02-13'
+  kind: substack
 - slug: 2025-10-09-a-specific-theory-of-sovereign-ai
   title: A Specific Theory of Sovereign AI
   date: '2025-10-09'

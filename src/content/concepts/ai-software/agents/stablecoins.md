@@ -26,6 +26,7 @@ descendants:
 - x402
 sources:
 - '[[2023-09-28-e16-in-conversation-with-shiv-malik]]'
+- '[[2026-04-10-state-of-the-future-friday-four-551]]'
 - '[[2023-04-04-learnings-from-a-deep-tech-horizon]]'
 - '[[2023-07-06-e07-decentralised-ai]]'
 - '[[2026-06-13-agentic-payments-value-capture]]'
@@ -43,7 +44,7 @@ frontier:
 last_updated: 2026-07-21
 tags:
 - concept
-mention_count: 21
+mention_count: 22
 sources_7d: 0
 sources_30d: 3
 recent_mentions:

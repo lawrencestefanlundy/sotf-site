@@ -13,13 +13,15 @@ tags:
 - process-flow
 - semiconductor
 sources:
+- '[[2026-07-03-thats-a-learning-curve-mate-not-rsi]]'
+- '[[2026-07-24-the-huggingface-incident]]'
 - '[[2025-09-23-the-compute-gradient]]'
 - '[[2025-08-12-ai-and-junior-white-collar-automation]]'
 - '[[2023-10-06-e18-the-state-of-silent-speech-and]]'
 - '[[2023-08-31-e13-chiplets-how-chip-lego-is-driving]]'
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
-mention_count: 131
+mention_count: 136
 parent_concepts:
 - flow-rtl-design
 scorecard:
@@ -36,13 +38,21 @@ frontier:
 - How do the reported 146% and 52% wirelength gains over TAP 2.5D and TACPlace compare against a commercial production placer rather than academic baselines?
 - Does the approximately 10x runtime advantage hold beyond 'dozens of chiplets', and where does the analytical formulation break down as element count grows?
 - Can 420 nm 3-sigma micro-transfer-printing placement accuracy and greater than 95% yield be held across high-volume production lots, and what is the accuracy budget for the resulting photonic device performance?
-sources_7d: 4
-sources_30d: 22
+sources_7d: 5
+sources_30d: 20
 recent_mentions:
 - slug: 2026-08-20-callosum-100m-seed-announcement
   title: Callosum announces $100M seed led by Atomico (round coverage + Companies House filings)
   date: '2026-08-20'
   kind: web
+- slug: 2026-07-24-the-huggingface-incident
+  title: The HuggingFace Incident
+  date: '2026-07-24'
+  kind: substack
+- slug: 2026-07-03-thats-a-learning-curve-mate-not-rsi
+  title: That’s a learning curve mate, not RSI
+  date: '2026-07-03'
+  kind: substack
 - slug: 2026-06-02-agentic-runtime-silicon-necessity
   title: Deep-research dossier — does the stateful agent runtime / control-plane layer need a novel silicon primitive?
   date: '2026-06-02'
@@ -62,14 +72,6 @@ recent_mentions:
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
   title: Carbon Nanotubes in the Datacentre
   date: '2025-11-25'
-  kind: substack
-- slug: 2025-09-23-the-compute-gradient
-  title: The Compute Gradient
-  date: '2025-09-23'
-  kind: substack
-- slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
-  title: 'UK Opportunity in AI: Compound Semiconductors'
-  date: '2025-09-10'
   kind: substack
 neighbors:
 - slug: eda-design-tools

@@ -33,7 +33,7 @@ frontier:
 - Does the ~0.4 A/W potential responsivity of the WSe2-encapsulated graphene detector materialise, and does the bandwidth hold beyond the 110 GHz setup limit 2026 06 05 c band 160 gbs 1 zero bias graphene photodetectors breaking ?
 - Do the 38-year projected implant lifetimes from accelerated aging survive real-time chronic testing, and what is the actual failure mode of the ceramic-polymer stack 2026 06 24 biorxiv a thin film transistor backplane for scalable ?
 sources_7d: 0
-sources_30d: 3
+sources_30d: 2
 recent_mentions:
 - slug: 2026-06-22-tim-approaches-full-sweep
   title: TIM approaches — exhaustive in-market + R&D sweep (vendors, classes, startups)

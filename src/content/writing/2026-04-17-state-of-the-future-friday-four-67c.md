@@ -5,5 +5,5 @@ external_url: https://stateofthefuture.substack.com/p/state-of-the-future-friday
 format: Dispatch
 topics:
 - Photonics
-- Frontier
+- Manufacturing
 ---

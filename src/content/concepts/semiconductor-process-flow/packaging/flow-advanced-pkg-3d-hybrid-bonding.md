@@ -17,11 +17,11 @@ tags:
 sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
-mention_count: 7
+mention_count: 9
 parent_concepts:
 - packaging
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
   title: Carbon Nanotubes in the Datacentre
@@ -100,7 +100,7 @@ Net read: the served market (bonders + surface-prep + metrology + consumables) i
 - **Trends & inflections to watch**
  - SoIC pitch shrink (6um in 2025 to 4.5um by 2029) raises bonder + metrology intensity per wafer [3]. Tripwire: TSMC confirming sub-4um or wafer-on-wafer SoIC in a 2027-28 symposium.
  - HBM hybrid-bonding inflection. Tripwire: a named DRAM maker placing volume (not pilot) hybrid-bonding HBM5 orders in 2027-28 [17].
- - NAND as a third leg. Tripwire: SK Hynix or a peer confirming hybrid-bonded 300-layer NAND in mass production in 2027 [16].
+ - NAND as a third part. Tripwire: SK Hynix or a peer confirming hybrid-bonded 300-layer NAND in mass production in 2027 [16].
 
 ## Connections
 [Hybrid Bonding (Cu-Cu)](/manufacturing/packaging/hybrid-bonding/) · [TSV / Through-Silicon Via](/manufacturing/packaging/tsv-through-silicon-via/) · [3D IC Stacking](/manufacturing/packaging/3d-ic-stacking/) · theses: **Hybrid Bonding Interconnect** · **Advanced Packaging Market** · **Advanced Packaging Metrology**

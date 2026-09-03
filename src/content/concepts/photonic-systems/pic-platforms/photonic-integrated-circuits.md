@@ -50,7 +50,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 1
-sources_30d: 6
+sources_30d: 4
 recent_mentions:
 - slug: 2026-07-29-aeluma-signs-letter-of-intent-for-30m-chips-act-funding---in
   title: Aeluma signs letter of intent for $30M CHIPS Act funding - Investing.com

@@ -15,9 +15,9 @@ tags:
 sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
-mention_count: 7
-sources_7d: 0
-sources_30d: 0
+mention_count: 9
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
   title: Carbon Nanotubes in the Datacentre
@@ -66,7 +66,7 @@ Cleaning is the single most-repeated operation in the fab: a leading-edge wafer 
 Value capture is split between a concentrated tool oligopoly and a stickier chemicals annuity. On tools, SCREEN's single-wafer dominance is a genuine moat - the cleaning recipe is co-developed with the fab over years and the tool must hit sub-20nm particle and zero-damage targets, so mid-node switching is near-impossible. The most contestable seam is China local-substitution, where ACM Research is funded to take the domestic wet-clean market (already ~25-30%, targeting 60%) [5]. On chemicals, value accrues to purity and supply reliability (a fab cannot run on contaminated peroxide), which favours scaled majors with on-site bulk delivery over a chemistry-only entrant.
 
 ## Market drivers, constraints & trends
-Net read: steady-to-accelerating on the served market, because cleaning is a per-wafer event whose frequency rises every node, layered on a cyclical tool sale that is now in an AI-led up-leg.
+Net read: steady-to-accelerating on the served market, because cleaning is a per-wafer event whose frequency rises every node, layered on a cyclical tool sale that is now in an AI-led up-slice.
 
 - **Drivers**
  - Node architecture multiplies the step count: GAA in high-volume manufacturing 2025-2027 lifts cleaning-cycle intensity ~15-20% per node generation (sacrificial-nanosheet release, residue strip without collapsing fragile geometry), directly expanding addressable spend per wafer start [8][9]. Single-wafer cleaning, the share-gainer, is already ~55-60% of equipment value [8].

@@ -25,7 +25,9 @@ tags:
 - waveguides
 sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
+- '[[2026-04-14-the-photonic-foundry-fallacy]]'
 - '[[2025-04-16-the-state-of-photonic-computing]]'
+- '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
 scorecard:
   viability: null
   drivers: null
@@ -35,10 +37,14 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 255
+mention_count: 257
 sources_7d: 0
-sources_30d: 9
+sources_30d: 8
 recent_mentions:
+- slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
+  title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
+  date: '2026-07-28'
+  kind: substack
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
@@ -63,14 +69,10 @@ recent_mentions:
   title: Waveguide Display Technology Trends and Outlook 2026
   date: '2026-05-25'
   kind: web
-- slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
-  title: Carbon Nanotubes in the Datacentre
-  date: '2025-11-25'
+- slug: 2026-04-14-the-photonic-foundry-fallacy
+  title: The Photonic Foundry Fallacy
+  date: '2026-04-14'
   kind: substack
-- slug: 2025-10-30-ai-glasses-display-timing-meta-ray-ban-display-part-1-lumus
-  title: Meta Ray-Ban Display Part 1 (Lumus Waveguide, OmniVision LCOS, and Goertek Projection Engine) – KGOnTech
-  date: '2025-10-30'
-  kind: web
 neighbors:
 - slug: laser-display-light-engines
   name: Laser-Based Display Light Engines

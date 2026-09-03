@@ -21,7 +21,7 @@ frontier:
 - Can any published organoid system exceed the 78% eight-class benchmark, or match a silicon baseline on any task at equal or lower total energy including culture maintenance 2023 nature electronics brainoware?
 - Does an interior-addressing I/O method (3D electrode penetration, optical, or DNA-encoded readout) achieve bandwidth beyond surface-only multi-electrode contact?
 - Do batch-to-batch reproducibility metrics exist for organoid generation that would let a training protocol transfer between independently grown organoids 2023 nature electronics brainoware?
-sources_7d: 1
+sources_7d: 0
 sources_30d: 1
 recent_mentions:
 - slug: 2025-statnews-biocomputing-backlash

@@ -41,9 +41,9 @@ Two properties are the entire reason the model is interesting, and the git branc
 
 The software lineage is real and active, all of it running on existing CPUs/GPUs today: **HVM** (the Higher-order Virtual Machine) and **Bend** from the Higher Order Company (Victor Taelin), the **HVM2** paper, and the independent **Vine → Ivy → IVM** toolchain by the pseudonymous "T6". Vine is a public, working compiler. So the *runtime* is demonstrated; the *hardware* is not.
 
-## The load-bearing caveat (why this is a non-area prior, not a cheerleading page)
+## The load-bearing caveat (why this is a no-wedge market prior, not a cheerleading page)
 
-This is why, under **Agents Need New Silicon**, a clean-sheet interaction-net CPU sits in the **recorded non-area** (the agent control plane is software-bound by the measured evidence and tends to be CPU-incumbent-captured) and is a founder-led *exception* candidate rather than a thesis bet. Confluence and parallelism are **necessary but not sufficient**; the constant factors are the historical killer.
+This is why, under **Agents Need New Silicon**, a clean-sheet interaction-net CPU sits in the **recorded no-wedge** (the agent control plane is software-bound by the measured evidence and tends to be CPU-incumbent-captured) and is a founder-led *exception* candidate rather than a thesis bet. Confluence and parallelism are **necessary but not sufficient**; the constant factors are the historical killer.
 
 ## Diligence reduction
 

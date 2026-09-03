@@ -21,6 +21,7 @@ related_concepts:
 - charge-domain-compute
 - 3d-monolithic-integration
 sources:
+- '[[2026-08-07-the-memory-trade-isnt-over-weights]]'
 - '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
 - '[[2026-06-16-cim-landscape-2026]]'
 - '[[2026-07-02-semianalysis-ectc2026-advanced-packaging]]'
@@ -43,7 +44,7 @@ tags:
 - analog-computing
 - in-memory-computing
 - semron
-mention_count: 32
+mention_count: 33
 last_reorg_date: '2026-05-14'
 descendants:
 - capram
@@ -57,8 +58,12 @@ scorecard:
   verdict: Too early to say
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 4
+sources_30d: 5
 recent_mentions:
+- slug: 2026-08-07-the-memory-trade-isnt-over-weights
+  title: 'The Memory Trade Isn''t Over: Weights and KV Cache'
+  date: '2026-08-07'
+  kind: substack
 - slug: 2026-07-31-positron-research-sprint
   title: 'Positron AI research sprint: architecture, funding, customers, manufacturing'
   date: '2026-07-31'
@@ -66,6 +71,10 @@ recent_mentions:
 - slug: 2026-07-17-the-once-and-future-kimi
   title: The Once and Future Kimi
   date: '2026-07-17'
+  kind: substack
+- slug: 2026-07-16-the-path-to-agi-runs-through-hbm
+  title: The Path To AGI Runs Through HBM
+  date: '2026-07-16'
   kind: substack
 - slug: 2026-07-10-inference-silicon-deep-research
   title: 'Deep research: measured vs claimed inference-silicon economics (adversarially verified, 23/25 claims confirmed)'
@@ -82,14 +91,6 @@ recent_mentions:
 - slug: 2025-09-23-the-compute-gradient
   title: The Compute Gradient
   date: '2025-09-23'
-  kind: substack
-- slug: 2025-02-12-wen-babelfish-feat-aron-of-semron
-  title: 'Edge AI: Analog Chips (feat. Aron Kirschen, SEMRON)'
-  date: '2025-02-12'
-  kind: substack
-- slug: 2023-07-23-analog-computing-the-once-and-future
-  title: '🔮 E09: Analog Computing: The Once and Future King'
-  date: '2023-07-23'
   kind: substack
 neighbors:
 - slug: memristor

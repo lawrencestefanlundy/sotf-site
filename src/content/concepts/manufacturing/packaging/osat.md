@@ -20,7 +20,10 @@ related_concepts:
 - fiber-to-chip-coupling
 sources:
 - '[[2023-10-19-e20-the-state-of-privacy-enhancing]]'
+- '[[2026-04-14-the-photonic-foundry-fallacy]]'
+- '[[2026-06-19-the-housefab-always-wins]]'
 - '[[2022-12-15-unbundling-the-database]]'
+- '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
 - '[[2026-05-30-optical-interconnect-ma-ledger]]'
 - '[[2026-06-22-sintered-metal-die-attach-landscape]]'
 - '[[2026-06-22-thermal-stack-layer-landscape]]'
@@ -37,6 +40,7 @@ sources:
 - '[[2025-07-03-datacentre-thermal-power-market-cooling-is-the-new]]'
 - '[[2025-05-27-datacentre-thermal-power-market-intel-foundry-s-integrated]]'
 - '[[2025-12-28-advanced-packaging-market-tsmc-cowos-capacity-scaling-up]]'
+- '[[2026-09-02-vertical-power-delivery-thermal-limits]]'
 - '[[2025-05-03-datacentre-thermal-power-market-intel-foundry-thermal]]'
 - '[[2025-08-05-taiwan-osat-gains-from-bis-whitelist-fall-short-as-us-grants]]'
 frontier:
@@ -52,7 +56,7 @@ tags:
 - category
 - packaging
 - supply-chain
-mention_count: 104
+mention_count: 108
 scorecard:
   viability: 4
   drivers: 4
@@ -62,9 +66,17 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Overrated
 scorecard_status: draft
-sources_7d: 5
-sources_30d: 15
+sources_7d: 6
+sources_30d: 14
 recent_mentions:
+- slug: 2026-09-02-vertical-power-delivery-thermal-limits
+  title: 'Vertical power delivery: the thermal limit at the 48V-to-point-of-load stage'
+  date: '2026-09-02'
+  kind: web
+- slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
+  title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
+  date: '2026-07-28'
+  kind: substack
 - slug: 2026-07-27-cxmt-star-market-debut
   title: CXMT's 466% STAR Market debut makes it China's most valuable mainland-listed company
   date: '2026-07-27'
@@ -88,14 +100,6 @@ recent_mentions:
 - slug: 2026-06-22-thermal-stack-layer-landscape
   title: AI datacentre thermal stack, junction-to-ambient — per-layer players, M&A, capture (web research synthesis)
   date: '2026-06-22'
-  kind: web
-- slug: 2026-06-22-liquid-metal-tim-landscape
-  title: Liquid-metal TIM landscape — players, physics, deployment, capture (web research synthesis)
-  date: '2026-06-22'
-  kind: web
-- slug: 2026-06-16-advanced-packaging-market-tsmc-foundry-allocation-status-q1
-  title: 'TSMC Foundry Allocation Status Q1 2026: CoWoS Sold Out, 2nm Booked, ~1M Wafer Demand'
-  date: '2026-06-16'
   kind: web
 neighbors:
 - slug: advanced-packaging

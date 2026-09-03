@@ -8,6 +8,7 @@ parent_concepts:
 - compute
 related_concepts: []
 sources:
+- '[[2026-08-07-the-memory-trade-isnt-over-weights]]'
 - '[[2023-07-23-analog-computing-the-once-and-future]]'
 - '[[2025-12-19-lfg-for-semiconductors]]'
 - '[[2026-02-12-how-to-invest-in-ai-sovereignty-sovereign]]'
@@ -16,15 +17,19 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 10
+mention_count: 11
 frontier:
 - What end-to-end inference latency reduction does ILP-based CPU-CIM partitioning deliver versus accelerator-only or CPU-only baselines, on which model families and at what problem sizes does the ILP solve become intractable? 2026 07 07 optimizing ml workload partitioning between cpus and cim acc
 - Does accounting for RRAM write endurance change the optimal partition materially, and how many re-mappings can a deployed CIM array sustain before latency or accuracy degrades?
 - Can coherent-interconnect zero-copy state sharing meet microsecond-level reflex deadlines in a physical RAN deployment, or does cache coherence traffic reintroduce the bottleneck it removes? 2026 06 05 bridging the cognitive gap a unified memory paradigm for 6g
 - What fraction of heterogeneity-related AI compilation bugs are silent output changes rather than crashes, and can automated testing detect them without a trusted reference platform? 2026 05 11 nsf 2541224 career redefining testing foundations fo
 sources_7d: 0
-sources_30d: 0
+sources_30d: 1
 recent_mentions:
+- slug: 2026-08-07-the-memory-trade-isnt-over-weights
+  title: 'The Memory Trade Isn''t Over: Weights and KV Cache'
+  date: '2026-08-07'
+  kind: substack
 - slug: 2026-02-12-how-to-invest-in-ai-sovereignty-sovereign
   title: How to Invest in AI Sovereignty — Sovereign Albion w/ Andrew Bennett
   date: '2026-02-12'

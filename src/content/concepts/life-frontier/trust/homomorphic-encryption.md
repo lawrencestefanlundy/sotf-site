@@ -20,6 +20,7 @@ sources:
 - '[[2023-07-06-e07-decentralised-ai]]'
 - '[[2023-03-05-interview-dr-hyoduk-shin-professor]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
+- '[[2026-07-10-the-next-vc-meme-is]]'
 - '[[2023-04-05-interview-stijn-christiaens-ceo-of]]'
 - '[[2023-05-05-interview-rick-hao-partner-at-speedinvest]]'
 frontier:
@@ -31,7 +32,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 47
+mention_count: 48
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 3
@@ -43,8 +44,12 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 1
-sources_30d: 4
+sources_30d: 2
 recent_mentions:
+- slug: 2026-07-10-the-next-vc-meme-is
+  title: The Next VC Meme Is...
+  date: '2026-07-10'
+  kind: substack
 - slug: 2025-10-09-a-specific-theory-of-sovereign-ai
   title: A Specific Theory of Sovereign AI
   date: '2025-10-09'
@@ -72,10 +77,6 @@ recent_mentions:
 - slug: 2023-06-08-three-overrated-technologies-from
   title: '💡E03: Three Overrated Technologies from the Future Fusion, Bitcoin & LEO Internet + Ultrasound for Hibernation; Wind Power; Skeletal Editing; Carbon Pricing; & Psychedelics++'
   date: '2023-06-08'
-  kind: substack
-- slug: 2023-05-24-launching-state-of-the-future
-  title: '💡 E01: Launching State of the Future: The Worlds First Deep Tech Tracker'
-  date: '2023-05-24'
   kind: substack
 neighbors: []
 ---

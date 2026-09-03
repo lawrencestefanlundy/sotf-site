@@ -50,9 +50,17 @@ recent_mentions:
   title: Sallea extends salt-based templating technology to advanced composites manufacturing - CompositesWorld
   date: '2026-03-25'
   kind: web
+- slug: 2025-12-04-extracting-rare-earth-elements-from-us-wastewaters---univers
+  title: Extracting rare earth elements from U.S. wastewaters - University of California
+  date: '2025-12-04'
+  kind: web
 - slug: 2021-05-06-weav3d-awarded-nsf-funding-to-further-develop-next-generatio
   title: WEAV3D awarded NSF funding to further develop next-generation composite forming machine - Design World
   date: '2021-05-06'
+  kind: web
+- slug: 2017-05-04-making-3-d-printing-as-simple-as-printing-on-paper---mit-new
+  title: Making 3-D printing as simple as printing on paper - MIT News
+  date: '2017-05-04'
   kind: web
 neighbors: []
 ---

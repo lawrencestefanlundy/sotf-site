@@ -5,4 +5,5 @@ external_url: https://stateofthefuture.substack.com/p/thats-a-learning-curve-mat
 format: Essay
 topics:
 - Manufacturing
+- AI
 ---

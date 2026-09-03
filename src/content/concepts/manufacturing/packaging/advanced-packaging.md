@@ -9,15 +9,19 @@ parent_concepts:
 - packaging
 related_concepts: []
 sources:
+- '[[2026-07-03-thats-a-learning-curve-mate-not-rsi]]'
 - '[[2023-10-06-e18-the-state-of-silent-speech-and]]'
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
 - '[[2023-08-31-e13-chiplets-how-chip-lego-is-driving]]'
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
+- '[[2026-04-14-the-photonic-foundry-fallacy]]'
 - '[[2024-10-29-deploy-intelligence-too-cheap-to]]'
 - '[[2023-11-20-e21-can-we-make-enough-ai-chips]]'
+- '[[2026-06-19-the-housefab-always-wins]]'
 - '[[2025-12-19-lfg-for-semiconductors]]'
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2026-02-12-how-to-invest-in-ai-sovereignty-sovereign]]'
+- '[[2026-04-24-state-of-the-future-friday-four-002]]'
 - '[[2025-04-30-has-the-time-come-to-take-mortal]]'
 - '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
@@ -31,15 +35,19 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 185
+mention_count: 191
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration
 - micro-transfer-printing
 - osat
-sources_7d: 4
-sources_30d: 9
+sources_7d: 2
+sources_30d: 7
 recent_mentions:
+- slug: 2026-09-02-vertical-power-delivery-thermal-limits
+  title: 'Vertical power delivery: the thermal limit at the 48V-to-point-of-load stage'
+  date: '2026-09-02'
+  kind: web
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
@@ -66,10 +74,6 @@ recent_mentions:
   kind: web
 - slug: 2026-07-14-boschs-sic-fab-deal-adds-to-a-resurgence-in-chips-act-fundin
   title: Bosch's SiC fab deal adds to a resurgence in CHIPS Act funding - Electronics360
-  date: '2026-07-14'
-  kind: web
-- slug: 2026-07-14-chips-act-20-ambition-requires-funding---digitaleurope
-  title: 'Chips Act 2.0: Ambition requires funding - DigitalEurope'
   date: '2026-07-14'
   kind: web
 neighbors: []

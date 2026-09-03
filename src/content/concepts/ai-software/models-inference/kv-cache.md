@@ -13,7 +13,9 @@ related_concepts:
 - inference-economics
 - edge-inference
 sources:
+- '[[2026-08-07-the-memory-trade-isnt-over-weights]]'
 - '[[2026-07-17-the-once-and-future-kimi]]'
+- '[[2026-07-16-the-path-to-agi-runs-through-hbm]]'
 - '[[2025-10-23-data-value-migrates-to-retrieval-layer-agentic-databases]]'
 - '[[2026-07-10-workload-phase-silicon-sweep]]'
 - '[[2026-06-18-sensifai-hybrids-deck]]'
@@ -32,13 +34,21 @@ frontier:
 last_updated: 2026-07-29
 tags:
 - concept
-mention_count: 52
+mention_count: 54
 sources_7d: 2
 sources_30d: 16
 recent_mentions:
+- slug: 2026-08-07-the-memory-trade-isnt-over-weights
+  title: 'The Memory Trade Isn''t Over: Weights and KV Cache'
+  date: '2026-08-07'
+  kind: substack
 - slug: 2026-07-17-the-once-and-future-kimi
   title: The Once and Future Kimi
   date: '2026-07-17'
+  kind: substack
+- slug: 2026-07-16-the-path-to-agi-runs-through-hbm
+  title: The Path To AGI Runs Through HBM
+  date: '2026-07-16'
   kind: substack
 - slug: 2026-07-15-kimi-k3-launch-moonshot
   title: Kimi K3 — Moonshot launch post (architecture, quantisation, serving requirements)
@@ -59,14 +69,6 @@ recent_mentions:
 - slug: 2026-06-18-sensifai-hybrids-deck
   title: SensifAI — Funding Round deck (sensifai.vercel.app/hybrids)
   date: '2026-06-18'
-  kind: web
-- slug: 2026-06-09-semianalysis-deepseek-v4-inference
-  title: DeepSeekV4 1.6T Day 0 to Day 43 Performance Over Time - Huawei, GB300 NVL72, MI355X, B200
-  date: '2026-06-09'
-  kind: web
-- slug: 2026-06-02-agentic-runtime-silicon-necessity
-  title: Deep-research dossier — does the stateful agent runtime / control-plane layer need a novel silicon primitive?
-  date: '2026-06-02'
   kind: web
 neighbors:
 - slug: inference

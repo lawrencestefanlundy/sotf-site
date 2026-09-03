@@ -29,11 +29,16 @@ related_concepts:
 - metamaterials
 sources:
 - '[[2023-07-27-e10-pushing-moores-law-to-the-limit]]'
+- '[[2026-07-07-the-asml-killer]]'
 - '[[2025-01-06-radiant-acquires-nilt]]'
-mention_count: 30
+mention_count: 31
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-07-07-the-asml-killer
+  title: The ASML Killer?
+  date: '2026-07-07'
+  kind: substack
 - slug: 2025-01-06-radiant-acquires-nilt
   title: Radiant Opto-Electronics Corporation Completes Acquisition of NIL Technology
   date: '2025-01-06'

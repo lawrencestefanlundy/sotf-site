@@ -16,9 +16,11 @@ related_concepts:
 - processing-in-memory
 sources:
 - '[[2024-12-04-cubits-in-a-fridge-why-is-nobody]]'
+- '[[2026-05-14-compute-is-defence-now]]'
 - '[[2023-07-23-analog-computing-the-once-and-future]]'
 - '[[2024-10-29-deploy-intelligence-too-cheap-to]]'
 - '[[2023-11-20-e21-can-we-make-enough-ai-chips]]'
+- '[[2026-04-28-making-ai-inference-cheap-with-analog]]'
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2025-02-12-wen-babelfish-feat-aron-of-semron]]'
 - '[[2026-01-22-ai-chips-computeram-and-the-future]]'
@@ -32,7 +34,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 57
+mention_count: 59
 descendants:
 - adc-bottleneck
 - analog-in-memory-compute
@@ -42,7 +44,7 @@ descendants:
 - processing-in-memory
 - sram-cim
 sources_7d: 3
-sources_30d: 7
+sources_30d: 6
 recent_mentions:
 - slug: 2026-08-12-snapdragon-ar1-sensing-hub-micro-npu
   title: Snapdragon AR1 Gen 1 Platform Product Brief — Sensing Hub with Micro NPU for audio and sensors
@@ -52,6 +54,14 @@ recent_mentions:
   title: 'Inference-silicon roster verification sprint: 10 companies for the competitive-analysis capital map'
   date: '2026-07-31'
   kind: web
+- slug: 2026-05-14-compute-is-defence-now
+  title: Compute Is Defence Now
+  date: '2026-05-14'
+  kind: substack
+- slug: 2026-04-28-making-ai-inference-cheap-with-analog
+  title: Making AI inference Cheap with Analog Computing w/ Shwetank Kumar @ EnCharge AI
+  date: '2026-04-28'
+  kind: substack
 - slug: 2026-01-22-ai-chips-computeram-and-the-future
   title: 'AI Chips, ComputeRAM and the Future of Data Movement: A Conversation with Manu, Founder of Synthara'
   date: '2026-01-22'
@@ -67,14 +77,6 @@ recent_mentions:
 - slug: 2024-10-29-deploy-intelligence-too-cheap-to
   title: Deploy! Intelligence too cheap to meter @ $0.0001 per million tokens.
   date: '2024-10-29'
-  kind: substack
-- slug: 2024-10-23-optical-dram-integrated-non-reciprocal-magneto-optics-with
-  title: Integrated non-reciprocal magneto-optics with ultra-high endurance for photonic in-memory computing
-  date: '2024-10-23'
-  kind: web
-- slug: 2024-10-22-state-of-the-future-part-deux
-  title: 'An AI Thesis: State of the Future! Part Deux'
-  date: '2024-10-22'
   kind: substack
 neighbors:
 - slug: memcapacitor

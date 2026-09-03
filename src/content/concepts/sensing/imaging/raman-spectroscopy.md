@@ -35,7 +35,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 5
-sources_30d: 16
+sources_30d: 13
 recent_mentions:
 - slug: 2026-07-21-interworld-slingshot-resource-surveys
   title: Interworld Slingshot Resource Surveys

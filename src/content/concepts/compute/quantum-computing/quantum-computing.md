@@ -69,8 +69,12 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 3
-sources_30d: 12
+sources_30d: 10
 recent_mentions:
+- slug: 2026-08-26-from-gitex-global-to-ces-how-eic-accelerator-company-multive
+  title: 'From GITEX Global to CES: How EIC Accelerator company Multiverse Computing secured a strategic alliance with Axelera AI - European Innovation Council'
+  date: '2026-08-26'
+  kind: web
 - slug: 2026-08-24-nist-researchers-supersize-quantum-technology-to-help-detect
   title: NIST Researchers Supersize Quantum Technology to Help Detect Faint Photons
   date: '2026-08-24'
@@ -98,10 +102,6 @@ recent_mentions:
 - slug: 2026-07-24-18b-illinois-chips-act-supports-zero-point-cryogenics-us-ent
   title: $1.8B Illinois Chips Act Supports Zero Point Cryogenics’ U.S. Entry - Quantum Zeitgeist
   date: '2026-07-24'
-  kind: web
-- slug: 2026-07-21-d-wave-quantum-chips-act-backing-and-nasdaq-shift-fail-to-re
-  title: 'D-Wave Quantum: CHIPS Act Backing and Nasdaq Shift Fail to Reverse a Brutal Selloff - Ad-hoc-news.de'
-  date: '2026-07-21'
   kind: web
 neighbors: []
 ---

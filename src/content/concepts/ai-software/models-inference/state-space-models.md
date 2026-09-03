@@ -13,6 +13,7 @@ related_concepts:
 - in-memory-computing
 - edge-ai
 sources:
+- '[[2026-04-28-making-ai-inference-cheap-with-analog]]'
 - '[[2025-cartesia-on-device-ssm]]'
 - '[[2026-06-18-sensifai-hybrids-deck]]'
 - '[[2026-07-31-etched-research-sprint]]'
@@ -32,7 +33,7 @@ frontier:
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 22
+mention_count: 23
 scorecard:
   viability: 4
   drivers: 4
@@ -61,6 +62,10 @@ recent_mentions:
   title: SensifAI — Funding Round deck (sensifai.vercel.app/hybrids)
   date: '2026-06-18'
   kind: web
+- slug: 2026-04-28-making-ai-inference-cheap-with-analog
+  title: Making AI inference Cheap with Analog Computing w/ Shwetank Kumar @ EnCharge AI
+  date: '2026-04-28'
+  kind: substack
 - slug: 2026-03-mamba-3-iclr
   title: Mamba-3 (ICLR 2026)
   date: '2026-03-01'
@@ -72,10 +77,6 @@ recent_mentions:
 - slug: 2025-cartesia-on-device-ssm
   title: Cartesia — The on-device intelligence update
   date: '2025-08-01'
-  kind: web
-- slug: 2025-06-wisconsin-mamba-chiplet-gf22
-  title: First Mamba Chiplet in GF 22nm — UW–Madison CHIPS
-  date: '2025-06-12'
   kind: web
 neighbors:
 - slug: neuromorphic-computing

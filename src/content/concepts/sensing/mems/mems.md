@@ -13,6 +13,7 @@ sources:
 - '[[2025-12-19-lfg-for-semiconductors]]'
 - '[[2025-04-16-the-state-of-photonic-computing]]'
 - '[[2023-08-25-e12-nanomechanical-computing-gears]]'
+- '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
 - '[[2026-06-21-mems-speaker-market]]'
 - '[[2026-07-09-in-die-microfluidic-cooling-sprint]]'
 - '[[2026-06-04-magnetoresistive-gmr-mtj-biosensor-turbid-samples]]'
@@ -33,15 +34,19 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 107
+mention_count: 108
 descendants:
 - mems
 - nems
 - sensors
 - spectral-sensing
 sources_7d: 1
-sources_30d: 7
+sources_30d: 5
 recent_mentions:
+- slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
+  title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
+  date: '2026-07-28'
+  kind: substack
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
@@ -68,10 +73,6 @@ recent_mentions:
   kind: web
 - slug: 2026-06-21-yole-mems-market-momentum
   title: MEMS market regains momentum — Bosch, STMicroelectronics and TDK navigate the post-inventory growth era (Status of the MEMS Industry 2025)
-  date: '2026-06-21'
-  kind: web
-- slug: 2026-06-21-marketsandmarkets-mems-2030
-  title: Micro-Electro-Mechanical System (MEMS) Industry worth $21.99 billion by 2030 (MarketsandMarkets)
   date: '2026-06-21'
   kind: web
 neighbors: []

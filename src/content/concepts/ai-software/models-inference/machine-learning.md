@@ -26,6 +26,7 @@ sources:
 - '[[2023-07-14-e08-optical-computing]]'
 - '[[2023-06-30-e06-the-model-t-moment-for-bits-llms]]'
 - '[[2023-05-25-interview-ben-mildenhall-co-inventor]]'
+- '[[2026-04-22-detecting-proteins-in-blood-with]]'
 - '[[2024-11-20-nuclear-fusion-the-state-of-play]]'
 - '[[2024-12-16-willow-and-the-race-to-quantum-advantage]]'
 - '[[2023-07-23-analog-computing-the-once-and-future]]'
@@ -33,6 +34,7 @@ sources:
 - '[[2023-10-13-e19-trusted-execution-environments]]'
 - '[[2023-05-31-three-underrated-technologies-from]]'
 - '[[2023-11-20-e21-can-we-make-enough-ai-chips]]'
+- '[[2026-04-28-making-ai-inference-cheap-with-analog]]'
 - '[[2023-07-06-e07-decentralised-ai]]'
 - '[[2025-04-30-has-the-time-come-to-take-mortal]]'
 - '[[2025-04-16-the-state-of-photonic-computing]]'
@@ -47,7 +49,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 868
+mention_count: 870
 sources_7d: 5
 sources_30d: 10
 recent_mentions:
@@ -59,6 +61,14 @@ recent_mentions:
   title: A Stargate for Data — will depue (OpenAI) on >$100B/year data spend by 2030
   date: '2026-07-06'
   kind: web
+- slug: 2026-04-28-making-ai-inference-cheap-with-analog
+  title: Making AI inference Cheap with Analog Computing w/ Shwetank Kumar @ EnCharge AI
+  date: '2026-04-28'
+  kind: substack
+- slug: 2026-04-22-detecting-proteins-in-blood-with
+  title: Detecting Proteins in Blood with Photonics w/ Prateek of Proteins1
+  date: '2026-04-22'
+  kind: substack
 - slug: 2025-08-04-google-expands-demand-response-to-target-machine-learning-wo
   title: Google expands demand response to target machine learning workloads - Latitude Media
   date: '2025-08-04'
@@ -74,14 +84,6 @@ recent_mentions:
 - slug: 2024-12-16-willow-and-the-race-to-quantum-advantage
   title: Willow and The Race to Quantum Advantage (Feat. Kris Kaczmarek)
   date: '2024-12-16'
-  kind: substack
-- slug: 2024-11-20-nuclear-fusion-the-state-of-play
-  title: 'Nuclear Fusion: A Primer'
-  date: '2024-11-20'
-  kind: substack
-- slug: 2024-11-05-confidential-ai-the-dog-that-didnt
-  title: Confidential AI
-  date: '2024-11-05'
   kind: substack
 neighbors:
 - slug: physics-ai

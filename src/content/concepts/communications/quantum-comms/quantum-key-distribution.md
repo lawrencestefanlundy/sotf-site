@@ -13,7 +13,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 66
+mention_count: 67
 frontier:
 - Can the numerical finite-key frameworks now being proposed be applied end to end to a shipped commercial transmitter and receiver, including higher-order intensity correlations and detector timing side channels, without collapsing the usable key rate 2026 05 14 numerical security analysis for practical quantum key distri?
 - What is the cost, rate and assurance comparison against classical and post-quantum key exchange for the same link? No supplied source addresses it, and it decides adoption.
@@ -33,8 +33,8 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 1
-sources_30d: 8
+sources_7d: 2
+sources_30d: 9
 recent_mentions: []
 neighbors: []
 ---

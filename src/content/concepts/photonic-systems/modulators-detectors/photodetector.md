@@ -37,7 +37,7 @@ tags:
 descendants:
 - avalanche-photodiode
 - uni-traveling-carrier-photodiode
-mention_count: 21
+mention_count: 22
 scorecard:
   viability: 5
   drivers: 4

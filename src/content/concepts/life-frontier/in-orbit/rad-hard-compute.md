@@ -20,7 +20,11 @@ frontier:
 - Will rad hard 2nm parts be sold to third parties, or is output fully absorbed by SpaceX's own constellation, and what does that mean for non-SpaceX orbital compute entrants?
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-09-03-space-compute-cheap-launch-rebuild
+  title: Space compute rebuilt around the cheap-launch case — what survives the premise
+  date: '2026-09-03'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

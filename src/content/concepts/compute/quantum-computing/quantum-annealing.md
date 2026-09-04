@@ -26,7 +26,7 @@ scorecard:
   timing_band: Unclear
   verdict: Overrated
 scorecard_status: draft
-mention_count: 41
+mention_count: 42
 sources_7d: 1
 sources_30d: 6
 recent_mentions:

@@ -42,7 +42,7 @@ scorecard:
   verdict: Overrated
 scorecard_status: draft
 sources_7d: 2
-sources_30d: 8
+sources_30d: 7
 recent_mentions:
 - slug: 2026-07-31-inference-silicon-roster-sprint
   title: 'Inference-silicon roster verification sprint: 10 companies for the competitive-analysis capital map'

@@ -67,7 +67,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 1
-sources_30d: 4
+sources_30d: 3
 recent_mentions:
 - slug: 2026-09-01-nvidia-earnings-dollars-per-gigawatt-open-and-hugging-face
   title: Nvidia Earnings, Dollars Per Gigawatt, Open and Hugging Face

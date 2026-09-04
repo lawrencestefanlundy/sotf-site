@@ -38,7 +38,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 102
+mention_count: 103
 descendants:
 - ai-thermal-management
 - cryogenic-cooling
@@ -63,7 +63,7 @@ descendants:
 - two-phase-cooling
 - vapor-chambers
 sources_7d: 5
-sources_30d: 11
+sources_30d: 10
 recent_mentions:
 - slug: 2026-09-02-vertical-power-delivery-thermal-limits
   title: 'Vertical power delivery: the thermal limit at the 48V-to-point-of-load stage'
@@ -72,6 +72,10 @@ recent_mentions:
 - slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint
   title: 'What actually limits a humanoid to minutes: the thermal cliff, not the battery'
   date: '2026-07-26'
+  kind: web
+- slug: 2026-06-02-efficiently-cooling-satellite-components-in-space---all-abou
+  title: Efficiently Cooling Satellite Components in Space - All-About-Industries
+  date: '2026-06-02'
   kind: web
 - slug: 2026-04-28-thermal-stack-arms-race-global-diamond-heat-spreaders
   title: Global Diamond Heat Spreaders Emerging for AI Chip Cooling
@@ -92,10 +96,6 @@ recent_mentions:
 - slug: 2026-03-08-diamonds-are-semiconductors-best-friend
   title: Diamonds are Semiconductors' Best Friend 2026
   date: '2026-03-08'
-  kind: web
-- slug: 2025-08-19-thermal-stack-arms-race-thermal-interface-materials-market
-  title: 'Thermal Interface Materials Market Report 2026-2036: High-Performance TIMs for Data Centers, AI Servers, and 5G Infrastructure'
-  date: '2025-08-19'
   kind: web
 neighbors:
 - slug: thermal-stack-map

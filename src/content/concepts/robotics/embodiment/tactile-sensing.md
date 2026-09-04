@@ -28,7 +28,7 @@ tags:
 - robotics
 - sensing
 - tactile
-mention_count: 4
+mention_count: 5
 sources_7d: 2
 sources_30d: 2
 recent_mentions:

@@ -123,6 +123,18 @@ descendants:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-03-what-comes-after-the-data-center-backlash---latitude-media
+  title: What comes after the data center backlash? - Latitude Media
+  date: '2026-09-03'
+  kind: web
+- slug: 2026-09-03-gridsight-raises-26m-series-b-to-unlock-electric-grid-capaci
+  title: Gridsight raises $26M series B to unlock electric grid capacity and affordability - Latitude Media
+  date: '2026-09-03'
+  kind: web
+- slug: 2026-09-03-three-questions-left-open-by-trumps-bulk-power-executive-ord
+  title: Three questions left open by Trump’s bulk power executive order - Latitude Media
+  date: '2026-09-03'
+  kind: web
 - slug: 2026-09-01-chinas-rare-earths-duopoly
   title: China's Rare Earths Duopoly
   date: '2026-09-01'
@@ -142,18 +154,6 @@ recent_mentions:
 - slug: 2026-08-26-making-data-centers-flexible-so-they-can-serve-the-grid-rath
   title: Making data centers flexible so they can serve the grid rather than stress it out
   date: '2026-08-26'
-  kind: web
-- slug: 2026-08-12-did-someone-just-figure-out-how-to-project-finance-nuclear--
-  title: Did someone just figure out how to project finance nuclear? - Latitude Media
-  date: '2026-08-12'
-  kind: web
-- slug: 2026-08-11-can-the-advanced-geothermal-industry-follow-in-fervos-wake--
-  title: Can the advanced geothermal industry follow in Fervo’s wake? - Latitude Media
-  date: '2026-08-11'
-  kind: web
-- slug: 2026-08-10-how-ais-demand-for-compute-could-disrupt-america
-  title: How AI's Demand for Compute could Disrupt America
-  date: '2026-08-10'
   kind: web
 neighbors: []
 ---

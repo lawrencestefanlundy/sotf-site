@@ -22,6 +22,14 @@ mention_count: 116
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-01-diffraqtion-adds-to-pre-seed-round-for-quantum-camera-tech--
+  title: Diffraqtion Adds to Pre-Seed Round for Quantum Camera Tech - Payload Space
+  date: '2026-09-01'
+  kind: web
+- slug: 2026-08-31-diffraqtion-raises-more-than-10m-for-quantum-camera-developm
+  title: Diffraqtion Raises More Than $10M for Quantum Camera Development - The Quantum Insider
+  date: '2026-08-31'
+  kind: web
 - slug: 2026-08-24-nist-researchers-supersize-quantum-technology-to-help-detect
   title: NIST Researchers Supersize Quantum Technology to Help Detect Faint Photons
   date: '2026-08-24'
@@ -44,14 +52,6 @@ recent_mentions:
   kind: web
 - slug: 2026-07-21-niac-2026-selections
   title: NIAC 2026 Selections
-  date: '2026-07-21'
-  kind: web
-- slug: 2026-07-21-a-new-compact-instrument-enables-high-fidelity-measurements-
-  title: A New Compact Instrument Enables High-Fidelity Measurements of Energetic Particles on CubeSats
-  date: '2026-07-21'
-  kind: web
-- slug: 2026-07-21-interworld-slingshot-resource-surveys
-  title: Interworld Slingshot Resource Surveys
   date: '2026-07-21'
   kind: web
 neighbors: []

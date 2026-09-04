@@ -37,6 +37,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-02-chips-act-20-part-3-can-europe-compete---eenews-europe
+  title: 'Chips Act 2.0, Part 3: Can Europe compete? ... - eeNews Europe'
+  date: '2026-09-02'
+  kind: web
 - slug: 2026-08-28-the-us-is-building-chips-act-fabs-but-neglecting-rd---aolcom
   title: The U.S. Is Building CHIPS Act Fabs but Neglecting R&D - AOL.com
   date: '2026-08-28'
@@ -64,10 +68,6 @@ recent_mentions:
 - slug: 2026-08-10-chips-act-funding-opportunities-what-companies-in-the-semico
   title: 'CHIPS Act Funding Opportunities: What Companies in the Semiconductor Ecosystem Need to Know - Mayer Brown'
   date: '2026-08-10'
-  kind: web
-- slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
-  title: Chip Industry Week in Review (7 Aug 2026)
-  date: '2026-08-07'
   kind: web
 neighbors: []
 ---

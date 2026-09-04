@@ -33,6 +33,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-03-the-pulse-tech-companies-move-to-open-ai-models
+  title: 'The Pulse: tech companies move to open AI models'
+  date: '2026-09-03'
+  kind: web
 - slug: 2026-09-01-chinas-ai-rally-is-real-most-global-investors-are-missing-it
   title: China’s AI Rally Is Real. Most Global Investors Are Missing It.
   date: '2026-09-01'
@@ -60,10 +64,6 @@ recent_mentions:
 - slug: 2026-07-23-datacenter-capex-is-spilling-over-into-a-chatgpt-of-robotics
   title: Datacenter Capex is Spilling over into a ChatGPT of Robotics Moment set for 2027 and this decade.
   date: '2026-07-23'
-  kind: web
-- slug: 2026-07-16-the-lab-of-the-future-should-feel-like-a-data-center-andy-be
-  title: 🔬 The Lab of the Future Should Feel Like a Data Center — Andy Beam & Rafa Gómez-Bombarelli, Lila Sciences
-  date: '2026-07-16'
   kind: web
 neighbors: []
 ---

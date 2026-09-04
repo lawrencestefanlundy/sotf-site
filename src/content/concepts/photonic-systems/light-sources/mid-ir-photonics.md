@@ -30,9 +30,9 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 123
+mention_count: 125
 sources_7d: 5
-sources_30d: 11
+sources_30d: 10
 recent_mentions:
 - slug: 2026-06-17-single-photon-detector-market-spad-snspd
   title: Single-photon detector market aggregation — SPAD, SiPM, SNSPD (2024–2035)
@@ -53,6 +53,10 @@ recent_mentions:
 - slug: 2023-10-05-nynomic-nlir-investment
   title: 'Nynomic AG: Expansion of technology portfolio / investment in NLIR ApS'
   date: '2023-10-05'
+  kind: web
+- slug: 2009-04-14-darpa-selects-pranalytica-for-beam-combining-of-high-power-q
+  title: DARPA selects Pranalytica for Beam Combining of High Power Quantum Cascade Laser Arrays project - Military Aerospace
+  date: '2009-04-14'
   kind: web
 neighbors:
 - slug: quantum-cascade-lasers

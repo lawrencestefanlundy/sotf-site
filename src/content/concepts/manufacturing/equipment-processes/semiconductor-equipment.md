@@ -12,6 +12,7 @@ sources:
 - '[[2026-07-07-the-asml-killer]]'
 - '[[2025-12-30-us-eases-semiconductor-equipment-rules-for-samsung-sk-hynix-]]'
 - '[[2024-bis-export-controls-china-semis]]'
+- '[[2025-06-21-us-restricts-korean-firms-from-importing-semiconductor-equip]]'
 - '[[2023-04-25-us-deals-signal-heightened-semiconductor-equipment-competiti]]'
 scorecard:
   viability: null
@@ -22,7 +23,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 71
+mention_count: 72
 descendants:
 - automated-test-equipment
 - ion-implantation
@@ -32,6 +33,14 @@ descendants:
 sources_7d: 0
 sources_30d: 1
 recent_mentions:
+- slug: 2026-09-03-what-comes-after-the-data-center-backlash---latitude-media
+  title: What comes after the data center backlash? - Latitude Media
+  date: '2026-09-03'
+  kind: web
+- slug: 2026-09-02-chips-act-20-part-3-can-europe-compete---eenews-europe
+  title: 'Chips Act 2.0, Part 3: Can Europe compete? ... - eeNews Europe'
+  date: '2026-09-02'
+  kind: web
 - slug: 2026-08-28-the-us-is-building-chips-act-fabs-but-neglecting-rd---aolcom
   title: The U.S. Is Building CHIPS Act Fabs but Neglecting R&D - AOL.com
   date: '2026-08-28'
@@ -55,14 +64,6 @@ recent_mentions:
 - slug: 2026-08-13-how-the-chips-act-changed-binghamton-and-upstate-new-york---
   title: How the CHIPS Act changed Binghamton and Upstate New York - Press & Sun-Bulletin
   date: '2026-08-13'
-  kind: web
-- slug: 2026-08-12-chips-act-20-part-1-europes-second-semiconductor-push---eene
-  title: 'Chips Act 2.0. Part 1: Europe’s second semiconductor push - eeNews Europe'
-  date: '2026-08-12'
-  kind: web
-- slug: 2026-08-11-stanton-marks-four-years-of-chips-act-with-facility-visits-h
-  title: Stanton Marks Four Years of CHIPS Act with Facility Visits, Highlights Impact Across Arizona - Congressman Greg Stanton (.gov)
-  date: '2026-08-11'
   kind: web
 neighbors: []
 ---

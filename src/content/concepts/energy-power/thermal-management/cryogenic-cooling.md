@@ -21,7 +21,7 @@ frontier:
 - How much of the room-temperature-to-cryogenic wiring and heat load is removed per qubit by cryogenic control electronics, and at which cryostat stage temperature does the electronics dissipation itself become the limiting load?
 - What cryostat vibration and drift specifications are required to hold sub-10 fs instrument response and sub-50 meV resolution at 20 K without reliance on software image registration?
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'

@@ -13,15 +13,15 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 15
+mention_count: 16
 frontier:
 - Does embedding optical priors into the learning pipeline (as in PDI-Net) break the reported accuracy/latency trade-off on standard detection benchmarks, and what end-to-end latency figures are achievable on embedded infrared hardware 2026 06 02 dual integrated low latency single lens infrared computation?
 - How far can the passive microlens-plus-glass-stack architecture extend sequence depth beyond ten frames without losing the 1.46 ps sampling interval or the sub-US$500 cost 2026 06 05 low cost passive single shot ultrafast imaging at 685 gfps?
 - When generative diffusion priors are used for photon-limited reconstruction, what quantitative bounds separate photometrically faithful recovery from prior-induced hallucination at a given detected-photon count 2026 06 05 gqir generative quanta image reconstruction?
 - Can physics-based self-supervised hologram reconstruction match iterative algorithms on quantitative phase-shift and absorption accuracy, not just twin-image suppression 2026 07 03 physics based self supervised learning of a deep network for?
 - Does the single-wavelength restriction of the differentiable ray-wave model limit end-to-end optimisation of broadband hybrid refractive-diffractive imagers, and what error does polychromatic operation introduce 2026 08 14 a differentiable ray wave framework for hybrid refractive di?
-sources_7d: 1
-sources_30d: 2
+sources_7d: 2
+sources_30d: 3
 recent_mentions: []
 neighbors: []
 ---

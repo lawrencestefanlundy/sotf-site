@@ -35,10 +35,14 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 879
-sources_7d: 1
+mention_count: 883
+sources_7d: 2
 sources_30d: 5
 recent_mentions:
+- slug: 2026-09-03-space-compute-cheap-launch-rebuild
+  title: Space compute rebuilt around the cheap-launch case — what survives the premise
+  date: '2026-09-03'
+  kind: web
 - slug: 2026-09-02-vertical-power-delivery-thermal-limits
   title: 'Vertical power delivery: the thermal limit at the 48V-to-point-of-load stage'
   date: '2026-09-02'
@@ -66,10 +70,6 @@ recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
-  kind: web
-- slug: 2026-07-10-edge-buyer-kpi-sweep
-  title: 'Edge-AI buyer KPI sweep: power envelope + energy per work; cost per token absent'
-  date: '2026-07-10'
   kind: web
 neighbors: []
 ---

@@ -23,7 +23,7 @@ scorecard:
 scorecard_status: draft
 mention_count: 59
 sources_7d: 3
-sources_30d: 8
+sources_30d: 5
 recent_mentions:
 - slug: 2026-07-21-robotically-assembled-electromagnetic-metamaterials-for-long
   title: Robotically Assembled Electromagnetic Metamaterials for Long-Range Space Situational Awareness

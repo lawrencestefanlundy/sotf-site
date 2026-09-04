@@ -34,7 +34,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 203
+mention_count: 204
 descendants:
 - computational-lithography
 - directed-self-assembly
@@ -53,7 +53,7 @@ descendants:
 - x-ray-lithography
 - xolography
 sources_7d: 0
-sources_30d: 8
+sources_30d: 7
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)

@@ -43,7 +43,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 83
+mention_count: 84
 descendants:
 - dexterous-manipulation
 - humanoid-robots
@@ -54,7 +54,7 @@ descendants:
 - vision-language-action-models
 - world-models
 sources_7d: 6
-sources_30d: 12
+sources_30d: 11
 recent_mentions:
 - slug: 2026-09-01-chinas-ai-rally-is-real-most-global-investors-are-missing-it
   title: China’s AI Rally Is Real. Most Global Investors Are Missing It.

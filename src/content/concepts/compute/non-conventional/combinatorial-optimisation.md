@@ -28,7 +28,7 @@ frontier:
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 63
+mention_count: 64
 scorecard:
   viability: 2
   drivers: 4
@@ -38,7 +38,7 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Overrated
 scorecard_status: draft
-sources_7d: 2
+sources_7d: 3
 sources_30d: 8
 recent_mentions:
 - slug: 2025-04-30-has-the-time-come-to-take-mortal

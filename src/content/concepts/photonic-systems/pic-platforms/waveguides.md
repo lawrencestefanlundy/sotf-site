@@ -19,7 +19,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 157
+mention_count: 158
 scorecard:
   viability: 5
   drivers: 4
@@ -35,7 +35,7 @@ frontier:
 - How far below dB/cm can visible-band lithium tantalate loss be pushed while keeping the 5 dBm power stability advantage over lithium niobate, and does that advantage hold at higher powers 2026 05 14 robust and active visible light integrated photonics on thin?
 - What pump power and waveguide length does the cavity-less comb architecture actually require to beat a microresonator on total system efficiency, given the resonator's inherently lower threshold 2026 05 28 a cavity less architecture for high power integrated frequen?
 sources_7d: 1
-sources_30d: 11
+sources_30d: 9
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'

@@ -23,7 +23,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 177
+mention_count: 179
 descendants:
 - 2d-materials
 - aluminium-gallium-nitride
@@ -73,7 +73,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-sources_7d: 4
+sources_7d: 5
 sources_30d: 14
 recent_mentions:
 - slug: 2026-08-31-qcells-tandem-iec-ul-certification-tuv-rheinland

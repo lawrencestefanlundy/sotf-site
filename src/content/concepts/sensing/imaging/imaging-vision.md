@@ -22,7 +22,11 @@ scorecard_status: draft
 mention_count: 70
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-09-01-diffraqtion-adds-to-pre-seed-round-for-quantum-camera-tech--
+  title: Diffraqtion Adds to Pre-Seed Round for Quantum Camera Tech - Payload Space
+  date: '2026-09-01'
+  kind: web
 neighbors: []
 ---
 **Imaging and vision is shifting from lenses that form pictures to systems where the optics, the detector electronics and the reconstruction algorithm are designed as one, with June-July 2026 preprints showing megahertz light modulators, tunable metalenses, single-photon detector arrays and information-theoretic optical design objectives all pointing the same way.**

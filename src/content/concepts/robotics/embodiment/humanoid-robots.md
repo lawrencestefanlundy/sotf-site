@@ -66,7 +66,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Overrated
 scorecard_status: draft
-mention_count: 79
+mention_count: 80
 sources_7d: 1
 sources_30d: 4
 recent_mentions:

@@ -25,12 +25,12 @@ sources:
 - '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 - '[[2026-07-10-the-next-vc-meme-is]]'
-mention_count: 232
+mention_count: 231
 descendants:
 - external-laser-source
 - laser-display-light-engines
 sources_7d: 2
-sources_30d: 5
+sources_30d: 4
 recent_mentions:
 - slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
   title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
@@ -56,13 +56,13 @@ recent_mentions:
   title: That’s a learning curve mate, not RSI
   date: '2026-07-03'
   kind: substack
+- slug: 2026-07-02-fusion-bionic-secures-8m-for-laser-texturing---opticsorg
+  title: Fusion Bionic secures €8M for laser texturing - Optics.org
+  date: '2026-07-02'
+  kind: web
 - slug: 2026-06-22-thermal-stack-layer-landscape
   title: AI datacentre thermal stack, junction-to-ambient — per-layer players, M&A, capture (web research synthesis)
   date: '2026-06-22'
-  kind: web
-- slug: 2026-06-16-trapped-ion-landscape-2026
-  title: Trapped-ion quantum computing landscape 2026 (vendors, scale, integrated photonics)
-  date: '2026-06-16'
   kind: web
 neighbors: []
 ---

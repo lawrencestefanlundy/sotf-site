@@ -39,7 +39,7 @@ scorecard:
   verdict: Underrated
 scorecard_status: draft
 sources_7d: 4
-sources_30d: 9
+sources_30d: 8
 recent_mentions:
 - slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape
   title: Neutral PDK / EDA layer for heterogeneous photonic integration — landscape check (Scintil essay correction research)

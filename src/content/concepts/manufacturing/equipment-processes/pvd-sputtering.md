@@ -39,7 +39,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 55
+mention_count: 56
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 5
@@ -50,8 +50,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-sources_7d: 1
-sources_30d: 12
+sources_7d: 2
+sources_30d: 13
 recent_mentions: []
 neighbors:
 - slug: chemical-vapor-deposition

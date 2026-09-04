@@ -14,10 +14,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - material
-mention_count: 60
+mention_count: 65
 last_reorg_date: '2026-05-13'
-sources_7d: 4
-sources_30d: 8
+sources_7d: 9
+sources_30d: 12
 recent_mentions: []
 neighbors: []
 ---

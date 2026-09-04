@@ -35,7 +35,7 @@ scorecard:
 scorecard_status: draft
 mention_count: 102
 sources_7d: 2
-sources_30d: 14
+sources_30d: 13
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)

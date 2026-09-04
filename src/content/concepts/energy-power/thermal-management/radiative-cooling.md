@@ -23,6 +23,10 @@ frontier:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-03-space-compute-cheap-launch-rebuild
+  title: Space compute rebuilt around the cheap-launch case — what survives the premise
+  date: '2026-09-03'
+  kind: web
 - slug: 2026-06-23-semianalysis-space-datacenters
   title: 'To Boldly Go: The Case for Space Datacenters'
   date: '2026-06-23'

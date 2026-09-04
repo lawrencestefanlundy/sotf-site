@@ -36,8 +36,8 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 136
-sources_7d: 5
+mention_count: 137
+sources_7d: 6
 sources_30d: 17
 recent_mentions:
 - slug: 2026-07-21-robotically-assembled-electromagnetic-metamaterials-for-long

@@ -33,6 +33,18 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-03-what-comes-after-the-data-center-backlash---latitude-media
+  title: What comes after the data center backlash? - Latitude Media
+  date: '2026-09-03'
+  kind: web
+- slug: 2026-09-03-gridsight-raises-26m-series-b-to-unlock-electric-grid-capaci
+  title: Gridsight raises $26M series B to unlock electric grid capacity and affordability - Latitude Media
+  date: '2026-09-03'
+  kind: web
+- slug: 2026-09-03-three-questions-left-open-by-trumps-bulk-power-executive-ord
+  title: Three questions left open by Trump’s bulk power executive order - Latitude Media
+  date: '2026-09-03'
+  kind: web
 - slug: 2026-09-01-nvidia-earnings-dollars-per-gigawatt-open-and-hugging-face
   title: Nvidia Earnings, Dollars Per Gigawatt, Open and Hugging Face
   date: '2026-09-01'
@@ -52,18 +64,6 @@ recent_mentions:
 - slug: 2026-08-10-how-ais-demand-for-compute-could-disrupt-america
   title: How AI's Demand for Compute could Disrupt America
   date: '2026-08-10'
-  kind: web
-- slug: 2026-08-06-the-electrician-shortage-slowing-the-ai-boom---latitude-medi
-  title: The electrician shortage slowing the AI boom - Latitude Media
-  date: '2026-08-06'
-  kind: web
-- slug: 2026-08-05-stealthium-gpu-powered-security-intelligence-site-docs-compe
-  title: Stealthium — GPU-Powered Security Intelligence (site + docs + competitive context)
-  date: '2026-08-05'
-  kind: web
-- slug: 2026-08-05-which-ldes-companies-are-poised-to-land-the-next-big-contrac
-  title: Which LDES companies are poised to land the next big contracts? - Latitude Media
-  date: '2026-08-05'
   kind: web
 neighbors: []
 ---

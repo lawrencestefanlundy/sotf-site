@@ -16,7 +16,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 40
+mention_count: 41
 frontier:
 - 'If bulk point-defect Shockley-Read-Hall recombination cannot explain the efficiency limits of trigonal selenium cells 2026 06 16 defect tolerance in trigonal selenium photovoltaics, what does: interfaces, contacts, grain boundaries or transport?'
 - Can the deep-level defects and mixed cation valences in solution-deposited Bi2FeCrO6 and Bi2MnCrO6 films be suppressed enough to yield a working cell, and what open-circuit voltage does that give 2026 05 06 beyond lead halide perovskites visible light photovoltaics w?

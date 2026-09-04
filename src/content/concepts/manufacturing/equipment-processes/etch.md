@@ -24,14 +24,14 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 45
+mention_count: 46
 frontier:
 - What taper angle is achievable at production throughput for high-aspect-ratio stack etches, and at what layer count does the resulting die-cost minimum fall for current 3D memory nodes walker 2013 rigorous 3d nand flash cost analysis?
 - Can SC-1 wet etching of Nb and TiN be shown to improve superconducting resonator or qubit coherence relative to plasma-etched controls, with quantitative loss-tangent comparison 2026 05 28 sc 1 etching of niobium and titanium nitride thin films?
 - Does lithography-guided anisotropic TMD etching retain atomically sharp zigzag edges over extended, non-confined geometries at wafer scale 2026 06 24 precise one dimensional nanochannels in transition metal dic?
 - What etch-depth and sidewall-angle tolerance windows do inverse-designed TFLN and SiN devices survive before measured performance departs from the reduced-order model prediction 2026 08 14 inverse designed lithium niobate wavelength demultiplexer vi?
-sources_7d: 0
-sources_30d: 6
+sources_7d: 1
+sources_30d: 7
 recent_mentions:
 - slug: 2026-07-31-etched-research-sprint
   title: Etched research sprint — tape-out speed, HBM supply, customer orders (4-lane web sweep)

@@ -31,7 +31,7 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 104
+mention_count: 105
 descendants:
 - diffractive-deep-neural-network
 - diffractive-deep-neural-networks
@@ -39,8 +39,8 @@ descendants:
 - photonic-compute
 - photonic-compute-memory
 - photonic-tensor-cores
-sources_7d: 2
-sources_30d: 8
+sources_7d: 3
+sources_30d: 9
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)

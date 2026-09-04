@@ -38,7 +38,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 614
+mention_count: 624
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -71,6 +71,14 @@ scorecard_status: draft
 sources_7d: 3
 sources_30d: 10
 recent_mentions:
+- slug: 2026-09-01-diffraqtion-adds-to-pre-seed-round-for-quantum-camera-tech--
+  title: Diffraqtion Adds to Pre-Seed Round for Quantum Camera Tech - Payload Space
+  date: '2026-09-01'
+  kind: web
+- slug: 2026-08-31-diffraqtion-raises-more-than-10m-for-quantum-camera-developm
+  title: Diffraqtion Raises More Than $10M for Quantum Camera Development - The Quantum Insider
+  date: '2026-08-31'
+  kind: web
 - slug: 2026-08-26-from-gitex-global-to-ces-how-eic-accelerator-company-multive
   title: 'From GITEX Global to CES: How EIC Accelerator company Multiverse Computing secured a strategic alliance with Axelera AI - European Innovation Council'
   date: '2026-08-26'
@@ -94,14 +102,6 @@ recent_mentions:
 - slug: 2026-08-05-spooky-particles-transit-dc-suburbs-a-step-toward-a-quantum-
   title: ‘Spooky’ Particles Transit DC Suburbs, a Step Toward a Quantum Network
   date: '2026-08-05'
-  kind: web
-- slug: 2026-07-28-exclusive-eth-zurich-spinout-zuriq-raises-255m-seed---sifted
-  title: 'Exclusive: ETH Zurich spinout ZuriQ raises $25.5m seed - Sifted'
-  date: '2026-07-28'
-  kind: web
-- slug: 2026-07-24-18b-illinois-chips-act-supports-zero-point-cryogenics-us-ent
-  title: $1.8B Illinois Chips Act Supports Zero Point Cryogenics’ U.S. Entry - Quantum Zeitgeist
-  date: '2026-07-24'
   kind: web
 neighbors: []
 ---

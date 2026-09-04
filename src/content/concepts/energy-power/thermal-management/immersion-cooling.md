@@ -23,7 +23,7 @@ frontier:
 - Do soak-and-inspect results for Type 1 components correlate with field failure rates over multi-year deployment, or does the absence of electrical testing miss degradation modes?
 - Which fluid chemistries pass compatibility testing across the full component taxonomy, and what cost per kW does that impose relative to direct-to-chip?
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-05-05-thermal-stack-arms-race-ai-datacenter-liquid-cooling-market
   title: AI Datacenter Liquid Cooling Market to Reach USD 17.8 Billion by 2036

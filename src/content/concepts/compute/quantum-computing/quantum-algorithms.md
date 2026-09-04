@@ -17,7 +17,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 243
+mention_count: 245
 frontier:
 - Once magic-state delivery limits are included, how much do published fault-tolerant resource estimates for Shor-class algorithms change, given that T-depth is a poor predictor of executable makespan 2026 05 08 when t depth misleads predicting fault tolerant quantum exec?
 - How widespread are semantic defects in compiled quantum oracles beyond the single Qrisp ECDLP case study, and does routine semantic auditing invalidate any existing published complexity or resource claims 2026 05 05 semantics based verification of an implemented shor oracle f?
@@ -37,8 +37,8 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 7
-sources_30d: 24
+sources_7d: 8
+sources_30d: 23
 recent_mentions:
 - slug: 2024-12-04-cubits-in-a-fridge-why-is-nobody
   title: Silicon Spin Quantum Computing (Feat. Himadri Majumdar, SemiQon)

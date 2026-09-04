@@ -32,6 +32,10 @@ recent_mentions:
   title: Cluster’s encore for reentry science a success
   date: '2026-09-02'
   kind: web
+- slug: 2026-08-31-diffraqtion-raises-more-than-10m-for-quantum-camera-developm
+  title: Diffraqtion Raises More Than $10M for Quantum Camera Development - The Quantum Insider
+  date: '2026-08-31'
+  kind: web
 - slug: 2026-08-11-nasa-completes-astronaut-deployed-science-instrument-for-lun
   title: NASA Completes Astronaut-Deployed Science Instrument for Lunar Surface
   date: '2026-08-11'
@@ -54,10 +58,6 @@ recent_mentions:
   kind: web
 - slug: 2026-07-16-robotics-labour-augmentation-the-us-58-9-billion-humanoid
   title: The US$58.9 Billion Humanoid Robot Opportunity Starts With Actuators, Sensors, And Batteries
-  date: '2026-07-16'
-  kind: web
-- slug: 2026-07-16-robotics-labour-augmentation-humanoid-robot-bom-cost
-  title: 'Humanoid Robot BOM Cost Analysis: Actuators, Sensors and Batteries Market Focus'
   date: '2026-07-16'
   kind: web
 neighbors: []

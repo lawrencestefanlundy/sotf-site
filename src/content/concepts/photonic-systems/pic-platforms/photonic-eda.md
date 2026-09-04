@@ -13,7 +13,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 2
+mention_count: 3
 frontier:
 - Which organisations, if any, currently offer a third-party-accessible PDK for heterogeneous photonic integration, and on what commercial terms?
 - Does a captive-process model measurably slow or accelerate time-to-volume compared with an open-PDK model on the same foundry line?

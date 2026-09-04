@@ -21,7 +21,11 @@ frontier:
 - Does an internally integrated launch provider price launch to affiliated payload programmes at marginal cost, and does a SpaceX IPO force disclosure of that figure?
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-09-03-space-compute-cheap-launch-rebuild
+  title: Space compute rebuilt around the cheap-launch case — what survives the premise
+  date: '2026-09-03'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

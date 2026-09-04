@@ -27,7 +27,7 @@ descendants:
 - semiconductor-optical-amplifier
 - single-photon-sources
 - vcsels
-mention_count: 80
+mention_count: 81
 scorecard:
   viability: 4
   drivers: 3

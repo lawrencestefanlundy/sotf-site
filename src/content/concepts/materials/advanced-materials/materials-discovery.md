@@ -26,12 +26,12 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 55
+mention_count: 57
 descendants:
 - arpes
 - electron-scale-metrology
 - stm
-sources_7d: 3
+sources_7d: 5
 sources_30d: 13
 recent_mentions:
 - slug: 2024-09-19-can-ai-revolutionize-materials-discovery---latitude-media

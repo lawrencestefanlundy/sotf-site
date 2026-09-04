@@ -43,6 +43,10 @@ scorecard_status: draft
 sources_7d: 1
 sources_30d: 2
 recent_mentions:
+- slug: 2026-07-02-fusion-bionic-secures-8m-for-laser-texturing---opticsorg
+  title: Fusion Bionic secures €8M for laser texturing - Optics.org
+  date: '2026-07-02'
+  kind: web
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
   title: Carbon Nanotubes in the Datacentre
   date: '2025-11-25'
@@ -70,10 +74,6 @@ recent_mentions:
 - slug: 2022-05-09-elementum-funded-by-darpa-to-develop-am-process-for-rhenium-
   title: Elementum funded by DARPA to develop AM process for rhenium - Metal Additive Manufacturing magazine
   date: '2022-05-09'
-  kind: web
-- slug: 2021-05-06-weav3d-awarded-nsf-funding-to-further-develop-next-generatio
-  title: WEAV3D awarded NSF funding to further develop next-generation composite forming machine - Design World
-  date: '2021-05-06'
   kind: web
 neighbors: []
 ---

@@ -52,6 +52,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-02-chips-act-20-part-3-can-europe-compete---eenews-europe
+  title: 'Chips Act 2.0, Part 3: Can Europe compete? ... - eeNews Europe'
+  date: '2026-09-02'
+  kind: web
 - slug: 2026-09-01-nvidia-earnings-dollars-per-gigawatt-open-and-hugging-face
   title: Nvidia Earnings, Dollars Per Gigawatt, Open and Hugging Face
   date: '2026-09-01'
@@ -78,10 +82,6 @@ recent_mentions:
   kind: web
 - slug: 2026-08-27-when-chips-run-short-the-crisis-regime-of-the-chips-act-20--
   title: 'When Chips Run Short: The Crisis Regime of the Chips Act 2.0 - Freshfields'
-  date: '2026-08-27'
-  kind: web
-- slug: 2026-08-27-ainews-hot-chips-openais-jalapeno-cerebras-cs-5-groq-3-lpx-a
-  title: '[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6'
   date: '2026-08-27'
   kind: web
 neighbors:

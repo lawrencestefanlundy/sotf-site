@@ -14,7 +14,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 47
+mention_count: 48
 frontier:
 - At 80 kHz spectral rates, what signal-to-noise and detection limits survive for weakly scattering, non-resonant samples, and how do those compare with slower CCD line-scan measurements on the same specimen?
 - Can learned forward models be trained to quantitative rather than qualitative accuracy, and does that require a reference database far larger than the 5,099 materials used by RamanGPT, including amorphous, doped and mixed-phase systems?
@@ -34,8 +34,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 5
-sources_30d: 13
+sources_7d: 6
+sources_30d: 14
 recent_mentions:
 - slug: 2026-07-21-interworld-slingshot-resource-surveys
   title: Interworld Slingshot Resource Surveys

@@ -46,6 +46,10 @@ recent_mentions:
   title: The Chemistry of Chips
   date: '2026-07-08'
   kind: web
+- slug: 2026-07-02-fusion-bionic-secures-8m-for-laser-texturing---opticsorg
+  title: Fusion Bionic secures €8M for laser texturing - Optics.org
+  date: '2026-07-02'
+  kind: web
 - slug: 2026-03-25-sallea-extends-salt-based-templating-technology-to-advanced-
   title: Sallea extends salt-based templating technology to advanced composites manufacturing - CompositesWorld
   date: '2026-03-25'

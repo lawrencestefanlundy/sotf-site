@@ -21,9 +21,9 @@ frontier:
 last_updated: 2026-06-22
 tags:
 - concept
-mention_count: 7
-sources_7d: 1
-sources_30d: 1
+mention_count: 8
+sources_7d: 2
+sources_30d: 2
 recent_mentions:
 - slug: 2024-11-20-nuclear-fusion-the-state-of-play
   title: 'Nuclear Fusion: A Primer'

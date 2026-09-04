@@ -8,10 +8,11 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2026-06-22-thermal-stack-layer-landscape]]'
+- '[[2026-09-03-space-compute-cheap-launch-rebuild]]'
 - '[[2026-06-12-conversations-in-the-sky-galileos-intersatellite-links-teste]]'
 - '[[2026-06-03-nasa-says-farewell-to-maven-mars-mission-hosts-media-call-to]]'
 - '[[2026-05-07-nasas-prithvi-becomes-first-ai-geospatial-foundation-model-i]]'
-mention_count: 12
+mention_count: 13
 descendants:
 - atmospheric-sensing
 - direct-to-cell-leo
@@ -28,9 +29,13 @@ descendants:
 - radiation-shielding
 - sar-satellites
 - space-communications
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
+- slug: 2026-09-03-space-compute-cheap-launch-rebuild
+  title: Space compute rebuilt around the cheap-launch case — what survives the premise
+  date: '2026-09-03'
+  kind: web
 - slug: 2026-06-22-thermal-stack-layer-landscape
   title: AI datacentre thermal stack, junction-to-ambient — per-layer players, M&A, capture (web research synthesis)
   date: '2026-06-22'

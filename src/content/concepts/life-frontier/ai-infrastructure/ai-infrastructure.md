@@ -57,7 +57,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 108
+mention_count: 109
 descendants:
 - ai-grade-datacentre-real-estate
 - ai-infrastructure-scaling
@@ -69,7 +69,7 @@ descendants:
 - prefill-vs-decode
 - sovereign-ai
 sources_7d: 1
-sources_30d: 9
+sources_30d: 8
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)

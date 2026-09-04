@@ -24,7 +24,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 25
+mention_count: 26
 descendants:
 - adc-bottleneck
 - charge-domain-compute

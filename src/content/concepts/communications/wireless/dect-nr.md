@@ -30,6 +30,7 @@ sources:
 - '[[2024-02-28-distributech-2024-nordic-semiconductor-unveils-the-power-of-]]'
 - '[[2025-11-03-sennheiser-experts-to-explore-dect-nr-opportunities-at-dect-]]'
 - '[[2023-08-16-the-first-non-cellular-5g-standard-dect-nr---5g-technology-w]]'
+- '[[2026-06-10-dect-nr-demystified---sennheiser]]'
 - '[[2025-10-23-merci-project-takes-dect-nr-from-vision-to-reality---sennhei]]'
 - '[[2026-03-24-dect-nr-a-wireless-solution-for-real-time-audio---audioxpres]]'
 - '[[2025-11-04-sennheiser-promotes-dect-nr-next-generation-wireless-technol]]'
@@ -45,7 +46,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 30
+mention_count: 31
 sources_7d: 1
 sources_30d: 3
 recent_mentions:
@@ -69,6 +70,10 @@ recent_mentions:
   title: DECT NR+ demystified - Sennheiser
   date: '2026-06-12'
   kind: web
+- slug: 2026-06-10-dect-nr-demystified---sennheiser
+  title: DECT NR+ demystified - Sennheiser
+  date: '2026-06-10'
+  kind: web
 - slug: 2026-05-07-stratum-9-launches-first-industrial-grade-dect-nr-gateway---
   title: STRATUM 9 Launches First Industrial-Grade DECT NR+ Gateway - openPR.com
   date: '2026-05-07'
@@ -76,10 +81,6 @@ recent_mentions:
 - slug: 2026-04-01-non-cellular-5g-for-pro-av-dect-nr---avnetwork
   title: 'Non-Cellular 5G for Pro AV: DECT NR+ - AVNetwork'
   date: '2026-04-01'
-  kind: web
-- slug: 2026-03-24-dect-nr-a-wireless-solution-for-real-time-audio---audioxpres
-  title: 'DECT NR+: A Wireless Solution for Real-Time Audio? - audioXpress'
-  date: '2026-03-24'
   kind: web
 neighbors: []
 ---

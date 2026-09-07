@@ -28,7 +28,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 71
+mention_count: 72
 last_reorg_date: '2026-05-14'
 descendants:
 - spiking-neural-networks

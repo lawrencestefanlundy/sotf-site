@@ -37,11 +37,11 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 24
+mention_count: 25
 descendants:
 - all-optical-switching
-sources_7d: 1
-sources_30d: 2
+sources_7d: 2
+sources_30d: 3
 recent_mentions:
 - slug: 2026-05-07-optical-dram-startup-funding-q1-2026
   title: 'Startup Funding: Q1 2026'

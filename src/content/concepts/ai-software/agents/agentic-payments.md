@@ -53,7 +53,7 @@ scorecard:
   verdict: Overrated
 scorecard_status: draft
 sources_7d: 2
-sources_30d: 4
+sources_30d: 3
 recent_mentions:
 - slug: 2026-08-06-4mica-base-mainnet-onchain-verification
   title: 4Mica's Base mainnet contract, verified on-chain

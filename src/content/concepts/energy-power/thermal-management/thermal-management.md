@@ -62,7 +62,7 @@ descendants:
 - tim-approach-map
 - two-phase-cooling
 - vapor-chambers
-sources_7d: 5
+sources_7d: 4
 sources_30d: 10
 recent_mentions:
 - slug: 2026-09-02-vertical-power-delivery-thermal-limits

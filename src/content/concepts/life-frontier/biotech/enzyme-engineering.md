@@ -19,7 +19,7 @@ frontier:
 - Do the claimed "generalizable" engineering strategies transfer to enzyme families outside the aromatic-metabolising set used to develop them?
 - What is the measured reduction in energy input and solvent mass per kilogram of product versus the equivalent protecting-group route, at more than laboratory scale?
 - Which engineering method (rational design, directed evolution, or computational prediction) accounts for the improvements, and what is the screening throughput required per successful variant?
-sources_7d: 1
+sources_7d: 0
 sources_30d: 1
 recent_mentions: []
 neighbors: []

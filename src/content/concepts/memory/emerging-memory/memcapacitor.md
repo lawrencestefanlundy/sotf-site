@@ -58,7 +58,7 @@ scorecard:
   verdict: Too early to say
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 5
+sources_30d: 2
 recent_mentions:
 - slug: 2026-08-07-the-memory-trade-isnt-over-weights
   title: 'The Memory Trade Isn''t Over: Weights and KV Cache'

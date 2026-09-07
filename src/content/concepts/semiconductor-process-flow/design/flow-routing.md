@@ -38,7 +38,7 @@ frontier:
 - Will the single-photon switching community actually adopt consistent reporting of speed, efficiency and fidelity, and when it does, which platform among quantum dots, neutral atoms, superconducting qubits and colour centres leads?
 - At what routing density does the sub-kelvin thermal conductivity of the substrate, spanning 5x10^-2 down to 8x10^-4 W/m.K at 300 mK depending on material, become the binding limit on co-integrating control and readout with qubits?
 sources_7d: 5
-sources_30d: 15
+sources_30d: 13
 recent_mentions:
 - slug: 2026-08-20-callosum-100m-seed-announcement
   title: Callosum announces $100M seed led by Atomico (round coverage + Companies House filings)

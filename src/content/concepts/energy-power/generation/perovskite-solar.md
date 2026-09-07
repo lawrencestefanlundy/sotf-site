@@ -11,7 +11,7 @@ related_concepts: []
 sources: []
 mention_count: 9
 sources_7d: 2
-sources_30d: 4
+sources_30d: 2
 recent_mentions: []
 neighbors: []
 ---

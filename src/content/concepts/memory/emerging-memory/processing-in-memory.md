@@ -45,17 +45,17 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 2
-sources_30d: 7
+sources_7d: 0
+sources_30d: 6
 recent_mentions:
-- slug: 2026-07-10-the-next-vc-meme-is
-  title: The Next VC Meme Is...
-  date: '2026-07-10'
-  kind: substack
 - slug: 2026-07-10-workload-phase-silicon-sweep
   title: 'Workload-phase silicon sweep: pre-training / RL / prefill / decode procurement split'
   date: '2026-07-10'
   kind: web
+- slug: 2026-07-10-the-next-vc-meme-is
+  title: The Next VC Meme Is...
+  date: '2026-07-10'
+  kind: substack
 - slug: 2026-06-16-cim-landscape-2026
   title: 'Compute-in-memory landscape 2026: efficiency claims, the digital-readout shift, IDM PIM'
   date: '2026-06-16'

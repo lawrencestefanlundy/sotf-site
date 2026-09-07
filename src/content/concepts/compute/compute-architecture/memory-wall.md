@@ -32,7 +32,7 @@ mention_count: 18
 descendants:
 - inference-economics
 - token-cost-stack
-sources_7d: 2
+sources_7d: 1
 sources_30d: 2
 recent_mentions:
 - slug: 2026-07-31-positron-research-sprint

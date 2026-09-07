@@ -27,7 +27,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - material
-mention_count: 32
+mention_count: 33
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 4
@@ -38,7 +38,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Underrated
 scorecard_status: draft
-sources_7d: 0
+sources_7d: 1
 sources_30d: 2
 recent_mentions:
 - slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil

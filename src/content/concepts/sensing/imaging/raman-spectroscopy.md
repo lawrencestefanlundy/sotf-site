@@ -34,8 +34,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 6
-sources_30d: 14
+sources_7d: 3
+sources_30d: 10
 recent_mentions:
 - slug: 2026-07-21-interworld-slingshot-resource-surveys
   title: Interworld Slingshot Resource Surveys

@@ -25,6 +25,7 @@ sources:
 - '[[2026-06-03-datam-specialty-foundry-forecast-2035]]'
 - '[[2026-06-21-yole-mems-market-momentum]]'
 - '[[2026-06-21-marketsandmarkets-mems-2030]]'
+- '[[2022-06-24-how-a-small-mems-microspeaker-start-up-seduced-the-mems-lead]]'
 scorecard:
   viability: 4
   drivers: 3
@@ -34,13 +35,13 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 109
+mention_count: 110
 descendants:
 - mems
 - nems
 - sensors
 - spectral-sensing
-sources_7d: 1
+sources_7d: 0
 sources_30d: 3
 recent_mentions:
 - slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil

@@ -68,7 +68,7 @@ scorecard:
 scorecard_status: draft
 mention_count: 80
 sources_7d: 1
-sources_30d: 4
+sources_30d: 2
 recent_mentions:
 - slug: 2026-09-01-chinas-ai-rally-is-real-most-global-investors-are-missing-it
   title: China’s AI Rally Is Real. Most Global Investors Are Missing It.

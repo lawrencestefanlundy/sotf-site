@@ -21,7 +21,7 @@ sources:
 - '[[2023-08-31-e13-chiplets-how-chip-lego-is-driving]]'
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
-mention_count: 138
+mention_count: 139
 parent_concepts:
 - flow-rtl-design
 scorecard:
@@ -39,7 +39,7 @@ frontier:
 - Does the approximately 10x runtime advantage hold beyond 'dozens of chiplets', and where does the analytical formulation break down as element count grows?
 - Can 420 nm 3-sigma micro-transfer-printing placement accuracy and greater than 95% yield be held across high-volume production lots, and what is the accuracy budget for the resulting photonic device performance?
 sources_7d: 6
-sources_30d: 18
+sources_30d: 17
 recent_mentions:
 - slug: 2026-08-20-callosum-100m-seed-announcement
   title: Callosum announces $100M seed led by Atomico (round coverage + Companies House filings)

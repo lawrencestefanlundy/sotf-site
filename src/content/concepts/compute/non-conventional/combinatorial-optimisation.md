@@ -39,7 +39,7 @@ scorecard:
   verdict: Overrated
 scorecard_status: draft
 sources_7d: 3
-sources_30d: 8
+sources_30d: 7
 recent_mentions:
 - slug: 2025-04-30-has-the-time-come-to-take-mortal
   title: Has the time come to take Mortal Computing seriously?

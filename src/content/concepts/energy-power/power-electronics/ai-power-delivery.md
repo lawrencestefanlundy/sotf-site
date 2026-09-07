@@ -9,12 +9,13 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
+- '[[2026-06-01-rack-power-delivery-silicon-startup-funding-q2-2026-ivworks]]'
 auto_stub: true
 last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 1
+mention_count: 2
 frontier:
 - Which intermediate and rack-level bus voltages are actually being deployed, and what end-to-end efficiency is measured from grid input to accelerator core rail?
 - How much of the conversion stack moves into or onto the accelerator package, and what does that do to package thermal budgets?
@@ -26,6 +27,10 @@ recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
+  kind: web
+- slug: 2026-06-01-rack-power-delivery-silicon-startup-funding-q2-2026-ivworks
+  title: 'Startup Funding: Q2 2026 - IVWorks AI Power Delivery'
+  date: '2026-06-01'
   kind: web
 neighbors: []
 ---

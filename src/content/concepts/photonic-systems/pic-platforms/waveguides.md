@@ -34,8 +34,8 @@ frontier:
 - Can the PLACE isotropic-etch route to low-loss 1.2 cm PPLN be run at wafer scale and with the yield a foundry needs, or does it stay a laboratory process 2026 05 28 isotropic fabrication of centimeter scale low propagation lo?
 - How far below dB/cm can visible-band lithium tantalate loss be pushed while keeping the 5 dBm power stability advantage over lithium niobate, and does that advantage hold at higher powers 2026 05 14 robust and active visible light integrated photonics on thin?
 - What pump power and waveguide length does the cavity-less comb architecture actually require to beat a microresonator on total system efficiency, given the resonator's inherently lower threshold 2026 05 28 a cavity less architecture for high power integrated frequen?
-sources_7d: 1
-sources_30d: 9
+sources_7d: 0
+sources_30d: 8
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'

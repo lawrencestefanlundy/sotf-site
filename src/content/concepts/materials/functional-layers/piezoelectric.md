@@ -20,7 +20,7 @@ scorecard:
   verdict: Underrated
 scorecard_status: draft
 mention_count: 60
-sources_7d: 3
+sources_7d: 2
 sources_30d: 8
 recent_mentions:
 - slug: 2023-08-25-e12-nanomechanical-computing-gears

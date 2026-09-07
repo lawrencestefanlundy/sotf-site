@@ -14,14 +14,14 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 7
+mention_count: 8
 frontier:
 - What is the measured wall-plug power and volume penalty of a cryogenic single-photon detector chain versus a GHz-gated SPAD receiver at equal secure key rate, and does the room-temperature route close the detection-efficiency gap?
 - Can van der Waals heterojunction detectors match superconducting detector dark count rate and timing jitter at 1550 nm without cooling, and over what device area and yield?
 - How much of the room-temperature-to-cryogenic wiring and heat load is removed per qubit by cryogenic control electronics, and at which cryostat stage temperature does the electronics dissipation itself become the limiting load?
 - What cryostat vibration and drift specifications are required to hold sub-10 fs instrument response and sub-50 meV resolution at 20 K without reliance on software image registration?
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'

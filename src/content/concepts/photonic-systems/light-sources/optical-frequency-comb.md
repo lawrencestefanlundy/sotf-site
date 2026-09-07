@@ -33,8 +33,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 3
-sources_30d: 9
+sources_7d: 2
+sources_30d: 7
 recent_mentions:
 - slug: 2025-11-08-efficient-integrated-quantum-memory-eu-yso
   title: Efficient integrated quantum memory for light (¹⁵¹Eu³⁺:Y₂SiO₅, AFC, telecom-heralded)

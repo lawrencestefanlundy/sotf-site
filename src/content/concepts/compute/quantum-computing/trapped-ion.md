@@ -33,7 +33,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 24
+mention_count: 25
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 3

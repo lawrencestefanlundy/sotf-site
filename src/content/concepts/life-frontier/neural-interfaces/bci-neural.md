@@ -23,7 +23,8 @@ sources:
 - '[[2026-06-04-bezos-flourish-brain-core-algorithm]]'
 - '[[2018-09-10-brain-computer-interface-allows-for-telepathic-piloting-of-d]]'
 - '[[2026-06-23-inbrain-graphene-first-in-human]]'
-mention_count: 10
+- '[[2020-11-23-connecting-mind-to-machine-university-of-miami-team-moving-f]]'
+mention_count: 11
 descendants:
 - non-invasive-neural-recording-modalities
 sources_7d: 0
@@ -45,6 +46,10 @@ recent_mentions:
   title: '💡E02: Three Underrated Technologies from the Future: Brain Recording; Deep Geothermal; IVF + Updates BCI; Clean Meat; LEO Internet++'
   date: '2023-05-31'
   kind: substack
+- slug: 2020-11-23-connecting-mind-to-machine-university-of-miami-team-moving-f
+  title: 'Connecting Mind to Machine: University of Miami Team Moving Forward on DARPA Project to Revolutionize Non-surgical Brain-Computer Interface - University of Miami News'
+  date: '2020-11-23'
+  kind: web
 - slug: 2018-09-10-brain-computer-interface-allows-for-telepathic-piloting-of-d
   title: Brain-computer Interface Allows for Telepathic Piloting of Drones - sociable.co
   date: '2018-09-10'

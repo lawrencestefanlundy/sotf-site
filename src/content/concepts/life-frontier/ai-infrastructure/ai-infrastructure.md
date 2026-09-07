@@ -37,6 +37,7 @@ sources:
 - '[[2026-03-16-ai-capex-financeable-financing-the-ai-infrastructure-boom]]'
 - '[[2026-03-12-optical-displaces-copper-optical-scale-up-consortium]]'
 - '[[2025-10-21-frontier-forum-the-new-power-map-for-ai-infrastructure---lat]]'
+- '[[2026-06-27-rack-power-delivery-silicon-reed-semiconductor-raises-100]]'
 - '[[2026-04-09-model-commoditises-value-moves-up-the-foundation-model]]'
 - '[[2026-02-12-ai-demand-outruns-expectations-ai-capex-2026-the-690b]]'
 - '[[2026-06-17-tech-inflation-silicon-shock-federal-reserve-flags-ai]]'
@@ -57,7 +58,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 109
+mention_count: 112
 descendants:
 - ai-grade-datacentre-real-estate
 - ai-infrastructure-scaling
@@ -68,8 +69,8 @@ descendants:
 - moe-all-to-all-collectives
 - prefill-vs-decode
 - sovereign-ai
-sources_7d: 1
-sources_30d: 8
+sources_7d: 2
+sources_30d: 7
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
@@ -82,6 +83,10 @@ recent_mentions:
 - slug: 2026-07-01-the-next-ai-infrastructure-opportunity-is-unlocking-what-we-
   title: The next AI infrastructure opportunity is unlocking what we already have
   date: '2026-07-01'
+  kind: web
+- slug: 2026-06-27-rack-power-delivery-silicon-reed-semiconductor-raises-100
+  title: Reed Semiconductor Raises $100 Million To Scale AI Infrastructure Power Solutions
+  date: '2026-06-27'
   kind: web
 - slug: 2026-06-23-semidoped-daily-update
   title: Semi Doped — Daily Update, June 23rd 2026
@@ -98,10 +103,6 @@ recent_mentions:
 - slug: 2026-06-14-frontier-ai-value-capture
   title: 'Frontier AI value capture: where the $4T accrues (research synthesis)'
   date: '2026-06-14'
-  kind: web
-- slug: 2026-06-13-sovereign-electronics-manufacturing-reshoring-digest
-  title: 'Western/European electronics manufacturing reshoring (PCB/PCBA): market + why-now digest'
-  date: '2026-06-13'
   kind: web
 neighbors: []
 ---

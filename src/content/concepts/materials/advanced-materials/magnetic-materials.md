@@ -30,8 +30,8 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 4
-sources_30d: 8
+sources_7d: 1
+sources_30d: 7
 recent_mentions: []
 neighbors:
 - slug: rare-earth-elements

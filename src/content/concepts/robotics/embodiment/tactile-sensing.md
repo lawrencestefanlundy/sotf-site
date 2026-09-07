@@ -28,9 +28,9 @@ tags:
 - robotics
 - sensing
 - tactile
-mention_count: 5
-sources_7d: 2
-sources_30d: 2
+mention_count: 6
+sources_7d: 3
+sources_30d: 3
 recent_mentions:
 - slug: 2026-07-13-humanoid-actuator-supply-chain-chinese-dexterous-hands-in
   title: 'Chinese Dexterous Hands in 2026: Buyer''s Guide & Comparison'

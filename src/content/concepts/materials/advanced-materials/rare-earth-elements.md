@@ -43,8 +43,8 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 25
-sources_7d: 2
-sources_30d: 4
+sources_7d: 1
+sources_30d: 3
 recent_mentions:
 - slug: 2026-09-01-chinas-rare-earths-duopoly
   title: China's Rare Earths Duopoly

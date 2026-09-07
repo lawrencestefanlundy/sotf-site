@@ -49,8 +49,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 879
-sources_7d: 8
+mention_count: 886
+sources_7d: 7
 sources_30d: 12
 recent_mentions:
 - slug: 2026-08-26-we-have-foundation-models-for-language-not-for-physics-anima

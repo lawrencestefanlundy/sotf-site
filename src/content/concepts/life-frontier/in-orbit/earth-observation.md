@@ -42,8 +42,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 9
-sources_30d: 13
+sources_7d: 2
+sources_30d: 12
 recent_mentions:
 - slug: 2026-05-06-putting-the-super-into-a-supersite-for-earth-observation
   title: Putting the ‘super’ into a supersite for Earth observation

@@ -50,7 +50,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 3
+sources_7d: 2
 sources_30d: 4
 recent_mentions:
 - slug: 2026-09-02-vertical-power-delivery-thermal-limits

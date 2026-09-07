@@ -33,8 +33,8 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 3
-sources_30d: 8
+sources_7d: 2
+sources_30d: 6
 recent_mentions: []
 neighbors: []
 ---

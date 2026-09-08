@@ -40,7 +40,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 1
+sources_7d: 0
 sources_30d: 2
 recent_mentions:
 - slug: 2026-07-02-fusion-bionic-secures-8m-for-laser-texturing---opticsorg
@@ -59,6 +59,10 @@ recent_mentions:
   title: 'An AI Thesis: State of the Future! Part Deux'
   date: '2024-10-22'
   kind: substack
+- slug: 2024-09-16-bis-issues-interim-final-rule-to-align-export-controls-on-ad
+  title: BIS Issues Interim Final Rule to Align Export Controls on Advanced Technologies with Certain Allies and to Support Development of Advanced Technologies, Including Quantum Computing, Semiconductor Manufacturing and Additive Manufacturing - Global Sanctions and Export Controls Blog
+  date: '2024-09-16'
+  kind: web
 - slug: 2024-09-16-bis-imposes-new-export-controls-on-quantum-semiconductor-and
   title: BIS Imposes New Export Controls on Quantum, Semiconductor and Additive Manufacturing Technologies - JD Supra
   date: '2024-09-16'
@@ -70,10 +74,6 @@ recent_mentions:
 - slug: 2024-09-11-bis-imposes-new-export-controls-on-quantum-semiconductor-and
   title: BIS Imposes New Export Controls on Quantum, Semiconductor and Additive Manufacturing Technologies - globaltradeandsanctionslaw.com
   date: '2024-09-11'
-  kind: web
-- slug: 2022-05-09-elementum-funded-by-darpa-to-develop-am-process-for-rhenium-
-  title: Elementum funded by DARPA to develop AM process for rhenium - Metal Additive Manufacturing magazine
-  date: '2022-05-09'
   kind: web
 neighbors: []
 ---

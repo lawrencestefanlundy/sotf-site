@@ -29,7 +29,7 @@ frontier:
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 158
+mention_count: 159
 scorecard:
   viability: 3
   drivers: 3
@@ -39,7 +39,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 5
+sources_7d: 3
 sources_30d: 17
 recent_mentions:
 - slug: 2025-26-lapedus-next-gen-ferroelectric-memory

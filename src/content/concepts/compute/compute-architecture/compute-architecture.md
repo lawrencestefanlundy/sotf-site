@@ -118,6 +118,7 @@ descendants:
 - tvm
 - ucie
 - unary-computing
+- uncertainty-propagation-compute
 - von-neumann-bottleneck
 - wafer-scale
 - weight-reuse-factor

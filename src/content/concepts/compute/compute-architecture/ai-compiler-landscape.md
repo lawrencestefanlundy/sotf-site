@@ -63,7 +63,7 @@ neighbors:
   path: /compute/compute-architecture/triton/
   macro: compute
 ---
-> The competitive map for "the software layer that lets one workload run across genuinely different silicon." Built 22 Jun 2026 to ground the **Callosum** diligence question: when a founder says CUDA-like single-source languages structurally fail for heterogeneous hardware (SYCL as the cautionary tale) and "we have a new programming model," **who are they actually competing with?** The answer is not CUDA. It is this stack. Companion to [CUDA (the moat, and where it's eroding)](/ai-software/models-inference/cuda-moat/) (the incumbent moat) and [Compiler as Bottleneck for Novel Hardware](/compute/compute-architecture/compiler-as-bottleneck-for-novel-hardware/) (why novel silicon dies without a compiler).
+> The competitive map for "the software layer that lets one workload run across genuinely different silicon." Built 22 Jun 2026 to ground the **Callosum** diligence question: when a founder says CUDA-like single-source languages structurally fail for heterogeneous hardware (SYCL as the cautionary tale) and "we have a new programming model," **who are they actually competing with?** The answer is not CUDA. It is this stack. Companion to [Cuda Moat](/ai-software/models-inference/cuda-moat/) (the incumbent moat) and [Compiler as Bottleneck for Novel Hardware](/compute/compute-architecture/compiler-as-bottleneck-for-novel-hardware/) (why novel silicon dies without a compiler).
 
 ## The one framing that matters
 
@@ -107,7 +107,7 @@ Two hard datapoints bound any "new programming model for heterogeneous compute" 
 
 ## Connections
 
-- Incumbent moat being attacked: [CUDA (the moat, and where it's eroding)](/ai-software/models-inference/cuda-moat/)
+- Incumbent moat being attacked: [Cuda Moat](/ai-software/models-inference/cuda-moat/)
 - Why novel silicon needs this layer at all: [Compiler as Bottleneck for Novel Hardware](/compute/compute-architecture/compiler-as-bottleneck-for-novel-hardware/)
 - The live deal this map serves: **Callosum** · its competitive thread: 
 - The distinct/more-fundamental adjacent bet: **Ai Kernel Synthesis** (auto-generating the fast kernels — the layer that makes any of the above actually fast; complement to Callosum)

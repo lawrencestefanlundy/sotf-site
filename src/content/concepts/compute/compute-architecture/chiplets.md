@@ -26,6 +26,7 @@ sources:
 - '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
 - '[[2026-03-02-chiplets-architecture-share-rebellions-rebel-100-industry-s]]'
 - '[[2026-06-22-beyond-cmos-device-layer-research]]'
+- '[[2026-09-07-anysilicon-direct-rf-sampling-chiplets]]'
 - '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
 - '[[2026-03-05-chiplets-architecture-share-chiplet-summit-2026-ucie]]'
 - '[[2026-07-02-semianalysis-ectc2026-advanced-packaging]]'
@@ -36,6 +37,7 @@ sources:
 - '[[2026-04-15-semianalysis-isscc-2026]]'
 - '[[2024-tsmc-cowos-roadmap-disclosure]]'
 - '[[2026-03-31-semianalysis-nvidia-blackwell-dissection]]'
+- '[[2026-09-07-omni-design-series-a-35m-2025]]'
 scorecard:
   viability: 4
   drivers: 4
@@ -45,10 +47,18 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 112
+mention_count: 114
 sources_7d: 3
-sources_30d: 3
+sources_30d: 5
 recent_mentions:
+- slug: 2026-09-07-anysilicon-direct-rf-sampling-chiplets
+  title: An introduction to direct RF sampling in a world evolving towards chiplets, part 1 (AnySilicon)
+  date: '2026-09-07'
+  kind: web
+- slug: 2026-09-07-omni-design-series-a-35m-2025
+  title: Omni Design Technologies secures over $35M Series A (BusinessWire, 16 Sep 2025)
+  date: '2026-09-07'
+  kind: web
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
@@ -72,14 +82,6 @@ recent_mentions:
 - slug: 2026-04-17-state-of-the-future-friday-four-67c
   title: 'State of the Future: Friday Four'
   date: '2026-04-17'
-  kind: substack
-- slug: 2026-04-15-semianalysis-isscc-2026
-  title: 'ISSCC 2026: NVIDIA & Broadcom CPO, HBM4 & LPDDR6, TSMC Active LSI, Logic-Based SRAM, UCIe-S and More'
-  date: '2026-04-15'
-  kind: web
-- slug: 2026-04-14-the-photonic-foundry-fallacy
-  title: The Photonic Foundry Fallacy
-  date: '2026-04-14'
   kind: substack
 neighbors: []
 ---

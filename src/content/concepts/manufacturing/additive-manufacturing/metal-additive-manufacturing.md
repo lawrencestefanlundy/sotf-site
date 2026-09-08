@@ -21,7 +21,7 @@ frontier:
 - Can in-situ alloying and hybrid processing raise the fraction of reliably printable aluminium alloys, and by how much relative to the current "small percentage" baseline?
 - Do L-DED aluminium parts achieve the claimed stress corrosion cracking resistance advantage over steel counterparts in standardised testing?
 - What deposition rates, densities and mechanical properties were achieved in the DARPA-funded rhenium AM process, and did it progress beyond feasibility?
-sources_7d: 1
+sources_7d: 0
 sources_30d: 1
 recent_mentions:
 - slug: 2022-05-09-elementum-funded-by-darpa-to-develop-am-process-for-rhenium-

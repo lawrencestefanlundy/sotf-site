@@ -24,9 +24,9 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 34
-sources_7d: 0
-sources_30d: 1
+mention_count: 35
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
 - slug: 2026-06-17-nawah-vacnt-technology
   title: NAWAH Architectured Nanomaterials — VACNT technology & positioning

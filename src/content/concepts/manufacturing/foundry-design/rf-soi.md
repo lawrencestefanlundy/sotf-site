@@ -14,7 +14,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 1
+mention_count: 2
 frontier:
 - Does the full GlobalFoundries Investor Day 2026 deck name RF SOI as a distinct platform, and if so at which nodes and with what disclosed revenue or capacity share?
 - What Ron*Coff figure of merit, substrate resistivity and harmonic-linearity specifications does any supplier publish for current-generation RF SOI switch and low-noise-amplifier processes?

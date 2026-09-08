@@ -33,6 +33,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-04-building-clean-power-for-data-centers-in-a-gas-obsessed-mark
+  title: Building clean power for data centers in a gas-obsessed market - Latitude Media
+  date: '2026-09-04'
+  kind: web
 - slug: 2026-09-03-what-comes-after-the-data-center-backlash---latitude-media
   title: What comes after the data center backlash? - Latitude Media
   date: '2026-09-03'
@@ -57,13 +61,9 @@ recent_mentions:
   title: Making data centers flexible so they can serve the grid rather than stress it out
   date: '2026-08-26'
   kind: web
-- slug: 2026-08-19-ainews-memory-prices-up-500-in-12-months
-  title: '[AINews] Memory prices up 500% in 12 months'
-  date: '2026-08-19'
-  kind: web
-- slug: 2026-08-10-how-ais-demand-for-compute-could-disrupt-america
-  title: How AI's Demand for Compute could Disrupt America
-  date: '2026-08-10'
+- slug: 2026-08-20-can-ai-revolutionize-grid-operations---latitude-media
+  title: Can AI revolutionize grid operations? - Latitude Media
+  date: '2026-08-20'
   kind: web
 neighbors: []
 ---

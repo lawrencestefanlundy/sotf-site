@@ -23,6 +23,10 @@ mention_count: 82
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-04-building-clean-power-for-data-centers-in-a-gas-obsessed-mark
+  title: Building clean power for data centers in a gas-obsessed market - Latitude Media
+  date: '2026-09-04'
+  kind: web
 - slug: 2026-08-12-did-someone-just-figure-out-how-to-project-finance-nuclear--
   title: Did someone just figure out how to project finance nuclear? - Latitude Media
   date: '2026-08-12'
@@ -49,10 +53,6 @@ recent_mentions:
   kind: web
 - slug: 2026-07-17-the-data-center-backlash-isnt-just-nimbyism
   title: The data center backlash isn’t just NIMBYism
-  date: '2026-07-17'
-  kind: web
-- slug: 2026-07-17-the-off-grid-data-center-fantasy---latitude-media
-  title: The off-grid data center fantasy - Latitude Media
   date: '2026-07-17'
   kind: web
 neighbors: []

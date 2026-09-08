@@ -36,8 +36,8 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 113
-sources_7d: 8
+mention_count: 112
+sources_7d: 6
 sources_30d: 23
 recent_mentions:
 - slug: 2026-08-31-qcells-tandem-iec-ul-certification-tuv-rheinland

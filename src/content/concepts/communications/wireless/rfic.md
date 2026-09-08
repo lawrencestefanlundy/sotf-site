@@ -8,7 +8,7 @@ parent_concepts:
 - communications
 related_concepts: []
 sources: []
-mention_count: 7
+mention_count: 8
 sources_7d: 0
 sources_30d: 0
 recent_mentions: []

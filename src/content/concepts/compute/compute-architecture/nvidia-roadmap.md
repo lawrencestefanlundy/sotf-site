@@ -51,14 +51,14 @@ recent_mentions:
   title: SK Hynix record one-day fall as HBM4 goes three-supplier
   date: '2026-07-13'
   kind: web
-- slug: 2026-07-10-workload-phase-silicon-sweep
-  title: 'Workload-phase silicon sweep: pre-training / RL / prefill / decode procurement split'
-  date: '2026-07-10'
-  kind: web
 - slug: 2026-07-10-the-next-vc-meme-is
   title: The Next VC Meme Is...
   date: '2026-07-10'
   kind: substack
+- slug: 2026-07-10-workload-phase-silicon-sweep
+  title: 'Workload-phase silicon sweep: pre-training / RL / prefill / decode procurement split'
+  date: '2026-07-10'
+  kind: web
 - slug: 2026-07-05-semianalysis-kyber-nvl144-delayed-2028
   title: 'SemiAnalysis: NVIDIA Kyber NVL144 delayed >12 months to 2028; NVL72x2 cancelled'
   date: '2026-07-05'

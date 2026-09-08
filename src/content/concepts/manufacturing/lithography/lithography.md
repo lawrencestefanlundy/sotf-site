@@ -34,7 +34,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 206
+mention_count: 208
 descendants:
 - computational-lithography
 - directed-self-assembly
@@ -83,10 +83,10 @@ recent_mentions:
   title: Semi Doped — Daily Update, June 23rd 2026
   date: '2026-06-23'
   kind: web
-- slug: 2026-06-19-sovereignty-semi-bifurcation-us-tells-asml-it-has-evidence
-  title: US Tells ASML It Has Evidence EUV Lithography Tool Reached China
+- slug: 2026-06-19-the-housefab-always-wins
+  title: The House/Fab Always Wins
   date: '2026-06-19'
-  kind: web
+  kind: substack
 neighbors: []
 ---
 **Lithography is the set of techniques that define patterns on a substrate, and across the supplied evidence it is the step that sets cost per bit, device uniformity and yield for memory, CMOS qubit arrays, photonics and 3D micro-optics alike.**

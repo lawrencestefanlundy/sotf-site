@@ -37,6 +37,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-04-cipr---the-european-chips-act-enters-into-force---european-c
+  title: CIPR - The European Chips Act enters into force - European Commission
+  date: '2026-09-04'
+  kind: web
 - slug: 2026-09-02-chips-act-20-part-3-can-europe-compete---eenews-europe
   title: 'Chips Act 2.0, Part 3: Can Europe compete? ... - eeNews Europe'
   date: '2026-09-02'
@@ -64,10 +68,6 @@ recent_mentions:
 - slug: 2026-08-11-stanton-marks-four-years-of-chips-act-with-facility-visits-h
   title: Stanton Marks Four Years of CHIPS Act with Facility Visits, Highlights Impact Across Arizona - Congressman Greg Stanton (.gov)
   date: '2026-08-11'
-  kind: web
-- slug: 2026-08-10-chips-act-funding-opportunities-what-companies-in-the-semico
-  title: 'CHIPS Act Funding Opportunities: What Companies in the Semiconductor Ecosystem Need to Know - Mayer Brown'
-  date: '2026-08-10'
   kind: web
 neighbors: []
 ---

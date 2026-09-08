@@ -33,6 +33,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-07-the-frontier-aeo-tracker-what-astra-chooses-and-every-other-
+  title: 'The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)'
+  date: '2026-09-07'
+  kind: web
 - slug: 2026-09-03-the-pulse-tech-companies-move-to-open-ai-models
   title: 'The Pulse: tech companies move to open AI models'
   date: '2026-09-03'
@@ -53,17 +57,13 @@ recent_mentions:
   title: Why Ramp built its own in-house coding agent, Inspect
   date: '2026-08-25'
   kind: web
+- slug: 2026-08-20-can-ai-revolutionize-grid-operations---latitude-media
+  title: Can AI revolutionize grid operations? - Latitude Media
+  date: '2026-08-20'
+  kind: web
 - slug: 2026-08-11-the-bioai-phase-shift---matthew-mcpartlon-neil-patil-chai-di
   title: 🔬The BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery
   date: '2026-08-11'
-  kind: web
-- slug: 2026-07-30-ai-robotics-enters-escalating-us-protectionism-phase
-  title: AI & Robotics enters Escalating U.S. Protectionism Phase
-  date: '2026-07-30'
-  kind: web
-- slug: 2026-07-23-datacenter-capex-is-spilling-over-into-a-chatgpt-of-robotics
-  title: Datacenter Capex is Spilling over into a ChatGPT of Robotics Moment set for 2027 and this decade.
-  date: '2026-07-23'
   kind: web
 neighbors: []
 ---

@@ -25,8 +25,8 @@ tags:
 - concept
 descendants:
 - neural-operators
-mention_count: 10
-sources_7d: 2
+mention_count: 11
+sources_7d: 1
 sources_30d: 2
 recent_mentions:
 - slug: 2026-09-01-physics-ai-incumbent-consolidation-and-horizontal-repricing

@@ -42,6 +42,7 @@ sources:
 - '[[2026-01-14-humanoid-actuator-supply-chain-after-ces-spotlight-korean]]'
 - '[[2026-07-26-humanoid-duty-cycle-thermal-constraint]]'
 - '[[2024-goldman-humanoid-robot-tam-38bn]]'
+- '[[2026-09-07-sag-counterpoint-humanoid-shipments-h1-2026]]'
 - '[[2025-12-18-humanoid-actuator-supply-chain-linkerbot-10-000-dexterous]]'
 - '[[2026-07-18-robotics-labour-augmentation-figure-ai-and-agility-robotics]]'
 - '[[2026-06-14-robot-autonomy-destination-humanoid-robot-price-2026-best]]'
@@ -66,10 +67,14 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Overrated
 scorecard_status: draft
-mention_count: 80
+mention_count: 83
 sources_7d: 1
-sources_30d: 2
+sources_30d: 4
 recent_mentions:
+- slug: 2026-09-07-sag-counterpoint-humanoid-shipments-h1-2026
+  title: 'Global humanoid robot shipments 1H 2026: 19.1k units, +272% YoY (Smart Analytics Global; Counterpoint)'
+  date: '2026-09-07'
+  kind: web
 - slug: 2026-09-01-chinas-ai-rally-is-real-most-global-investors-are-missing-it
   title: China’s AI Rally Is Real. Most Global Investors Are Missing It.
   date: '2026-09-01'
@@ -96,10 +101,6 @@ recent_mentions:
   kind: web
 - slug: 2026-07-18-robotics-labour-augmentation-figure-ai-and-agility-robotics
   title: Figure AI and Agility Robotics Complete Multi-Month Manufacturing Deployments
-  date: '2026-07-18'
-  kind: web
-- slug: 2026-07-18-robotics-labour-augmentation-humanoid-robots-in-2026-what
-  title: 'Humanoid Robots in 2026: What Is Actually Deployed'
   date: '2026-07-18'
   kind: web
 neighbors:

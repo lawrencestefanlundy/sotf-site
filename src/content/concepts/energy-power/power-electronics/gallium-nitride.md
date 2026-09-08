@@ -40,7 +40,7 @@ tags:
 descendants:
 - aluminium-gallium-nitride
 - indium-gallium-nitride
-mention_count: 34
+mention_count: 35
 scorecard:
   viability: 4
   drivers: null

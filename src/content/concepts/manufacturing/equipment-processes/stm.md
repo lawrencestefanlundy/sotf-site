@@ -25,7 +25,7 @@ tags:
 public_expressions:
 - IBM
 - STM
-mention_count: 40
+mention_count: 39
 scorecard:
   viability: 4
   drivers: 3

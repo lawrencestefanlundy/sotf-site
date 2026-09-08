@@ -52,6 +52,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-04-cipr---the-european-chips-act-enters-into-force---european-c
+  title: CIPR - The European Chips Act enters into force - European Commission
+  date: '2026-09-04'
+  kind: web
 - slug: 2026-09-02-chips-act-20-part-3-can-europe-compete---eenews-europe
   title: 'Chips Act 2.0, Part 3: Can Europe compete? ... - eeNews Europe'
   date: '2026-09-02'
@@ -78,10 +82,6 @@ recent_mentions:
   kind: web
 - slug: 2026-08-27-gao-warns-chips-rd-stall-could-cost-us-chip-leadership---iee
   title: GAO Warns CHIPS R&D Stall Could Cost U.S. Chip Leadership - IEEE Spectrum
-  date: '2026-08-27'
-  kind: web
-- slug: 2026-08-27-when-chips-run-short-the-crisis-regime-of-the-chips-act-20--
-  title: 'When Chips Run Short: The Crisis Regime of the Chips Act 2.0 - Freshfields'
   date: '2026-08-27'
   kind: web
 neighbors:

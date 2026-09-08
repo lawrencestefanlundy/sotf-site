@@ -25,6 +25,7 @@ descendants:
 - near-field-rf-coupling
 - physics-native-compute
 - time-domain-computing
+- uncertainty-propagation-compute
 - von-neumann-bottleneck
 last_reorg_date: '2026-05-14'
 sources_7d: 0

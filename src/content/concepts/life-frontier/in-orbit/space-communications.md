@@ -19,6 +19,7 @@ sources:
 - '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
 - '[[2026-05-13-20-years-of-space-communications-and-navigation]]'
 - '[[2026-06-05-nasa-concludes-antenna-mishap-investigation-releases-report]]'
+- '[[2026-09-07-teledyne-e2v-data-converters-defence]]'
 frontier:
 - What is the actual quantified gain of NOMA over orthogonal access in a direct-to-cell link budget, including receiver complexity and imperfect successive interference cancellation, rather than a case-study comparison?
 - Do the learned random access gains under 3GPP-compliant LEO simulation survive real Doppler, real preamble collisions and on-board inference constraints in orbit?
@@ -31,7 +32,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - category
-mention_count: 28
+mention_count: 31
 descendants: []
 last_reorg_date: '2026-05-14'
 scorecard:
@@ -43,9 +44,13 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 2
-sources_30d: 4
+sources_7d: 1
+sources_30d: 6
 recent_mentions:
+- slug: 2026-09-07-teledyne-e2v-data-converters-defence
+  title: High Speed Data Converters for RF & Space; defense applications (Teledyne e2v Semiconductors)
+  date: '2026-09-07'
+  kind: web
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'

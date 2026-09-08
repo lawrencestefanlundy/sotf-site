@@ -15,7 +15,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 213
+mention_count: 215
 frontier:
 - At what point does each of these workloads migrate to ASIC? eMamba reports its 10x/48.6x gains across FPGAs and ASICs jointly 2025 08 emamba edge acceleration, but gives no crossover volume or NRE analysis that would let one date the transition.
 - Do 2.5D and 3D die-stacked FPGAs actually relieve the capacity ceiling that forced multi-FPGA partitioning in EMiX, and at what inter-die latency penalty 2026 06 15 modeling optimizing and exploring multi die fpga routing arc?
@@ -35,9 +35,13 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 4
-sources_30d: 8
+sources_7d: 2
+sources_30d: 9
 recent_mentions:
+- slug: 2026-09-07-amd-versal-rf-hot-chips-2026
+  title: AMD Versal RF Series at Hot Chips 2026 (ServeTheHome)
+  date: '2026-09-07'
+  kind: web
 - slug: 2026-07-31-etched-research-sprint
   title: Etched research sprint — tape-out speed, HBM supply, customer orders (4-lane web sweep)
   date: '2026-07-31'
@@ -65,10 +69,6 @@ recent_mentions:
 - slug: 2026-06-02-agentic-runtime-silicon-necessity
   title: Deep-research dossier — does the stateful agent runtime / control-plane layer need a novel silicon primitive?
   date: '2026-06-02'
-  kind: web
-- slug: 2026-05-27-atlas-data-room
-  title: Atlas Processing data room (27 May 2026)
-  date: '2026-05-27'
   kind: web
 neighbors: []
 ---

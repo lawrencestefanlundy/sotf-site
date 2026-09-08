@@ -21,7 +21,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 208
-sources_7d: 12
+sources_7d: 10
 sources_30d: 21
 recent_mentions:
 - slug: 2024-12-16-willow-and-the-race-to-quantum-advantage

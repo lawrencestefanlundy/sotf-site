@@ -28,7 +28,7 @@ frontier:
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 42
+mention_count: 43
 scorecard:
   viability: 4
   drivers: 4
@@ -38,7 +38,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Underrated
 scorecard_status: draft
-sources_7d: 2
+sources_7d: 0
 sources_30d: 7
 recent_mentions:
 - slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape

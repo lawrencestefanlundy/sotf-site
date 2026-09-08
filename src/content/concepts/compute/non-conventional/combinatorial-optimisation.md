@@ -38,7 +38,9 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Overrated
 scorecard_status: draft
-sources_7d: 3
+descendants:
+- uncertainty-propagation-compute
+sources_7d: 2
 sources_30d: 7
 recent_mentions:
 - slug: 2025-04-30-has-the-time-come-to-take-mortal

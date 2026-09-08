@@ -22,6 +22,7 @@ sources:
 - '[[2026-06-17-femtoai-company-profile]]'
 - '[[2025-05-13-low-power-edge-compute-edge-ai-accelerator-market-research]]'
 - '[[2026-06-18-sensifai-hybrids-deck]]'
+- '[[2026-09-07-mordor-data-converter-market]]'
 - '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
 - '[[2024-02-26-micron-hbm3e-volume-production]]'
 - '[[2024-yole-advanced-packaging-2024]]'
@@ -39,13 +40,17 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 86
+mention_count: 87
 descendants:
 - hearing-aid-silicon-beachhead
 - nvidia-jetson
-sources_7d: 1
-sources_30d: 4
+sources_7d: 2
+sources_30d: 5
 recent_mentions:
+- slug: 2026-09-07-mordor-data-converter-market
+  title: 'Data Converter Market: size, share & industry analysis (Mordor Intelligence)'
+  date: '2026-09-07'
+  kind: web
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
@@ -73,10 +78,6 @@ recent_mentions:
 - slug: 2026-06-17-femtoai-spu-ces2026
   title: femtoAI to Highlight its Sparse Processing Unit Edge AI Accelerator at CES 2026
   date: '2026-06-17'
-  kind: web
-- slug: 2026-06-15-gf-investor-day-2026
-  title: GlobalFoundries Investor Day 2026 (presentation)
-  date: '2026-06-15'
   kind: web
 neighbors: []
 ---

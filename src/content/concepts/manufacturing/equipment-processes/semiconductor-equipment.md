@@ -33,6 +33,10 @@ descendants:
 sources_7d: 0
 sources_30d: 1
 recent_mentions:
+- slug: 2026-09-04-cipr---the-european-chips-act-enters-into-force---european-c
+  title: CIPR - The European Chips Act enters into force - European Commission
+  date: '2026-09-04'
+  kind: web
 - slug: 2026-09-03-what-comes-after-the-data-center-backlash---latitude-media
   title: What comes after the data center backlash? - Latitude Media
   date: '2026-09-03'
@@ -60,10 +64,6 @@ recent_mentions:
 - slug: 2026-08-18-chips-act-funds-40-fab-projects-faces-2026-deadline---legis1
   title: CHIPS Act Funds 40 Fab Projects, Faces 2026 Deadline - Legis1
   date: '2026-08-18'
-  kind: web
-- slug: 2026-08-13-how-the-chips-act-changed-binghamton-and-upstate-new-york---
-  title: How the CHIPS Act changed Binghamton and Upstate New York - Press & Sun-Bulletin
-  date: '2026-08-13'
   kind: web
 neighbors: []
 ---

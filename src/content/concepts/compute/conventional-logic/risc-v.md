@@ -36,7 +36,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 101
-sources_7d: 2
+sources_7d: 1
 sources_30d: 8
 recent_mentions:
 - slug: 2026-07-17-the-once-and-future-kimi

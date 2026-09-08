@@ -35,7 +35,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 6
+sources_7d: 4
 sources_30d: 12
 recent_mentions:
 - slug: 2026-06-12-hku-sic-cryogenic-neuromorphic-chip-10mk

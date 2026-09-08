@@ -32,6 +32,7 @@ sources:
 - '[[2026-04-20-physical-ai-deploys-this-decade-bessemer-predicts-robotics]]'
 - '[[2026-07-01-sensifai-memo-streaming-physical-ai]]'
 - '[[2026-06-15-gf-investor-day-2026]]'
+- '[[2026-09-07-microchip-acquires-hailo-jul-2026]]'
 - '[[2026-06-13-sovereign-electronics-manufacturing-reshoring-digest]]'
 - '[[2026-04-27-physical-ai-that-moves-the-world-qasar-younis-peter-ludwig-a]]'
 scorecard:
@@ -43,7 +44,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 85
+mention_count: 87
 descendants:
 - dexterous-manipulation
 - humanoid-robots
@@ -53,9 +54,13 @@ descendants:
 - tactile-sensing
 - vision-language-action-models
 - world-models
-sources_7d: 5
-sources_30d: 8
+sources_7d: 3
+sources_30d: 9
 recent_mentions:
+- slug: 2026-09-07-microchip-acquires-hailo-jul-2026
+  title: Microchip Technology signs definitive agreement to acquire Hailo (Microchip IR, 24 Jul 2026; CTech; Globes)
+  date: '2026-09-07'
+  kind: web
 - slug: 2026-09-01-chinas-ai-rally-is-real-most-global-investors-are-missing-it
   title: China’s AI Rally Is Real. Most Global Investors Are Missing It.
   date: '2026-09-01'
@@ -83,10 +88,6 @@ recent_mentions:
 - slug: 2026-06-15-gf-investor-day-2026
   title: GlobalFoundries Investor Day 2026 (presentation)
   date: '2026-06-15'
-  kind: web
-- slug: 2026-robot-data-supply-funding-wave
-  title: 'Robot data-supply & sensor layer funding wave (2025-26): PitchBook, Encord, PaXini, DAIMON'
-  date: '2026-06-13'
   kind: web
 neighbors:
 - slug: humanoid-robots

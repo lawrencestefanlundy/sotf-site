@@ -73,7 +73,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-sources_7d: 4
+sources_7d: 2
 sources_30d: 11
 recent_mentions:
 - slug: 2026-08-31-qcells-tandem-iec-ul-certification-tuv-rheinland
@@ -104,10 +104,10 @@ recent_mentions:
   title: 'ISSCC 2026: NVIDIA & Broadcom CPO, HBM4 & LPDDR6, TSMC Active LSI, Logic-Based SRAM, UCIe-S and More'
   date: '2026-04-15'
   kind: web
-- slug: 2026-04-14-sovereign-electronics-manufacturing-edip-opens-the-door-eu
-  title: 'EDIP Opens the Door: EU Funding Now Available for Defence Electronics Including PCBs and Substrates'
+- slug: 2026-04-14-the-photonic-foundry-fallacy
+  title: The Photonic Foundry Fallacy
   date: '2026-04-14'
-  kind: web
+  kind: substack
 neighbors: []
 ---
 **The substrate is the wafer or support film underneath a device layer, and recent work shows it is an active design variable, with measured cases where changing substrate material, miscut angle or interfacial template alters crystal quality, vertical resistance, cryogenic heat flow and mechanical distortion by factors of several to tens.**

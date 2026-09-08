@@ -69,37 +69,37 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 2
 recent_mentions:
-- slug: 2026-09-01-nvidia-earnings-dollars-per-gigawatt-open-and-hugging-face
-  title: Nvidia Earnings, Dollars Per Gigawatt, Open and Hugging Face
-  date: '2026-09-01'
+- slug: 2026-09-07-interact-analysis-industrial-robot-shipments-2030
+  title: Annual industrial robot shipments will reach more than 760k units in 2030 (Interact Analysis)
+  date: '2026-09-07'
   kind: web
-- slug: 2026-09-01-chinas-ai-rally-is-real-most-global-investors-are-missing-it
-  title: China’s AI Rally Is Real. Most Global Investors Are Missing It.
-  date: '2026-09-01'
+- slug: 2026-09-07-qualcomm-dragonwing-robotics-ces-2026
+  title: 'CES 2026: Qualcomm targets NVIDIA Jetson with new robotics developer platform (A3 / automate.org)'
+  date: '2026-09-07'
   kind: web
-- slug: 2026-08-29-us-commerce-department-moves-to-block-china-ai-firms-from-re
-  title: U.S. Commerce Department moves to block China AI firms from remote access to advanced chips - 디지털투데이
-  date: '2026-08-29'
+- slug: 2026-09-07-ifr-world-robotics-2025-service-robots
+  title: World Robotics 2025 report, service robots (IFR, 7 Oct 2025)
+  date: '2026-09-07'
   kind: web
-- slug: 2026-08-27-ainews-hot-chips-openais-jalapeno-cerebras-cs-5-groq-3-lpx-a
-  title: '[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6'
-  date: '2026-08-27'
+- slug: 2026-09-07-auterion-skynode-33k-strike-kits-ukraine
+  title: Auterion secures contract to deliver 33,000 Skynode drone strike kits to Ukraine (Auterion; DroneLife, 29 Jul 2025)
+  date: '2026-09-07'
   kind: web
-- slug: 2026-08-26-from-gitex-global-to-ces-how-eic-accelerator-company-multive
-  title: 'From GITEX Global to CES: How EIC Accelerator company Multiverse Computing secured a strategic alliance with Axelera AI - European Innovation Council'
-  date: '2026-08-26'
+- slug: 2026-09-07-nvidia-jetson-thor-on-sale-aug-2025
+  title: Nvidia's 'robot brain' chip Thor goes on sale (CNBC, 25 Aug 2025; NVIDIA newsroom)
+  date: '2026-09-07'
   kind: web
-- slug: 2026-08-19-ainews-memory-prices-up-500-in-12-months
-  title: '[AINews] Memory prices up 500% in 12 months'
-  date: '2026-08-19'
+- slug: 2026-09-07-sag-counterpoint-humanoid-shipments-h1-2026
+  title: 'Global humanoid robot shipments 1H 2026: 19.1k units, +272% YoY (Smart Analytics Global; Counterpoint)'
+  date: '2026-09-07'
   kind: web
-- slug: 2026-08-12-snapdragon-ar1-sensing-hub-micro-npu
-  title: Snapdragon AR1 Gen 1 Platform Product Brief — Sensing Hub with Micro NPU for audio and sensors
-  date: '2026-08-12'
+- slug: 2026-09-07-the-frontier-aeo-tracker-what-astra-chooses-and-every-other-
+  title: 'The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)'
+  date: '2026-09-07'
   kind: web
-- slug: 2026-08-10-how-ais-demand-for-compute-could-disrupt-america
-  title: How AI's Demand for Compute could Disrupt America
-  date: '2026-08-10'
+- slug: 2026-09-07-microchip-acquires-hailo-jul-2026
+  title: Microchip Technology signs definitive agreement to acquire Hailo (Microchip IR, 24 Jul 2026; CTech; Globes)
+  date: '2026-09-07'
   kind: web
 neighbors: []
 ---

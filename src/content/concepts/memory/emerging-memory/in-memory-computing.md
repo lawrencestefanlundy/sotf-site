@@ -43,7 +43,7 @@ descendants:
 - digital-in-memory-compute
 - processing-in-memory
 - sram-cim
-sources_7d: 6
+sources_7d: 5
 sources_30d: 9
 recent_mentions:
 - slug: 2026-08-12-snapdragon-ar1-sensing-hub-micro-npu

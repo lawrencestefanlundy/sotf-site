@@ -37,7 +37,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 137
-sources_7d: 6
+sources_7d: 1
 sources_30d: 14
 recent_mentions:
 - slug: 2026-07-21-robotically-assembled-electromagnetic-metamaterials-for-long

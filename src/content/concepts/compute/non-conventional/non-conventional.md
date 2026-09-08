@@ -43,6 +43,7 @@ descendants:
 - thermodynamic-computing
 - time-domain-computing
 - unary-computing
+- uncertainty-propagation-compute
 - von-neumann-bottleneck
 sources_7d: 0
 sources_30d: 0

@@ -30,7 +30,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - category
-mention_count: 51
+mention_count: 52
 descendants: []
 last_reorg_date: '2026-05-14'
 scorecard:
@@ -42,7 +42,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 2
+sources_7d: 1
 sources_30d: 12
 recent_mentions:
 - slug: 2026-05-06-putting-the-super-into-a-supersite-for-earth-observation

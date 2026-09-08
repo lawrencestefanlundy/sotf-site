@@ -20,7 +20,7 @@ descendants:
 - magneto-optical
 sources: []
 mention_count: 76
-sources_7d: 6
+sources_7d: 2
 sources_30d: 13
 recent_mentions: []
 neighbors:

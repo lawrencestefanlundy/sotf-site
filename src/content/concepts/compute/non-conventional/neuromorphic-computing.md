@@ -41,41 +41,41 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Overrated
 scorecard_status: draft
-sources_7d: 2
+sources_7d: 1
 sources_30d: 7
 recent_mentions:
-- slug: 2026-07-31-inference-silicon-roster-sprint
-  title: 'Inference-silicon roster verification sprint: 10 companies for the competitive-analysis capital map'
-  date: '2026-07-31'
+- slug: 2026-09-07-interact-analysis-industrial-robot-shipments-2030
+  title: Annual industrial robot shipments will reach more than 760k units in 2030 (Interact Analysis)
+  date: '2026-09-07'
   kind: web
-- slug: 2026-06-17-femtoai-spu-ces2026
-  title: femtoAI to Highlight its Sparse Processing Unit Edge AI Accelerator at CES 2026
-  date: '2026-06-17'
+- slug: 2026-09-07-qualcomm-dragonwing-robotics-ces-2026
+  title: 'CES 2026: Qualcomm targets NVIDIA Jetson with new robotics developer platform (A3 / automate.org)'
+  date: '2026-09-07'
   kind: web
-- slug: 2026-04-01-low-power-edge-compute-neuromorphic-computing-chip-patents
-  title: Neuromorphic Computing Chip Patents Surge 401% in 2025
-  date: '2026-04-01'
+- slug: 2026-09-07-ifr-world-robotics-2025-service-robots
+  title: World Robotics 2025 report, service robots (IFR, 7 Oct 2025)
+  date: '2026-09-07'
   kind: web
-- slug: 2026-01-22-ai-chips-computeram-and-the-future
-  title: 'AI Chips, ComputeRAM and the Future of Data Movement: A Conversation with Manu, Founder of Synthara'
-  date: '2026-01-22'
-  kind: substack
-- slug: 2025-09-23-the-compute-gradient
-  title: The Compute Gradient
-  date: '2025-09-23'
-  kind: substack
-- slug: 2023-07-23-analog-computing-the-once-and-future
-  title: '🔮 E09: Analog Computing: The Once and Future King'
-  date: '2023-07-23'
-  kind: substack
-- slug: 2023-06-30-e06-the-model-t-moment-for-bits-llms
-  title: '🔮 E06: Large Language Models and the Assembly Line'
-  date: '2023-06-30'
-  kind: substack
-- slug: 2023-06-23-e05-the-future-of-edge-ai-brain-inspired
-  title: '🔮 E05: Neuromorphic Computing & The Future of Edge AI'
-  date: '2023-06-23'
-  kind: substack
+- slug: 2026-09-07-auterion-skynode-33k-strike-kits-ukraine
+  title: Auterion secures contract to deliver 33,000 Skynode drone strike kits to Ukraine (Auterion; DroneLife, 29 Jul 2025)
+  date: '2026-09-07'
+  kind: web
+- slug: 2026-09-07-nvidia-jetson-thor-on-sale-aug-2025
+  title: Nvidia's 'robot brain' chip Thor goes on sale (CNBC, 25 Aug 2025; NVIDIA newsroom)
+  date: '2026-09-07'
+  kind: web
+- slug: 2026-09-07-sag-counterpoint-humanoid-shipments-h1-2026
+  title: 'Global humanoid robot shipments 1H 2026: 19.1k units, +272% YoY (Smart Analytics Global; Counterpoint)'
+  date: '2026-09-07'
+  kind: web
+- slug: 2026-09-07-microchip-acquires-hailo-jul-2026
+  title: Microchip Technology signs definitive agreement to acquire Hailo (Microchip IR, 24 Jul 2026; CTech; Globes)
+  date: '2026-09-07'
+  kind: web
+- slug: 2026-09-07-rnbo-ukraine-fpv-drones-2025
+  title: 'Results of Ukraine''s defense industry in 2025: FPV drones (NSDC of Ukraine; OSW; Kyiv Independent)'
+  date: '2026-09-07'
+  kind: web
 neighbors: []
 ---
 **Neuromorphic computing builds hardware that computes the way brains are thought to: with spiking, event-driven, analog dynamics and weights stored where the arithmetic happens, and the demonstrated systems today range from a measured 100 W wafer-scale digital spiking machine to hundreds of small emerging-device arrays whose headline efficiency figures are extrapolations rather than measurements.**

@@ -66,7 +66,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Overrated
 scorecard_status: draft
-sources_7d: 3
+sources_7d: 2
 sources_30d: 8
 recent_mentions:
 - slug: 2026-09-02-vertical-power-delivery-thermal-limits

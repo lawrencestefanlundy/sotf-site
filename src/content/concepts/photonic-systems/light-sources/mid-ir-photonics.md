@@ -31,8 +31,8 @@ scorecard:
   verdict: Underrated
 scorecard_status: draft
 mention_count: 125
-sources_7d: 3
-sources_30d: 10
+sources_7d: 0
+sources_30d: 9
 recent_mentions:
 - slug: 2026-06-17-single-photon-detector-market-spad-snspd
   title: Single-photon detector market aggregation — SPAD, SiPM, SNSPD (2024–2035)

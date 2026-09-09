@@ -44,7 +44,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 87
+mention_count: 88
 descendants:
 - dexterous-manipulation
 - humanoid-robots
@@ -54,7 +54,7 @@ descendants:
 - tactile-sensing
 - vision-language-action-models
 - world-models
-sources_7d: 3
+sources_7d: 2
 sources_30d: 9
 recent_mentions:
 - slug: 2026-09-07-microchip-acquires-hailo-jul-2026

@@ -26,8 +26,8 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 119
-sources_7d: 1
-sources_30d: 11
+sources_7d: 0
+sources_30d: 8
 recent_mentions:
 - slug: 2026-05-01-state-of-the-future-friday-four-7b7
   title: 'State of the Future: Friday Four'

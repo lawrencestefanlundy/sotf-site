@@ -28,6 +28,10 @@ sources:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-08-nasa-calls-for-proposals-to-accelerate-lunar-surface-technol
+  title: NASA Calls for Proposals to Accelerate Lunar Surface Technologies
+  date: '2026-09-08'
+  kind: web
 - slug: 2026-09-02-clusters-encore-for-reentry-science-a-success
   title: Cluster’s encore for reentry science a success
   date: '2026-09-02'
@@ -55,10 +59,6 @@ recent_mentions:
 - slug: 2026-07-21-a-new-compact-instrument-enables-high-fidelity-measurements-
   title: A New Compact Instrument Enables High-Fidelity Measurements of Energetic Particles on CubeSats
   date: '2026-07-21'
-  kind: web
-- slug: 2026-07-16-robotics-labour-augmentation-the-us-58-9-billion-humanoid
-  title: The US$58.9 Billion Humanoid Robot Opportunity Starts With Actuators, Sensors, And Batteries
-  date: '2026-07-16'
   kind: web
 neighbors: []
 ---

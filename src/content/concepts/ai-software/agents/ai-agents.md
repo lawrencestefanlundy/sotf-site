@@ -43,7 +43,7 @@ descendants:
 - stablecoin-clearing
 - stablecoins
 - x402
-sources_7d: 6
+sources_7d: 4
 sources_30d: 18
 recent_mentions:
 - slug: 2026-08-24-embedd-pre-seed-siliconangle

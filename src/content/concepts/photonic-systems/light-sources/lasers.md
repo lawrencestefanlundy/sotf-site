@@ -29,7 +29,7 @@ mention_count: 231
 descendants:
 - external-laser-source
 - laser-display-light-engines
-sources_7d: 1
+sources_7d: 0
 sources_30d: 3
 recent_mentions:
 - slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil

@@ -55,7 +55,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 103
+mention_count: 104
 last_reorg_date: '2026-05-14'
 scorecard:
   viability: 4
@@ -66,8 +66,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 2
+sources_7d: 1
+sources_30d: 3
 recent_mentions:
 - slug: 2026-09-07-interact-analysis-industrial-robot-shipments-2030
   title: Annual industrial robot shipments will reach more than 760k units in 2030 (Interact Analysis)

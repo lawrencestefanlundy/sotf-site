@@ -45,9 +45,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 105
+mention_count: 106
 sources_7d: 3
-sources_30d: 8
+sources_30d: 7
 recent_mentions:
 - slug: 2026-08-14-chip-tail-verification-sweep
   title: 'Chip-comparison tail verification sweep: 37 companies re-verified, consolidation wave confirmed'

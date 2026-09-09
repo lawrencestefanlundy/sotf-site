@@ -33,8 +33,8 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 9
-sources_30d: 19
+sources_7d: 8
+sources_30d: 14
 recent_mentions:
 - slug: 2026-05-24-mose2-exciton-polariton-all-optical-switch
   title: New light-based switch could cut chip energy use and speed future AI photonics

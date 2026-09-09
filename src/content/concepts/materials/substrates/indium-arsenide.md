@@ -25,8 +25,8 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 27
-sources_7d: 2
-sources_30d: 6
+sources_7d: 0
+sources_30d: 4
 recent_mentions: []
 neighbors:
 - slug: indium-antimonide

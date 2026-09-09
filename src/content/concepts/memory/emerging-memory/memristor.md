@@ -34,7 +34,7 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 2
+sources_7d: 1
 sources_30d: 4
 recent_mentions:
 - slug: 2023-06-23-e05-the-future-of-edge-ai-brain-inspired

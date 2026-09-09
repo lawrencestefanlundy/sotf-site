@@ -38,8 +38,8 @@ frontier:
 - How do the reported 146% and 52% wirelength gains over TAP 2.5D and TACPlace compare against a commercial production placer rather than academic baselines?
 - Does the approximately 10x runtime advantage hold beyond 'dozens of chiplets', and where does the analytical formulation break down as element count grows?
 - Can 420 nm 3-sigma micro-transfer-printing placement accuracy and greater than 95% yield be held across high-volume production lots, and what is the accuracy budget for the resulting photonic device performance?
-sources_7d: 5
-sources_30d: 17
+sources_7d: 2
+sources_30d: 14
 recent_mentions:
 - slug: 2026-08-20-callosum-100m-seed-announcement
   title: Callosum announces $100M seed led by Atomico (round coverage + Companies House filings)

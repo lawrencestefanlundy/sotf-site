@@ -21,7 +21,7 @@ descendants:
 sources: []
 mention_count: 76
 sources_7d: 2
-sources_30d: 13
+sources_30d: 11
 recent_mentions: []
 neighbors:
 - slug: mram

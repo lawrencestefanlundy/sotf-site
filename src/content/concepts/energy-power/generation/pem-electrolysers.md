@@ -17,7 +17,7 @@ tags:
 - technology
 mention_count: 7
 last_reorg_date: '2026-05-14'
-sources_7d: 2
+sources_7d: 1
 sources_30d: 3
 recent_mentions:
 - slug: 2023-09-24-e16-in-conversation-with-john-waite

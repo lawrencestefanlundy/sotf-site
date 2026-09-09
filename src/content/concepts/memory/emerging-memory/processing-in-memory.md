@@ -46,7 +46,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 6
+sources_30d: 5
 recent_mentions:
 - slug: 2026-07-10-the-next-vc-meme-is
   title: The Next VC Meme Is...

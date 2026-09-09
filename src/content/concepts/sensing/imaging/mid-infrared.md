@@ -27,7 +27,7 @@ mention_count: 120
 parent_concepts:
 - imaging
 - sensing
-sources_7d: 3
+sources_7d: 0
 sources_30d: 9
 recent_mentions:
 - slug: 2026-06-17-single-photon-detector-market-spad-snspd

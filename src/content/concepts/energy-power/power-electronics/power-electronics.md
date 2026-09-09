@@ -46,8 +46,8 @@ descendants:
 - solid-state-circuit-breakers
 - vertical-gan
 - wireless-power-transfer
-sources_7d: 1
-sources_30d: 4
+sources_7d: 0
+sources_30d: 2
 recent_mentions:
 - slug: 2026-09-02-vertical-power-delivery-thermal-limits
   title: 'Vertical power delivery: the thermal limit at the 48V-to-point-of-load stage'

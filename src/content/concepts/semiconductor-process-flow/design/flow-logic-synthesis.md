@@ -19,7 +19,7 @@ sources:
 mention_count: 18
 parent_concepts:
 - flow-rtl-design
-sources_7d: 2
+sources_7d: 1
 sources_30d: 4
 recent_mentions:
 - slug: 2026-05-12-semianalysis-eda-rtl-to-silicon

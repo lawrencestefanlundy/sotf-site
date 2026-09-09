@@ -34,7 +34,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 1
-sources_30d: 5
+sources_30d: 4
 recent_mentions:
 - slug: 2025-10-09-a-specific-theory-of-sovereign-ai
   title: A Specific Theory of Sovereign AI

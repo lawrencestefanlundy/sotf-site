@@ -20,8 +20,8 @@ scorecard:
   verdict: Underrated
 scorecard_status: draft
 mention_count: 60
-sources_7d: 2
-sources_30d: 8
+sources_7d: 0
+sources_30d: 7
 recent_mentions:
 - slug: 2023-08-25-e12-nanomechanical-computing-gears
   title: '🔮E12: Nanomechanical Computing- Gears of Space War? Old Ideas at New Scales'

@@ -45,7 +45,7 @@ scorecard:
 scorecard_status: draft
 mention_count: 40
 sources_7d: 0
-sources_30d: 3
+sources_30d: 2
 recent_mentions:
 - slug: 2026-07-13-sk-hynix-record-fall-hbm4-three-supplier
   title: SK Hynix record one-day fall as HBM4 goes three-supplier

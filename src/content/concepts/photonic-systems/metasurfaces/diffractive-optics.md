@@ -13,14 +13,14 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 4
+mention_count: 5
 frontier:
 - What insertion loss, crosstalk and port count does a trained multi-layer phase stack achieve in a deployed optical circuit switch, relative to the splitter-based multicast architectures it aims to replace?
 - Can diffractive efficiency at photon energies above 20 keV be raised enough to compete with free-form refractive elements for TXM illumination, or is the refractive route structurally favoured?
 - How does D²NN classification accuracy degrade with fabrication error, layer misalignment and illumination bandwidth, and what tolerance budget do lithographic processes need to hit?
 - Do passive diffractive stacks retain their energy advantage once input encoding, detection and any electronic post-processing are included in end-to-end joules per inference?
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions: []
 neighbors: []
 ---

@@ -40,8 +40,8 @@ scorecard:
 scorecard_status: draft
 descendants:
 - uncertainty-propagation-compute
-sources_7d: 2
-sources_30d: 7
+sources_7d: 1
+sources_30d: 5
 recent_mentions:
 - slug: 2025-04-30-has-the-time-come-to-take-mortal
   title: Has the time come to take Mortal Computing seriously?

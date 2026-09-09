@@ -12,6 +12,7 @@ sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2024-09-13-bis-adopts-additional-controls-on-quantum-semiconductor-and-]]'
+- '[[2024-09-16-bis-issues-interim-final-rule-to-align-export-controls-on-ad]]'
 - '[[2022-05-09-elementum-funded-by-darpa-to-develop-am-process-for-rhenium-]]'
 - '[[2024-09-16-bis-imposes-new-export-controls-on-quantum-semiconductor-and]]'
 - '[[2021-02-04-meta-additive-awarded-innovate-uk-smart-grant-for-bjt-proces]]'
@@ -27,7 +28,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 63
+mention_count: 64
 descendants:
 - metal-additive-manufacturing
 last_reorg_date: '2026-05-13'
@@ -41,7 +42,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 2
+sources_30d: 1
 recent_mentions:
 - slug: 2026-07-02-fusion-bionic-secures-8m-for-laser-texturing---opticsorg
   title: Fusion Bionic secures €8M for laser texturing - Optics.org

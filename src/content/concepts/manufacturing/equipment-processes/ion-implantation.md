@@ -36,7 +36,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 4
+sources_7d: 3
 sources_30d: 12
 recent_mentions:
 - slug: 2025-12-09-gallium-nitride-photonics-w-james

@@ -23,8 +23,8 @@ last_updated: 2026-06-02
 tags:
 - concept
 mention_count: 11
-sources_7d: 2
-sources_30d: 4
+sources_7d: 0
+sources_30d: 2
 recent_mentions: []
 neighbors:
 - slug: gallium-nitride

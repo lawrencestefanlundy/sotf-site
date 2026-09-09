@@ -35,7 +35,7 @@ scorecard:
   verdict: ''
 scorecard_status: draft
 sources_7d: 1
-sources_30d: 12
+sources_30d: 11
 recent_mentions:
 - slug: 2026-07-21-precision-astrometry-using-optically-independent-spacecraft-
   title: Precision Astrometry Using Optically Independent Spacecraft for Graviational Wave Detection

@@ -31,8 +31,8 @@ scorecard:
   verdict: ''
 scorecard_status: draft
 mention_count: 116
-sources_7d: 2
-sources_30d: 33
+sources_7d: 1
+sources_30d: 10
 recent_mentions:
 - slug: 2026-08-20-callosum-100m-seed-announcement
   title: Callosum announces $100M seed led by Atomico (round coverage + Companies House filings)

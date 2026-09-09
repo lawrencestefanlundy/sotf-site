@@ -13,7 +13,7 @@ sources:
 - '[[2026-06-11-darpa-threads-the-needle-on-thermal-barriers-to-rf-power---d]]'
 mention_count: 11
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-06-11-a-new-approach-to-designing-rf-power-amplifiers-for-modern-m
   title: A New Approach to Designing RF Power Amplifiers for Modern Military Systems - Tech Briefs

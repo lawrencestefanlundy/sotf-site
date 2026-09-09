@@ -30,7 +30,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 3
-sources_30d: 17
+sources_30d: 16
 recent_mentions: []
 neighbors: []
 ---

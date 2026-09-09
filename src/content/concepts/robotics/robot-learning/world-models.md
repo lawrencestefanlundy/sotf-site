@@ -41,7 +41,7 @@ scorecard:
   verdict: Too early to say
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 5
+sources_30d: 2
 recent_mentions:
 - slug: 2026-07-01-sensifai-memo-streaming-physical-ai
   title: SensifAI — Purpose-Built Silicon for Streaming Physical AI (funding memo)

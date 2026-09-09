@@ -17,7 +17,7 @@ sources:
 - '[[2026-04-15-semianalysis-isscc-2026]]'
 - '[[2026-06-22-tim-approaches-full-sweep]]'
 mention_count: 17
-sources_7d: 1
+sources_7d: 0
 sources_30d: 1
 recent_mentions:
 - slug: 2026-07-16-the-path-to-agi-runs-through-hbm

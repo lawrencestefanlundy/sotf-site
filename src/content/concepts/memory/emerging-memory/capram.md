@@ -40,7 +40,7 @@ tags:
 - semron
 - memcapacitor
 - product-brand
-mention_count: 55
+mention_count: 56
 scorecard:
   viability: 2
   drivers: 3
@@ -50,8 +50,8 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Overrated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 4
+sources_7d: 1
+sources_30d: 5
 recent_mentions:
 - slug: 2026-08-07-the-memory-trade-isnt-over-weights
   title: 'The Memory Trade Isn''t Over: Weights and KV Cache'

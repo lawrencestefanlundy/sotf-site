@@ -38,7 +38,7 @@ descendants:
 - microled
 - oled
 sources_7d: 2
-sources_30d: 6
+sources_30d: 5
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
@@ -63,6 +63,10 @@ recent_mentions:
 - slug: 2026-06-15-luminate-ny-accelerator-terms
   title: Luminate NY OPI accelerator — terms and structure
   date: '2026-06-15'
+  kind: web
+- slug: 2022-09-13-itzehoe-based-oqmented-developing-tiny-mirrors-for-smart-gla
+  title: Itzehoe-based Oqmented developing tiny mirrors for smart glasses - Hamburg Business
+  date: '2022-09-13'
   kind: web
 neighbors: []
 ---

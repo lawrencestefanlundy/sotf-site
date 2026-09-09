@@ -34,7 +34,7 @@ scorecard_status: draft
 parent_concepts:
 - emerging-memory
 - memory
-sources_7d: 2
+sources_7d: 1
 sources_30d: 2
 recent_mentions:
 - slug: 2024-08-30-optical-dram-integrated-magneto-photonic-non-volatile-multi

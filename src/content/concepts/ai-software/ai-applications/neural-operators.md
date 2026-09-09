@@ -37,7 +37,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Underrated
 scorecard_status: draft
-sources_7d: 4
+sources_7d: 2
 sources_30d: 11
 recent_mentions:
 - slug: 2026-09-01-physics-ai-incumbent-consolidation-and-horizontal-repricing

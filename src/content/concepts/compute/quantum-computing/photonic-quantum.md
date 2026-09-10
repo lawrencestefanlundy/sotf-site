@@ -25,8 +25,8 @@ scorecard:
   verdict: ''
 scorecard_status: draft
 mention_count: 93
-sources_7d: 2
-sources_30d: 12
+sources_7d: 1
+sources_30d: 11
 recent_mentions:
 - slug: 2026-06-04-q-memory-site
   title: Q-Memory — company website (q-memory.tech)

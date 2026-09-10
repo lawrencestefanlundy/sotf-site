@@ -123,6 +123,18 @@ descendants:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-09-are-gencos-a-solve-for-the-data-center-power-problem---latit
+  title: Are GenCos a solve for the data center power problem? - Latitude Media
+  date: '2026-09-09'
+  kind: web
+- slug: 2026-09-08-nasa-calls-for-proposals-to-accelerate-lunar-surface-technol
+  title: NASA Calls for Proposals to Accelerate Lunar Surface Technologies
+  date: '2026-09-08'
+  kind: web
+- slug: 2026-09-08-theres-an-awful-lot-we-dont-know-about-data-centers
+  title: There’s an awful lot we don’t know about data centers
+  date: '2026-09-08'
+  kind: web
 - slug: 2026-09-04-building-clean-power-for-data-centers-in-a-gas-obsessed-mark
   title: Building clean power for data centers in a gas-obsessed market - Latitude Media
   date: '2026-09-04'
@@ -142,18 +154,6 @@ recent_mentions:
 - slug: 2026-09-01-chinas-rare-earths-duopoly
   title: China's Rare Earths Duopoly
   date: '2026-09-01'
-  kind: web
-- slug: 2026-08-31-qcells-tandem-iec-ul-certification-tuv-rheinland
-  title: Qcells secures TUV Rheinland certification for perovskite-silicon tandem solar tech (pv magazine, 16 Jul 2026; pv-tech corroborating)
-  date: '2026-08-31'
-  kind: web
-- slug: 2026-08-31-ferc-206-show-cause-orders-large-load-interconnection
-  title: FERC Issues Section 206 Show Cause Orders Directing All Six RTOs/ISOs to Justify or Reform Large Load Integration Rules (McGuireWoods client alert; FERC docket RM26-4 page corroborating)
-  date: '2026-08-31'
-  kind: web
-- slug: 2026-08-27-the-case-against-relying-on-behind-the-meter-power-for-data-
-  title: The case against relying on behind-the-meter power for data centers - staging.latitudemedia.com
-  date: '2026-08-27'
   kind: web
 neighbors: []
 ---

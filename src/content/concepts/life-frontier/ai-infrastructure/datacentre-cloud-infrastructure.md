@@ -33,6 +33,14 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-09-are-gencos-a-solve-for-the-data-center-power-problem---latit
+  title: Are GenCos a solve for the data center power problem? - Latitude Media
+  date: '2026-09-09'
+  kind: web
+- slug: 2026-09-08-theres-an-awful-lot-we-dont-know-about-data-centers
+  title: There’s an awful lot we don’t know about data centers
+  date: '2026-09-08'
+  kind: web
 - slug: 2026-09-04-building-clean-power-for-data-centers-in-a-gas-obsessed-mark
   title: Building clean power for data centers in a gas-obsessed market - Latitude Media
   date: '2026-09-04'
@@ -56,14 +64,6 @@ recent_mentions:
 - slug: 2026-08-27-the-case-against-relying-on-behind-the-meter-power-for-data-
   title: The case against relying on behind-the-meter power for data centers - staging.latitudemedia.com
   date: '2026-08-27'
-  kind: web
-- slug: 2026-08-26-making-data-centers-flexible-so-they-can-serve-the-grid-rath
-  title: Making data centers flexible so they can serve the grid rather than stress it out
-  date: '2026-08-26'
-  kind: web
-- slug: 2026-08-20-can-ai-revolutionize-grid-operations---latitude-media
-  title: Can AI revolutionize grid operations? - Latitude Media
-  date: '2026-08-20'
   kind: web
 neighbors: []
 ---

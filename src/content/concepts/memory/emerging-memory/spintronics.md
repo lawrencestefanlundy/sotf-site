@@ -20,8 +20,8 @@ descendants:
 - magneto-optical
 sources: []
 mention_count: 76
-sources_7d: 2
-sources_30d: 11
+sources_7d: 1
+sources_30d: 9
 recent_mentions: []
 neighbors:
 - slug: mram

@@ -30,9 +30,9 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Overrated
 scorecard_status: draft
-mention_count: 86
-sources_7d: 3
-sources_30d: 6
+mention_count: 87
+sources_7d: 4
+sources_30d: 7
 recent_mentions:
 - slug: 2026-06-01-hbm-state-of-play
   title: HBM state of play (mid-2026) — technology, supercycle, three-supplier standing

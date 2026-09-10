@@ -42,7 +42,7 @@ scorecard:
   verdict: Overrated
 scorecard_status: draft
 sources_7d: 1
-sources_30d: 5
+sources_30d: 4
 recent_mentions:
 - slug: 2026-09-07-interact-analysis-industrial-robot-shipments-2030
   title: Annual industrial robot shipments will reach more than 760k units in 2030 (Interact Analysis)

@@ -47,7 +47,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 2
+sources_30d: 1
 recent_mentions:
 - slug: 2017-10-10-arpa-e-funds-projects-using-wide-bandgap-semiconductors-for-
   title: ARPA-E Funds Projects Using Wide Bandgap Semiconductors for Power Conversion - Electronic Design

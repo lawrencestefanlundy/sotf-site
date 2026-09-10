@@ -37,6 +37,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-09-chips-act-20-part-4-who-benefits-and-who-misses-out---eenews
+  title: 'Chips Act 2.0 Part 4: Who benefits and who misses out? ... - eenewseurope.com'
+  date: '2026-09-09'
+  kind: web
 - slug: 2026-09-04-cipr---the-european-chips-act-enters-into-force---european-c
   title: CIPR - The European Chips Act enters into force - European Commission
   date: '2026-09-04'
@@ -64,10 +68,6 @@ recent_mentions:
 - slug: 2026-08-12-chips-act-20-part-1-europes-second-semiconductor-push---eene
   title: 'Chips Act 2.0. Part 1: Europe’s second semiconductor push - eeNews Europe'
   date: '2026-08-12'
-  kind: web
-- slug: 2026-08-11-stanton-marks-four-years-of-chips-act-with-facility-visits-h
-  title: Stanton Marks Four Years of CHIPS Act with Facility Visits, Highlights Impact Across Arizona - Congressman Greg Stanton (.gov)
-  date: '2026-08-11'
   kind: web
 neighbors: []
 ---

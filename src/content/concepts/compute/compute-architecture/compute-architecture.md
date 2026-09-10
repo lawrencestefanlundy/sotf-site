@@ -123,7 +123,7 @@ descendants:
 - wafer-scale
 - weight-reuse-factor
 - xla
-mention_count: 5
+mention_count: 6
 frontier:
 - What measured output noise spectral density, channel bandwidth and update latency does the Spartan-7 plus DAC81416 module achieve, and how do these compare with commercial DC electrode controllers?
 - How many channels and modules have been operated concurrently in a single trap, and does per-channel cost fall or timing skew grow as the module count increases?

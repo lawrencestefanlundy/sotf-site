@@ -45,8 +45,8 @@ last_updated: 2026-07-21
 tags:
 - concept
 mention_count: 23
-sources_7d: 1
-sources_30d: 3
+sources_7d: 0
+sources_30d: 2
 recent_mentions:
 - slug: 2026-08-06-4mica-base-mainnet-onchain-verification
   title: 4Mica's Base mainnet contract, verified on-chain

@@ -43,7 +43,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 3
+sources_7d: 1
 sources_30d: 5
 recent_mentions:
 - slug: 2025-10-09-a-specific-theory-of-sovereign-ai

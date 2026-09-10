@@ -23,7 +23,7 @@ frontier:
 - What is the end-to-end optical efficiency and steering-angle-dependent loss budget of the PIC-plus-metasurface stack, and how stable is alignment under thermal cycling and vibration?
 - Does ion-implanted gain in silicon nitride scale to output powers and pulse energies competitive with hybrid III-V bonding, and at what implantation dose and waveguide length?
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-07-07-the-asml-killer
   title: The ASML Killer?

@@ -23,6 +23,14 @@ mention_count: 80
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-09-nasa-adds-relativity-spaces-terran-r-to-launch-services-cont
+  title: NASA Adds Relativity Space’s Terran R to Launch Services Contract
+  date: '2026-09-09'
+  kind: web
+- slug: 2026-09-08-nasa-calls-for-proposals-to-accelerate-lunar-surface-technol
+  title: NASA Calls for Proposals to Accelerate Lunar Surface Technologies
+  date: '2026-09-08'
+  kind: web
 - slug: 2026-09-07-europes-space-future-in-focus-at-the-international-space-sum
   title: Europe's space future in focus at the International Space Summit
   date: '2026-09-07'
@@ -46,14 +54,6 @@ recent_mentions:
 - slug: 2026-09-01-chinas-rare-earths-duopoly
   title: China's Rare Earths Duopoly
   date: '2026-09-01'
-  kind: web
-- slug: 2026-08-31-what-happened-this-month-at-the-european-space-agency-august
-  title: What happened this month at the European Space Agency? (August 2026)
-  date: '2026-08-31'
-  kind: web
-- slug: 2026-08-28-nasa-awards-first-prize-in-phase-2-of-agencys-lunarecycle-ch
-  title: NASA Awards First Prize in Phase 2 of Agency’s LunaRecycle Challenge
-  date: '2026-08-28'
   kind: web
 neighbors: []
 ---

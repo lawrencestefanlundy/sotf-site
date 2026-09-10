@@ -32,8 +32,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 54
-sources_7d: 0
+mention_count: 55
+sources_7d: 1
 sources_30d: 5
 recent_mentions:
 - slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint

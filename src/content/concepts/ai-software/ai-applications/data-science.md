@@ -18,7 +18,7 @@ scorecard:
 scorecard_status: draft
 mention_count: 66
 sources_7d: 0
-sources_30d: 11
+sources_30d: 10
 recent_mentions:
 - slug: 2026-06-23-engram-98m-learned-memory-token-costs
   title: AI memory startup focused on cutting token costs raises $98 million

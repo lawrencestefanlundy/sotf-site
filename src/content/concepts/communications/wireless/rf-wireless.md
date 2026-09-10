@@ -33,6 +33,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-04-a-23-million-texas-grant-helps-open-an-austin-chip-lab-for-w
+  title: A $23 million Texas grant helps open an Austin chip lab for wireless research - Stock Titan
+  date: '2026-09-04'
+  kind: web
 - slug: 2026-09-01-nasa-selects-blue-origin-as-mars-telecommunications-network-
   title: NASA Selects Blue Origin as Mars Telecommunications Network Provider
   date: '2026-09-01'
@@ -60,10 +64,6 @@ recent_mentions:
 - slug: 2026-08-11-anybus-communicators-are-cra-ready---august-2026---industria
   title: Anybus Communicators are CRA-ready - August 2026 - Industrial Data Xchange (IDX) - SA Instrumentation & Control
   date: '2026-08-11'
-  kind: web
-- slug: 2026-08-03-quectel-adds-wi-fi-7-and-bluetooth-60-modules-for-consumer-a
-  title: Quectel Adds Wi-Fi 7 and Bluetooth 6.0 Modules for Consumer and Edge Devices - IoT Business News
-  date: '2026-08-03'
   kind: web
 neighbors: []
 ---

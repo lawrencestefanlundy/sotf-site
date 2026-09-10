@@ -10,7 +10,7 @@ parent_concepts:
 related_concepts: []
 sources: []
 mention_count: 9
-sources_7d: 1
+sources_7d: 0
 sources_30d: 2
 recent_mentions: []
 neighbors: []

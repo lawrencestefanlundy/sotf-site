@@ -21,7 +21,7 @@ frontier:
 - Does the two-source seedless bootstrapping scheme survive an adversary with partial correlation between the two supposedly independent entropy sources, and what independence assumption is required quantitatively 2026 08 13 information theoretic solutions for seedless qrng bootstrapp?
 - Does the predictability-coherence equality for multi-path interferometry yield an operationally tighter min-entropy bound than existing semi-DI certification for interference-based QRNGs 2026 07 22 trade off between predictability and quantum coherence for m?
 sources_7d: 0
-sources_30d: 2
+sources_30d: 1
 recent_mentions:
 - slug: 2026-08-03-spad-single-photon-market-scan
   title: SPAD / single-photon detector market scan — incumbent structure and company cohort

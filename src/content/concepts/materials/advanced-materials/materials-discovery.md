@@ -31,7 +31,7 @@ descendants:
 - arpes
 - electron-scale-metrology
 - stm
-sources_7d: 2
+sources_7d: 0
 sources_30d: 7
 recent_mentions:
 - slug: 2024-09-19-can-ai-revolutionize-materials-discovery---latitude-media

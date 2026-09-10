@@ -18,7 +18,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - material
-mention_count: 33
+mention_count: 34
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 3
@@ -30,7 +30,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 5
-sources_30d: 8
+sources_30d: 9
 recent_mentions: []
 neighbors: []
 ---

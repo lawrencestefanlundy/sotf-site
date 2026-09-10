@@ -33,6 +33,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-09-openai-does-math-reward-hacking-meta-launches-personal-agent
+  title: OpenAI Does Math, Reward-Hacking, Meta Launches Personal Agent
+  date: '2026-09-09'
+  kind: web
 - slug: 2026-09-07-the-frontier-aeo-tracker-what-astra-chooses-and-every-other-
   title: 'The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)'
   date: '2026-09-07'
@@ -60,10 +64,6 @@ recent_mentions:
 - slug: 2026-08-20-can-ai-revolutionize-grid-operations---latitude-media
   title: Can AI revolutionize grid operations? - Latitude Media
   date: '2026-08-20'
-  kind: web
-- slug: 2026-08-11-the-bioai-phase-shift---matthew-mcpartlon-neil-patil-chai-di
-  title: 🔬The BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery
-  date: '2026-08-11'
   kind: web
 neighbors: []
 ---

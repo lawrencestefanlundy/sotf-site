@@ -40,12 +40,12 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 87
+mention_count: 89
 descendants:
 - hearing-aid-silicon-beachhead
 - nvidia-jetson
-sources_7d: 1
-sources_30d: 4
+sources_7d: 2
+sources_30d: 5
 recent_mentions:
 - slug: 2026-09-07-mordor-data-converter-market
   title: 'Data Converter Market: size, share & industry analysis (Mordor Intelligence)'

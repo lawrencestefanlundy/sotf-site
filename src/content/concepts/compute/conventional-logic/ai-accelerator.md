@@ -69,6 +69,10 @@ scorecard_status: draft
 sources_7d: 1
 sources_30d: 3
 recent_mentions:
+- slug: 2026-09-08-theres-an-awful-lot-we-dont-know-about-data-centers
+  title: There’s an awful lot we don’t know about data centers
+  date: '2026-09-08'
+  kind: web
 - slug: 2026-09-07-interact-analysis-industrial-robot-shipments-2030
   title: Annual industrial robot shipments will reach more than 760k units in 2030 (Interact Analysis)
   date: '2026-09-07'
@@ -95,10 +99,6 @@ recent_mentions:
   kind: web
 - slug: 2026-09-07-the-frontier-aeo-tracker-what-astra-chooses-and-every-other-
   title: 'The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)'
-  date: '2026-09-07'
-  kind: web
-- slug: 2026-09-07-microchip-acquires-hailo-jul-2026
-  title: Microchip Technology signs definitive agreement to acquire Hailo (Microchip IR, 24 Jul 2026; CTech; Globes)
   date: '2026-09-07'
   kind: web
 neighbors: []

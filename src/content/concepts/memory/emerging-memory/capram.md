@@ -40,7 +40,7 @@ tags:
 - semron
 - memcapacitor
 - product-brand
-mention_count: 56
+mention_count: 57
 scorecard:
   viability: 2
   drivers: 3

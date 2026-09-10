@@ -20,7 +20,7 @@ frontier:
 - How does certified CV-QRNG yield per satellite pass scale with ADC resolution above 12 bits and with longer raw key records 2026 08 11 quantum random number generation from the continuous variabl?
 - What insertion loss and detection efficiency do poled-fibre phase modulators achieve in practice, and is that sufficient to close the detection-efficiency requirement for device-independent randomness certification 2026 08 06 poled fibre phase modulator for efficient high dimensional q?
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions: []
 neighbors: []
 ---

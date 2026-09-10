@@ -52,37 +52,37 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
-- slug: 2026-09-04-cipr---the-european-chips-act-enters-into-force---european-c
-  title: CIPR - The European Chips Act enters into force - European Commission
-  date: '2026-09-04'
+- slug: 2026-09-09-semi-calls-on-the-chips-act-20---ink-world-magazine
+  title: SEMI Calls On The Chips Act 2.0 - Ink World Magazine
+  date: '2026-09-09'
   kind: web
-- slug: 2026-09-02-chips-act-20-part-3-can-europe-compete---eenews-europe
-  title: 'Chips Act 2.0, Part 3: Can Europe compete? ... - eeNews Europe'
-  date: '2026-09-02'
+- slug: 2026-09-09-rigetti-stock-gains-after-securing-100-million-in-chips-act-
+  title: Rigetti Stock Gains After Securing $100 Million in CHIPS Act Funding - TIKR.com
+  date: '2026-09-09'
   kind: web
-- slug: 2026-09-01-nvidia-earnings-dollars-per-gigawatt-open-and-hugging-face
-  title: Nvidia Earnings, Dollars Per Gigawatt, Open and Hugging Face
-  date: '2026-09-01'
+- slug: 2026-09-09-chips-act-20-part-4-who-benefits-and-who-misses-out---eenews
+  title: 'Chips Act 2.0 Part 4: Who benefits and who misses out? ... - eenewseurope.com'
+  date: '2026-09-09'
   kind: web
-- slug: 2026-09-01-chinas-ai-rally-is-real-most-global-investors-are-missing-it
-  title: China’s AI Rally Is Real. Most Global Investors Are Missing It.
-  date: '2026-09-01'
+- slug: 2026-09-09-quantinuum-finalizes-100-million-chips-act-rd-award-to-accel
+  title: Quantinuum Finalizes $100 Million CHIPS Act R&D Award to Accelerate Trapped-Ion Manufacturing - Quantum Computing Report
+  date: '2026-09-09'
   kind: web
-- slug: 2026-09-01-chinas-rare-earths-duopoly
-  title: China's Rare Earths Duopoly
-  date: '2026-09-01'
+- slug: 2026-09-09-rigetti-computing-rgti-secures-100-million-in-chips-act-fund
+  title: Rigetti Computing (RGTI) Secures $100 Million In CHIPS Act Funding - simplywall.st
+  date: '2026-09-09'
   kind: web
-- slug: 2026-08-29-us-commerce-department-moves-to-block-china-ai-firms-from-re
-  title: U.S. Commerce Department moves to block China AI firms from remote access to advanced chips - 디지털투데이
-  date: '2026-08-29'
+- slug: 2026-09-08-semi-urges-eu-to-strengthen-chips-act-20-for-semiconductor-c
+  title: SEMI Urges EU to Strengthen Chips Act 2.0 for Semiconductor Competitiveness - IndexBox
+  date: '2026-09-08'
   kind: web
-- slug: 2026-08-28-the-us-is-building-chips-act-fabs-but-neglecting-rd---aolcom
-  title: The U.S. Is Building CHIPS Act Fabs but Neglecting R&D - AOL.com
-  date: '2026-08-28'
+- slug: 2026-09-08-rigetti-computing-wins-up-to-100-million-chips-funding-issue
+  title: Rigetti Computing Wins Up to $100 Million CHIPS Funding, Issues $100 Million in Stock to U.S. Commerce - TradingView
+  date: '2026-09-08'
   kind: web
-- slug: 2026-08-27-gao-warns-chips-rd-stall-could-cost-us-chip-leadership---iee
-  title: GAO Warns CHIPS R&D Stall Could Cost U.S. Chip Leadership - IEEE Spectrum
-  date: '2026-08-27'
+- slug: 2026-09-08-rigetti-signs-100m-chips-act-deal-with-us-commerce---asktrad
+  title: Rigetti Signs $100m CHIPS Act Deal With US Commerce - AskTraders
+  date: '2026-09-08'
   kind: web
 neighbors:
 - slug: logic

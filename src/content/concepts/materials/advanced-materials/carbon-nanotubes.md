@@ -26,7 +26,7 @@ scorecard:
 scorecard_status: draft
 mention_count: 35
 sources_7d: 1
-sources_30d: 2
+sources_30d: 1
 recent_mentions:
 - slug: 2026-06-17-nawah-vacnt-technology
   title: NAWAH Architectured Nanomaterials — VACNT technology & positioning

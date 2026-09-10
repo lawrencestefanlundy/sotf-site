@@ -31,7 +31,7 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 106
+mention_count: 107
 descendants:
 - diffractive-deep-neural-network
 - diffractive-deep-neural-networks

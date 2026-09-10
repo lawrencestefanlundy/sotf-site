@@ -34,6 +34,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-09-rigetti-stock-gains-after-securing-100-million-in-chips-act-
+  title: Rigetti Stock Gains After Securing $100 Million in CHIPS Act Funding - TIKR.com
+  date: '2026-09-09'
+  kind: web
 - slug: 2026-09-01-nvidia-earnings-dollars-per-gigawatt-open-and-hugging-face
   title: Nvidia Earnings, Dollars Per Gigawatt, Open and Hugging Face
   date: '2026-09-01'
@@ -61,10 +65,6 @@ recent_mentions:
 - slug: 2026-07-29-department-of-commerce-announces-letters-of-intent-with-7-co
   title: Department of Commerce Announces Letters of Intent With 7 Companies for $874 Million to Accelerate Semiconductor R&D for the Compute Supply Chain - National Institute of Standards and Technology (.gov)
   date: '2026-07-29'
-  kind: web
-- slug: 2026-07-25-thoughts-on-ai-and-power
-  title: Thoughts on AI and power
-  date: '2026-07-25'
   kind: web
 neighbors: []
 ---

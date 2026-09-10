@@ -53,8 +53,8 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 1
-sources_30d: 4
+sources_7d: 0
+sources_30d: 3
 recent_mentions:
 - slug: 2026-08-03-nasa-delivers-navigation-system-for-commercial-lunar-relay
   title: NASA Delivers Navigation System for Commercial Lunar Relay
@@ -94,7 +94,7 @@ neighbors:
   path: /compute/compute-architecture/mlc-llm/
   macro: compute
 - slug: cuda-moat
-  name: CUDA (the moat, and where it's eroding)
+  name: Cuda Moat
   path: /ai-software/models-inference/cuda-moat/
   macro: ai-software
 ---

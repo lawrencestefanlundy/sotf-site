@@ -31,7 +31,7 @@ scorecard:
   verdict: ''
 scorecard_status: draft
 mention_count: 116
-sources_7d: 1
+sources_7d: 0
 sources_30d: 10
 recent_mentions:
 - slug: 2026-08-20-callosum-100m-seed-announcement

@@ -36,7 +36,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 1
-sources_30d: 7
+sources_30d: 6
 recent_mentions:
 - slug: 2026-09-07-amd-versal-rf-hot-chips-2026
   title: AMD Versal RF Series at Hot Chips 2026 (ServeTheHome)

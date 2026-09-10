@@ -52,7 +52,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Overrated
 scorecard_status: draft
-sources_7d: 2
+sources_7d: 0
 sources_30d: 3
 recent_mentions:
 - slug: 2026-08-06-4mica-base-mainnet-onchain-verification

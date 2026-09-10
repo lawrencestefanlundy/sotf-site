@@ -29,8 +29,8 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 100
-sources_7d: 4
-sources_30d: 13
+sources_7d: 2
+sources_30d: 12
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)

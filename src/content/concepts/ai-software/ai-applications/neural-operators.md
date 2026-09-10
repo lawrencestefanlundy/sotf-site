@@ -27,7 +27,7 @@ frontier:
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 46
+mention_count: 47
 scorecard:
   viability: 4
   drivers: 4
@@ -38,7 +38,7 @@ scorecard:
   verdict: Underrated
 scorecard_status: draft
 sources_7d: 2
-sources_30d: 11
+sources_30d: 10
 recent_mentions:
 - slug: 2026-09-01-physics-ai-incumbent-consolidation-and-horizontal-repricing
   title: 'Physics AI: the two structural facts — Synopsys closed Ansys, and PhysicsX repriced at ~$2.4B'

@@ -54,7 +54,7 @@ neighbors:
   path: /compute/compute-architecture/triton/
   macro: compute
 - slug: cuda-moat
-  name: CUDA (the moat, and where it's eroding)
+  name: Cuda Moat
   path: /ai-software/models-inference/cuda-moat/
   macro: ai-software
 ---
@@ -80,7 +80,7 @@ Governed by the LLVM project (open community, LLVM release cadence). Adoption is
 
 ## Competitive read (vs a "new programming model" startup)
 
-**Substrate, not competitor.** A credible new heterogeneous programming model lowers to MLIR dialects; doing otherwise means re-inventing a decade of LLVM/MLIR infrastructure and losing interop with every vendor backend already expressed in MLIR. The startup's real moat must live *above* MLIR — the programming abstraction and the cross-target optimisation/auto-tuning intelligence — with MLIR as its IR layer. This is also the live risk to such a company: if MLIR commoditises the compiler layer, value can drain to silicon + libraries (the [CUDA (the moat, and where it's eroding)](/ai-software/models-inference/cuda-moat/) lesson that the moat is libraries, not syntax).
+**Substrate, not competitor.** A credible new heterogeneous programming model lowers to MLIR dialects; doing otherwise means re-inventing a decade of LLVM/MLIR infrastructure and losing interop with every vendor backend already expressed in MLIR. The startup's real moat must live *above* MLIR — the programming abstraction and the cross-target optimisation/auto-tuning intelligence — with MLIR as its IR layer. This is also the live risk to such a company: if MLIR commoditises the compiler layer, value can drain to silicon + libraries (the [Cuda Moat](/ai-software/models-inference/cuda-moat/) lesson that the moat is libraries, not syntax).
 
 ## Sources
 

@@ -37,7 +37,7 @@ scorecard:
 scorecard_status: draft
 mention_count: 101
 sources_7d: 1
-sources_30d: 6
+sources_30d: 4
 recent_mentions:
 - slug: 2026-07-17-the-once-and-future-kimi
   title: The Once and Future Kimi

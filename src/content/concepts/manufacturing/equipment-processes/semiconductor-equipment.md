@@ -23,7 +23,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 74
+mention_count: 76
 descendants:
 - automated-test-equipment
 - ion-implantation
@@ -31,8 +31,32 @@ descendants:
 - probe-cards
 - wafer-level-burn-in
 sources_7d: 2
-sources_30d: 2
+sources_30d: 3
 recent_mentions:
+- slug: 2026-09-09-semi-calls-on-the-chips-act-20---ink-world-magazine
+  title: SEMI Calls On The Chips Act 2.0 - Ink World Magazine
+  date: '2026-09-09'
+  kind: web
+- slug: 2026-09-09-chips-act-20-part-4-who-benefits-and-who-misses-out---eenews
+  title: 'Chips Act 2.0 Part 4: Who benefits and who misses out? ... - eenewseurope.com'
+  date: '2026-09-09'
+  kind: web
+- slug: 2026-09-09-quantinuum-finalizes-100-million-chips-act-rd-award-to-accel
+  title: Quantinuum Finalizes $100 Million CHIPS Act R&D Award to Accelerate Trapped-Ion Manufacturing - Quantum Computing Report
+  date: '2026-09-09'
+  kind: web
+- slug: 2026-09-08-semi-urges-eu-to-strengthen-chips-act-20-for-semiconductor-c
+  title: SEMI Urges EU to Strengthen Chips Act 2.0 for Semiconductor Competitiveness - IndexBox
+  date: '2026-09-08'
+  kind: web
+- slug: 2026-09-08-rigetti-computing-wins-up-to-100-million-chips-funding-issue
+  title: Rigetti Computing Wins Up to $100 Million CHIPS Funding, Issues $100 Million in Stock to U.S. Commerce - TradingView
+  date: '2026-09-08'
+  kind: web
+- slug: 2026-09-04-a-23-million-texas-grant-helps-open-an-austin-chip-lab-for-w
+  title: A $23 million Texas grant helps open an Austin chip lab for wireless research - Stock Titan
+  date: '2026-09-04'
+  kind: web
 - slug: 2026-09-04-cipr---the-european-chips-act-enters-into-force---european-c
   title: CIPR - The European Chips Act enters into force - European Commission
   date: '2026-09-04'
@@ -40,30 +64,6 @@ recent_mentions:
 - slug: 2026-09-03-what-comes-after-the-data-center-backlash---latitude-media
   title: What comes after the data center backlash? - Latitude Media
   date: '2026-09-03'
-  kind: web
-- slug: 2026-09-02-chips-act-20-part-3-can-europe-compete---eenews-europe
-  title: 'Chips Act 2.0, Part 3: Can Europe compete? ... - eeNews Europe'
-  date: '2026-09-02'
-  kind: web
-- slug: 2026-08-28-the-us-is-building-chips-act-fabs-but-neglecting-rd---aolcom
-  title: The U.S. Is Building CHIPS Act Fabs but Neglecting R&D - AOL.com
-  date: '2026-08-28'
-  kind: web
-- slug: 2026-08-27-gao-warns-chips-rd-stall-could-cost-us-chip-leadership---iee
-  title: GAO Warns CHIPS R&D Stall Could Cost U.S. Chip Leadership - IEEE Spectrum
-  date: '2026-08-27'
-  kind: web
-- slug: 2026-08-27-the-case-against-relying-on-behind-the-meter-power-for-data-
-  title: The case against relying on behind-the-meter power for data centers - staging.latitudemedia.com
-  date: '2026-08-27'
-  kind: web
-- slug: 2026-08-18-wi-fi-7-accelerates-into-the-mcu-space-as-infineon-and-synap
-  title: Wi-Fi 7 Accelerates into the MCU Space as Infineon and Synaptics Move First - finance.biggo.com
-  date: '2026-08-18'
-  kind: web
-- slug: 2026-08-18-chips-act-funds-40-fab-projects-faces-2026-deadline---legis1
-  title: CHIPS Act Funds 40 Fab Projects, Faces 2026 Deadline - Legis1
-  date: '2026-08-18'
   kind: web
 neighbors: []
 ---

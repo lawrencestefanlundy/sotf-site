@@ -16,14 +16,14 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 8
+mention_count: 9
 frontier:
 - What are the measured die-to-chip coupling losses and alignment tolerances for the SPAD-array-to-silica-waveguide interface, and do they hold across a full wafer-scale or pick-and-place assembly run 2026 06 05 hybrid integrated ingaasinp spad arrays for quantum communic?
 - How does hybrid SPAD receiver performance (detection efficiency, dark count rate, secure key rate) compare quantitatively with cryogenic superconducting receiver chips at the same wavelength?
 - What is the end-to-end optical efficiency and steering-angle-dependent loss budget of the PIC-plus-metasurface stack, and how stable is alignment under thermal cycling and vibration?
 - Does ion-implanted gain in silicon nitride scale to output powers and pulse energies competitive with hybrid III-V bonding, and at what implantation dose and waveguide length?
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
 - slug: 2026-07-07-the-asml-killer
   title: The ASML Killer?

@@ -23,7 +23,7 @@ frontier:
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 42
+mention_count: 43
 scorecard:
   viability: 4
   drivers: 4
@@ -33,8 +33,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 3
+sources_7d: 1
+sources_30d: 4
 recent_mentions:
 - slug: 2025-11-08-efficient-integrated-quantum-memory-eu-yso
   title: Efficient integrated quantum memory for light (¹⁵¹Eu³⁺:Y₂SiO₅, AFC, telecom-heralded)

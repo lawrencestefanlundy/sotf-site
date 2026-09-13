@@ -44,7 +44,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 88
+mention_count: 90
 descendants:
 - dexterous-manipulation
 - humanoid-robots
@@ -54,8 +54,8 @@ descendants:
 - tactile-sensing
 - vision-language-action-models
 - world-models
-sources_7d: 2
-sources_30d: 9
+sources_7d: 3
+sources_30d: 10
 recent_mentions:
 - slug: 2026-09-07-microchip-acquires-hailo-jul-2026
   title: Microchip Technology signs definitive agreement to acquire Hailo (Microchip IR, 24 Jul 2026; CTech; Globes)

@@ -58,7 +58,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 115
+mention_count: 116
 descendants:
 - ai-grade-datacentre-real-estate
 - ai-infrastructure-scaling

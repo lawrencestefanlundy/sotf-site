@@ -13,14 +13,14 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 4
+mention_count: 5
 frontier:
 - What instantaneous bandwidth, spurious-free dynamic range and output power does the 25 mm² silicon photonic generator achieve, and how do those compare quantitatively with electronic digital RF memory jammers?
 - How fast is mode switching between the four jamming modes, in microseconds or pulse repetition intervals, and does the transient betray the jammer to a coherent receiver?
 - Against which specific counter-countermeasure algorithms has the asymmetric time-frequency-coupled waveform been tested, and what reduction in detection or discrimination probability was measured?
 - Does the monolithic chip include the laser, modulators and photodetection on-die, and what are the resulting power consumption, thermal tuning stability and packaged-module volume?
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions: []
 neighbors: []
 ---

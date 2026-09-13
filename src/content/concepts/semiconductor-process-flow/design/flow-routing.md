@@ -20,7 +20,7 @@ sources:
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
-mention_count: 302
+mention_count: 306
 parent_concepts:
 - flow-rtl-design
 scorecard:
@@ -38,7 +38,7 @@ frontier:
 - Will the single-photon switching community actually adopt consistent reporting of speed, efficiency and fidelity, and when it does, which platform among quantum dots, neutral atoms, superconducting qubits and colour centres leads?
 - At what routing density does the sub-kelvin thermal conductivity of the substrate, spanning 5x10^-2 down to 8x10^-4 W/m.K at 300 mK depending on material, become the binding limit on co-integrating control and readout with qubits?
 sources_7d: 2
-sources_30d: 14
+sources_30d: 10
 recent_mentions:
 - slug: 2026-08-20-callosum-100m-seed-announcement
   title: Callosum announces $100M seed led by Atomico (round coverage + Companies House filings)

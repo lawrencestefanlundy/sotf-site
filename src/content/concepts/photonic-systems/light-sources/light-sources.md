@@ -44,7 +44,7 @@ frontier:
 - Are microwatt-level chip-scale blue and nanowatt mid-IR outputs sufficient for atomic clock, sensing or spectroscopy applications, or is a power scaling route required 2026 05 05 nonlinear frequency translation in micromachined rb vapor ce?
 - Do the theoretical advantages claimed for correlated and superradiant sources survive contact with real mode-matching and synchronisation constraints, given that these constraints already forced a switch to a narrowband laser in a covert-communication experiment 2026 05 29 toward practical two way covert communication?
 sources_7d: 1
-sources_30d: 10
+sources_30d: 8
 recent_mentions:
 - slug: 2026-07-07-the-asml-killer
   title: The ASML Killer?

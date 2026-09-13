@@ -22,7 +22,7 @@ tags:
 - concept
 mention_count: 5
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2024-10-22-state-of-the-future-part-deux
   title: 'An AI Thesis: State of the Future! Part Deux'

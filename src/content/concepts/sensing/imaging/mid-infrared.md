@@ -28,7 +28,7 @@ parent_concepts:
 - imaging
 - sensing
 sources_7d: 0
-sources_30d: 8
+sources_30d: 6
 recent_mentions:
 - slug: 2026-06-17-single-photon-detector-market-spad-snspd
   title: Single-photon detector market aggregation — SPAD, SiPM, SNSPD (2024–2035)

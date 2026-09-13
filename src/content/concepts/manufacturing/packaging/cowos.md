@@ -47,7 +47,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 889
+mention_count: 866
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 5
@@ -58,7 +58,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 1
+sources_7d: 2
 sources_30d: 5
 recent_mentions:
 - slug: 2026-09-02-vertical-power-delivery-thermal-limits

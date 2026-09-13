@@ -35,14 +35,14 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 111
+mention_count: 115
 descendants:
 - mems
 - nems
 - sensors
 - spectral-sensing
-sources_7d: 0
-sources_30d: 1
+sources_7d: 3
+sources_30d: 4
 recent_mentions:
 - slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
   title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics

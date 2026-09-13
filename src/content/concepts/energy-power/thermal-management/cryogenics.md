@@ -22,7 +22,7 @@ frontier:
 - How does the 800 pT Hz^-1/2 room-temperature optomechanical figure compare against cryogenic magnetometers on sensitivity, bandwidth and total system power 2026 06 07 silicon photonic optomechanical magnetometer?
 - What fraction of quantum system capital and operating cost is attributable to cryogenics, and does the 2026 funding into cryogenic control electronics measurably reduce wiring heat load per qubit 2026 07 13 semiengineering startup funding q2 2026?
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-07-24-18b-illinois-chips-act-supports-zero-point-cryogenics-us-ent
   title: $1.8B Illinois Chips Act Supports Zero Point Cryogenics’ U.S. Entry - Quantum Zeitgeist

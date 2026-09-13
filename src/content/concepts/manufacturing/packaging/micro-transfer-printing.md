@@ -23,9 +23,9 @@ last_updated: '2026-06-26'
 tags:
 - concept
 - technology
-mention_count: 12
-sources_7d: 0
-sources_30d: 0
+mention_count: 13
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
 - slug: 2026-07-07-the-asml-killer
   title: The ASML Killer?

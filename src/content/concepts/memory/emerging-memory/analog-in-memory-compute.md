@@ -29,7 +29,7 @@ frontier:
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 23
+mention_count: 24
 scorecard:
   viability: null
   drivers: null

@@ -31,7 +31,7 @@ frontier:
 - Does lithography-guided anisotropic TMD etching retain atomically sharp zigzag edges over extended, non-confined geometries at wafer scale 2026 06 24 precise one dimensional nanochannels in transition metal dic?
 - What etch-depth and sidewall-angle tolerance windows do inverse-designed TFLN and SiN devices survive before measured performance departs from the reduced-order model prediction 2026 08 14 inverse designed lithium niobate wavelength demultiplexer vi?
 sources_7d: 0
-sources_30d: 7
+sources_30d: 1
 recent_mentions:
 - slug: 2026-07-31-etched-research-sprint
   title: Etched research sprint — tape-out speed, HBM supply, customer orders (4-lane web sweep)

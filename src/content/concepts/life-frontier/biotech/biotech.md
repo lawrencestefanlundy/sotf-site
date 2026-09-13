@@ -16,7 +16,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 31
+mention_count: 32
 descendants:
 - 3d-bioprinting-platforms
 - 3d-printed-bioscaffolds

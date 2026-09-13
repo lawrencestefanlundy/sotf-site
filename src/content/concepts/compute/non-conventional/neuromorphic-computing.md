@@ -28,7 +28,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 72
+mention_count: 75
 last_reorg_date: '2026-05-14'
 descendants:
 - spiking-neural-networks
@@ -41,8 +41,8 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Overrated
 scorecard_status: draft
-sources_7d: 1
-sources_30d: 4
+sources_7d: 3
+sources_30d: 7
 recent_mentions:
 - slug: 2026-09-07-interact-analysis-industrial-robot-shipments-2030
   title: Annual industrial robot shipments will reach more than 760k units in 2030 (Interact Analysis)

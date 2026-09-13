@@ -55,8 +55,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 86
-sources_7d: 4
+mention_count: 88
+sources_7d: 6
 sources_30d: 7
 recent_mentions:
 - slug: 2026-07-31-etched-research-sprint

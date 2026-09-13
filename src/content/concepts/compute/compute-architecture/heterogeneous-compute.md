@@ -12,7 +12,7 @@ sources:
 - '[[2026-08-20-callosum-100m-seed-announcement]]'
 mention_count: 15
 sources_7d: 0
-sources_30d: 2
+sources_30d: 1
 recent_mentions:
 - slug: 2026-08-20-callosum-100m-seed-announcement
   title: Callosum announces $100M seed led by Atomico (round coverage + Companies House filings)

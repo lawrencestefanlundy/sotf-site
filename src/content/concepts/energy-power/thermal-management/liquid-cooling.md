@@ -42,7 +42,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 30
+mention_count: 31
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 5
@@ -53,8 +53,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
 - slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint
   title: 'What actually limits a humanoid to minutes: the thermal cliff, not the battery'

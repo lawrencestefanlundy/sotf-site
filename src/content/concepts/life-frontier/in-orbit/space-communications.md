@@ -45,7 +45,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 2
-sources_30d: 6
+sources_30d: 5
 recent_mentions:
 - slug: 2026-09-07-teledyne-e2v-data-converters-defence
   title: High Speed Data Converters for RF & Space; defense applications (Teledyne e2v Semiconductors)

@@ -19,7 +19,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 23
+mention_count: 24
 last_reorg_date: '2026-05-14'
 scorecard:
   viability: 3
@@ -31,7 +31,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 1
-sources_30d: 6
+sources_30d: 7
 recent_mentions:
 - slug: 2024-12-16-willow-and-the-race-to-quantum-advantage
   title: Willow and The Race to Quantum Advantage (Feat. Kris Kaczmarek)

@@ -34,7 +34,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 63
+mention_count: 64
 descendants:
 - adc-bottleneck
 - analog-in-memory-compute
@@ -43,7 +43,7 @@ descendants:
 - digital-in-memory-compute
 - processing-in-memory
 - sram-cim
-sources_7d: 2
+sources_7d: 1
 sources_30d: 7
 recent_mentions:
 - slug: 2026-08-12-snapdragon-ar1-sensing-hub-micro-npu

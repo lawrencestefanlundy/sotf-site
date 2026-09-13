@@ -34,7 +34,7 @@ tags:
 - core-concept
 mention_count: 8
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-07-26-ai-backend-network-optics-2026
   title: 'Dell''Oro: AI back-end switching past $100B by 2030, optical transport $16B in 2025'

@@ -38,7 +38,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 635
+mention_count: 651
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -68,7 +68,7 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 3
+sources_7d: 2
 sources_30d: 9
 recent_mentions:
 - slug: 2026-09-09-rigetti-stock-gains-after-securing-100-million-in-chips-act-

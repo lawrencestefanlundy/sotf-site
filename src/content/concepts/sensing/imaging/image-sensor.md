@@ -13,7 +13,7 @@ sources:
 - '[[2026-02-12-how-to-invest-in-ai-sovereignty-sovereign]]'
 - '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
 - '[[2026-06-02-singular-photonics-launch]]'
-mention_count: 25
+mention_count: 26
 frontier:
 - Do SPADs in CMOS image sensor processes retain acceptable dark count rate after the full few × 10¹³ 1-MeV neutron equivalent/cm² dose required for LHC RICH upgrades, rather than the 10¹² so far tested 2026 06 05 characterization of cmos spads for future rich detectors?
 - What yield and cost are achievable for wafer-scale stitched 65 nm sensors bent to beam-pipe radii, and does air cooling hold detection efficiency and resolution stable over an LHC run 2026 06 05 the new truly cylindrical tracker for the alice its3?
@@ -23,7 +23,7 @@ frontier:
 parent_concepts:
 - imaging
 - sensing
-sources_7d: 0
+sources_7d: 1
 sources_30d: 1
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026

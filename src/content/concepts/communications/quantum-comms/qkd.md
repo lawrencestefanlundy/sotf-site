@@ -18,7 +18,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 68
+mention_count: 69
 last_reorg_date: '2026-05-14'
 scorecard:
   viability: 4
@@ -30,7 +30,7 @@ scorecard:
   verdict: Overrated
 scorecard_status: draft
 sources_7d: 1
-sources_30d: 5
+sources_30d: 6
 recent_mentions: []
 neighbors: []
 ---

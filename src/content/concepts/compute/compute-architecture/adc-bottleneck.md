@@ -27,7 +27,7 @@ tags:
 - counter-thesis
 mention_count: 5
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-04-28-making-ai-inference-cheap-with-analog
   title: Making AI inference Cheap with Analog Computing w/ Shwetank Kumar @ EnCharge AI

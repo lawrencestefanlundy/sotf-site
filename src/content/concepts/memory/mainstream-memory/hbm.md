@@ -56,7 +56,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 88
-sources_7d: 6
+sources_7d: 4
 sources_30d: 7
 recent_mentions:
 - slug: 2026-07-31-etched-research-sprint

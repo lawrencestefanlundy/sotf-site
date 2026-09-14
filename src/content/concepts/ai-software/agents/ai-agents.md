@@ -33,7 +33,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 100
+mention_count: 103
 descendants:
 - agent-identity-kya
 - agentic-ai
@@ -43,8 +43,8 @@ descendants:
 - stablecoin-clearing
 - stablecoins
 - x402
-sources_7d: 3
-sources_30d: 19
+sources_7d: 6
+sources_30d: 20
 recent_mentions:
 - slug: 2026-08-24-embedd-pre-seed-siliconangle
   title: Chip software automation startup Embedd raises $2.7M

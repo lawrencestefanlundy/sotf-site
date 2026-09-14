@@ -46,7 +46,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 109
-sources_7d: 6
+sources_7d: 3
 sources_30d: 8
 recent_mentions:
 - slug: 2026-08-14-chip-tail-verification-sweep

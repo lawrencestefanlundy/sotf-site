@@ -43,7 +43,7 @@ scorecard:
   verdict: Overrated
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 3
+sources_30d: 2
 recent_mentions:
 - slug: 2026-07-26-ai-breach-frequency-autonomous-soc
   title: AI-enabled attack frequency and autonomous-SOC economics, 2026

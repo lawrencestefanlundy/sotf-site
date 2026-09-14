@@ -25,8 +25,8 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 120
-sources_7d: 1
+mention_count: 121
+sources_7d: 2
 sources_30d: 8
 recent_mentions:
 - slug: 2026-05-01-state-of-the-future-friday-four-7b7

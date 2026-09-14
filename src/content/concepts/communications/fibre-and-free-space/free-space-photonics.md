@@ -48,7 +48,7 @@ scorecard:
   verdict: Underrated
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 3
+sources_30d: 1
 recent_mentions:
 - slug: 2026-06-16-trapped-ion-landscape-2026
   title: Trapped-ion quantum computing landscape 2026 (vendors, scale, integrated photonics)

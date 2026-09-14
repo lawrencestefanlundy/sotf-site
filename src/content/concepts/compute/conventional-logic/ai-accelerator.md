@@ -55,7 +55,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 105
+mention_count: 107
 last_reorg_date: '2026-05-14'
 scorecard:
   viability: 4
@@ -66,8 +66,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 1
-sources_30d: 3
+sources_7d: 3
+sources_30d: 5
 recent_mentions:
 - slug: 2026-09-08-theres-an-awful-lot-we-dont-know-about-data-centers
   title: There’s an awful lot we don’t know about data centers

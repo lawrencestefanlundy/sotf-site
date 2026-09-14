@@ -38,7 +38,7 @@ scorecard:
   verdict: Underrated
 scorecard_status: draft
 sources_7d: 1
-sources_30d: 10
+sources_30d: 9
 recent_mentions:
 - slug: 2026-09-01-physics-ai-incumbent-consolidation-and-horizontal-repricing
   title: 'Physics AI: the two structural facts — Synopsys closed Ansys, and PhysicsX repriced at ~$2.4B'

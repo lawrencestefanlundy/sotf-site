@@ -54,7 +54,7 @@ descendants:
 - tactile-sensing
 - vision-language-action-models
 - world-models
-sources_7d: 3
+sources_7d: 2
 sources_30d: 10
 recent_mentions:
 - slug: 2026-09-07-microchip-acquires-hailo-jul-2026

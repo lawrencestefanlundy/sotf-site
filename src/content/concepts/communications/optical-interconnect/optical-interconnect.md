@@ -52,7 +52,7 @@ descendants:
 - rf-over-dielectric-waveguide
 - serdes
 sources_7d: 2
-sources_30d: 4
+sources_30d: 3
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)

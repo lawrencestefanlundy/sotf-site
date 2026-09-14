@@ -50,7 +50,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 897
-sources_7d: 3
+sources_7d: 4
 sources_30d: 13
 recent_mentions:
 - slug: 2026-08-26-we-have-foundation-models-for-language-not-for-physics-anima

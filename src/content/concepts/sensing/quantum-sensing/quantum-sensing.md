@@ -15,7 +15,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 174
+mention_count: 178
 descendants:
 - atomic-clocks
 - nv-diamond-sensing
@@ -34,8 +34,8 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-sources_7d: 3
-sources_30d: 10
+sources_7d: 5
+sources_30d: 12
 recent_mentions:
 - slug: 2026-07-21-precision-astrometry-using-optically-independent-spacecraft-
   title: Precision Astrometry Using Optically Independent Spacecraft for Graviational Wave Detection

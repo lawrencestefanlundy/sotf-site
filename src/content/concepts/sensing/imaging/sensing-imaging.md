@@ -22,6 +22,18 @@ mention_count: 116
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-14-esa-space-environment-report-2026
+  title: ESA Space Environment Report 2026
+  date: '2026-09-14'
+  kind: web
+- slug: 2026-09-10-nist-developed-quantum-sensors-improve-nuclear-monitoring
+  title: NIST-Developed Quantum Sensors Improve Nuclear Monitoring
+  date: '2026-09-10'
+  kind: web
+- slug: 2026-09-09-watch-flex-and-sentinel-3c-launch-on-vega-c
+  title: 'Watch: FLEX and Sentinel-3C launch on Vega-C'
+  date: '2026-09-09'
+  kind: web
 - slug: 2026-09-01-diffraqtion-adds-to-pre-seed-round-for-quantum-camera-tech--
   title: Diffraqtion Adds to Pre-Seed Round for Quantum Camera Tech - Payload Space
   date: '2026-09-01'
@@ -41,18 +53,6 @@ recent_mentions:
 - slug: 2026-08-11-nasa-completes-astronaut-deployed-science-instrument-for-lun
   title: NASA Completes Astronaut-Deployed Science Instrument for Lunar Surface
   date: '2026-08-11'
-  kind: web
-- slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
-  title: Chip Industry Week in Review (7 Aug 2026)
-  date: '2026-08-07'
-  kind: web
-- slug: 2026-07-21-robotically-assembled-electromagnetic-metamaterials-for-long
-  title: Robotically Assembled Electromagnetic Metamaterials for Long-Range Space Situational Awareness
-  date: '2026-07-21'
-  kind: web
-- slug: 2026-07-21-niac-2026-selections
-  title: NIAC 2026 Selections
-  date: '2026-07-21'
   kind: web
 neighbors: []
 ---

@@ -29,15 +29,15 @@ descendants:
 - neural-electrodes
 - non-invasive-bci
 - non-invasive-neural-recording-modalities
-mention_count: 11
+mention_count: 12
 frontier:
 - Does the IGZO thin-film backplane retain in-pixel gain, noise floor and multiplexing fidelity over months of chronic implantation, and at what channel count does interconnect reduction stop being the limiting factor?
 - Can the NEMO sensor's 110 µV limit of detection be reduced to resolve single-unit spikes in vivo, and what is the measured stimulation-artefact rejection compared with a matched electrode array?
 - Do lysosome-directed interventions measurably reduce the reported ~50% one-year BCI failure rate in animal or human implants, and by how much?
 - Will InBrain's 90-day follow-up and fuller 2026 results show whether graphene electrodes offer any chronic advantage, given that the completed study was intra-operative rather than chronic?
 - Does ns-ZrOx's memristive behaviour produce a functional biohybrid computation advantage in neuron-glia networks, beyond demonstrated biocompatibility?
-sources_7d: 0
-sources_30d: 1
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
 - slug: 2026-06-23-inbrain-graphene-first-in-human
   title: 'InBrain Neuroelectronics: world-first-in-human graphene neural interface study, $50M Series B, FDA Breakthrough Device, Merck KGaA partnership'

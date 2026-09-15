@@ -24,9 +24,9 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 333
-sources_7d: 4
-sources_30d: 14
+mention_count: 335
+sources_7d: 7
+sources_30d: 17
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
@@ -52,14 +52,14 @@ recent_mentions:
   title: TIM approaches — exhaustive in-market + R&D sweep (vendors, classes, startups)
   date: '2026-06-22'
   kind: web
-- slug: 2026-06-04-fulfilling-the-promise-of-graphene---enterprisecamacuk
-  title: Fulfilling the promise of graphene - enterprise.cam.ac.uk
-  date: '2026-06-04'
-  kind: web
 - slug: 2026-05-29-blairs-been-on-the-tokens-again
   title: Blair's Been On The Tokens Again
   date: '2026-05-29'
   kind: substack
+- slug: 2026-02-06-eth-zurich-spinout-chiral-bags-12m-to-scale-robotic-platform
+  title: ETH Zurich spinout Chiral bags $12M to scale robotic platform for graphene chip integration - Tech Funding News
+  date: '2026-02-06'
+  kind: web
 neighbors: []
 ---
 **Graphene is a single atomic layer of carbon whose Dirac-like electrons and mechanical robustness make it the default substrate and tuning platform across 2D materials research, but the May 2026 literature shows it functioning mainly as a laboratory building block rather than a deployed material.**

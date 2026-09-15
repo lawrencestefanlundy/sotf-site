@@ -23,6 +23,18 @@ mention_count: 82
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-14-tar-aims-to-build-off-grid-power-for-data-centers-in-just-si
+  title: TAR aims to build off-grid power for data centers in just six months - latitudemedia.com
+  date: '2026-09-14'
+  kind: web
+- slug: 2026-09-11-oracle-and-openai-bet-that-more-solar-could-combat-data-cent
+  title: Oracle and OpenAI bet that more solar could combat data center pushback - latitudemedia.com
+  date: '2026-09-11'
+  kind: web
+- slug: 2026-09-10-one-nuclear-launches-5-gw-louisiana-portfolio-of-energy-proj
+  title: ONE Nuclear launches 5 GW Louisiana portfolio of energy projects comprising nuclear, natural gas and battery storage - Latitude Media
+  date: '2026-09-10'
+  kind: web
 - slug: 2026-09-04-building-clean-power-for-data-centers-in-a-gas-obsessed-mark
   title: Building clean power for data centers in a gas-obsessed market - Latitude Media
   date: '2026-09-04'
@@ -42,18 +54,6 @@ recent_mentions:
 - slug: 2026-08-05-which-ldes-companies-are-poised-to-land-the-next-big-contrac
   title: Which LDES companies are poised to land the next big contracts? - Latitude Media
   date: '2026-08-05'
-  kind: web
-- slug: 2026-07-30-cfs-thinks-fusion-isnt-ready-for-public-markets---latitude-m
-  title: CFS thinks fusion isn’t ready for public markets - Latitude Media
-  date: '2026-07-30'
-  kind: web
-- slug: 2026-07-20-making-sense-of-the-data-center-backlash
-  title: Making sense of the data center backlash
-  date: '2026-07-20'
-  kind: web
-- slug: 2026-07-17-the-data-center-backlash-isnt-just-nimbyism
-  title: The data center backlash isn’t just NIMBYism
-  date: '2026-07-17'
   kind: web
 neighbors: []
 ---

@@ -35,9 +35,9 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 914
-sources_7d: 2
-sources_30d: 5
+mention_count: 927
+sources_7d: 3
+sources_30d: 6
 recent_mentions:
 - slug: 2026-09-03-space-compute-cheap-launch-rebuild
   title: Space compute rebuilt around the cheap-launch case — what survives the premise

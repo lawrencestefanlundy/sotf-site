@@ -17,7 +17,7 @@ related_concepts:
 sources:
 - '[[2026-05-30-intel-optoscribe-acquisition]]'
 mention_count: 30
-sources_7d: 2
+sources_7d: 1
 sources_30d: 2
 recent_mentions:
 - slug: 2026-05-30-intel-optoscribe-acquisition

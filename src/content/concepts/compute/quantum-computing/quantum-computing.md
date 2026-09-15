@@ -38,7 +38,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 651
+mention_count: 658
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -68,9 +68,33 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 2
-sources_30d: 9
+sources_7d: 3
+sources_30d: 10
 recent_mentions:
+- slug: 2026-09-14-rigetti-computing-finalizes-definitive-100-million-chips-act
+  title: Rigetti Computing Finalizes Definitive $100 Million CHIPS Act Award with U.S. Department of Commerce - Quantum Computing Report
+  date: '2026-09-14'
+  kind: web
+- slug: 2026-09-12-us-government-backs-d-wave-nyse-qbts-rigetti-nasdaq-rgti-and
+  title: 'U.S. Government Backs D-Wave (NYSE: QBTS), Rigetti (NASDAQ: RGTI), And Quantinuum With $300 Million In CHIPS Act Funding - foreignpolicyjournal.com'
+  date: '2026-09-12'
+  kind: web
+- slug: 2026-09-11-d-wave-finalizes-100-million-chips-act-funding---electronics
+  title: D-Wave finalizes $100 million CHIPS Act funding - Electronics360
+  date: '2026-09-11'
+  kind: web
+- slug: 2026-09-11-rigetti-rgti-stock-looks-stretched-despite-fresh-chips-act-f
+  title: Rigetti (RGTI) Stock Looks Stretched Despite Fresh CHIPS Act Funding - simplywall.st
+  date: '2026-09-11'
+  kind: web
+- slug: 2026-09-10-nist-developed-quantum-sensors-improve-nuclear-monitoring
+  title: NIST-Developed Quantum Sensors Improve Nuclear Monitoring
+  date: '2026-09-10'
+  kind: web
+- slug: 2026-09-10-d-wave-quantum-nature-papers-chips-act-equity-and-a-stock-th
+  title: 'D-Wave Quantum: Nature Papers, CHIPS Act Equity, and a Stock That Won''t Play Along - ad-hoc-news.de'
+  date: '2026-09-10'
+  kind: web
 - slug: 2026-09-09-rigetti-stock-gains-after-securing-100-million-in-chips-act-
   title: Rigetti Stock Gains After Securing $100 Million in CHIPS Act Funding - TIKR.com
   date: '2026-09-09'
@@ -78,30 +102,6 @@ recent_mentions:
 - slug: 2026-09-09-quantinuum-finalizes-100-million-chips-act-rd-award-to-accel
   title: Quantinuum Finalizes $100 Million CHIPS Act R&D Award to Accelerate Trapped-Ion Manufacturing - Quantum Computing Report
   date: '2026-09-09'
-  kind: web
-- slug: 2026-09-09-rigetti-computing-rgti-secures-100-million-in-chips-act-fund
-  title: Rigetti Computing (RGTI) Secures $100 Million In CHIPS Act Funding - simplywall.st
-  date: '2026-09-09'
-  kind: web
-- slug: 2026-09-09-us-government-funds-quantum-startup-psiquantum-under-chips-a
-  title: US Government Funds Quantum Startup PsiQuantum Under CHIPS Act - forklog.com
-  date: '2026-09-09'
-  kind: web
-- slug: 2026-09-08-quantum-stocks-rally-as-commerce-department-takes-equity-sta
-  title: 'Quantum Stocks Rally as Commerce Department Takes Equity Stakes: Rigetti Surges 6%, D-Wave Climbs 5% - 24/7 Wall St.'
-  date: '2026-09-08'
-  kind: web
-- slug: 2026-09-08-rigetti-computing-wins-up-to-100-million-chips-funding-issue
-  title: Rigetti Computing Wins Up to $100 Million CHIPS Funding, Issues $100 Million in Stock to U.S. Commerce - TradingView
-  date: '2026-09-08'
-  kind: web
-- slug: 2026-09-08-prnewswire-quantinuum-secures-100m-chips-act-rd-award---yonh
-  title: '[PRNewswire] Quantinuum Secures $100M CHIPS Act R&D Award - Yonhap News Agency'
-  date: '2026-09-08'
-  kind: web
-- slug: 2026-09-08-rigetti-and-d-wave-finalize-100m-chips-act-deals-as-governme
-  title: Rigetti and D-Wave Finalize $100M CHIPS Act Deals as Government Takes Equity - Barron's
-  date: '2026-09-08'
   kind: web
 neighbors: []
 ---

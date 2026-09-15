@@ -123,6 +123,22 @@ descendants:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-14-tar-aims-to-build-off-grid-power-for-data-centers-in-just-si
+  title: TAR aims to build off-grid power for data centers in just six months - latitudemedia.com
+  date: '2026-09-14'
+  kind: web
+- slug: 2026-09-11-oracle-and-openai-bet-that-more-solar-could-combat-data-cent
+  title: Oracle and OpenAI bet that more solar could combat data center pushback - latitudemedia.com
+  date: '2026-09-11'
+  kind: web
+- slug: 2026-09-10-one-nuclear-launches-5-gw-louisiana-portfolio-of-energy-proj
+  title: ONE Nuclear launches 5 GW Louisiana portfolio of energy projects comprising nuclear, natural gas and battery storage - Latitude Media
+  date: '2026-09-10'
+  kind: web
+- slug: 2026-09-10-do-data-centers-really-increase-electricity-prices---latitud
+  title: Do data centers really increase electricity prices? - Latitude Media
+  date: '2026-09-10'
+  kind: web
 - slug: 2026-09-09-are-gencos-a-solve-for-the-data-center-power-problem---latit
   title: Are GenCos a solve for the data center power problem? - Latitude Media
   date: '2026-09-09'
@@ -138,22 +154,6 @@ recent_mentions:
 - slug: 2026-09-04-building-clean-power-for-data-centers-in-a-gas-obsessed-mark
   title: Building clean power for data centers in a gas-obsessed market - Latitude Media
   date: '2026-09-04'
-  kind: web
-- slug: 2026-09-03-what-comes-after-the-data-center-backlash---latitude-media
-  title: What comes after the data center backlash? - Latitude Media
-  date: '2026-09-03'
-  kind: web
-- slug: 2026-09-03-gridsight-raises-26m-series-b-to-unlock-electric-grid-capaci
-  title: Gridsight raises $26M series B to unlock electric grid capacity and affordability - Latitude Media
-  date: '2026-09-03'
-  kind: web
-- slug: 2026-09-03-three-questions-left-open-by-trumps-bulk-power-executive-ord
-  title: Three questions left open by Trump’s bulk power executive order - Latitude Media
-  date: '2026-09-03'
-  kind: web
-- slug: 2026-09-01-chinas-rare-earths-duopoly
-  title: China's Rare Earths Duopoly
-  date: '2026-09-01'
   kind: web
 neighbors: []
 ---

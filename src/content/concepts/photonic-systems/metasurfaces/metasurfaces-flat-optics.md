@@ -26,7 +26,6 @@ descendants:
 - wafer-level-optics
 sources:
 - '[[2026-07-07-the-asml-killer]]'
-- '[[2025-01-06-radiant-acquires-nilt]]'
 scorecard:
   viability: 4
   drivers: 3
@@ -36,9 +35,9 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 139
-sources_7d: 1
-sources_30d: 9
+mention_count: 140
+sources_7d: 2
+sources_30d: 10
 recent_mentions:
 - slug: 2026-07-21-robotically-assembled-electromagnetic-metamaterials-for-long
   title: Robotically Assembled Electromagnetic Metamaterials for Long-Range Space Situational Awareness

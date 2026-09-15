@@ -19,7 +19,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - material
-mention_count: 38
+mention_count: 40
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 3
@@ -30,8 +30,8 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 1
-sources_30d: 5
+sources_7d: 3
+sources_30d: 7
 recent_mentions: []
 neighbors:
 - slug: rare-earth-elements

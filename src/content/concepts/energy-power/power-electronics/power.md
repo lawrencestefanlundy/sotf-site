@@ -15,11 +15,11 @@ last_updated: '2026-05-07'
 tags:
 - concept
 - category
-mention_count: 9
+mention_count: 10
 descendants: []
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
 - slug: 2024-omdia-power-electronics-forecast
   title: Omdia — Power Semiconductors Long-Term Forecast 2024

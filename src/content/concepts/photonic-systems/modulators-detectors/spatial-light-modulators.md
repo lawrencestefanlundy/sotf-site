@@ -49,7 +49,7 @@ tags:
 - slm
 - photonic-compute
 last_reorg_date: '2026-05-13'
-mention_count: 52
+mention_count: 53
 scorecard:
   viability: 4
   drivers: 4
@@ -59,8 +59,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 4
+sources_7d: 1
+sources_30d: 5
 recent_mentions:
 - slug: 2026-07-07-the-asml-killer
   title: The ASML Killer?

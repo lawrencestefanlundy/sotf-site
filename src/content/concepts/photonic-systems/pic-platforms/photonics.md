@@ -50,7 +50,7 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-mention_count: 1079
+mention_count: 1088
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -86,12 +86,12 @@ recent_mentions:
   title: 'Inference-silicon roster verification sprint: 10 companies for the competitive-analysis capital map'
   date: '2026-07-31'
   kind: web
-- slug: 2026-07-29-serenity-globalfoundries-receives-support-from-the-us-chips-
-  title: 'Serenity: GlobalFoundries receives support from the US CHIPS Act, benefiting Sivers and Lumentum - Bitget'
+- slug: 2026-07-29-globalfoundries-wins-300-million-chips-act-silicon-photonics
+  title: GlobalFoundries wins $300 million CHIPS Act silicon photonics award - Yahoo Finance
   date: '2026-07-29'
   kind: web
-- slug: 2026-07-29-aeluma-secures-loi-for-up-to-30-million-in-chips-act-funding
-  title: Aeluma Secures LOI for Up to $30 Million in CHIPS Act Funding to Advance Photonics Semiconductor R&D - Quiver Quantitative
+- slug: 2026-07-29-serenity-globalfoundries-receives-support-from-the-us-chips-
+  title: 'Serenity: GlobalFoundries receives support from the US CHIPS Act, benefiting Sivers and Lumentum - Bitget'
   date: '2026-07-29'
   kind: web
 neighbors: []

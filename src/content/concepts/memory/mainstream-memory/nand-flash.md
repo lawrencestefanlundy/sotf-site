@@ -31,7 +31,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 54
+mention_count: 55
 last_reorg_date: '2026-05-14'
 scorecard:
   viability: 4
@@ -42,17 +42,17 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 1
-sources_30d: 6
+sources_7d: 2
+sources_30d: 7
 recent_mentions:
-- slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
-  title: Chip Industry Week in Review (7 Aug 2026)
-  date: '2026-08-07'
-  kind: web
 - slug: 2026-08-07-the-memory-trade-isnt-over-weights
   title: 'The Memory Trade Isn''t Over: Weights and KV Cache'
   date: '2026-08-07'
   kind: substack
+- slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
+  title: Chip Industry Week in Review (7 Aug 2026)
+  date: '2026-08-07'
+  kind: web
 - slug: 2026-07-10-inference-silicon-deep-research
   title: 'Deep research: measured vs claimed inference-silicon economics (adversarially verified, 23/25 claims confirmed)'
   date: '2026-07-10'

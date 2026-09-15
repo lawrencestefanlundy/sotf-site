@@ -52,6 +52,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 1
 recent_mentions:
+- slug: 2026-07-29-globalfoundries-wins-300-million-chips-act-silicon-photonics
+  title: GlobalFoundries wins $300 million CHIPS Act silicon photonics award - Yahoo Finance
+  date: '2026-07-29'
+  kind: web
 - slug: 2026-07-29-aeluma-signs-letter-of-intent-for-30m-chips-act-funding---in
   title: Aeluma signs letter of intent for $30M CHIPS Act funding - Investing.com
   date: '2026-07-29'
@@ -80,10 +84,6 @@ recent_mentions:
   title: 'Silicon Photonics and Photonic Integrated Circuits 2026-2036: Technologies, Markets, and Forecasts'
   date: '2026-03-30'
   kind: web
-- slug: 2025-12-09-gallium-nitride-photonics-w-james
-  title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
-  date: '2025-12-09'
-  kind: substack
 neighbors: []
 ---
 **Photonic integrated circuits route and manipulate light in lithographically defined waveguides on a chip, and the 2026 literature shows the field has moved from proving individual devices to fighting the system-level problems (crosstalk, fabrication variability, tuning drift, missing memory, detector integration) that decide whether large circuits can be built at all.**

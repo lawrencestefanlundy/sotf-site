@@ -52,6 +52,18 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-11-rigetti-rgti-stock-looks-stretched-despite-fresh-chips-act-f
+  title: Rigetti (RGTI) Stock Looks Stretched Despite Fresh CHIPS Act Funding - simplywall.st
+  date: '2026-09-11'
+  kind: web
+- slug: 2026-09-10-do-data-centers-really-increase-electricity-prices---latitud
+  title: Do data centers really increase electricity prices? - Latitude Media
+  date: '2026-09-10'
+  kind: web
+- slug: 2026-09-10-the-pulse-191-a-new-trend-of-cpu-shortages
+  title: 'The Pulse #191: a new trend of CPU shortages'
+  date: '2026-09-10'
+  kind: web
 - slug: 2026-09-09-semi-calls-on-the-chips-act-20---ink-world-magazine
   title: SEMI Calls On The Chips Act 2.0 - Ink World Magazine
   date: '2026-09-09'
@@ -71,18 +83,6 @@ recent_mentions:
 - slug: 2026-09-09-rigetti-computing-rgti-secures-100-million-in-chips-act-fund
   title: Rigetti Computing (RGTI) Secures $100 Million In CHIPS Act Funding - simplywall.st
   date: '2026-09-09'
-  kind: web
-- slug: 2026-09-08-semi-urges-eu-to-strengthen-chips-act-20-for-semiconductor-c
-  title: SEMI Urges EU to Strengthen Chips Act 2.0 for Semiconductor Competitiveness - IndexBox
-  date: '2026-09-08'
-  kind: web
-- slug: 2026-09-08-rigetti-computing-wins-up-to-100-million-chips-funding-issue
-  title: Rigetti Computing Wins Up to $100 Million CHIPS Funding, Issues $100 Million in Stock to U.S. Commerce - TradingView
-  date: '2026-09-08'
-  kind: web
-- slug: 2026-09-08-rigetti-signs-100m-chips-act-deal-with-us-commerce---asktrad
-  title: Rigetti Signs $100m CHIPS Act Deal With US Commerce - AskTraders
-  date: '2026-09-08'
   kind: web
 neighbors:
 - slug: logic

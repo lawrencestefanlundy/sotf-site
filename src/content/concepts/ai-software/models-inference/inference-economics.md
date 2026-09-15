@@ -43,7 +43,7 @@ scorecard_status: draft
 mention_count: 27
 descendants:
 - token-cost-stack
-sources_7d: 1
+sources_7d: 0
 sources_30d: 1
 recent_mentions:
 - slug: 2026-08-14-chip-tail-verification-sweep

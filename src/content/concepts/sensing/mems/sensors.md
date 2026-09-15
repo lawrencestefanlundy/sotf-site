@@ -28,6 +28,14 @@ sources:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-14-esa-space-environment-report-2026
+  title: ESA Space Environment Report 2026
+  date: '2026-09-14'
+  kind: web
+- slug: 2026-09-10-nist-developed-quantum-sensors-improve-nuclear-monitoring
+  title: NIST-Developed Quantum Sensors Improve Nuclear Monitoring
+  date: '2026-09-10'
+  kind: web
 - slug: 2026-09-08-nasa-calls-for-proposals-to-accelerate-lunar-surface-technol
   title: NASA Calls for Proposals to Accelerate Lunar Surface Technologies
   date: '2026-09-08'
@@ -51,14 +59,6 @@ recent_mentions:
 - slug: 2026-08-03-nasa-delivers-navigation-system-for-commercial-lunar-relay
   title: NASA Delivers Navigation System for Commercial Lunar Relay
   date: '2026-08-03'
-  kind: web
-- slug: 2026-08-02-shipments-of-wireless-devices-in-industrial-automation-to-re
-  title: Shipments of wireless devices in industrial automation to reach 8.5 million by 2030 - TyN Magazine
-  date: '2026-08-02'
-  kind: web
-- slug: 2026-07-21-a-new-compact-instrument-enables-high-fidelity-measurements-
-  title: A New Compact Instrument Enables High-Fidelity Measurements of Energetic Particles on CubeSats
-  date: '2026-07-21'
   kind: web
 neighbors: []
 ---

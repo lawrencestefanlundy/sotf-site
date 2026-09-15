@@ -66,9 +66,13 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 3
+sources_7d: 2
 sources_30d: 5
 recent_mentions:
+- slug: 2026-09-10-the-pulse-191-a-new-trend-of-cpu-shortages
+  title: 'The Pulse #191: a new trend of CPU shortages'
+  date: '2026-09-10'
+  kind: web
 - slug: 2026-09-08-theres-an-awful-lot-we-dont-know-about-data-centers
   title: There’s an awful lot we don’t know about data centers
   date: '2026-09-08'
@@ -95,10 +99,6 @@ recent_mentions:
   kind: web
 - slug: 2026-09-07-sag-counterpoint-humanoid-shipments-h1-2026
   title: 'Global humanoid robot shipments 1H 2026: 19.1k units, +272% YoY (Smart Analytics Global; Counterpoint)'
-  date: '2026-09-07'
-  kind: web
-- slug: 2026-09-07-the-frontier-aeo-tracker-what-astra-chooses-and-every-other-
-  title: 'The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)'
   date: '2026-09-07'
   kind: web
 neighbors: []

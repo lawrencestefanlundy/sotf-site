@@ -50,7 +50,7 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Overrated
 scorecard_status: draft
-sources_7d: 1
+sources_7d: 0
 sources_30d: 2
 recent_mentions: []
 neighbors:

@@ -23,7 +23,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 78
+mention_count: 80
 descendants:
 - automated-test-equipment
 - ion-implantation
@@ -31,7 +31,7 @@ descendants:
 - probe-cards
 - wafer-level-burn-in
 sources_7d: 3
-sources_30d: 4
+sources_30d: 5
 recent_mentions:
 - slug: 2026-09-09-semi-calls-on-the-chips-act-20---ink-world-magazine
   title: SEMI Calls On The Chips Act 2.0 - Ink World Magazine

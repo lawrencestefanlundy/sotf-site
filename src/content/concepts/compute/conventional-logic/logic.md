@@ -34,6 +34,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-10-the-pulse-191-a-new-trend-of-cpu-shortages
+  title: 'The Pulse #191: a new trend of CPU shortages'
+  date: '2026-09-10'
+  kind: web
 - slug: 2026-09-09-rigetti-stock-gains-after-securing-100-million-in-chips-act-
   title: Rigetti Stock Gains After Securing $100 Million in CHIPS Act Funding - TIKR.com
   date: '2026-09-09'
@@ -61,10 +65,6 @@ recent_mentions:
 - slug: 2026-07-31-memory-fakes-and-thermodynamic-compute-chips-act-bets-874m-o
   title: 'Memory, Fakes, and Thermodynamic Compute: CHIPS Act Bets $874M on Six AI Stack Gaps - Tech Times'
   date: '2026-07-31'
-  kind: web
-- slug: 2026-07-29-department-of-commerce-announces-letters-of-intent-with-7-co
-  title: Department of Commerce Announces Letters of Intent With 7 Companies for $874 Million to Accelerate Semiconductor R&D for the Compute Supply Chain - National Institute of Standards and Technology (.gov)
-  date: '2026-07-29'
   kind: web
 neighbors: []
 ---

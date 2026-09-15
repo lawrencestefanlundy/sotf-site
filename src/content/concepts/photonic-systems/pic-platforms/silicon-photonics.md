@@ -34,13 +34,17 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 168
+mention_count: 170
 descendants:
 - avalanche-photodiode
 - optical-gyroscope
-sources_7d: 2
+sources_7d: 1
 sources_30d: 4
 recent_mentions:
+- slug: 2026-07-29-globalfoundries-wins-300-million-chips-act-silicon-photonics
+  title: GlobalFoundries wins $300 million CHIPS Act silicon photonics award - Yahoo Finance
+  date: '2026-07-29'
+  kind: web
 - slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
   title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
   date: '2026-07-28'
@@ -68,10 +72,6 @@ recent_mentions:
 - slug: 2026-05-30-optical-interconnect-ma-ledger
   title: Optical-interconnect / photonic-packaging M&A ledger (2019-2026)
   date: '2026-05-30'
-  kind: web
-- slug: 2026-05-02-bto-pockels-modulator-on-silicon-photonics-jlt-2019
-  title: BTO Pockels modulator on silicon photonics (JLT 2019)
-  date: '2026-05-02'
   kind: web
 neighbors: []
 ---

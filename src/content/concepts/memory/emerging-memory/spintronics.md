@@ -19,9 +19,9 @@ descendants:
 - all-optical-switching
 - magneto-optical
 sources: []
-mention_count: 78
-sources_7d: 2
-sources_30d: 8
+mention_count: 79
+sources_7d: 3
+sources_30d: 9
 recent_mentions: []
 neighbors:
 - slug: mram

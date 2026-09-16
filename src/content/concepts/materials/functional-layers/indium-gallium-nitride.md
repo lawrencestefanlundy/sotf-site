@@ -22,9 +22,9 @@ frontier:
 last_updated: 2026-06-02
 tags:
 - concept
-mention_count: 4
-sources_7d: 1
-sources_30d: 2
+mention_count: 5
+sources_7d: 2
+sources_30d: 3
 recent_mentions: []
 neighbors:
 - slug: gallium-nitride

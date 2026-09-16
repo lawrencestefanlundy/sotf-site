@@ -40,6 +40,10 @@ recent_mentions:
   title: 🔬 The Lab of the Future Should Feel Like a Data Center — Andy Beam & Rafa Gómez-Bombarelli, Lila Sciences
   date: '2026-07-16'
   kind: web
+- slug: 2024-11-14-bringing-lab-testing-to-the-home---mit-news
+  title: Bringing lab testing to the home - MIT News
+  date: '2024-11-14'
+  kind: web
 neighbors: []
 ---
 **Life sciences tools and services is the instrument-and-consumables layer beneath biology, and the 2026 preprint record shows it advancing on three separate fronts at once: physics-limited measurement (sub-microsecond single-molecule readout, label-free tomography inside opaque tissue), radical hardware cost reduction (a liquid handler built from a consumer 3D printer, a 400-pixel ultrasound lens driven by 80 pumps), and an AI analysis layer whose reliability is still unproven.**

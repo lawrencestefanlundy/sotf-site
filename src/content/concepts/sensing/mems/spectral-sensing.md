@@ -27,7 +27,11 @@ scorecard:
 scorecard_status: draft
 sources_7d: 1
 sources_30d: 1
-recent_mentions: []
+recent_mentions:
+- slug: 2024-11-14-bringing-lab-testing-to-the-home---mit-news
+  title: Bringing lab testing to the home - MIT News
+  date: '2024-11-14'
+  kind: web
 neighbors: []
 ---
 **Spectral sensing treats the full distribution of a signal across frequency or wavelength as the measurement itself rather than reducing it to a single number, and across imaging, electrophysiology and chemical sensing it is now the layer where machine learning is extracting clinically useful information.**

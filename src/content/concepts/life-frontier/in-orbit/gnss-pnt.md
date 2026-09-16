@@ -24,7 +24,7 @@ frontier:
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 12
+mention_count: 14
 scorecard:
   viability: null
   drivers: null
@@ -34,8 +34,8 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 0
+sources_7d: 2
+sources_30d: 2
 recent_mentions:
 - slug: 2026-01-06-delfts-qualinx-raises-20m-to-bring-ultra-low-power-gnss-chip
   title: Delft’s Qualinx raises €20M to bring ultra-low-power GNSS chip to market - Bits&Chips

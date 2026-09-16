@@ -25,10 +25,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - framework
-mention_count: 32
+mention_count: 34
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 2
+sources_7d: 2
+sources_30d: 4
 recent_mentions:
 - slug: 2026-08-20-callosum-100m-seed-announcement
   title: Callosum announces $100M seed led by Atomico (round coverage + Companies House filings)

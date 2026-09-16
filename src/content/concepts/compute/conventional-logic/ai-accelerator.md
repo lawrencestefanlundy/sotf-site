@@ -55,7 +55,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 107
+mention_count: 108
 last_reorg_date: '2026-05-14'
 scorecard:
   viability: 4
@@ -66,8 +66,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 2
-sources_30d: 5
+sources_7d: 3
+sources_30d: 6
 recent_mentions:
 - slug: 2026-09-10-the-pulse-191-a-new-trend-of-cpu-shortages
   title: 'The Pulse #191: a new trend of CPU shortages'

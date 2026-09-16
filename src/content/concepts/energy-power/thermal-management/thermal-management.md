@@ -38,7 +38,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 105
+mention_count: 106
 descendants:
 - ai-thermal-management
 - cryogenic-cooling
@@ -63,7 +63,7 @@ descendants:
 - two-phase-cooling
 - vapor-chambers
 sources_7d: 2
-sources_30d: 9
+sources_30d: 8
 recent_mentions:
 - slug: 2026-09-02-vertical-power-delivery-thermal-limits
   title: 'Vertical power delivery: the thermal limit at the 48V-to-point-of-load stage'

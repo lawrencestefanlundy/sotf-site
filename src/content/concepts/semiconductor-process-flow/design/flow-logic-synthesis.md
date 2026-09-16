@@ -16,11 +16,11 @@ sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2026-05-12-semianalysis-eda-rtl-to-silicon]]'
-mention_count: 18
+mention_count: 20
 parent_concepts:
 - flow-rtl-design
-sources_7d: 0
-sources_30d: 3
+sources_7d: 2
+sources_30d: 5
 recent_mentions:
 - slug: 2026-05-12-semianalysis-eda-rtl-to-silicon
   title: 'The EDA Primer: From RTL to Silicon'

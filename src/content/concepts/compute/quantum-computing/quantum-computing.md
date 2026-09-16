@@ -38,7 +38,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 658
+mention_count: 684
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -68,8 +68,8 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 3
-sources_30d: 10
+sources_7d: 8
+sources_30d: 13
 recent_mentions:
 - slug: 2026-09-14-rigetti-computing-finalizes-definitive-100-million-chips-act
   title: Rigetti Computing Finalizes Definitive $100 Million CHIPS Act Award with U.S. Department of Commerce - Quantum Computing Report

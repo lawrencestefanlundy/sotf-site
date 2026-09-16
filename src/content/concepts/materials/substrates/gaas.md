@@ -12,9 +12,9 @@ sources:
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 - '[[2026-06-22-thermal-stack-layer-landscape]]'
 - '[[2026-07-11-neutral-pdk-heterogeneous-integration-landscape]]'
-mention_count: 85
-sources_7d: 4
-sources_30d: 10
+mention_count: 87
+sources_7d: 6
+sources_30d: 12
 recent_mentions:
 - slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape
   title: Neutral PDK / EDA layer for heterogeneous photonic integration — landscape check (Scintil essay correction research)

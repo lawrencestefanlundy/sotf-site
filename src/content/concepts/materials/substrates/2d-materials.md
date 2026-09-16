@@ -21,7 +21,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 71
+mention_count: 72
 last_reorg_date: '2026-05-13'
 descendants: []
 scorecard:
@@ -33,7 +33,7 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 3
+sources_7d: 4
 sources_30d: 16
 recent_mentions:
 - slug: 2026-05-24-mose2-exciton-polariton-all-optical-switch

@@ -17,7 +17,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 14
+mention_count: 15
 frontier:
 - Does the EDIP earmark translate into measurable new European bare-board capacity, or does environmental permitting keep the 2.3% share flat?
 - Can the data-scarcity problem in PCB design automation be solved without proprietary vendor datasets, given that PCB-QA currently spans only 8 open-source projects and 480 question-answer pairs?
@@ -37,8 +37,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
 - slug: 2026-06-13-sovereign-electronics-manufacturing-the-achilles-heel-of
   title: The Achilles' heel of European defence—printed circuit board. Why environmental regulations are strangling PCB production in EU

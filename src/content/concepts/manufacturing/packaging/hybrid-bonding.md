@@ -16,9 +16,9 @@ sources:
 - '[[2026-07-02-semianalysis-ectc2026-advanced-packaging]]'
 - '[[2026-04-15-semianalysis-isscc-2026]]'
 - '[[2026-06-22-tim-approaches-full-sweep]]'
-mention_count: 18
-sources_7d: 1
-sources_30d: 2
+mention_count: 19
+sources_7d: 2
+sources_30d: 3
 recent_mentions:
 - slug: 2026-07-16-the-path-to-agi-runs-through-hbm
   title: The Path To AGI Runs Through HBM

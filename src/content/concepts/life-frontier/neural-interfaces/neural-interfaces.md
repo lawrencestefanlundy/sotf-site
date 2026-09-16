@@ -37,7 +37,7 @@ frontier:
 - Will InBrain's 90-day follow-up and fuller 2026 results show whether graphene electrodes offer any chronic advantage, given that the completed study was intra-operative rather than chronic?
 - Does ns-ZrOx's memristive behaviour produce a functional biohybrid computation advantage in neuron-glia networks, beyond demonstrated biocompatibility?
 sources_7d: 1
-sources_30d: 2
+sources_30d: 1
 recent_mentions:
 - slug: 2026-06-23-inbrain-graphene-first-in-human
   title: 'InBrain Neuroelectronics: world-first-in-human graphene neural interface study, $50M Series B, FDA Breakthrough Device, Merck KGaA partnership'

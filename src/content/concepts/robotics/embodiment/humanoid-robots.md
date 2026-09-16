@@ -67,8 +67,8 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Overrated
 scorecard_status: draft
-mention_count: 90
-sources_7d: 1
+mention_count: 92
+sources_7d: 0
 sources_30d: 7
 recent_mentions:
 - slug: 2026-09-07-sag-counterpoint-humanoid-shipments-h1-2026

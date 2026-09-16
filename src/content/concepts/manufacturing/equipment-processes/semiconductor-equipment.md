@@ -30,9 +30,13 @@ descendants:
 - known-good-die-test
 - probe-cards
 - wafer-level-burn-in
-sources_7d: 3
+sources_7d: 2
 sources_30d: 5
 recent_mentions:
+- slug: 2026-09-14-semi-calls-for-chips-act-20-to-boost-semiconductor-competiti
+  title: SEMI Calls for Chips Act 2.0 to Boost Semiconductor Competitiveness - I-Connect007
+  date: '2026-09-14'
+  kind: web
 - slug: 2026-09-09-semi-calls-on-the-chips-act-20---ink-world-magazine
   title: SEMI Calls On The Chips Act 2.0 - Ink World Magazine
   date: '2026-09-09'
@@ -60,10 +64,6 @@ recent_mentions:
 - slug: 2026-09-04-cipr---the-european-chips-act-enters-into-force---european-c
   title: CIPR - The European Chips Act enters into force - European Commission
   date: '2026-09-04'
-  kind: web
-- slug: 2026-09-03-what-comes-after-the-data-center-backlash---latitude-media
-  title: What comes after the data center backlash? - Latitude Media
-  date: '2026-09-03'
   kind: web
 neighbors: []
 ---

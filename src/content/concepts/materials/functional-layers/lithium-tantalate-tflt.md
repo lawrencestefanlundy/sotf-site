@@ -31,7 +31,7 @@ tags:
 - photonics
 - lithium-tantalate
 - electro-optic
-mention_count: 18
+mention_count: 19
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 4
@@ -42,8 +42,8 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Underrated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions: []
 neighbors:
 - slug: lithium-niobate-tfln

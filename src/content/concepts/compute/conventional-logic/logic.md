@@ -34,6 +34,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-15-inside-openais-agentic-software-factory
+  title: Inside OpenAI’s agentic software factory
+  date: '2026-09-15'
+  kind: web
 - slug: 2026-09-10-the-pulse-191-a-new-trend-of-cpu-shortages
   title: 'The Pulse #191: a new trend of CPU shortages'
   date: '2026-09-10'
@@ -61,10 +65,6 @@ recent_mentions:
 - slug: 2026-08-03-the-inference-engineering-masterclass-philip-kiely-ali-taha-
   title: The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten
   date: '2026-08-03'
-  kind: web
-- slug: 2026-07-31-memory-fakes-and-thermodynamic-compute-chips-act-bets-874m-o
-  title: 'Memory, Fakes, and Thermodynamic Compute: CHIPS Act Bets $874M on Six AI Stack Gaps - Tech Times'
-  date: '2026-07-31'
   kind: web
 neighbors: []
 ---

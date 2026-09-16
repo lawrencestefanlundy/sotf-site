@@ -28,7 +28,7 @@ scorecard:
 scorecard_status: draft
 mention_count: 42
 sources_7d: 0
-sources_30d: 2
+sources_30d: 1
 recent_mentions:
 - slug: 2026-06-05-recursive-until-the-power-bill
   title: Recursive, Until the Power Bill

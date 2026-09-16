@@ -13,7 +13,6 @@ sources:
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 - '[[2026-05-24-mose2-exciton-polariton-all-optical-switch]]'
-- '[[2023-10-05-nynomic-nlir-investment]]'
 scorecard:
   viability: 4
   drivers: 3
@@ -23,11 +22,11 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 120
+mention_count: 121
 parent_concepts:
 - imaging
 - sensing
-sources_7d: 0
+sources_7d: 1
 sources_30d: 6
 recent_mentions: []
 neighbors:

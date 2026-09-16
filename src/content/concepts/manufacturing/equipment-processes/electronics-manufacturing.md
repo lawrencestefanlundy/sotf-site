@@ -10,7 +10,7 @@ related_concepts: []
 sources:
 - '[[2026-06-13-sovereign-electronics-manufacturing-reshoring-digest]]'
 - '[[2021-12-28-uk-electronics-manufacturing-three-insights-to-shape-2022---]]'
-mention_count: 3
+mention_count: 4
 sources_7d: 0
 sources_30d: 1
 recent_mentions:

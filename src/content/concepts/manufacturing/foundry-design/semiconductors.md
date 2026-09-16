@@ -52,6 +52,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-14-semi-calls-for-chips-act-20-to-boost-semiconductor-competiti
+  title: SEMI Calls for Chips Act 2.0 to Boost Semiconductor Competitiveness - I-Connect007
+  date: '2026-09-14'
+  kind: web
 - slug: 2026-09-11-rigetti-rgti-stock-looks-stretched-despite-fresh-chips-act-f
   title: Rigetti (RGTI) Stock Looks Stretched Despite Fresh CHIPS Act Funding - simplywall.st
   date: '2026-09-11'
@@ -78,10 +82,6 @@ recent_mentions:
   kind: web
 - slug: 2026-09-09-quantinuum-finalizes-100-million-chips-act-rd-award-to-accel
   title: Quantinuum Finalizes $100 Million CHIPS Act R&D Award to Accelerate Trapped-Ion Manufacturing - Quantum Computing Report
-  date: '2026-09-09'
-  kind: web
-- slug: 2026-09-09-rigetti-computing-rgti-secures-100-million-in-chips-act-fund
-  title: Rigetti Computing (RGTI) Secures $100 Million In CHIPS Act Funding - simplywall.st
   date: '2026-09-09'
   kind: web
 neighbors:

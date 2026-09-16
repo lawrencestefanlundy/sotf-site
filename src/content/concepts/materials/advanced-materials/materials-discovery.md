@@ -26,13 +26,13 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 58
+mention_count: 59
 descendants:
 - arpes
 - electron-scale-metrology
 - stm
 sources_7d: 1
-sources_30d: 8
+sources_30d: 6
 recent_mentions:
 - slug: 2024-09-19-can-ai-revolutionize-materials-discovery---latitude-media
   title: Can AI revolutionize materials discovery? - Latitude Media

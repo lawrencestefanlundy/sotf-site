@@ -32,9 +32,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 55
-sources_7d: 1
-sources_30d: 3
+mention_count: 60
+sources_7d: 3
+sources_30d: 4
 recent_mentions:
 - slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint
   title: 'What actually limits a humanoid to minutes: the thermal cliff, not the battery'

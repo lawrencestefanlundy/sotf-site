@@ -31,7 +31,7 @@ tags:
 - kernel-language
 - compute
 - reference
-mention_count: 13
+mention_count: 14
 scorecard:
   viability: 4
   drivers: 4
@@ -41,8 +41,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
 - slug: 2026-06-22-llm-kernel-compiler-synthesis-evidence
   title: LLM / agentic GPU-kernel and compiler synthesis — dated evidence arc 2025-2026

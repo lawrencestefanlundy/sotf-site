@@ -19,8 +19,6 @@ sources:
 - '[[2026-07-26-ai-breach-frequency-autonomous-soc]]'
 - '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
 - '[[2026-03-28-agentic-ai-security-funding-mna]]'
-- '[[2026-05-29-silicon-shock-the-macro-of-tech-inflation]]'
-- '[[2026-08-20-callosum-100m-seed-announcement]]'
 scorecard:
   viability: null
   drivers: null
@@ -30,8 +28,8 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-mention_count: 122
-sources_7d: 5
+mention_count: 124
+sources_7d: 7
 sources_30d: 12
 recent_mentions:
 - slug: 2026-08-20-callosum-100m-seed-announcement

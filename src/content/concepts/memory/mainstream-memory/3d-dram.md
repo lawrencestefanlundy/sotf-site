@@ -29,7 +29,7 @@ tags:
 sources:
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
-mention_count: 4
+mention_count: 5
 sources_7d: 1
 sources_30d: 1
 recent_mentions:

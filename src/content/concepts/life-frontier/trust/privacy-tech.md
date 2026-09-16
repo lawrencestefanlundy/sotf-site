@@ -41,7 +41,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - seeded-stub
-mention_count: 21
+mention_count: 22
 scorecard:
   viability: 3
   drivers: 3

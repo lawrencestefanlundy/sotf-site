@@ -30,8 +30,8 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Overrated
 scorecard_status: draft
-mention_count: 87
-sources_7d: 1
+mention_count: 89
+sources_7d: 0
 sources_30d: 5
 recent_mentions:
 - slug: 2026-06-01-hbm-state-of-play

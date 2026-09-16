@@ -43,7 +43,7 @@ tags:
 - reference
 descendants:
 - mlc-llm
-mention_count: 55
+mention_count: 57
 scorecard:
   viability: null
   drivers: null
@@ -53,7 +53,7 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 3
+sources_7d: 4
 sources_30d: 6
 recent_mentions:
 - slug: 2026-08-03-nasa-delivers-navigation-system-for-commercial-lunar-relay

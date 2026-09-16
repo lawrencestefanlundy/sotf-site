@@ -32,7 +32,11 @@ scorecard:
 scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2024-11-14-bringing-lab-testing-to-the-home---mit-news
+  title: Bringing lab testing to the home - MIT News
+  date: '2024-11-14'
+  kind: web
 neighbors: []
 ---
 **Health care equipment is the instrument layer of medicine (sensors, imaging front-ends, embedded inference silicon and treatment monitors), and the current research frontier is not new physics but fitting clinically useful measurement and computation inside hard energy, latency and hardware-compatibility budgets.**

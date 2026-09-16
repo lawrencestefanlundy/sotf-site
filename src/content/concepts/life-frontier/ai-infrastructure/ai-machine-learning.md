@@ -33,6 +33,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-15-inside-openais-agentic-software-factory
+  title: Inside OpenAI’s agentic software factory
+  date: '2026-09-15'
+  kind: web
 - slug: 2026-09-09-openai-does-math-reward-hacking-meta-launches-personal-agent
   title: OpenAI Does Math, Reward-Hacking, Meta Launches Personal Agent
   date: '2026-09-09'
@@ -60,10 +64,6 @@ recent_mentions:
 - slug: 2026-08-25-why-ramp-built-its-own-in-house-coding-agent-inspect
   title: Why Ramp built its own in-house coding agent, Inspect
   date: '2026-08-25'
-  kind: web
-- slug: 2026-08-20-can-ai-revolutionize-grid-operations---latitude-media
-  title: Can AI revolutionize grid operations? - Latitude Media
-  date: '2026-08-20'
   kind: web
 neighbors: []
 ---

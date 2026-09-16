@@ -16,7 +16,7 @@ last_updated: '2026-05-07'
 tags:
 - concept
 - category
-mention_count: 5
+mention_count: 6
 descendants:
 - coherent-ising-machine
 - combinatorial-optimisation
@@ -28,8 +28,8 @@ descendants:
 - uncertainty-propagation-compute
 - von-neumann-bottleneck
 last_reorg_date: '2026-05-14'
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
 - slug: 2025-07-14-solving-compute-crisis-physics-based-asics
   title: Solving the compute crisis with physics-based ASICs

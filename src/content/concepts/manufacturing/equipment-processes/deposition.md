@@ -20,7 +20,7 @@ auto_stub: false
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 235
+mention_count: 241
 descendants:
 - ald-atomic-layer-deposition
 - chemical-vapor-deposition
@@ -41,7 +41,7 @@ frontier:
 - Is the 6% growth-axis elastic anisotropy in ion-beam-sputtered silica a general property of ion-beam-sputtered oxides, and does removing it at 900 C degrade other coating properties?
 - Can kinetically driven dopant patterning during CVD, demonstrated in vanadium-doped WS2, be controlled deliberately rather than observed after the fact?
 sources_7d: 8
-sources_30d: 15
+sources_30d: 17
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'

@@ -36,7 +36,7 @@ frontier:
 - Do lysosome-directed interventions measurably reduce the reported ~50% one-year BCI failure rate in animal or human implants, and by how much?
 - Will InBrain's 90-day follow-up and fuller 2026 results show whether graphene electrodes offer any chronic advantage, given that the completed study was intra-operative rather than chronic?
 - Does ns-ZrOx's memristive behaviour produce a functional biohybrid computation advantage in neuron-glia networks, beyond demonstrated biocompatibility?
-sources_7d: 1
+sources_7d: 0
 sources_30d: 1
 recent_mentions:
 - slug: 2026-06-23-inbrain-graphene-first-in-human

@@ -26,6 +26,7 @@ sources:
 - '[[2025-10-21-ceva-launches-wi-fi-7-ip-for-smarter-ai-driven-iot-and-physi]]'
 - '[[2025-10-21-ceva-introduces-wi-fi-7-1x1-client-ip-to-power-smarter-more-]]'
 - '[[2026-robot-data-supply-funding-wave]]'
+- '[[2025-10-28-ceva-wi-fi-7-client-ip-supports-ai-enabled-iot-devices-and-p]]'
 - '[[2026-04-20-robot-autonomy-destination-bessemer-venture-partners]]'
 - '[[2026-08-06-the-year-ai-science-and-the-physical-ai-industry-came-alive]]'
 - '[[2026-09-01-chinas-ai-rally-is-real-most-global-investors-are-missing-it]]'
@@ -44,7 +45,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 95
+mention_count: 97
 descendants:
 - dexterous-manipulation
 - humanoid-robots
@@ -54,8 +55,8 @@ descendants:
 - tactile-sensing
 - vision-language-action-models
 - world-models
-sources_7d: 5
-sources_30d: 14
+sources_7d: 6
+sources_30d: 15
 recent_mentions:
 - slug: 2026-09-07-microchip-acquires-hailo-jul-2026
   title: Microchip Technology signs definitive agreement to acquire Hailo (Microchip IR, 24 Jul 2026; CTech; Globes)

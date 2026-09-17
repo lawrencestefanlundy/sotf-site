@@ -29,7 +29,7 @@ tags:
 - ai
 - foundation-models
 mention_count: 8
-sources_7d: 3
+sources_7d: 2
 sources_30d: 3
 recent_mentions:
 - slug: 2026-06-23-dataintelo-vla-models-market

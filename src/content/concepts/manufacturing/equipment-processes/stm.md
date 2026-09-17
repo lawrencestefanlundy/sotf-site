@@ -25,7 +25,7 @@ tags:
 public_expressions:
 - IBM
 - STM
-mention_count: 45
+mention_count: 46
 scorecard:
   viability: 4
   drivers: 3
@@ -35,8 +35,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 6
-sources_30d: 8
+sources_7d: 7
+sources_30d: 9
 recent_mentions: []
 neighbors:
 - slug: arpes

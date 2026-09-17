@@ -45,22 +45,22 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 114
-sources_7d: 8
+mention_count: 115
+sources_7d: 6
 sources_30d: 12
 recent_mentions:
 - slug: 2026-08-14-chip-tail-verification-sweep
   title: 'Chip-comparison tail verification sweep: 37 companies re-verified, consolidation wave confirmed'
   date: '2026-08-14'
   kind: web
-- slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
-  title: Chip Industry Week in Review (7 Aug 2026)
-  date: '2026-08-07'
-  kind: web
 - slug: 2026-08-07-the-memory-trade-isnt-over-weights
   title: 'The Memory Trade Isn''t Over: Weights and KV Cache'
   date: '2026-08-07'
   kind: substack
+- slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
+  title: Chip Industry Week in Review (7 Aug 2026)
+  date: '2026-08-07'
+  kind: web
 - slug: 2026-07-31-etched-research-sprint
   title: Etched research sprint — tape-out speed, HBM supply, customer orders (4-lane web sweep)
   date: '2026-07-31'

@@ -44,7 +44,7 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 4
+sources_7d: 3
 sources_30d: 6
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026

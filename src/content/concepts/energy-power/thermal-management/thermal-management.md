@@ -38,7 +38,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 106
+mention_count: 107
 descendants:
 - ai-thermal-management
 - cryogenic-cooling
@@ -62,7 +62,7 @@ descendants:
 - tim-approach-map
 - two-phase-cooling
 - vapor-chambers
-sources_7d: 2
+sources_7d: 3
 sources_30d: 8
 recent_mentions:
 - slug: 2026-09-02-vertical-power-delivery-thermal-limits

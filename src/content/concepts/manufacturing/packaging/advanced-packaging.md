@@ -41,7 +41,7 @@ descendants:
 - heterogeneous-integration
 - micro-transfer-printing
 - osat
-sources_7d: 3
+sources_7d: 2
 sources_30d: 11
 recent_mentions:
 - slug: 2026-09-02-vertical-power-delivery-thermal-limits

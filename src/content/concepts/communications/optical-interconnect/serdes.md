@@ -24,7 +24,7 @@ frontier:
 - What is the measured energy per bit and reach (package, board, cable) of 336G-class electrical SerDes, and at what distance does it lose to optical interconnect?
 - Do learned surrogates such as Mach42's reproduce SerDes-relevant behaviour (jitter, eye closure, long-tail transient response) to silicon-correlated accuracy, or only on smoother analogue blocks?
 - Which merchant SerDes vendors are qualified at 300G-plus per lane on leading-edge nodes, and what is the resulting concentration risk for custom accelerator programmes?
-sources_7d: 2
+sources_7d: 0
 sources_30d: 2
 recent_mentions:
 - slug: 2026-07-31-etched-research-sprint

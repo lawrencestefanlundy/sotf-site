@@ -24,9 +24,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 28
-sources_7d: 3
-sources_30d: 3
+mention_count: 30
+sources_7d: 5
+sources_30d: 5
 recent_mentions:
 - slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
   title: 'UK Opportunity in AI: Compound Semiconductors'

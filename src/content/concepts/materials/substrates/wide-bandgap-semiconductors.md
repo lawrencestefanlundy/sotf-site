@@ -36,7 +36,7 @@ descendants:
 - gallium-nitride
 - indium-gallium-nitride
 - silicon-carbide
-mention_count: 18
+mention_count: 19
 scorecard:
   viability: 4
   drivers: 4
@@ -46,8 +46,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
 - slug: 2017-10-10-arpa-e-funds-projects-using-wide-bandgap-semiconductors-for-
   title: ARPA-E Funds Projects Using Wide Bandgap Semiconductors for Power Conversion - Electronic Design

@@ -35,7 +35,7 @@ neighbors:
   path: /compute/compute-architecture/mlir/
   macro: compute
 - slug: cuda-moat
-  name: Cuda Moat
+  name: CUDA (the moat, and where it's eroding)
   path: /ai-software/models-inference/cuda-moat/
   macro: ai-software
 - slug: tvm

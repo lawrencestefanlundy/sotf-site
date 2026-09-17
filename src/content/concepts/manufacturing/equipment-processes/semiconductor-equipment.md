@@ -30,7 +30,7 @@ descendants:
 - known-good-die-test
 - probe-cards
 - wafer-level-burn-in
-sources_7d: 2
+sources_7d: 1
 sources_30d: 5
 recent_mentions:
 - slug: 2026-09-14-semi-calls-for-chips-act-20-to-boost-semiconductor-competiti

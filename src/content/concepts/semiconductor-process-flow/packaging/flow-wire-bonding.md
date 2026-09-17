@@ -16,10 +16,10 @@ sources:
 - '[[2023-08-31-e13-chiplets-how-chip-lego-is-driving]]'
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
-mention_count: 21
+mention_count: 22
 parent_concepts:
 - packaging
-sources_7d: 0
+sources_7d: 1
 sources_30d: 3
 recent_mentions:
 - slug: 2023-08-31-e13-chiplets-how-chip-lego-is-driving

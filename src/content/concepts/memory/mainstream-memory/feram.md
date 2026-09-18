@@ -22,7 +22,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 163
+mention_count: 165
 last_reorg_date: '2026-05-14'
 descendants:
 - fefet

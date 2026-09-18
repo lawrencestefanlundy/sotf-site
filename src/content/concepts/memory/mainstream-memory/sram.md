@@ -45,8 +45,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 115
-sources_7d: 6
+mention_count: 116
+sources_7d: 5
 sources_30d: 12
 recent_mentions:
 - slug: 2026-08-14-chip-tail-verification-sweep

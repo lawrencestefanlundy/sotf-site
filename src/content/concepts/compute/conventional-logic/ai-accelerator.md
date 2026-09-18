@@ -66,7 +66,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 3
+sources_7d: 1
 sources_30d: 6
 recent_mentions:
 - slug: 2026-09-10-the-pulse-191-a-new-trend-of-cpu-shortages

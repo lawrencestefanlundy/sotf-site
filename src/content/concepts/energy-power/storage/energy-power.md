@@ -123,6 +123,14 @@ descendants:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-17-grid-congestion-cost-the-us-a-record-17-billion-last-year---
+  title: Grid congestion cost the US a record $17 billion last year - Latitude Media
+  date: '2026-09-17'
+  kind: web
+- slug: 2026-09-16-how-to-build-a-more-flexible-quieter-less-obnoxious-data-cen
+  title: How to build a more flexible, quieter, less obnoxious data center
+  date: '2026-09-16'
+  kind: web
 - slug: 2026-09-14-tar-aims-to-build-off-grid-power-for-data-centers-in-just-si
   title: TAR aims to build off-grid power for data centers in just six months - latitudemedia.com
   date: '2026-09-14'
@@ -146,14 +154,6 @@ recent_mentions:
 - slug: 2026-09-08-nasa-calls-for-proposals-to-accelerate-lunar-surface-technol
   title: NASA Calls for Proposals to Accelerate Lunar Surface Technologies
   date: '2026-09-08'
-  kind: web
-- slug: 2026-09-08-theres-an-awful-lot-we-dont-know-about-data-centers
-  title: There’s an awful lot we don’t know about data centers
-  date: '2026-09-08'
-  kind: web
-- slug: 2026-09-04-building-clean-power-for-data-centers-in-a-gas-obsessed-mark
-  title: Building clean power for data centers in a gas-obsessed market - Latitude Media
-  date: '2026-09-04'
   kind: web
 neighbors: []
 ---

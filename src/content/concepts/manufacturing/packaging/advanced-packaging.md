@@ -35,13 +35,13 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 206
+mention_count: 210
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration
 - micro-transfer-printing
 - osat
-sources_7d: 2
+sources_7d: 3
 sources_30d: 11
 recent_mentions:
 - slug: 2026-09-02-vertical-power-delivery-thermal-limits

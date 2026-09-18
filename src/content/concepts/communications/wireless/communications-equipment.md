@@ -33,6 +33,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-17-esa-starts-next-phase-of-iris2-evolution-through-low-leo-act
+  title: ESA starts next phase of IRIS² evolution through Low-LEO activities
+  date: '2026-09-17'
+  kind: web
 - slug: 2026-09-05-isar-aerospace-achieves-first-launch-to-orbit-from-continent
   title: Isar Aerospace achieves first launch to orbit from continental Europe
   date: '2026-09-05'
@@ -60,10 +64,6 @@ recent_mentions:
 - slug: 2026-08-11-anybus-communicators-are-cra-ready---august-2026---industria
   title: Anybus Communicators are CRA-ready - August 2026 - Industrial Data Xchange (IDX) - SA Instrumentation & Control
   date: '2026-08-11'
-  kind: web
-- slug: 2026-08-07-iris2-reinforced-and-accelerated-as-implementation-advances
-  title: IRIS² reinforced and accelerated as implementation advances
-  date: '2026-08-07'
   kind: web
 neighbors: []
 ---

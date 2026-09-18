@@ -23,6 +23,10 @@ mention_count: 30
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-17-galileos-first-civil-authenticated-position-fix-under-spoofi
+  title: Galileo's first civil authenticated position fix under spoofing conditions
+  date: '2026-09-17'
+  kind: web
 - slug: 2026-08-05-stealthium-gpu-powered-security-intelligence-site-docs-compe
   title: Stealthium — GPU-Powered Security Intelligence (site + docs + competitive context)
   date: '2026-08-05'

@@ -23,7 +23,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 193
+mention_count: 194
 descendants:
 - 2d-materials
 - aluminium-gallium-nitride

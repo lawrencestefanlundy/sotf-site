@@ -33,6 +33,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-18-visions-of-ai-gpt-3-moment-for-physical-ai
+  title: 'Visions of AI: GPT-3 Moment for Physical AI'
+  date: '2026-09-18'
+  kind: web
 - slug: 2026-09-15-inside-openais-agentic-software-factory
   title: Inside OpenAI’s agentic software factory
   date: '2026-09-15'
@@ -60,10 +64,6 @@ recent_mentions:
 - slug: 2026-08-26-making-data-centers-flexible-so-they-can-serve-the-grid-rath
   title: Making data centers flexible so they can serve the grid rather than stress it out
   date: '2026-08-26'
-  kind: web
-- slug: 2026-08-25-why-ramp-built-its-own-in-house-coding-agent-inspect
-  title: Why Ramp built its own in-house coding agent, Inspect
-  date: '2026-08-25'
   kind: web
 neighbors: []
 ---

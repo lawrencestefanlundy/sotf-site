@@ -38,7 +38,7 @@ scorecard:
   verdict: Too early to say
 scorecard_status: draft
 mention_count: 282
-sources_7d: 5
+sources_7d: 4
 sources_30d: 8
 recent_mentions:
 - slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil

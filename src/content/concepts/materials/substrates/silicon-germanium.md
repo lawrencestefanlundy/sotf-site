@@ -28,7 +28,7 @@ frontier:
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 46
+mention_count: 47
 scorecard:
   viability: 4
   drivers: 4
@@ -39,7 +39,7 @@ scorecard:
   verdict: Underrated
 scorecard_status: draft
 sources_7d: 2
-sources_30d: 6
+sources_30d: 7
 recent_mentions:
 - slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape
   title: Neutral PDK / EDA layer for heterogeneous photonic integration — landscape check (Scintil essay correction research)

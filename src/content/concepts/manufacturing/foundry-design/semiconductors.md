@@ -52,6 +52,18 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-16-ibm-stock-gains-as-anderon-secures-1-billion-chips-act-award
+  title: IBM stock gains as Anderon secures $1 billion Chips Act award - ad-hoc-news.de
+  date: '2026-09-16'
+  kind: web
+- slug: 2026-09-16-anderon-finalizes-1-billion-chips-act-award-to-scale-300mm-p
+  title: Anderon Finalizes $1 Billion CHIPS Act Award to Scale 300mm Pure-Play Quantum Wafer Foundry - quantumcomputingreport.com
+  date: '2026-09-16'
+  kind: web
+- slug: 2026-09-16-anderon-finalizes-1b-chips-act-award-for-quantum-wafers---in
+  title: Anderon finalizes $1B CHIPS Act award for quantum wafers - Investing.com India
+  date: '2026-09-16'
+  kind: web
 - slug: 2026-09-14-semi-calls-for-chips-act-20-to-boost-semiconductor-competiti
   title: SEMI Calls for Chips Act 2.0 to Boost Semiconductor Competitiveness - I-Connect007
   date: '2026-09-14'
@@ -70,18 +82,6 @@ recent_mentions:
   kind: web
 - slug: 2026-09-09-semi-calls-on-the-chips-act-20---ink-world-magazine
   title: SEMI Calls On The Chips Act 2.0 - Ink World Magazine
-  date: '2026-09-09'
-  kind: web
-- slug: 2026-09-09-rigetti-stock-gains-after-securing-100-million-in-chips-act-
-  title: Rigetti Stock Gains After Securing $100 Million in CHIPS Act Funding - TIKR.com
-  date: '2026-09-09'
-  kind: web
-- slug: 2026-09-09-chips-act-20-part-4-who-benefits-and-who-misses-out---eenews
-  title: 'Chips Act 2.0 Part 4: Who benefits and who misses out? ... - eenewseurope.com'
-  date: '2026-09-09'
-  kind: web
-- slug: 2026-09-09-quantinuum-finalizes-100-million-chips-act-rd-award-to-accel
-  title: Quantinuum Finalizes $100 Million CHIPS Act R&D Award to Accelerate Trapped-Ion Manufacturing - Quantum Computing Report
   date: '2026-09-09'
   kind: web
 neighbors:

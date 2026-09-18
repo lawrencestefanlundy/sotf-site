@@ -30,7 +30,7 @@ last_updated: '2026-06-03'
 tags:
 - concept
 - technology
-mention_count: 19
+mention_count: 20
 sources_7d: 2
 sources_30d: 3
 recent_mentions:

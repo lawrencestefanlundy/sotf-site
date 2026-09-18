@@ -78,6 +78,10 @@ descendants:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-17-esa-starts-next-phase-of-iris2-evolution-through-low-leo-act
+  title: ESA starts next phase of IRIS² evolution through Low-LEO activities
+  date: '2026-09-17'
+  kind: web
 - slug: 2026-08-27-opener-is-an-open-source-reference-implementation-of-the-dec
   title: Opener is an open-source reference implementation of the DECT NR+ massive IoT, low-latency standard - CNX Software
   date: '2026-08-27'
@@ -104,10 +108,6 @@ recent_mentions:
   kind: web
 - slug: 2026-06-01-ncsc-nsa-qkd-vs-pqc
   title: 'NCSC / NSA position: QKD not endorsed, post-quantum cryptography is the recommended mitigation'
-  date: '2026-06-01'
-  kind: web
-- slug: 2026-06-01-nibras-ucl-chipstart
-  title: UCL EEE ventures selected for national ChipStart programme (incl. Nibras Communications)
   date: '2026-06-01'
   kind: web
 neighbors: []

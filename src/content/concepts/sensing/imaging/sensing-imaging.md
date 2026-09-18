@@ -22,6 +22,10 @@ mention_count: 116
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-17-nasa-awards-launch-services-for-starburst-gamma-ray-detector
+  title: NASA Awards Launch Services for StarBurst Gamma-Ray Detector
+  date: '2026-09-17'
+  kind: web
 - slug: 2026-09-14-esa-space-environment-report-2026
   title: ESA Space Environment Report 2026
   date: '2026-09-14'
@@ -48,10 +52,6 @@ recent_mentions:
   kind: web
 - slug: 2026-08-11-building-the-moon-base-nasa-stories-at-the-ion
   title: 'Building the Moon Base: NASA Stories at the Ion'
-  date: '2026-08-11'
-  kind: web
-- slug: 2026-08-11-nasa-completes-astronaut-deployed-science-instrument-for-lun
-  title: NASA Completes Astronaut-Deployed Science Instrument for Lunar Surface
   date: '2026-08-11'
   kind: web
 neighbors: []

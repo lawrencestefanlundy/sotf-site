@@ -23,6 +23,18 @@ mention_count: 80
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-17-esa-starts-next-phase-of-iris2-evolution-through-low-leo-act
+  title: ESA starts next phase of IRIS² evolution through Low-LEO activities
+  date: '2026-09-17'
+  kind: web
+- slug: 2026-09-17-nasa-awards-launch-services-for-starburst-gamma-ray-detector
+  title: NASA Awards Launch Services for StarBurst Gamma-Ray Detector
+  date: '2026-09-17'
+  kind: web
+- slug: 2026-09-17-three-space-companies-win-esa-awards-for-excellence-and-inno
+  title: Three space companies win ESA awards for excellence and innovation
+  date: '2026-09-17'
+  kind: web
 - slug: 2026-09-14-esa-space-environment-report-2026
   title: ESA Space Environment Report 2026
   date: '2026-09-14'
@@ -42,18 +54,6 @@ recent_mentions:
 - slug: 2026-09-08-nasa-calls-for-proposals-to-accelerate-lunar-surface-technol
   title: NASA Calls for Proposals to Accelerate Lunar Surface Technologies
   date: '2026-09-08'
-  kind: web
-- slug: 2026-09-07-europes-space-future-in-focus-at-the-international-space-sum
-  title: Europe's space future in focus at the International Space Summit
-  date: '2026-09-07'
-  kind: web
-- slug: 2026-09-05-isar-aerospace-achieves-first-launch-to-orbit-from-continent
-  title: Isar Aerospace achieves first launch to orbit from continental Europe
-  date: '2026-09-05'
-  kind: web
-- slug: 2026-09-02-esas-first-lunar-rover-rolls-forward
-  title: ESA’s first lunar rover rolls forward
-  date: '2026-09-02'
   kind: web
 neighbors: []
 ---

@@ -34,7 +34,7 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-sources_7d: 9
+sources_7d: 7
 sources_30d: 16
 recent_mentions:
 - slug: 2026-07-21-precision-astrometry-using-optically-independent-spacecraft-

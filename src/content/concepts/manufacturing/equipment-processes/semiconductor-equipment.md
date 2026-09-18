@@ -33,6 +33,22 @@ descendants:
 sources_7d: 1
 sources_30d: 5
 recent_mentions:
+- slug: 2026-09-17-ibms-anderon-locks-in-1-billion-chips-act-quantum-foundry-de
+  title: IBM's Anderon locks in $1 billion CHIPS Act quantum foundry deal - qz.com
+  date: '2026-09-17'
+  kind: web
+- slug: 2026-09-16-anderon-llc-finalizes-1b-chips-act-award-for-quantum-foundry
+  title: Anderon LLC Finalizes $1B CHIPS Act Award for Quantum Foundry - TradingView
+  date: '2026-09-16'
+  kind: web
+- slug: 2026-09-16-ibm-stock-gains-as-anderon-secures-1-billion-chips-act-award
+  title: IBM stock gains as Anderon secures $1 billion Chips Act award - ad-hoc-news.de
+  date: '2026-09-16'
+  kind: web
+- slug: 2026-09-16-anderon-finalizes-1-billion-chips-act-award-to-scale-300mm-p
+  title: Anderon Finalizes $1 Billion CHIPS Act Award to Scale 300mm Pure-Play Quantum Wafer Foundry - quantumcomputingreport.com
+  date: '2026-09-16'
+  kind: web
 - slug: 2026-09-14-semi-calls-for-chips-act-20-to-boost-semiconductor-competiti
   title: SEMI Calls for Chips Act 2.0 to Boost Semiconductor Competitiveness - I-Connect007
   date: '2026-09-14'
@@ -48,22 +64,6 @@ recent_mentions:
 - slug: 2026-09-09-quantinuum-finalizes-100-million-chips-act-rd-award-to-accel
   title: Quantinuum Finalizes $100 Million CHIPS Act R&D Award to Accelerate Trapped-Ion Manufacturing - Quantum Computing Report
   date: '2026-09-09'
-  kind: web
-- slug: 2026-09-08-semi-urges-eu-to-strengthen-chips-act-20-for-semiconductor-c
-  title: SEMI Urges EU to Strengthen Chips Act 2.0 for Semiconductor Competitiveness - IndexBox
-  date: '2026-09-08'
-  kind: web
-- slug: 2026-09-08-rigetti-computing-wins-up-to-100-million-chips-funding-issue
-  title: Rigetti Computing Wins Up to $100 Million CHIPS Funding, Issues $100 Million in Stock to U.S. Commerce - TradingView
-  date: '2026-09-08'
-  kind: web
-- slug: 2026-09-04-a-23-million-texas-grant-helps-open-an-austin-chip-lab-for-w
-  title: A $23 million Texas grant helps open an Austin chip lab for wireless research - Stock Titan
-  date: '2026-09-04'
-  kind: web
-- slug: 2026-09-04-cipr---the-european-chips-act-enters-into-force---european-c
-  title: CIPR - The European Chips Act enters into force - European Commission
-  date: '2026-09-04'
   kind: web
 neighbors: []
 ---

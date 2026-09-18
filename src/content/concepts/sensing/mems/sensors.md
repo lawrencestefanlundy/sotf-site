@@ -28,6 +28,14 @@ sources:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-17-galileos-first-civil-authenticated-position-fix-under-spoofi
+  title: Galileo's first civil authenticated position fix under spoofing conditions
+  date: '2026-09-17'
+  kind: web
+- slug: 2026-09-17-nasa-awards-launch-services-for-starburst-gamma-ray-detector
+  title: NASA Awards Launch Services for StarBurst Gamma-Ray Detector
+  date: '2026-09-17'
+  kind: web
 - slug: 2026-09-14-esa-space-environment-report-2026
   title: ESA Space Environment Report 2026
   date: '2026-09-14'
@@ -51,14 +59,6 @@ recent_mentions:
 - slug: 2026-08-11-nasa-completes-astronaut-deployed-science-instrument-for-lun
   title: NASA Completes Astronaut-Deployed Science Instrument for Lunar Surface
   date: '2026-08-11'
-  kind: web
-- slug: 2026-08-07-nasas-lunar-development-and-test-facility-prepares-artemis-h
-  title: NASA’s Lunar Development and Test Facility Prepares Artemis Hardware for Moon
-  date: '2026-08-07'
-  kind: web
-- slug: 2026-08-03-nasa-delivers-navigation-system-for-commercial-lunar-relay
-  title: NASA Delivers Navigation System for Commercial Lunar Relay
-  date: '2026-08-03'
   kind: web
 neighbors: []
 ---

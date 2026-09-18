@@ -33,6 +33,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-17-esa-starts-next-phase-of-iris2-evolution-through-low-leo-act
+  title: ESA starts next phase of IRIS² evolution through Low-LEO activities
+  date: '2026-09-17'
+  kind: web
 - slug: 2026-09-04-a-23-million-texas-grant-helps-open-an-austin-chip-lab-for-w
   title: A $23 million Texas grant helps open an Austin chip lab for wireless research - Stock Titan
   date: '2026-09-04'
@@ -60,10 +64,6 @@ recent_mentions:
 - slug: 2026-08-12-viavi-introduces-industrys-first-channel-emulator-for-6g-and
   title: VIAVI Introduces Industry's First Channel Emulator for 6G and Wi-Fi 7/8 - barchart.com
   date: '2026-08-12'
-  kind: web
-- slug: 2026-08-11-anybus-communicators-are-cra-ready---august-2026---industria
-  title: Anybus Communicators are CRA-ready - August 2026 - Industrial Data Xchange (IDX) - SA Instrumentation & Control
-  date: '2026-08-11'
   kind: web
 neighbors: []
 ---

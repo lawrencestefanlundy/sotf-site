@@ -33,7 +33,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 1
+sources_7d: 0
 sources_30d: 2
 recent_mentions:
 - slug: 2026-07-27-optimal-compute-vega-investor-briefing

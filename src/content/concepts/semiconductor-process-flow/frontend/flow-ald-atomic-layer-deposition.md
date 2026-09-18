@@ -16,7 +16,7 @@ sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 mention_count: 15
-sources_7d: 3
+sources_7d: 2
 sources_30d: 5
 recent_mentions:
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre

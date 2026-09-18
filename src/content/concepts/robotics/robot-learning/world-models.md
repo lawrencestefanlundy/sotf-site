@@ -40,7 +40,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 4
+sources_7d: 3
 sources_30d: 6
 recent_mentions:
 - slug: 2026-07-01-sensifai-memo-streaming-physical-ai

@@ -41,7 +41,7 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Overrated
 scorecard_status: draft
-sources_7d: 5
+sources_7d: 4
 sources_30d: 10
 recent_mentions:
 - slug: 2026-09-07-interact-analysis-industrial-robot-shipments-2030

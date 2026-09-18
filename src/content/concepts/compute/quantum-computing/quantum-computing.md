@@ -38,7 +38,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 688
+mention_count: 694
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -68,9 +68,29 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 7
-sources_30d: 13
+sources_7d: 10
+sources_30d: 17
 recent_mentions:
+- slug: 2026-09-17-ibms-anderon-locks-in-1-billion-chips-act-quantum-foundry-de
+  title: IBM's Anderon locks in $1 billion CHIPS Act quantum foundry deal - qz.com
+  date: '2026-09-17'
+  kind: web
+- slug: 2026-09-16-anderon-llc-finalizes-1b-chips-act-award-for-quantum-foundry
+  title: Anderon LLC Finalizes $1B CHIPS Act Award for Quantum Foundry - TradingView
+  date: '2026-09-16'
+  kind: web
+- slug: 2026-09-16-anderon-finalizes-1-billion-chips-act-award-to-scale-300mm-p
+  title: Anderon Finalizes $1 Billion CHIPS Act Award to Scale 300mm Pure-Play Quantum Wafer Foundry - quantumcomputingreport.com
+  date: '2026-09-16'
+  kind: web
+- slug: 2026-09-16-does-chips-act-funding-change-the-bull-case-for-d-wave-quant
+  title: Does CHIPS Act Funding Change The Bull Case For D Wave Quantum (QBTS)? - simplywall.st
+  date: '2026-09-16'
+  kind: web
+- slug: 2026-09-16-anderon-finalizes-1b-chips-act-award-for-quantum-wafers---in
+  title: Anderon finalizes $1B CHIPS Act award for quantum wafers - Investing.com India
+  date: '2026-09-16'
+  kind: web
 - slug: 2026-09-14-rigetti-computing-finalizes-definitive-100-million-chips-act
   title: Rigetti Computing Finalizes Definitive $100 Million CHIPS Act Award with U.S. Department of Commerce - Quantum Computing Report
   date: '2026-09-14'
@@ -82,26 +102,6 @@ recent_mentions:
 - slug: 2026-09-11-d-wave-finalizes-100-million-chips-act-funding---electronics
   title: D-Wave finalizes $100 million CHIPS Act funding - Electronics360
   date: '2026-09-11'
-  kind: web
-- slug: 2026-09-11-rigetti-rgti-stock-looks-stretched-despite-fresh-chips-act-f
-  title: Rigetti (RGTI) Stock Looks Stretched Despite Fresh CHIPS Act Funding - simplywall.st
-  date: '2026-09-11'
-  kind: web
-- slug: 2026-09-10-nist-developed-quantum-sensors-improve-nuclear-monitoring
-  title: NIST-Developed Quantum Sensors Improve Nuclear Monitoring
-  date: '2026-09-10'
-  kind: web
-- slug: 2026-09-10-d-wave-quantum-nature-papers-chips-act-equity-and-a-stock-th
-  title: 'D-Wave Quantum: Nature Papers, CHIPS Act Equity, and a Stock That Won''t Play Along - ad-hoc-news.de'
-  date: '2026-09-10'
-  kind: web
-- slug: 2026-09-09-rigetti-stock-gains-after-securing-100-million-in-chips-act-
-  title: Rigetti Stock Gains After Securing $100 Million in CHIPS Act Funding - TIKR.com
-  date: '2026-09-09'
-  kind: web
-- slug: 2026-09-09-quantinuum-finalizes-100-million-chips-act-rd-award-to-accel
-  title: Quantinuum Finalizes $100 Million CHIPS Act R&D Award to Accelerate Trapped-Ion Manufacturing - Quantum Computing Report
-  date: '2026-09-09'
   kind: web
 neighbors: []
 ---

@@ -34,9 +34,9 @@ frontier:
 last_updated: 2026-07-29
 tags:
 - concept
-mention_count: 69
-sources_7d: 7
-sources_30d: 15
+mention_count: 71
+sources_7d: 8
+sources_30d: 17
 recent_mentions:
 - slug: 2026-08-07-the-memory-trade-isnt-over-weights
   title: 'The Memory Trade Isn''t Over: Weights and KV Cache'

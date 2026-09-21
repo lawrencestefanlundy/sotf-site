@@ -30,9 +30,13 @@ descendants:
 - known-good-die-test
 - probe-cards
 - wafer-level-burn-in
-sources_7d: 1
+sources_7d: 0
 sources_30d: 5
 recent_mentions:
+- slug: 2026-09-21-ibm-unit-secures-us1-billion-chips-act-award-to-expand-quant
+  title: IBM unit secures US$1 billion CHIPS Act award to expand quantum wafer manufacturing - digitimes
+  date: '2026-09-21'
+  kind: web
 - slug: 2026-09-17-ibms-anderon-locks-in-1-billion-chips-act-quantum-foundry-de
   title: IBM's Anderon locks in $1 billion CHIPS Act quantum foundry deal - qz.com
   date: '2026-09-17'
@@ -59,10 +63,6 @@ recent_mentions:
   kind: web
 - slug: 2026-09-09-chips-act-20-part-4-who-benefits-and-who-misses-out---eenews
   title: 'Chips Act 2.0 Part 4: Who benefits and who misses out? ... - eenewseurope.com'
-  date: '2026-09-09'
-  kind: web
-- slug: 2026-09-09-quantinuum-finalizes-100-million-chips-act-rd-award-to-accel
-  title: Quantinuum Finalizes $100 Million CHIPS Act R&D Award to Accelerate Trapped-Ion Manufacturing - Quantum Computing Report
   date: '2026-09-09'
   kind: web
 neighbors: []

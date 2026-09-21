@@ -21,7 +21,7 @@ frontier:
 - Can incremental clustering initialised from pre-clustered reference data generalise to samples whose spectra are poorly represented in the initialisation set, for example novel post-translational modifications?
 - What throughput and cost per sample would be needed for MS proteomics to resolve the modification states that programmable dCas13-kinase systems are designed to install?
 sources_7d: 0
-sources_30d: 4
+sources_30d: 3
 recent_mentions:
 - slug: 2026-04-22-detecting-proteins-in-blood-with
   title: Detecting Proteins in Blood with Photonics w/ Prateek of Proteins1

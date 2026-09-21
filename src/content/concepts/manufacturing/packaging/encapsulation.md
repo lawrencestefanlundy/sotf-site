@@ -17,7 +17,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 34
+mention_count: 35
 scorecard:
   viability: 4
   drivers: 3
@@ -32,8 +32,8 @@ frontier:
 - What fraction of encapsulated devices meet spec? None of the sources reports yield, and the plasmonic-lattice result shows two nominally similar samples behaving differently 2026 05 15 optimizing strong light matter coupling of plasmonic lattice.
 - Does the ~0.4 A/W potential responsivity of the WSe2-encapsulated graphene detector materialise, and does the bandwidth hold beyond the 110 GHz setup limit 2026 06 05 c band 160 gbs 1 zero bias graphene photodetectors breaking ?
 - Do the 38-year projected implant lifetimes from accelerated aging survive real-time chronic testing, and what is the actual failure mode of the ceramic-polymer stack 2026 06 24 biorxiv a thin film transistor backplane for scalable ?
-sources_7d: 1
-sources_30d: 2
+sources_7d: 2
+sources_30d: 3
 recent_mentions:
 - slug: 2026-06-22-tim-approaches-full-sweep
   title: TIM approaches — exhaustive in-market + R&D sweep (vendors, classes, startups)

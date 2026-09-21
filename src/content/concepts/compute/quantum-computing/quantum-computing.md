@@ -38,7 +38,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 694
+mention_count: 707
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -69,8 +69,12 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 10
-sources_30d: 17
+sources_30d: 18
 recent_mentions:
+- slug: 2026-09-21-ibm-unit-secures-us1-billion-chips-act-award-to-expand-quant
+  title: IBM unit secures US$1 billion CHIPS Act award to expand quantum wafer manufacturing - digitimes
+  date: '2026-09-21'
+  kind: web
 - slug: 2026-09-17-ibms-anderon-locks-in-1-billion-chips-act-quantum-foundry-de
   title: IBM's Anderon locks in $1 billion CHIPS Act quantum foundry deal - qz.com
   date: '2026-09-17'
@@ -98,10 +102,6 @@ recent_mentions:
 - slug: 2026-09-12-us-government-backs-d-wave-nyse-qbts-rigetti-nasdaq-rgti-and
   title: 'U.S. Government Backs D-Wave (NYSE: QBTS), Rigetti (NASDAQ: RGTI), And Quantinuum With $300 Million In CHIPS Act Funding - foreignpolicyjournal.com'
   date: '2026-09-12'
-  kind: web
-- slug: 2026-09-11-d-wave-finalizes-100-million-chips-act-funding---electronics
-  title: D-Wave finalizes $100 million CHIPS Act funding - Electronics360
-  date: '2026-09-11'
   kind: web
 neighbors: []
 ---

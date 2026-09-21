@@ -24,11 +24,11 @@ sources:
 - '[[2018-09-10-brain-computer-interface-allows-for-telepathic-piloting-of-d]]'
 - '[[2026-06-23-inbrain-graphene-first-in-human]]'
 - '[[2020-11-23-connecting-mind-to-machine-university-of-miami-team-moving-f]]'
-mention_count: 11
+mention_count: 12
 descendants:
 - non-invasive-neural-recording-modalities
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
 - slug: 2026-06-23-inbrain-graphene-first-in-human
   title: 'InBrain Neuroelectronics: world-first-in-human graphene neural interface study, $50M Series B, FDA Breakthrough Device, Merck KGaA partnership'

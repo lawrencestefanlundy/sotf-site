@@ -40,7 +40,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 3
+sources_7d: 2
 sources_30d: 5
 recent_mentions:
 - slug: 2026-06-22-beyond-cmos-device-layer-research

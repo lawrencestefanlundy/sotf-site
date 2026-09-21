@@ -16,7 +16,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 38
+mention_count: 39
 frontier:
 - Can rhombohedral stacking be grown or induced directly at wafer scale, rather than exfoliated and sorted, and at what defect density relative to the >200 micrometre mean free path already demonstrated?
 - Does room-temperature, sodium-catalysed CaC6 formation survive electrochemical cycling in a working Ca-ion cell, and can the square-root-of-time kinetics be accelerated to useful rates?
@@ -34,7 +34,7 @@ scorecard:
   verdict: Underrated
 scorecard_status: draft
 sources_7d: 2
-sources_30d: 4
+sources_30d: 5
 recent_mentions:
 - slug: 2026-06-22-tim-approaches-full-sweep
   title: TIM approaches — exhaustive in-market + R&D sweep (vendors, classes, startups)

@@ -28,8 +28,8 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 304
-sources_7d: 4
+mention_count: 307
+sources_7d: 2
 sources_30d: 14
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026

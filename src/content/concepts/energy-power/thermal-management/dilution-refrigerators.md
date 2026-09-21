@@ -13,7 +13,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 7
+mention_count: 8
 frontier:
 - Does all-optical I/O reduce the measured heat load at the mixing chamber relative to coaxial wiring, and by how much per channel, once scaled beyond two qubits 2026 06 07 all optical control and multiplexed readout of multiple supe?
 - What entanglement rate and fidelity are achievable between two physically separate dilution refrigerators in hardware, versus the simulated 0.94 at 0.2 kHz over 30 km 2026 06 07 hardware efficient bosonic module for entangling superconduc?
@@ -21,7 +21,7 @@ frontier:
 - How do the measured inner-pin temperatures of 0 dB attenuators vary across vendors, mounting geometries and base temperatures, and what heat load per line does this imply at the millikelvin stage 2026 08 10 effectiveness of some 0 db cryogenic microwave attenuators a?
 - Is the proposed 3.75 K operating temperature for ferromagnet-coupled SNSPDs reproducible experimentally at dark-count rates competitive with sub-1 K devices 2026 06 17 hybrid ferromagnet snspds single photon induced order to dis?
 sources_7d: 1
-sources_30d: 1
+sources_30d: 2
 recent_mentions: []
 neighbors: []
 ---

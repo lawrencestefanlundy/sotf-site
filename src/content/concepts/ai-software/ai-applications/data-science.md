@@ -17,7 +17,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 67
-sources_7d: 1
+sources_7d: 0
 sources_30d: 10
 recent_mentions:
 - slug: 2026-06-23-engram-98m-learned-memory-token-costs

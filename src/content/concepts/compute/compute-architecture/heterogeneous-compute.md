@@ -10,7 +10,7 @@ related_concepts: []
 sources:
 - '[[2026-01-22-ai-chips-computeram-and-the-future]]'
 - '[[2026-08-20-callosum-100m-seed-announcement]]'
-mention_count: 16
+mention_count: 17
 sources_7d: 1
 sources_30d: 2
 recent_mentions:

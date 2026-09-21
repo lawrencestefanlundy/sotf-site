@@ -48,7 +48,7 @@ scorecard:
 scorecard_status: draft
 mention_count: 32
 sources_7d: 0
-sources_30d: 4
+sources_30d: 3
 recent_mentions:
 - slug: 2026-08-31-opener-open-sources-dect-nr-for-iot---opensourceforucom
   title: Opener Open-Sources DECT NR+ for IoT - opensourceforu.com

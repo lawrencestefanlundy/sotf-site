@@ -33,6 +33,7 @@ sources:
 - '[[2026-04-20-physical-ai-deploys-this-decade-bessemer-predicts-robotics]]'
 - '[[2026-07-01-sensifai-memo-streaming-physical-ai]]'
 - '[[2026-06-15-gf-investor-day-2026]]'
+- '[[2026-09-18-visions-of-ai-gpt-3-moment-for-physical-ai]]'
 - '[[2026-09-07-microchip-acquires-hailo-jul-2026]]'
 - '[[2026-06-13-sovereign-electronics-manufacturing-reshoring-digest]]'
 - '[[2026-04-27-physical-ai-that-moves-the-world-qasar-younis-peter-ludwig-a]]'
@@ -45,7 +46,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 100
+mention_count: 103
 descendants:
 - dexterous-manipulation
 - humanoid-robots
@@ -55,9 +56,13 @@ descendants:
 - tactile-sensing
 - vision-language-action-models
 - world-models
-sources_7d: 7
-sources_30d: 17
+sources_7d: 8
+sources_30d: 18
 recent_mentions:
+- slug: 2026-09-18-visions-of-ai-gpt-3-moment-for-physical-ai
+  title: 'Visions of AI: GPT-3 Moment for Physical AI'
+  date: '2026-09-18'
+  kind: web
 - slug: 2026-09-07-microchip-acquires-hailo-jul-2026
   title: Microchip Technology signs definitive agreement to acquire Hailo (Microchip IR, 24 Jul 2026; CTech; Globes)
   date: '2026-09-07'
@@ -85,10 +90,6 @@ recent_mentions:
 - slug: 2026-06-23-semidoped-daily-update
   title: Semi Doped — Daily Update, June 23rd 2026
   date: '2026-06-23'
-  kind: web
-- slug: 2026-06-15-gf-investor-day-2026
-  title: GlobalFoundries Investor Day 2026 (presentation)
-  date: '2026-06-15'
   kind: web
 neighbors:
 - slug: humanoid-robots

@@ -43,7 +43,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 8
+sources_7d: 6
 sources_30d: 18
 recent_mentions:
 - slug: 2026-07-10-the-next-vc-meme-is

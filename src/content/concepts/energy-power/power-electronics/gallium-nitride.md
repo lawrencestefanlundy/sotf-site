@@ -40,7 +40,7 @@ tags:
 descendants:
 - aluminium-gallium-nitride
 - indium-gallium-nitride
-mention_count: 40
+mention_count: 42
 scorecard:
   viability: 4
   drivers: null
@@ -50,8 +50,8 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 2
-sources_30d: 5
+sources_7d: 3
+sources_30d: 6
 recent_mentions:
 - slug: 2026-09-02-vertical-power-delivery-thermal-limits
   title: 'Vertical power delivery: the thermal limit at the 48V-to-point-of-load stage'

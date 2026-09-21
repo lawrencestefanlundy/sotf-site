@@ -33,8 +33,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 114
-sources_7d: 7
+mention_count: 115
+sources_7d: 8
 sources_30d: 14
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026

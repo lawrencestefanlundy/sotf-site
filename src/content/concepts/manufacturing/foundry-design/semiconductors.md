@@ -52,6 +52,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-21-ibm-unit-secures-us1-billion-chips-act-award-to-expand-quant
+  title: IBM unit secures US$1 billion CHIPS Act award to expand quantum wafer manufacturing - digitimes
+  date: '2026-09-21'
+  kind: web
 - slug: 2026-09-16-ibm-stock-gains-as-anderon-secures-1-billion-chips-act-award
   title: IBM stock gains as Anderon secures $1 billion Chips Act award - ad-hoc-news.de
   date: '2026-09-16'
@@ -79,10 +83,6 @@ recent_mentions:
 - slug: 2026-09-10-the-pulse-191-a-new-trend-of-cpu-shortages
   title: 'The Pulse #191: a new trend of CPU shortages'
   date: '2026-09-10'
-  kind: web
-- slug: 2026-09-09-semi-calls-on-the-chips-act-20---ink-world-magazine
-  title: SEMI Calls On The Chips Act 2.0 - Ink World Magazine
-  date: '2026-09-09'
   kind: web
 neighbors:
 - slug: logic

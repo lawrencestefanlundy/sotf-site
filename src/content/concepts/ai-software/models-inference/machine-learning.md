@@ -49,7 +49,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 952
+mention_count: 966
 sources_7d: 5
 sources_30d: 18
 recent_mentions:
@@ -69,10 +69,6 @@ recent_mentions:
   title: Detecting Proteins in Blood with Photonics w/ Prateek of Proteins1
   date: '2026-04-22'
   kind: substack
-- slug: 2025-08-04-google-expands-demand-response-to-target-machine-learning-wo
-  title: Google expands demand response to target machine learning workloads - Latitude Media
-  date: '2025-08-04'
-  kind: web
 - slug: 2025-04-30-has-the-time-come-to-take-mortal
   title: Has the time come to take Mortal Computing seriously?
   date: '2025-04-30'
@@ -84,6 +80,10 @@ recent_mentions:
 - slug: 2024-12-16-willow-and-the-race-to-quantum-advantage
   title: Willow and The Race to Quantum Advantage (Feat. Kris Kaczmarek)
   date: '2024-12-16'
+  kind: substack
+- slug: 2024-11-20-nuclear-fusion-the-state-of-play
+  title: 'Nuclear Fusion: A Primer'
+  date: '2024-11-20'
   kind: substack
 neighbors:
 - slug: physics-ai

@@ -29,18 +29,18 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 199
+mention_count: 201
 sources_7d: 7
-sources_30d: 12
+sources_30d: 13
 recent_mentions:
-- slug: 2026-08-07-the-memory-trade-isnt-over-weights
-  title: 'The Memory Trade Isn''t Over: Weights and KV Cache'
-  date: '2026-08-07'
-  kind: substack
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
   kind: web
+- slug: 2026-08-07-the-memory-trade-isnt-over-weights
+  title: 'The Memory Trade Isn''t Over: Weights and KV Cache'
+  date: '2026-08-07'
+  kind: substack
 - slug: 2026-07-31-positron-research-sprint
   title: 'Positron AI research sprint: architecture, funding, customers, manufacturing'
   date: '2026-07-31'

@@ -21,7 +21,7 @@ frontier:
 - Has any of the five proposed functional wafers, in particular the dedicated cooling wafer and the optical IO wafer, been demonstrated in silicon rather than in a roadmap deck?
 - Can hybrid bonding hold alignment and interconnect yield across a full 300 mm wafer pair when the two wafers come from different fabs on different processes, given differing thermal expansion and wafer bow?
 - Does variability-tolerant design deliver measurable cost or performance advantage on a wafer-scale part, and can unsupervised variability models of the kind demonstrated on Hf0.5Zr0.5O2 predict device performance well enough to substitute for per-die test?
-sources_7d: 1
+sources_7d: 0
 sources_30d: 2
 recent_mentions:
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre

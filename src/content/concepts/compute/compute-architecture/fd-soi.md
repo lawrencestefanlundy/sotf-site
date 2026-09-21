@@ -27,7 +27,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 26
+mention_count: 27
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 5
@@ -38,8 +38,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-sources_7d: 1
-sources_30d: 2
+sources_7d: 2
+sources_30d: 3
 recent_mentions:
 - slug: 2026-08-03-spad-single-photon-market-scan
   title: SPAD / single-photon detector market scan — incumbent structure and company cohort

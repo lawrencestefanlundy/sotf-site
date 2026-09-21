@@ -123,6 +123,10 @@ descendants:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-18-the-hidden-power-systems-behind-ai---latitude-media
+  title: The hidden power systems behind AI - Latitude Media
+  date: '2026-09-18'
+  kind: web
 - slug: 2026-09-17-grid-congestion-cost-the-us-a-record-17-billion-last-year---
   title: Grid congestion cost the US a record $17 billion last year - Latitude Media
   date: '2026-09-17'
@@ -150,10 +154,6 @@ recent_mentions:
 - slug: 2026-09-09-are-gencos-a-solve-for-the-data-center-power-problem---latit
   title: Are GenCos a solve for the data center power problem? - Latitude Media
   date: '2026-09-09'
-  kind: web
-- slug: 2026-09-08-nasa-calls-for-proposals-to-accelerate-lunar-surface-technol
-  title: NASA Calls for Proposals to Accelerate Lunar Surface Technologies
-  date: '2026-09-08'
   kind: web
 neighbors: []
 ---

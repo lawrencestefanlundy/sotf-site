@@ -9,7 +9,7 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
-mention_count: 7
+mention_count: 8
 sources_7d: 0
 sources_30d: 0
 recent_mentions:

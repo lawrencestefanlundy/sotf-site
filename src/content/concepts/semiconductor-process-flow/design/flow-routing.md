@@ -20,7 +20,7 @@ sources:
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
-mention_count: 319
+mention_count: 324
 parent_concepts:
 - flow-rtl-design
 scorecard:

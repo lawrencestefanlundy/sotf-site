@@ -40,7 +40,7 @@ tags:
 - technology
 - robotics
 - actuators
-mention_count: 39
+mention_count: 40
 scorecard:
   viability: 4
   drivers: 4
@@ -51,7 +51,7 @@ scorecard:
   verdict: Underrated
 scorecard_status: draft
 sources_7d: 3
-sources_30d: 4
+sources_30d: 5
 recent_mentions:
 - slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint
   title: 'What actually limits a humanoid to minutes: the thermal cliff, not the battery'

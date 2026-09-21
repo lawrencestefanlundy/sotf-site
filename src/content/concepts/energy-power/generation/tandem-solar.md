@@ -13,14 +13,14 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 5
+mention_count: 6
 frontier:
 - What band gaps do the β2SnGeX6 compositions have, and does any halide variant fall in the 1.6-1.8 eV window needed for a top cell over silicon?
 - Can any member of the series be synthesised as a phase-pure thin film, and do measured lattice parameters and elastic moduli match the DFT predictions?
 - Do the Sn(II)/Ge(II) oxidation states survive ambient and operational conditions, or does oxidation dominate degradation as in other tin-based lead-free perovskites?
 - Has any lead-free double perovskite been integrated into a two-terminal tandem stack, and what open-circuit voltage and fill factor result?
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions: []
 neighbors: []
 ---

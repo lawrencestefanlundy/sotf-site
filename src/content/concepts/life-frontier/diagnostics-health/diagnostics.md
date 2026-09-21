@@ -22,9 +22,9 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 124
-sources_7d: 3
-sources_30d: 10
+mention_count: 125
+sources_7d: 2
+sources_30d: 11
 recent_mentions:
 - slug: 2026-08-03-spad-single-photon-market-scan
   title: SPAD / single-photon detector market scan — incumbent structure and company cohort

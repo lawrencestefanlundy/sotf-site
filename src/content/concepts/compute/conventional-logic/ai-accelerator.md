@@ -69,6 +69,10 @@ scorecard_status: draft
 sources_7d: 1
 sources_30d: 6
 recent_mentions:
+- slug: 2026-09-18-the-hidden-power-systems-behind-ai---latitude-media
+  title: The hidden power systems behind AI - Latitude Media
+  date: '2026-09-18'
+  kind: web
 - slug: 2026-09-10-the-pulse-191-a-new-trend-of-cpu-shortages
   title: 'The Pulse #191: a new trend of CPU shortages'
   date: '2026-09-10'
@@ -95,10 +99,6 @@ recent_mentions:
   kind: web
 - slug: 2026-09-07-nvidia-jetson-thor-on-sale-aug-2025
   title: Nvidia's 'robot brain' chip Thor goes on sale (CNBC, 25 Aug 2025; NVIDIA newsroom)
-  date: '2026-09-07'
-  kind: web
-- slug: 2026-09-07-sag-counterpoint-humanoid-shipments-h1-2026
-  title: 'Global humanoid robot shipments 1H 2026: 19.1k units, +272% YoY (Smart Analytics Global; Counterpoint)'
   date: '2026-09-07'
   kind: web
 neighbors: []

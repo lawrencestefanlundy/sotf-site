@@ -39,7 +39,9 @@ BACK_REFS = KB / "scripts" / "back_refs.json"
 # Base path the site is served from. Matches the `base` in astro.config.mjs.
 # Reads from SOTF_BASE env var so the build + nightly cron can swap between
 # "/sotf-site" (GitHub Pages subpath preview) and "" (apex once DNS is cut).
-BASE_PATH = os.environ.get("SOTF_BASE", "/sotf-site").rstrip("/")
+# Default is "" since the apex went live (14 Jul 2026, astro.config has no base):
+# the old "/sotf-site" default broke every internal link on any manual run.
+BASE_PATH = os.environ.get("SOTF_BASE", "").rstrip("/")
 
 # Macros that are public (frameworks + markets stay private — internal lenses)
 PUBLIC_MACROS = {

@@ -28,7 +28,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 80
+mention_count: 81
 last_reorg_date: '2026-05-14'
 descendants:
 - spiking-neural-networks
@@ -41,9 +41,13 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Overrated
 scorecard_status: draft
-sources_7d: 4
+sources_7d: 3
 sources_30d: 11
 recent_mentions:
+- slug: 2026-09-15-arxiv-a-unified-interconnection-network-for-chiplet-based-scaling-
+  title: A Unified Interconnection Network for Chiplet-Based Scaling of the BrainScaleS Neuromorphic System
+  date: '2026-09-15'
+  kind: paper
 - slug: 2026-09-07-interact-analysis-industrial-robot-shipments-2030
   title: Annual industrial robot shipments will reach more than 760k units in 2030 (Interact Analysis)
   date: '2026-09-07'
@@ -70,10 +74,6 @@ recent_mentions:
   kind: web
 - slug: 2026-09-07-microchip-acquires-hailo-jul-2026
   title: Microchip Technology signs definitive agreement to acquire Hailo (Microchip IR, 24 Jul 2026; CTech; Globes)
-  date: '2026-09-07'
-  kind: web
-- slug: 2026-09-07-rnbo-ukraine-fpv-drones-2025
-  title: 'Results of Ukraine''s defense industry in 2025: FPV drones (NSDC of Ukraine; OSW; Kyiv Independent)'
   date: '2026-09-07'
   kind: web
 neighbors: []

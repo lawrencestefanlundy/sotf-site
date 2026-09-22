@@ -30,9 +30,9 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 128
-sources_7d: 3
-sources_30d: 8
+mention_count: 130
+sources_7d: 4
+sources_30d: 10
 recent_mentions:
 - slug: 2026-06-17-single-photon-detector-market-spad-snspd
   title: Single-photon detector market aggregation — SPAD, SiPM, SNSPD (2024–2035)

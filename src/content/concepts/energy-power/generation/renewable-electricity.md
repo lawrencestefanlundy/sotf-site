@@ -23,6 +23,10 @@ mention_count: 82
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-21-rune-is-tapping-spare-solar-power-for-modular-data-centers--
+  title: Rune is tapping spare solar power for modular data centers - latitudemedia.com
+  date: '2026-09-21'
+  kind: web
 - slug: 2026-09-14-tar-aims-to-build-off-grid-power-for-data-centers-in-just-si
   title: TAR aims to build off-grid power for data centers in just six months - latitudemedia.com
   date: '2026-09-14'
@@ -50,10 +54,6 @@ recent_mentions:
 - slug: 2026-08-06-how-foreign-turbine-suppliers-are-gearing-up-for-a-us-geothe
   title: How foreign turbine suppliers are gearing up for a US geothermal boom - Latitude Media
   date: '2026-08-06'
-  kind: web
-- slug: 2026-08-05-which-ldes-companies-are-poised-to-land-the-next-big-contrac
-  title: Which LDES companies are poised to land the next big contracts? - Latitude Media
-  date: '2026-08-05'
   kind: web
 neighbors: []
 ---

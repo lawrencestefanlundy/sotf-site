@@ -27,7 +27,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 109
-sources_7d: 1
+sources_7d: 0
 sources_30d: 8
 recent_mentions:
 - slug: 2026-05-08-nasa-fuel-cell-tests-pave-way-for-energy-storage-on-moon

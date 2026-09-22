@@ -50,7 +50,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 3
+sources_7d: 2
 sources_30d: 5
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026

@@ -8,9 +8,9 @@ parent_concepts:
 - energy-power
 related_concepts: []
 sources: []
-mention_count: 4
-sources_7d: 0
-sources_30d: 0
+mention_count: 5
+sources_7d: 1
+sources_30d: 1
 recent_mentions: []
 neighbors: []
 ---

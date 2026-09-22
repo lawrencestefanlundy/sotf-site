@@ -38,7 +38,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 707
+mention_count: 714
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -68,12 +68,16 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 10
+sources_7d: 5
 sources_30d: 18
 recent_mentions:
 - slug: 2026-09-21-ibm-unit-secures-us1-billion-chips-act-award-to-expand-quant
   title: IBM unit secures US$1 billion CHIPS Act award to expand quantum wafer manufacturing - digitimes
   date: '2026-09-21'
+  kind: web
+- slug: 2026-09-17-clifford-chance-advises-us-department-of-commerce-on-us1-bil
+  title: Clifford Chance advises U.S. Department of Commerce on US$1 billion CHIPS Act Award to Anderon for quantum semiconductor foundry development - Clifford Chance
+  date: '2026-09-17'
   kind: web
 - slug: 2026-09-17-ibms-anderon-locks-in-1-billion-chips-act-quantum-foundry-de
   title: IBM's Anderon locks in $1 billion CHIPS Act quantum foundry deal - qz.com
@@ -98,10 +102,6 @@ recent_mentions:
 - slug: 2026-09-14-rigetti-computing-finalizes-definitive-100-million-chips-act
   title: Rigetti Computing Finalizes Definitive $100 Million CHIPS Act Award with U.S. Department of Commerce - Quantum Computing Report
   date: '2026-09-14'
-  kind: web
-- slug: 2026-09-12-us-government-backs-d-wave-nyse-qbts-rigetti-nasdaq-rgti-and
-  title: 'U.S. Government Backs D-Wave (NYSE: QBTS), Rigetti (NASDAQ: RGTI), And Quantinuum With $300 Million In CHIPS Act Funding - foreignpolicyjournal.com'
-  date: '2026-09-12'
   kind: web
 neighbors: []
 ---

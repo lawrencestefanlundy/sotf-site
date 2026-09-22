@@ -37,6 +37,10 @@ recent_mentions:
   title: IBM unit secures US$1 billion CHIPS Act award to expand quantum wafer manufacturing - digitimes
   date: '2026-09-21'
   kind: web
+- slug: 2026-09-17-clifford-chance-advises-us-department-of-commerce-on-us1-bil
+  title: Clifford Chance advises U.S. Department of Commerce on US$1 billion CHIPS Act Award to Anderon for quantum semiconductor foundry development - Clifford Chance
+  date: '2026-09-17'
+  kind: web
 - slug: 2026-09-17-ibms-anderon-locks-in-1-billion-chips-act-quantum-foundry-de
   title: IBM's Anderon locks in $1 billion CHIPS Act quantum foundry deal - qz.com
   date: '2026-09-17'
@@ -59,10 +63,6 @@ recent_mentions:
   kind: web
 - slug: 2026-09-09-semi-calls-on-the-chips-act-20---ink-world-magazine
   title: SEMI Calls On The Chips Act 2.0 - Ink World Magazine
-  date: '2026-09-09'
-  kind: web
-- slug: 2026-09-09-chips-act-20-part-4-who-benefits-and-who-misses-out---eenews
-  title: 'Chips Act 2.0 Part 4: Who benefits and who misses out? ... - eenewseurope.com'
   date: '2026-09-09'
   kind: web
 neighbors: []

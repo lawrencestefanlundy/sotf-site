@@ -12,7 +12,7 @@ sources:
 - '[[2026-06-12-conversations-in-the-sky-galileos-intersatellite-links-teste]]'
 - '[[2026-06-03-nasa-says-farewell-to-maven-mars-mission-hosts-media-call-to]]'
 - '[[2026-05-07-nasas-prithvi-becomes-first-ai-geospatial-foundation-model-i]]'
-mention_count: 16
+mention_count: 17
 descendants:
 - atmospheric-sensing
 - direct-to-cell-leo
@@ -30,7 +30,7 @@ descendants:
 - sar-satellites
 - space-communications
 sources_7d: 2
-sources_30d: 3
+sources_30d: 4
 recent_mentions:
 - slug: 2026-09-03-space-compute-cheap-launch-rebuild
   title: Space compute rebuilt around the cheap-launch case — what survives the premise

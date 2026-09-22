@@ -44,7 +44,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 44
-sources_7d: 2
+sources_7d: 1
 sources_30d: 3
 recent_mentions:
 - slug: 2026-07-13-sk-hynix-record-fall-hbm4-three-supplier

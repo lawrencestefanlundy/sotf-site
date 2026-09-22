@@ -27,9 +27,9 @@ tags:
 - technology
 - connectomics
 - neuroscience
-mention_count: 4
-sources_7d: 0
-sources_30d: 0
+mention_count: 5
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
 - slug: 2026-06-04-bezos-flourish-brain-core-algorithm
   title: Jeff Bezos Is Funding a Wild Hunt for the Brain's 'Core Algorithm'

@@ -25,7 +25,7 @@ scorecard:
   verdict: ''
 scorecard_status: draft
 mention_count: 99
-sources_7d: 3
+sources_7d: 1
 sources_30d: 13
 recent_mentions:
 - slug: 2026-06-04-q-memory-site

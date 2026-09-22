@@ -16,9 +16,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 67
-sources_7d: 0
-sources_30d: 10
+mention_count: 69
+sources_7d: 2
+sources_30d: 12
 recent_mentions:
 - slug: 2026-06-23-engram-98m-learned-memory-token-costs
   title: AI memory startup focused on cutting token costs raises $98 million

@@ -33,9 +33,13 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 2
-sources_30d: 6
-recent_mentions: []
+sources_7d: 1
+sources_30d: 5
+recent_mentions:
+- slug: 2026-09-15-arxiv-a-direct-algebraic-approach-to-normal-ordering-of-exponentia
+  title: A Direct Algebraic Approach to Normal Ordering of Exponential Bosonic Operators with Applications to Two-Dimensional Excitonic Form Factors
+  date: '2026-09-15'
+  kind: paper
 neighbors: []
 ---
 **Semiconductor materials is the engineering layer beneath every chip, detector and solar cell, and the 2026 research record shows the active frontier has moved off bulk silicon towards doping-engineered oxides, halide perovskites, atomically thin and printed chalcogenide semiconductors, plus the contact-free metrology and simulation tools needed to qualify them.**

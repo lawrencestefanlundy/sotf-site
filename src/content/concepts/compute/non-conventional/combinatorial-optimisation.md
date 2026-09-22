@@ -40,7 +40,7 @@ scorecard:
 scorecard_status: draft
 descendants:
 - uncertainty-propagation-compute
-sources_7d: 5
+sources_7d: 3
 sources_30d: 11
 recent_mentions:
 - slug: 2025-04-30-has-the-time-come-to-take-mortal

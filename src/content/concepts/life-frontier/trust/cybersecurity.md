@@ -18,7 +18,6 @@ sources:
 - '[[2026-07-25-thoughts-on-ai-and-power]]'
 - '[[2026-07-26-ai-breach-frequency-autonomous-soc]]'
 - '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
-- '[[2026-03-28-agentic-ai-security-funding-mna]]'
 scorecard:
   viability: null
   drivers: null
@@ -28,9 +27,9 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-mention_count: 124
-sources_7d: 2
-sources_30d: 12
+mention_count: 125
+sources_7d: 1
+sources_30d: 13
 recent_mentions:
 - slug: 2026-08-20-callosum-100m-seed-announcement
   title: Callosum announces $100M seed led by Atomico (round coverage + Companies House filings)

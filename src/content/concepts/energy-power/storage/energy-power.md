@@ -123,6 +123,10 @@ descendants:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-21-rune-is-tapping-spare-solar-power-for-modular-data-centers--
+  title: Rune is tapping spare solar power for modular data centers - latitudemedia.com
+  date: '2026-09-21'
+  kind: web
 - slug: 2026-09-18-the-hidden-power-systems-behind-ai---latitude-media
   title: The hidden power systems behind AI - Latitude Media
   date: '2026-09-18'
@@ -150,10 +154,6 @@ recent_mentions:
 - slug: 2026-09-10-do-data-centers-really-increase-electricity-prices---latitud
   title: Do data centers really increase electricity prices? - Latitude Media
   date: '2026-09-10'
-  kind: web
-- slug: 2026-09-09-are-gencos-a-solve-for-the-data-center-power-problem---latit
-  title: Are GenCos a solve for the data center power problem? - Latitude Media
-  date: '2026-09-09'
   kind: web
 neighbors: []
 ---

@@ -13,15 +13,15 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 9
+mention_count: 10
 frontier:
 - Can any field-free superconducting diode reach rectification efficiency near 100% while retaining broad in-situ tunability, given that practical field-free devices were described as unrealised in May 2026 2026 05 14 in situ tunable superconducting diode towards field free ope?
 - Does the predicted superconducting triode effect in a top-gated asymmetric quantum-dot Josephson junction survive experimental realisation, including the asymmetric Shapiro-step signature 2026 06 05 superconducting triode effect in a quantum dot josephson jun?
 - What switching speed, energy per operation and fan-out do GCS-based logic gates achieve when integrated beyond the demonstrated half-adder 2026 07 02 universal logic circuit for gate controlled superconductor b?
 - Are disorder-derived and geometry-derived diode effects reproducible wafer-scale, or does the required asymmetry vary uncontrollably between nominally identical devices 2026 06 17 graphene josephson diodes from inherent asymmetric disorder 2026 07 24 geometric superconducting diode effect in an nbn nanoring?
 - Do additively printed and laser-written superconducting structures match lithographic devices on loss and critical current density in functional circuits, not just test resonators or patterned films 2026 07 27 liquid metal printing for superconducting circuits 2026 06 05 nanoscale spatial tuning of superconductivity in cuprate thi?
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions: []
 neighbors: []
 ---

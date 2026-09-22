@@ -24,9 +24,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 30
-sources_7d: 0
-sources_30d: 7
+mention_count: 32
+sources_7d: 2
+sources_30d: 9
 recent_mentions: []
 neighbors:
 - slug: indium-antimonide

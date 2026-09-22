@@ -56,6 +56,10 @@ recent_mentions:
   title: IBM unit secures US$1 billion CHIPS Act award to expand quantum wafer manufacturing - digitimes
   date: '2026-09-21'
   kind: web
+- slug: 2026-09-17-clifford-chance-advises-us-department-of-commerce-on-us1-bil
+  title: Clifford Chance advises U.S. Department of Commerce on US$1 billion CHIPS Act Award to Anderon for quantum semiconductor foundry development - Clifford Chance
+  date: '2026-09-17'
+  kind: web
 - slug: 2026-09-16-ibm-stock-gains-as-anderon-secures-1-billion-chips-act-award
   title: IBM stock gains as Anderon secures $1 billion Chips Act award - ad-hoc-news.de
   date: '2026-09-16'
@@ -78,10 +82,6 @@ recent_mentions:
   kind: web
 - slug: 2026-09-10-do-data-centers-really-increase-electricity-prices---latitud
   title: Do data centers really increase electricity prices? - Latitude Media
-  date: '2026-09-10'
-  kind: web
-- slug: 2026-09-10-the-pulse-191-a-new-trend-of-cpu-shortages
-  title: 'The Pulse #191: a new trend of CPU shortages'
   date: '2026-09-10'
   kind: web
 neighbors:

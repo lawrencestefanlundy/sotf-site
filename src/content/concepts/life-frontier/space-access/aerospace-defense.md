@@ -23,6 +23,10 @@ mention_count: 80
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-21-esa-brings-public-and-private-capital-together-to-accelerate
+  title: ESA brings public and private capital together to accelerate Europe’s space economy
+  date: '2026-09-21'
+  kind: web
 - slug: 2026-09-17-esa-starts-next-phase-of-iris2-evolution-through-low-leo-act
   title: ESA starts next phase of IRIS² evolution through Low-LEO activities
   date: '2026-09-17'
@@ -50,10 +54,6 @@ recent_mentions:
 - slug: 2026-09-09-watch-flex-and-sentinel-3c-launch-on-vega-c
   title: 'Watch: FLEX and Sentinel-3C launch on Vega-C'
   date: '2026-09-09'
-  kind: web
-- slug: 2026-09-08-nasa-calls-for-proposals-to-accelerate-lunar-surface-technol
-  title: NASA Calls for Proposals to Accelerate Lunar Surface Technologies
-  date: '2026-09-08'
   kind: web
 neighbors: []
 ---

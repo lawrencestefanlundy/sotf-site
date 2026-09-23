@@ -24,9 +24,9 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 37
-sources_7d: 0
-sources_30d: 2
+mention_count: 38
+sources_7d: 1
+sources_30d: 3
 recent_mentions:
 - slug: 2026-06-17-nawah-vacnt-technology
   title: NAWAH Architectured Nanomaterials — VACNT technology & positioning
@@ -89,8 +89,6 @@ Against thermal incumbents the picture is contested rather than superior: the ma
 **TLDR: Genuine and in one case quantified advantages over incumbents, but rarely a decisive margin, and CNTs are one of several contenders in thermal management.**
 
 ## Diffusion (3/5)
-
-The bulk path is already moving. Practitioner reporting describes CNTs shifting from lab novelty to products across energy, electronics, infrastructure and defence, while explicitly framing the story as a breakthrough with slow market adoption <sup class="ref"><a href="https://stateofthefuture.substack.com/p/a-primer-carbon-nanotubes" title="A Primer: Carbon Nanotubes" rel="noopener">ref</a></sup>. The supplier model that has emerged is enabling-materials rather than finished product, selling customised forests and transfer processes into composites, catalysts, thermal interfaces, electrodes and sensors <sup class="ref"><a href="https://nawah.us/architectured-nanomaterials/technology/" title="NAWAH Architectured Nanomaterials — VACNT technology & positioning" rel="noopener">ref</a></sup>, which lowers the adoption barrier for a customer already making a part but leaves CNTs dependent on someone else's product cycle. Aerospace and structural testing entry points come with long qualification, which is implicit in an SBIR Fast-Track structured around selling either measurement services or the equipment, materials and training to do it in-house.
 
 **TLDR: Already diffusing as an additive and forest material; electronics adoption is blocked by sorting, doping stability and substrate dependence.**
 

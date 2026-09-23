@@ -28,7 +28,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 64
+mention_count: 66
 descendants:
 - metal-additive-manufacturing
 last_reorg_date: '2026-05-13'
@@ -41,8 +41,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 1
+sources_7d: 2
+sources_30d: 3
 recent_mentions:
 - slug: 2026-07-02-fusion-bionic-secures-8m-for-laser-texturing---opticsorg
   title: Fusion Bionic secures €8M for laser texturing - Optics.org

@@ -23,8 +23,6 @@ neighbors: []
 ---
 ## Physics / mechanism
 
-Lithium-sulphur (Li-S) chemistry couples a lithium-metal anode with a sulphur cathode via a conversion reaction rather than intercalation. Discharge produces lithium polysulphides (Li₂Sₓ, x = 2–8) through sequential reduction steps, ultimately forming Li₂S. Theoretical specific energy is 2,600 Wh/kg (cathode) vs. ~270 Wh/kg for NMC; practical cells currently land at 400–600 Wh/kg, ~2× NMC. Key failure mode: polysulphide shuttle — dissolved intermediates migrate to the anode, causing capacity fade and self-discharge. Cycle life commercially sits at 200–500 cycles; research targets >1,000. Oxis Energy (defunct), Lyten, and Theion are primary developers. Electrolyte engineering (solid-state or ether-based liquid) and cathode host scaffolds (graphene, MOFs) are the principal performance levers.
-
 ## Competitive landscape
 
 Li-S competes with lithium-ion (NMC, LFP), sodium-ion, and solid-state lithium-metal batteries. Solid-state Li-metal shares the anode chemistry but avoids polysulphide dissolution entirely — arguably a superior long-term path if electrolyte conductivity scales. Sodium-ion undercuts on cost but caps at ~160 Wh/kg. Li-air offers higher theoretical density but is further from practical deployment.

@@ -28,9 +28,9 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 311
-sources_7d: 0
-sources_30d: 14
+mention_count: 324
+sources_7d: 3
+sources_30d: 16
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
@@ -127,8 +127,6 @@ The machine-learning framework is the most diffusible in principle, since it ope
 **TLDR: No adoption evidence of any kind in the sources: no users, no tool integration, no standards.**
 
 ## Impact (unscored)
-
-There is a qualitative link between the concept and value: process-induced variability is described as a formidable barrier in high-volume manufacturing of semiconductor chips, which implies that better measurement and prediction feeds yield. But no source quantifies yield, cost, cycle time or served market, and no source connects any of the three techniques to a manufacturing outcome.
 
 The optical paper asserts a general stake, that measurements of positional coordinates and dimensions are fundamental to safety, industrial productivity and manufacturing quality, which is framing rather than measurement. On this material an impact score would be a guess, so it is null.
 

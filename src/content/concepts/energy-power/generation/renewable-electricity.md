@@ -101,10 +101,6 @@ Fourth, resource non-stationarity: the existing hydropower fleet's operating rul
 
 ## Impact (4/5)
 
-The sources place electricity, not compute hardware, at the centre of the current build cycle: siting of AI data centres is governed by grid access, and delivered energy prices near 92 USD/MWh are compared against nine on-site alternatives, none of which beat the wire. Anything that adds cheap, connectable capacity to that wire therefore captures large value. Hydropower reliability is framed explicitly as a national energy resilience question, and advanced geothermal is described as widely available and clean, with cost the open question <sup class="ref"><a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxQRHZBdTdsUDY1YlFBeWZxZEpjeGE1eDJOcHBvWW9NeWEwM1kyMXNEQ0tBbVlYLTdTUmJDWkxXTW4zVFFiQ1pnWThidW5EV3E5QVR5OS0xTmx1dFhIV3JmT2NaaXdtaXVYaWltVTV3cVh6WGpENExEQ01FeVF1T1dXUFM5Wm0xLUxfR1h4X3dBNTNJOTM2T1F0c1Z6aUItV0RjRThfdE9YcmFaaWs0YUhj?oc=5" title="Advanced Geothermal Energy Is Widely Available, Clean, and Maybe Cheap Enough to Make a Big Impact - Information Technol" rel="noopener">ref</a></sup>.
-
-The score is held at 4 because the sources establish the size of the prize without attributing it to renewables specifically. They do not contain figures for avoided emissions, renewable share of generation, or the cost delta between renewable and conventional supply. The one quantified comparison in the set finds a gas combined cycle producing at 47 USD/MWh yet costing about 114 USD/MWh on a complete-site basis, which illustrates that busbar cost is a poor proxy for delivered value for any technology, renewable included.
-
 **TLDR: Electricity supply is the binding constraint on the largest current capital deployment, though the sources do not quantify renewables' share of the resolution.**
 
 ## Timing Now (0-2yr)
@@ -112,8 +108,6 @@ The score is held at 4 because the sources establish the size of the prize witho
 Hydropower is already a leading US renewable source, photovoltaic manufacturing is an established industry receiving structured support <sup class="ref"><a href="https://news.google.com/rss/articles/CBMizgFBVV95cUxPVF9wSEEwLTBrWXVHU0gyeURVM1dOOFFkcUFkSjlVbHlSNmhtOERtVXpPRGJ1bHQ1VTk0UGNIZGozbzR6QjNnR3BpdFNpbnNfdjJCU0gzR2NHaDBzaUV1Z2RreFBUYjJ5M1Y1VzhLdmNpQ21EaWlxR183allLVEhzbEU0VWVPd2N0dmQ1eUVaemptTFFmak00SUVWQ0pVRW1lenVxTHltcjdaUVBCeEJ1WVNNN1RXdFBLeHBaRm83UV9qTEJFVlhuY1FjUFpWQQ?oc=5" title="NEXUS GreenTech Supports Companies in the Photovoltaic Industry - Fraunhofer-Institut für Solare Energiesysteme ISE" rel="noopener">ref</a></sup>, and long-duration storage procurement and geothermal turbine supply chains are being positioned for near-term contracts <sup class="ref"><a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxQbTg1OE5sZTRvMjdEY0NFWUVXYWpSY0FKNklIUVFpTkNrcWt4LUhZT0ZLVktybHNBcE5oX2xubElRc3ltbzRtalVKUmZVZkNUTDM0UVlKekdfaW1ybVNPN05xczJiNG0zMTNSMFlMai01YjZZcmZsQkM3LXFLaDR1YW95ZkkwU21hbi1TSWM0NG0tRC1NdEYxc2U0SU1EbkE?oc=5" title="Which LDES companies are poised to land the next big contracts? - Latitude Media" rel="noopener">ref</a></sup> <sup class="ref"><a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxQT0tCUmQ5Sm5yOWpEUmFOMF93TGU2OTBvbXFVMmdZR29YOHBDVTUwbjd4YjhYbkd6S3JTclB6RE1sWFpjWU9zVHlSRml0S0xtT1Zuenc0akxndnc4emFjeF9mZzZjQm1LS1pRcnFEdk5SdEs5Y0VHMWVOa2RrVUZtX25lREczeU5kLWFTcVJGN0c2TFZ0TzgzS1ZJcEFzUFpVYnMzeFItbzM?oc=5" title="How foreign turbine suppliers are gearing up for a US geothermal boom - Latitude Media" rel="noopener">ref</a></sup>. There is no technology-readiness gate left to clear for the category as a whole.
 
 What sits further out is the specific claim that renewables can serve continuous industrial load without the grid. The economics paper's finding that no on-site configuration beats delivered grid power, and that free conversion hardware would not change that, suggests this is not a near-term outcome and that improvement must come from transmission, queue reform and long-duration firming rather than from device cost. The frontier research in these sources, on indoor photovoltaics, organic photovoltaic climate robustness and oxide polaron transport, is on a longer horizon that the sources do not date.
-
-**TLDR: The generation technology is already deployed; the contested decisions about interconnection, firming and operation are being made in the current cycle.**
 
 ## Overrated or underrated? Fairly rated
 
@@ -126,14 +120,6 @@ The specific sub-claim that is overrated in this evidence is off-grid or behind-
 By the end of 2028, no US AI data centre of 100 MW or larger will be operating primarily on on-site renewable generation plus short-duration storage at a delivered cost below the equivalent delivered grid price, consistent with the finding that nothing beats the wire.
 
 ## Evidence base
-
-- 2026-08-11: Delivered grid power at about 92 USD/MWh beats all nine on-site supply options studied for AI data centres; gas combined cycle produces at 47 USD/MWh but costs about 114 USD/MWh on a complete-site basis, and four-hour storage is capped near 18% of annual energy and dirtier than the grid when charged at the margin.
-- 2026-08-11: Interconnection queues, not electricity prices, now govern where data centres can be built, and free conversion hardware would still not beat the grid for any load studied.
-- 2026-06-15: NSF awarded 199,888 USD to develop climate-invariant reinforcement-learning operating policies for the US hydropower fleet, described as a leading source of US renewable electricity, replacing rules built from historical records.
-- 2026-08-03: Detailed exergy analysis puts the thermodynamic maximum for light-to-usable-energy conversion near 76% while reproducing the Shockley-Queisser limit of about 33.3% as the practical single-junction constraint.
-- 2026-08-13: A climate-native screening framework for organic photovoltaic donors, trained on 120,600 geometries from 268 molecules with about a 1050-fold speedup over explicit quantum chemistry, forecasts annual efficiency profiles that static standard-test-condition values miss.
-- 2026-07-08: Simulation shows GPU workload manipulation by a legitimate cloud tenant can destabilise local grids through high-frequency power modulation, with effects strongest under high distributed-energy-resource penetration and weakly captured by common telemetry.
-- 2026-08-07: Indoor photovoltaic efficiency limits and optimal bandgaps depend on both white-LED colour temperature, from 2200 K to 6500 K, and colour rendering index at 70, 80 and 90, contradicting the prior assumption that CRI is negligible for material choice.
 
 ## Open questions
 

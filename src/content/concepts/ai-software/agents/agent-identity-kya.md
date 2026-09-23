@@ -19,6 +19,8 @@ related_concepts:
 - stablecoin-clearing
 sources:
 - '[[2026-05-08-consensus-capital-national-ai-stacks]]'
+- '[[2026-09-21-amazon-blocks-meta-muse]]'
+- '[[2026-09-22-coinbase-full-stack-agent-payments]]'
 - '[[2026-07-21-agent-identity-kya-landscape]]'
 frontier:
 - Does any buyer emerge with a budget line for agent identity itself, as opposed to agent security operations or key custody, where an existing budget line demonstrably converts to acquisitions?
@@ -32,7 +34,7 @@ frontier:
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 12
+mention_count: 14
 scorecard:
   viability: 3
   drivers: 2
@@ -42,9 +44,17 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Overrated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 3
+sources_7d: 2
+sources_30d: 5
 recent_mentions:
+- slug: 2026-09-22-coinbase-full-stack-agent-payments
+  title: Coinbase across the agent/stablecoin payments stack (agentic wallets, Payment APIs, x402, Bedrock AgentCore)
+  date: '2026-09-22'
+  kind: web
+- slug: 2026-09-21-amazon-blocks-meta-muse
+  title: Amazon blocks Meta's Muse AI shopping agent from its retail site
+  date: '2026-09-21'
+  kind: web
 - slug: 2026-07-26-ai-breach-frequency-autonomous-soc
   title: AI-enabled attack frequency and autonomous-SOC economics, 2026
   date: '2026-07-26'
@@ -69,14 +79,6 @@ recent_mentions:
   title: 'Consensus Capital: National AI Stacks Taking Shape'
   date: '2026-05-08'
   kind: substack
-- slug: 2026-07-28-zk-identity-primitives-commoditised
-  title: Google open-sources its ZKP libraries, the EU ships an open-source age-verification blueprint, and eIDAS 2.0 encourages ZKP in the wallet
-  date: '2026-04-15'
-  kind: web
-- slug: 2026-07-28-proof-of-personhood-competitive-landscape
-  title: Proof-of-personhood competitive landscape — Humanity Protocol pivots out, Billions goes non-biometric
-  date: '2026-02-01'
-  kind: web
 neighbors:
 - slug: agentic-payments
   name: Agentic Payments

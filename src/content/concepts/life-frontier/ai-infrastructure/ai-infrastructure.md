@@ -58,7 +58,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 125
+mention_count: 127
 descendants:
 - ai-grade-datacentre-real-estate
 - ai-infrastructure-scaling
@@ -69,8 +69,8 @@ descendants:
 - moe-all-to-all-collectives
 - prefill-vs-decode
 - sovereign-ai
-sources_7d: 1
-sources_30d: 9
+sources_7d: 2
+sources_30d: 10
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
@@ -113,8 +113,6 @@ neighbors: []
 "AI infrastructure" is the layer between money and tokens. It spans accelerators (merchant GPUs plus custom silicon such as Amazon's Trainium), the power and thermal systems that let those parts run at density, the interconnect fabric inside and between racks, the inference serving software (vLLM, SGLang and their scheduling architectures), and the operational systems for fault detection, repair and security. It is not one technology but a stack in which each layer has become a distinct engineering and commercial market.
 
 How it works, layer by layer, is where the interesting variables sit. On the silicon side, ARK projects custom accelerators reaching roughly 15-25% of total datacentre AI compute by 2030, with inference already around two-thirds of AI compute <sup class="ref"><a href="https://www.ark-invest.com/articles/analyst-research/the-state-of-ai-infrastructure-demand-costs-custom-silicon" title="The State of AI Infrastructure: Demand, Costs, Custom Silicon" rel="noopener">ref</a></sup>. On thermals, rising accelerator TDP and rack density are pushing air cooling past practical limits: Goldman Sachs forecasts 76% of AI servers requiring liquid cooling by end-2026, with direct-to-chip described as non-discretionary for GPU clusters <sup class="ref"><a href="https://alcapitaladvisory.com/research/intelligence/ai-infrastructure.html" title="Goldman Sachs AI Infrastructure Analysis: Liquid Cooling as Non-Discretionary" rel="noopener">ref</a></sup>, while Dell'Oro sizes the liquid cooling market at close to $7B by 2029 <sup class="ref"><a href="https://www.delloro.com/news/data-center-liquid-cooling-market-to-approach-7-billion-by-2029-as-ai-deployments-accelerate/" title="Data Center Liquid Cooling Market to Approach $7 Billion by 2029 as AI Deployments Accelerate" rel="noopener">ref</a></sup>. On interconnect, the copper-to-optical transition is slower than the optical thesis assumes: short-reach copper (DACs and AECs) is expected to hold intra-rack connectivity with a TAM above $10B by 2029 <sup class="ref"><a href="https://hightoweradvisors.com/blogs/well-th-blog/copper-vs-optical-in-the-ai-infrastructure-buildout" title="Copper vs Optical in the AI Infrastructure Buildout" rel="noopener">ref</a></sup>.
-
-On the software side, serving architecture has progressively disaggregated: chunked-prefill aggregation, then prefill/decode disaggregation, and most recently operator-level attention-FFN disaggregation, which places memory-bound attention and compute-heavy expert FFNs on separate GPU groups for mixture-of-experts models. Each level widens the scheduling design space across sequence lengths, prefix-KV reuse, latency targets and topology, so the payoff is workload-dependent rather than universal. Underneath, the tooling to reason about this is itself immature: academic cycle-accurate simulators lag current GPU features such as the Tensor Memory Accelerator, and analytical models can misestimate DRAM traffic.
 
 The parameters that decide the category are therefore: how long demand-side capex holds (four hyperscalers at roughly $725B in 2026, up 77% from about $410B in 2025, with analysts projecting above $1T in 2027 <sup class="ref"><a href="https://valueaddvc.com/blog/big-tech-ai-capex-in-2025-microsoft-google-meta-amazon-and-the-spending-race" title="Big Tech AI Capex 2026: Microsoft, Google, Meta, Amazon at $725 Billion" rel="noopener">ref</a></sup>); whether the physical constraints (power, cooling, skilled trades) can be relieved on schedule; and where in the stack margin actually lands, since evidence suggests it accrues upstream in silicon and downstream in distribution rather than in the model layer.
 

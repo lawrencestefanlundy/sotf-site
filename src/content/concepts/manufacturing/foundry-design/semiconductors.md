@@ -52,6 +52,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-22-eu-prepares-chips-act-20-as-brussels-rethinks-competition-ru
+  title: EU Prepares Chips Act 2.0 as Brussels Rethinks Competition Rules for Global Scale - EU Today
+  date: '2026-09-22'
+  kind: web
 - slug: 2026-09-21-ibm-unit-secures-us1-billion-chips-act-award-to-expand-quant
   title: IBM unit secures US$1 billion CHIPS Act award to expand quantum wafer manufacturing - digitimes
   date: '2026-09-21'
@@ -80,10 +84,6 @@ recent_mentions:
   title: Rigetti (RGTI) Stock Looks Stretched Despite Fresh CHIPS Act Funding - simplywall.st
   date: '2026-09-11'
   kind: web
-- slug: 2026-09-10-do-data-centers-really-increase-electricity-prices---latitud
-  title: Do data centers really increase electricity prices? - Latitude Media
-  date: '2026-09-10'
-  kind: web
 neighbors:
 - slug: logic
   name: Compute & Logic
@@ -109,8 +109,6 @@ neighbors:
 A semiconductor is a solid with an energy gap between its filled valence states and empty conduction states. Everything useful follows from being able to move that gap around and to put controlled numbers of carriers into it: dope it, gate it, strain it, thin it, put it in a cavity. The engineering parameters that decide device behaviour are the size and directness of the band gap, the effective mass of electrons and holes (which sets mobility), the carrier density achievable by doping, the dielectric response, and how efficiently heat leaves the active region.
 
 The sources collected here are almost entirely condensed-matter and optics papers from 2024 to 2026, and they map the frontier rather than the industry. A large fraction concerns two-dimensional transition metal dichalcogenides, where the gap depends on layer count: scanning tunnelling spectroscopy on MBE-grown MoS2 from one to five layers shows the gap falling sharply with thickness, to values below the bulk gap, with conduction-band pinning vanishing above four layers. Others deal with organic molecular semiconductors, where crystal packing rather than molecular design governs transport: a previously unrecognised and thermodynamically stable polymorph of the benchmark material DNTT was found coexisting in commercial powders, and it changes the dimensionality of charge transport. Colloidal quantum-dot films, increasingly used in place of bulk semiconductors, were measured at thermal conductivities as low as 0.55 W/m/K because heat moves poorly through close-packed dot solids.
-
-A second theme is control of excitons, the bound electron-hole pairs that dominate optical response in these thin materials. A charge-tunable MoSe2 monolayer coupled to a photonic crystal nanocavity produced all-optical switching of the cavity spectrum at excitation energies down to about 4 fJ on picosecond timescales, with the nonlinearity traced to exciton dephasing breaking the strong-coupling condition. In monolayer WSe2 phototransistors, circularly polarised excitation selects a single valley and produces a two-fold enhancement of sublinear photocurrent scaling, giving all-optical rather than electrical control of many-body exciton interactions.
 
 A third theme is defect and dopant engineering, and the theory and metrology needed to support it. Dopant distribution in 2D semiconductors is usually assumed random, but vanadium in CVD-grown WS2 monolayers segregates along crystallographic bisectors, producing tensile strain channels of about 0.70%. In vacancy-doped 1T-TiS2, half-metallic ferromagnetism only appears once the defect network percolates, at a critical vacancy concentration near 12.5%. On the measurement side, contact-free terahertz time-domain spectroscopy has been given a sensitivity metric that maps which doping levels and layer thicknesses are actually accessible in SiC, Si and GaN stacks.
 
@@ -173,13 +171,6 @@ Two findings should temper enthusiasm about 2D and organic semiconductors specif
 By 31 December 2028 no peer-reviewed experimental demonstration will report a transfer-printed five-junction transition metal dichalcogenide photovoltaic stack matching the 2.10, 1.78, 1.50, 1.24, 1.00 eV ladder identified in.
 
 ## Evidence base
-
-- All-optical switching of a photonic crystal nanocavity spectrum was demonstrated at excitation energies down to about 4 fJ on picosecond timescales using a charge-tunable MoSe2 monolayer, with the nonlinearity attributed to exciton dephasing breaking strong coupling.
-- A conservative TMD bandgap window of 1.0 to 2.1 eV plateaus near 63.4% efficiency at 50 junctions under full concentration against 84.5% for unconstrained ladders, with an achievable five-junction ladder at 2.10, 1.78, 1.50, 1.24 and 1.00 eV.
-- Thermal conductivity in an optically pumped CdSe/CdS quantum-dot film was measured at 0.55 W/m/K by sub-nanosecond time-resolved X-ray diffraction, attributed to poor heat flow in close-packed dot solids.
-- In vacancy-doped monolayer 1T-TiS2, half-metallicity requires a percolating defect network at a critical vacancy concentration of about 12.5%, above which the majority-spin band widens to 1.5 eV with 100% spin polarisation and a 1.0 eV minority gap.
-- The long-standing ScAlN permittivity discrepancy, calculated 11.7 versus measured near 15, is accounted for by inverse piezoelectric lattice inflation under stress-free boundary conditions.
-- STS on MBE-grown MoS2 from one to five layers shows the band gap falling with layer number to below the bulk value, with conduction-band pinning disappearing above four layers.
 
 ## Open questions
 

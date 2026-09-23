@@ -21,8 +21,10 @@ related_concepts:
 sources:
 - '[[2026-06-13-agentic-payments-value-capture]]'
 - '[[2026-06-14-frontier-ai-value-capture]]'
+- '[[2026-09-21-amazon-blocks-meta-muse]]'
 - '[[2026-06-19-onchain-agent-volume-tracking]]'
 - '[[2026-06-13-mckinsey-agentic-commerce]]'
+- '[[2026-09-22-coinbase-full-stack-agent-payments]]'
 - '[[2026-07-21-stablecoin-market-structure]]'
 - '[[2026-07-31-4mica-update-verification]]'
 frontier:
@@ -42,7 +44,7 @@ descendants:
 - payment-mandates
 - stablecoin-clearing
 - x402
-mention_count: 21
+mention_count: 23
 scorecard:
   viability: 3
   drivers: 3
@@ -52,9 +54,17 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Overrated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 3
+sources_7d: 2
+sources_30d: 5
 recent_mentions:
+- slug: 2026-09-22-coinbase-full-stack-agent-payments
+  title: Coinbase across the agent/stablecoin payments stack (agentic wallets, Payment APIs, x402, Bedrock AgentCore)
+  date: '2026-09-22'
+  kind: web
+- slug: 2026-09-21-amazon-blocks-meta-muse
+  title: Amazon blocks Meta's Muse AI shopping agent from its retail site
+  date: '2026-09-21'
+  kind: web
 - slug: 2026-08-06-4mica-base-mainnet-onchain-verification
   title: 4Mica's Base mainnet contract, verified on-chain
   date: '2026-08-06'
@@ -78,14 +88,6 @@ recent_mentions:
 - slug: 2026-07-21-agent-identity-kya-landscape
   title: Agent identity / KYA — landscape, demand and value capture, commissioned research pass
   date: '2026-07-21'
-  kind: web
-- slug: 2026-06-19-onchain-agent-volume-tracking
-  title: How to track on-chain agent-transaction volume (x402) — sources, method, baseline
-  date: '2026-06-19'
-  kind: web
-- slug: 2026-06-14-frontier-ai-value-capture
-  title: 'Frontier AI value capture: where the $4T accrues (research synthesis)'
-  date: '2026-06-14'
   kind: web
 neighbors:
 - slug: stablecoin-clearing

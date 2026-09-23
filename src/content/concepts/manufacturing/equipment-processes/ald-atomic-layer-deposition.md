@@ -80,8 +80,6 @@ neighbors:
 ---
 ## Physics / mechanism
 
-ALD deposits material one atomic monolayer at a time via sequential, self-limiting surface reactions. A precursor gas chemisorbs onto the substrate; excess is purged; a co-reactant (oxidant, plasma, or reducing agent) reacts with the chemisorbed layer; excess purged again. One cycle = ~0.1-2 Å growth. The self-limiting nature gives exceptional conformality (>99% step coverage in high-aspect-ratio structures) and sub-Ångström thickness control; the price is throughput (cycle times 0.5-5s), which is the permanent industrial constraint. Variants: thermal ALD, plasma-enhanced (PEALD, lower temperature), spatial ALD (substrate moves through zoned precursor curtains, the throughput answer), batch furnace ALD, and **area-selective ALD** (inhibitor chemistry blocks growth on chosen surfaces, so the film patterns itself). Key materials: Al2O3, HfO2, TiN, ZnO, Ru, and now Mo. Because ALD is CVD chemistry cut into self-limiting half-reactions, it inherits the same precursor constraint: the molecule defines what can be grown, and hydrogen rides in on most C and N precursors ([CVD (Chemical Vapor Deposition)](/manufacturing/equipment-processes/chemical-vapor-deposition/)).
-
 ## The forcing-function precedent (why ALD matters to every deposition thesis)
 
 ## Market structure

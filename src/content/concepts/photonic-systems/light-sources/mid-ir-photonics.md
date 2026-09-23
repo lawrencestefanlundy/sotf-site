@@ -30,9 +30,9 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 130
-sources_7d: 4
-sources_30d: 10
+mention_count: 132
+sources_7d: 6
+sources_30d: 12
 recent_mentions:
 - slug: 2026-06-17-single-photon-detector-market-spad-snspd
   title: Single-photon detector market aggregation — SPAD, SiPM, SNSPD (2024–2035)
@@ -98,8 +98,6 @@ The dominant technical answer in the recent literature is nonlinear upconversion
 
 The parameters that decide the field are conversion efficiency, noise equivalent power, spectral bandwidth and resolution, and the pump power needed to get there. Recent work reports 22% peak conversion efficiency and a noise equivalent power of 0.3 fW/Hz^(1/2) using an external cavity to enhance a 1064 nm pump by a factor of 36 to 55 W intracavity average power. Spectrometers built on this route reach 0.5 cm^-1 resolution at illumination levels of 0.14 photons per nm per pulse across 2.4-4.2 µm, and hyperspectral imagers acquire 100 spectral bands over 2600-4085 cm^-1 in 10 ms.
 
-Around this core sit two supporting layers. On the source and materials side: chip-scale rubidium vapour cells producing coherent mid-IR by four-wave mixing, two-colour femtosecond filaments in air giving tunable radiation near 3.3 µm, hexagonal GeSn alloys predicted to push a direct absorption edge into the mid-IR, and reference data on which transparent materials are usable for infrared coatings and windows. On the applications side: mid-IR used as a probe or pump in microscopy at sub-5 nm resolution, in photothermal super-resolution chemical imaging, and to drive lattice vibrations directly for room-temperature terahertz detection.
-
 ## Viability (4/5)
 
 The deduction is for scale and complexity. The best sensitivity number depends on a low-loss external cavity building 55 W of intracavity average power from a single-longitudinal-mode pump, which is an optical table, not a product. Some results are still numerical rather than experimental, and the promising integrated source materials remain at density functional theory stage. Nothing in the sources shows a compact, self-contained instrument.
@@ -121,8 +119,6 @@ The comparison class is direct mid-IR detection with cooled or noisy infrared se
 Adjacent claims carry similar margins. Polar dielectric transducers exceed metal thermoreflectance transducers by up to eight times, and by an order of magnitude in some cases. Mid-IR excitation of lattice vibrations needs power density nearly 300 times lower than visible excitation for comparable phonon enhancement. The score is 4 rather than 5 because the margins are reported by the originating groups against their own prior work, and no independent replication appears in the sources.
 
 ## Diffusion (2/5)
-
-The adoption barriers are structural rather than incremental. High sensitivity is bought with 55 W of intracavity average power from a cavity-enhanced single-frequency pump. The imaging schemes need spatial light modulators, digital micromirror devices, acousto-optic tunable filters, temperature-controlled phase-matched crystals and computational reconstruction algorithms. Phase matching also couples performance to crystal temperature and angle, which is a calibration and stability burden in the field.
 
 There are early signals of a miniaturisation route but they are weak. Micromachined rubidium vapour cells generate coherent mid-IR through an anodically bonded silicon window, but the collected power is around 50 nW. Foundry-compatible crosstalk elimination in standard rib waveguides has been demonstrated across silicon-on-insulator and other platforms, which matters for eventual integration density, but that work is not itself mid-IR. Direct-gap 2H-GeSn as an integrated mid-IR emitter or absorber is at the theory stage. The likely first diffusion path is high-end scientific instrumentation, not volume deployment.
 
@@ -155,13 +151,6 @@ The caveat is concentration. A large share of the strongest results in this sour
 By 31 December 2028, at least one research group with no author overlap with the Zeng/Huang collaboration will publish a mid-IR upconversion hyperspectral imager achieving 100 or more spectral bands at a cube refresh rate of 100 Hz or better, matching.
 
 ## Evidence base
-
-- 29 May 2026: cavity-enhanced upconversion detection reaches 22% peak conversion efficiency and a noise equivalent power of 0.3 fW/Hz^(1/2), described as at least a tenfold improvement over previous results, using a 1064 nm pump enhanced 36x to 55 W intracavity.
-- 29 May 2026: a wide-field upconversion hyperspectral imager acquires 100 spectral bands over 2600-4085 cm^-1 in 10 ms, a 100 Hz cube refresh rate, using a 10 kHz megapixel silicon camera.
-- 29 May 2026: single-photon time-stretch spectroscopy over 2.4-4.2 µm achieves 0.5 cm^-1 resolution at 0.14 photons per nm per pulse; the compressive single-pixel variant reports 0.5 cm^-1 down to 0.01 photon-level flux across 3.1-3.9 µm.
-- 14 May 2026: an upconversion differentiator at 3 µm performs tunable first- to fourth-order isotropic edge enhancement with real-time switching at up to 60 Hz onto a single-photon-sensitive silicon camera.
-- 15 May 2026: mid-IR driving of out-of-plane lattice vibrations in few-layer MoS2 gives over 80% room-temperature phonon amplification at nearly 300x lower power density than visible excitation, stable over 2800 cycles and more than 15 hours.
-- 5 May 2026: micromachined Rb vapour cells generate continuous-wave coherent mid-IR at only about 50 nW collected power, alongside ~20 µW of blue light with ~1 MHz linewidth, indicating how far chip-scale mid-IR sources still are from useful power.
 
 ## Open questions
 

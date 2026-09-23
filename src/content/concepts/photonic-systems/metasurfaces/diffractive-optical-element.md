@@ -36,8 +36,6 @@ The practical trade-off is that a static DOE fixes its function at fabrication t
 
 ## Competitive landscape
 
-DOEs sit between fully refractive multi-beam optics and actively addressed modulators. Conventional multifocal systems built from bulk optics remain constrained by bulky architectures, stringent alignment requirements and susceptibility to laser-induced degradation under intense irradiation. Metasurfaces are the closest structural competitor: a monolithic diamond metalens with a 7.2 mm aperture and high-aspect-ratio truncated-cone nanopillars produced two focal spots separated by 200 µm at a 4 mm focal length, and under 25 W pulsed irradiation for 1 h showed a focal shift of only 25.5 µm. That points to material choice, not diffractive versus metasurface phase encoding, as the determinant of high-power survivability.
-
 | Approach | Reconfigurable | Demonstrated role in sources |
 |---|---|---|
 | Static DOE | No | 2x2 beam splitting for LIBS; 29-spot dual-plane 2PP; super-oscillatory probes |

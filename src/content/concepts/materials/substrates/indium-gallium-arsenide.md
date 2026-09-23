@@ -25,7 +25,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 31
-sources_7d: 3
+sources_7d: 2
 sources_30d: 6
 recent_mentions:
 - slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
@@ -64,8 +64,6 @@ The parameters that decide InGaAs's future are not exotic. For detectors: quantu
 
 The sources show working devices with quantitative performance rather than proof-of-principle physics. GHz-gated InGaAs/InP SPAD arrays with negligible inter-pixel crosstalk have been combined with silica waveguide chips and run through BB84 protocol experiments, reaching over 2 Mbps at short distance and 15 kbps over 100 km of fibre. A simplified self-differencing gating scheme on an InGaAs photodiode recovers full quantum efficiency in less than one pulse-repetition period at 100 MHz, enabling continuous dead-time-free operation. A cryogenic InGaAs-InP photodiode operating at around 2.3 K supplies a stable bias current to an SNSPD, yielding 80.7% system detection efficiency, 32.6 cps background dark count rate and 57.5 ps jitter, comparable to electrical biasing.
 
-On the emitter side, InGaAs quantum dots deliver antibunched emission with lifetimes as short as 0.51 ns from axial dots at nanowire tips, coherent control of the biexciton-exciton cascade with Franson visibilities up to 64.0% on silicon, and spectroscopically resolved g-factor shifts at tunnelling resonance in a quantum dot molecule. The unresolved items are integration yield and reliability, not basic function.
-
 **TLDR: Not a question of whether it works: InGaAs devices are already delivering measured system-level results across detection, emission and amplification.**
 
 ## Drivers (4/5)
@@ -79,8 +77,6 @@ Supply: InGaAs remains tied to InP substrates and MBE/MOCVD-class epitaxy. The s
 ## Novelty (2/5)
 
 As a material, InGaAs is the baseline against which other things are measured. It is better than silicon in the one way that matters here: silicon SPADs are mature and room-temperature but bandgap-limited away from 1550 nm, while InGaAs SPADs are sensitive there. It is better than superconducting nanowire detectors in that it needs no cryogenics, which is the reason it is preferred for practical QKD receivers. It is worse than SNSPDs on raw detector metrics, as the same body of work implies by using an InGaAs photodiode as an auxiliary bias source for an SNSPD rather than as the detector.
-
-The novelty in the sources sits one level up from the alloy: Sb-mediated facet engineering to suppress rotational twins and force abrupt few-nanometre axial InGaAs dots in nanowires, electrically switchable chiral light-matter coupling using an InAs/InGaAs dot in a glide-plane photonic crystal waveguide, Stark-tuned InGaAs/InAlAs intersubband-polaritonic metasurfaces characterised over 21 electric fields, and acoustoelectric amplification on lithium niobate at 32 dB/mm non-reciprocity for passivated devices. Meanwhile a black phosphorus van der Waals heterojunction is being proposed explicitly to displace InGaAs SPADs on efficiency, dark counts, afterpulsing and fabrication hazard at room temperature.
 
 **TLDR: InGaAs is the incumbent, not the novelty; what is new is the integration and packaging around it, and challengers are now aimed squarely at its weaknesses.**
 

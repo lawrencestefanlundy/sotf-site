@@ -27,8 +27,6 @@ Ocean wave energy converts surface orbital motion (gravity-driven capillary/grav
 
 ## Competitive landscape
 
-Wave and tidal compete primarily with offshore wind for marine spatial allocation and grid connection budget. Tidal's dispatchability (fully predictable 18.6-year lunar cycle) is a genuine differentiator unavailable to wind or solar.
-
 ## Companies using
 
 <!-- dataview block stripped for public site -->

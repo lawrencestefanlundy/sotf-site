@@ -27,7 +27,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - material
-mention_count: 183
+mention_count: 186
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 4
@@ -38,8 +38,8 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 8
-sources_30d: 18
+sources_7d: 6
+sources_30d: 19
 recent_mentions:
 - slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
   title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
@@ -103,8 +103,6 @@ On supply, the shift is from university cleanrooms to institutional pilot lines:
 
 ## Novelty (4/5)
 
-The comparison the sources support most cleanly is against integrated alternatives rather than bulk LN. In quantum optics, 18 dB of on-chip squeezing with 20 dB anti-squeezing at 1570 nm in a 1.6 cm adaptively poled waveguide is stated to be the highest squeezing reported for any integrated photonic platform, and the first with assumption-free statistical validation. In quantum memory, erbium-doped TFLN storage of 400 ns at 1.95% efficiency with 96.8% qubit fidelity is described as significantly outperforming conventional waveguide delay lines, and as the first on-chip memory in this platform; the cavity-enhanced version reaches 23.3% on-chip efficiency with a 277.6 s comb lifetime and sub-10⁻⁴ inter-channel crosstalk during electro-optic routing. Photon-pair generation with pump-polarisation-selectable Bell states needs no additional optical elements and uses existing LN fabrication, unlike transition-metal-dichalcogenide thin films which the authors note are neither widely available nor fabrication-compatible.
-
 For interconnect, the numbers are strong but the head-to-head margin over silicon or polymer modulators is asserted rather than measured in these sources: VπL of 2.52-2.68 V·cm with >40 GHz bandwidth and ~25 dB extinction ratio in an eight-channel array and 320 Gb/s unamplified in a heterogeneous SiPh demonstration <sup class="ref"><a href="https://techxplore.com/news/2026-04-silicon-photonics-gained-powerful-ally.html" title="320 Gb/s Unamplified Transmission Using 100 GHz Ge PD and TFLN MZM on a Foundry-Compatible SiPh Platform" rel="noopener">ref</a></sup>. Novelty is not absolute: thin-film lithium tantalate, a very close cousin, already beats TFLN on visible-band power stability while delivering ~50 GHz flat response at 532 nm, which suggests the material class rather than this specific crystal is what is novel.
 
 **TLDR: Better than silicon modulators on bandwidth, chirp and drive voltage, and the best integrated platform on record for squeezing.**
@@ -113,15 +111,11 @@ For interconnect, the numbers are strong but the head-to-head margin over silico
 
 The adoption strategy is explicit and sensible: rather than asking the industry to move to a new platform, TFLN is being heterogeneously placed onto existing 200 mm silicon photonics by micro-transfer printing, preserving the incumbent process flow. The imec demonstration is read in the supplied thesis material as evidence for multi-platform coexistence rather than convergence on a single winning material <sup class="ref"><a href="https://techxplore.com/news/2026-04-silicon-photonics-gained-powerful-ally.html" title="320 Gb/s Unamplified Transmission Using 100 GHz Ge PD and TFLN MZM on a Foundry-Compatible SiPh Platform" rel="noopener">ref</a></sup>, which matters for diffusion: TFLN can be adopted as a functional layer in someone else's stack. Standardisation work has begun <sup class="ref"><a href="https://ieeexplore.ieee.org/document/11046594/" title="Standardized TFLN PICs (IEEE)" rel="noopener">ref</a></sup>.
 
-The barriers are real. Packaging economics are dominated by coupling: 15-16 dB bare-chip insertion loss plus laser bonding loss in a current hybrid transmitter array is far from a shippable link budget. Long-term bias stability under DC drift is unresolved and, as of these sources, is being handled by changing the measurement method rather than the material. Wafer-scale poling uniformity is improving but duty-cycle variation still depends on electrode strategy. And in any application involving visible wavelengths or high on-chip optical power, lithium tantalate is a documented substitute. The sources do not contain shipment volumes, prices or qualification data, so the assessment here is of technical readiness for diffusion, not of diffusion itself.
-
 **TLDR: Foundry compatibility is being engineered deliberately, but coupling loss, bias drift, immature standards and sibling materials all slow uptake.**
 
 ## Impact (4/5)
 
 The value case rests on two large markets. In datacentre and AI interconnect, a modulator layer that supports 320 Gb/s unamplified links <sup class="ref"><a href="https://techxplore.com/news/2026-04-silicon-photonics-gained-powerful-ally.html" title="320 Gb/s Unamplified Transmission Using 100 GHz Ge PD and TFLN MZM on a Foundry-Compatible SiPh Platform" rel="noopener">ref</a></sup> and can be printed onto existing 200 mm silicon photonics at >95% yield sits directly in the path of the bandwidth and energy-per-bit problem that the sources name as the driver. In photonic computing, LN-based homodyne logic at 128 GS/s with 6 ns latency addresses the analog-accuracy barrier that has held photonic accelerators back.
-
-The second and less certain slice is quantum. TFLN now hosts record integrated squeezing, the first on-chip telecom quantum memory in the platform, programmable spectral routing of stored photons with entanglement preserved to more than 11 standard deviations of witness violation, tunable entangled-pair sources and acousto-optic transduction with a 1.004 V·cm half-wave voltage-length product. That is a plausible single-material route to a quantum repeater node, but memory efficiencies of 1.95% and 23.3% are far from what a repeater needs, so the impact here is contingent on further orders of magnitude.
 
 **TLDR: If it holds, TFLN becomes the default active layer for high-speed optical I/O and the substrate for integrated quantum photonics.**
 
@@ -144,14 +138,6 @@ Where the enthusiasm needs discipline is on the boring integration numbers and o
 By 31 December 2028, at least one commercial silicon photonics foundry will publish a PDK-supported heterogeneous TFLN modulator process on 200 mm or larger wafers, reporting half-wave voltage at or below 4 V and printing or bonding yield above 95%, replicating the imec pilot-line results.
 
 ## Evidence base
-
-- 2026-05-29: Micro-transfer printing of TFLN across four full 200 mm silicon photonics wafers, 3σ placement accuracy down to 420 nm, printing yield >95%, insertion loss <2 dB over 600 phase modulators, 4 V half-wave voltage.
-- 2026-04-22: 320 Gb/s unamplified transmission using a 100 GHz Ge photodiode and TFLN Mach-Zehnder modulator heterogeneously integrated on a foundry-compatible silicon photonics platform at imec <sup class="ref"><a href="https://techxplore.com/news/2026-04-silicon-photonics-gained-powerful-ally.html" title="320 Gb/s Unamplified Transmission Using 100 GHz Ge PD and TFLN MZM on a Foundry-Compatible SiPh Platform" rel="noopener">ref</a></sup>.
-- 2026-05-28: 18 dB continuous-wave on-chip squeezing and 20 dB anti-squeezing at 1570 nm in a 1.6 cm adaptively poled TFLN waveguide, stated as the highest for any integrated photonic platform.
-- 2026-05-15: Cavity-enhanced erbium-doped TFLN microring memory with 23.3 ± 0.5% on-chip storage efficiency for 100 ns storage, 277.6 ± 52.6 s comb lifetime, electro-optic routing to 20 MHz with crosstalk below 10⁻⁴.
-- 2026-06-05: Continuous wafer-scale periodic poling extended to 70 mm at 3 µm period with close to 50% duty cycle, against a prior practical ceiling near 10 mm.
-- 2026-06-05: Hybrid DFB-coupled 1×8 TFLN modulator array with >40 GHz 3 dB bandwidth per channel, VπL 2.52-2.68 V·cm, ~25 dB extinction ratio, but 15.19-16.55 dB bare-chip insertion loss plus laser bonding loss.
-- 2026-05-14: Thin-film lithium tantalate modulators at 532 nm remained stable delivering 5 dBm modulated optical power for an hour, which the authors state TFLN counterparts of similar structure cannot achieve.
 
 ## Open questions
 

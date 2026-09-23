@@ -66,7 +66,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Overrated
 scorecard_status: draft
-sources_7d: 2
+sources_7d: 1
 sources_30d: 13
 recent_mentions:
 - slug: 2026-09-02-vertical-power-delivery-thermal-limits
@@ -156,8 +156,6 @@ Supply: the sources give nothing on assembly capacity, equipment lead times, sub
 **TLDR: Demand is well documented and AI-driven; supply-side evidence on assembly capacity is absent.**
 
 ## Novelty (2/5)
-
-OSAT as such is better than nothing only in the trivial sense of being cheaper than owning your own assembly line, and the sources contain no cost, yield or cycle-time comparison between outsourced and in-house assembly. So the interesting novelty question is whether the OSAT tier owns the new processes. The evidence in this source base points the other way. The demonstrated frontier integration work is wafer-level and foundry-resident: trench-based die-to-wafer bonding of thin-film lithium niobate onto active silicon photonics, 200 mm photonic wafers built directly on completed CMOS driver wafers by BEOL processing, micro-transfer printing in a 200 mm CMOS pilot line, and crystal-ion-sliced GaP direct wafer bonding. Even the thermal-management work targets a BEOL thermal budget below 400C, reporting diamond films at 73 and 86 W/m/K, about two orders of magnitude above conventional dielectrics.
 
 Where OSATs plausibly retain novelty is in die-level 2.5D/3D assembly, and the sources confirm that platform is the fastest-growing one <sup class="ref"><a href="https://www.yolegroup.com/product/quarterly-monitor/advanced-packaging-market-monitor/" title="Advanced Packaging Market Monitor" rel="noopener">ref</a></sup> and that hybrid-bonded memory chiplets are an assumed architecture in device-level design studies. That is enough to say packaging technology is moving fast; it is not enough to say the outsourced tier is the party doing the moving. Score 2 is a judgement about the model, not about packaging.
 

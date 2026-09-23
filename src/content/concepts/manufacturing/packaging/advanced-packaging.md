@@ -35,14 +35,14 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 212
+mention_count: 217
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration
 - micro-transfer-printing
 - osat
-sources_7d: 3
-sources_30d: 11
+sources_7d: 4
+sources_30d: 13
 recent_mentions:
 - slug: 2026-09-02-vertical-power-delivery-thermal-limits
   title: 'Vertical power delivery: the thermal limit at the 48V-to-point-of-load stage'

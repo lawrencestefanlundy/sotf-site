@@ -86,15 +86,11 @@ Every joule delivered into a processor leaves as heat. As AI accelerators move f
 
 The work splits into three layers. At the **system layer**, the argument is architectural: co-packaged optics should be treated not as a component swap but as a commitment that reshapes the boundary between photonics, electronics and packaging, with thermal-aware co-design, standardisation and serviceability deciding whether it reaches volume deployment. At the **design-methodology layer**, high-resolution simulation is exposing errors in current practice: modelling chiplet stacks with uniform power maps underestimates peak temperature and hides the differences between frontside and backside power delivery, and backside power delivery in 3D configurations carries a pronounced thermal penalty under realistic localised workloads because lateral heat spreading is limited. Machine learning is entering the same layer, with multi-agent reinforcement learning used to trade wirelength against thermal design power in chiplet placement, two objectives that conflict directly.
 
-At the **materials layer**, the picture is that heat transport at the nanoscale is neither well characterised nor well controlled. Close-packed colloidal quantum dot films conduct at 0.55 W/m/K; stoichiometric lithium niobate, now central to integrated electro-optics, has conductivity orders of magnitude below silicon; and in semiconductor films below 10 nm, topological surface phonons contribute over 30% of in-plane thermal conductivity at 300 K, up to 82 W/m/K in absolute terms. Countermeasures under investigation include hexagonal boron nitride flakes as lateral heat spreaders, assessed by finite-element simulation and cross-grating wavefront nanothermometry, and electrically switchable interfacial thermal conductance in Au/Bi-Sb topological insulator junctions.
-
 The parameters that decide the field are: power density per unit die area and its spatial non-uniformity; through-stack and interfacial thermal resistance rather than bulk conductivity; the temperature ceiling of the most heat-sensitive component in the package, which for co-packaged optics is the laser and modulator rather than the logic; and whether design tools can price thermal cost early enough in the flow to change floorplans instead of only sizing heatsinks afterwards.
 
 ## Viability (3/5)
 
 Existing practice is proven: five generations of TPU supercomputers delivered a 100x increase in peak node performance and a 3600x increase in supercomputer performance over eight years alongside substantial gains in performance per watt, which is only possible if heat extraction kept pace. The question is whether it keeps working through 3D stacking and in-package optics. Here the evidence is thinner and more negative than positive: the backside power delivery result is a simulation study, and its headline finding is that a technique attractive on other grounds becomes thermally worse in 3D under realistic power maps.
-
-At the materials layer, several of the proposed levers are real but small or unproven at device scale. The hBN heat-spreader study combines finite-element modelling with experimental nanothermometry, but on gold nanospheres in water rather than in a package. Electrically tunable interfacial conductance has direct experimental evidence with control experiments confirming the topological origin, which is a genuine result, but it is a junction-level demonstration with no throughput or reliability data. The 2D thermal metamaterials work is explicitly a theoretical framework with benchmark models, not a device. A 3 reflects a field where the incumbent approach works, the diagnosis of where it fails is credible, and the replacements are early.
 
 **TLDR: Conventional thermal engineering demonstrably works at scale; the new nanoscale and design-automation tools are mostly simulation or single-device demonstrations.**
 
@@ -107,8 +103,6 @@ On supply: characterisation is advancing on several independent fronts, includin
 **TLDR: Demand is unambiguous and rising with power density; the supply side of measurement and simulation tooling is improving fast, materials less so.**
 
 ## Novelty (3/5)
-
-The clearest quantified novelty is in physical understanding. Topological surface phonons were previously not counted as a transport channel; they turn out to contribute over 30% of in-plane thermal conductivity in sub-10 nm Si, 4H-SiC and c-BN films at 300 K, with the largest absolute contribution reaching 82 W/m/K, and are tunable by temperature and biaxial strain. That changes what a thin-film thermal model should contain. Similarly, magnetic Weyl semimetals such as Co3Sn2S2 are predicted to give strong broadband nonreciprocal thermal radiation without an external magnetic field, outperforming the conventional semiconductor baseline InAs, with explicit design rules relating anomalous Hall response to optical loss. Bode-Fano-type bounds on broadband absorption by subwavelength particles set the ceiling that any such design can approach.
 
 Against that, several results are novelty in the direction of lower conductivity, useful for thermoelectrics but a liability for cooling: a symbolic-regression framework selected GuaPbI3, synthesised with room-temperature conductivity of about 0.088 W/m/K. On the design side, the multi-agent reinforcement learning placer is reported to deliver a significantly improved Pareto front over state-of-the-art methods, but the sources give no magnitude, so the improvement cannot be sized. Novelty is genuine and broad but the improvement over incumbent heat-removal practice is not yet quantified anywhere in these sources.
 
@@ -134,28 +128,15 @@ The cap on the score is that the sources quantify the problem far better than th
 
 The design-methodology findings are immediately actionable and immediately consequential. If uniform power maps materially understate peak temperature and mask the difference between frontside and backside power delivery in 3D stacks, then analyses already used to justify roadmap choices are wrong today. Co-packaged optics is described as being in early deployment with the transition to wide adoption still contested, which places the decision window inside the next few years.
 
-The materials and active-control work sits on a different clock. Electrically tunable interfacial thermal conduction, topological-phonon engineering, nonreciprocal thermal emitters and 2D thermal metamaterials are at the single-junction, first-principles or theoretical-framework stage. Nothing in the sources suggests any of these reaches a shipping package inside five years.
-
 **TLDR: The architectural decisions that thermal analysis should inform are being taken now; the exotic material solutions arrive much later, if at all.**
 
 ## Overrated or underrated? Underrated
 
 Underrated as a system constraint, and specifically as a determinant of which packaging architectures survive. Two independent sources make the same argument from different directions: that treating thermal behaviour as a component-level or post-hoc concern produces wrong answers at the architecture level, whether in power delivery choice or in the boundary between photonics and compute. Investment attention in AI infrastructure concentrates on compute density and interconnect bandwidth; the sources suggest the binding variable is increasingly how much heat can be pulled laterally out of a stack whose lateral spreading has been designed away.
 
-The nanoscale materials strand deserves a separate and cooler verdict. It is scientifically strong and produces quantified, surprising results, but nothing in these sources connects a novel spreader, metamaterial or tunable interface to a measured improvement in a real package. Anyone pricing hBN spreaders, topological phonon engineering or nonreciprocal emitters as near-term datacentre technology is ahead of the evidence. The near-term value is in measurement fidelity and thermal-aware design automation, both of which are unglamorous and cheap to deploy.
-
 ## Prediction
 
-By 31 December 2028, thermal-aware objectives will be a standard input to commercial 2.5D chiplet placement flows, while no hexagonal boron nitride, topological-phonon or actively tunable-interface heat-spreading layer will have appeared in a volume-shipped AI accelerator package.
-
 ## Evidence base
-
-- Thermal simulations at 5 micrometre resolution show uniform power maps substantially underestimate peak temperatures, and that backside power delivery in 3D exhibits pronounced thermal penalties under realistic localised workloads due to limited lateral heat spreading.
-- Across five TPU generations over eight years, Google reports a 10x increase in HBM capacity and bandwidth per node, a 100x increase in peak node performance and a 3600x increase in supercomputer performance, with substantial improvements in performance per watt and carbon per floating point operation.
-- In semiconductor thin films below 10 nm, topological surface phonons contribute over 30% of in-plane thermal conductivity at 300 K, reaching 82 W/m/K in absolute terms, and are modulated by temperature and biaxial strain.
-- Sub-kelvin measurements give high-resistivity silicon 5e-2 W/m/K at 300 mK, against 8e-4 for low-resistivity silicon and 2e-3 for borosilicate and sapphire, a one to two order of magnitude substrate choice for cryogenic quantum integration.
-- Interfacial thermal conductance across Au/Bi89Sb11 and Au/Bi87Sb13 junctions is reversibly modulated by electrical current injection, with control experiments on trivial semimetals and insulating interlayers confirming the topological origin.
-- Co-packaged optics is argued to be an architectural commitment rather than a component optimisation, with standardisation, serviceability and thermal-aware co-design decisive for the transition from early deployment to widespread adoption.
 
 ## Open questions
 

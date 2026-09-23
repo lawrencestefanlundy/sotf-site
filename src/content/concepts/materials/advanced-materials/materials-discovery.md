@@ -26,13 +26,13 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 61
+mention_count: 64
 descendants:
 - arpes
 - electron-scale-metrology
 - stm
-sources_7d: 2
-sources_30d: 8
+sources_7d: 5
+sources_30d: 11
 recent_mentions:
 - slug: 2024-09-19-can-ai-revolutionize-materials-discovery---latitude-media
   title: Can AI revolutionize materials discovery? - Latitude Media
@@ -142,11 +142,6 @@ By 30 June 2028, at least one crystal proposed de novo by one of the generative 
 - 2026-06-16: An open-source closed-loop platform reports twelve AI algorithms behind a unified Python interface and six deployed self-driving laboratory implementations, using CSV file exchange to decouple algorithms from heterogeneous robotic hardware.
 
 ## Open questions
-
-- What fraction of AI-generated candidates that pass DFT stability screening can actually be synthesised, and does the synthesis-first framing of protocols as primary design variables measurably raise that fraction?
-- Do prototype-alignment or similar data-efficient fine-tuning methods close the out-of-distribution failure mode of pretrained MLIPs enough to trust them on chemistries absent from training databases?
-- Will machine-readable synthesis protocol standards and cross-institution agent frameworks be adopted by more than their originating groups, or will integration stay at the lowest common denominator of file exchange?
-- Can life cycle assessment be turned into an active constraint inside generative and active-learning loops rather than a downstream analysis, given the stated data scarcity and atom-to-industrial-system scale gaps?
 
 ---
 *Assessment drafted 2026-08-31 from up to 18 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

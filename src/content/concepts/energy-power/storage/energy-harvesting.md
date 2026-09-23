@@ -34,7 +34,15 @@ scorecard:
 scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2025-2026-european-next-gen-pv-cohort
+  title: European next-gen PV cohort 2025-2026, Dracula, SunXT/Solertix, Perovion, HyET Solaris, Sofab Inks, Coatema
+  date: '2026-06-01'
+  kind: web
+- slug: 2025-04-16-the-state-of-photonic-computing
+  title: 'Photonic Computing: A Primer'
+  date: '2025-04-16'
+  kind: substack
 neighbors: []
 ---
 **Energy harvesting converts ambient light, heat, vibration or radio waves into microwatts-to-milliwatts of electricity to run sensors without batteries; indoor printed photovoltaics and RF/backscatter links are already at production or testbed stage, while thermal and piezoelectric routes remain low-efficiency laboratory physics.**
@@ -42,8 +50,6 @@ neighbors: []
 ## Summary
 
 Energy harvesting is the extraction of usable electrical power from energy already present in a device's environment: indoor or ambient light, small temperature differences, mechanical vibration, and radio-frequency fields. It is not a storage technology and not a grid technology. The target is the power budget of a wireless sensor node, typically microwatts averaged over time, and the commercial argument is the elimination of primary batteries and the maintenance and waste they imply. One NSF-funded project frames this directly for tyre-embedded sensors, where battery replacement across millions of vehicles with four tyres each generates substantial electronic waste.
-
-The technology splits by transduction mechanism, and each has a different maturity. Photovoltaic harvesting from indoor light is the most industrial: printed organic PV makers have raised real money and are building roll-to-roll capacity, with one company extending a Series A to €30M in October 2025 and quadrupling capacity towards 600M cm²/yr **2025 2026 European Next Gen Pv Cohort**. Thermal routes are much earlier. A tuned Ba(1-x)Sr(x)TiO3 pyroelectric multilayer device delivered about 1.6 µA at 64 °C, an energy density of 1.6 mJ/cm³ per cycle and 5.5% conversion efficiency; a high-entropy Fe2VAl thermoelectric module reached an average figure of merit zT of only about 0.3 over 300-500 K; thermoradiative InAs diodes are still at the stage of characterising reverse saturation currents 200 times the radiative limit. RF harvesting sits between the two: an 8x8 distributed MIMO testbed at 2.45 GHz demonstrated effective harvesting gains up to 12 dB by exploiting channel state information.
 
 The parameters that decide outcomes are unglamorous. On the source side: available flux (indoor lux, ΔT, vibration spectrum, incident RF power density) and the conversion coefficient of the material. On the load side: the quiescent current of the electronics that must survive on the harvest. A hardware-orchestrated power management architecture that power-gates the microcontroller and peripherals got total quiescent drain down to 452 nA, on the argument that in energy-scarce low-light conditions leakage, not conversion, is the dominant energy sink. That framing matters: for much of this field, progress in load power has done more than progress in transducers.
 
@@ -84,8 +90,6 @@ Everywhere else the barriers are structural. Thermal harvesting must compete on 
 ## Impact (3/5)
 
 The upside claimed in the sources is systemic rather than per-unit: eliminating periodic battery replacement across very large installed bases of sensors, with the tyre case used as the illustration of scale and of the electronic-waste consequence. Enabling classes of deployment that are currently impractical, such as autonomous nodes in low-light indoor environments and battery-free backscatter tags that also serve for indoor positioning, is a genuine capability change rather than a cost saving.
-
-What the sources do not support is a claim on energy or economic scale. Low-grade heat harvesting is described as promising, but at 1.6 mJ/cm³ per cycle and 5.5% efficiency this is a sensor-power technology, not a waste-heat recovery technology at plant scale, and no source claims otherwise. Secondary impact channels appear in the materials work, where the same compositions serve spintronics, hyperthermia, catalysis, infrared photodetection and sensing; that spreads the option value but also means harvesting may not be the application that pays for the research.
 
 **TLDR: Large in aggregate if battery-free sensing becomes default; small per device, and the sources quantify no economic value.**
 

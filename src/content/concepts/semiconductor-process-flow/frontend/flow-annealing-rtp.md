@@ -68,11 +68,6 @@ The revenue pool is the ~USD 1-1.8bn equipment market plus a modest service/part
 ## Market drivers, constraints & trends
 Net read: the broad RTP base grows with WFE (low-to-mid single digits, cyclical), but the laser/millisecond slice re-rates faster as thermal budget collapses, so the served market accelerates around the leading-edge tools while the furnace tail flattens.
 
-- **Drivers**
- - 2nm GAA ramp is the core pull: dopant activation at gate-all-around mandates sub-millisecond cycling, and TSMC/Samsung are expanding excimer/laser-anneal capacity for it; leading-edge foundry/logic capex is forecast +5.5% in 2026 [8][10]. Veeco's LSA is Tool-of-Record at 2nm GAA, which compounds into volume reorders as the node ramps [4].
- - Memory is the new adjacency: a tier-1 memory maker selected Veeco LSA for advanced DRAM/HBM evaluation (Dec 2025), with follow-on orders flagged for 2027+; HBM is growing ~30% CAGR to ~USD 100bn by 2030, opening a second laser-anneal demand pool beyond logic [6][9].
- - SiC power for EVs adds a separate served market: thin-wafer (<=80um) SiC backside ohmic contacts can no longer use furnace anneal, forcing pulsed laser anneal; SiC power devices grow >30% CAGR toward ~USD 9bn by 2028 [11].
-
 - **Constraints**
  - Cyclicality and capex concentration: this is ~2-3% of WFE (USD ~135bn in 2026, +9%), so a downcycle or a few delayed fab decisions swing the small unit count hard [8].
  - China exposure unwinds: China falls to ~31% of WFE in 2026 from 36% in 2024 as export controls bite and domestic tools substitute; the lamp-RTP installed base most exposed to mature-node China is the softest part of the pool [8].
@@ -87,17 +82,3 @@ Net read: the broad RTP base grows with WFE (low-to-mid single digits, cyclical)
 [Semiconductor Materials & Equipment](/manufacturing/equipment-processes/semiconductor-materials-equipment/)
 
 - Owning idea: **Deposition Materials Process Market** (materials/process tool layer).
-
-## Sources
-1. Business Research Insights / market reports — RTP equipment ~USD 830m (2024), ~7.2% CAGR; AMAT ~28% share, AMAT+TEL+Kokusai ~77%. https://www.businessresearchinsights.com/market-reports/rapid-thermal-processing-equipment-market-105663
-2. SNS Insider — RTP equipment USD 1.77bn (2025) to USD 3.90bn (2035), 8.27% CAGR; RTA 42% of type, annealing 56% of application. https://www.globenewswire.com/news-release/2026/03/13/3255288/0/en/Rapid-Thermal-Processing-RTP-Equipment-Market-Size-to-Hit-USD-3-90-Billion-by-2035-SNS-Insider.html
-3. Applied Materials — Vantage Vulcan RTP advanced spike anneal (up to ~1200 degC in seconds). https://pradeepchakraborty.wordpress.com/2011/07/02/applied-vantage-vulcan-rtp-better-side-of-anneal/
-4. Veeco — Laser Annealing Platform named Production Tool of Record at leading-edge / gate-all-around logic. https://www.veeco.com/company/news/veecos-laser-annealing-platform-named-production-tool-of-record-for-new-applications-at-leading-edge-logic-manufacturers/
-5. Semiconductor Today — Veeco FY2024 revenue USD 717.3m, semi segment USD 467m, record laser-annealing revenue. https://www.semiconductor-today.com/news_items/2025/mar/veeco-240325.shtml
-6. Veeco — LSA selected by a memory company for advanced DRAM/HBM evaluation (Dec 2025). https://www.globenewswire.com/news-release/2025/12/01/3197107/0/en/Veeco-s-Laser-Spike-Annealing-LSA-System-Selected-by-Leading-Semiconductor-Memory-Company-for-Advanced-DRAM-Evaluation.html
-7. Market Report Analytics / MarkWide — laser-annealing equipment ~USD 1.5bn (2025), ~10% CAGR; SCREEN >25% (>310 units) and AMAT ~21% (~265 units) of front-end laser-anneal tools. https://www.marketreportanalytics.com/reports/laser-annealing-equipment-369696
-8. SEMI — global WFE +9.0% to USD 135.2bn in 2026; foundry/logic leading-edge capex +5.5% toward 2nm GAA HVM; China share falling to ~31% of WFE (2026) from 36% (2024) on export controls. https://www.semi.org/en/semi-press-release/global-semiconductor-equipment-sales-projected-to-reach-a-record-of-156-billion-dollars-in-2027-semi-reports
-9. Veeco / StockTitan — LSA selected by a tier-1 memory company for advanced DRAM/HBM evaluation (Dec 2025); ~1yr eval, follow-on orders flagged 2027+; HBM ~30% CAGR to ~USD 100bn by 2030 (Yole). https://www.stocktitan.net/news/VECO/veeco-s-laser-spike-annealing-lsa-system-selected-by-leading-bfvtc38md13f.html
-10. MarkWide Research — TSMC/Samsung expanding excimer laser-anneal capacity for gate-all-around; dopant activation at GAA mandates sub-millisecond thermal cycling; SCREEN LA-3500 dual-beam for 2nm ultra-shallow junctions. https://markwideresearch.com/laser-annealing-system-market
-11. Electro Optics / Credence Research — thin-wafer (<=80um) SiC backside ohmic contacts require pulsed laser anneal (furnace no longer feasible); SiC power devices >30% CAGR to ~USD 9bn by 2028 on EV demand. https://www.electrooptics.com/article/sic-power-devices-how-achieve-optimal-ohmic-contact-formation-laser-annealing
-12. Semiconductor Today / SEC — Axcelis-Veeco merger; stockholders approved 6 Feb 2026, expected close H2 2026 pending China SAMR approval; forms 4th-largest US WFE supplier bundling implant + anneal. https://www.semiconductor-today.com/news_items/2025/oct/veeco-axcelis-021025.shtml

@@ -104,8 +104,6 @@ The most striking scientific result is characterisation rather than device perfo
 
 Adoption is being shaped by regulation as much as by technology. Connect-and-manage practice creates the opening: large loads may connect without prior network upgrades, accepting curtailment in return. That converts storage from an optional arbitrage asset into a condition of operating the site, which is a strong diffusion mechanism. The same source identifies a structural obstacle: the transmission system operator's acceptance mapping is opaque to the data centre, so the site must plan against an unknown acceptance rule, handled here with a three-layer hierarchical architecture and case studies on an IEEE 39-bus system.
 
-Three further barriers appear. Degradation must be priced into every dispatch decision or the arbitrage value is illusory. State of health is not directly observable with today's sensing, which limits how aggressively an operator can cycle an asset. And workloads must be made flexible, through checkpoint-aware scheduling, dynamic voltage and frequency scaling, and separation of frontier training, batch training and inference. That last one is an organisational barrier inside the compute operator, not an energy problem, and it is the one most likely to slow things down. Note that all the grid results here are simulation case studies, not reported deployments.
-
 **TLDR: Grid-scale and co-located batteries are already being planned into operations; the barriers are interconnection rules and degradation accounting, not invention.**
 
 ## Impact (4/5)

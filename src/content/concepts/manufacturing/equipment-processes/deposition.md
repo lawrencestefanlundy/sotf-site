@@ -20,7 +20,7 @@ auto_stub: false
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 248
+mention_count: 250
 descendants:
 - ald-atomic-layer-deposition
 - chemical-vapor-deposition
@@ -89,11 +89,7 @@ neighbors:
   path: /manufacturing/equipment-processes/powder-metallurgy/
   macro: manufacturing
 ---
-**Deposition is the additive half of thin-film manufacturing, the family of processes (sputtering, CVD/MOCVD, atomic layer deposition, pulsed laser deposition, focused-beam direct write) that place atoms onto a substrate; the sources show it is mature and universal, and that the choice of deposition route now sets device performance as strongly as the choice of material.**
-
 ## Summary
-
-Deposition covers every process that adds a solid film to a surface, as distinct from lithography (patterning) and etch (removal). Four families dominate the supplied evidence. Physical vapour deposition ejects atoms from a solid target: magnetron and dc sputtering, ion-beam sputtering for optical coatings, and pulsed laser deposition, which ablates a target with a focused laser and is used here for layered van der Waals magnets and for nuclear-grade alumina coatings. Chemical vapour deposition cracks gas-phase precursors on a hot surface, including metalorganic CVD for compound semiconductors, CVD growth of 2D crystals and carbides, and initiated CVD for polymer films <sup class="ref"><a href="https://analyticalscience.wiley.com/content/article-do/initiated-chemical-vapor-deposition" title="Initiated CVD overview (Wiley Analytical Science 2024)" rel="noopener">ref</a></sup>. Atomic layer deposition splits growth into self-limiting half-reactions, giving sub-nanometre thickness control and conformality. Direct-write methods such as focused electron beam induced deposition build freestanding 3D nanostructures by decomposing a precursor under the beam.
 
 The parameters that decide outcomes are not exotic. Rate and temperature budget set what substrates survive. Conformality decides whether high-aspect-ratio features can be lined at all. Residual stress and microstructure, set by process pressure in sputtering, propagate into function: dense, smooth (111)-textured platinum films grown at low sputter pressure gave the highest hydrogen evolution activity despite less surface area than the porous, rougher films grown at high pressure. Phase selection is the other lever: reactive sputtering tends to favour metastable rocksalt-derived nitrides, so layered FeWN2 and FeMoN2 required post-deposition ammonia annealing, and FeMoN2 was only phase-pure at Fe-poor compositions.
 
@@ -102,8 +98,6 @@ The most useful single result in the set is a controlled comparison of routes at
 Deposition's economic ceiling is not set by deposition alone. Walker's 3D NAND cost model shows that stacking more deposited device layers does not reduce die cost monotonically: because any deep etch has a non-zero taper angle, the top-of-stack cell pitch grows linearly in layer count, so array footprint eventually grows faster than the layer count saves, producing a minimum in die cost **Walker 2013 Rigorous 3D Nand Flash Cost Analysis**. Films are cheap to add; the patterning of a thick stack is what bites.
 
 ## Viability (5/5)
-
-Deposition is a mature manufacturing capability, and the supplied sources treat it as infrastructure rather than as a research risk. Independent groups report device-grade results across the full method space in a single month of 2026: ALD tuning of hBN photonic cavities with quality factors of ~4300 (1D photonic crystal cavity) and ~8300 (microdisk), PLD films of (Fe,Ni)5GeTe2 with a Curie temperature reaching ~498 K and a clear anomalous Hall effect, CVD-grown Mo2C nanoflakes with a superconducting diode efficiency exceeding 40% at 4 K. Ion-beam-sputtered SiO2 is described as a material still viable for future gravitational-wave mirror coatings and already subject to a standardised post-deposition heat treatment in ground-based detectors, which is a deployed-hardware datapoint, not a lab one.
 
 The caveat is that viability of the category says nothing about viability of any given film. Per-material control remains uneven: FEBID produces non-uniform composition in intricate 3D geometries because growth dynamics change with beam translation and interaction volume; layered FeMoN2 only reaches good phase purity at Fe-poor compositions; and ALD alumina showed bimodal brittle-versus-plastic behaviour within a single sample set. The frontier is reproducibility and phase selection, not whether films can be grown.
 

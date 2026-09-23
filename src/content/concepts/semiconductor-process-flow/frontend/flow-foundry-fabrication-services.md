@@ -49,9 +49,6 @@ This is not a single physical step but the business layer that wraps the entire 
 ## Where it sits and why it matters
 The foundry is the single largest profit pool in the whole flow because it captures the integration premium: equipment and materials vendors sell tools and inputs, but the foundry is the only layer that converts them into yielding chips at scale. It is the chokepoint of the entire electronics economy. Leading-edge logic (5nm and below) is effectively a monopoly held by TSMC, which makes this step the most geopolitically contested node in the supply chain and the anchor for **Sovereign Electronics Manufacturing**.
 
-## Equipment market
-The foundry IS the buyer of wafer fab equipment (WFE), so the "equipment market" here is the tool spend foundries make. WFE was roughly USD 86bn in 2024 and is forecast by Yole toward ~USD 184bn (equipment + services) by 2030, a high-single-digit CAGR pulled by the AI capex super-cycle [1][2]. The "Big Five" hold ~70% of WFE [2].
-
 | Vendor | HQ | Est. share of WFE | Notable |
 |---|---|---|---|
 | Applied Materials | US | ~18-20% | Deposition, etch, implant, process integration breadth |
@@ -81,10 +78,6 @@ The moat is cumulative: hundreds of billions in capex, a decade of yield learnin
 
 ## Market drivers, constraints & trends
 Net read: the served market (equipment plus materials the foundry buys) is in a structural up-slice, but a two-tier one where almost all the growth concentrates at the leading edge and in packaging while mature-node tool demand softens.
-
-- **Drivers** — Total semiconductor equipment sales are forecast to a record ~USD 156bn in 2027, with the WFE segment growing ~9.0% in 2026 and ~7.3% in 2027, and SEMI projecting double-digit 300mm fab-equipment spend growth in both years [15][16]. The AI capex super-cycle is the pull: pure-play foundry revenue grew ~30% year-on-year in Q1 2026 on AI GPU/ASIC orders [17]. Materials are the recurring annuity riding wafer volume: the market reached ~USD 73.2bn in 2025 (+6.8%), fab materials ~USD 45.8bn (+5.4%) with lithography materials posting double-digit growth as process intensity climbs [18].
-- **Constraints** — Mature-node (28nm+) overcapacity, much of it Chinese build-out, caps the trailing-edge tool/materials pool; China equipment spend is falling from its 2024 record of ~USD 49.5bn after front-loaded buying ahead of controls [17][19]. US export controls (24 tool types, 140+ Entity List additions) ring-fence leading-edge tool sales [19]. Capex intensity (~30-35% of revenue) and deep cyclicality keep the layer concentrated and sensitive to a single AI-capex air-pocket.
-- **Trends & inflections to watch** — Advanced packaging is the second engine: TSMC is quadrupling CoWoS toward ~130k wafers/month by late 2026, and packaging materials grew ~9.3% to USD 27.4bn in 2025 with advanced-packaging materials compounding ~12% [18][20]; tripwire: HBM4 hybrid-bonding moving to volume on the Nvidia Rubin / N3P ramp through 2026 [20]. High-NA EUV (EXE:5200B, 175 wph, in commercial production Jan 2026) is the leading-edge re-rater; tripwire: first high-volume High-NA node in 2027-28, given TSMC kept 0.33-NA for N2/A16 and pushed A16 to 2027 [21][22].
 
 ## Connections
 [Semiconductor Foundries](/manufacturing/foundry-design/foundry/) · [Specialty Foundries (TFLN, GaN, SiC, photonic)](/manufacturing/foundry-design/specialty-foundries/) · theses: **Specialty Silicon Non Leading Edge** · **New Uk Fab** · **Sovereign Electronics Manufacturing**

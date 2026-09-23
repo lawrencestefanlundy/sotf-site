@@ -30,7 +30,7 @@ frontier:
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 19
+mention_count: 22
 scorecard:
   viability: 4
   drivers: 4
@@ -40,8 +40,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 5
+sources_7d: 3
+sources_30d: 8
 recent_mentions:
 - slug: 2026-06-22-beyond-cmos-device-layer-research
   title: Beyond-CMOS device layer — grounded research (MRAM/FeFET beachhead + capture base rate)
@@ -134,8 +134,6 @@ Material market share is a later story: below 0.5% of embedded NV units in 2024 
 **TLDR: Dielectric role is present-day; HfO2 ferroelectric memory hits volume in 2026 to 2027 but material share only becomes visible around 2030.**
 
 ## Overrated or underrated? Fairly rated
-
-Ferroelectric hafnia is the rare beyond-CMOS story with a credible, dated commercial path rather than a permanent five-years-away status, and the reason is unglamorous: it is the same oxide the industry already deposits, so the integration cost is low and BEOL compatibility is real. The 2026 FeCap result is a genuine step, combining sub-5 V nanosecond multilevel writes, above 10^11 cycle endurance and a readout scheme that gets round the material's own frequency limit.
 
 But the market forecast keeps expectations honest. Reaching about 5% of embedded NV units by 2030 while eFlash keeps over half the segment and MRAM owns the endurance-bound sockets is a useful niche, not a displacement **2024 Yole Emerging Memories 2024**. The doping trade-off is the structural reason to be cautious: better endurance comes with weaker orthorhombic distortion and lower polarisation, so the reliability problem is not obviously solvable by composition alone. Consider the dielectric role settled and uncontroversial, the memory role priced about right, and the in-memory compute role the live upside that is not yet in anyone's numbers.
 

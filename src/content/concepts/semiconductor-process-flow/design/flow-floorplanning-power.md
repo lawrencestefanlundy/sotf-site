@@ -67,9 +67,6 @@ Software has no physical consumables, but the recurring-revenue equivalents matt
 ## Volumes, revenue, profitability
 Unit volume is not the right metric; the relevant count is design starts / tape-outs per year (low tens of thousands of advanced-node projects globally) times a high per-seat licence, not a per-wafer unit. The revenue pool for the digital-implementation slice that this step anchors is ~USD 5-7bn (rough estimate from the 38-40% physical-design share of a ~USD 17-18bn market [4][2]). Profitability is among the best in all of semis: Cadence posted ~86% gross margin and ~32% EBIT margin in 2024 [6]; Synopsys runs ~74-75% gross and mid-to-high-20s% EBIT [6]. The margin is earned by the tool vendor, not the chip designer, because the software is written once and licensed many times against a captive, switching-cost-locked base.
 
-## Competitive landscape & value capture
-The moat is among the deepest in technology: decades of engineering, qualified flows certified by every foundry against each process node, customer training, and brutal switching costs (re-qualifying a design flow on a competitor's tool can cost a tape-out). New AI optimisers (DSO.ai, Cerebrus) deepen rather than threaten the moat: they sit on top of the incumbent engines and claim ~10x productivity / ~20% PPA gains, raising the value of the platform the customer is already locked into. Value accrues overwhelmingly to the two US incumbents. EU / seed-relevant angle is thin: there is no European P&R challenger of scale; the live European activity is the imec-coordinated EU Chips Design Platform (subsidised access to commercial + open-source EDA for fabless SMEs) and OpenROAD-style open-source flows that lower the floor for startups rather than attack the high end.
-
 ## Market drivers, constraints & trends
 Net read: the served digital-implementation pool is accelerating, pulled up by AI-accelerator design starts and a step-specific shift (backside power, multi-die) that makes floorplanning harder and stickier.
 
@@ -77,11 +74,6 @@ Net read: the served digital-implementation pool is accelerating, pulled up by A
  - AI-accelerator demand is multiplying advanced-node design starts, the true unit driver for this step: TSMC's N2 family has logged ~1.5x the tape-outs 3nm had at the same point [9], and Cadence raised 2026 guidance to ~17% YoY with core EDA up 18%, citing advanced digital implementation at AI-infrastructure customers [10].
  - The AI-EDA sub-segment (RL optimisers like DSO.ai/Cerebrus, now agentic) is forecast at ~24% CAGR to 2032 [11], and these tools sit directly on floorplanning/PPA search, raising the value of the platform per seat.
  - Multi-die / 3D-IC re-architects floorplanning into system-level chiplet+interposer planning (Cadence Integrity 3D-IC, Synopsys 3DIC Compiler), a higher-priced flow than single-die P&R [12].
-
-- **Constraints**
- - Two-vendor concentration plus brutal switching/certification costs cap who captures the upside, but also cap new-entrant growth; the pool grows with the incumbents, not around them (see body).
- - China is ~12-16% of incumbent revenue and a policy football: BIS restricted EDA sales to China in May 2025, then reversed in July 2025 [13]. A re-imposed control is a live downside to the served market.
- - Demand tracks the semiconductor capex cycle and design-start volume; a fabless slowdown outside AI would slow seat growth.
 
 - **Trends & inflections to watch**
  - Backside power delivery (BSPDN) at 2nm forces BPDN-aware floorplanning and PDN re-architecture, a genuine tool-content increase for THIS step [14]. Tripwire: foundry 2nm BSPDN reaches volume production with EDA-certified backside-aware P&R flows shipping (TSMC/Intel, 2026-2027).

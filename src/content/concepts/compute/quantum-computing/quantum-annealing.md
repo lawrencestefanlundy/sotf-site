@@ -78,8 +78,6 @@ So the assessment question is not whether the machines run. They run, at hundred
 
 ## Viability (3/5)
 
-QA is unambiguously past the demonstration stage as a *device*. Independent groups run D-Wave Advantage and Advantage2 systems on Max-Cut, number partitioning, clustering, traffic assignment, protein-like lattice problems, atomic structure calculations and generative-model training, and report results rather than failures to execute. Reverse annealing, pauses and quench readout are real, tunable operational knobs that measurably improve output quality.
-
 What stops this being a 4 is scaling behaviour on a physically decoded benchmark. On a greenhouse heater-scheduling QUBO, direct QPU execution recovered the exact optimum for horizons H=10 and H=12, but the exact-hit rate fell from 5/10 to 2/10 and then to 0/10 at H=14, with much higher variance than classical baselines, while the D-Wave Leap Hybrid BQM workflow was less reliable than classical simulated annealing under 15 to 60 second time limits. Embedding overhead is explicitly identified as the binding constraint when instance size doubles. Noise remains the primary limiter, though there is experimental evidence that annealer noise is metastable and can therefore be partly designed around.
 
 **TLDR: The hardware works and is routinely used by third parties, but solution quality collapses with modest increases in problem size.**

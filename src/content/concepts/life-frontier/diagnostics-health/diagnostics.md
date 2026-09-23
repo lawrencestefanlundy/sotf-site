@@ -22,9 +22,9 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 127
-sources_7d: 3
-sources_30d: 12
+mention_count: 134
+sources_7d: 10
+sources_30d: 17
 recent_mentions:
 - slug: 2026-08-03-spad-single-photon-market-scan
   title: SPAD / single-photon detector market scan — incumbent structure and company cohort
@@ -66,8 +66,6 @@ neighbors: []
 
 A diagnostic is an instrument plus an inference chain: you couple to a system you cannot disturb much, record a signal that is noisy, incomplete or indirect, and reconstruct the quantity you actually wanted. The sources grouped under this concept span four very different systems being probed: living cells, gas mixtures and combustion, particle beams and thin-film growth, and quantum devices. What unites them is that the recent progress is in the reconstruction and detection layer rather than in new physical contrast mechanisms.
 
-Three recurring building blocks show up. First, nonlinear upconversion: mid-infrared light, where molecular vibrational bonds give chemical specificity but detectors are poor, is optically mixed up to visible wavelengths so that cheap, room-temperature silicon single-photon avalanche diodes can be used. This underpins hyperspectral single-photon imaging demonstrated across 2.9 to 3.6 micrometres on egg yolk, yeast, polystyrene and polyethylene, a 3 micrometre edge-enhancement differentiator switching between first and fourth order at up to 60 Hz, and high-speed MIR videography where a nonlinear crystal is gated by time-multiplexed pump patterns and the frames are computationally unpicked from a single camera exposure. Second, learned signal separation: deep denoising autoencoders, an unsupervised interference-mitigation framework and blind source separation applied to laser absorption spectroscopy so that species can be resolved without complete reference spectra, and unsupervised embedding of RHEED patterns to separate high- from low-quality epitaxial films in situ. Third, estimator engineering, where the diagnostic quantity is redefined to be cheaper or less invasive to compute: subcubic online updates of partial-transpose moments from classical shadows, and a Bayesian-network reconstruction of a qubit Otto engine cycle that avoids the projective dephasing imposed by two-point energy measurement.
-
 A caution about scope. The taxonomy places this under health, but the supplied evidence is overwhelmingly instrumentation physics with biomedical use cited as motivation rather than demonstrated. Nothing here is a clinical assay, and no source reports patient data, sensitivity or specificity against a clinical standard.
 
 ## Viability (3/5)
@@ -88,13 +86,9 @@ On demand, the sources list application domains rather than evidence of pull: bi
 
 ## Novelty (4/5)
 
-Two items are novel in kind rather than degree. The coherence-preserving fluctuation diagnostic sidesteps the projective dephasing that two-point energy measurement forces on a quantum engine, reconstructing the unmeasured coherent cycle via a dynamic Bayesian network, and is careful to label its gains as gross working-medium advantages rather than net device efficiencies. The entangling-power diagnostic introduces concurrence- and negativity-based measures that, unlike a previously proposed linear-entropy quantity, vanish for all separable channels, which is a correctness fix in the metric itself.
-
 **TLDR: Most entries state what they beat and by how much, and the margins are large rather than marginal.**
 
 ## Diffusion (2/5)
-
-One genuine diffusion argument exists: pushing detection onto commodity silicon rather than exotic infrared arrays lowers cost and removes cryogenics, which is exactly the barrier named as blocking MIR single-photon imaging today, and putting a high-resolution spectrometer on a silicon photonic integrated circuit points at a manufacturable form factor. Against that, the same systems rely on nonlinear crystals, pulsed pump sources and phase-only spatial light modulators, and on computational deciphering steps whose robustness outside the demonstrated scenes is not established.
 
 The learned-reconstruction layer carries its own adoption tax. Autoencoder-based blind source separation and unsupervised interference mitigation are attractive precisely because reference data are missing, which is also what makes them hard to certify for a regulated or safety-critical use. The surface-code work shows the general failure mode in a setting where ground truth is well defined: change the decoder and the reported threshold moves, and some estimates remain estimator-sensitive. Nothing in this source set addresses clinical validation, approval pathways, reimbursement, interoperability or field ruggedisation, so the score reflects demonstrated prototypes with no evidence of a route to volume.
 
@@ -128,19 +122,7 @@ By 30 June 2028, mid-infrared upconversion hyperspectral imaging of the kind dem
 
 ## Evidence base
 
-- 14 May 2026: a label-free microscope images intracellular viscoelasticity at biologically relevant frequencies, twenty times faster than previous label-free approaches and at diffraction-limited resolution, without a perturbing localised probe.
-- 5 June 2026: cavity-enhanced SPDC plus frequency upconversion enables chemically specific single-photon hyperspectral imaging from 2.9 to 3.6 micrometres using room-temperature silicon SPADs, demonstrated on egg yolk, yeast, polystyrene and polyethylene.
-- 5 May 2026: a two-compartment biosensor model reproduces finite-element binding kinetics with more than a 100-fold reduction in computation time and yields analytical equilibration time and required volume as functions of the Damkoehler number.
-- 7 June 2026: a silicon PIC speckle spectrometer using a path-mismatched multimode interferometer reaches a stated record 100 MHz resolution, 0.8 pm at 1550 nm, within a 10 MHz-resolution RF spectrum analyser.
-- 5 June 2026: surface-code threshold estimates shift with the decoder, with a matching-style backend giving crossing median p_c = 0.0531 (bootstrap [0.0415, 0.0572]) and Union-Find showing matching-fallback rates up to 0.747 at sigma = 0.50, showing diagnostic outputs can be pipeline artefacts.
-- 28 May 2026: a non-chiral, non-resonant silicon grating produces broadband tunable chiral Smith-Purcell radiation with a stated record degree of polarisation of 0.87, proposed for integrated particle diagnostics platforms.
-
 ## Open questions
-
-- Do the learned reconstruction methods for laser absorption spectroscopy hold up on species and interferents absent from their training and augmentation sets, given that their selling point is operating without complete reference data?
-- Does the sample-volume framework predict measured performance of real affinity biosensors, rather than only matching finite-element simulation?
-- How much of the reported advantage in each optical system survives removal of the spatial light modulator, pulsed pump and free-space alignment, that is, in a packaged instrument rather than a bench?
-- For diagnostics whose output depends on the inference pipeline, do independent decoders, estimators or reconstruction algorithms agree on the same physical quantity, as the surface-code comparison suggests they may not?
 
 ---
 *Assessment drafted 2026-08-31 from up to 18 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

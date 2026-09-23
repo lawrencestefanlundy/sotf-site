@@ -22,9 +22,9 @@ tags:
 descendants:
 - optical-frequency-division
 - optoelectronic-oscillator
-mention_count: 13
-sources_7d: 0
-sources_30d: 1
+mention_count: 14
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
 - slug: 2025-12-09-gallium-nitride-photonics-w-james
   title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
@@ -44,6 +44,4 @@ neighbors:
   path: /photonic-systems/light-sources/optical-frequency-comb/
   macro: photonic-systems
 ---
-Using optical/photonic techniques to **generate, process, transport and measure** RF, microwave and mmWave signals. The premise: above ~40 GHz, electronics struggle (frequency-multiplier chains multiply noise with the carrier, need different hardware per band, and grow in size/weight/power), whereas photonics can synthesise high, tunable, low-noise carriers from optical sources.
-
 The field is decades old but historically lab- and defence-bound; the open question is commercial scale, not feasibility (see <sup class="ref"><a href="https://www.nature.com/articles/s41586-024-07057-0" title="Photonic mmWave / microwave signal generation — research landscape (2024–2025)" rel="noopener">ref</a></sup>).

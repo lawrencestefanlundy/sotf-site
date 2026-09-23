@@ -63,19 +63,11 @@ Each CZ pull consumes the polysilicon charge plus a hot zone of consumables that
 - Graphite hot-zone parts: heaters, susceptors, heat shields, insulation. Lead suppliers SGL Carbon (Germany), Toyo Tanso, Tokai Carbon [6].
 Recurring-revenue note: consumables are the steadier annuity in this step. Tool sales are cyclical and capex-gated, but every wafer maker burns crucibles and graphite continuously, so the consumables layer (Momentive, SGL) has more durable, less cyclical revenue than the puller OEMs.
 
-## Volumes, revenue, profitability
-Global silicon wafer shipments were ~12,178 MSI (million square inches) in 2024, recovering toward ~13,328 MSI in 2025 [7] - these are the wafers that crystal growth feeds. The bare-wafer market is ~$12-13bn of revenue, and crystal growth is roughly half the polysilicon-to-wafer conversion cost [1]. Margins by layer: the value-capturing layer here is mostly the wafer makers themselves (they grow in-house), not the tool vendors. As a proxy for the equipment layer, PVA TePla ran a 21.4% group EBITDA margin in 2024 (EUR 40.2m EBITDA) [3] - healthy for capital equipment but well below front-end litho/etch OEMs. Wafer makers (Shin-Etsu, SUMCO) earn the substrate margin; their economics swing hard with the silicon cycle.
-
 ## Competitive landscape & value capture
 The defining structural fact: crystal growth is mostly captive. The big wafer makers - Shin-Etsu (~32-33% of 300mm) and SUMCO (~26-27%) [7], plus GlobalWafers, Siltronic, SK Siltron - run their own crystal pullers as a core trade secret. They buy some furnaces but also build and tune their own hot zones, so the merchant puller-OEM revenue pool is thinner than the wafer market implies. Value accrues to (a) the wafer makers, who hold the process know-how and the consolidated, oligopolistic market, and (b) the consumables suppliers who feed every pull. FZ is a defensible premium niche: FZ wafers cost ~30% more than CZ and serve high-voltage power devices (IGBTs, EV inverters), growing ~8% a year [8]. EU/specialty angle: PVA TePla (DE, listed) is the clear European pure-play and the go-to for SiC and specialty-crystal pullers, which matters for the power-electronics and compound-semi build-out.
 
 ## Market drivers, constraints & trends
 Net read: the served market is cyclical with a structurally higher floor. AI has pulled 300mm wafers from glut to tightness, but the value still accrues to captive wafer makers, and a 2027 correction is the consensus base case.
-
-- **Drivers**
- - AI/datacentre demand has flipped the cycle: Q1 2026 silicon wafer shipments hit 3,275 MSI, up 13.1% year-on-year, led by 300mm for AI logic and HBM [9][10]. SemiAnalysis frames the industry as now in a genuine "silicon shortage" phase, with hyperscaler capex gated by fab/wafer supply, not appetite [11].
- - Node transitions lift wafer spec and price: Shin-Etsu and SUMCO put in JPY 150bn (~$1bn) in 2025 for 200,000 wpm of ultra-flat 2nm/3nm-grade 300mm capacity, and SUMCO is killing 200mm at Miyazaki by late 2026 to shift to AI-grade 300mm [12].
- - Reshoring/sovereignty adds greenfield demand: GlobalWafers opened Sherman, Texas (now a $7.5bn programme) and started Italy's first 300mm plant in Oct 2025 on multi-year STMicro/Infineon deals [12].
 
 - **Constraints**
  - Hard cyclicality: SEMI's base case is +5.1%/+5.4% in 2025/26, a -6.2% correction in 2027, recovery in 2028 [13] — the served market is not a smooth compounder.

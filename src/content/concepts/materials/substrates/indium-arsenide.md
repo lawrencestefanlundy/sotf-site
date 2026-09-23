@@ -60,8 +60,6 @@ neighbors:
 
 Indium arsenide (InAs) is a binary III-V compound semiconductor, grown epitaxially (typically by molecular beam epitaxy) either as a bulk layer, as a quantum well inside a heterostructure, or as self-assembled nanoscale islands (quantum dots) embedded in a wider-gap host such as GaAs or InP. It is used as a substrate, as an active layer, and as a lattice-matching reference for other epitaxial materials such as Heusler compounds grown for spintronics.
 
-Three properties explain almost all of its current use. First, its narrow bandgap puts absorption and emission in the mid-infrared, which is why InAs/InAsSbP barrier detectors address the 3.0-3.7 µm band and why InAs p-i-n diodes are candidates for thermoradiative energy harvesting, where a diode radiates to a cold sky and generates power. Second, it makes clean, high-transparency contact with superconductors and carries strong spin-orbit coupling, which is why hybrid Al/InAs and InAs/Pb structures dominate the superconductor-semiconductor literature: tetron qubits, Josephson junction arrays, gate-tunable Josephson oscillators, microwave probes of exotic superconducting states, and InAs/GaInSb quantum spin Hall insulators. Third, InAs islands strain-nucleate into near-ideal single-photon emitters when grown on GaAs or InP, giving InAs/GaAs and InAs/InGaAs quantum dots and, at telecom wavelengths, InAs dots in InP microdisks.
-
 The parameters that decide InAs in each role differ. For detectors it is bandwidth, room-temperature sensitivity and structural simplicity. For thermoradiative and energy-harvesting diodes it is reverse saturation current relative to the radiative limit and breakdown voltage, both of which are still far from ideal. For quantum photonics it is dot inhomogeneity, cavity quality factor and the refractive-index mismatch that complicates coupling III-V gain material to standard silicon waveguides. For hybrid quantum devices it is interface quality, parasitic bulk conduction and electrostatic control.
 
 ## Viability (4/5)
@@ -96,15 +94,11 @@ Against that, the detector work explicitly frames the mature InAs platform as op
 
 ## Impact (4/5)
 
-The breadth is the argument. If the mid-infrared detector results transfer to product, the value is real but contained: faster free-space optical links and comb spectroscopy instruments. If InAs quantum dot lasers integrate cleanly on standard 220 nm silicon, the payoff is larger, because 1.3 µm on-chip sources address data-centre interconnect volumes. The asymmetric term is the hybrid superconductor-semiconductor stack: a 20 second parity lifetime in an InAs-Pb tetron is a measured milestone on a fault-tolerance route whose success would reset quantum computing economics, and the same material system underpins tunable Josephson junction arrays, gate-controlled microwave comb sources for cryogenic electronics and quantised helical edge transport.
-
 The discount is that InAs is an enabling substrate, not a proprietary technology, and in some functions it is already being displaced on paper by better materials. No source in this set quantifies commercial or economic value, so the impact judgement rests on the technical significance of the demonstrations only.
 
 **TLDR: Modest incremental value in most niches, but InAs is the host material under one of the highest-stakes quantum computing routes on record.**
 
 ## Timing Now (0-2yr)
-
-InAs needs no waiting as a platform. Room-temperature multi-GHz mid-infrared detection has been demonstrated on it now, and InAs quantum dots are a working component in current quantum optics experiments. The near-term question for these is supply and packaging rather than physics, given the noted scarcity of commercial devices.
 
 The applications that would make InAs strategically important are later. Topological qubits are at single-device parity-lifetime characterisation; quantum spin Hall devices are at the stage of proving that electrostatic control suppresses parasitic conduction; the CMOS-compatible dot laser is still a simulation; and thermoradiative diodes are two orders of magnitude off their radiative limit. Anyone investing on the quantum thesis should plan on a Later horizon even though the material itself is available today.
 

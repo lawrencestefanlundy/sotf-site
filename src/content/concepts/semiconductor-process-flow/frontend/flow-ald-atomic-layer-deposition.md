@@ -58,14 +58,8 @@ The cleanest figure comes from ASM's 2025 Investor Day: the single-wafer ALD mar
 
 Concentration is high: the four WFE incumbents (AMAT, ASM, TEL, Lam) plus Kokusai hold roughly 72% of revenue [3], and the market splits cleanly by segment, ASM owning single-wafer logic, Kokusai owning batch memory.
 
-## Materials & consumables
-Every ALD cycle consumes metal-organic precursors: trimethylaluminium (TMA) for alumina, hafnium and zirconium amides for high-k, plus titanium, tantalum, molybdenum and tungsten precursors for liners and metal fill, alongside co-reactants (water, ozone, plasma). This is a recurring, per-wafer consumable pull-through that grows with ALD-layer count, so it tracks tool installed base rather than tool sales. The high-k and metal-precursor market is roughly US$0.6-1.2B (2024-2025) at high-single-digit CAGR; metal precursors specifically were about US$646M in 2024 [5]. Estimates vary widely by report, so the range is rough. Top suppliers: Merck KGaA (EMD), Entegris, Air Liquide, Adeka, Linde/Praxair and Hansol Chemical, the top five holding about 62% of the precursor market [5].
-
 ## Volumes, revenue, profitability
 The revenue pool splits two ways. Tools are a lumpy ~US$5-6B equipment market that follows fab capex cycles; precursors are a smaller ~US$1B but stickier, recurring stream. The economics are excellent for the lead vendor: ASM posted FY2024 adjusted gross margin of 50.5% and adjusted operating margin of 28.0% on EUR2,933M revenue, and grew faster than WFE [6][1]. ASM's 2030 plan targets revenue above EUR5.7B at a 12%+ CAGR versus ~6% for the broader WFE market, explicitly an outperformance story driven by ALD intensity [1]. The margin accrues to the equipment vendor that owns the qualified process recipe at a given node, not to the fab or the precursor chemist; switching a qualified ALD recipe is slow and risky, which is the moat.
-
-## Market drivers, constraints & trends
-Net read: this is the structurally fastest-growing deposition step, set to outgrow WFE through the decade, but the served market still rides the memory and fab-capex cycle.
 
 - **Drivers**
  - ALD intensity compounds with every vertical transition at once: GAA at 2nm/1.4nm, 3D DRAM, and taller 3D NAND each add conformal-film steps, and ASM guides to double-digit growth in application layers per node [7][9]. The single-wafer ALD market is put at US$4.2-5.0B by 2027 (10-14% CAGR) [9].

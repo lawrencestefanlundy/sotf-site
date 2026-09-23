@@ -76,12 +76,6 @@ Net read: the served pool grows steady-to-accelerating, but the acceleration is 
  - HBM volume pulls reliability spend: HBM grew ~130% in 2025 and is forecast ~70% in 2026, and HBM4's 16-high stacks push a known-good-die requirement that mandates wafer-level burn-in before dicing [14].
  - One latent die in a $30k+ HBM4 wafer or a multi-thousand-dollar 2.5D module makes shift-left screening economically forced, not optional [15].
 
-- **Constraints**
- - Burn-in equipment overcapacity is capping the aggregate: independent reads put burn-in *system* growth at only ~3% CAGR despite the AI pull, because the tool base over-built into the 2019-24 SiC cycle [16].
- - SiC, the prior demand engine, is in a downturn to 2027-2028 with upstream utilisation near 50% and the EV ramp delayed [17].
- - Burn-in is a cost customers route around as yields mature, so demand stays concentrated in hard cases (auto, power, AI/HBM) rather than broadening (see §Competitive landscape above).
- - Customer concentration: the listed pure-play's AI exposure rests on one or two hyperscaler-ASIC accounts, so a single design slip swings the number.
-
 - **Trends & inflections to watch**
  - Thermal redline: AI processors now need 2.5-3.5kW per-wafer dissipation, forcing liquid-cooled chucks and kiloamp probe cards. Tripwire: a second WLBI vendor shipping a >3kW liquid-cooled production tool would confirm the optical/AI line is multi-sourced and structural [13][14].
  - HBM4 stays on microbumps; hybrid bonding (sub-10um) slips to HBM4E ~2027. Tripwire: a foundry/OSAT qualifying hybrid-bonded HBM in volume re-rates the KGD/WLBI requirement upward [14].

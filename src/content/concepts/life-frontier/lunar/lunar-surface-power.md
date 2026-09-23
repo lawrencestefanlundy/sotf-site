@@ -23,8 +23,6 @@ neighbors: []
 ---
 ## Physics / mechanism
 
-Lunar surface power addresses the fundamental energy constraint on any sustained lunar presence: the Moon's 354-hour day/night cycle, with two-week darkness periods dropping surface temperatures to –173 °C. Photovoltaic arrays (monocrystalline silicon or III-V multijunction, 28–35% efficiency in AM0 spectrum) work on the sunlit surface but require massive energy storage or geographic solution—hence strong interest in permanently shadowed region (PSR) avoidance and polar ridge siting where near-continuous illumination is achievable (~89% duty cycle at Shackleton rim). Fission surface power (FSP) is the competing baseload answer: NASA/DoE's Kilopower/KRUSTY demonstrated 10 kWe from a uranium-molybdenum fast reactor with Stirling convertors; the FSP project targets 10–40 kWe units for 2030 deployment. Transmission via high-voltage DC cable or microwave/laser beaming adds system complexity.
-
 ## Competitive landscape
 
 | Approach | Power density | Day/night tolerance | TRL |

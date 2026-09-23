@@ -25,7 +25,7 @@ tags:
 public_expressions:
 - IBM
 - STM
-mention_count: 49
+mention_count: 52
 scorecard:
   viability: 4
   drivers: 3
@@ -35,8 +35,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 4
-sources_30d: 12
+sources_7d: 7
+sources_30d: 15
 recent_mentions: []
 neighbors:
 - slug: arpes
@@ -54,15 +54,11 @@ neighbors:
 
 Scanning tunnelling microscopy (STM) brings a sharp conductive tip within a fraction of a nanometre of a conductive surface and measures the current that tunnels across the gap. Because that current depends exponentially on the gap width, a feedback loop holding it constant while the tip raster-scans produces a map with atomic lateral resolution. Sweeping the bias instead of scanning gives scanning tunnelling spectroscopy (STS), which reads out the local density of electronic states at a chosen point, so the instrument returns both structure and local electronic structure from the same measurement. Variants extend this: spin-polarised STM uses a magnetic tip to read spin contrast and to couple magnetically to the sample, the field-emission regime accesses image potential states above the surface, and quasiparticle interference (QPI) mapping around defects converts real-space standing waves into momentum-space information.
 
-In the sources, the dominant use is metrology for correlated and topological matter. STM and STS resolve Dirac and flat bands in triangulene-based superatomic graphene, the hexagonal lattice and stacking of a single-layer conjugated metal-organic framework grown on graphite, charge density wave orders tuned by chemical doping in misfit layer compounds, and quantised collective modes of a Tomonaga-Luttinger liquid in mirror twin boundary segments as short as one nanometre. It is also used to monitor on-surface chemical synthesis reaction by reaction.
-
 The manufacturing claim is separate and much younger. Inverted-mode STM with functionalised molecular tools has been used to demonstrate positionally controlled donation of carbon atoms and abstraction of silicon atoms at a model build site on an atomically clean, cryogenic silicon surface. That is a chemistry demonstration at single-site scale, not a process.
 
 The parameters that decide STM's usefulness are: sample conductivity (insulating films need workarounds, which is why photoexcitation sensing on dielectric films has been moved to AFM instead); vacuum and cryogenic stability; the unknown and drifting state of the tip; serial single-tip throughput; and the human labour of labelling and interpreting the images, which is now being attacked with few-shot and unsupervised segmentation and with machine-learning regression of physical parameters directly from image data.
 
 ## Viability (4/5)
-
-The metrology function is not in question. Independent groups in the source set resolve atomic lattices, molecular bonds, spin contrast and collective excitations across silicon, germanium, oxide, graphene, transition metal dichalcogenide, metal-organic framework and topological insulator surfaces, and pair the results with DFT and ARPES without apparent instrument-limited disagreement. Measurable, quantitative outputs are being extracted, for example a tip-induced energy shift of up to 10 meV in the spin-polarised surface state of Cr(001) that switches with field and tip-surface distance.
 
 The fabrication function is much weaker. The mechanosynthesis result demonstrates donation of carbon and abstraction of silicon at a model build site under inverted-mode STM with functionalised molecular tools, on an atomically clean cryogenic surface. The sources give no yield, rate, error correction or scaling data, so nothing in them supports a claim that atom-by-atom fabrication is a viable process. The score of 4 reflects the instrument, not the factory.
 

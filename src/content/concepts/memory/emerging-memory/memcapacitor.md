@@ -203,10 +203,5 @@ By 31 December 2028, no peer-reviewed paper will report a fabricated memcapacito
 
 ## Open questions
 
-- Has any memcapacitor array been fabricated below the 50 x 50 µm cell size of the 2021 device, and what is the measured energy per MAC at that size rather than the extrapolated figure?
-- Does the 95% charge-recovery assumption, worth 17.4x in the founding paper's efficiency grid, survive measurement in a real adiabatic driver circuit attached to a memcapacitor crossbar?
-- Can a ferroelectric HZO memcapacitor hold multi-level analogue state with the retention, endurance and cycle-to-cycle linearity that FCDC's simulations assume, and for how long relative to a serving session?
-- If the field standardises on digital readout with reduced effective precision, does the memcapacitor's charge-domain advantage survive the conversion overhead, or does non-volatility alone justify it against switched-capacitor SRAM?
-
 ---
 *Assessment drafted 2026-08-31 from up to 13 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

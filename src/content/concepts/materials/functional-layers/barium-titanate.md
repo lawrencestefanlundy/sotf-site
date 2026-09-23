@@ -38,7 +38,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Underrated
 scorecard_status: draft
-sources_7d: 3
+sources_7d: 2
 sources_30d: 12
 recent_mentions:
 - slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
@@ -130,8 +130,6 @@ The harder barriers are material. Ferroelectric domain alignment must be verifie
 **TLDR: Process compatibility is improving and hybrid routes avoid etching BTO, but domain control, film mechanics and temperature stability remain open.**
 
 ## Impact (4/5)
-
-The claimed prize is explicit: non-volatile ferroelectric silicon photonics as a scalable, heat-free platform for the next generation of energy-efficient photonic systems, validated by configuring a mesh to perform tunable filtering, 4x4 linear unitary transformations and optical routing. Static power and thermal crosstalk are the stated reasons large programmable meshes have not scaled, so a phase shifter drawing 560 nW per π and needing no holding bias addresses the binding constraint rather than a secondary one. Linear unitary transformations are the primitive underlying optical computing and beamforming, so the addressable value extends beyond communications.
 
 Secondary impact channels are narrower but real: large-aperture gigahertz free-space modulation for beam steering and imaging, reconfigurable RF front-ends and parametric amplifiers using thin-film BTO piezoelectricity, extended to millikelvin for quantum hardware, and electric-field control of magnetic response in oxide heterostructures at room temperature, demonstrated for the anomalous Hall effect in Py/BTO/LSMO stacks. Charged-domain-wall electronics, ferron Hall transport and sub-THz domain wall modes are speculative and carry no near-term value in these sources.
 

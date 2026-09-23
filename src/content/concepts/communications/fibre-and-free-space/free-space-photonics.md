@@ -132,8 +132,6 @@ The honest counterweight comes from inside the same literature. Two independent 
 
 ## Novelty (3/5)
 
-Against fibre, the advantage is structural rather than measured: no medium to install between the endpoints, which is the only reason the orbital case exists at all. Against millimetre-wave radio, the 2026 hybrid transmitter does not choose; it runs both from one locked laser pair and studies their combined capacity under misalignment, which is the more interesting claim because it implies FSO and D-band are complements with different failure modes. On the component side, the novelty claims are sharper: the first fully integrated on-chip system for spatio-temporal-encoded high-speed imaging, replacing free-space optics and long dispersive elements; MPLCs fully encapsulated in a glass chip via laser-written geometric phase holograms; monolithic sub-optical-cycle switching between vortex beams of opposite topological charge in a 46 nm film, where the incumbent is bulky free-space optics or cascaded architectures.
-
 The missing quantity is the margin. Only the deformable matched filter work states a comparative result, and it is qualitative in the excerpt: significant improvement over fixed matched filtering under severe bandwidth constraints, without decision feedback or added receive complexity. A 3 is what the evidence earns: several credible firsts, no defensible multiple over the alternative.
 
 **TLDR: Genuine architectural firsts, but the sources almost never quantify how much better than the incumbent.**

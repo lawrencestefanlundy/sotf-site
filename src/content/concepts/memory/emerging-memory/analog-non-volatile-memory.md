@@ -42,9 +42,4 @@ The only comparison the source supports is between photonic integrated circuits 
 
 ## Frontier (open questions)
 
-- How many distinguishable, reproducible analog levels do opto-electronic resistive cells hold, and what is the level-to-level drift over 10 years at operating temperature?
-- What is the programming energy per state change, and how does it compare with the standing power of volatile thermal tuning over a realistic PIC duty cycle?
-- What endurance (set/reset cycles) has been demonstrated, and does it degrade the optical insertion loss of the host waveguide?
-- Are these devices compatible with a foundry photonic process flow and thermal budget, or do they require post-process integration?
-
 *Synthesised 2026-08-31 from 1 KB sources by the resynth pipeline; citations are KB source slugs.*

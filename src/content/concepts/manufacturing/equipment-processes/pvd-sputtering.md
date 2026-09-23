@@ -39,7 +39,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 63
+mention_count: 64
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 5
@@ -51,7 +51,7 @@ scorecard:
   verdict: Underrated
 scorecard_status: draft
 sources_7d: 4
-sources_30d: 9
+sources_30d: 10
 recent_mentions: []
 neighbors:
 - slug: chemical-vapor-deposition
@@ -84,8 +84,6 @@ neighbors:
 ## Summary
 
 The parameters that decide outcomes are few but unforgiving. Reactive gas partial pressure sets the phase: in Cu-O films, increasing oxygen partial pressure drives Cu2O to Cu2O/Cu4O3 to CuO, and boron doping widens the window in which the useful mixed-valence phases survive. Buffer layers set the crystallography: delta-NbN grows epitaxially on TiN-buffered sapphire at room temperature with picometre-scale surface roughness, described as the lowest reported, and vanadium films on an Nb buffer show more uniform lattice orientation and smaller grains than V grown directly on silicon. Target quality and availability set the material palette: dense Ca(OH)2 targets, otherwise hard to make because heating dehydrates the material, have been produced at up to 98 per cent theoretical density by cold sintering at 100 to 300 degrees C and 400 MPa, and scaled to 2-inch diameter for CaO film deposition. Geometry matters too, because deposition is line-of-sight: on microwire scaffolds inclined at 0, 30 and 45 degrees, CoFe/IrMn film thickness falls systematically with inclination, and the exchange bias field tracks it.
-
-Sputtering competes with molecular beam epitaxy, MOCVD, pulsed laser deposition and thermal evaporation, and the comparisons in the sources are mixed. For Au/Co/Au stacks, MBE gives sharper interfaces and a narrower Au(111) rocking curve than magnetron sputtering. VO2 films grown by pulsed laser deposition and dc sputtering differ in grain size and hence in metal-insulator transition behaviour. Thermal laser evaporation, a newer PVD variant using a 1 kW 1070 nm fibre laser focused onto a target rod, claims the ability to evaporate essentially any solid element including refractory metals such as W. Two other uses of the same physics appear in the sources and should not be confused with deposition: argon-ion sputtering as a depth-profiling tool, used to reconstruct XPS spectra with 0.23 nm layer resolution, and sputtering as unwanted erosion of fusion plasma-facing components, where the design goal is to enrich the surface with low-Z species such as Li or Al to obtain benign sputtering characteristics.
 
 ## Viability (5/5)
 

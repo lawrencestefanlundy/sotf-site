@@ -80,8 +80,6 @@ One housekeeping note for readers searching this term: "triton" also denotes the
 
 ## Viability (4/5)
 
-The viability question for a compiler is whether serious users depend on it, and the 2026 sources answer yes. Meta's KernelEvolve framework, described as tackling heterogeneity at scale for DLRM training and inference, takes kernel specifications as input and generates and optimises kernels across heterogeneous hardware while operating at multiple abstractions starting with Triton. Independently, an academic cycle-accurate simulator instruments at the Triton TTGIR level and validates against Hopper TMA/WGMMA pipelines, which only works if that IR is stable and semantically rich enough to carry pipeline structure.
-
 The qualification is that no source shows Triton as a sufficient path on its own. KernelEvolve deliberately spans Triton and lower CUDA-level abstractions rather than committing to one, and the Blackwell Ultra audit demonstrates that access to specific tensor-core paths is decided in PTX and vendor kernel generators, not in a high-level DSL. Viability as working infrastructure: strong. Viability as a complete replacement for vendor-level kernel programming: not demonstrated in these sources.
 
 **TLDR: In production use at hyperscale and stable enough that third parties build tooling against its intermediate representation.**

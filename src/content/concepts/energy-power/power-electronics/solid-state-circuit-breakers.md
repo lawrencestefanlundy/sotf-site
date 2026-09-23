@@ -27,8 +27,6 @@ Solid-state circuit breakers (SSCBs) replace electromechanical contacts with pow
 
 ## Competitive landscape
 
-Electromechanical MCBs/ACBs remain dominant on cost ($/A protected) and zero conduction loss. Hybrid breakers (mechanical contact + parallel semiconductor for energy absorption) split the difference—faster than pure mechanical, cheaper than pure solid-state. Fuses compete on simplicity at low cost but are non-resettable. Key differentiator is application: SSCBs win where fast fault isolation, remote reconfiguration, or high cycle rate matters (EV charging, shipboard DC, data-center 400 V DC bus).
-
 ## Companies using
 
 <!-- dataview block stripped for public site -->

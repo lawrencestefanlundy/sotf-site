@@ -27,7 +27,7 @@ descendants:
 - semiconductor-optical-amplifier
 - single-photon-sources
 - vcsels
-mention_count: 90
+mention_count: 91
 scorecard:
   viability: 4
   drivers: 3
@@ -44,7 +44,7 @@ frontier:
 - Are microwatt-level chip-scale blue and nanowatt mid-IR outputs sufficient for atomic clock, sensing or spectroscopy applications, or is a power scaling route required 2026 05 05 nonlinear frequency translation in micromachined rb vapor ce?
 - Do the theoretical advantages claimed for correlated and superradiant sources survive contact with real mode-matching and synchronisation constraints, given that these constraints already forced a switch to a narrowband laser in a covert-communication experiment 2026 05 29 toward practical two way covert communication?
 sources_7d: 5
-sources_30d: 16
+sources_30d: 17
 recent_mentions:
 - slug: 2026-07-07-the-asml-killer
   title: The ASML Killer?
@@ -115,8 +115,6 @@ Secondary impacts are real but less certain because they are theoretical. Superr
 The timeline is not uniform across the category. The seeded free-electron laser result is an experimental demonstration on a large facility and can plausibly be adopted as a beamline configuration change on a short horizon. Micromachined vapour cells are already a versatile chip-scale platform producing measured blue and mid-IR output, and erbium-doped silicon nitride metasurfaces sit close to an existing foundry process.
 
 The quantum-dot line is the slower one, and it is the line that matters for quantum networking. Placement accuracy of 51(28) nm against a 50 nm tolerance and extraction efficiencies still quoted from simulation indicate a two-to-five year window before device-level performance is demonstrated at reproducible yield, with fielded deployment later. The nanoresonator and van der Waals photon-pair sources are earlier still: brightness at the 0.45 Hz/mW level is a physics result rather than a component specification.
-
-**TLDR: Facility-scale and CMOS-adjacent results are usable now; deterministic quantum sources need another process-maturity cycle.**
 
 ## Overrated or underrated? Underrated
 

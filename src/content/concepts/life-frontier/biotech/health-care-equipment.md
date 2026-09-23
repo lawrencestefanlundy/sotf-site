@@ -57,8 +57,6 @@ The parameters that decide this field are therefore not exotic: energy per infer
 
 The strongest viability evidence is where devices exist and have been measured. Two 65 nm chips were fabricated and characterised, at 11.3 nJ per inference with a 0.825 30-minute hypoglycaemia F1 and 7.13 nJ per encoding with 76.44 nJ per prediction and 357.32 nJ per training update. The hearing-aid accelerator was measured on commodity hardware and crossed the 10 ms clinical threshold at 9.7 ms for denoising, while speech separation did not, at 16.0 ms. The speed-of-sound work was tested in simulation, tissue-mimicking phantoms and in vivo breast lesion examinations, and was designed for standard beamforming hardware.
 
-Against that, the sensing and quantum strands are much earlier. The contactless blood-pressure work is self-described as a feasibility study with 15 healthy participants. The laparoscopic depth module was trained and evaluated on 722 paired phantom images against a Zivid 3D camera reference. The dosimeter is explicitly a proof of concept with the fibre-integrated micron-scale device still to come. The MRI sampling work is retrospective on simulated eight-coil data, with gains that varied with resolution, acceleration and noise, and the variational quantum classifier reached only 61.4% accuracy on mammography, meaning its 160x convergence speed-up is a speed-up to a clinically useless operating point. A 3 reflects a category where some sub-strands are hardware-real and others are not yet past simulation.
-
 **TLDR: Fabricated silicon and measured latencies are real; human validation is thin and mostly phantom or feasibility scale.**
 
 ## Drivers (3/5)

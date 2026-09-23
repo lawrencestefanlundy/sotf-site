@@ -75,8 +75,6 @@ Computational lithography is the software layer between chip design and physical
 
 **Multi-beam mask writing.** The hardware layer that enables curvilinear masks at scale. IMS Nanofabrication (Vienna, Austria, Intel majority stake, roughly $4.3B valuation) holds 81.52% market share in multi-beam mask writers. Their MBMW-401 targets angstrom-era nodes. Without multi-beam writers, curvilinear ILT masks cannot be manufactured at acceptable throughput or cost. AMTC Dresden installed Europe's first multi-beam mask writer.
 
-**The NVIDIA-Synopsys lock.** cuLitho is not an open platform. It is a library integrated directly into Synopsys Proteus and Siemens Calibre. NVIDIA made a $2B equity investment in Synopsys in December 2025, explicitly to deepen this integration. A startup cannot license cuLitho. The B200 "20x further acceleration" announcement is a Synopsys-NVIDIA deliverable. GPU hardware is commoditising; the software integration layer above it is being locked up inside incumbent contracts. A startup buying H100s still has to write a full ILT solver from scratch and validate it against a system with 20 years of fab qualification data.
-
 ## Why now (2026)
 
 Three of the five commonly-cited inflection points are real. Two are overstated.
@@ -114,10 +112,6 @@ Silvaco (Nasdaq: SVCO, market cap ~$114M): acquired Cadence's OPC product line M
 ## Lawrence's framing
 
 The technology inflection is real and the timing is not wrong. Multi-beam mask writers are now installed in Europe. Curvilinear masks are in production at Micron. Open ML datasets exist that did not exist three years ago. The software gap - no European company generating those masks at prices accessible to specialty fabs - is a factual observation. The question is whether a EUR 30M fund should be the vehicle to address it, and the honest answer is no.
-
-The structural problem is that computational lithography software has never been venture-fundable at early stage for the same reason it has never spawned a large independent company: the qualification cycle and the customer base create a mismatch with venture timelines and return requirements. Luminescent Technologies operated for nine years before Synopsys acquired it. Brion lasted five years before ASML acquired it. D2S has 16 years in business and is still subscale. These are the comps. The correct interpretation of "no European company has done this" is not "greenfield opportunity" - it is "nobody has found a way to make it work at venture scale in Europe despite 20 years of trying in the US." That needs a response more specific than "AI makes it different now."
-
-The one thread worth following is not the ILT solver. It is the training data. AI-EDA companies (Ricursive at $4B valuation, Cognichip at $93M raised, ChipAgents at $74M raised) are raising large rounds and building foundation models for chip design. All of them need lithography-accurate training data. None of them are building it. A company that sits between the mask shops (who have process data) and the AI-EDA companies (who need it) - packaging, cleaning, and licensing node-specific ILT datasets - has a shorter path to revenue, no qualification cycle, and a more obvious buyer. That is a EUR 1M pre-seed thesis. It does not require founders who have run silicon at TSMC. It requires founders who understand data licensing and the AI-EDA company buyer, which is a more tractable founder profile. The research synthesis spends two paragraphs on this idea and then ignores it. That is backwards.
 
 ## Companies
 <!-- dataview block stripped for public site -->

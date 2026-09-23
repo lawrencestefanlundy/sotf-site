@@ -22,7 +22,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - category
-mention_count: 17
+mention_count: 19
 descendants: []
 last_reorg_date: '2026-05-14'
 scorecard:
@@ -34,8 +34,8 @@ scorecard:
   timing_band: Distant (10yr+)
   verdict: Overrated
 scorecard_status: draft
-sources_7d: 3
-sources_30d: 4
+sources_7d: 5
+sources_30d: 6
 recent_mentions:
 - slug: 2025-03-04-doe-funds-uk-research-on-critical-materials-for-commercial-f
   title: DOE funds UK research on critical materials for commercial fusion energy - UKNow
@@ -58,8 +58,6 @@ neighbors: []
 **Fusion energy aims to generate grid electricity by fusing light nuclei, and the 2026 literature suggests its binding constraints are shifting from plasma physics to neutron-damaged structural materials and the licensing consequences of neutron leakage rather than to plasma performance alone.**
 
 ## Summary
-
-Fusion energy proposes to make electricity by fusing light nuclei rather than splitting heavy ones. The mainstream fuel cycle is deuterium-tritium, which releases most of its energy as 14.1 MeV neutrons. Those neutrons are simultaneously the product and the problem: they must be captured to deposit heat that can be converted to electricity, while the surrounding structure has to survive the bombardment. As one 2026 materials paper puts it, commercial fusion requires materials that survive intense neutron bombardment whilst extracting extreme heat loads for conversion to electricity.
 
 The engineering therefore decomposes into three separate problems. First, plasma physics and confinement, which is still supported by basic research: plasma-surface interactions and the electrical sheath that forms where plasma touches a solid are described in 2026 NSF awards as not yet fully understood, and related work is funded on warm dense matter relevant to laser-driven approaches. Second, the plasma-facing and heat-extraction materials. The leading heat-sink candidate, CuCrZr, gets its strength from nano-precipitates formed by heat treatment, and whether that precipitation-hardening strategy survives fusion-relevant irradiation had not been tested; in situ TEM under heavy-ion irradiation plus helium implantation shows the hardening precipitates dissolve, by ballistic dissolution at low temperature and by dissolution and re-precipitation at high temperature. Third, effluents and licensing. Leaked neutrons hitting nitrogen in air produce carbon-14, with a conversion probability of 0.25 to 0.50 for 14.1 MeV DT neutrons and higher for softer spectra; percent-level leakage from a 1 GWe plant would put atmospheric radiocarbon within a factor of a few of natural global production, and a 2500 GWe fleet would need mean leakage of order 10^-6 to stay under 10% of the natural source.
 

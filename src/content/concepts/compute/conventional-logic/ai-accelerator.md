@@ -155,8 +155,6 @@ Two caveats hold the score below 5. First, the largest headline numbers come fro
 
 ## Timing Now (0-2yr)
 
-The category is in production now. GB10-based desktop AI systems from seven named vendors are shipping in 2026, multi-chiplet GPUs with local and remote HBM are the assumed baseline in several 2026 papers, and the highest-leverage improvements identified, kernel traversal order and chiplet-contiguous memory layout, are software changes deployable within a product cycle. Small fabricated edge and probabilistic accelerators are at the stage where the remaining work is productisation and toolchain, not physics.
-
 The photonic branch is on a different clock. Sub-TOPS on-chip cores with 3.9% average multiplication error and accuracy that degrades with data rate, and single-pass inference limited to 49-dimensional vectors, are early-stage. Photonics used as switching and memory fabric rather than as an arithmetic unit is nearer, because it does not require the model to tolerate analogue error. Ising and physics-based solvers remain at 64 spins and are further out still.
 
 **TLDR: Digital and memory-side accelerators are already shipping or software-deployable; photonic compute cores are a later story.**

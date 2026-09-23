@@ -29,12 +29,6 @@ Graphene is a single atomic layer of sp²-bonded carbon in a hexagonal lattice. 
 
 Competing interconnect approaches: ruthenium and cobalt at advanced nodes (Intel, TSMC). Competing RF/analog: InP HEMTs (>700 GHz fT), GaN. Competing photodetection: Ge-on-Si, InGaAs. Adjacent: carbon nanotubes (IBM CNFET work), III-V 2D analogues (GaSe, InSe). The honest competitive position is graphene wins on photonic/THz/RF integration where CMOS-compatibility matters and III-V monolithic integration is cost-prohibitive. MXenes increasingly competitive for electromagnetic shielding and energy storage.
 
-| Material | Mobility | Bandgap | CMOS-compatible |
-|---|---|---|---|
-| Graphene | Very high | 0 eV (tunable) | Partial |
-| MoS₂ | ~200 cm²/V·s | 1.8 eV direct | Partial |
-| InP/GaN | High | Fixed, wide | No |
-
 ## Companies using
 
 <!-- dataview block stripped for public site -->

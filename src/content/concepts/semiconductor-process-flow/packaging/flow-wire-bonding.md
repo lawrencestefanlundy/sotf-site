@@ -19,7 +19,7 @@ sources:
 mention_count: 22
 parent_concepts:
 - packaging
-sources_7d: 1
+sources_7d: 0
 sources_30d: 3
 recent_mentions:
 - slug: 2023-08-31-e13-chiplets-how-chip-lego-is-driving
@@ -59,12 +59,6 @@ Concentration note: ASMPT plus K&S take the large majority of unit volume in fin
 
 ## Materials & consumables
 The recurring pool dwarfs the tool pool. Each bonder consumes bonding wire (gold, copper, palladium-coated copper "PCC", silver, aluminium) plus capillaries/wedges (ceramic/tungsten-carbide tooling). Bonding-wire market estimates diverge widely by scope: precious-metal-heavy definitions reach ~USD 9-13bn for 2024 (the gold-loaded number rides the gold price), while tighter "semiconductor packaging bonding wire" cuts are ~USD 4bn [7][8]. A defensible read is a multi-billion-dollar materials market several times the equipment market, growing low-to-mid single digits, with the value mix shifting from gold (~55% of wire by type in 2023) to copper/PCC as gold passed USD 2,000/oz [8][9]. Vendors: Heraeus (Germany), Tanaka (Japan), Nippon Micrometal/Nippon Steel Chemical, Tatsuta, MK Electron (Korea), plus Chinese suppliers (Yantai, Ningbo Kangqiang, Niche-Tech). Heraeus, Tanaka and MK Electron together hold ~29% of all bonding wire; Heraeus plus Tanaka hold over 40% of the gold-wire segment [7]. This is a true razor-and-blades business: the wire is bought every shift, forever.
-
-## Volumes, revenue, profitability
-Volume scale: hundreds of billions of wire bonds per year (modern memory/logic packages run dozens to hundreds of bonds each; high-speed bonders place 20-30+ wires/second). Revenue pool: ~USD 1-1.6bn equipment + multi-billion (USD 4-13bn depending on definition, gold-price-sensitive) materials. Profitability splits sharply by layer:
-- Equipment: K&S FY2024 gross margin 44.4% on USD 706.2m revenue, but a net loss of USD 69.0m through the down-cycle, with Q4 GAAP operating margin only ~1.5% (non-GAAP ~7%) [2]. Bonder equipment is cyclical and capital-light to buy but thin at the bottom of the cycle.
-- Materials: precious-metal converters run high revenue but structurally thin gross margins because most of the price is pass-through metal; the spread is on conversion/yield/alloy IP, not the gold itself.
-Who earns the durable margin: the equipment duopoly captures the IP rent (placement speed, loop control, copper-bonding process), while wire suppliers earn a smaller but far more recurring annuity on consumable volume.
 
 ## Competitive landscape & value capture
 Moat in equipment is process know-how (copper bonding is harder than gold: oxidation, pad cratering, forming-gas control) plus a large installed base and service tie-in, which is why ASMPT and K&S persist as a duopoly. Moat in materials is alloy/PCC metallurgy and qualification lock-in at the OSAT/IDM. Value accrues to (a) the two bonder OEMs and (b) the handful of precious-metal wire houses; everyone else is a niche or commodity follower. EU / seed angle: the seed-relevant openings are not in volume ball bonding (locked) but in adjacent corners. Germany's Hesse and F&K Delvotec show a real EU foothold in wedge/heavy-wire for power and automotive; Heraeus is the EU materials anchor. A genuinely novel pre-seed bet would be in copper/silver wire metallurgy, low-cost in-line bond inspection/AI metrology, or power-module heavy-wire/ribbon tooling, not a me-too bonder.

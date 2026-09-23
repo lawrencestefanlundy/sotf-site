@@ -129,8 +129,6 @@ neighbors: []
 ---
 ## Physics / mechanism
 
-Storage, in the energy-power taxonomy, covers the technologies that absorb electrical energy at one moment and release it at another: the "store" function sitting between generation and delivery. The supplied source set contains no usable public material describing the physics, chemistry, round-trip efficiency, duration classes, cycle life or cost curves of any specific storage technology.
-
 This page is therefore a placeholder. It should not be read as a claim that the field is thin, only that the sources currently attached to this concept do not support technical description. Substantive content requires sources that address at least one of: electrochemical storage (cell chemistry, degradation, C-rate), mechanical and thermal storage (energy density, self-discharge, siting constraints), or the system-level parameters that determine value (duration in hours, cycles per year, capital cost per kWh and per kW, and the arbitrage or capacity revenue that pays for them).
 
 ## Competitive landscape
@@ -144,10 +142,5 @@ No comparison is possible from the available sources. Adjacent approaches within
 - No dated technical or market claim about energy storage is available from the supplied sources.
 
 ## Frontier (open questions)
-
-- Which duration band (sub-4h, 4-12h, multi-day) does each storage chemistry or mechanism serve at lowest levelised cost of storage, and what are the underlying capital cost per kWh and cycle-life assumptions?
-- What round-trip efficiency and annual degradation rates are being observed in fielded systems, as distinct from manufacturer datasheets?
-- How much of storage revenue comes from energy arbitrage versus capacity and ancillary services, and how does that mix shift as penetration rises in a given market?
-- Does data-centre load growth change the duration and siting requirements for storage relative to grid-scale renewables firming?
 
 *Synthesised 2026-08-31 from 2 KB sources by the resynth pipeline; citations are KB source slugs.*

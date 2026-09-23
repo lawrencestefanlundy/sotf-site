@@ -41,7 +41,7 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Overrated
 scorecard_status: draft
-sources_7d: 3
+sources_7d: 1
 sources_30d: 11
 recent_mentions:
 - slug: 2026-09-15-arxiv-a-unified-interconnection-network-for-chiplet-based-scaling-
@@ -113,8 +113,6 @@ The headline claims are weaker than they look. The memcapacitor efficiency figur
 ## Diffusion (2/5)
 
 The most serious diffusion barrier in these sources is internal to the architecture: distributed on-chip memory has itself become a dominant consumer of area and energy in digital neuromorphic processors, and the critical review concludes that without re-thinking memory organisation such processors may struggle to compete in edge and embedded applications, precisely the market usually claimed for them. Beneath that sits device variability, which prevents reliable parallel programming of memristor crossbars until it is engineered away composition by composition, and switching mechanisms that are still being reconstructed from atomistic simulation.
-
-Integration friction is documented rather than assumed: IO pad and pad-ring design, bonding strategy and early I/O planning affect power, yield and redesign risk in low-power neuromorphic chips, and DarwinWafer needed a bespoke interposer-bump planner plus warpage-tolerant, pogo-pin demountable assembly to work at all. Training is a further barrier that only some platforms address: the transmission-line metamaterial work derives a physical in-situ backpropagation via the adjoint method precisely because gradient computation does not come free in analog hardware. The sources contain no evidence on software stacks, compilers or user adoption, which is itself a reason to keep this score low.
 
 **TLDR: Variability, unresolved switching physics, and an on-chip memory bottleneck that reproduces the problem neuromorphic was meant to solve.**
 

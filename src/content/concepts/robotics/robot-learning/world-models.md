@@ -40,7 +40,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 1
+sources_7d: 0
 sources_30d: 6
 recent_mentions:
 - slug: 2026-07-01-sensifai-memo-streaming-physical-ai
@@ -86,8 +86,6 @@ For robotics proper, the source set contains NSF awards dated 07/08/2026 that po
 **TLDR: Working systems exist in constrained physical domains; for robot control the sources show funded intent and documented brittleness, not demonstrated results.**
 
 ## Drivers (3/5)
-
-Demand: the welding awards are motivated by a national shortage of skilled welders and by jobs that are "hazardous, variable, and difficult to automate", with claimed benefits in throughput, weld quality, rework and material waste. Hospital robotics is driven by a different constraint, the need to keep surgical, dispensing and patient-care robots functioning under low or disrupted connectivity without exposing patient data. Both are labour and reliability pulls on physical automation rather than a demand for world models specifically, which is the honest reading. The broader macro framing of a bits-to-atoms deep-tech cycle driven by sovereignty, industrial policy, ageing demographics and labour shortage sits behind this **2026 06 Drumbeat Deep Tech Report**.
 
 **TLDR: Demand is real and labour-driven; supply-side push is agency research funding plus edge-inference work, not yet a product pipeline in these sources.**
 

@@ -59,33 +59,17 @@ Deposition is roughly 20-25% of the ~$140B 2024 wafer-fab-equipment market; Yole
 
 Concentration note: the front-end equipment market is an oligopoly. The "Big Five" (ASML, Applied, Lam, TEL, KLA) held nearly 70% of WFE in 2024 [3]. Within deposition, Applied Materials is the clear leader and the top three or four vendors capture the overwhelming majority of spend.
 
-## Materials & consumables
-This step consumes a continuous stream of precursors and process gases: silane and dichlorosilane (oxide/nitride), TEOS (oxide), WF6 (tungsten), ammonia, plus the carrier and clean gases (NF3 chamber clean). It also burns hardware kits, showerheads, heaters and quartz that are replaced on a cycle. Silicon-precursor supply alone is ~$3.2B in 2025 at ~7.5% CAGR; the broader CVD/ALD precursor and specialty-gas pool is larger and faster (some sources ~10%+ CAGR) [5]. Suppliers: Merck/Versum, Entegris, Air Liquide Electronics, Linde, SK Materials, DuPont, Taiyo Nippon Sanso. This is recurring revenue: precursors and gases ship every day a fab runs, decoupled from the lumpy tool capex cycle, which is exactly why the materials layer is structurally attractive even when equipment orders soften [5].
-
 ## Volumes, revenue, profitability
 There is no clean "unit volume" for deposition; the meaningful unit is wafer starts times film steps per wafer, and that product is rising as nodes add layers. Revenue pool: ~$14B/yr equipment + a multi-billion precursor/gas stream tied to the same installed base [1][5]. Margins: Applied Materials ran ~47.5% GAAP gross and ~29% operating in FY2024, with its Semiconductor Systems segment at ~35% operating margin [4]. Lam Research sits in a similar band. The equipment vendors earn the highest margin (proprietary tools, switching cost, service attach); precursor/gas suppliers earn lower gross margins but durable, recurring volume. The fab operator captures the downstream value; the tool and materials suppliers capture the picks-and-shovels margin.
 
 ## Competitive landscape & value capture
 The moat is process know-how and qualification lock-in: a deposition recipe is co-developed with the foundry over years and is painful to re-qualify, so incumbents hold position node over node. Value accrues to (1) the handful of tool OEMs, with Applied Materials dominant, and (2) the recurring precursor/gas oligopoly (Merck, Entegris, Air Liquide, Linde). Europe is present but not dominant: ASML is litho not deposition; relevant EU deposition names are AIXTRON (MOCVD, Germany), Oxford Instruments Plasma Technology (specialty PECVD/R&D, UK) and SPTS (KLA, UK). These are mostly listed or owned, not seed.
 
-## Market drivers, constraints & trends
-Net read: steady-to-accelerating served market, but the equipment half rides a memory-led capex cycle while the precursor/gas half is the smoother compounder.
-
 - **Drivers**
  - Deposition intensity outgrows wafer count. The move to sub-5nm and gate-all-around adds roughly 30-50% more CVD/ALD process steps per wafer vs 7nm, so tool and precursor consumption rise even when output is flat [9]. TSMC put GAA into production at N2 in 2025; GAA plus backside power at A16 adds more conformal film steps again [10].
  - 3D NAND vertical scaling. Stacks now exceed 300 layers, with ~1,000 layers projected by 2030; every added layer is more conformal dielectric and metal deposition [10][11].
  - AI/memory capex. SEMI sees WFE up ~9% in 2026 and ~7% in 2027 to a record ~$156B in equipment sales by 2027, with NAND WFE +35% and DRAM/HBM +18% in 2026 pulling deposition-heavy memory spend [12].
  - Advanced packaging. Hybrid-bonding equipment is forecast at ~21% CAGR 2025-2030; the SiCN/oxide bonding dielectric and TSV passivation are PECVD/CVD steps, opening a packaging-side demand pool on top of front-end [13].
-
-- **Constraints**
- - China digestion and localisation. China is the largest WFE buyer but stops expanding from 2026, and a domestic-tool mandate is sidelining foreign suppliers; Piotech (China thin-film deposition) roughly doubled nine-month 2025 revenue to ~$617M, eroding the served pool the incumbents can address [14].
- - Cyclicality and capex lumpiness. Equipment orders swing with the memory cycle (NAND WFE itself moved from deep cuts to +35%), so the tool line is volatile even as the secular trend rises [12].
- - Step-count erosion from new metals. Molybdenum replaces tungsten in NAND wordlines and needs no barrier/adhesion layer, removing process steps; lower step count per layer is a mild headwind to CVD intensity even as it triggers a tool refresh [13].
-
-- **Trends & inflections to watch**
- - Tungsten-to-molybdenum metallisation. Lam's ALTUS Halo Mo-ALD (Feb 2025) and Applied's Selectra Mo etch mark the shift. Tripwire: Mo wordlines qualified into high-volume 1,000-layer NAND by ~2027-28 confirms a metal-deposition refresh cycle [13].
- - Packaging deposition as a second engine. Tripwire: hybrid-bonding lines reaching sub-1um pitch in HVM at a leading memory/foundry maker would re-rate the PECVD packaging pool [13].
- - China share crossover. Tripwire: a foreign deposition vendor reporting China revenue below ~25% of total (from ~35-40%) would confirm localisation is permanently shrinking the addressable pool [14].
 
 ## Connections
 [Semiconductor Materials & Equipment](/manufacturing/equipment-processes/semiconductor-materials-equipment/) · **Deposition Materials Process Market** · [Annealing / rapid thermal processing (process step)](/semiconductor-process-flow/frontend/flow-annealing-rtp/) · [Atomic layer deposition (ALD) (process step)](/semiconductor-process-flow/frontend/flow-ald-atomic-layer-deposition/) · [Plasma / dry etch (process step)](/semiconductor-process-flow/frontend/flow-plasma-dry-etch/)

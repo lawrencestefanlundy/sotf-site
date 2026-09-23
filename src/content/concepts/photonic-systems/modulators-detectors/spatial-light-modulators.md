@@ -49,7 +49,7 @@ tags:
 - slm
 - photonic-compute
 last_reorg_date: '2026-05-13'
-mention_count: 57
+mention_count: 58
 scorecard:
   viability: 4
   drivers: 4
@@ -60,7 +60,7 @@ scorecard:
   verdict: Underrated
 scorecard_status: draft
 sources_7d: 2
-sources_30d: 9
+sources_30d: 10
 recent_mentions:
 - slug: 2026-07-07-the-asml-killer
   title: The ASML Killer?
@@ -172,19 +172,13 @@ A further upside is optical computing, where a phase-only plane is not merely a 
 
 For anything that can be done with visible or near-infrared LCoS and DMD hardware, the timing is now. The 2024 LCoS multi-foci result, the >10 kHz DMD line-illumination lithography, the 670 m single-photon 3D imaging and the 0.5 cm^-1 single-pixel mid-IR spectrometer are all completed experiments using commercially available modulators.
 
-The step change is later. The mid-infrared metasurface SLM was reported in November 2025 as a first device with a scaling architecture, not a scaled array, and the decoupled space-time architecture was reported in May 2026 with a threefold pitch gain. Foundry compatibility shortens the path but does not remove the usual multi-year cycle from first device to qualified array with drivers, packaging and endurance data. Treat high-pixel-count, high-bandwidth SLMs and useful mid-IR modulators as a 2 to 5 year proposition.
-
 **TLDR: Incumbent LCoS and DMD devices are delivering load-bearing results today; the architectures that lift the speed-complexity ceiling are two to five years from usable form.**
 
 ## Overrated or underrated? Underrated
 
-SLMs are underrated in the specific sense that they are structurally invisible. Read the supplied tier-1 results and a striking share of them are, mechanically, modulator results: the nanolithography throughput records, the long-range single-photon 3D reconstruction, the sub-photon mid-IR spectroscopy, the tunable optical differentiator, the cheap infrared vision, the tweezer lattice geometry. Attention accrues to the application, and the component that made it possible is named once in the methods. That mispricing matters if the foundry-compatible metasurface route holds, because it would move SLMs from a specialist optics product into a silicon photonics product line with a much larger addressable set of wavelengths and volumes.
-
 Two cautions against over-enthusiasm. First, the fundamental compromise between refresh rate, pixel count and field of view is real and acknowledged by the people trying to break it, so anyone underwriting holographic display or fast large-aperture beam steering on current hardware is underwriting a physical constraint, not a roadmap. Second, passive deep-learning-designed diffractive optics are a genuine substitute wherever the required transformation is fixed or can be addressed by wavelength instead of by pixel, and they achieved 625 addressable channels with no electronic control at all. The SLM's value concentrates in applications that truly need per-frame reprogrammability.
 
 ## Prediction
-
-By 31 December 2028, at least one group other than the originating team will report a 2D electrically addressed mid-infrared metasurface SLM with more than 1,000 independently tunable pixels, following the foundry-plus-BEOL crossbar route reported in November 2025.
 
 ## Evidence base
 

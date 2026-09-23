@@ -24,9 +24,9 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-mention_count: 99
-sources_7d: 1
-sources_30d: 13
+mention_count: 101
+sources_7d: 3
+sources_30d: 15
 recent_mentions:
 - slug: 2026-06-04-q-memory-site
   title: Q-Memory — company website (q-memory.tech)

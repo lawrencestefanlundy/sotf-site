@@ -24,9 +24,9 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 358
-sources_7d: 9
-sources_30d: 24
+mention_count: 363
+sources_7d: 10
+sources_30d: 27
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
@@ -104,8 +104,6 @@ Other roles face different barriers of the same kind. Heterostructure performanc
 
 ## Impact (3/5)
 
-The breadth is real. Within a single fortnight of literature, graphene appears as the support that makes atomically dispersed dual-atom catalysts tunable for both hydrogen and oxygen evolution, as the electro-optic layer that could shrink cryogenic phase modulators for photonic quantum computing while keeping insertion loss low, as the host for flat-band superconductivity whose coherence length is set by quantum geometry, as a channel material with a size-dependent band gap for ultra-miniaturised transistors, and as a drag-reducing surface for objects in rarefied atmosphere. A substrate that is simultaneously a catalyst support, an optical switch, a correlated-electron playground and a mechanical additive has unusually high option value.
-
 What is missing is any figure that converts a physical effect into system-level value: no efficiency gain for an electrolyser, no drag coefficient reduction for a satellite orbit lifetime, no energy per bit for a modulator, no storage capacity in weight per cent for the magnesium composite. The hydrogen storage result actually shows a limit to the mechanism: the desorption activation energy stays at 145 plus or minus 2 kJ/mol regardless of grain or interphase boundaries, so the improvement comes from the frequency factor rather than from lowering the thermodynamic barrier. A 3 is the ceiling this evidence supports.
 
 **TLDR: Broad optionality across catalysis, photonics, quantum devices and storage, but no source quantifies value against an incumbent system.**
@@ -119,8 +117,6 @@ For everything else the sources provide no roadmap, no pilot line, no scale-up p
 **TLDR: Already routine as a laboratory substrate; the sources give no basis for dating any of the application-level claims.**
 
 ## Overrated or underrated? Too early to say
-
-Judged against this evidence base, graphene in 2026 is best understood as infrastructure for materials science rather than as a product. Its most defensible current value is that it makes other things measurable and tunable: a coordination scaffold for single- and dual-atom catalysts, a template for epitaxial growth of transition metal dichalcogenides, and a stack whose twist angle converts an abstract quantum geometry into a measurable transport signature. On that reading it is underrated, because scaffolding rarely gets credit.
 
 As the wonder material that replaces silicon channels, the picture in these sources is unchanged from the long-standing one and is not encouraging: the gap problem forces you into sub-10 nm ribbons, and the fabrication route offered to get there is scanning-probe direct write. Because the source set contains no commercial, cost or capacity information whatsoever, a verdict of overrated or fairly rated cannot be earned here. The honest call is that these 18 papers can characterise the physics but cannot adjudicate the hype.
 

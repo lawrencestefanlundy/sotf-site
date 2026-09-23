@@ -17,10 +17,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 15
+mention_count: 16
 last_reorg_date: '2026-05-14'
-sources_7d: 0
-sources_30d: 5
+sources_7d: 1
+sources_30d: 6
 recent_mentions:
 - slug: 2025-11-06-successful-funding-round-for-empa-eth-spin-off-57-million-to
   title: 'Successful funding round for Empa-ETH spin-off: $ 5.7 million to industrialize ultra-thin solid-state batteries - admin.ch'
@@ -41,8 +41,6 @@ neighbors: []
 Solid-state batteries (SSBs) replace liquid/gel electrolyte with a solid ionic conductor — ceramic (oxide: LLZO, NASICON; sulfide: LGPS, argyrodite), polymer, or halide. Li⁺ transport occurs through lattice defects and grain boundaries rather than solvation shells. Key figures of merit: ionic conductivity (sulfides reach ~10⁻² S/cm at RT, approaching liquid electrolyte ~10⁻² S/cm), electrochemical stability window, interfacial resistance (typically 10–1000 Ω·cm² — the dominant unsolved problem), and critical current density before Li dendrite penetration. Energy density targets: >400 Wh/kg at cell level. State of art: Toyota, QuantumScape, Solid Power in late-stage prototype; sulfide systems lead on conductivity, oxides on stability.
 
 ## Competitive landscape
-
-Liquid electrolyte Li-ion (LFP, NMC) remains the incumbent — mature supply chain, $100–120/kWh at pack level, proven cycle life. Li-metal with liquid electrolyte (Sion Power, SES AI) offers an intermediate step: higher energy density without solid electrolyte manufacturing complexity. Na-ion competes at low-cost stationary. Key differentiation axes:
 
 ## Companies using
 

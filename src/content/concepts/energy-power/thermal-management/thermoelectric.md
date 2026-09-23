@@ -21,7 +21,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 67
+mention_count: 69
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 4
@@ -32,8 +32,8 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 4
-sources_30d: 8
+sources_7d: 6
+sources_30d: 10
 recent_mentions:
 - slug: 2026-06-22-tim-approaches-full-sweep
   title: TIM approaches — exhaustive in-market + R&D sweep (vendors, classes, startups)
@@ -54,8 +54,6 @@ neighbors: []
 ## Summary
 
 A thermoelectric material generates a voltage when its two ends are held at different temperatures (the Seebeck effect) and pumps heat when a current is passed through it (the Peltier effect). Performance is captured by the dimensionless figure of merit zT, which rises with the Seebeck coefficient and electrical conductivity and falls with thermal conductivity. These three quantities are coupled in most solids, so materials work consists of decoupling them: engineering band structures with high degeneracy or unusual dispersion to raise the power factor, while scattering phonons to suppress the lattice thermal conductivity. Both levers appear repeatedly in the current literature. High-entropy engineering of Fe2VAl full Heuslers, combining heavy-element doping with controlled off-stoichiometry to create substitutional disorder on every lattice site, yields a lattice thermal conductivity of about 2.3 W m-1 K-1, among the lowest reported for that family, and an average zT of roughly 0.3 between 300 and 500 K. On the band-structure side, layered Zintl compounds XZnBi (X = Rb, Cs) are predicted to combine six degenerate hole pockets with a quasi-two-dimensional pudding-mould conduction band that mixes heavy and light electron masses.
-
-The workhorse chemistry remains bismuth telluride. Recent work tunes n-type Bi2Te3 through selenium doping and annealing to control carrier concentration and suppress the bipolar effect over a wide temperature range, and formulates Bi2Te3/Sb2Te3 nanoparticles into PMMA-based hybrid inks with a dithiol binder, with 80 per cent nanoparticle loading giving the best performance and finite-element modelling used to set the p- and n-part area ratio. Alongside these, a large volume of first-principles screening proposes new candidates: the lead-free double perovskites beta2SnGeX6 with bandgaps tunable from 1.44 down to 0.64 eV by halogen substitution, and the 2D monolayer CrSi2N4, for which Boltzmann transport calculations predict a room-temperature n-type power factor of 3.5 mW m-1 K-2. Cheaper computational routes are emerging in parallel, including deformation-potential and machine-learning interpolation schemes that reproduce electron-phonon transport from roughly 10 to 100 first-principles matrix elements per band and phonon mode, and a substitutional atomic distance model for alloy lattice thermal conductivity validated against SiGe and InGaAs.
 
 A structurally different branch uses transverse geometries, where the electric field appears perpendicular to the heat flow. Spin caloritronics, reviewed as now transitioning from fundamental condensed-matter physics towards materials science and engineering, covers the spin Seebeck effect and the anomalous Nernst effect. Transverse devices avoid the series-connected pillar architecture of conventional modules, but have been limited by spin and magnon diffusion lengths to thin films; nanostructured bulk composites of Pt-coated yttrium iron garnet powders, made by dynamic powder sputtering and low-temperature sintering, have now shown isotropic bulk-scale spin Seebeck signals with power analysis pointing to volumetric rather than diffusion-limited scaling. Anomalous Nernst materials are being engineered by composition: Gd-Co-Pt ternary films reach a heat-flux sensitivity of about 0.24 micrometres per amp, with Pt driving a sign reversal of the Nernst coefficient, and the kagome magnet YCo3 shows a bipolar anomalous Nernst effect driven by a topological Lifshitz transition below its 225 K Curie temperature, relevant to thermopiles that need both signs from one material.
 

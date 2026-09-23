@@ -47,9 +47,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 124
-sources_7d: 1
-sources_30d: 7
+mention_count: 126
+sources_7d: 2
+sources_30d: 8
 recent_mentions:
 - slug: 2026-09-07-anysilicon-direct-rf-sampling-chiplets
   title: An introduction to direct RF sampling in a world evolving towards chiplets, part 1 (AnySilicon)
@@ -91,8 +91,6 @@ neighbors: []
 
 A chiplet is a die that is deliberately built smaller than the system it belongs to, then joined to other dies inside one package via an interposer (2.5D), by stacking (3D), or on large-area substrates approaching panel or wafer scale. The motivation is arithmetic: defect density means yield falls with die area, and each new node adds cost and complexity, so partitioning a design into smaller dies and reassembling them in the package recovers yield while allowing each piece to be built on the node that suits it. Sources describing the move from 3 nm toward sub-nanometre nodes and from FinFETs to GAAFETs position 3D chiplet approaches explicitly as the response to falling yields and rising manufacturing complexity, and a carbon-aware design framework frames the same shift as an industry-wide transition to heterogeneous integration driven by the yield and cost limits of monolithic scaling.
 
-The second, arguably larger, motive is heterogeneity. Once dies are separable, they can be specialised. Proposed designs assign prefill and decode phases of LLM inference to different packages, one built from systolic-array chiplets with off-package memory and one from vector-unit arrays with in-package memory; decouple DRAM banks from logic into chiplets on separate process nodes joined by an interposer to build a processing-in-memory module; co-locate heterogeneous modules of a Mixture-of-Experts model on specialised chiplets in a 3.5D wafer-scale package; and amortise the non-recurring engineering cost of bespoke ASICs by reusing a curated ecosystem of chiplets. The same logic reappears outside AI: petabit-per-second internet routers built from chiplets, HBM and in-package optics, and modular superconducting quantum processors where chiplets are linked by long-range couplers.
-
 The parameters that decide the outcome are mostly not logic parameters. First, interconnect: electrical links between chiplets are the stated bottleneck, which is why photonic interposers, glass panel-scale switch fabrics and in-package optics recur across these sources. Second, interface overhead: ESD protection and inter-chiplet signalling circuitry has been identified as the constraint preventing chiplets from shrinking below roughly 100 mm2, and therefore limits how fine-grained and reusable the building blocks can be. Third, thermal and mechanical reliability: peak temperature and package warpage become first-order placement objectives once dozens of chiplets sit close together. Fourth, tooling and trust: design automation for these packages is incomplete, and multi-vendor plug-and-play integration on reconfigurable interposers creates an authentication problem that does not exist in a monolithic die.
 
 ## Viability (4/5)
@@ -106,8 +104,6 @@ The architectures built on it are less proven. DUET's 4x faster time-to-first-to
 ## Drivers (4/5)
 
 Supply: the stated driver is that monolithic scaling is running into yield and cost limits as processes move from 3 nm toward sub-nanometre and from FinFETs to GAAFETs, with chiplets presented as the mitigation. A second supply-side driver is packaging itself: advanced packaging now provides abundant interconnection resources for 2.5D/3D integration, which is what makes fine-grained partitioning worth attempting. A third is economic: chiplet reuse is explicitly framed as the way to amortise non-recurring engineering cost across bespoke designs.
-
-Demand: LLM inference dominates. The recurring argument is that decode is memory-bandwidth-bound with low operational intensity while prefill is compute-bound, so a homogeneous die cannot serve both, and that KV-cache growth with context length makes the mismatch worse. MoE sparsity adds communication and locality pressure that maps onto modular packages. Non-AI demand is thinner but present: automotive is named alongside AI as accelerating 2.5D adoption, and networking and quantum computing appear as further pulls.
 
 **TLDR: Supply side pushed by monolithic yield and node cost; demand side pulled by LLM memory bandwidth and, separately, automotive.**
 
@@ -129,8 +125,6 @@ The hardest barrier for the open-market version of chiplets is trust. Reconfigur
 
 ## Impact (4/5)
 
-The breadth in this source set is the argument. The same partitioning idea underwrites wafer-scale 3.5D MoE training packages, CXL-attached PIM memory modules, a petabit/sec router in a single package, panel-scale glass interposers of 500 mm x 500 mm or larger integrating commercial processor chiplets with HBM stacks, hybrid-bonded memory chiplets using IGZO FeFETs, and modular superconducting quantum processors linked over more than one centimetre with sub-100 ns gates and intrinsic errors below 1e-4.
-
 The value is best read as enabling rather than incremental: chiplets are the route by which systems escape single-die area and single-node constraints, and the claimed system-level gains (up to 57x efficiency over an H100 in one simulated photonic-chiplet design) only exist because heterogeneity is possible. It is not a 5 because the sources contain no economic or deployment measurement of that value, only architectural and simulated performance evidence.
 
 **TLDR: If the tooling and interconnect problems are solved, chiplets are the mechanism by which packages keep scaling past the reticle and the node, across AI, networking and quantum.**
@@ -138,8 +132,6 @@ The value is best read as enabling rather than incremental: chiplets are the rou
 ## Timing Now (0-2yr)
 
 The near-term band is justified by how the sources treat the baseline: AI and automotive demand is already accelerating 2.5D adoption with multiple tightly placed chiplets, and industry is described as transitioning to heterogeneous integration now. The active work in 2025-2026 is not proving chiplets work, it is placement, mapping, thermal analysis, security and yield tooling around them, which is what a technology in the adoption phase looks like.
-
-The more aggressive variants sit further out and the sources say why. Electronic-photonic chiplets lack a unified fabrication-aware design automation stack; panel-scale glass photonic interposers are explicitly envisioned rather than built; chiplet miniaturisation below 100 mm2 depends on future packaging technologies simplifying ESD and signalling; and modular fluxonium chiplet coupling is a proposal under realistic assumptions. Treat those as 5-10 year items.
 
 **TLDR: Coarse-grained 2.5D chiplet integration is being adopted now; photonic interposers, panel-scale substrates and sub-100 mm2 tiny chiplets are the later half of the story.**
 

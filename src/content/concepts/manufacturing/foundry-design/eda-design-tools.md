@@ -110,8 +110,6 @@ Two clocks are running. The architectural modelling and optimisation tools are a
 
 The generative side is at the stage where the field has just finished building its measuring instruments. VHDLSuite and HierSVA are both benchmark infrastructure published in June 2026, and the numbers those instruments return, notably 67.1% module compile rate and 36.2% formal core coverage, are the baseline against which progress will be measured. Historically, benchmarks of this kind precede rapid improvement, but closing a gap of that size and then earning sign-off trust is a multi-year process. Two to five years is the reasonable window for LLM-assisted RTL and assertion generation to appear as a standard assistive stage in production flows; full autonomy is not in view in these sources.
 
-**TLDR: Modelling and surrogate tools are usable now; LLM-generated RTL and verification collateral need another cycle of benchmark-driven improvement before they enter real flows.**
-
 ## Overrated or underrated? Fairly rated
 
 The field is being valued roughly correctly, but for the wrong reasons, and the attention is pointed at the weakest part. The loud story is LLMs writing RTL and verification properties, and that is exactly where the June 2026 evidence is thinnest: 67.1% compile rate, 70.2% of injected faults caught, 36.2% formal core coverage across twelve models, plus documented weaknesses in rule-based logical reasoning that require external tools to patch. Anyone underwriting a near-term replacement of verification engineers is reading a demo, not a result.

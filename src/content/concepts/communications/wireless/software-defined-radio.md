@@ -27,8 +27,6 @@ Software-defined radio (SDR) replaces fixed-function analog RF front-ends with p
 
 ## Competitive landscape
 
-Fixed-function RF ASICs (cellular modems, Wi-Fi chipsets) dominate volume markets on cost and power; SDR wins where flexibility, multi-band, or rapid protocol iteration matters. Competing approaches include heterodyne architectures with switchable filter banks, direct-conversion radios with firmware-tunable front-ends, and photonic RF processing (electro-optic sampling) for >100 GHz spans. The relevant comparison:
-
 ## Companies using
 
 <!-- dataview block stripped for public site -->

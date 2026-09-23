@@ -30,7 +30,9 @@ sources:
 - '[[2023-04-04-learnings-from-a-deep-tech-horizon]]'
 - '[[2023-07-06-e07-decentralised-ai]]'
 - '[[2026-06-13-agentic-payments-value-capture]]'
+- '[[2026-09-21-amazon-blocks-meta-muse]]'
 - '[[2026-06-19-onchain-agent-volume-tracking]]'
+- '[[2026-09-22-coinbase-full-stack-agent-payments]]'
 - '[[2026-07-21-stablecoin-market-structure]]'
 - '[[2026-06-18-aeon-verification]]'
 - '[[2026-06-23-mastercard-ap4m-launch]]'
@@ -44,10 +46,18 @@ frontier:
 last_updated: 2026-07-21
 tags:
 - concept
-mention_count: 23
-sources_7d: 0
-sources_30d: 1
+mention_count: 25
+sources_7d: 2
+sources_30d: 3
 recent_mentions:
+- slug: 2026-09-22-coinbase-full-stack-agent-payments
+  title: Coinbase across the agent/stablecoin payments stack (agentic wallets, Payment APIs, x402, Bedrock AgentCore)
+  date: '2026-09-22'
+  kind: web
+- slug: 2026-09-21-amazon-blocks-meta-muse
+  title: Amazon blocks Meta's Muse AI shopping agent from its retail site
+  date: '2026-09-21'
+  kind: web
 - slug: 2026-08-06-4mica-base-mainnet-onchain-verification
   title: 4Mica's Base mainnet contract, verified on-chain
   date: '2026-08-06'
@@ -71,14 +81,6 @@ recent_mentions:
 - slug: 2026-06-19-onchain-agent-volume-tracking
   title: How to track on-chain agent-transaction volume (x402) — sources, method, baseline
   date: '2026-06-19'
-  kind: web
-- slug: 2026-06-18-aeon-verification
-  title: AEON product verification — facilitator + merchant network + atomic settlement, not a netting competitor
-  date: '2026-06-18'
-  kind: web
-- slug: 2026-06-13-agentic-payments-value-capture
-  title: Where durable value sits in the agent-payments stack (research synthesis)
-  date: '2026-06-13'
   kind: web
 neighbors:
 - slug: stablecoin-clearing

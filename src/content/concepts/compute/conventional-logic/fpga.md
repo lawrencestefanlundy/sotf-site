@@ -15,7 +15,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 243
+mention_count: 252
 frontier:
 - At what point does each of these workloads migrate to ASIC? eMamba reports its 10x/48.6x gains across FPGAs and ASICs jointly 2025 08 emamba edge acceleration, but gives no crossover volume or NRE analysis that would let one date the transition.
 - Do 2.5D and 3D die-stacked FPGAs actually relieve the capacity ceiling that forced multi-FPGA partitioning in EMiX, and at what inter-die latency penalty 2026 06 15 modeling optimizing and exploring multi die fpga routing arc?
@@ -35,8 +35,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 5
-sources_30d: 10
+sources_7d: 7
+sources_30d: 13
 recent_mentions:
 - slug: 2026-09-07-amd-versal-rf-hot-chips-2026
   title: AMD Versal RF Series at Hot Chips 2026 (ServeTheHome)
@@ -115,8 +115,6 @@ The frictions are technical. Single-device resource capacity is a hard ceiling f
 **TLDR: Already the default in its niches; the barriers are capacity ceilings, CAD runtime and design expertise, not acceptance.**
 
 ## Impact (4/5)
-
-The strongest impact case is quantum. Real-time decoding of quantum LDPC codes must happen inside the error-correction cycle, and 596 ns per round with three cores on one device is a direct statement about how the QEC layer scales in resource and power terms. Photonic measurement-based protocols need feedforward for scalability and universality, and the FPGA is what moves that from post-processing to real time. In each case the FPGA is not an optimisation, it is the enabling condition. The same holds for LHCb Upgrade II, where the motivation is improving real-time processing performance ahead of a luminosity increase.
 
 The qualifier is that FPGA impact is derivative. Its value tracks the value of the fields it serves, and in the highest-volume of those, edge AI inference, the sources themselves show the natural migration path to ASICs once the design stabilises **2025 08 Emamba Edge Acceleration**. Capturing the value is therefore concentrated in a small number of vendors and in application engineering, not in the substrate as a standalone market. The sources give no market sizing, so this is a judgement about technical criticality, not revenue.
 

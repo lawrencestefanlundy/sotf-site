@@ -16,7 +16,7 @@ tags:
 - technology
 mention_count: 8
 last_reorg_date: '2026-05-13'
-sources_7d: 2
+sources_7d: 1
 sources_30d: 3
 recent_mentions: []
 neighbors: []

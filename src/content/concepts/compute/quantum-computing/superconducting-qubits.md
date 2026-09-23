@@ -24,7 +24,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 99
+mention_count: 103
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 4
@@ -35,8 +35,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 7
-sources_30d: 23
+sources_7d: 11
+sources_30d: 27
 recent_mentions:
 - slug: 2026-06-12-hku-sic-cryogenic-neuromorphic-chip-10mk
   title: HKU world-first cryogenic neuromorphic chip at 10 mK (silicon carbide, impact-ionisation spiking)
@@ -76,8 +76,6 @@ Alongside computation, the same circuits are used as quantum simulators and as h
 
 There is no doubt the platform functions. Multi-qubit superconducting processors run digital algorithms: a nine-qubit processor with a multiply-connected Platonic lattice geometry was used to variationally prepare low-energy eigenstates of a transverse-field Ising model on an eight-qubit register and extract 3D Ising critical exponents. Optical control and multiplexed optical readout of two qubits has been demonstrated end to end with no measurable degradation of coherence and only a 0.19% reduction in single-qubit gate fidelity relative to standard microwave operation. Theory for readout errors now matches experiment closely: numerical models of measurement-induced state transitions in a fluxonium predicted eleven experimentally identified high-error regions across the flux range.
 
-What holds the score below 5 is that the 2026 literature reads as a catalogue of newly identified error channels rather than of closed ones. A TLS defect sitting in a transmon's tunnel barrier was found to couple resonantly to the readout resonator and shift its frequency enough to spoil the readout signal, a failure route distinct from ordinary decoherence. A single TLS in a tunable coupler was shown to couple to two spatially distant qubits and induce correlated, non-Markovian dynamics, with a reconstructed 1/f noise spectrum spanning more than ten orders of magnitude from 0.1 mHz to 1 MHz. Even the flagship protected design underperforms: the Fourier-engineered cos(2φ) transmon is limited at the flux symmetry point by 1/f flux noise arising from residual first-harmonic content. The sources contain no data on error-corrected logical qubits, so viability at fault-tolerant scale is not assessed here.
-
 **TLDR: The devices unambiguously work and produce publishable physics, but every layer of the stack still has open failure modes.**
 
 ## Drivers (unscored)
@@ -91,8 +89,6 @@ The only adjacent signal is technical rather than commercial. Scaling motivation
 ## Novelty (3/5)
 
 Superconducting qubits are a mature line of work, dating in their circuit-QED form to the early 2000s, and a review in this set describes them as leading candidates for scalable quantum devices. That is a positioning claim, not a measurement. The competing platforms are named in these sources, including trapped ions, ultracold atoms, Rydberg arrays and photonic systems for simulation and silicon spin qubits, trapped ions, neutral atoms and photonic qubits for energy, but no supplied excerpt gives a head-to-head figure of merit. So the margin of superiority cannot be quantified from this evidence.
-
-Where genuine novelty sits is in the sub-branches. Circuit engineering allows qubit spectra and interactions to be designed, which the alternatives cannot do so freely, and this is exploited both for protection and for simulation: an experimentally realised cos(2φ) qubit using interference to suppress odd harmonics of the effective potential, proposals to encode information in a transmon entangled with the spin of a trapped Andreev quasiparticle to escape the usual protection tradeoff, and altermagnetic Josephson junctions calculated to give tunable splitting, anharmonicity and gate times with good decoherence protection. All-optical I/O is the most consequential novelty in this set because it attacks a scaling constraint rather than a coherence one.
 
 **TLDR: Not a new idea, and the sources assert rather than measure its advantage over rival platforms.**
 
@@ -129,14 +125,6 @@ The strongest counterweight is that the field is now identifying limits with pre
 By 30 June 2028, no published demonstration will have operated a superconducting processor of more than ten qubits with control and readout delivered exclusively over optical links, the two-qubit multiplexed result of June 2026 remaining the reference point.
 
 ## Evidence base
-
-- 4 May 2026: review confirms superconducting qubits are Josephson-junction circuits acting as artificial atoms with anharmonic spectra, controlled via microwave cavities under circuit QED since the early 2000s, with transmon and fluxonium as the two dominant platforms.
-- 4 May 2026: an empirical scaling between microwave dissipation and superfluid density, spanning amorphous films to record-quality-factor resonators, 3D cavities and transmons, identifies an intrinsic bulk loss channel independent of surface dielectric loss and an associated coherence limit.
-- 5 May 2026: a TLS defect inside a transmon's tunnel barrier was shown to couple resonantly to the readout resonator, shifting its frequency and spoiling the readout signal.
-- 28 May 2026: a single coherent TLS in a tunable coupler was observed coupling to two spatially distant qubits, with a reconstructed 1/f frequency-noise spectrum spanning 0.1 mHz to 1 MHz and quantum process tomography showing correlated qubit dynamics.
-- 2 June 2026: long-lived radon-222 daughters plating out on device and packaging surfaces during fabrication and testing were identified as a decades-lived local alpha source whose impact scales with chip area.
-- 7 June 2026: a complete optical I/O architecture achieved frequency-multiplexed optical readout of two qubits with no measurable coherence degradation and a 0.19% reduction in optically driven single-qubit gate fidelity versus microwave control.
-- 16 June 2026: a nine-qubit superconducting processor with Platonic lattice connectivity was used to extract 3D Ising critical exponents from an eight-qubit encoded register via an extended variational eigensolver.
 
 ## Open questions
 

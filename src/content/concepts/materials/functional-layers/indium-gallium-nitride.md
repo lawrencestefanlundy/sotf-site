@@ -22,9 +22,9 @@ frontier:
 last_updated: 2026-06-02
 tags:
 - concept
-mention_count: 5
-sources_7d: 0
-sources_30d: 3
+mention_count: 6
+sources_7d: 1
+sources_30d: 4
 recent_mentions: []
 neighbors:
 - slug: gallium-nitride
@@ -48,8 +48,6 @@ neighbors:
   path: /manufacturing/equipment-processes/mocvd-mbe/
   macro: manufacturing
 ---
-Indium gallium nitride (In_xGa_{1-x}N, InGaN) is a III-nitride ternary alloy formed by incorporating indium into the gallium nitride lattice. The bandgap spans approximately 0.7 eV (pure InN) to 3.4 eV (pure GaN), covering the entire visible spectrum and extending into the near-IR — a uniquely wide tunable range that underpins its dominance in solid-state lighting and displays.
-
 InGaN quantum wells (thin InGaN layers sandwiched in GaN) are the active light-emitting region of virtually all commercial blue and green LEDs and laser diodes, which in turn are the basis of white LEDs (blue LED + phosphor). The blue InGaN LED — commercialised by Shuji Nakamura and colleagues in the 1990s, Nobel Prize in Physics 2014 — is the most important efficiency gain in lighting in a century. Red InGaN LEDs at high indium content (~40%) are an active research frontier, motivated by micro-LED display applications.
 
 The central materials challenge is indium inhomogeneity: indium atoms have a much larger atomic radius than gallium, and the two-element system phase-separates during MOCVD growth, creating composition fluctuations. These fluctuations are both a liability (non-uniform emission, efficiency droop at high carrier density) and — paradoxically — a partial efficiency asset at low carrier densities (carriers localise in indium-rich quantum dots that reduce non-radiative recombination). Understanding and controlling this mechanism is an active research area.

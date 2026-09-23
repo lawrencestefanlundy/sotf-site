@@ -37,8 +37,6 @@ neighbors:
 ---
 ## What it is
 
-Materials and substrates qualified for use in space — radiation-hardened, thermal-cycle-tolerant (±150°C+), vacuum-stable, manufactured to MIL-STD or NASA-STD reliability bars. Historically a niche defence/aerospace category dominated by US incumbents. Now becoming larger because:
-
 1. Cost-down on launch (SpaceX) opens commercial space.
 2. Lunar landers + space industrialisation create demand for surface hardware.
 3. Defence policy (CHIPS Act, EU sovereignty programs) funds onshoring.

@@ -18,7 +18,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - material
-mention_count: 37
+mention_count: 39
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 3
@@ -29,8 +29,8 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 2
-sources_30d: 11
+sources_7d: 3
+sources_30d: 13
 recent_mentions: []
 neighbors: []
 ---
@@ -81,8 +81,6 @@ The photovoltaic case caps its own upside at 63.4% under full concentration for 
 ## Timing Later (5-10yr)
 
 The logic case has only just cleared the width-scaling question, at 30 to 40 nm and single champion devices, and the sources contain no wafer-scale uniformity, contact resistance or yield data. Insertion into a production node therefore sits beyond the five-year horizon on this evidence. Photonic integration on Si3N4 and etched TMD nanophotonic structures could produce usable components sooner, since both are demonstrated and tolerate flake-scale material.
-
-The valleytronic and orbitronic strands are earlier still. They are dominated by DFT predictions published in mid-2026 with no corresponding measurements in this set, and cold-atom quantum simulation of TMD-like excitons is being proposed as a way to study the physics at all. Treat those as ten-year-plus, if ever.
 
 **TLDR: Photonic and metrology uses are near-term; a TMD logic channel is a next-decade decision.**
 

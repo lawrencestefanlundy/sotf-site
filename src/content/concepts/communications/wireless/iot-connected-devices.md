@@ -107,8 +107,6 @@ On the device side, the impact is in categories that were previously blocked by 
 
 ## Timing Soon (2-5yr)
 
-The component layer is effectively available. Silicon has been fabricated and measured, MCU-class fusion and learning run on real boards under 100 mW, and hardware power management has demonstrated 452 nA idle. Products limited only by energy per inference should absorb these within a normal design cycle. The one named clinical gap, speech separation at 16.0 ms against a 10 ms threshold, is attributed to data movement and on-chip parameter caching rather than compute throughput, which is a tractable engineering target rather than a research one.
-
 The sensing-reuse layer is slower. LoRa passive ISAC is at the feasibility stage, demonstrated with laboratory software-defined radios and focused on Doppler-based target separation. Sub-THz presence detection has an unresolved environmental-change confound. City-scale DAS depends on on-chip short-range DAS availability, which the analysis assumes rather than demonstrates. Aerial radio mapping is at the dataset-and-foundation-model stage. Two to five years is the reasonable band for these reaching operational service.
 
 **TLDR: Node-level energy and on-device learning results are ready now; infrastructure-scale sensing reuse needs coverage build-out and false-positive work.**

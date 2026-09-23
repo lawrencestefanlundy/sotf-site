@@ -75,11 +75,6 @@ Net read: structurally accelerating. Clean is the one step whose count rises mec
  - GAA nanosheets need a brand-new selective wet/isotropic etch (SiGe-vs-Si removal to release channels), a net-new recipe family designed into single-wafer tools, with the etch-cleaning sub-segment forecast as the fastest grower at ~14.3% to 2032 [8][7].
  - AI / advanced packaging demand: hybrid bonding requires ISO Class 3 front-end-grade cleanliness where a single 1um particle kills a bond, pulling fab-class wet clean into packaging; hybrid-bonding revenue alone is projected from EUR 36M (2023) to EUR 476M (2026) [9], and ACM Research grew 40% to USD 782M on AI and advanced-packaging clean demand [10].
 
-- **Constraints**
- - PFAS regulation: ECHA's final REACH consultation opened 26 March 2026 with a Commission decision expected 2027; semiconductor fluorinated surfactants and etch chemistries sit in scope with time-limited derogations, raising reformulation cost and supply risk on incumbent chemistries [11].
- - Cyclicality and capex concentration: the tool half rides the WFE cycle, and Asia-Pacific is ~72% of demand with China localisation (ACM, NAURA, Kingsemi) compressing merchant share for SCREEN/TEL inside China [10].
- - Water and chemical intensity: ultra-pure water and high-purity acid consumption per wafer scale with step count, exposing the step to water-scarcity and HF-purity choke-point risk [11].
-
 - **Trends & inflections to watch**
  - Supercritical-CO2 drying is becoming standard to beat capillary pattern collapse on high-aspect-ratio 3D structures; this is a tailwind, not a substitution threat, since the wet-tool vendors sell the sCO2 dry module. Tripwire: a leading-edge fab specifying sCO2 dry as the default finish on a sub-2nm GAA or 1000-layer NAND line [12].
  - Selective-etch recipe wins decide vendor share for the GAA decade. Tripwire: a named single-wafer tool (e.g. SCREEN SU-3200-class) qualified into a foundry's 2nm GAA process of record for SiGe channel release [8].

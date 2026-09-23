@@ -70,9 +70,6 @@ This step's defining consumable is ABF dielectric film, plus copper foil/plating
 ## Volumes, revenue, profitability
 The revenue pool sits in the substrate itself: ~$16.6bn (2024) heading to ~$31bn (2030) for advanced IC substrates, of which FC-BGA for AI/HPC is the fast-growing core [1][6]. A single AI-accelerator substrate can carry 16-20+ build-up layers and cost orders of magnitude more than a commodity substrate, so dollar growth outruns unit growth. Margins differ sharply by layer: substrate makers (Unimicron, Ibiden, Shinko) run cyclical board-economics, mid-teens to ~20%+ operating margins in up-cycles on the highest-end FC-BGA; the ABF materials layer (Ajinomoto) earns a near-monopoly >50% operating margin [4][7]. Who earns the margin: the chemical monopoly (Ajinomoto) per-unit, the top substrate makers on capacity scarcity, and the equipment vendors on each capacity build.
 
-## Market drivers, constraints & trends
-Net read: accelerating into a multi-year up-cycle. ABF substrates re-entered shortage in H1 2026 and the served pool (substrate makers' capex plus per-unit ABF) is forecast to widen its supply gap through 2027-2028 [9][11].
-
 - **Drivers**
  - AI accelerator packages are climbing from 3+3 to 11+11 and toward 13+13 build-up layers, so substrate area and ABF volume per chip rise simultaneously, not linearly [9]. AI-packaging demand is forecast at ~30% annual growth over the next two years [12].
  - Capex is committing ahead of revenue: Ibiden is spending ~$3.3bn (JPY 500bn) over three years from FY2026, Unimicron and Kinsus have raised 2026 capex, and Morgan Stanley models a ~105% earnings CAGR for Unimicron 2025-2028 [11]. Each build pulls equipment spend (litho, plating, inspection).

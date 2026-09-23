@@ -74,9 +74,6 @@ The recurring spend is the precursor chemistry, plus quartzware, hot-zone parts,
 | ADEKA | Japan | top-5 | Hf precursor JV with Siltronic [5] |
 | SK Specialty / SK Materials | South Korea | top-5 | Top-5 combine for ~36% of ALD precursors [5] |
 
-## Volumes, revenue, profitability
-Thermal/oxidation/ALD tools sit inside the ~USD 110-120B/yr wafer-fab-equipment (WFE) market; the combined thermal-processing-plus-high-k-ALD tool revenue pool is on the order of USD 6-8B/yr, with consumable precursors adding ~USD 0.6-0.7B/yr of recurring spend on top. A leading-edge fab runs hundreds of oxidation/anneal/ALD passes across its tool fleet; GAA raises ALD cycles per wafer, so per-wafer dielectric value rises even as wafer counts hold. Margins favour the concentrated equipment incumbents: ASM and Kokusai run gross margins in the high-40s to ~50% and operating margins ~25-30% at cycle peak; precursor majors (Merck Electronics, Air Liquide, Entegris) run lower gross margins (~30-45%) but capture sticky, fab-qualified recurring revenue. The margin is earned by the duopoly toolmakers and the qualified-precursor oligopoly, not by the fabs.
-
 ## Competitive landscape & value capture
 The moat is qualification: a high-k stack is co-developed with the fab over years, and once a Kokusai batch-ALD or ASM single-wafer tool plus a specific Merck/Air Liquide precursor is qualified into a node, switching means re-qualifying the transistor. That locks in both the tool vendor and the precursor supplier and is why these are duopoly/oligopoly structures rather than fragmented markets. Value accrues to (1) ASM and Kokusai on tools and (2) Merck, Air Liquide, Entegris, ADEKA on consumables, with a structural chokepoint at hafnium raw supply. European players are unusually strong here: ASM (NL) and Merck/Air Liquide (DE/FR) are global leaders, the rare flow step where Europe captures core value rather than a fragment.
 

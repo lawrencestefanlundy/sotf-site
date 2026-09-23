@@ -69,8 +69,6 @@ The scaling wall is the core investment signal. As logic migrates to 22 nm and b
 
 CMOS-compatibility and BEOL integration are the killer feature requirements: an eNVM that demands a separate mask or exotic front-end chemistry cannot be economically embedded. [Ferroelectric HfO2](/materials/functional-layers/ferroelectric-hfo2/) is significant here because HfO₂ is already a gate-dielectric material in sub-28 nm nodes — FeRAM and FeFET inherit that integration path at zero added process complexity.
 
-**Ememory Technology** licenses embedded OTP/MTP and has the broadest foundry coverage for legacy nodes. **Antaios** targets MRAM-based eNVM. The **Ferroelectric Memory Share** thesis models HfO₂-based FeFET capturing ≥5% of embedded NV units by 2030. The **Emerging Nvm** theme maps which NVM wins which socket across automotive, edge-AI, and IoT.
-
 ## Frontier
 
 - Which NVM technology — MRAM, FeRAM/FeFET, or RRAM — takes embedded-flash's socket below 22 nm, and which foundry qualification comes first (TSMC eMRAM, GF FeRAM, or a fabless IP licensor)?

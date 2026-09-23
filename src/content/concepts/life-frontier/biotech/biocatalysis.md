@@ -44,9 +44,4 @@ For anyone selling into this field, the distinction between the enzyme market an
 
 ## Frontier (open questions)
 
-- Does in situ whole-cell melanin deposition meet textile industry specifications for colour fastness, shade reproducibility across batches, and fabric strength after treatment?
-- What are the cost per kilogram and cycle time of single-step whole-cell dyeing versus incumbent synthetic dyeing, including cell removal, biosafety containment and effluent handling for recombinant hosts?
-- Which enzyme classes beyond carbohydrases are growing fastest in unit volume, and does the 6.2 to 7.4% CAGR consensus hold if engineered enzymes displace chemical steps in higher-value synthesis?
-- How large is the addressable market for enzyme-screening and discovery instrumentation, as distinct from enzyme sales, and what fraction of enzyme-engineering R&D spend does it capture?
-
 *Synthesised 2026-08-31 from 2 KB sources by the resynth pipeline; citations are KB source slugs.*

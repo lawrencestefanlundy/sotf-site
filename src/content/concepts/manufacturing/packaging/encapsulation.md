@@ -17,7 +17,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 36
+mention_count: 38
 scorecard:
   viability: 4
   drivers: 3
@@ -32,8 +32,8 @@ frontier:
 - What fraction of encapsulated devices meet spec? None of the sources reports yield, and the plasmonic-lattice result shows two nominally similar samples behaving differently 2026 05 15 optimizing strong light matter coupling of plasmonic lattice.
 - Does the ~0.4 A/W potential responsivity of the WSe2-encapsulated graphene detector materialise, and does the bandwidth hold beyond the 110 GHz setup limit 2026 06 05 c band 160 gbs 1 zero bias graphene photodetectors breaking ?
 - Do the 38-year projected implant lifetimes from accelerated aging survive real-time chronic testing, and what is the actual failure mode of the ceramic-polymer stack 2026 06 24 biorxiv a thin film transistor backplane for scalable ?
-sources_7d: 2
-sources_30d: 4
+sources_7d: 4
+sources_30d: 6
 recent_mentions:
 - slug: 2026-06-22-tim-approaches-full-sweep
   title: TIM approaches — exhaustive in-market + R&D sweep (vendors, classes, startups)
@@ -53,8 +53,6 @@ recent_mentions:
   kind: substack
 neighbors: []
 ---
-**Encapsulation is the practice of burying a fragile active layer inside a chemically inert, dielectrically controlled shell, and across 2026 work it has shifted from a housekeeping step that protects samples into a tunable design variable that sets device performance, from 160 Gb/s graphene photoreceivers to neural implants with projected 38-year lifetimes.**
-
 ## Summary
 
 Encapsulation in this context means enclosing an active material inside another material chosen for its inertness, transparency, flatness or dielectric constant. The archetype in two-dimensional electronics is hexagonal boron nitride (hBN): a monolayer semiconductor or graphene sheet is sandwiched between atomically flat hBN crystals, which removes charge and strain disorder from the substrate and shields the layer from air. The same idea appears in several other guises in the current literature: transition metal dichalcogenides used as the encapsulant instead of hBN, graphene caps grown over air-sensitive monolayers, molecules threaded into the hollow core of carbon or boron nitride nanotubes, particles trapped inside rolled-up MXene nanoscrolls, biomolecules held in lipid-coated water-in-oil droplets, and multilayer ceramic-polymer thin films deposited over flexible circuitry.

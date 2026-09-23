@@ -32,8 +32,6 @@ Z-pinch fusion drives current (tens of megaamperes, nanosecond pulses) axially t
 
 ## Competitive landscape
 
-Closest competitors: Commonwealth Fusion (tokamak, REBCO high-field, $2B+ raised), TAE Technologies (field-reversed configuration, beam-driven), Helion (FRC, pulsed), General Fusion (magnetized target, mechanical compression), and Xcimer/Marvel (inertial). NIF/laser ICF is a government-funded reference point, not a commercial threat. Z-pinch sits in a distinct niche: mechanically simple driver, no superconducting magnets, potentially low BoP cost.
-
 ## Companies using
 
 <!-- dataview block stripped for public site -->

@@ -35,9 +35,9 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 143
-sources_7d: 3
-sources_30d: 11
+mention_count: 146
+sources_7d: 6
+sources_30d: 14
 recent_mentions:
 - slug: 2026-07-21-robotically-assembled-electromagnetic-metamaterials-for-long
   title: Robotically Assembled Electromagnetic Metamaterials for Long-Range Space Situational Awareness
@@ -93,8 +93,6 @@ Separately, the same idea has been transplanted to radio frequencies as programm
 
 On the optical side the evidence is experimental and quantitative rather than promissory. A measured Q of 2180 with close to 99% absorption, robust across a wide geometric window, is a fabricated device. Erbium-doped Si3N4 metasurfaces show a measured photoluminescence enhancement of about 18 and a nearly tenfold lifetime reduction in agreement with simulation. Nonlinear wavefront shaping in thin-film lithium niobate is a demonstrated mode conversion, not a design study. Pressure tuning to 5 GPa with a 30 nm resonance shift is measured. The modelling stack has also matured: physically consistent dipolar and multipolar frameworks with passivity constraints, symmetry formalisms for multi-order gratings, and differentiable solvers that give exact geometric gradients.
 
-The caveats are specific. Q values in the hundreds to low thousands are laboratory measurements on small areas; none of the sources reports wafer-scale uniformity, yield, environmental stability or switching endurance for the tunable variants. The RF branch scores lower on its own: the waveguide-fed antenna, stacked and flexible metasurface papers present frameworks, full-wave simulations and estimation algorithms, and explicitly flag that accurate modelling of mutual coupling and inter-layer coupling remains challenging. A 4 reflects the optical hardware; taken alone the wireless work would be a 2.
-
 **TLDR: Optical metasurfaces are demonstrated in hardware with measured figures of merit; the RF programmable branch is still models and simulation.**
 
 ## Drivers (3/5)
@@ -107,15 +105,11 @@ Demand side is stated but not evidenced. The wireless papers invoke 6G and beyon
 
 ## Novelty (3/5)
 
-The comparisons in the sources are mostly against the metasurface literature itself, not against bulk optics. The all-metallic design is better than conventional plasmonic metasurfaces in that it escapes the usual dissipation-versus-Q trade-off, reaching a measured Q of 2180 with 99% absorption where plasmonic surfaces normally cannot have both. The low-Q sensing work claims sensitivity beyond what is typically reported for low-Q structures, but quantifies the improvement relative to literature norms rather than a single named benchmark. The anisotropy-driven quasi-BIC is better than geometric symmetry breaking in kind rather than degree: Q of about 181 is unremarkable, but the resonance becomes tunable by material choice while the geometry is fixed. Nonlinear wavefront control gains wavelength selectivity that geometric-phase approaches lack, which makes previously static nonlinear responses spectrally addressable.
-
 Two entries are more than incremental. Direct 3D printing of high-index phase-change chalcogenides lifts a real constraint, since existing implementations rely on 2D or quasi-3D patterning of coated films and therefore cannot prototype freeform geometry. On the wireless side, stacked surfaces are argued to enable richer wave manipulation than single-layer metasurfaces, and morphing surfaces to add spatial degrees of freedom unavailable to rigid arrays. Both remain unvalidated in hardware in these sources. Net: real but mostly intra-field advances, hence 3.
 
 **TLDR: The paradigm is mature; the genuine 2026 novelty is in control mechanisms and modelling, with baselines usually qualitative.**
 
 ## Diffusion (unscored)
-
-Every source here is a 2026 preprint reporting physics, device demonstration or modelling. There is no information on production volumes, yield, cost per die, supplier ecosystems, product integration, qualification or standardisation. The nearest things to adoption signals are indirect: Si3N4 metasurfaces are described as a route to integrating light sources into CMOS-compatible photonic devices, the pressure-tunable platform is aimed at deep-ocean and planetary environments, and the RF papers position programmable surfaces within 6G system architectures. None of these is evidence that anyone is buying, building at volume or standardising.
 
 What the sources do let one infer about barriers is narrow but useful. Fabrication tolerance is treated as a design objective, which implies it is a live obstacle: the all-metallic absorber's selling point is that near-perfect absorption survives a wide geometric window. For the wireless branch, the stated barriers are modelling fidelity under strong mutual coupling and the difficulty of acquiring channel state information when the surface has many programmable elements or deforms continuously. Those are necessary but nowhere near sufficient conditions for a diffusion score.
 
@@ -131,11 +125,7 @@ The constraint on the score is that value is asserted at the component level onl
 
 ## Timing Soon (2-5yr)
 
-The technology is not one clock. Passive resonant optical surfaces, absorbers, sensors and analogue image-processing elements already exist as measured devices with performance figures that would be usable if manufacturing held up. The gating question for those is process, not physics, and the sources are silent on process. Tunable platforms are one step behind: phase-change chalcogenide printing is a new fabrication capability with no cycling or device data reported, and 5 GPa pressure tuning is by construction a niche actuation route.
-
 The programmable RF branch is the latest. Its 2026 output is modelling frameworks, cascade optimisation and channel estimation algorithms validated numerically, tied to 6G timelines that these sources do not date. Treat that as a separate, later clock. The 2 to 5 year band applies to component-level optical function; anything requiring a programmable, reconfigurable or morphing surface in a deployed system is unsupported by the evidence here.
-
-**TLDR: Passive resonant components have measured performance now; tunable, nonlinear and programmable variants are earlier and the wireless branch has no hardware evidence yet.**
 
 ## Overrated or underrated? Fairly rated
 
@@ -148,13 +138,6 @@ The honest caveat is that the sources supplied cannot settle the commercial ques
 By June 2028, a peer-reviewed hardware measurement of a stacked intelligent metasurface will report over-the-air MIMO channel diagonalisation on a physical multi-layer prototype; absent that, the stacked-metasurface line remains a modelling exercise.
 
 ## Evidence base
-
-- An all-metallic plasmonic metasurface combining a Fabry-Perot BIC dark mode with a Rayleigh-anomaly lattice resonance measured Q of 2180 (2800 theoretical) with nearly 99% absorption, retained across pillar heights of 70 to 120 nm and radii of 210 to 280 nm (29 May 2026).
-- Er-implanted Si3N4 nanocylinder metasurfaces gave a room-temperature telecom-band photoluminescence enhancement of about 18 at a 390 nm radius, with a nearly tenfold lifetime reduction attributed to the Purcell effect, and a fourfold emission increase as implantation range moved from 20 to 80 nm (5 May 2026).
-- A quasi-BIC created by inserting a 20 nm anisotropic BeS layer into a symmetric TiO2 nanobar pair reached Q of about 181 for an index anisotropy of about 0.11, produced a transfer function with a notch at normal incidence and 180 degree phase reversal, and demonstrated edge detection on a USAF 1951 chart (2 June 2026).
-- Hydrostatic pressure up to 5 GPa shifted a silicon nitride Fabry-Perot resonance by up to 30 nm and reduced relative refractive index by up to 4%, enabling a reported first extreme-pressure-tunable polarisation-converting metasurface (15 May 2026).
-- A thin-film lithium niobate metasurface with two regions of distinct resonance-engineered phase response converted a Gaussian pump near 1100 nm into a first-order Hermite-Gaussian second-harmonic mode at 550 nm, adding wavelength selectivity that geometric-phase nonlinear metasurfaces lack (2 June 2026).
-- Differentiable T-matrix multiple-scattering tooling returning exact gradients for finite clusters and infinite metasurfaces was motivated explicitly by sub-10 nm fabrication expanding the design space by orders of magnitude (28 May 2026).
 
 ## Open questions
 

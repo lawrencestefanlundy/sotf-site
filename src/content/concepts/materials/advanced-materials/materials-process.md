@@ -114,15 +114,11 @@ The harder barriers are physical and epistemic. Autonomous synthesis applied to 
 
 The breadth is the argument. The same processing-science toolkit is being applied to fuel-cell and carbon-capture electrolytes, catalytically relevant oxides, sodium-ion anodes where a pore-architecture change targets the ICE versus capacity trade-off directly, superalloy grain boundaries, spintronic heterostructures and switchable adhesives. Anything that compresses the design-synthesise-characterise loop touches all of these.
 
-What the sources do not provide is a quantified downstream economic effect. The reported numbers are internal to the method: a 7-fold pathway-calculation speedup, nanoseconds instead of picoseconds of sampling, a 0.35 degree rocking-curve FWHM. There is one explicitly unaddressed impact channel, environmental performance, where the sources argue that no current generative or active-learning pipeline treats life cycle assessment as an in-loop constraint, blocked by data scarcity, atom-to-system scale gaps, and uncertainty in synthesis pathways. A 4 reflects breadth and demonstrated method-level gains, not a measured product-level return.
-
 **TLDR: Process control is upstream of most energy and electronics materials, so gains here propagate widely, though the sources quantify few end-application deltas.**
 
 ## Timing Now (0-2yr)
 
 Machine-learned interatomic potentials, pretrained models plugged into pathway searches, and diffusion-model structure solution are being published as working methods with benchmarks now. Closed-loop experimental protocol discovery has already produced experimentally validated waveform families on ferroelectric thin films, and six distinct self-driving-lab implementations are documented running on shared open software. That is a present capability, not a forecast.
-
-The timeline splits sharply after that. Autonomous molecular beam epitaxy is described as underdeveloped, with in-situ diagnostics that predict some quality metrics and not others, which suggests years of instrumentation work before growth chambers self-optimise. Integrating life cycle assessment into the design loop is framed as an unsolved framework problem. Mechanosynthetic atom-by-atom fabrication, demonstrated for single donation and abstraction events on a clean silicon build site, belongs in a distant band on this evidence.
 
 **TLDR: The simulation and closed-loop tooling is already in working use; the autonomous-synthesis and atom-by-atom ends are much further out.**
 

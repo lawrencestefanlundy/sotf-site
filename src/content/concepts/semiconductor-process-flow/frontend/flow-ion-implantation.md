@@ -61,8 +61,6 @@ The implanter equipment market is roughly **$3.5B in 2024** counting systems plu
 | Advanced Ion Beam Tech (AIBT) | Taiwan | low single digit | Niche / regional; China-facing |
 | Hitachi High-Tech | Japan | low single digit | Smaller line, specialty |
 
-Concentration note: this is effectively an AMAT-led duopoly with AMAT plus Axcelis taking ~80-85% of systems, and the top three above 90%. High barriers (beam-line physics, contamination control, 20+ year installed-base service relationships) keep new entrants out. Shares cited are 2024 estimates and move with the cycle.
-
 ## Materials & consumables
 
 Implant consumes specialty **dopant gases** (boron trifluoride BF3, phosphine PH3, arsine AsH3, plus diborane and germanium/carbon sources for advanced steps) and beam-line consumables (graphite/tungsten source parts, repellers, vacuum and abatement hardware). Dopant gases are a small, strategically vital slice of the ~$3B+ electronic specialty gas market; electronic-grade BF3 alone is roughly $200M in 2024 (mid-single-digit CAGR). Vendors:
@@ -98,11 +96,6 @@ Net read: a cyclical trough now, with two structural pulls (advanced-logic impla
  - Deep cyclicality is biting now: Axcelis FY25 revenue fell to ~$839M from ~$1.02B in 2024 as SiC and memory digested; SiC upstream utilisation sat near 50% with an overcapacity downturn running into 2027-2028 [12][14].
  - China is both a demand risk and a share threat: 2024 BIS export rules cut Axcelis revenue by ~$20-50M in FY25, and China's first domestic high-energy implanter (POWER-750H, Jan 2026) targets exactly the mature power/IGBT lane where Western OEMs sell most units [15][12].
  - Extreme incumbency caps any new-entrant TAM: an AMAT-led duopoly (~80-85% of systems) plus a few gas majors leaves no room at the tool layer.
-
-- **Trends & inflections to watch**
- - GAA-to-CFET ramp adding implant steps. Tripwire: TSMC N2/A16 and Intel 18A volume ramp through 2026 disclosed as a step-up in implant tool buys per fab [10][11].
- - SiC cycle turn. Tripwire: SiC device-line utilisation back above ~80% and a fresh power-implanter order upcycle reported in 2027 [12].
- - Axcelis-Veeco close + China localisation. Tripwire: deal closes in 2026 with the >$5B combined TAM affirmed, against domestic Chinese power-implanter design-ins [13][15].
 
 ## Connections
 

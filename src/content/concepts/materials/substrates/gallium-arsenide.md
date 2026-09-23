@@ -24,9 +24,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 96
-sources_7d: 2
-sources_30d: 14
+mention_count: 98
+sources_7d: 4
+sources_30d: 16
 recent_mentions:
 - slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
   title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics

@@ -44,9 +44,6 @@ After the die is attached and wire-bonded (or flip-chip joined) onto its [Lead f
 - **Capillary / no-flow underfill** — for flip-chip, a liquid resin is wicked under the die to fill the solder-bump gap before or after molding, redistributing thermo-mechanical stress.
 - **Post-mold cure, marking, deflash/dejunk** before singulation.
 
-## Where it sits and why it matters
-Encapsulation is the reliability gate of the package. Almost every plastic IC in the world passes through it, so volumes are enormous and the materials are consumed every cycle. The step is also where advanced packaging gets hard: warpage, void-free fill over tall stacks, and stress on micro-bumps are dominated by the EMC formulation and the molding tool. That is why HBM and 2.5D/3D have pulled value toward a small set of compression-molding specialists.
-
 ## Equipment market
 Semiconductor molding (compression + transfer + fully-automatic) equipment is roughly **$1.2B in 2024**, growing at about **8.9% CAGR** toward ~$2.5B by 2033 [1]; the compression-molding sub-segment grows faster on advanced-packaging pull. This is a rough report-mill range; treat the compression-specific HBM pull as the real driver.
 

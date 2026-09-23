@@ -154,11 +154,4 @@ Both target the same workload class — **sampling-heavy AI** (diffusion models,
 
 ## Frontier (open questions)
 
-- When does the **first independent benchmark** of a thermodynamic chip running a real production workload publish?
-- Does the 1000x (Normal) / 10,000x (Extropic) **energy-efficiency claim survive peer review** on a non-cherry-picked workload?
-- What is the **programming model**? Without a CUDA-equivalent, who actually writes software for these chips at scale? PyTorch backend, dedicated compiler, or domain-specific stack?
-- **Process node and foundry** for CN101 — when does this become public, and does it implicate Samsung Foundry given the Catalyst lead?
-- Does the **AR + diffusion mixed-architecture trend** in frontier labs erode the diffusion-model bull case before CN201 ships?
-- Two thermodynamic startups raising in 2026 — **category emergence or fashion cycle**?
-
 *Concept page rewritten 2026-05-27 against primary sources. Previous content was Sonnet-auto-mapped 2026-05-04 and contained inaccuracies (described Normal's units as "SPUs" — that's the older PCB prototype; the silicon architecture is Carnot with "s-units"; said neither company had "disclosed volume silicon" — outdated since CN101 tape-out August 2025).*

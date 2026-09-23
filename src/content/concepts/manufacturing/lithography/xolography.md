@@ -58,8 +58,6 @@ neighbors: []
 ---
 ## Physics / mechanism
 
-Xolography is volumetric additive manufacturing using two intersecting light beams of distinct wavelengths in a dual-photoinitiator photopolymer — polymerization happens only at the intersection, enabling layer-free 3D printing of objects (no staircase artefacts). Commercialized by Xolo (Berlin, founded ex-Karpathy lab, Stephan Kuehr previous at 3YOURMIND, $30M raised). Optical applications include microoptics, microlens arrays, freeform macroscopic optics, contact/intraocular lenses. Surface quality is optical-grade as-printed (no polishing). The technique is polymer-bound, sharing the same material-class question as 2PP for reliability-qualified photonics: cheap and fast vs. uncertain Telcordia path. Adjacent work in zirconia and SiOC ceramic xolography — but ceramic processing is years from production.
-
 ## Competitive landscape
 
 *Adjacent material classes / techniques.*
@@ -84,11 +82,4 @@ Xolography is volumetric additive manufacturing using two intersecting light bea
 
 *Sourced 2026-05-02. See `sources/web/` for full citations.*
 
-Xolography is volumetric additive manufacturing using two intersecting light beams of distinct wavelengths in a dual-photoinitiator photopolymer — polymerization happens only at the intersection, enabling layer-free 3D printing of objects (no staircase artefacts). Commercialized by Xolo (Berlin, founded ex-Karpathy lab, Stephan Kuehr previous at 3YOURMIND, $30M raised). Optical applications include microoptics, microlens arrays, freeform macroscopic optics, contact/intraocular lenses. Surface quality is optical-grade as-printed (no polishing). The technique is polymer-bound, sharing the same material-class question as 2PP for reliability-qualified photonics: cheap and fast vs. uncertain Telcordia path. Adjacent work in zirconia and SiOC ceramic xolography — but ceramic processing is years from production.
-
 ## Further reading
-
-- [Xolo applications: optics](https://xolo3d.com/applications/optics/) — tier 6
-- [Xolography for rapid volumetric production (Adv. Materials 2025)](https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202503245) — tier 1
-- [Linear volumetric AM of zirconia via xolography (ScienceDirect)](https://www.sciencedirect.com/science/article/pii/S2666539524001196) — tier 1
-- [Continuous volumetric 3D printing in flow (Adv. Materials 2024)](https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adma.202306716) — tier 1

@@ -85,8 +85,6 @@ On the demand side the pull is specific and repeatedly stated: sensor nodes that
 
 The comparator for ambient harvesting is a primary battery with a finite service life, or mains wiring. Against a battery, the claim is elimination of replacement visits rather than higher performance, and the tyre project frames its ambition as extending battery life and potentially eliminating replacement, not as beating it on power. Within the field, several results are genuinely new mechanisms rather than tuning. Atomic chirality engineering changes piezoelectric response at identical chemical composition, with right-handed D-Se nanowires reaching a higher effective coefficient than their enantiomers, which is a new degree of freedom beyond composition, defect, strain and orientation control. Removing the orthogonality constraint on the anomalous Nernst effect changes what device geometries are possible. Magnet-free nonreciprocal emission removes the external magnet from thermal-radiative devices.
 
-Quantified margins are more modest. Average zT of about 0.3 over 300-500 K in a cheap, non-toxic Fe2VAl system is competitive on cost and scalability rather than on efficiency. Pyroelectric conversion at 5.5% resolves an open question about first-order versus second-order transformations by finding an optimal transitional composition, which is a real design insight, but the absolute energy density of 1.6 mJ/cm3 per cycle remains small. The 12 dB harvesting gain from channel-aware beamforming is a system-level rather than device-level improvement. High-throughput screening of over 154,000 materials down to 32 with shift current above 100 µA/V2 and a maximum of 616 µA/V2 expands the candidate pool without yet delivering a device.
-
 **TLDR: The alternative is a coin cell or a wire, and the recent gains are real but incremental within each mechanism.**
 
 ## Diffusion (3/5)
@@ -101,13 +99,9 @@ The second barrier is manufacturing cost and area. The photovoltaic branch is th
 
 The value case in the sources is displacement of batteries and the maintenance and waste they generate, quantified only qualitatively: millions of US vehicles with four tyres each generating substantial electronic waste from periodic battery replacement, and billions of envisioned connected objects across infrastructure, logistics, healthcare and agriculture whose deployment economics depend on not being wired or serviced. If harvesting reliably supports those loads, it unlocks sensing deployments that are otherwise uneconomic, which is a large second-order impact even though the power itself is trivial.
 
-What the sources do not support is any claim about ambient harvesting contributing to energy supply. Reported device outputs are microamps and millijoules per cubic centimetre per cycle, and the most advanced thermoelectric modules sit at average zT around 0.3. Waste-heat recovery and radiative cooling harvesting are named as motivations for the low-grade heat and thermoradiative work, but no source quantifies recoverable energy at system or grid scale. The score reflects high value in the sensing niche and no demonstrated value beyond it.
-
 **TLDR: Substantial value in enabling maintenance-free sensing at scale; the sources give no basis for impact on energy supply.**
 
 ## Timing Now (0-2yr)
-
-For the photovoltaic branch the timing question is already settled: Dracula was founded in 2012, showed LAYER V2.0 at CES 2026 with a claimed 30% performance gain, and is scaling roll-to-roll capacity now, while HyET Solaris plans test production of flexible perovskite in mid-2026 and commercial output at end-2027 **2025 2026 European Next Gen Pv Cohort**. RF and backscatter harvesting has a real-time testbed operating with under 2 ms of airtime per excitation cycle, which is compatible with deployment timescales rather than research timescales. Thermoelectric and pyroelectric devices sit in the two to five year band, with module fabrication and reproducibility already demonstrated but efficiency and cost still under optimisation.
 
 The thermal-radiative and magnetothermoelectric branches are much later. InAs thermoradiative diodes are described as initial development, with reverse saturation currents 200 times the radiative limit; the magnet-free nonreciprocal emitters and the near-field photon Nernst effect exist as first-principles predictions. The NSF awards funding the mechanistic work are early-career and initiation grants dated 2026, so their outputs land at the end of the decade at the earliest.
 

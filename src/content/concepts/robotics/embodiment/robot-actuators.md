@@ -121,8 +121,6 @@ The non-electromagnetic classes score much lower and the sources do not let them
 
 ## Drivers (4/5)
 
-On demand, the pull is a labour-cost crossover rather than a technology preference: teleoperated deployments nearing sub-$30 per hour effective labour cost, with humanoid pricing pushed toward human-wage-equivalent levels <sup class="ref"><a href="https://newsletter.semianalysis.com/p/chinas-unitree-will-dominate-global" title="China's Unitree Will Dominate Global Robotics" rel="noopener">ref</a></sup>. Component analysts frame the opportunity as a $58.9bn humanoid market that "starts with actuators, sensors and batteries", with qualification barriers driving supply chain investment in mid-2026 <sup class="ref"><a href="https://ohsem.me/2026/07/the-us58-9-billion-humanoid-robot-opportunity-starts-with-actuators-sensors-and-batteries-says-datam-intelligence/" title="Humanoid Robot BOM Cost Analysis: Actuators, Sensors and Batteries Market Focus" rel="noopener">ref</a></sup>. The macro backdrop in the 2026 deep-tech literature is consistent: a bits-to-atoms cycle driven by deglobalisation and sovereignty concerns, industrial policy, ageing demographics and labour shortage **2026 06 Drumbeat Deep Tech Report**.
-
 On supply, two forces point in opposite directions. Vertical integration plus weeks-long iteration cycles in the Chinese supply chain is compressing cost fast and is credited with a structural cost advantage <sup class="ref"><a href="https://newsletter.semianalysis.com/p/chinas-unitree-will-dominate-global" title="China's Unitree Will Dominate Global Robotics" rel="noopener">ref</a></sup>. Against that, the magnet input is under state control: the April 2025 Chinese licensing regime on seven medium and heavy rare earths was never suspended, October 2025 added five more, exports of yttrium, dysprosium and terbium were running about 50% below baseline as of June 2026, and the truce on the October additions expires in November 2026 <sup class="ref"><a href="https://www.iea.org/commentaries/with-new-export-controls-on-critical-minerals-supply-concentration-risks-become-reality" title="China's rare-earth & magnet export controls (Apr 2025 onward) — IEA + trade-press synthesis" rel="noopener">ref</a></sup>. Carmakers cut utilisation or idled factories when volumes first fell. Any actuator scale-up outside China faces that constraint directly.
 
 **TLDR: Demand pull from humanoid labour substitution is explicit; supply is being reshaped by vertical integration and by rare-earth export licensing.**
@@ -180,11 +178,6 @@ By 31 December 2027 the lowest-priced generally available humanoid robot will st
 - 2026-07-22: foam bilayer actuators driven by ambient pressure change, needing no pump or separate power source, characterised for actuating force and built into deployable structures with negative pressure expansivity 
 
 ## Open questions
-
-- Does the actuator-dominated BOM split hold as robots gain more sensing and on-board compute, or does the semiconductor share stop shrinking?
-- What happens to actuator supply after the November 2026 expiry of the truce on the October 2025 heavy rare earth controls, given exports were still around 50% below baseline in June 2026?
-- Can any non-electromagnetic actuator class (lead-free electromechanical oxide, hygromorph composite, pressure-driven bilayer) show force density, bandwidth and cycle life competitive with a geared BLDC in a robot joint?
-- How much of the 67% estimated gross margin on a $27.3K humanoid is available for further price cuts before a Western entrant can qualify a competing actuator supply chain?
 
 ---
 *Assessment drafted 2026-08-31 from up to 18 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

@@ -16,9 +16,9 @@ sources:
 - '[[2026-05-31-companiesmarketcap]]'
 - '[[2026-06-17-single-photon-detector-market-spad-snspd]]'
 - '[[2026-05-30-companiesmarketcap]]'
-mention_count: 81
+mention_count: 82
 sources_7d: 2
-sources_30d: 7
+sources_30d: 8
 recent_mentions:
 - slug: 2026-08-03-spad-single-photon-market-scan
   title: SPAD / single-photon detector market scan — incumbent structure and company cohort
@@ -51,8 +51,6 @@ recent_mentions:
 neighbors: []
 ---
 ## Physics / mechanism
-
-LiDAR (Light Detection and Ranging) emits pulsed or modulated laser light and measures time-of-flight (ToF) or phase shift of returned photons to reconstruct 3D point clouds. Core variants: mechanical spinning (360° FoV, legacy), MEMS-mirror scanning (miniaturised, lower reliability ceiling), optical phased arrays (OPA, solid-state, CMOS-compatible), and FMCW (frequency-modulated continuous wave, coherent detection, simultaneous velocity via Doppler). Key parameters: range (automotive target ≥200 m), angular resolution (<0.1°), frame rate (>10 Hz), eye-safety class (905 nm vs 1550 nm tradeoffs), and photon detection efficiency. FMCW at 1550 nm is current performance frontier—Aeva, Aurora, Luminar pushing silicon photonics and InGaAs APD/SPAD receiver integration. Point cloud density now >1M points/sec in top-tier systems.
 
 ## Competitive landscape
 

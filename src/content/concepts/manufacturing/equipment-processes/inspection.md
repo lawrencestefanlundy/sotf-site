@@ -28,9 +28,9 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 113
-sources_7d: 6
-sources_30d: 22
+mention_count: 117
+sources_7d: 9
+sources_30d: 25
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
@@ -74,21 +74,15 @@ Inspection is the measurement layer of manufacturing: the equipment and processi
 
 The sources cluster into three technical routes. The first is parallelised conventional optics: an epi-illumination multi-camera array microscope packs 24 synchronised microscope units in a 4x6 grid at 18 mm spacing, each with a 13 megapixel sensor, producing a stitched 72 x 108 mm image at 2.46 micrometre resolution on reflective samples including semiconductor wafers and printed circuit boards. The second is machine learning applied to instruments already installed on the line: a vision transformer trained on 8,493 SEM images (50x to 10,000x) drawn from five years of in-production burst and proof tests on alumina matrix composite implants classifies fracture cause into green body, hard machining and material defects at 0.907 accuracy and 0.888 macro-F1, with the finding that low magnification may suffice.
 
-The third and largest group is new physics for defect classes the installed base cannot see. Confocal subsurface backscattering microscopy targets nanoscale threading dislocations in SiC, which drive reverse leakage and degradation and which commercial inspection based on surface profiling and photoluminescence dark contrast misses because they leave no resolvable surface signature. Structured-light metrology using Laguerre-Gaussian and Hermite-Gaussian beams with AI retrieval locates sub-wavelength nanostructures to lambda/110, or 7.2 nm, single-shot and alignment-free. A cluster of mid-infrared upconversion work converts 3 micrometre-band signals into the visible so silicon detectors can be used: noise equivalent power down to 0.3 fW/Hz^1/2 via a 36-fold cavity pump enhancement at 22 per cent peak conversion efficiency, a roughly 30 degree acceptance angle with frame rates to 216 kHz using aperiodic quasi-phase-matching, and tunable first- to fourth-order edge enhancement switchable at 60 Hz.
-
 A caution on scope: several of the supplied sources use the word inspection in unrelated senses, such as packet inspection in quantum routers, ad hoc inspection of scientific datasets, and visual inspection of EEG power spectra. Those are excluded from the assessment below.
 
 ## Viability (3/5)
 
 The individual measurements work. Upconversion detection reaches 0.3 fW/Hz^1/2 noise equivalent power, described as at least a ten-fold improvement over prior results; wide-field upconversion imaging achieves a roughly 30 degree acceptance angle in one shot without parameter scanning or post-processing; structured-light metrology reaches 7.2 nm precision single-shot. These are experimental results, not simulations.
 
-What is missing is the manufacturing-relevant envelope. None of the optical sources report throughput per wafer or per part, cost, false-negative rate against a destructive ground truth, or stability outside a laboratory. The epi-MCAM covers 72 x 108 mm per capture cycle but must be mechanically translated for larger objects, and the cavity-enhanced upconversion detector runs at 55 W intra-cavity average power, which raises obvious questions about robustness in a fab. The strongest viability evidence is the vision transformer trained and cross-validated on five years of real in-production test images with a leakage audit confirming negligible specimen overlap, because that one was built against production data from the outset.
-
 **TLDR: Physics demonstrated repeatedly and quantitatively, but almost entirely on benchtops; only the ML-on-SEM work touches production data.**
 
 ## Drivers (3/5)
-
-On the supply side the enabling components are commodity: silicon CMOS sensors and EMCCDs used after frequency conversion, phase-only spatial light modulators and digital micromirror devices, and pretrained vision models reused as priors. The cost lever is explicit: upconversion and single-pixel schemes exist to avoid expensive, bulky, noisy infrared focal plane arrays. What the sources do not provide is any sizing of the market, capital budget or replacement cycle, so the driver score cannot go above the midpoint.
 
 ## Novelty (4/5)
 
@@ -99,8 +93,6 @@ The less exotic entries also carry a novelty claim worth taking seriously. The f
 **TLDR: Several results are stated as multiple-fold improvements over the named incumbent method, not incremental gains.**
 
 ## Diffusion (2/5)
-
-Not one source reports a tool installed on a line, a qualification result, a cost of ownership figure or a cycle time per part. The epi-MCAM is described as having strong potential within industrial inspection applications, which is a statement of intent. Upconversion imaging results are framed as features that might stimulate subsequent applications. Inspection is a domain where the buyer's risk is asymmetric: a new tool must be demonstrated against the existing recipe on the same defect population before it displaces anything, and none of these have been.
 
 The physical barriers differ by route. The upconversion systems depend on nonlinear crystals, high intra-cavity pump powers and spectro-temporal gating, which is a lot of alignment-sensitive apparatus to put next to a production tool. Structured-light metrology partly answers this by being alignment-free and single-shot, which is the single most diffusion-relevant property claimed in the whole set. The machine-learning route has the lowest barrier because it rides on instruments already present, but it inherits the classic obstacles: severe class imbalance, the need for interpretability in a safety-critical implant context, and unproven transfer across lines, materials or vendors.
 

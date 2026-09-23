@@ -33,6 +33,10 @@ descendants:
 sources_7d: 0
 sources_30d: 5
 recent_mentions:
+- slug: 2026-09-22-eu-prepares-chips-act-20-as-brussels-rethinks-competition-ru
+  title: EU Prepares Chips Act 2.0 as Brussels Rethinks Competition Rules for Global Scale - EU Today
+  date: '2026-09-22'
+  kind: web
 - slug: 2026-09-21-ibm-unit-secures-us1-billion-chips-act-award-to-expand-quant
   title: IBM unit secures US$1 billion CHIPS Act award to expand quantum wafer manufacturing - digitimes
   date: '2026-09-21'
@@ -60,10 +64,6 @@ recent_mentions:
 - slug: 2026-09-14-semi-calls-for-chips-act-20-to-boost-semiconductor-competiti
   title: SEMI Calls for Chips Act 2.0 to Boost Semiconductor Competitiveness - I-Connect007
   date: '2026-09-14'
-  kind: web
-- slug: 2026-09-09-semi-calls-on-the-chips-act-20---ink-world-magazine
-  title: SEMI Calls On The Chips Act 2.0 - Ink World Magazine
-  date: '2026-09-09'
   kind: web
 neighbors: []
 ---

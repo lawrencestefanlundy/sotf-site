@@ -112,8 +112,6 @@ The framing argument in the field is that the hard part has shifted. One review 
 
 The demonstrations are not simulations. A 45 nm CMOS receiver runs all 32 WDM channels simultaneously at 32 Gb/s each for 1.024 Tb/s aggregate, at 71 fJ/b including electronics and photonic tuning, with BER below 1e-12 and no equalisation or error correction. A 3D micro-transfer-printed BiCMOS-on-photonics receiver achieves 224 Gb/s PAM-4 at 0.51 pJ/b. A 3D silicon nitride interposer has been fabricated and measured, cutting waveguide crossings for a fully connected 12-node network from 495 to 150 and average per-waveguide loss by 45.8% relative to planar routing. Passive InP nanobeam laser cavities have been fabricated with measured Q above 170,000.
 
-What holds the score below 5 is the loss and source side. The integrated TFLN transmitter array reports 15.19 to 16.55 dB bare-chip insertion loss with additional loss from DFB bonding, and the PZT tunable laser delivers 5 mW fibre-coupled output. Efficient III-V-to-silicon coupling on standard 220 nm silicon remains a design problem being addressed at the simulation stage rather than solved in volume. Receivers are further ahead than sources.
-
 **TLDR: Working silicon at terabit rates and sub-picojoule-per-bit energies, with laser integration and coupling loss still the weak link.**
 
 ## Drivers (4/5)

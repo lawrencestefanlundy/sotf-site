@@ -74,23 +74,6 @@ neighbors:
 
 ## B. R&D / emerging approaches (14) — maturity, players, wedge
 
-| Approach | Maturity (TRL) | Key players (startup / lab) | Binding constraint | Wedge verdict |
-|---|---|---|---|---|
-| Next-gen VACNT + encapsulation | 8-9 prod / 3-5 frontier | **Carbice**, **Nawah**, **Trimtabs**; Cola (GA Tech) | off-chip growth + transfer, $/cm² | **incumbent-captured** (Carbice) |
-| Vertically-aligned graphene (VG) | 7-8 | **Sht Smart High Tech**, Thermal Rex; Liu (Chalmers) | through-plane alignment + shorting | narrowing (SHT public + Henkel) |
-| **Cu/metal-nanowire arrays** | 6-7 | **Novolinc**; Berkeley/UCSD/Stanford/CMU | dense uniform low-R arrays at scale | **YES — process moat** |
-| Sintered nano-copper | 5-7 | **Kuprion**, **Nano Join**, **Elephantech** | pressureless void-free oxidation-free | incumbent-captured (Heraeus/MacDermid) |
-| Self-healing / reworkable | 2-4 | none pure-play (**Arieca** gets it free) | k vs mobility trade-off | no standalone wedge |
-| **LM containment composite** | 6-8 | ****Boston Materials**, **Arieca**, **Hymet****; UT Austin (Yu), CMU | pump-out, Ga corrosion, reliability | **YES — strongest wedge** |
-| 2D beyond graphene (hBN/MXene) | 3-5 / 2-4 | MXene Inc (Drexel), BNNT Materials; Murata | k + alignment vs supply scale | **aligned-hBN = white space**; MXene = supply play |
-| **Nanocomposite hybrid** | 5-7 | ****Novolinc**, **Boston Materials****; Shen (CMU) | continuous nano-architecture mfg | **YES** |
-| Phononic / metamaterial | 1-3 | CMU, MIT (no TIM startup) | nanofab at scale; mostly insulating | no TIM wedge (science) |
-| Direct-bond / TIM-less (Cu-Cu hybrid, TLP/SLID) | 8-9 / 5-7 | TSMC/Intel/Samsung, BESI, Adeia | sub-nm flatness, fab-level | **foundry-absorbed** |
-| **Printed / jettable TIM** | 6-8 | ****Novolinc**, **Arieca**, fabric8labs**; **Indium** | HVM line-qual, BLT control | **YES — selective** (formulation + process) |
-| Bio-inspired / structured | 2-4 | none (nanoGriptech adhesion pivot) | manufacture at yield; unproven vs LM | weak/none |
-| Boron-arsenide / θ-TaN / BP | 2-4 | no startup; UCLA (Hu), Houston (Ren), UCSB | scalable defect-free crystal growth | **open but unbuilt** (sourcing target) |
-| Diamond (GaN-on-diamond, nanocrystalline) | 6-8 | **Akash Systems**, **Diamond Foundry**, **Diamfab**; **Element Six De Beers**, **Coherent** | cost, CVD speed, CTE/TBR | yes-but-late/capital-heavy (EU seed: Diamfab) |
-
 > **Interconnect-layer diamond spreader (adjacent frontier, NOT a TIM slot; ECTC 2026).** Purdue / U. Aveiro / UCLA showed **Cu/Sn microbumps embedded in nanocrystalline diamond**, giving an effective **in-plane thermal conductivity of 500-600 W/m·K (~20× conventional microbumps + underfill)** — but it spreads heat *laterally through the interconnect layer of a 3D stack*, it is **not a TIM1 replacement** (single-sided test structure only, no assembled stack). It bounds the map from the *packaging-interconnect* side rather than the die-interface side: if it matures it substitutes for in-stack lateral spreading, not for the die-to-lid / die-to-coldplate TIM the classes above serve. Watch, don't source as a TIM wedge. Source: <sup class="ref"><a href="https://newsletter.semianalysis.com/p/ectc2026" title="ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, " rel="noopener">ref</a></sup>.
 
 > **Metal-TIM note.** Solder TIM (sTIM), indium foil, and PCMA are the genuine **volume die-level path for >1kW AI accelerators today** (Indium-led) — promoted 22 Jun 2026 to its own slice, **Metal Solder Pcma Tim**. They are the incumbent that is already winning the volume, distinct from the speculative carbon classes and from consumer-led **Liquid Metal Tim**.

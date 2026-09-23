@@ -18,7 +18,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 25
+mention_count: 26
 descendants: []
 last_reorg_date: '2026-05-13'
 scorecard:
@@ -30,8 +30,8 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 3
+sources_7d: 1
+sources_30d: 4
 recent_mentions: []
 neighbors: []
 ---

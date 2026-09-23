@@ -68,19 +68,6 @@ Value capture is split between a concentrated tool oligopoly and a stickier chem
 ## Market drivers, constraints & trends
 Net read: steady-to-accelerating on the served market, because cleaning is a per-wafer event whose frequency rises every node, layered on a cyclical tool sale that is now in an AI-led up-slice.
 
-- **Drivers**
- - Node architecture multiplies the step count: GAA in high-volume manufacturing 2025-2027 lifts cleaning-cycle intensity ~15-20% per node generation (sacrificial-nanosheet release, residue strip without collapsing fragile geometry), directly expanding addressable spend per wafer start [8][9]. Single-wafer cleaning, the share-gainer, is already ~55-60% of equipment value [8].
- - AI/HBM and advanced packaging add a new clean-heavy domain: hybrid bonding needs near-atomically clean, particle-free surfaces at sub-micron pitch, and cleaning demand scales with HBM stack count and I/O density (Applied + BESI pushing die-to-wafer hybrid bonding to HVM) [10].
- - The tool up-cycle is real: SEMI puts WFE +11% in 2025 and +9% in 2026, led by DRAM/HBM and AI logic; NAND tool spend +45% in 2025 [11].
-- **Constraints**
- - Cyclicality + China concentration: China was ~36% of WFE in 2024, falling toward ~31% as mature-node build moderates; a China air-pocket would hit the equipment line first [11], and ACM's growth is levered to exactly that pool.
- - Chemical chokepoints: >75% of ultra-high-purity HF output sits in three countries; Section 301 tariffs on Chinese high-purity peroxide doubled to 50% on 1 Jan 2025, and lead times have stretched 6+ months, lifting working capital 15-20% [12].
- - PFAS exposure: fluorinated cleaning chemistries fall inside the EU REACH CF2/CF3 restriction; ECHA committee opinions and a Commission decision could force reformulation/substitution with only time-limited semiconductor exemptions [13].
-- **Trends & inflections to watch**
- - Dry/cryogenic shift: supercritical-CO2 and cryogenic-aerosol cleaning (zero surface tension, no pattern collapse below ~45nm) move share off pure wet at the most fragile structures. Tripwire: a foundry naming SCCO2/cryo as the qualified clean for a sub-2nm or high-stack 3D-NAND node [14][9].
- - GAA-to-HVM dating: tripwire = TSMC/Samsung/Intel confirming GAA volume ramp in 2025-2026 earnings, which converts the per-node intensity uplift into booked cleaning-tool orders [9].
- - Hybrid-bonding HVM: tripwire = a memory or foundry HBM4/3D-logic line going to volume on hybrid bonding, pulling post-bond clean + activation tools [10].
-
 ## Connections
 - [Semiconductor Materials & Equipment](/manufacturing/equipment-processes/semiconductor-materials-equipment/) - the parent cluster page for the equipment + materials value chain this step sits in.
 - **Deposition Materials Process Market** - thesis on where process-consumable revenue and margin accrue across FEOL.

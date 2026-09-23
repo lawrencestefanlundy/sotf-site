@@ -18,7 +18,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - material
-mention_count: 26
+mention_count: 27
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 3
@@ -29,8 +29,8 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions: []
 neighbors: []
 ---
@@ -46,8 +46,6 @@ The parameters that decide whether any of this becomes technology are unglamorou
 
 ## Viability (3/5)
 
-The existence and functional consequences of topological boundary states are no longer in doubt in these sources. Facet-selective ballistic supercurrent has been resolved in Josephson junctions on the weak TI ZrTe5, with SQUID-like critical current oscillations at flux-quantum periodicity showing the supercurrent is confined to the facets that host gapless surface states. Topological interface states have been shown to carry heat across an Au/Bi(1-x)Sb(x) junction, with control experiments on trivial semimetals and insulating interlayers used to establish that the effect is topological in origin. Surface charge is detectable by terahertz time-domain spectroscopy, and corner and edge states have been measured directly in a radio-frequency HOTI metasurface at 1.5-1.7 GHz.
-
 What is not established is any working component. The flagship application, topological quantum computation, is still at the stage of a *possible* signature: gap reopening in coupled Sn-(Bi,Sb)2(Te,S)3 Josephson trijunctions is interpreted as coupling between Majorana zero modes rather than demonstrated as such. Andreev spin qubits on magnetically doped 2D TI edges exist as numerical NOT and Hadamard gate simulations only, as does Andreev reflection through second-order corner states, and the topological altermagnetic FeSe bilayer phase is a first-principles prediction awaiting a sample. A 3 reflects a field where the underlying effect reliably reproduces but nothing has crossed into engineering.
 
 **TLDR: The topological physics is now measured by several independent probes; the device-level claims are cryogenic, single-lab or purely numerical.**
@@ -62,8 +60,6 @@ On demand, the sources contain no market, funding or procurement data. What they
 
 ## Novelty (4/5)
 
-Where the sources run a comparison, the topological system behaves qualitatively differently rather than incrementally better. Trivial insulators have positive surface stiffness that smooths roughness, whereas TIs are predicted to have negative stiffness that amplifies it, a distinction with no analogue in conventional crystal growth theory. In the Au/Bi(1-x)Sb(x) thermal work, trivial semimetals and insulating interlayers fail to reproduce the bias-tunable interfacial conductance, isolating the topological contribution. In photonics, vortex solitons at disclination cores in a higher-order photonic TI are reported as stable and thresholdless, against the usual requirement for high powers to stabilise vortex solitons in non-topological media. Facet-selective surface supercurrents in a 3D crystal are stated not to have been achieved before, the previous realisations being one-dimensional edge modes in two dimensions.
-
 The field is also still generating genuinely new categories: coexisting dipolar and quadrupolar higher-order topology in one system, previously considered mutually exclusive; Dirac branch-cut modes along complex-mass branch cuts, distinct from Jackiw-Rebbi and Jackiw-Rossi defect states and demonstrated in acoustic metamaterials; and a photonic bulk-edge correspondence with a frequency cutoff that has no counterpart in electronic TIs. What the sources almost never supply is a performance margin against the material a designer would otherwise use. The reported 55% increase in Gilbert damping at 4 nm Bi2Se3 thickness is a measure of spin absorption in that stack, not a benchmark against heavy-metal spin sources. Novelty of mechanism is strong; novelty as demonstrated superiority is not yet quantified here.
 
 **TLDR: The protected-boundary-state mechanism has no non-topological equivalent, and control experiments confirm it; the size of the advantage over incumbent materials is mostly unquantified.**
@@ -77,8 +73,6 @@ Two routes reduce the barrier. Depositing Bi2Se3 on silicon by sputtering rather
 **TLDR: Electronic TI devices are blocked by cryogenic operating temperatures, residual bulk conduction and interface sensitivity; the classical-wave analogues face far lower barriers.**
 
 ## Impact (3/5)
-
-The breadth of application vectors is real. Spin-momentum locking gives a mechanism for spin-charge interconversion in silicon-compatible stacks. Superconducting proximity on topological boundaries underpins both Majorana-based topological quantum computation and Andreev spin qubits driven purely by microwave pulses, with no external Zeeman field or ancillary states required. Topological interface states allow reversible electrical modulation of heat flow across a solid-state junction, which the authors frame as active control of interfacial thermal conductance. In photonics, disclination-bound vortex solitons offer disorder-resistant transmission of signals and energy.
 
 If even the Majorana route worked, the impact would be large, since fault tolerance by hardware rather than by error-correction overhead is a different cost structure for quantum computing. But nothing in these sources sizes any market, and none reports a figure of merit that beats an incumbent technology. The score of 3 records credible breadth with contested magnitude, not demonstrated value. A higher score would require at least one application where a TI-based component outperforms the conventional option by a stated margin under operating conditions.
 
@@ -96,21 +90,11 @@ The electronic side is not close. Magnetic order at about 12.5 K, Majorana evide
 
 Judged as a whole the field is priced about right, but the internal allocation of attention is wrong. Topological insulators as a route to quantum computing are overrated on this evidence: the Fu-Kane programme has been pursued for two decades and the current state of the art is a minigap reopening interpreted as a possible coupling between Majorana zero modes, with the qubit-level work still numerical. The narrative has run far ahead of the measurements, and the operating temperatures are unforgiving.
 
-What is underrated is the mundane end. TIs are turning into a controllable spin-orbit and interface materials toolkit: carrier type tunable by ion beam without chemical doping, magnetic ground state selectable during growth, interfacial heat flow electrically switchable with topological specificity verified against trivial controls, surface charge readable contactlessly by terahertz spectroscopy, and the whole HOTI concept reduced to printed circuit board fabrication in the microwave range. Those are the places where a TI is likely to end up inside a product first. The predicted growth instability is the most commercially consequential item in this source set and the least discussed.
-
 ## Prediction
 
 By 31 December 2028, no experiment will have been published demonstrating a completed braiding-based logic operation in a topological-insulator Josephson platform; the strongest claims will still be framed as signatures consistent with Majorana zero modes, as in the Sn-(Bi,Sb)2(Te,S)3 trijunction work.
 
 ## Evidence base
-
-- 2 July 2026: facet-selective ballistic supercurrent demonstrated in ZrTe5 Josephson junctions, with SQUID-like critical current oscillations at flux-quantum periodicity and rotation-dependent interference patterns linking the supercurrent to bulk topology.
-- 5 May 2026: MnBi2Te4 single crystals grown in an applied magnetic field switch from A-type antiferromagnetic to a ferromagnetic ground state with a Curie temperature of about 12.5 K, confirmed by magnetisation, torque, resistivity and specific heat.
-- 2 June 2026: Bi2Se3 sputtered on silicon with a Ti spacer and a NiFe layer shows a 55% increase in Gilbert damping at 4 nm Bi2Se3 thickness under spin pumping, with the stack chosen explicitly for industrial compatibility.
-- 19 June 2026: coupled Josephson trijunctions on Sn-(Bi,Sb)2(Te,S)3 show a minigap reopening described as a possible signature of coupling between Majorana zero modes, after two decades of effort on topological quantum computation platforms.
-- 7 July 2026: interfacial thermal conductance of Au/Bi89Sb11 and Au/Bi87Sb13 junctions is reversibly modulated by current injection, with control experiments on trivial semimetals and insulating interlayers confirming the effect is specific to topological interface states.
-- 17 June 2026: a higher-order photonic topological insulator supporting corner and edge states is realised as a printed circuit board metasurface of split-ring resonators, verified experimentally at 1.5-1.7 GHz.
-- 8 July 2026: topological boundary states are predicted to give growing TI surfaces negative stiffness, producing Kuramoto-Sivashinsky spatiotemporal chaos during interface growth, unlike the positive stiffness of trivial insulators.
 
 ## Open questions
 

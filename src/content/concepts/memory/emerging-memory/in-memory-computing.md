@@ -43,7 +43,7 @@ descendants:
 - digital-in-memory-compute
 - processing-in-memory
 - sram-cim
-sources_7d: 1
+sources_7d: 0
 sources_30d: 11
 recent_mentions:
 - slug: 2026-08-12-snapdragon-ar1-sensing-hub-micro-npu
@@ -108,15 +108,11 @@ Conventional processors spend most of their energy moving data between memory an
 
 The device layer is unusually fragmented. Filamentary memristors (Ag/Cu in amorphous silicon) are the classic crossbar element; phase-change memory with superlattice materials is used where multi-level, low-voltage programming matters; magnetic tunnel junction MRAM and antiferromagnetic tunnel junctions offer non-volatility, endurance and picosecond switching; ferroelectric HfO2/ZrO2 capacitors give non-destructive readout; standard-CMOS floating-gate arrays give a cheap route with no exotic materials; and silicon photonic arrays trade device density for bandwidth.
 
-The parameters that decide the technology are all non-idealities rather than headline throughput. Device-to-device and cycle-to-cycle variation arises because conduction is carried by a small number of discrete filaments rather than uniformly across the device area. Conductance drifts, so inference accuracy decays after programming. Read windows are small: ferroelectric non-volatile capacitors have a memory window of 1-10 fF/um and sense margins of the order of a few millivolts, and antiferromagnetic junctions have low tunnel magnetoresistance that breaks standard MRAM sense amplifiers. On-chip training adds a further problem: asymmetric weight updates drag the weights towards a device-specific symmetric point that does not coincide with the optimum, and calibrating that point costs pulse updates. System-level gains also depend on conversion and external memory access overheads, not just the array.
-
 The consequence is that IMC is currently strongest where the workload is small, fixed, tolerant of noise and starved of power: an implanted 32-channel brain-machine interface SoC in 65 nm CMOS uses an IMC spike detector and runs at 3.53 uW per channel with 0.034 mm2 per channel. The large claims, LLM inference acceleration and Monte Carlo tree search at tens of milliwatts, sit at the architecture-simulation level with fabricated device parameters as inputs.
 
 ## Viability (3/5)
 
 The physics works and silicon exists. A single-poly floating-gate analog IMC array has been fabricated in standard 65 nm CMOS and measured; a fabricated IMC chip was used to emulate a nonlinear closed-loop MIMO decoder; a complete event-based implant SoC with an IMC spike detector has been built in 65 nm; ferroelectric HfO2/ZrO2 stacks have been integrated in the CMOS back end of line with 1 ns multi-level writes below 5 V, endurance above 10^11 cycles and 10-year retention. Photonic arrays are fabricated on a standard GlobalFoundries silicon photonics process.
-
-What holds the score at 3 is that the same literature is dominated by defect papers. Conduction in filamentary memristors is carried by a handful of discrete filaments, which is the direct cause of device-to-device and cycle-to-cycle spread, and systematic studies of filament statistics are described as scarce even though large arrays have been demonstrated. Ferroelectric capacitor memory windows collapse above 1 MHz read frequency, requiring a new sub-RC 20 ps readout method to get around it. Retention loss degrades inference accuracy, and even with circuit compensation plus batch-normalisation recalibration the baseline is only recovered to within 2-4% after 60 days. Analog on-device training remains the weakest link, with update asymmetry biasing convergence and calibration itself carrying a pulse cost that has only recently been characterised theoretically. This is a technology that works when co-designed end to end, not one that drops in.
 
 **TLDR: Arrays and small SoCs are fabricated and measured, but every device family still has an unresolved non-ideality that has to be compensated in circuits or algorithms.**
 
@@ -178,11 +174,6 @@ By the end of 2028, published analog in-memory computing results claiming order-
 - 2026-06-05: A PIM co-design for graph-based approximate nearest neighbour search shrinks the PIM-resident index footprint by 14.5x, addressing a workload where CPU throughput is capped by main-memory bandwidth and GPUs lack the HBM capacity for billion-scale indexes.
 
 ## Open questions
-
-- Can device-to-device and cycle-to-cycle variation in filamentary crossbars be bounded by process control rather than by per-array calibration, given that conduction is carried by a small number of discrete filaments?
-- Does retention-loss compensation hold beyond the 60-day, 2-4% accuracy recovery demonstrated on floating-gate arrays, over product lifetimes and across temperature?
-- Will any of the simulated GPU comparisons, in particular the 30x to 57x photonic-chiplet efficiency claims, be reproduced on fabricated multi-chiplet silicon running a real model?
-- Can on-device analog training converge without pre-calibration, and at what pulse cost, once symmetric-point drift is tracked dynamically at model scale?
 
 ---
 *Assessment drafted 2026-08-31 from up to 18 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

@@ -40,7 +40,7 @@ frontier:
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 77
+mention_count: 79
 scorecard:
   viability: 4
   drivers: 4
@@ -50,8 +50,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 2
-sources_30d: 5
+sources_7d: 3
+sources_30d: 7
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)

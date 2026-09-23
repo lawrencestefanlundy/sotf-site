@@ -153,9 +153,4 @@ The sources do not support a technical comparison between compute architectures.
 
 ## Frontier (open questions)
 
-- What triggered the July 2026 AI-infrastructure drawdown, and did realised compute demand (tokens served, training runs commissioned) fall, or only the multiple applied to it?
-- What are the actual disclosed figures for the drawdown, total borrowing and sale discount, from primary filings or reporting rather than secondary compilations?
-- At what leverage ratio does concentrated compute-infrastructure exposure become forced-seller-prone, and can that threshold be estimated from observed margin terms?
-- Which layer of the compute stack (accelerators, interconnect, memory, capacity resale) captured margin through the 2026 cycle, and does that split hold across subsequent quarters?
-
 *Synthesised 2026-08-31 from 2 KB sources by the resynth pipeline; citations are KB source slugs.*

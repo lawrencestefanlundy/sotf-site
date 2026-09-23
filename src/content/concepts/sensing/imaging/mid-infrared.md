@@ -21,13 +21,33 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 125
+mention_count: 127
 parent_concepts:
 - imaging
 - sensing
-sources_7d: 4
-sources_30d: 10
-recent_mentions: []
+sources_7d: 6
+sources_30d: 12
+recent_mentions:
+- slug: 2026-06-17-single-photon-detector-market-spad-snspd
+  title: Single-photon detector market aggregation — SPAD, SiPM, SNSPD (2024–2035)
+  date: '2026-06-17'
+  kind: web
+- slug: 2026-05-24-mose2-exciton-polariton-all-optical-switch
+  title: New light-based switch could cut chip energy use and speed future AI photonics
+  date: '2026-05-24'
+  kind: web
+- slug: 2025-12-09-gallium-nitride-photonics-w-james
+  title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
+  date: '2025-12-09'
+  kind: substack
+- slug: 2025-12-02-the-future-of-computing-is-glass
+  title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
+  date: '2025-12-02'
+  kind: substack
+- slug: 2023-10-05-nynomic-nlir-investment
+  title: 'Nynomic AG: Expansion of technology portfolio / investment in NLIR ApS'
+  date: '2023-10-05'
+  kind: web
 neighbors:
 - slug: spectral-sensing
   name: Spectral Sensing
@@ -41,10 +61,6 @@ neighbors:
 The mid-infrared is the spectral region where molecular bonds absorb at their fundamental vibrational frequencies. That makes it the natural band for label-free chemical identification: gases, polymers, lipids, proteins and combustion products all have distinct signatures there. The work collected here operates mainly between about 2.4 and 4.2 µm, the region covering C-H, O-H and N-H stretches.
 
 The recurring obstacle is not the light, it is the detector. Mid-IR sensors carry high intrinsic noise, and the problem worsens for large pixel arrays where readout electronics also cap frame rate. The dominant strategy in these sources is transduction: move the information out of the mid-IR before detecting it. Nonlinear parametric upconversion mixes the mid-IR signal with a strong pump in a crystal to shift it into the near infrared, where silicon cameras and single-photon counters are cheap, fast and quiet. A second family transduces into other physical channels: photo-induced force microscopy reads IR absorption as a tip force, giving chemical maps at better than 5 nm lateral resolution, and Chem-SIM reads it as a photothermal modulation of structured-illumination fluorescence, adding vibrational fingerprints to a super-resolution fluorescence microscope.
-
-The parameters that decide upconversion systems are conversion efficiency (set by pump intensity and crystal length), noise equivalent power, the phase-matching bandwidth and its angular dependence, and the brightness of the mid-IR illumination source. Phase matching is both the constraint and the design handle: because conversion depends on angle and crystal temperature, the nonlinear stage doubles as an all-optical Fourier filter, which is how the same architecture yields bright-field imaging, tunable edge enhancement and spectral multiplexing.
-
-Surrounding this are the enabling and adjacent pieces: nanophotonic supercontinuum sources spanning several microns, filament four-wave mixing in air producing tunable radiation around 3.3 µm, chip-scale rubidium vapour cells emitting coherent mid-IR at the tens of nanowatts level, candidate direct-gap semiconductors such as hexagonal GeSn whose absorption edge is predicted to fall in the mid-IR, and reference data on which transparent materials survive the coating and window requirements at these wavelengths.
 
 ## Viability (4/5)
 
@@ -62,15 +78,11 @@ On demand, the sources repeatedly name combustion diagnostics, explosion reactio
 
 ## Novelty (4/5)
 
-The comparator is direct mid-IR detection. Against it, upconversion claims room-temperature operation with a noise equivalent power of 0.3 fW/Hz^1/2 and at least a ten-fold gain over previous upconversion demonstrations, and it breaks the readout bottleneck by moving the array to silicon: a 10 kHz megapixel camera and a 100 Hz hyperspectral refresh rate, plus time-multiplexed pumping that packs several transient frames into one camera exposure. It also gains functions the direct route lacks: all-optical Fourier processing giving tunable first- to fourth-order edge enhancement at 3 µm with 60 Hz switching.
-
 The photothermal and force-based branches beat the diffraction limit rather than the detector: better than 5 nm lateral chemical resolution for IR-PiFM, and SIM-grade resolution with full vibrational fingerprints and water-background rejection for Chem-SIM. Related transduction results are quantified too: polar dielectric thermoreflectance transducers outperform metals by up to a factor of eight, and mid-IR pumping of MoS2 phonons needs roughly 300 times lower power density than visible excitation for comparable enhancement. Upconversion itself is not a new idea; the novelty is in the engineering margins, which is why this is 4 and not 5.
 
 **TLDR: Quantified gains over the incumbent approach: an order of magnitude on noise, and resolution and frame rates the direct route cannot reach.**
 
 ## Diffusion (2/5)
-
-The barriers are structural, not incidental. Sensitive operation depends on high-power continuous-wave or synchronised pulsed pumping, explicitly named as the stringent requirement for passive sensing, and is met here with a 55 W intracavity field inside a low-loss external cavity. Performance depends on phase matching, which ties field of view, spectral coverage and crystal temperature together; the same dependence that enables reconfigurable filtering also restricts how much of a scene and how much bandwidth can be captured at once. Compressive and multiplexed schemes shift cost into reconstruction algorithms, adding a validation burden for any regulated or safety-critical use.
 
 There is a visible path towards simplification, but it is early: chip-scale vapour cells generate mid-IR at only tens of nanowatts collected power, and monolithic direct-gap mid-IR semiconductors such as 2H-GeSn exist so far only as density functional theory. Practical infrastructure is being assembled in parallel, including material transparency references for coatings and windows and foundry-compatible low-crosstalk waveguide designs. No source shows a cost comparison against cooled direct detectors, which is the number that will decide adoption.
 

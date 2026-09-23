@@ -26,7 +26,7 @@ frontier:
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 153
+mention_count: 160
 scorecard:
   viability: 3
   drivers: null
@@ -36,8 +36,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 3
-sources_30d: 21
+sources_7d: 8
+sources_30d: 27
 recent_mentions:
 - slug: 2025-12-09-gallium-nitride-photonics-w-james
   title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
@@ -85,8 +85,6 @@ That is an inference about adjacent interest, not a driver assessment. Supply-si
 
 ## Novelty (3/5)
 
-The competitive comparison the sources actually permit is on placement control. Implantation delivers a tunable stopping depth, and in the erbium work that translated into a four-fold emission difference between 20 nm and 80 nm ion range. Solution and growth routes in the same source set have no equivalent knob: wet infiltration relies on liquid trapped in pores and confirms doping only by mass increase and Rietveld phase analysis after sintering, and spin-coated sol-gel doping is described as a non-vacuum method with no depth targeting. Where uniform bulk doping is the goal, those routes are cheaper and implantation offers no advantage.
-
 The interesting challenge comes from the electron-beam methane route for carbon doping of hBN, which is explicitly motivated by the claim that existing approaches lack nanoscale precision and control over the carbon supply, and which confines 84 plus or minus 7 per cent of carbon-rich regions to the irradiated area. For single-defect engineering in two-dimensional hosts, that is a genuine rival on precision. Implantation's edge is therefore scale-dependent: strong at the wafer and nanophotonic-layer scale, contested at the single-atom scale.
 
 **TLDR: Better than the alternatives specifically on depth and lateral placement; the sources also show a rival technique claiming finer spatial control.**
@@ -116,8 +114,6 @@ What is not now is the product. Nothing in the sources shows an implanted-emitte
 **TLDR: The process is already being used to produce measured device-level results; the applications it enables are further out.**
 
 ## Overrated or underrated? Fairly rated
-
-Ion implantation here behaves like the infrastructure technique it is: nobody is claiming it as the breakthrough, and the one paper that uses it treats it as the means to a photonic result rather than the result itself. That framing looks correct. Where placement matters, implantation is the only tool in the supplied source set that gives a tunable depth profile, and the four-fold emission change between 20 nm and 80 nm ion range shows the knob has real leverage. Where placement does not matter, the same source set is full of cheaper routes: liquid infiltration, spin coating, chemical getters and in-growth incorporation. That is a stable, well-understood division of labour, not a mispricing.
 
 The caveat an investor should hold onto is that this assessment rests on one directly relevant source. Anyone treating implantation as a differentiated asset should ask what specifically requires beam placement in their flow, because the answer is often nothing, and the electron-beam methane result shows that even the precision argument is being contested at the atomic scale.
 

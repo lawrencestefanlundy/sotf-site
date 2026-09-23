@@ -23,8 +23,6 @@ neighbors: []
 ---
 ## Physics / mechanism
 
-Photonic tensor cores perform matrix-vector multiplication in the optical domain, exploiting interference in Mach-Zehnder interferometer (MZI) meshes or micro-ring resonator (MRR) arrays to execute multiply-accumulate (MAC) operations at the speed of light with near-zero switching energy per operation. The fundamental unit is a tunable beamsplitter implementing a 2×2 unitary; cascaded N×N meshes (Clements or Reck topology) synthesize arbitrary unitary transforms. Matrix encoding is static (weights in phase shifters) or dynamic (EO modulators, ~10 ps switching). State-of-art demonstrations hit ~1–10 TOPS/mm² optical compute density with sub-pJ/MAC in silicon photonics at 1550 nm; Lightmatter's Passage and MIT/Stanford academic tapeouts represent leading integration points. Analog precision remains the constraint: 4–6 effective bits without error correction.
-
 ## Competitive landscape
 
 Electronic ASICs (Nvidia H100, Groq LPU, Cerebras) dominate at scale, offering 8–16-bit precision with mature toolchains. Photonic cores trade precision and programmability for energy efficiency at high bandwidth. In-memory compute (SRAM/DRAM MAC, e.g. Mythic, Untether) occupies the mid-ground. Photonic vs. electronic vs. hybrid comparison:

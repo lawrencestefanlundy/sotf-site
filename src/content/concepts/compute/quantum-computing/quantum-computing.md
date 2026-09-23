@@ -38,7 +38,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 714
+mention_count: 739
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -68,8 +68,8 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 5
-sources_30d: 18
+sources_7d: 7
+sources_30d: 19
 recent_mentions:
 - slug: 2026-09-21-ibm-unit-secures-us1-billion-chips-act-award-to-expand-quant
   title: IBM unit secures US$1 billion CHIPS Act award to expand quantum wafer manufacturing - digitimes

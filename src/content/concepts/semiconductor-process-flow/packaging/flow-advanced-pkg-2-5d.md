@@ -92,11 +92,6 @@ CoWoS is sold out through 2026 [1]. TSMC monthly CoWoS capacity: ~35-40k wafers/
 ## Market drivers, constraints & trends
 Net read: the served equipment + materials pool keeps accelerating through 2027 because the bottleneck is architectural, not cyclical, but the served market is concentrated on three buyers and a handful of chokepoints.
 
-- **Drivers**
- - AI accelerator wafer demand is forecast to rise ~11x from 2022 to 2026, and CoWoS capacity to compound at a >80% CAGR 2022-2027, dragging the whole back-end tool + consumable pool with it [11][12].
- - The shortage is structural, not a cycle: shortages are now architectural (allocation, not wafer starts, is the binding constraint), so the demand floor holds even if a capex pause hits front-end fabs [14].
- - Capacity is being doubled twice over: TSMC ~120-140k wafers/month in 2026 toward ~160-170k by end-2027, plus ~50-60k of new OSAT capacity, lifting industry capacity toward ~200k/month, every wafer of which burns interposer, substrate, and bonder time [13].
-
 - **Constraints**
  - Demand concentration: NVIDIA, Broadcom and AMD together hold ~85%+ of CoWoS capacity (NVIDIA alone ~60%, ~595k wafers booked), so a single hyperscaler order cut would whipsaw the served market [14].
  - Materials chokepoints stay binding: ABF resin (Ajinomoto ~95%) raised film prices ~30% with the supply-demand gap extending to end-2027 [15]; substrate makers (Unimicron, Kinsus, Nan Ya) are sold out [16].

@@ -29,8 +29,6 @@ recent_mentions:
   kind: web
 neighbors: []
 ---
-**Imaging and vision is shifting from lenses that form pictures to systems where the optics, the detector electronics and the reconstruction algorithm are designed as one, with June-July 2026 preprints showing megahertz light modulators, tunable metalenses, single-photon detector arrays and information-theoretic optical design objectives all pointing the same way.**
-
 ## Summary
 
 Conventional imaging separates concerns: optics form a sharp image on a focal plane, the sensor records it, software cleans it up. The cluster of work collected here abandons that separation. In a compact interferometric imager, the large aperture of a telescope is replaced by a dense array of small apertures combined by a photonic integrated circuit, which records complex visibilities rather than an image; the components that traditionally form the image are simply absent, and the object is reconstructed numerically. In end-to-end meta-imagers, a metasurface and its computational back-end are optimised jointly, and recent work reduces that optimisation to closed-form, data-free objectives built on Shannon capacity and Fisher information, showing that the optimal transfer matrix is a permutation matrix, each source mapped to one distinct detector, a condition the authors call generalised focusing.

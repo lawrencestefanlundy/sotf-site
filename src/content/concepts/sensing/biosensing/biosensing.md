@@ -21,11 +21,11 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 47
+mention_count: 48
 descendants:
 - biosensors
-sources_7d: 2
-sources_30d: 7
+sources_7d: 3
+sources_30d: 8
 recent_mentions:
 - slug: 2026-07-03-thats-a-learning-curve-mate-not-rsi
   title: That’s a learning curve mate, not RSI
@@ -92,8 +92,6 @@ Other barriers are material rather than commercial. Nanodiamond probes show pron
 **TLDR: The one documented long-run case, GMR bead biosensing, has 20 years of academic work and limited commercial penetration.**
 
 ## Impact (4/5)
-
-The value case does not depend on a single application. Non-invasive continuous glucose monitoring would remove the 10 to 14 day sensor replacement cycle that discourages use, with a stated reach across diabetes, prediabetes and the wellness market. Seizure prediction 10 to 45 minutes before onset would create a new category of predictive neurological monitoring for a US population above 3.4 million, replacing detection-after-onset devices. Single-particle AAV capsid loading measurement moves quality control upstream in gene therapy manufacture, where late discovery of bad batches wastes millions and carries patient risk. Earlier detection of hypertensive disorders, heart failure and gestational diabetes from a low-cost paper device would displace tests requiring specialised laboratories and multiple visits.
 
 On the research-tool side the impact is on measurement capability rather than markets: label-free methods that avoid perturbing molecules with tags, repeated non-destructive measurement of the same live cell without lysis, and biomagnetic sensing of cardiac and neural fields in the femtotesla to picotesla range <sup class="ref"><a href="https://pubs.aip.org/aip/apl/article/126/16/160503/3344956/Tunnel-magnetoresistance-sensors-with-sub-pT" title="Tunnel-magnetoresistance sensors with sub-pT detectivity for detecting bio-magnetic fields" rel="noopener">ref</a></sup>. Not a 5, because the sources establish the size of the problems but contain no evidence that any of these platforms has yet solved one at product scale.
 

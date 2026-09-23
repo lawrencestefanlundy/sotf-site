@@ -36,9 +36,9 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 127
-sources_7d: 6
-sources_30d: 22
+mention_count: 129
+sources_7d: 7
+sources_30d: 24
 recent_mentions:
 - slug: 2026-08-31-qcells-tandem-iec-ul-certification-tuv-rheinland
   title: Qcells secures TUV Rheinland certification for perovskite-silicon tandem solar tech (pv magazine, 16 Jul 2026; pv-tech corroborating)
@@ -111,8 +111,6 @@ There is one positive diffusion signal: fabrication routes are cheap and area-sc
 The case for high impact is the breadth demonstrated in a single month of literature. Photovoltaic absorbers with visible absorption coefficients of 10^4-10^5 cm^-1 and band-edge positions measured by ultraviolet photoelectron spectroscopy; a working computational imaging detector; room-temperature controllable chiral quantum light emission; quantum-communication-relevant nonlinear sources where sampling the coherence-time degree of freedom lowers the Holevo bound by 2.6-5.8 per cent across excitonic resonances in (PEA)2PbI4; oxygen-evolution catalysis with computed overpotentials of 0.45 V for pristine TiO2-terminated SrTiO3(001) and 0.43-0.48 V for neutral Fe substitution, degrading to 1.35 V in reduced dopant states; thermoelectric-relevant phonon suppression to 0.088 W m^-1 K^-1; and magnetocaloric entropy change up to 1.13 J kg^-1 K^-1 at 3 T in nanostructured La0.6Sr0.4FeCoO3.
 
 The honest caveat is that several of these numbers are modest in absolute terms and the sources do not benchmark them against incumbents. The magnetocaloric figure, the OER overpotentials and the polarisation degree of the chiral emission are all early-stage values. Impact is scored 4 on the strength of the structural argument, that the same synthesis and modelling toolkit serves many end uses so progress compounds, rather than on any single demonstrated economic quantity, of which the sources give none.
-
-**TLDR: One tunable lattice family spans photovoltaics, imaging, quantum light, catalysis, thermoelectrics and magnetocalorics, though the sources quantify none of the resulting value.**
 
 ## Timing Later (5-10yr)
 

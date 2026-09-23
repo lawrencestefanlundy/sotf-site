@@ -77,8 +77,6 @@ Two threads look more diffusible. Computational methods delivered inside establi
 
 The sources do not support an assessment. The closest to application-level numbers are the anomalous Hall sensing figures of 7028 microohm-cm/T sensitivity and 23.5 nT/Hz^0.5 detectability at 1 Hz, and the qualitative claim that a three-dimensional composite architecture enables volumetric thermoelectric power generation beyond diffusion-limited thin-film geometries. Neither is benchmarked in the sources against an incumbent sensor or thermoelectric, and no power density, efficiency or cost figure is given.
 
-The same gap applies to the modelling layer. If finite-temperature spin-lattice simulation became routine and cheap, the plausible payoff is faster magnet and spintronic material design, but no source demonstrates a design win, a property target hit, or a saved development cycle. Assigning an impact score from this material would be guesswork.
-
 **TLDR: The sources contain capability demonstrations but no basis for sizing value.**
 
 ## Timing Unclear

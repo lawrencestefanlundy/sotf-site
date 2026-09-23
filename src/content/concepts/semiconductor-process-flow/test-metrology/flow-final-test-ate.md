@@ -59,13 +59,6 @@ Semiconductor test equipment was roughly USD 7.65bn in 2025, projected to about 
 
 Concentration: Advantest plus Teradyne hold roughly 80% of the tester market, one of the tightest duopolies in semicap [1][3]. Add Cohu and the top three are ~55% of the broader test market including handlers [1]. Barriers to entry are very high: test programs, IP libraries, installed base lock-in and decades of corner-case know-how.
 
-## Materials & consumables
-Final test consumes recurring, device-specific interface hardware that wears out and must be requalified per package:
-- Test sockets and contactors: the spring-pin or elastomer interface between package and load board. Global test-socket market ~USD 1.8bn (2023); top five hold >50%, with Yamaichi ~32% [7]. Other players: Cohu, Enplas, ISC, Smiths Interconnect, LEENO, Sensata.
-- Load boards / device-interface boards (DIBs): custom PCBs per device; FormFactor, Cohu and specialists.
-- Handler change-kits, contactor pins, thermal-control assemblies.
-This is a genuine recurring-revenue layer: sockets and pins degrade after limited insertion cycles, and every new package or speed-grade needs a new socket and DIB. It rides test volume rather than tester capex, so it is steadier than the equipment cycle.
-
 ## Volumes, revenue, profitability
 The revenue pool splits into testers (~USD 7-8bn), handlers (~USD 2.3bn in 2025, ~11% CAGR [2]), SLT (~USD 1.5bn, ~7% CAGR [8]) and consumables (sockets ~USD 1.8bn plus boards). Unit context: Advantest shipped >8,500 ATE units in 2024 with V93000 in ~420 lines; Teradyne runs >7,000 systems testing >850m devices [3]; Cohu's installed handler base is >6,100 systems [2].
 
@@ -76,18 +69,10 @@ Value accrues to the tester duopoly. The moat is the test program plus installed
 
 EU / seed angle is thin. The prime contractors are Japanese and US; Europe's exposure is mostly via materials/handler component suppliers and ASMPT's European-listed peers. Seed-stage white space sits in adjacencies the duopoly does not own: photonic/co-packaged-optics test, mmWave/RF SLT, low-cost cloud-orchestrated test, and AI-driven test-time reduction.
 
-## Market drivers, constraints & trends
-Net read: the served market (testers, handlers, SLT, sockets/boards) is accelerating into a multi-year AI-test upcycle, but the acceleration is concentrated in high-power SoC/HBM and is exposed to a hardware cycle and to China localisation at the low end.
-
 - **Drivers**
  - Test time per device is exploding at the high end: a Blackwell-class accelerator (two reticle dies, eight HBM3E stacks, ~1,000W) can sit on a tester well over 20 minutes versus 30-60 seconds for a smartphone SoC, so accelerator volume converts into outsized tester demand [9]. Advantest is lifting SoC-tester capacity from ~3,000 units (Jul 2025) toward ~5,000 in 2026 and guides the SoC tester market to ~USD 8.7-9.5bn CY26 from ~USD 6.9bn CY25 [10].
  - HBM is a structurally test-heavy demand pool: HBM3E runs roughly 2x HBM2E test time and HBM4 16-Hi extends it further; memory ATE alone is forecast ~USD 1.29bn (2025) to ~USD 2.03bn (2032), ~6.8% CAGR [9][11].
  - SLT is shifting from sample to 100% screening as advanced-package defect rates rise; the burn-in plus SLT pool for AI accelerators grows ~9.3% CAGR, ~USD 0.8bn (2025) toward ~USD 2.2bn by 2036 [12].
-
-- **Constraints**
- - Cyclicality: the tester pool still tracks a hardware capex cycle; an AI-capex digestion phase would hit unit shipments fast, and tester ATE lead times tightening now can unwind.
- - China localisation caps the low end: ChangChuan/Accotest have driven China to ~70% share in linear/discrete test tools and are pushing into SoC/memory under export-control-driven reshoring, eroding the duopoly's China-facing volume [13].
- - Thermal/power is a hard engineering ceiling: 700-1,200W parts force coolant-integrated handlers and longer at-load intervals, raising cost-per-insertion and constraining throughput [9].
 
 - **Trends & inflections to watch**
  - SLT going mandatory on accelerators. Tripwire: a flagship AI-accelerator vendor (Nvidia/AMD) confirming 100% SLT in 2026-2027, or Advantest/Teradyne breaking out SLT past ~USD 1bn run-rate.

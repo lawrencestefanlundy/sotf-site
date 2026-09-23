@@ -31,6 +31,10 @@ mention_count: 1
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-21-amazon-blocks-meta-muse
+  title: Amazon blocks Meta's Muse AI shopping agent from its retail site
+  date: '2026-09-21'
+  kind: web
 - slug: 2026-07-21-agent-identity-kya-landscape
   title: Agent identity / KYA — landscape, demand and value capture, commissioned research pass
   date: '2026-07-21'

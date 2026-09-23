@@ -164,8 +164,6 @@ The one quasi-quantitative impact statement is technical rather than economic: a
 
 ## Timing Soon (2-5yr)
 
-The ISAC work is framed explicitly against future 6G cellular networks and already has an industrial testbed behind it, and the AI physical-layer work has moved from bespoke per-task models to a general model with a functional hardware prototype. Data-driven channel estimation is being positioned for deployment as a digital twin inside 5G and beyond networks, which is an incremental software insertion rather than new hardware. Those are the items that could plausibly reach products within a 6G cycle.
-
 The rest is slower. Reconfigurable surfaces and movable or fluid antennas still have unresolved implementation and commercialisation problems by their proponents' own account. Quantum satellite communications remains a research programme with daylight operation, satellite-supported repeaters and terrestrial integration listed as future directions rather than achieved capability, and entanglement multiplexing for repeaters is at the stage of verifying component compatibility. The ultraviolet modulator is a first-of-kind device, so a commercial timescale cannot be read from the source.
 
 **TLDR: The AI physical layer and ISAC are on a 6G standardisation timescale; quantum links and exotic antennas are further out.**

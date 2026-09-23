@@ -76,8 +76,6 @@ MLIR is **plumbing, not portability.** It was *designed for* heterogeneous compi
 
 ## Governance + adoption (2025-26)
 
-Governed by the LLVM project (open community, LLVM release cadence). Adoption is the headline: the de-facto substrate under **[XLA / OpenXLA](/compute/compute-architecture/xla/)/OpenXLA, [IREE (Intermediate Representation Execution Environment)](/compute/compute-architecture/iree/), [Triton (OpenAI Triton)](/compute/compute-architecture/triton/) (Triton-IR/Triton-GPU are MLIR dialects), Mojo/**Modular**, Torch-MLIR, ONNX-MLIR**, plus vendor stacks — **AMD/Xilinx (MLIR-AIE), **Tenstorrent** (tt-mlir), SOPHGO (TPU-MLIR)**. 2025 work: governance to curb dialect fragmentation (curated core dialects), the Transform dialect (CGO 2025) for tunable optimisation, expansion beyond ML (proposed WebAssembly dialect, Clang CIR). Entrenched and still growing.
-
 ## Competitive read (vs a "new programming model" startup)
 
 **Substrate, not competitor.** A credible new heterogeneous programming model lowers to MLIR dialects; doing otherwise means re-inventing a decade of LLVM/MLIR infrastructure and losing interop with every vendor backend already expressed in MLIR. The startup's real moat must live *above* MLIR — the programming abstraction and the cross-target optimisation/auto-tuning intelligence — with MLIR as its IR layer. This is also the live risk to such a company: if MLIR commoditises the compiler layer, value can drain to silicon + libraries (the [CUDA (the moat, and where it's eroding)](/ai-software/models-inference/cuda-moat/) lesson that the moat is libraries, not syntax).

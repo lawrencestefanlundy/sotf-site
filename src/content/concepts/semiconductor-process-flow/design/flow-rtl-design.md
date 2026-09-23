@@ -48,14 +48,6 @@ neighbors:
 ---
 > Step 3 of 56 in the semiconductor flow (Design). Prev: [Semiconductor IP licensing (process step)](/semiconductor-process-flow/design/flow-ip-licensing-cores/) · Next: [Functional verification & emulation (process step)](/semiconductor-process-flow/design/flow-functional-verification/)
 
-## What this step does
-Register-transfer-level (RTL) design is where the chip's intended behaviour is written as code in a hardware description language (Verilog/SystemVerilog or VHDL), describing what each clock cycle does to data moving between registers. It is the first step where a human (now increasingly an AI assistant) authors the actual logic, sitting between the licensed IP blocks (step 2) and the verification that proves the code is correct (step 4). Sub-processes inside it:
-- Micro-architecture and module partitioning (deciding the block structure before any code).
-- HDL coding of datapath and control logic (the RTL itself).
-- Lint and clock-domain-crossing checks (catching coding errors before verification).
-- Logic synthesis: compiling RTL into a gate-level netlist mapped to the target library, with timing/power/area (PPA) optimisation.
-- AI-assisted RTL generation, completion, and debug (the newest sub-layer).
-
 ## Where it sits and why it matters
 RTL is the productivity chokepoint of front-end design. Verification, the next step, routinely eats 50-70% of a project's engineering effort, and almost every bug it chases originates in RTL. So errors and inefficiency here cascade downstream into the most expensive part of the flow. This is exactly why the AI-for-design wave hit RTL and verification first: it is the highest-labour, highest-leverage point in the chain, and the place where a 10x productivity claim is most credible.
 

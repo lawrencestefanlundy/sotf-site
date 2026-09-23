@@ -83,9 +83,3 @@ So the orthogonal, earlier-stage bets are the layers the whole race needs **rega
 <!-- dataview block stripped for public site -->
 
 ## Frontier (open questions)
-
-- The pattern where no standalone OCS company has ever reached venture scale (they get acquired or stay small): broken by 2030, or holds?
-- ns-class switching: does it arrive, and from which medium?
-- Medium winner for scale-up AI fabrics (MEMS / LCOS / free-space diffractive / soliton-microcomb)?
-- Does the architecture flip to **wavelength routing** (passive AWGR + nanosecond-tunable lasers), moving value from the switch to the **light source**?
-- Is the backable-early wedge the switch at all, or the enabling layer (tunable-laser/comb source; merchant burst-mode sync primitive) the whole cohort must buy?

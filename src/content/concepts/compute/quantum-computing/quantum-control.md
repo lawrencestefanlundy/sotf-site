@@ -18,9 +18,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 80
+mention_count: 81
 sources_7d: 7
-sources_30d: 15
+sources_30d: 16
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
@@ -39,8 +39,6 @@ neighbors: []
 Every quantum device is ultimately steered by classical signals: microwave and laser pulses, magnetic and electric fields, acousto-optic deflector waveforms, parametric pumps. Quantum control is the theory and practice of choosing those signals so that a system reaches a target state or implements a target unitary as accurately as possible, given finite bandwidth, finite power, drift and noise. It spans analytical inverse engineering (constructing a pulse from a dynamical invariant so that the answer is known in closed form), numerical optimal control (gradient methods such as GRAPE, and alternatives such as shooting methods), robust and dynamically corrected gate design, and dynamical decoupling schedules that refocus environmental noise.
 
 The mechanics are prosaic. A model Hamiltonian is written with a drift term and one or more control terms whose amplitudes are the knobs. An objective (fidelity to a target, robustness to a parameter fluctuation) is maximised subject to constraints on amplitude, bandwidth and pulse smoothness. The mathematics is bilinear and non-convex, so the practical questions are whether the optimiser converges, whether the resulting pulse is physically realisable (bounded, smooth, singularity-free) and whether it survives the mismatch between model and device. Recent theory work attacks exactly these points: Tikhonov regularisation of the constraint Gram matrix to make a constrained gradient flow stable under discretisation, with proved monotonicity and an O(ε²) constraint drift bound; invariant-based parameterisations that avoid the singular pulses earlier schemes produced, extended beyond Lindblad noise models; and operator-algebraic conditions for controllability of infinite-dimensional bilinear systems.
-
-The parameters that decide whether control pays off are model fidelity, calibration cost and closed-loop latency. Pulses optimised against a wrong noise model do not help, which is why characterisation is now being fused with synthesis: one line of work learns a generative latent space directly from gate-set tomography data and conditions circuit synthesis on it, bypassing the characterise-then-decompose pipeline. Another forecasts short-time coherence evolution with machine learning and places decoupling pulses adaptively rather than periodically. On the hardware side, control is also the mechanism for new capabilities rather than just better fidelity: on-demand parametric coupling between a Josephson circuit and a rare-earth spin ensemble, three-dimensional tweezer trajectories for atom rearrangement, and transient symmetry breaking in a solid by a strong terahertz field.
 
 ## Viability (4/5)
 
@@ -78,8 +76,6 @@ The barriers are the ones the sources themselves name. Model-based pulses are on
 
 Control sits under everything else in the stack, so improvements compound. Halving gate error on fixed hardware directly changes fault-tolerance overhead and the depth of circuits that can be run before error correction is available. Faster atom rearrangement raises clock rates and permits scalable sorting in complex geometries, which bears on the practical throughput of neutral-atom processors. Control also unlocks capabilities that are not fidelity improvements at all: on-demand coupling between superconducting circuits and spin ensembles is the route to hybrid memories with coherence beyond that of superconducting circuits alone, and temporal modulation of an oscillator changes the scaling of quantum Fisher information to O(F(t)²), a metrology gain over the time-independent baseline under energy and time constraints.
 
-Beyond computing, the same toolkit reaches sensing and materials. Full mapping of hyperfine interactions and switchable magnetic and electric noise sensing has been demonstrated in a hexagonal boron nitride spin ensemble, and a strong terahertz field has been used to transiently break inversion symmetry in MgO and induce a dynamical complex Berry phase, with both real and imaginary components resolved by high-harmonic spectroscopy. The score stops at 4 because no source in this set quantifies economic value, market size or the system-level reduction in physical qubit count that a given control improvement buys.
-
 **TLDR: A multiplier on every quantum platform, though the sources measure device-level gains rather than system-level value.**
 
 ## Timing Now (0-2yr)
@@ -101,13 +97,6 @@ Two qualifications. First, this is a mature field with strong incumbents, so the
 By the end of 2027, at least one additional quantum hardware platform beyond trapped ions will publish a tomographically verified gate error reduction of 50% or more attributed solely to robust pulse design on unchanged hardware, replicating the result of.
 
 ## Evidence base
-
-- 16 June 2026: gate set tomography on a four-qubit trapped-ion register showed more than 50% error reduction from Space Curve Quantum Control robust pulses versus constant-amplitude gates, with counterpropagating robust gates often beating copropagating ones.
-- 5 May 2026: a 3D acousto-optic deflector lens demonstrated unrestricted tweezer motion over 200 µm × 200 µm × 136 µm at velocities above 4.2 m/s, with long-range transport times predicted to fall by more than a factor of two.
-- 3 June 2026: a parametric pump produced on-demand coupling of several MHz between a Josephson circuit and a rare-earth spin ensemble, aimed at hybrid quantum memories.
-- 4 June 2026: a shooting-based optimal control framework generated smooth, experimentally realistic gate pulses for spin qudits and outperformed the widely used GRAPE algorithm in simulation.
-- 16 June 2026: machine-learning-assisted adaptive dynamical decoupling substantially outperformed fixed periodic schedules at comparable pulse counts, with the largest gains in non-Markovian and non-stationary noise.
-- 2 June 2026: a strong terahertz field transiently broke inversion symmetry in MgO, inducing a dynamical complex Berry phase whose real and imaginary parts were resolved by high-harmonic generation spectroscopy.
 
 ## Open questions
 

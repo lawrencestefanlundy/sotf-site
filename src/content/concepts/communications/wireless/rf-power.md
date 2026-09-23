@@ -11,7 +11,7 @@ sources:
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 - '[[2026-06-11-a-new-approach-to-designing-rf-power-amplifiers-for-modern-m]]'
 - '[[2026-06-11-darpa-threads-the-needle-on-thermal-barriers-to-rf-power---d]]'
-mention_count: 11
+mention_count: 12
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
@@ -34,8 +34,6 @@ neighbors: []
 RF power refers to the generation, routing, amplification and detection of energy carried by radiofrequency electromagnetic fields. In transmit chains the dominant device-level concern is the power amplifier, where DC supply energy is converted into RF output at a target frequency, with efficiency losses appearing as heat in a small semiconductor volume. AlGaN/GaN high electron mobility transistors (HEMTs) are the mainstream device family for high-power RF amplification in satellite communications, defence radar and deep-space missions. The relevant physics spans carrier transport in the two-dimensional electron gas at the AlGaN/GaN heterointerface, radiation-induced defect formation that alters that transport, and thermal transport out of the active region.
 
 Thermal resistance is a first-order limit on deliverable RF power: DARPA's THREADS programme is framed explicitly around thermal barriers to RF power, with phase-change materials among the approaches considered <sup class="ref"><a href="https://news.google.com/rss/articles/CBMiUEFVX3lxTE1EYkVpa2dkeU5jTjl2QVJ2ekxWMmxsdVA3eUlWTEV3czltd3FUaFFpb2JqQ0gzZmE1RW1oMXlPUVJNREhDX01Ca0F2VWFtS2RO?oc=5" title="DARPA THREADS the needle on thermal barriers to RF power - darpa.mil" rel="noopener">ref</a></sup>. Radiation hardness is the second limit for space and defence use; existing prediction methods for radiation damage rely on approximate, trial-and-error models rather than fundamental physical understanding of how charge transport changes at the atomic level, which forces per-mission qualification testing.
-
-On the routing side, RF power can be redistributed rather than amplified. A proposed narrowband fully-analog N-antenna transmitter synthesises an arbitrary complex excitation vector x[m] in C^N with prescribed total power ||x[m]||² = P from a single RF tone, using only tunable phase-control elements in a passive interferometric programmable network excited through one input port while the remaining N−1 input ports are impedance matched. In the ideal lossless case the network transfer is unitary, so RF power is redistributed among antenna ports without dissipative amplitude control, and beam synthesis becomes a unitary state-preparation problem.
 
 On the receive side, the figure of merit shifts from field sensitivity to power sensitivity. Nitrogen-vacancy (NV) centres in diamond detect RF signals via coupling of the RF magnetic field to NV spins with optical readout of the spin state; sensitivity has mostly been characterised as magnetic field sensitivity, which is the relevant metric only when the source is in the near field. For externally delivered RF inputs, input RF power sensitivity is the appropriate quantity, and it scales with the geometry of the RF-spin interface; scaling laws have been derived for both slope-detection and variance-detection protocols.
 

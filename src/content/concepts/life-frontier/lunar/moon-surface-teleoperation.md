@@ -56,14 +56,6 @@ Three converging signals:
 
 ## Open research questions
 
-| Question | Notes |
-|----------|-------|
-| Latency budget | What closed-loop control is feasible at 2.6s round-trip? Predictive layers, on-board safety reflex, delayed human approval — the architecture that handles all three. |
-| Hardware stack | Lunar surface: ±150°C thermal cycle, vacuum, radiation, dust. What compute/comms hardware survives? |
-| Operator UX | How does a human pilot through latency? Tesla / Wayve patterns vs. surgical robotics vs. drone teleop. |
-| Mission economics | Hours of operator time vs. autonomy hours — what's the human-cost-per-task crossover? |
-| Comms architecture | Direct-to-Earth vs. lunar-orbit-relay vs. mesh networks |
-
 ## Active threads
 
 - **Telekin DD work** — Lunar Ventures pipeline; specific company doing teleoperation for industrial/extreme environments. (Tracked in the Earth-robotics thesis **Teleoperation Bridge**.)

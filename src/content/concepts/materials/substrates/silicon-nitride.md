@@ -23,7 +23,6 @@ sources:
 - '[[2026-06-04-q-memory-site]]'
 - '[[2023-09-04-sinq-csa-catapult]]'
 - '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
-- '[[2026-06-16-trapped-ion-landscape-2026]]'
 scorecard:
   viability: 4
   drivers: 4
@@ -33,9 +32,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 116
-sources_7d: 4
-sources_30d: 14
+mention_count: 119
+sources_7d: 5
+sources_30d: 15
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
@@ -77,8 +76,6 @@ neighbors: []
 
 Silicon nitride (Si3N4, usually written SiN in device papers) is a dielectric thin film deposited on oxidised silicon wafers and etched into waveguides. It guides light by index contrast against a silica cladding, in the same way silicon-on-insulator does, but with three differences that decide where it is used: a wider bandgap, so it is transparent from the visible through the telecom band where silicon is opaque below roughly 1.1 µm; very low propagation loss and no two-photon absorption at telecom powers, which makes it the material of choice for high-Q resonators and nonlinear optics; and no native electro-optic effect or optical gain, so it cannot modulate or emit light on its own.
 
-That last point defines the architecture of almost every system built on it. SiN supplies the passive circuit and the active function is grafted on: thin-film lithium niobate bonded in the back end of line for 100 GHz modulators alongside Si/SiN passives and 56 GHz germanium photodetectors, barium titanate for low-power tuning <sup class="ref"><a href="https://pubs.acs.org/doi/10.1021/acsphotonics.9b00558" title="Hybrid BTO-SiN ultra-low power tuning (ACS Photonics)" rel="noopener">ref</a></sup>, dual-layer graphene for cryogenic phase modulation in quantum processors, or erbium implanted directly into the nitride to make it emit at telecom wavelengths. The same films also serve non-photonic roles, for example as the electron-transparent membrane windows in environmental TEM cells and as the dielectric stack in ferroelectric HZO transistor test structures.
-
 The parameters that decide a SiN design are index contrast and confinement (high confinement for compact nonlinear resonators, low confinement for ultra-low-loss delay lines and links), thickness and stress in the deposited film, thermal tuning behaviour, and how the passive layer interfaces with whichever active material provides modulation or gain. Recent work shows those parameters are still being pushed: waveguides with 50 nm cores formed by filling etched glass trenches and fusion-bonding two Borofloat wafers to give a thick symmetric cladding, two-layer 3D routing to eliminate waveguide crossings, and slab-engineered mode hybridisation in rib waveguides to cancel crosstalk between neighbours in standard foundry processes.
 
 The honest framing is that SiN is not an emerging material. It is an incumbent substrate whose capability envelope is being extended, and whose main open question is how far active function can be added without losing the fabrication simplicity that made it attractive.
@@ -100,8 +97,6 @@ On supply, the recurring argument is that SiN sits inside standard CMOS and foun
 **TLDR: Demand from AI interconnect bandwidth, THz wireless capacity, visible-band and quantum PICs; supply from CMOS-compatible foundry processes.**
 
 ## Novelty (3/5)
-
-SiN is not better than an alternative in the way a new material is. It is the baseline. What these sources show is capability being added at its edges: erbium implanted into SiN metasurfaces gives an 18-fold photoluminescence enhancement at telecom wavelength with a near ten-fold lifetime reduction, attacking the material's lack of native emission; graphene overlays are proposed to give it phase modulation at cryogenic temperatures where conventional modulators struggle; and hydrostatic pressure up to 5 GPa was shown to shift a Fabry-Perot resonance by up to 30 nm and reduce refractive index by up to 4%, giving a tuning mechanism that adds no free carriers, in what is claimed as the first extreme-pressure-tunable polarisation-converting metasurface.
 
 Where the sources allow a comparison, it is architectural rather than material: 3D routing cut intralayer crossings from 495 to 150, below the theoretical 153 lower bound for any all-planar layout, and cut average per-waveguide loss by 45.8%. The crosstalk work demonstrates the same technique across silicon-on-insulator and silicon nitride, treating them as peer platforms rather than ranking them. There are no quantitative loss, bandwidth or density comparisons against silicon or lithium niobate in these sources, so the score reflects genuine incremental advance without a measured margin over the alternatives.
 
@@ -142,14 +137,6 @@ The counter-argument is fair and should be stated: because SiN cannot modulate o
 By June 2028, a silicon nitride photonic interposer with more than two routing layers or more than 12 fully connected nodes will be reported with measured average per-waveguide loss below the equivalent all-planar routing baseline, extending the 45.8% reduction demonstrated in April 2026.
 
 ## Evidence base
-
-- 14 May 2026: error-free 10 Gbps transmission in the 300 GHz band, BER below 1e-9 without FEC, using a soliton microcomb in an integrated SiN microring.
-- 14 Apr 2026: a two-layer 3D SiN photonic interposer cut intralayer crossings from 495 to 150 for a 12-node fully connected network, below the 153 all-planar lower bound, and reduced average per-waveguide loss by 45.8%.
-- 5 May 2026: Er3+ implanted into Si3N4 nanocylinder metasurfaces gave roughly 18-fold room-temperature photoluminescence enhancement at telecom wavelength with a near ten-fold lifetime reduction, attributed to the Purcell effect.
-- 8 Dec 2025: back-end-of-line die-to-wafer bonding of thin-film lithium niobate onto an active silicon photonics platform delivered Si/SiN passives, 56 GHz Ge photodetectors and 100 GHz TFLN modulators on one chip.
-- 5 Jun 2026: measured 7% variation in Si3N4 and SiO2 thermo-refractive coefficients across a telecom-to-visible octave, with the material contribution to dneff/dT 1.3 times that from modal confinement, explaining simulation-measurement discrepancies in microrings.
-- 15 May 2026: hydrostatic pressure to 5 GPa shifted a Fabry-Perot resonance in SiN nanostructures by up to 30 nm with a 4% relative index decrease, enabling a pressure-tunable polarisation-converting metasurface.
-- 29 May 2026: low-confinement SiN waveguides with 50 nm core height and 1.3 to 3.5 µm widths were formed by trench-filling and thermal fusion bonding of Borofloat 33 glass wafers to give thick symmetric cladding.
 
 ## Open questions
 

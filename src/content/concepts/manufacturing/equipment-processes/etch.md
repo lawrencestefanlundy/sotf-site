@@ -75,8 +75,6 @@ The parameters that matter are etch rate, selectivity to mask and underlying lay
 
 Plasma-induced damage is the recurring failure mode when the etched material carries a quantum or optical function. Dry etching often leaves challenging levels of undesired collateral damage, which motivates wet alternatives such as SC-1 (Standard Clean 1) solution for patterning niobium and titanium nitride thin films, where etch dynamics are linked to native oxides and film microstructure and the attraction is manageable rates, safe operation and high material selectivity. In conventional lithography plus dry etch on van der Waals crystals, edge roughness limits optical confinement and reproducibility, whereas anisotropic wet etching of multilayer transition metal dichalcogenides gives crystallographically defined, atomically sharp zigzag edges.
 
-Deep etches are also used as isolation and field-management structures. A deep mesa etch that removes epitaxial material except at the device allows low-microwave-loss circuit elements to be placed on the exposed substrate, addressing semiconductor microwave loss in voltage-tunable Josephson junctions on germanium quantum wells. In vertical gallium oxide devices, multi-fin channels 200 nm wide were etched to a trench depth of about 1.2 µm to give enhancement-mode operation with a 2 V threshold voltage and on/off ratio above 10^7.
-
 ## Competitive landscape
 
 The practical choice is between plasma (dry) etching, which gives directionality and depth but risks surface and subsurface damage, and wet or thermally activated chemical etching, which gives selectivity and damage-free surfaces at the cost of profile control. Recent results in wide-bandgap and quantum materials sit at this boundary.

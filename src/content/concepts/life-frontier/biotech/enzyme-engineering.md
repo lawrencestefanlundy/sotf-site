@@ -28,13 +28,9 @@ neighbors: []
 
 Enzyme engineering is the deliberate modification of protein catalysts to change their activity, selectivity or substrate range. The underlying appeal is that enzymes operate under mild conditions in aqueous media and can distinguish between chemically similar sites on a substrate, which removes the need for the protecting-group chemistry that dominates conventional multi-step organic synthesis.
 
-The synthetic problem the technique targets is illustrated by aromatic compounds, which appear in many chemicals, fragrances and drugs. Conventional routes block all reactive sites except the one being addressed, run the reaction, then deprotect before the next step; each protect/react/deprotect cycle lowers the overall yield and adds energy input and solvent waste. An enzyme with sufficient regioselectivity can in principle carry out the same transformation directly, so the engineering objective is to raise catalytic efficiency on substrates bearing aromatic groups.
-
 The key parameters are therefore substrate scope (which aromatic structures the enzyme will accept), catalytic efficiency on those substrates, and whether the modification strategies transfer between enzyme families rather than being one-off fixes. The framing of "generalizable enzyme engineering strategies" indicates that method portability, not a single improved variant, is the stated research target.
 
 ## Competitive landscape
-
-The direct comparator in the supplied source is classical synthetic organic chemistry, judged on yield, energy demand and solvent waste. Multi-step protection chemistry is established and general but loses material at every cycle and generates solvent waste; biocatalysis is presented as the lower-energy, lower-waste alternative, conditional on finding or engineering an enzyme that acts efficiently on the target aromatic substrate. The sources do not compare specific engineering methods (directed evolution, rational design, computational or machine-learning-guided design) against one another.
 
 ## Evidence base
 

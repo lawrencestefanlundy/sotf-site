@@ -104,14 +104,6 @@ By 31 December 2028, no peer-reviewed experiment will report a single solid-stat
 
 ## Evidence base
 
-- 8 May 2026: local droplet etching produces symmetric InGaAs quantum dots in InAlAs at telecom C-band, density 10⁹/cm², aspect ratio 1.14, 0.2 meV linewidths, g²(0) = 0.07 ± 0.02 under above-band CW excitation.
-- 16 June 2026: focused electron-beam irradiation creates deterministic room-temperature emitters in hBN with g²(0) of 0.09, 0.12 and 0.16 across three flakes, a phonon sideband near 575 nm and reversible thermal quenching up to 300 °C.
-- 2 July 2026: a theoretical three-level-atom cavity scheme projects g²(0) ~ 10⁻⁶ with 98.73% indistinguishability in strong coupling, and pulsed ultrastrong-coupling performance of 99.96% efficiency, 98.98% indistinguishability and 99.99% purity.
-- 6 August 2026: direct generation of caterpillar graph states from single-photon sources and linear optics needs l-2 fewer photons and achieves 2^(l-2) higher success rate than fusion-based assembly for l ≥ 3.
-- 30 June 2026: decoy-state QKD is described as the most widely adopted approach for overcoming the limitations of imperfect single-photon sources, indicating the deployed market has engineered around the technology.
-- 4 August 2026: single DBT molecules under strong resonant drive show fluorescence suppression and excess linewidth broadening rather than saturation, explained by intensity-dependent excited-state absorption into a dark state.
-- 5 May 2026: commercial SiC MOSFETs measured from 300 K to 650 mK show large gate hysteresis, threshold shifts and subthreshold swing degradation, a challenge for the cryo-CMOS electronics that integrated quantum photonics would require.
-
 ## Open questions
 
 - Can the three-body-interaction and ultrastrong-coupling blockade schemes be built in hardware, and do the predicted purities survive the cavity's back-action on the emitter dynamics identified in?

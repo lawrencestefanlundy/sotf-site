@@ -19,7 +19,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 171
+mention_count: 175
 scorecard:
   viability: 5
   drivers: 4
@@ -35,7 +35,7 @@ frontier:
 - How far below dB/cm can visible-band lithium tantalate loss be pushed while keeping the 5 dBm power stability advantage over lithium niobate, and does that advantage hold at higher powers 2026 05 14 robust and active visible light integrated photonics on thin?
 - What pump power and waveguide length does the cavity-less comb architecture actually require to beat a microresonator on total system efficiency, given the resonator's inherently lower threshold 2026 05 28 a cavity less architecture for high power integrated frequen?
 sources_7d: 6
-sources_30d: 11
+sources_30d: 14
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
@@ -76,10 +76,6 @@ neighbors: []
 ## Summary
 
 A waveguide is a structure that confines an electromagnetic wave to a cross-section much smaller than free-space propagation would allow and carries it along a defined path. In photonic integrated circuits (PICs) this is usually a high-index core (silicon, silicon nitride, lithium niobate, lithium tantalate) patterned on a lower-index cladding, either as a fully etched strip or as a rib sitting on a residual slab. Everything else on a PIC, modulators, splitters, resonators, delay lines, detectors, is built by locally perturbing a waveguide or by coupling two of them together. The same physics is being reused outside optics: spin-wave waveguides written directly into yttrium iron garnet carry magnons for on-chip microwave processing, and dielectric waveguides feeding movable "pinching" antennas are being proposed as a base-station radio architecture.
-
-The parameters that decide a waveguide are few and unforgiving. Propagation loss in dB/cm sets how long a device can be and therefore how much nonlinear or electro-optic interaction you can accumulate; anisotropic etching of lithium niobate has historically pinned fully poled PPLN waveguides at a few dB/cm, and an isotropic process that poles the planar film before defining the guide has now produced a 1.2 cm low-loss PPLN waveguide. Mode confinement sets how tightly you can bend and how strongly an overlaid material (graphene, an exciton layer, a quantum dot) interacts with the field. Dispersion engineering decides whether a plain waveguide can replace a resonator for comb generation. Crosstalk between neighbouring guides sets the pitch, and therefore the integration density of the whole chip. Material choice sets the wavelength band and the power handling: thin-film lithium tantalate waveguides and modulators at 532 nm survived 5 dBm of modulated optical power for an hour where equivalent thin-film lithium niobate structures did not.
-
-A second, more speculative use of waveguides is as a physics substrate rather than a wire. Arrays of coupled waveguides implement tight-binding lattices in which light propagating along the array plays the role of time evolution, and this has been used to observe Anderson localisation of single photons from a room-temperature hexagonal boron nitride emitter and end-to-end topological pumping in a quasiperiodic Fibonacci chain. Structured waveguides give access to chirality and topology: glide-plane photonic-crystal slow-light waveguides show electrically switchable chiral light-matter coupling, valley photonic crystal edge states transport optical spin skyrmions directionally, and time-modulated metasurface waveguides open intermodal momentum band gaps that permit directional amplification. These two uses have very different maturity and should be assessed separately.
 
 ## Viability (5/5)
 
@@ -138,13 +134,6 @@ The second underappreciated line is material choice by wavelength band and power
 By 31 December 2027, at least one silicon-photonics or silicon-nitride foundry process design kit will publish a reduced minimum waveguide pitch justified by slab-engineered mode hybridisation or an equivalent geometry-only crosstalk cancellation, following the multi-platform demonstration reported on 28 May 2026.
 
 ## Evidence base
-
-- 28 May 2026: zero crosstalk between adjacent standard rib waveguides demonstrated experimentally via slab thickness engineering across silicon-on-insulator and silicon nitride, presented as a foundry-compatible alternative to specialised nanostructures.
-- 14 May 2026: thin-film lithium tantalate waveguides at 532 nm with dB/cm-scale loss and modulators flat to about 50 GHz, stable at 5 dBm modulated output for an hour where thin-film lithium niobate was not, supporting 112 Gb/s over 3 m and 64 Gb/s over 9 m underwater.
-- 28 May 2026: a 1.2 cm periodically poled lithium niobate nanophotonic waveguide with low propagation loss, produced by poling the planar film before waveguide definition to avoid the anisotropic etching that had held fully poled devices at a few dB/cm.
-- 28 May 2026: on-chip frequency comb generation without a cavity, using non-degenerate cascaded four-wave mixing in dispersion-engineered waveguides, claiming higher pump-to-comb conversion efficiency, tunable line spacing and higher power per line than microresonator combs.
-- 6 May 2026: Anderson localisation observed with single photons from a hexagonal boron nitride emitter at room temperature in disordered coupled-waveguide lattices, showing waveguide arrays are mature enough to serve as quantum-transport testbeds.
-- 4 May 2026: cascaded programmable magnonic circuits written in a single laser-writing step in yttrium iron garnet, with phase-coherent spin-wave propagation over hundreds of wavelengths and complete periodic power transfer between coupled waveguides.
 
 ## Open questions
 

@@ -38,7 +38,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 108
+mention_count: 109
 descendants:
 - ai-thermal-management
 - cryogenic-cooling
@@ -63,7 +63,7 @@ descendants:
 - two-phase-cooling
 - vapor-chambers
 sources_7d: 2
-sources_30d: 9
+sources_30d: 10
 recent_mentions:
 - slug: 2026-09-02-vertical-power-delivery-thermal-limits
   title: 'Vertical power delivery: the thermal limit at the 48V-to-point-of-load stage'
@@ -129,15 +129,11 @@ neighbors:
 
 Thermal management covers everything done to get heat out of, around, or deliberately not through a device: heat spreaders, interface materials, substrate choice, layout, and more recently engineered materials whose thermal conductivity or radiative emission can be designed or actively switched. The physics that matters is narrower than it sounds. At the length scales now in play, bulk Fourier conduction is a poor guide: heat is carried by phonons with mean free paths comparable to film thickness, most of the resistance can sit at interfaces rather than in the bulk, and conventional cooling strategies fail because there is no room for a heat path.
 
-The supplied literature splits into three clusters. The first is metrology and materials characterisation: frequency-domain thermoreflectance and machine-learned atomistic simulation on stoichiometric lithium niobate, whose room-temperature conductivity is orders of magnitude below silicon; time-resolved X-ray diffraction on colloidal quantum dot films measuring conductivity as low as 0.55 W/m/K in close-packed solids; sub-kelvin measurements of substrate conductivity for cryogenic quantum integration; and reconciliation of a near-order-of-magnitude experimental spread in MXene out-of-plane conductivity via heterogeneous surface terminations. The second is active or engineered control of heat flow: hexagonal boron nitride flakes as nanoscale heat spreaders, electrically switchable interfacial thermal conductance at metal/topological-insulator junctions, magnet-free nonreciprocal thermal radiation in magnetic Weyl semimetals, epsilon-near-zero coatings for spectrally selective emission, and 2D thermal metamaterials in which coherent nonlinear excitations route energy. The third is system-level design: high-resolution non-uniform-power thermal analysis of 2.5D/3D chiplet packages, reinforcement-learning chiplet placement that treats wirelength and temperature as explicitly conflicting objectives, and the argument that co-packaged optics is an architectural commitment in which thermal co-design determines deployment.
-
 The deciding parameters are consistent across those clusters. In-plane versus out-of-plane conductivity anisotropy; interfacial thermal conductance, which frequently dominates over bulk conductivity; film thickness relative to phonon mean free path, where topological surface phonons can contribute over 30% of in-plane conductivity below 10 nm; and, at system level, the spatial resolution at which power density is modelled, since uniform power maps substantially underestimate peak temperature.
 
 ## Viability (3/5)
 
 The characterisation layer is credible and converging. Independent techniques give quantitative, cross-checked numbers: FDTR plus machine-learned potentials agree on lithium niobate conductivity, contact-free time-resolved X-ray diffraction resolves quantum dot heating and cooling on sub-nanosecond timescales, and cryogenic substrate conductivities are measured and then reproduced with a non-equilibrium Green's function ballistic model. Simulation-plus-experiment agreement of this kind is the normal precondition for design use.
-
-The control layer is much earlier. Nanoscale heat spreading with hBN is demonstrated with simulation and nanothermometry on immobilised gold nanospheres, not in a device. Electrically tunable interfacial conductance is reported as direct experimental evidence at Au/Bi(1-x)Sb(x) junctions with control experiments confirming topological specificity, but the reported modulation is a laboratory measurement of a junction, not a working thermal switch. Nonreciprocal emitters and thermal metamaterials remain predictive or theoretical. The residual MXene conductivity spread of 0.14 to 0.8 W/m/K shows how sensitive these materials are to uncontrolled surface chemistry.
 
 **TLDR: Measurement and system-level modelling are solid; active heat-flow control is a set of single-device demonstrations.**
 
@@ -150,8 +146,6 @@ On supply, the enabling change is computational and metrological rather than man
 **TLDR: Demand is unambiguous and comes from power density in 3D packaging, co-packaged optics and cryogenic integration; supply is being unlocked by machine-learned potentials and new nanothermometry.**
 
 ## Novelty (3/5)
-
-The strongest novelty claims are quantified against a clear baseline. Topological surface phonons are shown to contribute over 30% of in-plane thermal conductivity in sub-10 nm Si, 4H-SiC and c-BN films, up to 82 W/m/K in absolute terms, which is a mechanism absent from conventional thin-film phonon models and tunable with temperature and biaxial strain. Magnetic Weyl semimetals such as Co3Sn2S2 are predicted to give stronger and broader nonreciprocal thermal radiation than the conventional semiconductor InAs while removing the external magnet entirely, which is an architectural simplification rather than an incremental gain. At system level, moving from uniform to 5 micrometre resolution non-uniform power maps reverses the ranking of backside versus frontside power delivery in 3D stacks, meaning the incumbent analysis method was giving the wrong answer, not merely a less precise one.
 
 Elsewhere the improvement is over prior theory rather than over deployed practice. The MXene work brings simulation into quantitative agreement with experiment by invoking a stereochemical vacuum gap; the Bode-Fano analysis sets ultimate absorption-bandwidth bounds rather than beating any existing absorber; and theta-TaN is presented as combining metallic conductivity with high thermal conductivity, but the reported figures are anisotropic strength and modulus values from simulation, with over 73% of 300 K strength retained at 900 K, not a measured thermal comparison against copper or similar. The sources do not quantify how much better hBN spreading is than the alternatives in a real device.
 
@@ -169,8 +163,6 @@ The second barrier is objective conflict. Wirelength reduction and thermal manag
 
 The value is leverage rather than a standalone market. If localised heating sets peak temperature in 3D stacks, then thermal analysis fidelity directly determines which power delivery architecture is chosen, and backside power delivery networks that look beneficial under uniform assumptions carry pronounced penalties under realistic localised workloads because of limited lateral heat spreading. That is a decision affecting the roadmap of advanced logic packaging, not a marginal efficiency gain. Similarly, thermal co-design is presented as one of the factors deciding whether co-packaged optics reaches scale in AI datacentres, and cryogenic thermal budgets are a central challenge for integrating qubits with control electronics.
 
-There is a second, smaller impact channel in device performance rather than system architecture. Quantum dot films providing optical gain conduct heat poorly at 0.55 W/m/K, which directly bounds duty cycle and lifetime in emissive and lasing devices; lithium niobate photonics faces conductivity orders of magnitude below silicon; and plasmonic heating degrades performance in biosensing, nanophotonics and microelectronics. Beyond electronics, the sources point to elastocaloric refrigeration, thermoelastic harvesting and latent heat storage using shape memory alloys, but give no market or performance figures to size that.
-
 **TLDR: Thermal limits gate 3D integration, in-package optics and cryogenic quantum scale-up, so getting this right or wrong changes what those architectures can be.**
 
 ## Timing Now (0-2yr)
@@ -185,11 +177,7 @@ Material substitutions with an existing process route, such as choosing high-res
 
 The underrating is specific: thermal management is still treated as a downstream packaging task, and the sources show it is functioning as an architectural constraint that changes the answer to first-order design questions. The clearest single piece of evidence is that using uniform power maps flips the conclusion on backside versus frontside power delivery in 3D stacks, reinforced by the argument that component-level optimisation of co-packaged optics has stalled deployment because packaging and thermal effects dominate. Any roadmap for 3D logic, in-package optics or integrated cryogenic quantum systems that carries thermal as a late-stage check is likely mis-specified.
 
-The caveat cuts the other way for the glamorous end of the field. Electrically tunable interfacial conductance, nonreciprocal thermal emitters, thermal metamaterials and topological surface phonon engineering are interesting physics with, in these sources, no device-level demonstration, no manufacturability evidence and in the MXene case not yet reproducible property values. Treating those as near-term solutions would be the mirror-image error. The value on a two-year view sits in metrology and thermal-aware co-design, not in new heat-routing materials.
-
 ## Prediction
-
-By the end of 2028, thermal-aware design methods such as non-uniform power thermal analysis and multi-objective chiplet placement will be routine in published 2.5D/3D packaging work, while no commercially shipping product will use active heat-flow control based on tunable interfacial thermal conductance, thermal metamaterials or nonreciprocal thermal emitters.
 
 ## Evidence base
 
@@ -201,11 +189,6 @@ By the end of 2028, thermal-aware design methods such as non-uniform power therm
 - 22 July 2026: MXene out-of-plane thermal conductivity measurements span 0.14 to 0.8 W/m/K, a spread attributed to heterogeneous surface terminations creating a stereochemical vacuum gap.
 
 ## Open questions
-
-- In a working device rather than a model system, how much peak temperature reduction does an hBN heat spreader deliver, and does interfacial thermal conductance rather than in-plane conductivity set the limit?
-- Can MXene out-of-plane thermal conductivity be specified to better than a factor of two by controlling surface terminations, which is the precondition for using it as an engineering insulator?
-- Does the reversible modulation of interfacial thermal conductance at Au/Bi(1-x)Sb(x) junctions give a switching ratio and speed sufficient for any useful thermal switch, and at what current cost?
-- Do the thermal penalties found for backside power delivery under localised workloads survive in silicon measurements, or are they an artefact of the simulated power maps?
 
 ---
 *Assessment drafted 2026-08-31 from up to 18 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

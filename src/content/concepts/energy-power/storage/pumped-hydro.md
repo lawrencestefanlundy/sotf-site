@@ -46,9 +46,4 @@ No comparison is possible from the available sources. Neither source contains da
 
 ## Frontier (open questions)
 
-- What round-trip efficiency, response time and cycle life do operating pumped hydro plants achieve, and how do these compare with lithium-ion grid storage on the same duty cycle?
-- What is the capital cost per kWh of installed energy capacity for new-build pumped hydro, and how does it scale with head height and reservoir volume?
-- How binding are siting, geology and permitting constraints on the addressable pipeline in the major grids, and what fraction of announced projects reach commissioning?
-- Where does pumped hydro sit against emerging long-duration alternatives for durations beyond 8 hours, on both cost and deployable capacity?
-
 *Synthesised 2026-08-31 from 2 KB sources by the resynth pipeline; citations are KB source slugs.*

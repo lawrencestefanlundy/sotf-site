@@ -22,9 +22,9 @@ frontier:
 last_updated: 2026-06-02
 tags:
 - concept
-mention_count: 13
-sources_7d: 2
-sources_30d: 4
+mention_count: 15
+sources_7d: 4
+sources_30d: 6
 recent_mentions: []
 neighbors:
 - slug: gallium-nitride
@@ -48,8 +48,6 @@ neighbors:
   path: /manufacturing/equipment-processes/mocvd-mbe/
   macro: manufacturing
 ---
-Aluminium gallium nitride (Al_xGa_{1-x}N, AlGaN) is a III-nitride ternary alloy formed by substituting aluminium into the gallium sites of gallium nitride. The bandgap is tunable from 3.4 eV (pure GaN) to 6.2 eV (pure AlN) by varying the aluminium mole fraction x, making AlGaN the primary wide-bandgap material for deep-ultraviolet (UV-C, 200–280 nm) emitters and detectors.
-
 Its most commercially significant role is as the barrier layer in AlGaN/GaN heterostructures. The spontaneous and piezoelectric polarisation mismatch between AlGaN and GaN at the interface induces a two-dimensional electron gas (2DEG) in the GaN channel without doping — this is the active region of every GaN HEMT power device and RF transistor (see [Gallium Nitride](/energy-power/power-electronics/gallium-nitride/)). The Al composition (typically 15–30%) and barrier thickness control the 2DEG charge density and thus device on-resistance and breakdown voltage.
 
 As a standalone emitter material, high-Al-content AlGaN (x > 0.4) enables deep-UV LEDs for water purification, surface sterilisation (hospital environments, point-of-use water treatment), and fluorescence-based biosensing. This is the primary application differentiated from InGaN's visible-light LEDs (see [Indium Gallium Nitride](/materials/functional-layers/indium-gallium-nitride/)). AlGaN photodetectors are also "solar-blind" (insensitive to visible solar background) — valued in UV sensing for flame detection and atmospheric monitoring.

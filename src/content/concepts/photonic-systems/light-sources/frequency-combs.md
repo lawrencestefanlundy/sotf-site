@@ -29,7 +29,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 5
+sources_7d: 4
 sources_30d: 10
 recent_mentions: []
 neighbors: []
@@ -40,23 +40,15 @@ neighbors: []
 
 A frequency comb is an optical spectrum made of narrow lines at exactly equal frequency spacing. Two numbers define it: the line spacing, set by the repetition rate of the underlying pulse train or by the resonator free spectral range, and the offset of the whole grid from zero. Fix both and every line's absolute optical frequency is known to the accuracy of a radio-frequency reference, which is why combs underpin atomic clocks, interferometry and precision spectroscopy. Two comb sources with slightly different spacings can be beaten against each other to map an entire optical spectrum onto a radio-frequency spectrum, the dual-comb technique that dominates the application-facing literature here.
 
-There are several ways to make one. Mode-locked fibre and solid-state oscillators are the mature route, and commercial units are used as measurement instruments in these papers. The chip-scale route pumps a high-quality-factor microring with a continuous-wave laser and lets the Kerr nonlinearity cascade four-wave mixing into a comb, usually stabilised as a dissipative temporal soliton circulating in the cavity; the physics and the numerical and laboratory methods are set out at length in a 2026 review. A third route uses electro-optic modulation of a continuous-wave laser, which gives direct electronic control of the line spacing.
-
 The parameters that decide competitive outcomes are pump-to-comb conversion efficiency, power per line, spectral span, tunability of the line spacing, and phase noise. Microresonators win on threshold power because the cavity enhances the nonlinearity, but that same cavity limits efficiency, tunability and per-line power; a 2026 demonstration removes the cavity entirely and drives non-degenerate cascaded four-wave mixing in a dispersion-engineered waveguide to reach regimes of conversion efficiency, continuous line-spacing tunability and per-line power that resonator combs cannot access. Dispersion engineering is the other main lever: a hybrid scheme placing a strong-dispersion section around the pump resonance in an otherwise weakly dispersive photonic-crystal microresonator reconciles broadband spectra with reliable single-soliton formation at microwave repetition rates.
 
-The word comb has also migrated beyond optics. The same nonlinear physics produces phononic combs in gated graphene drums, optomechanical combs in fibre Fabry-Perot cavities with suspended hexagonal boron nitride, and microwave combs from gate-tunable Josephson devices. These are much earlier stage than optical combs and should be judged separately.
-
 ## Viability (4/5)
-
-The evidence base is experimental, not speculative. Mode-locked fibre combs are used as instruments to measure an entire acetylene band with 0.27 per cent relative standard deviation on retrieved pressure; tantalum pentoxide microrings reach loaded Q of 2.74 x 10^6 and intrinsic Q above 4 x 10^6 using photolithography-assisted chemo-mechanical etching rather than electron-beam lithography; mid-infrared combs around 9 micrometres have been generated from a continuous-wave quantum cascade laser with a room-temperature free-space modulator, with repetition rates tunable down to the megahertz range and read directly on an electrical spectrum analyser.
 
 What holds the score below 5 is that the integrated versions still carry acknowledged defects. Microresonator combs are described as intrinsically limited in efficiency, tunability and power per line by the presence of the cavity, and microwave-repetition-rate resonators are prone to uncontrollable multi-soliton formation unless dispersion is engineered around it. Development beyond 5 micrometres remains limited, and pulse-to-pulse amplitude and width fluctuations in the mode-locked sources that anchor the field are only now being characterised, at the level of roughly 3 femtoseconds of pulse-width fluctuation in two commercial oscillators. These are engineering problems with visible routes forward, not physics risks.
 
 **TLDR: Working hardware across many platforms, with named and quantified limitations rather than open questions of principle.**
 
 ## Drivers (4/5)
-
-On the supply side, the constraint has been a waveguide material that simultaneously offers broad transparency, engineered dispersion, low loss and strong Kerr nonlinearity without two-photon absorption at short wavelengths. Tantalum pentoxide, silicon-photonic compatible, transparent from 300 to 8000 nm and with a nonlinear index three times that of silicon nitride, is being advanced against that list, and the fabrication route avoids expensive electron-beam lithography. Thin-film lithium niobate supplies the electro-optic and second-order nonlinear functions. The sources do not give market sizes, funding flows or volumes, so the demand argument here is technical rather than commercial.
 
 **TLDR: Demand from molecular sensing, metrology and quantum photonics is explicit in the sources; supply is improving through CMOS-compatible materials and cheaper lithography.**
 
@@ -69,8 +61,6 @@ On sources, the cavity-less waveguide comb is presented as reaching previously i
 ## Diffusion (3/5)
 
 Diffusion is stratified. Commercially available passively mode-locked oscillators at 1030 and 1045 nm are treated as off-the-shelf components, and erbium-fibre combs are used routinely as spectroscopy engines. So the technology already diffuses within the metrology and physics instrumentation market. The move outward, into field geology, industrial process monitoring and telecom transceivers, depends on integration, and the integrated demonstrations here are laboratory devices.
-
-The barriers visible in the sources are fabrication yield and loss control in hard, brittle materials, which drove the need for a specialised etching process to avoid rough sidewalls and scattering loss; the reliability of soliton state access, where multi-soliton formation is uncontrollable at microwave repetition rates without dispersion tricks; and residual free-space components, since the 9 micrometre demonstration still uses free-space electro-optic modulators. Countervailing signs are positive: the mid-infrared electro-optic source gives electronic control of the free spectral range and over 200 nm of centre-wavelength tunability from a chip platform, and all-optical synchronisation of breather solitons to a weak injected laser gives direct control of oscillation frequency with strong noise reduction, both of which reduce the operator skill required. The sources contain no cost, volume, standards or qualification data, which caps confidence at contested.
 
 **TLDR: Benchtop combs are already routine instruments, but the chip-scale and mid-infrared versions remain single-laboratory demonstrations with no packaging, cost or reliability data in the sources.**
 
@@ -98,17 +88,7 @@ Where expectations most often go wrong is on the assumption that microring solit
 
 ## Prediction
 
-By July 2029, at least one peer-reviewed demonstration will report a fully chip-integrated mid-infrared comb source operating beyond 5 micrometres with no free-space modulator, extending the thin-film-lithium-niobate and quantum-cascade-laser approaches of 2026.
-
 ## Evidence base
-
-- Monolithic tantalum pentoxide microrings reached loaded Q of 2.74 x 10^6 in the telecom band and intrinsic Q above 4 x 10^6 without electron-beam lithography, reported 2026.
-- Tantalum pentoxide waveguides produced supercontinuum spanning continuously from ultraviolet to mid-infrared, exploiting a 300 to 8000 nm transparency window and a nonlinear index three times that of silicon nitride, 24 June 2026.
-- A cavity-less on-chip comb using non-degenerate cascaded four-wave mixing in dispersion-engineered waveguides was demonstrated on 28 May 2026, targeting the efficiency, tunability and per-line power limits of microresonator combs.
-- Dual terahertz combs achieved refractive-index sensitivity of 5.05 x 10^7 Hz/RIU, R^2 = 0.9979 linearity, 1.07 x 10^-4 RIU resolution and 5.50 x 10^-5 RIU accuracy, expanding the index-induced shift from tens of hertz to hundreds of kilohertz, 5 May 2026.
-- Dual-comb cavity mode dispersion spectroscopy measured the full nu1+nu3 acetylene band with 0.27 per cent relative standard deviation on retrieved pressure and spectral fluctuation equal to 1.4 x 10^-6 cm^-1 absorption, 24 June 2026.
-- Mid-infrared single- and dual-comb generation around 9 micrometres from a continuous-wave quantum cascade laser with room-temperature free-space electro-optic modulators, repetition rates tunable to the megahertz range, 7 July 2026.
-- A gate-tunable Josephson field-effect transistor was proposed as a microwave comb generator covering 1 to 10 GHz, supported by time-domain circuit simulation rather than fabrication, 21 July 2026.
 
 ## Open questions
 

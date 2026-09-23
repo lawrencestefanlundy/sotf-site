@@ -21,6 +21,7 @@ sources:
 - '[[2024-01-15-nordics-nrf9161-sip-and-dk-add-additional-lte-bands-and-redu]]'
 - '[[2024-05-07-vitec-and-rfmondial-showcase-ultra-low-latency-video-streami]]'
 - '[[2026-06-12-dect-nr-demystified---sennheiser]]'
+- '[[2024-06-03-conexio-stratus-pro---a-battery-powered-nrf9161-development-]]'
 - '[[2024-01-29-nordics-nrf9161-sip-and-dk-support-cellular-iot-and-dect-nr-]]'
 - '[[2026-05-07-stratum-9-launches-first-industrial-grade-dect-nr-gateway---]]'
 - '[[2024-11-15-conexio-stratus-pro-nrf9151-low-power-iot-development-kit-su]]'
@@ -46,7 +47,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 32
+mention_count: 33
 sources_7d: 0
 sources_30d: 3
 recent_mentions:

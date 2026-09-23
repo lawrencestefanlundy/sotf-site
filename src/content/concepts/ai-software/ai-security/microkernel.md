@@ -27,7 +27,7 @@ frontier:
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 26
+mention_count: 27
 scorecard:
   viability: null
   drivers: 2
@@ -37,8 +37,8 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 1
-sources_30d: 4
+sources_7d: 2
+sources_30d: 5
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'

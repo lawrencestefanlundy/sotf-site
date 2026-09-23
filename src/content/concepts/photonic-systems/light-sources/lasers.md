@@ -25,11 +25,11 @@ sources:
 - '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 - '[[2026-07-10-the-next-vc-meme-is]]'
-mention_count: 255
+mention_count: 258
 descendants:
 - external-laser-source
 - laser-display-light-engines
-sources_7d: 1
+sources_7d: 2
 sources_30d: 6
 recent_mentions:
 - slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
@@ -71,8 +71,6 @@ neighbors: []
 Laser = Light Amplification by Stimulated Emission of Radiation. A gain medium (semiconductor, fiber, gas, crystal) is pumped to population inversion; photons stimulate coherent emission, with mirrors forming a resonant cavity. Key parameters: wavelength, linewidth, output power, wall-plug efficiency, coherence length, beam quality (M²). Semiconductor diode lasers dominate volume (850 nm VCSELs for datacom, 976 nm pump lasers, 1550 nm DFBs for coherent comms). Edge-emitters reach >10 W CW; VCSELs scale to 2D arrays. QCLs cover mid-IR (3–12 µm). State-of-art: co-packaged optics pushing silicon photonics integration with on-chip III-V lasers (heterogeneous bonding, wafer-scale); sub-kHz linewidth ECLs for coherent LiDAR.
 
 ## Competitive landscape
-
-Diode lasers compete with LEDs (incoherent, lower cost, sufficient for illumination/sensing below ~10 m), OLEDs (display), and broadband sources. Adjacent: optical amplifiers (EDFAs, SOAs), nonlinear frequency converters (OPOs, SHG), and ultrafast pulsed systems (mode-locked fiber lasers). Primary substitution risk is from integrated photonics moving laser function on-chip, commoditising discrete components.
 
 | Type | Wavelength range | Key application |
 |---|---|---|

@@ -84,8 +84,6 @@ A single-mode optical fibre carries a mode roughly ten micrometres across. A sil
 
 The parameters that decide the technology are: insertion loss per facet (paid twice per link, and multiplied by channel count in wavelength-multiplexed engines); optical bandwidth and polarisation dependence; lateral and vertical alignment tolerance, which sets whether assembly can be passive and machine-paced or must be active and slow; and mechanical and thermal stability of the joint over the product's life. The 1064 nm TFLN work explicitly characterises polarisation-dependent alignment tolerance in the lateral and vertical directions, which is the parameter a packaging engineer cares about more than peak efficiency.
 
-The interface matters now because the photonic engine is moving inside the package. TSMC's Co-Packaged Optics Ultra Engine architecture puts micro-ring resonators in a photonic layer alongside logic at the A16 / 2 nm node, where a resonance shift of only plus or minus 1.7 nm produces measurable bit error rate degradation. Every one of those engines needs an external fibre attach, in high port counts, at connector-industry cost and reliability. That is why coupling IP has become an acquisition target rather than a research curiosity: Molex bought Teramount and its PhotonicPlug/PhotonicBump fibre-to-chip coupling technology for around $430M, announced 15 April 2026 and completed 7 May 2026, having already led a $50M round in July 2025 through Koch Disruptive Technologies <sup class="ref"><a href="https://www.lightwaveonline.com/business/mergers-acquisitions" title="Optical-interconnect / photonic-packaging M&A ledger (2019-2026)" rel="noopener">ref</a></sup>.
-
 ## Viability (4/5)
 
 Both coupling families are demonstrated in full systems, not just test structures. Inverse-designed grating couplers carried the optical input for a 32-channel, 1.024 Tb/s monolithic CMOS receiver achieving BER below 1e-12 without equalisation or error correction, which is a system-level pass, not a component-level curve. On the edge-coupling side, a bilayer inverse taper on TFLN at 1064 nm was fabricated and measured at 1.9 dB per facet, with the path to sub-1 dB identified as a lensed-fibre mode field diameter change rather than a new physical mechanism. A heterogeneous BEOL TFLN-on-active-silicon platform reports low-loss fibre interfaces alongside 100 GHz modulators and 56 GHz germanium photodetectors on the same die, indicating that fibre interfaces are being treated as a standard platform element rather than a bespoke one.
@@ -113,8 +111,6 @@ The adjacent coupling literature reinforces that this is a family of engineering
 ## Diffusion (3/5)
 
 The structural barriers are alignment and standardisation. Coupling loss is only useful if it survives the assembly tolerance budget; the TFLN work measures polarisation-dependent alignment tolerance laterally and vertically but the excerpt gives no micron figures, and its best-case number depends on a lensed fibre with a 2.5 micrometre mode field diameter, which is a more demanding and more expensive component than a cleaved standard fibre. Grating couplers avoid facet preparation and enable surface access, which is why they appear in a monolithic CMOS part, but the source does not report their bandwidth or polarisation penalty.
-
-Two things favour diffusion. First, the interface is being absorbed by companies whose core competence is exactly high-volume, low-cost, mechanically reliable connectors: Molex now owns PhotonicPlug/PhotonicBump, and Amphenol is identified as the most acquisitive connector prime globally <sup class="ref"><a href="https://www.lightwaveonline.com/business/mergers-acquisitions" title="Optical-interconnect / photonic-packaging M&A ledger (2019-2026)" rel="noopener">ref</a></sup>. Second, the substrate itself is moving in a direction that may simplify optical routing, with glass substrates being pursued for chiplet-era packaging and Intel reported to be working at one metre by one metre scale <sup class="ref"><a href="https://stateofthefuture.substack.com/p/the-future-of-computing-is-glass" title="The Future of Computing is Glass w/ Andrea Rocchetto of Ephos" rel="noopener">ref</a></sup>. Against that, the co-packaged optics environment is thermally hostile enough that resonance control is being addressed with predictive software scheduling, and any fibre joint sits inside that same thermal cycle. Score held at 3 because the sources establish commercial intent and platform integration, but contain no data on units, yield or throughput.
 
 **TLDR: Ownership by connector primes eases the route to volume, but the sources do not quantify alignment tolerance, assembly throughput or yield.**
 
@@ -146,19 +142,7 @@ By 31 December 2027, a measured (not simulated) fibre-to-chip edge-coupling loss
 
 ## Evidence base
 
-- 4 Aug 2026: bilayer inverse taper on thin-film lithium niobate measured 1.9 dB per facet TE coupling loss at 1064 nm with a 1 dB bandwidth of 1055 to 1085 nm, and simulation projects 0.48 dB per facet using a 2.5 micrometre mode field diameter lensed fibre.
-- Published 12 Jan 2026: a monolithic 45 nm CMOS receiver using inverse-designed broadband grating couplers ran 32 channels at 32 Gb/s each for 1.024 Tb/s aggregate, 71 fJ/b, 4 Tb/s/mm2, with BER below 1e-12 and no equalisation or error correction.
-- Molex acquired Teramount and its PhotonicPlug/PhotonicBump fibre-to-chip coupling technology for around $430M, announced 15 April 2026 and completed 7 May 2026, after Koch Disruptive Technologies led a $50M round in July 2025 <sup class="ref"><a href="https://www.lightwaveonline.com/business/mergers-acquisitions" title="Optical-interconnect / photonic-packaging M&A ledger (2019-2026)" rel="noopener">ref</a></sup>.
-- Published 18 May 2026: TSMC's COUPE co-packaged optics architecture at the A16 / 2 nm node embeds micro-ring resonators whose resonant wavelength deviating by plus or minus 1.7 nm causes measurable BER degradation.
-- Published 8 Dec 2025: first heterogeneous back-end-of-line integration of TFLN with an active silicon photonics platform via trench-based die-to-wafer bonding, delivering low-loss fibre interfaces alongside 56 GHz Ge photodetectors and 100 GHz TFLN modulators.
-- Published 20 Nov 2025: III-V-on-silicon quantum dot laser work targets coupling on standard 220 nm silicon waveguides because thicker films that ease coupling break CMOS compatibility.
-
 ## Open questions
-
-- What lateral and vertical alignment tolerance, in micrometres, do the leading edge and grating couplers achieve at their stated losses, and does that permit passive machine-placed assembly or force active alignment?
-- How does coupling loss and joint stability behave across the thermal cycle of an in-package optical engine, given that plus or minus 1.7 nm of resonance drift already degrades BER in COUPE-style micro-ring links?
-- Do inverse-designed grating couplers hold their efficiency and bandwidth across process corners and volume production, or only in the demonstration dies reported in?
-- Does the shift to glass substrates and one-metre-scale panels change the fibre attach interface enough to obsolete current coupler IP <sup class="ref"><a href="https://stateofthefuture.substack.com/p/the-future-of-computing-is-glass" title="The Future of Computing is Glass w/ Andrea Rocchetto of Ephos" rel="noopener">ref</a></sup>?
 
 ---
 *Assessment drafted 2026-08-31 from up to 11 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

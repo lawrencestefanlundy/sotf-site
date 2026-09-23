@@ -23,7 +23,6 @@ sources:
 - '[[2026-08-24-embedd-pre-seed-siliconangle]]'
 - '[[2026-07-26-seat-pricing-regime-break]]'
 - '[[2026-06-18-aeon-verification]]'
-- '[[2026-05-28-semianalysis-finding-miscompiles]]'
 scorecard:
   viability: 3
   drivers: 4
@@ -33,7 +32,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 117
+mention_count: 122
 descendants:
 - agent-identity-kya
 - agentic-ai
@@ -43,8 +42,8 @@ descendants:
 - stablecoin-clearing
 - stablecoins
 - x402
-sources_7d: 6
-sources_30d: 32
+sources_7d: 11
+sources_30d: 36
 recent_mentions:
 - slug: 2026-08-24-embedd-pre-seed-siliconangle
   title: Chip software automation startup Embedd raises $2.7M
@@ -87,8 +86,6 @@ neighbors: []
 An AI agent is a large language model wrapped in a loop: it receives a goal in natural language, decides on actions, invokes external tools (browsers, simulators, laboratory instruments, payment APIs, shells), observes results, and iterates until it believes the goal is met. The distinguishing features versus a chatbot are tool use, persistent memory across turns or runs, and the authority to take actions with real-world side effects. Standardisation has arrived at the tool interface: the Model Context Protocol (MCP) is an open standard letting models connect to external tools, databases and services, and is increasingly adopted by agent builders. A parallel payments layer, x402, extends HTTP 402 with a negotiation flow so autonomous agents can pay for API calls, with settlement delegated to third-party facilitators.
 
 The parameters that decide whether an agent is useful are not model quality alone. They are: whether the task can be verified (does a simulator, compiler or statistical ground truth exist to check the answer); whether knowledge persists between runs; whether the agent can be given exactly the authority it needs and no more; and cost per unit of progress. FluxBench introduces Token ROI, a cost-efficiency metric measuring effective improvement per token spent, precisely because raw success rate hides how expensive agentic iteration is. Memory is emerging as the other decisive parameter: the prevailing paradigm treats each execution in isolation and discards insight between runs, and closing that gap produced large measured gains in computational materials science.
-
-The evidence base in these sources is dominated by two genres. The first is hard benchmarks in domains where correctness is checkable: multi-stage genomics and biomedical statistical reasoning with 129 evaluations across 10 domains, computer architecture design across 20 challenges backed by eight simulators, end-to-end RTL-to-GDS chip flows using commercial EDA tools, and 920 real-world vulnerabilities across 139 open-source projects for the full discover-exploit-patch cycle. The second genre is security: agents break the assumptions that browsers, operating systems and authorisation protocols were built on.
 
 That security literature is unusually consistent. Agentic browsers act as an automated channel for cross-origin data flows and frequently violate the same-origin policy, in benign settings as well as under attack. Most MCP servers cannot distinguish who is invoking a request and rely on persistent authorisation, so one approval implicitly grants access to multiple untrusted callers. Self-hosted agents can be compromised through corruption of their own memory and configuration files using entirely legitimate system calls. Long-term multimodal memory can be poisoned by imperceptible image perturbations without any access to the model or the text channel. Whether agents scale is now as much a question about authorisation, identity and memory integrity as about reasoning.
 

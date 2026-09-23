@@ -31,7 +31,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 58
+mention_count: 59
 last_reorg_date: '2026-05-14'
 scorecard:
   viability: 4
@@ -42,8 +42,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 2
-sources_30d: 9
+sources_7d: 3
+sources_30d: 10
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
@@ -158,11 +158,6 @@ By 31 December 2028, no commercially shipping SSD will implement in-NAND-array s
 - 21 July 2026: the first workload-driven cross-platform survey of mass-spectrometry search accelerators benchmarks 3D NAND and FeNAND in-storage processing against GPUs, near-storage FPGAs, DRAM near-memory processing and ReRAM/PCM in-memory processing, using a binary hyperdimensional computing formulation chosen to tolerate device-level non-idealities.
 
 ## Open questions
-
-- Where does Walker's die-cost minimum actually fall in layer count for current production processes, and have reductions in etch taper angle θ or multi-deck construction moved it since 2013 **Walker 2013 Rigorous 3D Nand Flash Cost Analysis**?
-- Has anyone built the lithography-intensive layered 3D alternative (three critical masks per device layer) at scale, and does the claimed total-cost undercut of vertical-channel NAND survive real yield and cycle-time data **Walker 2013 Rigorous 3D Nand Flash Cost Analysis**?
-- What end-to-end speedup and energy reduction does in-array NAND retrieval deliver against a DRAM near-memory or ReRAM/PCM in-memory baseline, in numbers, on a full RAG pipeline?
-- Do in-array search operations degrade endurance, retention or read disturb enough to matter, and does the binary hyperdimensional formulation's tolerance of device non-idealities hold at production process corners?
 
 ---
 *Assessment drafted 2026-08-31 from up to 18 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

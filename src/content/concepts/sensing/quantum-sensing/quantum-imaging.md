@@ -18,7 +18,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 16
+mention_count: 17
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 3
@@ -29,8 +29,8 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 1
-sources_30d: 2
+sources_7d: 2
+sources_30d: 3
 recent_mentions: []
 neighbors: []
 ---
@@ -42,8 +42,6 @@ Quantum imaging is a family of optical techniques that exploit non-classical lig
 
 The physics is settled; the engineering parameters decide whether any of it is useful. The first is photon budget. Correlation-based methods throw away most detections: a scattering-media contrast demonstration improved image contrast by post-selecting spatially correlated coincidences, but at the cost of higher shot noise because far fewer events survive. The second is acquisition time. Conventional camera-based covariance imaging needs tens of thousands of frames to pull correlations out of noise; recent work using a kurtosis-difference weighting reports usable results at 5,000 frames and removes the need to pre-calibrate a single correlation centre. The third is loss. Heisenberg scaling in SU(1,1) interferometers is known to be fragile under realistic detection efficiency and loss, which is why recent work concentrates on differential intensity measurements that degrade gracefully rather than on ideal Yurke-type schemes.
 
-A formal comparison of the schemes as multiparameter estimation problems found that ghost imaging and two-photon imaging generally give higher precision for transmission estimation than imaging with undetected photons, though QIUL alone avoids coupling transmission estimates across spatial modes. That result matters for positioning: the case for QIUL is not sensitivity, it is access to wavelengths where good detectors do not exist. Supporting component work is moving in parallel: thin-film lithium niobate sources of polarization-entangled telecom pairs with pump-polarization-tunable Bell states and no extra optics, 30-beam arrays of polarization-squeezed light at 2.03 dB from a single atomic vapour cell, and metasurfaces performing parallel polarization projections across a 400-pixel biphoton field.
-
 ## Viability (3/5)
 
 The demonstrations are real and increasingly go beyond test targets. Quantum scanning synthetic optical holography retrieved amplitude and phase images of binary, transparent and biological samples with mid-infrared probing and visible-wavelength detection, and decoupled spatial resolution from the photon-pair spatial correlations that previously limited QIUL. Contrast enhancement through weakly scattering media was predicted by simulation and confirmed experimentally in two illumination configurations. Spatially resolved CHSH tests over 400 pixels were achieved with an average of only 1.7 detected coincidence pairs per pixel per basis, which shows how far statistical and machine-learning post-processing can stretch a thin photon budget.
@@ -53,8 +51,6 @@ Against this, the failure modes are structural rather than incidental. Coinciden
 **TLDR: Working benchtop systems on real samples, but every advantage comes with a photon-budget or loss penalty.**
 
 ## Drivers (3/5)
-
-On the supply side, the enabling parts are converging. Photon-pair sources are moving onto fabrication-compatible platforms: thin-film lithium niobate now delivers polarization-entangled telecom pairs with no additional entangling optics and with Bell state selected by pump polarization, using existing lithium niobate process capability. Squeezed-light generation is becoming multiplexed rather than one-beam-at-a-time, with a 30-beam polarization-squeezed array at 2.03 dB from a single vapour cell. Metasurfaces are absorbing measurement complexity that previously required serial projective tests. Statistical methods are cutting acquisition cost.
 
 On the demand side, the sources describe the pull rather than measure it. The clearest articulated need is label-free mid-infrared imaging without mid-infrared detectors, applied to biological samples. Institutional demand is visible but small: an NSF award of $94,177 in August 2026 funds a workshop explicitly convening quantum physicists, biomedical engineers, clinicians and end users because most biomedical quantum sensing work has stayed in ideal lab environments and needs a translation roadmap. That is a candid statement of an unmet translation gap, not evidence of procurement. No customer, revenue or instrument-shipment figures appear anywhere in these sources.
 
@@ -84,8 +80,6 @@ The ceiling looks like specialist instrumentation rather than a replacement for 
 
 ## Timing Soon (2-5yr)
 
-The 2026 literature marks a transition from proof-of-principle on test targets to imaging of transparent and biological samples with complex-field reconstruction, alongside estimator improvements that cut frame counts and source integration onto a manufacturable platform. Those are the ingredients of a first commercial research-grade instrument in the mid-infrared niche, not of a general imaging technology.
-
 The rate-limiting step is translational rather than scientific, and the community has just started organising for it as of August 2026. Sub-shot-noise imaging specifically should be treated as later and less certain, given that its ideal scaling advantage is explicitly fragile under loss and that available multiplexed squeezing is at 2.03 dB.
 
 **TLDR: Research instruments and first specialist mid-infrared microscopes are plausible within five years; broad imaging use is not in view.**
@@ -93,8 +87,6 @@ The rate-limiting step is translational rather than scientific, and the communit
 ## Overrated or underrated? Fairly rated
 
 The field is neither hype nor breakthrough: it is a set of narrow, physically sound capabilities being pushed towards instruments. The part usually oversold is the sensitivity story. The sources themselves say Heisenberg scaling in nonlinear interferometers is fragile under realistic loss and detection, that quantum contrast gains cost shot noise, and that undetected-photon imaging is generally less precise than ghost or two-photon imaging for transmission estimation. Anyone pitching quantum imaging as beating the classical limit in general should be asked which task, at what loss, in how many frames.
-
-The part that deserves more attention is the wavelength-conversion architecture. Probing a biological sample in the mid-infrared while detecting visible photons, with amplitude and phase recovered and resolution no longer tied to photon-pair correlations, is a capability with no classical equivalent at comparable detector cost. That, plus manufacturable pair sources on thin-film lithium niobate, is where the commercial case will be won or lost. Judge the field on acquisition time per image against a classical MIR alternative, not on decibels of squeezing.
 
 ## Prediction
 
@@ -110,11 +102,6 @@ By 31 December 2029, quantum imaging with undetected light will have produced at
 - 4 August 2026: NSF awarded $94,177 for a Quantum Imaging and Quantum Sensing workshop, noting that most biomedical quantum sensing work has been in ideal lab environments and that a translation roadmap is needed.
 
 ## Open questions
-
-- At fixed total acquisition time and identical illumination at the sample, does coincidence-based contrast enhancement beat classical time gating or spatial filtering, or does the shot-noise penalty cancel the gain?
-- How does scanning QIUL phase imaging compare with conventional mid-infrared spectroscopic imaging on time per field of view, sensitivity and instrument cost?
-- Can integrated thin-film lithium niobate pair sources deliver enough brightness and spatial-mode quality to replace bulk SPDC crystals inside an imaging instrument?
-- Do sub-shot-noise imaging schemes retain a measurable advantage at the detection efficiencies and squeezing levels actually available, given the reported fragility to loss and the 2.03 dB figure from multiplexed sources?
 
 ---
 *Assessment drafted 2026-08-31 from up to 13 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

@@ -35,7 +35,7 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 988
+mention_count: 1019
 sources_7d: 0
 sources_30d: 6
 recent_mentions:
@@ -77,15 +77,9 @@ neighbors: []
 
 ## Summary
 
-A thermal phase-change material (PCM) exploits a first-order transition, usually solid-to-liquid or solid-to-solid, to store energy as latent heat at a near-constant temperature. In a thermal-management role it acts as a buffer rather than a conductor: during a heat pulse the material absorbs energy while holding close to its transition point, and it releases that energy later when the surroundings cool. The design parameters that decide whether a PCM is useful are the transition temperature (it must sit just below the junction or component limit), the latent heat per unit volume (how much transient energy is absorbed per millimetre of stack height), the thermal conductivity of the material in both phases (heat has to reach the bulk of the PCM fast enough to matter), containment and volume change on melting, cycle stability over thousands of transitions, and the width and reproducibility of the transition hysteresis. PCMs are also used in a second, distinct sense in electronics packaging: phase-change thermal interface materials, waxy compounds that soften at operating temperature to wet a mating surface and reduce contact resistance.
-
 Nothing in the supplied corpus addresses either of these use cases directly. The nearest relevant item is an authoritative review of nanostructured thermal interface materials, which is about the competing category (carbon nanotube interfaces) rather than about PCMs, and whose central lesson is that in real interfaces the binding constraint is contact quality, not bulk conductivity: vertically aligned nanotube forests deliver only a small fraction of single-tube conductivity because of incomplete tip contact with the opposing surface **2016 Taphouse Cola Nanostructured Thermal Interfaces**. That framing matters for PCMs because their commercial claim in packaging is precisely a contact-engineering claim.
 
-The corpus does contain adjacent physics that illuminates the parameters above without being about thermal PCMs. Work on VO2 across its metal-insulator transition uses first-order reversal curves and infrared imaging to relate domain nucleation and grain size to the width of thermal hysteresis, and shows that hysteresis is a microstructure-dependent, process-dependent quantity rather than a material constant. Molecular-dynamics work on formamidinium lead iodide identifies a history-dependent, kinetically arrested metastable state below roughly 100 K rather than a distinct bulk polymorph. Both are reminders that first-order transitions in real materials are path-dependent, which is the main reason PCM cycle behaviour degrades or drifts in service. A separate source on thermomagnetic generators, which harvest low-grade waste heat via a magnetic transition, reports that all existing prototypes suffer low efficiency and low cycle frequency; the low-cycle-frequency problem there is the same heat-in/heat-out rate limit that caps how often a thermal PCM can be usefully recharged.
-
 ## Viability (unscored)
-
-The supplied sources do not support an assessment of viability. There is no PCM latent-heat figure, no cycle-life data, no device-level thermal result and no commercial reference in the corpus. The only load-bearing inference available is indirect: the TIM review argues that interface performance is dominated by contact engineering rather than intrinsic conductivity **2016 Taphouse Cola Nanostructured Thermal Interfaces**, which implies any PCM claim must be validated at the assembled-joint or assembled-package level rather than as a bulk material property. That is a methodological constraint, not evidence that PCMs do or do not work.
 
 What the corpus does supply is a caution about the underlying physics. Hysteresis width across a first-order transition depends on grain size and growth method, and metastable, history-dependent arrested states are real and observable in soft-lattice materials. Any credible viability case for a thermal PCM would have to demonstrate reproducible transition behaviour over many cycles in the as-manufactured microstructure, and the sources here contain no such demonstration.
 
@@ -117,8 +111,6 @@ A second inferable barrier: if hysteresis width and transition sharpness depend 
 
 ## Impact (unscored)
 
-The corpus provides no quantification of what a working thermal PCM would be worth: no addressable market, no system-level performance gain, no energy or cost figure attributable to latent-heat buffering. The closest quantified statements of thermal value concern other technologies, for example that thermomagnetic recovery has high potential for low-grade waste heat where conventional technology is inefficient or infeasible, while all existing prototypes remain limited by low efficiency and low cycle frequency.
-
 The qualitative case can be stated but not scored: the domains named in the corpus where heat is the limit, cryogenic control electronics for fault-tolerant quantum computers, nanoscale photonic and biosensing devices, and industrial waste heat, are all large and all thermally constrained. Whether latent-heat buffering captures value in any of them is unaddressed.
 
 **TLDR: The value of thermal buffering cannot be sized from these sources.**
@@ -126,8 +118,6 @@ The qualitative case can be stated but not scored: the domains named in the corp
 ## Timing Unclear
 
 There is nothing in the corpus that dates a thermal PCM result, product or qualification. Assigning a band would be guesswork. The adjacent items give a rough sense of maturity in neighbouring thermal technologies: nanostructured thermal interfaces were the subject of an authoritative review as far back as 2016, with the reviewer noting in 2026 that the paper was predictive of the future and of what others would keep marketing despite not solving the key challenges **2016 Taphouse Cola Nanostructured Thermal Interfaces**, which is a decade-scale reminder that thermal materials move slowly from review to qualified product.
-
-On the energy-conversion side, thermomagnetic generators remained at prototype stage with acknowledged efficiency and cycle-frequency shortfalls as of May 2026. Neither observation dates PCMs. Timing stays Unclear until PCM-specific evidence is added.
 
 **TLDR: The source set contains no PCM milestone, roadmap or deployment date, so no timing band can be defended.**
 
@@ -138,13 +128,6 @@ This concept has been placed in the taxonomy without the evidence to assess it. 
 The two genuinely useful signals are both indirect. First, the physics of first-order transitions in real materials is path-dependent and microstructure-dependent, with hysteresis width tied to grain size and growth method and history-dependent arrested states observable in soft lattices; a PCM assessment must be built on cycled, as-manufactured data, not handbook latent heats. Second, in thermal interfaces the market does not buy bulk conductivity, it buys a working joint, and the failure mode is incomplete contact **2016 Taphouse Cola Nanostructured Thermal Interfaces**. Any PCM claim should be judged the same way. Until PCM-specific measurements enter the corpus, this page should be read as a statement of what evidence is required, not as a rating.
 
 ## Evidence base
-
-- The 2016 Annual Review of Heat Transfer chapter on nanostructured thermal interfaces establishes that in real interfaces performance is governed by intra-tube defects, inter-tube contacts and above all incomplete tip contact, not intrinsic conductivity; single-wall CNTs reach around 6600 W/mK while forests deliver a small fraction **2016 Taphouse Cola Nanostructured Thermal Interfaces**.
-- The same review's author noted on 30 June 2026 that the paper was predictive of the future and of what others would keep marketing despite not solving the key challenges, indicating slow real progress in thermal interface materials over a decade **2016 Taphouse Cola Nanostructured Thermal Interfaces**.
-- A 5 May 2026 multi-probe study of VO2 relates domain nucleation and grain size, across films grown by pulsed laser deposition and dc sputtering, to the width of thermal hysteresis at a first-order transition.
-- A 4 May 2026 molecular-dynamics study of FAPbI3 identifies a history-dependent, kinetically arrested metastable twin-domain state below about 100 K that is not a distinct bulk polymorph.
-- A 4 May 2026 modelling study of thermomagnetic generators states that much industrial and environmental waste heat is at low temperature and that all existing prototypes retain two challenges, low efficiency and low cycle frequency.
-- A 4 May 2026 study on plasmonic heating in water states that conventional cooling strategies fail at nanoscale because of limited heat transport and high interfacial thermal resistance, and evaluates hBN flakes as heat spreaders using finite-element simulation and cross-grating wavefront nanothermometry.
 
 ## Open questions
 

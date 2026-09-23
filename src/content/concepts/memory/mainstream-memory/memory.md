@@ -164,8 +164,6 @@ Mainstream memory is not a question of viability but of scaling rates, and those
 
 Supply: the constraint is arithmetic, not sentiment. DRAM bandwidth compounds at 1.6x every two years and interconnect at 1.4x, against 3.0x for peak FLOPS **2024 Gholami Ai And Memory Wall**. There is no source here suggesting that gap narrows. Every additional generation of accelerator therefore pushes more of the workload across the boundary into memory-bound territory, and the decode phase of LLM serving is already on the wrong side of it **2024 Gholami Ai And Memory Wall**.
 
-Demand: the ferroelectric memory work states plainly that with skyrocketing AI workload, demand for non-volatile and computational memories is growing exponentially, and frames high-volume manufacturing variability as the formidable barrier. On the deployment side, the rapid absorption of a KV cache offload layer into vLLM, Dynamo, llm-d and KServe within a single ecosystem cycle is direct evidence of pull <sup class="ref"><a href="https://arxiv.org/abs/2510.09665" title="LMCache: An Efficient KV Cache Layer for Enterprise-Scale LLM Inference" rel="noopener">ref</a></sup>. Both sides of the driver argument are supported by tier-1 sources; this is the strongest-evidenced dimension on the page.
-
 **TLDR: Supply scaling is structurally slower than compute and demand is being described as exponential in the primary literature.**
 
 ## Novelty (2/5)

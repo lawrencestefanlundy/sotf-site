@@ -13,7 +13,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 33
+mention_count: 35
 frontier:
 - Does the unbiased conditional-covariance estimator, when applied to existing claims of macroscopic conditional quantum states, confirm or overturn them, given the reported bias of order d_M ~ 5 for a milligram mirror 2026 07 08 unbiased estimation of conditional covariance for quantum op?
 - Can Purcell-engineered suppression of recoil heating be measured, and by what factor, in a real microcavity rather than in theory 2026 05 29 engineering recoil heating in coherent scattering levitated ?
@@ -32,8 +32,8 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 1
-sources_30d: 6
+sources_7d: 3
+sources_30d: 8
 recent_mentions: []
 neighbors: []
 ---
@@ -50,8 +50,6 @@ The field has split into several engineering branches, each visible in the curre
 For an outside reader the useful framing is that optomechanics is not a single device but a transduction primitive. Its commercial relevance will be decided by whether the quantum-enhanced sensitivity it offers survives packaging, vacuum and cryogenic requirements, and whether any target measurement is hard enough to justify them.
 
 ## Viability (4/5)
-
-The evidence base here is experimental, not merely proposed. An exceptional point has been reached in a diamond optomechanical crystal within a stable window below the phonon-lasing threshold, with the predicted asymmetric redistribution of optomechanical damping between hybridised modes observed. A tunable fibre Fabry-Perot cavity coupled to a suspended hBN drum reached a single-photon coupling rate of g0/2pi around 180 kHz, showed the crossover from optomechanically induced transparency to gain, and generated optomechanical frequency combs, with maps quantitatively reproduced by the full linearised response. Coherent perfect absorption has been demonstrated experimentally coexisting with ground-state cooling in a synthetic photon-phonon lattice. Optically induced mechanical oscillations have been observed in flame-produced silica resonators, and coupled flexural cavities with lithographically engineered mechanical interconnects show normal-mode splitting decaying exponentially with the number of serpentine cells. That is a mature, reproducible physics base.
 
 The caveats are specific rather than general. Standard modelling assumptions are being found wrong in the regimes people actually work in: the rotating-wave approximation breaks down in unresolved-sideband microcavities, recoil heating in coherent-scattering cavity setups is not equal to its free-space value as commonly assumed, and the conventional retrodictive estimator of conditional covariance can be badly biased, with a discrepancy of order d_M ~ 5 in covariance-space metric for a milligram-scale mirror. There are also identified hard limits: in Brillouin waveguide optomechanics, quantum backaction and zero-point fluctuations impose additional bounds that hinder steady-state ground-state cooling of travelling phonons. The physics works; the claimed quantum performance needs more careful verification than the field has historically applied. I score 4 rather than 5 because none of these sources demonstrate an engineered, packaged device.
 
@@ -98,8 +96,6 @@ The gap to application is the packaging and reproducibility gap, and it is not v
 **TLDR: Laboratory capability is real now; nothing in the sources indicates a fielded device inside five years.**
 
 ## Overrated or underrated? Fairly rated
-
-Optomechanics is a genuinely productive experimental field with a defensible claim to quantum-limited transduction, and the current literature shows it behaving like a maturing discipline rather than a hype cycle: theory being corrected against measurement, standard estimators being shown to be biased, and fundamental limits being identified rather than papered over. That self-correction is the strongest signal in the whole source set, and it is why the physics deserves a high viability score.
 
 The reason it is not underrated is that nothing in these sources moves the technology toward a buyer. Every result is a laboratory apparatus, and the applications are aspirations attached to abstracts. The most investable-looking threads are the unglamorous ones: commodity FPGA control stacks, fabrication-insensitive resonators, and lithographically defined mechanical interconnects, because those attack reproducibility rather than record-setting. Anyone underwriting optomechanics as a sensing business should be diligencing packaging, vacuum and cryogenic requirements first and quantum performance second.
 

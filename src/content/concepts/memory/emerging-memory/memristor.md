@@ -34,7 +34,7 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 1
+sources_7d: 0
 sources_30d: 3
 recent_mentions:
 - slug: 2023-06-23-e05-the-future-of-edge-ai-brain-inspired
@@ -46,10 +46,6 @@ neighbors: []
 **A memristor is a two-terminal device whose resistance depends on the history of current passed through it, giving non-volatile analogue memory that can compute matrix-vector products in place; the physics is demonstrated across many material systems, but device-to-device randomness still confines it to small arrays and bespoke calibration.**
 
 ## Summary
-
-A memristor is a resistor with memory: a two-terminal element whose resistance state persists after the voltage is removed and can be changed by electrical pulses. Physically the label covers several unrelated mechanisms. In filamentary resistive RAM (RRAM) and conductive-bridge RAM (CBRAM) a nanoscale metallic filament grows and ruptures inside an insulator, for example Ag/Cu filaments in amorphous silicon or Cu ions migrating through a Ge-Te solid electrolyte. Other routes use mobile charged oxygen vacancies redistributing under current, phase-change and magnetoresistive stacks (PCM, MRAM/STT-RAM), Mott insulator-to-metal transitions in VO2, charge-density-wave states in layered EuTe4, ion accumulation in nanofluidic clay channels, and mechanically latched photonic phase shifters.
-
-The parameters that decide the technology are all statistical rather than headline. Filament formation and rupture are stochastic, so nominally identical cells differ (device-to-device, D2D) and the same cell differs between cycles (cycle-to-cycle, C2C). That variability sets how many resistance levels can be stored per cell, whether an array can be programmed in parallel or must be written cell by cell with verification, whether a selector transistor is needed per cell, and whether a trained network transfers to a second chip or must be retrained on every copy. Alongside these sit read/write errors, soft errors and the mutual trade-offs between reliability parameters, plus back-end integration constraints such as keeping fabrication below 430 °C so devices can be stacked on finished CMOS.
 
 ## Viability (3/5)
 
@@ -86,8 +82,6 @@ There are genuine tailwinds for diffusion where integration is the gate: BEOL fa
 ## Impact (4/5)
 
 The prize is architectural. Processing-in-memory built on memristive devices attacks the memory wall directly by removing data transfer between memory and processing units, which is a general constraint on data-intensive computing rather than a niche one. If memristors displace CMOS SRAM in submicron nodes on non-volatility, leakage and density, the effect propagates through caches, registers and sequential logic.
-
-The application-level numbers, where they exist, are large enough to matter: two orders of magnitude power reduction in an event-driven vision sensor at microsecond latency, nanosecond MVM against a 0.1 ms 6G latency budget, and accurate time-series prediction from as few as two memristive channels with tunable operating frequency over many orders of magnitude. The score stops short of 5 because the value is contingent on a reliability problem that has not been solved, and because the sources supply no market sizing beyond a single forward claim about neuromorphic share of edge AI hardware by 2030 <sup class="ref"><a href="https://stateofthefuture.substack.com/p/e05-the-future-of-edge-ai-brain-inspired" title="🔮 E05: Neuromorphic Computing & The Future of Edge AI" rel="noopener">ref</a></sup>.
 
 **TLDR: If the variability problem is solved, this changes the memory hierarchy and the energy cost of inference, not just one product line.**
 

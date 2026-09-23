@@ -17,6 +17,7 @@ related_concepts:
 sources:
 - '[[2026-01-06-delfts-qualinx-raises-20m-to-bring-ultra-low-power-gnss-chip]]'
 - '[[2024-06-03-conexio-stratus-pro-a-battery-powered-nrf9161-development-ki]]'
+- '[[2024-06-03-conexio-stratus-pro---a-battery-powered-nrf9161-development-]]'
 frontier:
 - Can LEO PNT constellations (e.g. Xona Space) achieve sub-10 cm accuracy globally without augmentation?
 - What is the minimum viable constellation size for cislunar PNT at decimeter accuracy?
@@ -24,7 +25,7 @@ frontier:
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 14
+mention_count: 16
 scorecard:
   viability: null
   drivers: null
@@ -34,8 +35,8 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 2
+sources_7d: 1
+sources_30d: 3
 recent_mentions:
 - slug: 2026-01-06-delfts-qualinx-raises-20m-to-bring-ultra-low-power-gnss-chip
   title: Delft’s Qualinx raises €20M to bring ultra-low-power GNSS chip to market - Bits&Chips
@@ -43,6 +44,10 @@ recent_mentions:
   kind: web
 - slug: 2024-06-03-conexio-stratus-pro-a-battery-powered-nrf9161-development-ki
   title: Conexio Stratus Pro – A battery-powered nRF9161 development kit with LTE IoT, DECT NR+, GNSS connectivity (Crowdfunding) - CNX Software
+  date: '2024-06-03'
+  kind: web
+- slug: 2024-06-03-conexio-stratus-pro---a-battery-powered-nrf9161-development-
+  title: Conexio Stratus Pro - A battery-powered nRF9161 development kit with LTE IoT, DECT NR+, GNSS connectivity (Crowdfunding) - CNX Software
   date: '2024-06-03'
   kind: web
 neighbors:

@@ -185,13 +185,6 @@ By 30 June 2028, peer-reviewed N-polar AlN/GaN HEMT results will report channel 
 
 ## Evidence base
 
-- 4 May 2026: vertical GaN-on-silicon is described as bottlenecked by high buffer-layer resistance; a sputtered 0.5 nm silicide template formed by rapid thermal annealing, demonstrated across 25 metallic species, yields low vertical resistance and ohmic behaviour with an amorphous-like interlayer accommodating lattice mismatch, and supports MOCVD overgrowth.
-- 15 May 2026: depletion-mode N-polar AlN-based HEMTs with a 5.2 nm GaN channel show threshold voltage -2.4 to -3.0 V, saturation current over 240 mA/mm and on/off ratio up to 10,000, with on-resistance about 20 Ω·mm limited by 2000 Ω/square sheet resistance.
-- 18 June 2026: two fabricated GaN HEMT Doherty PA prototypes with pixelated three-port combiners measured above 44.2 dBm saturated output and above 71.2% peak drain efficiency in 2.6-2.8 GHz, 64% drain efficiency at 6 dB back-off, and ACLR better than -51.3 dBc after digital predistortion.
-- 28 May 2026: a hybrid classical-quantum neural network trained on 468 fabricated recessed-gate AlGaN/GaN MIS-HEMTs across 17 process splits reduced overall normalised RMSE by 24.4% versus a classical ANN, with threshold-voltage RMSE improving from 0.297 V to 0.270 V.
-- 6 May 2026: an electrically tunable AlGaN/GaN plasmonic-crystal analyser with neural-network inversion reconstructed terahertz spectra with MSE 0.015 in FTIR mode and 0.038 in direct mode, reducing mean error 3.6 times versus a Tikhonov baseline.
-- 16 June 2026: GaN nucleation inside SiO2 openings on patterned sapphire shifts from edge-biased to inward and sparse as boron-compound mask growth temperature rises above 700-750 °C, with non-monotonic domain counts, indicating incomplete process control at the nucleation stage.
-
 ## Open questions
 
 - Does the sputtered sub-nanometre silicide template on Si(111) survive to a complete vertical device with measured blocking voltage, leakage and switching loss, and at what wafer diameter?

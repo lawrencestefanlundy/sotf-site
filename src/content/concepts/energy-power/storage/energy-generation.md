@@ -25,8 +25,6 @@ neighbors: []
 ---
 ## Physics / mechanism
 
-Conversion of primary energy sources—fossil fuels, nuclear, solar irradiance, wind kinetic energy, geothermal flux—into usable electricity via thermodynamic cycles, electromagnetic induction, or direct quantum-electronic conversion. Key parameters: capacity factor, levelized cost of energy (LCOE), conversion efficiency, dispatchability. Solar PV (silicon HJT cells ~26% commercial, perovskite tandem lab records ~33%), onshore wind (~35–45% capacity factor), and combined-cycle gas (~60% thermal efficiency) anchor the current mix. Nuclear fission (PWR, SMR concepts) and fusion (ITER, private ventures) sit at opposite ends of the maturity curve. Grid parity economics now dominate technology selection over raw efficiency.
-
 ## Competitive landscape
 
 Competing and adjacent approaches split on dispatchability vs. cost. Established thermal generation competes with variable renewables on reliability; storage (Li-ion, flow batteries, long-duration) bridges the gap. Hydrogen electrolysis offers chemical storage but round-trip efficiency (~30–40%) is punishing. Direct competitors within generation:

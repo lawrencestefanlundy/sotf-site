@@ -29,7 +29,7 @@ frontier:
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 24
+mention_count: 25
 scorecard:
   viability: null
   drivers: null
@@ -39,8 +39,8 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 4
+sources_7d: 1
+sources_30d: 5
 recent_mentions:
 - slug: 2026-04-28-making-ai-inference-cheap-with-analog
   title: Making AI inference Cheap with Analog Computing w/ Shwetank Kumar @ EnCharge AI

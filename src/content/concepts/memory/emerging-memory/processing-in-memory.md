@@ -158,8 +158,6 @@ The earliest credible commercial windows are the two where PIM does not have to 
 
 The diagnosis is right and the community is not fooling itself about the obstacles. Memory-bound decoding, KV cache growth, MoE routing and billion-scale retrieval genuinely leave GPUs underutilised, and PIM is the structurally correct answer to that specific problem. Equally, the same authors publishing the speedups are publishing the limits: a GPU-versus-digital-PIM study aimed at exposing digital PIM's constraints, a reliability review that makes device optimisation the precondition for commercial viability, and a simulator paper that concedes hardware scarcity. That is a healthy field, correctly priced as promising and unproven.
 
-Where readers should discount is the headline multiples. Treat 42.8x and 392x as upper bounds on a chosen kernel in simulation, and treat 1.20x-2.23x end-to-end on a heterogeneous platform as the number that will decide procurement. The specific risk to watch is not the device physics but workload drift: Sieve shows that a single generation of model-architecture change (bimodal MoE expert distributions) already invalidates the offload assumptions of state-of-the-art PIM systems. A five-year silicon cycle chasing a one-year model cycle is the core commercial hazard here.
-
 ## Prediction
 
 Through the end of 2028, PIM will remain an optional accelerator rather than a required component of mainstream LLM serving: the majority of published PIM-for-LLM performance claims will still be simulator-derived rather than measured on fabricated PIM silicon, and reported end-to-end system speedups on heterogeneous host-plus-PIM platforms will stay below 3x.

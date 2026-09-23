@@ -13,15 +13,15 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 16
+mention_count: 17
 frontier:
 - Does embedding optical priors into the learning pipeline (as in PDI-Net) break the reported accuracy/latency trade-off on standard detection benchmarks, and what end-to-end latency figures are achievable on embedded infrared hardware 2026 06 02 dual integrated low latency single lens infrared computation?
 - How far can the passive microlens-plus-glass-stack architecture extend sequence depth beyond ten frames without losing the 1.46 ps sampling interval or the sub-US$500 cost 2026 06 05 low cost passive single shot ultrafast imaging at 685 gfps?
 - When generative diffusion priors are used for photon-limited reconstruction, what quantitative bounds separate photometrically faithful recovery from prior-induced hallucination at a given detected-photon count 2026 06 05 gqir generative quanta image reconstruction?
 - Can physics-based self-supervised hologram reconstruction match iterative algorithms on quantitative phase-shift and absorption accuracy, not just twin-image suppression 2026 07 03 physics based self supervised learning of a deep network for?
 - Does the single-wavelength restriction of the differentiable ray-wave model limit end-to-end optimisation of broadband hybrid refractive-diffractive imagers, and what error does polychromatic operation introduce 2026 08 14 a differentiable ray wave framework for hybrid refractive di?
-sources_7d: 0
-sources_30d: 2
+sources_7d: 1
+sources_30d: 3
 recent_mentions: []
 neighbors: []
 ---
@@ -40,14 +40,6 @@ Within ultrafast imaging, the sources contrast three routes: streak cameras, com
 On the reconstruction side, three families coexist: iterative model-based inversion, supervised deep networks, and physics-constrained self-supervised or generative-prior methods. The last group is attractive where labelled ground truth is unavailable (holography) or where measurement statistics are far from those assumed by pretrained restoration models (SPAD quanta bursts). Programmable metasurfaces sit adjacent as a reconfigurable encoding layer shared with holography and backscatter communications.
 
 ## Evidence base
-
-- A lensless synthetic wavelength holography approach for wide-field 3D fibre endoscopy through scattering media was reported on 29 May 2026, targeting lesions obscured by scattering tissue.
-- Lead-free K₂CuBr₃ thin-film photoconductors for near-UV single-pixel imaging were demonstrated with stable photoswitching at 405 nm and dark current around 10⁻¹⁰ A, reported 2 June 2026.
-- PDI-Net integrates infrared reconstruction with object detection using a supervised U-Net at training time and a semi-U-Net encoder sharing features with a YOLO-based detector at inference, avoiding full image reconstruction; reported 2 June 2026.
-- A passive single-shot ultrafast imager built from a commercial microlens array, microscope cover glasses and a consumer CMOS sensor achieved 1.46 ps sampling, 685 Gfps and ten frames for under US$500, reported 30 April 2026.
-- gQIR adapts large text-to-image latent diffusion models to SPAD quanta burst imaging, handling Bernoulli photon statistics with burst-level spatio-temporal reasoning; reported 23 February 2026.
-- A differentiable ray-wave framework for hybrid refractive-diffractive systems, operating as a plug-and-play module in standard ray tracing pipelines and covering curvilinear diffractive surfaces, was reported 14 August 2026.
-- Prototype-aware bounds on wavefront synthesis with programmable metasurfaces, accounting for mutual coupling, binary programmability and lossy tunable loads, were derived using multiport network theory and semidefinite relaxation, reported 16 June 2026.
 
 ## Frontier (open questions)
 

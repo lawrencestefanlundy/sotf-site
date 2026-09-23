@@ -49,7 +49,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 5
+sources_7d: 3
 sources_30d: 12
 recent_mentions:
 - slug: 2025-07-01-a-primer-carbon-nanotubes
@@ -122,10 +122,6 @@ On the supply side, CVD's attraction is repeatedly stated in the same terms: sim
 
 CVD is described in the sources as conventional and widely adopted, not as an innovation. The novelty sits in specific process refinements, and those are measurable. Pulsing silane in hot-wire CVD raised a-Si:H film thickness from 175 ± 5 nm to 425 ± 8 nm for the same 75 cm3 (STP) precursor dose split into 15 pulses, a substantial gain in precursor utilisation from a scheduling change alone. Borazine-based CVD tuned between 800 and 1000 °C moves boron nitride from fully amorphous to mixed amorphous-crystalline, taking cross-plane thermal conductivity from below 0.5 W m-1 K-1 to 1.5 W m-1 K-1 and Young's modulus from 7.5 ± 0.7 GPa to 53 ± 5 GPa. Plasma-free Ga-assisted etching inside an LPCVD reactor produced deep mesas with electrical characteristics closely matching unetched planar devices, avoiding plasma damage.
 
-What CVD is better than is context-dependent and, in these sources, mostly complementary rather than competitive. MOCVD and MBE coexist in the same national facility; a GaN/Ga2O3 heterostructure used pulsed laser deposition and reactive sputtering for the oxide and MOCVD only for the nitride; and a sputtered sub-nanometre silicide template was used specifically as a platform for MOCVD overgrowth. The sources contain no head-to-head comparison of CVD against MBE or PVD on film quality or cost, so claims of superiority cannot be graded here.
-
-**TLDR: The technique is decades old; what is new is incremental process control, with a few quantified gains such as 2.4x film thickness per precursor dose from pulsed flow.**
-
 ## Diffusion (4/5)
 
 Diffusion of the tool is effectively complete for established films: LPCVD nitride sits inside a 200 mm CMOS pilot line as a standard layer and inside commercial-style MEMS diaphragms, and CMOS compatibility is cited as a reason to prefer CVD for new materials. Because the equipment base and process know-how already exist, adoption friction for a new CVD film is far lower than for a new deposition modality.
@@ -170,11 +166,6 @@ By 31 December 2028, a peer-reviewed report will demonstrate LPCVD-grown Sn-dope
 - NSF awarded $1,440,000 and $160,000 in August 2026 to build an AI-guided 2D synthesis platform with real-time growth diagnostics, citing reproducible wafer-area production as the major unsolved challenge.
 
 ## Open questions
-
-- Can AI-guided synthesis with real-time optical diagnostics actually close the wafer-scale reproducibility gap for 2D semiconductors, and on what timescale relative to the NSF-DFG award period beginning August 2026?
-- Does the pulsed-precursor thickness gain seen in hot-wire CVD of a-Si:H transfer to other precursors and reactor geometries, or is it specific to filament dissociation of silane?
-- Is the intrinsic disorder and multi-domain structure of CVD-grown 3R-WSe2 a recipe problem that better growth control removes, or an inherent limit of the CVD route for sliding-ferroelectric devices?
-- How do CVD-grown films compare directly against MBE and PVD on defect density, uniformity and cost per wafer for the same material? No source supplied makes that comparison.
 
 ---
 *Assessment drafted 2026-08-31 from up to 18 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

@@ -16,7 +16,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 40
+mention_count: 42
 frontier:
 - Can rhombohedral stacking be grown or induced directly at wafer scale, rather than exfoliated and sorted, and at what defect density relative to the >200 micrometre mean free path already demonstrated?
 - Does room-temperature, sodium-catalysed CaC6 formation survive electrochemical cycling in a working Ca-ion cell, and can the square-root-of-time kinetics be accelerated to useful rates?
@@ -33,8 +33,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-sources_7d: 3
-sources_30d: 6
+sources_7d: 4
+sources_30d: 8
 recent_mentions:
 - slug: 2026-06-22-tim-approaches-full-sweep
   title: TIM approaches — exhaustive in-market + R&D sweep (vendors, classes, startups)
@@ -95,8 +95,6 @@ The barriers apply to the new forms. Rhombohedral graphite devices are made by e
 ## Impact (4/5)
 
 The battery path carries the largest measurable value in the sources, because it is about manufacturing yield on an existing product line: moving the fraction of cells meeting a 350 mAh/g target from 28.4% to 84.8% and retention from 42.1% to 97.3% is scrap and qualification cost, not a science result. Domestic graphite supply carries strategic rather than technical value <sup class="ref"><a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxObG5VREVnVlVGNVFpNHhoakRGWmlZS3pGeDZUSkZjYm9zR2VGaFZCcENmLTFET3g0bE9adS1tZTdPVVhtQ2NSX3BfcEF1UTcxVnU0OXhNbUhOcUVRcUZVN0IwblI3XzF4NFNrVHFfQjFrLVdWS3RWR3V0eUdXWHlzNXpteGVJNlBPZEc4QklTeEZ5Q0kt?oc=5" title="Department of Energy Backs Solidion’s Push to Develop U.S.-Made Battery Graphite - Dallas Innovates" rel="noopener">ref</a></sup>.
-
-**TLDR: Large but mostly incumbent value in batteries, plus a credible route to a tunable correlated-electron platform.**
 
 ## Timing Now (0-2yr)
 

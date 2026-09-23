@@ -57,13 +57,6 @@ There is no large independent EGS tool market: the value-capturing producers bui
 
 Concentration note: the binding constraint is decades of customer qualification, not tool access. A new entrant cannot buy its way to 11N.
 
-## Materials & consumables
-This step consumes metallurgical silicon, hydrogen, chlorine/HCl, and electricity (very energy-intensive), and produces the precursors it then re-deposits. The recurring-revenue layers around it:
-- TCS and silane gas: the trichlorosilane market was put at ~$7B in 2025 with polysilicon ~43% of it; major EGS producers (Wacker, OCI, Hemlock) make their own precursor, so merchant TCS skews solar/specialty [4].
-- Graphite and graphite-felt reactor internals (hot zones, electrodes, insulation), supplied by SGL Carbon and peers, replaced on a maintenance cycle [4].
-- Silica crucibles, quartz, and high-purity HCl.
-These consumables and the energy bill are the genuinely recurring spend; the reactor is a one-off.
-
 ## Volumes, revenue, profitability
 - Volume: semiconductor-grade demand is roughly 33,500 MT in 2025, only ~2.4% of all polysilicon, against ~1.4M+ MT of solar output; solar is 95%+ of the market by volume [1][9]. Total polysilicon capacity hit ~2.26M MT by end-2023 with China at ~93% [3].
 - Revenue pool: this is where report-mills mislead. Several put "electronic-grade polysilicon" at $8-10.5B [marketreportsworld, verifiedmarketreports], but 33,500 MT even at a premium $50-150/kg implies a true EGS revenue pool closer to ~$2-5B; treat the $10B figures as conflating broader silicon-materials scope. Rough estimate, flagged.
@@ -72,9 +65,6 @@ These consumables and the energy bill are the genuinely recurring spend; the rea
 
 ## Competitive landscape & value capture
 Tight non-Chinese oligopoly at 11N: Wacker (Germany, largest EGS producer, ~22,000 MT semiconductor output) and Hemlock (US, second largest) anchor supply, with OCI/Tokuyama Malaysia, Tokuyama Japan (~12,500 MT) and Mitsubishi covering the rest [4][6]. These four-to-five firms hold essentially the entire 11N market. China owns ~93% of all polysilicon capacity but, per ITIF and SIA, is "not yet" able to dominate semiconductor grade; closing that gap is an explicit Beijing goal and the key strategic risk [1][8]. Moat: qualification cycles measured in years, energy-cost geography, and process IP. EU/seed-relevant: Wacker (Burghausen) is the European champion and a strategic asset; there is little seed-stage opportunity in making EGS itself (capital-brutal, qualification-gated), the more fundable adjacencies are FBR/silane cost innovation and precursor/graphite consumables.
-
-## Market drivers, constraints & trends
-Net read: the EGS served pool grows steadily on AI-driven wafer demand, but the trajectory is hostage to the solar cycle that funds the scale, and any re-rate is policy- and shortage-driven rather than volume-driven.
 
 - **Drivers**
  - Wafer demand is the pull: SEMI reports Q1 2026 silicon-wafer shipments up 13% year-on-year, with AI data centres taking the lion's share and a new shipment record expected by 2028 [10]. Every extra leading-edge wafer needs 11N feedstock, and report-mills already put 2026 semiconductor polysilicon uptake up ~10% [11].

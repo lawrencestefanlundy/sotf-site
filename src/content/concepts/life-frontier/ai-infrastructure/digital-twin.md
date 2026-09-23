@@ -40,7 +40,7 @@ frontier:
 - Can real-time surrogates preserve enough multi-physics fidelity to replace finite-element analysis in packaging reliability decisions, or is accuracy lost exactly where hot spots and warpage matter 2026 06 05 toward digital twins in 3d ic packaging a critical review of?
 - For biological twins, does reconstruction quality from in vivo imaging reach the topological correctness needed for predictive, rather than merely descriptive, simulation 2026 06 26 biorxiv cerebrovascular imaging to graph reconstructio?
 sources_7d: 1
-sources_30d: 14
+sources_30d: 13
 recent_mentions:
 - slug: 2026-08-24-embedd-pre-seed-siliconangle
   title: Chip software automation startup Embedd raises $2.7M
@@ -117,8 +117,6 @@ Nothing in these sources documents a digital twin in production use. The wireles
 **TLDR: The corpus is frameworks, datasets and reviews; there is essentially no deployment evidence, and the input-geometry and calibration bottlenecks are unsolved.**
 
 ## Impact (3/5)
-
-The breadth of the use cases argues for substantial value. Thermomagnetic generators target low-grade industrial and environmental waste heat where conventional technology is inefficient or infeasible, and the twin's function is to identify why existing prototypes suffer low efficiency and low cycle frequency, which is the gating problem for the whole device class. In photonics, accurate twins of fabrication variation address over-etching, under-etching and corner rounding that "significantly alter device performance", which maps directly onto yield. In quantum error correction, decoder performance depends on how faithfully hardware noise is translated into syndrome statistics, so a better noise twin has leverage over the entire error-correction stack. In medicine, cerebrovascular twins are framed as a route to individualised hemodynamics and bio-transport modelling for precision medicine.
 
 What the sources do not provide is any quantified economic or clinical outcome: no yield delta, no efficiency gain attributable to the twin, no patient outcome, no network capacity number. The one clear operational impact demonstrated is on research productivity, where coupled twins let a planner forecast the consequences of candidate instrument actions before executing them, and where a twin-trained photonic network reached 94 per cent accuracy on hardware that would otherwise be very hard to train. A three reflects wide credible leverage with the value still unmeasured.
 

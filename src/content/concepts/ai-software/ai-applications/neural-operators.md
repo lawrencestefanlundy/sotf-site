@@ -27,7 +27,7 @@ frontier:
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 50
+mention_count: 51
 scorecard:
   viability: 4
   drivers: 4
@@ -38,7 +38,7 @@ scorecard:
   verdict: Underrated
 scorecard_status: draft
 sources_7d: 1
-sources_30d: 12
+sources_30d: 13
 recent_mentions:
 - slug: 2026-09-01-physics-ai-incumbent-consolidation-and-horizontal-repricing
   title: 'Physics AI: the two structural facts — Synopsys closed Ansys, and PhysicsX repriced at ~$2.4B'
@@ -62,11 +62,7 @@ neighbors:
 
 ## Summary
 
-Conventional simulation solves one problem at a time: fix the geometry, materials and boundary conditions, discretise, solve. Design and inversion loops need thousands of such solves, which is why finite-element and Monte Carlo methods dominate cost in composites cure optimisation, 3D-IC thermal analysis, photonic device design and full-waveform inversion. Neural operators attack this by learning a mapping between function spaces rather than between vectors: the input is a function (a cure cycle, a power map, a velocity field) and the output is the solution field. Once trained, inference is a forward pass, and the same model covers a parametric family. Deep Operator Networks (DeepONets) are the canonical architecture; the composites work here trains one on physics-based process-induced deformation responses generated across a diverse set of non-isothermal cure cycles, after validating the underlying model against manufacturing trials.
-
 The distinction from physics-informed neural networks (PINNs) matters and is often blurred. A PINN embeds the PDE residual in the loss and fits a single solution instance; it is a solver, not a surrogate, and must in general be retrained for each new problem. PINNs also carry documented pathologies: spectral bias, ill-conditioned optimisation and unstable convergence on nonlinear PDEs with sharp gradients, stiff dynamics or multiscale structure, and on stiff parabolic inverse problems soft PDE penalties produce gradient pathology so that the network fits boundary data while leaving the interior essentially untouched. Much of the field's response has been architectural: hard constraints through differentiable solvers, parametric conditioning that encodes material properties separately from spatiotemporal coordinates so the model generalises to unseen materials without labelled data or retraining, and operator formulations that amortise cost across instances.
-
-The parameters that decide whether a neural operator is useful are: how far it generalises off the training distribution (new geometries, materials, packages); how much high-fidelity data it needs per new design; whether inference speed actually shortens the design loop; and, least appreciated, whether its error metric matches the decision being made. The photonics work is explicit that a surrogate which looks accurate in global field error can still mis-rank candidate devices when the decision depends on localised output-port readouts, and proposes a propagation-aligned neural operator organised around modal and boundary structure to close that gap on a 15-wavelength tunable 3x3 MMI benchmark. Note that the supplied evidence base is dominated by PINN papers rather than operator learning proper; operator methods are a minority of it.
 
 ## Viability (4/5)
 

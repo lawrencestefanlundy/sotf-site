@@ -89,8 +89,6 @@ The barriers apply to the extensions. Three recur. First, performance tax: point
 
 ## Impact (4/5)
 
-Two impact channels are well evidenced. Energy: instruction fetch is over 40% of energy in an embedded baseline, so datapath-level changes deliver 21.5% to 35.5% total energy reduction on a real inference workload; multiplied across edge deployments this is a first-order sustainability and battery-life lever. Security: if temporal memory safety, non-leakage and instruction confidentiality can be guaranteed at the architecture level, an entire vulnerability class stops being a per-application software cost. Granite proves that the cycle-by-cycle timing of a pipelined RISC design with speculation, precise interrupts and I/O is determined solely by ISA-contract observables, ruling out leakage through known and unknown timing channels for constant-time programs. That is a strong statement about what hardware can promise software.
-
 The reason this is a 4 and not a 5 is scope of demonstration. The verification and security results are on RISC designs, open-source SoCs and simulation or FPGA prototypes; none of the sources shows these guarantees at high-performance commercial core scale, and the highest-value AI compute is visibly migrating off the CPU to on-die matrix units. The SoC keeps the value; the general-purpose core's share of it is contested.
 
 **TLDR: The substrate everything else runs on, and the place where memory-safety and side-channel classes can be closed rather than mitigated.**
@@ -98,8 +96,6 @@ The reason this is a 4 and not a 5 is scope of demonstration. The verification a
 ## Timing Now (0-2yr)
 
 Nothing here is speculative at the platform level. Commercial silicon with on-die neural accelerators is benchmarked on hardware, a custom 16 nm RISC-V SoC exists, and commodity address-masking features are already exploitable by sanitizers.
-
-The increments split by band. Design-flow tooling (power surrogates, RTL symbolic execution, lexical CWE detection, pre-silicon side-channel root-cause analysis) is adoptable now because it slots into existing flows. Architectural security extensions require ISA and toolchain commitment and therefore run on a multi-year cycle. Post-CMOS reversible logic is a separate, much longer horizon: it is a proposal with simulated error landscapes and a cryogenic operating point.
 
 **TLDR: The platform ships today; the security and energy increments in these sources are at prototype-to-early-silicon stage.**
 

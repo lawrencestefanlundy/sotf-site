@@ -24,9 +24,9 @@ tags:
 - robotics
 - simulation
 - data
-mention_count: 5
-sources_7d: 1
-sources_30d: 1
+mention_count: 6
+sources_7d: 2
+sources_30d: 2
 recent_mentions: []
 neighbors:
 - slug: world-models

@@ -37,7 +37,7 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 6
+sources_7d: 5
 sources_30d: 23
 recent_mentions:
 - slug: 2024-12-04-cubits-in-a-fridge-why-is-nobody

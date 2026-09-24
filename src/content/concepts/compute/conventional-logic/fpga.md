@@ -35,7 +35,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 7
+sources_7d: 6
 sources_30d: 13
 recent_mentions:
 - slug: 2026-09-07-amd-versal-rf-hot-chips-2026

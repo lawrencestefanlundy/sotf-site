@@ -33,7 +33,7 @@ frontier:
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 23
+mention_count: 25
 scorecard:
   viability: 4
   drivers: 4
@@ -43,8 +43,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 0
+sources_7d: 2
+sources_30d: 2
 recent_mentions:
 - slug: 2026-07-31-etched-research-sprint
   title: Etched research sprint — tape-out speed, HBM supply, customer orders (4-lane web sweep)

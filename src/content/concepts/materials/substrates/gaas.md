@@ -13,7 +13,7 @@ sources:
 - '[[2026-06-22-thermal-stack-layer-landscape]]'
 - '[[2026-07-11-neutral-pdk-heterogeneous-integration-landscape]]'
 mention_count: 91
-sources_7d: 4
+sources_7d: 3
 sources_30d: 16
 recent_mentions:
 - slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape

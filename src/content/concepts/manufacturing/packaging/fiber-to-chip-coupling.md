@@ -33,7 +33,7 @@ tags:
 - technology
 - photonics
 - packaging
-mention_count: 18
+mention_count: 19
 scorecard:
   viability: 4
   drivers: 4
@@ -43,8 +43,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-sources_7d: 2
-sources_30d: 3
+sources_7d: 3
+sources_30d: 4
 recent_mentions:
 - slug: 2026-05-30-optical-interconnect-ma-ledger
   title: Optical-interconnect / photonic-packaging M&A ledger (2019-2026)

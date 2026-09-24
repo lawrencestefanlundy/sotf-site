@@ -69,7 +69,7 @@ descendants:
 - moe-all-to-all-collectives
 - prefill-vs-decode
 - sovereign-ai
-sources_7d: 2
+sources_7d: 1
 sources_30d: 10
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026

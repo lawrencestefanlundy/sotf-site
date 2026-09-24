@@ -20,23 +20,6 @@ recent_mentions:
   kind: web
 neighbors: []
 ---
-latitude-me]]'
-- '**Idea Evidence 2026 07 21**'
-deal_count: 0
-frontier:
-- ''
-last_updated: '2026-05-04'
-tags:
-- concept
-- technology
-mention_count: 4
-last_reorg_date: '2026-05-14'
----
-
-# Sodium-Ion Batteries
-
-*Kind: technology*
-
 ## Physics / mechanism
 
 ## Competitive landscape

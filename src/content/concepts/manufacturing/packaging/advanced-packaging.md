@@ -35,7 +35,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 217
+mention_count: 216
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration

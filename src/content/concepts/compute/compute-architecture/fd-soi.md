@@ -38,7 +38,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-sources_7d: 3
+sources_7d: 2
 sources_30d: 4
 recent_mentions:
 - slug: 2026-08-03-spad-single-photon-market-scan

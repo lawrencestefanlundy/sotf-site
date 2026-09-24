@@ -47,9 +47,9 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 33
-sources_7d: 0
-sources_30d: 3
+mention_count: 34
+sources_7d: 1
+sources_30d: 4
 recent_mentions:
 - slug: 2026-08-31-opener-open-sources-dect-nr-for-iot---opensourceforucom
   title: Opener Open-Sources DECT NR+ for IoT - opensourceforu.com

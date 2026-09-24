@@ -22,7 +22,6 @@ sources:
 - '[[2026-03-13-photonic-foundry-capacity-new-origin-to-collaborate-with]]'
 - '[[2026-06-04-q-memory-site]]'
 - '[[2023-09-04-sinq-csa-catapult]]'
-- '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
 scorecard:
   viability: 4
   drivers: 4
@@ -32,9 +31,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 119
+mention_count: 120
 sources_7d: 5
-sources_30d: 15
+sources_30d: 16
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)

@@ -34,15 +34,7 @@ scorecard:
 scorecard_status: draft
 sources_7d: 0
 sources_30d: 1
-recent_mentions:
-- slug: 2026-02-02-photonic-engines-for-data-centers
-  title: Photonic "Engines" for Data Centers
-  date: '2026-02-02'
-  kind: substack
-- slug: 2025-04-16-the-state-of-photonic-computing
-  title: 'Photonic Computing: A Primer'
-  date: '2025-04-16'
-  kind: substack
+recent_mentions: []
 neighbors: []
 ---
 **Free-space optics sends data as modulated light through air or vacuum instead of fibre, and the current evidence base is laboratory-scale: >100 Gb/s hybrid optical/millimetre-wave transmitters, machine-learning receivers to fight bandwidth limits, and design studies that make inter-satellite laser links the backbone of proposed orbital AI compute clusters.**

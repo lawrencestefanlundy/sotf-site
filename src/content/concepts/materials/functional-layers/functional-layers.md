@@ -12,7 +12,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 1
+mention_count: 2
 descendants:
 - aluminium-oxide
 - aluminium-scandium-nitride
@@ -40,8 +40,8 @@ frontier:
 - What drive voltage and modulation bandwidth accompany the reported resonance shift, and how do they trade against the Q >2000 operating point?
 - Can 100 pm perturbation control be held across a full-aperture array in a repeatable fabrication process, and what is the yield?
 - What is the measured phase and amplitude range per element, and is it sufficient for the claimed holography and photonic neural network applications?
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions: []
 neighbors: []
 ---

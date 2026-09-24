@@ -90,11 +90,6 @@ The kill mechanism is **distribution, not capability**. IDC forecasts **407.6M h
 
 ## Where the defensible positions are
 
-1. **Regulated medical — the only one with a proof point.** **Naox Technologies** (French) received **FDA 510(k) clearance in Jan 2026 for Naox Link, the first-ever in-ear EEG clearance** (CEO Hugo Dinh; already in select neurology and sleep centres). This works precisely *because* Apple won't go there — Apple's regulatory posture is the lowest-risk path touching the most people. Epilepsy monitoring and Alzheimer's-risk epileptiform detection need trials, reimbursement codes, and a neurologist channel. **But this is a medical-device business, not a semiconductor one** — value accrues to the clinical dataset and the clearance, not the silicon, so the winner here is whoever can fund trials and a neurologist channel. Confidence it's durable: ~65%, one proof point and zero exits.
-2. **Defence / industrial.** **Stat Health** holds a **US Air Force grant**. Core temp + cephalic blood flow under heat stress and G-load is a real military requirement with a buyer indifferent to consumer distribution economics. Small, non-commoditisable. One datapoint, not a market.
-3. **Component / IP licensing — where the bodies are.** Valencell is the *successful* case and it's a modest licensing business, not a venture outcome. Bragi pivoted to licensing and disappeared. Nura's IP ended up inside Denon.
-4. **Consumer device: no defensible position found.** Zero counter-evidence.
-
 ## Ear biometrics is a 30-year-old idea in a patent minefield
 
 - **[US5787187A](https://patents.google.com/patent/US5787187A/en)** — "Systems and methods for biometric identification using the acoustic properties of the ear canal," **Sandia, filed 1 Apr 1996**, granted 1998, now **expired**. The core idea is public domain.
@@ -123,10 +118,6 @@ The kill mechanism is **distribution, not capability**. IDC forecasts **407.6M h
 
 **The layers are three, and they are not the same business.**
 
-- **Device layer (407.6M hearable units):** the biggest number and the most captive. Apple/Samsung/Chinese ODMs own it, and proven modalities arrive as free features. Independent consumer devices here: see the graveyard.
-- **Medical-device layer (23.16M hearing aids + the un-absorbed clinical niches):** ~$9.7B in device value, growing ~2%/yr, 92.4% held by five vertically-integrated firms. The *growth* is not here; the *defensibility* is, in the regulated corners (Naox) those five and Apple don't enter.
-- **Silicon / IP layer:** 23.16M units/year across ~5 buyers. At a plausible $5–20 sensing/SoC content, the entire addressable chip layer is **~$115M–$460M/year**, contested, against buyers who design in-house (Sonova, Demant, Starkey) and who bought from an incumbent (Starkey→Valencell) the one time they didn't. The device denominator is 17× larger and inaccessible — **nobody is selling a sensing ASIC into AirPods.**
-
 **The size conclusion, vehicle-agnostic:** the ear is a **hundreds-of-millions** opportunity at the component layer and a **single-digit-billions, low-growth, highly concentrated** one at the device layer. Neither shape supports a venture-scale independent outcome on current evidence. The asymmetric money here, if any, is in regulated-medical clearances and in the listed incumbents' exposure to OTC commoditisation — not in the chip.
 
 ⚠️ **The $5–20 content figure is an estimate, not a sourced number** — no independent hearing-aid BOM teardown found. Treat $115M–$460M as an order-of-magnitude check that the answer is "hundreds of millions, not billions." That conclusion survives a 3× error either way. The unit count and concentration are solid; the BOM is not.
@@ -149,5 +140,3 @@ Three screens for the next ear deal:
 ## Connected
 
 ## Sources
-
-Research sprint 15 Jul 2026, three parallel agents. Key primary sources verified directly by Lawrence's session (not agent-relayed): [EHIMA hearing aid sales](https://www.ehima.com/about-ehima/hearing-aid-sales/) (23.16M/2025, +2.1%); [Francis, Zhao & Guinan 2018](https://pubmed.ncbi.nlm.nih.gov/30271329/); [US5787187A Sandia 1996](https://patents.google.com/patent/US5787187A/en) (expired); [Naox FDA clearance Jan 2026](https://medcitynews.com/2026/01/fda-eeg-brain-healthcare/).

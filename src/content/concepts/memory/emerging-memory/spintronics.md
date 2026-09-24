@@ -33,4 +33,3 @@ neighbors:
   path: /compute/non-conventional/beyond-cmos-logic/
   macro: compute
 ---
-Electronics exploiting the electron's **spin** (and spin-orbit coupling) rather than only its charge. Underpins MRAM (magnetic tunnel junctions, STT/SOT switching), magnetic sensors (TMR), and the beyond-CMOS **logic** programs (spin-orbit logic / MESO, ferroelectric spin-orbit / FESO, spin-wave/magnonic logic). European base: CEA-Spintec (Grenoble) + Laboratoire Albert Fert; funded by France 2030 PEPR SPIN (€38M). Memory is the commercialised beachhead ([MRAM (STT/SOT-MRAM)](/memory/mainstream-memory/mram/)); logic remains TRL 2-4. See **Beyond Cmos Device Layer**.

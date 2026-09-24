@@ -22,7 +22,6 @@ sources:
 - '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
 - '[[2026-08-24-embedd-pre-seed-siliconangle]]'
 - '[[2026-07-26-seat-pricing-regime-break]]'
-- '[[2026-06-18-aeon-verification]]'
 scorecard:
   viability: 3
   drivers: 4
@@ -32,7 +31,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 122
+mention_count: 123
 descendants:
 - agent-identity-kya
 - agentic-ai
@@ -42,8 +41,8 @@ descendants:
 - stablecoin-clearing
 - stablecoins
 - x402
-sources_7d: 11
-sources_30d: 36
+sources_7d: 10
+sources_30d: 37
 recent_mentions:
 - slug: 2026-08-24-embedd-pre-seed-siliconangle
   title: Chip software automation startup Embedd raises $2.7M

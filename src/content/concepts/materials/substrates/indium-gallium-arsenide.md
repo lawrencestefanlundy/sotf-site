@@ -25,7 +25,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 31
-sources_7d: 2
+sources_7d: 1
 sources_30d: 6
 recent_mentions:
 - slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors

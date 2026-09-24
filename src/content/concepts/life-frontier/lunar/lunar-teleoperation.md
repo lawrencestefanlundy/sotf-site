@@ -16,9 +16,9 @@ last_updated: '2026-06-13'
 tags:
 - concept
 - redirect
-mention_count: 23
-sources_7d: 0
-sources_30d: 4
+mention_count: 24
+sources_7d: 1
+sources_30d: 5
 recent_mentions:
 - slug: 2026-05-30-intel-optoscribe-acquisition
   title: Intel Acquires Optoscribe (3D glass photonics, Livingston, Scotland)

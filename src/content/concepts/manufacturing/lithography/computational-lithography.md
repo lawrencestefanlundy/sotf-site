@@ -29,9 +29,9 @@ last_updated: '2026-05-30'
 tags:
 - concept
 - technology
-mention_count: 23
-sources_7d: 0
-sources_30d: 1
+mention_count: 24
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
 - slug: 2026-06-05-recursive-until-the-power-bill
   title: Recursive, Until the Power Bill

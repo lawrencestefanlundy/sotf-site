@@ -37,7 +37,7 @@ scorecard:
   verdict: Too early to say
 scorecard_status: draft
 mention_count: 129
-sources_7d: 7
+sources_7d: 6
 sources_30d: 24
 recent_mentions:
 - slug: 2026-08-31-qcells-tandem-iec-ul-certification-tuv-rheinland

@@ -37,7 +37,7 @@ descendants:
 - zinc-oxide
 - zinc-selenide
 sources_7d: 0
-sources_30d: 3
+sources_30d: 2
 recent_mentions:
 - slug: 2026-02-12-how-to-invest-in-ai-sovereignty-sovereign
   title: How to Invest in AI Sovereignty — Sovereign Albion w/ Andrew Bennett
@@ -55,6 +55,10 @@ recent_mentions:
   title: 'UK Opportunity in AI: Compound Semiconductors'
   date: '2025-09-10'
   kind: substack
+- slug: 2021-06-24-cambridge-spin-out-porotech-raises-3m-cambridge-enterprise--
+  title: Cambridge spin-out Porotech raises £3m – Cambridge Enterprise - enterprise.cam.ac.uk
+  date: '2021-06-24'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

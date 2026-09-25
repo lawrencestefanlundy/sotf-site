@@ -21,7 +21,7 @@ tags:
 sources:
 - '[[2025-01-15-the-end-of-zero-marginal-costs-the]]'
 - '[[2026-07-09-in-die-microfluidic-cooling-sprint]]'
-mention_count: 18
+mention_count: 19
 parent_concepts:
 - compute-architecture
 - compute
@@ -40,7 +40,7 @@ frontier:
 - Does the post-quantum migration create demand for new accelerator arithmetic, or is it absorbed by existing CPU instruction-set extensions and firmware updates?
 - How much of the design and verification budget for a cryptographic accelerator goes to side-channel and fault resistance, given the argument that heterogeneity and third-party IP have pushed security validation to the forefront of semiconductor design 2026 06 05 emulation based system on chip security verification challen?
 sources_7d: 2
-sources_30d: 4
+sources_30d: 5
 recent_mentions:
 - slug: 2026-07-09-in-die-microfluidic-cooling-sprint
   title: In-die microfluidic cooling — cluster research sprint

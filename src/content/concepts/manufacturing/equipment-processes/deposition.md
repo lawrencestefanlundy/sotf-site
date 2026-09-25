@@ -20,7 +20,7 @@ auto_stub: false
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 251
+mention_count: 252
 descendants:
 - ald-atomic-layer-deposition
 - chemical-vapor-deposition

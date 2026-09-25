@@ -21,7 +21,6 @@ sources:
 - '[[2026-08-05-stealthium-gpu-powered-security-intelligence-site-docs-compe]]'
 - '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
 - '[[2026-08-24-embedd-pre-seed-siliconangle]]'
-- '[[2026-07-26-seat-pricing-regime-break]]'
 scorecard:
   viability: 3
   drivers: 4
@@ -31,7 +30,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 123
+mention_count: 124
 descendants:
 - agent-identity-kya
 - agentic-ai
@@ -42,7 +41,7 @@ descendants:
 - stablecoins
 - x402
 sources_7d: 10
-sources_30d: 37
+sources_30d: 38
 recent_mentions:
 - slug: 2026-08-24-embedd-pre-seed-siliconangle
   title: Chip software automation startup Embedd raises $2.7M

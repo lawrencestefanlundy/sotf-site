@@ -58,6 +58,18 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-23-rigetti-computing-stock-rises-on-chips-act-funding---ad-hoc-
+  title: Rigetti Computing stock rises on CHIPS Act funding - AD HOC NEWS
+  date: '2026-09-23'
+  kind: web
+- slug: 2026-09-23-does-chips-act-funding-change-the-bull-case-for-rigetti-comp
+  title: Does CHIPS Act Funding Change The Bull Case For Rigetti Computing Stock (RGTI)? - simplywall.st
+  date: '2026-09-23'
+  kind: web
+- slug: 2026-09-23-quantinuum-secures-100m-chips-act-award-to-scale-domestic-qu
+  title: Quantinuum Secures $100M CHIPS Act Award to Scale Domestic Quantum Semiconductor Manufacturing - Bisinfotech
+  date: '2026-09-23'
+  kind: web
 - slug: 2026-08-03-spad-single-photon-market-scan
   title: SPAD / single-photon detector market scan — incumbent structure and company cohort
   date: '2026-08-03'
@@ -78,18 +90,6 @@ recent_mentions:
   title: The Once and Future Kimi
   date: '2026-07-17'
   kind: substack
-- slug: 2026-07-16-when-will-quantum-computing-have-its-breakout-moment---latit
-  title: When will quantum computing have its breakout moment? - Latitude Media
-  date: '2026-07-16'
-  kind: web
-- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
-  title: 'Startup Funding: Q2 2026'
-  date: '2026-07-13'
-  kind: web
-- slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape
-  title: Neutral PDK / EDA layer for heterogeneous photonic integration — landscape check (Scintil essay correction research)
-  date: '2026-07-11'
-  kind: web
 neighbors:
 - slug: quantum-computing
   name: Quantum Computing

@@ -37,6 +37,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-24-the-hack-ministers-discuss-chips-act-2---euractivcom
+  title: 'THE HACK: Ministers discuss Chips Act 2 - euractiv.com'
+  date: '2026-09-24'
+  kind: web
 - slug: 2026-09-22-eu-prepares-chips-act-20-as-brussels-rethinks-competition-ru
   title: EU Prepares Chips Act 2.0 as Brussels Rethinks Competition Rules for Global Scale - EU Today
   date: '2026-09-22'
@@ -64,10 +68,6 @@ recent_mentions:
 - slug: 2026-08-18-chips-act-funds-40-fab-projects-faces-2026-deadline---legis1
   title: CHIPS Act Funds 40 Fab Projects, Faces 2026 Deadline - Legis1
   date: '2026-08-18'
-  kind: web
-- slug: 2026-08-13-how-the-chips-act-changed-binghamton-and-upstate-new-york---
-  title: How the CHIPS Act changed Binghamton and Upstate New York - Press & Sun-Bulletin
-  date: '2026-08-13'
   kind: web
 neighbors: []
 ---

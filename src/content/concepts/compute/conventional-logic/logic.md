@@ -34,6 +34,14 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-23-rigetti-computing-stock-rises-on-chips-act-funding---ad-hoc-
+  title: Rigetti Computing stock rises on CHIPS Act funding - AD HOC NEWS
+  date: '2026-09-23'
+  kind: web
+- slug: 2026-09-23-does-chips-act-funding-change-the-bull-case-for-rigetti-comp
+  title: Does CHIPS Act Funding Change The Bull Case For Rigetti Computing Stock (RGTI)? - simplywall.st
+  date: '2026-09-23'
+  kind: web
 - slug: 2026-09-15-inside-openais-agentic-software-factory
   title: Inside OpenAI’s agentic software factory
   date: '2026-09-15'
@@ -57,14 +65,6 @@ recent_mentions:
 - slug: 2026-08-27-ainews-hot-chips-openais-jalapeno-cerebras-cs-5-groq-3-lpx-a
   title: '[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6'
   date: '2026-08-27'
-  kind: web
-- slug: 2026-08-06-the-year-ai-science-and-the-physical-ai-industry-came-alive
-  title: The Year AI Science and the Physical AI Industry Came Alive
-  date: '2026-08-06'
-  kind: web
-- slug: 2026-08-03-the-inference-engineering-masterclass-philip-kiely-ali-taha-
-  title: The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten
-  date: '2026-08-03'
   kind: web
 neighbors: []
 ---

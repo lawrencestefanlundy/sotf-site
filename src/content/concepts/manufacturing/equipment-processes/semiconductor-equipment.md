@@ -33,6 +33,22 @@ descendants:
 sources_7d: 0
 sources_30d: 5
 recent_mentions:
+- slug: 2026-09-24-the-hack-ministers-discuss-chips-act-2---euractivcom
+  title: 'THE HACK: Ministers discuss Chips Act 2 - euractiv.com'
+  date: '2026-09-24'
+  kind: web
+- slug: 2026-09-24-asml-system-sales-in-europe-remain-at-zero-as-eu-debates-chi
+  title: ASML system sales in Europe remain at zero as EU debates Chips Act 2.0 - digitimes
+  date: '2026-09-24'
+  kind: web
+- slug: 2026-09-24-minister-puisto-to-attend-competitiveness-council-debate-on-
+  title: Minister Puisto to attend Competitiveness Council debate on EU Chips Act and merger control - Valtioneuvosto
+  date: '2026-09-24'
+  kind: web
+- slug: 2026-09-23-quantinuum-secures-100m-chips-act-award-to-scale-domestic-qu
+  title: Quantinuum Secures $100M CHIPS Act Award to Scale Domestic Quantum Semiconductor Manufacturing - Bisinfotech
+  date: '2026-09-23'
+  kind: web
 - slug: 2026-09-22-eu-prepares-chips-act-20-as-brussels-rethinks-competition-ru
   title: EU Prepares Chips Act 2.0 as Brussels Rethinks Competition Rules for Global Scale - EU Today
   date: '2026-09-22'
@@ -48,22 +64,6 @@ recent_mentions:
 - slug: 2026-09-17-ibms-anderon-locks-in-1-billion-chips-act-quantum-foundry-de
   title: IBM's Anderon locks in $1 billion CHIPS Act quantum foundry deal - qz.com
   date: '2026-09-17'
-  kind: web
-- slug: 2026-09-16-anderon-llc-finalizes-1b-chips-act-award-for-quantum-foundry
-  title: Anderon LLC Finalizes $1B CHIPS Act Award for Quantum Foundry - TradingView
-  date: '2026-09-16'
-  kind: web
-- slug: 2026-09-16-ibm-stock-gains-as-anderon-secures-1-billion-chips-act-award
-  title: IBM stock gains as Anderon secures $1 billion Chips Act award - ad-hoc-news.de
-  date: '2026-09-16'
-  kind: web
-- slug: 2026-09-16-anderon-finalizes-1-billion-chips-act-award-to-scale-300mm-p
-  title: Anderon Finalizes $1 Billion CHIPS Act Award to Scale 300mm Pure-Play Quantum Wafer Foundry - quantumcomputingreport.com
-  date: '2026-09-16'
-  kind: web
-- slug: 2026-09-14-semi-calls-for-chips-act-20-to-boost-semiconductor-competiti
-  title: SEMI Calls for Chips Act 2.0 to Boost Semiconductor Competitiveness - I-Connect007
-  date: '2026-09-14'
   kind: web
 neighbors: []
 ---

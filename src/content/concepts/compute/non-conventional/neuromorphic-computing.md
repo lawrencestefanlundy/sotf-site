@@ -41,7 +41,7 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Overrated
 scorecard_status: draft
-sources_7d: 1
+sources_7d: 0
 sources_30d: 11
 recent_mentions:
 - slug: 2026-09-15-arxiv-a-unified-interconnection-network-for-chiplet-based-scaling-

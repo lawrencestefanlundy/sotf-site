@@ -47,7 +47,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-07-01-mccarty-synthetic-cell-spudcell
   title: Synthetic Cell Eats, Grows, Divides (SpudCell)

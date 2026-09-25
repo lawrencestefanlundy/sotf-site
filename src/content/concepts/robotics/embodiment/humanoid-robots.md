@@ -68,7 +68,7 @@ scorecard:
   verdict: Overrated
 scorecard_status: draft
 mention_count: 97
-sources_7d: 1
+sources_7d: 0
 sources_30d: 9
 recent_mentions:
 - slug: 2026-09-07-sag-counterpoint-humanoid-shipments-h1-2026

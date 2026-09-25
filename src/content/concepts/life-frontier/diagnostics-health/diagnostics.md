@@ -23,7 +23,7 @@ scorecard:
   verdict: Too early to say
 scorecard_status: draft
 mention_count: 135
-sources_7d: 11
+sources_7d: 10
 sources_30d: 18
 recent_mentions:
 - slug: 2026-08-03-spad-single-photon-market-scan

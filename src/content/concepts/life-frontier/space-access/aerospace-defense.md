@@ -23,6 +23,10 @@ mention_count: 80
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-24-record-participation-in-esas-industry-space-days-2026
+  title: Record participation in ESA’s Industry Space Days 2026
+  date: '2026-09-24'
+  kind: web
 - slug: 2026-09-22-a-call-to-boost-european-space-exploration
   title: A call to boost European space exploration
   date: '2026-09-22'
@@ -50,10 +54,6 @@ recent_mentions:
 - slug: 2026-09-10-nasa-invites-media-to-djibouti-artemis-accords-signing-cerem
   title: NASA Invites Media to Djibouti Artemis Accords Signing Ceremony
   date: '2026-09-10'
-  kind: web
-- slug: 2026-09-09-nasa-adds-relativity-spaces-terran-r-to-launch-services-cont
-  title: NASA Adds Relativity Space’s Terran R to Launch Services Contract
-  date: '2026-09-09'
   kind: web
 neighbors: []
 ---

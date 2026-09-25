@@ -33,7 +33,7 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 6
+sources_7d: 5
 sources_30d: 25
 recent_mentions:
 - slug: 2026-05-24-mose2-exciton-polariton-all-optical-switch

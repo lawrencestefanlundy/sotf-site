@@ -21,7 +21,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 69
+mention_count: 71
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 4
@@ -32,8 +32,8 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 6
-sources_30d: 10
+sources_7d: 7
+sources_30d: 12
 recent_mentions:
 - slug: 2026-06-22-tim-approaches-full-sweep
   title: TIM approaches — exhaustive in-market + R&D sweep (vendors, classes, startups)

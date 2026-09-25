@@ -29,7 +29,7 @@ descendants:
 - radiation-shielding
 - sar-satellites
 - space-communications
-sources_7d: 3
+sources_7d: 2
 sources_30d: 5
 recent_mentions:
 - slug: 2026-09-03-space-compute-cheap-launch-rebuild

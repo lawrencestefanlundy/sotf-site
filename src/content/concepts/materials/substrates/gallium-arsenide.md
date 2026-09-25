@@ -26,7 +26,7 @@ scorecard:
 scorecard_status: draft
 mention_count: 98
 sources_7d: 3
-sources_30d: 16
+sources_30d: 15
 recent_mentions:
 - slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
   title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics

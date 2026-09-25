@@ -27,6 +27,10 @@ recent_mentions:
   title: Chip software automation startup Embedd raises $2.7M
   date: '2026-08-24'
   kind: web
+- slug: 2022-12-26-dect-forum-adds-nordic-semiconductor-and-wirepas-to-membersh
+  title: DECT Forum Adds Nordic Semiconductor and Wirepas to Membership - eetasia.com
+  date: '2022-12-26'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

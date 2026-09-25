@@ -46,7 +46,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 106
+mention_count: 107
 descendants:
 - dexterous-manipulation
 - humanoid-robots
@@ -56,8 +56,8 @@ descendants:
 - tactile-sensing
 - vision-language-action-models
 - world-models
-sources_7d: 4
-sources_30d: 20
+sources_7d: 3
+sources_30d: 21
 recent_mentions:
 - slug: 2026-09-18-visions-of-ai-gpt-3-moment-for-physical-ai
   title: 'Visions of AI: GPT-3 Moment for Physical AI'

@@ -41,7 +41,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - seeded-stub
-mention_count: 22
+mention_count: 23
 scorecard:
   viability: 3
   drivers: 3
@@ -51,8 +51,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Overrated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 1
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
 - slug: 2026-07-28-zk-identity-primitives-commoditised
   title: Google open-sources its ZKP libraries, the EU ships an open-source age-verification blueprint, and eIDAS 2.0 encourages ZKP in the wallet

@@ -19,7 +19,7 @@ frontier:
 - Can any member of the series be synthesised as a phase-pure thin film, and do measured lattice parameters and elastic moduli match the DFT predictions?
 - Do the Sn(II)/Ge(II) oxidation states survive ambient and operational conditions, or does oxidation dominate degradation as in other tin-based lead-free perovskites?
 - Has any lead-free double perovskite been integrated into a two-terminal tandem stack, and what open-circuit voltage and fill factor result?
-sources_7d: 1
+sources_7d: 0
 sources_30d: 1
 recent_mentions: []
 neighbors: []

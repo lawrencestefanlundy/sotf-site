@@ -31,7 +31,7 @@ scorecard:
 scorecard_status: draft
 mention_count: 204
 sources_7d: 4
-sources_30d: 17
+sources_30d: 18
 recent_mentions:
 - slug: 2026-08-07-the-memory-trade-isnt-over-weights
   title: 'The Memory Trade Isn''t Over: Weights and KV Cache'

@@ -18,9 +18,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 81
-sources_7d: 5
-sources_30d: 16
+mention_count: 84
+sources_7d: 6
+sources_30d: 19
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'

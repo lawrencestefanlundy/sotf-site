@@ -52,6 +52,30 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-24-the-hack-ministers-discuss-chips-act-2---euractivcom
+  title: 'THE HACK: Ministers discuss Chips Act 2 - euractiv.com'
+  date: '2026-09-24'
+  kind: web
+- slug: 2026-09-24-asml-system-sales-in-europe-remain-at-zero-as-eu-debates-chi
+  title: ASML system sales in Europe remain at zero as EU debates Chips Act 2.0 - digitimes
+  date: '2026-09-24'
+  kind: web
+- slug: 2026-09-24-minister-puisto-to-attend-competitiveness-council-debate-on-
+  title: Minister Puisto to attend Competitiveness Council debate on EU Chips Act and merger control - Valtioneuvosto
+  date: '2026-09-24'
+  kind: web
+- slug: 2026-09-23-rigetti-computing-stock-rises-on-chips-act-funding---ad-hoc-
+  title: Rigetti Computing stock rises on CHIPS Act funding - AD HOC NEWS
+  date: '2026-09-23'
+  kind: web
+- slug: 2026-09-23-does-chips-act-funding-change-the-bull-case-for-rigetti-comp
+  title: Does CHIPS Act Funding Change The Bull Case For Rigetti Computing Stock (RGTI)? - simplywall.st
+  date: '2026-09-23'
+  kind: web
+- slug: 2026-09-23-quantinuum-secures-100m-chips-act-award-to-scale-domestic-qu
+  title: Quantinuum Secures $100M CHIPS Act Award to Scale Domestic Quantum Semiconductor Manufacturing - Bisinfotech
+  date: '2026-09-23'
+  kind: web
 - slug: 2026-09-22-eu-prepares-chips-act-20-as-brussels-rethinks-competition-ru
   title: EU Prepares Chips Act 2.0 as Brussels Rethinks Competition Rules for Global Scale - EU Today
   date: '2026-09-22'
@@ -59,30 +83,6 @@ recent_mentions:
 - slug: 2026-09-21-ibm-unit-secures-us1-billion-chips-act-award-to-expand-quant
   title: IBM unit secures US$1 billion CHIPS Act award to expand quantum wafer manufacturing - digitimes
   date: '2026-09-21'
-  kind: web
-- slug: 2026-09-17-clifford-chance-advises-us-department-of-commerce-on-us1-bil
-  title: Clifford Chance advises U.S. Department of Commerce on US$1 billion CHIPS Act Award to Anderon for quantum semiconductor foundry development - Clifford Chance
-  date: '2026-09-17'
-  kind: web
-- slug: 2026-09-16-ibm-stock-gains-as-anderon-secures-1-billion-chips-act-award
-  title: IBM stock gains as Anderon secures $1 billion Chips Act award - ad-hoc-news.de
-  date: '2026-09-16'
-  kind: web
-- slug: 2026-09-16-anderon-finalizes-1-billion-chips-act-award-to-scale-300mm-p
-  title: Anderon Finalizes $1 Billion CHIPS Act Award to Scale 300mm Pure-Play Quantum Wafer Foundry - quantumcomputingreport.com
-  date: '2026-09-16'
-  kind: web
-- slug: 2026-09-16-anderon-finalizes-1b-chips-act-award-for-quantum-wafers---in
-  title: Anderon finalizes $1B CHIPS Act award for quantum wafers - Investing.com India
-  date: '2026-09-16'
-  kind: web
-- slug: 2026-09-14-semi-calls-for-chips-act-20-to-boost-semiconductor-competiti
-  title: SEMI Calls for Chips Act 2.0 to Boost Semiconductor Competitiveness - I-Connect007
-  date: '2026-09-14'
-  kind: web
-- slug: 2026-09-11-rigetti-rgti-stock-looks-stretched-despite-fresh-chips-act-f
-  title: Rigetti (RGTI) Stock Looks Stretched Despite Fresh CHIPS Act Funding - simplywall.st
-  date: '2026-09-11'
   kind: web
 neighbors:
 - slug: logic

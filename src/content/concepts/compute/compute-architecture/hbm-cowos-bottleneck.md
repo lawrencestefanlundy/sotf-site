@@ -29,7 +29,7 @@ tags:
 - packaging
 - hbm
 mention_count: 7
-sources_7d: 1
+sources_7d: 0
 sources_30d: 1
 recent_mentions:
 - slug: 2026-04-26-litho-tool-supply-bottleneck-ai-semiconductor-supply-chain

@@ -35,7 +35,7 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 9
+sources_7d: 8
 sources_30d: 17
 recent_mentions:
 - slug: 2025-26-lapedus-next-gen-ferroelectric-memory

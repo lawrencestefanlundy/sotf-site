@@ -32,6 +32,7 @@ sources:
 - '[[2025-11-03-sennheiser-experts-to-explore-dect-nr-opportunities-at-dect-]]'
 - '[[2023-08-16-the-first-non-cellular-5g-standard-dect-nr---5g-technology-w]]'
 - '[[2026-06-10-dect-nr-demystified---sennheiser]]'
+- '[[2022-12-26-dect-forum-adds-nordic-semiconductor-and-wirepas-to-membersh]]'
 - '[[2025-10-23-merci-project-takes-dect-nr-from-vision-to-reality---sennhei]]'
 - '[[2026-03-24-dect-nr-a-wireless-solution-for-real-time-audio---audioxpres]]'
 - '[[2025-11-04-sennheiser-promotes-dect-nr-next-generation-wireless-technol]]'
@@ -47,7 +48,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 34
+mention_count: 35
 sources_7d: 1
 sources_30d: 4
 recent_mentions:

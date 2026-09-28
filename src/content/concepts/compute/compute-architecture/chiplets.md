@@ -48,7 +48,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 126
-sources_7d: 2
+sources_7d: 1
 sources_30d: 8
 recent_mentions:
 - slug: 2026-09-07-anysilicon-direct-rf-sampling-chiplets

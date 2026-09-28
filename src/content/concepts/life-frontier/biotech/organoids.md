@@ -22,7 +22,7 @@ frontier:
 - Does an interior-addressing I/O method (3D electrode penetration, optical, or DNA-encoded readout) achieve bandwidth beyond surface-only multi-electrode contact?
 - Do batch-to-batch reproducibility metrics exist for organoid generation that would let a training protocol transfer between independently grown organoids 2023 nature electronics brainoware?
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2025-statnews-biocomputing-backlash
   title: Brain organoid pioneers fear backlash over biocomputing

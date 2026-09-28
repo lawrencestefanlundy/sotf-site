@@ -20,7 +20,7 @@ mention_count: 22
 parent_concepts:
 - packaging
 sources_7d: 0
-sources_30d: 3
+sources_30d: 2
 recent_mentions:
 - slug: 2023-08-31-e13-chiplets-how-chip-lego-is-driving
   title: '🔮 E13: Chiplets - How Chip Lego is Driving AI Progress'

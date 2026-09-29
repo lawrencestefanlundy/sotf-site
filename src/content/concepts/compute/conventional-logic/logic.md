@@ -34,6 +34,18 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-29-ainews-amd-buys-world-labs-for-82b-as-atlas-solves-sparse-re
+  title: '[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more'
+  date: '2026-09-29'
+  kind: web
+- slug: 2026-09-25-rigetti-computing-rgti-secures-chips-act-support-is-the-upsi
+  title: Rigetti Computing (RGTI) Secures CHIPS Act Support, Is The Upside Already Priced In? - simplywall.st
+  date: '2026-09-25'
+  kind: web
+- slug: 2026-09-24-ai-evolution-merchants-of-compute
+  title: 'AI Evolution: Merchants of Compute'
+  date: '2026-09-24'
+  kind: web
 - slug: 2026-09-23-rigetti-computing-stock-rises-on-chips-act-funding---ad-hoc-
   title: Rigetti Computing stock rises on CHIPS Act funding - AD HOC NEWS
   date: '2026-09-23'
@@ -53,18 +65,6 @@ recent_mentions:
 - slug: 2026-09-09-rigetti-stock-gains-after-securing-100-million-in-chips-act-
   title: Rigetti Stock Gains After Securing $100 Million in CHIPS Act Funding - TIKR.com
   date: '2026-09-09'
-  kind: web
-- slug: 2026-09-01-nvidia-earnings-dollars-per-gigawatt-open-and-hugging-face
-  title: Nvidia Earnings, Dollars Per Gigawatt, Open and Hugging Face
-  date: '2026-09-01'
-  kind: web
-- slug: 2026-08-29-us-commerce-department-moves-to-block-china-ai-firms-from-re
-  title: U.S. Commerce Department moves to block China AI firms from remote access to advanced chips - 디지털투데이
-  date: '2026-08-29'
-  kind: web
-- slug: 2026-08-27-ainews-hot-chips-openais-jalapeno-cerebras-cs-5-groq-3-lpx-a
-  title: '[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6'
-  date: '2026-08-27'
   kind: web
 neighbors: []
 ---

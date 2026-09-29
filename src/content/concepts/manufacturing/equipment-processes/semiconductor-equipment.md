@@ -37,8 +37,16 @@ recent_mentions:
   title: 'THE HACK: Ministers discuss Chips Act 2 - euractiv.com'
   date: '2026-09-24'
   kind: web
+- slug: 2026-09-24-eu-ministers-push-new-chips-strategy-to-reduce-europes-depen
+  title: EU Ministers Push New Chips Strategy to Reduce Europe’s Dependence on Foreign Semiconductors - eutoday.net
+  date: '2026-09-24'
+  kind: web
 - slug: 2026-09-24-asml-system-sales-in-europe-remain-at-zero-as-eu-debates-chi
   title: ASML system sales in Europe remain at zero as EU debates Chips Act 2.0 - digitimes
+  date: '2026-09-24'
+  kind: web
+- slug: 2026-09-24-foundries-vs-navigators-lowering-the-cost-of-science
+  title: 'Foundries vs Navigators: Lowering the Cost of Science'
   date: '2026-09-24'
   kind: web
 - slug: 2026-09-24-minister-puisto-to-attend-competitiveness-council-debate-on-
@@ -56,14 +64,6 @@ recent_mentions:
 - slug: 2026-09-21-ibm-unit-secures-us1-billion-chips-act-award-to-expand-quant
   title: IBM unit secures US$1 billion CHIPS Act award to expand quantum wafer manufacturing - digitimes
   date: '2026-09-21'
-  kind: web
-- slug: 2026-09-17-clifford-chance-advises-us-department-of-commerce-on-us1-bil
-  title: Clifford Chance advises U.S. Department of Commerce on US$1 billion CHIPS Act Award to Anderon for quantum semiconductor foundry development - Clifford Chance
-  date: '2026-09-17'
-  kind: web
-- slug: 2026-09-17-ibms-anderon-locks-in-1-billion-chips-act-quantum-foundry-de
-  title: IBM's Anderon locks in $1 billion CHIPS Act quantum foundry deal - qz.com
-  date: '2026-09-17'
   kind: web
 neighbors: []
 ---

@@ -28,6 +28,10 @@ sources:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-28-nasa-orbit-challenge-2027
+  title: NASA ORBIT Challenge 2027
+  date: '2026-09-28'
+  kind: web
 - slug: 2026-09-17-galileos-first-civil-authenticated-position-fix-under-spoofi
   title: Galileo's first civil authenticated position fix under spoofing conditions
   date: '2026-09-17'
@@ -55,10 +59,6 @@ recent_mentions:
 - slug: 2026-08-31-diffraqtion-raises-more-than-10m-for-quantum-camera-developm
   title: Diffraqtion Raises More Than $10M for Quantum Camera Development - The Quantum Insider
   date: '2026-08-31'
-  kind: web
-- slug: 2026-08-11-nasa-completes-astronaut-deployed-science-instrument-for-lun
-  title: NASA Completes Astronaut-Deployed Science Instrument for Lunar Surface
-  date: '2026-08-11'
   kind: web
 neighbors: []
 ---

@@ -33,6 +33,18 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-29-ainews-amd-buys-world-labs-for-82b-as-atlas-solves-sparse-re
+  title: '[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more'
+  date: '2026-09-29'
+  kind: web
+- slug: 2026-09-28-apps-agents-and-aggregation
+  title: Apps, Agents, and Aggregation
+  date: '2026-09-28'
+  kind: web
+- slug: 2026-09-24-foundries-vs-navigators-lowering-the-cost-of-science
+  title: 'Foundries vs Navigators: Lowering the Cost of Science'
+  date: '2026-09-24'
+  kind: web
 - slug: 2026-09-18-visions-of-ai-gpt-3-moment-for-physical-ai
   title: 'Visions of AI: GPT-3 Moment for Physical AI'
   date: '2026-09-18'
@@ -52,18 +64,6 @@ recent_mentions:
 - slug: 2026-09-03-the-pulse-tech-companies-move-to-open-ai-models
   title: 'The Pulse: tech companies move to open AI models'
   date: '2026-09-03'
-  kind: web
-- slug: 2026-09-01-chinas-ai-rally-is-real-most-global-investors-are-missing-it
-  title: China’s AI Rally Is Real. Most Global Investors Are Missing It.
-  date: '2026-09-01'
-  kind: web
-- slug: 2026-08-26-we-have-foundation-models-for-language-not-for-physics-anima
-  title: 🔬“We have foundation models for language, not for physics” — Anima Anandkumar, Bren Professor of Computing
-  date: '2026-08-26'
-  kind: web
-- slug: 2026-08-26-making-data-centers-flexible-so-they-can-serve-the-grid-rath
-  title: Making data centers flexible so they can serve the grid rather than stress it out
-  date: '2026-08-26'
   kind: web
 neighbors: []
 ---

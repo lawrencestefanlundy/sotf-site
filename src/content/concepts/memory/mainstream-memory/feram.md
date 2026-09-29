@@ -22,7 +22,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 183
+mention_count: 185
 last_reorg_date: '2026-05-14'
 descendants:
 - fefet
@@ -35,7 +35,7 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 7
+sources_7d: 3
 sources_30d: 17
 recent_mentions:
 - slug: 2025-26-lapedus-next-gen-ferroelectric-memory

@@ -25,17 +25,9 @@ mention_count: 127
 parent_concepts:
 - imaging
 - sensing
-sources_7d: 2
+sources_7d: 0
 sources_30d: 12
-recent_mentions:
-- slug: 2025-12-09-gallium-nitride-photonics-w-james
-  title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
-  date: '2025-12-09'
-  kind: substack
-- slug: 2025-12-02-the-future-of-computing-is-glass
-  title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
-  date: '2025-12-02'
-  kind: substack
+recent_mentions: []
 neighbors:
 - slug: spectral-sensing
   name: Spectral Sensing

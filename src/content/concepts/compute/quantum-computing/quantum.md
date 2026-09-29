@@ -58,6 +58,18 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-25-rigetti-computing-rgti-secures-chips-act-support-is-the-upsi
+  title: Rigetti Computing (RGTI) Secures CHIPS Act Support, Is The Upside Already Priced In? - simplywall.st
+  date: '2026-09-25'
+  kind: web
+- slug: 2026-09-25-quantware-says-scaling-quantum-power-hinges-on-efficiency-no
+  title: QuantWare Says Scaling Quantum Power Hinges On Efficiency, Not Just Qubits - Quantum Zeitgeist
+  date: '2026-09-25'
+  kind: web
+- slug: 2026-09-24-d-wave-quantum-nyse-qbts-secures-100m-in-chips-act-funding-w
+  title: 'D-Wave Quantum (NYSE: QBTS) Secures $100M In CHIPS Act Funding While Landing AT&T And NTT DOCOMO Deals - foreignpolicyjournal.com'
+  date: '2026-09-24'
+  kind: web
 - slug: 2026-09-23-rigetti-computing-stock-rises-on-chips-act-funding---ad-hoc-
   title: Rigetti Computing stock rises on CHIPS Act funding - AD HOC NEWS
   date: '2026-09-23'
@@ -78,18 +90,6 @@ recent_mentions:
   title: $1.8B Illinois Chips Act Supports Zero Point Cryogenics’ U.S. Entry - Quantum Zeitgeist
   date: '2026-07-24'
   kind: web
-- slug: 2026-07-21-d-wave-quantum-chips-act-backing-and-nasdaq-shift-fail-to-re
-  title: 'D-Wave Quantum: CHIPS Act Backing and Nasdaq Shift Fail to Reverse a Brutal Selloff - Ad-hoc-news.de'
-  date: '2026-07-21'
-  kind: web
-- slug: 2026-07-21-applied-crypto-spinout-sourcing-map
-  title: Applied-cryptography academic spinouts in financial infrastructure — sourcing map
-  date: '2026-07-21'
-  kind: web
-- slug: 2026-07-17-the-once-and-future-kimi
-  title: The Once and Future Kimi
-  date: '2026-07-17'
-  kind: substack
 neighbors:
 - slug: quantum-computing
   name: Quantum Computing

@@ -23,6 +23,18 @@ mention_count: 82
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-28-frontier-forum-the-rush-for-clean-on-site-power---latitudeme
+  title: 'Frontier Forum: The rush for clean, on-site power - latitudemedia.com'
+  date: '2026-09-28'
+  kind: web
+- slug: 2026-09-24-most-new-us-power-is-clean-but-utilities-are-choosing-gas-fo
+  title: Most new US power is clean — but utilities are choosing gas for data centers - latitudemedia.com
+  date: '2026-09-24'
+  kind: web
+- slug: 2026-09-23-another-voltus-data-center-expansion-this-time-with-sunrun--
+  title: Another Voltus data center expansion — this time with Sunrun - Latitude Media
+  date: '2026-09-23'
+  kind: web
 - slug: 2026-09-21-rune-is-tapping-spare-solar-power-for-modular-data-centers--
   title: Rune is tapping spare solar power for modular data centers - latitudemedia.com
   date: '2026-09-21'
@@ -42,18 +54,6 @@ recent_mentions:
 - slug: 2026-09-04-building-clean-power-for-data-centers-in-a-gas-obsessed-mark
   title: Building clean power for data centers in a gas-obsessed market - Latitude Media
   date: '2026-09-04'
-  kind: web
-- slug: 2026-08-12-did-someone-just-figure-out-how-to-project-finance-nuclear--
-  title: Did someone just figure out how to project finance nuclear? - Latitude Media
-  date: '2026-08-12'
-  kind: web
-- slug: 2026-08-11-can-the-advanced-geothermal-industry-follow-in-fervos-wake--
-  title: Can the advanced geothermal industry follow in Fervo’s wake? - Latitude Media
-  date: '2026-08-11'
-  kind: web
-- slug: 2026-08-06-how-foreign-turbine-suppliers-are-gearing-up-for-a-us-geothe
-  title: How foreign turbine suppliers are gearing up for a US geothermal boom - Latitude Media
-  date: '2026-08-06'
   kind: web
 neighbors: []
 ---

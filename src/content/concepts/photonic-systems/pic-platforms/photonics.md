@@ -50,7 +50,7 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-mention_count: 1149
+mention_count: 1151
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -62,6 +62,10 @@ descendants:
 sources_7d: 1
 sources_30d: 3
 recent_mentions:
+- slug: 2026-09-28-nasa-orbit-challenge-2027
+  title: NASA ORBIT Challenge 2027
+  date: '2026-09-28'
+  kind: web
 - slug: 2026-08-24-nist-researchers-supersize-quantum-technology-to-help-detect
   title: NIST Researchers Supersize Quantum Technology to Help Detect Faint Photons
   date: '2026-08-24'
@@ -88,10 +92,6 @@ recent_mentions:
   kind: web
 - slug: 2026-07-29-globalfoundries-wins-300-million-chips-act-silicon-photonics
   title: GlobalFoundries wins $300 million CHIPS Act silicon photonics award - Yahoo Finance
-  date: '2026-07-29'
-  kind: web
-- slug: 2026-07-29-serenity-globalfoundries-receives-support-from-the-us-chips-
-  title: 'Serenity: GlobalFoundries receives support from the US CHIPS Act, benefiting Sivers and Lumentum - Bitget'
   date: '2026-07-29'
   kind: web
 neighbors: []

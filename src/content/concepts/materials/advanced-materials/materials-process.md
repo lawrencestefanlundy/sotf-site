@@ -34,6 +34,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-24-foundries-vs-navigators-lowering-the-cost-of-science
+  title: 'Foundries vs Navigators: Lowering the Cost of Science'
+  date: '2026-09-24'
+  kind: web
 - slug: 2026-08-07-nasas-lunar-development-and-test-facility-prepares-artemis-h
   title: NASA’s Lunar Development and Test Facility Prepares Artemis Hardware for Moon
   date: '2026-08-07'
@@ -61,10 +65,6 @@ recent_mentions:
 - slug: 2021-05-06-weav3d-awarded-nsf-funding-to-further-develop-next-generatio
   title: WEAV3D awarded NSF funding to further develop next-generation composite forming machine - Design World
   date: '2021-05-06'
-  kind: web
-- slug: 2017-05-04-making-3-d-printing-as-simple-as-printing-on-paper---mit-new
-  title: Making 3-D printing as simple as printing on paper - MIT News
-  date: '2017-05-04'
   kind: web
 neighbors: []
 ---

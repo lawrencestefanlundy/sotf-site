@@ -23,7 +23,7 @@ last_updated: 2026-06-02
 tags:
 - concept
 - category
-mention_count: 4
+mention_count: 6
 descendants: []
 last_reorg_date: '2026-05-14'
 sources_7d: 0

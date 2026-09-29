@@ -23,6 +23,14 @@ mention_count: 80
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-28-reliable-robots-meet-johnsons-dexterous-robotics-team
+  title: 'Reliable Robots: Meet Johnson’s Dexterous Robotics Team'
+  date: '2026-09-28'
+  kind: web
+- slug: 2026-09-28-nasa-orbit-challenge-2027
+  title: NASA ORBIT Challenge 2027
+  date: '2026-09-28'
+  kind: web
 - slug: 2026-09-24-record-participation-in-esas-industry-space-days-2026
   title: Record participation in ESA’s Industry Space Days 2026
   date: '2026-09-24'
@@ -46,14 +54,6 @@ recent_mentions:
 - slug: 2026-09-17-three-space-companies-win-esa-awards-for-excellence-and-inno
   title: Three space companies win ESA awards for excellence and innovation
   date: '2026-09-17'
-  kind: web
-- slug: 2026-09-14-esa-space-environment-report-2026
-  title: ESA Space Environment Report 2026
-  date: '2026-09-14'
-  kind: web
-- slug: 2026-09-10-nasa-invites-media-to-djibouti-artemis-accords-signing-cerem
-  title: NASA Invites Media to Djibouti Artemis Accords Signing Ceremony
-  date: '2026-09-10'
   kind: web
 neighbors: []
 ---

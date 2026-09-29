@@ -23,7 +23,7 @@ descendants:
 - optical-frequency-division
 - optoelectronic-oscillator
 mention_count: 14
-sources_7d: 1
+sources_7d: 0
 sources_30d: 2
 recent_mentions:
 - slug: 2025-12-09-gallium-nitride-photonics-w-james

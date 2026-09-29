@@ -40,7 +40,7 @@ tags:
 - semron
 - memcapacitor
 - product-brand
-mention_count: 63
+mention_count: 64
 scorecard:
   viability: 2
   drivers: 3
@@ -51,36 +51,8 @@ scorecard:
   verdict: Overrated
 scorecard_status: draft
 sources_7d: 4
-sources_30d: 7
-recent_mentions:
-- slug: 2026-08-07-the-memory-trade-isnt-over-weights
-  title: 'The Memory Trade Isn''t Over: Weights and KV Cache'
-  date: '2026-08-07'
-  kind: substack
-- slug: 2026-07-17-the-once-and-future-kimi
-  title: The Once and Future Kimi
-  date: '2026-07-17'
-  kind: substack
-- slug: 2026-07-16-the-path-to-agi-runs-through-hbm
-  title: The Path To AGI Runs Through HBM
-  date: '2026-07-16'
-  kind: substack
-- slug: 2025-09-23-the-compute-gradient
-  title: The Compute Gradient
-  date: '2025-09-23'
-  kind: substack
-- slug: 2025-02-12-wen-babelfish-feat-aron-of-semron
-  title: 'Edge AI: Analog Chips (feat. Aron Kirschen, SEMRON)'
-  date: '2025-02-12'
-  kind: substack
-- slug: 2023-07-23-analog-computing-the-once-and-future
-  title: '🔮 E09: Analog Computing: The Once and Future King'
-  date: '2023-07-23'
-  kind: substack
-- slug: 2023-06-23-e05-the-future-of-edge-ai-brain-inspired
-  title: '🔮 E05: Neuromorphic Computing & The Future of Edge AI'
-  date: '2023-06-23'
-  kind: substack
+sources_30d: 8
+recent_mentions: []
 neighbors:
 - slug: memcapacitor
   name: Memcapacitor

@@ -69,6 +69,18 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 5
 recent_mentions:
+- slug: 2026-09-29-ainews-amd-buys-world-labs-for-82b-as-atlas-solves-sparse-re
+  title: '[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more'
+  date: '2026-09-29'
+  kind: web
+- slug: 2026-09-25-what-chinas-clean-power-advantage-means-for-the-ai-race---la
+  title: What China’s clean power advantage means for the AI race - latitudemedia.com
+  date: '2026-09-25'
+  kind: web
+- slug: 2026-09-24-ai-evolution-merchants-of-compute
+  title: 'AI Evolution: Merchants of Compute'
+  date: '2026-09-24'
+  kind: web
 - slug: 2026-09-18-the-hidden-power-systems-behind-ai---latitude-media
   title: The hidden power systems behind AI - Latitude Media
   date: '2026-09-18'
@@ -87,18 +99,6 @@ recent_mentions:
   kind: web
 - slug: 2026-09-07-qualcomm-dragonwing-robotics-ces-2026
   title: 'CES 2026: Qualcomm targets NVIDIA Jetson with new robotics developer platform (A3 / automate.org)'
-  date: '2026-09-07'
-  kind: web
-- slug: 2026-09-07-ifr-world-robotics-2025-service-robots
-  title: World Robotics 2025 report, service robots (IFR, 7 Oct 2025)
-  date: '2026-09-07'
-  kind: web
-- slug: 2026-09-07-auterion-skynode-33k-strike-kits-ukraine
-  title: Auterion secures contract to deliver 33,000 Skynode drone strike kits to Ukraine (Auterion; DroneLife, 29 Jul 2025)
-  date: '2026-09-07'
-  kind: web
-- slug: 2026-09-07-nvidia-jetson-thor-on-sale-aug-2025
-  title: Nvidia's 'robot brain' chip Thor goes on sale (CNBC, 25 Aug 2025; NVIDIA newsroom)
   date: '2026-09-07'
   kind: web
 neighbors: []

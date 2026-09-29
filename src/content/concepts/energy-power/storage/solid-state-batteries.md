@@ -19,7 +19,7 @@ tags:
 - technology
 mention_count: 16
 last_reorg_date: '2026-05-14'
-sources_7d: 1
+sources_7d: 0
 sources_30d: 6
 recent_mentions:
 - slug: 2025-11-06-successful-funding-round-for-empa-eth-spin-off-57-million-to

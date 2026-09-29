@@ -123,6 +123,30 @@ descendants:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-28-does-the-market-finally-have-an-opening-for-solid-state-tran
+  title: Does the market finally have an opening for solid-state transformers? - latitudemedia.com
+  date: '2026-09-28'
+  kind: web
+- slug: 2026-09-28-frontier-forum-the-rush-for-clean-on-site-power---latitudeme
+  title: 'Frontier Forum: The rush for clean, on-site power - latitudemedia.com'
+  date: '2026-09-28'
+  kind: web
+- slug: 2026-09-25-what-chinas-clean-power-advantage-means-for-the-ai-race---la
+  title: What China’s clean power advantage means for the AI race - latitudemedia.com
+  date: '2026-09-25'
+  kind: web
+- slug: 2026-09-24-most-new-us-power-is-clean-but-utilities-are-choosing-gas-fo
+  title: Most new US power is clean — but utilities are choosing gas for data centers - latitudemedia.com
+  date: '2026-09-24'
+  kind: web
+- slug: 2026-09-23-load-growth-is-straining-already-worn-out-electrical-equipme
+  title: Load growth is straining already worn-out electrical equipment - latitudemedia.com
+  date: '2026-09-23'
+  kind: web
+- slug: 2026-09-23-another-voltus-data-center-expansion-this-time-with-sunrun--
+  title: Another Voltus data center expansion — this time with Sunrun - Latitude Media
+  date: '2026-09-23'
+  kind: web
 - slug: 2026-09-21-rune-is-tapping-spare-solar-power-for-modular-data-centers--
   title: Rune is tapping spare solar power for modular data centers - latitudemedia.com
   date: '2026-09-21'
@@ -130,30 +154,6 @@ recent_mentions:
 - slug: 2026-09-18-the-hidden-power-systems-behind-ai---latitude-media
   title: The hidden power systems behind AI - Latitude Media
   date: '2026-09-18'
-  kind: web
-- slug: 2026-09-17-grid-congestion-cost-the-us-a-record-17-billion-last-year---
-  title: Grid congestion cost the US a record $17 billion last year - Latitude Media
-  date: '2026-09-17'
-  kind: web
-- slug: 2026-09-16-how-to-build-a-more-flexible-quieter-less-obnoxious-data-cen
-  title: How to build a more flexible, quieter, less obnoxious data center
-  date: '2026-09-16'
-  kind: web
-- slug: 2026-09-14-tar-aims-to-build-off-grid-power-for-data-centers-in-just-si
-  title: TAR aims to build off-grid power for data centers in just six months - latitudemedia.com
-  date: '2026-09-14'
-  kind: web
-- slug: 2026-09-11-oracle-and-openai-bet-that-more-solar-could-combat-data-cent
-  title: Oracle and OpenAI bet that more solar could combat data center pushback - latitudemedia.com
-  date: '2026-09-11'
-  kind: web
-- slug: 2026-09-10-one-nuclear-launches-5-gw-louisiana-portfolio-of-energy-proj
-  title: ONE Nuclear launches 5 GW Louisiana portfolio of energy projects comprising nuclear, natural gas and battery storage - Latitude Media
-  date: '2026-09-10'
-  kind: web
-- slug: 2026-09-10-do-data-centers-really-increase-electricity-prices---latitud
-  title: Do data centers really increase electricity prices? - Latitude Media
-  date: '2026-09-10'
   kind: web
 neighbors: []
 ---

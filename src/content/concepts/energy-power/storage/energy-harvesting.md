@@ -34,11 +34,7 @@ scorecard:
 scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
-recent_mentions:
-- slug: 2025-04-16-the-state-of-photonic-computing
-  title: 'Photonic Computing: A Primer'
-  date: '2025-04-16'
-  kind: substack
+recent_mentions: []
 neighbors: []
 ---
 **Energy harvesting converts ambient light, heat, vibration or radio waves into microwatts-to-milliwatts of electricity to run sensors without batteries; indoor printed photovoltaics and RF/backscatter links are already at production or testbed stage, while thermal and piezoelectric routes remain low-efficiency laboratory physics.**

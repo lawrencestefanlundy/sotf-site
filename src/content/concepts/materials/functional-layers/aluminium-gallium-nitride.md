@@ -23,7 +23,7 @@ last_updated: 2026-06-02
 tags:
 - concept
 mention_count: 16
-sources_7d: 3
+sources_7d: 1
 sources_30d: 7
 recent_mentions: []
 neighbors:

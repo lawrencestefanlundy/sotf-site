@@ -32,6 +32,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-24-foundries-vs-navigators-lowering-the-cost-of-science
+  title: 'Foundries vs Navigators: Lowering the Cost of Science'
+  date: '2026-09-24'
+  kind: web
 - slug: 2026-08-25-why-ramp-built-its-own-in-house-coding-agent-inspect
   title: Why Ramp built its own in-house coding agent, Inspect
   date: '2026-08-25'
@@ -46,6 +50,10 @@ recent_mentions:
   kind: web
 - slug: 2026-06-11-southampton-to-help-expand-uk-chip-design-capabilities---mir
   title: Southampton To Help Expand UK Chip Design Capabilities - Mirage News
+  date: '2026-06-11'
+  kind: web
+- slug: 2026-06-11-southampton-to-help-expand-uk-chip-design-capabilities---uni
+  title: Southampton to help expand UK chip design capabilities - University of Southampton
   date: '2026-06-11'
   kind: web
 - slug: 2025-05-30-chip-design-software-firm-synopsys-halts-china-sales-due-to-

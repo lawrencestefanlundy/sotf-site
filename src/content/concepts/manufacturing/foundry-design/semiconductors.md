@@ -52,8 +52,28 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-25-rigetti-computing-rgti-secures-chips-act-support-is-the-upsi
+  title: Rigetti Computing (RGTI) Secures CHIPS Act Support, Is The Upside Already Priced In? - simplywall.st
+  date: '2026-09-25'
+  kind: web
+- slug: 2026-09-25-quantware-says-scaling-quantum-power-hinges-on-efficiency-no
+  title: QuantWare Says Scaling Quantum Power Hinges On Efficiency, Not Just Qubits - Quantum Zeitgeist
+  date: '2026-09-25'
+  kind: web
+- slug: 2026-09-25-what-chinas-clean-power-advantage-means-for-the-ai-race---la
+  title: What China’s clean power advantage means for the AI race - latitudemedia.com
+  date: '2026-09-25'
+  kind: web
+- slug: 2026-09-24-d-wave-quantum-nyse-qbts-secures-100m-in-chips-act-funding-w
+  title: 'D-Wave Quantum (NYSE: QBTS) Secures $100M In CHIPS Act Funding While Landing AT&T And NTT DOCOMO Deals - foreignpolicyjournal.com'
+  date: '2026-09-24'
+  kind: web
 - slug: 2026-09-24-the-hack-ministers-discuss-chips-act-2---euractivcom
   title: 'THE HACK: Ministers discuss Chips Act 2 - euractiv.com'
+  date: '2026-09-24'
+  kind: web
+- slug: 2026-09-24-eu-ministers-push-new-chips-strategy-to-reduce-europes-depen
+  title: EU Ministers Push New Chips Strategy to Reduce Europe’s Dependence on Foreign Semiconductors - eutoday.net
   date: '2026-09-24'
   kind: web
 - slug: 2026-09-24-asml-system-sales-in-europe-remain-at-zero-as-eu-debates-chi
@@ -63,26 +83,6 @@ recent_mentions:
 - slug: 2026-09-24-minister-puisto-to-attend-competitiveness-council-debate-on-
   title: Minister Puisto to attend Competitiveness Council debate on EU Chips Act and merger control - Valtioneuvosto
   date: '2026-09-24'
-  kind: web
-- slug: 2026-09-23-rigetti-computing-stock-rises-on-chips-act-funding---ad-hoc-
-  title: Rigetti Computing stock rises on CHIPS Act funding - AD HOC NEWS
-  date: '2026-09-23'
-  kind: web
-- slug: 2026-09-23-does-chips-act-funding-change-the-bull-case-for-rigetti-comp
-  title: Does CHIPS Act Funding Change The Bull Case For Rigetti Computing Stock (RGTI)? - simplywall.st
-  date: '2026-09-23'
-  kind: web
-- slug: 2026-09-23-quantinuum-secures-100m-chips-act-award-to-scale-domestic-qu
-  title: Quantinuum Secures $100M CHIPS Act Award to Scale Domestic Quantum Semiconductor Manufacturing - Bisinfotech
-  date: '2026-09-23'
-  kind: web
-- slug: 2026-09-22-eu-prepares-chips-act-20-as-brussels-rethinks-competition-ru
-  title: EU Prepares Chips Act 2.0 as Brussels Rethinks Competition Rules for Global Scale - EU Today
-  date: '2026-09-22'
-  kind: web
-- slug: 2026-09-21-ibm-unit-secures-us1-billion-chips-act-award-to-expand-quant
-  title: IBM unit secures US$1 billion CHIPS Act award to expand quantum wafer manufacturing - digitimes
-  date: '2026-09-21'
   kind: web
 neighbors:
 - slug: logic

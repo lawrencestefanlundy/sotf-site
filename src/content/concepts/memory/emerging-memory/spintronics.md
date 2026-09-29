@@ -19,8 +19,8 @@ descendants:
 - all-optical-switching
 - magneto-optical
 sources: []
-mention_count: 87
-sources_7d: 3
+mention_count: 88
+sources_7d: 2
 sources_30d: 17
 recent_mentions: []
 neighbors:

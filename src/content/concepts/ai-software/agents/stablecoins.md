@@ -47,7 +47,7 @@ last_updated: 2026-07-21
 tags:
 - concept
 mention_count: 26
-sources_7d: 2
+sources_7d: 1
 sources_30d: 4
 recent_mentions:
 - slug: 2026-09-22-coinbase-full-stack-agent-payments

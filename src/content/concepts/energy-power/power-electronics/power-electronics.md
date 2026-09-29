@@ -46,7 +46,7 @@ descendants:
 - solid-state-circuit-breakers
 - vertical-gan
 - wireless-power-transfer
-sources_7d: 4
+sources_7d: 1
 sources_30d: 8
 recent_mentions:
 - slug: 2026-09-02-vertical-power-delivery-thermal-limits

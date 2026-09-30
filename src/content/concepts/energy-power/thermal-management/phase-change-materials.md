@@ -35,8 +35,8 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 1033
-sources_7d: 2
+mention_count: 1034
+sources_7d: 1
 sources_30d: 7
 recent_mentions:
 - slug: 2026-09-03-space-compute-cheap-launch-rebuild

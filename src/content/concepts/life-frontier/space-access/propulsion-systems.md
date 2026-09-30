@@ -20,7 +20,7 @@ frontier:
 - Does active control of sheath structure produce a measurable change in thruster efficiency or in wall erosion rate, and by how much?
 - What is the transfer path from a university diagnostic to qualification-relevant testing of flight propulsion hardware, and on what timeline?
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions: []
 neighbors: []
 ---

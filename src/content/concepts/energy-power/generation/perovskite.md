@@ -37,8 +37,8 @@ scorecard:
   verdict: Too early to say
 scorecard_status: draft
 mention_count: 132
-sources_7d: 3
-sources_30d: 26
+sources_7d: 2
+sources_30d: 24
 recent_mentions:
 - slug: 2026-08-31-qcells-tandem-iec-ul-certification-tuv-rheinland
   title: Qcells secures TUV Rheinland certification for perovskite-silicon tandem solar tech (pv magazine, 16 Jul 2026; pv-tech corroborating)

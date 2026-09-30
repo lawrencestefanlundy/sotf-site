@@ -22,7 +22,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 135
+mention_count: 136
 sources_7d: 2
 sources_30d: 18
 recent_mentions:

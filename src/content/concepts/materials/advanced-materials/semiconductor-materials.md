@@ -34,8 +34,12 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 5
+sources_30d: 4
 recent_mentions:
+- slug: 2026-09-23-arxiv-benchmarking-the-generalized-kadanoff-baym-ansatz-and-second
+  title: 'Benchmarking the generalized Kadanoff-Baym ansatz and second-order adiabatic expansion using time-dependent spintronic effects: Spin pumping, torque, and inertia'
+  date: '2026-09-23'
+  kind: paper
 - slug: 2026-09-15-arxiv-a-direct-algebraic-approach-to-normal-ordering-of-exponentia
   title: A Direct Algebraic Approach to Normal Ordering of Exponential Bosonic Operators with Applications to Two-Dimensional Excitonic Form Factors
   date: '2026-09-15'

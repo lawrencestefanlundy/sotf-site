@@ -38,7 +38,7 @@ mention_count: 187
 descendants:
 - avalanche-photodiode
 - optical-gyroscope
-sources_7d: 1
+sources_7d: 0
 sources_30d: 6
 recent_mentions:
 - slug: 2026-07-29-globalfoundries-wins-300-million-chips-act-silicon-photonics

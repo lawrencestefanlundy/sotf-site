@@ -32,7 +32,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 31
+mention_count: 32
 sources_7d: 0
 sources_30d: 1
 recent_mentions:

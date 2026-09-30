@@ -33,7 +33,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 1
-sources_30d: 9
+sources_30d: 8
 recent_mentions: []
 neighbors:
 - slug: stm

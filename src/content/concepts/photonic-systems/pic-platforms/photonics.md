@@ -50,7 +50,7 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-mention_count: 1151
+mention_count: 1152
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -59,7 +59,7 @@ descendants:
 - optical-frequency-comb
 - optical-frequency-division
 - optoelectronic-oscillator
-sources_7d: 1
+sources_7d: 0
 sources_30d: 3
 recent_mentions:
 - slug: 2026-09-28-nasa-orbit-challenge-2027

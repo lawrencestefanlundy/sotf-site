@@ -34,8 +34,8 @@ frontier:
 last_updated: 2026-07-29
 tags:
 - concept
-mention_count: 76
-sources_7d: 2
+mention_count: 77
+sources_7d: 3
 sources_30d: 22
 recent_mentions:
 - slug: 2026-08-07-the-memory-trade-isnt-over-weights

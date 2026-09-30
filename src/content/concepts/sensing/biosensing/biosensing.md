@@ -25,7 +25,7 @@ mention_count: 50
 descendants:
 - biosensors
 sources_7d: 0
-sources_30d: 8
+sources_30d: 6
 recent_mentions:
 - slug: 2026-07-03-thats-a-learning-curve-mate-not-rsi
   title: That’s a learning curve mate, not RSI

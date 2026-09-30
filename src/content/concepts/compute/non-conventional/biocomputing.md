@@ -32,7 +32,7 @@ tags:
 - technology
 mention_count: 21
 sources_7d: 0
-sources_30d: 3
+sources_30d: 2
 recent_mentions:
 - slug: 2026-08-31-tbc-neurally-optimised-video-model
   title: 'TBC repositions from neuron substrate to neural optimiser: "23x retained" video-model claim (tbc.co + founder LinkedIn, Aug 2026)'

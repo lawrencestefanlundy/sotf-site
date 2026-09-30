@@ -41,7 +41,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 1
+sources_7d: 0
 sources_30d: 3
 recent_mentions:
 - slug: 2026-07-02-fusion-bionic-secures-8m-for-laser-texturing---opticsorg

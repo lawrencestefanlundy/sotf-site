@@ -27,7 +27,7 @@ scorecard:
 scorecard_status: draft
 mention_count: 135
 sources_7d: 1
-sources_30d: 15
+sources_30d: 14
 recent_mentions:
 - slug: 2026-05-01-state-of-the-future-friday-four-7b7
   title: 'State of the Future: Friday Four'

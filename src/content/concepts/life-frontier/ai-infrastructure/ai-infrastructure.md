@@ -37,6 +37,7 @@ sources:
 - '[[2026-03-16-ai-capex-financeable-financing-the-ai-infrastructure-boom]]'
 - '[[2026-03-12-optical-displaces-copper-optical-scale-up-consortium]]'
 - '[[2025-10-21-frontier-forum-the-new-power-map-for-ai-infrastructure---lat]]'
+- '[[2026-09-01-eu-taiwan-chip-dialogue-targets-ai-infrastructure-partnershi]]'
 - '[[2026-06-27-rack-power-delivery-silicon-reed-semiconductor-raises-100]]'
 - '[[2026-04-09-model-commoditises-value-moves-up-the-foundation-model]]'
 - '[[2026-02-12-ai-demand-outruns-expectations-ai-capex-2026-the-690b]]'
@@ -58,7 +59,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 128
+mention_count: 129
 descendants:
 - ai-grade-datacentre-real-estate
 - ai-infrastructure-scaling
@@ -70,8 +71,12 @@ descendants:
 - prefill-vs-decode
 - sovereign-ai
 sources_7d: 0
-sources_30d: 9
+sources_30d: 10
 recent_mentions:
+- slug: 2026-09-01-eu-taiwan-chip-dialogue-targets-ai-infrastructure-partnershi
+  title: EU-Taiwan chip dialogue targets AI infrastructure partnerships under EU Chips Act 2.0 - INSIGHT EU MONITORING
+  date: '2026-09-01'
+  kind: web
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
@@ -99,10 +104,6 @@ recent_mentions:
 - slug: 2026-06-17-tech-inflation-silicon-shock-federal-reserve-flags-ai
   title: Federal Reserve flags AI demand as inflation risk in latest minutes
   date: '2026-06-17'
-  kind: web
-- slug: 2026-06-14-frontier-ai-value-capture
-  title: 'Frontier AI value capture: where the $4T accrues (research synthesis)'
-  date: '2026-06-14'
   kind: web
 neighbors: []
 ---

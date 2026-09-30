@@ -21,8 +21,8 @@ scorecard:
   verdict: Underrated
 scorecard_status: draft
 mention_count: 87
-sources_7d: 1
-sources_30d: 17
+sources_7d: 0
+sources_30d: 15
 recent_mentions:
 - slug: 2026-05-02-self-buffered-bto-epitaxy-on-oxide-insulator-light-sci-app-2
   title: 'Self-buffered BTO epitaxy on oxide insulator (Light: Sci & App 2025)'

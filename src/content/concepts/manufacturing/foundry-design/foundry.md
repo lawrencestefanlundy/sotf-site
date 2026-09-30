@@ -10,7 +10,8 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2025-12-19-lfg-for-semiconductors]]'
-mention_count: 3
+- '[[2022-09-01-bis-issues-new-faqs-addressing-red-flags-related-to-russiabe]]'
+mention_count: 4
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
@@ -18,6 +19,10 @@ recent_mentions:
   title: LFG (for semiconductors)
   date: '2025-12-19'
   kind: substack
+- slug: 2022-09-01-bis-issues-new-faqs-addressing-red-flags-related-to-russiabe
+  title: BIS Issues New FAQs Addressing Red Flags Related to Russia/Belarus and Semiconductor Foundries' Potential Entity List Dealings - Global Sanctions and Export Controls Blog
+  date: '2022-09-01'
+  kind: web
 neighbors: []
 ---
 web-]]'

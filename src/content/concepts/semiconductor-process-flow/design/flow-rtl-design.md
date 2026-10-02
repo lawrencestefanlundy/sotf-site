@@ -30,7 +30,7 @@ descendants:
 - flow-routing
 - flow-timing-signoff-extraction
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
   title: Carbon Nanotubes in the Datacentre

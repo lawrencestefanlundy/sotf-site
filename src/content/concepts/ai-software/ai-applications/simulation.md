@@ -66,9 +66,9 @@ recent_mentions:
   title: 'Compute-in-memory landscape 2026: efficiency claims, the digital-readout shift, IDM PIM'
   date: '2026-06-16'
   kind: web
-- slug: 2026-06-16-phasecraft-appointed-by-arpa-e-to-advance-catalyst-simulatio
-  title: Phasecraft Appointed by ARPA-E to Advance Catalyst Simulation Frameworks for Hydrogen Electrolysis - Quantum Computing Report
-  date: '2026-06-16'
+- slug: 2026-06-13-private-fusion-2026-update
+  title: Private fusion — 2026 progress update (Helion Polaris D-T, CFS $863M)
+  date: '2026-06-13'
   kind: web
 neighbors:
 - slug: physics-ai

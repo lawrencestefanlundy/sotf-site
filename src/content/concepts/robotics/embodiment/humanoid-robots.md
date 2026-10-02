@@ -69,7 +69,7 @@ scorecard:
 scorecard_status: draft
 mention_count: 99
 sources_7d: 0
-sources_30d: 9
+sources_30d: 7
 recent_mentions:
 - slug: 2026-09-07-sag-counterpoint-humanoid-shipments-h1-2026
   title: 'Global humanoid robot shipments 1H 2026: 19.1k units, +272% YoY (Smart Analytics Global; Counterpoint)'

@@ -50,7 +50,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 10
+sources_30d: 8
 recent_mentions:
 - slug: 2025-07-01-a-primer-carbon-nanotubes
   title: 'A Primer: Carbon Nanotubes'
@@ -104,8 +104,6 @@ Read this page, therefore, not as an assessment of whether CVD works, but of whe
 
 ## Viability (5/5)
 
-The sources show CVD producing device-grade material across several unrelated systems. LPCVD homoepitaxy of Sn-doped (010) β-Ga2O3 gave controlled carrier concentrations from 1.17 × 10^17 to 3.06 × 10^18 cm^-3, room-temperature Hall mobility of 113 cm2 V-1 s-1 (380 at 84 K), rocking-curve FWHM of 68.4 arcsec, RMS roughness of 2.63 nm and films 1.66 to 11.3 µm thick at 6.4 to 16.6 µm/h. Vertical β-Ga2O3 Schottky diodes with deep-etch field termination performed in an LPCVD system showed a 1.14 V turn-on, 1.15 eV barrier height, 1.20 ideality and 3.72 mΩ·cm2 specific on-resistance, stable from 25 to 250 °C. A dual LPCVD SiN photonics platform has been fabricated in a 200 mm CMOS pilot line, and 100 nm LPCVD Si3N4 diaphragms support a MEMS photoacoustic sensor at 58.5 ppb per second noise-equivalent concentration.
-
 The caveat is material-specific. For newer systems the films work but carry defects that matter: CVD-grown 3R-WSe2 bilayers show ferroelectric switching whose behaviour is governed by intrinsic disorder and multi-domain kinetics that remain poorly understood, and reproducible wafer-area production of atomically thin films is explicitly described as an unsolved manufacturing challenge. Viability of the technique is not at issue; viability of any given recipe is earned one material at a time.
 
 **TLDR: Demonstrated at device grade and in a 200 mm CMOS pilot line; the question is recipe development, not feasibility.**
@@ -157,13 +155,6 @@ The part that is arguably underrated within that fair rating is process control 
 By 31 December 2028, a peer-reviewed report will demonstrate LPCVD-grown Sn-doped β-Ga2O3 homoepitaxy with room-temperature Hall mobility above 113 cm2 V-1 s-1 at a carrier concentration near 1 × 10^17 cm-3, exceeding the value reported in August 2026.
 
 ## Evidence base
-
-- LPCVD-grown Sn-doped (010) β-Ga2O3 achieved 113 cm2 V-1 s-1 room-temperature Hall mobility, 68.4 arcsec rocking-curve FWHM and growth rates of 6.4 to 16.6 µm/h for films 1.66 to 11.3 µm thick, reported 11 August 2026.
-- Vertical β-Ga2O3 Schottky diodes deep-etched by plasma-free Ga-assisted etching in an LPCVD system showed 1.14 V turn-on, 1.20 ideality factor and 3.72 mΩ·cm2 specific on-resistance, stable to 250 °C, 30 June 2026.
-- A dual LPCVD SiN photonics platform was fabricated in a 200 mm CMOS pilot line with micro-transfer-printed active components, 4 August 2026.
-- Splitting a 75 cm3 (STP) silane dose into 15 pulses raised hot-wire CVD a-Si:H thickness from 175 ± 5 nm to 425 ± 8 nm, 2 June 2026.
-- Borazine CVD between 800 and 1000 °C moved boron nitride films from cross-plane thermal conductivity below 0.5 W m-1 K-1 and 7.5 ± 0.7 GPa Young's modulus to 1.5 W m-1 K-1 and 53 ± 5 GPa, 27 July 2026.
-- NSF awarded $1,440,000 and $160,000 in August 2026 to build an AI-guided 2D synthesis platform with real-time growth diagnostics, citing reproducible wafer-area production as the major unsolved challenge.
 
 ## Open questions
 

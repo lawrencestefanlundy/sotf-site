@@ -22,7 +22,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 43
+mention_count: 44
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 4
@@ -34,7 +34,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 5
+sources_30d: 4
 recent_mentions:
 - slug: 2026-07-27-optimal-compute-vega-investor-briefing
   title: Optimal Compute / VEGA — Investor Briefing, July 2026 (7-page DocSend)

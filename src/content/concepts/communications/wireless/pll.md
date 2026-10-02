@@ -24,7 +24,7 @@ frontier:
 - By what factor does hybrid-loop demodulation exceed conventional PLL bandwidth as a function of sensor resonant frequency, and does it introduce additional noise at that bandwidth 2026 06 04 high temperature and high speed atomic force microscopy usin?
 - Has the proposed 1596 nm multi-wavelength arm-length stabilisation scheme been demonstrated experimentally on an AlGaAs/GaAs-coated cavity, and does it reach the residual velocity required for lock acquisition 2026 06 24 a novel arm length stabilization scheme for gravitational wa?
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions: []
 neighbors: []
 ---

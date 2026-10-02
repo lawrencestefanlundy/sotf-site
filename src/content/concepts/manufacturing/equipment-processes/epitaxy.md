@@ -46,11 +46,7 @@ Epitaxy means growing a crystalline layer whose atomic lattice is aligned to tha
 
 Several distinct techniques share the name. Molecular beam epitaxy (MBE) evaporates elemental sources in ultra-high vacuum onto a heated substrate, giving monolayer-level control and in-situ diagnostics via reflection high-energy electron diffraction (RHEED); the sources here use it for everything from single- to five-layer MoS2 on graphene/Ir(111) to PtTe2 films grown with single-monolayer precision from 1 to 20 ML. Metal-organic vapour phase epitaxy (MOVPE) uses gaseous precursors at high temperature and is the workhorse for nitrides. Halide vapour phase epitaxy (HVPE) trades some control for rate, reaching up to 30 µm/hr for β-Ga2O3 on sapphire. Liquid-phase epitaxy is used in ambient conditions for oriented metal-organic framework films by spin-assisted layer-by-layer deposition, and thermal laser epitaxy uses a focused high-power laser to evaporate refractory targets.
 
-The parameters that decide outcomes recur across all of these papers. Substrate choice, crystallographic orientation and offcut: raising sapphire offcut from 0° to 8° shifted Ga2O3 growth from multidirectional to terrace-dominated, cutting roughness from 14.69 to 2.74 nm and rocking-curve FWHM from 994 to 414 arcsec, and GaSe morphology on GaAs depends on both orientation ((211)B versus (001)B) and pre-growth surface preparation. Growth temperature, which trades crystal quality against unwanted interdiffusion: high MOVPE temperatures needed for good AlGaN also drive barrier-channel intermixing that can destroy the two-dimensional electron gas entirely. Flux ratios, such as As2 flux around three times stoichiometry for InAs diodes or Se:Mn between 1.1 and 3.1 for Mn2In2Se5. And, increasingly, the ability to constrain where growth happens, via selective-area masks or pre-patterned nucleation sites.
-
 ## Viability (4/5)
-
-Nothing here is speculative about whether epitaxy works. The sources report single-oriented monodomain growth of a metastable oxide, TaO2 on r-plane sapphire, by two independent methods; phase-pure (-201)-oriented Ga2O3 with 414 arcsec rocking curves; smooth single-crystalline Mn2In2Se5 at 1.5 nm RMS roughness; and single-photon emission with g2(0) = 0.07 ± 0.02 from droplet-etched telecom-band quantum dots. Sheet resistivities around 2,500 Ω/sq for AlN/Al0.75Ga0.25N are stated as consistent with the best reported values.
 
 The caveats are equally explicit and keep this off a 5. The MBE-grown InAs thermoradiative diodes achieve breakdown above 0.3 V but reverse saturation current densities 200 times the radiative limit, which the authors themselves frame as initial development. Selective-area MBE on alternative dielectric masks is only partly solved: Al2O3 shows promising selectivity in the GaAs growth window, but HfO2 is dominated by Ga adsorption up to 650 °C and TiO2 proved reactive. Reported growth windows are often narrow or require careful compensation, and reproducibility remains a stated problem in the oriented-MOF case.
 
@@ -108,19 +104,7 @@ By June 2028, at least one peer-reviewed report will demonstrate closed-loop, RH
 
 ## Evidence base
 
-- 6 May 2026: AFM-assisted nano-oxidation lithography positions MBE-grown GaAs quantum dots with 51(28) nm radial displacement, and the resulting circular Bragg gratings show a 245-fold photoluminescence enhancement with fine-structure splitting and polarisation imbalance below 5 %.
-- 5 June 2026: MBE PtTe2 grown with single-monolayer precision from 1 to 20 ML shows spintronic THz emission absent in the monolayer semiconducting phase, switching on near 2 ML and peaking at six times an equivalent Pt reference at 10 ML.
-- 5 June 2026: HVPE Si-doped β-Ga2O3 on sapphire reached growth rates up to 30 µm/hr, and increasing offcut from 0° to 8° cut surface roughness from 14.69 to 2.74 nm and rocking-curve FWHM from 994 to 414 arcsec.
-- 4 June 2026: high MOVPE temperatures needed for crystal quality in Al-rich AlGaN cause barrier-channel intermixing that can completely destroy the 2DEG; improved growth schemes gave sheet resistivities around 2,500 Ω/sq for AlN/Al0.75Ga0.25N.
-- 8 May 2026: local droplet etching produced symmetric InGaAs quantum dots at 10^9/cm2 density with 1.14 in-plane aspect ratio, 0.2 meV linewidths and g2(0) = 0.07 ± 0.02 under continuous-wave above-band excitation.
-- 2 June 2026: of three alternative selective-area MBE mask materials, Al2O3 showed promising selectivity in the GaAs growth window while HfO2 was highly non-selective due to Ga adsorption up to 650 °C and TiO2 proved reactive.
-
 ## Open questions
-
-- Can MBE-grown InAs thermoradiative diodes close the gap from reverse saturation currents 200 times the radiative limit to something near it, or is the deficit intrinsic to the growth-related defect population?
-- Does Al2O3 retain its selective-growth behaviour across full-wafer, repeated regrowth cycles at GaAs growth temperatures, and can HfO2's Ga adsorption problem be suppressed rather than avoided?
-- Is serial AFM nano-oxidation placement of quantum dots at 51 nm accuracy compatible with any credible throughput, or does deterministic placement require a parallel patterning route?
-- Does HVPE β-Ga2O3 on 8° offcut sapphire, at 414 arcsec rocking-curve FWHM, reach a defect density low enough for power-device breakdown and reliability targets, which the source does not report?
 
 ---
 *Assessment drafted 2026-08-31 from up to 18 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

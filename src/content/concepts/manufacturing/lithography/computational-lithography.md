@@ -30,7 +30,7 @@ tags:
 - concept
 - technology
 mention_count: 25
-sources_7d: 1
+sources_7d: 0
 sources_30d: 2
 recent_mentions:
 - slug: 2026-06-05-recursive-until-the-power-bill

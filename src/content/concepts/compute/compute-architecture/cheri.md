@@ -21,7 +21,7 @@ tags:
 - security
 mention_count: 7
 sources_7d: 0
-sources_30d: 3
+sources_30d: 2
 recent_mentions: []
 neighbors:
 - slug: tee

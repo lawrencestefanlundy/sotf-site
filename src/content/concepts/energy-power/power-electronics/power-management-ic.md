@@ -17,8 +17,8 @@ tags:
 - technology
 mention_count: 6
 last_reorg_date: '2026-05-13'
-sources_7d: 1
-sources_30d: 2
+sources_7d: 0
+sources_30d: 1
 recent_mentions:
 - slug: 2026-09-02-vertical-power-delivery-thermal-limits
   title: 'Vertical power delivery: the thermal limit at the 48V-to-point-of-load stage'

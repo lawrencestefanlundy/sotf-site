@@ -40,8 +40,8 @@ descendants:
 - stablecoin-clearing
 - stablecoins
 - x402
-sources_7d: 1
-sources_30d: 38
+sources_7d: 0
+sources_30d: 30
 recent_mentions:
 - slug: 2026-08-24-embedd-pre-seed-siliconangle
   title: Chip software automation startup Embedd raises $2.7M

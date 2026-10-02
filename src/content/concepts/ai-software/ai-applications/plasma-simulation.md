@@ -23,7 +23,7 @@ tags:
 - concept
 mention_count: 8
 sources_7d: 0
-sources_30d: 2
+sources_30d: 1
 recent_mentions:
 - slug: 2024-11-20-nuclear-fusion-the-state-of-play
   title: 'Nuclear Fusion: A Primer'

@@ -19,7 +19,7 @@ mention_count: 4
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 2
+sources_30d: 1
 recent_mentions:
 - slug: 2026-01-13-chip-scale-bio-instrumentation-point-of-care-diagnostics
   title: Point-of-Care Diagnostics Market Analysis including CE-IVD POC cardiac biomarkers

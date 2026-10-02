@@ -43,10 +43,6 @@ recent_mentions:
   title: The Soitec Twin? A Massive Undiscovered Foundational Photonics Play & The Fab Nobody Is Watching
   date: '2026-04-03'
   kind: web
-- slug: 2026-01-15-sovereignty-semi-bifurcation-revision-to-license-review
-  title: Revision to License Review Policy for Advanced Computing Commodities
-  date: '2026-01-15'
-  kind: web
 - slug: 2025-03-25-photonic-packaging-cpo-openlight-achieves-successful
   title: OpenLight achieves successful completion of Telcordia GR-468 qualification for silicon photonics components
   date: '2025-03-25'

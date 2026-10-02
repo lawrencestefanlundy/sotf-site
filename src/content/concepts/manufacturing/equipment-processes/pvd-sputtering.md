@@ -51,7 +51,7 @@ scorecard:
   verdict: Underrated
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 10
+sources_30d: 9
 recent_mentions: []
 neighbors:
 - slug: chemical-vapor-deposition

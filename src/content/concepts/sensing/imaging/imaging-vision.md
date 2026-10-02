@@ -27,6 +27,10 @@ recent_mentions:
   title: Diffraqtion Adds to Pre-Seed Round for Quantum Camera Tech - Payload Space
   date: '2026-09-01'
   kind: web
+- slug: 2026-01-13-quantum-imaging-startup-diffraqtion-emerges-from-stealth---p
+  title: Quantum Imaging Startup Diffraqtion Emerges from Stealth - Payload Space
+  date: '2026-01-13'
+  kind: web
 neighbors: []
 ---
 ## Summary

@@ -33,7 +33,7 @@ tags:
 mention_count: 5
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-06-17-sjtu-ge-si-photodetector-110ghz-fowlp
   title: Shanghai Jiao Tong University creates reconfigurable Ge-Si photodetector for high-speed datacoms

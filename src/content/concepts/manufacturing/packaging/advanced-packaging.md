@@ -41,8 +41,8 @@ descendants:
 - heterogeneous-integration
 - micro-transfer-printing
 - osat
-sources_7d: 3
-sources_30d: 15
+sources_7d: 2
+sources_30d: 14
 recent_mentions:
 - slug: 2026-09-02-vertical-power-delivery-thermal-limits
   title: 'Vertical power delivery: the thermal limit at the 48V-to-point-of-load stage'

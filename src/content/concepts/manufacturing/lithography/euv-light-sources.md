@@ -63,9 +63,9 @@ recent_mentions:
   title: Semi Doped — Daily Update, June 23rd 2026
   date: '2026-06-23'
   kind: web
-- slug: 2026-06-19-sovereignty-semi-bifurcation-us-tells-asml-it-has-evidence
-  title: US Tells ASML It Has Evidence EUV Lithography Tool Reached China
-  date: '2026-06-19'
+- slug: 2026-06-14-semianalysis-smic-n3-vs-intel-18a
+  title: Is SMIC N+3's Metal Pitch Smaller than Intel 18A's?
+  date: '2026-06-14'
   kind: web
 neighbors: []
 ---

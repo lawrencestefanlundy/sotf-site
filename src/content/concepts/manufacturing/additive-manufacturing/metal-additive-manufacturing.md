@@ -22,7 +22,7 @@ frontier:
 - Do L-DED aluminium parts achieve the claimed stress corrosion cracking resistance advantage over steel counterparts in standardised testing?
 - What deposition rates, densities and mechanical properties were achieved in the DARPA-funded rhenium AM process, and did it progress beyond feasibility?
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2022-05-09-elementum-funded-by-darpa-to-develop-am-process-for-rhenium-
   title: Elementum funded by DARPA to develop AM process for rhenium - Metal Additive Manufacturing magazine

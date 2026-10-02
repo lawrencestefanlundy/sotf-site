@@ -49,8 +49,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 1
-sources_30d: 8
+sources_7d: 0
+sources_30d: 7
 recent_mentions:
 - slug: 2026-07-29-globalfoundries-wins-300-million-chips-act-silicon-photonics
   title: GlobalFoundries wins $300 million CHIPS Act silicon photonics award - Yahoo Finance

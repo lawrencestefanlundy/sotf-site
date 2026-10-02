@@ -56,8 +56,8 @@ descendants:
 - tactile-sensing
 - vision-language-action-models
 - world-models
-sources_7d: 1
-sources_30d: 19
+sources_7d: 0
+sources_30d: 14
 recent_mentions:
 - slug: 2026-09-18-visions-of-ai-gpt-3-moment-for-physical-ai
   title: 'Visions of AI: GPT-3 Moment for Physical AI'

@@ -16,7 +16,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 34
+mention_count: 35
 descendants:
 - 3d-bioprinting-platforms
 - 3d-printed-bioscaffolds
@@ -57,8 +57,8 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 2
+sources_7d: 1
+sources_30d: 3
 recent_mentions:
 - slug: 2026-04-22-detecting-proteins-in-blood-with
   title: Detecting Proteins in Blood with Photonics w/ Prateek of Proteins1

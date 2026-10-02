@@ -41,7 +41,7 @@ mention_count: 27
 descendants:
 - all-optical-switching
 sources_7d: 0
-sources_30d: 4
+sources_30d: 3
 recent_mentions:
 - slug: 2026-05-07-optical-dram-startup-funding-q1-2026
   title: 'Startup Funding: Q1 2026'

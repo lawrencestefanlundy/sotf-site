@@ -44,8 +44,8 @@ mention_count: 101
 descendants:
 - hearing-aid-silicon-beachhead
 - nvidia-jetson
-sources_7d: 1
-sources_30d: 12
+sources_7d: 0
+sources_30d: 11
 recent_mentions:
 - slug: 2026-09-07-mordor-data-converter-market
   title: 'Data Converter Market: size, share & industry analysis (Mordor Intelligence)'

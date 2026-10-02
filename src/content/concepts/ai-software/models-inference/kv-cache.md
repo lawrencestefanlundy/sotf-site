@@ -25,6 +25,7 @@ sources:
 - '[[2026-07-07-high-bandwidth-flash-the-full-report]]'
 - '[[2026-03-24-data-value-migrates-to-retrieval-layer-gtc-2026-the]]'
 - '[[2026-07-15-kimi-k3-launch-moonshot]]'
+- '[[2026-09-30-taalas-hc1-next-platform]]'
 - '[[2025-10-09-data-value-migrates-to-retrieval-layer-lmcache-an-efficient]]'
 - '[[2026-06-02-agentic-runtime-silicon-necessity]]'
 frontier:
@@ -34,7 +35,7 @@ frontier:
 last_updated: 2026-07-29
 tags:
 - concept
-mention_count: 77
+mention_count: 78
 sources_7d: 3
 sources_30d: 22
 recent_mentions:

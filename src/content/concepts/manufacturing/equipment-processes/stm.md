@@ -25,7 +25,7 @@ tags:
 public_expressions:
 - IBM
 - STM
-mention_count: 53
+mention_count: 54
 scorecard:
   viability: 4
   drivers: 3
@@ -35,7 +35,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
+sources_7d: 1
 sources_30d: 15
 recent_mentions: []
 neighbors:

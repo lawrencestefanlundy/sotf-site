@@ -29,8 +29,6 @@ neighbors: []
 ---
 ## Physics / mechanism
 
-Compute in memory places arithmetic where data already resides, removing the round trip between a separate memory array and a logic unit. The canonical primitive is a resistive crossbar: programmable conductances hold matrix weights, applied voltages act as the input vector, and the summed currents on each column perform a multiply-accumulate in the analogue domain. Non-volatility matters because weights must persist without refresh or standby power, so the array can be read repeatedly at low energy per operation.
-
 The photonic variant of this idea is the subject of the available source material. Photonic integrated circuits offer large bandwidth, low latency and inherent parallelism for communication, sensing and information processing, but lack efficient, scalable, non-volatile memory elements on chip. Opto-electronic resistive memories are proposed as the missing element: a device whose resistance state, and hence optical response, can be set electrically or optically and retained without power, allowing weights to be stored in the same structure that modulates the light carrying the data.
 
 Key parameters for any such device family are the number of distinguishable conductance or transmission states, retention and endurance, switching energy, the insertion loss added to the photonic path, and whether programming is compatible with foundry back-end processing. The source frames the problem as one of efficiency, scalability and non-volatility simultaneously, which implies that partial solutions on any one axis have not been sufficient.
@@ -49,10 +47,5 @@ For funding context, semiconductor startup capital in the quarter was concentrat
 - In Q2 2026, 80 semiconductor startups raised over $6.0B, down from $8.4B across 80 startups in Q1 2026, with AI hardware still dominant and edge silicon re-emerging on physical-AI and on-device demand <sup class="ref"><a href="https://semiengineering.com/startup-funding-q2-2026/" title="Startup Funding: Q2 2026" rel="noopener">ref</a></sup>.
 
 ## Frontier (open questions)
-
-- How many stable, retention-verified conductance levels do opto-electronic resistive memories achieve per device, and what bit-equivalent precision does that give a crossbar multiply-accumulate?
-- What is the measured energy per operation and insertion loss penalty of a photonic in-memory compute tile relative to an electronic resistive crossbar of the same weight count?
-- Are the memory materials in these devices compatible with standard silicon photonics back-end thermal budgets and foundry process flows, and at what yield?
-- Does any funded company, rather than an academic group, have a compute-in-memory product shipping into the edge silicon demand identified in Q2 2026?
 
 *Synthesised 2026-08-31 from 2 KB sources by the resynth pipeline; citations are KB source slugs.*

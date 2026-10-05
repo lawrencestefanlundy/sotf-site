@@ -35,15 +35,19 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 224
+mention_count: 226
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration
 - micro-transfer-printing
 - osat
-sources_7d: 2
-sources_30d: 14
+sources_7d: 3
+sources_30d: 11
 recent_mentions:
+- slug: 2026-10-04-mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richa
+  title: Mapping the Gaps in NASA’s Return to the Moon, featuring Richard Spolzino
+  date: '2026-10-04'
+  kind: web
 - slug: 2026-09-02-vertical-power-delivery-thermal-limits
   title: 'Vertical power delivery: the thermal limit at the 48V-to-point-of-load stage'
   date: '2026-09-02'
@@ -71,10 +75,6 @@ recent_mentions:
 - slug: 2026-07-25-thoughts-on-ai-and-power
   title: Thoughts on AI and power
   date: '2026-07-25'
-  kind: web
-- slug: 2026-07-14-boschs-sic-fab-deal-adds-to-a-resurgence-in-chips-act-fundin
-  title: Bosch's SiC fab deal adds to a resurgence in CHIPS Act funding - Electronics360
-  date: '2026-07-14'
   kind: web
 neighbors: []
 ---

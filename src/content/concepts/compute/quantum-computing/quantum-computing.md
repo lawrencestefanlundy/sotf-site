@@ -38,7 +38,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 758
+mention_count: 768
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -68,7 +68,7 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
+sources_7d: 2
 sources_30d: 17
 recent_mentions:
 - slug: 2026-09-23-arxiv-benchmarking-the-generalized-kadanoff-baym-ansatz-and-second
@@ -91,16 +91,16 @@ recent_mentions:
   title: Anderon LLC Finalizes $1B CHIPS Act Award for Quantum Foundry - TradingView
   date: '2026-09-16'
   kind: web
+- slug: 2026-09-16-qutech-spinout-qbird-rebrands-to-falqon-systems-to-commercia
+  title: QuTech Spinout Q*Bird Rebrands to Falqon Systems to Commercialize Quantum Secure Networks - Quantum Computing Report
+  date: '2026-09-16'
+  kind: web
 - slug: 2026-09-16-anderon-finalizes-1-billion-chips-act-award-to-scale-300mm-p
   title: Anderon Finalizes $1 Billion CHIPS Act Award to Scale 300mm Pure-Play Quantum Wafer Foundry - quantumcomputingreport.com
   date: '2026-09-16'
   kind: web
 - slug: 2026-09-16-does-chips-act-funding-change-the-bull-case-for-d-wave-quant
   title: Does CHIPS Act Funding Change The Bull Case For D Wave Quantum (QBTS)? - simplywall.st
-  date: '2026-09-16'
-  kind: web
-- slug: 2026-09-16-anderon-finalizes-1b-chips-act-award-for-quantum-wafers---in
-  title: Anderon finalizes $1B CHIPS Act award for quantum wafers - Investing.com India
   date: '2026-09-16'
   kind: web
 neighbors: []

@@ -49,7 +49,7 @@ tags:
 - slm
 - photonic-compute
 last_reorg_date: '2026-05-13'
-mention_count: 58
+mention_count: 59
 scorecard:
   viability: 4
   drivers: 4
@@ -59,8 +59,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 8
+sources_7d: 1
+sources_30d: 7
 recent_mentions:
 - slug: 2026-07-07-the-asml-killer
   title: The ASML Killer?
@@ -181,14 +181,6 @@ Two cautions against over-enthusiasm. First, the fundamental compromise between 
 ## Prediction
 
 ## Evidence base
-
-- 15 May 2026: solid-state SLMs are stated to face a fundamental compromise between refresh rate, pixel count and field of view because of 2D electrical routing density; decoupling the modulation and output planes with a metasurface doublet plus PIC optical phased array gave a threefold reduction in effective pixel pitch.
-- 5 November 2025 (indexed 7 Jun 2026): first transmissive mid-infrared SLM demonstrated using phase-change-material metasurfaces, built with standard silicon photonic foundry processing, BEOL multilayer interconnects, crossbar addressing and a silicon diode selector per pixel.
-- 1 June 2026 dossier capture of a Nano Letters 2024 result: LCoS-SLM plus galvanometric scanning achieved more than 400 simultaneous two-photon polymerisation foci at 1.49 x 10^8 voxels/s, about 8x the prior ~50-foci framing, with a companion DMD plus microlens system reaching 1,600 foci.
-- 28 December 2025 (indexed 5 Jun 2026): DMD-based line temporal focusing enabled continuous centimetre-scale 3D nanolithography with greyscale voxel tuning at greater than 10 kHz refresh.
-- 10 April 2026: DMD spatial modulation combined with a 64 x 64 SPAD array produced effective 256 x 256 3D reconstruction of natural targets at 670 m stand-off.
-- 5 May 2026: SLM aberration compensation during femtosecond direct writing suppressed cracking and contributed to a sixfold reduction in fabrication time for a 7 cm sapphire photonic crystal fibre Bragg grating with 0.7 dB/cm propagation loss.
-- 16 June 2026: a passive cascaded diffractive network mapped 625 wavelength channels (400-750 nm) to a 25 x 25 array of beam positions with no mechanical scanning or electronic phase control, a substitute for active modulation in fixed-transformation tasks.
 
 ## Open questions
 

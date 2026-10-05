@@ -59,10 +59,6 @@ recent_mentions:
   title: DeepSeekV4 1.6T Day 0 to Day 43 Performance Over Time - Huawei, GB300 NVL72, MI355X, B200
   date: '2026-06-09'
   kind: web
-- slug: 2026-05-26-specialisation-beats-generality-custom-ai-chips-outpace
-  title: 'Custom AI Chips Outpace Nvidia GPU Growth in 2026: ASIC Shipments Set to Triple GPU Rate'
-  date: '2026-05-26'
-  kind: web
 - slug: 2026-05-01-semianalysis-ai-value-capture-model-labs
   title: AI Value Capture - The Shift To Model Labs
   date: '2026-05-01'
@@ -70,6 +66,10 @@ recent_mentions:
 - slug: 2026-03-31-semianalysis-nvidia-blackwell-dissection
   title: Dissecting Nvidia Blackwell - Tensor Cores, PTX Instructions, SASS, Floorsweep, Yield
   date: '2026-03-31'
+  kind: web
+- slug: 2026-03-16-nvidia-vera-rubin-platform
+  title: 'Inside the NVIDIA Rubin Platform: Six New Chips, One AI Supercomputer'
+  date: '2026-03-16'
   kind: web
 neighbors: []
 ---

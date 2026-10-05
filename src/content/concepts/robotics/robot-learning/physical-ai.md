@@ -32,6 +32,7 @@ sources:
 - '[[2026-09-01-chinas-ai-rally-is-real-most-global-investors-are-missing-it]]'
 - '[[2026-04-20-physical-ai-deploys-this-decade-bessemer-predicts-robotics]]'
 - '[[2026-07-01-sensifai-memo-streaming-physical-ai]]'
+- '[[2026-09-30-the-state-of-chinese-physical-ai]]'
 - '[[2026-06-15-gf-investor-day-2026]]'
 - '[[2026-09-18-visions-of-ai-gpt-3-moment-for-physical-ai]]'
 - '[[2026-09-07-microchip-acquires-hailo-jul-2026]]'
@@ -46,7 +47,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 108
+mention_count: 110
 descendants:
 - dexterous-manipulation
 - humanoid-robots
@@ -56,9 +57,13 @@ descendants:
 - tactile-sensing
 - vision-language-action-models
 - world-models
-sources_7d: 0
-sources_30d: 14
+sources_7d: 2
+sources_30d: 16
 recent_mentions:
+- slug: 2026-09-30-the-state-of-chinese-physical-ai
+  title: The State of Chinese Physical AI
+  date: '2026-09-30'
+  kind: web
 - slug: 2026-09-18-visions-of-ai-gpt-3-moment-for-physical-ai
   title: 'Visions of AI: GPT-3 Moment for Physical AI'
   date: '2026-09-18'
@@ -86,10 +91,6 @@ recent_mentions:
 - slug: 2026-07-01-sensifai-memo-streaming-physical-ai
   title: SensifAI — Purpose-Built Silicon for Streaming Physical AI (funding memo)
   date: '2026-07-01'
-  kind: web
-- slug: 2026-06-23-semidoped-daily-update
-  title: Semi Doped — Daily Update, June 23rd 2026
-  date: '2026-06-23'
   kind: web
 neighbors:
 - slug: humanoid-robots

@@ -32,7 +32,7 @@ descendants:
 - electron-scale-metrology
 - stm
 sources_7d: 0
-sources_30d: 8
+sources_30d: 6
 recent_mentions:
 - slug: 2024-09-19-can-ai-revolutionize-materials-discovery---latitude-media
   title: Can AI revolutionize materials discovery? - Latitude Media

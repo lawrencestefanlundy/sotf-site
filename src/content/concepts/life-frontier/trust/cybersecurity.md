@@ -13,9 +13,6 @@ sources:
 - '[[2023-10-19-e20-the-state-of-privacy-enhancing]]'
 - '[[2026-04-10-state-of-the-future-friday-four-551]]'
 - '[[2023-08-25-e12-nanomechanical-computing-gears]]'
-- '[[2026-07-06-willdepue-stargate-for-data]]'
-- '[[2025-12-16-draft-nist-guidelines-rethink-cybersecurity-for-the-ai-era]]'
-- '[[2026-07-25-thoughts-on-ai-and-power]]'
 scorecard:
   viability: null
   drivers: null
@@ -25,9 +22,9 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-mention_count: 127
-sources_7d: 0
-sources_30d: 11
+mention_count: 129
+sources_7d: 3
+sources_30d: 13
 recent_mentions:
 - slug: 2026-08-20-callosum-100m-seed-announcement
   title: Callosum announces $100M seed led by Atomico (round coverage + Companies House filings)

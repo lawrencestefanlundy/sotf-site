@@ -48,7 +48,7 @@ tags:
 - concept
 mention_count: 26
 sources_7d: 0
-sources_30d: 4
+sources_30d: 3
 recent_mentions:
 - slug: 2026-09-22-coinbase-full-stack-agent-payments
   title: Coinbase across the agent/stablecoin payments stack (agentic wallets, Payment APIs, x402, Bedrock AgentCore)

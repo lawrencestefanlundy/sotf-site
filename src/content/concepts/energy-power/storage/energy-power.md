@@ -123,6 +123,18 @@ descendants:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-01-vermont-gas-invests-in-geothermal-for-the-first-time---latit
+  title: Vermont Gas invests in geothermal for the first time - Latitude Media
+  date: '2026-10-01'
+  kind: web
+- slug: 2026-09-30-a-data-center-company-signed-a-ppa-for-space-solar-power---l
+  title: A data center company signed a PPA for space solar power - Latitude Media
+  date: '2026-09-30'
+  kind: web
+- slug: 2026-09-29-how-to-measure-grid-utilization---latitude-media
+  title: How to measure grid utilization - Latitude Media
+  date: '2026-09-29'
+  kind: web
 - slug: 2026-09-28-does-the-market-finally-have-an-opening-for-solid-state-tran
   title: Does the market finally have an opening for solid-state transformers? - latitudemedia.com
   date: '2026-09-28'
@@ -142,18 +154,6 @@ recent_mentions:
 - slug: 2026-09-23-load-growth-is-straining-already-worn-out-electrical-equipme
   title: Load growth is straining already worn-out electrical equipment - latitudemedia.com
   date: '2026-09-23'
-  kind: web
-- slug: 2026-09-23-another-voltus-data-center-expansion-this-time-with-sunrun--
-  title: Another Voltus data center expansion — this time with Sunrun - Latitude Media
-  date: '2026-09-23'
-  kind: web
-- slug: 2026-09-21-rune-is-tapping-spare-solar-power-for-modular-data-centers--
-  title: Rune is tapping spare solar power for modular data centers - latitudemedia.com
-  date: '2026-09-21'
-  kind: web
-- slug: 2026-09-18-the-hidden-power-systems-behind-ai---latitude-media
-  title: The hidden power systems behind AI - Latitude Media
-  date: '2026-09-18'
   kind: web
 neighbors: []
 ---

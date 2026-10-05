@@ -42,7 +42,7 @@ scorecard:
   verdict: Overrated
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 9
+sources_30d: 8
 recent_mentions:
 - slug: 2026-09-15-arxiv-a-unified-interconnection-network-for-chiplet-based-scaling-
   title: A Unified Interconnection Network for Chiplet-Based Scaling of the BrainScaleS Neuromorphic System
@@ -82,15 +82,9 @@ neighbors: []
 
 ## Summary
 
-Conventional processors separate memory from arithmetic, so running a neural network means shuttling weights across a bus. Neuromorphic computing attacks that from two directions. The first is architectural and digital: build many small cores, each with local SRAM, that exchange sparse asynchronous events (spikes) rather than dense tensors. The second is physical: replace the multiply-accumulate with a device whose physics does the multiplication, typically a crossbar array in which each cell's conductance, capacitance, refractive index or magnetic state encodes a weight, so a whole matrix-vector product happens as one analog settling event.
-
-The parameters that decide the field are unglamorous. Device-to-device variability determines whether a crossbar can be programmed in parallel at all: engineering the Ge:Te ratio in a CBRAM electrolyte suppressed stochastic resistance variation by roughly three orders of magnitude versus GeSe and only then allowed a 16x16 array to run a 4x4 Hopfield network with fully parallel Hebbian writes. Array size is the second parameter: nearly all quoted efficiency numbers come from arrays of tens to hundreds of devices, or from SPICE, not from megabit arrays. Third, on-chip memory itself has become the bottleneck the architecture was supposed to remove: SRAM and STT-MRAM now dominate area and energy in digital neuromorphic processors, producing what one critical review calls a new memory wall. Fourth, mundane integration questions such as IO pad rings and bonding strategy materially affect the power and yield of low-power neuromorphic chips.
-
 ## Viability (3/5)
 
 The strongest evidence for viability is DarwinWafer: 64 Darwin3 chiplets integrated on a 300 mm silicon interposer, 0.15 billion neurons and 6.4 billion synapses per wafer, measured at ~100 W and 0.8 V/333 MHz with 4.9 pJ per synaptic operation, 64 TSOPS peak and 0.64 TSOPS/W, plus measured 10 mV supply droop and a 34 to 36 °C thermal profile under load. That is an engineered system with measured electricals, not a concept. FerroNDS is a second credible point: a 128-neuron analog compute-in-memory system doing short-time Fourier transforms and 500 ms-horizon forecasting at sub-watt power, 1.64 µJ per neuron per inference at 200 Hz and 3.18 ms per-layer latency.
-
-Against that, the analog crossbar story is much earlier than its numbers imply. The founding memcapacitor work measured 156 devices at 50x50 µm cell size classifying 5x5-pixel letters, with 457 nJ per MAC actually measured; every TOPS/W figure in the paper is SPICE at a simulated 90 nm device, and the femtojoule claims are explicit seven-order-of-magnitude extrapolations from the measured device **Demasius 2021 Memcapacitor Nature Electronics**. Elsewhere the switching physics is still under investigation by molecular dynamics and kinetic Monte Carlo rather than settled, and the largest fabricated emerging-memory array in these sources is 16x16. Digital neuromorphic: works. Analog neuromorphic: works at toy scale, with the scaling argument still on paper.
 
 **TLDR: Digital spiking hardware demonstrably works at wafer scale; the analog device path is real but still measured in hundreds of cells.**
 
@@ -128,8 +122,6 @@ What the sources do not establish is displacement of GPUs for mainstream trainin
 
 The digital branch is already deployable in the narrow sense: DarwinWafer is a measured, assembled, thermally characterised system today, and the SkyWater 130 nm prototyping route lowers the barrier for new SNN silicon. The gating question is not whether such chips exist but whether they beat conventional edge silicon once on-chip memory area and energy are counted honestly, and the current critical answer is that they may not.
 
-The analog branch is on a longer clock. The distance between measured evidence and claimed performance is a full scaling programme: from 156 devices at 50 µm pitch and 457 nJ per MAC to a simulated 90 nm device carrying the femtojoule claims **Demasius 2021 Memcapacitor Nature Electronics**, from a 16x16 CBRAM crossbar to production array sizes, and from 128 analog neurons to systems that matter commercially. Each step requires variability control, endurance and write-circuit overheads that are not yet demonstrated at scale, which puts credible competitiveness in the five to ten year band rather than sooner.
-
 **TLDR: Digital spiking systems are usable now for research and niche edge work; analog in-memory neuromorphic needs a scaling generation before it competes.**
 
 ## Overrated or underrated? Overrated
@@ -140,24 +132,9 @@ The second reason for the call is that the core premise is under attack from ins
 
 ## Prediction
 
-By 31 December 2029, no peer-reviewed analog neuromorphic crossbar of more than 10,000 fabricated devices will report a measured (not SPICE-extrapolated) energy per MAC within two orders of magnitude of the femtojoule-class figures projected in **Demasius 2021 Memcapacitor Nature Electronics**.
-
 ## Evidence base
 
-- DarwinWafer integrates 64 Darwin3 chiplets on a 300 mm interposer for 0.15 B neurons and 6.4 B synapses per wafer, measured at ~100 W, 4.9 pJ/SOP and 0.64 TSOPS/W, with 10 mV supply droop and a 34 to 36 °C thermal profile (arXiv posted 30 Aug 2025).
-- The founding memcapacitor paper (Nature Electronics, 11 Oct 2021) measured 156 devices at 50x50 µm cell size at 457 nJ per MAC; all TOPS/W figures are SPICE on a simulated 90 nm device and the femtojoule claims are seven-order-of-magnitude extrapolations, with charge recovery alone worth about 17.4 times (29,600 versus 1,702 TOPS/W on MNIST) **Demasius 2021 Memcapacitor Nature Electronics**.
-- A critical architecture review (9 Apr 2026) finds on-chip SRAM and STT-MRAM have become significant consumers of area and energy in digital neuromorphic processors, creating a new memory wall and threatening competitiveness in edge and embedded use.
-- FerroNDS (16 Jun 2026) runs a 128-neuron analog neural dynamical system on multi-bit ferrodiode compute-in-memory at 1.64 µJ per neuron per inference (200 Hz) and 0.29 µJ (10 kHz), with 25 to 40 times area reduction over SRAM-based digital and 63.87 µs per-layer latency at 10 kHz.
-- Ge:Te composition engineering (4 Jun 2026) suppressed stochastic resistance variation by roughly three orders of magnitude versus GeSe CBRAM, enabling a selector-less 16x16 crossbar running a 4x4 Hopfield network with fully parallel Hebbian programming.
-- A GaP electro-optomechanical spiking neuron on silicon photonics (17 Jan 2026) shows calibrated all-or-none optical spikes at 1550 nm using a 3 GHz mechanical mode, with demonstrated threshold control, temporal summation and refractory period.
-- Atomistic work on filament formation in ECM and Ta/HfO2/Pt memristors (5 May and 29 May 2026) states that the mechanisms governing filament morphology and metal cation migration remain unclear or poorly understood.
-
 ## Open questions
-
-- Does any emerging-device crossbar reach 10^4 to 10^6 cells with the device-to-device variability of the Ge3.5Te1 CBRAM result preserved, or does the variability advantage disappear with array size?
-- Can the 95% charge-recovery assumption underpinning the memcapacitor efficiency figures be measured on a real scaled device, given it alone accounts for a 17.4 times multiplier **Demasius 2021 Memcapacitor Nature Electronics**?
-- Is there a memory organisation that removes the new on-chip memory wall in digital neuromorphic processors, and what is the measured area and energy split after it is applied?
-- Does any neuromorphic system, digital or analog, beat a commercial accelerator on a workload a buyer already runs, rather than on a task chosen to suit the hardware?
 
 ---
 *Assessment drafted 2026-08-31 from up to 18 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

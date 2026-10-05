@@ -23,6 +23,14 @@ mention_count: 82
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-01-vermont-gas-invests-in-geothermal-for-the-first-time---latit
+  title: Vermont Gas invests in geothermal for the first time - Latitude Media
+  date: '2026-10-01'
+  kind: web
+- slug: 2026-09-30-a-data-center-company-signed-a-ppa-for-space-solar-power---l
+  title: A data center company signed a PPA for space solar power - Latitude Media
+  date: '2026-09-30'
+  kind: web
 - slug: 2026-09-28-frontier-forum-the-rush-for-clean-on-site-power---latitudeme
   title: 'Frontier Forum: The rush for clean, on-site power - latitudemedia.com'
   date: '2026-09-28'
@@ -43,17 +51,9 @@ recent_mentions:
   title: TAR aims to build off-grid power for data centers in just six months - latitudemedia.com
   date: '2026-09-14'
   kind: web
-- slug: 2026-09-11-oracle-and-openai-bet-that-more-solar-could-combat-data-cent
-  title: Oracle and OpenAI bet that more solar could combat data center pushback - latitudemedia.com
-  date: '2026-09-11'
-  kind: web
-- slug: 2026-09-10-one-nuclear-launches-5-gw-louisiana-portfolio-of-energy-proj
-  title: ONE Nuclear launches 5 GW Louisiana portfolio of energy projects comprising nuclear, natural gas and battery storage - Latitude Media
-  date: '2026-09-10'
-  kind: web
-- slug: 2026-09-04-building-clean-power-for-data-centers-in-a-gas-obsessed-mark
-  title: Building clean power for data centers in a gas-obsessed market - Latitude Media
-  date: '2026-09-04'
+- slug: 2026-09-12-a-1-gigawatt-fusion-plant-would-burn-123-pounds-of-tritium-a
+  title: A 1-gigawatt fusion plant would burn 123 pounds of tritium a year and push 1,235 pounds around its loop to do it, so an American startup is spinning the exhaust in a column of plasma that throws the heavy isotopes to the wall and lets the helium ash go, and th - Autonocion.com
+  date: '2026-09-12'
   kind: web
 neighbors: []
 ---

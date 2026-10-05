@@ -82,13 +82,13 @@ recent_mentions:
   title: Quantinuum Secures $100M CHIPS Act Award to Scale Domestic Quantum Semiconductor Manufacturing - Bisinfotech
   date: '2026-09-23'
   kind: web
+- slug: 2026-09-16-qutech-spinout-qbird-rebrands-to-falqon-systems-to-commercia
+  title: QuTech Spinout Q*Bird Rebrands to Falqon Systems to Commercialize Quantum Secure Networks - Quantum Computing Report
+  date: '2026-09-16'
+  kind: web
 - slug: 2026-08-03-spad-single-photon-market-scan
   title: SPAD / single-photon detector market scan — incumbent structure and company cohort
   date: '2026-08-03'
-  kind: web
-- slug: 2026-07-24-18b-illinois-chips-act-supports-zero-point-cryogenics-us-ent
-  title: $1.8B Illinois Chips Act Supports Zero Point Cryogenics’ U.S. Entry - Quantum Zeitgeist
-  date: '2026-07-24'
   kind: web
 neighbors:
 - slug: quantum-computing

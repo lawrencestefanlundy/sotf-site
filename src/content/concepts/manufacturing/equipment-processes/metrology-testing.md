@@ -34,6 +34,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-08-31-channel-emulator-for-6-g-and-wi-fi-78---31-august-2026---con
+  title: Channel emulator for 6 G and Wi-Fi 7/8 - 31 August 2026 - Concilium Technologies - dataweek.co.za
+  date: '2026-08-31'
+  kind: web
 - slug: 2026-08-12-viavi-introduces-industrys-first-channel-emulator-for-6g-and
   title: VIAVI Introduces Industry's First Channel Emulator for 6G and Wi-Fi 7/8 - barchart.com
   date: '2026-08-12'

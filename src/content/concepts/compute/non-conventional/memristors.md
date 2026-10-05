@@ -32,7 +32,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 2
+sources_30d: 1
 recent_mentions:
 - slug: 2026-08-07-the-memory-trade-isnt-over-weights
   title: 'The Memory Trade Isn''t Over: Weights and KV Cache'
@@ -47,8 +47,6 @@ neighbors: []
 **Memristors are two-terminal devices whose resistance retains a memory of past electrical stimulus, offering dense non-volatile memory and analogue in-memory computing, but the 2026 literature is still resolving the stochastic switching physics that limits array-level reliability.**
 
 ## Summary
-
-A memristor is a two-terminal element whose conductance depends on the history of the voltage or current applied to it, and holds that state without power. Placed at the crosspoints of a crossbar array, such devices store weights where the computation happens, so a matrix-vector multiply becomes a single analogue read of currents rather than a stream of data movements between memory and logic. That is the whole commercial argument: non-volatility, low leakage and higher density than SRAM, plus the option of doing multiply-accumulate in place. Its relevance to AI hardware is the memory bottleneck rather than raw arithmetic <sup class="ref"><a href="https://stateofthefuture.substack.com/p/e14-the-real-ai-bottleneck-high-bandwidth" title="🔮E14: The Real AI Bottleneck: High Bandwidth Memory (HBM) " rel="noopener">ref</a></sup>.
 
 The honest reading of this source set is a field that has working devices in many material systems and is simultaneously still writing papers to establish what physically happens during a switching event.
 

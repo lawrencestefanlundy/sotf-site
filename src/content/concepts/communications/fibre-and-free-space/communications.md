@@ -82,6 +82,10 @@ recent_mentions:
   title: ESA starts next phase of IRIS² evolution through Low-LEO activities
   date: '2026-09-17'
   kind: web
+- slug: 2026-09-16-qutech-spinout-qbird-rebrands-to-falqon-systems-to-commercia
+  title: QuTech Spinout Q*Bird Rebrands to Falqon Systems to Commercialize Quantum Secure Networks - Quantum Computing Report
+  date: '2026-09-16'
+  kind: web
 - slug: 2026-08-27-opener-is-an-open-source-reference-implementation-of-the-dec
   title: Opener is an open-source reference implementation of the DECT NR+ massive IoT, low-latency standard - CNX Software
   date: '2026-08-27'
@@ -105,10 +109,6 @@ recent_mentions:
 - slug: 2026-06-05-nasa-concludes-antenna-mishap-investigation-releases-report
   title: NASA Concludes Antenna Mishap Investigation, Releases Report
   date: '2026-06-05'
-  kind: web
-- slug: 2026-06-01-ncsc-nsa-qkd-vs-pqc
-  title: 'NCSC / NSA position: QKD not endorsed, post-quantum cryptography is the recommended mitigation'
-  date: '2026-06-01'
   kind: web
 neighbors: []
 ---

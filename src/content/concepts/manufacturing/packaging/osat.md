@@ -56,7 +56,7 @@ tags:
 - category
 - packaging
 - supply-chain
-mention_count: 123
+mention_count: 124
 scorecard:
   viability: 4
   drivers: 4
@@ -67,7 +67,7 @@ scorecard:
   verdict: Overrated
 scorecard_status: draft
 sources_7d: 1
-sources_30d: 8
+sources_30d: 9
 recent_mentions:
 - slug: 2026-09-02-vertical-power-delivery-thermal-limits
   title: 'Vertical power delivery: the thermal limit at the 48V-to-point-of-load stage'

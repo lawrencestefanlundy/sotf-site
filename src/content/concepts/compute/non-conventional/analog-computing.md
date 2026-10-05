@@ -24,7 +24,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 27
+mention_count: 28
 descendants:
 - adc-bottleneck
 - charge-domain-compute
@@ -33,8 +33,8 @@ descendants:
 - fdtd-calibration-wall
 - near-field-rf-coupling
 last_reorg_date: '2026-05-14'
-sources_7d: 0
-sources_30d: 1
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
 - slug: 2026-04-28-making-ai-inference-cheap-with-analog
   title: Making AI inference Cheap with Analog Computing w/ Shwetank Kumar @ EnCharge AI
@@ -72,17 +72,9 @@ neighbors: []
 ---
 ## Physics / mechanism
 
-Analog computing encodes information as continuous physical quantities—voltage, current, charge, optical intensity—rather than discrete bits. Computation occurs via physical law: matrix-vector multiplication maps directly onto Kirchhoff's current law in resistive crossbar arrays, or onto interference in photonic meshes. Key parameters: energy-per-MAC (multiply-accumulate), precision (typically 4–8 effective bits vs. digital's 32), throughput density, and drift/noise floors. State of the art: memristor crossbars demonstrate sub-fJ/MAC at 8-bit equivalent precision; analog photonic accelerators (MIT, Lightmatter) hit >TOPS/W at inference workloads. Core limitation is weight-programming accuracy and device-to-device variability, both active research targets.
-
 ## Competitive landscape
 
 Digital ASIC accelerators (Tenstorrent, Groq, Cerebras) dominate on programmability and precision; neuromorphic (Intel Loihi, IBM NorthPole) overlaps on event-driven, low-power inference. Photonic digital interconnect is adjacent but distinct. In-memory computing (SRAM/DRAM analog) competes at the edge.
-
-| Approach | Energy/MAC | Precision | Programmability |
-|---|---|---|---|
-| Analog crossbar | <1 fJ | 4–8 bit | Low |
-| Digital ASIC | ~1–10 pJ | 8–32 bit | High |
-| Analog photonic | <0.1 pJ | ~6 bit | Medium |
 
 ## Companies using
 

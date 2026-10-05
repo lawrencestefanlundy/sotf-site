@@ -31,8 +31,16 @@ descendants:
 - probe-cards
 - wafer-level-burn-in
 sources_7d: 0
-sources_30d: 5
+sources_30d: 4
 recent_mentions:
+- slug: 2026-10-04-mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richa
+  title: Mapping the Gaps in NASA’s Return to the Moon, featuring Richard Spolzino
+  date: '2026-10-04'
+  kind: web
+- slug: 2026-09-30-global-electronics-association-and-fraunhofer-partner-on-eu-
+  title: Global Electronics Association and Fraunhofer Partner on EU Chips Act Pilot Line - Electronics For You BUSINESS
+  date: '2026-09-30'
+  kind: web
 - slug: 2026-09-24-the-hack-ministers-discuss-chips-act-2---euractivcom
   title: 'THE HACK: Ministers discuss Chips Act 2 - euractiv.com'
   date: '2026-09-24'
@@ -56,14 +64,6 @@ recent_mentions:
 - slug: 2026-09-23-quantinuum-secures-100m-chips-act-award-to-scale-domestic-qu
   title: Quantinuum Secures $100M CHIPS Act Award to Scale Domestic Quantum Semiconductor Manufacturing - Bisinfotech
   date: '2026-09-23'
-  kind: web
-- slug: 2026-09-22-eu-prepares-chips-act-20-as-brussels-rethinks-competition-ru
-  title: EU Prepares Chips Act 2.0 as Brussels Rethinks Competition Rules for Global Scale - EU Today
-  date: '2026-09-22'
-  kind: web
-- slug: 2026-09-21-ibm-unit-secures-us1-billion-chips-act-award-to-expand-quant
-  title: IBM unit secures US$1 billion CHIPS Act award to expand quantum wafer manufacturing - digitimes
-  date: '2026-09-21'
   kind: web
 neighbors: []
 ---

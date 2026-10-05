@@ -14,7 +14,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 28
+mention_count: 29
 frontier:
 - Does the roughly three-orders-of-magnitude variability suppression reported for Ge3.5Te1 CBRAM hold at array sizes far beyond 16x16, and over extended endurance and retention testing 2026 06 05 electrolyte bonding engineering for highly uniform gete base?
 - Can training-side methods such as the temporal-switch framework deliver transfer across chips from different fabrication runs and material families, not just across devices within the studied families 2026 07 07 towards transferable lightweight neuromorphic computing thro?
@@ -34,7 +34,7 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
+sources_7d: 1
 sources_30d: 2
 recent_mentions:
 - slug: 2023-06-23-e05-the-future-of-edge-ai-brain-inspired
@@ -51,8 +51,6 @@ neighbors: []
 
 The physics is not in doubt and the fabrication is not exotic. Working devices are reported in amorphous silicon, Ge-Te electrolytes, Ta2O5, Y2O3 and VO2 monolithically integrated on silicon-on-insulator transistors at back-end-compatible temperatures below 430 °C. ReRAM and STT-RAM are singled out as the two most process-mature memristive memories on energy, latency and area.
 
-What holds the score at 3 is the scale and the residual randomness. c-AFM imaging shows conduction is carried by a small number of discrete filaments rather than uniformly across the device, which is the direct physical origin of D2D and C2C spread. Functional array demonstrations in these sources are small: a selector-less 16x16 CBRAM crossbar running a 4x4 Hopfield network, reservoir circuits using two to six memristive channels, and a photonic memristor at 5-bit phase resolution with 50 kbit/s programming. Several system-level results, including the MIMO detector and the branch predictor, are simulation studies rather than silicon.
-
 **TLDR: Devices and small arrays work experimentally; the variability problem that blocks scaling is still being attacked material by material.**
 
 ## Drivers (3/5)
@@ -66,8 +64,6 @@ On the supply side the evidence is thinner and mostly about process compatibilit
 ## Novelty (3/5)
 
 The comparison targets are explicit. Against CMOS SRAM, memristors are claimed to be non-volatile, low-leakage and denser, with memristor-driven flip-flops reported to cut area, power and delay relative to prior sequential-circuit designs in 90 nm CMOS. Against digital accelerators, an optical-flow sensor reports a 303-fold power reduction versus FPGA-accelerated dynamic vision sensor systems while keeping microsecond latency and cutting output data volume roughly 3.3-fold, with an optical memristor variant proposed to reduce sensor power and area further. Against iterative digital MIMO detection, in-memory MVM is claimed to reach nanosecond scale.
-
-The most defensible novelty in these sources is incremental but real progress on the actual blocker. Composition engineering of the Ge-Te electrolyte, with Ge3.5Te1 identified as optimal, suppresses stochastic resistance variation by roughly three orders of magnitude relative to GeSe devices, which is what makes selector-free parallel programming of a crossbar feasible at all. Comparable in kind: room-temperature charge-density-wave switching extends non-volatile CDW memory from cryogenic operation to 6 K to 400 K, and a temporal-switch training framework reaches 92.4% spoken-digit accuracy on unseen devices with a directly transferred readout, removing per-copy retraining. None of these is yet a like-for-like win over a shipping product in these sources.
 
 **TLDR: Large claimed gains over CMOS baselines, but the strongest numbers come from narrow comparisons or simulation.**
 
@@ -95,8 +91,6 @@ The general case is slower. Reliability solutions are still being catalogued as 
 
 ## Overrated or underrated? Fairly rated
 
-As a research platform, memristors are productive and the 2026 literature shows the field working on the right problem rather than around it: the Ge-Te composition study attacks stochastic resistance variation directly and reports about three orders of magnitude improvement, then uses it to enable parallel crossbar programming; c-AFM work localises the cause of variability in a small number of discrete filaments; and the temporal-switch framework accepts device spread and trains around it instead of demanding perfect devices. That is a healthy signature.
-
 The framing that should be discounted is memristors as a general replacement for CMOS memory. Nothing in these sources demonstrates a large, yielding, uncalibrated array; the functional demonstrations are at 16x16 and below, and the strongest system results are simulated. The credible near-term shape is narrow: variability-tolerant analogue workloads such as reservoir computing and event-driven sensing, plus BEOL-integrated neuron and logic blocks alongside CMOS rather than instead of it. Judged that way the technology is roughly where the enthusiasm places it, provided the reader does not read device papers as product roadmaps.
 
 ## Prediction
@@ -104,13 +98,6 @@ The framing that should be discounted is memristors as a general replacement for
 Neuromorphic chip designs, memristive or otherwise, will not hold 20% of the edge AI hardware market by the end of 2030, the target set out in <sup class="ref"><a href="https://stateofthefuture.substack.com/p/e05-the-future-of-edge-ai-brain-inspired" title="🔮 E05: Neuromorphic Computing & The Future of Edge AI" rel="noopener">ref</a></sup>.
 
 ## Evidence base
-
-- 5 May 2026: conductive AFM shows charge transport in a-Si/Ag/Cu memristors is dominated by a limited number of discrete filaments rather than uniform conduction, and systematic studies of filament parameters remain scarce despite large-array demonstrations.
-- 4 June 2026: Ge:Te composition engineering identifies Ge3.5Te1 as suppressing stochastic resistance variation by about three orders of magnitude versus GeSe devices, enabling a selector-less 16x16 Cu/Ge3.5Te1 crossbar running a 4x4 Hopfield network with fully parallel programming.
-- 18 June 2026: a reliability review names ReRAM and STT-RAM as the most process-mature memristive memories and classifies remaining threats as read/write errors and soft errors, with interacting reliability parameters.
-- 7 July 2026: a model-free temporal-switch framework achieves 92.4% spoken-digit classification accuracy on unseen memristor devices with a directly transferred readout, removing per-copy retraining.
-- 23 July 2026: one-transistor-one-VO2-memristor spiking neurons are monolithically integrated back-end-of-line on SOI junctionless FETs at below 430 °C.
-- 27 July 2026: a CMOS-foundry photonic MEMS memristor demonstrates up to 5-bit phase storage levels and 50 kbit/s programming, while durability, optical loss, large-scale reconfigurability and yield remain listed as open challenges.
 
 ## Open questions
 

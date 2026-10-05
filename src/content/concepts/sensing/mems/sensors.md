@@ -28,6 +28,10 @@ sources:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-02-jammertest-pumps-up-the-jam-in-norway
+  title: Jammertest pumps up the jam in Norway
+  date: '2026-10-02'
+  kind: web
 - slug: 2026-09-28-nasa-orbit-challenge-2027
   title: NASA ORBIT Challenge 2027
   date: '2026-09-28'
@@ -55,10 +59,6 @@ recent_mentions:
 - slug: 2026-09-02-clusters-encore-for-reentry-science-a-success
   title: Cluster’s encore for reentry science a success
   date: '2026-09-02'
-  kind: web
-- slug: 2026-08-31-diffraqtion-raises-more-than-10m-for-quantum-camera-developm
-  title: Diffraqtion Raises More Than $10M for Quantum Camera Development - The Quantum Insider
-  date: '2026-08-31'
   kind: web
 neighbors: []
 ---

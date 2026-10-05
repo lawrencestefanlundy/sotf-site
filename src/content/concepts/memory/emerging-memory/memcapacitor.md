@@ -57,7 +57,7 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 1
+sources_7d: 0
 sources_30d: 3
 recent_mentions:
 - slug: 2026-08-07-the-memory-trade-isnt-over-weights
@@ -126,21 +126,13 @@ neighbors:
   path: /compute/compute-architecture/3d-monolithic-integration/
   macro: compute
 ---
-**A memcapacitor is a capacitor whose capacitance is programmable and retained, so a neural-network weight can be stored and multiplied in the charge domain with almost no resistive current, but the only measured device is a 156-cell crossbar with 50 x 50 µm cells and 457 nJ per MAC, and every headline efficiency figure is extrapolation **Demasius 2021 Memcapacitor Nature Electronics**.**
-
 ## Summary
-
-**What it is.** A memcapacitor is the capacitive counterpart of the memristor: a two-terminal or gated element whose *capacitance* holds a programmable, non-volatile analogue value. In a crossbar, applying an input voltage to a row causes charge to be redistributed in proportion to the stored capacitance, so the column charge is a multiply-accumulate over the stored weights. The distinction from resistive analogue compute-in-memory (RRAM, PCM) is that ideally no steady current flows through the storage element. The energy is reactive rather than dissipative, which opens the door to adiabatic circuits that push charge back into the supply instead of dumping it to ground.
 
 **The parameters that decide it.** First, capacitance per unit area: the compute signal is charge, so the entire proposition depends on getting useful capacitance out of a cell three orders of magnitude smaller laterally than the one that has been measured. For scale, manufactured MIM capacitors embedded in Intel's EMIB-T bridge sit around 500 nF/mm², with a roadmap target above 2,500 nF/mm² for decoupling structures <sup class="ref"><a href="https://newsletter.semianalysis.com/p/ectc2026" title="ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, " rel="noopener">ref</a></sup>. Second, charge recovery: in the founding paper the 95% recovery assumption, imported from the adiabatic-circuits literature rather than measured, is worth about 17.4x on its own (3,452.6 versus 198.5 TOPS/W in the worst case; 29,600 versus 1,702 TOPS/W on a one-layer MNIST perceptron) **Demasius 2021 Memcapacitor Nature Electronics**. Third, analogue precision under noise: FCDC's claim is that all-layer noise substitution costs +2.6% WikiText-2 perplexity on Qwen3-32B and +2.9% on Mistral-7B-v0.3, with a narrower KV-coprocessor serving mode under 0.5%. Fourth, and least discussed, whether the readout can stay analogue at all: the 2026 direction of travel in compute-in-memory is analogue compute with digital readout to manage noise and variability, which is a headwind for any pure multi-level analogue device <sup class="ref"><a href="https://spectrum.ieee.org/analog-ai-chip-architecture" title="Compute-in-memory landscape 2026: efficiency claims, the digital-readout shift, IDM PIM" rel="noopener">ref</a></sup>.
 
 ## Viability (2/5)
 
-The physics is demonstrated and the device works as a trainable array: 156 memcapacitors, 50 x 50 µm cells, letter classification, 457 nJ per MAC measured **Demasius 2021 Memcapacitor Nature Electronics**. That is a working proof of principle and nothing more. The gap between what was measured and what is claimed is a seven-order-of-magnitude extrapolation to a simulated 90 nm device, plus a 17.4x multiplier from an unmeasured 95% charge-recovery assumption **Demasius 2021 Memcapacitor Nature Electronics**. Nothing in the sources shows a fabricated memcapacitor array at a scaled node, or a measured charge-recovery circuit operating with a memcapacitor crossbar.
-
 The 2026 ferroelectric line does not close that gap. FCDC is explicitly simulation-based with no device fabricated, and its credibility rests on borrowed wafer-scale 10 nm HZO measurements rather than on a compute cell that exists. What has been established is that the accuracy question may be tractable (12 pretrained LLMs, downstream tasks within 5% of digital, a 128k-context replication). What has not been established is that a manufacturable cell delivers the assumed device behaviour at scale. Score 2, not 1, because the founding measurement is real and peer-reviewed; not 3, because no fabricated array has yet been shown at a node where the economics would work.
-
-**TLDR: One measured crossbar at 50 µm cells; all attractive numbers are extrapolated or simulated.**
 
 ## Drivers (3/5)
 
@@ -176,8 +168,6 @@ Even the conservative simulated figure, 198.5 TOPS/W without charge recovery, si
 
 ## Timing Later (5-10yr)
 
-The measured state of the art is a 2021 crossbar at 50 µm cell size **Demasius 2021 Memcapacitor Nature Electronics**, and the most recent work in the sources, from June 2026, still has no fabricated device. Five years of published work has moved the ball from a measured micrometre-scale device to a more rigorous simulation on a different material stack. For comparison, the nearest analogue-memory competitor with silicon, TetraMem's 22 nm multi-level RRAM SoC, only had evaluation kits targeted for the second half of 2026 <sup class="ref"><a href="https://spectrum.ieee.org/analog-ai-chip-architecture" title="Compute-in-memory landscape 2026: efficiency claims, the digital-readout shift, IDM PIM" rel="noopener">ref</a></sup>.
-
 On that trajectory, datacentre-relevant memcapacitor deployment is a five-to-ten-year question at the earliest, and edge deployment depends on commercialisation activity the sources do not date. The two milestones to watch inside two years are a peer-reviewed fabricated memcapacitor array at a scaled node with measured rather than extrapolated energy, and a measured charge-recovery circuit operating with such an array. Until one of those lands, the timing is set by device engineering, not by market pull.
 
 **TLDR: The near-term milestone is a fabricated scaled array, not a product; nothing in the sources dates one.**
@@ -193,13 +183,6 @@ The field is also drifting away from the memcapacitor's strongest assumption. Pu
 By 31 December 2028, no peer-reviewed paper will report a fabricated memcapacitor array with cell size below 1 µm and measured (not extrapolated or SPICE-simulated) energy efficiency above 1,000 TOPS/W.
 
 ## Evidence base
-
-- 11 Oct 2021: the founding memcapacitor paper measured a 156-device crossbar at 50 x 50 µm cell size (gate lengths ~60 µm) classifying 5 x 5 pixel letters, at 457 nJ per MAC; all femtojoule and TOPS/W figures are seven-order-of-magnitude extrapolations to a simulated 90 nm device **Demasius 2021 Memcapacitor Nature Electronics**.
-- 11 Oct 2021: the same paper's efficiency grid shows the 95% charge-recovery assumption is worth ~17.4x on its own (3,452.6 vs 198.5 TOPS/W worst case; 29,600 vs 1,702 TOPS/W on MNIST), with the 95% figure imported from the adiabatic-circuits literature **Demasius 2021 Memcapacitor Nature Electronics**.
-- 30 Jun 2026: FCDC, an HZO ferroelectric memcapacitor for non-volatile charge-domain attention, reports +2.6% WikiText-2 perplexity on Qwen3-32B and under 0.5% accuracy cost in KV-coprocessor serving mode across 12 pretrained LLMs, but is simulation-based throughout with no device fabricated.
-- 21 Mar 2024: peak hardware compute grew ~60,000x over twenty years against ~100x for DRAM bandwidth and ~30x for interconnect, with an off-chip DRAM fetch at ~1.3-2.6 nJ versus sub-picojoule arithmetic **2024 Gholami Ai And Memory Wall**.
-- 16 Jun 2026: the 2026 compute-in-memory shift is towards analogue compute with digital readout and lower effective precision for yield, described as a headwind for pure multi-level analogue devices including the memcapacitor; EnCharge's switched-capacitor charge-domain SRAM claims >150 TOPS/W versus ~24 TOPS/W for an equivalent Nvidia chip <sup class="ref"><a href="https://spectrum.ieee.org/analog-ai-chip-architecture" title="Compute-in-memory landscape 2026: efficiency claims, the digital-readout shift, IDM PIM" rel="noopener">ref</a></sup>.
-- 10 Jul 2026: the defensible floor for decline in GPU delivered cost per token is ~2.5-3x per year, with Epoch putting fixed-capability price decline at a median 50x per year, setting the moving target any new memory device must beat.
 
 ## Open questions
 

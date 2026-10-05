@@ -15,7 +15,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 203
+mention_count: 207
 descendants:
 - atomic-clocks
 - nv-diamond-sensing
@@ -34,7 +34,7 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-sources_7d: 0
+sources_7d: 1
 sources_30d: 17
 recent_mentions:
 - slug: 2026-07-21-precision-astrometry-using-optically-independent-spacecraft-

@@ -13,7 +13,6 @@ related_concepts: []
 sources:
 - '[[2026-06-05-recursive-until-the-power-bill]]'
 - '[[2024-12-16-willow-and-the-race-to-quantum-advantage]]'
-- '[[2026-05-02-high-sensitivity-nv-diamond-resonator-comm-materials-2025]]'
 frontier:
 - Does the laser-threshold magnetometer's sub-400 fT/√Hz photon-shot-noise limit survive as an end-to-end measured noise floor, including technical noise and drift, in a device that also retains the improved dynamic range? 2026 05 05 laser enhanced quantum sensing boosts sensitivity and dynami
 - Do the 5 to 100 pT/√Hz simulated vector sensitivities from broadband microwave probing, and the elimination of a bias field down to 25 µT, reproduce experimentally? 2026 06 03 vector magnetometry with broadband microwave fields in nitro
@@ -23,7 +22,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 108
+mention_count: 111
 descendants: []
 last_reorg_date: '2026-05-13'
 scorecard:
@@ -35,17 +34,13 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 22
+sources_7d: 4
+sources_30d: 24
 recent_mentions:
 - slug: 2026-06-05-recursive-until-the-power-bill
   title: Recursive, Until the Power Bill
   date: '2026-06-05'
   kind: substack
-- slug: 2026-05-02-high-sensitivity-nv-diamond-resonator-comm-materials-2025
-  title: High-sensitivity NV diamond resonator (Comm. Materials 2025)
-  date: '2026-05-02'
-  kind: web
 - slug: 2026-03-08-diamonds-are-semiconductors-best-friend
   title: Diamonds are Semiconductors' Best Friend 2026
   date: '2026-03-08'

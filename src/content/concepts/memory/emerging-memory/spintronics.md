@@ -19,8 +19,8 @@ descendants:
 - all-optical-switching
 - magneto-optical
 sources: []
-mention_count: 88
-sources_7d: 0
+mention_count: 90
+sources_7d: 2
 sources_30d: 13
 recent_mentions:
 - slug: 2026-09-23-arxiv-benchmarking-the-generalized-kadanoff-baym-ansatz-and-second

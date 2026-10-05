@@ -8,7 +8,8 @@ parent_concepts:
 - sensing
 - quantum-sensing
 related_concepts: []
-sources: []
+sources:
+- '[[2026-01-13-quantum-imaging-startup-diffraqtion-emerges-from-stealth---p]]'
 frontier:
 - At fixed total acquisition time and identical illumination at the sample, does coincidence-based contrast enhancement beat classical time gating or spatial filtering, or does the shot-noise penalty cancel the gain 2026 05 29 contrast enhanced imaging through weakly scattering media wi?
 - How does scanning QIUL phase imaging compare with conventional mid-infrared spectroscopic imaging on time per field of view, sensitivity and instrument cost 2026 07 20 quantum scanning synthetic optical holography?
@@ -18,7 +19,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 17
+mention_count: 18
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 3
@@ -31,7 +32,11 @@ scorecard:
 scorecard_status: draft
 sources_7d: 0
 sources_30d: 3
-recent_mentions: []
+recent_mentions:
+- slug: 2026-01-13-quantum-imaging-startup-diffraqtion-emerges-from-stealth---p
+  title: Quantum Imaging Startup Diffraqtion Emerges from Stealth - Payload Space
+  date: '2026-01-13'
+  kind: web
 neighbors: []
 ---
 **Quantum imaging uses correlated or squeezed light (entangled photon pairs, squeezed beams) to form images with contrast, wavelength coverage or noise properties that a classical beam of the same brightness cannot provide, and as of 2026 it remains a set of laboratory demonstrations whose most convincing advantage is wavelength conversion rather than raw sensitivity.**

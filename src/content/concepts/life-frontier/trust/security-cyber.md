@@ -27,6 +27,10 @@ recent_mentions:
   title: Galileo's first civil authenticated position fix under spoofing conditions
   date: '2026-09-17'
   kind: web
+- slug: 2026-09-16-qutech-spinout-qbird-rebrands-to-falqon-systems-to-commercia
+  title: QuTech Spinout Q*Bird Rebrands to Falqon Systems to Commercialize Quantum Secure Networks - Quantum Computing Report
+  date: '2026-09-16'
+  kind: web
 - slug: 2026-08-05-stealthium-gpu-powered-security-intelligence-site-docs-compe
   title: Stealthium — GPU-Powered Security Intelligence (site + docs + competitive context)
   date: '2026-08-05'

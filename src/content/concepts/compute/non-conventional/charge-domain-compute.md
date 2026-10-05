@@ -48,8 +48,6 @@ neighbors:
 ---
 ## Current-domain vs charge-domain
 
-In **current-domain** analog CIM, weights are stored as conductances (resistances) in a crossbar; applying input voltages produces currents that sum on a wire (Ohm's law + Kirchhoff's law = analog MAC). The problem: the devices draw continuous static current, conductance is hard to set precisely and drifts, and device-to-device variability injects noise. RRAM, PCM, and floating-gate flash (Mythic) all live here, and all fought variability and endurance.
-
 ## Two implementations
 
 Both share the charge-domain advantage (precision, linearity, low static power); they differ on the storage element (dedicated non-volatile device vs standard volatile SRAM) and therefore on density and process complexity.

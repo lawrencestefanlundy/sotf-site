@@ -12,7 +12,7 @@ sources:
 - '[[2026-05-29-silicon-shock-the-macro-of-tech-inflation]]'
 mention_count: 40
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-05-29-silicon-shock-the-macro-of-tech-inflation
   title: 'Silicon Shock: The Macro of Tech Inflation'

@@ -40,7 +40,7 @@ scorecard:
   verdict: ''
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 4
+sources_30d: 3
 recent_mentions:
 - slug: 2026-04-28-making-ai-inference-cheap-with-analog
   title: Making AI inference Cheap with Analog Computing w/ Shwetank Kumar @ EnCharge AI
@@ -95,8 +95,6 @@ neighbors:
 **Analog in-memory compute performs matrix multiplication inside the memory array itself by exploiting device physics rather than moving data to a logic unit, and 2026 research shows it works on fabricated silicon for weight-stationary layers while still fighting drift, update asymmetry and noise on anything dynamic.**
 
 ## Summary
-
-Analog in-memory compute (AIMC, also analog compute-in-memory or CIM) stores a neural network's weights as a physical quantity inside a memory array (conductance in a resistive crossbar, charge on a floating gate, polarisation in a ferroelectric capacitor) and applies the input vector as voltages on the array's lines. The multiply and the accumulate then happen as a physical consequence of the device physics along each column, so the dominant cost of digital accelerators, shuttling weights between memory and arithmetic units, largely disappears. The framing that motivates the whole field is the memory wall: data movement, not arithmetic, is the meta-problem <sup class="ref"><a href="https://stateofthefuture.substack.com/p/photonic-engines-for-data-centers" title="Photonic 'Engines' for Data Centers" rel="noopener">ref</a></sup>.
 
 The device layer is plural and unsettled. Resistive crossbars are the classical substrate and underpin the analog training and MIMO work. Single-poly floating-gate arrays can be built in a standard 65 nm CMOS flow. Charge-based devices avoid resistive read current entirely: the memcapacitor was proposed on exactly that basis **Demasius 2021 Memcapacitor Nature Electronics**, and HfO2/ZrO2 ferroelectric capacitors have been integrated in the BEOL of CMOS with multilevel switching below 5 V, endurance above 10^11 cycles and 10-year retention.
 

@@ -37,6 +37,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-30-global-electronics-association-and-fraunhofer-partner-on-eu-
+  title: Global Electronics Association and Fraunhofer Partner on EU Chips Act Pilot Line - Electronics For You BUSINESS
+  date: '2026-09-30'
+  kind: web
 - slug: 2026-09-24-the-hack-ministers-discuss-chips-act-2---euractivcom
   title: 'THE HACK: Ministers discuss Chips Act 2 - euractiv.com'
   date: '2026-09-24'
@@ -64,10 +68,6 @@ recent_mentions:
 - slug: 2026-08-27-gao-warns-chips-rd-stall-could-cost-us-chip-leadership---iee
   title: GAO Warns CHIPS R&D Stall Could Cost U.S. Chip Leadership - IEEE Spectrum
   date: '2026-08-27'
-  kind: web
-- slug: 2026-08-18-chips-act-funds-40-fab-projects-faces-2026-deadline---legis1
-  title: CHIPS Act Funds 40 Fab Projects, Faces 2026 Deadline - Legis1
-  date: '2026-08-18'
   kind: web
 neighbors: []
 ---

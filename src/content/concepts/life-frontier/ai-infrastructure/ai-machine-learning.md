@@ -33,8 +33,20 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-30-the-state-of-chinese-physical-ai
+  title: The State of Chinese Physical AI
+  date: '2026-09-30'
+  kind: web
+- slug: 2026-09-29-one-more-note-on-agents-meta-connect-meta-enterprise-platfor
+  title: One More Note on Agents, Meta Connect, Meta Enterprise Platform
+  date: '2026-09-29'
+  kind: web
 - slug: 2026-09-29-ainews-amd-buys-world-labs-for-82b-as-atlas-solves-sparse-re
   title: '[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more'
+  date: '2026-09-29'
+  kind: web
+- slug: 2026-09-29-how-to-measure-grid-utilization---latitude-media
+  title: How to measure grid utilization - Latitude Media
   date: '2026-09-29'
   kind: web
 - slug: 2026-09-28-apps-agents-and-aggregation
@@ -52,18 +64,6 @@ recent_mentions:
 - slug: 2026-09-15-inside-openais-agentic-software-factory
   title: Inside OpenAI’s agentic software factory
   date: '2026-09-15'
-  kind: web
-- slug: 2026-09-09-openai-does-math-reward-hacking-meta-launches-personal-agent
-  title: OpenAI Does Math, Reward-Hacking, Meta Launches Personal Agent
-  date: '2026-09-09'
-  kind: web
-- slug: 2026-09-07-the-frontier-aeo-tracker-what-astra-chooses-and-every-other-
-  title: 'The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)'
-  date: '2026-09-07'
-  kind: web
-- slug: 2026-09-03-the-pulse-tech-companies-move-to-open-ai-models
-  title: 'The Pulse: tech companies move to open AI models'
-  date: '2026-09-03'
   kind: web
 neighbors: []
 ---

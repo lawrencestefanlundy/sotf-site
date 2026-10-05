@@ -17,8 +17,6 @@ sources:
 - '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
 - '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
 - '[[2026-05-29-nasas-roman-space-telescope-primary-mirror-gets-last-look]]'
-- '[[2026-07-26-unitree-ipo-shipment-and-segment-data]]'
-- '[[2026-07-09-munichs-quantumdiamonds-raises-91-million-to-scale-its-quant]]'
 scorecard:
   viability: 3
   drivers: 3
@@ -28,8 +26,8 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 118
-sources_7d: 0
+mention_count: 122
+sources_7d: 3
 sources_30d: 19
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026

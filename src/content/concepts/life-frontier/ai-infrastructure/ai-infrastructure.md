@@ -71,7 +71,7 @@ descendants:
 - prefill-vs-decode
 - sovereign-ai
 sources_7d: 0
-sources_30d: 9
+sources_30d: 5
 recent_mentions:
 - slug: 2026-09-01-eu-taiwan-chip-dialogue-targets-ai-infrastructure-partnershi
   title: EU-Taiwan chip dialogue targets AI infrastructure partnerships under EU Chips Act 2.0 - INSIGHT EU MONITORING

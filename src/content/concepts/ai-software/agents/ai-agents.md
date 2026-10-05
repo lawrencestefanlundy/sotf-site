@@ -17,10 +17,6 @@ sources:
 - '[[2025-05-15-young-people-cant-get-jobs-now-what]]'
 - '[[2026-02-13-four-things-friday]]'
 - '[[2026-02-20-four-things-friday-575]]'
-- '[[2026-05-06-data-value-migrates-to-retrieval-layer-google-cloud-next]]'
-- '[[2026-08-05-stealthium-gpu-powered-security-intelligence-site-docs-compe]]'
-- '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
-- '[[2026-08-24-embedd-pre-seed-siliconangle]]'
 scorecard:
   viability: 3
   drivers: 4
@@ -30,7 +26,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 124
+mention_count: 131
 descendants:
 - agent-identity-kya
 - agentic-ai
@@ -40,8 +36,8 @@ descendants:
 - stablecoin-clearing
 - stablecoins
 - x402
-sources_7d: 0
-sources_30d: 30
+sources_7d: 7
+sources_30d: 33
 recent_mentions:
 - slug: 2026-08-24-embedd-pre-seed-siliconangle
   title: Chip software automation startup Embedd raises $2.7M

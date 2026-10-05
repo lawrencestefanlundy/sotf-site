@@ -49,9 +49,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 1014
-sources_7d: 1
-sources_30d: 17
+mention_count: 1022
+sources_7d: 4
+sources_30d: 15
 recent_mentions:
 - slug: 2026-08-26-we-have-foundation-models-for-language-not-for-physics-anima
   title: 🔬“We have foundation models for language, not for physics” — Anima Anandkumar, Bren Professor of Computing

@@ -44,7 +44,7 @@ descendants:
 - processing-in-memory
 - sram-cim
 sources_7d: 2
-sources_30d: 10
+sources_30d: 7
 recent_mentions:
 - slug: 2026-08-12-snapdragon-ar1-sensing-hub-micro-npu
   title: Snapdragon AR1 Gen 1 Platform Product Brief — Sensing Hub with Micro NPU for audio and sensors
@@ -103,10 +103,6 @@ neighbors:
 **In-memory computing performs arithmetic inside the memory array itself, using the physics of resistive, ferroelectric, magnetic or photonic memory cells to do matrix-vector multiplication where the data already sits, and it is now producing fabricated chips in narrow edge roles while its large datacentre efficiency claims remain simulation-bound.**
 
 ## Summary
-
-Conventional processors spend most of their energy moving data between memory and arithmetic units, not on the arithmetic. In-memory computing (IMC, also called compute-in-memory or processing-using-memory) removes that movement by encoding numbers as the conductance, capacitance or optical transmission of memory cells arranged in a crossbar, then reading out a whole matrix-vector multiplication (MVM) in one analog step. A related, more conservative family is processing-in-memory (PIM), which places modest digital compute units next to memory banks to exploit internal bandwidth rather than computing with device physics directly. Both target the same class of problem: workloads that are memory-bound rather than arithmetic-bound, such as neural network inference, graph traversal and approximate nearest neighbour search.
-
-The device layer is unusually fragmented. Filamentary memristors (Ag/Cu in amorphous silicon) are the classic crossbar element; phase-change memory with superlattice materials is used where multi-level, low-voltage programming matters; magnetic tunnel junction MRAM and antiferromagnetic tunnel junctions offer non-volatility, endurance and picosecond switching; ferroelectric HfO2/ZrO2 capacitors give non-destructive readout; standard-CMOS floating-gate arrays give a cheap route with no exotic materials; and silicon photonic arrays trade device density for bandwidth.
 
 The consequence is that IMC is currently strongest where the workload is small, fixed, tolerant of noise and starved of power: an implanted 32-channel brain-machine interface SoC in 65 nm CMOS uses an IMC spike detector and runs at 3.53 uW per channel with 0.034 mm2 per channel. The large claims, LLM inference acceleration and Monte Carlo tree search at tens of milliwatts, sit at the architecture-simulation level with fabricated device parameters as inputs.
 

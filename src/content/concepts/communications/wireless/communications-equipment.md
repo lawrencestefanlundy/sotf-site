@@ -33,6 +33,14 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-02-dect-nr-private-5g-for-industrial-iot-networks---wiot-groupc
+  title: 'DECT NR+: Private 5G for Industrial IoT Networks - wiot-group.com'
+  date: '2026-10-02'
+  kind: web
+- slug: 2026-09-29-new-tech-tuesdays-industrial-wi-fi-7-for-factory-connectivit
+  title: 'New Tech Tuesdays: Industrial Wi-Fi 7 for Factory Connectivity - Electronic Design'
+  date: '2026-09-29'
+  kind: web
 - slug: 2026-09-17-esa-starts-next-phase-of-iris2-evolution-through-low-leo-act
   title: ESA starts next phase of IRIS² evolution through Low-LEO activities
   date: '2026-09-17'
@@ -45,6 +53,10 @@ recent_mentions:
   title: NASA Selects Blue Origin as Mars Telecommunications Network Provider
   date: '2026-09-01'
   kind: web
+- slug: 2026-08-31-channel-emulator-for-6-g-and-wi-fi-78---31-august-2026---con
+  title: Channel emulator for 6 G and Wi-Fi 7/8 - 31 August 2026 - Concilium Technologies - dataweek.co.za
+  date: '2026-08-31'
+  kind: web
 - slug: 2026-08-21-dect-nr-gateway-brings-deterministic-wireless-to-industrial-
   title: DECT NR+ gateway brings deterministic wireless to industrial automation - eeNews Europe
   date: '2026-08-21'
@@ -52,18 +64,6 @@ recent_mentions:
 - slug: 2026-08-19-wi-fi-7-breaks-into-the-mcu-field-next-gen-wireless-connecti
   title: 'Wi-Fi 7 Breaks into the MCU Field: Next-Gen Wireless Connectivity for Microcontroller Applications - 36 Kr'
   date: '2026-08-19'
-  kind: web
-- slug: 2026-08-18-wi-fi-7-accelerates-into-the-mcu-space-as-infineon-and-synap
-  title: Wi-Fi 7 Accelerates into the MCU Space as Infineon and Synaptics Move First - finance.biggo.com
-  date: '2026-08-18'
-  kind: web
-- slug: 2026-08-12-viavi-introduces-industrys-first-channel-emulator-for-6g-and
-  title: VIAVI Introduces Industry's First Channel Emulator for 6G and Wi-Fi 7/8 - barchart.com
-  date: '2026-08-12'
-  kind: web
-- slug: 2026-08-11-anybus-communicators-are-cra-ready---august-2026---industria
-  title: Anybus Communicators are CRA-ready - August 2026 - Industrial Data Xchange (IDX) - SA Instrumentation & Control
-  date: '2026-08-11'
   kind: web
 neighbors: []
 ---

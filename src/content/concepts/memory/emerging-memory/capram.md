@@ -50,41 +50,9 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Overrated
 scorecard_status: draft
-sources_7d: 2
+sources_7d: 1
 sources_30d: 9
-recent_mentions:
-- slug: 2026-08-07-the-memory-trade-isnt-over-weights
-  title: 'The Memory Trade Isn''t Over: Weights and KV Cache'
-  date: '2026-08-07'
-  kind: substack
-- slug: 2026-07-31-positron-research-sprint
-  title: 'Positron AI research sprint: architecture, funding, customers, manufacturing'
-  date: '2026-07-31'
-  kind: web
-- slug: 2026-07-17-the-once-and-future-kimi
-  title: The Once and Future Kimi
-  date: '2026-07-17'
-  kind: substack
-- slug: 2026-07-16-the-path-to-agi-runs-through-hbm
-  title: The Path To AGI Runs Through HBM
-  date: '2026-07-16'
-  kind: substack
-- slug: 2026-07-10-inference-silicon-deep-research
-  title: 'Deep research: measured vs claimed inference-silicon economics (adversarially verified, 23/25 claims confirmed)'
-  date: '2026-07-10'
-  kind: web
-- slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
-  title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
-  date: '2026-07-02'
-  kind: web
-- slug: 2026-06-16-cim-landscape-2026
-  title: 'Compute-in-memory landscape 2026: efficiency claims, the digital-readout shift, IDM PIM'
-  date: '2026-06-16'
-  kind: web
-- slug: 2025-09-23-the-compute-gradient
-  title: The Compute Gradient
-  date: '2025-09-23'
-  kind: substack
+recent_mentions: []
 neighbors:
 - slug: memcapacitor
   name: Memcapacitor
@@ -105,15 +73,11 @@ neighbors:
 ---
 ## Summary
 
-What has actually been measured is modest and should be stated first. The published demonstration is a crossbar of **156 memcapacitor devices at 50×50 µm² cell size**, with gate lengths around 60 µm, trained to distinguish the letters M, P and I from 5×5-pixel inputs. Measured reactive energy on that micron-scale device was **457 nJ per MAC** over 142 periods. Every femtojoule-per-MAC and TOPS/W number attached to this device class is a **SPICE simulation of a 90nm device**, with scaling projections running to roughly 45nm, and is therefore a seven-order-of-magnitude extrapolation from the measured hardware **Demasius 2021 Memcapacitor Nature Electronics**.
-
 Two distinct multipliers hide inside the headline. The published grid separates them cleanly: worst case (erased cells, zero input sparsity) gives **3,452.6 TOPS/W with 95% charge recovery and 198.5 TOPS/W without**; an MNIST one-layer perceptron gives **29,600 with recovery and 1,702 without**. The charge-recovery assumption alone is worth about **17.4x**, and the 95% figure is imported from the adiabatic-circuits literature rather than measured on this device **Demasius 2021 Memcapacitor Nature Electronics**. So the number you take seriously depends entirely on which assumptions you accept.
 
 The parameters that decide CapRAM are therefore: (1) does high-efficiency charge recovery survive in real circuits at real clock rates; (2) does a multi-level analog device hold enough effective precision at manufacturable yield, given that the 2026 direction of travel in CIM is toward analog-compute with **digital readout** specifically to manage noise and variability, which the KB flags as a headwind for any pure analog multi-level device including this one <sup class="ref"><a href="https://spectrum.ieee.org/analog-ai-chip-architecture" title="Compute-in-memory landscape 2026: efficiency claims, the digital-readout shift, IDM PIM" rel="noopener">ref</a></sup>; (3) whether the density story survives 3D stacking economics, where added layers stop reducing cost past a minimum **Walker 2013 Rigorous 3D Nand Flash Cost Analysis**; and (4) whether the incumbent baseline stands still, which it does not, with a defensible floor of **~2.5-3x per year decline in GPU delivered cost per token**.
 
 ## Viability (2/5)
-
-The physics is demonstrated and peer-reviewed: a 156-device memcapacitor crossbar at 50×50 µm² cells performed a real classification task, published in *Nature Electronics* on 11 October 2021 **Demasius 2021 Memcapacitor Nature Electronics**. That is a genuine device-level result and puts CapRAM above pure paper proposals. But the measured energy is **457 nJ per MAC** on micron-scale hardware, and the numbers that make the technology interesting commercially, the femtojoule MACs and the thousands of TOPS/W, are SPICE simulations of a 90nm device, a seven-order-of-magnitude extrapolation from what was built **Demasius 2021 Memcapacitor Nature Electronics**. No source here reports a scaled tape-out, a yield figure, retention data, or any third-party measurement of a CapRAM array.
 
 For calibration on what a near-term analog memory looks like: TetraMem has **taped out MLX200, a 22nm multi-level RRAM analog-CIM SoC**, with eval kits targeted for 2H 2026 <sup class="ref"><a href="https://spectrum.ieee.org/analog-ai-chip-architecture" title="Compute-in-memory landscape 2026: efficiency claims, the digital-readout shift, IDM PIM" rel="noopener">ref</a></sup>. On the evidence in these sources, CapRAM is several development stages behind that. Score 2 reflects early but real evidence against unresolved obstacles at every step between the published device and a manufacturable one.
 

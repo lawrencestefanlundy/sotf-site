@@ -28,7 +28,7 @@ frontier:
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 75
+mention_count: 79
 scorecard:
   viability: 2
   drivers: 4
@@ -40,8 +40,8 @@ scorecard:
 scorecard_status: draft
 descendants:
 - uncertainty-propagation-compute
-sources_7d: 0
-sources_30d: 11
+sources_7d: 4
+sources_30d: 14
 recent_mentions:
 - slug: 2025-04-30-has-the-time-come-to-take-mortal
   title: Has the time come to take Mortal Computing seriously?

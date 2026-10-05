@@ -55,7 +55,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 108
+mention_count: 109
 last_reorg_date: '2026-05-14'
 scorecard:
   viability: 4
@@ -119,8 +119,6 @@ At the low-power end the same specialisation logic produces very different chips
 
 For the digital branch the question of whether it works is settled by tape-outs. The AIA approximate-inference SoC exists in Intel 16 nm with a RISC-V host and a 16-core mesh plus a custom compiler chain; the hypoglycemia engine is fabricated in 65 nm with measured energy per inference; an optoelectronic Ising machine integrates coupling and nonlinearity into 3.1 mm2 of 65 nm CMOS running at 1 GHz with 4-bit weights, removing benchtop equipment from the loop. Memory-layout and traversal-order fixes are software-only and claimed to need no operating system or hardware changes.
 
-The analogue and photonic branch is demonstrably real but not yet competitive on fidelity. A time-space-wavelength multiplexed silicon photonic crossbar reaches 0.96 TOPS on chip with an average multiplication error of 3.9%, and its Iris classification accuracy falls from 93.3% to 83.3% as the data rate rises from 4x30 to 4x60 GBd. A programmable 2D waveguide with roughly 10^4 spatial degrees of freedom runs inference on vectors up to 49 dimensions in a single pass. Those are legitimate results at a scale several orders of magnitude below production model dimensions. The photonic memory fabric result, by contrast, is a simulation on a validated analytical model rather than a measured system.
-
 **TLDR: Digital accelerators are fabricated, measured silicon; photonic tensor cores are working but small and lossy in accuracy.**
 
 ## Drivers (4/5)
@@ -170,14 +168,6 @@ Against that, on-chip photonic and physics-based compute cores are further from 
 By the end of 2028, no AI accelerator shipping in commercial volume will use an on-chip photonic or analogue tensor core as its primary matrix engine, while at least one production system will use photonic switching or disaggregated memory in an otherwise digital accelerator package.
 
 ## Evidence base
-
-- 14 May 2026: on-chip time-space-wavelength multiplexed silicon photonic crossbar reaches 0.96 TOPS with 3.9% average error, Iris accuracy 93.3% at 4x10 to 4x30 GBd falling to 83.3% at 4x60 GBd 
-- Photonic Fabric Appliance combines HBM3E, an on-module photonic switch and DDR5 in a 2.5D electro-optical package for up to 32 TB shared memory and 115 Tbps all-to-all switching, simulated at up to 3.66x throughput and 1.40x latency improvement for LLM inference 
-- 15 Jun 2026: remote HBM traffic varies by up to 58x across the GEMM design space for the same dimensions, and a 2D block-swizzle traversal found by an agentic search cuts remote traffic up to 5.1x versus the best 1D traversal 
-- 15 Jun 2026: Chiplet-Contiguous Layout reduces remote HBM traffic by 13.0x on Qwen 3 30B and 20.7x on Llama 3.1 70B GEMMs versus 4 KB interleaving, with no operating system or hardware changes 
-- 16 Jun 2026: audit of the ASUS Ascent GX10 (GB10 SoC) finds no CPU energy counter, no power-rail monitor, no IPMI/BMC and no powercap interface, with GB10 desktop AI systems shipping in 2026 from NVIDIA, Dell, HP, ASUS, MSI, Acer and Gigabyte 
-- 16 Jun 2026: fabricated 65 nm probabilistic decision-tree engine achieves 11.3 nJ per inference and an F1 of 0.825 for 30-minute hypoglycemia forecasting, with a 4x24x24 node array and on-chip RISC-V core 
-- 15 Jun 2026: Tiara's memory-side NIC instruction set cuts 10-hop graph traversal latency by 2.85x at 3.4x higher throughput and reduces page-table walk latency by 62% on an FPGA prototype 
 
 ## Open questions
 

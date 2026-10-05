@@ -52,6 +52,14 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-01-key-meps-back-dropping-eus-20-chip-market-share-target---sci
+  title: Key MEPs back dropping EU’s 20% chip market share target - Science|Business
+  date: '2026-10-01'
+  kind: web
+- slug: 2026-09-30-global-electronics-association-and-fraunhofer-partner-on-eu-
+  title: Global Electronics Association and Fraunhofer Partner on EU Chips Act Pilot Line - Electronics For You BUSINESS
+  date: '2026-09-30'
+  kind: web
 - slug: 2026-09-25-rigetti-computing-rgti-secures-chips-act-support-is-the-upsi
   title: Rigetti Computing (RGTI) Secures CHIPS Act Support, Is The Upside Already Priced In? - simplywall.st
   date: '2026-09-25'
@@ -74,14 +82,6 @@ recent_mentions:
   kind: web
 - slug: 2026-09-24-eu-ministers-push-new-chips-strategy-to-reduce-europes-depen
   title: EU Ministers Push New Chips Strategy to Reduce Europe’s Dependence on Foreign Semiconductors - eutoday.net
-  date: '2026-09-24'
-  kind: web
-- slug: 2026-09-24-asml-system-sales-in-europe-remain-at-zero-as-eu-debates-chi
-  title: ASML system sales in Europe remain at zero as EU debates Chips Act 2.0 - digitimes
-  date: '2026-09-24'
-  kind: web
-- slug: 2026-09-24-minister-puisto-to-attend-competitiveness-council-debate-on-
-  title: Minister Puisto to attend Competitiveness Council debate on EU Chips Act and merger control - Valtioneuvosto
   date: '2026-09-24'
   kind: web
 neighbors:

@@ -69,14 +69,6 @@ neighbors:
 
 ## Distinguished from sibling architectures
 
-| Architecture | Compute primitive | Where it lives | Key trade-off |
-|---|---|---|---|
-| **D2NN (this page)** | Diffraction through phase masks | Free space | Massively parallel, but precision compounds; reconfigurability tied to SLM speed |
-| **MZI mesh ONN** (**Lightmatter**, **Lightelligence**) | Guided-wave Mach-Zehnder phase shifters | Silicon photonic IC | Foundry-fabable; but O(N²) phase shifters limits scale |
-| **Photonic tensor cores** | Wavelength-multiplexed multiply-accumulate | Silicon photonic IC | High throughput; precision still 4-6 bit |
-| **Photonic reservoir** | Fixed nonlinear dynamical system | Free-space or fibre | Good for time-series / ODEs; limited generality, no commercial breakout |
-| **Analog optical (Salience)** | PCM crossbar with optical readout | Hybrid PCM + photonic | Foundry-adjacent; precision-bound |
-
 ## Why this matters now (2026)
 
 ## Companies using

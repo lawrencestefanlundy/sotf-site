@@ -97,13 +97,6 @@ Four families sit under this umbrella. Each implements energy-minimisation (or d
 
 Adjacent substrate-classes (different physics, similar architectural inversion):
 
-| Family | Dynamics | KB concept |
-|---|---|---|
-| Memristive analog matmul | In-memory matrix multiplication via conductance crossbar | [Memristors](/compute/non-conventional/memristors/) |
-| Reversible / adiabatic | Computation without energy dissipation (Landauer limit) | [Reversible Computing](/compute/non-conventional/reversible-computing/) |
-| Photonic analog | Optical interference for matmul or Ising | (in [Analog Computing](/compute/non-conventional/analog-computing/)) |
-| Quantum annealing | Tunneling through energy barriers in superconducting qubits | (in `quantum-computing/` folder) |
-
 ## What unites them
 
 ## What distinguishes them from digital AI accelerators

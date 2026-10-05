@@ -12,7 +12,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - stub
-mention_count: 34
+mention_count: 35
 frontier:
 - Does the ~45% to ~80% charge-to-spin conversion gap in SOT-MTJ close via orbital-torque materials such as Ta/W, or does cache-level SOT-MRAM stall on write current delivery?
 - Is the DMI-driven 'ballooning' write error rate anomaly confirmed experimentally at 20 nm and below, and can it be engineered out without sacrificing thermal stability?
@@ -34,7 +34,7 @@ scorecard_status: draft
 parent_concepts:
 - emerging-memory
 - memory
-sources_7d: 0
+sources_7d: 1
 sources_30d: 5
 recent_mentions:
 - slug: 2024-08-30-optical-dram-integrated-magneto-photonic-non-volatile-multi

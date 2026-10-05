@@ -19,6 +19,14 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-02-dect-nr-private-5g-for-industrial-iot-networks---wiot-groupc
+  title: 'DECT NR+: Private 5G for Industrial IoT Networks - wiot-group.com'
+  date: '2026-10-02'
+  kind: web
+- slug: 2026-09-29-new-tech-tuesdays-industrial-wi-fi-7-for-factory-connectivit
+  title: 'New Tech Tuesdays: Industrial Wi-Fi 7 for Factory Connectivity - Electronic Design'
+  date: '2026-09-29'
+  kind: web
 - slug: 2026-08-25-embedd-pre-seed-inelectronics
   title: Embedd raises EUR 2.3m for semiconductor integration software
   date: '2026-08-25'
@@ -27,9 +35,21 @@ recent_mentions:
   title: Chip software automation startup Embedd raises $2.7M
   date: '2026-08-24'
   kind: web
+- slug: 2026-08-12-celona-takes-private-5g-into-the-industrial-wi-fi-fight-with
+  title: Celona takes private 5G into the industrial Wi-Fi fight – with AI in the middle - rcrwireless.com
+  date: '2026-08-12'
+  kind: web
+- slug: 2026-04-10-hms-networks-introduces-cost-efficient-can-fd-to-ethernet-ga
+  title: HMS Networks introduces cost-efficient CAN-FD-to-Ethernet-gateway for scalable industrial networking - Electronics360
+  date: '2026-04-10'
+  kind: web
 - slug: 2022-12-26-dect-forum-adds-nordic-semiconductor-and-wirepas-to-membersh
   title: DECT Forum Adds Nordic Semiconductor and Wirepas to Membership - eetasia.com
   date: '2022-12-26'
+  kind: web
+- slug: 2022-12-16-nordic-semiconductor-and-wirepas-join-dect-forum-as-full-mem
+  title: Nordic Semiconductor and Wirepas Join DECT Forum as Full Members - businesswire.com
+  date: '2022-12-16'
   kind: web
 neighbors: []
 ---

@@ -7,11 +7,16 @@ parent_concepts:
 - generation
 - energy-power
 related_concepts: []
-sources: []
-mention_count: 6
-sources_7d: 0
-sources_30d: 1
-recent_mentions: []
+sources:
+- '[[2026-09-30-a-data-center-company-signed-a-ppa-for-space-solar-power---l]]'
+mention_count: 7
+sources_7d: 1
+sources_30d: 2
+recent_mentions:
+- slug: 2026-09-30-a-data-center-company-signed-a-ppa-for-space-solar-power---l
+  title: A data center company signed a PPA for space solar power - Latitude Media
+  date: '2026-09-30'
+  kind: web
 neighbors: []
 ---
 hello-tomorrow-follow-up]]'

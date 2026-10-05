@@ -30,7 +30,7 @@ descendants:
 - sar-satellites
 - space-communications
 sources_7d: 0
-sources_30d: 5
+sources_30d: 4
 recent_mentions:
 - slug: 2026-09-03-space-compute-cheap-launch-rebuild
   title: Space compute rebuilt around the cheap-launch case — what survives the premise

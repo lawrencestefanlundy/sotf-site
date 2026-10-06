@@ -38,7 +38,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 768
+mention_count: 779
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -68,8 +68,8 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 2
-sources_30d: 17
+sources_7d: 3
+sources_30d: 18
 recent_mentions:
 - slug: 2026-09-23-arxiv-benchmarking-the-generalized-kadanoff-baym-ansatz-and-second
   title: 'Benchmarking the generalized Kadanoff-Baym ansatz and second-order adiabatic expansion using time-dependent spintronic effects: Spin pumping, torque, and inertia'

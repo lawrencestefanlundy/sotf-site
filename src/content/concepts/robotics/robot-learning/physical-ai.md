@@ -47,7 +47,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 110
+mention_count: 111
 descendants:
 - dexterous-manipulation
 - humanoid-robots

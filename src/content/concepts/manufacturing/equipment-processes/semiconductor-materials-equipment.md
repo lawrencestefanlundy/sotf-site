@@ -37,6 +37,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-05-630bn-us-semiconductor-megaprojects-in-rush-to-break-ground-
+  title: $630bn+ US Semiconductor Megaprojects in Rush to Break Ground before CHIPS Act Deadline - Construction Review
+  date: '2026-10-05'
+  kind: web
 - slug: 2026-09-30-global-electronics-association-and-fraunhofer-partner-on-eu-
   title: Global Electronics Association and Fraunhofer Partner on EU Chips Act Pilot Line - Electronics For You BUSINESS
   date: '2026-09-30'
@@ -64,10 +68,6 @@ recent_mentions:
 - slug: 2026-08-28-the-us-is-building-chips-act-fabs-but-neglecting-rd---aolcom
   title: The U.S. Is Building CHIPS Act Fabs but Neglecting R&D - AOL.com
   date: '2026-08-28'
-  kind: web
-- slug: 2026-08-27-gao-warns-chips-rd-stall-could-cost-us-chip-leadership---iee
-  title: GAO Warns CHIPS R&D Stall Could Cost U.S. Chip Leadership - IEEE Spectrum
-  date: '2026-08-27'
   kind: web
 neighbors: []
 ---

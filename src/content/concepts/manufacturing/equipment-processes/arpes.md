@@ -22,7 +22,7 @@ tags:
 - concept
 - semiconductors
 - condensed-matter
-mention_count: 47
+mention_count: 48
 scorecard:
   viability: 5
   drivers: 4
@@ -32,8 +32,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 6
+sources_7d: 1
+sources_30d: 7
 recent_mentions: []
 neighbors:
 - slug: stm

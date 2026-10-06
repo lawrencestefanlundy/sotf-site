@@ -15,9 +15,9 @@ last_updated: '2026-07-31'
 tags:
 - concept
 - redirect
-mention_count: 2
-sources_7d: 0
-sources_30d: 1
+mention_count: 3
+sources_7d: 1
+sources_30d: 2
 recent_mentions: []
 neighbors:
 - slug: chemical-vapor-deposition

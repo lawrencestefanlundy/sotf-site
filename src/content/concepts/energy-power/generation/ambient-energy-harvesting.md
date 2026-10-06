@@ -26,7 +26,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - stub
-mention_count: 33
+mention_count: 34
 scorecard:
   viability: 3
   drivers: 4
@@ -36,8 +36,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'

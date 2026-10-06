@@ -33,6 +33,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-05-wartsila-to-supply-282-mw-onsite-power-solution-for-a-us-dat
+  title: Wärtsilä to supply 282 MW onsite power solution for a U.S. data center as AI growth intensifies demand for reliable power - Latitude Media
+  date: '2026-10-05'
+  kind: web
 - slug: 2026-09-30-a-data-center-company-signed-a-ppa-for-space-solar-power---l
   title: A data center company signed a PPA for space solar power - Latitude Media
   date: '2026-09-30'
@@ -59,10 +63,6 @@ recent_mentions:
   kind: web
 - slug: 2026-09-23-load-growth-is-straining-already-worn-out-electrical-equipme
   title: Load growth is straining already worn-out electrical equipment - latitudemedia.com
-  date: '2026-09-23'
-  kind: web
-- slug: 2026-09-23-another-voltus-data-center-expansion-this-time-with-sunrun--
-  title: Another Voltus data center expansion — this time with Sunrun - Latitude Media
   date: '2026-09-23'
   kind: web
 neighbors: []

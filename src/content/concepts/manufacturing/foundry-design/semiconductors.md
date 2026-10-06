@@ -52,6 +52,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-05-630bn-us-semiconductor-megaprojects-in-rush-to-break-ground-
+  title: $630bn+ US Semiconductor Megaprojects in Rush to Break Ground before CHIPS Act Deadline - Construction Review
+  date: '2026-10-05'
+  kind: web
 - slug: 2026-10-01-key-meps-back-dropping-eus-20-chip-market-share-target---sci
   title: Key MEPs back dropping EU’s 20% chip market share target - Science|Business
   date: '2026-10-01'
@@ -78,10 +82,6 @@ recent_mentions:
   kind: web
 - slug: 2026-09-24-the-hack-ministers-discuss-chips-act-2---euractivcom
   title: 'THE HACK: Ministers discuss Chips Act 2 - euractiv.com'
-  date: '2026-09-24'
-  kind: web
-- slug: 2026-09-24-eu-ministers-push-new-chips-strategy-to-reduce-europes-depen
-  title: EU Ministers Push New Chips Strategy to Reduce Europe’s Dependence on Foreign Semiconductors - eutoday.net
   date: '2026-09-24'
   kind: web
 neighbors:

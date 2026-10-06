@@ -55,7 +55,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 109
+mention_count: 110
 last_reorg_date: '2026-05-14'
 scorecard:
   viability: 4
@@ -66,9 +66,13 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 4
+sources_7d: 1
+sources_30d: 5
 recent_mentions:
+- slug: 2026-10-05-wartsila-to-supply-282-mw-onsite-power-solution-for-a-us-dat
+  title: Wärtsilä to supply 282 MW onsite power solution for a U.S. data center as AI growth intensifies demand for reliable power - Latitude Media
+  date: '2026-10-05'
+  kind: web
 - slug: 2026-09-29-ainews-amd-buys-world-labs-for-82b-as-atlas-solves-sparse-re
   title: '[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more'
   date: '2026-09-29'
@@ -95,10 +99,6 @@ recent_mentions:
   kind: web
 - slug: 2026-09-07-interact-analysis-industrial-robot-shipments-2030
   title: Annual industrial robot shipments will reach more than 760k units in 2030 (Interact Analysis)
-  date: '2026-09-07'
-  kind: web
-- slug: 2026-09-07-qualcomm-dragonwing-robotics-ces-2026
-  title: 'CES 2026: Qualcomm targets NVIDIA Jetson with new robotics developer platform (A3 / automate.org)'
   date: '2026-09-07'
   kind: web
 neighbors: []

@@ -12,7 +12,7 @@ sources:
 - '[[2026-06-12-conversations-in-the-sky-galileos-intersatellite-links-teste]]'
 - '[[2026-06-03-nasa-says-farewell-to-maven-mars-mission-hosts-media-call-to]]'
 - '[[2026-05-07-nasas-prithvi-becomes-first-ai-geospatial-foundation-model-i]]'
-mention_count: 18
+mention_count: 19
 descendants:
 - atmospheric-sensing
 - direct-to-cell-leo

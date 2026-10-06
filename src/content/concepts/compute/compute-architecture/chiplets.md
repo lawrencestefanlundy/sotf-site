@@ -47,9 +47,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 129
-sources_7d: 0
-sources_30d: 5
+mention_count: 132
+sources_7d: 1
+sources_30d: 6
 recent_mentions:
 - slug: 2026-09-07-anysilicon-direct-rf-sampling-chiplets
   title: An introduction to direct RF sampling in a world evolving towards chiplets, part 1 (AnySilicon)

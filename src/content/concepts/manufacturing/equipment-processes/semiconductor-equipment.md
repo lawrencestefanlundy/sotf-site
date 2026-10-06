@@ -23,7 +23,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 80
+mention_count: 81
 descendants:
 - automated-test-equipment
 - ion-implantation
@@ -33,6 +33,10 @@ descendants:
 sources_7d: 0
 sources_30d: 4
 recent_mentions:
+- slug: 2026-10-05-630bn-us-semiconductor-megaprojects-in-rush-to-break-ground-
+  title: $630bn+ US Semiconductor Megaprojects in Rush to Break Ground before CHIPS Act Deadline - Construction Review
+  date: '2026-10-05'
+  kind: web
 - slug: 2026-10-04-mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richa
   title: Mapping the Gaps in NASA’s Return to the Moon, featuring Richard Spolzino
   date: '2026-10-04'
@@ -60,10 +64,6 @@ recent_mentions:
 - slug: 2026-09-24-minister-puisto-to-attend-competitiveness-council-debate-on-
   title: Minister Puisto to attend Competitiveness Council debate on EU Chips Act and merger control - Valtioneuvosto
   date: '2026-09-24'
-  kind: web
-- slug: 2026-09-23-quantinuum-secures-100m-chips-act-award-to-scale-domestic-qu
-  title: Quantinuum Secures $100M CHIPS Act Award to Scale Domestic Quantum Semiconductor Manufacturing - Bisinfotech
-  date: '2026-09-23'
   kind: web
 neighbors: []
 ---

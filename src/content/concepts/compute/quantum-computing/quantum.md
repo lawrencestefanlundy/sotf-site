@@ -58,6 +58,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-05-physicist-jun-ye-wins-wolf-prize-in-physics
+  title: Physicist Jun Ye Wins Wolf Prize in Physics
+  date: '2026-10-05'
+  kind: web
 - slug: 2026-09-25-rigetti-computing-rgti-secures-chips-act-support-is-the-upsi
   title: Rigetti Computing (RGTI) Secures CHIPS Act Support, Is The Upside Already Priced In? - simplywall.st
   date: '2026-09-25'
@@ -85,10 +89,6 @@ recent_mentions:
 - slug: 2026-09-16-qutech-spinout-qbird-rebrands-to-falqon-systems-to-commercia
   title: QuTech Spinout Q*Bird Rebrands to Falqon Systems to Commercialize Quantum Secure Networks - Quantum Computing Report
   date: '2026-09-16'
-  kind: web
-- slug: 2026-08-03-spad-single-photon-market-scan
-  title: SPAD / single-photon detector market scan — incumbent structure and company cohort
-  date: '2026-08-03'
   kind: web
 neighbors:
 - slug: quantum-computing

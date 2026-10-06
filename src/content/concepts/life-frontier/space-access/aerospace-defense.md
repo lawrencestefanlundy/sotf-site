@@ -23,6 +23,10 @@ mention_count: 80
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-05-esa-at-iac-2026-day-1
+  title: ESA at IAC 2026 – Day 1
+  date: '2026-10-05'
+  kind: web
 - slug: 2026-10-04-mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richa
   title: Mapping the Gaps in NASA’s Return to the Moon, featuring Richard Spolzino
   date: '2026-10-04'
@@ -49,10 +53,6 @@ recent_mentions:
   kind: web
 - slug: 2026-09-17-esa-starts-next-phase-of-iris2-evolution-through-low-leo-act
   title: ESA starts next phase of IRIS² evolution through Low-LEO activities
-  date: '2026-09-17'
-  kind: web
-- slug: 2026-09-17-nasa-awards-launch-services-for-starburst-gamma-ray-detector
-  title: NASA Awards Launch Services for StarBurst Gamma-Ray Detector
   date: '2026-09-17'
   kind: web
 neighbors: []

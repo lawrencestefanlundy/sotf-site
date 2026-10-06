@@ -25,7 +25,7 @@ tags:
 - concept
 descendants:
 - neural-operators
-mention_count: 13
+mention_count: 14
 sources_7d: 0
 sources_30d: 0
 recent_mentions:

@@ -13,14 +13,14 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 2
+mention_count: 3
 frontier:
 - What uncertainty is achieved on d_NV and on the NV azimuthal orientation using the stripe-and-disc calibration, and how does it compare with vector-magnet-based determination?
 - How reproducible are these parameters across nanostructures fabricated from the same single crystal diamond substrate, and how much of the spread is attributable to substrate quality versus fabrication?
 - Does the calibration remain valid as probes wear or are exchanged, and what re-calibration interval is required for traceable measurements?
 - Can the same method be transferred to polycrystalline or heteroepitaxial diamond hosts, or does it depend on the single crystal lattice fixing the NV symmetry axis?
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions: []
 neighbors: []
 ---

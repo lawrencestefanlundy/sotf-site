@@ -12,6 +12,7 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2008-07-04-dect-forum-invites-designs-for-cat-iq-design-competition---t]]'
+- '[[2022-12-16-nordic-semiconductor-and-wirepas-join-dect-forum-as-full-mem]]'
 - '[[2025-08-29-from-smart-cities-to-pro-audio-dect-nr-and-its-potential-for]]'
 - '[[2026-03-10-nr-plus-interop-demo-light-building]]'
 - '[[2024-02-21-how-dect-nr-revolutionizes-smart-building-connectivity---ee-]]'
@@ -36,6 +37,7 @@ sources:
 - '[[2025-10-23-merci-project-takes-dect-nr-from-vision-to-reality---sennhei]]'
 - '[[2026-03-24-dect-nr-a-wireless-solution-for-real-time-audio---audioxpres]]'
 - '[[2025-11-04-sennheiser-promotes-dect-nr-next-generation-wireless-technol]]'
+- '[[2026-10-02-dect-nr-private-5g-for-industrial-iot-networks---wiot-groupc]]'
 - '[[2025-12-15-coming-soon-to-pro-av-dect-nr---avnetwork]]'
 - '[[2023-06-22-single-ic-for-cellular-iot-and-dect-nr-includes-rf-front-end]]'
 - '[[2026-07-09-norik-systems-introduces-nrf9151-based-usb-dongle-for-dect-n]]'
@@ -48,10 +50,14 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 35
-sources_7d: 0
-sources_30d: 2
+mention_count: 37
+sources_7d: 1
+sources_30d: 3
 recent_mentions:
+- slug: 2026-10-02-dect-nr-private-5g-for-industrial-iot-networks---wiot-groupc
+  title: 'DECT NR+: Private 5G for Industrial IoT Networks - wiot-group.com'
+  date: '2026-10-02'
+  kind: web
 - slug: 2026-08-31-opener-open-sources-dect-nr-for-iot---opensourceforucom
   title: Opener Open-Sources DECT NR+ for IoT - opensourceforu.com
   date: '2026-08-31'
@@ -79,10 +85,6 @@ recent_mentions:
 - slug: 2026-05-07-stratum-9-launches-first-industrial-grade-dect-nr-gateway---
   title: STRATUM 9 Launches First Industrial-Grade DECT NR+ Gateway - openPR.com
   date: '2026-05-07'
-  kind: web
-- slug: 2026-04-01-non-cellular-5g-for-pro-av-dect-nr---avnetwork
-  title: 'Non-Cellular 5G for Pro AV: DECT NR+ - AVNetwork'
-  date: '2026-04-01'
   kind: web
 neighbors: []
 ---

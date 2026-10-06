@@ -16,9 +16,9 @@ last_updated: '2026-06-13'
 tags:
 - concept
 - redirect
-mention_count: 25
-sources_7d: 1
-sources_30d: 3
+mention_count: 27
+sources_7d: 3
+sources_30d: 5
 recent_mentions: []
 neighbors: []
 ---

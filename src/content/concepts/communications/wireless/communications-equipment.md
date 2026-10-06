@@ -33,6 +33,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-05-esa-at-iac-2026-day-1
+  title: ESA at IAC 2026 – Day 1
+  date: '2026-10-05'
+  kind: web
 - slug: 2026-10-02-dect-nr-private-5g-for-industrial-iot-networks---wiot-groupc
   title: 'DECT NR+: Private 5G for Industrial IoT Networks - wiot-group.com'
   date: '2026-10-02'
@@ -60,10 +64,6 @@ recent_mentions:
 - slug: 2026-08-21-dect-nr-gateway-brings-deterministic-wireless-to-industrial-
   title: DECT NR+ gateway brings deterministic wireless to industrial automation - eeNews Europe
   date: '2026-08-21'
-  kind: web
-- slug: 2026-08-19-wi-fi-7-breaks-into-the-mcu-field-next-gen-wireless-connecti
-  title: 'Wi-Fi 7 Breaks into the MCU Field: Next-Gen Wireless Connectivity for Microcontroller Applications - 36 Kr'
-  date: '2026-08-19'
   kind: web
 neighbors: []
 ---

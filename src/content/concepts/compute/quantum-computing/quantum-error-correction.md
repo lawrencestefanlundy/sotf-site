@@ -20,9 +20,9 @@ scorecard:
   timing_band: Unclear
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 260
-sources_7d: 2
-sources_30d: 18
+mention_count: 269
+sources_7d: 7
+sources_30d: 23
 recent_mentions:
 - slug: 2024-12-16-willow-and-the-race-to-quantum-advantage
   title: Willow and The Race to Quantum Advantage (Feat. Kris Kaczmarek)

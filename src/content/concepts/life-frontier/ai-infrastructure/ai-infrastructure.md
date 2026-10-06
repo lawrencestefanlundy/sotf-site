@@ -59,7 +59,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 129
+mention_count: 130
 descendants:
 - ai-grade-datacentre-real-estate
 - ai-infrastructure-scaling
@@ -70,8 +70,8 @@ descendants:
 - moe-all-to-all-collectives
 - prefill-vs-decode
 - sovereign-ai
-sources_7d: 0
-sources_30d: 5
+sources_7d: 1
+sources_30d: 6
 recent_mentions:
 - slug: 2026-09-01-eu-taiwan-chip-dialogue-targets-ai-infrastructure-partnershi
   title: EU-Taiwan chip dialogue targets AI infrastructure partnerships under EU Chips Act 2.0 - INSIGHT EU MONITORING

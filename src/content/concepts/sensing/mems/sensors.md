@@ -28,6 +28,10 @@ sources:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-05-physicist-jun-ye-wins-wolf-prize-in-physics
+  title: Physicist Jun Ye Wins Wolf Prize in Physics
+  date: '2026-10-05'
+  kind: web
 - slug: 2026-10-02-jammertest-pumps-up-the-jam-in-norway
   title: Jammertest pumps up the jam in Norway
   date: '2026-10-02'
@@ -55,10 +59,6 @@ recent_mentions:
 - slug: 2026-09-08-nasa-calls-for-proposals-to-accelerate-lunar-surface-technol
   title: NASA Calls for Proposals to Accelerate Lunar Surface Technologies
   date: '2026-09-08'
-  kind: web
-- slug: 2026-09-02-clusters-encore-for-reentry-science-a-success
-  title: Cluster’s encore for reentry science a success
-  date: '2026-09-02'
   kind: web
 neighbors: []
 ---

@@ -22,7 +22,7 @@ frontier:
 - How long is the lag between a vendor exposing a new primitive (TMA, WGMMA, warp specialisation, tcgen05-class MMA) and it being reachable from Triton-level source? 2026 07 22 sim fa a gpgpu simulator framework for fine grained asynchro 2026 08 13 spec sheets are not kernels an isa  and source level audit o
 - Do machine-generated kernels achieve materially better correctness or performance when targeting Triton rather than CUDA or PTX, given the low-corpus problem KForge identifies for unfamiliar hardware? 2026 06 22 llm kernel compiler synthesis evidence
 - Does any non-NVIDIA vendor treat Triton as a first-class target with performance parity on its own silicon, or does support remain a translation layer?
-- NVIDIA shipping a CUDA Tile-IR backend for Triton (Jan 2026) — co-opting the abstraction threat, or legitimising it? (Mirrors the open question on CUDA (the moat, and where it's eroding).)
+- NVIDIA shipping a CUDA Tile-IR backend for Triton (Jan 2026) — co-opting the abstraction threat, or legitimising it? (Mirrors the open question on Cuda Moat.)
 - Triton partially refutes 'single-source fails across hardware' WITHIN the GPU/SIMT family. Does anyone extend a kernel language past SIMT to non-GPU silicon, or is that the hard wall?
 last_updated: '2026-08-31'
 tags:
@@ -31,7 +31,7 @@ tags:
 - kernel-language
 - compute
 - reference
-mention_count: 14
+mention_count: 15
 scorecard:
   viability: 4
   drivers: 4
@@ -41,8 +41,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 1
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
 - slug: 2026-06-22-llm-kernel-compiler-synthesis-evidence
   title: LLM / agentic GPU-kernel and compiler synthesis — dated evidence arc 2025-2026
@@ -62,7 +62,7 @@ neighbors:
   path: /compute/compute-architecture/xla/
   macro: compute
 - slug: cuda-moat
-  name: CUDA (the moat, and where it's eroding)
+  name: Cuda Moat
   path: /ai-software/models-inference/cuda-moat/
   macro: ai-software
 ---

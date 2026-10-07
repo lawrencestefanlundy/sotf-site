@@ -25,11 +25,11 @@ sources:
 - '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 - '[[2026-07-10-the-next-vc-meme-is]]'
-mention_count: 268
+mention_count: 269
 descendants:
 - external-laser-source
 - laser-display-light-engines
-sources_7d: 2
+sources_7d: 3
 sources_30d: 7
 recent_mentions:
 - slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil

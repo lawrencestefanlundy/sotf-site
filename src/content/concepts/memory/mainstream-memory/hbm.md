@@ -55,9 +55,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 100
-sources_7d: 0
-sources_30d: 12
+mention_count: 101
+sources_7d: 1
+sources_30d: 11
 recent_mentions:
 - slug: 2026-07-31-etched-research-sprint
   title: Etched research sprint — tape-out speed, HBM supply, customer orders (4-lane web sweep)

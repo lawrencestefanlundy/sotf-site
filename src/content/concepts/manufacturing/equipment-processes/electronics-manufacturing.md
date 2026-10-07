@@ -12,7 +12,7 @@ sources:
 - '[[2021-12-28-uk-electronics-manufacturing-three-insights-to-shape-2022---]]'
 mention_count: 4
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-06-13-sovereign-electronics-manufacturing-reshoring-digest
   title: 'Western/European electronics manufacturing reshoring (PCB/PCBA): market + why-now digest'

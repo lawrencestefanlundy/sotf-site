@@ -13,14 +13,14 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 3
+mention_count: 4
 frontier:
 - Which organisations, if any, currently offer a third-party-accessible PDK for heterogeneous photonic integration, and on what commercial terms?
 - Does a captive-process model measurably slow or accelerate time-to-volume compared with an open-PDK model on the same foundry line?
 - Can a neutral EDA layer support device models across multiple heterogeneous integration flows, or are models tied to a single patented process?
 - What design-rule and model fidelity is required before third-party photonic designers achieve first-pass tape-out success on a heterogeneous flow?
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
 - slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape
   title: Neutral PDK / EDA layer for heterogeneous photonic integration — landscape check (Scintil essay correction research)

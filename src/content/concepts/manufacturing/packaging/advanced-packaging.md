@@ -35,14 +35,14 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 225
+mention_count: 227
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration
 - micro-transfer-printing
 - osat
-sources_7d: 2
-sources_30d: 11
+sources_7d: 3
+sources_30d: 12
 recent_mentions:
 - slug: 2026-10-04-mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richa
   title: Mapping the Gaps in NASA’s Return to the Moon, featuring Richard Spolzino

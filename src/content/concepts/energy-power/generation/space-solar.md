@@ -10,7 +10,7 @@ related_concepts: []
 sources:
 - '[[2026-09-30-a-data-center-company-signed-a-ppa-for-space-solar-power---l]]'
 mention_count: 7
-sources_7d: 1
+sources_7d: 0
 sources_30d: 2
 recent_mentions:
 - slug: 2026-09-30-a-data-center-company-signed-a-ppa-for-space-solar-power---l

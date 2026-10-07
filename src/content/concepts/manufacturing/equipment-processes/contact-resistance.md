@@ -31,7 +31,7 @@ tags:
 public_expressions:
 - INTC
 - TSM
-mention_count: 22
+mention_count: 23
 scorecard:
   viability: 2
   drivers: 4

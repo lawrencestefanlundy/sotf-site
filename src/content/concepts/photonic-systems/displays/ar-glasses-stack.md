@@ -36,7 +36,7 @@ sources:
 - '[[2026-07-10-the-next-vc-meme-is]]'
 - '[[2026-05-12-semianalysis-eda-rtl-to-silicon]]'
 - '[[2026-05-21-semianalysis-eda-market-primer]]'
-mention_count: 27
+mention_count: 28
 sources_7d: 0
 sources_30d: 2
 recent_mentions:

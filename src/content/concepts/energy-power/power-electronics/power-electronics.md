@@ -29,7 +29,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 70
+mention_count: 71
 descendants:
 - ai-power-delivery
 - aluminium-gallium-nitride

@@ -18,9 +18,9 @@ sources:
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2026-06-15-gf-investor-day-2026]]'
-mention_count: 22
-sources_7d: 0
-sources_30d: 0
+mention_count: 23
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
 - slug: 2026-06-15-gf-investor-day-2026
   title: GlobalFoundries Investor Day 2026 (presentation)

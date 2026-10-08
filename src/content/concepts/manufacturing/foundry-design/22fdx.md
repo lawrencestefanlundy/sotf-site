@@ -18,14 +18,14 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 28
+mention_count: 29
 frontier:
 - Does any named third-party customer ship a 22FDX FeFET or 22FDX FeRAM product in volume by end-2027, as the Yole 2024 trajectory implies 2024 yole emerging memories 2024, or does the mid-2026 "no design wins" finding hold 2025 26 lapedus next gen ferroelectric memory?
 - What are the published endurance and retention specifications of the GF/Fraunhofer 22FDX 1T1C FeRAM, and how do they compare with the roughly 10^12 cycles reported for TSMC and Samsung FeFET demonstrators?
 - Has GF ReRAM on 22FDX been qualified for production, with disclosed macro sizes and retention specs, and has the announced roll-out to FinFET and BCD platforms produced a released PDK?
 - What share of 22FDX wafer revenue is attributable to eNVM-bearing designs, and does GF disclose it against the 2028 targets in the Investor Day 2026 deck 2026 06 15 gf investor day 2026?
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
 - slug: 2025-26-lapedus-next-gen-ferroelectric-memory
   title: Next-Gen Ferroelectric Memory Still A Work In Progress

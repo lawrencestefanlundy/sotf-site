@@ -31,7 +31,7 @@ tags:
 public_expressions:
 - INTC
 - TSM
-mention_count: 23
+mention_count: 24
 scorecard:
   viability: 2
   drivers: 4
@@ -41,8 +41,8 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
 - slug: 2026-06-22-tim-approaches-full-sweep
   title: TIM approaches — exhaustive in-market + R&D sweep (vendors, classes, startups)

@@ -49,10 +49,14 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 1030
-sources_7d: 4
-sources_30d: 16
+mention_count: 1043
+sources_7d: 5
+sources_30d: 17
 recent_mentions:
+- slug: 2026-10-07-neuro-catalyst-sweep
+  title: 'Catalyst sweep: AI decoding, new sensing modalities, non-invasive deep stimulation, payment pathways (neuro, Oct 2026)'
+  date: '2026-10-07'
+  kind: web
 - slug: 2026-08-26-we-have-foundation-models-for-language-not-for-physics-anima
   title: 🔬“We have foundation models for language, not for physics” — Anima Anandkumar, Bren Professor of Computing
   date: '2026-08-26'
@@ -80,10 +84,6 @@ recent_mentions:
 - slug: 2024-12-16-willow-and-the-race-to-quantum-advantage
   title: Willow and The Race to Quantum Advantage (Feat. Kris Kaczmarek)
   date: '2024-12-16'
-  kind: substack
-- slug: 2024-11-20-nuclear-fusion-the-state-of-play
-  title: 'Nuclear Fusion: A Primer'
-  date: '2024-11-20'
   kind: substack
 neighbors:
 - slug: physics-ai

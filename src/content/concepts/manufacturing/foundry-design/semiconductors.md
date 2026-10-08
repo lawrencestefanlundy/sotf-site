@@ -52,6 +52,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-06-x-fab-breaks-ground-on-chips-act-funded-cleanroom-in-erfurt-
+  title: X-FAB breaks ground on Chips Act-funded cleanroom in Erfurt - Evertiq
+  date: '2026-10-06'
+  kind: web
 - slug: 2026-10-05-630bn-us-semiconductor-megaprojects-in-rush-to-break-ground-
   title: $630bn+ US Semiconductor Megaprojects in Rush to Break Ground before CHIPS Act Deadline - Construction Review
   date: '2026-10-05'
@@ -64,6 +68,10 @@ recent_mentions:
   title: Global Electronics Association and Fraunhofer Partner on EU Chips Act Pilot Line - Electronics For You BUSINESS
   date: '2026-09-30'
   kind: web
+- slug: 2026-09-25-chips-act-20-france-pushes-buy-european---tablebriefings
+  title: 'Chips Act 2.0: France pushes ‘Buy European’ - Table.Briefings'
+  date: '2026-09-25'
+  kind: web
 - slug: 2026-09-25-rigetti-computing-rgti-secures-chips-act-support-is-the-upsi
   title: Rigetti Computing (RGTI) Secures CHIPS Act Support, Is The Upside Already Priced In? - simplywall.st
   date: '2026-09-25'
@@ -75,14 +83,6 @@ recent_mentions:
 - slug: 2026-09-25-what-chinas-clean-power-advantage-means-for-the-ai-race---la
   title: What China’s clean power advantage means for the AI race - latitudemedia.com
   date: '2026-09-25'
-  kind: web
-- slug: 2026-09-24-d-wave-quantum-nyse-qbts-secures-100m-in-chips-act-funding-w
-  title: 'D-Wave Quantum (NYSE: QBTS) Secures $100M In CHIPS Act Funding While Landing AT&T And NTT DOCOMO Deals - foreignpolicyjournal.com'
-  date: '2026-09-24'
-  kind: web
-- slug: 2026-09-24-the-hack-ministers-discuss-chips-act-2---euractivcom
-  title: 'THE HACK: Ministers discuss Chips Act 2 - euractiv.com'
-  date: '2026-09-24'
   kind: web
 neighbors:
 - slug: logic

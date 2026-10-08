@@ -44,6 +44,10 @@ descendants:
 sources_7d: 3
 sources_30d: 12
 recent_mentions:
+- slug: 2026-10-06-x-fab-breaks-ground-on-chips-act-funded-cleanroom-in-erfurt-
+  title: X-FAB breaks ground on Chips Act-funded cleanroom in Erfurt - Evertiq
+  date: '2026-10-06'
+  kind: web
 - slug: 2026-10-04-mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richa
   title: Mapping the Gaps in NASA’s Return to the Moon, featuring Richard Spolzino
   date: '2026-10-04'
@@ -71,10 +75,6 @@ recent_mentions:
 - slug: 2026-07-30-commerce-dept-signs-874-million-in-chips-act-incentives-with
   title: Commerce Dept. Signs $874 Million in CHIPS Act Incentives With Seven Companies - Yahoo Finance
   date: '2026-07-30'
-  kind: web
-- slug: 2026-07-25-thoughts-on-ai-and-power
-  title: Thoughts on AI and power
-  date: '2026-07-25'
   kind: web
 neighbors: []
 ---

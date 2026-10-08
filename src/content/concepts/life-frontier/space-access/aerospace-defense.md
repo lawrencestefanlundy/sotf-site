@@ -23,6 +23,18 @@ mention_count: 80
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-06-eic-step-defence-scale-up-call-ukraine-info-event---european
+  title: EIC STEP Defence Scale Up call – Ukraine Info Event - European Innovation Council
+  date: '2026-10-06'
+  kind: web
+- slug: 2026-10-06-lunar-grounding-challenge
+  title: Lunar Grounding Challenge
+  date: '2026-10-06'
+  kind: web
+- slug: 2026-10-06-esa-at-iac-2026-day-2
+  title: ESA at IAC 2026 – Day 2
+  date: '2026-10-06'
+  kind: web
 - slug: 2026-10-05-esa-at-iac-2026-day-1
   title: ESA at IAC 2026 – Day 1
   date: '2026-10-05'
@@ -39,21 +51,9 @@ recent_mentions:
   title: NASA ORBIT Challenge 2027
   date: '2026-09-28'
   kind: web
-- slug: 2026-09-24-record-participation-in-esas-industry-space-days-2026
-  title: Record participation in ESA’s Industry Space Days 2026
+- slug: 2026-09-24-andurils-vision-for-powering-maritime-defense---latitude-med
+  title: Anduril’s vision for powering maritime defense - Latitude Media
   date: '2026-09-24'
-  kind: web
-- slug: 2026-09-22-a-call-to-boost-european-space-exploration
-  title: A call to boost European space exploration
-  date: '2026-09-22'
-  kind: web
-- slug: 2026-09-21-esa-brings-public-and-private-capital-together-to-accelerate
-  title: ESA brings public and private capital together to accelerate Europe’s space economy
-  date: '2026-09-21'
-  kind: web
-- slug: 2026-09-17-esa-starts-next-phase-of-iris2-evolution-through-low-leo-act
-  title: ESA starts next phase of IRIS² evolution through Low-LEO activities
-  date: '2026-09-17'
   kind: web
 neighbors: []
 ---

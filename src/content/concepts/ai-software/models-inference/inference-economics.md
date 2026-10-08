@@ -40,11 +40,11 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 28
+mention_count: 30
 descendants:
 - token-cost-stack
-sources_7d: 0
-sources_30d: 2
+sources_7d: 2
+sources_30d: 3
 recent_mentions:
 - slug: 2026-08-14-chip-tail-verification-sweep
   title: 'Chip-comparison tail verification sweep: 37 companies re-verified, consolidation wave confirmed'

@@ -20,7 +20,7 @@ frontier:
 - How does D²NN classification accuracy degrade with fabrication error, layer misalignment and illumination bandwidth, and what tolerance budget do lithographic processes need to hit?
 - Do passive diffractive stacks retain their energy advantage once input encoding, detection and any electronic post-processing are included in end-to-end joules per inference?
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions: []
 neighbors: []
 ---

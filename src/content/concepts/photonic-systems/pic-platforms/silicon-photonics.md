@@ -34,11 +34,11 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 191
+mention_count: 192
 descendants:
 - avalanche-photodiode
 - optical-gyroscope
-sources_7d: 2
+sources_7d: 1
 sources_30d: 7
 recent_mentions:
 - slug: 2026-07-29-globalfoundries-wins-300-million-chips-act-silicon-photonics

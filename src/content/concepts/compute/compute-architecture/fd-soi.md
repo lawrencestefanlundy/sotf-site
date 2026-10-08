@@ -38,7 +38,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-sources_7d: 1
+sources_7d: 0
 sources_30d: 6
 recent_mentions:
 - slug: 2026-08-03-spad-single-photon-market-scan
@@ -97,8 +97,6 @@ This is not a question of whether it works. Samsung has mass-produced eMRAM on 2
 
 Supply: FD-SOI is the core of a deliberate "feature-rich, not node-leading" specialty-foundry position at GlobalFoundries, organised in its 2026 investor material around Physical AI and IoT edge devices <sup class="ref"><a href="https://investors.gf.com/static-files/d85029e8-6913-4ea1-919c-b8c4361f00b7" title="GlobalFoundries Investor Day 2026 (presentation)" rel="noopener">ref</a></sup>. Public money reinforces it: ST/GlobalFoundries Crolles is listed as an FD-SOI specialty project aligned with the European Chips Act, which mobilised ~€43B public and private against a 20%-of-global-production target for 2030 **2024 Eu Chips Act Final Text**, and GF's quantum business carries a $375M Department of Commerce letter of intent with a ~1% equity stake <sup class="ref"><a href="https://gf.com/gf-press-release/globalfoundries-launches-quantum-technology-solutions-to-scale-us-quantum-manufacturing/" title="GlobalFoundries launches Quantum Technology Solutions to scale U.S. quantum manufacturing" rel="noopener">ref</a></sup>.
 
-Demand: three distinct pulls are documented. Embedded non-volatile memory, where 28/22nm is the last node for embedded flash and eNVM (MRAM/ReRAM/FeRAM) is the stated migration path, with FDX carrying both eMRAM and ReRAM <sup class="ref"><a href="https://investors.gf.com/static-files/d85029e8-6913-4ea1-919c-b8c4361f00b7" title="GlobalFoundries Investor Day 2026 (presentation)" rel="noopener">ref</a></sup>. Always-on edge devices where leakage in the always-on domain, not active energy, is the bottleneck. And cryogenic control and readout for quantum systems, where GF names Diraq, Equal1, Google Quantum AI, Microsoft, NVIDIA, PsiQuantum and Quantinuum as partners or customers <sup class="ref"><a href="https://gf.com/gf-press-release/globalfoundries-launches-quantum-technology-solutions-to-scale-us-quantum-manufacturing/" title="GlobalFoundries launches Quantum Technology Solutions to scale U.S. quantum manufacturing" rel="noopener">ref</a></sup>.
-
 **TLDR: Foundry strategy and state subsidy on the supply side; edge AI, embedded NVM and quantum control on the demand side.**
 
 ## Novelty (2/5)
@@ -140,8 +138,6 @@ FD-SOI reads as boring specialty silicon and is usually discussed as a node-race
 The caveat is that this is a judgement about strategic position, not about measured superiority. No supplied source quantifies FD-SOI against bulk 28nm or a FinFET node on power, area or RF performance, and none shows a node below 22nm. If the differentiators turn out to be replicable on non-SOI specialty processes, notably GF's own FinFET and BCD eNVM lines <sup class="ref"><a href="https://investors.gf.com/static-files/d85029e8-6913-4ea1-919c-b8c4361f00b7" title="GlobalFoundries Investor Day 2026 (presentation)" rel="noopener">ref</a></sup>, the platform argument weakens to a wafer-cost argument. Anyone underwriting FD-SOI should be underwriting the sockets (eNVM, always-on, cryo control), not the substrate.
 
 ## Prediction
-
-By 31 December 2028, at least one of GlobalFoundries' named quantum partners (Diraq, Equal1, Google Quantum AI, Microsoft, PsiQuantum, Quantinuum) will publicly disclose a cryogenic control or readout chip fabricated on GF's FDX FD-SOI platform.
 
 ## Evidence base
 

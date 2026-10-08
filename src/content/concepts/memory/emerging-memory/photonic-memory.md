@@ -32,7 +32,7 @@ scorecard:
 scorecard_status: draft
 mention_count: 92
 sources_7d: 2
-sources_30d: 5
+sources_30d: 4
 recent_mentions:
 - slug: 2026-06-01-hbm-state-of-play
   title: HBM state of play (mid-2026) — technology, supercycle, three-supplier standing

@@ -42,9 +42,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 27
-sources_7d: 0
-sources_30d: 2
+mention_count: 29
+sources_7d: 1
+sources_30d: 3
 recent_mentions:
 - slug: 2026-09-01-chinas-rare-earths-duopoly
   title: China's Rare Earths Duopoly

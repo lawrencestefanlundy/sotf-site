@@ -31,10 +31,14 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 394
-sources_7d: 1
-sources_30d: 11
+mention_count: 399
+sources_7d: 2
+sources_30d: 12
 recent_mentions:
+- slug: 2026-10-07-neuro-catalyst-sweep
+  title: 'Catalyst sweep: AI decoding, new sensing modalities, non-invasive deep stimulation, payment pathways (neuro, Oct 2026)'
+  date: '2026-10-07'
+  kind: web
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
@@ -61,10 +65,6 @@ recent_mentions:
   kind: web
 - slug: 2026-06-22-thermal-stack-layer-landscape
   title: AI datacentre thermal stack, junction-to-ambient — per-layer players, M&A, capture (web research synthesis)
-  date: '2026-06-22'
-  kind: web
-- slug: 2026-06-22-thermal-stack-arms-race-ai-computing-power-fuels-diamond
-  title: AI Computing Power Fuels 'Diamond Cooling' Multi-Billion-Dollar Race
   date: '2026-06-22'
   kind: web
 neighbors:

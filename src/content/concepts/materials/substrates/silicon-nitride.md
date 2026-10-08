@@ -18,7 +18,6 @@ sources:
 - '[[2026-04-14-the-photonic-foundry-fallacy]]'
 - '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
-- '[[2026-05-24-mose2-exciton-polariton-all-optical-switch]]'
 scorecard:
   viability: 4
   drivers: 4
@@ -28,9 +27,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 123
-sources_7d: 3
-sources_30d: 16
+mention_count: 124
+sources_7d: 4
+sources_30d: 17
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)

@@ -28,6 +28,10 @@ sources:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-06-lunar-grounding-challenge
+  title: Lunar Grounding Challenge
+  date: '2026-10-06'
+  kind: web
 - slug: 2026-10-05-physicist-jun-ye-wins-wolf-prize-in-physics
   title: Physicist Jun Ye Wins Wolf Prize in Physics
   date: '2026-10-05'
@@ -55,10 +59,6 @@ recent_mentions:
 - slug: 2026-09-10-nist-developed-quantum-sensors-improve-nuclear-monitoring
   title: NIST-Developed Quantum Sensors Improve Nuclear Monitoring
   date: '2026-09-10'
-  kind: web
-- slug: 2026-09-08-nasa-calls-for-proposals-to-accelerate-lunar-surface-technol
-  title: NASA Calls for Proposals to Accelerate Lunar Surface Technologies
-  date: '2026-09-08'
   kind: web
 neighbors: []
 ---

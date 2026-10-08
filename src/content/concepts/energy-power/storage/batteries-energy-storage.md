@@ -52,6 +52,10 @@ recent_mentions:
   title: 'Successful funding round for Empa-ETH spin-off: $ 5.7 million to industrialize ultra-thin solid-state batteries - admin.ch'
   date: '2025-11-06'
   kind: web
+- slug: 2024-02-07-battery-materials---delft-deeptech-carbonx-secures-10m-for-s
+  title: Battery Materials - Delft deeptech CarbonX secures €10M for sustainable alternative to graphite - TFN - Batteries News
+  date: '2024-02-07'
+  kind: web
 neighbors: []
 ---
 ## Summary

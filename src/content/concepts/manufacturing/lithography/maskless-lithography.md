@@ -31,9 +31,9 @@ sources:
 - '[[2023-07-27-e10-pushing-moores-law-to-the-limit]]'
 - '[[2026-07-07-the-asml-killer]]'
 - '[[2025-01-06-radiant-acquires-nilt]]'
-mention_count: 33
-sources_7d: 1
-sources_30d: 1
+mention_count: 34
+sources_7d: 2
+sources_30d: 2
 recent_mentions:
 - slug: 2026-07-07-the-asml-killer
   title: The ASML Killer?

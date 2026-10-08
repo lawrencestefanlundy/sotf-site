@@ -28,7 +28,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 81
+mention_count: 83
 last_reorg_date: '2026-05-14'
 descendants:
 - spiking-neural-networks
@@ -41,8 +41,8 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Overrated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 8
+sources_7d: 2
+sources_30d: 10
 recent_mentions:
 - slug: 2026-09-15-arxiv-a-unified-interconnection-network-for-chiplet-based-scaling-
   title: A Unified Interconnection Network for Chiplet-Based Scaling of the BrainScaleS Neuromorphic System

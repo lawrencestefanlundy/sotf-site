@@ -20,7 +20,7 @@ auto_stub: false
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 58
+mention_count: 59
 scorecard:
   viability: 4
   drivers: 4
@@ -35,8 +35,8 @@ frontier:
 - Can room-temperature SWIR photon counting in GeSi reach the PDE, dark count and afterpulsing figures already achieved in silicon at 785 nm, and at what yield in a standard CMOS flow?
 - Does dead-time mitigation, whether by automatic attenuation control or statistical correction, hold up in real high-background field conditions such as daylight LiDAR, rather than in the analytical and numerical models presented?
 - Will simulated datasets and diffusion-model priors close the training-data gap well enough that models trained synthetically transfer to real SPAD data across sensors and light levels, or does each sensor need its own captured corpus?
-sources_7d: 2
-sources_30d: 5
+sources_7d: 3
+sources_30d: 6
 recent_mentions:
 - slug: 2026-08-03-spad-single-photon-market-scan
   title: SPAD / single-photon detector market scan — incumbent structure and company cohort

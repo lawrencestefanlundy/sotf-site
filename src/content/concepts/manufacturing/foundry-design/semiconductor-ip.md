@@ -13,9 +13,9 @@ last_updated: 2026-07-08
 tags:
 - concept
 - auto-stub
-mention_count: 13
-sources_7d: 1
-sources_30d: 1
+mention_count: 14
+sources_7d: 2
+sources_30d: 2
 recent_mentions: []
 neighbors: []
 ---

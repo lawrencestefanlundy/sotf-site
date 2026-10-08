@@ -30,7 +30,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 135
+mention_count: 136
 sources_7d: 3
 sources_30d: 10
 recent_mentions:

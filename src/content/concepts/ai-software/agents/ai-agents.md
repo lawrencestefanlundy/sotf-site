@@ -26,7 +26,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 137
+mention_count: 142
 descendants:
 - agent-identity-kya
 - agentic-ai
@@ -36,7 +36,7 @@ descendants:
 - stablecoin-clearing
 - stablecoins
 - x402
-sources_7d: 9
+sources_7d: 11
 sources_30d: 34
 recent_mentions:
 - slug: 2026-08-24-embedd-pre-seed-siliconangle

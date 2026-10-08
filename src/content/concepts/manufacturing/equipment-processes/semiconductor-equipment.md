@@ -31,8 +31,12 @@ descendants:
 - probe-cards
 - wafer-level-burn-in
 sources_7d: 0
-sources_30d: 4
+sources_30d: 3
 recent_mentions:
+- slug: 2026-10-06-x-fab-breaks-ground-on-chips-act-funded-cleanroom-in-erfurt-
+  title: X-FAB breaks ground on Chips Act-funded cleanroom in Erfurt - Evertiq
+  date: '2026-10-06'
+  kind: web
 - slug: 2026-10-05-630bn-us-semiconductor-megaprojects-in-rush-to-break-ground-
   title: $630bn+ US Semiconductor Megaprojects in Rush to Break Ground before CHIPS Act Deadline - Construction Review
   date: '2026-10-05'
@@ -45,6 +49,10 @@ recent_mentions:
   title: Global Electronics Association and Fraunhofer Partner on EU Chips Act Pilot Line - Electronics For You BUSINESS
   date: '2026-09-30'
   kind: web
+- slug: 2026-09-25-chips-act-20-france-pushes-buy-european---tablebriefings
+  title: 'Chips Act 2.0: France pushes ‘Buy European’ - Table.Briefings'
+  date: '2026-09-25'
+  kind: web
 - slug: 2026-09-24-the-hack-ministers-discuss-chips-act-2---euractivcom
   title: 'THE HACK: Ministers discuss Chips Act 2 - euractiv.com'
   date: '2026-09-24'
@@ -55,14 +63,6 @@ recent_mentions:
   kind: web
 - slug: 2026-09-24-asml-system-sales-in-europe-remain-at-zero-as-eu-debates-chi
   title: ASML system sales in Europe remain at zero as EU debates Chips Act 2.0 - digitimes
-  date: '2026-09-24'
-  kind: web
-- slug: 2026-09-24-foundries-vs-navigators-lowering-the-cost-of-science
-  title: 'Foundries vs Navigators: Lowering the Cost of Science'
-  date: '2026-09-24'
-  kind: web
-- slug: 2026-09-24-minister-puisto-to-attend-competitiveness-council-debate-on-
-  title: Minister Puisto to attend Competitiveness Council debate on EU Chips Act and merger control - Valtioneuvosto
   date: '2026-09-24'
   kind: web
 neighbors: []

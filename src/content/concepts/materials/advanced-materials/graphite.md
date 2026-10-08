@@ -10,13 +10,14 @@ related_concepts: []
 sources:
 - '[[2025-07-01-a-primer-carbon-nanotubes]]'
 - '[[2025-12-08-department-of-energy-backs-solidions-push-to-develop-us-made]]'
+- '[[2024-02-07-battery-materials---delft-deeptech-carbonx-secures-10m-for-s]]'
 - '[[2026-06-22-tim-approaches-full-sweep]]'
 auto_stub: true
 last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 43
+mention_count: 44
 frontier:
 - Can rhombohedral stacking be grown or induced directly at wafer scale, rather than exfoliated and sorted, and at what defect density relative to the >200 micrometre mean free path already demonstrated?
 - Does room-temperature, sodium-catalysed CaC6 formation survive electrochemical cycling in a working Ca-ion cell, and can the square-root-of-time kinetics be accelerated to useful rates?
@@ -48,6 +49,10 @@ recent_mentions:
   title: 'A Primer: Carbon Nanotubes'
   date: '2025-07-01'
   kind: substack
+- slug: 2024-02-07-battery-materials---delft-deeptech-carbonx-secures-10m-for-s
+  title: Battery Materials - Delft deeptech CarbonX secures €10M for sustainable alternative to graphite - TFN - Batteries News
+  date: '2024-02-07'
+  kind: web
 neighbors: []
 ---
 **Graphite is the layered crystalline form of carbon that already anchors lithium-ion anodes and laboratory surface science, and the current research frontier is not the material itself but control of its stacking order, intercalation chemistry and interfaces.**

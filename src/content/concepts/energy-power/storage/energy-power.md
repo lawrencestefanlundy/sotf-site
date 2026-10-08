@@ -151,8 +151,8 @@ recent_mentions:
   title: What China’s clean power advantage means for the AI race - latitudemedia.com
   date: '2026-09-25'
   kind: web
-- slug: 2026-09-24-most-new-us-power-is-clean-but-utilities-are-choosing-gas-fo
-  title: Most new US power is clean — but utilities are choosing gas for data centers - latitudemedia.com
+- slug: 2026-09-24-andurils-vision-for-powering-maritime-defense---latitude-med
+  title: Anduril’s vision for powering maritime defense - Latitude Media
   date: '2026-09-24'
   kind: web
 neighbors: []

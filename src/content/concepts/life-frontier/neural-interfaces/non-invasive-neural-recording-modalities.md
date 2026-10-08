@@ -20,7 +20,11 @@ tags:
 - brain-imaging
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-10-07-neuro-catalyst-sweep
+  title: 'Catalyst sweep: AI decoding, new sensing modalities, non-invasive deep stimulation, payment pathways (neuro, Oct 2026)'
+  date: '2026-10-07'
+  kind: web
 neighbors: []
 ---
 The readout side of non-invasive BCI. The investable question (Lawrence, non-invasive only): which modality reaches the depth, coverage, spatial resolution and wearable size/weight a real BCI needs, without surgery. The dividing line is depth. Electrical, magnetic and optical modalities are all capped at the cortical surface by the skull; only ultrasound has a physical path to deep structures.

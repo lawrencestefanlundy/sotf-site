@@ -19,9 +19,9 @@ descendants:
 - all-optical-switching
 - magneto-optical
 sources: []
-mention_count: 90
-sources_7d: 2
-sources_30d: 13
+mention_count: 91
+sources_7d: 3
+sources_30d: 14
 recent_mentions:
 - slug: 2026-09-23-arxiv-benchmarking-the-generalized-kadanoff-baym-ansatz-and-second
   title: 'Benchmarking the generalized Kadanoff-Baym ansatz and second-order adiabatic expansion using time-dependent spintronic effects: Spin pumping, torque, and inertia'

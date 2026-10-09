@@ -30,7 +30,7 @@ tags:
 - robotics
 - ai
 - world-models
-mention_count: 47
+mention_count: 49
 scorecard:
   viability: 2
   drivers: 3
@@ -40,8 +40,8 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 1
-sources_30d: 8
+sources_7d: 3
+sources_30d: 10
 recent_mentions:
 - slug: 2026-07-01-sensifai-memo-streaming-physical-ai
   title: SensifAI — Purpose-Built Silicon for Streaming Physical AI (funding memo)

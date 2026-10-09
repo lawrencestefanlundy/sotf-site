@@ -40,7 +40,7 @@ descendants:
 - sram-cim
 - st-fmr
 - storage-class-memory
-mention_count: 12
+mention_count: 13
 frontier:
 - Does GF 22FDX FeFET convert its 2026-2027 design wins into publicly named volume customers, or does the timeline slip as sample-grade eNVM programmes often have?
 - What end-to-end energy improvement does M3D BEOL cache scaling actually deliver for LLM serving beyond the 40MB L2 baseline, and at what capacity does the benefit saturate?
@@ -61,8 +61,8 @@ scorecard:
 scorecard_status: draft
 parent_concepts:
 - memory
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
 - slug: 2026-07-25-thoughts-on-ai-and-power
   title: Thoughts on AI and power

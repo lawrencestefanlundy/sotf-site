@@ -16,14 +16,14 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 8
+mention_count: 9
 frontier:
 - Does the frozen-backbone / trainable-head partition retain accuracy under distribution shift over months of in-field adaptation, or does the fixed INT8 backbone become the accuracy ceiling?
 - Can adaptive orchestration such as CRAWO show measured latency and bandwidth reductions on a deployed heterogeneous city-scale fleet, rather than in a controlled testbed?
 - Will a neuromorphic edge-AI chip reach a named volume commercial design-win (>100k units or a tier-1 OEM) by end-2027 2026 04 01 low power edge compute neuromorphic computing chip patents?
 - At what taxel count and sample rate does a dedicated near-sensor readout IC measurably beat generic edge compute on power per estimate, and does a shipping robotics-skin IC appear at whole-body pilot yield?
-sources_7d: 1
-sources_30d: 1
+sources_7d: 2
+sources_30d: 2
 recent_mentions:
 - slug: 2026-06-15-gf-investor-day-2026
   title: GlobalFoundries Investor Day 2026 (presentation)

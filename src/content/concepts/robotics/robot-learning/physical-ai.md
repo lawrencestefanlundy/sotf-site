@@ -57,7 +57,7 @@ descendants:
 - tactile-sensing
 - vision-language-action-models
 - world-models
-sources_7d: 2
+sources_7d: 1
 sources_30d: 16
 recent_mentions:
 - slug: 2026-09-30-the-state-of-chinese-physical-ai

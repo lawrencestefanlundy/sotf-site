@@ -30,7 +30,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 2
+sources_7d: 1
 sources_30d: 3
 recent_mentions:
 - slug: 2024-12-16-willow-and-the-race-to-quantum-advantage

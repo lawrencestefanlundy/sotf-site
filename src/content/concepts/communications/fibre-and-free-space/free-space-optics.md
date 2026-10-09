@@ -21,7 +21,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 21
+mention_count: 22
 last_reorg_date: '2026-05-14'
 scorecard:
   viability: 3
@@ -32,8 +32,8 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
 - slug: 2026-06-16-trapped-ion-landscape-2026
   title: Trapped-ion quantum computing landscape 2026 (vendors, scale, integrated photonics)

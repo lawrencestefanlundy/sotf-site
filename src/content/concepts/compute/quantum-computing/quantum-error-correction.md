@@ -20,8 +20,8 @@ scorecard:
   timing_band: Unclear
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 272
-sources_7d: 8
+mention_count: 273
+sources_7d: 7
 sources_30d: 23
 recent_mentions:
 - slug: 2024-12-16-willow-and-the-race-to-quantum-advantage

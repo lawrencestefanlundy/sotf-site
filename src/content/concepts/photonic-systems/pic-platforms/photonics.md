@@ -50,7 +50,7 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-mention_count: 1174
+mention_count: 1186
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -59,9 +59,13 @@ descendants:
 - optical-frequency-comb
 - optical-frequency-division
 - optoelectronic-oscillator
-sources_7d: 0
-sources_30d: 2
+sources_7d: 1
+sources_30d: 3
 recent_mentions:
+- slug: 2026-10-07-china-the-fcc-and-the-logic-of-transceivers
+  title: China, the FCC, and the Logic of Transceivers
+  date: '2026-10-07'
+  kind: web
 - slug: 2026-09-28-nasa-orbit-challenge-2027
   title: NASA ORBIT Challenge 2027
   date: '2026-09-28'
@@ -89,10 +93,6 @@ recent_mentions:
 - slug: 2026-07-31-inference-silicon-roster-sprint
   title: 'Inference-silicon roster verification sprint: 10 companies for the competitive-analysis capital map'
   date: '2026-07-31'
-  kind: web
-- slug: 2026-07-29-globalfoundries-wins-300-million-chips-act-silicon-photonics
-  title: GlobalFoundries wins $300 million CHIPS Act silicon photonics award - Yahoo Finance
-  date: '2026-07-29'
   kind: web
 neighbors: []
 ---

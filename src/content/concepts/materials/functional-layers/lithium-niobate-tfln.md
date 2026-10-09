@@ -27,7 +27,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - material
-mention_count: 197
+mention_count: 200
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 4
@@ -38,8 +38,8 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 5
-sources_30d: 22
+sources_7d: 7
+sources_30d: 21
 recent_mentions:
 - slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
   title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics

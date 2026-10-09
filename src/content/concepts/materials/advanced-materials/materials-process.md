@@ -38,6 +38,10 @@ recent_mentions:
   title: Lunar Grounding Challenge
   date: '2026-10-06'
   kind: web
+- slug: 2026-09-30-mit-spinout-atlas-turns-single-use-plastics-into-resilient-b
+  title: MIT Spinout Atlas Turns Single-Use Plastics Into Resilient Building Materials - CompositesWorld
+  date: '2026-09-30'
+  kind: web
 - slug: 2026-09-24-foundries-vs-navigators-lowering-the-cost-of-science
   title: 'Foundries vs Navigators: Lowering the Cost of Science'
   date: '2026-09-24'
@@ -61,10 +65,6 @@ recent_mentions:
 - slug: 2026-03-25-sallea-extends-salt-based-templating-technology-to-advanced-
   title: Sallea extends salt-based templating technology to advanced composites manufacturing - CompositesWorld
   date: '2026-03-25'
-  kind: web
-- slug: 2025-12-04-extracting-rare-earth-elements-from-us-wastewaters---univers
-  title: Extracting rare earth elements from U.S. wastewaters - University of California
-  date: '2025-12-04'
   kind: web
 neighbors: []
 ---

@@ -26,7 +26,7 @@ frontier:
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 167
+mention_count: 172
 scorecard:
   viability: 3
   drivers: null
@@ -36,8 +36,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 1
-sources_30d: 22
+sources_7d: 5
+sources_30d: 25
 recent_mentions:
 - slug: 2025-12-09-gallium-nitride-photonics-w-james
   title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics

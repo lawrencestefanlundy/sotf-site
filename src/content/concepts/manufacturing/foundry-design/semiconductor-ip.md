@@ -14,7 +14,7 @@ tags:
 - concept
 - auto-stub
 mention_count: 14
-sources_7d: 2
+sources_7d: 1
 sources_30d: 2
 recent_mentions: []
 neighbors: []

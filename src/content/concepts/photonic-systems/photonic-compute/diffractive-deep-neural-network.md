@@ -37,9 +37,9 @@ public_expressions:
 - LITE
 - MSFT
 - NVDA
-mention_count: 7
-sources_7d: 0
-sources_30d: 0
+mention_count: 8
+sources_7d: 1
+sources_30d: 1
 recent_mentions: []
 neighbors:
 - slug: spatial-light-modulators

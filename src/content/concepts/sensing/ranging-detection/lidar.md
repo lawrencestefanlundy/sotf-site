@@ -17,7 +17,7 @@ sources:
 - '[[2026-06-17-single-photon-detector-market-spad-snspd]]'
 - '[[2026-05-30-companiesmarketcap]]'
 mention_count: 86
-sources_7d: 2
+sources_7d: 1
 sources_30d: 9
 recent_mentions:
 - slug: 2026-08-03-spad-single-photon-market-scan

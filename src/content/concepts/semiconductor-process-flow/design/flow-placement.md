@@ -21,7 +21,7 @@ sources:
 - '[[2023-08-31-e13-chiplets-how-chip-lego-is-driving]]'
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
-mention_count: 172
+mention_count: 175
 parent_concepts:
 - flow-rtl-design
 scorecard:

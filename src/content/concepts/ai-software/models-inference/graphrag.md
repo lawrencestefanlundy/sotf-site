@@ -39,7 +39,16 @@ The structural claim against RDF and property graphs is that edges and destinati
 
 ## Competitive landscape
 
+The only comparison the sources support is at the data-model level: Views versus RDF and property graphs, where the differentiator claimed is the source-centred treatment of edges and destination vertices as equivalent entities plus pointer-following traversal that avoids whole-memory broadcast. No comparison against vector-index retrieval, hybrid retrieval, or any named GraphRAG implementation appears in the sources, and no benchmark results are given. The Views work is also of interest as provenance rather than product: it is described as the paper investors reference when questioning the academic base of Atlas Processing, whose co-founder is Alex Serb, with Prodromakis directing the CEF.
+
 ## Evidence base
+
+- Views was submitted to arXiv as 2508.18123 on 25 August 2025, with a v2 revision on 13 November 2025; the header states preprint, not submitted, not peer-reviewed.
+- The model stores data as linknode chains with layout `[head ID, primID1, prop1, primID2, prop2, next]`, encoding ternary source-edge-destination relationships with recursively nestable properties.
+- Against RDF and property graphs, edges and destination vertices are treated as equivalent entities in a source-centred structure.
+- The linked-list organisation is claimed to let traversal follow `next` pointers without broadcasting the whole memory.
+- The paper specifies an instruction set of hardware operations, including a content-addressable read (CAR), not only a storage schema.
+- The work originates from Serb's Edinburgh CEF group; Alex Serb is an Atlas Processing co-founder and Prodromakis directs the CEF.
 
 ## Frontier (open questions)
 

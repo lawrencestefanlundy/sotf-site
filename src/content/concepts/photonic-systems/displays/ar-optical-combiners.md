@@ -37,9 +37,9 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 312
-sources_7d: 2
-sources_30d: 9
+mention_count: 322
+sources_7d: 4
+sources_30d: 11
 recent_mentions:
 - slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
   title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics

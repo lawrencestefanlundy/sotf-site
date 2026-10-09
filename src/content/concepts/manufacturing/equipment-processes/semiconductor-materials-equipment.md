@@ -37,6 +37,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-05-why-investors-should-be-watching-this-date-for-micron---yaho
+  title: Why investors should be watching this date for Micron - Yahoo Finance
+  date: '2026-10-05'
+  kind: web
 - slug: 2026-10-05-630bn-us-semiconductor-megaprojects-in-rush-to-break-ground-
   title: $630bn+ US Semiconductor Megaprojects in Rush to Break Ground before CHIPS Act Deadline - Construction Review
   date: '2026-10-05'
@@ -64,10 +68,6 @@ recent_mentions:
 - slug: 2026-09-02-chips-act-20-part-3-can-europe-compete---eenews-europe
   title: 'Chips Act 2.0, Part 3: Can Europe compete? ... - eeNews Europe'
   date: '2026-09-02'
-  kind: web
-- slug: 2026-08-28-the-us-is-building-chips-act-fabs-but-neglecting-rd---aolcom
-  title: The U.S. Is Building CHIPS Act Fabs but Neglecting R&D - AOL.com
-  date: '2026-08-28'
   kind: web
 neighbors: []
 ---

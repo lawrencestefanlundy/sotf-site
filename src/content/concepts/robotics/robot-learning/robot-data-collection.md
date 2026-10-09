@@ -15,8 +15,7 @@ related_concepts:
 - sim-to-real-robot-data
 - tactile-sensing
 - dexterous-manipulation
-sources:
-- '[[2026-robot-data-supply-funding-wave]]'
+sources: []
 frontier:
 - Which data source actually scales to a robot 'GPT-3 moment'? EgoScaler hints at a log-linear scaling law for egocentric video; no manipulation scaling law demonstrated yet.
 - Tactile/contact is the one BINDING sensor modality (not in video or teleop pose); everything else (depth, RGB, proprioception) is solved/commodity.
@@ -27,8 +26,9 @@ tags:
 - robotics
 - data
 - sensors
-sources_7d: 0
-sources_30d: 0
+mention_count: 1
+sources_7d: 1
+sources_30d: 1
 recent_mentions: []
 neighbors:
 - slug: vision-language-action-models

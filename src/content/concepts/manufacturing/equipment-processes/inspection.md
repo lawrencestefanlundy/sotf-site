@@ -13,7 +13,6 @@ sources:
 - '[[2024-11-12-atomic-energy-can-nuclear-power-our]]'
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
-- '[[2025-intelmarketresearch-compound-semi-inspection-rejected]]'
 scorecard:
   viability: 3
   drivers: 3
@@ -24,8 +23,8 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 126
-sources_7d: 6
-sources_30d: 22
+sources_7d: 4
+sources_30d: 23
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)

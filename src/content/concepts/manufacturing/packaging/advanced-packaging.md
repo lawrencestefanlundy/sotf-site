@@ -41,7 +41,7 @@ descendants:
 - heterogeneous-integration
 - micro-transfer-printing
 - osat
-sources_7d: 3
+sources_7d: 1
 sources_30d: 12
 recent_mentions:
 - slug: 2026-10-06-x-fab-breaks-ground-on-chips-act-funded-cleanroom-in-erfurt-

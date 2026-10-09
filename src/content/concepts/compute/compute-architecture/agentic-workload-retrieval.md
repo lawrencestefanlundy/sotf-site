@@ -73,6 +73,13 @@ The retrieval layer for agentic AI workloads — distinct from chatbot inference
 
 When a founder pitches "silicon for agents," locate the *claimed* bottleneck on this tree before anything else (evidence base:):
 
+1. **Compute / orchestration / control-plane** (the agent loop, scheduling, state machine, tool-call routing; "agents are a coordination problem"). → **Default PASS.** Four measured papers find this layer software-bound (CPU idle 7-13%, microsecond reaction already achievable in eBPF, tool-execution + LLM-inference dominate latency); it is the **Agents Need New Silicon** no-wedge (~15% technical necessity). Re-open ONLY on a benchmark beating a CPU + eBPF scheduler in the founder's target regime.
+2. **Memory** → split three ways, because "agents need memory silicon" is true but under-specified:
+ - **Capacity** (KV-cache / agent-state bursts; AgentCgroup: 15.4x peak-to-avg, OOM-bound, cheap-DRAM-tier shaped). Where production concurrency actually binds *today*. Fundable as the cheap-DRAM decode/state tier (**Hbm Free Inference Architectures** Angle 2), but software cgroups compete, so the bar is "capacity relief a scheduler cannot match."
+ - **Bandwidth** (decode: streaming weights + growing KV per token). The HBM-light decode socket (**Hbm Free Inference Architectures** Angle 1); a scarcity-window bet.
+ - **Access pattern** (many-small-semantic-reads; retrieval / graph traversal). The **Atlas** socket. **CAUTION: the 2 Jun pass did NOT surface retrieval-access latency among the loud measured agentic pains (those were reliability/eval, tool-execution, memory-capacity); it is silent on the graph-heavy beachhead Atlas targets. Treat as a raised prior on the "is retrieval load-bearing?" axis — verify it binds in the specific workload before backing, do not assume.**
+3. **Matmul / inference** (token generation; "agentic" as a workload label). → Already-funded horizontal lane (d-Matrix, Groq, Cerebras, SambaNova); **Ai Accelerator Silicon No Wedge**.
+
 One-line version: **the silicon agents strain is memory, not the agent loop; and within memory, the measured bind is capacity, with access-pattern (retrieval) the least-evidenced of the three as of 2 Jun 2026.** When a deck says "agent chip," the first question is *compute or memory*, and the second is *capacity, bandwidth, or access-pattern*.
 
 ## Open questions

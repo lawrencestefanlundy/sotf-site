@@ -43,7 +43,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 5
+sources_7d: 3
 sources_30d: 21
 recent_mentions:
 - slug: 2026-07-10-the-next-vc-meme-is
@@ -86,9 +86,15 @@ neighbors: []
 
 Homomorphic encryption (HE) is a class of encryption schemes in which arithmetic on ciphertexts corresponds to arithmetic on the underlying plaintexts. A client encrypts, an untrusted server computes, the client decrypts and gets the answer it would have got in the clear. Fully homomorphic encryption (FHE) is the general case: arbitrary computation on encrypted data with no decryption key on the server side. The dominant modern constructions rest on Ring Learning with Errors (RLWE) lattice problems and split into approximate-arithmetic schemes (CKKS, and the related BGV) used for neural network and vector workloads, and Boolean/gate-level schemes (TFHE) used for general-purpose integer and control-flow code. Simpler additive-only schemes such as Paillier sit at the cheap end.
 
+The cost structure is what decides everything. Ciphertexts are large polynomials over big moduli, so the inner loop is polynomial multiplication, usually via the Number Theoretic Transform (NTT), over word lengths far wider than commodity arithmetic units. Each multiplication grows the noise term, so a circuit has a finite multiplicative depth before it needs bootstrapping, an expensive noise-refresh operation. Linear algebra additionally requires many ciphertext rotations, whose off-chip memory traffic dominates latency. Non-linear functions (softmax, normalisation, activations) have no native ciphertext form and must be replaced by polynomial approximations whose depth then dominates inference cost.
+
+The practical parameters are therefore: multiplicative depth budget, number of bootstraps, ciphertext rotation count and the memory bandwidth they consume, and the precision mismatch between FHE's wide modular arithmetic and AI silicon optimised for INT8/FP8. Recent work attacks all of these separately: dual-mode systolic arrays that do polynomial and matrix multiplication in one fabric, GPU microarchitecture changes, multi-level compilers, automated per-layer approximation search, and application-specific packing tricks.
+
 A second, quieter theme in the same literature is avoidance. Bifrost keeps only linear layers in CKKS on the accelerator and runs non-linear and cache-state operators inside a CPU trusted execution environment. A music retrieval paper observes that if only one operand is encrypted, similarity search collapses to additions and ciphertext-plaintext multiplications, removing bootstrapping entirely. PrivDNN pushes work to the client with partial model encryption specifically to avoid the server carrying the ciphertext-domain load. Where systems designers reach for these, they are telling you what full FHE still costs.
 
 ## Viability (3/5)
+
+The security side is not in question in these sources; the engineering side is. FHE overheads "often exceed plaintext execution by several orders of magnitude", and full-depth FHE is described as impractical at scale for vector search because of ciphertext-ciphertext multiplication and bootstrapping. Against that, working end-to-end demonstrations exist: encrypted DLRM inference with private embedding-table lookups integrated into the Orion framework, transformer inference with automated approximation configured in about an hour, and encrypted multi-vendor perception fusion for autonomous vehicles.
 
 The improvement increments reported are honest but small relative to the gap: 1.25x from polynomial-level compiler optimisation over ciphertext-level-only, up to 3.9x on selected TFHE operations from bootstrap reduction, more than 1.2x on polynomial multiplication latency from a dual-mode systolic array. Only workload-specific restructuring produces large numbers, such as 56x on embedding compression. There is also a new reliability question: long ciphertext dataflows are vulnerable to silent data corruption from transient hardware faults, requiring dedicated checksum schemes on CPUs and showing a safe operating boundary near a bit-error rate of 10^-5 in encrypted fault injection. A 3 rather than a 4: it demonstrably works, nothing here shows it working at competitive cost.
 
@@ -112,6 +118,8 @@ But the same paper is the strongest evidence that HE does not yet win alone: it 
 
 ## Diffusion (2/5)
 
+The stated barriers are consistent across sources: high computational cost and development complexity limit practical applications; using FHE for transformers requires replacing non-linear operators with polynomial approximations whose hyperparameter search space reaches roughly 10^84 configurations for a 12-layer BERT/ViT and 10^225 for 32-layer LLaMA3. Structured pruning, needed to make encrypted inference feasible at all, interacts with reliability in ways that were unexplored until recently. Custom accelerators face a further adoption trap: long time-to-market against rapidly evolving FHE algorithms threatens their long-term relevance.
+
 What is improving is the abstraction layer, which is the usual precondition for diffusion. ComputeFHE offers encrypted integer and fixed-point types with familiar imperative constructs plus a simulation mode for debugging without running the cryptography. LibFHE argues CUDA-Python can match highly optimised C++ libraries while cutting implementation complexity. Compilers now insert ciphertext management automatically from non-FHE input programs. That is genuine progress on the skills bottleneck, but nothing in these sources indicates production adoption at scale, hence 2.
 
 **TLDR: Cost, developer complexity, depth budgeting and new reliability failure modes all block adoption outside specialist teams.**
@@ -134,6 +142,8 @@ General-purpose FHE is further out. The published gains are multiplicative in th
 
 ## Overrated or underrated? Fairly rated
 
+The technology is real, the guarantee is unmatched by trusted-hardware alternatives, and the 2026 literature is doing exactly the unglamorous work that matters: memory traffic in rotation-heavy linear transforms, precision mismatch on AI accelerators, bootstrap counts, depth budgets for non-linear operators, and fault tolerance once ciphertext dataflows get long enough to suffer silent corruption. That is a maturing field, not a curiosity.
+
 The position worth holding is that the label is doing too much work. Anyone pricing "homomorphic encryption" as a single asset should split it. The restricted forms, additive-only HE and TEE-FHE hybrids, are underrated and near-term, and are the ones system builders actually choose when they have a workload to ship. General-purpose full-depth FHE as a drop-in replacement for plaintext cloud compute is still gated on orders of magnitude that these papers close in single-digit multiples. On balance, fairly rated, with the caveat that the interesting near-term value sits in the compromises rather than the pure form.
 
 ## Prediction
@@ -142,7 +152,20 @@ Through the end of 2027, published privacy-preserving transformer or LLM serving
 
 ## Evidence base
 
+- 16 June 2026: a dual-mode systolic array supporting both matrix and direct polynomial multiplication needs only 20% additional area with negligible power overhead in matrix mode, and achieves more than 1.2x lower latency than NTT-based polynomial multiplication on systolic matrix engines.
+- 17 June 2026: Bifrost provisions secrets only to an attested CPU TEE and uses FHE purely to delegate projection and feed-forward linear layers to an untrusted accelerator, because end-to-end LLM inference under FHE alone remains expensive.
+- 19 June 2026: accelerating FHE on TPUs is fundamentally limited by a precision mismatch, since TPUs are optimised for 8-bit arithmetic while NTTs demand high precision; the proposed fix is a multi-precision systolic array synthesised at 7nm.
+- 24 June 2026: an open-source TFHE library with encrypted integer and fixed-point types reports up to 3.9x performance improvement on selected operations by reducing bootstrapping counts, and adds a simulation mode for debugging without running the cryptography.
+- 21 July 2026: HE-LRM achieves a 56x speedup over prior state of the art on FHE embedding-table lookups via client-side digit decomposition, enabling end-to-end encrypted DLRM inference in the Orion framework.
+- 28 July 2026: per-layer approximation of transformer non-linearities under CKKS has a search space of roughly 10^84 configurations for 12-layer BERT/ViT and 10^225 for 32-layer LLaMA3, with multiplicative depth from these approximations dominating inference cost.
+- 30 July 2026: restricting to additive HE (Paillier, or CKKS limited to additive operations) preserves nearest-neighbour rankings exactly for music retrieval while avoiding ciphertext-ciphertext multiplication and bootstrapping, which the authors call impractical at scale.
+
 ## Open questions
+
+- Does modified AI silicon actually close the gap? MPX reports 20% extra area for dual-mode operation and more than 1.2x lower polynomial-multiplication latency; what total end-to-end speedup do such changes deliver on a full CKKS inference, and would a GPU or TPU vendor accept the area and precision changes proposed in FHECore-style designs?
+- How much of the current gap is scheme-inherent versus tooling? With CKKS a decade old and no fifth generation indicated, is there a remaining algorithmic step change, or only compounding engineering at 1.2x-3.9x per layer?
+- Do the polynomial approximations required for non-linear operators hold accuracy on frontier-scale models, given that automated per-layer search already faces roughly 10^225 configurations for a 32-layer model?
+- Is the reliability envelope compatible with commodity infrastructure? Encrypted fault injection indicates a safe boundary near a bit-error rate of 10^-5; what does mandatory checksum protection add to the already large overhead in production?
 
 ---
 *Assessment drafted 2026-08-31 from up to 18 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

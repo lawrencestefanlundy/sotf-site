@@ -24,7 +24,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 28
+mention_count: 29
 descendants:
 - adc-bottleneck
 - charge-domain-compute
@@ -34,7 +34,7 @@ descendants:
 - near-field-rf-coupling
 last_reorg_date: '2026-05-14'
 sources_7d: 1
-sources_30d: 2
+sources_30d: 3
 recent_mentions:
 - slug: 2026-04-28-making-ai-inference-cheap-with-analog
   title: Making AI inference Cheap with Analog Computing w/ Shwetank Kumar @ EnCharge AI

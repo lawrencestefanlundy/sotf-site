@@ -18,7 +18,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 27
+mention_count: 28
 scorecard:
   viability: 3
   drivers: 3

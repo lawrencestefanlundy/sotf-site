@@ -31,9 +31,9 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 399
-sources_7d: 2
-sources_30d: 12
+mention_count: 404
+sources_7d: 3
+sources_30d: 13
 recent_mentions:
 - slug: 2026-10-07-neuro-catalyst-sweep
   title: 'Catalyst sweep: AI decoding, new sensing modalities, non-invasive deep stimulation, payment pathways (neuro, Oct 2026)'

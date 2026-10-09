@@ -11,9 +11,9 @@ sources:
 - '[[2025-12-02-the-future-of-computing-is-glass]]'
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2026-05-30-intel-glass-substrates-program]]'
-mention_count: 26
-sources_7d: 0
-sources_30d: 0
+mention_count: 27
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
 - slug: 2025-12-02-the-future-of-computing-is-glass
   title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos

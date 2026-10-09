@@ -21,11 +21,11 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 52
+mention_count: 53
 descendants:
 - biosensors
-sources_7d: 2
-sources_30d: 7
+sources_7d: 3
+sources_30d: 8
 recent_mentions:
 - slug: 2026-07-03-thats-a-learning-curve-mate-not-rsi
   title: That’s a learning curve mate, not RSI

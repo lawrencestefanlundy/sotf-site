@@ -49,8 +49,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 1043
-sources_7d: 5
+mention_count: 1061
+sources_7d: 4
 sources_30d: 17
 recent_mentions:
 - slug: 2026-10-07-neuro-catalyst-sweep

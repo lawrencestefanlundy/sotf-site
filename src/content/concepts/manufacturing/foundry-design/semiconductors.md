@@ -52,9 +52,17 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-07-china-the-fcc-and-the-logic-of-transceivers
+  title: China, the FCC, and the Logic of Transceivers
+  date: '2026-10-07'
+  kind: web
 - slug: 2026-10-06-x-fab-breaks-ground-on-chips-act-funded-cleanroom-in-erfurt-
   title: X-FAB breaks ground on Chips Act-funded cleanroom in Erfurt - Evertiq
   date: '2026-10-06'
+  kind: web
+- slug: 2026-10-05-why-investors-should-be-watching-this-date-for-micron---yaho
+  title: Why investors should be watching this date for Micron - Yahoo Finance
+  date: '2026-10-05'
   kind: web
 - slug: 2026-10-05-630bn-us-semiconductor-megaprojects-in-rush-to-break-ground-
   title: $630bn+ US Semiconductor Megaprojects in Rush to Break Ground before CHIPS Act Deadline - Construction Review
@@ -74,14 +82,6 @@ recent_mentions:
   kind: web
 - slug: 2026-09-25-rigetti-computing-rgti-secures-chips-act-support-is-the-upsi
   title: Rigetti Computing (RGTI) Secures CHIPS Act Support, Is The Upside Already Priced In? - simplywall.st
-  date: '2026-09-25'
-  kind: web
-- slug: 2026-09-25-quantware-says-scaling-quantum-power-hinges-on-efficiency-no
-  title: QuantWare Says Scaling Quantum Power Hinges On Efficiency, Not Just Qubits - Quantum Zeitgeist
-  date: '2026-09-25'
-  kind: web
-- slug: 2026-09-25-what-chinas-clean-power-advantage-means-for-the-ai-race---la
-  title: What China’s clean power advantage means for the AI race - latitudemedia.com
   date: '2026-09-25'
   kind: web
 neighbors:

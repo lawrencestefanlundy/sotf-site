@@ -27,7 +27,7 @@ scorecard:
   verdict: Overrated
 scorecard_status: draft
 mention_count: 46
-sources_7d: 4
+sources_7d: 2
 sources_30d: 4
 recent_mentions:
 - slug: 2026-06-05-recursive-until-the-power-bill

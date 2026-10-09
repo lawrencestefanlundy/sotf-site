@@ -44,7 +44,7 @@ mention_count: 106
 descendants:
 - hearing-aid-silicon-beachhead
 - nvidia-jetson
-sources_7d: 4
+sources_7d: 3
 sources_30d: 13
 recent_mentions:
 - slug: 2026-09-07-mordor-data-converter-market

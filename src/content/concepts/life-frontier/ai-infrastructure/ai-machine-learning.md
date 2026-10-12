@@ -33,37 +33,37 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-10-building-ai-for-reliable-execution-lessons-from-industrial-r
+  title: 'Building AI for Reliable Execution: Lessons From Industrial Robotics'
+  date: '2026-10-10'
+  kind: web
+- slug: 2026-10-09-beam-the-great-american-open-model-with-reflectionai-co-foun
+  title: 'Beam: The Great American Open Model with ReflectionAI Co-Founder and CEO Misha Laskin'
+  date: '2026-10-09'
+  kind: web
+- slug: 2026-10-08-synthesis-superintelligence-from-semiconductors-to-supercond
+  title: 'Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk'
+  date: '2026-10-08'
+  kind: web
+- slug: 2026-10-07-hiphi-a-large-scale-benchmark-for-high-precision-human-motio
+  title: 'HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object Interaction'
+  date: '2026-10-07'
+  kind: web
+- slug: 2026-10-07-ieee-report-predicts-tech-that-will-transform-lives
+  title: IEEE Report Predicts Tech That Will Transform Lives
+  date: '2026-10-07'
+  kind: web
+- slug: 2026-10-05-why-agent-swarms-could-be-the-next-scaling-law
+  title: Why agent swarms could be the next “scaling law”
+  date: '2026-10-05'
+  kind: web
+- slug: 2026-10-05-virginias-new-energy-plan-make-the-ai-boom-work-for-not-agai
+  title: 'Virginia’s new energy plan: Make the AI boom work for — not against — us'
+  date: '2026-10-05'
+  kind: web
 - slug: 2026-09-30-the-state-of-chinese-physical-ai
   title: The State of Chinese Physical AI
   date: '2026-09-30'
-  kind: web
-- slug: 2026-09-29-one-more-note-on-agents-meta-connect-meta-enterprise-platfor
-  title: One More Note on Agents, Meta Connect, Meta Enterprise Platform
-  date: '2026-09-29'
-  kind: web
-- slug: 2026-09-29-ainews-amd-buys-world-labs-for-82b-as-atlas-solves-sparse-re
-  title: '[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more'
-  date: '2026-09-29'
-  kind: web
-- slug: 2026-09-29-how-to-measure-grid-utilization---latitude-media
-  title: How to measure grid utilization - Latitude Media
-  date: '2026-09-29'
-  kind: web
-- slug: 2026-09-28-apps-agents-and-aggregation
-  title: Apps, Agents, and Aggregation
-  date: '2026-09-28'
-  kind: web
-- slug: 2026-09-24-foundries-vs-navigators-lowering-the-cost-of-science
-  title: 'Foundries vs Navigators: Lowering the Cost of Science'
-  date: '2026-09-24'
-  kind: web
-- slug: 2026-09-18-visions-of-ai-gpt-3-moment-for-physical-ai
-  title: 'Visions of AI: GPT-3 Moment for Physical AI'
-  date: '2026-09-18'
-  kind: web
-- slug: 2026-09-15-inside-openais-agentic-software-factory
-  title: Inside OpenAI’s agentic software factory
-  date: '2026-09-15'
   kind: web
 neighbors: []
 ---

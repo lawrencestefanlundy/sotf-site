@@ -69,9 +69,6 @@ Recurring-revenue note: PV revenue is almost entirely subscription/maintenance, 
 ## Volumes, revenue, profitability
 Unit volume is best read as tape-outs and active design seats rather than wafers: every one of the tens of thousands of annual IC tape-outs must pass PV, and every advanced-node tape-out consumes more compute and more licence tokens than the last (rule counts and run-times scale with node complexity). The revenue pool is the physical-verification + sign-off slice of EDA, low-single-digit billions and rising with design starts and node count. The margins are the headline: pure-play EDA runs at software gross margins of ~80-86% (Synopsys ~77-82%, Cadence ~86% gross) with operating margins in the ~25-34% range [8][9]. The margin is earned by the tool vendor (overwhelmingly Siemens EDA in this step), not by the fab or the fabless designer. PV is among the stickiest, highest-margin lines in that mix because the foundry mandate removes price competition at sign-off.
 
-## Competitive landscape & value capture
-The moat is a triple lock: (1) Calibre is the accuracy/golden reference foundries certify against, (2) the rule decks are authored for it first, and (3) decades of regression-tested sign-off history make switching a tape-out risk no team takes lightly. Value accrues almost entirely to the incumbent tool vendor; the fab and designer are price-takers. The only structural crack is geopolitical: US export controls are pushing restricted Chinese customers toward domestic tools, which is why **Empyrean** (Argus PV, Skipper layout handling, ~6% of China's market, ~$140M annualised revenue, state-controlled since the 2024 blacklist) is the one share-shift to watch [6][7]. There is no obvious European or seed-stage entrant in core DRC/LVS sign-off; the realistic seed/early angles sit adjacent, in ML-driven DFM/hotspot prediction, faster cloud-parallel verification, or open-source PDK/PV tooling (e.g. the KLayout/Magic open ecosystem), not in displacing the golden tool.
-
 ## Market drivers, constraints & trends
 Net read: the served market grows steadily-to-accelerating, with rule-deck inflation and the AI-EDA layer the two things that could re-rate it above EDA's ~8% baseline.
 
@@ -92,22 +89,3 @@ Net read: the served market grows steadily-to-accelerating, with rule-deck infla
 [EDA & Design Tools](/manufacturing/foundry-design/eda-design-tools/) · [Timing signoff & parasitic extraction (process step)](/semiconductor-process-flow/design/flow-timing-signoff-extraction/) · [Mask data prep & computational litho (OPC/ILT) (process step)](/semiconductor-process-flow/design/flow-mask-data-prep-opc/)
 
 - Owning idea: **Eda Chip Design** (EDA design-tool layer).
-
-## Sources
-1. Mordor Intelligence, EDA Tools market (segment shares, CAGR) — https://www.mordorintelligence.com/industry-reports/electronic-design-automation-eda-tools-market
-2. The Business Research Company, EDA market size 2026 — https://www.thebusinessresearchcompany.com/report/electronic-design-automation-eda-global-market-report
-3. Dataintelo, Cloud EDA market (cloud PV CAGR ~16%) — https://dataintelo.com/report/cloud-electronic-design-automationeda-market
-4. Siemens, Calibre Physical Verification (golden sign-off positioning) — https://eda.sw.siemens.com/en-US/ic/calibre-design/physical-verification/
-5. SemiAnalysis, EDA Market Primer (big-3 shares, Calibre ~85%+ PV share, decade stability) — https://newsletter.semianalysis.com/p/eda-market-primer
-6. TrendForce, Empyrean shifts to state-owned control after US blacklist (Dec 2024) — https://www.trendforce.com/news/2024/12/11/news-chinas-eda-giant-empyrean-technology-shifts-control-to-state-owned-company-after-u-s-blacklist/
-7. Empyrean Technology (Argus PV, Skipper, China share ~6%, 9M-2024 revenue) — https://en.wikipedia.org/wiki/Empyrean_Technology
-8. Stock Analysis on Net, Synopsys profitability ratios (gross ~77-82%, operating margin) — https://www.stock-analysis-on.net/NASDAQ/Company/Synopsys-Inc/Ratios/Profitability
-9. KoalaGains, Cadence (CDNS) metrics (gross ~86%, operating margin ~32-34%) — https://koalagains.com/stocks/NASDAQ/CDNS
-10. Mordor Intelligence, EDA Tools (GAA + backside power + multi-die ~10x DRC rise vs 7nm; IC physical verification largest segment) — https://www.mordorintelligence.com/industry-reports/electronic-design-automation-eda-tools-market
-11. MarketsandMarkets, AI EDA market ~$4.27B (2026) to ~$15.85B (2032), ~24.4% CAGR — https://www.marketsandmarkets.com/Market-Reports/ai-eda-market-212473295.html
-12. Siemens EDA, Calibre 3DSTACK (inter-die DRC/LVS, 3DBlox, 3D ESD for 2.5D/3D-IC) — https://eda.sw.siemens.com/en-US/ic/calibre-design/physical-verification/3dstack/
-13. Tom's Hardware, TSMC N2/A14 roadmap + node economics (advanced mask-set/tape-out cost concentration) — https://www.tomshardware.com/tech-industry/semiconductors/tsmc-unveils-process-technology-roadmap-through-2029-a12-a13-n2u-announced-a16-slips-to-2027
-14. Synopsys, IC Validator in the cloud (2000+ cores; elastic-CPU ~40% compute savings) — https://www.synopsys.com/implementation-and-signoff/physical-verification/icv-cloud.html
-15. EE Times / Sourceability, US BIS EDA-to-China halt (May 2025) and partial reversal (Jul 2025) — https://www.eetimes.com/u-s-restricts-eda-software-sales-to-china/
-16. TechNode / Tom's Hardware, TSMC roadmap (N2P early 2026, A16 backside SPR end-2026, A14 1.4nm 2nd-gen GAA 2028) — https://technode.com/2025/04/25/tsmc-to-begin-production-of-next-gen-a14-1-4nm-process-in-2028/
-17. Digitimes / TrendForce, Empyrean H1-2025 revenue RMB 502M (~$70M, +13% YoY, profit -92%); China EDA self-sufficiency >10% — https://www.digitimes.com/news/a20250818VL209/empyrean-technology-eda-software-profit-revenue.html

@@ -55,9 +55,6 @@ This is the step that stacks die vertically and bonds them with direct copper-to
 - Alignment and bonding: wafer-to-wafer (W2W) fusion at room temperature, or die-to-wafer (D2W) pick-and-place at sub-micron accuracy.
 - Anneal to grow the copper-to-copper bonds, then stack the next layer.
 
-## Where it sits and why it matters
-This is the single highest-value, fastest-growing step in the entire back end. When Moore's Law slowed on the transistor, the industry moved performance gains into the package, and hybrid bonding is where the densest gains come from. It is what makes HBM stacks (12-Hi and 16-Hi for HBM4), AMD's 3D V-Cache, and AI accelerator logic stacks physically possible. The key transition to track is interconnect pitch: microbump 2.5D works at roughly 40 to 10 microns, but hybrid bonding starts where bumps stop, at sub-10 micron pitch and heading to sub-1 micron. TSMC's SoIC roadmap is 6 micron face-to-face in 2025, 4.5 micron by 2029, a roughly 20x I/O density gain over the first generation [3][4]. Each pitch shrink tightens the alignment, cleanliness and metrology requirements, which is where the tool and inspection money accrues.
-
 ## Equipment market
 Yole sizes the dedicated hybrid-bonding tool market at about $152M in 2025, growing to roughly $397M by 2030 at a ~21% CAGR [1]. The adjacent thermocompression bonding (TCB) market is larger today, about $542M in 2025 to ~$936M by 2030 at ~12% [1], and the two together lead a back-end equipment expansion Yole frames as reaching ~$1.3B by 2030 [1]. Note the spread across sources: MarketsandMarkets puts the broader hybrid-bonding market (tools plus surface-prep plus metrology) at $164.7M in 2025 to $633.9M by 2032 at ~21% [2][6]. The tool-only Yole number is the cleaner figure for the bonder itself.
 
@@ -104,23 +101,3 @@ Net read: the served market (bonders + surface-prep + metrology + consumables) i
 
 ## Connections
 [Hybrid Bonding (Cu-Cu)](/manufacturing/packaging/hybrid-bonding/) · [TSV / Through-Silicon Via](/manufacturing/packaging/tsv-through-silicon-via/) · [3D IC Stacking](/manufacturing/packaging/3d-ic-stacking/) · theses: **Hybrid Bonding Interconnect** · **Advanced Packaging Market** · **Advanced Packaging Metrology**
-
-## Sources
-1. Yole Group, "Advanced packaging fuels transformation in back-end equipment: TCB and hybrid bonding to lead $1.3 billion market expansion by 2030" — https://www.yolegroup.com/press-release/advanced-packaging-fuels-transformation-in-back-end-equipment-tcb-and-hybrid-bonding-to-lead-1-3-billion-market-expansion-by-2030/
-2. MarketsandMarkets, "Hybrid Bonding Market" (top-five concentration; $164.7M 2025 to $633.9M 2032) — https://www.marketsandmarkets.com/Market-Reports/hybrid-bonding-market-2641237.html
-3. Tom's Hardware, "TSMC SoIC 3D stacking roadmap: 6 micron today to 4.5 micron in 2029" — https://www.tomshardware.com/tech-industry/semiconductors/tsmc-soic-3d-stacking-roadmap-outlines-path-from-6-micron-pitches-today-to-4-5-micron-in-2029-fujitsus-monaka-cpu-to-benefit-from-face-to-face-chiplet-stacking
-4. Nomad Semiconductor / Moore Morris, "TSMC 2025 Technology Symposium" (SoIC, sub-1um pitch, HBM4) — https://www.nomadsemi.com/p/tsmc-2025-technology-symposium
-5. FinancialContent, "TSMC to Quadruple Advanced Packaging Capacity: 130,000 CoWoS Wafers Monthly by Late 2026" — https://markets.financialcontent.com/stocks/article/tokenring-2026-2-5-tsmc-to-quadruple-advanced-packaging-capacity-reaching-130000-cowos-wafers-monthly-by-late-2026
-6. MarketsandMarkets press release, "Hybrid Bonding Industry worth $633.9 million by 2032" (~21.2% CAGR) — https://www.marketsandmarkets.com/PressReleases/hybrid-bonding.asp
-7. SemiEngineering, "Metrology Under Pressure: Detecting Defects in Fine-Pitch Hybrid Bonding" — https://semiengineering.com/metrology-under-pressure-detecting-defects-in-fine-pitch-hybrid-bonding/
-8. KLA, "Wafer Inspection and Metrology for Semiconductor Advanced Packaging" (irArcher overlay, PWG5 void detection) — https://www.kla.com/products/packaging-manufacturing/wafer-inspection-and-metrology-for-advanced-packaging
-9. Applied Materials IR, "Applied Materials Announces a Strategic Investment in BE Semiconductor Industries" (9% stake, Apr 2025) — https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-strategic-investment-be
-10. BALD Engineering, "Applied Materials launches Kinex, first fully integrated D2W hybrid bonding system" (Nov 2025) — https://www.blog.baldengineering.com/2025/11/applied-materials-deepens-partnership.html
-11. GlobalGrowthInsights, "Automatic Wafer Bonding Equipment Market" (EVG ~26-32%, SUSS ~21% shares) — https://www.globalgrowthinsights.com/market-reports/automatic-wafer-bonding-equipment-market-117312
-12. TrendForce, "NVIDIA Rubin Ultra and Feynman Reportedly to Boost TSMC SoIC; Besi, Applied Materials, TEL to Benefit" (10-15k SoIC wafers/mo by 2026, ~$6.8-7.0B per 10k, Feynman 2028 step-up) — https://www.trendforce.com/news/2026/03/18/news-nvidia-rubin-ultra-and-feynman-reportedly-to-boost-tsmc-soic-besi-applied-materials-tel-to-benefit/
-13. Beth Kindig / TrendForce, "TSMC SoIC capacity 10-15k wafers by 2026, ~$7B per 10k wafers; SoIC CAGR >90% 2022-27" — https://x.com/Beth_Kindig/status/2036171414525313082
-14. The Elec, "SK hynix Orders Hybrid Bonding Equipment From Applied Materials and Besi" (first mass-production inline system, ~KRW 20B, late Mar 2026) — https://www.thelec.net/news/articleView.html?idxno=6246
-15. Simply Wall St, "SK Hynix's First Mass-Production Hybrid Bonding Order Might Change the Case for BESI" (first volume order vs prior R&D tools; cyclicality/FX/mix caveat) — https://simplywall.st/stocks/nl/semiconductors/ams-besi/be-semiconductor-industries-shares/news/sk-hynixs-first-mass-production-hybrid-bonding-order-might-c
-16. TrendForce, "SK hynix Reportedly Accelerates Hybrid Bonding for 300-Layer V10 NAND, Eying 2027 Mass Production" — https://www.trendforce.com/news/2025/12/08/news-sk-hynix-reportedly-accelerates-hybrid-bonding-for-300-layer-v10-nand-eying-2027-mass-production/
-17. SemiEngineering, "HBM4 Sticks With Microbumps, Postponing Hybrid Bonding" (HBM5 ~2028-29, 20+ layers, becomes hybrid-bonding inflection) — https://semiengineering.com/hbm4-sticks-with-microbumps-postponing-hybrid-bonding/
-18. TrendForce, "JEDEC Reportedly Plans to Relax HBM Height Specs to ~900um, Potentially Slowing Hybrid Bonding Adoption" (HBM3E 720um, HBM4 ~775um, HBM4E ~900um; TC bonders extend) — https://www.trendforce.com/news/2026/04/01/news-jedec-reportedly-plans-to-relax-hbm-height-specs-to-900%C2%B5m-potentially-slowing-hybrid-bonding-adoption

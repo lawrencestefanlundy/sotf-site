@@ -32,6 +32,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-05-why-investors-should-be-watching-this-date-for-micron---yaho
+  title: Why investors should be watching this date for Micron - Yahoo Finance
+  date: '2026-10-05'
+  kind: web
 - slug: 2026-09-10-one-nuclear-launches-5-gw-louisiana-portfolio-of-energy-proj
   title: ONE Nuclear launches 5 GW Louisiana portfolio of energy projects comprising nuclear, natural gas and battery storage - Latitude Media
   date: '2026-09-10'

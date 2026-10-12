@@ -23,6 +23,10 @@ mention_count: 82
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-05-virginias-new-energy-plan-make-the-ai-boom-work-for-not-agai
+  title: 'Virginia’s new energy plan: Make the AI boom work for — not against — us'
+  date: '2026-10-05'
+  kind: web
 - slug: 2026-10-01-vermont-gas-invests-in-geothermal-for-the-first-time---latit
   title: Vermont Gas invests in geothermal for the first time - Latitude Media
   date: '2026-10-01'
@@ -50,10 +54,6 @@ recent_mentions:
 - slug: 2026-09-14-tar-aims-to-build-off-grid-power-for-data-centers-in-just-si
   title: TAR aims to build off-grid power for data centers in just six months - latitudemedia.com
   date: '2026-09-14'
-  kind: web
-- slug: 2026-09-12-a-1-gigawatt-fusion-plant-would-burn-123-pounds-of-tritium-a
-  title: A 1-gigawatt fusion plant would burn 123 pounds of tritium a year and push 1,235 pounds around its loop to do it, so an American startup is spinning the exhaust in a column of plasma that throws the heavy isotopes to the wall and lets the helium ash go, and th - Autonocion.com
-  date: '2026-09-12'
   kind: web
 neighbors: []
 ---

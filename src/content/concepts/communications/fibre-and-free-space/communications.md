@@ -78,6 +78,10 @@ descendants:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-08-amazon-builds-1000th-satellite-will-launch-space-internet-se
+  title: Amazon builds 1,000th satellite, will launch space internet service by end of year
+  date: '2026-10-08'
+  kind: web
 - slug: 2026-09-17-esa-starts-next-phase-of-iris2-evolution-through-low-leo-act
   title: ESA starts next phase of IRIS² evolution through Low-LEO activities
   date: '2026-09-17'
@@ -90,6 +94,10 @@ recent_mentions:
   title: Opener is an open-source reference implementation of the DECT NR+ massive IoT, low-latency standard - CNX Software
   date: '2026-08-27'
   kind: web
+- slug: 2026-08-13-darpa-awards-contract-to-qunnect-to-advance-real-time-polari
+  title: DARPA Awards Contract to Qunnect to Advance Real-Time Polarization Compensation for Quantum Networks - Quantum Computing Report
+  date: '2026-08-13'
+  kind: web
 - slug: 2026-08-05-spooky-particles-transit-dc-suburbs-a-step-toward-a-quantum-
   title: ‘Spooky’ Particles Transit DC Suburbs, a Step Toward a Quantum Network
   date: '2026-08-05'
@@ -101,14 +109,6 @@ recent_mentions:
 - slug: 2026-07-09-non-cellular-5g-networks-simplified---hacksterio
   title: Non-Cellular 5G Networks Simplified - Hackster.io
   date: '2026-07-09'
-  kind: web
-- slug: 2026-06-12-hku-sic-cryogenic-neuromorphic-chip-10mk
-  title: HKU world-first cryogenic neuromorphic chip at 10 mK (silicon carbide, impact-ionisation spiking)
-  date: '2026-06-12'
-  kind: web
-- slug: 2026-06-05-nasa-concludes-antenna-mishap-investigation-releases-report
-  title: NASA Concludes Antenna Mishap Investigation, Releases Report
-  date: '2026-06-05'
   kind: web
 neighbors: []
 ---

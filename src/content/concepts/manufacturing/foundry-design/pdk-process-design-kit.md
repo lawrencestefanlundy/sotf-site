@@ -72,8 +72,6 @@ You design **with** the PDK, then fabricate **via** an MPW (prototype), and late
 - Making your **own** chip work needs an **internal** PDK (your design team, your process).
 - Letting **strangers** design on your process needs a **third-party-grade** PDK: documented, supported, with DRC decks, characterised components, MPW shuttle scheduling, and yield commitments.
 
-The second is a multi-year, customer-facing engineering build that is categorically different from the first, and it serves a **different buyer**: the foundry-phase customer is a fabless photonics design team bringing their own designs, not the component buyer (e.g. a transceiver vendor) who purchases a finished chip. This is why Tower Semiconductor pulled the chip→foundry transition off (foundry DNA, productised PDK) while most photonic-chip peers stayed chip companies. "Our modulator works" does not imply "outsiders can design on our line." The external-PDK roadmap is both the moat and the most underestimated line item in the round.
-
 ## Companies using
 
 <!-- dataview block stripped for public site -->

@@ -30,7 +30,7 @@ scorecard:
   verdict: Overrated
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 4
+sources_30d: 3
 recent_mentions: []
 neighbors: []
 ---

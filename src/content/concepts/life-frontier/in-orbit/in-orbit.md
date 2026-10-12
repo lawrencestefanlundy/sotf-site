@@ -7,12 +7,15 @@ parent_concepts:
 - life-frontier
 related_concepts: []
 sources:
+- '[[2026-10-09-state-of-the-future-dispatch-9th]]'
 - '[[2026-06-22-thermal-stack-layer-landscape]]'
 - '[[2026-09-03-space-compute-cheap-launch-rebuild]]'
+- '[[2026-10-09-europes-space-defenses-fall-just-shy-of-weaponization]]'
 - '[[2026-06-12-conversations-in-the-sky-galileos-intersatellite-links-teste]]'
 - '[[2026-06-03-nasa-says-farewell-to-maven-mars-mission-hosts-media-call-to]]'
 - '[[2026-05-07-nasas-prithvi-becomes-first-ai-geospatial-foundation-model-i]]'
-mention_count: 21
+- '[[2026-10-06-hawkeye-360-turns-its-rf-sensors-to-orbital-targets]]'
+mention_count: 25
 descendants:
 - atmospheric-sensing
 - direct-to-cell-leo
@@ -29,9 +32,21 @@ descendants:
 - radiation-shielding
 - sar-satellites
 - space-communications
-sources_7d: 2
-sources_30d: 6
+sources_7d: 5
+sources_30d: 9
 recent_mentions:
+- slug: 2026-10-09-europes-space-defenses-fall-just-shy-of-weaponization
+  title: Europe’s Space Defenses Fall Just Shy of Weaponization
+  date: '2026-10-09'
+  kind: web
+- slug: 2026-10-09-state-of-the-future-dispatch-9th
+  title: 'State of the Future: Dispatch 9th October 2026'
+  date: '2026-10-09'
+  kind: substack
+- slug: 2026-10-06-hawkeye-360-turns-its-rf-sensors-to-orbital-targets
+  title: HawkEye 360 Turns its RF-Sensors to Orbital Targets
+  date: '2026-10-06'
+  kind: web
 - slug: 2026-09-03-space-compute-cheap-launch-rebuild
   title: Space compute rebuilt around the cheap-launch case — what survives the premise
   date: '2026-09-03'

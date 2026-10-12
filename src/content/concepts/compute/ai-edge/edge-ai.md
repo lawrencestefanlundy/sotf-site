@@ -40,12 +40,12 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 106
+mention_count: 109
 descendants:
 - hearing-aid-silicon-beachhead
 - nvidia-jetson
-sources_7d: 3
-sources_30d: 13
+sources_7d: 6
+sources_30d: 14
 recent_mentions:
 - slug: 2026-09-07-mordor-data-converter-market
   title: 'Data Converter Market: size, share & industry analysis (Mordor Intelligence)'
@@ -134,8 +134,6 @@ The caveat is that none of the supplied sources quantifies the economic size of 
 ## Timing Now (0-2yr)
 
 Edge AI is not a future technology. Desktop-class edge AI systems were shipping from seven OEMs in 2026, commercial accelerators are being used in the field, and multi-country deployments have already run continuously in harsh environments. The interesting timing question is when the second-order problems close.
-
-Those sit in the Soon band. Heterogeneous scheduling, hybrid non-volatile memory hierarchies and multi-chiplet expert streaming are all 2026 research results, not products. The packaging roadmap that enables cost-effective modular edge accelerators has UCIe Phase 2 multi-vendor products and tier-2 fabless chiplet parts landing in 2027 **2024 Yole Advanced Packaging 2024**. Analog RF computing and over-the-air aggregated inference are earlier still: physical-layer design frameworks with theoretical proxies and validating experiments, not hardware.
 
 **TLDR: The hardware is shipping today; the system software, memory and observability layers resolve over roughly the next three years.**
 

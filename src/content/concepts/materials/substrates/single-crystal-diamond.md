@@ -19,7 +19,7 @@ frontier:
 - How reproducible are these parameters across nanostructures fabricated from the same single crystal diamond substrate, and how much of the spread is attributable to substrate quality versus fabrication?
 - Does the calibration remain valid as probes wear or are exchanged, and what re-calibration interval is required for traceable measurements?
 - Can the same method be transferred to polycrystalline or heteroepitaxial diamond hosts, or does it depend on the single crystal lattice fixing the NV symmetry axis?
-sources_7d: 1
+sources_7d: 0
 sources_30d: 1
 recent_mentions: []
 neighbors: []

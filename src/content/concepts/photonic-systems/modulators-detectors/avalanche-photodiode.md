@@ -40,7 +40,7 @@ tags:
 - concept
 - photonics
 - photodetector
-mention_count: 60
+mention_count: 61
 scorecard:
   viability: 4
   drivers: 4
@@ -51,7 +51,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 2
-sources_30d: 6
+sources_30d: 7
 recent_mentions:
 - slug: 2026-08-03-spad-single-photon-market-scan
   title: SPAD / single-photon detector market scan — incumbent structure and company cohort

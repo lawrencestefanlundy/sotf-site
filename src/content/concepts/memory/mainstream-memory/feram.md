@@ -22,7 +22,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 190
+mention_count: 192
 last_reorg_date: '2026-05-14'
 descendants:
 - fefet
@@ -35,8 +35,8 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 14
+sources_7d: 2
+sources_30d: 15
 recent_mentions:
 - slug: 2025-26-lapedus-next-gen-ferroelectric-memory
   title: Next-Gen Ferroelectric Memory Still A Work In Progress

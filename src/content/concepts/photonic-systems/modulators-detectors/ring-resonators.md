@@ -66,8 +66,6 @@ The deduction is for thermal fragility, which the sources treat as a first-order
 
 Demand: the pull comes from WDM interconnect for data centres, framed in the sources as the path to compact, high-bandwidth and energy-efficient links, and specifically from co-packaged optics integration at the A16 / 2 nm node, where micro-rings sit in the PIC layer of a named CPO engine architecture. A second demand vector is device count: next-generation photonic architectures for AI, sensing and quantum computing are stated to require thousands to millions of reprogrammable photonic devices per chip, and resonant elements are the compact way to get wavelength selectivity at that density.
 
-Supply: the enabling shift is monolithic co-fabrication with electronics. Photonic wafers built by back-end-of-line processing directly on completed 200 mm CMOS driver wafers give the high-density electrical interconnection that per-ring control loops require. Material supply is broadening rather than narrowing: Ta2O5 on insulator for the visible using routine deposition and fabrication, and open-source finite-element tooling for ring modal analysis validated against a commercial mode solver, which lowers the design barrier. The one thing the sources do not give is market size, shipment volume or price, so the demand case here is technical and roadmap-based, not commercial.
-
 **TLDR: Demand is AI-datacentre interconnect via co-packaged optics; supply is CMOS-compatible fabrication across several material platforms.**
 
 ## Novelty (3/5)

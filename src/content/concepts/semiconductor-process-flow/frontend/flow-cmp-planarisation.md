@@ -70,14 +70,6 @@ A leading-edge logic wafer sees ~15-30+ CMP steps; each consumes slurry and incr
 ## Competitive landscape & value capture
 Moat is qualification lock-in on both axes: AMAT owns the tool, DuPont owns the pad, a five-firm club owns the slurry. Once a slurry/pad is qualified into a node it rarely changes, so incumbents compound. Value accrues to the consumables layer (recurring, high-switching-cost) and secondarily to AMAT (installed-base control). EU exposure is thin: Merck KGaA / Versum (Germany) in slurry chemistries and AGC's European footprint; no leading-edge EU tool or pad maker. Seed-stage angle is narrow but real on the materials side (ceria abrasive engineering, defect-reducing slurry chemistry, sub-nm hybrid-bonding CMP) where a novel particle or formulation can win a single high-value qualification.
 
-## Market drivers, constraints & trends
-Net read: this is one of the better structurally-growing consumables pools in WFE, because every architecture shift on the roadmap adds CMP steps rather than removing them. TECHCET/Semiconductor Digest put CMP consumables at ~$3.6B in 2025 (+6% YoY) on a ~9% CAGR through 2029, faster than the equipment line [8].
-
-- **Drivers**
- - Step-count compounding is the core engine: sub-7nm logic now runs 30-40 CMP steps per wafer vs 15-20 at 28nm, with steps rising ~20-30% per node generation as metal layers and multi-patterning multiply [9][10].
- - Three roadmap shifts each bolt on net-new CMP: 3D NAND scaling toward >1,000 layers, GAA nanosheet release/isolation, and backside power delivery (which needs aggressive wafer thinning from >700um to 1-3um then fine CMP) [8][11].
- - Advanced packaging is the second part: NVIDIA Blackwell interposers use ~14 CMP steps per package (2x the prior generation), and SK hynix is reportedly adding ~36 CMP tools by 2027 for HBM, with hybrid bonding demanding sub-1um co-planarity [7].
-
 - **Constraints**
  - Cerium-oxide chokepoint: China controls ~70% of ceria extraction/refining; 2025 export quotas lifted ceria prices ~34% YoY, squeezing slurry-maker margins even after ~7% list-price rises [7]. Colloidal-silica substitution cuts oxide removal rates up to ~30%, so it is not a clean swap [7].
  - WFE cyclicality and capex pauses still gate the equipment part; consumables are stickier but track wafer-passes, which fall in a memory downturn.

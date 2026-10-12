@@ -24,10 +24,18 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 391
+mention_count: 399
 sources_7d: 6
-sources_30d: 25
+sources_30d: 22
 recent_mentions:
+- slug: 2026-10-08-wafer-scale-low-symmetry-graphene-moire-superlattice-for-int
+  title: Wafer-scale low-symmetry graphene moiré superlattice for integrated quantum rectifiers
+  date: '2026-10-08'
+  kind: web
+- slug: 2026-09-23-as-close-to-carbyne-as-were-probably-going-to-get
+  title: As Close to Carbyne As We're Probably Going to Get
+  date: '2026-09-23'
+  kind: web
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
@@ -51,14 +59,6 @@ recent_mentions:
 - slug: 2026-06-22-tim-approaches-full-sweep
   title: TIM approaches — exhaustive in-market + R&D sweep (vendors, classes, startups)
   date: '2026-06-22'
-  kind: web
-- slug: 2026-05-29-blairs-been-on-the-tokens-again
-  title: Blair's Been On The Tokens Again
-  date: '2026-05-29'
-  kind: substack
-- slug: 2026-02-06-eth-zurich-spinout-chiral-bags-12m-to-scale-robotic-platform
-  title: ETH Zurich spinout Chiral bags $12M to scale robotic platform for graphene chip integration - Tech Funding News
-  date: '2026-02-06'
   kind: web
 neighbors: []
 ---
@@ -111,8 +111,6 @@ What is missing is any figure that converts a physical effect into system-level 
 ## Timing Unclear
 
 As a research substrate and characterisation benchmark, graphene is already in use now: it is the growth template in MBE studies, the test system for new diffraction imaging formalisms and for electron-irradiation simulations that identify quantum-only backscattering effects around 400 eV incident energy which diminish above 600 eV, and the reference against which new Dirac materials are pitched.
-
-For everything else the sources provide no roadmap, no pilot line, no scale-up plan and no cost figures, so any band assigned to nanoribbon logic, cryogenic modulators or graphene-supported electrolysis would be invented rather than assessed. The internal ordering is visible even if absolute dates are not: passive bulk uses such as coatings and metal-matrix composites are experimentally demonstrated with defect tolerance and conventional processing, while the electronic and photonic uses still depend on unsolved patterning and alignment problems.
 
 **TLDR: Already routine as a laboratory substrate; the sources give no basis for dating any of the application-level claims.**
 

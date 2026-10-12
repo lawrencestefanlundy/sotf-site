@@ -16,8 +16,8 @@ related_concepts:
 - lasers
 sources:
 - '[[2026-05-30-intel-optoscribe-acquisition]]'
-mention_count: 32
-sources_7d: 0
+mention_count: 33
+sources_7d: 1
 sources_30d: 2
 recent_mentions:
 - slug: 2026-05-30-intel-optoscribe-acquisition

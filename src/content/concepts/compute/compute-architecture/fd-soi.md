@@ -113,8 +113,6 @@ Diffusion is already underway in the segments where FD-SOI's options matter: two
 
 The barriers are structural rather than technical. The supplied sources name only a handful of FD-SOI suppliers (GlobalFoundries, Samsung, ST/Crolles), so multi-sourcing is hard; the SPAD scan illustrates the general risk of single-foundry dependence in specialty silicon and treats second-sourcing onto GlobalFoundries as a structural necessity rather than a nice-to-have. GF also spreads its eNVM portfolio across FinFET and BCD as well as FDX <sup class="ref"><a href="https://investors.gf.com/static-files/d85029e8-6913-4ea1-919c-b8c4361f00b7" title="GlobalFoundries Investor Day 2026 (presentation)" rel="noopener">ref</a></sup>, and TSMC's Dresden build is described as 28/22nm plus 16/12nm specialty **2024 Eu Chips Act Final Text**, so FD-SOI competes for the same designs against non-SOI specialty options. No source shows an FD-SOI node below 22nm, which caps the platform's reach into higher-performance sockets.
 
-**TLDR: Real production and a live design ecosystem, but a narrow foundry set, no visible node roadmap below 22nm, and competition from bulk and FinFET for the same sockets.**
-
 ## Impact (3/5)
 
 The upside case is one of enablement across several markets rather than a single large one. On the IoT side, GF frames 39B+ connected devices by 2030 as "virtually all requiring eNVM", with FDX carrying that portfolio and the value proposition being standby/refresh power versus SRAM and I/O power versus external memory <sup class="ref"><a href="https://investors.gf.com/static-files/d85029e8-6913-4ea1-919c-b8c4361f00b7" title="GlobalFoundries Investor Day 2026 (presentation)" rel="noopener">ref</a></sup>; the embedded eNVM market anchor in the research synthesis is ~$2.6B by 2029, which is a real but bounded number. On the quantum side, the leverage is disproportionate to the wafer volume: if cryogenic control and readout must be manufactured somewhere, and FDX is the platform GF is positioning for it with US Government backing and a partner list spanning superconducting, spin, ion-trap, photonic and topological modalities, FD-SOI sits on the critical path of a much larger system <sup class="ref"><a href="https://gf.com/gf-press-release/globalfoundries-launches-quantum-technology-solutions-to-scale-us-quantum-manufacturing/" title="GlobalFoundries launches Quantum Technology Solutions to scale U.S. quantum manufacturing" rel="noopener">ref</a></sup>.
@@ -150,11 +148,6 @@ The caveat is that this is a judgement about strategic position, not about measu
 - The European Chips Act (Regulation 2023/1781, in force September 2023) lists ST/GlobalFoundries Crolles as an FD-SOI specialty project within a ~€43B public-plus-private mobilisation targeting 20% of global production by 2030 **2024 Eu Chips Act Final Text**.
 
 ## Open questions
-
-- Is there an FD-SOI node below 22nm on any foundry roadmap, or is 22FDX/28nm the terminal generation for the platform?
-- What is the measured power, area and RF advantage of 22nm FD-SOI against bulk 28nm and a comparable FinFET node for the always-on and edge-AI sockets it is being marketed into?
-- Will cryogenic behaviour become a supported, qualified PDK corner on FDX, or does each design team have to repeat its own 4 K characterisation as CryoZip did?
-- Does eMRAM/ReRAM on FDX win the post-eFlash embedded memory socket against GF's own FinFET and BCD eNVM offerings, or does FD-SOI lose its lead-platform status as the portfolio spreads?
 
 ---
 *Assessment drafted 2026-08-31 from up to 10 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

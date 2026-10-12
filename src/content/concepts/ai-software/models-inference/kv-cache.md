@@ -19,6 +19,7 @@ sources:
 - '[[2025-10-23-data-value-migrates-to-retrieval-layer-agentic-databases]]'
 - '[[2026-07-10-workload-phase-silicon-sweep]]'
 - '[[2026-06-18-sensifai-hybrids-deck]]'
+- '[[2026-04-15-jensen-huang-tpu-competition-why-we-should-sell-chips-to-chi]]'
 - '[[2026-06-09-semianalysis-deepseek-v4-inference]]'
 - '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
 - '[[2026-01-01-data-value-migrates-to-retrieval-layer-ai-agent-memory-2026]]'
@@ -35,9 +36,9 @@ frontier:
 last_updated: 2026-07-29
 tags:
 - concept
-mention_count: 88
-sources_7d: 8
-sources_30d: 28
+mention_count: 90
+sources_7d: 6
+sources_30d: 26
 recent_mentions:
 - slug: 2026-08-07-the-memory-trade-isnt-over-weights
   title: 'The Memory Trade Isn''t Over: Weights and KV Cache'

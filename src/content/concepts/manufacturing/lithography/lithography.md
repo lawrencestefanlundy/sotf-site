@@ -34,7 +34,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 240
+mention_count: 243
 descendants:
 - computational-lithography
 - directed-self-assembly
@@ -52,8 +52,8 @@ descendants:
 - two-photon-polymerization
 - x-ray-lithography
 - xolography
-sources_7d: 3
-sources_30d: 10
+sources_7d: 2
+sources_30d: 8
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
@@ -150,8 +150,6 @@ The adjacent branches are converging on the practical layer rather than the phys
 **TLDR: Mainstream lithography is already the deciding variable; the newer branches are in the software and metrology consolidation phase now.**
 
 ## Overrated or underrated? Fairly rated
-
-Lithography's centrality is not in dispute and the evidence does not suggest anyone underestimates it. Two sub-claims inside the field are mispriced, however. The first is the assumption that architectures which reduce lithography steps automatically reduce cost. The 3D NAND analysis dismantles that for vertical-channel memory, showing a cost minimum in layer count driven by etch taper, and showing that three critical masks per device layer can win on total cost **Walker 2013 Rigorous 3D Nand Flash Cost Analysis**. Any roadmap that treats mask count as a pure cost to be minimised should be checked against that mechanism.
 
 The second is that the binding constraint on the newer lithography modalities is no longer resolution. Two-photon lithography already writes centimetre-scale continuous 3D parts with grayscale voxel control; what limits it is data bandwidth, slicer software, inspection and metrology. Likewise the gap between simulated and fabricated inverse-designed photonics is a mask-flow and calibration problem, not an optics problem. Value in the next few years accrues to the software and metrology layer around lithography rather than to new exposure physics.
 

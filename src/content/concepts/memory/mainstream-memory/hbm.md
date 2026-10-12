@@ -57,7 +57,7 @@ scorecard:
 scorecard_status: draft
 mention_count: 103
 sources_7d: 3
-sources_30d: 13
+sources_30d: 9
 recent_mentions:
 - slug: 2026-07-31-etched-research-sprint
   title: Etched research sprint — tape-out speed, HBM supply, customer orders (4-lane web sweep)

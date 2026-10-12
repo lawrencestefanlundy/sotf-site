@@ -16,6 +16,7 @@ related_concepts:
 - direct-to-cell-leo
 - gnss-pnt
 sources:
+- '[[2026-10-09-europes-earth-observation-providers-set-their-sights-on-satc]]'
 - '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
 - '[[2026-05-13-20-years-of-space-communications-and-navigation]]'
 - '[[2026-06-05-nasa-concludes-antenna-mishap-investigation-releases-report]]'
@@ -32,7 +33,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - category
-mention_count: 35
+mention_count: 37
 descendants: []
 last_reorg_date: '2026-05-14'
 scorecard:
@@ -44,9 +45,13 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 1
+sources_7d: 2
+sources_30d: 3
 recent_mentions:
+- slug: 2026-10-09-europes-earth-observation-providers-set-their-sights-on-satc
+  title: Europe’s Earth Observation Providers Set Their Sights on Satcom
+  date: '2026-10-09'
+  kind: web
 - slug: 2026-09-07-teledyne-e2v-data-converters-defence
   title: High Speed Data Converters for RF & Space; defense applications (Teledyne e2v Semiconductors)
   date: '2026-09-07'

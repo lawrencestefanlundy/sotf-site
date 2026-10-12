@@ -31,10 +31,18 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 404
+mention_count: 408
 sources_7d: 3
-sources_30d: 13
+sources_30d: 12
 recent_mentions:
+- slug: 2026-10-11-ultraviolet-laser-creates-new-defects-in-diamond-without-dis
+  title: Ultraviolet laser creates new defects in diamond without disturbing quantum centers
+  date: '2026-10-11'
+  kind: web
+- slug: 2026-10-10-ultraviolet-laser-pulses-engineer-diamond-defects-selectivel
+  title: Ultraviolet laser pulses engineer diamond defects selectively, leaving quantum qubits intact
+  date: '2026-10-10'
+  kind: web
 - slug: 2026-10-07-neuro-catalyst-sweep
   title: 'Catalyst sweep: AI decoding, new sensing modalities, non-invasive deep stimulation, payment pathways (neuro, Oct 2026)'
   date: '2026-10-07'
@@ -58,14 +66,6 @@ recent_mentions:
 - slug: 2026-06-24-thermal-stack-arms-race-diamond-heat-spreaders-companies-in
   title: Diamond Heat Spreaders Companies in 2026
   date: '2026-06-24'
-  kind: web
-- slug: 2026-06-23-evtol-certification-status-joby-stage4-archer-volocopter
-  title: eVTOL type-certification status Q1-Q2 2026 — Joby Stage 4, Archer Stage 3, Volocopter pivot
-  date: '2026-06-23'
-  kind: web
-- slug: 2026-06-22-thermal-stack-layer-landscape
-  title: AI datacentre thermal stack, junction-to-ambient — per-layer players, M&A, capture (web research synthesis)
-  date: '2026-06-22'
   kind: web
 neighbors:
 - slug: wide-bandgap-semiconductors

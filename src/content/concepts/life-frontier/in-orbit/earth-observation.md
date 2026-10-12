@@ -16,6 +16,7 @@ related_concepts:
 - atmospheric-sensing
 - leo-mega-constellations
 sources:
+- '[[2026-10-09-europes-earth-observation-providers-set-their-sights-on-satc]]'
 - '[[2026-05-06-putting-the-super-into-a-supersite-for-earth-observation]]'
 - '[[2026-01-13-diffraqtion-42-million-pre-seed-closed-to-build-quantum-came]]'
 frontier:
@@ -30,7 +31,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - category
-mention_count: 58
+mention_count: 59
 descendants: []
 last_reorg_date: '2026-05-14'
 scorecard:
@@ -42,9 +43,13 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 1
-sources_30d: 6
+sources_7d: 2
+sources_30d: 7
 recent_mentions:
+- slug: 2026-10-09-europes-earth-observation-providers-set-their-sights-on-satc
+  title: Europe’s Earth Observation Providers Set Their Sights on Satcom
+  date: '2026-10-09'
+  kind: web
 - slug: 2026-09-09-watch-flex-and-sentinel-3c-launch-on-vega-c
   title: 'Watch: FLEX and Sentinel-3C launch on Vega-C'
   date: '2026-09-09'

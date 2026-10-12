@@ -43,7 +43,7 @@ tags:
 - reference
 descendants:
 - mlc-llm
-mention_count: 65
+mention_count: 68
 scorecard:
   viability: null
   drivers: null
@@ -53,7 +53,7 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 1
+sources_7d: 4
 sources_30d: 12
 recent_mentions:
 - slug: 2026-08-03-nasa-delivers-navigation-system-for-commercial-lunar-relay
@@ -151,8 +151,6 @@ The sources do discuss impact in other domains, such as an order-of-magnitude im
 **TLDR: Value if it works cannot be sized from these sources.**
 
 ## Timing Unclear
-
-Timing bands should be anchored to demonstrated capability, product availability or a credible roadmap. The source set contains none of these for Apache TVM, so the honest band is Unclear.
 
 The dated evidence available runs from May to July 2026 and concerns unrelated physics and quantum-computing results, for example a proposal to cut qubit reset times by up to 50%. Those dates say nothing about the maturity of an ML compiler stack.
 

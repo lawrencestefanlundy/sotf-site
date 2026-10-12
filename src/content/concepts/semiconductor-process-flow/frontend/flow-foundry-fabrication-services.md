@@ -81,27 +81,3 @@ Net read: the served market (equipment plus materials the foundry buys) is in a 
 
 ## Connections
 [Semiconductor Foundries](/manufacturing/foundry-design/foundry/) · [Specialty Foundries (TFLN, GaN, SiC, photonic)](/manufacturing/foundry-design/specialty-foundries/) · theses: **Specialty Silicon Non Leading Edge** · **New Uk Fab** · **Sovereign Electronics Manufacturing**
-
-## Sources
-1. Astute Group / TrendForce, "$165B in 2025: Advanced Nodes Drive Foundry Revenue" — https://www.astutegroup.com/news/industrial/165b-in-2025-advanced-nodes-drive-foundry-revenue-to-record-high/
-2. Yole Group, "Wafer Fab Equipment (WFE) market to hit $184 billion by 2030" — https://www.yolegroup.com/press-release/wafer-fab-equipment-wfe-market-to-hit-184-billion-by-2030-for-equipment-and-services-driven-by-specialized-segment-growth-and-global-manufacturing-shifts/
-3. SEMI, 2024 Silicon Shipment Data / materials market — https://www.semi.org/en/products-services/market-data/materials
-4. Foundry market outlook 2025 (PCIM/Mesago) — https://news.pcim.mesago.com/foundry-market-outlook-2025-ai-and-advanced-technologies-drive-growth-a-99123fe2cd554408653ccfe4ae7d890c/
-5. TSMC FY2024 6-K (SEC) — https://www.sec.gov/Archives/edgar/data/0001046179/000104617925000004/a4q24e_withguidancexfinal.htm
-6. TrendForce, "TSMC Projects Q1 Gross Margin... 2025 CapEx" — https://www.trendforce.com/news/2025/01/16/news-tsmc-projects-q1-gross-margin-to-hold-steady-at-58-with-2025-capex-rising-up-to-usd-42-billion/
-7. Research and Markets / SEMI, Semiconductor Fabrication Materials market — https://www.researchandmarkets.com/report/semiconductor-fabrication-material
-8. Design-Reuse / Counterpoint, "Global foundry revenue Q2 2025, TSMC 70% share" — https://www.design-reuse.com/news/202529294-global-foundry-revenue-surged-to-41-7-billion-in-q2-2025-with-tsmc-capturing-a-record-70-percent-market-share/
-9. Tom's Hardware, "Trailing-edge foundry roadmaps (GF, UMC, SMIC)" — https://www.tomshardware.com/tech-industry/semiconductors/the-trailing-edge-foundry-roadmap-examined
-10. EE Times Asia, "AI, Smartphone Demand in Leading Edge Nodes... 3Q 2024" — https://www.eetasia.com/ai-smartphone-demand-in-leading-edge-nodes-propel-global-foundry-industry-in-3q-2024/
-11. GlobalFoundries 4Q/FY2024 6-K (SEC) — https://www.sec.gov/Archives/edgar/data/0001709048/000170904825000017/globalfoundries4q2024earni.htm
-12. Mark Lapedus / Semiecosystem, Q1 '25 foundry earnings — https://marklapedus.substack.com/p/q1-25-foundry-earnings-hit-or-miss-b51
-13. Mark Lapedus / Semiecosystem, foundry rankings + Intel Foundry losses — https://marklapedus.substack.com/p/tsmc-tops-new-foundry-rankings-samsung
-14. X-FAB corporate (specialty foundry) — https://www.xfab.com/
-15. SEMI, "Global Semiconductor Equipment Sales Projected to Reach a Record of $156 Billion in 2027" (Dec 2025) — https://www.semi.org/en/semi-press-release/global-semiconductor-equipment-sales-projected-to-reach-a-record-of-156-billion-dollars-in-2027-semi-reports
-16. SEMI, "SEMI Projects Double-Digit Growth in Global 300mm Fab Equipment Spending for 2026 and 2027" — https://www.semi.org/en/semi-press-release/semi-projects-double-digit-growth-in-global-300mm-fab-equipment-spending-for-2026-and-2027
-17. Deloitte, "2026 Semiconductor Industry Outlook" (foundry/AI demand, mature-node) — https://www.deloitte.com/us/en/insights/industry/technology/technology-media-telecom-outlooks/semiconductor-industry-outlook.html
-18. SEMI, 2025 Semiconductor Materials Market ($73.2bn; fab materials $45.8bn; packaging materials $27.4bn) — https://www.semi.org/en/products-services/market-data/materials
-19. CSIS, "China's Mature Semiconductor Overcapacity: Does It Exist and Does It Matter?" + US export-control scope — https://www.csis.org/analysis/chinas-mature-semiconductor-overcapacity-does-it-exist-and-does-it-matter
-20. FinancialContent, "TSMC to Quadruple Advanced Packaging Capacity: 130,000 CoWoS Wafers Monthly by Late 2026" (HBM4 hybrid bonding) — https://markets.financialcontent.com/stocks/article/tokenring-2026-2-5-tsmc-to-quadruple-advanced-packaging-capacity-reaching-130000-cowos-wafers-monthly-by-late-2026
-21. FinancialContent, "ASML's $350M High-NA EUV Machines Hit the Production Floor" (EXE:5200B, 175 wph) — https://markets.financialcontent.com/stocks/article/tokenring-2026-1-26-printing-the-2nm-era-asmls-350-million-high-na-euv-machines-hit-the-production-floor
-22. TrendForce, "TSMC Latest Roadmap: A16 Volume Production Delayed to 2027; N2/A16 without High-NA" — https://www.trendforce.com/news/2026/04/23/news-tsmc-unveils-latest-roadmap-a12-a13-set-for-2029-without-high-na-euv-a16-volume-production-delayed-to-2027/

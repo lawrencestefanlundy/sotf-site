@@ -23,6 +23,14 @@ mention_count: 70
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-09-exclusive-kapta-space-raises-24m-series-a-to-build-moving-ta
+  title: 'Exclusive: Kapta Space Raises $24M Series A to Build Moving Target Radar Payload'
+  date: '2026-10-09'
+  kind: web
+- slug: 2026-10-06-beyond-wiring-diagrams-inside-a-19-million-effort-to-expand-
+  title: 'Beyond wiring diagrams: Inside a $19 million effort to expand access to connectome technology'
+  date: '2026-10-06'
+  kind: web
 - slug: 2026-09-01-diffraqtion-adds-to-pre-seed-round-for-quantum-camera-tech--
   title: Diffraqtion Adds to Pre-Seed Round for Quantum Camera Tech - Payload Space
   date: '2026-09-01'
@@ -30,6 +38,10 @@ recent_mentions:
 - slug: 2026-01-13-quantum-imaging-startup-diffraqtion-emerges-from-stealth---p
   title: Quantum Imaging Startup Diffraqtion Emerges from Stealth - Payload Space
   date: '2026-01-13'
+  kind: web
+- slug: 2024-04-29-umbra-advances-to-phase-ii-of-the-darpa-drift-program---satn
+  title: Umbra Advances to Phase II of the DARPA DRIFT program - satnews.com
+  date: '2024-04-29'
   kind: web
 neighbors: []
 ---

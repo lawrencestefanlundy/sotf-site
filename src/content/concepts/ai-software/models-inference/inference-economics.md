@@ -40,7 +40,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 32
+mention_count: 33
 descendants:
 - token-cost-stack
 sources_7d: 4
@@ -130,8 +130,6 @@ The limits are real. Vendor claims frequently do not survive verification: Cereb
 
 On the demand side, the constraint that forces the KPI is electricity, not capital. Huang described a "power-limited industry" whose "revenues are power limited" at GTC in March 2025, and Nadella said in November 2025 that he has "chips sitting in inventory that I can't plug in... not a compute glut, it's power". Margin pressure supplies the second push: Minack's 21 July 2026 note argues the evidence now says AI provision is a competitive, mediocre-return industry, partly because of cheap Chinese competition, and Chinese open-weight models are reported at coding parity with 5-30x lower cost per token <sup class="ref"><a href="https://quasa.io/media/chinese-open-weight-models-are-nipping-at-the-heels-of-western-sota" title="Chinese Open-Weight Models Are Nipping at the Heels of Western SOTA" rel="noopener">ref</a></sup>. When gross margin is the battleground, serving cost per token stops being an engineering statistic and becomes the P&L. Google reported Gemini serving unit costs down 78% over 2025 on the 4 February 2026 call, and at the application layer Cursor reached slight gross-margin profitability in April 2026 partly through cheaper model routing <sup class="ref"><a href="https://valueaddvc.com/blog/what-series-a-investors-are-looking-for-in-ai-startups-in-2026" title="AI-native application retention and gross margin benchmarks, mid-2026" rel="noopener">ref</a></sup>.
 
-On the supply side, the workload has moved against general-purpose GPUs: reasoning models produce long output sequences at low arithmetic intensity under tight latency, so system utilisation drops and the memory wall binds. That is why decode is being pushed onto different hardware (Splitwise noted decode "can run on lower-cost and lower-power hardware"; DistServe measured up to 7.4x more requests from prefill/decode disaggregation) and why the roadmap now contains phase-specific parts, including the Nvidia-Groq licensing deal of around $20B on 24 December 2025 leading to an SRAM decode co-processor targeted at Q3 2026. Memory cost is the counter-driver: a 73% annualised spike in the software and accessories price index in late 2025, attributed in part to flash-memory prices, shows the input side of the KPI can move against buyers <sup class="ref"><a href="https://www.geninnov.ai/blog/silicon-shock-the-macro-of-tech-inflation" title="Silicon Shock: The Macro of Tech Inflation" rel="noopener">ref</a></sup>.
-
 **TLDR: Demand side: power-capped datacentres and competitive compression of AI service margins. Supply side: memory-bound decode workloads that peak-FLOPS silicon serves badly.**
 
 ## Novelty (3/5)
@@ -153,8 +151,6 @@ The barriers are downstream of acceptance. First, measurement: outside Artificia
 ## Impact (4/5)
 
 The KPI's power comes from the baseline drift it implies. If GPU delivered cost per token falls at roughly 2.5-3x per year on infrastructure alone (with Epoch putting fixed-capability price declines at a median 50x per year), then a challenger with a claimed 5x advantage against an unshipped Nvidia part <sup class="ref"><a href="https://www.positron.ai/asimov" title="Positron AI research sprint: architecture, funding, customers, manufacturing" rel="noopener">ref</a></sup> has roughly a year of headroom, and any advantage that is not compounding is not an advantage. That arithmetic is visible in outcomes: the chip tail consolidated hard in one month of mid-2026, with Hailo sold to Microchip at a fraction of its $1.2B peak, Taalas to AMD, Esperanto wound down and Blaize on distress watch.
-
-The same metric propagates up the stack into equity returns. Minack's case that AI provision is a competitive, mediocre-return industry rests on contestability, which is exactly what a falling cost per token enforces. At the application layer the split between 50-60% gross margins for thin frontier-model wrappers and 70%-plus for owners of their own models is a direct read-through from serving cost <sup class="ref"><a href="https://valueaddvc.com/blog/what-series-a-investors-are-looking-for-in-ai-startups-in-2026" title="AI-native application retention and gross margin benchmarks, mid-2026" rel="noopener">ref</a></sup>. And the memory roadmap is being redirected by it: High Bandwidth Flash offers HBM4-class read bandwidth at roughly 10x capacity in cheap NAND, with memory samples expected in the second half of 2026 and inference devices in early 2027, aimed squarely at decode economics <sup class="ref"><a href="https://www.chipstrat.com/p/high-bandwidth-flash-the-full-report" title="High Bandwidth Flash: The Full Report" rel="noopener">ref</a></sup>.
 
 **TLDR: It is the metric that allocates tens of billions of procurement and sets the survival bar for every non-Nvidia inference chip.**
 

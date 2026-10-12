@@ -14,7 +14,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 3
+mention_count: 4
 descendants:
 - ai-accelerator-ip
 - edge
@@ -33,8 +33,8 @@ frontier:
 - Does the reduced numerical precision of analog computation degrade task accuracy for the model classes targeted at wearables and vehicles, and by how much?
 - Which device categories (glasses, earphones, watches, phones, robots, cars, drones) have power and memory envelopes that digital accelerators genuinely cannot meet?
 - Can analog compute cells be fabricated at existing process nodes with yields and variability tolerances that support volume production?
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
 - slug: 2026-07-08-silex-sx-pcebe-ap-wi-fi-7-module-now-at-mouser-for-ai-edge-i
   title: Silex SX-PCEBE-AP Wi-Fi 7 Module Now at Mouser for AI Edge & Industrial Automation - TimesTech

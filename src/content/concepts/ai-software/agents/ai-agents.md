@@ -7,6 +7,7 @@ parent_concepts: []
 related_concepts: []
 sources:
 - '[[2024-11-05-confidential-ai-the-dog-that-didnt]]'
+- '[[2026-02-27-four-things-what-do-these-people]]'
 - '[[2025-08-12-ai-and-junior-white-collar-automation]]'
 - '[[2026-06-05-recursive-until-the-power-bill]]'
 - '[[2025-02-05-you-like-ai-agents-you-are-gonna]]'
@@ -26,7 +27,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 143
+mention_count: 154
 descendants:
 - agent-identity-kya
 - agentic-ai
@@ -36,9 +37,17 @@ descendants:
 - stablecoin-clearing
 - stablecoins
 - x402
-sources_7d: 7
-sources_30d: 34
+sources_7d: 8
+sources_30d: 30
 recent_mentions:
+- slug: 2026-09-25-swarm-scaling
+  title: Swarm Scaling
+  date: '2026-09-25'
+  kind: web
+- slug: 2026-08-27-rethinking-legacy-data-infrastructure-with-eon-co-founders-o
+  title: Rethinking Legacy Data Infrastructure with Eon Co-Founders Ofir Ehrlich and Gonen Stein
+  date: '2026-08-27'
+  kind: web
 - slug: 2026-08-24-embedd-pre-seed-siliconangle
   title: Chip software automation startup Embedd raises $2.7M
   date: '2026-08-24'
@@ -63,14 +72,6 @@ recent_mentions:
   title: AI-native application retention and gross margin benchmarks, mid-2026
   date: '2026-07-26'
   kind: web
-- slug: 2026-06-18-aeon-verification
-  title: AEON product verification — facilitator + merchant network + atomic settlement, not a netting competitor
-  date: '2026-06-18'
-  kind: web
-- slug: 2026-06-05-recursive-until-the-power-bill
-  title: Recursive, Until the Power Bill
-  date: '2026-06-05'
-  kind: substack
 neighbors: []
 ---
 **AI agents are LLM-driven systems that plan, call external tools and act autonomously over long horizons, and by mid-2026 the field's centre of gravity has shifted from demonstrating capability to measuring it on realistic end-to-end tasks and containing the security failures that autonomy creates.**

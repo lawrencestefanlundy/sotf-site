@@ -54,12 +54,7 @@ The cost is **density and volatility**:
 - An SRAM bitcell (6T, sometimes 8T/10T for CIM) is large compared with a 1T1R RRAM cell or a stacked memcapacitor. So SRAM-CIM stores fewer weights per mm².
 - SRAM is **volatile** — it loses state on power-off and burns standby leakage to hold weights. For always-on edge inference that is a real penalty; for plugged-in datacentre decode it matters less.
 
-The density limit is the crux: if the whole model has to fit in on-die SRAM, SRAM-CIM is capped at model sizes that fit. This is exactly the bet Fractile is making (DRAM-less, model-in-SRAM) and exactly where the scepticism sits.
-
 ## Analog vs digital SRAM-CIM
-
-- **Analog SRAM-CIM (**Encharge Ai**).** Weights in SRAM, MAC performed by switched-capacitor circuits on the metal above the array — charge-domain (see [Charge-Domain Compute](/compute/non-conventional/charge-domain-compute/)), precise, low static power. Subject to the [ADC Bottleneck (analog in-memory compute)](/compute/compute-architecture/adc-bottleneck/) like all analog CIM. EnCharge's ~20× efficiency claim rests here.
-- **Digital SRAM-CIM (**Fractile**-style).** Compute stays digital but sits adjacent to / inside the SRAM, removing the von Neumann data-movement cost without the ADC overhead. Less efficient per-MAC than analog but no analog-conversion penalty and easier to get to production precision.
 
 ## Where it sits against memcapacitor
 

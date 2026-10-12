@@ -25,10 +25,18 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 143
-sources_7d: 1
-sources_30d: 18
+mention_count: 163
+sources_7d: 15
+sources_30d: 28
 recent_mentions:
+- slug: 2026-10-09-beam-the-great-american-open-model-with-reflectionai-co-foun
+  title: 'Beam: The Great American Open Model with ReflectionAI Co-Founder and CEO Misha Laskin'
+  date: '2026-10-09'
+  kind: web
+- slug: 2026-10-07-hiphi-a-large-scale-benchmark-for-high-precision-human-motio
+  title: 'HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object Interaction'
+  date: '2026-10-07'
+  kind: web
 - slug: 2026-05-01-state-of-the-future-friday-four-7b7
   title: 'State of the Future: Friday Four'
   date: '2026-05-01'
@@ -52,14 +60,6 @@ recent_mentions:
 - slug: 2024-10-29-deploy-intelligence-too-cheap-to
   title: Deploy! Intelligence too cheap to meter @ $0.0001 per million tokens.
   date: '2024-10-29'
-  kind: substack
-- slug: 2024-10-22-state-of-the-future-part-deux
-  title: 'An AI Thesis: State of the Future! Part Deux'
-  date: '2024-10-22'
-  kind: substack
-- slug: 2023-08-31-e13-chiplets-how-chip-lego-is-driving
-  title: '🔮 E13: Chiplets - How Chip Lego is Driving AI Progress'
-  date: '2023-08-31'
   kind: substack
 neighbors: []
 ---
@@ -108,8 +108,6 @@ Against that, one diffusion path looks comparatively easy. Where RL sits inside 
 **TLDR: Nothing in the sources shows adoption outside research code, and the specific barriers named are the hard ones.**
 
 ## Impact (4/5)
-
-If the reported margins survive contact with hardware, the value is structural rather than incremental. SWAP overhead is a first-order determinant of what circuits can run on a near-term quantum processor at all, so a 65-85% reduction converts directly into executable depth. Autonomous quantum error correction that avoids the extra errors introduced by active measurement, with codes discovered rather than hand-derived under Knill-Laflamme conditions, addresses a bottleneck on the whole fault-tolerance roadmap. Aggregate throughput in cell-free massive MIMO under minimum-rate guarantees is the metric operators buy spectrum and hardware for. Generating stable molecules with no training data at all would remove the dataset-bias ceiling on generative chemistry.
 
 The caveats: no source in this set quantifies economic value, market size or cost saving, so the impact judgement is inferred from the technical position of the metrics rather than measured. Impact is also broad and shallow rather than concentrated. RL is not creating a new capability in any of these papers; it is displacing a heuristic or an intractable solver inside an existing pipeline. That pattern generates a lot of aggregate value and no single defensible product.
 

@@ -130,16 +130,6 @@ Both target the same workload class — **sampling-heavy AI** (diffusion models,
 
 ## Competitive landscape
 
-| Approach | Companies | Energy claim | Maturity | Target workload |
-|---|---|---|---|---|
-| **Thermodynamic continuous-state** | **Normal Computing** | ~1000x vs GPU (press); "orders of magnitude" (their technical blog) | CN101 silicon June 2025; CN201 2026 | Diffusion, Bayesian inference, matrix inversion |
-| **Thermodynamic / p-bit single-state (TSU)** | **Extropic** | ~10,000x vs GPU (system-level analysis) | X0 proof Q1 2025; Z1 production early 2026 | Image / video generation, robotics control |
-| **CMOS p-bit (academic)** | Tohoku / Purdue / Aalto labs | ~1 fJ/op at room temp | ~1k p-bit research chips | Combinatorial optimisation, Bayesian sampling |
-| **Quantum annealing** | D-Wave | μJ range with cryo overhead | Commercial, >5000 qubits | Combinatorial optimisation |
-| **Classical Ising / annealer** | Fujitsu DAU, Hitachi CMOS annealer, Toshiba SQBM+ | n/a | Commercial | QUBO / Ising-form optimisation |
-| **Neuromorphic / spiking** | Intel Loihi, BrainScaleS, SynSense | Varies | Research / pilot | Event-driven inference |
-| **GPU Monte Carlo (baseline)** | NVIDIA, AMD | pJ/op, mature toolchain | TRL 9 | General ML sampling |
-
 ## Companies using
 
 <!-- dataview block stripped for public site -->

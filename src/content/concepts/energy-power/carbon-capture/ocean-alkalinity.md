@@ -23,8 +23,6 @@ neighbors: []
 ---
 ## Physics / mechanism
 
-Ocean alkalinity enhancement (OAE) accelerates the ocean's natural carbon buffering chemistry. Seawater absorbs CO₂ via: CO₂ + H₂O + CO₃²⁻ → 2HCO₃⁻. Adding alkalinity (crushed silicate/carbonate minerals, electrolytically produced hydroxides) shifts equilibrium, pulling atmospheric CO₂ into stable bicarbonate. Key parameters: alkalinity addition rate (µmol/kg), pH delta (target <0.3 units above baseline), monitoring via total alkaline titration and TA/DIC ratios. Seaweed (macro/microalgae) operates differently—photosynthetic biomass uptake followed by sinking or harvest+sequestration. Current OAE pilots: 1–100 tonne CO₂/ha/yr estimates pending field validation. Frontier, Running Tide, Ebb Carbon leading commercial deployment.
-
 ## Competitive landscape
 
 ---

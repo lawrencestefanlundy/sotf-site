@@ -20,8 +20,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 92
-sources_7d: 2
+mention_count: 95
+sources_7d: 5
 sources_30d: 20
 recent_mentions:
 - slug: 2026-05-02-self-buffered-bto-epitaxy-on-oxide-insulator-light-sci-app-2

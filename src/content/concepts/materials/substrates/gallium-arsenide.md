@@ -25,8 +25,8 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 102
-sources_7d: 2
-sources_30d: 14
+sources_7d: 1
+sources_30d: 11
 recent_mentions:
 - slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
   title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
@@ -95,8 +95,6 @@ For CMOS integration the barrier is optical: the high refractive index of (Al)Ga
 **TLDR: Ubiquitous in research labs with MBE access, but each frontier application hits a specific integration barrier that is currently being worked around.**
 
 ## Impact (3/5)
-
-If the GaAs quantum dot route to deterministic, fibre-coupled entangled photon pair sources matures, it underpins quantum communication networks, which is the explicit motivation given. The metrology impact is already partly realised: a transportable clock laser at 2 x 10^-16 instability moves optical clock performance out of the fixed laboratory, and AlGaAs/GaAs coatings are on the roadmap for gravitational-wave detector upgrades, where mirror thermal noise is a limiting term. In condensed matter, ultra-clean GaAs/AlGaAs heterostructures offer a route to emulating the Haldane model, a Chern insulator with quantised Hall conductance without Landau levels, in a solid-state system.
 
 The ceiling on this score is that the sources give no evidence about the size of the served markets, the cost of GaAs systems relative to alternatives, or the volume of deployed devices. The 1.3 um quantum dot laser work, the closest thing to a mass-market application, is a numerical study of design trade-offs rather than a fabricated device. Impact is credible and broad in scientific terms; its economic magnitude is not assessable from what is here.
 

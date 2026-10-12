@@ -22,8 +22,7 @@ related_concepts:
 last_updated: '2026-08-31'
 tags:
 - concept
-sources:
-- '[[2026-08-31-qcells-tandem-iec-ul-certification-tuv-rheinland]]'
+sources: []
 scorecard:
   viability: 3
   drivers: 3
@@ -33,10 +32,14 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 135
-sources_7d: 2
+mention_count: 139
+sources_7d: 3
 sources_30d: 19
 recent_mentions:
+- slug: 2026-10-08-volatile-eutectics-to-tailor-crystallization-for-perovskite-
+  title: Volatile eutectics to tailor crystallization for perovskite optoelectronics
+  date: '2026-10-08'
+  kind: web
 - slug: 2026-08-31-qcells-tandem-iec-ul-certification-tuv-rheinland
   title: Qcells secures TUV Rheinland certification for perovskite-silicon tandem solar tech (pv magazine, 16 Jul 2026; pv-tech corroborating)
   date: '2026-08-31'

@@ -42,8 +42,12 @@ descendants:
 - sensors
 - spectral-sensing
 sources_7d: 1
-sources_30d: 11
+sources_30d: 8
 recent_mentions:
+- slug: 2026-09-29-tech-to-replace-animal-testing-is-almost-ready-scientists-ar
+  title: Tech to Replace Animal Testing Is Almost Ready. Scientists Are Not
+  date: '2026-09-29'
+  kind: web
 - slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
   title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
   date: '2026-07-28'
@@ -70,10 +74,6 @@ recent_mentions:
   kind: web
 - slug: 2026-06-21-grandview-mems-microphones
   title: MEMS Microphones Market Size — Industry Report to 2030 (Grand View Research)
-  date: '2026-06-21'
-  kind: web
-- slug: 2026-06-21-yole-mems-market-momentum
-  title: MEMS market regains momentum — Bosch, STMicroelectronics and TDK navigate the post-inventory growth era (Status of the MEMS Industry 2025)
   date: '2026-06-21'
   kind: web
 neighbors: []

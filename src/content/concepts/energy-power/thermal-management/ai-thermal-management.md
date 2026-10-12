@@ -118,15 +118,11 @@ The hardware path is slower and the sources name the obstacles directly: for co-
 
 ## Impact (4/5)
 
-The sources position thermal behaviour as gating rather than incremental. Co-packaged optics is presented as an architectural commitment whose fate depends on thermal co-design. Backside power delivery, a technique adopted for electrical reasons, is shown to carry pronounced thermal penalties in 3D under localised workloads, meaning a thermal result can reverse a power-delivery roadmap decision. On the efficiency side, the TPU record ties performance per watt and carbon emissions per floating point operation directly to the viability of large-scale training systems.
-
 The cap on the score is that the sources quantify the problem far better than the payoff of any specific solution. No source gives a figure for how much extra performance, density or efficiency a particular thermal intervention buys in a real AI system. Impact is high because the constraint is binding, not because any of these techniques has been shown to relieve it by a measured amount.
 
 **TLDR: Thermal limits sit directly on the critical path of 3D integration, in-package optics and datacentre energy efficiency, so the value at stake is the scaling of AI compute itself.**
 
 ## Timing Now (0-2yr)
-
-The design-methodology findings are immediately actionable and immediately consequential. If uniform power maps materially understate peak temperature and mask the difference between frontside and backside power delivery in 3D stacks, then analyses already used to justify roadmap choices are wrong today. Co-packaged optics is described as being in early deployment with the transition to wide adoption still contested, which places the decision window inside the next few years.
 
 **TLDR: The architectural decisions that thermal analysis should inform are being taken now; the exotic material solutions arrive much later, if at all.**
 

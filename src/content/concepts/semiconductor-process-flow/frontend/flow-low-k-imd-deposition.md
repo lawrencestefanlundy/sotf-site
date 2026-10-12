@@ -90,12 +90,6 @@ Net read: the served market grows with leading-edge logic, but it is cyclical an
  - The RC battle has shifted to the *metal* side (thinner/barrier-free liners, Cu to Ru/Mo/Rh) where the incremental spend is now going, not to the dielectric film [17][18].
  - Near-monopoly capture (AMAT Black Diamond) means a stable but not expanding vendor TAM, and the whole step rides WFE cyclicality.
 
-- **Trends & inflections to watch**
- - Advanced low-k (ALK): IBM showed a high-modulus dense (k~3.2) / lightly-porous (k~2.8-3.0) ILD for 2nm-and-beyond at IITC 2025 (Busan, 2-5 Jun 2025). Tripwire: a foundry naming an ALK-class film in a qualified 1.4nm/A14-era flow [16][18].
- - Air-gap integration at 18-26nm metal pitch in semi-damascene is in R&D. Tripwire: first air-gap module in a volume node [14][16].
- - GAA-plus-backside-power: TSMC A16 is slated for H2 2026. Tripwire: A16 reaching HVM, which makes the back-side ILD a recurring line item [13].
- - Barrier-free / post-Cu metallisation (Ru, Rh damascene) at 2nm. Tripwire: a post-Cu metal in production, which re-rates spend toward the conductor and away from this step [17][18].
-
 ## Connections
 - [Low-K Dielectrics](/materials/functional-layers/low-k-dielectrics/)
 - **Deposition Materials Process Market**

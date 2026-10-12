@@ -24,7 +24,7 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 134
+mention_count: 135
 descendants:
 - ar-glasses-stack
 - ar-optical-combiners

@@ -30,6 +30,7 @@ sources:
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2026-02-12-how-to-invest-in-ai-sovereignty-sovereign]]'
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
+- '[[2026-10-09-state-of-the-future-dispatch-9th]]'
 - '[[2026-07-07-the-asml-killer]]'
 - '[[2026-07-17-the-once-and-future-kimi]]'
 - '[[2026-04-24-state-of-the-future-friday-four-002]]'
@@ -50,7 +51,7 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-mention_count: 1186
+mention_count: 1197
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -59,9 +60,13 @@ descendants:
 - optical-frequency-comb
 - optical-frequency-division
 - optoelectronic-oscillator
-sources_7d: 1
-sources_30d: 3
+sources_7d: 2
+sources_30d: 4
 recent_mentions:
+- slug: 2026-10-09-state-of-the-future-dispatch-9th
+  title: 'State of the Future: Dispatch 9th October 2026'
+  date: '2026-10-09'
+  kind: substack
 - slug: 2026-10-07-china-the-fcc-and-the-logic-of-transceivers
   title: China, the FCC, and the Logic of Transceivers
   date: '2026-10-07'
@@ -69,6 +74,10 @@ recent_mentions:
 - slug: 2026-09-28-nasa-orbit-challenge-2027
   title: NASA ORBIT Challenge 2027
   date: '2026-09-28'
+  kind: web
+- slug: 2026-09-03-high-capacity-associative-memory-in-a-quantum-optical-spin-g
+  title: High-capacity associative memory in a quantum-optical spin glass
+  date: '2026-09-03'
   kind: web
 - slug: 2026-08-24-nist-researchers-supersize-quantum-technology-to-help-detect
   title: NIST Researchers Supersize Quantum Technology to Help Detect Faint Photons
@@ -85,14 +94,6 @@ recent_mentions:
 - slug: 2026-08-03-spad-single-photon-market-scan
   title: SPAD / single-photon detector market scan — incumbent structure and company cohort
   date: '2026-08-03'
-  kind: web
-- slug: 2026-07-31-memory-optics-packaging-chips-act-targets-ais-compute-bottle
-  title: 'Memory, optics, packaging: CHIPS Act targets AI''s compute bottleneck - Electronics360'
-  date: '2026-07-31'
-  kind: web
-- slug: 2026-07-31-inference-silicon-roster-sprint
-  title: 'Inference-silicon roster verification sprint: 10 companies for the competitive-analysis capital map'
-  date: '2026-07-31'
   kind: web
 neighbors: []
 ---

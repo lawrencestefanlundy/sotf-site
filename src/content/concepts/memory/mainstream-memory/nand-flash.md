@@ -31,7 +31,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 62
+mention_count: 63
 last_reorg_date: '2026-05-14'
 scorecard:
   viability: 4
@@ -43,16 +43,16 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 1
-sources_30d: 9
+sources_30d: 7
 recent_mentions:
-- slug: 2026-08-07-the-memory-trade-isnt-over-weights
-  title: 'The Memory Trade Isn''t Over: Weights and KV Cache'
-  date: '2026-08-07'
-  kind: substack
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
   kind: web
+- slug: 2026-08-07-the-memory-trade-isnt-over-weights
+  title: 'The Memory Trade Isn''t Over: Weights and KV Cache'
+  date: '2026-08-07'
+  kind: substack
 - slug: 2026-07-10-inference-silicon-deep-research
   title: 'Deep research: measured vs claimed inference-silicon economics (adversarially verified, 23/25 claims confirmed)'
   date: '2026-07-10'
@@ -94,8 +94,6 @@ One caveat on evidence: most of the supplied source set concerns photonic bound 
 ## Viability (4/5)
 
 There is no question that NAND works. Walker's analysis is a cost model of real, named production architectures (BiCS, p-BiCS, TCAT), not of a proposal **Walker 2013 Rigorous 3D Nand Flash Cost Analysis**, and the 2026 architecture papers treat 3D NAND as an available platform to be benchmarked alongside GPUs and FPGAs rather than as a research device. On the base question, does it work, the answer is settled.
-
-What is not viable, on the evidence supplied, is the roadmap story attached to it. Walker's result is that die cost per bit passes through a minimum in layer count and then rises, because etch taper makes the top-of-stack cell pitch grow linearly with the number of layers and that pitch is what sets the array footprint **Walker 2013 Rigorous 3D Nand Flash Cost Analysis**. If the model holds, the cost lever the industry has been pulling since planar scaling ended has a floor. The score is withheld from 5 because the sources give no post-2013 empirical confirmation of where that minimum sits, or whether process improvements (lower θ, multi-deck stacking) have moved it.
 
 **TLDR: The device is manufactured and treated as commodity baseline; the layer-scaling cost premise it was sold on is the part that fails.**
 

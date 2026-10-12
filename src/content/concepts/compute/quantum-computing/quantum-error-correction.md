@@ -20,8 +20,8 @@ scorecard:
   timing_band: Unclear
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 273
-sources_7d: 7
+mention_count: 279
+sources_7d: 3
 sources_30d: 23
 recent_mentions:
 - slug: 2024-12-16-willow-and-the-race-to-quantum-advantage
@@ -87,8 +87,6 @@ The reason this is 4 and not 5 is that these sources establish QEC as a prerequi
 ## Timing Unclear
 
 The decoding and control layer is a now-to-soon story on this evidence: real-time FPGA decoding of a real qLDPC code at 596 ns per round is already implemented, and threshold-improving techniques requiring no hardware change are available immediately. Encoded execution with mid-circuit stabiliser verification is already producing measurable gains on development hardware.
-
-The binding constraint is physical. Systems of fewer than 60 trapped-ion qubits at 10^-3 to 10^-4 error rates must become large machines below the threshold with reliable mid-circuit measurement before useful logical qubits exist. None of these sources offers a roadmap date, qubit-count trajectory or error-rate trend line, so any band beyond 'components now' would be invented. Timing is recorded as unclear deliberately.
 
 **TLDR: Sub-microsecond decoding hardware exists now, but the sources put no date on closing the five to six orders of magnitude physical error gap.**
 

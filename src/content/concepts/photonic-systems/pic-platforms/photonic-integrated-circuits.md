@@ -30,7 +30,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 137
+mention_count: 138
 last_reorg_date: '2026-05-13'
 descendants:
 - avalanche-photodiode
@@ -50,7 +50,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 3
-sources_30d: 10
+sources_30d: 11
 recent_mentions:
 - slug: 2026-07-29-globalfoundries-wins-300-million-chips-act-silicon-photonics
   title: GlobalFoundries wins $300 million CHIPS Act silicon photonics award - Yahoo Finance

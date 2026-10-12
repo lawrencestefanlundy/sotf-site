@@ -34,37 +34,37 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-09-beam-the-great-american-open-model-with-reflectionai-co-foun
+  title: 'Beam: The Great American Open Model with ReflectionAI Co-Founder and CEO Misha Laskin'
+  date: '2026-10-09'
+  kind: web
+- slug: 2026-10-08-synthesis-superintelligence-from-semiconductors-to-supercond
+  title: 'Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk'
+  date: '2026-10-08'
+  kind: web
+- slug: 2026-10-05-why-agent-swarms-could-be-the-next-scaling-law
+  title: Why agent swarms could be the next “scaling law”
+  date: '2026-10-05'
+  kind: web
+- slug: 2026-10-02-frontier-chips-for-frontier-ai-labs-with-walter-goodwin-foun
+  title: Frontier Chips for Frontier AI Labs, with Walter Goodwin, Founder/CEO of Fractile
+  date: '2026-10-02'
+  kind: web
 - slug: 2026-09-29-ainews-amd-buys-world-labs-for-82b-as-atlas-solves-sparse-re
   title: '[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more'
+  date: '2026-09-29'
+  kind: web
+- slug: 2026-09-29-adventures-in-chip-design
+  title: Adventures in Chip Design
   date: '2026-09-29'
   kind: web
 - slug: 2026-09-25-rigetti-computing-rgti-secures-chips-act-support-is-the-upsi
   title: Rigetti Computing (RGTI) Secures CHIPS Act Support, Is The Upside Already Priced In? - simplywall.st
   date: '2026-09-25'
   kind: web
-- slug: 2026-09-24-ai-evolution-merchants-of-compute
-  title: 'AI Evolution: Merchants of Compute'
-  date: '2026-09-24'
-  kind: web
-- slug: 2026-09-23-rigetti-computing-stock-rises-on-chips-act-funding---ad-hoc-
-  title: Rigetti Computing stock rises on CHIPS Act funding - AD HOC NEWS
-  date: '2026-09-23'
-  kind: web
-- slug: 2026-09-23-does-chips-act-funding-change-the-bull-case-for-rigetti-comp
-  title: Does CHIPS Act Funding Change The Bull Case For Rigetti Computing Stock (RGTI)? - simplywall.st
-  date: '2026-09-23'
-  kind: web
-- slug: 2026-09-15-inside-openais-agentic-software-factory
-  title: Inside OpenAI’s agentic software factory
-  date: '2026-09-15'
-  kind: web
-- slug: 2026-09-10-the-pulse-191-a-new-trend-of-cpu-shortages
-  title: 'The Pulse #191: a new trend of CPU shortages'
-  date: '2026-09-10'
-  kind: web
-- slug: 2026-09-09-rigetti-stock-gains-after-securing-100-million-in-chips-act-
-  title: Rigetti Stock Gains After Securing $100 Million in CHIPS Act Funding - TIKR.com
-  date: '2026-09-09'
+- slug: 2026-09-25-swarm-scaling
+  title: Swarm Scaling
+  date: '2026-09-25'
   kind: web
 neighbors: []
 ---

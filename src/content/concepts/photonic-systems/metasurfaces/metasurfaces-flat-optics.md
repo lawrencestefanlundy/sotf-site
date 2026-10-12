@@ -36,8 +36,8 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 163
-sources_7d: 11
-sources_30d: 18
+sources_7d: 10
+sources_30d: 17
 recent_mentions:
 - slug: 2026-07-21-robotically-assembled-electromagnetic-metamaterials-for-long
   title: Robotically Assembled Electromagnetic Metamaterials for Long-Range Space Situational Awareness
@@ -98,8 +98,6 @@ On the optical side the evidence is experimental and quantitative rather than pr
 ## Drivers (3/5)
 
 Supply side is clear. The design space is being opened by fabrication capability, with inverse-design tooling built specifically because sub-10 nm features expand the parameter space by orders of magnitude. New material platforms are arriving in parallel: phase-change chalcogenides with index contrast above 0.7 now printable in freeform 3D, thin-film lithium niobate for nonlinear function, anisotropic van der Waals crystals such as ReS2 for polaritonic engineering, and CMOS-compatible Si3N4 for active emitters. Modelling that is cheap enough to sit inside an optimiser is itself a driver.
-
-Demand side is stated but not evidenced. The wireless papers invoke 6G and beyond, extremely large MIMO and scalable antenna implementation as the pull; the optical papers point at substance detection, reconfigurable and programmable photonic circuits and integrated on-chip light sources. None of the sources contains market size, procurement, volume or customer evidence, so the demand argument rests on roadmap language rather than data. That ceiling is why this is a 3 and not higher.
 
 **TLDR: Supply-side push from fabrication and inverse design is well documented; demand is asserted through 6G and sensing rather than measured.**
 

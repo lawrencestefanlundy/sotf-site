@@ -66,12 +66,16 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 1
-sources_30d: 4
+sources_7d: 0
+sources_30d: 2
 recent_mentions:
 - slug: 2026-10-05-wartsila-to-supply-282-mw-onsite-power-solution-for-a-us-dat
   title: Wärtsilä to supply 282 MW onsite power solution for a U.S. data center as AI growth intensifies demand for reliable power - Latitude Media
   date: '2026-10-05'
+  kind: web
+- slug: 2026-10-02-frontier-chips-for-frontier-ai-labs-with-walter-goodwin-foun
+  title: Frontier Chips for Frontier AI Labs, with Walter Goodwin, Founder/CEO of Fractile
+  date: '2026-10-02'
   kind: web
 - slug: 2026-09-29-ainews-amd-buys-world-labs-for-82b-as-atlas-solves-sparse-re
   title: '[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more'
@@ -85,6 +89,10 @@ recent_mentions:
   title: 'AI Evolution: Merchants of Compute'
   date: '2026-09-24'
   kind: web
+- slug: 2026-09-18-why-diffusion-will-win-ai-inference-with-inception-co-founde
+  title: Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon
+  date: '2026-09-18'
+  kind: web
 - slug: 2026-09-18-the-hidden-power-systems-behind-ai---latitude-media
   title: The hidden power systems behind AI - Latitude Media
   date: '2026-09-18'
@@ -92,14 +100,6 @@ recent_mentions:
 - slug: 2026-09-10-the-pulse-191-a-new-trend-of-cpu-shortages
   title: 'The Pulse #191: a new trend of CPU shortages'
   date: '2026-09-10'
-  kind: web
-- slug: 2026-09-08-theres-an-awful-lot-we-dont-know-about-data-centers
-  title: There’s an awful lot we don’t know about data centers
-  date: '2026-09-08'
-  kind: web
-- slug: 2026-09-07-interact-analysis-industrial-robot-shipments-2030
-  title: Annual industrial robot shipments will reach more than 760k units in 2030 (Interact Analysis)
-  date: '2026-09-07'
   kind: web
 neighbors: []
 ---

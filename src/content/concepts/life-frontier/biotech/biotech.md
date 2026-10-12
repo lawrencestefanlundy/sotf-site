@@ -11,12 +11,15 @@ sources:
 - '[[2023-10-19-e20-the-state-of-privacy-enhancing]]'
 - '[[2025-11-05-consensus-capital]]'
 - '[[2026-04-22-detecting-proteins-in-blood-with]]'
+- '[[2026-08-20-from-restoring-sight-to-reimagining-the-brain-with-max-hodak]]'
+- '[[2026-05-20-watts-wafers-and-the-future-of-ai-infra-gavin-baker]]'
+- '[[2026-05-13-inside-anthropics-100-billion-al-compute-commitment-cfo-kris]]'
 auto_stub: true
 last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 35
+mention_count: 39
 descendants:
 - 3d-bioprinting-platforms
 - 3d-printed-bioscaffolds
@@ -57,9 +60,21 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 3
+sources_7d: 1
+sources_30d: 4
 recent_mentions:
+- slug: 2026-08-20-from-restoring-sight-to-reimagining-the-brain-with-max-hodak
+  title: From Restoring Sight to Reimagining the Brain, with Max Hodak
+  date: '2026-08-20'
+  kind: web
+- slug: 2026-05-20-watts-wafers-and-the-future-of-ai-infra-gavin-baker
+  title: Watts, Wafers, and the Future of AI Infra | Gavin Baker
+  date: '2026-05-20'
+  kind: web
+- slug: 2026-05-13-inside-anthropics-100-billion-al-compute-commitment-cfo-kris
+  title: Inside Anthropic's $100 Billion Al Compute Commitment | CFO Krishna Rao
+  date: '2026-05-13'
+  kind: web
 - slug: 2026-04-22-detecting-proteins-in-blood-with
   title: Detecting Proteins in Blood with Photonics w/ Prateek of Proteins1
   date: '2026-04-22'

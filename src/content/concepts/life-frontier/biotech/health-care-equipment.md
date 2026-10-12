@@ -33,6 +33,18 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-29-tech-to-replace-animal-testing-is-almost-ready-scientists-ar
+  title: Tech to Replace Animal Testing Is Almost Ready. Scientists Are Not
+  date: '2026-09-29'
+  kind: web
+- slug: 2026-08-27-making-drugs-in-space-the-man-who-fed-india-and-what-narwhal
+  title: Making drugs in space, the man who fed India, and what narwhals can teach us about changing seas
+  date: '2026-08-27'
+  kind: web
+- slug: 2026-08-20-from-restoring-sight-to-reimagining-the-brain-with-max-hodak
+  title: From Restoring Sight to Reimagining the Brain, with Max Hodak
+  date: '2026-08-20'
+  kind: web
 - slug: 2024-11-14-bringing-lab-testing-to-the-home---mit-news
   title: Bringing lab testing to the home - MIT News
   date: '2024-11-14'

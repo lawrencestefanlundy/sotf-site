@@ -36,8 +36,8 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 119
-sources_7d: 3
-sources_30d: 16
+sources_7d: 2
+sources_30d: 13
 recent_mentions:
 - slug: 2026-07-17-the-once-and-future-kimi
   title: The Once and Future Kimi
@@ -81,11 +81,7 @@ RISC-V is an instruction set architecture (ISA): the contract between compiled s
 
 Modularity cuts both ways. One paper reduces a baseline `RV32IM` core to a minimal instruction subset for Tsetlin Machine inference, using instruction profiling to decide what to delete, and keeps programmability while simplifying the datapath and control path. Others go the other way and add custom instructions: an approximate logarithmic CNN unit behind a custom extension, and custom Knuth-Yao sampling and interpolation instructions inside 16 specialised cores on a 2D mesh. Because the RTL of several cores is open, a second layer of reuse appears: Sargantana cores dropped into the OpenPiton memory hierarchy, the NEORV32 core used as a testbed for loop caches, and open cores used as the standard vehicle for security and verification research.
 
-The parameters that decide RISC-V's fate are not in the ISA document. They are: whether open implementations close the performance gap to proprietary designs at the high end, which the leading open-chiplet roadmap explicitly frames as an open goal rather than an achievement; whether the efficiency penalty of a general-purpose ISA against fixed-function accelerators can be closed by extension design rather than paid in energy; and whether the toolchain absorbs custom extensions without fragmenting, a constraint one design explicitly respects by remaining compatible with the standard RISC-V toolchain with only post-processing of compiled ELF binaries.
-
 ## Viability (4/5)
-
-The reservation is at the top of the range. The open-chiplet roadmap positions its 7 nm quad-chiplet system as a concept architecture and states the aim of closing the performance gap to proprietary designs, so parity at the high end is an objective, not a demonstrated result. The same roadmap notes that openness does not yet extend through simulation, EDA, PDKs and off-die PHYs, which is where the practical friction sits. Hence 4 rather than 5: the ISA and the embedded-to-mid-range implementations plainly work; the flagship-performance claim does not yet stand on demonstrated silicon.
 
 **TLDR: Silicon-proven in commercial nodes, boots Linux at 64 cores, with quantified area and energy numbers rather than projections.**
 
@@ -125,8 +121,6 @@ The larger claim usually made for RISC-V, that an open ISA restructures the semi
 
 For its demonstrated role, the deeply embedded and accelerator-host niche, RISC-V is a present-tense technology in these sources rather than a forecast. Chips exist in Intel 16 nm and 12 nm FinFET chiplets, 64-core designs boot Linux under emulation, and the toolchain is treated as a stable dependency that new designs must not break.
 
-The part that is not now is the top of the market. The open chiplet roadmap moves from silicon-proven Occamy through a mesh-NoC Ramora to Ogopogo, a 7 nm quad-chiplet concept architecture, and lists openness in simulation, EDA, PDKs and off-die PHYs as avenues to explore. Concept plus an incomplete supporting stack reads as a multi-year path, but the sources do not date those milestones, so any tighter timing on HPC-class parity would be invention.
-
 **TLDR: Already in fabricated silicon and shared research infrastructure; the high-performance chiplet ambition sits further out.**
 
 ## Overrated or underrated? Fairly rated
@@ -141,20 +135,7 @@ By 31 December 2028, no open-source 7 nm quad-chiplet RISC-V system in the Ogopo
 
 ## Evidence base
 
-- Occamy, presented on 19 November 2025, is described as the first open, silicon-proven dual-chiplet RISC-V manycore in 12 nm FinFET, with a roadmap to a 7 nm quad-chiplet concept aimed at closing the gap to proprietary designs.
-- AIA, published 16 June 2026, is a RISC-V host plus a 2D mesh of 16 custom RISC-V cores with bespoke Knuth-Yao sampling instructions, fabricated in Intel's 16 nm process.
-- Loop cache work synthesised on GlobalFoundries 22 nm FDX+ at 0.5 V and 250 MHz reduced instruction fetches by 48.3% and total energy by 21.5% (dynamic), or 83.3% and 35.5% (static), against a baseline where instruction fetch was over 40% of core energy.
-- Standard Zfh float16 support added +1.15% LUT6 and +0.05% FF to an RV64GC out-of-order FPGA softcore at 175 MHz while cutting on-device training memory footprint by about 50% versus float32.
-- EMiX, published 29 April 2026, distributed a 64-core RISC-V architecture across eight Alveo U55c FPGAs and demonstrated full-system execution including Linux boot without fundamental RTL redesign.
-- A chiplet RISC-V SoC proposal dated 22 September 2025 cites monolithic yields below 16% at 360 mm^2 advanced nodes as its motivation, integrating a 7 nm RISC-V CPU chiplet with dual 5 nm 15 TOPS INT8 accelerators and 16 GB HBM3 on a 30 mm x 30 mm interposer.
-- A general-purpose-versus-specialised framing is stated directly on 7 July 2026: RISC-V-based accelerators improve programmability at the cost of efficiency relative to domain-specific hardware.
-
 ## Open questions
-
-- Does the proliferation of per-design custom instruction extensions seen across these papers fragment the software toolchain, or do designs continue to converge on standard extensions such as Zfh, Zvfh and RVV plus minimally invasive post-processing?
-- Can decoupled RVV implementations sustain throughput on short-vector, loop-tail and control-heavy phases well enough to compete with GPUs on data-parallel workloads, rather than only with scalar cores?
-- Will openness actually extend beyond logic RTL into simulation, EDA, PDKs and off-die PHYs, which the chiplet roadmap identifies as the remaining closed layers?
-- What are the commercial volumes and design wins? None of the available sources contain shipment, revenue or market-share data, so the adoption case is currently unassessable.
 
 ---
 *Assessment drafted 2026-08-31 from up to 18 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

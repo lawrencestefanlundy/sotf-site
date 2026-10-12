@@ -54,8 +54,6 @@ Demand is well articulated on the electronics side. As silicon transistors scale
 
 Supply is where the sources give little. CVD growth of specific polytypes is demonstrated for 3R-WSe2 bilayers and RF sputtering for MoTe2 films with a 1T' to 2H crossover near 4.5 nm thickness, but there is no wafer-scale yield, cost, precursor or fab-compatibility data in this evidence base. Nor is there any commercial or funding signal. The score reflects a strong demand pull with an unquantified supply chain.
 
-**TLDR: Demand is a clear consequence of the silicon roadmap; supply-side evidence in these sources is thin.**
-
 ## Novelty (4/5)
 
 In logic, the comparison is against silicon nanoribbons whose performance degrades as widths shrink; here narrowing the MoS2 channel improved both on-current density and subthreshold swing, a directional inversion of the usual scaling penalty, and it moved TMD FETs off the micrometre-width plateau that most reports occupy. In nonlinear optics, the incumbent is a macroscopic phase-matched crystal plus interferometers; a subwavelength TMD generates polarisation-entangled pairs natively from crystal symmetry, with periodic poling addressing the coherence-length ceiling. In nanophotonic patterning, anisotropic wet etching of multilayer 2H-WS2 yields crystallographically defined atomically sharp zigzag edges, eliminating the edge roughness that lithography and dry etching impose, and lithography-guided merging of etch fronts extends this beyond isolated triangles to long-range facets with 180-degree edge alignment.

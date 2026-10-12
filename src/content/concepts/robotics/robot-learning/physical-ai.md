@@ -25,6 +25,8 @@ sources:
 - '[[2026-06-23-semidoped-daily-update]]'
 - '[[2025-10-21-ceva-launches-wi-fi-7-ip-for-smarter-ai-driven-iot-and-physi]]'
 - '[[2025-10-21-ceva-introduces-wi-fi-7-1x1-client-ip-to-power-smarter-more-]]'
+- '[[2026-09-14-bringing-physical-ai-to-a-billion-machines-applied-intuition]]'
+- '[[2026-10-07-hiphi-a-large-scale-benchmark-for-high-precision-human-motio]]'
 - '[[2026-robot-data-supply-funding-wave]]'
 - '[[2025-10-28-ceva-wi-fi-7-client-ip-supports-ai-enabled-iot-devices-and-p]]'
 - '[[2026-04-20-robot-autonomy-destination-bessemer-venture-partners]]'
@@ -33,6 +35,7 @@ sources:
 - '[[2026-04-20-physical-ai-deploys-this-decade-bessemer-predicts-robotics]]'
 - '[[2026-07-01-sensifai-memo-streaming-physical-ai]]'
 - '[[2026-09-30-the-state-of-chinese-physical-ai]]'
+- '[[2026-10-07-ieee-report-predicts-tech-that-will-transform-lives]]'
 - '[[2026-06-15-gf-investor-day-2026]]'
 - '[[2026-09-18-visions-of-ai-gpt-3-moment-for-physical-ai]]'
 - '[[2026-09-07-microchip-acquires-hailo-jul-2026]]'
@@ -47,7 +50,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 112
+mention_count: 116
 descendants:
 - dexterous-manipulation
 - humanoid-robots
@@ -57,9 +60,17 @@ descendants:
 - tactile-sensing
 - vision-language-action-models
 - world-models
-sources_7d: 1
-sources_30d: 16
+sources_7d: 4
+sources_30d: 19
 recent_mentions:
+- slug: 2026-10-07-hiphi-a-large-scale-benchmark-for-high-precision-human-motio
+  title: 'HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object Interaction'
+  date: '2026-10-07'
+  kind: web
+- slug: 2026-10-07-ieee-report-predicts-tech-that-will-transform-lives
+  title: IEEE Report Predicts Tech That Will Transform Lives
+  date: '2026-10-07'
+  kind: web
 - slug: 2026-09-30-the-state-of-chinese-physical-ai
   title: The State of Chinese Physical AI
   date: '2026-09-30'
@@ -67,6 +78,10 @@ recent_mentions:
 - slug: 2026-09-18-visions-of-ai-gpt-3-moment-for-physical-ai
   title: 'Visions of AI: GPT-3 Moment for Physical AI'
   date: '2026-09-18'
+  kind: web
+- slug: 2026-09-14-bringing-physical-ai-to-a-billion-machines-applied-intuition
+  title: Bringing Physical AI to a Billion Machines (Applied Intuition Co-founder Peter Ludwig)
+  date: '2026-09-14'
   kind: web
 - slug: 2026-09-07-microchip-acquires-hailo-jul-2026
   title: Microchip Technology signs definitive agreement to acquire Hailo (Microchip IR, 24 Jul 2026; CTech; Globes)
@@ -79,18 +94,6 @@ recent_mentions:
 - slug: 2026-08-06-the-year-ai-science-and-the-physical-ai-industry-came-alive
   title: The Year AI Science and the Physical AI Industry Came Alive
   date: '2026-08-06'
-  kind: web
-- slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint
-  title: 'What actually limits a humanoid to minutes: the thermal cliff, not the battery'
-  date: '2026-07-26'
-  kind: web
-- slug: 2026-07-26-unitree-ipo-shipment-and-segment-data
-  title: 'Unitree STAR Market IPO prospectus: 2025 units, ASPs and customer mix'
-  date: '2026-07-26'
-  kind: web
-- slug: 2026-07-01-sensifai-memo-streaming-physical-ai
-  title: SensifAI — Purpose-Built Silicon for Streaming Physical AI (funding memo)
-  date: '2026-07-01'
   kind: web
 neighbors:
 - slug: humanoid-robots

@@ -38,7 +38,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 800
+mention_count: 816
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -69,8 +69,12 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 4
-sources_30d: 20
+sources_30d: 19
 recent_mentions:
+- slug: 2026-10-10-quic-whitepaper-calls-for-industrial-scale-up-infrastructure
+  title: QuIC Whitepaper Calls for Industrial Scale-Up Infrastructure in EU Chips Act 2.0 - Quantum Computing Report
+  date: '2026-10-10'
+  kind: web
 - slug: 2026-09-23-arxiv-benchmarking-the-generalized-kadanoff-baym-ansatz-and-second
   title: 'Benchmarking the generalized Kadanoff-Baym ansatz and second-order adiabatic expansion using time-dependent spintronic effects: Spin pumping, torque, and inertia'
   date: '2026-09-23'
@@ -97,10 +101,6 @@ recent_mentions:
   kind: web
 - slug: 2026-09-16-anderon-finalizes-1-billion-chips-act-award-to-scale-300mm-p
   title: Anderon Finalizes $1 Billion CHIPS Act Award to Scale 300mm Pure-Play Quantum Wafer Foundry - quantumcomputingreport.com
-  date: '2026-09-16'
-  kind: web
-- slug: 2026-09-16-does-chips-act-funding-change-the-bull-case-for-d-wave-quant
-  title: Does CHIPS Act Funding Change The Bull Case For D Wave Quantum (QBTS)? - simplywall.st
   date: '2026-09-16'
   kind: web
 neighbors: []

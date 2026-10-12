@@ -12,7 +12,10 @@ sources:
 - '[[2023-04-04-learnings-from-a-deep-tech-horizon]]'
 - '[[2024-11-20-nuclear-fusion-the-state-of-play]]'
 - '[[2023-05-31-three-underrated-technologies-from]]'
+- '[[2026-09-29-japans-fusion-energy-startup-to-begin-power-on-tests-at-pilo]]'
 - '[[2025-03-04-doe-funds-uk-research-on-critical-materials-for-commercial-f]]'
+- '[[2026-09-28-italy-passes-legislation-in-support-of-nuclear-fission-and-f]]'
+- '[[2026-09-24-sustainable-nuclear-power-gets-green-light-from-italys-senat]]'
 frontier:
 - Does the precipitate dissolution seen under heavy-ion irradiation and helium implantation reproduce at reactor dose rates, or is it an artefact of accelerated ion irradiation shifting the ballistic mixing versus thermal back-diffusion balance 2026 07 21 cucrzr heat sink irradiation performance reveals new challen?
 - Is there a heat-sink material or a non-precipitation strengthening route that retains strength and thermal conductivity under fusion neutron and helium loading, and what is its demonstrated component life?
@@ -22,7 +25,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - category
-mention_count: 20
+mention_count: 23
 descendants: []
 last_reorg_date: '2026-05-14'
 scorecard:
@@ -35,8 +38,20 @@ scorecard:
   verdict: Overrated
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 6
+sources_30d: 9
 recent_mentions:
+- slug: 2026-09-29-japans-fusion-energy-startup-to-begin-power-on-tests-at-pilo
+  title: Japan’s fusion energy startup to begin power-on tests at pilot machine in 2027
+  date: '2026-09-29'
+  kind: web
+- slug: 2026-09-28-italy-passes-legislation-in-support-of-nuclear-fission-and-f
+  title: Italy Passes Legislation in Support of Nuclear Fission and Fusion Energy
+  date: '2026-09-28'
+  kind: web
+- slug: 2026-09-24-sustainable-nuclear-power-gets-green-light-from-italys-senat
+  title: “Sustainable” nuclear power gets green light from Italy’s Senate
+  date: '2026-09-24'
+  kind: web
 - slug: 2025-03-04-doe-funds-uk-research-on-critical-materials-for-commercial-f
   title: DOE funds UK research on critical materials for commercial fusion energy - UKNow
   date: '2025-03-04'

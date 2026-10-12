@@ -22,9 +22,9 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 126
-sources_7d: 4
-sources_30d: 23
+mention_count: 130
+sources_7d: 7
+sources_30d: 22
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
@@ -42,6 +42,10 @@ recent_mentions:
   title: Munich’s QuantumDiamonds raises €91 million to scale its quantum-based semiconductor inspection technology - EU-Startups
   date: '2026-07-09'
   kind: web
+- slug: 2026-06-09-metrology-inspection-test-weirdly-controversial-oddly-fascin
+  title: 'Metrology, Inspection & Test: Weirdly controversial, oddly fascinating'
+  date: '2026-06-09'
+  kind: web
 - slug: 2025-intelmarketresearch-compound-semi-inspection-rejected
   title: Compound Semiconductor Inspection Equipment Market (IntelMarketResearch)
   date: '2025-12-31'
@@ -53,10 +57,6 @@ recent_mentions:
 - slug: 2024-10-29-deploy-intelligence-too-cheap-to
   title: Deploy! Intelligence too cheap to meter @ $0.0001 per million tokens.
   date: '2024-10-29'
-  kind: substack
-- slug: 2024-10-22-state-of-the-future-part-deux
-  title: 'An AI Thesis: State of the Future! Part Deux'
-  date: '2024-10-22'
   kind: substack
 neighbors: []
 ---

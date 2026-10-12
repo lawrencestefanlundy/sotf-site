@@ -13,8 +13,6 @@ sources:
 - '[[2023-07-14-e08-optical-computing]]'
 - '[[2024-12-16-willow-and-the-race-to-quantum-advantage]]'
 - '[[2024-12-04-cubits-in-a-fridge-why-is-nobody]]'
-- '[[2025-11-26-orca-computing-37m-series-b]]'
-- '[[2026-06-04-q-memory-site]]'
 scorecard:
   viability: null
   drivers: null
@@ -24,9 +22,9 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-mention_count: 113
-sources_7d: 11
-sources_30d: 19
+mention_count: 117
+sources_7d: 8
+sources_30d: 20
 recent_mentions:
 - slug: 2026-06-04-q-memory-site
   title: Q-Memory — company website (q-memory.tech)

@@ -85,8 +85,6 @@ Once you get into the details of new computing approaches like photonics, quantu
 
 So we end up with digital neuromorphic chips and optoelectronic chips. Designs that take some of the benefits of new architectures and substrates but connect neatly to other electronic components and processes. We should think about the computing process in these terms. We're on a path from a unipolar computing world with electronics as the hegemon to a multipolar world with dominant electronic power but with rising photonic, quantum, and analogue powers. Photonics, analogue, and quantum will try to fit into the existing world by incorporating many electronic features and processes to smooth the transition. Quantum and photonics might even merge. The big question is, how big will these new powers get? How much electronic land will they capture? And will any of the new approaches become a new hegemon?
 
-I'd keep all of that 3 years on, with one correction to the map, which is that the first electronic land photonics actually took was the wiring, not the maths. Lightmatter, Lightelligence and Celestial AI all started out with the optical computing vision and all ended up selling interconnect, because that's where customers were paying <sup class="ref"><a href="https://stateofthefuture.substack.com/p/the-state-of-photonic-computing" title="Photonic Computing: A Primer" rel="noopener">ref</a></sup>, and co-packaged optics from Broadcom, Nvidia, Intel and TSMC is now the mainstream roadmap. So the photonic power is rising, just mostly in [Optical Interconnect](/communications/optical-interconnect/optical-interconnect/) and [Co-Packaged Optics](/manufacturing/packaging/co-packaged-optics/), which have their own cards. This card is about the harder thing, doing the computation itself in light.
-
 ## Summary
 
 Optical computing is a computing approach that uses light particles, or photons, instead of electrons to perform computations. Optoelectronic computing is a sub-field that involves the use of photons and electrons to perform computing tasks. It combines elements of both optical and electronic computing, aiming to leverage the advantages of both while mitigating their respective limitations. They are segments within the broader field of photonic computing encompassing optical computing and other technologies using light for information processing tasks. Photonics is the most expansive term involving the generation, manipulation, and detection of photons, which are light particles. Photonics applications range from fibre-optic communication to medical diagnostics and laser manufacturing.
@@ -175,19 +173,11 @@ Marking my own homework in September 2026, that's not happening. You'd need volu
 
 **Doing the compute in light**
 
-- [Neurophos](https://www.neurophos.com) (Austin): optical processing unit built from over 1M micron-scale metamaterial modulators, $110M Series A January 2026 ([HPCwire](https://www.hpcwire.com/off-the-wire/neurophos-secures-110m-series-a-to-launch-exaflop-scale-photonic-ai-chips/)).
-- [Arago](https://www.arago.inc) (Paris): photonic AI accelerator, $26M seed July 2025.
-- [Lumai](https://lumai.ai) (Oxford): free-space optics, the matrix maths done by beams of light in 3D space rather than in waveguides.
-- [Optalysys](https://optalysys.com) (UK): optical Fourier transforms, now aimed at fully homomorphic encryption ([Optalysys](https://optalysys.com/fhe/)).
-- [Luminous Computing](https://www.luminous.com): on the 2023 list, no public update in my sources since.
-
 **Started in compute, moved to interconnect or switching**
 
 - [Lightmatter](https://lightmatter.co), [Lightelligence](https://www.lightelligence.ai), [Celestial AI](https://www.celestial.ai) <sup class="ref"><a href="https://stateofthefuture.substack.com/p/the-state-of-photonic-computing" title="Photonic Computing: A Primer" rel="noopener">ref</a></sup>
 
 **Enabler from the 2023 list**
-
-- [LiGenTec](https://www.ligentec.com): silicon nitride photonics foundry.
 
 ---
 *First published as a State of the Future card in July 2023 <sup class="ref"><a href="https://stateofthefuture.substack.com/p/e08-optical-computing" title="🔮E08: Optical Computing" rel="noopener">ref</a></sup>, updated 21 September 2026 from the April 2025 photonic computing primer and 2025-26 sources. Scores are a draft read pending review.*

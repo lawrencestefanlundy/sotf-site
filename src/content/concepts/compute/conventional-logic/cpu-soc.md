@@ -33,6 +33,22 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-02-frontier-chips-for-frontier-ai-labs-with-walter-goodwin-foun
+  title: Frontier Chips for Frontier AI Labs, with Walter Goodwin, Founder/CEO of Fractile
+  date: '2026-10-02'
+  kind: web
+- slug: 2026-09-03-redefining-chip-architecture-with-arm-ceo-rene-haas
+  title: Redefining Chip Architecture with Arm CEO Rene Haas
+  date: '2026-09-03'
+  kind: web
+- slug: 2026-06-18-re-engineering-the-semiconductor-supply-chain-with-intel-ceo
+  title: Re-engineering the Semiconductor Supply Chain with Intel CEO Lip-Bu Tan
+  date: '2026-06-18'
+  kind: web
+- slug: 2026-05-22-reiner-pope-chip-design-from-the-bottom-up
+  title: Reiner Pope – Chip design from the bottom up
+  date: '2026-05-22'
+  kind: web
 - slug: 2022-06-15-owner-of-uk-chip-designer-arm-may-float-some-of-firms-shares
   title: Owner of UK chip designer Arm may float some of firm’s shares in London - The Guardian
   date: '2022-06-15'
@@ -58,8 +74,6 @@ Underneath sits a design-and-verification economy that is itself changing. Symbo
 ## Viability (5/5)
 
 Viability for the category is settled by construction. The sources contain a 16 nm multi-core RISC-V SoC fabricated on an Intel process, loop-cache designs synthesised on GlobalFoundries 22 nm FDX+ at 0.5 V and 250 MHz, a shipping Apple M5 Pro benchmarked across fifteen model configurations, and a commodity x86-64 feature (Intel Linear Address Masking) used to remove software compatibility work in hardware.
-
-The honest caveat is that viability of the *increments* varies. CHERI-D was evaluated in simulation and in hardware, SEAM-V is an architecture paper, and memristor-based reservoir computing for branch prediction is simulation only, with the authors themselves reporting that the framework needs further refinement to address shortfalls. Reversible spin-based logic is a proposal with simulations, not a device. So: the platform is a 5, individual roadmap items range from 2 to 4.
 
 **TLDR: Not a question: these are fabricated, measured, shipping devices.**
 

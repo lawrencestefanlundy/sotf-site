@@ -26,13 +26,13 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 70
+mention_count: 74
 descendants:
 - arpes
 - electron-scale-metrology
 - stm
-sources_7d: 6
-sources_30d: 12
+sources_7d: 8
+sources_30d: 15
 recent_mentions:
 - slug: 2024-09-19-can-ai-revolutionize-materials-discovery---latitude-media
   title: Can AI revolutionize materials discovery? - Latitude Media
@@ -117,8 +117,6 @@ A second-order impact is on cost structure rather than on any single material: i
 ## Timing Soon (2-5yr)
 
 The software is already in use: an open-source closed-loop platform reports six live SDL deployments and interoperability with a third-party laboratory operating system, generative and predictor-guided design pipelines produce screened candidate sets today, and reliability-gated first-principles feedback has been demonstrated end to end on a few hundred candidates. Anyone buying into this stack for computational screening is not early.
-
-The things that would make it matter commercially are on a slower clock. Machine-readable synthesis protocols require standards work that is still at the roadmap stage; cross-institutional composition of models and instruments is proposed rather than operational; and mechanisms governing the fast processing routes that would make novel compositions manufacturable are still open. Qualification cycles for structural and energy materials are described as long-iteration by nature, so a candidate identified in 2026 reaching service is a later-decade event even if the loop works.
 
 **TLDR: The computational and orchestration layers are deployable now; verified experimental payoff from closed loops is a two-to-five year question.**
 

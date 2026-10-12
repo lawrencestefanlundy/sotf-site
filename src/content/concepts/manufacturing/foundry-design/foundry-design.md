@@ -47,13 +47,6 @@ An alternative is to change the parameterisation rather than the objective. A ge
 
 ## Competitive landscape
 
-| Approach | Compliance guarantee | Cost |
-| --- | --- | --- |
-| Penalty terms in objective | Soft, not enforced during optimisation | Hyperparameter tuning of weights |
-| Projection / blurring filters | Approximate, tied to filter radius | Restricts accessible design space |
-| Heuristic binarisation schedules | Compliance only near convergence | Schedule tuning; trajectory may be non-compliant |
-| Generative manifold reparameterisation | Intrinsic, by construction of the search space | Requires training a generative model of compliant geometries |
-
 The comparison rests on a single source and reflects that work's framing of prior art; independent benchmarking across foundry rule decks is not established by the available material.
 
 ## Evidence base

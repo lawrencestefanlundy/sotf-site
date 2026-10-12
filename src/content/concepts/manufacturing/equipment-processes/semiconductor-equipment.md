@@ -23,15 +23,15 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 81
+mention_count: 83
 descendants:
 - automated-test-equipment
 - ion-implantation
 - known-good-die-test
 - probe-cards
 - wafer-level-burn-in
-sources_7d: 0
-sources_30d: 2
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
 - slug: 2026-10-06-x-fab-breaks-ground-on-chips-act-funded-cleanroom-in-erfurt-
   title: X-FAB breaks ground on Chips Act-funded cleanroom in Erfurt - Evertiq

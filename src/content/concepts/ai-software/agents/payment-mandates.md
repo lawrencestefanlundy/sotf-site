@@ -86,8 +86,6 @@ The W3C Verifiable Credentials pattern applied to spending authority. The user's
 
 Nobody currently carries the risk when a mandate is honoured wrongly.
 
-Mastercard has closed the gap rather than opened one: agent identity and mandates layer on existing tokenisation, liability follows tokenised-transaction rules, the issuer carries fraud where the token was validly issued, and consumer chargeback rights are intact. [x402](/ai-software/agents/x402/) has no chargebacks, no dispute resolution and no refunds; escrow and refunds are on the roadmap, unbuilt.
-
 That matters for two reasons. It removes the forcing function that would otherwise make somebody buy a mandate-enforcement product by a date. And it leaves **enforcement and audit** (who checks the mandate, logs it, and takes liability when it is wrong) as the one part of this layer that is not commoditised, not owned by a foundation, and plausibly a recurring-revenue enterprise product.
 
 ## Why this page is short on companies

@@ -31,7 +31,7 @@ scorecard:
   verdict: Underrated
 scorecard_status: draft
 mention_count: 139
-sources_7d: 4
+sources_7d: 3
 sources_30d: 13
 recent_mentions:
 - slug: 2026-06-17-single-photon-detector-market-spad-snspd
@@ -107,8 +107,6 @@ The deduction is for scale and complexity. The best sensitivity number depends o
 ## Drivers (2/5)
 
 Supply side, the pull is real and visible. A cluster of closely related results appeared within weeks covering detection, single-photon spectroscopy, high-speed videography, hyperspectral imaging and all-optical edge processing, largely from overlapping author groups. Enabling infrastructure is also maturing: nanophotonic supercontinuum sources covering 2.4-4.2 µm are being used as broadband illumination, and practical design references for infrared coatings and windows are being published with usable transparency thresholds of α < 10 cm^-1 for thin films and α < 1 cm^-1 for windows.
-
-Demand side, the sources give nothing but assertion. Applications named include combustion diagnostics, explosion reactions, photosynthetic tracking, thermal surveillance, remote sensing, environmental monitoring, industrial inspection and astronomical observation, but no market size, no customer, no funding programme and no company appears anywhere in the supplied material. On the evidence available this is a technology push with a plausible but unmeasured pull, and the score reflects that gap rather than a judgement that demand is absent.
 
 **TLDR: Strong supply-side momentum in a few academic groups; demand is asserted in abstracts, never evidenced.**
 

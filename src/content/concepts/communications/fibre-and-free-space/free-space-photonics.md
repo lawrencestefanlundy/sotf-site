@@ -170,14 +170,6 @@ By 31 December 2029, no orbital compute cluster of the scale illustrated in the 
 
 ## Evidence base
 
-- 3 June 2026: hybrid FSO and D-band (110-170 GHz) transmitter driven by a single optically harmonically locked laser pair, with combined capacity studied against beam angle misalignment using over 100 Gb/s signalling.
-- 18 June 2026: space-based AI infrastructure design study proposing satellite fleets with solar arrays, TPU accelerators and inter-satellite free-space optical links, illustrated with an 81-satellite, 1 km radius cluster; Trillium TPUs survived a five-year-mission-equivalent total ionising dose without permanent failures.
-- 16 June 2026: neural-network deformable matched filtering for CAP modulation, using 16 time, frequency and memory features, significantly outperformed fixed matched filtering under severe bandwidth constraints in a hardware-in-the-loop free-space optical system without decision feedback.
-- 29 May 2026: first fully integrated on-chip spatio-temporal-encoding imaging platform, motivated explicitly by the bulk, long dispersive elements and alignment instability of free-space optics.
-- 7 July 2026: multi-plane light converters fully encapsulated in a fused silica chip by single-step 3D direct laser writing of birefringent nanogratings, tested as proof-of-concept devices in the visible.
-- 14 August 2026: monolithic all-optical switching between vortex second-harmonic beams of opposite topological charge in a 46 nm 3R-MoS2 film, presented as an alternative to bulky free-space optics for dynamic orbital angular momentum control.
-- 16 June 2026: trapped-ion roadmap places photonic links between ion-trap chips on the path from 256 qubits at 99.99% to over 10,000 qubits <sup class="ref"><a href="https://thequantuminsider.com/2026/06/12/trapped-ion-quantum-computing-companies-technology-and-where-it-stands-in-2026/" title="Trapped-ion quantum computing landscape 2026 (vendors, scale, integrated photonics)" rel="noopener">ref</a></sup>.
-
 ## Open questions
 
 - What link availability and bit error rate do hybrid FSO/D-band transmitters achieve over real outdoor paths and across weather, as opposed to the laboratory misalignment sweeps reported at over 100 Gb/s?

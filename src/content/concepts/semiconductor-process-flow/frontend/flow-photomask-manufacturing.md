@@ -91,8 +91,6 @@ Margins of the value-capturing layer: the merchant mask maker Photronics ran FY2
 
 Value accrues to chokepoint tool and material suppliers, not to the mask shops. The merchant mask business is a respectable mid-20s-operating-margin manufacturing business but it is capital-heavy and competes with foundries' own captive shops. The real moats are: the multi-beam writer (IMS, effectively single-source for leading edge), actinic EUV inspection (Lasertec, single-source), and EUV blanks and pellicles (AGC/Hoya duopoly; Mitsui near-sole pellicle maker). These are textbook picks-and-shovels positions on the EUV ramp.
 
-European / seed angle: the leading-edge writer maker IMS Nanofabrication is Austrian (now Intel-owned, so not investable directly). imec (Belgium) anchors the CNT-pellicle roadmap with Mitsui. Genuine seed-stage entry into mask writing, actinic inspection, or EUV blanks is near-impossible (capital, IP, multi-decade incumbency). The credible early-stage wedges sit adjacent: novel pellicle membranes, mask-defect inspection software/AI, and computational approaches that reduce mask count or cost (see **Computational Litho Ai For Mask**).
-
 ## Market drivers, constraints & trends
 
 Net read: the served pool (mask-shop tools plus EUV blanks and pellicles) grows mid-teens at the EUV edge while the broad merchant mask market plods at high single digits; the upside is concentrated in the consumable annuity and a one-off High-NA refresh, the downside in a thin two-supplier blank chain and export-control demand loss.

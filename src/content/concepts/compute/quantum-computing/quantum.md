@@ -58,37 +58,37 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
-- slug: 2026-10-05-physicist-jun-ye-wins-wolf-prize-in-physics
-  title: Physicist Jun Ye Wins Wolf Prize in Physics
-  date: '2026-10-05'
+- slug: 2026-10-11-ultraviolet-laser-creates-new-defects-in-diamond-without-dis
+  title: Ultraviolet laser creates new defects in diamond without disturbing quantum centers
+  date: '2026-10-11'
   kind: web
-- slug: 2026-09-25-rigetti-computing-rgti-secures-chips-act-support-is-the-upsi
-  title: Rigetti Computing (RGTI) Secures CHIPS Act Support, Is The Upside Already Priced In? - simplywall.st
-  date: '2026-09-25'
+- slug: 2026-10-10-ultraviolet-laser-pulses-engineer-diamond-defects-selectivel
+  title: Ultraviolet laser pulses engineer diamond defects selectively, leaving quantum qubits intact
+  date: '2026-10-10'
   kind: web
-- slug: 2026-09-25-quantware-says-scaling-quantum-power-hinges-on-efficiency-no
-  title: QuantWare Says Scaling Quantum Power Hinges On Efficiency, Not Just Qubits - Quantum Zeitgeist
-  date: '2026-09-25'
+- slug: 2026-10-10-quic-whitepaper-calls-for-industrial-scale-up-infrastructure
+  title: QuIC Whitepaper Calls for Industrial Scale-Up Infrastructure in EU Chips Act 2.0 - Quantum Computing Report
+  date: '2026-10-10'
   kind: web
-- slug: 2026-09-24-d-wave-quantum-nyse-qbts-secures-100m-in-chips-act-funding-w
-  title: 'D-Wave Quantum (NYSE: QBTS) Secures $100M In CHIPS Act Funding While Landing AT&T And NTT DOCOMO Deals - foreignpolicyjournal.com'
-  date: '2026-09-24'
+- slug: 2026-10-09-order-from-chaos-with-adaptive-circuits-on-quantum-hardware
+  title: Order from chaos with adaptive circuits on quantum hardware
+  date: '2026-10-09'
   kind: web
-- slug: 2026-09-23-rigetti-computing-stock-rises-on-chips-act-funding---ad-hoc-
-  title: Rigetti Computing stock rises on CHIPS Act funding - AD HOC NEWS
-  date: '2026-09-23'
+- slug: 2026-10-08-picosecond-current-pulses-probe-intrinsic-limit-for-dissipat
+  title: Picosecond current pulses probe intrinsic limit for dissipationless transport in superconductors
+  date: '2026-10-08'
   kind: web
-- slug: 2026-09-23-does-chips-act-funding-change-the-bull-case-for-rigetti-comp
-  title: Does CHIPS Act Funding Change The Bull Case For Rigetti Computing Stock (RGTI)? - simplywall.st
-  date: '2026-09-23'
+- slug: 2026-10-08-synthesis-superintelligence-from-semiconductors-to-supercond
+  title: 'Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk'
+  date: '2026-10-08'
   kind: web
-- slug: 2026-09-23-quantinuum-secures-100m-chips-act-award-to-scale-domestic-qu
-  title: Quantinuum Secures $100M CHIPS Act Award to Scale Domestic Quantum Semiconductor Manufacturing - Bisinfotech
-  date: '2026-09-23'
+- slug: 2026-10-08-high-fidelity-entangling-gates-and-nonlocal-circuits-with-ne
+  title: High-fidelity entangling gates and nonlocal circuits with neutral atoms
+  date: '2026-10-08'
   kind: web
-- slug: 2026-09-16-qutech-spinout-qbird-rebrands-to-falqon-systems-to-commercia
-  title: QuTech Spinout Q*Bird Rebrands to Falqon Systems to Commercialize Quantum Secure Networks - Quantum Computing Report
-  date: '2026-09-16'
+- slug: 2026-10-08-how-to-arrange-hundreds-of-atoms-between-two-mirrors
+  title: How To Arrange Hundreds of Atoms Between Two Mirrors
+  date: '2026-10-08'
   kind: web
 neighbors:
 - slug: quantum-computing
@@ -161,10 +161,6 @@ The demonstrated impact today is in measurement and networking. Diamond sensing 
 ## Timing Unclear
 
 The three parts are on different clocks and only one has evidence that pins a date. Diamond quantum sensing is producing results in published experiments today, and integrated telecom-relevant memory is at record component-level performance with a clearly named remaining gap (cryogenics) <sup class="ref"><a href="https://arxiv.org/abs/2511.05928" title="Efficient integrated quantum memory for light (¹⁵¹Eu³⁺:Y₂SiO₅, AFC, telecom-heralded)" rel="noopener">ref</a></sup>. Those read as Now and Soon respectively.
-
-For computing, the sources supply no schedule. Fault tolerance on millions of qubits is stated as the motivating target, not as a dated expectation, and the decoder that would serve it exists as an algorithm, an architecture proposal and a simulator. The hardware results present are single-digit-qubit. Assigning a band to the field as a whole would be inventing a roadmap the sources do not contain, so the honest answer is Unclear, with the caveat that nothing here suggests a compute payoff inside two years.
-
-**TLDR: Sensing delivers now, memory components are close, and the sources give no dated roadmap at all for fault-tolerant computing.**
 
 ## Overrated or underrated? Fairly rated
 

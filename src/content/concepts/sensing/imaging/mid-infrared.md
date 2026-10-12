@@ -25,29 +25,9 @@ mention_count: 134
 parent_concepts:
 - imaging
 - sensing
-sources_7d: 4
+sources_7d: 3
 sources_30d: 13
-recent_mentions:
-- slug: 2026-06-17-single-photon-detector-market-spad-snspd
-  title: Single-photon detector market aggregation — SPAD, SiPM, SNSPD (2024–2035)
-  date: '2026-06-17'
-  kind: web
-- slug: 2026-05-24-mose2-exciton-polariton-all-optical-switch
-  title: New light-based switch could cut chip energy use and speed future AI photonics
-  date: '2026-05-24'
-  kind: web
-- slug: 2025-12-09-gallium-nitride-photonics-w-james
-  title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
-  date: '2025-12-09'
-  kind: substack
-- slug: 2025-12-02-the-future-of-computing-is-glass
-  title: The Future of Computing is Glass w/ Andrea Rocchetto of Ephos
-  date: '2025-12-02'
-  kind: substack
-- slug: 2023-10-05-nynomic-nlir-investment
-  title: 'Nynomic AG: Expansion of technology portfolio / investment in NLIR ApS'
-  date: '2023-10-05'
-  kind: web
+recent_mentions: []
 neighbors:
 - slug: spectral-sensing
   name: Spectral Sensing
@@ -71,8 +51,6 @@ The deductions are that everything is a laboratory instrument requiring high-pow
 ## Drivers (3/5)
 
 On supply, the components are converging: broadband nanophotonic supercontinuum illumination covering 2.4-4.2 µm and 3.1-3.9 µm, alternative source routes including two-colour filaments in air around 3.3 µm and micromachined rubidium vapour cells producing mid-IR through resonant four-wave mixing, candidate materials work on direct-gap 2H-GeSn, and practical design references for infrared-transparent coatings and windows with thresholds of alpha below 10 cm^-1 for films and 1 cm^-1 for windows. The pace of the mid-2026 literature itself is a supply signal.
-
-On demand, the sources repeatedly name combustion diagnostics, explosion reactions, photosynthetic tracking, thermal surveillance, remote sensing, environmental monitoring, biomedical diagnosis, industrial inspection and astronomical observation. These are motivating statements in paper abstracts, not procurement evidence. There are no customers, contracts, volumes or prices anywhere in the supplied material, so the demand side of this score is not earned; 3 reflects strong supply and unverified pull.
 
 **TLDR: Supply-side enablers are advancing visibly; demand is asserted in application lists rather than demonstrated.**
 

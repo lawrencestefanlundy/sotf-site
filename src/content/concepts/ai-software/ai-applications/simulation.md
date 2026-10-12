@@ -128,8 +128,6 @@ On the quantum side the increments are also specific and modest in absolute term
 
 Diffusion is effectively complete in research practice. Every domain represented here uses simulation as the primary evidence channel: decentralised satellite beamforming algorithms are evaluated by simulation, sparse array designs for direction-of-arrival estimation likewise, deep-learning modulation recognition reports simulation results for both its architecture and its data augmentation scheme, and quantum error correction work now contributes a decoding simulator as a first-class artefact alongside the decoder and architecture. Simulation is also becoming the safety layer for autonomous experimentation, screened in simulation before being let loose on hardware.
 
-The score is held at 4 rather than 5 because the corpus is a research sample and says almost nothing about industrial deployment, procurement or workflow integration outside the lab. The real adoption barriers are downstream. Surrogates need error bounds before they can substitute for solvers in qualification decisions, and the composites paper positions its DeepONet on top of a physics model validated against manufacturing trials precisely because that anchor is required. Where a simulation is used to justify a hardware roadmap rather than a design choice, adoption of the conclusion outruns the evidence, as with the fully simulated multi-layer all-optical neural network figures.
-
 **TLDR: Already the default method across every domain in this corpus; the barrier is trust and validation, not access.**
 
 ## Impact (4/5)

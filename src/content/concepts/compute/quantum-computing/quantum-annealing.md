@@ -26,9 +26,9 @@ scorecard:
   timing_band: Unclear
   verdict: Overrated
 scorecard_status: draft
-mention_count: 46
-sources_7d: 2
-sources_30d: 4
+mention_count: 49
+sources_7d: 4
+sources_30d: 7
 recent_mentions:
 - slug: 2026-06-05-recursive-until-the-power-bill
   title: Recursive, Until the Power Bill
@@ -117,8 +117,6 @@ The demonstrated impact is much smaller than that ceiling. The compressed-sensin
 ## Timing Unclear
 
 Availability is a Now question and already answered: D-Wave QPUs and hybrid solvers are being used by third-party groups across at least eight distinct application domains within a single quarter of published work in mid-2026. Usefulness is the open question, and the evidence points in both directions simultaneously: a statistically significant but tiny advantage at n=32 in compressed sensing, no advantage and collapse at H=14 in control, and a prior beyond-classical claim being walked back by classical simulation.
-
-The improvement levers on the table (reverse annealing schedules, penalty-free encodings, noise-aware design exploiting metastability, exotic non-Hermitian qubit architectures) are incremental or theoretical, and none carries a roadmap or date in these sources. Assigning a 2-5 or 5-10 year band would be invention on my part. The honest band is Unclear, and the resolution will come from head-to-head benchmarks rather than from hardware announcements.
 
 **TLDR: The hardware is bookable today, but nothing in the sources dates the arrival of a durable practical advantage.**
 

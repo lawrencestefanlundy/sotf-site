@@ -7,21 +7,26 @@ parent_concepts: []
 related_concepts: []
 sources:
 - '[[2026-07-24-the-huggingface-incident]]'
+- '[[2026-10-09-beam-the-great-american-open-model-with-reflectionai-co-foun]]'
 - '[[2026-07-18-post-training-inference-loop-open-weight-models-are-turning]]'
 auto_stub: true
 last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 2
+mention_count: 3
 frontier:
 - Did independent benchmarking after the 27 July 2026 weight release reproduce Moonshot's claimed K3 parameter activation, 1M context behaviour and 2.5x scaling-efficiency figure 2026 07 15 kimi k3 launch moonshot?
 - What is the measured cost per million tokens of self-serving K3 on a 64-plus accelerator supernode, and does it beat the $3/$15 hosted price at realistic utilisation 2026 07 17 the once and future kimi?
 - Does the 95% specialised-token share reported by one serving vendor hold across other serving providers, and does the resulting data flywheel accrue to the serving vendor, the application owner or the model lab 2026 07 18 post training inference loop open weight models are turning?
 - Do open weight releases measurably compress closed-lab pricing or gross margins, which would test the contestability and mediocre-return thesis 2026 07 21 minack dud competition mediocre ai returns?
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
+- slug: 2026-10-09-beam-the-great-american-open-model-with-reflectionai-co-foun
+  title: 'Beam: The Great American Open Model with ReflectionAI Co-Founder and CEO Misha Laskin'
+  date: '2026-10-09'
+  kind: web
 - slug: 2026-07-24-the-huggingface-incident
   title: The HuggingFace Incident
   date: '2026-07-24'

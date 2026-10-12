@@ -39,7 +39,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 106
+mention_count: 107
 descendants:
 - datacenter-network-stack
 - lpo-linear-pluggable-optics
@@ -51,9 +51,13 @@ descendants:
 - rack-scale-interconnect
 - rf-over-dielectric-waveguide
 - serdes
-sources_7d: 1
-sources_30d: 6
+sources_7d: 2
+sources_30d: 5
 recent_mentions:
+- slug: 2026-10-07-china-the-fcc-and-the-logic-of-transceivers
+  title: China, the FCC, and the Logic of Transceivers
+  date: '2026-10-07'
+  kind: web
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
@@ -81,10 +85,6 @@ recent_mentions:
 - slug: 2026-06-23-semidoped-daily-update
   title: Semi Doped — Daily Update, June 23rd 2026
   date: '2026-06-23'
-  kind: web
-- slug: 2026-06-15-optical-interconnect-cpo-transition-optical-interconnects
-  title: Optical Interconnects Become Critical to AI Factory Expansion; CPO/NPO Market Expected to Exceed US$39 Billion by 2030
-  date: '2026-06-15'
   kind: web
 neighbors:
 - slug: optical-circuit-switching

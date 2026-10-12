@@ -47,7 +47,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 855
+mention_count: 865
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 5
@@ -61,9 +61,17 @@ scorecard_status: draft
 sources_7d: 1
 sources_30d: 2
 recent_mentions:
+- slug: 2026-09-21-tsmc-asml-and-high-na-euv
+  title: TSMC, ASML, and High NA EUV
+  date: '2026-09-21'
+  kind: web
 - slug: 2026-09-02-vertical-power-delivery-thermal-limits
   title: 'Vertical power delivery: the thermal limit at the 48V-to-point-of-load stage'
   date: '2026-09-02'
+  kind: web
+- slug: 2026-08-25-tsmc-keeps-truckin
+  title: TSMC Keeps Truckin'
+  date: '2026-08-25'
   kind: web
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
@@ -85,14 +93,6 @@ recent_mentions:
   title: Thoughts on AI and power
   date: '2026-07-25'
   kind: web
-- slug: 2026-07-24-the-huggingface-incident
-  title: The HuggingFace Incident
-  date: '2026-07-24'
-  kind: substack
-- slug: 2026-07-16-the-path-to-agi-runs-through-hbm
-  title: The Path To AGI Runs Through HBM
-  date: '2026-07-16'
-  kind: substack
 neighbors: []
 ---
 **CoWoS is TSMC's silicon-interposer packaging platform that bolts logic dies and HBM stacks into a single module, and through 2026 it is the physical chokepoint metering how many AI accelerators the world can build <sup class="ref"><a href="https://www.dwarkesh.com/p/dylan-patel" title="SemiAnalysis (Dylan Patel) — the three shifting bottlenecks to scaling AI compute (logic/litho, memory, power)" rel="noopener">ref</a></sup>.**
@@ -102,8 +102,6 @@ neighbors: []
 Modern AI accelerators are not single chips. A GPU or custom ASIC die is placed alongside several stacks of high-bandwidth memory on a silicon interposer, a passive slab of silicon carrying thousands of very fine wires, which is then mounted on an organic substrate. CoWoS is TSMC's version of that assembly step. HBM itself is defined around it: stacked DRAM on through-silicon vias over a base die, co-packaged on a silicon interposer, with bus widths of 1,024 bits for HBM3E rising to 2,048 bits for HBM4. Without an interposer of this class there is no way to land that many parallel connections between logic and memory at acceptable energy per bit.
 
 The technology is not experimental. It is high-volume manufacturing, and the interesting parameters are industrial rather than physical: how many interposer-equivalent units per month exist, who holds the allocation, and what the lead time is. On the supplied evidence, capacity is fully booked through 2026, lead times run 50 to 104 weeks, and Nvidia alone booked roughly 55% of 2026 output <sup class="ref"><a href="https://www.dwarkesh.com/p/dylan-patel" title="SemiAnalysis (Dylan Patel) — the three shifting bottlenecks to scaling AI compute (logic/litho, memory, power)" rel="noopener">ref</a></sup>. Analysts consistently argue the gating constraint on HBM-based systems is the packaging, not the memory die, and Yole names TSMC CoWoS capacity as the leading bottleneck for AI accelerator volume, expanding through 2026 **2024 Yole Advanced Packaging 2024**.
-
-The competitive picture has two axes. On capacity, Samsung X-Cube and Intel Foveros are described as credible secondary options but each at roughly 30% of TSMC volume **2024 Yole Advanced Packaging 2024**. On architecture, the roadmap is moving past plain 2.5D interposers: TSMC detailed an Active LSI bridge for higher in-package bandwidth, while Intel showed UCIe-S running fast die-to-die lanes over cheaper organic substrates, which is a direct attack on interposer necessity <sup class="ref"><a href="https://newsletter.semianalysis.com/p/isscc-2026-nvidia-and-broadcom-cpo" title="ISSCC 2026: NVIDIA & Broadcom CPO, HBM4 & LPDDR6, TSMC Active LSI, Logic-Based SRAM, UCIe-S and More" rel="noopener">ref</a></sup>. TSMC is also pulling optics into the package via its COUPE co-packaged-optics engine, where micro-ring resonators in the photonic layer degrade bit error rate on wavelength drift of about ±1.7 nm, making thermal management a first-class packaging problem.
 
 The decisive variables for anyone assessing CoWoS are therefore: the rate of capacity addition versus accelerator demand; whether bridge and organic-substrate approaches let some designs step off silicon interposers; whether second sources get past ~30% of TSMC scale; and how long packaging stays the binding constraint before lithography takes over <sup class="ref"><a href="https://www.dwarkesh.com/p/dylan-patel" title="SemiAnalysis (Dylan Patel) — the three shifting bottlenecks to scaling AI compute (logic/litho, memory, power)" rel="noopener">ref</a></sup>.
 
@@ -116,8 +114,6 @@ The live engineering risk has moved up the stack rather than away. Once optics e
 **TLDR: Not a question of whether it works: it is sold out in volume production.**
 
 ## Drivers (5/5)
-
-Demand: AI accelerators absorb 60% of TSMC N3 output in 2026 and a projected 90% in 2027, and essentially all of that silicon needs advanced packaging. HBM revenue moved from roughly $4B in 2023 to about $35B in 2025 with a claimed $100B TAM by 2028, and every one of those stacks needs an interposer to sit on. Chiplet-attributed revenue is tracked from ~$3B in 2021 to $7.5B in 2024 to $30B+ by 2030 **2024 Yole Advanced Packaging 2024**. Concentration adds to the squeeze: Nvidia booked around 55% of 2026 CoWoS while holding roughly 80% of AI accelerator revenue share, so a single buyer's roadmap sets the loading <sup class="ref"><a href="https://siliconanalysts.com/analysis/nvidia-ai-accelerator-market-share-2024-2026" title="NVIDIA AI GPU Market Share 2026: ~80% of AI Accelerators | Silicon Analysts" rel="noopener">ref</a></sup>.
 
 Supply: TSMC is expanding through 2026, but the alternatives remain sub-scale, with Samsung X-Cube and Intel Foveros each put at about 30% of TSMC volume **2024 Yole Advanced Packaging 2024**. Pricing is a notable anomaly. SemiAnalysis argues Nvidia and TSMC have not raised prices to match the value their hardware unlocks despite being the binding supply bottleneck <sup class="ref"><a href="https://newsletter.semianalysis.com/p/ai-value-capture-the-shift-to-model" title="AI Value Capture - The Shift To Model Labs" rel="noopener">ref</a></sup>, which means allocation rather than price is doing the rationing and the economic driver to add capacity is weaker than the physical shortage implies.
 

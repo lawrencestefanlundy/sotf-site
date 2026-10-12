@@ -23,37 +23,37 @@ mention_count: 80
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-09-nasa-signs-space-nuclear-pact-says-moon-base-is-ahead-of-sch
+  title: NASA Signs Space Nuclear Pact, Says Moon Base Is Ahead of Schedule
+  date: '2026-10-09'
+  kind: web
+- slug: 2026-10-09-nasa-seeks-us-industry-plans-for-commercial-space-stations
+  title: NASA Seeks US Industry Plans for Commercial Space Stations
+  date: '2026-10-09'
+  kind: web
+- slug: 2026-10-09-europes-earth-observation-providers-set-their-sights-on-satc
+  title: Europe’s Earth Observation Providers Set Their Sights on Satcom
+  date: '2026-10-09'
+  kind: web
+- slug: 2026-10-09-exclusive-kapta-space-raises-24m-series-a-to-build-moving-ta
+  title: 'Exclusive: Kapta Space Raises $24M Series A to Build Moving Target Radar Payload'
+  date: '2026-10-09'
+  kind: web
+- slug: 2026-10-09-europes-space-defenses-fall-just-shy-of-weaponization
+  title: Europe’s Space Defenses Fall Just Shy of Weaponization
+  date: '2026-10-09'
+  kind: web
+- slug: 2026-10-08-uae-completes-arab-worlds-first-solo-space-probe-b-band-sets
+  title: UAE completes Arab world's first solo space probe <b>– </b>and sets course for an asteroid
+  date: '2026-10-08'
+  kind: web
+- slug: 2026-10-08-fortastra-raises-30m-series-a-to-fund-its-next-security-spac
+  title: Fortastra Raises $30M Series A to Fund its Next Security Spacecraft
+  date: '2026-10-08'
+  kind: web
 - slug: 2026-10-06-eic-step-defence-scale-up-call-ukraine-info-event---european
   title: EIC STEP Defence Scale Up call – Ukraine Info Event - European Innovation Council
   date: '2026-10-06'
-  kind: web
-- slug: 2026-10-06-lunar-grounding-challenge
-  title: Lunar Grounding Challenge
-  date: '2026-10-06'
-  kind: web
-- slug: 2026-10-06-esa-at-iac-2026-day-2
-  title: ESA at IAC 2026 – Day 2
-  date: '2026-10-06'
-  kind: web
-- slug: 2026-10-05-esa-at-iac-2026-day-1
-  title: ESA at IAC 2026 – Day 1
-  date: '2026-10-05'
-  kind: web
-- slug: 2026-10-04-mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richa
-  title: Mapping the Gaps in NASA’s Return to the Moon, featuring Richard Spolzino
-  date: '2026-10-04'
-  kind: web
-- slug: 2026-09-28-reliable-robots-meet-johnsons-dexterous-robotics-team
-  title: 'Reliable Robots: Meet Johnson’s Dexterous Robotics Team'
-  date: '2026-09-28'
-  kind: web
-- slug: 2026-09-28-nasa-orbit-challenge-2027
-  title: NASA ORBIT Challenge 2027
-  date: '2026-09-28'
-  kind: web
-- slug: 2026-09-24-andurils-vision-for-powering-maritime-defense---latitude-med
-  title: Anduril’s vision for powering maritime defense - Latitude Media
-  date: '2026-09-24'
   kind: web
 neighbors: []
 ---

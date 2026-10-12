@@ -15,14 +15,34 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 65
+mention_count: 67
 last_reorg_date: '2026-05-13'
 sources_7d: 1
 sources_30d: 2
 recent_mentions:
+- slug: 2026-10-07-optogenetic-therapy-for-restoring-aspects-of-visual-function
+  title: Optogenetic Therapy for Restoring Aspects of Visual Function
+  date: '2026-10-07'
+  kind: web
+- slug: 2026-10-07-nobel-prizes-2026-ghost-particles-mirror-molecules-and-light
+  title: 'Nobel Prizes 2026: ‘ghost’ particles, mirror molecules and light switches in the brain'
+  date: '2026-10-07'
+  kind: web
+- slug: 2026-10-07-holographic-mesoscope-reads-writes-from-different-cortical-r
+  title: Holographic mesoscope reads, writes from different cortical regions simultaneously
+  date: '2026-10-07'
+  kind: web
+- slug: 2026-09-01-live-cell-transcriptomics-with-engineered-virus-like-particl
+  title: Live-cell transcriptomics with engineered virus-like particles
+  date: '2026-09-01'
+  kind: web
 - slug: 2026-08-24-nist-researchers-supersize-quantum-technology-to-help-detect
   title: NIST Researchers Supersize Quantum Technology to Help Detect Faint Photons
   date: '2026-08-24'
+  kind: web
+- slug: 2026-08-20-why-tracing-cyclosporiasis-is-so-tough-and-a-digestible-prob
+  title: Why tracing cyclosporiasis is so tough, and a digestible probe for the microbiome
+  date: '2026-08-20'
   kind: web
 - slug: 2026-07-03-thats-a-learning-curve-mate-not-rsi
   title: That’s a learning curve mate, not RSI

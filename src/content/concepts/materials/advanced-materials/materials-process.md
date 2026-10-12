@@ -38,6 +38,10 @@ recent_mentions:
   title: Lunar Grounding Challenge
   date: '2026-10-06'
   kind: web
+- slug: 2026-10-05-rearranging-crystals-from-within
+  title: Rearranging Crystals from Within
+  date: '2026-10-05'
+  kind: web
 - slug: 2026-09-30-mit-spinout-atlas-turns-single-use-plastics-into-resilient-b
   title: MIT Spinout Atlas Turns Single-Use Plastics Into Resilient Building Materials - CompositesWorld
   date: '2026-09-30'
@@ -45,6 +49,10 @@ recent_mentions:
 - slug: 2026-09-24-foundries-vs-navigators-lowering-the-cost-of-science
   title: 'Foundries vs Navigators: Lowering the Cost of Science'
   date: '2026-09-24'
+  kind: web
+- slug: 2026-09-23-as-close-to-carbyne-as-were-probably-going-to-get
+  title: As Close to Carbyne As We're Probably Going to Get
+  date: '2026-09-23'
   kind: web
 - slug: 2026-08-07-nasas-lunar-development-and-test-facility-prepares-artemis-h
   title: NASA’s Lunar Development and Test Facility Prepares Artemis Hardware for Moon
@@ -57,14 +65,6 @@ recent_mentions:
 - slug: 2026-07-08-the-chemistry-of-chips
   title: The Chemistry of Chips
   date: '2026-07-08'
-  kind: web
-- slug: 2026-07-02-fusion-bionic-secures-8m-for-laser-texturing---opticsorg
-  title: Fusion Bionic secures €8M for laser texturing - Optics.org
-  date: '2026-07-02'
-  kind: web
-- slug: 2026-03-25-sallea-extends-salt-based-templating-technology-to-advanced-
-  title: Sallea extends salt-based templating technology to advanced composites manufacturing - CompositesWorld
-  date: '2026-03-25'
   kind: web
 neighbors: []
 ---

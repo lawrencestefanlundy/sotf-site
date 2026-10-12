@@ -26,6 +26,7 @@ sources:
 - '[[2026-06-13-mckinsey-agentic-commerce]]'
 - '[[2026-09-22-coinbase-full-stack-agent-payments]]'
 - '[[2026-07-21-stablecoin-market-structure]]'
+- '[[2026-07-23-building-an-autonomous-delivery-experience-with-doordash-co-]]'
 - '[[2026-07-31-4mica-update-verification]]'
 frontier:
 - Which of the ~20x-divergent x402 volume measurements is right, and does any independent dataset show organic (de-washed) volume growing rather than falling after May 2026?
@@ -44,7 +45,7 @@ descendants:
 - payment-mandates
 - stablecoin-clearing
 - x402
-mention_count: 24
+mention_count: 25
 scorecard:
   viability: 3
   drivers: 3
@@ -77,16 +78,16 @@ recent_mentions:
   title: 'Before Agents Speak: Pre-hoc Failure Risk Inference in Multi-Agent Systems'
   date: '2026-07-30'
   kind: paper
+- slug: 2026-07-23-building-an-autonomous-delivery-experience-with-doordash-co-
+  title: Building an Autonomous Delivery Experience with DoorDash Co-Founders Andy Fang and Stanley Tang
+  date: '2026-07-23'
+  kind: web
 - slug: 2026-07-21-stablecoin-market-structure
   title: Stablecoin market structure and value capture — commissioned research pass
   date: '2026-07-21'
   kind: web
 - slug: 2026-07-21-x402-protocol-state
   title: x402 protocol state, governance and volume — commissioned research pass
-  date: '2026-07-21'
-  kind: web
-- slug: 2026-07-21-agent-identity-kya-landscape
-  title: Agent identity / KYA — landscape, demand and value capture, commissioned research pass
   date: '2026-07-21'
   kind: web
 neighbors:

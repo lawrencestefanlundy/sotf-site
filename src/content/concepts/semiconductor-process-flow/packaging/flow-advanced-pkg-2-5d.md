@@ -104,22 +104,3 @@ Net read: the served equipment + materials pool keeps accelerating through 2027 
 
 ## Connections
 [CoWoS (TSMC)](/manufacturing/packaging/cowos/) · [Advanced Packaging](/manufacturing/packaging/advanced-packaging/) · [Glass Interposers](/manufacturing/packaging/glass-interposers/) · [Heterogeneous Integration](/manufacturing/packaging/heterogeneous-integration/) · theses: **Advanced Packaging Market** · **Chiplets Architecture Share** · **Photonic Packaging Cpo**
-
-## Sources
-1. ad-hoc-news / TrendForce, TSMC CoWoS ramps toward 140,000 wafers/month, sold out through 2026 — https://www.ad-hoc-news.de/boerse/news/ueberblick/capacity-push-for-ai-tsmc-s-cowos-packaging-ramps-toward-140-000-wafers/69548342
-2. Yole Group, Advanced packaging market set to reach $79.4B by 2030 (~9.6% CAGR; high-end 2.5D/3D to ~$28B) — https://www.yolegroup.com/press-release/advanced-packaging-market-set-to-reach-79-4-billion-by-2030/
-3. Yole Group, TCB and hybrid bonding to lead $1.3B back-end equipment expansion by 2030 (BESI ~67%, EVG ~82% W2W) — https://www.yolegroup.com/press-release/advanced-packaging-fuels-transformation-in-back-end-equipment-tcb-and-hybrid-bonding-to-lead-1-3-billion-market-expansion-by-2030/
-6. TSMC 3DFabric / CoWoS technology page — https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm
-7. TrendForce, NVIDIA securing ~70% of 2025 CoWoS-L capacity — https://www.trendforce.com/news/2025/02/24/news-tsmc-reportedly-sees-cowos-order-surge-with-nvidia-securing-70-of-2025-cowos-l-capacity/
-8. TrendForce / TSMC filings, advanced packaging ~8% (2024) to >10% (2025) revenue; Q3'24 packaging ~$3.2B — https://www.trendforce.com/news/2024/12/13/news-tsmc-ramps-up-cowos-capacity-across-taiwan-projected-to-nearly-triple-by-2026/
-9. Substrates & interposers (ABF $65→$82 ASP; substrate 50-70% of cost; Ajinomoto ~95% resin; Unimicron largest) — https://semiconductorx.com/packaging-substrates-interposers.html
-10. TrendForce, glass substrate development; Samsung/SEMCO mass production ~2027; Absolics — https://insights.trendforce.com/p/glass-substrate-development
-- Intel: Intel Foundry advanced packaging (EMIB ~40% gross margin; billion-dollar deals; Amkor EMIB partnership) — https://community.intel.com/t5/Blogs/Intel-Foundry/Systems-Foundry-for-the-AI-Era/Intel-Foundry-s-Advanced-Packaging-Enables-Next-Gen-Technologies/post/1719719
-- EU: Europe opens advanced-packaging pilot line (Fraunhofer IZM APECS; EVG, SUSS MicroTec) — https://marklapedus.substack.com/p/europe-opens-advanced-packaging-pilot
-11. TrendForce, TSMC sees AI wafer demand rising 11x 2022-2026; CoWoS targeting 24 HBM stacks in 2029 — https://www.trendforce.com/news/2026/05/14/news-tsmc-sees-ai-wafer-demand-rising-11x-from-2022-2026-targets-cowos-with-24-hbm-stacks-in-2029/
-12. wccftech / TSMC roadmap, CoPoS to replace CoWoS in 2027 with Rubin Ultra (~9.5x reticle); glass core cuts cost ~30%; 9.5x reticle 2027 / 14x 2028 — https://wccftech.com/tsmc-accelerates-copos-packaging-replace-cowos-as-glass-core-substrates-cut-costs-boost-wafer-utilizatio/
-13. TrendForce, CoWoS supply-demand gap narrowing 20% to 10% by end-2026; ~120-140k TSMC + ~50-60k OSAT toward ~200k/month; >80% CAGR 2022-2027 — https://www.trendforce.com/news/2026/06/15/news-tsmc-cowos-supply-demand-gap-reportedly-seen-narrowing-from-20-to-10-by-end-2026-as-capacity-expands/
-14. Astute Group / DigiTimes, NVIDIA ~60% of CoWoS (~595k wafers), top-3 ~85%+; shortages architectural not cyclical, allocation is the binding constraint — https://www.astutegroup.com/news/industrial/advanced-packaging-demand-soars-nvidia-secures-60-of-cowos-capacity/
-15. AtlasPCB / wccftech, Ajinomoto raises ABF film prices ~30%, supply-demand gap extends to end-2027; AI-grade scarce vs commodity PC over-supply — https://www.atlaspcb.com/news/news-ajinomoto-abf-substrate-price-increase-2026/
-16. DigiTimes, ABF substrate sold out for Unimicron, Kinsus, Nan Ya PCB on AI chip demand — https://www.digitimes.com/news/a20260420PD216/revenue-pcb-abf-substrate-unimicron-ai-chip.html
-17. SemiAnalysis / nomadsemi (TSMC 2025 symposium), SoIC ~6um face-to-face hybrid bonding in production; hybrid bonding sub-10um in production, ~1um in research — https://www.nomadsemi.com/p/tsmc-2025-technology-symposium

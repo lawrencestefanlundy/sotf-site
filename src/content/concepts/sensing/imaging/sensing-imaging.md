@@ -22,6 +22,10 @@ mention_count: 116
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-07-holographic-mesoscope-reads-writes-from-different-cortical-r
+  title: Holographic mesoscope reads, writes from different cortical regions simultaneously
+  date: '2026-10-07'
+  kind: web
 - slug: 2026-09-17-nasa-awards-launch-services-for-starburst-gamma-ray-detector
   title: NASA Awards Launch Services for StarBurst Gamma-Ray Detector
   date: '2026-09-17'
@@ -49,10 +53,6 @@ recent_mentions:
 - slug: 2026-08-24-nist-researchers-supersize-quantum-technology-to-help-detect
   title: NIST Researchers Supersize Quantum Technology to Help Detect Faint Photons
   date: '2026-08-24'
-  kind: web
-- slug: 2026-08-11-building-the-moon-base-nasa-stories-at-the-ion
-  title: 'Building the Moon Base: NASA Stories at the Ion'
-  date: '2026-08-11'
   kind: web
 neighbors: []
 ---

@@ -84,11 +84,6 @@ RRAM competes primarily with embedded Flash (eFlash), MRAM, and PCM for NVM appl
 
 ## Frontier (open questions)
 
-See frontmatter `frontier:` block. Key resolution markers:
-- **2027:** does binary/digital ReRAM-CIM outnumber analog multi-level parts reaching silicon for edge inference? (tracked as a prediction on **Emerging Nvm**)
-- **2027:** does a startup ReRAM process get publicly designed into a major foundry's embedded-NVM roadmap (Intrinsic/GF materialises)?
-- **2028:** does any analog multi-level ReRAM-CIM vendor reach $100M cumulative product revenue, or is the analog fork a confirmed dead end?
-
 ## 2026 update: the digital-readout shift
 
 *Source: <sup class="ref"><a href="https://spectrum.ieee.org/analog-ai-chip-architecture" title="Compute-in-memory landscape 2026: efficiency claims, the digital-readout shift, IDM PIM" rel="noopener">ref</a></sup>.*

@@ -33,6 +33,14 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-09-exclusive-kapta-space-raises-24m-series-a-to-build-moving-ta
+  title: 'Exclusive: Kapta Space Raises $24M Series A to Build Moving Target Radar Payload'
+  date: '2026-10-09'
+  kind: web
+- slug: 2026-10-06-hawkeye-360-turns-its-rf-sensors-to-orbital-targets
+  title: HawkEye 360 Turns its RF-Sensors to Orbital Targets
+  date: '2026-10-06'
+  kind: web
 - slug: 2026-10-02-jammertest-pumps-up-the-jam-in-norway
   title: Jammertest pumps up the jam in Norway
   date: '2026-10-02'
@@ -45,6 +53,10 @@ recent_mentions:
   title: ESA starts next phase of IRIS² evolution through Low-LEO activities
   date: '2026-09-17'
   kind: web
+- slug: 2026-09-04-why-laser-beams-are-the-hottest-new-tech-in-defense
+  title: Why Laser Beams Are the Hottest New Tech in Defense
+  date: '2026-09-04'
+  kind: web
 - slug: 2026-09-04-a-23-million-texas-grant-helps-open-an-austin-chip-lab-for-w
   title: A $23 million Texas grant helps open an Austin chip lab for wireless research - Stock Titan
   date: '2026-09-04'
@@ -52,18 +64,6 @@ recent_mentions:
 - slug: 2026-09-01-nasa-selects-blue-origin-as-mars-telecommunications-network-
   title: NASA Selects Blue Origin as Mars Telecommunications Network Provider
   date: '2026-09-01'
-  kind: web
-- slug: 2026-08-31-channel-emulator-for-6-g-and-wi-fi-78---31-august-2026---con
-  title: Channel emulator for 6 G and Wi-Fi 7/8 - 31 August 2026 - Concilium Technologies - dataweek.co.za
-  date: '2026-08-31'
-  kind: web
-- slug: 2026-08-27-opener-is-an-open-source-reference-implementation-of-the-dec
-  title: Opener is an open-source reference implementation of the DECT NR+ massive IoT, low-latency standard - CNX Software
-  date: '2026-08-27'
-  kind: web
-- slug: 2026-08-21-dect-nr-gateway-brings-deterministic-wireless-to-industrial-
-  title: DECT NR+ gateway brings deterministic wireless to industrial automation - eeNews Europe
-  date: '2026-08-21'
   kind: web
 neighbors: []
 ---

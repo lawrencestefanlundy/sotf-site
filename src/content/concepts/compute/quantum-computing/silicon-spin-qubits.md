@@ -96,8 +96,6 @@ Two qualifications. First, most of the value is generic to fault-tolerant quantu
 
 The state of the art in the supplied sources, as of mid-2026, is coherent control of eight foundry-fabricated qubits with readout on the central four and single-qubit gates above 99.6% under adaptive control. The two-qubit gate is not yet reliably above the 99% threshold once realistic process and bias variation are included, and the magic-state and code overheads that stand between physical and logical qubits are being estimated rather than measured.
 
-Nothing in these sources supplies a vendor roadmap or a dated milestone, so the band is a trajectory judgement with low confidence. Near-term (0-2 years) the observable outputs will be larger tuned arrays, two-qubit fidelity numbers on foundry devices, and defect maps of real channels. Anything resembling an error-corrected logical qubit on this platform sits beyond that, and if uniformity across a wafer turns out to be the binding constraint it could sit well beyond ten years.
-
 **TLDR: Eight-qubit foundry devices exist now; useful error-corrected operation is many orders of magnitude of qubit count and one fidelity threshold away.**
 
 ## Overrated or underrated? Too early to say

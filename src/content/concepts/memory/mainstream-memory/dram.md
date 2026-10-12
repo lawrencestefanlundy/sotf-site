@@ -29,30 +29,30 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 218
-sources_7d: 10
-sources_30d: 24
+mention_count: 222
+sources_7d: 11
+sources_30d: 25
 recent_mentions:
-- slug: 2026-08-07-the-memory-trade-isnt-over-weights
-  title: 'The Memory Trade Isn''t Over: Weights and KV Cache'
-  date: '2026-08-07'
-  kind: substack
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
   kind: web
+- slug: 2026-08-07-the-memory-trade-isnt-over-weights
+  title: 'The Memory Trade Isn''t Over: Weights and KV Cache'
+  date: '2026-08-07'
+  kind: substack
 - slug: 2026-07-31-positron-research-sprint
   title: 'Positron AI research sprint: architecture, funding, customers, manufacturing'
   date: '2026-07-31'
+  kind: web
+- slug: 2026-07-27-cxmt-star-market-debut
+  title: CXMT's 466% STAR Market debut makes it China's most valuable mainland-listed company
+  date: '2026-07-27'
   kind: web
 - slug: 2026-07-27-arxiv-dynamic-rowhammer-threshold-managementtemperature-aware-thre
   title: Dynamic Rowhammer Threshold Management:Temperature-Aware Threshold Degradation for In-DRAM Defenses
   date: '2026-07-27'
   kind: paper
-- slug: 2026-07-27-cxmt-star-market-debut
-  title: CXMT's 466% STAR Market debut makes it China's most valuable mainland-listed company
-  date: '2026-07-27'
-  kind: web
 - slug: 2026-07-25-thoughts-on-ai-and-power
   title: Thoughts on AI and power
   date: '2026-07-25'
@@ -80,8 +80,6 @@ The consequence is that DRAM is no longer a passive commodity tier. Three distin
 Running underneath all of this is a reliability problem that gets worse as cells shrink. Read disturbance began with RowHammer and RowPress, where repeated access to one row flips bits in neighbours. ColumnDisturb is a distinct phenomenon that disturbs columns rather than rows and affects all cells across three consecutive subarrays. Denser arrays bring rows and columns closer together, so the same physics that delivers capacity scaling also erodes the correctness margin, and it corrupts in-DRAM computation as well as ordinary reads.
 
 ## Viability (5/5)
-
-DRAM is not a candidate technology. It is the substrate every source here assumes: unified-memory SoCs, chiplet accelerators with HBM/DRAM stacks, edge inference hierarchies and the KV-cache offload software stack <sup class="ref"><a href="https://arxiv.org/abs/2510.09665" title="LMCache: An Efficient KV Cache Layer for Enterprise-Scale LLM Inference" rel="noopener">ref</a></sup>. Simultaneously supporting HBM3/4, LPDDR5/6 and GDDR7 in a single simulator is evidence that all four families are live standards rather than roadmap items.
 
 The caveat is directional, not existential. Density scaling is producing new failure modes faster than mitigations arrive: ColumnDisturb extends read disturbance from a few neighbouring rows to all cells across three consecutive subarrays, and the first proposed mitigations require per-subarray activation counters and targeted refresh. Characterisation of 112 DDR4 chips from 10 modules shows how much device-specific, undocumented behaviour sits inside commercial parts, enough to extract unique physical unclonable function responses from simultaneous multiple-row activation. DRAM works; each new node costs more in mitigation overhead to keep it working.
 

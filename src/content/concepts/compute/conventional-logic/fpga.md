@@ -15,7 +15,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 278
+mention_count: 279
 frontier:
 - At what point does each of these workloads migrate to ASIC? eMamba reports its 10x/48.6x gains across FPGAs and ASICs jointly 2025 08 emamba edge acceleration, but gives no crossover volume or NRE analysis that would let one date the transition.
 - Do 2.5D and 3D die-stacked FPGAs actually relieve the capacity ceiling that forced multi-FPGA partitioning in EMiX, and at what inter-die latency penalty 2026 06 15 modeling optimizing and exploring multi die fpga routing arc?
@@ -95,8 +95,6 @@ The honest caveat is that viability of the device is not the same as viability o
 ## Drivers (4/5)
 
 Demand in these sources is driven by hard real-time constraints that software cannot meet. Quantum error correction needs decoding inside the coherence budget, and the GARI architecture is framed explicitly around energy-conscious scaling of the QEC layer. Measurement-based photonic protocols currently handle adaptive measurement in post-processing, which limits real-time applicability; the FPGA removes that limit. Detector bandwidth is a second driver: high-resolution SPAD arrays generate tens of gigabytes per second, and an FPGA sketching implementation reaches 512x compression against conventional histogram output. Telecoms adds a third: GPU/FPGA offload is credited with keeping the HARQ round trip inside a 0.5 ms budget in Split 7.2x vRAN/O-RAN deployments. Cost and supply-chain management were explicit design priorities for the ion-trap DAC module, which chose a Spartan-7 partly on that basis.
-
-On supply the sources say less. Die stacking has enabled 2.5D FPGAs on passive interposers and is opening 3D stacking of active dice, with the modelling gap now being closed via enhanced VTR and 7 nm HSPICE circuit modelling. There is no pricing, volume, capacity or vendor-roadmap data in the supplied material, so the commercial supply picture cannot be assessed.
 
 ## Novelty (2/5)
 

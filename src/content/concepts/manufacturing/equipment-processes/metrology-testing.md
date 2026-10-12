@@ -34,6 +34,14 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-06-beyond-wiring-diagrams-inside-a-19-million-effort-to-expand-
+  title: 'Beyond wiring diagrams: Inside a $19 million effort to expand access to connectome technology'
+  date: '2026-10-06'
+  kind: web
+- slug: 2026-10-05-rearranging-crystals-from-within
+  title: Rearranging Crystals from Within
+  date: '2026-10-05'
+  kind: web
 - slug: 2026-08-31-channel-emulator-for-6-g-and-wi-fi-78---31-august-2026---con
   title: Channel emulator for 6 G and Wi-Fi 7/8 - 31 August 2026 - Concilium Technologies - dataweek.co.za
   date: '2026-08-31'
@@ -42,9 +50,17 @@ recent_mentions:
   title: VIAVI Introduces Industry's First Channel Emulator for 6G and Wi-Fi 7/8 - barchart.com
   date: '2026-08-12'
   kind: web
+- slug: 2026-07-22-astera-partnering-with-the-national-science-foundation-to-su
+  title: Astera Partnering with the National Science Foundation to Support Open Science
+  date: '2026-07-22'
+  kind: web
 - slug: 2026-07-10-quantumdiamonds-raises-91m-in-eu-chips-act-first-for-its-dia
   title: QuantumDiamonds raises €91M in EU Chips Act first for its diamond chip scanner - Dealroom
   date: '2026-07-10'
+  kind: web
+- slug: 2026-06-09-metrology-inspection-test-weirdly-controversial-oddly-fascin
+  title: 'Metrology, Inspection & Test: Weirdly controversial, oddly fascinating'
+  date: '2026-06-09'
   kind: web
 neighbors: []
 ---
@@ -99,8 +115,6 @@ Where the sources connect measurement to consequence, the connection is direct. 
 ## Timing Soon (2-5yr)
 
 The field splits cleanly on timing. Algorithmic contributions can propagate within one to two years because they attach to hardware that already exists: acquisition planning on an automated AFM, corrected normalisations for electron correlation microscopy applied to existing 4D STEM datasets, a reference correction for core-loss transition energies inside an established DFT code, a scattering engine that runs on standard CPU and GPU platforms, and synthetic-data pipelines that unblock SEM segmentation without new tooling.
-
-The hardware-limited capabilities sit further out. Dark-field X-ray microscopy of device epilayers depends on beamline geometry and access. Integrated femtosecond sources at 0.5 to 1.2 GHz have only just been demonstrated as self-starting devices, and quantum enhancement of feedback oscillators has moved from theory to a first demonstration of the essential principle, which is the beginning of an engineering programme rather than the end of one. Two to five years is the honest band for the combination reaching routine industrial use, with the caveat that the sources contain no roadmap statements to anchor this.
 
 **TLDR: The software and inversion layers are usable now; the instrument-class capabilities are on a facility timescale.**
 

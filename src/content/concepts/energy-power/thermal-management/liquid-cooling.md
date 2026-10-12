@@ -20,6 +20,7 @@ sources:
 - '[[2025-08-01-thermal-stack-arms-race-why-liquid-cooling-is-becoming-the]]'
 - '[[2026-04-10-thermal-stack-arms-race-liquid-cooling-for-ai-data-centers]]'
 - '[[2026-04-08-datacentre-thermal-power-market-microsoft-liquid-cooling-a]]'
+- '[[2026-04-29-reiner-pope-the-math-behind-how-llms-are-trained-and-served]]'
 - '[[2026-01-08-datacentre-thermal-power-market-data-center-liquid-cooling]]'
 - '[[2026-04-19-datacentre-thermal-power-market-trendforce-liquid-cooling]]'
 - '[[2024-yole-thermal-management-2024]]'
@@ -42,7 +43,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 32
+mention_count: 34
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 5
@@ -53,7 +54,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
+sources_7d: 1
 sources_30d: 2
 recent_mentions:
 - slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint
@@ -80,13 +81,13 @@ recent_mentions:
   title: AI Datacenter Liquid Cooling Market to Reach USD 17.8 Billion by 2036
   date: '2026-05-05'
   kind: web
+- slug: 2026-04-29-reiner-pope-the-math-behind-how-llms-are-trained-and-served
+  title: Reiner Pope – The math behind how LLMs are trained and served
+  date: '2026-04-29'
+  kind: web
 - slug: 2026-04-19-datacentre-thermal-power-market-trendforce-liquid-cooling
   title: TrendForce liquid cooling penetration in AI-focused data centers climbed from 14% to 33%
   date: '2026-04-19'
-  kind: web
-- slug: 2026-04-10-thermal-stack-arms-race-liquid-cooling-for-ai-data-centers
-  title: Liquid Cooling For AI Data Centers Market Growth Analysis - Size and Forecast 2026-2030
-  date: '2026-04-10'
   kind: web
 neighbors: []
 ---
@@ -95,8 +96,6 @@ neighbors: []
 ## Summary
 
 Air cooling removes heat from a server by blowing it across heatsinks. That works while rack power stays modest, but AI accelerator racks have moved from roughly 40kW to 140kW <sup class="ref"><a href="https://vocal.media/futurism/data-center-liquid-cooling-market-outlook-efficient-thermal-management-and-growth-opportunities" title="TrendForce liquid cooling penetration in AI-focused data centers climbed from 14% to 33%" rel="noopener">ref</a></sup>, and above about 100kW per rack the air path runs out of practical headroom <sup class="ref"><a href="https://www.delloro.com/news/data-center-liquid-cooling-market-to-approach-7-billion-by-2029-as-ai-deployments-accelerate/" title="Data Center Liquid Cooling Market to Approach $7 Billion by 2029 as AI Deployments Accelerate" rel="noopener">ref</a></sup>. Liquid cooling substitutes a fluid loop with far higher volumetric heat capacity. There are three main architectures. **Direct-to-chip (cold plate)** clamps a liquid-carrying plate onto the package lid and pipes heat to a coolant distribution unit; it is the mainstream option and reported to fill the 100 to 175kW density band <sup class="ref"><a href="https://www.networkworld.com/article/4149069/why-ai-rack-densities-make-liquid-cooling-nonnegotiable.html" title="Why AI rack densities make liquid cooling nonnegotiable" rel="noopener">ref</a></sup>. **Single-phase immersion** submerges whole boards in dielectric fluid. **Two-phase immersion** uses a fluid that boils on the hot surface, exploiting latent heat for the highest flux, at the cost of exotic fluids and containment.
-
-A fourth layer is emerging inside the package. TSMC's IMC-Si etches 30 to 150 µm microchannels into a silicon lid fusion-bonded to the die backside, reporting thermal resistance of about 0.055 °C/W, roughly 15% better than the best external cold plate, and more than 7 W/mm² on logic backside with deionised water; it is now described as part of the CoWoS packaging process <sup class="ref"><a href="https://tspasemiconductor.substack.com/p/cooling-is-the-new-architecture-tsmcs" title="Cooling is the New Architecture: TSMC's IMC-Si and the Future of AI Packaging" rel="noopener">ref</a></sup>. Intel showed in-package liquid cooling and liquid-metal TIM options as qualified foundry package options in 2025 <sup class="ref"><a href="https://www.servethehome.com/intel-foundry-thermal-capabilities-with-tim-options-and-in-package-liquid-cooling-shown/" title="Intel Foundry Thermal Capabilities with TIM Options and In-Package Liquid Cooling Shown" rel="noopener">ref</a></sup>. Corintis, an EPFL spinout, raised a $24M Series A in September 2025, co-develops with Microsoft, has shipped over 10,000 cold plates and targets over 1M units a year by end-2026.
 
 The parameters that decide the outcome are rack power density, the thermal resistance budget from junction to coolant, whether the binding resistance sits at the lid TIM or the cold plate (Yole puts the lid TIM as the binding layer above 1.5kW package TDP **2024 Yole Thermal Management 2024**), water and facility constraints (Oracle's February 2026 campuses use closed-loop non-evaporative direct-to-chip <sup class="ref"><a href="https://nextwavesinsight.com/ai-data-center-liquid-cooling-infrastructure/" title="Oracle Announces Direct-to-Chip Cooling for AI Campuses" rel="noopener">ref</a></sup>), and retrofit economics in existing air-cooled halls.
 
@@ -111,8 +110,6 @@ The caveat is that this score is earned by cold plates. Two-phase immersion is p
 ## Drivers (5/5)
 
 Demand: rack densities beyond 40kW toward 140kW <sup class="ref"><a href="https://vocal.media/futurism/data-center-liquid-cooling-market-outlook-efficient-thermal-management-and-growth-opportunities" title="TrendForce liquid cooling penetration in AI-focused data centers climbed from 14% to 33%" rel="noopener">ref</a></sup> push air past practical limits <sup class="ref"><a href="https://www.delloro.com/news/data-center-liquid-cooling-market-to-approach-7-billion-by-2029-as-ai-deployments-accelerate/" title="Data Center Liquid Cooling Market to Approach $7 Billion by 2029 as AI Deployments Accelerate" rel="noopener">ref</a></sup>, and AI-specific capacity additions are projected to account for over 60% of new global datacentre capex by 2026, with more than 35% of new AI-optimised capacity specifying liquid cooling as primary thermal management <sup class="ref"><a href="https://marketintelo.com/report/ai-data-center-liquid-immersion-cooling-market" title="Market projection: 35%+ of new AI datacenter capacity specifying liquid cooling by 2026" rel="noopener">ref</a></sup>. By 2026 the vast majority of new hyperscaler AI construction specifications are reported to mandate liquid cooling <sup class="ref"><a href="https://marketintelo.com/report/ai-data-center-liquid-cooling-infrastructure-market" title="AI Data Center Liquid Cooling Market: Hyperscaler Adoption Analysis" rel="noopener">ref</a></sup>. This is a physics-forced substitution: the buyer cannot deploy the accelerator it has already bought without it.
-
-Supply: Dell'Oro puts the datacentre liquid cooling market near $7B by 2029 <sup class="ref"><a href="https://www.delloro.com/news/data-center-liquid-cooling-market-to-approach-7-billion-by-2029-as-ai-deployments-accelerate/" title="Data Center Liquid Cooling Market to Approach $7 Billion by 2029 as AI Deployments Accelerate" rel="noopener">ref</a></sup>, and Yole has total AI accelerator thermal management growing from roughly $8B in 2024 to over $25B by 2030 **2024 Yole Thermal Management 2024**. Suppliers span facility vendors, cold-plate manufacturers, foundries and startups; Corintis alone claims a path from 10,000 shipped cold plates to over 1M units a year by end-2026. Note that published market sizings diverge wildly (one forecast quotes growth of USD 2.48 trillion over 2026-2030 at 31.7% CAGR <sup class="ref"><a href="https://www.technavio.com/report/liquid-cooling-for-ai-data-centers-market-industry-analysis" title="Liquid Cooling For AI Data Centers Market Growth Analysis - Size and Forecast 2026-2030" rel="noopener">ref</a></sup>, another $17.8B by 2036 <sup class="ref"><a href="https://www.morningstar.com/news/accesswire/1163831msn/ai-datacenter-liquid-cooling-market-to-reach-usd-178-billion-by-2036-as-hyperscale-ai-infrastructure-drives-thermal-management-transformation" title="AI Datacenter Liquid Cooling Market to Reach USD 17.8 Billion by 2036" rel="noopener">ref</a></sup>); treat the revenue pool as poorly bounded even where the direction is not in doubt.
 
 **TLDR: Demand is set by accelerator TDP and rack density, not by preference; supply is a large, fast-growing vendor market.**
 
@@ -142,8 +139,6 @@ Value capture is the weaker half. Dell'Oro's roughly $7B by 2029 <sup class="ref
 
 This is a deployed technology in its steep adoption phase, not a future one. Measured penetration in AI-focused datacentres has already moved from 14% to 33% <sup class="ref"><a href="https://vocal.media/futurism/data-center-liquid-cooling-market-outlook-efficient-thermal-management-and-growth-opportunities" title="TrendForce liquid cooling penetration in AI-focused data centers climbed from 14% to 33%" rel="noopener">ref</a></sup>, most new hyperscaler AI specifications are reported to mandate it as of 2026 <sup class="ref"><a href="https://marketintelo.com/report/ai-data-center-liquid-cooling-infrastructure-market" title="AI Data Center Liquid Cooling Market: Hyperscaler Adoption Analysis" rel="noopener">ref</a></sup>, and a named operator deployment exists from February 2026 <sup class="ref"><a href="https://nextwavesinsight.com/ai-data-center-liquid-cooling-infrastructure/" title="Oracle Announces Direct-to-Chip Cooling for AI Campuses" rel="noopener">ref</a></sup>.
 
-The dated milestones ahead are narrower. 2027 is when direct-to-chip is expected to be the default in AI training builds **2024 Yole Thermal Management 2024** and when over 50% of new hyperscale capacity is expected to be liquid-cooled <sup class="ref"><a href="https://www.datacenters.com/news/why-liquid-cooling-is-becoming-the-new-standard" title="Why Liquid Cooling Is Becoming the Data Center Standard" rel="noopener">ref</a></sup>. In-die microfluidics is on a 2026 to 2028 productisation track (Corintis targeting over 1M units a year by end-2026, TSMC's IMC-Si already inside CoWoS). Two-phase immersion is a Later question at best, still under 15% of new builds by 2030 on Yole's view **2024 Yole Thermal Management 2024**.
-
 **TLDR: Already the default specification for new AI builds; the 2027 resolution point is about mix, not arrival.**
 
 ## Overrated or underrated? Fairly rated
@@ -157,13 +152,6 @@ Two sub-positions are worth separating from the fairly-rated whole. Two-phase im
 Of new hyperscaler AI training datacentre commissionings of 50MW or more per site announced during 2027, more than 50% will specify direct-to-chip liquid cooling as the primary thermal architecture in published commissioning materials.
 
 ## Evidence base
-
-- Goldman Sachs forecasts liquid-cooled AI servers rising from 15% in 2024 to 76% by end-2026, driven by full-rack liquid-cooling solutions <sup class="ref"><a href="https://www.lombardodier.com/insights/2026/january/ai-supercharges-the-race.html" title="Goldman Sachs forecasts liquid-cooled AI servers will increase from 15% in 2024 to 76% in 2026" rel="noopener">ref</a></sup> <sup class="ref"><a href="https://alcapitaladvisory.com/research/intelligence/ai-infrastructure.html" title="Goldman Sachs AI Infrastructure Analysis: Liquid Cooling as Non-Discretionary" rel="noopener">ref</a></sup>.
-- TrendForce measured liquid cooling penetration in AI-focused datacentres climbing from 14% to 33%, with liquid-based cooling at 46% of the total datacentre cooling market, as rack densities move from 40kW to 140kW (2026-04-19) <sup class="ref"><a href="https://vocal.media/futurism/data-center-liquid-cooling-market-outlook-efficient-thermal-management-and-growth-opportunities" title="TrendForce liquid cooling penetration in AI-focused data centers climbed from 14% to 33%" rel="noopener">ref</a></sup>.
-- Dell'Oro puts the datacentre liquid cooling market near $7B by 2029 and frames liquid cooling as a foundational requirement rather than a niche (2026-01-08) <sup class="ref"><a href="https://www.delloro.com/news/data-center-liquid-cooling-market-to-approach-7-billion-by-2029-as-ai-deployments-accelerate/" title="Data Center Liquid Cooling Market to Approach $7 Billion by 2029 as AI Deployments Accelerate" rel="noopener">ref</a></sup>.
-- Yole (Oct 2024) expects direct-to-chip to be the default in AI training builds by 2027, two-phase immersion to stay under 15% of new builds by 2030, total AI accelerator thermal management to grow from ~$8B to $25B+ by 2030, and lid TIM to become the binding thermal layer above 1.5kW package TDP **2024 Yole Thermal Management 2024**.
-- TSMC's IMC-Si reports ~0.055 °C/W thermal resistance, roughly 15% better than the best external cold plate, and over 7 W/mm² on logic backside with DI water, integrated into CoWoS-R/CoWoS-L; Corintis raised $24M in Sep 2025 and targets over 1M cold plates a year by end-2026 <sup class="ref"><a href="https://tspasemiconductor.substack.com/p/cooling-is-the-new-architecture-tsmcs" title="Cooling is the New Architecture: TSMC's IMC-Si and the Future of AI Packaging" rel="noopener">ref</a></sup>.
-- Oracle announced in February 2026 that new AI campuses use closed-loop non-evaporative direct-to-chip cooling as the primary thermal architecture <sup class="ref"><a href="https://nextwavesinsight.com/ai-data-center-liquid-cooling-infrastructure/" title="Oracle Announces Direct-to-Chip Cooling for AI Campuses" rel="noopener">ref</a></sup>; Intel showed in-package liquid cooling as a qualified foundry package option in May 2025 <sup class="ref"><a href="https://www.servethehome.com/intel-foundry-thermal-capabilities-with-tim-options-and-in-package-liquid-cooling-shown/" title="Intel Foundry Thermal Capabilities with TIM Options and In-Package Liquid Cooling Shown" rel="noopener">ref</a></sup>.
 
 ## Open questions
 

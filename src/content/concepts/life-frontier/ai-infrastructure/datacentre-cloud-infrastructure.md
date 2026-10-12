@@ -33,8 +33,28 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-11-17-gigawatt-texas-power-project-passes-key-hurdle-for-worlds
+  title: 17-gigawatt Texas power project passes key hurdle for world’s largest private grid
+  date: '2026-10-11'
+  kind: web
+- slug: 2026-10-09-beam-the-great-american-open-model-with-reflectionai-co-foun
+  title: 'Beam: The Great American Open Model with ReflectionAI Co-Founder and CEO Misha Laskin'
+  date: '2026-10-09'
+  kind: web
+- slug: 2026-10-08-constellation-and-google-go-in-on-nuclear-uprates-to-unlock-
+  title: Constellation and Google go in on nuclear uprates to unlock clean power
+  date: '2026-10-08'
+  kind: web
+- slug: 2026-10-07-terawatts-first-product-chief-on-building-the-infrastructure
+  title: Terawatt’s First Product Chief on Building The Infrastructure Behind Autonomous Fleets
+  date: '2026-10-07'
+  kind: web
 - slug: 2026-10-05-wartsila-to-supply-282-mw-onsite-power-solution-for-a-us-dat
   title: Wärtsilä to supply 282 MW onsite power solution for a U.S. data center as AI growth intensifies demand for reliable power - Latitude Media
+  date: '2026-10-05'
+  kind: web
+- slug: 2026-10-05-virginias-new-energy-plan-make-the-ai-boom-work-for-not-agai
+  title: 'Virginia’s new energy plan: Make the AI boom work for — not against — us'
   date: '2026-10-05'
   kind: web
 - slug: 2026-09-30-a-data-center-company-signed-a-ppa-for-space-solar-power---l
@@ -44,26 +64,6 @@ recent_mentions:
 - slug: 2026-09-29-how-to-measure-grid-utilization---latitude-media
   title: How to measure grid utilization - Latitude Media
   date: '2026-09-29'
-  kind: web
-- slug: 2026-09-28-does-the-market-finally-have-an-opening-for-solid-state-tran
-  title: Does the market finally have an opening for solid-state transformers? - latitudemedia.com
-  date: '2026-09-28'
-  kind: web
-- slug: 2026-09-28-frontier-forum-the-rush-for-clean-on-site-power---latitudeme
-  title: 'Frontier Forum: The rush for clean, on-site power - latitudemedia.com'
-  date: '2026-09-28'
-  kind: web
-- slug: 2026-09-24-ai-evolution-merchants-of-compute
-  title: 'AI Evolution: Merchants of Compute'
-  date: '2026-09-24'
-  kind: web
-- slug: 2026-09-24-most-new-us-power-is-clean-but-utilities-are-choosing-gas-fo
-  title: Most new US power is clean — but utilities are choosing gas for data centers - latitudemedia.com
-  date: '2026-09-24'
-  kind: web
-- slug: 2026-09-23-load-growth-is-straining-already-worn-out-electrical-equipme
-  title: Load growth is straining already worn-out electrical equipment - latitudemedia.com
-  date: '2026-09-23'
   kind: web
 neighbors: []
 ---

@@ -37,9 +37,9 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 322
-sources_7d: 4
-sources_30d: 11
+mention_count: 324
+sources_7d: 5
+sources_30d: 10
 recent_mentions:
 - slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
   title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
@@ -142,8 +142,6 @@ What can be said is narrow: nothing in the supplied set quantifies the value cre
 **TLDR: The economic and functional stakes of combiners are not addressed by any supplied source.**
 
 ## Timing Unclear
-
-No source in the set reports a combiner prototype, product schedule, pilot line or roadmap, so no timing band can be earned. The dated material clusters in early May 2026 and concerns quantum photonics, integrated lasers, magnonics, fibre sensing and wireless antennas.
 
 If a timing view is needed, it will have to come from combiner-specific evidence: measured nits per lumen and uniformity for shipping architectures, eyebox and field of view at given substrate index, and replication yield data. None of those exist here.
 

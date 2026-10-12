@@ -18,7 +18,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 174
+mention_count: 180
 last_reorg_date: '2026-05-14'
 scorecard:
   viability: 3
@@ -29,9 +29,13 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 5
-sources_30d: 31
-recent_mentions: []
+sources_7d: 7
+sources_30d: 29
+recent_mentions:
+- slug: 2026-08-13-darpa-awards-contract-to-qunnect-to-advance-real-time-polari
+  title: DARPA Awards Contract to Qunnect to Advance Real-Time Polarization Compensation for Quantum Networks - Quantum Computing Report
+  date: '2026-08-13'
+  kind: web
 neighbors: []
 ---
 **Quantum networks distribute entanglement rather than copies of bits between distant nodes, enabling entanglement-based key distribution, distributed quantum computing and distributed sensing, and the 2026 literature shows working component demonstrations and a maturing protocol stack but no service-carrying network beyond metropolitan-scale testbeds.**

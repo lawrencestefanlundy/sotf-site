@@ -51,8 +51,6 @@ Directed self-assembly (DSA) is a lithographic patterning technique in which blo
 
 The mechanism is thermodynamic rather than optical: resolution is set by the BCP molecular weight and Flory-Huggins interaction parameter (chi), not by wavelength or numerical aperture. This decouples feature size from light source energy — in principle enabling sub-5 nm patterning with 193 nm guiding optics.
 
-In practice, DSA has been "five years from production" since approximately 2010. Yield-limiting defects (disclinations, dislocation density, BCP domain grain boundaries) remain unsolved at the CD uniformity required for leading-edge logic. Imec's DSA roadmap consistently publishes proof-of-concept patterns at sub-10 nm but flags unresolved yield at production scale. The **Beyond Euv Not In 2020S** thesis holds that DSA does not reach HVM as a leading-edge lithography step by 2030, reinforced by the fact that High-NA EUV already addresses the nodes DSA targets.
-
 ## Frontier
 
 - Does DSA survive the High-NA EUV ramp — is it still needed once 0.55 NA EUV delivers single-exposure 8 nm half-pitch?

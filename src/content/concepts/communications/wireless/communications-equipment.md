@@ -33,6 +33,14 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-09-europes-earth-observation-providers-set-their-sights-on-satc
+  title: Europe’s Earth Observation Providers Set Their Sights on Satcom
+  date: '2026-10-09'
+  kind: web
+- slug: 2026-10-07-china-the-fcc-and-the-logic-of-transceivers
+  title: China, the FCC, and the Logic of Transceivers
+  date: '2026-10-07'
+  kind: web
 - slug: 2026-10-05-esa-at-iac-2026-day-1
   title: ESA at IAC 2026 – Day 1
   date: '2026-10-05'
@@ -56,14 +64,6 @@ recent_mentions:
 - slug: 2026-09-01-nasa-selects-blue-origin-as-mars-telecommunications-network-
   title: NASA Selects Blue Origin as Mars Telecommunications Network Provider
   date: '2026-09-01'
-  kind: web
-- slug: 2026-08-31-channel-emulator-for-6-g-and-wi-fi-78---31-august-2026---con
-  title: Channel emulator for 6 G and Wi-Fi 7/8 - 31 August 2026 - Concilium Technologies - dataweek.co.za
-  date: '2026-08-31'
-  kind: web
-- slug: 2026-08-21-dect-nr-gateway-brings-deterministic-wireless-to-industrial-
-  title: DECT NR+ gateway brings deterministic wireless to industrial automation - eeNews Europe
-  date: '2026-08-21'
   kind: web
 neighbors: []
 ---

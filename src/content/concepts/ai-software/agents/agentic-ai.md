@@ -7,6 +7,7 @@ parent_concepts:
 - ai-agents
 related_concepts: []
 sources:
+- '[[2026-02-27-four-things-what-do-these-people]]'
 - '[[2026-07-24-the-huggingface-incident]]'
 - '[[2026-04-10-state-of-the-future-friday-four-551]]'
 - '[[2026-02-13-four-things-friday]]'
@@ -14,6 +15,7 @@ sources:
 - '[[2026-03-17-compute-specialisation-equilibrium-aws-rises-to-the-agentic]]'
 - '[[2025-06-slm-future-agentic-ai-nvidia]]'
 - '[[2026-07-26-postgres-absorption-vector-layer]]'
+- '[[2026-06-18-re-engineering-the-semiconductor-supply-chain-with-intel-ceo]]'
 - '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
 - '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
 - '[[2026-05-01-semianalysis-ai-value-capture-model-labs]]'
@@ -31,7 +33,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 108
+mention_count: 114
 sources_7d: 5
 sources_30d: 16
 recent_mentions:
@@ -59,13 +61,13 @@ recent_mentions:
   title: Semi Doped — Daily Update, June 23rd 2026
   date: '2026-06-23'
   kind: web
+- slug: 2026-06-18-re-engineering-the-semiconductor-supply-chain-with-intel-ceo
+  title: Re-engineering the Semiconductor Supply Chain with Intel CEO Lip-Bu Tan
+  date: '2026-06-18'
+  kind: web
 - slug: 2026-06-02-agentic-runtime-silicon-necessity
   title: Deep-research dossier — does the stateful agent runtime / control-plane layer need a novel silicon primitive?
   date: '2026-06-02'
-  kind: web
-- slug: 2026-05-01-semianalysis-ai-value-capture-model-labs
-  title: AI Value Capture - The Shift To Model Labs
-  date: '2026-05-01'
   kind: web
 neighbors: []
 ---

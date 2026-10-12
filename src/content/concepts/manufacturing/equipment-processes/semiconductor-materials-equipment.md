@@ -61,13 +61,13 @@ recent_mentions:
   title: 'Chips Act 2.0 Part 4: Who benefits and who misses out? ... - eenewseurope.com'
   date: '2026-09-09'
   kind: web
+- slug: 2026-09-08-the-myth-of-micron-not-so-american-after-all
+  title: 'The Myth of Micron: Not so American After All'
+  date: '2026-09-08'
+  kind: web
 - slug: 2026-09-04-cipr---the-european-chips-act-enters-into-force---european-c
   title: CIPR - The European Chips Act enters into force - European Commission
   date: '2026-09-04'
-  kind: web
-- slug: 2026-09-02-chips-act-20-part-3-can-europe-compete---eenews-europe
-  title: 'Chips Act 2.0, Part 3: Can Europe compete? ... - eeNews Europe'
-  date: '2026-09-02'
   kind: web
 neighbors: []
 ---

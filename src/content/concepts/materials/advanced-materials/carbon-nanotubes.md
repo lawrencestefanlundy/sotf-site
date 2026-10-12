@@ -14,6 +14,7 @@ sources:
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2025-04-30-has-the-time-come-to-take-mortal]]'
 - '[[2025-08-19-thermal-stack-arms-race-thermal-interface-materials-market]]'
+- '[[2026-09-23-as-close-to-carbyne-as-were-probably-going-to-get]]'
 - '[[2026-06-17-nawah-vacnt-technology]]'
 scorecard:
   viability: 3
@@ -24,10 +25,14 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 39
+mention_count: 40
 sources_7d: 1
-sources_30d: 3
+sources_30d: 4
 recent_mentions:
+- slug: 2026-09-23-as-close-to-carbyne-as-were-probably-going-to-get
+  title: As Close to Carbyne As We're Probably Going to Get
+  date: '2026-09-23'
+  kind: web
 - slug: 2026-06-17-nawah-vacnt-technology
   title: NAWAH Architectured Nanomaterials — VACNT technology & positioning
   date: '2026-06-17'
@@ -93,8 +98,6 @@ Against thermal incumbents the picture is contested rather than superior: the ma
 **TLDR: Already diffusing as an additive and forest material; electronics adoption is blocked by sorting, doping stability and substrate dependence.**
 
 ## Impact (4/5)
-
-The upside case is the whole logic industry. If SWCNTs can carry scaling forward past the point where silicon fails on tunnelling, subthreshold swing and dark silicon, the addressable value is the semiconductor roadmap itself. That outcome is not demonstrated and should be treated as an option, not a forecast. The nearer-term impact is still meaningful: thermal interface materials for data centres, AI servers and 5G are a named growth market in which CNTs are one of the leading candidate chemistries <sup class="ref"><a href="https://www.globenewswire.com/news-release/2025/08/19/3135485/28124/en/Thermal-Interface-Materials-Market-Report-2026-2036-High-Performance-TIMs-for-Data-Centers-AI-Servers-and-5G-Infrastructure-Global-Outlook.html" title="Thermal Interface Materials Market Report 2026-2036: High-Performance TIMs for Data Centers, AI Servers, and 5G Infrastr" rel="noopener">ref</a></sup>, and heat is a first-order constraint on datacentre economics <sup class="ref"><a href="https://stateofthefuture.substack.com/p/carbon-nanotubes-in-the-datacentre" title="Carbon Nanotubes in the Datacentre" rel="noopener">ref</a></sup>.
 
 Beyond those, the sources point to a spread of smaller but real value pools: structural health monitoring and safety testing of critical infrastructure via optical strain sensing, deep-tissue near-infrared imaging where CNT emitters fill a gap in available fluorophores, hydrogen uptake in carbon nanostructures, and use as a one-dimensional container that forces new crystal phases, such as Cs2CoCl4 adopting tetragonal and orthorhombic rod groups under radial compression down to roughly 1 nm diameter. The breadth is itself the argument for a 4: CNTs do not need the logic outcome to matter, but they need it to matter enormously.
 

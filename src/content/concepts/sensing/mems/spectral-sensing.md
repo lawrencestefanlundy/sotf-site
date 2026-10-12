@@ -26,7 +26,7 @@ scorecard:
   verdict: ''
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2024-11-14-bringing-lab-testing-to-the-home---mit-news
   title: Bringing lab testing to the home - MIT News

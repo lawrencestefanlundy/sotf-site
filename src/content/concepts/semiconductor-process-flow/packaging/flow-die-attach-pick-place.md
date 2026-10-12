@@ -66,19 +66,3 @@ Volumes scale with die count, not wafer count: a single advanced package can sta
 [Bonding & Dicing Equipment](/manufacturing/equipment-processes/bonding-dicing-equipment/)
 
 - Owning idea: **Legacy Assembly Commoditised** (commodity assembly (recorded pass)).
-
-## Sources
-1. Mordor Intelligence, Die Bonder Equipment Market 2025-2030. https://www.mordorintelligence.com/industry-reports/die-bonder-equipment-market
-2. Besi, Q4-25 and Full Year 2025 Results (rev EUR 591.3M, GM 63.3%, OM 29.3%). https://www.besi.com/investor-relations/press-releases/details/be-semiconductor-industries-nv-announces-q4-25-and-full-year-2025-results/
-3. ASMPT, 2025 Annual Results (group rev US$1.76B, AP rev US$532.1M +30.2%, GM 37.8%, TCB +146% YoY). https://www.asmpt.com/en/investor-relations/news-events/asmpt-announces-2025-annual-results/
-4. MarketsandMarkets / Valuates, Hybrid Bonding Equipment Market (~$165M 2025 to ~$600M+ by 2030-2032, >20% CAGR). https://www.marketsandmarkets.com/PressReleases/hybrid-bonding.asp
-5. Persistence Market Research / Business Research Insights, Die Attach Materials & Paste Market (~$2.0-2.5B 2025; Henkel ~18-20%, Resonac/Nitto/Dexerials/Lintec ~52-58%). https://www.persistencemarketresearch.com/market-research/die-attach-materials-market.asp
-6. OpenPR / MarketResearchFuture, Die Bonder Equipment Market players (Besi, ASMPT, K&S, Shinkawa, Toray, Fasford, Panasonic). https://www.marketresearchfuture.com/reports/die-bonder-equipment-market-32406
-7. Precedence Research, Dicing Die Attach Film Market ($2.32B 2025 to $4.39B 2034, 7.34% CAGR). https://www.precedenceresearch.com/dicing-die-attach-film-market
-8. Archive Market Research, Die Attach Material (~$1,015M, 5.5% CAGR 2025-2033). https://www.archivemarketresearch.com/reports/die-attach-material-838951
-9. FinancialContent / TechInsights, Advanced packaging outlook (~$65B by 2027, +74% vs 2021; die bonders/hybrid bonders capacity-constrained). https://markets.financialcontent.com/stocks/article/tokenring-2026-2-5-tsmc-to-quadruple-advanced-packaging-capacity-reaching-130000-cowos-wafers-monthly-by-late-2026
-10. FinancialContent, TSMC doubling/quadrupling CoWoS capacity through 2026 (~130k wafers/mo by late 2026, ~10x 2023). https://markets.financialcontent.com/wral/article/tokenring-2026-1-1-the-great-packaging-pivot-how-tsmc-is-doubling-cowos-capacity-to-break-the-ai-supply-bottleneck-through-2026
-11. Semiconductor Engineering, HBM4 Sticks With Microbumps, Postponing Hybrid Bonding (775um JEDEC height; HBM5 hybrid bonding ~2028-2029; SK Hynix $3.87B Indiana plant prod 2028). https://semiengineering.com/hbm4-sticks-with-microbumps-postponing-hybrid-bonding/
-12. Kulicke & Soffa FY2026 Q2 8-K + ASMPT AOR TCB (TCB to ~$400M annual system sales, FY26 capex ~$12M to ~$22M; fluxless active-oxide-removal TCB for HBM). https://www.sec.gov/Archives/edgar/data/0000056978/000005697826000018/ex991liveq22026.htm
-13. IndexBox / GMI, Silver sinter die attach for SiC/EV (sinter-paste segment ~10-15% CAGR to 2033-2035; >65% demand from power electronics; 800V + Tj>200C forcing sinter). https://www.gminsights.com/industry-analysis/silver-paste-market
-14. FinancialContent / Semiconductor Engineering, Hybrid-bond pitch roadmap + in-bonder metrology (6um HVM 2026, 4um/3um in test late 2026; X-ray die-to-wafer alignment in bonder head). https://markets.financialcontent.com/stocks/article/tokenring-2026-1-30-beyond-the-shrink-how-6-micrometer-hybrid-bonding-is-resurrecting-moores-law-for-the-ai-era

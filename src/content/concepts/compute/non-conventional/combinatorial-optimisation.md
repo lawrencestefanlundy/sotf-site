@@ -28,7 +28,7 @@ frontier:
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 84
+mention_count: 90
 scorecard:
   viability: 2
   drivers: 4
@@ -40,8 +40,8 @@ scorecard:
 scorecard_status: draft
 descendants:
 - uncertainty-propagation-compute
-sources_7d: 5
-sources_30d: 19
+sources_7d: 11
+sources_30d: 22
 recent_mentions:
 - slug: 2025-04-30-has-the-time-come-to-take-mortal
   title: Has the time come to take Mortal Computing seriously?
@@ -95,8 +95,6 @@ The more serious viability constraint is that the classical counterparts hold up
 
 ## Drivers (4/5)
 
-On the supply side, the substrates are diverse and several are cheap to iterate. The same Ising target is being attacked with gate-based superconducting processors, NMR devices, programmable quantum simulators capable of Floquet Ising dynamics, stochastic CMOS nanodevices and large GPU clusters running tensor-network contraction. That breadth means progress does not depend on any single hardware roadmap, which is the main reason to score this dimension high.
-
 **TLDR: Demand is specific and industrial; supply is a wide, well-funded research and hardware pipeline.**
 
 ## Novelty (2/5)
@@ -126,8 +124,6 @@ The caveat that keeps this off 5 is that the value accrues to whichever solver w
 ## Timing Later (5-10yr)
 
 Two clocks run at different speeds. The classical and hybrid side delivers already: GPU tensor-network contraction speedups measured on current hardware, learned partitioning and initialisation benchmarked to 1,000 variables, preprocessing that improves classical solver performance on standard benchmarks, and reinforcement learning improvements to compilers.
-
-The quantum-hardware clock is slower. The largest hardware run reported here is 150 qubits on IBM Heron with 3,443 gates; other hardware results are 26 spins and a two-qubit implementation of a 5-city TSP. Meanwhile encoding overhead, even after compaction to O(n log n), and unresolved global-constraint handling mean the effective problem size lags the qubit count. None of the sources gives a roadmap or a date, so the band is an inference from the gap between demonstrated scale and industrial instance sizes rather than a claim any paper makes.
 
 **TLDR: Hybrid and classical pipeline gains land now; a defensible quantum advantage on industrial instances is not close in these results.**
 

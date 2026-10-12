@@ -8,6 +8,7 @@ parent_concepts:
 - compute
 related_concepts: []
 sources:
+- '[[2026-02-27-four-things-what-do-these-people]]'
 - '[[2026-08-07-the-memory-trade-isnt-over-weights]]'
 - '[[2023-07-23-analog-computing-the-once-and-future]]'
 - '[[2025-12-19-lfg-for-semiconductors]]'
@@ -17,7 +18,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 12
+mention_count: 13
 frontier:
 - What end-to-end inference latency reduction does ILP-based CPU-CIM partitioning deliver versus accelerator-only or CPU-only baselines, on which model families and at what problem sizes does the ILP solve become intractable? 2026 07 07 optimizing ml workload partitioning between cpus and cim acc
 - Does accounting for RRAM write endurance change the optimal partition materially, and how many re-mappings can a deployed CIM array sustain before latency or accuracy degrades?
@@ -29,6 +30,10 @@ recent_mentions:
 - slug: 2026-08-07-the-memory-trade-isnt-over-weights
   title: 'The Memory Trade Isn''t Over: Weights and KV Cache'
   date: '2026-08-07'
+  kind: substack
+- slug: 2026-02-27-four-things-what-do-these-people
+  title: 'Four Things: What Do These People Know That We Don''t?'
+  date: '2026-02-27'
   kind: substack
 - slug: 2026-02-12-how-to-invest-in-ai-sovereignty-sovereign
   title: How to Invest in AI Sovereignty — Sovereign Albion w/ Andrew Bennett

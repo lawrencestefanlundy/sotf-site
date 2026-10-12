@@ -27,7 +27,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 126
+mention_count: 128
 sources_7d: 6
 sources_30d: 17
 recent_mentions:

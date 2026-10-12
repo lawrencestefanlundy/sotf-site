@@ -28,7 +28,7 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 347
+mention_count: 353
 sources_7d: 2
 sources_30d: 9
 recent_mentions:
@@ -52,6 +52,10 @@ recent_mentions:
   title: Is SMIC N+3's Metal Pitch Smaller than Intel 18A's?
   date: '2026-06-14'
   kind: web
+- slug: 2026-06-09-metrology-inspection-test-weirdly-controversial-oddly-fascin
+  title: 'Metrology, Inspection & Test: Weirdly controversial, oddly fascinating'
+  date: '2026-06-09'
+  kind: web
 - slug: 2026-04-22-kla-q3-fy2026-slides-process-control-share-58pct
   title: 'KLA Q3 FY2026 slides: market share hits 58%, ambitious 2030 targets'
   date: '2026-04-22'
@@ -59,10 +63,6 @@ recent_mentions:
 - slug: 2026-02-19-microalign-eic-grant
   title: MicroAlign secures EIC Accelerator grant to scale fiber-array production
   date: '2026-02-19'
-  kind: web
-- slug: 2025-intelmarketresearch-compound-semi-inspection-rejected
-  title: Compound Semiconductor Inspection Equipment Market (IntelMarketResearch)
-  date: '2025-12-31'
   kind: web
 neighbors:
 - slug: lithography
@@ -133,8 +133,6 @@ The optical paper asserts a general stake, that measurements of positional coord
 **TLDR: Value at stake is not quantified anywhere in the sources.**
 
 ## Timing Unclear
-
-All three relevant results were published in May 2026. None states a development roadmap, a partner, a throughput target or an intended insertion node. The thermoreflectance paper positions dielectric transducers as candidates for next-generation thermal metrology, which is a direction of travel rather than a date.
 
 Semiconductor metrology and inspection as a whole is obviously already in production use, but that is knowledge external to this corpus. On the supplied evidence the honest band is Unclear: the specific techniques are pre-industrial and the sources give no basis for placing them in a 2, 5 or 10 year window.
 

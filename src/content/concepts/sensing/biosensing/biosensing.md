@@ -21,11 +21,11 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 53
+mention_count: 55
 descendants:
 - biosensors
-sources_7d: 3
-sources_30d: 8
+sources_7d: 2
+sources_30d: 7
 recent_mentions:
 - slug: 2026-07-03-thats-a-learning-curve-mate-not-rsi
   title: That’s a learning curve mate, not RSI
@@ -62,8 +62,6 @@ The parameters that decide a given platform are therefore: sensitivity in the re
 On the application side, the same funding pipeline pushes towards products: needle-free continuous glucose monitoring to displace subcutaneous sensors that must be replaced every 10 to 14 days, a wearable carbon nanotube array reading pre-seizure volatile organic compounds to warn 10 to 45 minutes before onset, paper-based multi-biomarker maternal health tests read by hyperspectral camera and AI, and single-particle nanopore plus optical trapping to classify AAV capsids as empty, partial or full during gene therapy manufacture.
 
 ## Viability (3/5)
-
-Where the sources give measured results, they are real. TMR detectivity of 0.94 pT/root-Hz at 1 Hz is an achieved sensor number, not a projection <sup class="ref"><a href="https://pubs.aip.org/aip/apl/article/126/16/160503/3344956/Tunnel-magnetoresistance-sensors-with-sub-pT" title="Tunnel-magnetoresistance sensors with sub-pT detectivity for detecting bio-magnetic fields" rel="noopener">ref</a></sup>. SERS on 100 nm diameter, 2 micron tall plasmonic nanotubes has been used to monitor electroporation-induced membrane permeability in individual live cells, with fibronectin coating to secure attachment, which is a working measurement on live biology. Gold nanoparticle to photosynthetic protein conjugates give a measured circular dichroism enhancement factor of 3 over free protein, backed by simulation. GMR bead immunoassay has around 20 years of academic prior art including BARC and Stanford work <sup class="ref"><a href="https://www.mdpi.com/2079-6374/16/1/8" title="Integrated Microfluidic Giant Magnetoresistance (GMR) Biosensor Platform for Magnetoresistive Immunoassay (and related G" rel="noopener">ref</a></sup>.
 
 Against that, a large share of the frontier here is pre-experimental. The CMOS NV biosensor sensitivity of about 90 nT/root-Hz per pixel is an estimate from an efficiency analysis, not a measurement. The topology-optimised plasmonic trapping metasurfaces are numerical designs using Maxwell stress tensor force calculations with no fabricated device reported, and the Circular Huygens Dipole is explicitly numerically demonstrated only. Nanodiamond probes carry documented material constraints: lattice strain and surface noise shorten T1 and T2, destabilise the NV charge state, and produce pronounced particle-to-particle variability in top-down produced nanodiamonds, which complicates quantitative interpretation. Three is the honest aggregate: credible and partly demonstrated, contested at the device level.
 

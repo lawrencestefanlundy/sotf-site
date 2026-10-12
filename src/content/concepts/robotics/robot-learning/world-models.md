@@ -16,6 +16,7 @@ sources:
 - '[[2025-01-27-ai-for-nuclear-fusion-feat-martin]]'
 - '[[2026-05-01-state-of-the-future-friday-four-7b7]]'
 - '[[2026-07-01-sensifai-memo-streaming-physical-ai]]'
+- '[[2026-06-10-biohub-the-future-of-biology-is-open-source-with-co-founders]]'
 frontier:
 - Over what horizon does a learned world model stay accurate enough for closed-loop control on a real process, and does any source yet report that horizon for a physical robot rather than a mesh or a text environment?
 - Can the misprediction attack surface be closed, or is it intrinsic to approximate world modelling as claimed, in which case what supervisory architecture makes an unreliable predictor safe to deploy near people?
@@ -30,7 +31,7 @@ tags:
 - robotics
 - ai
 - world-models
-mention_count: 49
+mention_count: 57
 scorecard:
   viability: 2
   drivers: 3
@@ -40,12 +41,16 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 3
-sources_30d: 10
+sources_7d: 9
+sources_30d: 16
 recent_mentions:
 - slug: 2026-07-01-sensifai-memo-streaming-physical-ai
   title: SensifAI — Purpose-Built Silicon for Streaming Physical AI (funding memo)
   date: '2026-07-01'
+  kind: web
+- slug: 2026-06-10-biohub-the-future-of-biology-is-open-source-with-co-founders
+  title: 'Biohub: The Future of Biology is Open-Source with Co-Founders Mark Zuckerberg, Priscilla Chan, and Head of Science Alex Rives'
+  date: '2026-06-10'
   kind: web
 - slug: 2026-05-01-state-of-the-future-friday-four-7b7
   title: 'State of the Future: Friday Four'

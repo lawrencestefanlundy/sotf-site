@@ -22,10 +22,14 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-mention_count: 131
-sources_7d: 2
+mention_count: 136
+sources_7d: 3
 sources_30d: 15
 recent_mentions:
+- slug: 2026-09-04-why-laser-beams-are-the-hottest-new-tech-in-defense
+  title: Why Laser Beams Are the Hottest New Tech in Defense
+  date: '2026-09-04'
+  kind: web
 - slug: 2026-08-20-callosum-100m-seed-announcement
   title: Callosum announces $100M seed led by Atomico (round coverage + Companies House filings)
   date: '2026-08-20'
@@ -54,10 +58,6 @@ recent_mentions:
   title: 'Silicon Shock: The Macro of Tech Inflation'
   date: '2026-05-29'
   kind: web
-- slug: 2026-04-10-state-of-the-future-friday-four-551
-  title: 'State of the Future: Friday Four'
-  date: '2026-04-10'
-  kind: substack
 neighbors: []
 ---
 **Cybersecurity is being restructured around autonomous LLM agents that now perform triage, vulnerability discovery and incident response, while simultaneously becoming the largest new attack surface and lowering the skill floor for offence.**

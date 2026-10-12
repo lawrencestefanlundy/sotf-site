@@ -34,7 +34,7 @@ frontier:
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 14
+mention_count: 15
 scorecard:
   viability: 3
   drivers: 2
@@ -44,8 +44,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Overrated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 3
+sources_7d: 1
+sources_30d: 4
 recent_mentions:
 - slug: 2026-09-22-coinbase-full-stack-agent-payments
   title: Coinbase across the agent/stablecoin payments stack (agentic wallets, Payment APIs, x402, Bedrock AgentCore)

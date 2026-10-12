@@ -32,17 +32,37 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
-- slug: 2026-08-11-the-bioai-phase-shift---matthew-mcpartlon-neil-patil-chai-di
-  title: 🔬The BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery
-  date: '2026-08-11'
+- slug: 2026-10-07-ieee-report-predicts-tech-that-will-transform-lives
+  title: IEEE Report Predicts Tech That Will Transform Lives
+  date: '2026-10-07'
   kind: web
-- slug: 2026-07-16-the-lab-of-the-future-should-feel-like-a-data-center-andy-be
-  title: 🔬 The Lab of the Future Should Feel Like a Data Center — Andy Beam & Rafa Gómez-Bombarelli, Lila Sciences
-  date: '2026-07-16'
+- slug: 2026-10-06-beyond-wiring-diagrams-inside-a-19-million-effort-to-expand-
+  title: 'Beyond wiring diagrams: Inside a $19 million effort to expand access to connectome technology'
+  date: '2026-10-06'
   kind: web
-- slug: 2024-11-14-bringing-lab-testing-to-the-home---mit-news
-  title: Bringing lab testing to the home - MIT News
-  date: '2024-11-14'
+- slug: 2026-10-05-inventors-of-optogenetics-win-nobel-prize-in-physiology-or-m
+  title: Inventors of optogenetics win Nobel Prize in Physiology or Medicine
+  date: '2026-10-05'
+  kind: web
+- slug: 2026-09-29-tech-to-replace-animal-testing-is-almost-ready-scientists-ar
+  title: Tech to Replace Animal Testing Is Almost Ready. Scientists Are Not
+  date: '2026-09-29'
+  kind: web
+- slug: 2026-09-22-trna-therapy
+  title: tRNA Therapy
+  date: '2026-09-22'
+  kind: web
+- slug: 2026-09-01-live-cell-transcriptomics-with-engineered-virus-like-particl
+  title: Live-cell transcriptomics with engineered virus-like particles
+  date: '2026-09-01'
+  kind: web
+- slug: 2026-08-27-making-drugs-in-space-the-man-who-fed-india-and-what-narwhal
+  title: Making drugs in space, the man who fed India, and what narwhals can teach us about changing seas
+  date: '2026-08-27'
+  kind: web
+- slug: 2026-08-20-why-tracing-cyclosporiasis-is-so-tough-and-a-digestible-prob
+  title: Why tracing cyclosporiasis is so tough, and a digestible probe for the microbiome
+  date: '2026-08-20'
   kind: web
 neighbors: []
 ---

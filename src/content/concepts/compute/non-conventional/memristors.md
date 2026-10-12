@@ -60,8 +60,6 @@ The positive evidence is real and recent. Non-volatile, quasi-analogue switching
 
 On supply, the source set shows unusually wide activity: filamentary oxides, ECM silicon, Mott oxides, magnetic tunnel junctions, ionic nanofluidics in silicon nanopores and clay membranes, photonic MEMS, and intrinsic bistability engineered into a two-dimensional semiconductor without any filament at all. Several groups are moving from device demonstration to mechanism, including kinetic Monte Carlo and molecular dynamics with dynamic charge transfer, and public instrumentation funding continues to underwrite the underlying materials measurement capability.
 
-On demand, the stated pull is that CMOS-based memories face functional challenges in deep submicron nodes, making non-volatile, low-leakage, dense memristors a candidate replacement for SRAM-class memory, plus the broader argument that memory bandwidth, not compute, is the binding constraint on modern AI systems <sup class="ref"><a href="https://stateofthefuture.substack.com/p/e14-the-real-ai-bottleneck-high-bandwidth" title="🔮E14: The Real AI Bottleneck: High Bandwidth Memory (HBM) " rel="noopener">ref</a></sup>. What the sources do not provide is any market size, shipment volume, design-win or roadmap commitment from a manufacturer. The demand case here is inferred from technical framing rather than demonstrated procurement, which caps this at 3.
-
 **TLDR: Supply-side research is broad and active across many material platforms; demand is stated as CMOS memory scaling limits and the AI memory bottleneck, but the sources quantify neither.**
 
 ## Novelty (3/5)

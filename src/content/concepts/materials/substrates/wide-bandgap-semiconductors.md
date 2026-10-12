@@ -127,8 +127,6 @@ There is also an ecosystem barrier on the commercial side. The European analysis
 
 ## Impact (3/5)
 
-The mechanism for large impact is clear. A switching figure of merit above 1.87 GW/cm2 at a breakdown voltage above 1.45 kV is the metric that determines converter loss and size, and the macro thesis in the analyst material treats surging energy demand and power as a binding constraint **2026 06 Drumbeat Deep Tech Report**, which is exactly where efficiency gains in power conversion compound. Beyond power, the same material property opens instrumentation that currently does not exist: linear optical measurement in bright, hot environments for industrial process control, thermal and nuclear power generation and spaceflight, solar-blind UV-C detection with radiation hardness and spectral selectivity across a broad application range, and ultraviolet-to-mid-infrared frequency combs on chip using wide-bandgap oxides.
-
 The honest limit is that none of the supplied sources attaches a number to any of this: no market size, no efficiency delta against silicon systems, no energy saved, no cost per watt. The strategic framing that wide-bandgap materials are a domain where industrial positions are still forming supports the claim that the prize is worth contesting, but not its size. A 3 reflects a well-founded direction with unquantified magnitude.
 
 **TLDR: Plausibly large across power conversion, extreme-environment sensing and UV photonics, but no source here quantifies the value.**

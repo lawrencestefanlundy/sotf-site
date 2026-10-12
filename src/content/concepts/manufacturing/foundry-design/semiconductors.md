@@ -52,6 +52,18 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-11-17-gigawatt-texas-power-project-passes-key-hurdle-for-worlds
+  title: 17-gigawatt Texas power project passes key hurdle for world’s largest private grid
+  date: '2026-10-11'
+  kind: web
+- slug: 2026-10-08-synthesis-superintelligence-from-semiconductors-to-supercond
+  title: 'Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk'
+  date: '2026-10-08'
+  kind: web
+- slug: 2026-10-08-wafer-scale-low-symmetry-graphene-moire-superlattice-for-int
+  title: Wafer-scale low-symmetry graphene moiré superlattice for integrated quantum rectifiers
+  date: '2026-10-08'
+  kind: web
 - slug: 2026-10-07-china-the-fcc-and-the-logic-of-transceivers
   title: China, the FCC, and the Logic of Transceivers
   date: '2026-10-07'
@@ -68,21 +80,9 @@ recent_mentions:
   title: $630bn+ US Semiconductor Megaprojects in Rush to Break Ground before CHIPS Act Deadline - Construction Review
   date: '2026-10-05'
   kind: web
-- slug: 2026-10-01-key-meps-back-dropping-eus-20-chip-market-share-target---sci
-  title: Key MEPs back dropping EU’s 20% chip market share target - Science|Business
-  date: '2026-10-01'
-  kind: web
-- slug: 2026-09-30-global-electronics-association-and-fraunhofer-partner-on-eu-
-  title: Global Electronics Association and Fraunhofer Partner on EU Chips Act Pilot Line - Electronics For You BUSINESS
-  date: '2026-09-30'
-  kind: web
-- slug: 2026-09-25-chips-act-20-france-pushes-buy-european---tablebriefings
-  title: 'Chips Act 2.0: France pushes ‘Buy European’ - Table.Briefings'
-  date: '2026-09-25'
-  kind: web
-- slug: 2026-09-25-rigetti-computing-rgti-secures-chips-act-support-is-the-upsi
-  title: Rigetti Computing (RGTI) Secures CHIPS Act Support, Is The Upside Already Priced In? - simplywall.st
-  date: '2026-09-25'
+- slug: 2026-10-02-frontier-chips-for-frontier-ai-labs-with-walter-goodwin-foun
+  title: Frontier Chips for Frontier AI Labs, with Walter Goodwin, Founder/CEO of Fractile
+  date: '2026-10-02'
   kind: web
 neighbors:
 - slug: logic
@@ -155,8 +155,6 @@ Beyond those two, impact is mostly enabling rather than direct. Faster Wannier l
 ## Timing Later (5-10yr)
 
 The corpus splits cleanly. Contact-free terahertz doping characterisation is validated against a variety of existing measurements on materials already in volume production and could be adopted as soon as the sensitivity limits are accepted. Computational tooling, whether faster Wannier function generation or gradient-based optimisation of quantum photonic circuits, diffuses at the speed of code release.
-
-The device physics is much further out. Monolayer growth is by MBE and CVD at research scale, the multijunction photovoltaic case is a thermodynamic framework awaiting a fabricated stack, and heat removal from quantum-dot films remains an open problem. No supplied source gives a commercialisation date, a yield figure or a pilot line, so the 5 to 10 year band is inferred from the maturity of the demonstrations rather than from any stated roadmap.
 
 **TLDR: Metrology and simulation tooling could land now; the 2D and organic device work has no stated route to product in any source.**
 

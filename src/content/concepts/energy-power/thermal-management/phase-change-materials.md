@@ -35,7 +35,7 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 1096
+mention_count: 1115
 sources_7d: 1
 sources_30d: 4
 recent_mentions:
@@ -118,8 +118,6 @@ The qualitative case can be stated but not scored: the domains named in the corp
 ## Timing Unclear
 
 There is nothing in the corpus that dates a thermal PCM result, product or qualification. Assigning a band would be guesswork. The adjacent items give a rough sense of maturity in neighbouring thermal technologies: nanostructured thermal interfaces were the subject of an authoritative review as far back as 2016, with the reviewer noting in 2026 that the paper was predictive of the future and of what others would keep marketing despite not solving the key challenges **2016 Taphouse Cola Nanostructured Thermal Interfaces**, which is a decade-scale reminder that thermal materials move slowly from review to qualified product.
-
-**TLDR: The source set contains no PCM milestone, roadmap or deployment date, so no timing band can be defended.**
 
 ## Overrated or underrated? Too early to say
 

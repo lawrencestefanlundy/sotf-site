@@ -13,7 +13,8 @@ related_concepts:
 - world-models
 - vision-language-action-models
 - dexterous-manipulation
-sources: []
+sources:
+- '[[2026-10-07-hiphi-a-large-scale-benchmark-for-high-precision-human-motio]]'
 frontier:
 - Contact-rich/deformable physics fidelity is the bottleneck (visual fidelity is largely solved). Teams still see 20-40% drops on contact-rich transfer.
 - Does sim+synthetic genuinely close the data gap, or only for the easy (rigid, locomotion) subset?
@@ -24,10 +25,14 @@ tags:
 - robotics
 - simulation
 - data
-mention_count: 6
-sources_7d: 0
-sources_30d: 2
-recent_mentions: []
+mention_count: 14
+sources_7d: 8
+sources_30d: 10
+recent_mentions:
+- slug: 2026-10-07-hiphi-a-large-scale-benchmark-for-high-precision-human-motio
+  title: 'HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object Interaction'
+  date: '2026-10-07'
+  kind: web
 neighbors:
 - slug: world-models
   name: World Models (for robotics & autonomy)

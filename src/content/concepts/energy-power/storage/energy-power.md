@@ -123,37 +123,37 @@ descendants:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-11-17-gigawatt-texas-power-project-passes-key-hurdle-for-worlds
+  title: 17-gigawatt Texas power project passes key hurdle for world’s largest private grid
+  date: '2026-10-11'
+  kind: web
+- slug: 2026-10-09-nasa-signs-space-nuclear-pact-says-moon-base-is-ahead-of-sch
+  title: NASA Signs Space Nuclear Pact, Says Moon Base Is Ahead of Schedule
+  date: '2026-10-09'
+  kind: web
+- slug: 2026-10-08-constellation-and-google-go-in-on-nuclear-uprates-to-unlock-
+  title: Constellation and Google go in on nuclear uprates to unlock clean power
+  date: '2026-10-08'
+  kind: web
+- slug: 2026-10-07-ieee-report-predicts-tech-that-will-transform-lives
+  title: IEEE Report Predicts Tech That Will Transform Lives
+  date: '2026-10-07'
+  kind: web
 - slug: 2026-10-05-wartsila-to-supply-282-mw-onsite-power-solution-for-a-us-dat
   title: Wärtsilä to supply 282 MW onsite power solution for a U.S. data center as AI growth intensifies demand for reliable power - Latitude Media
+  date: '2026-10-05'
+  kind: web
+- slug: 2026-10-05-virginias-new-energy-plan-make-the-ai-boom-work-for-not-agai
+  title: 'Virginia’s new energy plan: Make the AI boom work for — not against — us'
   date: '2026-10-05'
   kind: web
 - slug: 2026-10-01-vermont-gas-invests-in-geothermal-for-the-first-time---latit
   title: Vermont Gas invests in geothermal for the first time - Latitude Media
   date: '2026-10-01'
   kind: web
-- slug: 2026-09-30-a-data-center-company-signed-a-ppa-for-space-solar-power---l
-  title: A data center company signed a PPA for space solar power - Latitude Media
+- slug: 2026-09-30-commonwealth-fusion-inks-deal-for-over-6200-miles-of-high-te
+  title: Commonwealth Fusion inks deal for over 6,200 miles of high-tech tape critical to operating fusion power plants
   date: '2026-09-30'
-  kind: web
-- slug: 2026-09-29-how-to-measure-grid-utilization---latitude-media
-  title: How to measure grid utilization - Latitude Media
-  date: '2026-09-29'
-  kind: web
-- slug: 2026-09-28-does-the-market-finally-have-an-opening-for-solid-state-tran
-  title: Does the market finally have an opening for solid-state transformers? - latitudemedia.com
-  date: '2026-09-28'
-  kind: web
-- slug: 2026-09-28-frontier-forum-the-rush-for-clean-on-site-power---latitudeme
-  title: 'Frontier Forum: The rush for clean, on-site power - latitudemedia.com'
-  date: '2026-09-28'
-  kind: web
-- slug: 2026-09-25-what-chinas-clean-power-advantage-means-for-the-ai-race---la
-  title: What China’s clean power advantage means for the AI race - latitudemedia.com
-  date: '2026-09-25'
-  kind: web
-- slug: 2026-09-24-andurils-vision-for-powering-maritime-defense---latitude-med
-  title: Anduril’s vision for powering maritime defense - Latitude Media
-  date: '2026-09-24'
   kind: web
 neighbors: []
 ---

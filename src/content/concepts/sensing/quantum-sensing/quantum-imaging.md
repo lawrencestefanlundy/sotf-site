@@ -57,8 +57,6 @@ Against this, the failure modes are structural rather than incidental. Coinciden
 
 ## Drivers (3/5)
 
-On the demand side, the sources describe the pull rather than measure it. The clearest articulated need is label-free mid-infrared imaging without mid-infrared detectors, applied to biological samples. Institutional demand is visible but small: an NSF award of $94,177 in August 2026 funds a workshop explicitly convening quantum physicists, biomedical engineers, clinicians and end users because most biomedical quantum sensing work has stayed in ideal lab environments and needs a translation roadmap. That is a candid statement of an unmet translation gap, not evidence of procurement. No customer, revenue or instrument-shipment figures appear anywhere in these sources.
-
 **TLDR: Component supply is improving fast; demand is real in mid-infrared and photosensitive-sample imaging but not yet evidenced by buyers in these sources.**
 
 ## Novelty (3/5)
@@ -98,13 +96,6 @@ The field is neither hype nor breakthrough: it is a set of narrow, physically so
 By 31 December 2029, quantum imaging with undetected light will have produced at least one commercially catalogued research-grade mid-infrared microscope, while no entangled-photon or sub-shot-noise imaging system will be in routine clinical use.
 
 ## Evidence base
-
-- 20 July 2026: scanning synthetic optical holography implemented inside quantum imaging with undetected light retrieved amplitude and phase images of binary, transparent and biological samples, probing with mid-infrared photons while detecting only visible partners, and decoupled resolution from photon-pair spatial correlations.
-- 27 July 2026: a quantum Fisher information analysis found ghost imaging and two-photon imaging generally more precise than imaging with undetected photons for transmission estimation, with QIUL uniquely avoiding coupling between spatial modes.
-- 29 May 2026: spatially entangled photon pairs with correlation post-selection improved image contrast through weakly scattering media in simulation and experiment, at the cost of higher shot noise from fewer surviving events.
-- 1 July 2026: conventional camera covariance quantum imaging is stated to need tens of thousands of frames; a kurtosis-difference weighted covariance method reports results at 5,000 frames without pre-calibrating a correlation centre.
-- 4 August 2026: comparison of Yurke SU(1,1), Mandel induced-coherence and hybrid interferometers concludes that ideal Heisenberg scaling is fragile under realistic detection constraints and loss, favouring intensity-based differential measurements.
-- 4 August 2026: NSF awarded $94,177 for a Quantum Imaging and Quantum Sensing workshop, noting that most biomedical quantum sensing work has been in ideal lab environments and that a translation roadmap is needed.
 
 ## Open questions
 

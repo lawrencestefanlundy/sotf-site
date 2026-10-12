@@ -29,7 +29,7 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 2
+sources_7d: 1
 sources_30d: 5
 recent_mentions: []
 neighbors: []
@@ -85,8 +85,6 @@ Secondary impact spreads wider than quantum computing. Telecom C-band epitaxial 
 **TLDR: A manufacturable deterministic source unlocks the resource-state economics of photonic quantum computing and the repeater layer of quantum networks.**
 
 ## Timing Later (5-10yr)
-
-None of the supplied sources gives a roadmap or a date, so this band is inferred from maturity signals rather than stated schedules. The signals point the same way: reviews published in 2026 still frame electronic and photonic integration of quantum emitters as a survey of routes rather than an achieved capability, and the silicon review of June 2026 explicitly summarises open challenges towards coherent single-photon sources and scalable spin-photon interfaces. The best purity and efficiency figures in this window are simulation outputs.
 
 A nearer-term subset exists. Room-temperature, site-controlled hBN emitters written by electron beam are usable for experiments now, and telecom-band droplet-etched dots are at the materials-characterisation stage. Component-level lab use is Now; the systems that would make the technology commercially decisive are Later.
 

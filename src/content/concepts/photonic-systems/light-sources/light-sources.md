@@ -27,7 +27,7 @@ descendants:
 - semiconductor-optical-amplifier
 - single-photon-sources
 - vcsels
-mention_count: 98
+mention_count: 99
 scorecard:
   viability: 4
   drivers: 3
@@ -43,7 +43,7 @@ frontier:
 - Can the crystal-edge and coating phase contributions identified in linear optical parametric oscillators be controlled well enough to make squeezer thresholds predictable at manufacture 2026 06 02 phase sensitive crystal edge effects in linear optical param?
 - Are microwatt-level chip-scale blue and nanowatt mid-IR outputs sufficient for atomic clock, sensing or spectroscopy applications, or is a power scaling route required 2026 05 05 nonlinear frequency translation in micromachined rb vapor ce?
 - Do the theoretical advantages claimed for correlated and superradiant sources survive contact with real mode-matching and synchronisation constraints, given that these constraints already forced a switch to a narrowband laser in a covert-communication experiment 2026 05 29 toward practical two way covert communication?
-sources_7d: 2
+sources_7d: 3
 sources_30d: 17
 recent_mentions:
 - slug: 2026-07-07-the-asml-killer
@@ -123,8 +123,6 @@ Attention in quantum photonics tends to concentrate on qubit counts, detectors a
 The underrated call is specifically about the process engineering, not the claims. Single-step etching, room-temperature AFM oxidation lithography, droplet etching for symmetric telecom dots, ion implantation into silicon nitride and anodically bonded vapour cells are all moves towards fewer steps and standard toolsets, and that is what determines whether a source becomes a component. Against that, anyone reading the theoretical results as near-term capability should discount heavily: the 65 dB isolation figure and the factor-N LIDAR gain are calculations, and the covert-communication experiment shows what happens when a broadband quantum source meets a real system, which is that it gets replaced by a laser.
 
 ## Prediction
-
-By 31 December 2028, at least one peer-reviewed deterministic quantum-dot-in-circular-Bragg-grating source will report a measured, not simulated, fibre-coupled photon extraction efficiency above 40% at a telecom wavelength; if the best measured figure published by then remains below 20%, the extraction-efficiency roadmap implied by the 68% FDTD predictions should be treated as stalled.
 
 ## Evidence base
 

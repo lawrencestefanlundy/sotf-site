@@ -103,12 +103,6 @@ and the assembly still be thermally bound, which is what a Cerebras architect re
 (cooling the wafer is easy, cooling the converters is very difficult). Bet page:
 **Converter Plane Thermal**. Evidence: <sup class="ref"><a href="https://arxiv.org/pdf/2606.28837" title="Vertical power delivery: the thermal limit at the 48V-to-point-of-load stage" rel="noopener">ref</a></sup>.
 
-### L0 — In-die / embedded cooling *(the frontier that bypasses the TIM problem)*
-- **Role:** remove heat *inside* the silicon — microchannels etched into the die or interposer backside, on-die hotspot management. If heat never has to cross a die-attach interface, layers L1–L3 stop binding.
-- **Binding question:** does the **foundry/OSAT absorb** the in-silicon primitive, or does a specialist hold a manufacturable one?
-- **Approaches / who:** **Corintis** (EPFL; in-silicon microfluidics + Glacierware design software; Microsoft co-dev, ~3× heat removal / 65% lower peak temp, vendor-demoed); **TSMC IMC-Si** (microchannels fusion-bonded into CoWoS, >2.6 kW TDP, ~2027 commercialisation — *the* competitive fact); **Jetcool** SmartSilicon (on-die); Maxwell Labs (laser cooling, pre-product); imec/IBM-Zurich legacy; Adeia IP. See **In Chip Microfluidic Cooling**.
-- **Capture → route:** value biases to **foundry/OSAT capture** (TSMC absorbing it ~2027); the narrow venture wedge is **design software + hyperscaler co-dev**, not the etch/bond primitive. **Cross-link: BSPDN** (backside power delivery, Intel 18A / TSMC A16) *forces* backside cooling and is the why-now. Listed: TSM, FLEX (JetCool), ADEA.
-
 ### L3 — TIM2 (lid/spreader → cold plate)
 - **Role:** second interface, lid to cold plate. Lower flux than TIM1, larger area.
 - **Approaches / who (incumbent-dense — the thickest, most commoditised material layer):** grease, gap pads, phase-change pads — Henkel, Dow, Shin-Etsu, Momentive, Wacker, Fujipoly, Laird, Parker/Chomerics, Honeywell/Solstice PTM, T-Global. See [Phase-Change Materials (Thermal)](/energy-power/thermal-management/phase-change-materials/).
@@ -140,8 +134,6 @@ and the assembly still be thermally bound, which is what a Cerebras architect re
 ## Company placement table
 
 The cohort, placed. `L#` = primary layer (secondary in parens). Status from the company page `decision:`. Garbled/duplicate auto-map slugs and demand-side (server OEMs, power devices) dropped — see the source note for the full raw classification.
-
-**Coverage read:** thickest = **L3** (commodity TIM2 incumbents, ~16) and **L1** (the frontier, ~12). Thinnest = **L0** (Corintis ~the only true entry), **L5** (one real fluid line + dielectric secondaries), **L8** (2–3). The thin layers are where either a genuine wedge (L0) or a dislocation (L5 PFAS) sits — built out as **In Chip Microfluidic Cooling** and **Dielectric Coolant Pfas Transition**.
 
 ## Where the genuine early-stage venture wedge is (vehicle-agnostic, ranked by where value is held)
 

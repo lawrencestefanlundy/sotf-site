@@ -40,14 +40,6 @@ neighbors:
 ---
 > Step 18 of 56 in the semiconductor flow (Wafer). Prev: [Wafer slicing, lapping & polishing (process step)](/semiconductor-process-flow/wafer-materials/flow-wafer-slicing-polishing/) · Next: [Wafer foundry / fabrication services (process step)](/semiconductor-process-flow/frontend/flow-foundry-fabrication-services/)
 
-## What this step does
-Epitaxy grows a thin, single-crystal layer on top of the polished wafer so its atoms line up with the substrate lattice underneath, giving a near-perfect crystal surface for the active devices. It is the bridge between the bare wafer and the fab: the epi layer (and any strained or compound layer on top) is where the transistors actually live. Sub-processes inside it:
-- Silicon epi: a lightly doped Si layer on a Si wafer (the workhorse for power, analog, CMOS image sensors and the channel of advanced logic).
-- SiGe / strained-Si: depositing silicon-germanium to strain the channel and lift carrier mobility, central to FinFET and gate-all-around source-drain.
-- Selective / source-drain epi: growing material only in defined windows for advanced-logic transistors (Applied's Xtera, ASM's Intrepid).
-- Compound epi (MOCVD/MBE): GaN, GaAs, InP, SiC layers grown atom-layer by atom-layer for power, RF and photonics; see [MOCVD / MBE](/manufacturing/equipment-processes/mocvd-mbe/).
-- In-situ doping and post-epi metrology (thickness, defect, dopant uniformity).
-
 ## Where it sits and why it matters
 Epi is the first place crystal quality becomes a device-yield problem rather than a wafer-supplier problem. A single dislocation or thickness error in the epi layer propagates straight into transistor leakage and breakdown. For advanced logic, SiGe source-drain epi is the lever that has kept Moore's law alive across FinFET and into gate-all-around, so the leading-edge epi tool is a node-enabling chokepoint. For power and RF, the epi layer essentially is the product: a GaN-on-Si or SiC epi wafer is sold as a value-added intermediate at a large multiple of the bare substrate.
 
@@ -86,19 +78,3 @@ Net read is two engines on different clocks: the leading-edge silicon/SiGe epi p
 - **Gan On Si Substrate Epi** - thesis on GaN-on-Si epi wafers as the value-added intermediate for power.
 - [Wafer slicing, lapping & polishing (process step)](/semiconductor-process-flow/wafer-materials/flow-wafer-slicing-polishing/) - prior step that delivers the polished substrate epi grows on.
 - [Wafer foundry / fabrication services (process step)](/semiconductor-process-flow/frontend/flow-foundry-fabrication-services/) - next step, where the epi wafer enters device fabrication.
-
-## Sources
-1. Verified Market Reports / Growth Market Reports, SiC Epitaxy Equipment Market (~$1.25-1.32B 2024, 15-18% CAGR). https://www.verifiedmarketreports.com/product/silicon-carbide-sic-epitaxy-equipment-market/; https://growthmarketreports.com/report/sic-epitaxy-equipment-market
-2. Market Report Analytics / Intel Market Research, MOCVD equipment market & shares (Aixtron+Veeco; top three ~60%; FY24 revenues ~€630M / ~$630M). https://www.marketreportanalytics.com/reports/mocvd-59003; https://www.intelmarketresearch.com/semiconductor-mocvd-equipment-market-32310
-3. ASM International Investor Day 2025 / Bits&Chips, Epi market $1.5B (2024) to $2.5-3.2B (2030), 9-13% CAGR; ASM >30% Si epi target. https://www.globenewswire.com/news-release/2025/09/23/3154400/0/en/ASM-hosts-Investor-Day-provides-new-2030-targets-revises-H2-2025-outlook.html; https://bits-chips.com/article/asm-projects-doubling-revenues-by-2030/
-4. Applied Materials, Centura Epi / Xtera epitaxy & GAA leadership. https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-extends-leadership-position-epitaxy; https://www.appliedmaterials.com/us/en/semiconductor/markets-and-inflections/advanced-logic/gaa.html
-5. GMInsights, Gate-All-Around transistor market (AMAT expects >50% of GAA equipment). https://www.gminsights.com/industry-analysis/gate-all-around-gaa-transistor-market
-6. Valuates / Jason's Chips / eeNews, SiC epi competitive set (Aixtron, LPE/ASM, Epiluvac, AMEC, Naura); Aixtron ~70-75% MOCVD, ~1/3 SiC CVD; Turin plant. https://reports.valuates.com/market-reports/QYRE-Auto-3A13394/global-silicon-carbide-sic-epitaxy-equipment; https://www.eenewseurope.com/en/aixtron-selects-turin-for-chip-making-equipment-factory/
-7. IndexBox / SkyQuest, epitaxy precursor chemicals (TMGa ~$2.5-4.5k/kg, TMIn ~$3-6k/kg; TCS/DCS/silane; Linde/Air Liquide/Air Products/Wacker/Shin-Etsu). https://www.indexbox.io/store/asia-pacific-epitaxy-precursor-chemicals-market-analysis-forecast-size-trends-and-insights/; https://www.skyquestt.com/report/trichlorosilane-market
-8. TechInvestments / BALD Engineering, GAA at 2nm+ lifts single-wafer ALD and Si epi demand. https://www.techinvestments.io/p/atomic-layer-deposition-next-gen; https://www.blog.baldengineering.com/search/label/Semiconductor
-9. arXiv 2602.07925, high-Ge-content SiGe selective epitaxy for gate-all-around source/drain. https://arxiv.org/abs/2602.07925
-10. Tom's Hardware / Tech-Insider, HBM ~3x wafer capacity/GB vs DDR5; ~23% of DRAM wafers 2026; HBM4 16-die late 2026/2027. https://www.tomshardware.com/pc-components/ram/hbm-is-eating-your-ram; https://tech-insider.org/memory-chip-shortage-2026-ai-consumer-electronics/
-11. Yole Power GaN 2025 / Semiconductor Today / Power Electronics News, GaN device market ~35-42% CAGR to ~$2.5-2.9B by 2030; data-centre "power wall"; 300mm >80% of GaN demand by 2030. https://www.yolegroup.com/product/report/power-gan-2025/; https://www.powerelectronicsnews.com/gan-goes-big-how-300-mm-wafers-are-powering-the-next-generation-of-data-centers/
-12. Yole / Semiconductor Today, Power SiC overcapacity: upstream ~50% / device ~70% utilisation 2025, downturn to 2027-2028, SiC equipment ~-7% to -11% CAGR through 2030, China ~40% of SiC wafer/epiwafer capacity by 2024, 8-inch ramp drives the turn. https://www.semiconductor-today.com/news_items/2025/dec/yole-181225.shtml
-13. SemiEngineering / Tom's Hardware, 3D DRAM needs 100+ Si/SiGe superlattice bilayers (IMEC up to ~120-300 layers on 300mm); mass production ~2032-2035. https://semiengineering.com/epitaxial-growth-of-up-to-120-si-sige-bilayers-in-view-of-3d-dram-applications-imec-ghent-univ/; https://www.tomshardware.com/pc-components/dram/sk-hynix-reveals-dram-development-roadmap-through-2031-ddr6-gddr8-lpddr6-and-3d-dram-incoming
-14. Semiconductor Today, Veeco Propel300 300mm GaN MOCVD order from GaN-on-Si power IDM (Nov 2025). https://www.semiconductor-today.com/news_items/2025/nov/veeco-051125.shtml

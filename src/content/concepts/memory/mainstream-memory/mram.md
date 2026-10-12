@@ -28,7 +28,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 55
+mention_count: 56
 last_reorg_date: '2026-05-14'
 scorecard:
   viability: 3
@@ -40,7 +40,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 1
-sources_30d: 3
+sources_30d: 2
 recent_mentions:
 - slug: 2026-06-22-beyond-cmos-device-layer-research
   title: Beyond-CMOS device layer — grounded research (MRAM/FeFET beachhead + capture base rate)

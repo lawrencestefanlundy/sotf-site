@@ -27,8 +27,6 @@ Gate-all-around (GAA) nanosheet transistors replace the FinFET's vertical fin wi
 
 ## Competitive landscape
 
-FinFET is the incumbent—still cost-effective at 5–7 nm and dominant in mature-node derivatives. Forksheet transistors (imec roadmap) push sheet-to-sheet spacing to near-zero for density gains, seen as a GAA successor beyond 2 nm. CFET (complementary FET) stacks n- and p-type vertically, targeting post-2026. Carbon nanotube FETs (MIT, SiAnode, Carbonics) offer higher mobility but face alignment/purity manufacturability walls.
-
 ## Companies using
 
 <!-- dataview block stripped for public site -->

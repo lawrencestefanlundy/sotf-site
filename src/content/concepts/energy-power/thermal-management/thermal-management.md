@@ -161,8 +161,6 @@ The second barrier is objective conflict. Wirelength reduction and thermal manag
 
 ## Impact (4/5)
 
-The value is leverage rather than a standalone market. If localised heating sets peak temperature in 3D stacks, then thermal analysis fidelity directly determines which power delivery architecture is chosen, and backside power delivery networks that look beneficial under uniform assumptions carry pronounced penalties under realistic localised workloads because of limited lateral heat spreading. That is a decision affecting the roadmap of advanced logic packaging, not a marginal efficiency gain. Similarly, thermal co-design is presented as one of the factors deciding whether co-packaged optics reaches scale in AI datacentres, and cryogenic thermal budgets are a central challenge for integrating qubits with control electronics.
-
 **TLDR: Thermal limits gate 3D integration, in-package optics and cryogenic quantum scale-up, so getting this right or wrong changes what those architectures can be.**
 
 ## Timing Now (0-2yr)
@@ -174,8 +172,6 @@ Material substitutions with an existing process route, such as choosing high-res
 **TLDR: The constraint is already binding in packaging and photonics; the exotic material and active-control routes are much further out.**
 
 ## Overrated or underrated? Underrated
-
-The underrating is specific: thermal management is still treated as a downstream packaging task, and the sources show it is functioning as an architectural constraint that changes the answer to first-order design questions. The clearest single piece of evidence is that using uniform power maps flips the conclusion on backside versus frontside power delivery in 3D stacks, reinforced by the argument that component-level optimisation of co-packaged optics has stalled deployment because packaging and thermal effects dominate. Any roadmap for 3D logic, in-package optics or integrated cryogenic quantum systems that carries thermal as a late-stage check is likely mis-specified.
 
 ## Prediction
 

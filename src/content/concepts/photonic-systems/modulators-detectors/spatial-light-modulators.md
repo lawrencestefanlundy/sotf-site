@@ -59,7 +59,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-sources_7d: 6
+sources_7d: 5
 sources_30d: 13
 recent_mentions:
 - slug: 2026-07-07-the-asml-killer
@@ -175,8 +175,6 @@ For anything that can be done with visible or near-infrared LCoS and DMD hardwar
 **TLDR: Incumbent LCoS and DMD devices are delivering load-bearing results today; the architectures that lift the speed-complexity ceiling are two to five years from usable form.**
 
 ## Overrated or underrated? Underrated
-
-Two cautions against over-enthusiasm. First, the fundamental compromise between refresh rate, pixel count and field of view is real and acknowledged by the people trying to break it, so anyone underwriting holographic display or fast large-aperture beam steering on current hardware is underwriting a physical constraint, not a roadmap. Second, passive deep-learning-designed diffractive optics are a genuine substitute wherever the required transformation is fixed or can be addressed by wavelength instead of by pixel, and they achieved 625 addressable channels with no electronic control at all. The SLM's value concentrates in applications that truly need per-frame reprogrammability.
 
 ## Prediction
 

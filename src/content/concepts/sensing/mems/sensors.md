@@ -28,37 +28,37 @@ sources:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-11-ultraviolet-laser-creates-new-defects-in-diamond-without-dis
+  title: Ultraviolet laser creates new defects in diamond without disturbing quantum centers
+  date: '2026-10-11'
+  kind: web
+- slug: 2026-10-10-ultraviolet-laser-pulses-engineer-diamond-defects-selectivel
+  title: Ultraviolet laser pulses engineer diamond defects selectively, leaving quantum qubits intact
+  date: '2026-10-10'
+  kind: web
+- slug: 2026-10-09-exclusive-kapta-space-raises-24m-series-a-to-build-moving-ta
+  title: 'Exclusive: Kapta Space Raises $24M Series A to Build Moving Target Radar Payload'
+  date: '2026-10-09'
+  kind: web
+- slug: 2026-10-08-uae-completes-arab-worlds-first-solo-space-probe-b-band-sets
+  title: UAE completes Arab world's first solo space probe <b>– </b>and sets course for an asteroid
+  date: '2026-10-08'
+  kind: web
+- slug: 2026-10-07-optogenetic-therapy-for-restoring-aspects-of-visual-function
+  title: Optogenetic Therapy for Restoring Aspects of Visual Function
+  date: '2026-10-07'
+  kind: web
 - slug: 2026-10-06-lunar-grounding-challenge
   title: Lunar Grounding Challenge
+  date: '2026-10-06'
+  kind: web
+- slug: 2026-10-06-hawkeye-360-turns-its-rf-sensors-to-orbital-targets
+  title: HawkEye 360 Turns its RF-Sensors to Orbital Targets
   date: '2026-10-06'
   kind: web
 - slug: 2026-10-05-physicist-jun-ye-wins-wolf-prize-in-physics
   title: Physicist Jun Ye Wins Wolf Prize in Physics
   date: '2026-10-05'
-  kind: web
-- slug: 2026-10-02-jammertest-pumps-up-the-jam-in-norway
-  title: Jammertest pumps up the jam in Norway
-  date: '2026-10-02'
-  kind: web
-- slug: 2026-09-28-nasa-orbit-challenge-2027
-  title: NASA ORBIT Challenge 2027
-  date: '2026-09-28'
-  kind: web
-- slug: 2026-09-17-galileos-first-civil-authenticated-position-fix-under-spoofi
-  title: Galileo's first civil authenticated position fix under spoofing conditions
-  date: '2026-09-17'
-  kind: web
-- slug: 2026-09-17-nasa-awards-launch-services-for-starburst-gamma-ray-detector
-  title: NASA Awards Launch Services for StarBurst Gamma-Ray Detector
-  date: '2026-09-17'
-  kind: web
-- slug: 2026-09-14-esa-space-environment-report-2026
-  title: ESA Space Environment Report 2026
-  date: '2026-09-14'
-  kind: web
-- slug: 2026-09-10-nist-developed-quantum-sensors-improve-nuclear-monitoring
-  title: NIST-Developed Quantum Sensors Improve Nuclear Monitoring
-  date: '2026-09-10'
   kind: web
 neighbors: []
 ---

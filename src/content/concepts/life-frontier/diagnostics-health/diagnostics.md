@@ -22,8 +22,8 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 142
-sources_7d: 2
+mention_count: 144
+sources_7d: 3
 sources_30d: 21
 recent_mentions:
 - slug: 2026-08-03-spad-single-photon-market-scan
@@ -79,8 +79,6 @@ What is missing is everything after the first instrument. Biological validation 
 ## Drivers (3/5)
 
 On supply, the enabling shift is explicit. MIR single-photon imaging adoption is described as hindered by the absence of efficient room-temperature MIR detectors, and the fix is to upconvert into the visible so that cost-effective silicon SPADs do the detection at room temperature with low noise. The same logic recurs with a single-photon-sensitive silicon camera enabling high-contrast edge imaging under low light at 3 micrometres and with frame rates lifted past readout-electronics limits by optical multiplexing onto one silicon camera exposure. The second supply driver is cheap inference: machine learning removes the calibration burden that previously gated spectroscopy in messy environments, including recovering concentrations and spectral signatures when reference spectra are unavailable at all. A third is autonomous process control, where in situ RHEED plus unsupervised learning is proposed to cut manual tuning in molecular beam epitaxy.
-
-On demand, the sources list application domains rather than evidence of pull: biomedical diagnostics, material inspection and remote sensing; combustion diagnostics, explosion reactions, photosynthetic tracking and thermal surveillance; chemical analysis, medical diagnostics and quantum sensing. There are no procurement figures, market sizes, customers or funding data anywhere in this set, so the demand half of the score is unsupported and I have kept it at a middling 3 on the strength of the supply argument alone.
 
 **TLDR: Supply-side pull from commodity silicon detectors and learned reconstruction is well evidenced; demand is asserted, never measured.**
 

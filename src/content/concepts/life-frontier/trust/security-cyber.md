@@ -31,9 +31,17 @@ recent_mentions:
   title: QuTech Spinout Q*Bird Rebrands to Falqon Systems to Commercialize Quantum Secure Networks - Quantum Computing Report
   date: '2026-09-16'
   kind: web
+- slug: 2026-08-27-rethinking-legacy-data-infrastructure-with-eon-co-founders-o
+  title: Rethinking Legacy Data Infrastructure with Eon Co-Founders Ofir Ehrlich and Gonen Stein
+  date: '2026-08-27'
+  kind: web
 - slug: 2026-08-05-stealthium-gpu-powered-security-intelligence-site-docs-compe
   title: Stealthium — GPU-Powered Security Intelligence (site + docs + competitive context)
   date: '2026-08-05'
+  kind: web
+- slug: 2026-05-28-building-an-ai-guardian-for-enterprise-with-onyx-security-ce
+  title: Building an AI Guardian for Enterprise with Onyx Security CEO Maxim Bar Kogan
+  date: '2026-05-28'
   kind: web
 - slug: 2025-10-09-wi-fi-7-advanced-integrates-sensing-iot-and-ai-security-into
   title: Wi-Fi 7 Advanced integrates sensing, IoT, and AI security into 10Gbps wireless networks - TechRadar

@@ -48,8 +48,6 @@ sources:
 - '[[2026-07-01-the-next-ai-infrastructure-opportunity-is-unlocking-what-we-]]'
 - '[[2026-04-01-ark-ai-infrastructure]]'
 - '[[2026-05-22-ai-power-thermal-binding-goldman-sachs-ai-infrastructure]]'
-- '[[2026-06-23-google-project-suncatcher]]'
-- '[[2026-02-15-ai-power-thermal-binding-oracle-announces-direct-to-chip]]'
 scorecard:
   viability: 4
   drivers: 5
@@ -59,7 +57,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 131
+mention_count: 135
 descendants:
 - ai-grade-datacentre-real-estate
 - ai-infrastructure-scaling
@@ -70,8 +68,8 @@ descendants:
 - moe-all-to-all-collectives
 - prefill-vs-decode
 - sovereign-ai
-sources_7d: 2
-sources_30d: 7
+sources_7d: 3
+sources_30d: 8
 recent_mentions:
 - slug: 2026-09-01-eu-taiwan-chip-dialogue-targets-ai-infrastructure-partnershi
   title: EU-Taiwan chip dialogue targets AI infrastructure partnerships under EU Chips Act 2.0 - INSIGHT EU MONITORING

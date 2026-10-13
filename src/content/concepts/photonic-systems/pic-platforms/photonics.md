@@ -51,7 +51,7 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-mention_count: 1197
+mention_count: 1200
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -63,6 +63,18 @@ descendants:
 sources_7d: 2
 sources_30d: 4
 recent_mentions:
+- slug: 2026-10-12-tiny-pluggable-optical-module-boosts-data-center-bandwidth-4
+  title: Tiny pluggable optical module boosts data center bandwidth 4x without extra hardware
+  date: '2026-10-12'
+  kind: web
+- slug: 2026-10-12-cnt-electronics-market-research
+  title: 'Carbon nanotube electronics: market, cohort and M&A research (web sweep, 82 sources)'
+  date: '2026-10-12'
+  kind: web
+- slug: 2026-10-12-chip-mediated-manipulation-of-photonic-quantum-skyrmions
+  title: Chip-mediated manipulation of photonic quantum skyrmions
+  date: '2026-10-12'
+  kind: web
 - slug: 2026-10-09-state-of-the-future-dispatch-9th
   title: 'State of the Future: Dispatch 9th October 2026'
   date: '2026-10-09'
@@ -82,18 +94,6 @@ recent_mentions:
 - slug: 2026-08-24-nist-researchers-supersize-quantum-technology-to-help-detect
   title: NIST Researchers Supersize Quantum Technology to Help Detect Faint Photons
   date: '2026-08-24'
-  kind: web
-- slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
-  title: Chip Industry Week in Review (7 Aug 2026)
-  date: '2026-08-07'
-  kind: web
-- slug: 2026-08-05-uk-neocloud-landscape-sweep
-  title: UK neocloud landscape sweep — filling the coverage gap under the neocloud/serving map
-  date: '2026-08-05'
-  kind: web
-- slug: 2026-08-03-spad-single-photon-market-scan
-  title: SPAD / single-photon detector market scan — incumbent structure and company cohort
-  date: '2026-08-03'
   kind: web
 neighbors: []
 ---

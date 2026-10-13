@@ -61,8 +61,6 @@ The honest deductions are specific. SOT write efficiency sits roughly half of wh
 
 ## Drivers (3/5)
 
-On the supply side the enablers are process compatibility rather than new capital: 400 C anneal survival, sub-0.01 um2 footprints, read-only superparamagnetic cells compatible with most advanced CMOS nodes, and stochastic-write cells that reuse standard CMOS MTJ process flows and can be co-integrated with embedded STT-MRAM. Materials work is feeding the pipeline: composition-tuned Mn2Ru(1-x)Ga shows an out-of-plane easy axis at 25 to 28% Ru with half-metallic character at the composition extremes, and surface-functionalised 2D antiferromagnets are predicted to give altermagnetic splitting and giant TMR. The sources do not supply shipment volumes, revenue, fab capacity or customer names, so this score reflects technical demand signals only.
-
 **TLDR: Clear technical pull from cache memory, near-logic randomness and batteryless systems; the sources contain no market or volume data.**
 
 ## Novelty (4/5)

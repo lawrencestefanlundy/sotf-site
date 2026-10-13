@@ -21,7 +21,7 @@ sources:
 - '[[2023-08-31-e13-chiplets-how-chip-lego-is-driving]]'
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
-mention_count: 181
+mention_count: 182
 parent_concepts:
 - flow-rtl-design
 scorecard:
@@ -41,6 +41,10 @@ frontier:
 sources_7d: 5
 sources_30d: 21
 recent_mentions:
+- slug: 2026-10-12-cnt-electronics-market-research
+  title: 'Carbon nanotube electronics: market, cohort and M&A research (web sweep, 82 sources)'
+  date: '2026-10-12'
+  kind: web
 - slug: 2026-08-20-callosum-100m-seed-announcement
   title: Callosum announces $100M seed led by Atomico (round coverage + Companies House filings)
   date: '2026-08-20'
@@ -69,10 +73,6 @@ recent_mentions:
   title: Custom Silicon Inflection 2026
   date: '2026-02-23'
   kind: web
-- slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
-  title: Carbon Nanotubes in the Datacentre
-  date: '2025-11-25'
-  kind: substack
 neighbors:
 - slug: eda-design-tools
   name: EDA & Design Tools

@@ -42,13 +42,6 @@ The source frames GaN as the third stage of a migration in RF integrated-circuit
 
 ## Evidence base
 
-- A first-principles derivation published 31 July 2026 traces the RF IC platform migration from silicon to GaAs to GaN and grounds it in lattice polarization physics.
-- Poisson's equation with triangular-well quantisation at the AlGaN/GaN interface gives a degenerate quasi-2D channel of ~10^13 cm^-2 without doping.
-- GaN breakdown field is given as 3.3 MV/cm and saturation velocity as 2.5 x 10^7 cm/s, derived from pair-creation energy-momentum conservation and phonon-limited energy relaxation respectively.
-- The geometry-free limits are stated as V_br·f_T = E_c·v_sat/(2π) and R_on^sp = 4V_br^2/(μεE_c^3).
-- These limits are mapped onto LNA, PA and switch/phase-shifter functions within a transmit/receive chain.
-- Q2 2026 semiconductor startup funding totalled over $6.0B across 80 companies, with the quarter's themes reported as AI hardware, edge silicon, quantum and datacentre infrastructure; RF GaN is not listed among the funded categories <sup class="ref"><a href="https://semiengineering.com/startup-funding-q2-2026/" title="Startup Funding: Q2 2026" rel="noopener">ref</a></sup>.
-
 ## Frontier (open questions)
 
 - What measured V_br·f_T and R_on^sp values do production GaN RF processes achieve, and how large is the gap to the derived geometry-free limits?

@@ -46,8 +46,6 @@ The parameters that decide whether any of this becomes technology are unglamorou
 
 ## Viability (3/5)
 
-What is not established is any working component. The flagship application, topological quantum computation, is still at the stage of a *possible* signature: gap reopening in coupled Sn-(Bi,Sb)2(Te,S)3 Josephson trijunctions is interpreted as coupling between Majorana zero modes rather than demonstrated as such. Andreev spin qubits on magnetically doped 2D TI edges exist as numerical NOT and Hadamard gate simulations only, as does Andreev reflection through second-order corner states, and the topological altermagnetic FeSe bilayer phase is a first-principles prediction awaiting a sample. A 3 reflects a field where the underlying effect reliably reproduces but nothing has crossed into engineering.
-
 **TLDR: The topological physics is now measured by several independent probes; the device-level claims are cryogenic, single-lab or purely numerical.**
 
 ## Drivers (3/5)

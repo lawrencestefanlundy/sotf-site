@@ -35,14 +35,6 @@ neighbors:
 ---
 > Step 23 of 56 in the semiconductor flow (FEOL). Prev: [Photolithography (coat / expose / develop) (process step)](/semiconductor-process-flow/frontend/flow-photolithography/) · Next: [Wet etch / chemical surface prep (process step)](/semiconductor-process-flow/frontend/flow-wet-etch-surface-prep/)
 
-## What this step does
-After the resist pattern is printed (Step 22), plasma etch physically and chemically removes the exposed material so the pattern is transferred permanently into the film underneath. A reactive plasma (fluorine, chlorine, oxygen or bromine chemistries) is struck above the wafer; ions are accelerated straight down to give directional ("anisotropic") removal that holds the printed dimension. This is where the wafer's flat 2D pattern becomes a real 3D structure. Sub-processes inside the step:
-- Conductor etch (polysilicon, metal gate, tungsten, the channel in gate-all-around).
-- Dielectric etch (oxide/nitride contacts, vias, high-aspect-ratio holes for 3D NAND and DRAM capacitors).
-- High-aspect-ratio (HAR) etch: very deep, narrow holes/trenches where Lam dominates.
-- Atomic layer etch (ALE): self-limiting, one-monolayer-at-a-time removal for the most advanced nodes.
-- Deep reactive-ion etch (DRIE / Bosch process) for MEMS, power, and through-silicon vias.
-
 ## Where it sits and why it matters
 Etch is the twin of lithography. Litho decides where the pattern goes; etch decides whether the pattern survives at the right shape, depth and profile. A leading-edge logic or memory wafer cycles through litho-etch dozens of times. As scaling shifted from shrinking flat features to building tall 3D structures (3D NAND now 200+ layers, gate-all-around transistors, DRAM high-aspect-ratio capacitors), etch difficulty and tool intensity rose faster than litho. Etch and deposition together are the two segments where wafer-fab-equipment (WFE) spend is growing structurally, and they are the heart of the **Deposition Materials Process Market** thesis.
 

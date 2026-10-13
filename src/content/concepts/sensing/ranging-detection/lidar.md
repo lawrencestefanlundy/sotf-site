@@ -56,12 +56,6 @@ neighbors: []
 
 Competing sensing modalities for depth/environment mapping:
 
-| Modality | Range | Resolution | Key weakness |
-|---|---|---|---|
-| Camera + ML (pseudo-LiDAR) | Unbounded | High 2D, depth inferred | Depth accuracy degrades, lighting-dependent |
-| Radar (77 GHz / 4D imaging) | >300 m | Low angular | No fine geometry, poor object classification |
-| Structured light / ToF camera | <10 m | Medium | Short range, sunlight interference |
-
 ## Companies using
 
 <!-- dataview block stripped for public site -->

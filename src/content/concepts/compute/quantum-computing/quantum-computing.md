@@ -38,7 +38,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 816
+mention_count: 822
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -68,7 +68,7 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 4
+sources_7d: 3
 sources_30d: 19
 recent_mentions:
 - slug: 2026-10-10-quic-whitepaper-calls-for-industrial-scale-up-infrastructure

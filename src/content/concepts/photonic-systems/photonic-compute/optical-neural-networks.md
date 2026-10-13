@@ -57,8 +57,6 @@ What is not yet demonstrated is the thing that would make ONNs a general compute
 
 On the demand side, the sources are unanimous in motivation and silent on evidence. Papers open by citing unsustainable power consumption from scaling deep networks and the energy and latency overheads imposed by the physical separation of memory and computation. None of the supplied sources contains a market size, a customer, a procurement decision or a comparison against a named electronic accelerator, so the demand driver is asserted rather than demonstrated here.
 
-Supply-side drivers are better evidenced. Silicon photonics foundry access is real enough that a nonlinear OEO primitive has been fabricated in a commercial process. Three-dimensional integration is being built to relieve planar routing limits, with hybrid air-clad and polymer-clad waveguides showing 0.25 dB per mode-transition interface, Euler bends down to 10 μm radius at 0.4-0.5 dB, and adiabatic splitters at 0.6 dB over 52 μm, explicitly targeting ONNs among its applications. Materials work aimed at nonvolatile, low-loss, multi-level phase control is at the perspective stage for ferroionic 2D systems, framed as a back-end integration strategy rather than a demonstrated device.
-
 **TLDR: Demand is stated identically by every source (AI energy and latency) but never quantified; supply-side enablement is genuinely improving.**
 
 ## Novelty (4/5)

@@ -62,8 +62,6 @@ neighbors:
 ---
 ## Physics / mechanism
 
-Biocomputing uses **living neuronal cells as the computational substrate** rather than silicon or brain-*inspired* electronics. Neurons (rodent or human iPSC-derived) are cultured (2D layers or 3D organoids) on microelectrode arrays (MEAs); the cells form their own synaptic connections and perform the computation, while electronics handle stimulation, read-out, and modulation. This is one step beyond [Neuromorphic Computing](/compute/non-conventional/neuromorphic-computing/), which implements spiking neural networks in CMOS/memristive hardware — here the network is biological, with plasticity at molecular, cellular, and network scales that proponents argue cannot be captured by a software model.
-
 ## Competitive landscape — the compute-substrate layer
 
 ## Evidence base

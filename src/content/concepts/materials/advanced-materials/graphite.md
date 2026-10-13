@@ -10,6 +10,7 @@ related_concepts: []
 sources:
 - '[[2025-07-01-a-primer-carbon-nanotubes]]'
 - '[[2025-12-08-department-of-energy-backs-solidions-push-to-develop-us-made]]'
+- '[[2026-10-12-iea-gcmo-2026-rare-earths]]'
 - '[[2024-02-07-battery-materials---delft-deeptech-carbonx-secures-10m-for-s]]'
 - '[[2026-09-23-as-close-to-carbyne-as-were-probably-going-to-get]]'
 - '[[2026-06-22-tim-approaches-full-sweep]]'
@@ -18,7 +19,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 45
+mention_count: 46
 frontier:
 - Can rhombohedral stacking be grown or induced directly at wafer scale, rather than exfoliated and sorted, and at what defect density relative to the >200 micrometre mean free path already demonstrated?
 - Does room-temperature, sodium-catalysed CaC6 formation survive electrochemical cycling in a working Ca-ion cell, and can the square-root-of-time kinetics be accelerated to useful rates?
@@ -35,8 +36,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 8
+sources_7d: 1
+sources_30d: 9
 recent_mentions:
 - slug: 2026-09-23-as-close-to-carbyne-as-were-probably-going-to-get
   title: As Close to Carbyne As We're Probably Going to Get
@@ -45,6 +46,10 @@ recent_mentions:
 - slug: 2026-06-22-tim-approaches-full-sweep
   title: TIM approaches — exhaustive in-market + R&D sweep (vendors, classes, startups)
   date: '2026-06-22'
+  kind: web
+- slug: 2026-10-12-iea-gcmo-2026-rare-earths
+  title: Global Critical Minerals Outlook 2026 - Outlook chapter
+  date: '2026-05-01'
   kind: web
 - slug: 2025-12-08-department-of-energy-backs-solidions-push-to-develop-us-made
   title: Department of Energy Backs Solidion’s Push to Develop U.S.-Made Battery Graphite - Dallas Innovates
@@ -64,8 +69,6 @@ neighbors: []
 
 ## Summary
 
-Graphite is carbon in stacked sp2 sheets: strong covalent bonding within each layer, weak van der Waals coupling between them. That anisotropy is what makes it useful in three quite different ways. Ions and molecules can be pushed between the layers (intercalation), which is the basis of the lithium-ion anode. The surface of a well-ordered crystal is chemically inert and atomically flat, which makes highly oriented pyrolytic graphite (HOPG) a default substrate for surface science and for growing 2D materials without substrate hybridisation. And the way the layers are stacked, hexagonal ABA versus rhombohedral ABC, changes the electronic structure outright, producing flat bands and topological surface states in the rhombohedral phase.
-
 The parameters that decide graphite's value in each application are different. For anodes, it is formulation and process feasibility rather than the carbon itself: an AI-guided iterative workflow on an industrial dataset raised the fraction of cells delivering at least 350 mAh/g from 28.4% to 84.8% and capacity retention from 42.1% to 97.3%, while moving from frequent process failures to 100% successful cell production. For quantum electronics, it is the abundance and area of rhombohedral stacking, which is scarce in natural graphite; a cryogenic shock exfoliation route plus low-pressure van der Waals assembly produced devices exceeding 1300 square micrometres at 90% fabrication yield, with a disorder mean free path above 200 micrometres. For intercalation compounds, it is the kinetics: sodium catalysis was shown to form superconducting CaC6 in Ca/Na/graphite mixtures at room temperature, a reaction previously thought to need elevated temperatures, with the CaC6 fraction scaling as the square root of storage time.
 
 Graphite also appears constantly as a reference or an enabling component rather than the object of study. It is the benchmark surface against which graphene coatings are compared for rarefied-gas drag, the spectroscopic yardstick for judging whether reduced graphene oxide has recovered its sp2 network, with a pi*-sigma* separation of 7.0 eV against graphite's 7.1 eV, the felt heater in ultrafast high-temperature sintering rigs, the standard sample for validating thermal metrology workflows, a proximity-screening layer that lengthened hot-carrier cooling by up to a factor of four and raised internal photoresponsivity by about 50% in a graphene photodetector, and a diamagnetically levitated proof mass in a room-temperature magnetometer reaching 4.5 pT per root hertz. Assessing graphite therefore means assessing a mature material whose upside sits in processing and stacking control, not in discovery.
@@ -80,11 +83,7 @@ The caveats are that these are single-group results and, in the anode case, a si
 
 ## Drivers (3/5)
 
-Demand: the sources show two independent pulls. Battery electrode manufacturing wants reproducible, manufacturable graphite anode formulations, and the framing of the AI work is explicitly industrial, converting imperfect plant data into process guidance. Separately, the correlated-electron and 2D materials community needs graphite in two roles: as the inert, low-screening substrate for growing single-layer frameworks, and as the host of moiré and flat-band physics, including emergent moiré lattices in TiSe2/graphite heterostructures.
-
 Supply: the only supply-side item is the US Department of Energy backing Solidion's push to develop domestically made battery graphite, reported in December 2025 <sup class="ref"><a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxObG5VREVnVlVGNVFpNHhoakRGWmlZS3pGeDZUSkZjYm9zR2VGaFZCcENmLTFET3g0bE9adS1tZTdPVVhtQ2NSX3BfcEF1UTcxVnU0OXhNbUhOcUVRcUZVN0IwblI3XzF4NFNrVHFfQjFrLVdWS3RWR3V0eUdXWHlzNXpteGVJNlBPZEc4QklTeEZ5Q0kt?oc=5" title="Department of Energy Backs Solidion’s Push to Develop U.S.-Made Battery Graphite - Dallas Innovates" rel="noopener">ref</a></sup>. That indicates policy attention to graphite sourcing but the source carries no award size, capacity figure or timeline, so it cannot support a judgement about how much non-incumbent supply is coming or when. The score is held at 3 because the demand evidence is solid and the supply evidence is a headline.
-
-**TLDR: Demand pull from battery manufacturing and 2D quantum platforms is visible in the sources; supply-side evidence is a single unquantified policy signal.**
 
 ## Novelty (3/5)
 

@@ -7,14 +7,15 @@ kind: technology
 parent_concepts:
 - materials
 - advanced-materials
-related_concepts: []
+related_concepts:
+- carbon-nanotubes
 sources: []
 frontier:
 - Do the thin-film lithium niobate and lithium tantalate loss and coupling figures (below 0.1 dB/cm, 0.9 dB per interface) hold across full wafers and after packaging, or only on selected devices 2026 06 16 octave bandwidth 3d printed couplers for low loss thin film ?
 - Can tantalum phase selection be made deterministic across substrates, given that its polymorphism is what produces the variation in superconducting properties and coherence 2026 06 15 tantalum as a base material for superconducting integrated c?
 - Does the weak correlation between in situ RHEED embeddings and ex situ RMS roughness mean surface morphology cannot be controlled in real time, and if so which additional in situ probe closes that gap 2026 06 15 multi modal machine learning analysis of gase molecular beam?
 - Is defect-enabled ferroelectricity of the Bi2SeO5 type stable under repeated cycling, or does the vacancy population that enables switching also cause the degradation that vacancies normally cause 2026 06 16 confined oxygen vacancy migration drives ferroelectric switc?
-last_updated: '2026-08-31'
+last_updated: '2026-10-12'
 tags:
 - concept
 - technology
@@ -31,8 +32,20 @@ scorecard:
 scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
-neighbors: []
+recent_mentions:
+- slug: 2026-10-12-ocsial-press-kit-2026
+  title: OCSiAl company backgrounder (press kit, English)
+  date: '2026-03-17'
+  kind: web
+- slug: 2026-10-12-ocsial-kanat-conductive-primer-automotive
+  title: Primers with graphene nanotubes offer a new solution for electrostatic painting of automotive parts
+  date: '2021-07-16'
+  kind: web
+neighbors:
+- slug: carbon-nanotubes
+  name: Carbon Nanotubes
+  path: /materials/advanced-materials/carbon-nanotubes/
+  macro: materials
 ---
 **Thin films and coatings are engineered layers from a few to a few hundred nanometres thick whose composition, crystal phase and thickness set the performance ceiling of RF filters, integrated photonics, superconducting qubits, displays and sensors, and the June 2026 literature shows the field's centre of gravity moving from finding new film materials to controlling their growth process precisely enough to hit device specifications.**
 
@@ -45,6 +58,10 @@ The supplied sources show this playing out across four device families. In photo
 The parameters that decide outcomes are therefore process parameters, not just chemistry: substrate temperature, flux ratio, growth rate, thickness, crystallographic orientation and the sequence of fields applied during processing. The measured outputs used as proxies are X-ray rocking-curve full width at half maximum and atomic-force-microscope RMS roughness. A machine-learning study of GaSe MBE found growth rate dominates rocking-curve FWHM while the Se/Ga flux ratio dominates roughness, and that in situ RHEED patterns correlate strongly with FWHM but weakly with roughness. Growth windows can be wide: Mn intercalation to form Mn2In2Se5 worked across substrate temperatures of 250 to 450 degrees C and Se:Mn flux ratios of 1.1 to 3.1, yielding 1.5 nm RMS films and, with longer deposition, 8 nm MnSe layers with 0.35 degree rocking-curve FWHM.
 
 Running alongside this is an automation layer. Closed-loop workflows now search over entire processing histories rather than end-state compositions: an evolutionary search coupled to uncertainty-aware deep kernel learning discovered scanning-probe bias waveforms that enhanced the nonlinear electromechanical response of ferroelectric thin films by de-aging them, and the NIMO platform packages twelve AI algorithms for self-driving laboratories, with thin-film exploration among six demonstrated applications.
+
+## CNT conductive coatings and primers (added 12 Oct 2026)
+
+SWCNT conductive primers for electrostatic painting of plastic car parts (OCSiAl with Kanat) were "undergoing validation" with carmakers in 2021; no OEM approval found since <sup class="ref"><a href="https://ocsial.com/news/primers-with-graphene-nanotubes-offer-a-new-solution-for-electrostatic-painting-of-automotive-parts/" title="Primers with graphene nanotubes offer a new solution for electrostatic painting of automotive parts" rel="noopener">ref</a></sup>. OCSiAl claims static-dissipative coatings from 0.01-0.1% SWCNT against c.100x more carbon black, with the advantage being colour and low loading (vendor figures, internally inconsistent) <sup class="ref"><a href="https://ocsial.com/media/file/2026/03/17/OCSiAl_ENG_full.docx" title="OCSiAl company backgrounder (press kit, English)" rel="noopener">ref</a></sup>. See [Carbon Nanotubes](/materials/advanced-materials/carbon-nanotubes/).
 
 ## Viability (4/5)
 

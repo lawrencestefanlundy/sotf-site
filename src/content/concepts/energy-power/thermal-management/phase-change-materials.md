@@ -35,10 +35,14 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 1115
+mention_count: 1120
 sources_7d: 1
 sources_30d: 4
 recent_mentions:
+- slug: 2026-10-12-cnt-electronics-market-research
+  title: 'Carbon nanotube electronics: market, cohort and M&A research (web sweep, 82 sources)'
+  date: '2026-10-12'
+  kind: web
 - slug: 2026-09-03-space-compute-cheap-launch-rebuild
   title: Space compute rebuilt around the cheap-launch case — what survives the premise
   date: '2026-09-03'
@@ -66,10 +70,6 @@ recent_mentions:
 - slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint
   title: 'What actually limits a humanoid to minutes: the thermal cliff, not the battery'
   date: '2026-07-26'
-  kind: web
-- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
-  title: 'Startup Funding: Q2 2026'
-  date: '2026-07-13'
   kind: web
 neighbors: []
 ---

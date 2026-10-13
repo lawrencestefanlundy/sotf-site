@@ -40,6 +40,10 @@ recent_mentions:
   title: Why Laser Beams Are the Hottest New Tech in Defense
   date: '2026-09-04'
   kind: web
+- slug: 2026-08-03-ultrarapid-deep-3d-histology-enables-intraoperative-mapping-
+  title: Ultrarapid deep 3D histology enables intraoperative mapping of glioma infiltration
+  date: '2026-08-03'
+  kind: web
 - slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
   title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
   date: '2026-07-28'
@@ -60,15 +64,9 @@ recent_mentions:
   title: The ASML Killer?
   date: '2026-07-07'
   kind: substack
-- slug: 2026-07-03-thats-a-learning-curve-mate-not-rsi
-  title: That’s a learning curve mate, not RSI
-  date: '2026-07-03'
-  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism
-
-Laser = Light Amplification by Stimulated Emission of Radiation. A gain medium (semiconductor, fiber, gas, crystal) is pumped to population inversion; photons stimulate coherent emission, with mirrors forming a resonant cavity. Key parameters: wavelength, linewidth, output power, wall-plug efficiency, coherence length, beam quality (M²). Semiconductor diode lasers dominate volume (850 nm VCSELs for datacom, 976 nm pump lasers, 1550 nm DFBs for coherent comms). Edge-emitters reach >10 W CW; VCSELs scale to 2D arrays. QCLs cover mid-IR (3–12 µm). State-of-art: co-packaged optics pushing silicon photonics integration with on-chip III-V lasers (heterogeneous bonding, wafer-scale); sub-kHz linewidth ECLs for coherent LiDAR.
 
 ## Competitive landscape
 

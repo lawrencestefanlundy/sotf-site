@@ -49,6 +49,14 @@ recent_mentions:
   title: Reiner Pope – Chip design from the bottom up
   date: '2026-05-22'
   kind: web
+- slug: 2026-05-05-arm-might-be-swallowing-its-own-poison-pill
+  title: ARM Might be Swallowing its Own Poison Pill
+  date: '2026-05-05'
+  kind: web
+- slug: 2026-04-28-binning-an-old-nvidia-practice-thats-also-behind-sparse-supp
+  title: Binning. An Old Nvidia Practice that’s Also Behind Sparse Supply of Macbook Neo
+  date: '2026-04-28'
+  kind: web
 - slug: 2022-06-15-owner-of-uk-chip-designer-arm-may-float-some-of-firms-shares
   title: Owner of UK chip designer Arm may float some of firm’s shares in London - The Guardian
   date: '2022-06-15'
@@ -62,8 +70,6 @@ neighbors: []
 **The general-purpose CPU and the system-on-chip that surrounds it remain the default compute substrate, and the live research frontier has shifted from raw core performance to on-die specialisation, energy per instruction fetch, and architectural security guarantees.**
 
 ## Summary
-
-A CPU is a general-purpose instruction processor: it fetches encoded instructions, decodes them, and executes them against registers and memory, with pipelining, branch prediction and caches used to hide latency. A system-on-chip (SoC) is the integrated die around it, combining one or more CPU cores with memory controllers, interconnect, accelerators (GPU, NPU, crypto, DSP) and I/O. In current practice the two are inseparable as a design object: the AIA chip pairs a RISC-V host processor for chip-to-chip communication with a 2D mesh of 16 custom RISC-V cores carrying bespoke sampling instructions, fabricated on Intel's 16 nm process, and Apple's M5 generation exposes per-GPU-core matrix units through a tensor API rather than scaling the CPU.
 
 The parameters that decide a modern CPU/SoC design are no longer mainly clock rate and IPC. They are: energy per useful operation (instruction fetch from SRAM alone accounts for over 40% of energy in an embedded RISC-V baseline); which workloads should leave the core entirely (MCMC sampling executes inefficiently on conventional CPU/GPU platforms, and post-quantum signature schemes are effectively unusable in software on a Cortex-M4, with SPHINCS+ impractical and the reference Dilithium implementation failing to run at all); and what security properties the architecture can guarantee rather than bolt on in software.
 

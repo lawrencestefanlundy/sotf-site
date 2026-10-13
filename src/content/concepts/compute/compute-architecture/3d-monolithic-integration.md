@@ -31,6 +31,10 @@ mention_count: 4
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-12-cnt-electronics-market-research
+  title: 'Carbon nanotube electronics: market, cohort and M&A research (web sweep, 82 sources)'
+  date: '2026-10-12'
+  kind: web
 - slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
   title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
   date: '2026-07-02'

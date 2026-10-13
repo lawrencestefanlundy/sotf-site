@@ -27,7 +27,7 @@ tags:
 - technology
 - connectomics
 - neuroscience
-mention_count: 8
+mention_count: 9
 sources_7d: 0
 sources_30d: 1
 recent_mentions:

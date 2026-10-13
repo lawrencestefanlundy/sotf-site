@@ -22,7 +22,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 130
+mention_count: 131
 sources_7d: 7
 sources_30d: 22
 recent_mentions:
@@ -129,11 +129,6 @@ By 31 December 2028, at least one commercially marketed semiconductor substrate 
 - 24 June 2026: single-shot, alignment-free structured-light metrology with AI retrieval located sub-wavelength nanostructures to lambda/110, or 7.2 nm, in 1D.
 
 ## Open questions
-
-- What is the throughput, in wafer area or parts per hour, of confocal subsurface backscattering microscopy for SiC threading dislocations, and how does it compare with the surface-profiling and photoluminescence tools it would displace?
-- Does the 0.907 accuracy of the SEM fracture-cause classifier hold on a different production line, a different ceramic grade or a different vendor's SEM, or is it specific to the five-year in-house dataset it was trained on?
-- Can a 55 W intra-cavity pump upconversion detector be packaged to survive a factory environment, and at what cost relative to a cooled mid-infrared focal plane array?
-- Does the lambda/110 structured-light metrology precision extend from 1D position of sub-wavelength nanostructures to the full 2D or 3D geometries that actually need measuring in production?
 
 ---
 *Assessment drafted 2026-08-31 from up to 18 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

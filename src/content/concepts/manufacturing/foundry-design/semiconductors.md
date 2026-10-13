@@ -52,6 +52,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-12-from-nonmagnetic-to-magnetic-a-2d-semiconductor-with-electri
+  title: 'From nonmagnetic to magnetic: A 2D semiconductor with electrically tunable magnetism'
+  date: '2026-10-12'
+  kind: web
 - slug: 2026-10-11-17-gigawatt-texas-power-project-passes-key-hurdle-for-worlds
   title: 17-gigawatt Texas power project passes key hurdle for world’s largest private grid
   date: '2026-10-11'
@@ -80,10 +84,6 @@ recent_mentions:
   title: $630bn+ US Semiconductor Megaprojects in Rush to Break Ground before CHIPS Act Deadline - Construction Review
   date: '2026-10-05'
   kind: web
-- slug: 2026-10-02-frontier-chips-for-frontier-ai-labs-with-walter-goodwin-foun
-  title: Frontier Chips for Frontier AI Labs, with Walter Goodwin, Founder/CEO of Fractile
-  date: '2026-10-02'
-  kind: web
 neighbors:
 - slug: logic
   name: Compute & Logic
@@ -110,8 +110,6 @@ A semiconductor is a solid with an energy gap between its filled valence states 
 
 The sources collected here are almost entirely condensed-matter and optics papers from 2024 to 2026, and they map the frontier rather than the industry. A large fraction concerns two-dimensional transition metal dichalcogenides, where the gap depends on layer count: scanning tunnelling spectroscopy on MBE-grown MoS2 from one to five layers shows the gap falling sharply with thickness, to values below the bulk gap, with conduction-band pinning vanishing above four layers. Others deal with organic molecular semiconductors, where crystal packing rather than molecular design governs transport: a previously unrecognised and thermodynamically stable polymorph of the benchmark material DNTT was found coexisting in commercial powders, and it changes the dimensionality of charge transport. Colloidal quantum-dot films, increasingly used in place of bulk semiconductors, were measured at thermal conductivities as low as 0.55 W/m/K because heat moves poorly through close-packed dot solids.
 
-A third theme is defect and dopant engineering, and the theory and metrology needed to support it. Dopant distribution in 2D semiconductors is usually assumed random, but vanadium in CVD-grown WS2 monolayers segregates along crystallographic bisectors, producing tensile strain channels of about 0.70%. In vacancy-doped 1T-TiS2, half-metallic ferromagnetism only appears once the defect network percolates, at a critical vacancy concentration near 12.5%. On the measurement side, contact-free terahertz time-domain spectroscopy has been given a sensitivity metric that maps which doping levels and layer thicknesses are actually accessible in SiC, Si and GaN stacks.
-
 ## Viability (3/5)
 
 There is genuine experimental substance. The MoSe2 nanocavity polariton switch is a measured device with quantified switching energy (~4 fJ) and picosecond response, published in Physical Review Letters. MoS2 layer-dependent gaps were measured in situ by STS on MBE-grown films and cross-checked against DFT and GW. The DNTT polymorph was isolated and its structure resolved by X-ray diffraction, Raman and terahertz spectroscopy. The ScAlN permittivity discrepancy between calculated 11.7 and measured values near 15 is resolved by an analytical model that reproduces experiment across the alloy range. This is a healthy, self-correcting literature.
@@ -122,8 +120,6 @@ What is absent is any evidence of scale. Growth is by molecular beam epitaxy or 
 
 ## Drivers (unscored)
 
-Every supplied source is a research paper on materials physics, device physics or electronic-structure methodology. None reports funding flows, production capacity, customer demand, pricing, policy, or company activity. The only demand-side signal is indirect and qualitative: authors state that TMDs are rising as 2D semiconductors for device applications, that colloidal quantum dots are increasingly replacing bulk semiconductors in electronic and photonic devices, that organic semiconductors are widely explored for flexible optoelectronics, and that reports of large photonic nonlinearities in integrated devices are creating a need for tailored design frameworks.
-
 Those are researchers describing their own field's momentum, not evidence of commercial pull. On the supply side there is nothing on equipment, precursors, substrates or fab economics. A score here would be fabricated, so it is null.
 
 **TLDR: The sources contain no market, demand, capital or supply-chain information at all.**
@@ -131,8 +127,6 @@ Those are researchers describing their own field's momentum, not evidence of com
 ## Novelty (3/5)
 
 Several results are explicitly better than a stated alternative and by a stated margin. The k-point extension of the co-iterative augmented Hessian method for Pipek-Mezey Wannier functions runs roughly two to three times faster than first-order k-space approaches and orders of magnitude faster than Gamma-point CIAH for 1000 to 5000 orbitals. A tuned hybrid functional reproduces CrSBr optical gaps and exciton-magnetism coupling at substantially lower cost than self-consistent many-body perturbation theory. Terahertz spectroscopy is better than four-point probe and capacitance-voltage measurement in one specific respect, being contact-free, and the new contribution is a sensitivity metric that says where it can be used.
-
-Other novelty claims overturn a working assumption rather than beat a benchmark: dopant distribution in 2D semiconductors is normally assumed stochastic, and the WS2 work shows growth kinetics make it deterministic; DNTT was long considered monomorphic and is not; optical control of exciton-exciton interactions had previously relied on electrical gating or van der Waals engineering, and valley-selective excitation replaces that. The theory side tightens foundations rather than replacing them, proving that band analyticity holds at non-degenerate extrema so that non-analyticity is intrinsically tied to degeneracy. Solid, cumulative, not revolutionary.
 
 **TLDR: Real advances over prior lab practice, quantified in a few cases, but each is an increment inside a subfield rather than a step change.**
 
@@ -156,13 +150,9 @@ Beyond those two, impact is mostly enabling rather than direct. Faster Wannier l
 
 The corpus splits cleanly. Contact-free terahertz doping characterisation is validated against a variety of existing measurements on materials already in volume production and could be adopted as soon as the sensitivity limits are accepted. Computational tooling, whether faster Wannier function generation or gradient-based optimisation of quantum photonic circuits, diffuses at the speed of code release.
 
-**TLDR: Metrology and simulation tooling could land now; the 2D and organic device work has no stated route to product in any source.**
-
 ## Overrated or underrated? Too early to say
 
 The concept as a whole cannot be judged from these sources, because none of them touch the semiconductor industry: no fabs, no volumes, no costs, no companies. What can be judged is the beyond-silicon materials frontier they document, and there the position is that the physics is now well enough characterised to be engineering-relevant while the manufacturing question has not been asked. The strongest single result is the MoSe2 nanocavity switch at roughly 4 fJ and picosecond speed; the most commercially useful is probably the least glamorous, a sensitivity framework telling engineers when contact-free terahertz doping measurement will and will not work on SiC, Si and GaN stacks.
-
-Two findings should temper enthusiasm about 2D and organic semiconductors specifically. A benchmark organic semiconductor turned out to have an overlooked, thermodynamically stable polymorph sitting in commercial powder and changing transport dimensionality, and dopants in CVD-grown WS2 segregate systematically rather than randomly. Both mean the field is still discovering that its materials are not what it assumed they were. That is a normal and healthy stage, but it is a long way from a process of record.
 
 ## Prediction
 

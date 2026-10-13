@@ -23,11 +23,7 @@ neighbors: []
 ---
 ## Physics / mechanism
 
-Graphene is a single atomic layer of sp²-bonded carbon in a hexagonal lattice. Electron mobility reaches ~200,000 cm²/V·s (suspended, pristine) versus ~1,400 for silicon; thermal conductivity ~5,000 W/m·K. The 2D materials family extends to MoS₂, hBN, WS₂, and MXenes — each with distinct bandgap, dielectric, or magnetic properties. hBN serves as ideal dielectric encapsulant; MoS₂ gives ~1.8 eV direct bandgap useful for photodetection. State of the art: CVD graphene on 200mm wafers is commercially available (Graphenea, 2D Semiconductors); back-end BEOL integration at TSMC/GlobalFoundries R&D level. Killer problem remains contact resistance and substrate-induced mobility degradation, limiting real-device mobility to 10,000–40,000 cm²/V·s.
-
 ## Competitive landscape
-
-Competing interconnect approaches: ruthenium and cobalt at advanced nodes (Intel, TSMC). Competing RF/analog: InP HEMTs (>700 GHz fT), GaN. Competing photodetection: Ge-on-Si, InGaAs. Adjacent: carbon nanotubes (IBM CNFET work), III-V 2D analogues (GaSe, InSe). The honest competitive position is graphene wins on photonic/THz/RF integration where CMOS-compatibility matters and III-V monolithic integration is cost-prohibitive. MXenes increasingly competitive for electromagnetic shielding and energy storage.
 
 ## Companies using
 

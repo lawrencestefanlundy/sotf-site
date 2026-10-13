@@ -167,8 +167,6 @@ The second barrier is objective conflict. Wirelength reduction and thermal manag
 
 The system-level layer is immediate. Power densities have already risen enough to worsen thermal problems in chiplet packages, the modelling tools to see it exist, and the design responses are placement algorithms and power delivery choices that fit inside current EDA and packaging flows. Co-packaged optics is described as already in early deployment with thermal co-design as a gate on wider adoption, which places that decision in the next few years.
 
-Material substitutions with an existing process route, such as choosing high-resistivity silicon for sub-kelvin routing or inserting hBN flakes as spreaders, plausibly follow on a longer horizon. Active heat routing, thermal metamaterials and magnet-free nonreciprocal emitters have no engineering demonstration in these sources and should be treated as later or unclear.
-
 **TLDR: The constraint is already binding in packaging and photonics; the exotic material and active-control routes are much further out.**
 
 ## Overrated or underrated? Underrated

@@ -123,6 +123,18 @@ descendants:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-13-texas-oilfield-wastewater-could-help-cool-data-centers-witho
+  title: Texas oilfield wastewater could help cool data centers without draining freshwater
+  date: '2026-10-13'
+  kind: web
+- slug: 2026-10-12-us-genesis-mission-backs-digital-twin-to-predict-fusion-plas
+  title: US Genesis Mission backs digital twin to predict fusion plasma in under 20 minutes
+  date: '2026-10-12'
+  kind: web
+- slug: 2026-10-12-first-utility-scale-enhanced-geothermal-plant-goes-live
+  title: First Utility-Scale Enhanced Geothermal Plant Goes Live
+  date: '2026-10-12'
+  kind: web
 - slug: 2026-10-11-17-gigawatt-texas-power-project-passes-key-hurdle-for-worlds
   title: 17-gigawatt Texas power project passes key hurdle for world’s largest private grid
   date: '2026-10-11'
@@ -142,18 +154,6 @@ recent_mentions:
 - slug: 2026-10-05-wartsila-to-supply-282-mw-onsite-power-solution-for-a-us-dat
   title: Wärtsilä to supply 282 MW onsite power solution for a U.S. data center as AI growth intensifies demand for reliable power - Latitude Media
   date: '2026-10-05'
-  kind: web
-- slug: 2026-10-05-virginias-new-energy-plan-make-the-ai-boom-work-for-not-agai
-  title: 'Virginia’s new energy plan: Make the AI boom work for — not against — us'
-  date: '2026-10-05'
-  kind: web
-- slug: 2026-10-01-vermont-gas-invests-in-geothermal-for-the-first-time---latit
-  title: Vermont Gas invests in geothermal for the first time - Latitude Media
-  date: '2026-10-01'
-  kind: web
-- slug: 2026-09-30-commonwealth-fusion-inks-deal-for-over-6200-miles-of-high-te
-  title: Commonwealth Fusion inks deal for over 6,200 miles of high-tech tape critical to operating fusion power plants
-  date: '2026-09-30'
   kind: web
 neighbors: []
 ---

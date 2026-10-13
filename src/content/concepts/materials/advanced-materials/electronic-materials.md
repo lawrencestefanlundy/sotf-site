@@ -67,10 +67,6 @@ neighbors:
   path: /materials/advanced-materials/materials-discovery/
   macro: materials
 ---
-Electronic materials are solids engineered to exploit specific charge-transport, dielectric, magnetic, or optical-electronic properties for device function. The class spans four major families: **semiconductors** (elemental Si/Ge; III–V compounds GaAs, InP, GaN; wide-bandgap SiC ≈ 3.26 eV, GaN ≈ 3.4 eV, Ga₂O₃ ≈ 4.8 eV; 2D materials such as MoS₂); **dielectrics** (gate oxides, interlayer dielectrics, ferroelectrics); **conductors and interconnects** (Cu, W, Ru, Co for back-end-of-line); and **magnetic materials** (STT-MRAM, spintronics).
-
-The defining parameters vary by sub-class: bandgap and carrier mobility govern transistor performance; dielectric constant (κ) and breakdown field determine gate stack scaling; thermal conductivity (diamond > 2000 W m⁻¹ K⁻¹) determines power-device reliability. Investment relevance centres on materials that open new device regimes — wide-bandgap semiconductors for EV power conversion, ferroelectric HfO₂ for embedded NVRAM, and 2D materials for post-Si channel layers.
-
 ## Frontier
 
 - Which wide-bandgap semiconductor (GaN, Ga₂O₃, diamond) wins in power electronics above 1.2 kV over the next decade?

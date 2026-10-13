@@ -24,7 +24,7 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 399
+mention_count: 400
 sources_7d: 6
 sources_30d: 22
 recent_mentions:
@@ -62,8 +62,6 @@ recent_mentions:
   kind: web
 neighbors: []
 ---
-**Graphene is a single atomic layer of carbon whose Dirac-like electrons and mechanical robustness make it the default substrate and tuning platform across 2D materials research, but the May 2026 literature shows it functioning mainly as a laboratory building block rather than a deployed material.**
-
 ## Summary
 
 The current research literature uses graphene in four distinct roles. First, as an electronic substrate and support: graphene-supported dual-atom catalysts for water splitting, where the carbon/nitrogen coordination around the metal pair is the design variable, and graphene on Ir(111) as a growth template for molecular beam epitaxy of MoS2. Second, as an active optoelectronic layer, for example dual-layer graphene electro-optic phase modulators on silicon nitride waveguides for cryogenic photonic quantum processors. Third, as a correlated-electron platform: rhombohedral and twisted graphene stacks where flat bands and Berry curvature set the size of Cooper pairs and where moiré superlattices host Brown-Zak fermions detectable in nonlinear Hall oscillations from fields as low as 0.5 T. Fourth, as a passive surface or filler: a coating that reduces rarefied-air drag and an additive that refines magnesium grain structure for hydrogen storage.
@@ -81,8 +79,6 @@ Against that, several of the most commercially suggestive claims in this source 
 ## Drivers (unscored)
 
 Every source here is an arXiv physics or materials paper. None reports production capacity, price per unit area, procurement volumes, company activity, or investment. Demand pull can only be inferred from stated motivations, which is weak evidence: photonic quantum computing needing low-loss cryogenic modulators, cost-effective overall water splitting, next-generation ultra-miniaturised transistors, drag on satellites in rarefied atmospheres, and magnesium hydrogen storage. That is a list of researcher intentions, not a demand signal.
-
-One supply-side observation is supportable: the tooling ecosystem is maturing, with open software for generating commensurate supercells of twisted multilayer 2D materials and new real-space linear-scaling methods for driven, disordered graphene transport. That lowers the cost of design iteration, but it says nothing about whether anyone is buying. Score withheld.
 
 **TLDR: The sources contain no market, funding, capacity or supply-chain information at all.**
 

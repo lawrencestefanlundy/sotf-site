@@ -23,7 +23,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 222
+mention_count: 224
 descendants:
 - 2d-materials
 - aluminium-gallium-nitride
@@ -144,8 +144,6 @@ Some novelty is conceptual rather than incremental. Epitaxial stabilisation of m
 
 ## Diffusion (3/5)
 
-Adoption favours substrate innovations that reuse existing equipment, and several here do: sputtering and rapid thermal annealing before standard MOCVD, commercially available Si(111), sapphire and SiC wafers, and low-temperature target sintering scaled to a 2-inch diameter. Against that, the barriers visible in the sources are real. Reproducibility is one: conflicting published results for GaSe on GaAs are attributed to an uncontrolled substrate surface preparation step, meaning the recipe is not yet transferable between groups. Inspection is another: commercial defect systems reportedly miss nanoscale threading dislocations in SiC because they lack surface signatures and band-edge photoluminescence is quenched, so confocal subsurface backscattering microscopy is proposed as a nondestructive alternative that also distinguishes dislocation types. A substrate cannot be qualified for volume production faster than it can be measured.
-
 **TLDR: Process routes are deliberately fab-adjacent, but everything shown is small-area, single-group, and the metrology needed to qualify substrates is itself still being invented.**
 
 ## Impact (4/5)
@@ -155,8 +153,6 @@ The leverage argument is strong because the same lever appears in unrelated valu
 **TLDR: The substrate is a low-cost part that sets ceilings on cost, defect density, thermal budget and even which phases exist, across power electronics, quantum hardware, spintronics and displays.**
 
 ## Timing Now (0-2yr)
-
-For the general lever, the timing is now. Choosing high-resistivity silicon over sapphire for a cryogenic quantum chip, or an 8 degree offcut sapphire over on-axis, are decisions available to anyone today with measured consequences. The same applies to formalising substrate surface preparation as a controlled process step in 2D-on-3D epitaxy.
 
 The specific new routes sit further out and the sources do not date them. Silicide-templated vertical GaN on silicon has to survive wafer-scale uniformity, device fabrication and reliability testing before it displaces anything; zero-Poisson elastomeric substrates have to be integrated with actual emissive pixel arrays; subsurface dislocation microscopy has to be shown at in-line wafer throughput. Treat those as a 2 to 5 year question, with the ferroelectric-substrate exciton engineering, currently a first-principles prediction, later still.
 

@@ -19,7 +19,7 @@ sources:
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2026-06-15-gf-investor-day-2026]]'
 mention_count: 23
-sources_7d: 1
+sources_7d: 0
 sources_30d: 1
 recent_mentions:
 - slug: 2026-06-15-gf-investor-day-2026

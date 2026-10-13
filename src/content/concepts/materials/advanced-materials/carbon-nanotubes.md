@@ -7,12 +7,19 @@ kind: technology
 parent_concepts:
 - materials
 - advanced-materials
-related_concepts: []
+related_concepts:
+- ceramics-composites
+- thin-films-coatings
+- specialty-polymers
 sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-07-01-a-primer-carbon-nanotubes]]'
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2025-04-30-has-the-time-come-to-take-mortal]]'
+- '[[2026-10-12-industryweek-lockheed-f35-nanocomposite-fairing-2012]]'
+- '[[2026-10-12-zyvex-piranha-cnt-boat-sea-trials-2011]]'
+- '[[2026-10-12-idtechex-billion-dollar-cnt-market-2025]]'
+- '[[2026-10-12-yu-2000-science-mwcnt-tensile-strength]]'
 - '[[2025-08-19-thermal-stack-arms-race-thermal-interface-materials-market]]'
 - '[[2026-09-23-as-close-to-carbyne-as-were-probably-going-to-get]]'
 - '[[2026-06-17-nawah-vacnt-technology]]'
@@ -25,39 +32,51 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 40
-sources_7d: 1
-sources_30d: 4
+mention_count: 44
+sources_7d: 5
+sources_30d: 8
 recent_mentions:
+- slug: 2026-10-12-us-comp-cnt-yarn-laminates-acs-2023
+  title: Scalable High Tensile Modulus Composite Laminates Using Continuous Carbon Nanotube Yarns for Aerospace Applications
+  date: '2026-10-12'
+  kind: web
+- slug: 2026-10-12-mtc-non-metallic-electric-motor
+  title: 'The World''s First Non-Metallic Electric Motor: A Groundbreaking Innovation'
+  date: '2026-10-12'
+  kind: web
+- slug: 2026-10-12-arkema-graphistrength-mwcnt
+  title: Graphistrength multiwall carbon nanotubes (product range page)
+  date: '2026-10-12'
+  kind: web
+- slug: 2026-10-12-cnt-electronics-market-research
+  title: 'Carbon nanotube electronics: market, cohort and M&A research (web sweep, 82 sources)'
+  date: '2026-10-12'
+  kind: web
 - slug: 2026-09-23-as-close-to-carbyne-as-were-probably-going-to-get
   title: As Close to Carbyne As We're Probably Going to Get
   date: '2026-09-23'
+  kind: web
+- slug: 2026-10-12-ecust-cnt-fibre-12-5gpa-nature-comms-2026
+  title: Improvement of the tensile strength of carbon nanotube fibers to 12.5 GPa by fluidics-induced alignment and densification
+  date: '2026-07-02'
   kind: web
 - slug: 2026-06-17-nawah-vacnt-technology
   title: NAWAH Architectured Nanomaterials — VACNT technology & positioning
   date: '2026-06-17'
   kind: web
-- slug: 2026-02-02-photonic-engines-for-data-centers
-  title: Photonic "Engines" for Data Centers
-  date: '2026-02-02'
-  kind: substack
-- slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
-  title: Carbon Nanotubes in the Datacentre
-  date: '2025-11-25'
-  kind: substack
-- slug: 2025-08-19-thermal-stack-arms-race-thermal-interface-materials-market
-  title: 'Thermal Interface Materials Market Report 2026-2036: High-Performance TIMs for Data Centers, AI Servers, and 5G Infrastructure'
-  date: '2025-08-19'
+- slug: 2026-10-12-soochow-cnano-2025-results-review
+  title: 'Cnano Technology (688116) 2025 annual and Q1 2026 results review: results in line, single-wall ramping'
+  date: '2026-04-30'
   kind: web
-- slug: 2025-07-01-a-primer-carbon-nanotubes
-  title: 'A Primer: Carbon Nanotubes'
-  date: '2025-07-01'
-  kind: substack
-- slug: 2025-04-30-has-the-time-come-to-take-mortal
-  title: Has the time come to take Mortal Computing seriously?
-  date: '2025-04-30'
-  kind: substack
-neighbors: []
+neighbors:
+- slug: ceramics-composites
+  name: Ceramics & Composites
+  path: /materials/advanced-materials/ceramics-composites/
+  macro: materials
+- slug: thin-films-coatings
+  name: Thin Films & Coatings
+  path: /materials/advanced-materials/thin-films-coatings/
+  macro: materials
 ---
 **Carbon nanotubes are rolled-up graphene cylinders whose chirality sets whether they conduct like a metal or a semiconductor, and after three decades they are shipping as bulk additives, composites and thermal materials while the high-value prize, replacing silicon as a logic channel, remains blocked by contacts, doping and purity.**
 
@@ -121,14 +140,17 @@ The part that is easy to misprice in either direction is the post-silicon channe
 
 By 31 December 2028, no commercially available digital logic product will use carbon nanotubes as its primary transistor channel material, while CNT revenue continues to come from additives, composites, thermal interface materials and sensors.
 
-## Evidence base
+## Composites, coatings and windings (web-enriched 12 Oct 2026)
 
-- A July 2026 review argues silicon CMOS faces hard limits from source-to-drain tunnelling, unscalable subthreshold swing and dark silicon, and benchmarks SWCNT ballistic and coaxial-electrostatic limits against published 5 nm experimental data.
-- A June 2026 analytical model links metal-induced gap states to Schottky barrier height, transfer length and contact resistance, and explains recent CNT and 2D-material contact experiments, indicating contacts remain an unresolved criterion for scalable low-resistance CNT devices.
-- A July 2026 study compares melt filling, solution reflux and vacuum sublimation for encapsulating donors and acceptors inside arc-discharge SWCNTs, stating that reliable doping, especially n-type, remains challenging due to environmental sensitivity.
-- A July 2026 within-tube comparison found consistently higher field-effect mobility for CNT channels on hexagonal boron nitride than on SiO2, using gas flow-directed growth to span both substrates with one nanotube.
-- Quantum-colour-centre-functionalised (6,5) nanotubes emitting at 1140 nm showed a two-photon action cross-section of 57 ± 2 × 10^3 GM under 1700 nm excitation, enabling the first reported single-particle imaging at that wavelength, published 7 July 2026.
-- NSF awarded $1,549,408 on 17 June 2026 under SBIR Fast-Track for a CNT-based optically monitored strain sensor targeting aerospace and structural health monitoring customers.
+Research for CNT Dispatch #013, brief at `projects/cnt-dispatch/2026-10-12-edition-013-composites-brief.md`.
+
+- **Tonnage is batteries.** Cnano, the largest MWCNT maker, took c.97% of FY2025 revenue (c.RMB 1.26bn of 1.3bn) from battery slurry; its shipped c.75,000 t is slurry tonnes, not dry CNT <sup class="ref"><a href="https://m.gelonghui.com/news/5226558" title="Cnano Technology (688116) 2025 annual and Q1 2026 results review: results in line, single-wall ramping" rel="noopener">ref</a></sup>. IDTechEx sizes the CNT market at c.US$540m (2025) rising past US$1.25bn by 2035 on batteries <sup class="ref"><a href="https://printedelectronicsworld.com/articles/33366/billion-dollar-carbon-nanotube-market-continues-to-grow" title="Billion Dollar Carbon Nanotube Market Continues to Grow" rel="noopener">ref</a></sup>; Grand View's US$3.71bn with "polymers" at 69.7% conflicts with producer data and likely counts compound value <sup class="ref"><a href="https://www.grandviewresearch.com/industry-analysis/carbon-nanotubes-cnt-market" title="Carbon Nanotubes Market Size, Share & Trends Analysis Report" rel="noopener">ref</a></sup>. No producer publishes a dry-tonnage split by application.
+- **Polymers and coatings use the electrical property, not the strength.** Production cases are conductive fuel lines (Hyperion fibrils from the 1990s <sup class="ref"><a href="https://www.wardsauto.com/news/archive-wards-carbon-nanotubes-target-fuel-systems-bumpers/765747/" title="Carbon Nanotubes Target Fuel Systems, Bumpers" rel="noopener">ref</a></sup>; Arkema MWCNT at 2-3 wt% <sup class="ref"><a href="https://www.arkema.com/usa/en/product-range/incubator/graphistrength/" title="Graphistrength multiwall carbon nanotubes (product range page)" rel="noopener">ref</a></sup>) and electrostatically paintable parts (LG Chem CNT fenders on three Mitsubishi models, Jan 2023, c.4 kg saved per car <sup class="ref"><a href="https://www.businesswirechina.com/en/news/52584.html" title="LG Chem LUCON TX5007, engineering plastic for electrostatic powder coating, now applied to Japanese global OEM front fen" rel="noopener">ref</a></sup>, vendor PR). Conductive primers, tyres and EV battery shielding remain validation, prototype or patent stage.
+- **EU REACH caps OCSiAl's SWCNT at 100 t/yr in Europe** (no US cap) <sup class="ref"><a href="https://ocsial.com/media/file/2026/03/17/OCSiAl_ENG_full.docx" title="OCSiAl company backgrounder (press kit, English)" rel="noopener">ref</a></sup> (vendor).
+- **Structural never arrived as promised.** Single-shell strength of 11-63 GPa <sup class="ref"><a href="https://pubmed.ncbi.nlm.nih.gov/10649994" title="Strength and Breaking Mechanism of Multiwalled Carbon Nanotubes Under Tensile Load" rel="noopener">ref</a></sup> does not survive into bulk; NASA's 2024 review says CNT-in-resin behaves like very short chopped fibre and the payoff was electrical <sup class="ref"><a href="https://ntrs.nasa.gov/citations/20240006917" title="Recent Advances in Structural Carbon Nanotube Composites" rel="noopener">ref</a></sup>. Lab fibre records (ECUST 12.5 GPa, Jul 2026 <sup class="ref"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13462575/" title="Improvement of the tensile strength of carbon nanotube fibers to 12.5 GPa by fluidics-induced alignment and densificatio" rel="noopener">ref</a></sup>) beat T1100G carbon fibre on paper with no production path shown.
+- **CNT motor windings are demonstrators.** MTC (UK) showed a "non-metallic motor" with CNT-yarn windings c.Sep 2024, no performance data published <sup class="ref"><a href="https://www.the-mtc.org/worlds-first-non-metallic-electric-motor-groundbreaking-innovation" title="The World's First Non-Metallic Electric Motor: A Groundbreaking Innovation" rel="noopener">ref</a></sup>; KIST's 2025 metal-free motor reached 3,420 rpm vs 18,120 rpm for a copper equivalent <sup class="ref"><a href="https://newatlas.com/technology/kist-cnt-cscec-carbon-nanotube-wire/" title="Metal-free motor: CNT cables take on copper's weight and cost" rel="noopener">ref</a></sup>. Winding fibre conductivity sits at c.7.7-16 MS/m vs copper c.59 MS/m <sup class="ref"><a href="https://www.energy.gov/sites/default/files/2019/07/f65/Projects19%20-%20Carbon%20Conductors%20for%20Lightweight%20Motors%20and%20Generators_Rice.pdf" title="Carbon Conductors for Lightweight Motors and Generators (DOE AMO Program Review, Rice University)" rel="noopener">ref</a></sup>.
+
+## Evidence base
 
 ## Open questions
 

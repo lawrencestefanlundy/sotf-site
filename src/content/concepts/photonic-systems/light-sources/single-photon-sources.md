@@ -56,8 +56,6 @@ What is not demonstrated is the full parameter set in one device. The headline n
 
 On the demand side, single photons are described across these reviews as the carrier that distributes quantum information over distance and as indispensable core devices for linear optical quantum computing. The sharpest quantified pull is architectural: direct generation of caterpillar graph states from single-photon sources beats fusion-based assembly by a factor 2^(l-2) in success rate, and analyses of heralded Bell-state generation show seed-state quality under loss and multiphoton emission error sets the ceiling for everything built on top of it. Against that, demand is being actively substituted away in the two nearest-term markets: decoy-state QKD exists specifically to tolerate imperfect sources and is the dominant deployed approach, and hardware-efficient verification protocols have removed the single-photon-source requirement in favour of weak coherent pulses.
 
-On the supply side the driver is materials and fabrication capability rather than a market signal. Silicon is attractive because it brings mature nanofabrication, integrated photonics and microelectronics, plus high isotopic purity giving long spin coherence; silicon carbide brings an emerging CMOS platform with defects usable as qubits or emitters. Multiple independent groups are pushing epitaxy, electron-beam patterning and 2D material stacks in parallel, which suggests healthy research supply but no consolidation on a winning platform.
-
 **TLDR: Strong pull from photonic computing and quantum networks, but the QKD market has already engineered around the need for true single photons.**
 
 ## Novelty (3/5)
@@ -103,11 +101,6 @@ By 31 December 2028, no peer-reviewed experiment will report a single solid-stat
 ## Evidence base
 
 ## Open questions
-
-- Can the three-body-interaction and ultrastrong-coupling blockade schemes be built in hardware, and do the predicted purities survive the cavity's back-action on the emitter dynamics identified in?
-- Does the anomalous saturation caused by excited-state absorption into dark states generalise beyond DBT in anthracene to quantum dots and colour centres, capping achievable brightness across platforms?
-- Which host wins: telecom-band droplet-etched dots, silicon colour centres with their fabrication and spin-coherence advantages, or room-temperature hBN?
-- Can electrical injection and electrostatic stabilisation in 2D-material emitters remove the free-space excitation and post-selection that currently block turnkey operation, and what cryogenic control electronics will drive them given the SiC MOSFET variability at 650 mK?
 
 ---
 *Assessment drafted 2026-08-31 from up to 18 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

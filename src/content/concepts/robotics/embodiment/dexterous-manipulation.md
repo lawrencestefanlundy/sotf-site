@@ -65,13 +65,6 @@ This is the mechanism behind **Robot Autonomy Destination**: the data bottleneck
 
 ## Hand landscape (DOF / actuation / cost / tactile)
 
-- **Shadow Dexterous Hand** — ~24 DOF, tendon-driven, fingertip tactile options. Research gold standard, ~£100k+ class.
-- **Wonik Allegro V4/V5** — 16 DOF, direct-drive, ~$17k. The affordable research workhorse for in-hand RL.
-- **PSYONIC Ability Hand** — prosthesis-origin, ~6 motors, fingertip touch, low cost.
-- **Clone "Hand of Clone"** — 27 DOF, hydraulic myofiber muscles. Most biomimetic, the wildcard (production claims unproven).
-- **Tesla Optimus Gen3** — 22 DOF/hand, ~25 actuators relocated to the forearm (the notable engineering move).
-- **2025 wave (mostly Chinese: TESOLLO, Unitree Dex5, ROBOTERA, PaXini)** — 12-20 DOF, mostly direct-drive, all shipping with tactile. Rapid cost-down.
-
 ## Connections
 
 [Physical AI (robotics cluster hub)](/robotics/robot-learning/physical-ai/) · [Tactile Sensing & Electronic Skin](/robotics/embodiment/tactile-sensing/) · [Robot Actuators (the muscle layer)](/robotics/embodiment/robot-actuators/) · **Robot Autonomy Destination** · **Tactile Sensing Silicon** · [Humanoid Robots](/robotics/embodiment/humanoid-robots/)

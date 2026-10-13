@@ -33,9 +33,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 114
-sources_7d: 5
-sources_30d: 16
+mention_count: 115
+sources_7d: 3
+sources_30d: 17
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
@@ -140,13 +140,6 @@ The most useful correction for investors is about where the cost sits. The narra
 By 31 December 2027, at least one shipping GB10-class edge AI system will expose per-process or per-rail CPU energy telemetry through a documented, supported software interface; if none does, the energy-attribution blind spot reported for the ASUS Ascent GX10 in will still prevent cost-per-successful-goal accounting for edge agents.
 
 ## Evidence base
-
-- Jun 2025: NVIDIA Research argues small language models are sufficient for most agentic calls, estimates 40-70% of LLM queries in existing agentic systems could be served by specialised SLMs, and calls paying 10-30x for unneeded capability unsustainable at scale **2025 06 Slm Future Agentic Ai Nvidia**.
-- Nov 2025: measurement of agentic workloads finds tool execution dominating end-to-end latency at 81-89% for retrieval, up to 65% for Bash/Python and 85-88% for conformer generation, with software scheduling (COMB, MAS) giving up to 1.7-3.9x lower latency and no new silicon proposed **2511.00739 Cpu Centric Agentic Execution**.
-- Jun 2026: an energy audit of the ASUS Ascent GX10 (GB10 SoC) finds no CPU energy counter, no INA rail monitor, no IPMI/BMC and no SCMI powercap exposed, while agentic workflows consume 4.33x more energy per successful goal than linear baselines and CPU-side processing reaches 90.6% of latency and 44% of dynamic energy.
-- Jun 2026: CascadeMAP ran unattended for seven days, processing about 220,000 reactions across about 7,400 conditions with a multi-agent layer over 11 GB of data, with Bayesian optimisation three times faster than design of experiments.
-- Jun 2026: an agentic loop guided by a GEMM locality simulator found a 2D block-swizzle CTA traversal reducing remote inter-chiplet traffic by up to 5.1x over the best 1D traversal, in a space where remote traffic varies by up to 58x; separately HORIZON reached 100% completion on ChipBench, RTLLM, Verilog-Eval and nine CVDP categories hands-free while declining to claim the problem is solved.
-- Jul 2026: a survey of 21 agent permission proposals finds no settled approach to user-level policy specification or enforcement, and a cross-sector expert agenda records the gap between AI adoption and AI security readiness as continuing to widen, naming governance of agentic AI under adversarial pressure as a priority theme.
 
 ## Open questions
 

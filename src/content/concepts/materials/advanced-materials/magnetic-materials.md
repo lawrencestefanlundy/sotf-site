@@ -32,7 +32,27 @@ scorecard:
 scorecard_status: draft
 sources_7d: 4
 sources_30d: 8
-recent_mentions: []
+recent_mentions:
+- slug: 2026-10-12-iea-rare-earth-elements-2026
+  title: 'Rare Earth Elements: Executive Summary'
+  date: '2026-10-12'
+  kind: web
+- slug: 2026-10-12-frontiers-reduced-rare-earth-motor-review
+  title: A review of structural design for reduced-rare-earth permanent magnet motors in new energy vehicles
+  date: '2026-09-23'
+  kind: web
+- slug: 2026-10-12-argus-niron-sartell-150mn-loan
+  title: Niron secures $150mn loan for RE-free magnet plant
+  date: '2026-08-19'
+  kind: web
+- slug: 2026-10-12-proterial-hre-free-ndfeb-permendur
+  title: Proterial develops heavy-rare-earth-free neo sintered magnet for EV motors, also new soft magnetic material for motor cores
+  date: '2025-08-07'
+  kind: web
+- slug: 2026-10-12-fastmarkets-china-electrical-steel-72pc
+  title: China electrical steel poised for green boost, but experts warn against overcapacity
+  date: '2024-09-20'
+  kind: web
 neighbors:
 - slug: rare-earth-elements
   name: Rare-Earth Elements (REE)

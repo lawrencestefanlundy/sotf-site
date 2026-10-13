@@ -28,6 +28,14 @@ sources:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-12-from-nonmagnetic-to-magnetic-a-2d-semiconductor-with-electri
+  title: 'From nonmagnetic to magnetic: A 2D semiconductor with electrically tunable magnetism'
+  date: '2026-10-12'
+  kind: web
+- slug: 2026-10-12-21-us-military-satellites-blast-at-15660-mph-to-hunt-missile
+  title: 21 US military satellites blast at 15,660 mph to hunt missile threats from space
+  date: '2026-10-12'
+  kind: web
 - slug: 2026-10-11-ultraviolet-laser-creates-new-defects-in-diamond-without-dis
   title: Ultraviolet laser creates new defects in diamond without disturbing quantum centers
   date: '2026-10-11'
@@ -48,17 +56,9 @@ recent_mentions:
   title: Optogenetic Therapy for Restoring Aspects of Visual Function
   date: '2026-10-07'
   kind: web
-- slug: 2026-10-06-lunar-grounding-challenge
-  title: Lunar Grounding Challenge
-  date: '2026-10-06'
-  kind: web
-- slug: 2026-10-06-hawkeye-360-turns-its-rf-sensors-to-orbital-targets
-  title: HawkEye 360 Turns its RF-Sensors to Orbital Targets
-  date: '2026-10-06'
-  kind: web
-- slug: 2026-10-05-physicist-jun-ye-wins-wolf-prize-in-physics
-  title: Physicist Jun Ye Wins Wolf Prize in Physics
-  date: '2026-10-05'
+- slug: 2026-10-07-nasa-releases-trove-of-moon-data-from-historic-artemis-ii-fl
+  title: NASA releases trove of Moon data from historic Artemis II flight
+  date: '2026-10-07'
   kind: web
 neighbors: []
 ---

@@ -12,6 +12,7 @@ sources:
 - '[[2023-05-24-launching-state-of-the-future]]'
 - '[[2024-11-20-nuclear-fusion-the-state-of-play]]'
 - '[[2024-12-04-cubits-in-a-fridge-why-is-nobody]]'
+- '[[2026-01-07-d-wave-acquires-quantum-circuits]]'
 - '[[2025-09-18-qphox-and-rigetti-awarded-58m-contract-from-afrl-to-enable-o]]'
 - '[[2026-06-12-hku-sic-cryogenic-neuromorphic-chip-10mk]]'
 frontier:
@@ -24,7 +25,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 112
+mention_count: 113
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 4
@@ -42,9 +43,21 @@ recent_mentions:
   title: HKU world-first cryogenic neuromorphic chip at 10 mK (silicon carbide, impact-ionisation spiking)
   date: '2026-06-12'
   kind: web
+- slug: 2026-01-07-d-wave-acquires-quantum-circuits
+  title: D-Wave announces agreement to acquire Quantum Circuits Inc.
+  date: '2026-01-07'
+  kind: web
+- slug: 2025-11-06-darpa-qbi-stage-b-selection
+  title: 'DARPA Quantum Benchmarking Initiative: Stage B selection'
+  date: '2025-11-06'
+  kind: web
 - slug: 2025-09-18-qphox-and-rigetti-awarded-58m-contract-from-afrl-to-enable-o
   title: QphoX and Rigetti awarded $5.8M Contract from AFRL to enable optical networks of superconducting qubits - TU Delft
   date: '2025-09-18'
+  kind: web
+- slug: 2025-09-03-iqm-320m-series-b
+  title: IQM Quantum Computers raises over $300M in Series B led by Ten Eleven Ventures
+  date: '2025-09-03'
   kind: web
 - slug: 2024-12-04-cubits-in-a-fridge-why-is-nobody
   title: Silicon Spin Quantum Computing (Feat. Himadri Majumdar, SemiQon)

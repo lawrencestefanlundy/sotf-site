@@ -54,6 +54,10 @@ recent_mentions:
   title: As Close to Carbyne As We're Probably Going to Get
   date: '2026-09-23'
   kind: web
+- slug: 2026-09-03-a-quantum-filter-for-improved-spintronics
+  title: A Quantum Filter for Improved Spintronics
+  date: '2026-09-03'
+  kind: web
 - slug: 2026-08-07-nasas-lunar-development-and-test-facility-prepares-artemis-h
   title: NASA’s Lunar Development and Test Facility Prepares Artemis Hardware for Moon
   date: '2026-08-07'
@@ -61,10 +65,6 @@ recent_mentions:
 - slug: 2026-07-31-tb-26-04-webbings-for-use-in-elevated-oxygen-environments
   title: TB 26-04 Webbings for Use in Elevated Oxygen Environments
   date: '2026-07-31'
-  kind: web
-- slug: 2026-07-08-the-chemistry-of-chips
-  title: The Chemistry of Chips
-  date: '2026-07-08'
   kind: web
 neighbors: []
 ---

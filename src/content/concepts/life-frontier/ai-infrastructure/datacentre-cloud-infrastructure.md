@@ -33,6 +33,14 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-13-texas-oilfield-wastewater-could-help-cool-data-centers-witho
+  title: Texas oilfield wastewater could help cool data centers without draining freshwater
+  date: '2026-10-13'
+  kind: web
+- slug: 2026-10-12-tiny-pluggable-optical-module-boosts-data-center-bandwidth-4
+  title: Tiny pluggable optical module boosts data center bandwidth 4x without extra hardware
+  date: '2026-10-12'
+  kind: web
 - slug: 2026-10-11-17-gigawatt-texas-power-project-passes-key-hurdle-for-worlds
   title: 17-gigawatt Texas power project passes key hurdle for world’s largest private grid
   date: '2026-10-11'
@@ -56,14 +64,6 @@ recent_mentions:
 - slug: 2026-10-05-virginias-new-energy-plan-make-the-ai-boom-work-for-not-agai
   title: 'Virginia’s new energy plan: Make the AI boom work for — not against — us'
   date: '2026-10-05'
-  kind: web
-- slug: 2026-09-30-a-data-center-company-signed-a-ppa-for-space-solar-power---l
-  title: A data center company signed a PPA for space solar power - Latitude Media
-  date: '2026-09-30'
-  kind: web
-- slug: 2026-09-29-how-to-measure-grid-utilization---latitude-media
-  title: How to measure grid utilization - Latitude Media
-  date: '2026-09-29'
   kind: web
 neighbors: []
 ---

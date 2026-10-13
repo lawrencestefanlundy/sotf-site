@@ -27,6 +27,10 @@ recent_mentions:
   title: 'Exclusive: Kapta Space Raises $24M Series A to Build Moving Target Radar Payload'
   date: '2026-10-09'
   kind: web
+- slug: 2026-10-07-nasa-releases-trove-of-moon-data-from-historic-artemis-ii-fl
+  title: NASA releases trove of Moon data from historic Artemis II flight
+  date: '2026-10-07'
+  kind: web
 - slug: 2026-10-06-beyond-wiring-diagrams-inside-a-19-million-effort-to-expand-
   title: 'Beyond wiring diagrams: Inside a $19 million effort to expand access to connectome technology'
   date: '2026-10-06'
@@ -34,6 +38,14 @@ recent_mentions:
 - slug: 2026-09-01-diffraqtion-adds-to-pre-seed-round-for-quantum-camera-tech--
   title: Diffraqtion Adds to Pre-Seed Round for Quantum Camera Tech - Payload Space
   date: '2026-09-01'
+  kind: web
+- slug: 2026-08-03-ultrarapid-deep-3d-histology-enables-intraoperative-mapping-
+  title: Ultrarapid deep 3D histology enables intraoperative mapping of glioma infiltration
+  date: '2026-08-03'
+  kind: web
+- slug: 2026-06-03-your-phone-can-use-tiny-skin-colour-changes-to-measure-your-
+  title: Your phone can use tiny skin-colour changes to measure your heart rate
+  date: '2026-06-03'
   kind: web
 - slug: 2026-01-13-quantum-imaging-startup-diffraqtion-emerges-from-stealth---p
   title: Quantum Imaging Startup Diffraqtion Emerges from Stealth - Payload Space
@@ -48,8 +60,6 @@ neighbors: []
 ## Summary
 
 Conventional imaging separates concerns: optics form a sharp image on a focal plane, the sensor records it, software cleans it up. The cluster of work collected here abandons that separation. In a compact interferometric imager, the large aperture of a telescope is replaced by a dense array of small apertures combined by a photonic integrated circuit, which records complex visibilities rather than an image; the components that traditionally form the image are simply absent, and the object is reconstructed numerically. In end-to-end meta-imagers, a metasurface and its computational back-end are optimised jointly, and recent work reduces that optimisation to closed-form, data-free objectives built on Shannon capacity and Fisher information, showing that the optimal transfer matrix is a permutation matrix, each source mapped to one distinct detector, a condition the authors call generalised focusing.
-
-Three hardware layers are moving at once. Modulation: a spatial light modulator encoding spatial information in frequency bins and decoding it with a high-resolution 2D spectrometer reaches 10 MHz with 2D pixel geometry, breaking the standing trade-off where liquid-crystal-on-silicon devices give pixel count but low refresh, and acousto-optic deflectors give speed but restricted beam geometry. Optics: an inverse-designed Sb2S3 phase-change metalens gives non-volatile focal tuning with near-diffraction-limited performance at the edge of the visible, and the same idea appears in acoustics, where a 20-by-20 microfluidic lens driven by 80 pumps gives 400 addressable phase pixels and 3D focusing comparable to a 400-element transducer array, so hardware complexity scales with the square root of the pixel count. Detection: SPAD array cameras enable continuous-wave super-resolution fluctuation imaging with a 2.5 microsecond optimal binning time, and digital SiPM readout architectures are being redesigned for photon-sensing arrays with hundreds of thousands of channels.
 
 The algorithm layer is being pulled in the same direction, but by a different pressure: cost. On AR glasses, continuous high-resolution egocentric capture is the bottleneck, and a co-optimised system that uses gaze, pose and inertial cues to discard uninformative input cuts memory 27.5-fold and energy 24.3-fold while preserving task accuracy. In X-ray imaging of laser powder bed fusion keyholes, a purpose-built segmentation algorithm processes a cropped frame in 19.9 ms on CPU against 54 ms and 5284 ms for the machine learning baselines tested.
 
@@ -94,8 +104,6 @@ The limit on this score is that the sources are engineering papers, not market o
 ## Timing Soon (2-5yr)
 
 The field splits sharply by layer. Software and readout changes that fit existing hardware are near term: radial beamforming for speed-of-sound imaging is designed for standard beamformers and was tested on simulations, tissue-mimicking phantoms and in vivo breast lesion data; cross-sensor transfer of illuminant spectra needs no retraining; MOSAIC already runs during active beamline experimentation. Multi-sensor fusion of thermal, optronic and radar features for UAV classification is an integration exercise on deployed sensor types.
-
-The optical hardware sits behind that. Phase-change metalenses at visible wavelengths are single-device demonstrations, the 10 MHz modulator introduces a first-of-its-kind 2D spectrometer architecture that will need independent replication, and the intracavity electron phase plate is a proposal. The compact interferometric imager is at the stage of establishing whether its SNR is acceptable at all, which places any flight use well beyond five years.
 
 **TLDR: Algorithm and firmware layers can land within two years; reconfigurable optics and PIC interferometry are further out.**
 

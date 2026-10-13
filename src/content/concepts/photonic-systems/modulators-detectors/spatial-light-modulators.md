@@ -134,23 +134,15 @@ One housekeeping point. Two of the supplied sources use the initialism SLM to me
 
 Nothing here is speculative at the level of basic function. SLMs and DMDs appear across the supplied sources as reliable components delivering quantified outputs: an LCoS-SLM plus galvanometric scanner produced more than 400 simultaneous two-photon polymerisation foci at 1.49 x 10^8 voxels per second; a DMD temporally focused femtosecond pulses into a programmable line at greater than 10 kHz refresh with pixel-level greyscale, enabling continuous centimetre-scale 3D nanolithography; a phase-only SLM encoded vortex transfer functions for mid-infrared differentiation from first to fourth order with real-time switching up to 60 Hz; an SLM corrected index mismatch in femtosecond direct writing well enough to suppress cracking and cut fabrication time sixfold for a sapphire photonic crystal fibre grating.
 
-The reason this is a 4 rather than a 5 is that the capability that matters for the next generation of applications, high pixel count and high bandwidth at once, is explicitly unsolved. The hybrid metasurface-plus-optical-phased-array route is a single demonstration with a threefold pitch improvement, and the mid-infrared metasurface SLM is described as a first device establishing a foundry-compatible route rather than a product. Yield, array size, insertion loss, switching endurance of the phase-change material and drive electronics at scale are not addressed in the sources.
-
 **TLDR: The incumbent LCoS and DMD devices are working instruments in tier-1 results today; the architectures that break the speed-versus-complexity limit are at first-demonstration stage.**
 
 ## Drivers (4/5)
 
 On demand, the sources show at least five separate pulls that do not depend on each other. Two-photon lithography throughput: parallel-foci and projection schemes are the route to industrial-scale 3D printing, with DMD projection multiphoton lithography reaching more than a million voxels per second at sub-400 nm resolution. Photon-starved sensing: a DMD plus a compact 64 x 64 SPAD array reconstructed natural targets at 670 m stand-off with an effective 256 x 256 resolution, and a DMD-based single-pixel mid-infrared spectrometer achieved 0.5 cm^-1 resolution at illumination down to 0.01 photons. Cheap infrared vision without infrared focal-plane arrays, via self-evolving DMD illumination patterns and a single-pixel detector. Holographic AR/VR, where perceptual quality depends directly on the wavefronts an SLM can render. And neutral-atom quantum hardware, where SLMs define the tweezer lattice geometry that a proposed Rydberg experiment depends on.
 
-On supply, the significant change is process rather than physics. Building an active metasurface SLM through standard silicon photonic foundry processing with backend-of-line integration, multilayer metal interconnects and per-pixel diode selectors moves SLM fabrication onto an existing industrial base and gives a credible scaling path to large arrays. The PIC optical phased array route similarly leans on established photonic integration. The sources do not give market sizes, unit volumes or prices, so the commercial magnitude of these drivers is not assessable here.
-
 **TLDR: Demand is pulled by several independent application classes at once; supply is being reshaped by silicon photonic foundry compatibility.**
 
 ## Novelty (3/5)
-
-An SLM is a decades-established laboratory instrument, so the interesting question is what recent variants beat, and by how much. Against the previously cited SLM parallel-foci ceiling of about 50 simultaneous foci (49, Hahn/Wegener), the LCoS demonstration of more than 400 foci is roughly an 8x improvement, and a companion DMD plus microlens-array system reached a 1,600-focus array. Against conventional dense-routing architectures, the metasurface-plus-optical-phased-array hybrid gives a threefold reduction in effective pixel pitch without sacrificing modulation speed. Against no available device at all, the transmissive mid-infrared phase-change metasurface SLM is a first. In fabrication, SLM-based aberration compensation cut writing time sixfold versus a depressed-cladding waveguide approach.
-
-The counter-current matters for the score. Several sources achieve SLM-like functions without an active modulator. A passive cascaded diffractive network, jointly optimised by deep learning, maps 625 wavelength channels from 400 to 750 nm onto a 25 x 25 array of addressable beam positions, explicitly eliminating mechanical scanning and electronic phase control. A static liquid-crystal metasurface performs sixteen joint Bell measurements in one acquisition by assigning projections to azimuthal sectors, replacing sequential reconfiguration. And multimode-fibre imaging can sidestep speckle calibration entirely by encoding images into the spectral domain with dual-comb readout. Where the pattern needed is fixed or the addressing can be moved to another degree of freedom, passive optics are cheaper and faster. The SLM's defensible territory is genuine per-frame reprogrammability.
 
 **TLDR: The device class is an incumbent, not a novelty; the quantified advances are real but incremental, and passive diffractive optics are starting to compete for specific jobs.**
 
@@ -181,11 +173,6 @@ For anything that can be done with visible or near-infrared LCoS and DMD hardwar
 ## Evidence base
 
 ## Open questions
-
-- Does the threefold effective pixel-pitch reduction from decoupling the electrical and optical planes scale to megapixel-class arrays, or does the PIC optical phased array introduce its own routing and loss ceiling?
-- What are the switching endurance, insertion loss and per-pixel yield of phase-change-material metasurface pixels with diode selectors when arrays grow from a demonstrator to large area?
-- In two-photon lithography, now that the modulator is no longer the binding constraint, how far can proximity effects and dose uniformity be controlled at foci counts of 400 to 1,600 and above?
-- How much of the SLM application space can be captured by passive, deep-learning-designed diffractive networks and static liquid-crystal metasurfaces that need no electronic phase control?
 
 ---
 *Assessment drafted 2026-08-31 from up to 18 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

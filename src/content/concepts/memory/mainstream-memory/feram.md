@@ -66,8 +66,6 @@ neighbors: []
 
 Ferroelectric RAM stores information in the remanent electric polarisation of a thin ferroelectric layer: apply a field one way and the polarisation points one way, reverse it and the bit flips, and the state persists with no power. The polarisation can be sensed either through the charge released when it switches (which destroys the stored state and requires a write-back) or indirectly through its effect on a transistor channel, as in a ferroelectric FET. The absence of a good non-destructive readout scheme is still treated as an open problem in the current literature on ferroelectric memory concepts.
 
-A second, much earlier research track uses van der Waals ferroelectrics rather than oxides. A switchable SnSe/alpha-In2Se3 p-n heterojunction has been used to build a ferroelectric junction field-effect transistor memory with 0.1 pA reverse leakage, a diode ideality factor of 1.95, 900 meV ferroelectric barrier modulation and a 1.8 V memory window. Machine-learning screening of the 2D ABC2X6 family has proposed AuCrP2S6 as a multiferroic four-state memory cell with 7.46 pC/m out-of-plane polarisation, a ~130 meV/f.u. switching barrier and a bulk-photovoltaic non-destructive readout channel. Sliding ferroelectricity in CVD-grown 3R-WSe2 bilayers is being probed with graphene-channel FE-FETs, where intrinsic disorder and multi-domain kinetics dominate switching behaviour.
-
 The parameters that decide the technology, on the evidence available, are: the reproducible fraction of ferroelectric phase per device and its spread across a wafer; the thermal budget needed to get it; memory window and leakage; and whether readout can be made non-destructive. A fourth, less comfortable parameter is measurement hygiene. Series capacitance and other extra circuit components can produce apparent ferroelectric D-E hysteresis loops even under the double-wave method, and suspicious loops have been identified in published papers using that method; piezoelectric strain loops are argued to be the more reliable proof of ferroelectricity. A related caution comes from compressively strained SrTiO3 capacitors, which show butterfly capacitance-voltage hysteresis and domain-like electromechanical response yet are judged inconsistent with a stable ferroelectric state, the polarity instead attributed to inhomogeneous internal fields.
 
 ## Viability (3/5)
@@ -86,13 +84,9 @@ On demand, the sources are thin. The only statement is that with skyrocketing AI
 
 The meaningful comparison the sources do support is internal to ferroelectrics. HZO is preferred over classical perovskite ferroelectrics on BEOL compatibility, scalability and performance, and the contrast is visible in the perovskite papers themselves: BaTiO3 charged domain wall conductivity collapses by several orders of magnitude when the crystal passes below roughly 5 degrees Celsius into the orthorhombic phase, and room-temperature out-of-plane ferroelectricity in strained SrTiO3 remains unrealised 25 years after prediction. Against that background, an oxide that works at room temperature in a TiN stack is a large practical step.
 
-The device-level novelty claims are specific but early. The vdW ferroelectric junction FET memory reports a fundamentally different memory mechanism with 900 meV barrier modulation, 1.8 V memory window and 0.1 pA reverse leakage; the 2D multiferroic route proposes four states per cell plus a photocurrent-based non-destructive read, which would address two of ferroelectric memory's structural weaknesses at once, but the candidates are computational and the paper itself notes the scarcity of synthesisable ones. Nothing in the sources benchmarks FeRAM against flash, DRAM or MRAM on density, energy or endurance, so the headline question of how much better it is than the incumbent cannot be scored from this evidence.
-
 **TLDR: Clear advantage over conventional ferroelectric oxides on CMOS integration; no quantified comparison against the incumbent memories it would displace.**
 
 ## Diffusion (2/5)
-
-The 2D and vdW routes are further from diffusion again: sliding ferroelectricity in CVD-grown 3R-WSe2 is dominated by intrinsic structural defects and domain structure whose role is described as poorly understood, and the vdW junction memory relies on hand-assembled band-aligned heterojunctions. The sources contain no fab, foundry, product or qualification information of any kind, so this score reflects only the difficulty of the barriers on display, not evidence about how fast anyone is clearing them.
 
 **TLDR: The named barrier is manufacturing uniformity, and the sources show it being characterised rather than overcome.**
 
@@ -112,11 +106,7 @@ Against that, the source set contains no product, foundry or qualification evide
 
 ## Overrated or underrated? Too early to say
 
-Two cautions should be carried forward. First, the sensitivity of the polar phase to oxygen vacancy concentration and anneal conditions means variability is not incidental noise but a direct consequence of how the useful phase is stabilised, which makes it harder to engineer away than a process defect. Second, this is a field with a demonstrated artefact problem: apparent hysteresis loops can be produced by series capacitance and have been found in published double-wave-method results, and a polar-looking oxide capacitor with butterfly C-V and domain-like piezoresponse can still turn out not to be ferroelectric. Discount single-device claims accordingly, particularly from the 2D end.
-
 ## Prediction
-
-No experimentally fabricated single-device demonstration of a four-state 2D van der Waals multiferroic memory cell with non-destructive photocurrent readout, of the AuCrP2S6 type proposed in, will be published before 31 December 2028.
 
 ## Evidence base
 

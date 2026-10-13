@@ -15,7 +15,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 14
+mention_count: 15
 frontier:
 - Can a vascularised or perfused organoid sustain viable tissue beyond the 300 to 500 µm diffusion limit, and what cell count does this reach relative to the stated 10 million neuron target 2023 frontiers organoid intelligence roadmap?
 - Can any published organoid system exceed the 78% eight-class benchmark, or match a silicon baseline on any task at equal or lower total energy including culture maintenance 2023 nature electronics brainoware?

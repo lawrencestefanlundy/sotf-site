@@ -105,8 +105,6 @@ Spin caloritronics is on a different timeline. Its own review positions it as on
 
 ## Overrated or underrated? Fairly rated
 
-Thermoelectrics are treated as a real but bounded technology, and that is what the evidence supports. The best module result here pairs cheap, non-toxic, scalable Heusler chemistry with an average zT of about 0.3 over 300 to 500 K: useful where heat is free and maintenance is expensive, not a route to grid-relevant waste-heat recovery. The very large volume of first-principles candidate papers in this corpus, spanning 2D nitrides, halide double perovskites and layered Zintls, should be discounted heavily; predicted power factors have a poor record of surviving synthesis, contact resistance and module assembly, and none of these compounds is reported as made.
-
 Where the rating is arguably too low is the transverse branch, but as a research direction rather than an energy technology. Breaking the diffusion-length limit that has confined spin Seebeck devices to thin films, obtaining both Nernst polarities from a single material and finding a surface response that does not decay with thickness are all structural changes to what transverse devices can be built from. The near-term payoff is much more likely to be heat-flux sensors and photonic detectors than generators, and anyone pricing spin caloritronics as an energy play is ahead of the evidence.
 
 ## Prediction

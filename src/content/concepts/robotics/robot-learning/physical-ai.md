@@ -50,7 +50,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 116
+mention_count: 117
 descendants:
 - dexterous-manipulation
 - humanoid-robots
@@ -60,7 +60,7 @@ descendants:
 - tactile-sensing
 - vision-language-action-models
 - world-models
-sources_7d: 4
+sources_7d: 3
 sources_30d: 19
 recent_mentions:
 - slug: 2026-10-07-hiphi-a-large-scale-benchmark-for-high-precision-human-motio

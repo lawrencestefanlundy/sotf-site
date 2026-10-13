@@ -24,6 +24,14 @@ mention_count: 279
 sources_7d: 3
 sources_30d: 23
 recent_mentions:
+- slug: 2026-07-07-oratomic-300m-series-a
+  title: Oratomic raises $300M Series A for fault-tolerant neutral-atom quantum computers
+  date: '2026-07-07'
+  kind: web
+- slug: 2026-01-07-d-wave-acquires-quantum-circuits
+  title: D-Wave announces agreement to acquire Quantum Circuits Inc.
+  date: '2026-01-07'
+  kind: web
 - slug: 2024-12-16-willow-and-the-race-to-quantum-advantage
   title: Willow and The Race to Quantum Advantage (Feat. Kris Kaczmarek)
   date: '2024-12-16'

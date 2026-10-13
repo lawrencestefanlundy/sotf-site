@@ -15,7 +15,11 @@ tags:
 - auto-stub
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-10-12-cnt-electronics-market-research
+  title: 'Carbon nanotube electronics: market, cohort and M&A research (web sweep, 82 sources)'
+  date: '2026-10-12'
+  kind: web
 neighbors: []
 ---
 > **Auto-stub** created 2026-07-08 to resolve 1 inbound reference(s) (e.g. `ideas/rf-frontend-silicon.md`). Type inferred from field. Needs enrichment (replace this banner with real content, then drop the `auto-stub` tag).

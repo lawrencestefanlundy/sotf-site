@@ -54,6 +54,10 @@ descendants:
 sources_7d: 2
 sources_30d: 5
 recent_mentions:
+- slug: 2026-10-12-tiny-pluggable-optical-module-boosts-data-center-bandwidth-4
+  title: Tiny pluggable optical module boosts data center bandwidth 4x without extra hardware
+  date: '2026-10-12'
+  kind: web
 - slug: 2026-10-07-china-the-fcc-and-the-logic-of-transceivers
   title: China, the FCC, and the Logic of Transceivers
   date: '2026-10-07'
@@ -82,10 +86,6 @@ recent_mentions:
   title: The ASML Killer?
   date: '2026-07-07'
   kind: substack
-- slug: 2026-06-23-semidoped-daily-update
-  title: Semi Doped — Daily Update, June 23rd 2026
-  date: '2026-06-23'
-  kind: web
 neighbors:
 - slug: optical-circuit-switching
   name: Optical Circuit Switching (OCS)

@@ -54,8 +54,6 @@ The caveats are equally explicit and keep this off a 5. The MBE-grown InAs therm
 
 ## Drivers (3/5)
 
-On the demand side the pull is visible and diverse. Quantum communication needs reproducible, symmetric emitters at specific telecom wavelengths, which is stated as the motivation for droplet-etched quantum dot epitaxy and for deterministic dot placement inside circular Bragg gratings. Wide-bandgap electronics drives the AlGaN HEMT interface work and Si-doped Ga2O3 on sapphire. Broadband spintronic THz emitters are limited by the spin Hall conductivity of the conversion layer, and epitaxial thickness control is offered as the way around that fixed material limit. 2D semiconductor device interest is cited directly as the reason to control MoS2 layer number.
-
 On the supply side the sources support only one observation: capability is spreading through cheaper or more flexible source technologies. Thermal laser evaporation, using a 1 kW continuous-wave 1070 nm fibre laser focused to a sub-millimetre spot, can evaporate essentially any solid element including refractory metals, and a home-built system is described in enough detail to be replicated. Beyond that there is no data here on equipment vendors, tool prices, substrate availability or fab capacity, so this score reflects research-level demand evidence only.
 
 **TLDR: Clear pull from quantum photonics, wide-bandgap power devices and THz sources; the sources say nothing about tool supply, cost or capacity.**
@@ -71,8 +69,6 @@ The specifically new increments in this evidence set are three. First, defeating
 ## Diffusion (3/5)
 
 The diffusion picture is bimodal. MOVPE-grown nitrides and HVPE-grown oxides are described in terms that presume production relevance, with HVPE reaching 30 µm/hr and heteroepitaxy on sapphire rather than expensive native substrates, and one MOF route explicitly designed for rapid, ambient-condition, automated fabrication rather than vacuum equipment. Signs of process maturity also appear: XRD is proposed as a non-destructive in-line proxy for interface sharpness, and hBN films with silicon-doped single-photon emitters were transferred onto SiO2 to demonstrate device-integration compatibility.
-
-The barriers are specific. MBE is a slow, ultra-high-vacuum, manually tuned process; the authors of the machine-learning study state directly that autonomous synthesis platforms remain underdeveloped for MBE. Serial AFM lithography for dot placement is called scalable by its authors but is nonetheless a per-site technique. Growth temperature windows are constrained on both sides, with high-temperature Si incorporation in hBN needing 900 to 1390 °C to be swept to find an optimum. Prior literature disagreement on GaSe/GaAs morphology, traced to unreported substrate preparation, is a candid illustration of how fragile cross-lab transfer still is.
 
 **TLDR: Already industrially diffused in some forms, but the frontier processes carry throughput, reproducibility and substrate-cost barriers the sources make plain.**
 
@@ -95,8 +91,6 @@ The frontier items are slower. Deterministic quantum dot placement, telecom C-ba
 ## Overrated or underrated? Underrated
 
 Epitaxy is treated as background plumbing by most people looking at semiconductors, quantum hardware or THz systems, and this evidence set argues the opposite: the growth recipe is frequently the whole story. A transistor's 2DEG survives or does not depending on interdiffusion during growth. A THz emitter gains a factor of six from monolayer counting. A single-photon source becomes usable only once nucleation is placed to within tens of nanometres. Investment attention flows to the device and the system; the constraint sits upstream in the reactor.
-
-The honest counterweight is that this is a mature field where progress is incremental and slow, and where much of the value accrues to a small number of established equipment and materials suppliers that these sources do not name. The most interesting under-priced thread is process automation: the admission that autonomous synthesis is underdeveloped for MBE, combined with a candid account of prior published disagreements caused by unrecorded substrate preparation, suggests reproducibility and recipe search are still done by hand in a field that has been industrialised for decades. That is where the next step change is most likely to come from.
 
 ## Prediction
 

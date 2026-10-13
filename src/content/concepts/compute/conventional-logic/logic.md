@@ -96,8 +96,6 @@ The strongest viability signal is indirect: the alternatives lean on conventiona
 
 ## Novelty (3/5)
 
-Measured against the naive conventional baseline, the deltas are large. Chiplet-contiguous layout beats 4 KB page interleaving by 13.0x and 20.7x on remote HBM traffic, and beats coarse locality-aware placement by 3.3x and 3.7x. A 2D block-swizzle traversal discovered by an agentic AI using a locality simulator cuts remote traffic by up to 5.1x versus the best 1D traversal. A hierarchical dataflow readout keeps packet loss ultra-low where conventional architectures exceed 80% data loss, and improves effective refresh rate by 2.14x. Dual-mode systolic hardware gains cryptographic capability for 20% area.
-
 Two cautions keep this from scoring higher. First, most headline numbers are proxy metrics (remote traffic, packet loss, area) rather than end-to-end throughput or total cost of ownership. Second, the field's own comparative work finds the trade-offs unresolved: the first hardware-system-level comparison of transform-based and SumCheck-based proving primitives under a unified framework, at equal SRAM and off-chip bandwidth budgets, concludes there is no universal winner despite SumCheck's asymptotic advantage of O(N) versus O(N log N). That is the honest signature of a mature substrate: asymptotics lose to locality, and the answer is workload-dependent. Historical framing supports this reading, with in-network computation and hardware synchronisation primitives traced across four decades from the NYU Ultracomputer's Fetch-and-Add to NVIDIA SHARP and HPE Slingshot.
 
 **TLDR: No single breakthrough; a set of large, workload-specific system-level multipliers on top of an incumbent baseline, with the sources explicitly warning that there is no universal winner.**
@@ -137,13 +135,6 @@ The qualification matters. What is underrated is the *systems and data-movement 
 By 30 June 2028, chiplet-local contiguous memory layout or an equivalent locality-aware placement policy will be a documented, default-enabled option in at least one major GPU vendor's production GEMM or LLM inference library, rather than a research prototype.
 
 ## Evidence base
-
-- Remote HBM traffic for a single fixed GEMM shape on multi-chiplet GPUs varies by up to 58x across the kernel and placement design space, and an agentic AI using the simulator found a 2D block-swizzle traversal cutting remote traffic up to 5.1x versus the best 1D traversal (15 June 2026) 
-- A chiplet-contiguous global memory layout reduces remote HBM traffic by 13.0x on Qwen 3 30B and 20.7x on Llama 3.1 70B GEMMs versus 4 KB interleaving, with no operating-system or hardware changes (15 June 2026) 
-- An audit of the ASUS Ascent GX10 (GB10 SoC) found no CPU energy counter, no power-rail monitor, no IPMI/BMC and no powercap interface, with only instantaneous GPU power via NVML, while CPU-side processing accounts for up to 90.6% of latency and 44% of dynamic energy in agentic workloads (16 June 2026) 
-- A dual-mode systolic array supporting both matrix and direct polynomial multiplication costs 20% additional area with negligible power overhead in matrix mode, and achieves more than 1.2x lower latency than NTT-based polynomial multiplication on systolic matrix engines (16 June 2026) 
-- The first hardware-system-level comparison of NTT- and SumCheck-based zero-knowledge proving primitives at equal on-chip SRAM and off-chip bandwidth budgets concludes there is no universal winner, despite SumCheck's O(N) versus O(N log N) asymptotic advantage (16 June 2026) 
-- A 64-spin all-to-all optoelectronic Ising machine benchmarked on 3-SAT integrates coupling and nonlinearity in a 65 nm CMOS chip of 3.1 mm2 active area running at 1 GHz with 4-bit coupling weights, showing unconventional computing still built on conventional logic (16 June 2026) 
 
 ## Open questions
 

@@ -23,6 +23,18 @@ mention_count: 80
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-13-new-microwave-weapon-can-zap-drone-swarms-without-burning-th
+  title: New microwave weapon can zap drone swarms without burning through missiles
+  date: '2026-10-13'
+  kind: web
+- slug: 2026-10-12-valkyrie-combat-drone-makes-first-european-flight-with-3100-
+  title: Valkyrie combat drone makes first European flight with 3,100-mile range and Mach 0.8
+  date: '2026-10-12'
+  kind: web
+- slug: 2026-10-12-21-us-military-satellites-blast-at-15660-mph-to-hunt-missile
+  title: 21 US military satellites blast at 15,660 mph to hunt missile threats from space
+  date: '2026-10-12'
+  kind: web
 - slug: 2026-10-09-nasa-signs-space-nuclear-pact-says-moon-base-is-ahead-of-sch
   title: NASA Signs Space Nuclear Pact, Says Moon Base Is Ahead of Schedule
   date: '2026-10-09'
@@ -42,18 +54,6 @@ recent_mentions:
 - slug: 2026-10-09-europes-space-defenses-fall-just-shy-of-weaponization
   title: Europe’s Space Defenses Fall Just Shy of Weaponization
   date: '2026-10-09'
-  kind: web
-- slug: 2026-10-08-uae-completes-arab-worlds-first-solo-space-probe-b-band-sets
-  title: UAE completes Arab world's first solo space probe <b>– </b>and sets course for an asteroid
-  date: '2026-10-08'
-  kind: web
-- slug: 2026-10-08-fortastra-raises-30m-series-a-to-fund-its-next-security-spac
-  title: Fortastra Raises $30M Series A to Fund its Next Security Spacecraft
-  date: '2026-10-08'
-  kind: web
-- slug: 2026-10-06-eic-step-defence-scale-up-call-ukraine-info-event---european
-  title: EIC STEP Defence Scale Up call – Ukraine Info Event - European Innovation Council
-  date: '2026-10-06'
   kind: web
 neighbors: []
 ---

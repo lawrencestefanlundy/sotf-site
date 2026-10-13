@@ -24,7 +24,7 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 135
+mention_count: 136
 descendants:
 - ar-glasses-stack
 - ar-optical-combiners
@@ -38,7 +38,7 @@ descendants:
 - microled
 - oled
 sources_7d: 4
-sources_30d: 11
+sources_30d: 12
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)

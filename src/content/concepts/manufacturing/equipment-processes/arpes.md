@@ -45,8 +45,6 @@ neighbors:
   path: /manufacturing/equipment-processes/electron-scale-metrology/
   macro: manufacturing
 ---
-**ARPES fires photons at a crystal surface and measures the energy and angle of the ejected electrons to map the material's electron band structure directly, and in 2026 it is the standard arbitration tool for quantum materials, 2D heterostructures and device contacts, with its live frontier in time-resolved, micro-focused, phase-resolved and full-solid-angle variants.**
-
 ## Summary
 
 Angle-resolved photoemission spectroscopy (ARPES) exploits the photoelectric effect as a momentum-resolved measurement. Photons of known energy strike a clean crystal surface in ultra-high vacuum; escaping electrons carry away both a kinetic energy and an emission angle, and conservation of energy and in-plane momentum converts those two observables into binding energy and crystal momentum. The result is a direct image of the spectral function A(k,ω), which is the band structure dressed by interactions such as electron-phonon coupling and correlation effects. Every other route to band structure is either indirect (transport, quantum oscillations, optics) or theoretical (DFT).
@@ -65,11 +63,7 @@ The live viability questions concern the extensions rather than the technique. F
 
 ## Drivers (4/5)
 
-On the demand side, the questions being asked cannot be answered any other way. Twist angle control of ultrafast charge transfer is described as controversial and is settled by trARPES on 0 and 30 degree WS2-graphene stacks. Contact engineering with RuCl3 requires the band offset itself, which is what ARPES measures. Altermagnetism is defined by non-relativistic spin-split bands, so its verification in the 2D limit is intrinsically a photoemission problem. Valleytronics protocols need the excited-state population resolved in momentum, supplied by time- and angle-resolved EUV photoemission.
-
 On the supply side, the enabling components visible in the sources are HHG EUV probe sources for excited-state band mapping above the Fermi level, deflector-equipped hemispherical analysers that widen the collected field of view, micro-focused beamlines for device-scale samples, and hard X-ray beamlines for depth profiling. A softer driver is interpretive: comparison with theory requires dynamical correlation functions that are classically hard, which is now motivating dedicated quantum algorithms. The sources give no figures on instrument market size, beamline capacity or capital cost, so the commercial supply picture cannot be assessed here.
-
-**TLDR: Demand pulled by 2D heterostructures, topology and altermagnetism; supply pushed by HHG sources, deflector analysers and micro-focused beamlines.**
 
 ## Novelty (4/5)
 
@@ -90,8 +84,6 @@ The taxonomy places this under manufacturing equipment, and here the sources do 
 ## Impact (3/5)
 
 Where ARPES lands, it changes design parameters rather than incremental understanding. The measured 0.68 ± 0.05 eV valence band shift in WSe2 on contact with RuCl3 is the quantity that determines whether such a charge-transfer contact is ohmic, and the paper frames the work as guiding device design. The twist-angle result states efficient charge separation at 0 degrees but comparable electron and hole transfer rates at 30 degrees, a directly actionable rule for photovoltaic and optoelectronic stack design. In black phosphorus, trARPES plus quantum-kinetic modelling identifies phonon-mediated intravalley scattering as a fundamental limit on coherent exciton phenomena, which bounds what light-induced band engineering can achieve in single-valley semiconductors.
-
-The ceiling on this score is that the value is upstream and unpriced in the supplied material. ARPES does not make anything; it tells you which candidate material or interface is worth pursuing, and it occasionally overturns theory, as with the unpredicted flat bands in TaRhTe4. Whether that translates into commercial value depends on downstream technologies (valleytronics, topological electronics, 2D optoelectronics) whose maturity the sources do not address. A 3 reflects strong demonstrated research leverage with no evidence of quantified economic impact.
 
 **TLDR: Decisive for materials and device-design decisions in the sources, but no economic or production value is quantified anywhere in them.**
 

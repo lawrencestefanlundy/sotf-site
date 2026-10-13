@@ -49,9 +49,17 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 3
+sources_7d: 2
 sources_30d: 11
 recent_mentions:
+- slug: 2026-10-12-tiny-pluggable-optical-module-boosts-data-center-bandwidth-4
+  title: Tiny pluggable optical module boosts data center bandwidth 4x without extra hardware
+  date: '2026-10-12'
+  kind: web
+- slug: 2026-10-12-chip-mediated-manipulation-of-photonic-quantum-skyrmions
+  title: Chip-mediated manipulation of photonic quantum skyrmions
+  date: '2026-10-12'
+  kind: web
 - slug: 2026-07-29-globalfoundries-wins-300-million-chips-act-silicon-photonics
   title: GlobalFoundries wins $300 million CHIPS Act silicon photonics award - Yahoo Finance
   date: '2026-07-29'
@@ -75,14 +83,6 @@ recent_mentions:
 - slug: 2026-06-01-nibras-ucl-chipstart
   title: UCL EEE ventures selected for national ChipStart programme (incl. Nibras Communications)
   date: '2026-06-01'
-  kind: web
-- slug: 2026-03-31-memq-10m-series-a
-  title: memQ Raises $10 Million in Series A
-  date: '2026-03-31'
-  kind: web
-- slug: 2026-03-30-photonics-material-class-war-silicon-photonics-and-photonic
-  title: 'Silicon Photonics and Photonic Integrated Circuits 2026-2036: Technologies, Markets, and Forecasts'
-  date: '2026-03-30'
   kind: web
 neighbors: []
 ---

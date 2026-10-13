@@ -33,6 +33,14 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-12-how-anthropics-dynamic-workflows-coordinate-claude-agents
+  title: How Anthropic’s Dynamic Workflows Coordinate Claude Agents
+  date: '2026-10-12'
+  kind: web
+- slug: 2026-10-12-import-ai-476-creativity-and-rsi-worse-than-china-open-weigh
+  title: 'Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space'
+  date: '2026-10-12'
+  kind: web
 - slug: 2026-10-10-building-ai-for-reliable-execution-lessons-from-industrial-r
   title: 'Building AI for Reliable Execution: Lessons From Industrial Robotics'
   date: '2026-10-10'
@@ -56,14 +64,6 @@ recent_mentions:
 - slug: 2026-10-05-why-agent-swarms-could-be-the-next-scaling-law
   title: Why agent swarms could be the next “scaling law”
   date: '2026-10-05'
-  kind: web
-- slug: 2026-10-05-virginias-new-energy-plan-make-the-ai-boom-work-for-not-agai
-  title: 'Virginia’s new energy plan: Make the AI boom work for — not against — us'
-  date: '2026-10-05'
-  kind: web
-- slug: 2026-09-30-the-state-of-chinese-physical-ai
-  title: The State of Chinese Physical AI
-  date: '2026-09-30'
   kind: web
 neighbors: []
 ---

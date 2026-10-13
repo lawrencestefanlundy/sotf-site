@@ -46,7 +46,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 128
-sources_7d: 6
+sources_7d: 4
 sources_30d: 14
 recent_mentions:
 - slug: 2026-08-14-chip-tail-verification-sweep
@@ -89,8 +89,6 @@ neighbors: []
 
 Static random-access memory stores each bit in a cross-coupled latch of transistors (classically six, hence "6T") rather than in a capacitor like DRAM or a resistive/ferroelectric element like the emerging non-volatile memories. Because the bit is held actively by the latch, SRAM needs no refresh, reads and writes in nanoseconds or less, is built in the same logic process as the compute it sits next to, and has effectively unlimited endurance. The costs are equally structural: six transistors per bit make it the least dense memory in the hierarchy, and the latch leaks continuously, so a large SRAM array burns static power even when idle. Those two properties, fast and sparse, set the shape of every modern memory hierarchy: SRAM for registers, caches and accelerator scratchpads; DRAM/HBM for capacity and bandwidth; Flash for bulk storage.
 
-The parameters that decide SRAM's fate are bitcell area at a given node, leakage per bit, and the ratio of on-chip capacity to working-set size for the workload in question. Recent architecture literature makes the tension explicit. For small language model inference on edge platforms, "SRAM provides fast access but has low density" while DRAM suffers bandwidth contention between static weights and dynamic KV cache, which is the stated motivation for hybrid ReRAM/MRAM memory organisations. In digital neuromorphic processors, on-chip SRAM and STT-MRAM have themselves "become significant consumers of area and energy, leading to a new memory wall". At the other extreme, when there is enough of it, SRAM removes the bottleneck entirely: mapping 2D stencils onto the Cerebras WSE-3, whose distributed on-chip SRAM and mesh interconnect "effectively eliminate the off-chip memory bottlenecks common in GPU implementations", gave speedups up to 342x over a single-precision port of a state-of-the-art GPU stencil solver on an A100.
-
 The most useful way to read SRAM in 2026 is as the industry's unit of account. Nearly every emerging-memory paper in this corpus states its result in SRAM-equivalent terms: SOT-MRAM bitcells with back-end-of-line read selectors achieve 10-40% area reduction and "eventually match sub-N3 SRAM"; NOR-type IGZO FeFETs reach a 10-A "SRAM-equivalent bitcell area" of roughly 0.016 um2 at 7 nm ground rules with sub-5 ns random access; two-terminal SOT-MRAM with out-of-plane torque efficiency of 0.051 at 20 nm reaches "write energies approaching SRAM at the 7nm technology node". Parity with SRAM, not superiority, is the target being claimed, and in these papers it is reached in design-technology co-optimisation models rather than in shipped silicon.
 
 SRAM is also increasingly a compute substrate rather than only storage. SRAM appears as one device option in heterogeneous processing-in-memory arrays alongside ReRAM, FeFET, PCM and MRAM, is assigned latency-critical attention operations in a heterogeneous SRAM-PIM plus HBM-PIM LLM accelerator, supplies the buffers feeding systolic arrays in chiplet-based DRAM-PIM modules, and has even been implemented photonically: a 1x256 bit single-wavelength photonic SRAM array in a standard GlobalFoundries silicon photonics process sustains up to 1.5 TOPS at an average 2.5 TOPS/W in system-level modelling of HPC kernels.
@@ -128,8 +126,6 @@ The real diffusion barrier is the inverse of the usual one: the cost of adding c
 **TLDR: Already universal; the adoption question is how much of it a design can afford, not whether to use it.**
 
 ## Impact (4/5)
-
-The clearest quantification in the corpus is the wafer-scale result: with enough distributed on-chip SRAM and a mesh interconnect to feed it, off-chip bottlenecks disappear and a 2D stencil framework achieved up to 342x speedup over an adapted state-of-the-art GPU solver at matched single precision, with roofline analysis confirming saturation of the achievable bound. That is a statement about how much value sits in SRAM capacity rather than in flops. Similarly, SRAM-PIM is what makes latency-critical attention tractable in a heterogeneous LLM accelerator, and SRAM-based buffers are what allow chiplet PIM modules to host systolic arrays that DRAM-process PIM could not support.
 
 The counterweight, which keeps this below 5, is that SRAM is also where a growing share of area and energy goes, to the point that neuromorphic designs risk uncompetitiveness in edge and embedded roles because of it. The 342x figure is a single workload class on one specialised machine and should not be read as a general accelerator result. SRAM's impact is high but increasingly bounded by what a die can afford to spend on it.
 

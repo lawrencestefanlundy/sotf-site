@@ -89,8 +89,6 @@ The better-than comparison is weaker elsewhere. Liquid-phase encapsulation of dy
 
 ## Diffusion (3/5)
 
-The corpus contains two distinct diffusion stories. The polymer-electronics one is close to manufacturable: the neural backplane is a monolithic flexible thin-film integrated circuit inspired by active-matrix display technology, with the encapsulation co-optimised alongside device architecture and contact engineering. That is a deposition process on a substrate, and it has an obvious industrial analogue. The van der Waals one is not: results depend on layer order, on strain and etching contamination, on solvent exposure and interface quality, and on encapsulant thickness at the level of a few layers changing the qualitative optical response. None of the sources reports a wafer-scale encapsulation process for 2D active layers.
-
 The practical barriers are therefore metrology and repeatability rather than physics. The bismuthene work is instructive: the field needed a rapid, ex situ, nondestructive, spatially resolved way to confirm that capping had succeeded, because the UHV alternative was too slow. Inline verification of encapsulation integrity is a precondition for any volume process. Encapsulation also interacts with characterisation itself, as in CrSBr where the magnetic structure depends on surface encapsulation alongside layer number, temperature and field, meaning the encapsulant cannot be swapped without requalifying the device.
 
 **TLDR: Thin-film barrier encapsulation already borrows from display manufacturing; flake-stacking encapsulation remains a manual laboratory craft.**
@@ -100,8 +98,6 @@ The practical barriers are therefore metrology and repeatability rather than phy
 If encapsulation becomes reliable and manufacturable, the value is not in the encapsulant but in everything it unlocks. Direct detection at 160 Gb/s PAM-4 with minimal DSP from a zero-bias device addresses the energy budget of optical interconnects in AI systems, a domain where receiver power is a first-order cost. A ceramic-polymer barrier with projected lifetimes above 38 years converts high-channel-count flexible neural interfaces from acute experimental devices into candidate chronic implants. Environmental instability is described as the practical limit on quantum spin Hall monolayers for dissipationless electronics, and capping is the stated remedy.
 
 There is a second-order impact that is easy to miss: encapsulation determines what is measurable, and therefore what gets designed. Dielectric screening from hBN had to be included before ab initio moiré exciton calculations matched experiment, and the ligand-field exciton diffusivity of 4.5 × 10⁻⁶ cm²/s and 130 meV activation energy in CrCl3 came from a thickness-dependent study on a system with finite surface recombination sites. A technique that sets the accuracy of the entire measurement base of a field has leverage beyond its own product category. The score stops short of 5 because none of the sources shows economic scale, revenue or deployed volume.
-
-**TLDR: It is the gating step for two large categories: 2D optoelectronics at data-centre speeds and long-lived implanted electronics.**
 
 ## Timing Soon (2-5yr)
 
@@ -113,13 +109,9 @@ The thin-film barrier route is nearest, because it is a deposition process alrea
 
 ## Overrated or underrated? Underrated
 
-Encapsulation is systematically undercounted because it appears in the methods section rather than the title. The 2026 evidence says it belongs in the results: the encapsulant choice determines whether spin-orbit coupling is pure valley-Zeeman, whether an exciton splits into polariton branches, and whether a photodetector can be both fast and sensitive. Anyone modelling 2D-material device roadmaps as a function of the active material alone is using the wrong variable.
-
 The caveat that keeps this from being a straightforward bullish call is that encapsulation is equally the field's most likely failure mode. The same corpus documents contamination from etching, sensitivity to solvent exposure, dependence on layer order, and a verification step that until recently required ultra-high vacuum. It is underrated as a lever and probably underrated as a risk too. Investors looking at this space should be more interested in companies solving scalable encapsulation and its inline metrology than in those claiming a new active material.
 
 ## Prediction
-
-By 31 December 2028, no peer-reviewed report will demonstrate a >100 Gb/s encapsulated 2D-material photodetector fabricated by a wafer-scale encapsulation process rather than manual flake transfer.
 
 ## Evidence base
 
@@ -131,11 +123,6 @@ By 31 December 2028, no peer-reviewed report will demonstrate a >100 Gb/s encaps
 - 4 August 2026: verification of graphene capping on bismuthene previously required slow ultra-high-vacuum techniques; an ex situ Raman signature at ~122 cm⁻¹ was introduced as a rapid nondestructive substitute.
 
 ## Open questions
-
-- Can atomically flat encapsulation of the quality used in these papers be produced at wafer scale, or is the supply of high-quality hBN crystals a structural limit on the whole 2D-device field?
-- What fraction of encapsulated devices meet spec? None of the sources reports yield, and the plasmonic-lattice result shows two nominally similar samples behaving differently.
-- Does the ~0.4 A/W potential responsivity of the WSe2-encapsulated graphene detector materialise, and does the bandwidth hold beyond the 110 GHz setup limit?
-- Do the 38-year projected implant lifetimes from accelerated aging survive real-time chronic testing, and what is the actual failure mode of the ceramic-polymer stack?
 
 ---
 *Assessment drafted 2026-08-31 from up to 18 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

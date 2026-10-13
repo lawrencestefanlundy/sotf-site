@@ -45,6 +45,10 @@ recent_mentions:
   title: From Restoring Sight to Reimagining the Brain, with Max Hodak
   date: '2026-08-20'
   kind: web
+- slug: 2026-06-03-your-phone-can-use-tiny-skin-colour-changes-to-measure-your-
+  title: Your phone can use tiny skin-colour changes to measure your heart rate
+  date: '2026-06-03'
+  kind: web
 - slug: 2024-11-14-bringing-lab-testing-to-the-home---mit-news
   title: Bringing lab testing to the home - MIT News
   date: '2024-11-14'

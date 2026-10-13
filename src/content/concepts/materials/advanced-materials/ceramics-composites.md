@@ -8,14 +8,15 @@ kind: technology
 parent_concepts:
 - materials
 - advanced-materials
-related_concepts: []
+related_concepts:
+- carbon-nanotubes
 sources: []
 frontier:
 - Do the YbSZ coatings survive repeated thermal cycling and long-duration exposure, or is the near-3200 °C ablation result a short-duration torch number that spalls in service? 2026 07 31 anomalous solid solution in ultra high melting point oxides
 - Does any 16 to 19 component compositionally complex ceramic outperform a five-component or conventionally doped ceramic on a measured property, not just on phase stability? 2026 07 08 ultrahigh entropy compositionally complex ceramics fluorite
 - Do machine-learned-potential predictions of oxygen diffusion in rare-earth high-entropy oxides match measured ionic conductivity in the same compositions? 2026 07 27 ionic diffusion properties of rare earth high entropy oxides
 - Can a 0.5 nm amorphous SiC interlayer be deposited reproducibly at wafer scale, given that thicker or silicon-rich layers reverse the benefit? 2026 07 21 interfacial thermal transport in sisic and sicdiamond hetero
-last_updated: '2026-08-31'
+last_updated: '2026-10-12'
 tags:
 - concept
 - technology
@@ -33,15 +34,43 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-12-us-comp-cnt-yarn-laminates-acs-2023
+  title: Scalable High Tensile Modulus Composite Laminates Using Continuous Carbon Nanotube Yarns for Aerospace Applications
+  date: '2026-10-12'
+  kind: web
+- slug: 2026-10-12-ecust-cnt-fibre-12-5gpa-nature-comms-2026
+  title: Improvement of the tensile strength of carbon nanotube fibers to 12.5 GPa by fluidics-induced alignment and densification
+  date: '2026-07-02'
+  kind: web
 - slug: 2026-03-25-sallea-extends-salt-based-templating-technology-to-advanced-
   title: Sallea extends salt-based templating technology to advanced composites manufacturing - CompositesWorld
   date: '2026-03-25'
+  kind: web
+- slug: 2026-10-12-idtechex-billion-dollar-cnt-market-2025
+  title: Billion Dollar Carbon Nanotube Market Continues to Grow
+  date: '2025-06-17'
+  kind: web
+- slug: 2026-10-12-huntsman-amd-cnt-composites-collab-2025
+  title: Huntsman and Advanced Material Development announce strategic collaboration for carbon-nanotube composites
+  date: '2025-03-11'
+  kind: web
+- slug: 2026-10-12-nasa-siochi-structural-cnt-composites-2024
+  title: Recent Advances in Structural Carbon Nanotube Composites
+  date: '2024-06-19'
+  kind: web
+- slug: 2026-10-12-idtechex-surging-cnt-capacity-beyond-batteries
+  title: Surging CNT Capacity Enables Applications Beyond Li-ion Batteries
+  date: '2023-11-22'
   kind: web
 - slug: 2021-05-06-weav3d-awarded-nsf-funding-to-further-develop-next-generatio
   title: WEAV3D awarded NSF funding to further develop next-generation composite forming machine - Design World
   date: '2021-05-06'
   kind: web
-neighbors: []
+neighbors:
+- slug: carbon-nanotubes
+  name: Carbon Nanotubes
+  path: /materials/advanced-materials/carbon-nanotubes/
+  macro: materials
 ---
 **Ceramics and composites are the load-bearing, heat-taking and ion-conducting materials class where 2026 research is moving from single-property optimisation to compositional complexity, engineered interfaces and simulation-led design, with a handful of hard experimental results (a plasma-sprayed zirconia coating surviving near 3200 °C ablation, diamond/cBN composites tested at Mach 8.45) and a much larger body of computational work behind them.**
 
@@ -52,6 +81,10 @@ neighbors: []
 Second, interfaces and processing. Interfacial thermal conductance across Si/SiC and SiC/diamond stacks depends on polytype and on interlayer structure: 4H-SiC couples better to Si than 3C-SiC, and an ultrathin 0.5 nm amorphous SiC layer raised conductance from 613 to 716 MW/m²K by acting as a phonon bridge, while thicker or Si-rich layers degraded it. On the processing side, first-principles work proposes a Fermi-level mechanism for flash sintering in yttria-stabilised zirconia, in which charge compensation of defects cuts the Zr vacancy diffusion barrier by about 2 eV during flash.
 
 Third, extreme-environment performance, which is where the most consequential experimental numbers appear. Ytterbia-stabilised zirconia coatings applied by atmospheric plasma spraying reportedly raised the melting point of ZrO2 to about 2850 °C and withstood plasma and oxyacetylene ablation to roughly 2780 °C and 3200 °C, described as the highest temperature resistance reported. Diamond particles embedded in a cubic boron nitride matrix were impacted by metal projectiles at speeds up to Mach 8.45, with energy absorption traced to a shock-induced diamond-to-graphite phase change. On the composite side, geometry-resolved atomic oxygen modelling for very low Earth orbit predicts a CFRP zenith panel eroding 15.1 to 16.2 µm per year at 350 km despite receiving only a few per cent of ram-facing fluence. The parameters that decide outcomes are therefore: phase stability at temperature, interface structure at the nanometre scale, and whether the processing route that produces the laboratory microstructure is one that industry already runs.
+
+## CNT-reinforced polymer composites (added 12 Oct 2026)
+
+CNTs entered composites as a resin additive at low loading, with carbon fibre still carrying the load (Easton/Zyvex sporting goods from 2005, Zyvex's Piranha boat 2011 <sup class="ref"><a href="https://www.compositesworld.com/news/nano-fibered-unmanned-boat-completes-sea-trials" title="Nano-fibered unmanned boat completes sea trials" rel="noopener">ref</a></sup>). NASA's 2024 lessons-learned: structural applications did not materialise, the payoff was electrical <sup class="ref"><a href="https://ntrs.nasa.gov/citations/20240006917" title="Recent Advances in Structural Carbon Nanotube Composites" rel="noopener">ref</a></sup>. US-COMP CNT-yarn laminates reached strength parity with IM7 and c.2x stiffness, with the yarn/resin interface unsolved <sup class="ref"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10353548/" title="Scalable High Tensile Modulus Composite Laminates Using Continuous Carbon Nanotube Yarns for Aerospace Applications" rel="noopener">ref</a></sup>. Production uses today are conductive, not structural: fuel lines and paintable body panels <sup class="ref"><a href="https://www.businesswirechina.com/en/news/52584.html" title="LG Chem LUCON TX5007, engineering plastic for electrostatic powder coating, now applied to Japanese global OEM front fen" rel="noopener">ref</a></sup>. Detail: [Carbon Nanotubes](/materials/advanced-materials/carbon-nanotubes/), brief `projects/cnt-dispatch/2026-10-12-edition-013-composites-brief.md`.
 
 ## Viability (3/5)
 

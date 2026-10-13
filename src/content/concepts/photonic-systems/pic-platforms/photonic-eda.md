@@ -19,7 +19,7 @@ frontier:
 - Does a captive-process model measurably slow or accelerate time-to-volume compared with an open-PDK model on the same foundry line?
 - Can a neutral EDA layer support device models across multiple heterogeneous integration flows, or are models tied to a single patented process?
 - What design-rule and model fidelity is required before third-party photonic designers achieve first-pass tape-out success on a heterogeneous flow?
-sources_7d: 1
+sources_7d: 0
 sources_30d: 1
 recent_mentions:
 - slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape

@@ -48,6 +48,10 @@ recent_mentions:
   title: Fusion Bionic secures €8M for laser texturing - Optics.org
   date: '2026-07-02'
   kind: web
+- slug: 2026-10-12-ieee-tte-aluminium-windings-review
+  title: An Overview of Aluminum Windings and Their Manufacturing Technologies in Electrical Machines
+  date: '2026-06-01'
+  kind: web
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
   title: Carbon Nanotubes in the Datacentre
   date: '2025-11-25'
@@ -71,10 +75,6 @@ recent_mentions:
 - slug: 2024-09-13-bis-adopts-additional-controls-on-quantum-semiconductor-and-
   title: BIS Adopts Additional Controls on Quantum, Semiconductor and Additive Manufacturing Technologies in Concert with International Partners - Mayer Brown
   date: '2024-09-13'
-  kind: web
-- slug: 2024-09-11-bis-imposes-new-export-controls-on-quantum-semiconductor-and
-  title: BIS Imposes New Export Controls on Quantum, Semiconductor and Additive Manufacturing Technologies - globaltradeandsanctionslaw.com
-  date: '2024-09-11'
   kind: web
 neighbors: []
 ---

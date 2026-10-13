@@ -24,6 +24,7 @@ sources:
 - '[[2024-idtechex-thermal-interface-materials-2026-2036]]'
 - '[[2025-01-15-thermal-stack-arms-race-thermal-interface-materials-market]]'
 - '[[2025-08-19-thermal-stack-arms-race-thermal-interface-materials-market]]'
+- '[[2026-10-12-cnt-electronics-market-research]]'
 frontier:
 - Is there any published in-package measurement showing a nanostructured or metal TIM beating incumbent grease on total joint thermal resistance after JESD22-A105C-style cycling, rather than on bulk conductivity?
 - Will OCP or JEDEC issue a TIM-specific test method that measures thermal resistance degradation rather than electrical failure, and if so on what timeline?
@@ -36,7 +37,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - material
-mention_count: 14
+mention_count: 15
 last_reorg_date: '2026-05-13'
 descendants:
 - tim-approach-map
@@ -49,9 +50,13 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Overrated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
+- slug: 2026-10-12-cnt-electronics-market-research
+  title: 'Carbon nanotube electronics: market, cohort and M&A research (web sweep, 82 sources)'
+  date: '2026-10-12'
+  kind: web
 - slug: 2026-07-31-tim-market-sizing-refresh
   title: TIM market sizing refresh — the definitional 2x split and the real addressable slot
   date: '2026-07-31'
@@ -79,10 +84,6 @@ recent_mentions:
 - slug: 2024-yole-thermal-management-2024
   title: Yole Group — Thermal Management 2024 Market Analysis
   date: '2024-10-01'
-  kind: web
-- slug: 2024-idtechex-thermal-interface-materials-2026-2036
-  title: 'IDTechEx — Thermal Interface Materials 2026-2036: Technologies, Markets and Forecasts'
-  date: '2024-08-15'
   kind: web
 neighbors:
 - slug: tim-approach-map

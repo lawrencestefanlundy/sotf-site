@@ -40,7 +40,7 @@ frontier:
 - Does the 0.5 nm sputtered silicide template for GaN on Si(111) reproduce on production-diameter wafers and across the full set of 25 metallic species, and what vertical resistance is achieved in a finished device rather than a test structure?
 - Is the 6% growth-axis elastic anisotropy in ion-beam-sputtered silica a general property of ion-beam-sputtered oxides, and does removing it at 900 C degrade other coating properties?
 - Can kinetically driven dopant patterning during CVD, demonstrated in vanadium-doped WS2, be controlled deliberately rather than observed after the fact?
-sources_7d: 6
+sources_7d: 5
 sources_30d: 15
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
@@ -114,8 +114,6 @@ The supply side is absent. The sources contain no information on precursor avail
 ## Novelty (3/5)
 
 Nothing here is a new class of process. Sputtering, CVD, ALD and PLD all appear as established options, and the novelty sits in what they are better than. Two comparisons are quantified. Against conventional epitaxial buffer layers for GaN on Si(111), an in-situ sputtered sub-nanometre (0.5 nm) silicide template formed by rapid thermal annealing gave low vertical resistance and ohmic behaviour, and worked across 25 different metallic species before MOCVD overgrowth; the claimed advantage is versatility plus a resistance path that buffer layers block. Against ALD and sputter deposition at similar stoichiometry, PLD amorphous alumina was the only route where all tested microcantilevers exceeded 10% total strain without fracture. ALD's distinct advantage is post-fabrication precision: it shifted cavity resonances by ~9 nm in 1D photonic crystal cavities and ~16 nm in microdisks, a trimming capability sputtering cannot match.
-
-A second novel thread is deterministic control of what was assumed to be random. Dopant distribution in 2D semiconductors is typically taken to be stochastic; CVD growth kinetics were shown to drive preferential vanadium incorporation along crystallographic bisectors in WS2 monolayers, creating localised tensile strain channels of about 0.70%, captured by an adsorption-growth-diffusion model with a single kinetic parameter. That reframes deposition kinetics as a defect-engineering tool. The score is held at 3 because these are single-group results, not yet replicated or transferred to manufacturing.
 
 **TLDR: The methods are decades old; the genuinely new result is that route choice at fixed chemistry changes device physics.**
 

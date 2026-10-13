@@ -35,6 +35,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-12-cnt-electronics-market-research
+  title: 'Carbon nanotube electronics: market, cohort and M&A research (web sweep, 82 sources)'
+  date: '2026-10-12'
+  kind: web
 - slug: 2026-07-25-thoughts-on-ai-and-power
   title: Thoughts on AI and power
   date: '2026-07-25'
@@ -62,10 +66,6 @@ recent_mentions:
 - slug: 2026-06-23-semidoped-daily-update
   title: Semi Doped — Daily Update, June 23rd 2026
   date: '2026-06-23'
-  kind: web
-- slug: 2026-06-14-semianalysis-smic-n3-vs-intel-18a
-  title: Is SMIC N+3's Metal Pitch Smaller than Intel 18A's?
-  date: '2026-06-14'
   kind: web
 neighbors: []
 ---

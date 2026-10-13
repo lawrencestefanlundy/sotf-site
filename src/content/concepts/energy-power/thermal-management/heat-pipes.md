@@ -27,8 +27,6 @@ A heat pipe is a sealed evacuated vessel containing a working fluid that transfe
 
 ## Competitive landscape
 
-Competing passive thermal solutions include vapour chambers (2D heat spreading, better for planar sources), solid spreaders (pyrolytic graphite, diamond composites), and active liquid cooling loops. For chip-scale applications, microfluidic cold plates and immersion cooling are increasingly competitive above ~300 W/cm². Adjacent: thermoelectric modules (active, lower COP), thermosyphons (gravity-dependent, simpler). OHPs are gaining ground in space and AI accelerator cooling due to no moving parts and high heat flux tolerance.
-
 ## Companies using
 
 <!-- dataview block stripped for public site -->

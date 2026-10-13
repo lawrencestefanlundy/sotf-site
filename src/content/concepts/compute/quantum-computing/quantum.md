@@ -58,6 +58,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-12-chip-mediated-manipulation-of-photonic-quantum-skyrmions
+  title: Chip-mediated manipulation of photonic quantum skyrmions
+  date: '2026-10-12'
+  kind: web
 - slug: 2026-10-11-ultraviolet-laser-creates-new-defects-in-diamond-without-dis
   title: Ultraviolet laser creates new defects in diamond without disturbing quantum centers
   date: '2026-10-11'
@@ -84,10 +88,6 @@ recent_mentions:
   kind: web
 - slug: 2026-10-08-high-fidelity-entangling-gates-and-nonlocal-circuits-with-ne
   title: High-fidelity entangling gates and nonlocal circuits with neutral atoms
-  date: '2026-10-08'
-  kind: web
-- slug: 2026-10-08-how-to-arrange-hundreds-of-atoms-between-two-mirrors
-  title: How To Arrange Hundreds of Atoms Between Two Mirrors
   date: '2026-10-08'
   kind: web
 neighbors:

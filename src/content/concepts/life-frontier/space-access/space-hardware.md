@@ -14,7 +14,8 @@ related_concepts:
 - space-grade-fpgas
 - space-propulsion
 - reusable-launch
-sources: []
+sources:
+- '[[2026-10-12-compositesworld-nasa-cnt-copv-flight-2017]]'
 frontier:
 - Can COTS-based (commercial off-the-shelf) satellite buses achieve acceptable reliability for LEO megaconstellation missions without traditional rad-hard qualification?
 - What is the power-density limit for solar panels in GEO without active thermal management at high albedo?
@@ -23,12 +24,16 @@ last_updated: 2026-06-02
 tags:
 - concept
 - category
-mention_count: 6
+mention_count: 7
 descendants: []
 last_reorg_date: '2026-05-14'
-sources_7d: 0
-sources_30d: 0
-recent_mentions: []
+sources_7d: 1
+sources_30d: 1
+recent_mentions:
+- slug: 2026-10-12-compositesworld-nasa-cnt-copv-flight-2017
+  title: NASA exploring using carbon nanotubes for aerospace applications
+  date: '2017-05-22'
+  kind: web
 neighbors:
 - slug: rad-hard-ics
   name: Rad-Hard ICs

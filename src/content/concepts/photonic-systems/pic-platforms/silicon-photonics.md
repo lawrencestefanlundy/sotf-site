@@ -34,13 +34,17 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 193
+mention_count: 194
 descendants:
 - avalanche-photodiode
 - optical-gyroscope
 sources_7d: 0
 sources_30d: 6
 recent_mentions:
+- slug: 2026-10-12-cnt-electronics-market-research
+  title: 'Carbon nanotube electronics: market, cohort and M&A research (web sweep, 82 sources)'
+  date: '2026-10-12'
+  kind: web
 - slug: 2026-07-29-globalfoundries-wins-300-million-chips-act-silicon-photonics
   title: GlobalFoundries wins $300 million CHIPS Act silicon photonics award - Yahoo Finance
   date: '2026-07-29'
@@ -69,10 +73,6 @@ recent_mentions:
   title: Recursive, Until the Power Bill
   date: '2026-06-05'
   kind: substack
-- slug: 2026-05-30-optical-interconnect-ma-ledger
-  title: Optical-interconnect / photonic-packaging M&A ledger (2019-2026)
-  date: '2026-05-30'
-  kind: web
 neighbors: []
 ---
 **Silicon photonics builds optical circuits in the silicon device layer of CMOS wafers, and is now shipping as commercial foundry platforms whose remaining weaknesses (no Pockels effect, no native laser) are being patched by wafer-scale heterogeneous integration of lithium niobate, III-V and electronic chiplets.**

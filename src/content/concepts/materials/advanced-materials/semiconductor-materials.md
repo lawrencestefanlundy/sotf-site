@@ -13,7 +13,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 141
+mention_count: 142
 frontier:
 - Can printed metal chalcogenides reach useful carrier mobility with inorganic additives replacing the organic surfactants that leave insulating residues, and what performance penalty remains versus vapour-grown films 2026 05 18 nsf 2542773 career manipulating the interfacial stru?
 - Does geometric confinement actually yield single-crystal 2D semiconductors on amorphous glass, and over what area and with what defect density 2026 07 06 nsf 2544157 career activating glass direct growth of?
@@ -33,8 +33,8 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 1
-sources_30d: 3
+sources_7d: 2
+sources_30d: 4
 recent_mentions:
 - slug: 2026-09-23-arxiv-benchmarking-the-generalized-kadanoff-baym-ansatz-and-second
   title: 'Benchmarking the generalized Kadanoff-Baym ansatz and second-order adiabatic expansion using time-dependent spintronic effects: Spin pumping, torque, and inertia'
@@ -60,13 +60,9 @@ The parameters that decide outcomes across this set are unglamorous: whether a d
 
 The strongest viability evidence is on the characterisation side. Terahertz time-domain spectroscopy is already known to measure semiconductor doping, and the 2026 work adds a simulation-derived sensitivity metric that says which combinations of material (SiC, Si, GaN), layer thickness and carrier density are accessible in principle, validated by mapping existing terahertz measurements onto the resulting heat maps. That is a usable engineering result rather than a promise. Similarly, first-principles screening produces actionable negative results: B-doped hematite shows imaginary phonon modes indicating lattice instability, while pristine and Y-doped hematite remain dynamically stable.
 
-The new material platforms are earlier. Printed chalcogenides currently depend on organic surfactants that leave insulating residues degrading performance, which is the problem the funded work sets out to solve rather than a solved problem. Direct growth of single-crystal 2D semiconductors on amorphous glass is framed as a fundamental scientific challenge with no crystalline template available. The quantum-computing route to spectroscopy simulation matches classical results only in the noiseless limit, with realistic NISQ hardware noise acting as extra scattering and broadening the spectra, and the authors state no exponential advantage is expected in the single-particle approximation. Three, not higher, because the sources supply almost no device-level performance data for the emerging platforms.
-
 **TLDR: The metrology and first-principles screening layers are working now; most of the new material platforms are at grant-abstract stage.**
 
 ## Drivers (4/5)
-
-On supply, the funding is public, distributed and small per award: $534,821 for interfacial engineering of printed chalcogenides, $575,000 for chiral perovskite spectropolarimeters, $417,790 for 2D growth on glass, $305,000 for a thermophotovoltaic SBIR Phase I, $200,000 for exciton-polariton devices. There is also explicit workforce and industrial-policy framing: a $561,522 undergraduate research site whose goals include producing semiconductor-trained graduates for chip manufacturing including national defence, and a stated aim of strengthening US leadership in next-generation manufacturing. The gap in the evidence is private capital and customer commitments, which these sources do not show.
 
 **TLDR: Demand pull is explicit and repeated (AI interconnect power, distributed heat-to-power, sovereign manufacturing); supply is steady public research funding at modest ticket sizes.**
 
@@ -96,10 +92,6 @@ The cross-cutting impact is compounding: better contact-free doping metrology an
 
 The near-term items are tools. The terahertz sensitivity framework is published with validation against existing measurements and could inform process control decisions immediately, and DFT-plus-machine-learning screening for photovoltaic materials is already described as accelerating material discovery and performance prediction. The thermophotovoltaic effort is the only entry with a commercial vehicle attached and is at SBIR Phase I upscaling as of 17 June 2026, which places any module product several development stages out.
 
-The material platforms are on grant clocks beginning mid-2026: CAREER-scale programmes for printed chalcogenide interfaces awarded 13 May 2026, chiral perovskite spectropolarimeters awarded 2 June 2026 and 2D growth on glass awarded 1 July 2026. Work of that type typically produces device demonstrations rather than products within the award period, so the honest expectation is proof-of-concept results in the two to five year window and manufacturing questions after that. The quantum-simulation route sits further out still, since it needs the many-body regime and less hardware noise before it beats the classical semiconductor Bloch equation approach.
-
-**TLDR: Metrology and simulation tooling are usable now; the perovskite, 2D and printed-chalcogenide platforms are on multi-year research clocks that started in 2026.**
-
 ## Overrated or underrated? Fairly rated
 
 Treated as a whole, this is a well-funded, well-motivated field with a clear division between tools that already work and materials that do not yet. The tools deserve more attention than they get: a sensitivity metric that tells you in advance which doping ranges and layer stacks a contact-free terahertz measurement can resolve is directly useful to anyone qualifying SiC or GaN stacks, and phonon-stability screening that kills a dopant choice before optical characterisation begins saves real time. Both are cheap, incremental and immediately adoptable.
@@ -120,11 +112,6 @@ By 31 December 2029, digital quantum simulation of semiconductor optical spectra
 - 4 August 2026: NSF awards $373,838 for self-powered metal halide perovskite photon-counting arrays intended to detect optical data symbols containing only a few photons, motivated by the power and heat cost of copper interconnects under AI and cloud workloads.
 
 ## Open questions
-
-- Can printed metal chalcogenides reach useful carrier mobility with inorganic additives replacing the organic surfactants that leave insulating residues, and what performance penalty remains versus vapour-grown films?
-- Does geometric confinement actually yield single-crystal 2D semiconductors on amorphous glass, and over what area and with what defect density?
-- Is the 500-fold areal power density advantage of air-bridge thermophotovoltaics over rooftop solar sustained at module rather than cell scale, and at what installed cost per watt?
-- Do perovskite photon-counting arrays retain few-photon sensitivity and zero-bias operation over datacentre-relevant lifetimes, given the film stability problems still being addressed in perovskite photovoltaics?
 
 ---
 *Assessment drafted 2026-08-31 from up to 12 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

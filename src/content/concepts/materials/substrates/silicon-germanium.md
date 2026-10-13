@@ -71,8 +71,6 @@ neighbors:
 
 ## Summary
 
-The same heterostructure toolkit produces the substrate for spin qubits. A thin strained Si quantum well between relaxed SiGe barriers hosts a two-dimensional electron gas with low charge noise and, with isotopic purification of 28Si, a very quiet nuclear environment. Invert the strain and you get Ge/SiGe, hosting a two-dimensional hole gas with strong intrinsic spin-orbit coupling that permits all-electrical qubit driving. First-principles work on tailored strained-Si/SiGe interfaces finds that band alignment depends sharply on composition: below roughly 25% Ge there is no conduction band offset, so only a hole gas can form, while above it either a 2DEG or a 2DHG is possible, with carriers confined to two or three atomic layers of the interface.
-
 The parameters that decide SiGe are all about disorder and thermal budget rather than about the idea. Germanium fraction sets strain, band offsets and valley splitting. Growth temperature sets Ge-Si interdiffusion: a segmented temperature-control scheme reported in 2026 lowered the Ge diffusion coefficient to 5.6-7% of its 650 C value, giving a 4 + 4 channel stack with fully coherent strain, 1.5-2.6 nm interface transition widths and 0.08 nm RMS roughness, though the bottom of the stack still saw Ge dilution from 20% to 18.5% from cumulative thermal exposure. Metamorphic buffers relax the mismatch by generating dislocations, and those dislocations do not stay put: X-ray nano-mapping of an Intel Si/SiGe qubit chip resolved crosshatch fine structure and permanently distorted lattice planes propagating through the heterostructure at 30 nm lateral and 200 nm depth resolution, with a calculated effect on qubit energy spectra.
 
 For the alloy in its bulk role, random substitutional disorder is the dominant phonon scatterer, which is why SiGe is a thermoelectric material as well as a logic material; a 2026 substitutional atomic distance model reproduces measured SiGe thermal conductivities and attributes the reduction chiefly to alloy scattering.
@@ -126,13 +124,6 @@ The corollary is that the interesting investable and publishable work is metrolo
 No Si/SiGe or Ge/SiGe spin-qubit device with more than 50 quantum dots operating at uniform, individually untuned gate voltages will be reported in the peer-reviewed or arXiv literature before 31 December 2028.
 
 ## Evidence base
-
-- Segmented temperature control lowered the Ge diffusion coefficient to 5.6-7% of its 650 C value, producing a 4 + 4 channel Si/SiGe stack with fully coherent strain, 1.5-2.6 nm interface transition widths and 0.08 nm RMS roughness, though bottom-layer Ge fell from 20% to 18.5%, published 8 May 2026 
-- X-ray nano-structural mapping of an Intel Si/SiGe chip at 30 nm lateral and 200 nm depth resolution revealed extended growth dislocations creating permanently distorted lattice planes and crosshatch fine structure, with calculated impact on qubit energy spectra, 30 July 2026 
-- Two-dimensional mapping of electron g-factors in planar Si/SiGe quantum wells to better than 10^-3 precision across a 40 nm x 400 nm area found two valley-related g-factors per dot site with a bimodal distribution, 27 July 2026 
-- Ge/SiGe hole spin qubits with a global accumulation gate and single-layer depletion fine gates achieved RF single-shot readout and coherent control of two single-spin qubits with coherence and exchange tunability similar to overlapping-gate devices, 8 July 2026 
-- A planar germanium quantum well retained 1.3 x 10^6 cm^2/Vs hole mobility after 500 C annealing while integrated with a PtIrSiGe superconductor of Tc ~1.85 K and out-of-plane critical field 1.9 T, 11 August 2026 
-- First-principles hybrid DFT of strained-Si/SiGe interfaces found no conduction-band offset for Ge fraction below 0.25, precluding a 2DEG at low Ge content, with carriers confined to 2-3 atomic layers of the interface, 30 June 2026 
 
 ## Open questions
 

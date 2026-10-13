@@ -37,25 +37,11 @@ neighbors:
 ---
 > Step 56 of 56 in the semiconductor flow (FinalTest). Prev: [Burn-in & reliability (process step)](/semiconductor-process-flow/test-metrology/flow-burn-in-reliability/) · 
 
-## What this step does
-The last cosmetic-and-logistics gate before a packaged, tested device ships. Three commodity sub-processes, usually run on one integrated turret handler:
-- **Marking**: a fiber laser etches part number, date code, lot/wafer traceability and a 2D data-matrix code onto the package top (legacy ink stamping is mostly gone).
-- **Final visual / AOI inspection**: 2D/3D automated optical inspection checks marking legibility, lead coplanarity, chip-outs, micro-cracks and orientation; rejects are binned out.
-- **Tape and reel**: good die are placed pocket-by-pocket into embossed carrier tape, sealed with cover tape and wound onto reels (or loaded into trays/tubes) for the customer's surface-mount line.
-
 ## Where it sits and why it matters
 This is the physical handoff from the chipmaker/OSAT to the board assembler. It adds almost no device value but is unavoidable: traceability marking is mandated by automotive/industrial quality regimes, and tape-and-reel is the only economic format for high-speed pick-and-place (used on ~79% of placement lines running above 30,000 units/hour per industry surveys). Get it wrong, mislabel a code, mis-pocket a part, ship an illegible mark, and you create field-traceability failures or stop a customer's line. So it is low-value, high-discipline work: the margin is in throughput, yield and zero-defect logistics, not technology.
 
 ## Equipment market
 No single "marking + tape-reel + final-inspect" equipment number exists; it splits across three overlapping commodity tool markets:
-
-| Vendor | HQ | Est. share / position | Notable |
-|---|---|---|---|
-| Cohu / ISMECA | US / Switzerland | Leader in integrated turret handlers | NY-series turret integrates test, laser mark, 3D AOI and tape-and-reel in one tool, full wafer-to-reel traceability |
-| ASMPT | Singapore / HK | ~17% of broad packaging-equipment market | Marking and tape-and-reel modules inside assembly lines |
-| Nordson (YESTECH) | US | Top-tier AOI for advanced packaging | 2D/3D AOI for PCBA and panel/wafer-level packaging |
-| Koh Young / Omron / CyberOptics / Saki | KR / JP / US | AOI specialists | 3D AOI leadership, mostly SMT-adjacent |
-| Han's Laser / Trumpf / Coherent | CN / DE / US | Fiber-laser marking sources and systems | IC-chip laser marking machine segment ~USD 1.45bn (2025) [3] |
 
 Sizing the pieces (all third-party report-mill estimates, treat as order-of-magnitude): the **whole** laser-marking-machine market (all industries) was ~USD 4.2bn in 2024 growing ~10% [1]; the **IC-chip-specific** laser marker slice ~USD 1.45bn in 2025 at ~7.8% CAGR [3]; **AOI equipment** (all electronics) ~USD 1.7bn in 2025, with a fast headline ~19% CAGR claim [2]. Concentration is moderate: Cohu/ISMECA dominate the integrated semiconductor-test-and-finish handler; AOI is more fragmented across Koh Young, Omron, Nordson, CyberOptics, Saki.
 

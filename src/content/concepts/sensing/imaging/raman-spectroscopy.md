@@ -34,7 +34,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 4
+sources_7d: 3
 sources_30d: 14
 recent_mentions:
 - slug: 2026-07-21-interworld-slingshot-resource-surveys
@@ -43,8 +43,6 @@ recent_mentions:
   kind: web
 neighbors: []
 ---
-**Raman spectroscopy reads a material's vibrational fingerprint from inelastically scattered laser light, and it is now the default confirmatory measurement across 2D materials, ceramics, memory devices and cell biology, with the live frontier being speed (80 kHz spectral rates on CMOS detectors), single-molecule sensitivity via plasmonic enhancement, and machine-learned spectrum-to-structure inversion.**
-
 ## Summary
 
 Raman spectroscopy measures the small fraction of laser light that scatters off a sample with its frequency shifted by the energy of a vibrational mode. Because those modes depend on bond strengths, masses, local symmetry and strain, the resulting spectrum is a structural fingerprint that can be taken in air, without contact, without labels and usually without sample preparation. It is described in the source literature as one of the most accessible vibrational probes in materials laboratories, and the breadth of its use in the sources bears that out: identifying which crystallographic phase of MnSe grew in a CVD reactor, confirming that isolated silicon clathrate grains were largely free of amorphous silicon, fixing crystallographic orientation in an anisotropic GeS/MoS2 diode via angle-resolved measurement, and confirming a thickness-driven 1T'-to-2H transition in sputtered MoTe2 at about 4.5 nm.

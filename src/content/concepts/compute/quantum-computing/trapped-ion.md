@@ -18,6 +18,7 @@ sources:
 - '[[2024-12-16-willow-and-the-race-to-quantum-advantage]]'
 - '[[2024-12-04-cubits-in-a-fridge-why-is-nobody]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
+- '[[2025-11-06-darpa-qbi-stage-b-selection]]'
 - '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
 - '[[2025-01-23-eth-zurich-spinout-raises-42m-to-scale-trapped-ion-quantum-c]]'
 frontier:
@@ -33,7 +34,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 31
+mention_count: 32
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 3
@@ -51,10 +52,26 @@ recent_mentions:
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
   kind: web
+- slug: 2026-06-05-quantinuum-ipo-prospectus-424b4
+  title: 'Quantinuum Inc. final prospectus (Form 424B4), Nasdaq: QNT'
+  date: '2026-06-05'
+  kind: web
+- slug: 2026-02-25-ionq-fy2025-results
+  title: IonQ Announces Fourth Quarter and Full Year 2025 Financial Results
+  date: '2026-02-25'
+  kind: web
 - slug: 2025-12-09-gallium-nitride-photonics-w-james
   title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
   date: '2025-12-09'
   kind: substack
+- slug: 2025-11-06-darpa-qbi-stage-b-selection
+  title: 'DARPA Quantum Benchmarking Initiative: Stage B selection'
+  date: '2025-11-06'
+  kind: web
+- slug: 2025-06-09-ionq-acquires-oxford-ionics
+  title: IonQ to acquire Oxford Ionics in $1.075B deal
+  date: '2025-06-09'
+  kind: web
 - slug: 2025-01-23-eth-zurich-spinout-raises-42m-to-scale-trapped-ion-quantum-c
   title: ETH Zurich spinout raises $4.2m to scale trapped ion quantum computer - eeNews Europe
   date: '2025-01-23'
@@ -62,10 +79,6 @@ recent_mentions:
 - slug: 2024-12-16-willow-and-the-race-to-quantum-advantage
   title: Willow and The Race to Quantum Advantage (Feat. Kris Kaczmarek)
   date: '2024-12-16'
-  kind: substack
-- slug: 2024-12-04-cubits-in-a-fridge-why-is-nobody
-  title: Silicon Spin Quantum Computing (Feat. Himadri Majumdar, SemiQon)
-  date: '2024-12-04'
   kind: substack
 neighbors:
 - slug: quantum-computing

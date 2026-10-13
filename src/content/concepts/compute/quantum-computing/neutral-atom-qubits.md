@@ -18,7 +18,19 @@ mention_count: 2
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-08-27-pasqal-spac-nasdaq-listing
+  title: Pasqal completes SPAC merger and lists on Nasdaq (PSQL)
+  date: '2026-08-27'
+  kind: web
+- slug: 2026-07-07-oratomic-300m-series-a
+  title: Oratomic raises $300M Series A for fault-tolerant neutral-atom quantum computers
+  date: '2026-07-07'
+  kind: web
+- slug: 2025-11-06-darpa-qbi-stage-b-selection
+  title: 'DARPA Quantum Benchmarking Initiative: Stage B selection'
+  date: '2025-11-06'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

@@ -18,21 +18,35 @@ related_concepts:
 - aluminium-scandium-nitride
 - lasers
 sources:
+- '[[2026-10-12-mining-tech-china-rare-earth-pause-expiry]]'
 - '[[2026-04-29-deglobalisation-continues-china-s-export-controls-critical]]'
+- '[[2026-10-12-electrek-tesla-cybercab-rare-earth-free-motor]]'
 - '[[2026-07-14-artificial-bloom]]'
 - '[[2026-01-27-deglobalisation-continues-rare-earth-supply-bottlenecks-set]]'
 - '[[2026-04-22-deglobalisation-continues-china-s-global-exports-of-rare]]'
 - '[[2025-12-15-department-of-commerce-awards-chips-incentives-to-a-subsidia]]'
+- '[[2026-10-12-benchmark-q3-2026-rare-earths-price-review]]'
 - '[[2025-08-21-exclusive-trump-weighs-using-2-billion-in-chips-act-funding-]]'
 - '[[2026-06-30-critical-materials-supply-g7-can-mine-rare-earths-but-85-of]]'
+- '[[2026-10-12-iea-rare-earth-elements-2026]]'
+- '[[2026-10-12-iea-gcmo-2026-rare-earths]]'
+- '[[2026-10-12-proterial-hre-free-ndfeb-permendur]]'
+- '[[2026-10-12-mtc-non-metallic-electric-motor]]'
+- '[[2026-10-12-adamas-magnet-outlook-2026-predictions]]'
 - '[[2026-09-01-chinas-rare-earths-duopoly]]'
+- '[[2026-10-12-benchmark-ex-china-ndpr-below-110-floor]]'
 - '[[2026-06-13-usgs-mcs-rare-earths-supply-concentration]]'
 - '[[2026-06-23-rare-earths]]'
+- '[[2026-10-12-uk-vision-2035-critical-minerals-strategy]]'
 - '[[2025-05-13-the-uphill-battle-against-chinas-rare-earths-dominance---lat]]'
+- '[[2026-10-12-eu-crma-second-call-46-projects]]'
+- '[[2026-10-12-aem-16m-magnet-free-aluminium-motors]]'
 - '[[2026-04-30-critical-materials-supply-the-perth-critical-minerals]]'
 - '[[2025-08-22-trump-administration-looking-to-reallocate-2bn-in-chips-act-]]'
 - '[[2025-12-15-critical-materials-supply-iea-global-critical-minerals]]'
 - '[[2022-10-25-new-approach-to-cosmic-magnet-manufacturing-could-reduce-rel]]'
+- '[[2026-10-12-fastmarkets-china-electrical-steel-72pc]]'
+- '[[2026-10-12-mercedes-yasa-axial-flux-berlin-production]]'
 scorecard:
   viability: 5
   drivers: 4
@@ -42,41 +56,41 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 30
-sources_7d: 1
-sources_30d: 3
+mention_count: 44
+sources_7d: 15
+sources_30d: 17
 recent_mentions:
-- slug: 2026-09-01-chinas-rare-earths-duopoly
-  title: China's Rare Earths Duopoly
-  date: '2026-09-01'
+- slug: 2026-10-12-iea-rare-earth-elements-2026
+  title: 'Rare Earth Elements: Executive Summary'
+  date: '2026-10-12'
   kind: web
-- slug: 2026-07-14-artificial-bloom
-  title: Artificial Bloom
-  date: '2026-07-14'
+- slug: 2026-10-12-mtc-non-metallic-electric-motor
+  title: 'The World''s First Non-Metallic Electric Motor: A Groundbreaking Innovation'
+  date: '2026-10-12'
   kind: web
-- slug: 2026-06-30-critical-materials-supply-g7-can-mine-rare-earths-but-85-of
-  title: G7 Can Mine Rare Earths, But 85% of the Supply Chain Disappears Before Magnets
-  date: '2026-06-30'
+- slug: 2026-10-12-eu-crma-second-call-46-projects
+  title: EU Commission selects 46 new raw materials projects
+  date: '2026-10-09'
   kind: web
-- slug: 2026-06-23-rare-earths
-  title: Rare Earths
-  date: '2026-06-23'
+- slug: 2026-10-12-techtimes-nov-10-deadline-us-magnet-gap
+  title: 'Rare Earth Magnets: China''s November 10 Deadline and US Gap Money Can''t Close'
+  date: '2026-10-02'
   kind: web
-- slug: 2026-06-13-usgs-mcs-rare-earths-supply-concentration
-  title: USGS Mineral Commodity Summaries — Rare Earths (2025 / 2026 editions)
-  date: '2026-06-13'
+- slug: 2026-10-12-benchmark-q3-2026-rare-earths-price-review
+  title: 'Ex-China heavy rare earths continue to surge: Q3 2026 Rare Earths Price Review'
+  date: '2026-09-25'
   kind: web
-- slug: 2026-04-30-critical-materials-supply-the-perth-critical-minerals
-  title: 'The Perth Critical Minerals Report: Dysprosium''s Price Drop Is a Mirage — Control of Supply Is Tightening'
-  date: '2026-04-30'
+- slug: 2026-10-12-lifton-ex-china-metal-alloy-capability
+  title: Rare Earth Metal and Alloy Capability Outside of China in September 2026
+  date: '2026-09-21'
   kind: web
-- slug: 2026-04-29-deglobalisation-continues-china-s-export-controls-critical
-  title: 'China''s Export Controls: Critical Minerals and Strategic Pressure Points'
-  date: '2026-04-29'
+- slug: 2026-10-12-rex-heavy-rare-earth-price-gap
+  title: 'China Rare Earth Industry Association reports 261.8 index: heavy rare earths expose a fractured global market'
+  date: '2026-09-16'
   kind: web
-- slug: 2026-04-22-deglobalisation-continues-china-s-global-exports-of-rare
-  title: China's Global Exports of Rare Earth Elements and Rare Earth Permanent Magnets
-  date: '2026-04-22'
+- slug: 2026-10-12-electrek-tesla-cybercab-rare-earth-free-motor
+  title: Tesla's new rare-earth-free EV motor is a big deal, but not THAT big a deal
+  date: '2026-09-04'
   kind: web
 neighbors:
 - slug: magnetic-materials

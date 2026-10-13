@@ -23,8 +23,6 @@ neighbors: []
 ---
 ## Physics / mechanism
 
-Submarine cables carry ~95% of intercontinental internet traffic. A cable system bundles multiple fibre pairs; each fibre pair runs dense-wavelength-division multiplexing (DWDM), currently 100–200 wavelength channels per fibre, each channel at 100–400 Gbps, pushing total system capacity past 1 Pb/s on leading routes (e.g., 2Africa, Marea). Dark fibre is provisioned but unlit capacity — bought or leased and driven by the buyer's own transponders. Key parameters: chromatic dispersion (ps/nm·km), polarisation-mode dispersion, OSNR budget, amplifier spacing (~50–80 km via erbium-doped fibre amplifiers). Spatial division multiplexing (SDM) via multi-core or few-mode fibre is the next inflection, targeting 10× capacity without new cable lay.
-
 ## Competitive landscape
 
 Terrestrial dark fibre IRUs compete directly for enterprise and carrier connectivity within continents. Low-earth-orbit constellations (Starlink, Telesat Lightspeed) compete on latency-sensitive thin routes but remain capacity-constrained and cost-uncompetitive for bulk throughput. Integrated subsea cable + landing station ownership (hyperscaler consortia: Google, Meta, Microsoft) increasingly displaces traditional carrier-neutral operators. Coherent transceiver technology — the silicon photonics DSP/modulator stack — is where margin is captured, not in the glass.

@@ -27,8 +27,6 @@ Microbolometers are uncooled thermal infrared detectors. Incident LWIR photons (
 
 ## Competitive landscape
 
-Cooled photon detectors (InSb, HgCdTe/MCT) deliver NETD <10 mK and higher frame rates but require Stirling or Peltier cooling, adding cost, weight, and MTTR risk—dominant in military targeting, astronomy. Quantum well infrared photodetectors (QWIPs) occupy a middle ground. For MWIR (3–5 µm), InAsSb detectors outperform microbolometers on sensitivity but not on SWaP-C. Graphene and 2D-material bolometers are pre-commercial. Pyroelectric detectors (LiTaO₃) are lower-cost but pixel-limited.
-
 ## Companies using
 
 <!-- dataview block stripped for public site -->

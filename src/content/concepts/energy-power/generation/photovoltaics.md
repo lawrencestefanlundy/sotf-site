@@ -61,8 +61,6 @@ A photovoltaic (PV) cell is a semiconductor absorber in which photons above the 
 
 Most of the current literature on this concept is upstream absorber search. Lead toxicity and ambient instability in lead halide perovskites are driving work on alternatives: solution-deposited 350-450 nm films of the bismuth oxide double perovskites Bi2FeCrO6 and Bi2MnCrO6 show monoclinic P21/c structure, strong visible absorption (alpha around 10^4-10^5 cm^-1) and carrier densities of 10^17-10^20 cm^-3, but also mixed cation valences and deep-level defects. Trigonal selenium has re-emerged because its wide gap suits tandem top cells and indoor use; first-principles work across a large set of point defects finds it intrinsically defect tolerant, because non-radiative multi-phonon capture is suppressed by large lattice reorganisations and energy releases of at least 0.5 EG per event, so bulk Shockley-Read-Hall recombination cannot account for measured device losses. Adjacent work targets the charge-separation step itself: in epitaxial WS2-graphene heterostructures, a 0 degree twist gives efficient charge separation while at 30 degrees electron and hole transfer proceed at similar rates, which cancels the separation.
 
-The second cluster is photon and spectrum management. A proposed luminescent angle restrictor places a vertically aligned nanorod overlayer on a flat-plate absorber, near-transparent to near-normal sunlight, and argues that in such nanophotonic architectures the conventional equilibrium absorptivity/emissivity assumption in detailed balance needs re-examination. Indoor photovoltaics, aimed at powering IoT devices, is analysed by detailed balance under commercial white LEDs from 2200 K to 6500 K correlated colour temperature and colour rendering index 70, 80 and 90, finding that high-CRI sources change the optimal band gap, contrary to the prior assumption that CRI is negligible. Further out, transverse thermophotovoltaics has been given a microscopic formalism in which a transverse current appears in a 2D metal sheet via nonreciprocal surface plasmon polaritons driven by near-field thermal radiation, a paradigm explicitly distinct from junction-based PV and previously lacking theory.
-
 One result in this set cuts the other way. Yb3+-doped CsPb(Cl,Br)3 has been widely reported as a broadband quantum cutter with photoluminescence quantum yield above 100%, a candidate for improving the blue-green response of silicon cells; photon-correlation analysis shows no bunching, and instead anti-bunching under focused excitation, consistent with Auger quenching rather than quantum cutting. A reader should treat that as the calibration for how much of this frontier will survive independent measurement.
 
 ## Viability (2/5)
@@ -90,8 +88,6 @@ On physics, two entries challenge received assumptions rather than beating a ben
 **TLDR: Genuine methodological advances with quantified comparisons, but none of the sources demonstrate a device better than an incumbent.**
 
 ## Diffusion (unscored)
-
-Nothing in this source set addresses production scale-up, module cost, supply chains, qualification, bankability or installed capacity. The only adoption-shaped constraints that can be inferred are technical: lead content and ambient instability as reasons to displace halide perovskites; the need for indoor cells to be matched to the specific colour temperature and colour rendering index of the lighting they will sit under, which fragments the product specification; and the difficulty of translating twist-angle-controlled charge separation in epitaxially grown 2D heterostructures into anything manufacturable at area.
 
 An additional, indirect barrier is measurement credibility. If a widely replicated above-100% quantum yield can be attributed to the wrong mechanism, then buyers of these enhancement layers will demand more than photoluminescence data before designing them into a product. That is a real friction, but it is not enough to score the dimension.
 
@@ -124,14 +120,6 @@ The position I will take is narrower than a rating: the most valuable output fro
 By July 2028, the above-100% quantum-yield "quantum cutting" interpretation of Yb3+-doped CsPb(Cl,Br)3 as a spectral converter for silicon cells will have been revised in the peer-reviewed literature towards an Auger-quenching account rather than reaffirmed, following the photon-correlation evidence in.
 
 ## Evidence base
-
-- 6 May 2026: solution-deposited 350-450 nm Bi2FeCrO6 and Bi2MnCrO6 films show monoclinic P21/c double-perovskite structure, visible absorption of 10^4-10^5 cm^-1 and carrier density 10^17-10^20 cm^-3, but with mixed cation valences and deep-level defects 
-- 16 June 2026: first-principles calculations across a large point-defect set find trigonal selenium intrinsically defect tolerant, with non-radiative capture suppressed by energy releases of at least 0.5 EG per recombination event, so bulk SRH recombination cannot explain observed device losses 
-- 1 July 2026: photon-correlation analysis of Yb3+-doped CsPbCl3 nanocrystals and bulk material shows anti-bunching rather than the bunching expected of a quantum cutter, consistent with Auger quenching and questioning earlier above-100% quantum-yield descriptions 
-- 7 August 2026: detailed-balance calculations across white LEDs of 2200-6500 K and CRI 70, 80 and 90 show that high-CRI illumination changes the optimal indoor-PV band gap, contradicting the prior assumption that CRI has negligible impact 
-- 6 May 2026: trARPES on epitaxial WS2-graphene heterostructures shows efficient charge separation at 0 degree twist, while at 30 degrees electron and hole transfer occur at similar rates 
-- 28 May 2026: transverse thermophotovoltaics, previously proposed only conceptually as an alternative to junction-based photovoltaics, is given a microscopic formalism based on nonreciprocal surface plasmon polaritons in a 2D metal sheet 
-- 17 June 2026: predictor-guided gradient optimisation for crystal design outperformed generative and Bayesian baselines on perovskite band gap, formation energy and tolerance factor under two hard constraints, using predictors trained on roughly one tenth of the data 
 
 ## Open questions
 

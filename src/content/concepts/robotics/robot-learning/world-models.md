@@ -31,7 +31,7 @@ tags:
 - robotics
 - ai
 - world-models
-mention_count: 57
+mention_count: 58
 scorecard:
   viability: 2
   drivers: 3
@@ -42,7 +42,7 @@ scorecard:
   verdict: Too early to say
 scorecard_status: draft
 sources_7d: 9
-sources_30d: 16
+sources_30d: 17
 recent_mentions:
 - slug: 2026-07-01-sensifai-memo-streaming-physical-ai
   title: SensifAI — Purpose-Built Silicon for Streaming Physical AI (funding memo)

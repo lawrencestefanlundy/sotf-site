@@ -56,8 +56,6 @@ On supply, the components are converging: broadband nanophotonic supercontinuum 
 
 ## Novelty (4/5)
 
-The photothermal and force-based branches beat the diffraction limit rather than the detector: better than 5 nm lateral chemical resolution for IR-PiFM, and SIM-grade resolution with full vibrational fingerprints and water-background rejection for Chem-SIM. Related transduction results are quantified too: polar dielectric thermoreflectance transducers outperform metals by up to a factor of eight, and mid-IR pumping of MoS2 phonons needs roughly 300 times lower power density than visible excitation for comparable enhancement. Upconversion itself is not a new idea; the novelty is in the engineering margins, which is why this is 4 and not 5.
-
 **TLDR: Quantified gains over the incumbent approach: an order of magnitude on noise, and resolution and frame rates the direct route cannot reach.**
 
 ## Diffusion (2/5)
@@ -67,8 +65,6 @@ There is a visible path towards simplification, but it is early: chip-scale vapo
 **TLDR: Every demonstrated advantage is bought with pump power, phase-matching constraints and computation.**
 
 ## Impact (3/5)
-
-Where the case is solid, it is solid. Hyperspectral chemical mapping at video rate turns a slow raster-scanned measurement into a real-time one; single-photon-level sensitivity opens photon-starved regimes such as astronomical observation and low-dose biological work; sub-5 nm chemical imaging addresses questions such as antimicrobial surface behaviour that no diffraction-limited IR instrument can reach; and mid-IR photoexcitation is already a working tool for fundamental physics, used to generate excitons resonantly in black phosphorus and to inject energy selectively into lattice vibrations for room-temperature THz detection.
 
 Beyond instrumentation, the sources support only fragments. Mid-IR emissivity above 90% is used for radiative cooling in an eight-layer window stack that cut internal air temperature by up to 3.8 degrees C in a vehicle-simulating box, a genuine but separate application of the same spectral region. There are no market sizes, deployment counts or cost figures anywhere in the supplied material, so a higher score would be unsupported.
 
@@ -93,13 +89,6 @@ The honest caveat is concentration and stage. Much of the upconversion evidence 
 By 31 May 2028, a peer-reviewed mid-IR upconversion detection or spectroscopy system will report a noise equivalent power at or below 0.1 fW/Hz^1/2, a further three-fold or better improvement on the 0.3 fW/Hz^1/2 reported in May 2026.
 
 ## Evidence base
-
-- May 2026: external-cavity pump enhancement of 36x and 22% peak conversion at 55 W intracavity power gives mid-IR upconversion detection with 0.3 fW/Hz^1/2 noise equivalent power, at least ten times better than prior results.
-- May 2026: single-pixel compressive mid-IR spectroscopy over 3.1-3.9 µm reaches 0.5 cm^-1 resolution at illumination down to 0.01 photons using a DMD and a single silicon detector.
-- May 2026: time-stretch upconversion spectroscopy covers 2.4-4.2 µm at 0.5 cm^-1 with 0.14 photons/nm/pulse illumination via coincidence counting.
-- May 2026: wide-field mid-IR hyperspectral imaging records 100 bands across 2600-4085 cm^-1 in 10 ms, a 100 Hz refresh rate, using a 10 kHz megapixel silicon camera.
-- May 2026: IR-PiFM delivers chemical imaging of surfaces at better than 5 nm lateral resolution.
-- May 2026: mid-IR pumping amplifies MoS2 phonon populations by more than 80% at room temperature at roughly 300x lower power density than visible excitation, stable over 2800 cycles and 15 hours.
 
 ## Open questions
 

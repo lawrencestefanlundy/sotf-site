@@ -15,9 +15,9 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 67
+mention_count: 69
 last_reorg_date: '2026-05-13'
-sources_7d: 1
+sources_7d: 0
 sources_30d: 2
 recent_mentions:
 - slug: 2026-10-07-optogenetic-therapy-for-restoring-aspects-of-visual-function
@@ -43,6 +43,10 @@ recent_mentions:
 - slug: 2026-08-20-why-tracing-cyclosporiasis-is-so-tough-and-a-digestible-prob
   title: Why tracing cyclosporiasis is so tough, and a digestible probe for the microbiome
   date: '2026-08-20'
+  kind: web
+- slug: 2026-08-03-ultrarapid-deep-3d-histology-enables-intraoperative-mapping-
+  title: Ultrarapid deep 3D histology enables intraoperative mapping of glioma infiltration
+  date: '2026-08-03'
   kind: web
 - slug: 2026-07-03-thats-a-learning-curve-mate-not-rsi
   title: That’s a learning curve mate, not RSI

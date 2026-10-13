@@ -33,6 +33,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-12-tiny-pluggable-optical-module-boosts-data-center-bandwidth-4
+  title: Tiny pluggable optical module boosts data center bandwidth 4x without extra hardware
+  date: '2026-10-12'
+  kind: web
 - slug: 2026-10-09-europes-earth-observation-providers-set-their-sights-on-satc
   title: Europe’s Earth Observation Providers Set Their Sights on Satcom
   date: '2026-10-09'
@@ -60,10 +64,6 @@ recent_mentions:
 - slug: 2026-09-05-isar-aerospace-achieves-first-launch-to-orbit-from-continent
   title: Isar Aerospace achieves first launch to orbit from continental Europe
   date: '2026-09-05'
-  kind: web
-- slug: 2026-09-01-nasa-selects-blue-origin-as-mars-telecommunications-network-
-  title: NASA Selects Blue Origin as Mars Telecommunications Network Provider
-  date: '2026-09-01'
   kind: web
 neighbors: []
 ---

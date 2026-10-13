@@ -15,7 +15,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 212
+mention_count: 213
 descendants:
 - atomic-clocks
 - nv-diamond-sensing
@@ -37,9 +37,21 @@ scorecard_status: draft
 sources_7d: 3
 sources_30d: 17
 recent_mentions:
+- slug: 2026-09-16-how-to-synchronize-a-long-distance-quantum-network
+  title: How to Synchronize a Long-Distance Quantum Network
+  date: '2026-09-16'
+  kind: web
 - slug: 2026-07-21-precision-astrometry-using-optically-independent-spacecraft-
   title: Precision Astrometry Using Optically Independent Spacecraft for Graviational Wave Detection
   date: '2026-07-21'
+  kind: web
+- slug: 2026-07-08-nukes-in-space-orbital-detector-could-sniff-out-warheads
+  title: Nukes in space? Orbital detector could sniff out warheads
+  date: '2026-07-08'
+  kind: web
+- slug: 2026-05-02-arpa-e-expands-quantum-computing-portfolio-with-multi-millio
+  title: ARPA-E Expands Quantum Computing Portfolio with Multi-Million Dollar Awards to LLNL and Infleqtion - Quantum Computing Report
+  date: '2026-05-02'
   kind: web
 - slug: 2026-03-08-diamonds-are-semiconductors-best-friend
   title: Diamonds are Semiconductors' Best Friend 2026

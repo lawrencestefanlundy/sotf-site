@@ -24,13 +24,37 @@ frontier:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
-- slug: 2025-11-03-department-of-commerce-announces-chips-incentives-letter-of-
-  title: Department of Commerce Announces CHIPS Incentives Letter of Intent with Vulcan Elements to Support Domestic Manufacturing of Critical Rare Earth Magnets - National Institute of Standards and Technology (.gov)
-  date: '2025-11-03'
+- slug: 2026-10-12-iea-rare-earth-elements-2026
+  title: 'Rare Earth Elements: Executive Summary'
+  date: '2026-10-12'
   kind: web
-- slug: 2025-07-21-critical-materials-supply-rare-earth-magnets-2026-2036
-  title: 'Rare Earth Magnets 2026-2036: Technologies, Supply, Markets, Forecasts'
-  date: '2025-07-21'
+- slug: 2026-10-12-eu-crma-second-call-46-projects
+  title: EU Commission selects 46 new raw materials projects
+  date: '2026-10-09'
+  kind: web
+- slug: 2026-10-12-techtimes-nov-10-deadline-us-magnet-gap
+  title: 'Rare Earth Magnets: China''s November 10 Deadline and US Gap Money Can''t Close'
+  date: '2026-10-02'
+  kind: web
+- slug: 2026-10-12-benchmark-q3-2026-rare-earths-price-review
+  title: 'Ex-China heavy rare earths continue to surge: Q3 2026 Rare Earths Price Review'
+  date: '2026-09-25'
+  kind: web
+- slug: 2026-10-12-frontiers-reduced-rare-earth-motor-review
+  title: A review of structural design for reduced-rare-earth permanent magnet motors in new energy vehicles
+  date: '2026-09-23'
+  kind: web
+- slug: 2026-10-12-lifton-ex-china-metal-alloy-capability
+  title: Rare Earth Metal and Alloy Capability Outside of China in September 2026
+  date: '2026-09-21'
+  kind: web
+- slug: 2026-10-12-rex-heavy-rare-earth-price-gap
+  title: 'China Rare Earth Industry Association reports 261.8 index: heavy rare earths expose a fractured global market'
+  date: '2026-09-16'
+  kind: web
+- slug: 2026-10-12-electrek-tesla-cybercab-rare-earth-free-motor
+  title: Tesla's new rare-earth-free EV motor is a big deal, but not THAT big a deal
+  date: '2026-09-04'
   kind: web
 neighbors: []
 ---

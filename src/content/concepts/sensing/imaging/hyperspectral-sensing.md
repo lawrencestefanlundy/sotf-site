@@ -60,8 +60,6 @@ On demand, the sources name land cover monitoring, humanitarian and operational 
 
 Hyperspectral imaging itself is treated as established, so novelty has to be judged branch by branch against what it displaces. Against classical FTIR, the scanless quantum approach removes the optical delay scan entirely and moves detection to near-IR wavelengths where good detectors exist. Against spectrally resolved mid-IR detectors, spectral ghost imaging substitutes a single pixel and inherits robustness to turbulence and weak light. Against conventional common-path interferometry, GPCPI relaxes the polarisation constraint and reports an order of magnitude better phase stability. Against classical coupled nonnegative matrix factorisation for HSI-MSI fusion, the unrolled SCALMU network claims better results while keeping nonnegativity and physical interpretability.
 
-These are real but narrow improvements, most stated qualitatively or in a single laboratory configuration. Two are more structurally interesting: co-propagating the photon pair with the pump so undetected-photon spectroscopy works over open atmosphere rather than a sealed bench, and abandoning wavelength separation altogether by inferring the spectrum from the nonlinear current-voltage signatures of one 2D perovskite photodetector. Neither has been shown to beat a conventional spectrometer on accuracy, range and cost simultaneously, so 3 rather than 4.
-
 **TLDR: The category is decades old; what is new are quantified detector-bypass and reconstruction gains against specific, named baselines.**
 
 ## Diffusion (3/5)

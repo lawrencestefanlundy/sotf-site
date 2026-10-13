@@ -34,6 +34,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2025-11-06-darpa-qbi-stage-b-selection
+  title: 'DARPA Quantum Benchmarking Initiative: Stage B selection'
+  date: '2025-11-06'
+  kind: web
 - slug: 2024-12-04-cubits-in-a-fridge-why-is-nobody
   title: Silicon Spin Quantum Computing (Feat. Himadri Majumdar, SemiQon)
   date: '2024-12-04'
@@ -78,8 +82,6 @@ The 'by how much' cannot be answered from these sources. The energy efficiency s
 
 ## Diffusion (2/5)
 
-Two adoption barriers dominate. The first is uniformity and yield. If millivolt-level bias variation on plunger and barrier gates can drive two-qubit fidelity below 99%, then the value of foundry fabrication depends entirely on process control that the supplied sources do not quantify at wafer scale. The second is defects. Compilation frameworks for error-corrected spin qubit architectures explicitly build in defect-handling and initial-mapping strategies because of high sensitivity to static defects, using a 2D surface code with qubit teleportation and comparing shortest-path against rotation-based routing, with shortest-path better in sparse low-defect settings. That is a stack designed around an expectation of dead qubits.
-
 The encouraging diffusion signal is that the surrounding ecosystem is arriving before the hardware: resource estimation tied to a silicon-processor Hamiltonian with realistic parameters and 1/f non-Markovian noise, covering surface, colour and biased codes and 5-to-1 and 15-to-1 distillation, propagated to system-level overheads for spin dynamics, integer factorisation and quantum chemistry; commercial-grade device TCAD; and practical calibration routes for defect-aware operation. Tooling readiness does not compensate for eight qubits, hence the low score.
 
 **TLDR: The software and architecture stack is being built, but device variability and static defects mean yield, not physics, decides adoption.**
@@ -109,13 +111,6 @@ My working position: the platform is behind on demonstrated scale and is compens
 By 31 December 2027, no publication will report coherent operation of more than 32 silicon spin qubits on a single foundry-fabricated 300 mm device, measured against the eight-qubit state of the art of June 2026.
 
 ## Evidence base
-
-- 2 June 2026: an eight-dot linear array made in a 300 mm CMOS-compatible foundry process was fully tuned and coherently controlled, with T2* up to 41(2) microseconds and Hahn-echo T2 up to 1.31(4) ms, and readout of the central four qubits via cascaded charge sensing.
-- 27 July 2026: open- and closed-loop suppression of transduced charge noise gave more than a twofold improvement in inhomogeneous coherence time, a tenfold improvement in Rabi oscillation quality and single-qubit gate fidelity above 99.6% under a strong decoherence field gradient.
-- 2 July 2026: 3D device simulation of nanosheet-based double quantum dots found millivolt-level bias variation on plunger and middle barrier gates reduces two-qubit gate fidelity below the 99% threshold, with low two-qubit fidelity named as the key barrier to large-scale integration.
-- 29 May 2026: hardware-tailored resource estimation built a silicon-processor noise model with realistic parameters and 1/f non-Markovian noise, comparing SpinBus shuttling, dense nearest-neighbour and hybrid architectures, surface, colour and biased codes, and 5-to-1 and 15-to-1 magic-state distillation for factoring and chemistry workloads.
-- 27 July 2026: charge noise from two-level fluctuators is identified as the dominant performance limit, with fluctuator locations generally unknown; shuttling a single spin over varying distances is proposed as a scalable way to localise them and enable defect-aware calibration.
-- 28 July 2026: a compilation framework for error-corrected spin qubit architectures based on the snakes-on-a-plane model with 2D surface codes and qubit teleportation had to add explicit defect-handling and mapping strategies because of high sensitivity to static defects.
 
 ## Open questions
 

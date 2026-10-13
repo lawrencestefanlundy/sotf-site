@@ -35,13 +35,13 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 229
+mention_count: 230
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration
 - micro-transfer-printing
 - osat
-sources_7d: 1
+sources_7d: 0
 sources_30d: 11
 recent_mentions:
 - slug: 2026-10-06-x-fab-breaks-ground-on-chips-act-funded-cleanroom-in-erfurt-
@@ -149,14 +149,6 @@ The underrated part is the supporting layer. Three separate 2026 papers exist be
 By December 2028, locality-aware cross-chiplet data placement of the kind that cut remote HBM traffic by 13.0x to 20.7x in will be a documented, user-visible feature of at least one mainstream GPU or accelerator software stack rather than a research prototype.
 
 ## Evidence base
-
-- 2026-06-15: 2.5D FPGAs already integrate multiple active dice on a passive silicon interposer for yield and capacity, but inter-die connection density and latency force a bespoke routing architecture, modelled by HSPICE at a 7 nm node with a 45 nm interposer 
-- 2026-06-15: remote HBM traffic for a fixed GEMM varies by up to 58x across the multi-chiplet design space, and a 2D block-swizzle CTA traversal cut remote traffic by up to 5.1x over the best 1D traversal 
-- 2026-06-15: a chiplet-contiguous global memory layout reduced remote HBM traffic by 13.0x on Qwen 3 30B and 20.7x on Llama 3.1 70B GEMMs versus 4 KB interleaving, with no OS or hardware changes 
-- 2026-06-05: ESD protection and inter-chiplet signalling area overhead is a major constraint on reducing chiplet size below 100 mm2, and SPICE plus parasitic extraction indicates both can be substantially simplified in future 2.5D/3D packaging 
-- 2026-06-16: a flip-chip platform delivered 13 high-speed and 32 low-speed signals to a centimetre-sized thin-film lithium niobate chip with low bonding loss and crosstalk to 50 GHz, enabling a 2x8 switch at ~3 dB insertion loss, under -20 dB crosstalk and switching under 34 ps 
-- 2026-05-08: signals captured through a communication-oriented chiplet's antenna or contactless coupling interface were experimentally shown to correlate with the activity of a neighbouring victim chiplet in the same package or stack 
-- 2026-07-08: GPU-accelerated effective-resistance analysis for 3D IC power delivery networks achieved a 5 to 6 order of magnitude speedup over a conventional direct solver with negligible error, making early-stage TSV planning tractable 
 
 ## Open questions
 

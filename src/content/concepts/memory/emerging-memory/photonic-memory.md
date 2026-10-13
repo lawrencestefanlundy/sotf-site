@@ -31,7 +31,7 @@ scorecard:
   verdict: Overrated
 scorecard_status: draft
 mention_count: 92
-sources_7d: 1
+sources_7d: 0
 sources_30d: 3
 recent_mentions:
 - slug: 2026-06-01-hbm-state-of-play

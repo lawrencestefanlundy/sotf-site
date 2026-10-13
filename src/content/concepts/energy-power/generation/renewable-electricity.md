@@ -23,6 +23,14 @@ mention_count: 82
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-13-texas-oilfield-wastewater-could-help-cool-data-centers-witho
+  title: Texas oilfield wastewater could help cool data centers without draining freshwater
+  date: '2026-10-13'
+  kind: web
+- slug: 2026-10-12-first-utility-scale-enhanced-geothermal-plant-goes-live
+  title: First Utility-Scale Enhanced Geothermal Plant Goes Live
+  date: '2026-10-12'
+  kind: web
 - slug: 2026-10-05-virginias-new-energy-plan-make-the-ai-boom-work-for-not-agai
   title: 'Virginia’s new energy plan: Make the AI boom work for — not against — us'
   date: '2026-10-05'
@@ -35,6 +43,10 @@ recent_mentions:
   title: A data center company signed a PPA for space solar power - Latitude Media
   date: '2026-09-30'
   kind: web
+- slug: 2026-09-28-in-global-first-a-next-gen-geothermal-plant-goes-live-at-uti
+  title: In global first, a next-gen geothermal plant goes live at utility scale
+  date: '2026-09-28'
+  kind: web
 - slug: 2026-09-28-frontier-forum-the-rush-for-clean-on-site-power---latitudeme
   title: 'Frontier Forum: The rush for clean, on-site power - latitudemedia.com'
   date: '2026-09-28'
@@ -42,18 +54,6 @@ recent_mentions:
 - slug: 2026-09-24-most-new-us-power-is-clean-but-utilities-are-choosing-gas-fo
   title: Most new US power is clean — but utilities are choosing gas for data centers - latitudemedia.com
   date: '2026-09-24'
-  kind: web
-- slug: 2026-09-23-another-voltus-data-center-expansion-this-time-with-sunrun--
-  title: Another Voltus data center expansion — this time with Sunrun - Latitude Media
-  date: '2026-09-23'
-  kind: web
-- slug: 2026-09-21-rune-is-tapping-spare-solar-power-for-modular-data-centers--
-  title: Rune is tapping spare solar power for modular data centers - latitudemedia.com
-  date: '2026-09-21'
-  kind: web
-- slug: 2026-09-14-tar-aims-to-build-off-grid-power-for-data-centers-in-just-si
-  title: TAR aims to build off-grid power for data centers in just six months - latitudemedia.com
-  date: '2026-09-14'
   kind: web
 neighbors: []
 ---

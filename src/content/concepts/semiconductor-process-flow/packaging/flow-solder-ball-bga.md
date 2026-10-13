@@ -41,11 +41,6 @@ neighbors:
 
 After the die is mounted and encapsulated, the package still needs a way to connect to the outside board. Ball grid array (BGA) attach forms that interface by placing a grid of tiny solder spheres on the underside of the package (or substrate, or wafer), then reflowing them so they wet to the pads and become the package's terminals. It is the dominant input/output scheme for high-pin-count parts (CPUs, GPUs, SoCs, memory, AI accelerators) because an area array of balls fits far more connections under a package than a perimeter of leads. The sub-processes inside this step:
 
-- Flux application: pin-transfer dipping, jetting, or printing of tacky/liquid flux onto the pads to clean them and hold balls in place.
-- Ball placement: a vacuum stencil/template or single-ball jetting head drops pre-formed spheres (typically 50-760 microns) into each flux site.
-- Reflow: the whole assembly passes through a reflow oven so balls melt and self-align to the pads; flux residue is then cleaned.
-- Inspection: 2D/3D vision checks for missing balls, bridges, coplanarity.
-
 ## Where it sits and why it matters
 
 This is a back-end (OSAT or IDM assembly) step, low-margin and high-volume relative to the front end, but it is the physical gateway to the board. It is distinct from [Flip-chip bumping (C4 / Cu pillar / microbump) (process step)](/semiconductor-process-flow/packaging/flow-flip-chip-bumping/) (fine-pitch bumps on the die-to-substrate side); BGA attach is usually the coarser package-to-board side. As pitches shrink and balls get smaller, the line blurs toward wafer-level packaging, where this step migrates onto the wafer itself and overlaps with advanced packaging.

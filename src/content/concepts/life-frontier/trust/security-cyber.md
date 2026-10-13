@@ -35,9 +35,17 @@ recent_mentions:
   title: Rethinking Legacy Data Infrastructure with Eon Co-Founders Ofir Ehrlich and Gonen Stein
   date: '2026-08-27'
   kind: web
+- slug: 2026-08-17-what-the-openai-hugging-face-hack-really-tells-us-about-ai-d
+  title: What the OpenAI-Hugging Face Hack Really Tells Us About AI Danger
+  date: '2026-08-17'
+  kind: web
 - slug: 2026-08-05-stealthium-gpu-powered-security-intelligence-site-docs-compe
   title: Stealthium — GPU-Powered Security Intelligence (site + docs + competitive context)
   date: '2026-08-05'
+  kind: web
+- slug: 2026-07-08-nukes-in-space-orbital-detector-could-sniff-out-warheads
+  title: Nukes in space? Orbital detector could sniff out warheads
+  date: '2026-07-08'
   kind: web
 - slug: 2026-05-28-building-an-ai-guardian-for-enterprise-with-onyx-security-ce
   title: Building an AI Guardian for Enterprise with Onyx Security CEO Maxim Bar Kogan

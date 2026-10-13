@@ -24,9 +24,13 @@ scorecard_status: draft
 mention_count: 55
 descendants:
 - biosensors
-sources_7d: 2
+sources_7d: 1
 sources_30d: 7
 recent_mentions:
+- slug: 2026-10-12-cnt-electronics-market-research
+  title: 'Carbon nanotube electronics: market, cohort and M&A research (web sweep, 82 sources)'
+  date: '2026-10-12'
+  kind: web
 - slug: 2026-07-03-thats-a-learning-curve-mate-not-rsi
   title: That’s a learning curve mate, not RSI
   date: '2026-07-03'

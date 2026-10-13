@@ -62,8 +62,6 @@ In logic, the comparison is against silicon nanoribbons whose performance degrad
 
 ## Diffusion (2/5)
 
-The barriers named in the sources are all about reproducibility at scale rather than physics. CVD-grown 3R-WSe2 ferroelectric switching depends on intrinsic disorder, structural defects and multi-domain kinetics, which is exactly the failure mode that blocks a non-volatile memory from becoming a product. Most TMD FETs remain at micrometre widths, meaning the scaled results are still champion-device demonstrations rather than statistical distributions across a wafer. Twisted-stack devices depend on 3D atomic reconstruction that has until now had no experimental method for direct access; dark-field TEM is being extended to extract local displacements and interlayer distance, which shows the metrology gap is real and being closed only now.
-
 There are cheaper diffusion paths. Integration of MoS2 and WS2 flakes onto Si3N4 photonic waveguides, characterised without an external source, is compatible with existing photonic foundry stacks and needs far less uniformity than logic does. Multijunction photovoltaics via transfer printing require the highest process throughput of any application here and, per the same analysis, radiative quality and optics dominate beyond five junctions, so incremental junction stacking buys little. A score of 2 reflects genuine early adoption routes against unresolved manufacturability.
 
 **TLDR: Disorder, domain structure and stacking control are the gating problems, and metrology for them is only now arriving.**

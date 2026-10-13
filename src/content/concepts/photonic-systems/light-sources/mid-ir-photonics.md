@@ -114,8 +114,6 @@ Supply side, the pull is real and visible. A cluster of closely related results 
 
 The comparison class is direct mid-IR detection with cooled or noisy infrared sensors and raster-scanned or wavelength-tuned hyperspectral acquisition. Against that, upconversion claims at least a tenfold improvement in noise equivalent power over previous results in the same class, and replaces slow scanning with a 10 ms, 100-band cube. The single-pixel and time-stretch spectrometers explicitly target the failure mode of multi-pixel infrared arrays, where every element adds noise, and operate at 0.01 to 0.14 photons per pulse-level illumination. Doing Fourier-domain image processing inside the conversion crystal, with vortex transfer functions switchable from first to fourth order at 60 Hz, has no equivalent in a conventional infrared camera pipeline.
 
-Adjacent claims carry similar margins. Polar dielectric transducers exceed metal thermoreflectance transducers by up to eight times, and by an order of magnitude in some cases. Mid-IR excitation of lattice vibrations needs power density nearly 300 times lower than visible excitation for comparable phonon enhancement. The score is 4 rather than 5 because the margins are reported by the originating groups against their own prior work, and no independent replication appears in the sources.
-
 ## Diffusion (2/5)
 
 There are early signals of a miniaturisation route but they are weak. Micromachined rubidium vapour cells generate coherent mid-IR through an anodically bonded silicon window, but the collected power is around 50 nW. Foundry-compatible crosstalk elimination in standard rib waveguides has been demonstrated across silicon-on-insulator and other platforms, which matters for eventual integration density, but that work is not itself mid-IR. Direct-gap 2H-GeSn as an integrated mid-IR emitter or absorber is at the theory stage. The likely first diffusion path is high-end scientific instrumentation, not volume deployment.
@@ -125,8 +123,6 @@ There are early signals of a miniaturisation route but they are weak. Micromachi
 ## Impact (3/5)
 
 The upside is clear in kind if not in magnitude. If chemical imaging and spectroscopy in the molecular vibration bands can be done with silicon cameras and silicon single-photon detectors, the cost and sensitivity structure of an entire class of instruments changes, and the applications listed span industrial inspection, environmental monitoring, biomedical diagnosis and astronomy. Photon-starved and fast-transient regimes that are simply inaccessible today become measurable: 100 Hz hyperspectral cubes, and snapshot capture of distinct transient events within a single camera exposure.
-
-Beyond sensing, mid-IR as an actuator has real scientific reach: resonant mid-IR photoexcitation is being used to create and track excitons in black phosphorus on picosecond timescales, and mid-IR driving of out-of-plane lattice vibrations in few-layer MoS2 offers a route to room-temperature terahertz detection. Chemical microscopy at sub-5 nm lateral resolution and super-resolved photothermal chemical imaging of live cells are real capability gains for life science. The score stops at 3 because no source in this set quantifies economic value, installed base displaced, or a customer prepared to buy.
 
 **TLDR: Substantial if it decouples mid-IR sensing from expensive infrared sensors, but the sources demonstrate capability, not value captured.**
 

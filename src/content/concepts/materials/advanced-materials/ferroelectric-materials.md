@@ -122,13 +122,9 @@ The score is 4 rather than 5 because none of these sources quantifies economic v
 
 ## Timing Soon (2-5yr)
 
-Everything else is earlier. The 2D multiferroic candidates are computational predictions awaiting synthesis, the newly identified quantum ferroelectrics are screening hits selected for experimental viability rather than demonstrated devices, and domain wall electronics still loses its conductive channel across an ordinary phase transition near 5 C. For context on how slow this can be: room-temperature out-of-plane ferroelectricity in compressively strained SrTiO3 was predicted 25 years ago and is still not established.
-
 **TLDR: HZO is at the manufacturing-yield stage now; the van der Waals and quantum-ferroelectric branches are a decade out.**
 
 ## Overrated or underrated? Fairly rated
-
-Where expectations should be discounted is the exploratory tail. The corpus itself supplies the discount: series-capacitance artefacts can manufacture convincing hysteresis loops that appear in published work, and a flagship strained-perovskite target turns out to show polarity from inhomogeneous internal fields rather than a stable switchable state. Treat any new claimed ferroelectric, especially thin-film or 2D, as unconfirmed until strain-based (S-E) or structural evidence accompanies the polarisation loop. Correspondingly, the ML-screened multiferroic and quantum-ferroelectric candidates should be read as a widened search space, not as devices.
 
 ## Prediction
 
@@ -137,11 +133,6 @@ By 31 December 2028, no independently reproduced demonstration of stable room-te
 ## Evidence base
 
 ## Open questions
-
-- Can HZO device-to-device variability be reduced by direct process control (oxygen partial pressure, laser energy density window, film thickness uniformity) to the point that per-die statistical screening becomes unnecessary, or is screening a permanent feature of the technology?
-- Do the ML-screened candidates, in particular AuCrP2S6 with its 7.46 pC/m polarisation and ~130 meV/f.u. switching barrier, survive attempted synthesis and show the predicted four-state behaviour with bulk-photovoltaic readout?
-- How many published thin-film and 2D ferroelectricity claims survive re-measurement using piezoelectric strain loops rather than polarisation loops alone, given that series capacitance can mimic hysteresis even under the double-wave method?
-- Can charged domain wall conductivity in a perovskite be made robust across phase transitions and ordinary temperature swings, or does the fragmentation observed at the tetragonal-orthorhombic transition rule out domain wall interconnect?
 
 ---
 *Assessment drafted 2026-08-31 from up to 18 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

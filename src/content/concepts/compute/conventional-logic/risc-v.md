@@ -25,6 +25,7 @@ sources:
 - '[[2025-12-18-risc-v-25pct-penetration]]'
 - '[[2026-02-09-semianalysis-datacenter-cpu-2026]]'
 - '[[2025-10-09-risc-v-open-silicon-share-risc-v-summit-2025-keynote-risc-v]]'
+- '[[2026-10-12-cnt-electronics-market-research]]'
 - '[[2026-05-21-semianalysis-eda-market-primer]]'
 scorecard:
   viability: 4
@@ -35,10 +36,14 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 119
-sources_7d: 2
-sources_30d: 13
+mention_count: 120
+sources_7d: 3
+sources_30d: 14
 recent_mentions:
+- slug: 2026-10-12-cnt-electronics-market-research
+  title: 'Carbon nanotube electronics: market, cohort and M&A research (web sweep, 82 sources)'
+  date: '2026-10-12'
+  kind: web
 - slug: 2026-07-17-the-once-and-future-kimi
   title: The Once and Future Kimi
   date: '2026-07-17'
@@ -67,10 +72,6 @@ recent_mentions:
   title: SiFive raises $400M Series G at $3.65B valuation
   date: '2026-04-09'
   kind: web
-- slug: 2026-02-13-four-things-friday
-  title: Four Things Friday
-  date: '2026-02-13'
-  kind: substack
 neighbors: []
 ---
 **RISC-V is an open, modular instruction set architecture that lets designers strip out, extend or specialise the CPU instruction set for a given workload, and the research literature now shows it fabricated in production nodes (Intel 16 nm, 12 nm FinFET chiplets) as the programmable substrate inside domain-specific accelerators rather than as a drop-in replacement for proprietary high-performance CPUs.**
@@ -78,8 +79,6 @@ neighbors: []
 ## Summary
 
 RISC-V is an instruction set architecture (ISA): the contract between compiled software and silicon. Unlike proprietary ISAs, it is published openly and structured as a small mandatory base plus optional standard extensions, and it permits vendors to add their own instructions. The sources here show all three of those properties being exercised. Standard extensions appear as named building blocks: `RV32IMC` for a constrained edge SoC, `RV64GC` for a general-purpose core, and `Zfh`/`Zvfh` for scalar and vector float16 arithmetic. The Vector Extension (RVV) provides a vector-length-agnostic programming model, so the same binary runs across implementations with different vector register widths.
-
-Modularity cuts both ways. One paper reduces a baseline `RV32IM` core to a minimal instruction subset for Tsetlin Machine inference, using instruction profiling to decide what to delete, and keeps programmability while simplifying the datapath and control path. Others go the other way and add custom instructions: an approximate logarithmic CNN unit behind a custom extension, and custom Knuth-Yao sampling and interpolation instructions inside 16 specialised cores on a 2D mesh. Because the RTL of several cores is open, a second layer of reuse appears: Sargantana cores dropped into the OpenPiton memory hierarchy, the NEORV32 core used as a testbed for loop caches, and open cores used as the standard vehicle for security and verification research.
 
 ## Viability (4/5)
 

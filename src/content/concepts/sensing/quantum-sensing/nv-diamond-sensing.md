@@ -130,10 +130,5 @@ By June 2028, a CMOS-integrated NV diamond sensor of the SPAD-array type will re
 
 ## Open questions
 
-- Does the laser-threshold magnetometer's sub-400 fT/√Hz photon-shot-noise limit survive as an end-to-end measured noise floor, including technical noise and drift, in a device that also retains the improved dynamic range? 
-- Do the 5 to 100 pT/√Hz simulated vector sensitivities from broadband microwave probing, and the elimination of a bias field down to 25 µT, reproduce experimentally? 
-- Does quantum diamond microscopy get adopted as a routine step in commercial failure-analysis workflows, or does it remain a supplementary technique used when lock-in thermography fails? 
-- For near-surface and nanoscale targets, do hBN or other 2D spin ensembles overtake NV before NV's surface degradation problem is solved? 
-
 ---
 *Assessment drafted 2026-08-31 from up to 18 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

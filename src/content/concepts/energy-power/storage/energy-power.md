@@ -127,6 +127,10 @@ recent_mentions:
   title: Texas oilfield wastewater could help cool data centers without draining freshwater
   date: '2026-10-13'
   kind: web
+- slug: 2026-10-13-tyler-bernstein-zeno-power
+  title: Tyler Bernstein, Zeno Power
+  date: '2026-10-13'
+  kind: web
 - slug: 2026-10-12-us-genesis-mission-backs-digital-twin-to-predict-fusion-plas
   title: US Genesis Mission backs digital twin to predict fusion plasma in under 20 minutes
   date: '2026-10-12'
@@ -150,10 +154,6 @@ recent_mentions:
 - slug: 2026-10-07-ieee-report-predicts-tech-that-will-transform-lives
   title: IEEE Report Predicts Tech That Will Transform Lives
   date: '2026-10-07'
-  kind: web
-- slug: 2026-10-05-wartsila-to-supply-282-mw-onsite-power-solution-for-a-us-dat
-  title: Wärtsilä to supply 282 MW onsite power solution for a U.S. data center as AI growth intensifies demand for reliable power - Latitude Media
-  date: '2026-10-05'
   kind: web
 neighbors: []
 ---

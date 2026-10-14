@@ -22,6 +22,10 @@ mention_count: 22
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-09-23-real-time-multi-gas-sensing
+  title: Real-time multi-gas sensing
+  date: '2026-09-23'
+  kind: web
 - slug: 2026-07-21-interworld-slingshot-resource-surveys
   title: Interworld Slingshot Resource Surveys
   date: '2026-07-21'

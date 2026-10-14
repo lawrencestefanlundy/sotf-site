@@ -26,7 +26,7 @@ tags:
 - simulation
 - data
 mention_count: 14
-sources_7d: 8
+sources_7d: 7
 sources_30d: 10
 recent_mentions:
 - slug: 2026-10-07-hiphi-a-large-scale-benchmark-for-high-precision-human-motio

@@ -32,6 +32,7 @@ sources:
 - '[[2026-07-02-semianalysis-ectc2026-advanced-packaging]]'
 - '[[2024-yole-advanced-packaging-2024]]'
 - '[[2025-12-31-chiplets-architecture-share-chiplet-market-size-share]]'
+- '[[2022-02-07-atomically-thin-materials-significantly-shrink-qubits]]'
 - '[[2026-05-30-intel-glass-substrates-program]]'
 - '[[2026-05-28-europes-semiconductor-strategy-chiplets-ecosystem-integratio]]'
 - '[[2026-04-15-semianalysis-isscc-2026]]'
@@ -47,7 +48,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 138
+mention_count: 140
 sources_7d: 1
 sources_30d: 5
 recent_mentions:

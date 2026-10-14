@@ -18,6 +18,7 @@ related_concepts:
 sources:
 - '[[2026-10-09-europes-earth-observation-providers-set-their-sights-on-satc]]'
 - '[[2026-05-06-putting-the-super-into-a-supersite-for-earth-observation]]'
+- '[[2026-10-13-brycetech-smallsats-by-the-numbers-2026]]'
 - '[[2026-01-13-diffraqtion-42-million-pre-seed-closed-to-build-quantum-came]]'
 frontier:
 - Does the fivefold high-spatial-frequency Fisher information gain from Fourier Domain Division survive atmospheric turbulence and platform motion at orbital range, or is it confined to microscopy geometry 2026 05 08 passive imaging with quantum advantage?
@@ -31,7 +32,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - category
-mention_count: 59
+mention_count: 60
 descendants: []
 last_reorg_date: '2026-05-14'
 scorecard:
@@ -43,9 +44,13 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 2
-sources_30d: 7
+sources_7d: 3
+sources_30d: 6
 recent_mentions:
+- slug: 2026-10-13-brycetech-smallsats-by-the-numbers-2026
+  title: 'BryceTech, Smallsats by the Numbers 2026: 4,466 smallsats launched in 2025, 79% LEO broadband megaconstellations'
+  date: '2026-10-13'
+  kind: web
 - slug: 2026-10-09-europes-earth-observation-providers-set-their-sights-on-satc
   title: Europe’s Earth Observation Providers Set Their Sights on Satcom
   date: '2026-10-09'

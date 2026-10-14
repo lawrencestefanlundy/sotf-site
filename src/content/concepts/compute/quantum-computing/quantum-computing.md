@@ -38,7 +38,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 822
+mention_count: 826
 descendants:
 - bosonic-cat-qubits
 - cryogenic-control-electronics
@@ -68,8 +68,8 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 3
-sources_30d: 19
+sources_7d: 2
+sources_30d: 18
 recent_mentions:
 - slug: 2026-10-10-quic-whitepaper-calls-for-industrial-scale-up-infrastructure
   title: QuIC Whitepaper Calls for Industrial Scale-Up Infrastructure in EU Chips Act 2.0 - Quantum Computing Report

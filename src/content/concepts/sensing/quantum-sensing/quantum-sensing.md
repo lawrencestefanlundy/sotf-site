@@ -34,12 +34,28 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-sources_7d: 3
-sources_30d: 17
+sources_7d: 1
+sources_30d: 15
 recent_mentions:
+- slug: 2026-10-13-faster-molecular-simulations-identify-promising-diamond-defe
+  title: Faster molecular simulations identify promising diamond defects for quantum computers and sensors
+  date: '2026-10-13'
+  kind: web
+- slug: 2026-10-13-new-topological-microscope-tip-reveals-evidence-of-2d-alterm
+  title: New topological microscope tip reveals evidence of 2D altermagnetism
+  date: '2026-10-13'
+  kind: web
 - slug: 2026-09-16-how-to-synchronize-a-long-distance-quantum-network
   title: How to Synchronize a Long-Distance Quantum Network
   date: '2026-09-16'
+  kind: web
+- slug: 2026-08-13-a-neutral-diamond-defect
+  title: A Neutral Diamond Defect
+  date: '2026-08-13'
+  kind: web
+- slug: 2026-08-12-a-quantum-memory-test
+  title: A Quantum  Memory Test
+  date: '2026-08-12'
   kind: web
 - slug: 2026-07-21-precision-astrometry-using-optically-independent-spacecraft-
   title: Precision Astrometry Using Optically Independent Spacecraft for Graviational Wave Detection
@@ -53,14 +69,6 @@ recent_mentions:
   title: ARPA-E Expands Quantum Computing Portfolio with Multi-Million Dollar Awards to LLNL and Infleqtion - Quantum Computing Report
   date: '2026-05-02'
   kind: web
-- slug: 2026-03-08-diamonds-are-semiconductors-best-friend
-  title: Diamonds are Semiconductors' Best Friend 2026
-  date: '2026-03-08'
-  kind: web
-- slug: 2024-12-16-willow-and-the-race-to-quantum-advantage
-  title: Willow and The Race to Quantum Advantage (Feat. Kris Kaczmarek)
-  date: '2024-12-16'
-  kind: substack
 neighbors: []
 ---
 **Quantum sensing uses individual quantum systems (spin defects in crystals, cold atoms, squeezed light) as measurement probes whose coherence turns tiny fields into readable phase shifts; the diamond nitrogen-vacancy and cold-atom platforms now deliver real physics results, while the entangled-network promises remain largely theoretical.**

@@ -18,7 +18,7 @@ sources:
 - '[[2026-06-22-tim-approaches-full-sweep]]'
 mention_count: 23
 sources_7d: 2
-sources_30d: 4
+sources_30d: 3
 recent_mentions:
 - slug: 2026-07-16-the-path-to-agi-runs-through-hbm
   title: The Path To AGI Runs Through HBM

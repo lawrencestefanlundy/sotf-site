@@ -49,8 +49,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 1088
-sources_7d: 5
+mention_count: 1093
+sources_7d: 4
 sources_30d: 18
 recent_mentions:
 - slug: 2026-10-07-neuro-catalyst-sweep
@@ -73,18 +73,18 @@ recent_mentions:
   title: Detecting Proteins in Blood with Photonics w/ Prateek of Proteins1
   date: '2026-04-22'
   kind: substack
-- slug: 2025-04-30-has-the-time-come-to-take-mortal
-  title: Has the time come to take Mortal Computing seriously?
-  date: '2025-04-30'
-  kind: substack
-- slug: 2025-04-16-the-state-of-photonic-computing
-  title: 'Photonic Computing: A Primer'
-  date: '2025-04-16'
-  kind: substack
-- slug: 2024-12-16-willow-and-the-race-to-quantum-advantage
-  title: Willow and The Race to Quantum Advantage (Feat. Kris Kaczmarek)
-  date: '2024-12-16'
-  kind: substack
+- slug: 2026-02-12-rivians-roadmap-to-ai-architecture-and-autonomy-with-founder
+  title: Rivian’s Roadmap to AI Architecture and Autonomy with Founder and CEO RJ Scaringe
+  date: '2026-02-12'
+  kind: web
+- slug: 2026-10-13-marketus-ai-materials-discovery-report-mill
+  title: 'Market.us AI in Materials Discovery Market: $536.4M 2024 to $5.58B 2034, 26.4% CAGR (report mill, contrast only)'
+  date: '2025-11-01'
+  kind: web
+- slug: 2025-08-21-evolution-designed-us-to-die-fast-we-can-change-that-jacob-k
+  title: Evolution designed us to die fast; we can change that — Jacob Kimmel
+  date: '2025-08-21'
+  kind: web
 neighbors:
 - slug: physics-ai
   name: Physics AI

@@ -41,6 +41,7 @@ sources:
 - '[[2026-06-27-rack-power-delivery-silicon-reed-semiconductor-raises-100]]'
 - '[[2026-04-09-model-commoditises-value-moves-up-the-foundation-model]]'
 - '[[2026-02-12-ai-demand-outruns-expectations-ai-capex-2026-the-690b]]'
+- '[[2026-02-26-how-capital-is-powering-the-ai-infrastructure-buildout-with-]]'
 - '[[2026-06-17-tech-inflation-silicon-shock-federal-reserve-flags-ai]]'
 - '[[2026-06-13-sovereign-electronics-manufacturing-reshoring-digest]]'
 - '[[2026-03-12-photonics-material-class-war-hyperlight-umc-and-wavetek]]'
@@ -56,7 +57,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 137
+mention_count: 138
 descendants:
 - ai-grade-datacentre-real-estate
 - ai-infrastructure-scaling
@@ -67,8 +68,8 @@ descendants:
 - moe-all-to-all-collectives
 - prefill-vs-decode
 - sovereign-ai
-sources_7d: 3
-sources_30d: 9
+sources_7d: 1
+sources_30d: 6
 recent_mentions:
 - slug: 2026-09-01-eu-taiwan-chip-dialogue-targets-ai-infrastructure-partnershi
   title: EU-Taiwan chip dialogue targets AI infrastructure partnerships under EU Chips Act 2.0 - INSIGHT EU MONITORING

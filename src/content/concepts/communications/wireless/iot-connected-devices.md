@@ -21,6 +21,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-13-i-have-no-mouth-and-i-must-scream
+  title: “I have no mouth and I must scream”
+  date: '2026-10-13'
+  kind: web
 - slug: 2026-08-27-opener-is-an-open-source-reference-implementation-of-the-dec
   title: Opener is an open-source reference implementation of the DECT NR+ massive IoT, low-latency standard - CNX Software
   date: '2026-08-27'
@@ -48,10 +52,6 @@ recent_mentions:
 - slug: 2026-08-02-shipments-of-wireless-devices-in-industrial-automation-to-re
   title: Shipments of wireless devices in industrial automation to reach 8.5 million by 2030 - TyN Magazine
   date: '2026-08-02'
-  kind: web
-- slug: 2026-08-01-inje-university-partners-with-huawei-to-build-a-cutting-edge
-  title: Inje University Partners with Huawei to Build a Cutting-Edge Wi-Fi 7 Smart Campus - Huawei Enterprise
-  date: '2026-08-01'
   kind: web
 neighbors: []
 ---

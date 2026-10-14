@@ -27,7 +27,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 154
+mention_count: 159
 descendants:
 - agent-identity-kya
 - agentic-ai
@@ -37,12 +37,16 @@ descendants:
 - stablecoin-clearing
 - stablecoins
 - x402
-sources_7d: 8
+sources_7d: 5
 sources_30d: 30
 recent_mentions:
 - slug: 2026-09-25-swarm-scaling
   title: Swarm Scaling
   date: '2026-09-25'
+  kind: web
+- slug: 2026-09-07-how-genlayer-is-building-a-court-system-for-disputes-between
+  title: How GenLayer Is Building a Court System for Disputes Between AI Agents
+  date: '2026-09-07'
   kind: web
 - slug: 2026-08-27-rethinking-legacy-data-infrastructure-with-eon-co-founders-o
   title: Rethinking Legacy Data Infrastructure with Eon Co-Founders Ofir Ehrlich and Gonen Stein
@@ -51,6 +55,10 @@ recent_mentions:
 - slug: 2026-08-24-embedd-pre-seed-siliconangle
   title: Chip software automation startup Embedd raises $2.7M
   date: '2026-08-24'
+  kind: web
+- slug: 2026-08-21-arthur-hayes-on-why-ai-agents-will-want-to-transact-in-units
+  title: Arthur Hayes on Why AI Agents Will Want to Transact in Units of Compute
+  date: '2026-08-21'
   kind: web
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
@@ -62,14 +70,6 @@ recent_mentions:
   kind: web
 - slug: 2026-07-26-ai-breach-frequency-autonomous-soc
   title: AI-enabled attack frequency and autonomous-SOC economics, 2026
-  date: '2026-07-26'
-  kind: web
-- slug: 2026-07-26-seat-pricing-regime-break
-  title: 'Seat-to-consumption pricing break: IDC, ServiceNow, Salesforce, Workday 2026 datapoints'
-  date: '2026-07-26'
-  kind: web
-- slug: 2026-07-26-ai-native-app-retention-margins
-  title: AI-native application retention and gross margin benchmarks, mid-2026
   date: '2026-07-26'
   kind: web
 neighbors: []

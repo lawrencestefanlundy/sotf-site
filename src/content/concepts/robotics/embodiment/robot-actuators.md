@@ -17,6 +17,7 @@ sources:
 - '[[2025-04-23-what-if-ai-can-already-feel]]'
 - '[[2026-06-08-semianalysis-unitree-robotics]]'
 - '[[2026-07-16-robotics-labour-augmentation-the-us-58-9-billion-humanoid]]'
+- '[[2026-05-14-pax-silica-inside-the-trump-administrations-tech-strategy-wi]]'
 - '[[2026-07-16-robotics-labour-augmentation-humanoid-robot-bom-cost]]'
 - '[[2026-07-08-robotics-labour-augmentation-tesla-optimus-hardware]]'
 - '[[2026-06-10-robotics-labour-augmentation-humanoid-robotics-company]]'
@@ -40,7 +41,7 @@ tags:
 - technology
 - robotics
 - actuators
-mention_count: 42
+mention_count: 44
 scorecard:
   viability: 4
   drivers: 4
@@ -50,7 +51,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-sources_7d: 1
+sources_7d: 2
 sources_30d: 6
 recent_mentions:
 - slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint

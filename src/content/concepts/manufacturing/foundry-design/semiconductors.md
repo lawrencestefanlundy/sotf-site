@@ -52,6 +52,14 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-13-oxygen-based-chipmaking-method-controls-2d-crystal-growth-wi
+  title: Oxygen-based chipmaking method controls 2D crystal growth with over 99% success
+  date: '2026-10-13'
+  kind: web
+- slug: 2026-10-13-carpet-growth-method-yields-long-sought-2d-quantum-material
+  title: '''Carpet'' growth method yields long-sought 2D quantum material'
+  date: '2026-10-13'
+  kind: web
 - slug: 2026-10-12-from-nonmagnetic-to-magnetic-a-2d-semiconductor-with-electri
   title: 'From nonmagnetic to magnetic: A 2D semiconductor with electrically tunable magnetism'
   date: '2026-10-12'
@@ -75,14 +83,6 @@ recent_mentions:
 - slug: 2026-10-06-x-fab-breaks-ground-on-chips-act-funded-cleanroom-in-erfurt-
   title: X-FAB breaks ground on Chips Act-funded cleanroom in Erfurt - Evertiq
   date: '2026-10-06'
-  kind: web
-- slug: 2026-10-05-why-investors-should-be-watching-this-date-for-micron---yaho
-  title: Why investors should be watching this date for Micron - Yahoo Finance
-  date: '2026-10-05'
-  kind: web
-- slug: 2026-10-05-630bn-us-semiconductor-megaprojects-in-rush-to-break-ground-
-  title: $630bn+ US Semiconductor Megaprojects in Rush to Break Ground before CHIPS Act Deadline - Construction Review
-  date: '2026-10-05'
   kind: web
 neighbors:
 - slug: logic

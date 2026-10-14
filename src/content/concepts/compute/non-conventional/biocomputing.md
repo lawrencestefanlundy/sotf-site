@@ -31,7 +31,7 @@ tags:
 - concept
 - technology
 mention_count: 26
-sources_7d: 3
+sources_7d: 1
 sources_30d: 5
 recent_mentions:
 - slug: 2026-08-31-tbc-neurally-optimised-video-model

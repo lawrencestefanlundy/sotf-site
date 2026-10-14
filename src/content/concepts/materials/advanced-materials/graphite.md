@@ -37,7 +37,7 @@ scorecard:
   verdict: Underrated
 scorecard_status: draft
 sources_7d: 1
-sources_30d: 9
+sources_30d: 8
 recent_mentions:
 - slug: 2026-09-23-as-close-to-carbyne-as-were-probably-going-to-get
   title: As Close to Carbyne As We're Probably Going to Get

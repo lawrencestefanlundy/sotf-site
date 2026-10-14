@@ -39,6 +39,10 @@ descendants:
 sources_7d: 0
 sources_30d: 1
 recent_mentions:
+- slug: 2026-10-13-liquid-metal-dealloying-creates-nanoporous-silicon-carbide-a
+  title: Liquid metal dealloying creates nanoporous silicon carbide at just 800°C
+  date: '2026-10-13'
+  kind: web
 - slug: 2026-08-18-power-semis-the-chonks-of-the-chip-world
   title: 'Power Semis: The Chonks of the Chip World'
   date: '2026-08-18'
@@ -59,6 +63,10 @@ recent_mentions:
   title: 'UK Opportunity in AI: Compound Semiconductors'
   date: '2025-09-10'
   kind: substack
+- slug: 2025-06-19-why-chinas-manufacturing-economy-is-dominating-arthur-kroebe
+  title: Why China's manufacturing economy is dominating — Arthur Kroeber
+  date: '2025-06-19'
+  kind: web
 - slug: 2021-06-24-cambridge-spin-out-porotech-raises-3m-cambridge-enterprise--
   title: Cambridge spin-out Porotech raises £3m – Cambridge Enterprise - enterprise.cam.ac.uk
   date: '2021-06-24'

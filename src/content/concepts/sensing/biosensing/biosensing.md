@@ -21,11 +21,11 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 55
+mention_count: 58
 descendants:
 - biosensors
-sources_7d: 1
-sources_30d: 7
+sources_7d: 3
+sources_30d: 9
 recent_mentions:
 - slug: 2026-10-12-cnt-electronics-market-research
   title: 'Carbon nanotube electronics: market, cohort and M&A research (web sweep, 82 sources)'
@@ -35,6 +35,10 @@ recent_mentions:
   title: That’s a learning curve mate, not RSI
   date: '2026-07-03'
   kind: substack
+- slug: 2026-06-13-pw-consulting-cnt-gas-sensors-market-report-mill
+  title: 'PW Consulting: carbon nanotube gas sensors $149.5M 2025, $173M 2026, $447M 2032, 16.9% CAGR (report mill, contrast only)'
+  date: '2026-06-13'
+  kind: web
 - slug: 2026-06-04-magnetoresistive-gmr-mtj-biosensor-turbid-samples
   title: Integrated Microfluidic Giant Magnetoresistance (GMR) Biosensor Platform for Magnetoresistive Immunoassay (and related GMR/MTJ bead-detection literature)
   date: '2026-06-04'

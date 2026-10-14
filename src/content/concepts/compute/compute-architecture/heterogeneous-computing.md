@@ -24,7 +24,7 @@ frontier:
 - Does accounting for RRAM write endurance change the optimal partition materially, and how many re-mappings can a deployed CIM array sustain before latency or accuracy degrades?
 - Can coherent-interconnect zero-copy state sharing meet microsecond-level reflex deadlines in a physical RAN deployment, or does cache coherence traffic reintroduce the bottleneck it removes? 2026 06 05 bridging the cognitive gap a unified memory paradigm for 6g
 - What fraction of heterogeneity-related AI compilation bugs are silent output changes rather than crashes, and can automated testing detect them without a trusted reference platform? 2026 05 11 nsf 2541224 career redefining testing foundations fo
-sources_7d: 1
+sources_7d: 0
 sources_30d: 1
 recent_mentions:
 - slug: 2026-08-07-the-memory-trade-isnt-over-weights

@@ -5,7 +5,8 @@ canonical_name: Post Training
 aliases: []
 parent_concepts: []
 related_concepts: []
-sources: []
+sources:
+- '[[2026-05-01-baseten-ceo-tuhin-srivastava-on-the-ai-inference-crunch-cust]]'
 auto_stub: true
 last_updated: '2026-08-31'
 tags:
@@ -16,12 +17,17 @@ frontier:
 - Do the eight sequential DPO iterations (v0 to v7) yield monotonic gains, or does performance saturate or regress after a specific iteration count?
 - How does LoRA at r = 8 compare with full-parameter post-training on the same 27B base, in both task accuracy and compute cost?
 - Does a 6,283-pair preference set generalise beyond the curating institution's data distribution, and how does performance scale with preference-pair count?
+mention_count: 1
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
 - slug: 2026-07-20-ai-inference-economics-column
   title: Money Stuff-style column on AI model pricing, open weights and datacentre monetisation
   date: '2026-07-20'
+  kind: web
+- slug: 2026-05-01-baseten-ceo-tuhin-srivastava-on-the-ai-inference-crunch-cust
+  title: Baseten CEO Tuhin Srivastava on the AI Inference Crunch, Custom Models, and Building the Inference Cloud
+  date: '2026-05-01'
   kind: web
 neighbors: []
 ---

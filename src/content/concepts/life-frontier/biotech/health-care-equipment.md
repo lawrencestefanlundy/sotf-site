@@ -49,6 +49,10 @@ recent_mentions:
   title: Your phone can use tiny skin-colour changes to measure your heart rate
   date: '2026-06-03'
   kind: web
+- slug: 2025-09-25-salty-permafrosts-role-in-arctic-melting-the-promise-of-cont
+  title: Salty permafrost’s role in Arctic melting, the promise of continuous protein monitoring, and death in the ancient world
+  date: '2025-09-25'
+  kind: web
 - slug: 2024-11-14-bringing-lab-testing-to-the-home---mit-news
   title: Bringing lab testing to the home - MIT News
   date: '2024-11-14'

@@ -36,7 +36,7 @@ frontier:
 - Does dead-time mitigation, whether by automatic attenuation control or statistical correction, hold up in real high-background field conditions such as daylight LiDAR, rather than in the analytical and numerical models presented?
 - Will simulated datasets and diffusion-model priors close the training-data gap well enough that models trained synthetically transfer to real SPAD data across sensors and light levels, or does each sensor need its own captured corpus?
 sources_7d: 2
-sources_30d: 6
+sources_30d: 5
 recent_mentions: []
 neighbors:
 - slug: avalanche-photodiode

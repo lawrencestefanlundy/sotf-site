@@ -29,6 +29,7 @@ sources:
 - '[[2026-04-01-ai-power-thermal-binding-market-projection-35-of-new-ai]]'
 - '[[2025-08-19-thermal-stack-arms-race-thermal-interface-materials-market]]'
 - '[[2026-09-02-vertical-power-delivery-thermal-limits]]'
+- '[[2026-10-13-dupont-acquires-laird-performance-materials]]'
 scorecard:
   viability: 3
   drivers: 4
@@ -38,7 +39,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 112
+mention_count: 113
 descendants:
 - ai-thermal-management
 - cryogenic-cooling
@@ -63,7 +64,7 @@ descendants:
 - two-phase-cooling
 - vapor-chambers
 sources_7d: 1
-sources_30d: 8
+sources_30d: 7
 recent_mentions:
 - slug: 2026-09-02-vertical-power-delivery-thermal-limits
   title: 'Vertical power delivery: the thermal limit at the 48V-to-point-of-load stage'

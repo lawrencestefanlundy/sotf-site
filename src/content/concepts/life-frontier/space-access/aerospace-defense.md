@@ -27,33 +27,33 @@ recent_mentions:
   title: New microwave weapon can zap drone swarms without burning through missiles
   date: '2026-10-13'
   kind: web
+- slug: 2026-10-13-pasha-kravtsov-true-anomaly
+  title: Pasha Kravtsov, True Anomaly
+  date: '2026-10-13'
+  kind: web
+- slug: 2026-10-13-tyler-bernstein-zeno-power
+  title: Tyler Bernstein, Zeno Power
+  date: '2026-10-13'
+  kind: web
+- slug: 2026-10-13-transporter-18-smallsats-encapsulation
+  title: Transporter-18 SmallSats Encapsulation
+  date: '2026-10-13'
+  kind: web
+- slug: 2026-10-13-new-drone-interceptor-takes-off-like-a-quadcopter-then-flies
+  title: New drone interceptor takes off like a quadcopter, then flies forward autonomously
+  date: '2026-10-13'
+  kind: web
+- slug: 2026-10-13-nasa-jpl-testing-readies-voyager-technologies-lander-for-moo
+  title: NASA JPL Testing Readies Voyager Technologies Lander for Moon Mission
+  date: '2026-10-13'
+  kind: web
+- slug: 2026-10-13-voyager-technologies-griffin-1-completes-environmental-testi
+  title: Voyager Technologies’ Griffin-1 Completes Environmental Testing at NASA JPL
+  date: '2026-10-13'
+  kind: web
 - slug: 2026-10-12-valkyrie-combat-drone-makes-first-european-flight-with-3100-
   title: Valkyrie combat drone makes first European flight with 3,100-mile range and Mach 0.8
   date: '2026-10-12'
-  kind: web
-- slug: 2026-10-12-21-us-military-satellites-blast-at-15660-mph-to-hunt-missile
-  title: 21 US military satellites blast at 15,660 mph to hunt missile threats from space
-  date: '2026-10-12'
-  kind: web
-- slug: 2026-10-09-nasa-signs-space-nuclear-pact-says-moon-base-is-ahead-of-sch
-  title: NASA Signs Space Nuclear Pact, Says Moon Base Is Ahead of Schedule
-  date: '2026-10-09'
-  kind: web
-- slug: 2026-10-09-nasa-seeks-us-industry-plans-for-commercial-space-stations
-  title: NASA Seeks US Industry Plans for Commercial Space Stations
-  date: '2026-10-09'
-  kind: web
-- slug: 2026-10-09-europes-earth-observation-providers-set-their-sights-on-satc
-  title: Europe’s Earth Observation Providers Set Their Sights on Satcom
-  date: '2026-10-09'
-  kind: web
-- slug: 2026-10-09-exclusive-kapta-space-raises-24m-series-a-to-build-moving-ta
-  title: 'Exclusive: Kapta Space Raises $24M Series A to Build Moving Target Radar Payload'
-  date: '2026-10-09'
-  kind: web
-- slug: 2026-10-09-europes-space-defenses-fall-just-shy-of-weaponization
-  title: Europe’s Space Defenses Fall Just Shy of Weaponization
-  date: '2026-10-09'
   kind: web
 neighbors: []
 ---

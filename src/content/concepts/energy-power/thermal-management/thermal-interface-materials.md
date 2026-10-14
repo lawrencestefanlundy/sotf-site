@@ -25,6 +25,7 @@ sources:
 - '[[2025-01-15-thermal-stack-arms-race-thermal-interface-materials-market]]'
 - '[[2025-08-19-thermal-stack-arms-race-thermal-interface-materials-market]]'
 - '[[2026-10-12-cnt-electronics-market-research]]'
+- '[[2026-10-13-dupont-acquires-laird-performance-materials]]'
 frontier:
 - Is there any published in-package measurement showing a nanostructured or metal TIM beating incumbent grease on total joint thermal resistance after JESD22-A105C-style cycling, rather than on bulk conductivity?
 - Will OCP or JEDEC issue a TIM-specific test method that measures thermal resistance degradation rather than electrical failure, and if so on what timeline?
@@ -37,7 +38,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - material
-mention_count: 15
+mention_count: 16
 last_reorg_date: '2026-05-13'
 descendants:
 - tim-approach-map
@@ -50,8 +51,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Overrated
 scorecard_status: draft
-sources_7d: 1
-sources_30d: 1
+sources_7d: 2
+sources_30d: 2
 recent_mentions:
 - slug: 2026-10-12-cnt-electronics-market-research
   title: 'Carbon nanotube electronics: market, cohort and M&A research (web sweep, 82 sources)'

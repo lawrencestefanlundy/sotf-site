@@ -6,6 +6,7 @@ aliases: []
 parent_concepts: []
 related_concepts: []
 sources:
+- '[[2026-04-27-352-bing-brunton-on-connecting-the-connectome-to-the-body]]'
 - '[[2026-06-23-engram-98m-learned-memory-token-costs]]'
 scorecard:
   viability: 4
@@ -16,13 +17,17 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 69
+mention_count: 70
 sources_7d: 0
-sources_30d: 3
+sources_30d: 2
 recent_mentions:
 - slug: 2026-06-23-engram-98m-learned-memory-token-costs
   title: AI memory startup focused on cutting token costs raises $98 million
   date: '2026-06-23'
+  kind: web
+- slug: 2026-04-27-352-bing-brunton-on-connecting-the-connectome-to-the-body
+  title: 352 | Bing Brunton on Connecting the Connectome to the Body
+  date: '2026-04-27'
   kind: web
 neighbors: []
 ---

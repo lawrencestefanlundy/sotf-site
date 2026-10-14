@@ -17,6 +17,7 @@ related_concepts:
 - tmds-mos2-wse2
 sources:
 - '[[2024-09-19-can-ai-revolutionize-materials-discovery---latitude-media]]'
+- '[[2026-10-13-marketus-ai-materials-discovery-report-mill]]'
 scorecard:
   viability: 3
   drivers: 3
@@ -26,14 +27,18 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 74
+mention_count: 75
 descendants:
 - arpes
 - electron-scale-metrology
 - stm
-sources_7d: 8
-sources_30d: 15
+sources_7d: 6
+sources_30d: 16
 recent_mentions:
+- slug: 2026-10-13-marketus-ai-materials-discovery-report-mill
+  title: 'Market.us AI in Materials Discovery Market: $536.4M 2024 to $5.58B 2034, 26.4% CAGR (report mill, contrast only)'
+  date: '2025-11-01'
+  kind: web
 - slug: 2024-09-19-can-ai-revolutionize-materials-discovery---latitude-media
   title: Can AI revolutionize materials discovery? - Latitude Media
   date: '2024-09-19'

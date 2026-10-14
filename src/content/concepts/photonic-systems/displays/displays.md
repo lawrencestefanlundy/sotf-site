@@ -37,7 +37,7 @@ descendants:
 - micro-leds
 - microled
 - oled
-sources_7d: 4
+sources_7d: 3
 sources_30d: 12
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026

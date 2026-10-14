@@ -58,6 +58,22 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-13-engineering-the-unknown-building-vacuum-and-cryogenic-system
+  title: 'Engineering the unknown: building vacuum and cryogenic systems for the quantum frontier'
+  date: '2026-10-13'
+  kind: web
+- slug: 2026-10-13-faster-molecular-simulations-identify-promising-diamond-defe
+  title: Faster molecular simulations identify promising diamond defects for quantum computers and sensors
+  date: '2026-10-13'
+  kind: web
+- slug: 2026-10-13-carpet-growth-method-yields-long-sought-2d-quantum-material
+  title: '''Carpet'' growth method yields long-sought 2D quantum material'
+  date: '2026-10-13'
+  kind: web
+- slug: 2026-10-13-optical-skyrmions-can-control-the-motion-of-magnetic-skyrmio
+  title: Optical skyrmions can control the motion of magnetic skyrmions
+  date: '2026-10-13'
+  kind: web
 - slug: 2026-10-12-chip-mediated-manipulation-of-photonic-quantum-skyrmions
   title: Chip-mediated manipulation of photonic quantum skyrmions
   date: '2026-10-12'
@@ -73,22 +89,6 @@ recent_mentions:
 - slug: 2026-10-10-quic-whitepaper-calls-for-industrial-scale-up-infrastructure
   title: QuIC Whitepaper Calls for Industrial Scale-Up Infrastructure in EU Chips Act 2.0 - Quantum Computing Report
   date: '2026-10-10'
-  kind: web
-- slug: 2026-10-09-order-from-chaos-with-adaptive-circuits-on-quantum-hardware
-  title: Order from chaos with adaptive circuits on quantum hardware
-  date: '2026-10-09'
-  kind: web
-- slug: 2026-10-08-picosecond-current-pulses-probe-intrinsic-limit-for-dissipat
-  title: Picosecond current pulses probe intrinsic limit for dissipationless transport in superconductors
-  date: '2026-10-08'
-  kind: web
-- slug: 2026-10-08-synthesis-superintelligence-from-semiconductors-to-supercond
-  title: 'Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk'
-  date: '2026-10-08'
-  kind: web
-- slug: 2026-10-08-high-fidelity-entangling-gates-and-nonlocal-circuits-with-ne
-  title: High-fidelity entangling gates and nonlocal circuits with neutral atoms
-  date: '2026-10-08'
   kind: web
 neighbors:
 - slug: quantum-computing

@@ -26,9 +26,21 @@ recent_mentions:
   title: 'Carbon nanotube electronics: market, cohort and M&A research (web sweep, 82 sources)'
   date: '2026-10-12'
   kind: web
+- slug: 2026-10-08-polaris-euv-pellicle-market-report-mill
+  title: 'Polaris Market Research: EUV pellicle market $622M 2025, 14.8% CAGR to 2034, CNT pellicles 16.7% (report mill, contrast only)'
+  date: '2026-10-08'
+  kind: web
 - slug: 2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology
   title: IBM Debuts World's First Sub-1 Nanometer Chip Technology
   date: '2026-06-25'
+  kind: web
+- slug: 2026-03-26-inderes-canatu-targets-100-150-meur-2030
+  title: Canatu targets 100-150 MEUR revenue in 2030 (Inderes analyst comment on the Capital Markets Day)
+  date: '2026-03-26'
+  kind: web
+- slug: 2026-03-03-canatu-key-messages-qa-fy2025-600w-scanners-2027
+  title: 'Canatu key messages and Q&A on the FY2025 bulletin: 600 W EUV scanners now expected 2027, 2027 targets withdrawn'
+  date: '2026-03-03'
   kind: web
 - slug: 2025-12-19-lfg-for-semiconductors
   title: LFG (for semiconductors)
@@ -38,6 +50,10 @@ recent_mentions:
   title: '🔮E10: Pushing Moore''s Law to the Limit with High-NA EUV (aka Nanoscale Chip Printing)'
   date: '2023-07-27'
   kind: substack
+- slug: 2021-05-13-thelec-asml-mitsui-euv-pellicle-26k-unit-price
+  title: 'TheElec: ASML to supply EUV pellicles (made by Mitsui Chemicals) at about KRW 20-30M, roughly $26,000 a unit'
+  date: '2021-05-13'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

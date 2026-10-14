@@ -21,7 +21,7 @@ sources:
 - '[[2023-08-31-e13-chiplets-how-chip-lego-is-driving]]'
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
-mention_count: 182
+mention_count: 184
 parent_concepts:
 - flow-rtl-design
 scorecard:
@@ -38,8 +38,8 @@ frontier:
 - How do the reported 146% and 52% wirelength gains over TAP 2.5D and TACPlace compare against a commercial production placer rather than academic baselines?
 - Does the approximately 10x runtime advantage hold beyond 'dozens of chiplets', and where does the analytical formulation break down as element count grows?
 - Can 420 nm 3-sigma micro-transfer-printing placement accuracy and greater than 95% yield be held across high-volume production lots, and what is the accuracy budget for the resulting photonic device performance?
-sources_7d: 5
-sources_30d: 21
+sources_7d: 4
+sources_30d: 19
 recent_mentions:
 - slug: 2026-10-12-cnt-electronics-market-research
   title: 'Carbon nanotube electronics: market, cohort and M&A research (web sweep, 82 sources)'
@@ -48,6 +48,10 @@ recent_mentions:
 - slug: 2026-08-20-callosum-100m-seed-announcement
   title: Callosum announces $100M seed led by Atomico (round coverage + Companies House filings)
   date: '2026-08-20'
+  kind: web
+- slug: 2026-10-13-kiora-10q-q2-2026-shares-and-warrants
+  title: Kiora Pharmaceuticals Form 10-Q for the quarter ended 30 June 2026
+  date: '2026-08-07'
   kind: web
 - slug: 2026-07-24-the-huggingface-incident
   title: The HuggingFace Incident
@@ -61,17 +65,13 @@ recent_mentions:
   title: Deep-research dossier — does the stateful agent runtime / control-plane layer need a novel silicon primitive?
   date: '2026-06-02'
   kind: web
+- slug: 2026-10-13-kiora-fy2025-results-collaboration-credits
+  title: Kiora Pharmaceuticals Reports Fourth Quarter and Full Year 2025 Results
+  date: '2026-03-25'
+  kind: web
 - slug: 2026-03-17-compute-specialisation-equilibrium-aws-cerebras
   title: AWS-Cerebras Disaggregated Inference via Amazon Bedrock
   date: '2026-03-17'
-  kind: web
-- slug: 2026-02-26-compute-specialisation-equilibrium-callosum-heterogeneous
-  title: 'Callosum: Heterogeneous Intelligence Infrastructure'
-  date: '2026-02-26'
-  kind: web
-- slug: 2026-02-23-compute-specialisation-equilibrium-custom-silicon
-  title: Custom Silicon Inflection 2026
-  date: '2026-02-23'
   kind: web
 neighbors:
 - slug: eda-design-tools

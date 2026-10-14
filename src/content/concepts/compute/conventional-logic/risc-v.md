@@ -37,7 +37,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 120
-sources_7d: 3
+sources_7d: 1
 sources_30d: 14
 recent_mentions:
 - slug: 2026-10-12-cnt-electronics-market-research

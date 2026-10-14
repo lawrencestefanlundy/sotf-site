@@ -33,6 +33,22 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-13-avatar-comes-to-life-hondas-new-robot-mirrors-human-movement
+  title: 'Avatar comes to life: Honda’s new robot mirrors human movements to work remotely'
+  date: '2026-10-13'
+  kind: web
+- slug: 2026-10-13-in-vivo-engineering-of-car-natural-killer-cells-for-immunoth
+  title: In vivo engineering of CAR natural killer cells for immunotherapy using ligand-directed lipid nanoparticles
+  date: '2026-10-13'
+  kind: web
+- slug: 2026-10-13-dyna-2-general-purpose-physical-agents-with-hour-long-autono
+  title: 'Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics'
+  date: '2026-10-13'
+  kind: web
+- slug: 2026-10-13-i-have-no-mouth-and-i-must-scream
+  title: “I have no mouth and I must scream”
+  date: '2026-10-13'
+  kind: web
 - slug: 2026-10-12-how-anthropics-dynamic-workflows-coordinate-claude-agents
   title: How Anthropic’s Dynamic Workflows Coordinate Claude Agents
   date: '2026-10-12'
@@ -48,22 +64,6 @@ recent_mentions:
 - slug: 2026-10-09-beam-the-great-american-open-model-with-reflectionai-co-foun
   title: 'Beam: The Great American Open Model with ReflectionAI Co-Founder and CEO Misha Laskin'
   date: '2026-10-09'
-  kind: web
-- slug: 2026-10-08-synthesis-superintelligence-from-semiconductors-to-supercond
-  title: 'Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk'
-  date: '2026-10-08'
-  kind: web
-- slug: 2026-10-07-hiphi-a-large-scale-benchmark-for-high-precision-human-motio
-  title: 'HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object Interaction'
-  date: '2026-10-07'
-  kind: web
-- slug: 2026-10-07-ieee-report-predicts-tech-that-will-transform-lives
-  title: IEEE Report Predicts Tech That Will Transform Lives
-  date: '2026-10-07'
-  kind: web
-- slug: 2026-10-05-why-agent-swarms-could-be-the-next-scaling-law
-  title: Why agent swarms could be the next “scaling law”
-  date: '2026-10-05'
   kind: web
 neighbors: []
 ---

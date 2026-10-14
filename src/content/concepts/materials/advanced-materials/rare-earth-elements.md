@@ -47,6 +47,7 @@ sources:
 - '[[2022-10-25-new-approach-to-cosmic-magnet-manufacturing-could-reduce-rel]]'
 - '[[2026-10-12-fastmarkets-china-electrical-steel-72pc]]'
 - '[[2026-10-12-mercedes-yasa-axial-flux-berlin-production]]'
+- '[[2025-12-09-gpus-tpus-the-economics-of-ai-explained-gavin-baker-intervie]]'
 scorecard:
   viability: 5
   drivers: 4
@@ -56,8 +57,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 44
-sources_7d: 15
+mention_count: 45
+sources_7d: 14
 sources_30d: 17
 recent_mentions:
 - slug: 2026-10-12-iea-rare-earth-elements-2026

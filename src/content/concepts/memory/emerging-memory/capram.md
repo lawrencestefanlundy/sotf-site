@@ -40,7 +40,7 @@ tags:
 - semron
 - memcapacitor
 - product-brand
-mention_count: 66
+mention_count: 67
 scorecard:
   viability: 2
   drivers: 3
@@ -51,7 +51,7 @@ scorecard:
   verdict: Overrated
 scorecard_status: draft
 sources_7d: 1
-sources_30d: 9
+sources_30d: 10
 recent_mentions: []
 neighbors:
 - slug: memcapacitor

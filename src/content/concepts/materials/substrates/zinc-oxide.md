@@ -23,7 +23,7 @@ tags:
 - concept
 mention_count: 10
 sources_7d: 0
-sources_30d: 4
+sources_30d: 3
 recent_mentions: []
 neighbors:
 - slug: gallium-oxide

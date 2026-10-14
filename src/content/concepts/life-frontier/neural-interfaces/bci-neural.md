@@ -24,7 +24,8 @@ sources:
 - '[[2018-09-10-brain-computer-interface-allows-for-telepathic-piloting-of-d]]'
 - '[[2026-06-23-inbrain-graphene-first-in-human]]'
 - '[[2020-11-23-connecting-mind-to-machine-university-of-miami-team-moving-f]]'
-mention_count: 12
+- '[[2026-06-19-briefing-chat-testosterone-and-sperm-may-get-a-boost-from-ob]]'
+mention_count: 14
 descendants:
 - non-invasive-neural-recording-modalities
 sources_7d: 0
@@ -33,6 +34,10 @@ recent_mentions:
 - slug: 2026-06-23-inbrain-graphene-first-in-human
   title: 'InBrain Neuroelectronics: world-first-in-human graphene neural interface study, $50M Series B, FDA Breakthrough Device, Merck KGaA partnership'
   date: '2026-06-23'
+  kind: web
+- slug: 2026-06-19-briefing-chat-testosterone-and-sperm-may-get-a-boost-from-ob
+  title: 'Briefing Chat: Testosterone and sperm may get a boost from obesity drugs'
+  date: '2026-06-19'
   kind: web
 - slug: 2026-06-04-bezos-flourish-brain-core-algorithm
   title: Jeff Bezos Is Funding a Wild Hunt for the Brain's 'Core Algorithm'

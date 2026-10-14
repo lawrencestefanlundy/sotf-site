@@ -27,6 +27,7 @@ sources:
 - '[[2026-04-24-thermal-stack-arms-race-global-thermal-management-market-to]]'
 - '[[2026-04-10-thermal-stack-arms-race-liquid-cooling-for-ai-data-centers]]'
 - '[[2025-12-17-ai-power-thermal-binding-power-availability-remains-the]]'
+- '[[2026-10-13-techinsights-ai-accelerators-2030-volume-forecast]]'
 - '[[2026-05-21-specialisation-beats-generality-the-custom-ai-asic-state-of]]'
 - '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
 - '[[2026-03-03-ai-power-thermal-binding-nvidia-vera-rubin-and-feynman]]'
@@ -55,7 +56,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 110
+mention_count: 112
 last_reorg_date: '2026-05-14'
 scorecard:
   viability: 4
@@ -66,8 +67,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 2
+sources_7d: 1
+sources_30d: 3
 recent_mentions:
 - slug: 2026-10-05-wartsila-to-supply-282-mw-onsite-power-solution-for-a-us-dat
   title: Wärtsilä to supply 282 MW onsite power solution for a U.S. data center as AI growth intensifies demand for reliable power - Latitude Media

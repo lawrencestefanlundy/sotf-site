@@ -22,6 +22,10 @@ mention_count: 116
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-13-patterned-x-rays-map-3d-chemical-structures-faster-with-fewe
+  title: Patterned X-rays map 3D chemical structures faster with fewer measurements
+  date: '2026-10-13'
+  kind: web
 - slug: 2026-10-07-holographic-mesoscope-reads-writes-from-different-cortical-r
   title: Holographic mesoscope reads, writes from different cortical regions simultaneously
   date: '2026-10-07'
@@ -49,10 +53,6 @@ recent_mentions:
 - slug: 2026-08-31-diffraqtion-raises-more-than-10m-for-quantum-camera-developm
   title: Diffraqtion Raises More Than $10M for Quantum Camera Development - The Quantum Insider
   date: '2026-08-31'
-  kind: web
-- slug: 2026-08-24-nist-researchers-supersize-quantum-technology-to-help-detect
-  title: NIST Researchers Supersize Quantum Technology to Help Detect Faint Photons
-  date: '2026-08-24'
   kind: web
 neighbors: []
 ---

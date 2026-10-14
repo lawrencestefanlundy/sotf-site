@@ -29,7 +29,7 @@ mention_count: 16
 descendants: []
 last_reorg_date: '2026-05-13'
 sources_7d: 0
-sources_30d: 2
+sources_30d: 1
 recent_mentions:
 - slug: 2026-09-29-tech-to-replace-animal-testing-is-almost-ready-scientists-ar
   title: Tech to Replace Animal Testing Is Almost Ready. Scientists Are Not

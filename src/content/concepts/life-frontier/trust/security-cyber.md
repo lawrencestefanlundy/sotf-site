@@ -23,6 +23,10 @@ mention_count: 30
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-13-i-have-no-mouth-and-i-must-scream
+  title: “I have no mouth and I must scream”
+  date: '2026-10-13'
+  kind: web
 - slug: 2026-09-17-galileos-first-civil-authenticated-position-fix-under-spoofi
   title: Galileo's first civil authenticated position fix under spoofing conditions
   date: '2026-09-17'
@@ -35,25 +39,21 @@ recent_mentions:
   title: Rethinking Legacy Data Infrastructure with Eon Co-Founders Ofir Ehrlich and Gonen Stein
   date: '2026-08-27'
   kind: web
+- slug: 2026-08-21-quantum-hacking-coming-sooner-than-expected
+  title: Quantum Hacking Coming Sooner than Expected
+  date: '2026-08-21'
+  kind: web
 - slug: 2026-08-17-what-the-openai-hugging-face-hack-really-tells-us-about-ai-d
   title: What the OpenAI-Hugging Face Hack Really Tells Us About AI Danger
   date: '2026-08-17'
   kind: web
+- slug: 2026-08-06-dex-in-the-city-how-claudes-red-teaming-agents-escaped-a-tes
+  title: 'DEX in the City: How Claude''s Red-Teaming Agents Escaped a Test Without Realizing It'
+  date: '2026-08-06'
+  kind: web
 - slug: 2026-08-05-stealthium-gpu-powered-security-intelligence-site-docs-compe
   title: Stealthium — GPU-Powered Security Intelligence (site + docs + competitive context)
   date: '2026-08-05'
-  kind: web
-- slug: 2026-07-08-nukes-in-space-orbital-detector-could-sniff-out-warheads
-  title: Nukes in space? Orbital detector could sniff out warheads
-  date: '2026-07-08'
-  kind: web
-- slug: 2026-05-28-building-an-ai-guardian-for-enterprise-with-onyx-security-ce
-  title: Building an AI Guardian for Enterprise with Onyx Security CEO Maxim Bar Kogan
-  date: '2026-05-28'
-  kind: web
-- slug: 2025-10-09-wi-fi-7-advanced-integrates-sensing-iot-and-ai-security-into
-  title: Wi-Fi 7 Advanced integrates sensing, IoT, and AI security into 10Gbps wireless networks - TechRadar
-  date: '2025-10-09'
   kind: web
 neighbors: []
 ---

@@ -33,6 +33,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-13-oxygen-based-chipmaking-method-controls-2d-crystal-growth-wi
+  title: Oxygen-based chipmaking method controls 2D crystal growth with over 99% success
+  date: '2026-10-13'
+  kind: web
 - slug: 2026-10-12-ocsial-press-kit-2026
   title: OCSiAl company backgrounder (press kit, English)
   date: '2026-03-17'

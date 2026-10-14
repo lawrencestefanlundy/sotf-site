@@ -18,6 +18,7 @@ sources:
 - '[[2025-04-30-has-the-time-come-to-take-mortal]]'
 - '[[2026-10-12-industryweek-lockheed-f35-nanocomposite-fairing-2012]]'
 - '[[2026-10-12-zyvex-piranha-cnt-boat-sea-trials-2011]]'
+- '[[2026-03-25-signalbase-aligned-carbon-2-1m-seed]]'
 - '[[2026-10-12-idtechex-billion-dollar-cnt-market-2025]]'
 - '[[2026-10-12-yu-2000-science-mwcnt-tensile-strength]]'
 - '[[2025-08-19-thermal-stack-arms-race-thermal-interface-materials-market]]'
@@ -32,10 +33,18 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 44
+mention_count: 45
 sources_7d: 5
 sources_30d: 8
 recent_mentions:
+- slug: 2026-10-13-inderes-canatu-quote-eur-5-33-cap-eur-186m
+  title: Canatu share price EUR 5.33, market cap EUR 185.58M (Inderes quote page, 13 Oct 2026)
+  date: '2026-10-13'
+  kind: web
+- slug: 2026-10-13-marketsandmarkets-nanotube-electronics-market-report-mill
+  title: 'MarketsandMarkets Nanotube Electronics Market: $2.1B 2025 to $11.4B 2035, 18.4% CAGR (report mill, contrast only)'
+  date: '2026-10-13'
+  kind: web
 - slug: 2026-10-12-us-comp-cnt-yarn-laminates-acs-2023
   title: Scalable High Tensile Modulus Composite Laminates Using Continuous Carbon Nanotube Yarns for Aerospace Applications
   date: '2026-10-12'
@@ -52,21 +61,13 @@ recent_mentions:
   title: 'Carbon nanotube electronics: market, cohort and M&A research (web sweep, 82 sources)'
   date: '2026-10-12'
   kind: web
+- slug: 2026-10-08-polaris-euv-pellicle-market-report-mill
+  title: 'Polaris Market Research: EUV pellicle market $622M 2025, 14.8% CAGR to 2034, CNT pellicles 16.7% (report mill, contrast only)'
+  date: '2026-10-08'
+  kind: web
 - slug: 2026-09-23-as-close-to-carbyne-as-were-probably-going-to-get
   title: As Close to Carbyne As We're Probably Going to Get
   date: '2026-09-23'
-  kind: web
-- slug: 2026-10-12-ecust-cnt-fibre-12-5gpa-nature-comms-2026
-  title: Improvement of the tensile strength of carbon nanotube fibers to 12.5 GPa by fluidics-induced alignment and densification
-  date: '2026-07-02'
-  kind: web
-- slug: 2026-06-17-nawah-vacnt-technology
-  title: NAWAH Architectured Nanomaterials — VACNT technology & positioning
-  date: '2026-06-17'
-  kind: web
-- slug: 2026-10-12-soochow-cnano-2025-results-review
-  title: 'Cnano Technology (688116) 2025 annual and Q1 2026 results review: results in line, single-wall ramping'
-  date: '2026-04-30'
   kind: web
 neighbors:
 - slug: ceramics-composites

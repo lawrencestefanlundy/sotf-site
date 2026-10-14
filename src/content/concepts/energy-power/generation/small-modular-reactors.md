@@ -29,6 +29,7 @@ sources:
 - '[[2026-06-13-smr-datacentre-baseload-research]]'
 - '[[2026-02-16-energy-buildout-keeps-pace-interconnection-queue-and-grid]]'
 - '[[2025-12-09-energy-buildout-keeps-pace-gas-turbine-capacity-constraints]]'
+- '[[2026-03-04-the-worlds-greatest-energy-trader-on-markets-china-and-ai]]'
 - '[[2026-05-09-energy-buildout-keeps-pace-behind-the-meter-gas-turbine]]'
 frontier:
 - Does X-energy receive its Xe-100 construction permit and does the Dow Texas first unit hold its ~2028 date, or does it slip into the 2030s with the rest of the fleet?
@@ -44,7 +45,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 20
+mention_count: 21
 descendants: []
 scorecard:
   viability: 3
@@ -70,6 +71,10 @@ recent_mentions:
   title: 'Behind-the-meter gas turbine workaround cannot scale: fuel cells offer potential but at 40% higher LCOE than gas turbines currently'
   date: '2026-05-09'
   kind: web
+- slug: 2026-03-04-the-worlds-greatest-energy-trader-on-markets-china-and-ai
+  title: The World's Greatest Energy Trader on Markets, China, and AI
+  date: '2026-03-04'
+  kind: web
 - slug: 2026-02-16-energy-buildout-keeps-pace-interconnection-queue-and-grid
   title: Interconnection queue and grid constraints hard-capping datacentre construction timelines
   date: '2026-02-16'
@@ -85,10 +90,6 @@ recent_mentions:
 - slug: 2024-11-20-nuclear-fusion-the-state-of-play
   title: 'Nuclear Fusion: A Primer'
   date: '2024-11-20'
-  kind: substack
-- slug: 2024-11-12-atomic-energy-can-nuclear-power-our
-  title: 'Nuclear Fission: A Primer'
-  date: '2024-11-12'
   kind: substack
 neighbors:
 - slug: datacentre-cloud-infrastructure

@@ -37,7 +37,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 45
+mention_count: 46
 descendants:
 - cvd-growth
 scorecard:
@@ -50,7 +50,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 2
-sources_30d: 10
+sources_30d: 11
 recent_mentions:
 - slug: 2025-07-01-a-primer-carbon-nanotubes
   title: 'A Primer: Carbon Nanotubes'

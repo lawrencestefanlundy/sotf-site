@@ -25,6 +25,7 @@ sources:
 - '[[2026-06-19-onchain-agent-volume-tracking]]'
 - '[[2026-06-13-mckinsey-agentic-commerce]]'
 - '[[2026-09-22-coinbase-full-stack-agent-payments]]'
+- '[[2026-09-07-how-genlayer-is-building-a-court-system-for-disputes-between]]'
 - '[[2026-07-21-stablecoin-market-structure]]'
 - '[[2026-07-23-building-an-autonomous-delivery-experience-with-doordash-co-]]'
 - '[[2026-07-31-4mica-update-verification]]'
@@ -45,7 +46,7 @@ descendants:
 - payment-mandates
 - stablecoin-clearing
 - x402
-mention_count: 25
+mention_count: 26
 scorecard:
   viability: 3
   drivers: 3
@@ -66,6 +67,10 @@ recent_mentions:
   title: Amazon blocks Meta's Muse AI shopping agent from its retail site
   date: '2026-09-21'
   kind: web
+- slug: 2026-09-07-how-genlayer-is-building-a-court-system-for-disputes-between
+  title: How GenLayer Is Building a Court System for Disputes Between AI Agents
+  date: '2026-09-07'
+  kind: web
 - slug: 2026-08-06-4mica-base-mainnet-onchain-verification
   title: 4Mica's Base mainnet contract, verified on-chain
   date: '2026-08-06'
@@ -84,10 +89,6 @@ recent_mentions:
   kind: web
 - slug: 2026-07-21-stablecoin-market-structure
   title: Stablecoin market structure and value capture — commissioned research pass
-  date: '2026-07-21'
-  kind: web
-- slug: 2026-07-21-x402-protocol-state
-  title: x402 protocol state, governance and volume — commissioned research pass
   date: '2026-07-21'
   kind: web
 neighbors:

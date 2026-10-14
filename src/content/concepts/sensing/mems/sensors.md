@@ -28,6 +28,10 @@ sources:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-13-new-topological-microscope-tip-reveals-evidence-of-2d-alterm
+  title: New topological microscope tip reveals evidence of 2D altermagnetism
+  date: '2026-10-13'
+  kind: web
 - slug: 2026-10-12-from-nonmagnetic-to-magnetic-a-2d-semiconductor-with-electri
   title: 'From nonmagnetic to magnetic: A 2D semiconductor with electrically tunable magnetism'
   date: '2026-10-12'
@@ -54,10 +58,6 @@ recent_mentions:
   kind: web
 - slug: 2026-10-07-optogenetic-therapy-for-restoring-aspects-of-visual-function
   title: Optogenetic Therapy for Restoring Aspects of Visual Function
-  date: '2026-10-07'
-  kind: web
-- slug: 2026-10-07-nasa-releases-trove-of-moon-data-from-historic-artemis-ii-fl
-  title: NASA releases trove of Moon data from historic Artemis II flight
   date: '2026-10-07'
   kind: web
 neighbors: []

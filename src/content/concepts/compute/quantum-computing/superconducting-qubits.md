@@ -13,6 +13,7 @@ sources:
 - '[[2024-11-20-nuclear-fusion-the-state-of-play]]'
 - '[[2024-12-04-cubits-in-a-fridge-why-is-nobody]]'
 - '[[2026-01-07-d-wave-acquires-quantum-circuits]]'
+- '[[2022-02-07-atomically-thin-materials-significantly-shrink-qubits]]'
 - '[[2025-09-18-qphox-and-rigetti-awarded-58m-contract-from-afrl-to-enable-o]]'
 - '[[2026-06-12-hku-sic-cryogenic-neuromorphic-chip-10mk]]'
 frontier:
@@ -25,7 +26,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 113
+mention_count: 114
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 4
@@ -37,7 +38,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 6
-sources_30d: 25
+sources_30d: 24
 recent_mentions:
 - slug: 2026-06-12-hku-sic-cryogenic-neuromorphic-chip-10mk
   title: HKU world-first cryogenic neuromorphic chip at 10 mK (silicon carbide, impact-ionisation spiking)

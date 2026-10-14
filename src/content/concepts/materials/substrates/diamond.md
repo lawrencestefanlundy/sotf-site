@@ -31,8 +31,8 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 409
-sources_7d: 3
+mention_count: 413
+sources_7d: 1
 sources_30d: 12
 recent_mentions:
 - slug: 2026-10-11-ultraviolet-laser-creates-new-defects-in-diamond-without-dis

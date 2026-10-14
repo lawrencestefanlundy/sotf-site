@@ -15,8 +15,10 @@ sources:
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2026-05-08-nasa-fuel-cell-tests-pave-way-for-energy-storage-on-moon]]'
 - '[[2025-06-26-arpa-e-winning-thermal-energy-storage-in-sand-wins-commercia]]'
+- '[[2026-10-13-marketsandmarkets-ldes-market-report-mill]]'
 - '[[2026-10-12-idtechex-billion-dollar-cnt-market-2025]]'
 - '[[2025-09-01-uh-researcher-joins-project-to-transform-energy-storage---un]]'
+- '[[2026-02-26-how-capital-is-powering-the-ai-infrastructure-buildout-with-]]'
 - '[[2025-12-29-the-unexpected-clean-energy-winner-of-2025-energy-storage---]]'
 scorecard:
   viability: 4
@@ -27,13 +29,17 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 114
+mention_count: 116
 sources_7d: 3
 sources_30d: 7
 recent_mentions:
 - slug: 2026-05-08-nasa-fuel-cell-tests-pave-way-for-energy-storage-on-moon
   title: NASA Fuel Cell Tests Pave Way for Energy Storage on Moon
   date: '2026-05-08'
+  kind: web
+- slug: 2026-02-26-how-capital-is-powering-the-ai-infrastructure-buildout-with-
+  title: How Capital is Powering the AI Infrastructure Buildout with Magnetar Capital Managing Director Neil Tiwari
+  date: '2026-02-26'
   kind: web
 - slug: 2025-12-29-the-unexpected-clean-energy-winner-of-2025-energy-storage---
   title: 'The unexpected clean energy winner of 2025: Energy storage - Latitude Media'
@@ -59,10 +65,6 @@ recent_mentions:
   title: Billion Dollar Carbon Nanotube Market Continues to Grow
   date: '2025-06-17'
   kind: web
-- slug: 2024-11-20-nuclear-fusion-the-state-of-play
-  title: 'Nuclear Fusion: A Primer'
-  date: '2024-11-20'
-  kind: substack
 neighbors: []
 ---
 **Energy storage spans a deployed core (lithium-ion cells for vehicles and the grid) and a research frontier (zinc-ion, hydrogen materials, supercapacitors, quantum batteries); the near-term action in the sources is battery energy storage as the physical buffer that lets gigawatt-scale AI data centres connect to stressed grids.**

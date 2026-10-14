@@ -31,6 +31,7 @@ sources:
 - '[[2026-06-17-femtoai-spu-ces2026]]'
 - '[[2026-08-03-perimeter-compute-wants-to-turn-spare-office-power-into-edge]]'
 - '[[2026-07-10-edge-buyer-kpi-sweep]]'
+- '[[2025-12-09-gpus-tpus-the-economics-of-ai-explained-gavin-baker-intervie]]'
 scorecard:
   viability: 4
   drivers: 4
@@ -40,11 +41,11 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 109
+mention_count: 111
 descendants:
 - hearing-aid-silicon-beachhead
 - nvidia-jetson
-sources_7d: 5
+sources_7d: 3
 sources_30d: 14
 recent_mentions:
 - slug: 2026-09-07-mordor-data-converter-market

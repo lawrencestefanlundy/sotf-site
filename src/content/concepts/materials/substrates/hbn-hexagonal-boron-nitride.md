@@ -8,17 +8,22 @@ parent_concepts:
 - materials
 - substrates
 related_concepts: []
-sources: []
+sources:
+- '[[2022-02-07-atomically-thin-materials-significantly-shrink-qubits]]'
 frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
 - material
-mention_count: 82
+mention_count: 83
 last_reorg_date: '2026-05-13'
-sources_7d: 6
+sources_7d: 5
 sources_30d: 14
-recent_mentions: []
+recent_mentions:
+- slug: 2022-02-07-atomically-thin-materials-significantly-shrink-qubits
+  title: Atomically Thin Materials Significantly Shrink Qubits
+  date: '2022-02-07'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

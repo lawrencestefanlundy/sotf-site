@@ -10,20 +10,30 @@ related_concepts: []
 sources:
 - '[[2024-11-12-atomic-energy-can-nuclear-power-our]]'
 - '[[2020-07-22-new-doe-arpa-e-program-awards-24-million-to-10-advanced-nucl]]'
+- '[[2026-04-14-from-spacex-to-founders-fund-to-solving-americas-nuclear-fue]]'
+- '[[2026-09-23-with-federal-funding-windfall-x-energy-advances-small-nuclea]]'
 auto_stub: true
 last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 2
+mention_count: 4
 frontier:
 - Which reactor concepts received the 10 ARPA-E awards, and what were their coolant, fuel and power-rating specifications?
 - What delivered LCOE, in $/MWh, do advanced reactor developers contract at for datacentre offtake, and how does that compare with firmed renewables plus storage on the same grid?
 - What was the regulatory basis for the blocked Amazon arrangement, and has that precedent been resolved for behind-the-meter nuclear supply?
 - Did any of the ARPA-E-funded projects reach a construction permit or first criticality, and on what schedule relative to their original claims?
 sources_7d: 0
-sources_30d: 0
+sources_30d: 1
 recent_mentions:
+- slug: 2026-09-23-with-federal-funding-windfall-x-energy-advances-small-nuclea
+  title: With federal funding windfall, X-energy advances small nuclear reactor
+  date: '2026-09-23'
+  kind: web
+- slug: 2026-04-14-from-spacex-to-founders-fund-to-solving-americas-nuclear-fue
+  title: From SpaceX to Founders Fund to Solving America's Nuclear Fuel Problem
+  date: '2026-04-14'
+  kind: web
 - slug: 2024-11-12-atomic-energy-can-nuclear-power-our
   title: 'Nuclear Fission: A Primer'
   date: '2024-11-12'

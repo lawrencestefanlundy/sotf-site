@@ -28,6 +28,14 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-13-patterned-x-rays-map-3d-chemical-structures-faster-with-fewe
+  title: Patterned X-rays map 3D chemical structures faster with fewer measurements
+  date: '2026-10-13'
+  kind: web
+- slug: 2026-09-23-real-time-multi-gas-sensing
+  title: Real-time multi-gas sensing
+  date: '2026-09-23'
+  kind: web
 - slug: 2024-11-14-bringing-lab-testing-to-the-home---mit-news
   title: Bringing lab testing to the home - MIT News
   date: '2024-11-14'

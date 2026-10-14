@@ -30,8 +30,8 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 4
-sources_30d: 8
+sources_7d: 3
+sources_30d: 6
 recent_mentions:
 - slug: 2026-10-12-iea-rare-earth-elements-2026
   title: 'Rare Earth Elements: Executive Summary'

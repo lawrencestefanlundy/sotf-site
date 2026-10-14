@@ -23,6 +23,10 @@ mention_count: 82
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-13-qcells-aims-to-build-a-giant-factory-for-next-gen-tandem-sol
+  title: Qcells aims to build a giant factory for next-gen tandem solar
+  date: '2026-10-13'
+  kind: web
 - slug: 2026-10-13-texas-oilfield-wastewater-could-help-cool-data-centers-witho
   title: Texas oilfield wastewater could help cool data centers without draining freshwater
   date: '2026-10-13'
@@ -50,10 +54,6 @@ recent_mentions:
 - slug: 2026-09-28-frontier-forum-the-rush-for-clean-on-site-power---latitudeme
   title: 'Frontier Forum: The rush for clean, on-site power - latitudemedia.com'
   date: '2026-09-28'
-  kind: web
-- slug: 2026-09-24-most-new-us-power-is-clean-but-utilities-are-choosing-gas-fo
-  title: Most new US power is clean — but utilities are choosing gas for data centers - latitudemedia.com
-  date: '2026-09-24'
   kind: web
 neighbors: []
 ---

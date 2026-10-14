@@ -18,15 +18,20 @@ tags:
 descendants:
 - all-optical-switching
 - magneto-optical
-sources: []
-mention_count: 94
-sources_7d: 4
-sources_30d: 15
+sources:
+- '[[2026-09-03-a-quantum-filter-for-improved-spintronics]]'
+mention_count: 95
+sources_7d: 3
+sources_30d: 14
 recent_mentions:
 - slug: 2026-09-23-arxiv-benchmarking-the-generalized-kadanoff-baym-ansatz-and-second
   title: 'Benchmarking the generalized Kadanoff-Baym ansatz and second-order adiabatic expansion using time-dependent spintronic effects: Spin pumping, torque, and inertia'
   date: '2026-09-23'
   kind: paper
+- slug: 2026-09-03-a-quantum-filter-for-improved-spintronics
+  title: A Quantum Filter for Improved Spintronics
+  date: '2026-09-03'
+  kind: web
 neighbors:
 - slug: mram
   name: MRAM (STT/SOT-MRAM)

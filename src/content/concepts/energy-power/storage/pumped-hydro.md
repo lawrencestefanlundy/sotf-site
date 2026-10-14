@@ -9,20 +9,25 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2024-11-12-atomic-energy-can-nuclear-power-our]]'
+- '[[2026-10-13-marketsandmarkets-ldes-market-report-mill]]'
 auto_stub: true
 last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 3
+mention_count: 4
 frontier:
 - What round-trip efficiency, response time and cycle life do operating pumped hydro plants achieve, and how do these compare with lithium-ion grid storage on the same duty cycle?
 - What is the capital cost per kWh of installed energy capacity for new-build pumped hydro, and how does it scale with head height and reservoir volume?
 - How binding are siting, geology and permitting constraints on the addressable pipeline in the major grids, and what fraction of announced projects reach commissioning?
 - Where does pumped hydro sit against emerging long-duration alternatives for durations beyond 8 hours, on both cost and deployable capacity?
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
+- slug: 2026-10-13-marketsandmarkets-ldes-market-report-mill
+  title: 'MarketsandMarkets Long Duration Energy Storage Market: $4.84B 2024 to $10.43B 2030, 13.6% CAGR (report mill, whole LDES)'
+  date: '2025-01-07'
+  kind: web
 - slug: 2024-11-12-atomic-energy-can-nuclear-power-our
   title: 'Nuclear Fission: A Primer'
   date: '2024-11-12'

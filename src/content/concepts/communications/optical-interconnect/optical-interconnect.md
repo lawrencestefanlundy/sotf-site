@@ -51,8 +51,8 @@ descendants:
 - rack-scale-interconnect
 - rf-over-dielectric-waveguide
 - serdes
-sources_7d: 2
-sources_30d: 5
+sources_7d: 1
+sources_30d: 4
 recent_mentions:
 - slug: 2026-10-12-tiny-pluggable-optical-module-boosts-data-center-bandwidth-4
   title: Tiny pluggable optical module boosts data center bandwidth 4x without extra hardware

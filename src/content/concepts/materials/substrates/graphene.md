@@ -25,8 +25,8 @@ scorecard:
   verdict: Too early to say
 scorecard_status: draft
 mention_count: 400
-sources_7d: 6
-sources_30d: 22
+sources_7d: 3
+sources_30d: 21
 recent_mentions:
 - slug: 2026-10-08-wafer-scale-low-symmetry-graphene-moire-superlattice-for-int
   title: Wafer-scale low-symmetry graphene moiré superlattice for integrated quantum rectifiers

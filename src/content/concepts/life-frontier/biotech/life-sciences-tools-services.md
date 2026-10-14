@@ -32,6 +32,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-13-in-vivo-engineering-of-car-natural-killer-cells-for-immunoth
+  title: In vivo engineering of CAR natural killer cells for immunotherapy using ligand-directed lipid nanoparticles
+  date: '2026-10-13'
+  kind: web
 - slug: 2026-10-07-ieee-report-predicts-tech-that-will-transform-lives
   title: IEEE Report Predicts Tech That Will Transform Lives
   date: '2026-10-07'
@@ -59,10 +63,6 @@ recent_mentions:
 - slug: 2026-08-27-making-drugs-in-space-the-man-who-fed-india-and-what-narwhal
   title: Making drugs in space, the man who fed India, and what narwhals can teach us about changing seas
   date: '2026-08-27'
-  kind: web
-- slug: 2026-08-20-why-tracing-cyclosporiasis-is-so-tough-and-a-digestible-prob
-  title: Why tracing cyclosporiasis is so tough, and a digestible probe for the microbiome
-  date: '2026-08-20'
   kind: web
 neighbors: []
 ---

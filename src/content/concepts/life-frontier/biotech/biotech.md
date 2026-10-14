@@ -61,7 +61,7 @@ scorecard:
   verdict: Too early to say
 scorecard_status: draft
 sources_7d: 1
-sources_30d: 4
+sources_30d: 2
 recent_mentions:
 - slug: 2026-08-20-from-restoring-sight-to-reimagining-the-brain-with-max-hodak
   title: From Restoring Sight to Reimagining the Brain, with Max Hodak

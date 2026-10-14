@@ -30,6 +30,7 @@ sources:
 - '[[2026-05-31-nvidia-gtc-taipei-isaac-groot-isaac-teleop]]'
 - '[[2026-06-24-robot-autonomy-destination-morgan-stanley-china-humanoid]]'
 - '[[2025-09-25-humanoid-actuator-supply-chain-ieee-humanoid-study-group]]'
+- '[[2026-02-05-elon-musk-in-36-months-the-cheapest-place-to-put-ai-will-be-]]'
 - '[[2026-06-01-robotics-labour-augmentation-humanoid-robots-2026-figure-vs]]'
 - '[[2026-08-06-the-year-ai-science-and-the-physical-ai-industry-came-alive]]'
 - '[[2026-05-12-humanoid-actuator-supply-chain-humanoid-robotics-in-2026]]'
@@ -37,6 +38,7 @@ sources:
 - '[[2026-06-21-robot-autonomy-destination-humanoid-robots-in-2026-pilots]]'
 - '[[2026-09-01-chinas-ai-rally-is-real-most-global-investors-are-missing-it]]'
 - '[[2026-07-16-robotics-labour-augmentation-humanoid-robot-bom-cost]]'
+- '[[2026-03-31-worlds-top-researcher-on-ai-llms-and-robot-intelligence]]'
 - '[[2026-10-11-chinese-ev-giants-31-joint-humanoid-robot-could-soon-greet-y]]'
 - '[[2026-06-10-robotics-labour-augmentation-humanoid-robotics-company]]'
 - '[[2026-07-13-robotics-labour-augmentation-global-emerging-robotics]]'
@@ -71,9 +73,9 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Overrated
 scorecard_status: draft
-mention_count: 124
-sources_7d: 16
-sources_30d: 19
+mention_count: 128
+sources_7d: 15
+sources_30d: 20
 recent_mentions:
 - slug: 2026-10-11-chinese-ev-giants-31-joint-humanoid-robot-could-soon-greet-y
   title: Chinese EV giant’s 31-joint humanoid robot could soon greet you at the car dealership

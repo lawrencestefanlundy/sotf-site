@@ -37,6 +37,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-13-oxygen-based-chipmaking-method-controls-2d-crystal-growth-wi
+  title: Oxygen-based chipmaking method controls 2D crystal growth with over 99% success
+  date: '2026-10-13'
+  kind: web
 - slug: 2026-10-05-why-investors-should-be-watching-this-date-for-micron---yaho
   title: Why investors should be watching this date for Micron - Yahoo Finance
   date: '2026-10-05'
@@ -64,10 +68,6 @@ recent_mentions:
 - slug: 2026-09-08-the-myth-of-micron-not-so-american-after-all
   title: 'The Myth of Micron: Not so American After All'
   date: '2026-09-08'
-  kind: web
-- slug: 2026-09-04-cipr---the-european-chips-act-enters-into-force---european-c
-  title: CIPR - The European Chips Act enters into force - European Commission
-  date: '2026-09-04'
   kind: web
 neighbors: []
 ---

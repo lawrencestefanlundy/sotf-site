@@ -15,11 +15,15 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 69
+mention_count: 70
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 2
 recent_mentions:
+- slug: 2026-10-13-kprx-quote-stockanalysis-12-oct-2026
+  title: Kiora Pharmaceuticals (KPRX) quote, StockAnalysis, close 12 Oct 2026
+  date: '2026-10-12'
+  kind: web
 - slug: 2026-10-07-optogenetic-therapy-for-restoring-aspects-of-visual-function
   title: Optogenetic Therapy for Restoring Aspects of Visual Function
   date: '2026-10-07'
@@ -44,14 +48,10 @@ recent_mentions:
   title: Why tracing cyclosporiasis is so tough, and a digestible probe for the microbiome
   date: '2026-08-20'
   kind: web
-- slug: 2026-08-03-ultrarapid-deep-3d-histology-enables-intraoperative-mapping-
-  title: Ultrarapid deep 3D histology enables intraoperative mapping of glioma infiltration
-  date: '2026-08-03'
+- slug: 2026-10-13-kiora-ckd-south-korea-kio-301-licence-aug-2026
+  title: Kiora Licenses South Korean Rights to KIO-301 to Chong Kun Dang (8-K Exhibit 99.1)
+  date: '2026-08-19'
   kind: web
-- slug: 2026-07-03-thats-a-learning-curve-mate-not-rsi
-  title: That’s a learning curve mate, not RSI
-  date: '2026-07-03'
-  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

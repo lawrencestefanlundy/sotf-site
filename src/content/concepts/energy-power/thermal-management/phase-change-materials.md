@@ -35,9 +35,9 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 1120
-sources_7d: 1
-sources_30d: 4
+mention_count: 1127
+sources_7d: 0
+sources_30d: 3
 recent_mentions:
 - slug: 2026-10-12-cnt-electronics-market-research
   title: 'Carbon nanotube electronics: market, cohort and M&A research (web sweep, 82 sources)'
@@ -55,6 +55,10 @@ recent_mentions:
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
   kind: web
+- slug: 2026-10-13-gmi-satellite-thermal-control-report-mill
+  title: 'Global Market Insights Satellite Thermal Control Systems Market: $2.0B 2026 to $3.7B 2035, ~7.4% CAGR (report mill)'
+  date: '2026-08-01'
+  kind: web
 - slug: 2026-07-31-etched-research-sprint
   title: Etched research sprint — tape-out speed, HBM supply, customer orders (4-lane web sweep)
   date: '2026-07-31'
@@ -67,10 +71,6 @@ recent_mentions:
   title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
   date: '2026-07-28'
   kind: substack
-- slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint
-  title: 'What actually limits a humanoid to minutes: the thermal cliff, not the battery'
-  date: '2026-07-26'
-  kind: web
 neighbors: []
 ---
 **Phase-change materials absorb and release heat as latent heat at a fixed transition temperature, buffering thermal transients instead of conducting heat away; the supplied source set contains no direct evidence on thermal PCMs, so this page is largely an assessment of what is missing.**

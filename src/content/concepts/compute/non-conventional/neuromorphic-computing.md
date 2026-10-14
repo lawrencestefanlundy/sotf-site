@@ -41,8 +41,8 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Overrated
 scorecard_status: draft
-sources_7d: 4
-sources_30d: 9
+sources_7d: 2
+sources_30d: 8
 recent_mentions:
 - slug: 2026-09-15-arxiv-a-unified-interconnection-network-for-chiplet-based-scaling-
   title: A Unified Interconnection Network for Chiplet-Based Scaling of the BrainScaleS Neuromorphic System

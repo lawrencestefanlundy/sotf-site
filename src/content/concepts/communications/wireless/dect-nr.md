@@ -50,9 +50,9 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 38
-sources_7d: 1
-sources_30d: 3
+mention_count: 37
+sources_7d: 0
+sources_30d: 2
 recent_mentions:
 - slug: 2026-10-02-dect-nr-private-5g-for-industrial-iot-networks---wiot-groupc
   title: 'DECT NR+: Private 5G for Industrial IoT Networks - wiot-group.com'

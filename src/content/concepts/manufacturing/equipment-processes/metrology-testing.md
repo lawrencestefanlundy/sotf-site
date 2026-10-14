@@ -34,6 +34,14 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-13-patterned-x-rays-map-3d-chemical-structures-faster-with-fewe
+  title: Patterned X-rays map 3D chemical structures faster with fewer measurements
+  date: '2026-10-13'
+  kind: web
+- slug: 2026-10-13-new-topological-microscope-tip-reveals-evidence-of-2d-alterm
+  title: New topological microscope tip reveals evidence of 2D altermagnetism
+  date: '2026-10-13'
+  kind: web
 - slug: 2026-10-06-beyond-wiring-diagrams-inside-a-19-million-effort-to-expand-
   title: 'Beyond wiring diagrams: Inside a $19 million effort to expand access to connectome technology'
   date: '2026-10-06'
@@ -57,10 +65,6 @@ recent_mentions:
 - slug: 2026-07-10-quantumdiamonds-raises-91m-in-eu-chips-act-first-for-its-dia
   title: QuantumDiamonds raises €91M in EU Chips Act first for its diamond chip scanner - Dealroom
   date: '2026-07-10'
-  kind: web
-- slug: 2026-06-09-metrology-inspection-test-weirdly-controversial-oddly-fascin
-  title: 'Metrology, Inspection & Test: Weirdly controversial, oddly fascinating'
-  date: '2026-06-09'
   kind: web
 neighbors: []
 ---

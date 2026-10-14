@@ -51,7 +51,7 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-mention_count: 1200
+mention_count: 1206
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -60,8 +60,8 @@ descendants:
 - optical-frequency-comb
 - optical-frequency-division
 - optoelectronic-oscillator
-sources_7d: 2
-sources_30d: 4
+sources_7d: 4
+sources_30d: 6
 recent_mentions:
 - slug: 2026-10-12-tiny-pluggable-optical-module-boosts-data-center-bandwidth-4
   title: Tiny pluggable optical module boosts data center bandwidth 4x without extra hardware

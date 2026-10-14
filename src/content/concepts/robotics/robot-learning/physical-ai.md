@@ -35,8 +35,10 @@ sources:
 - '[[2026-04-20-physical-ai-deploys-this-decade-bessemer-predicts-robotics]]'
 - '[[2026-07-01-sensifai-memo-streaming-physical-ai]]'
 - '[[2026-09-30-the-state-of-chinese-physical-ai]]'
+- '[[2026-01-08-nvidias-jensen-huang-on-reasoning-models-robotics-and-refuti]]'
 - '[[2026-10-07-ieee-report-predicts-tech-that-will-transform-lives]]'
 - '[[2026-06-15-gf-investor-day-2026]]'
+- '[[2026-02-26-how-capital-is-powering-the-ai-infrastructure-buildout-with-]]'
 - '[[2026-09-18-visions-of-ai-gpt-3-moment-for-physical-ai]]'
 - '[[2026-09-07-microchip-acquires-hailo-jul-2026]]'
 - '[[2026-06-13-sovereign-electronics-manufacturing-reshoring-digest]]'
@@ -50,7 +52,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 117
+mention_count: 120
 descendants:
 - dexterous-manipulation
 - humanoid-robots
@@ -60,8 +62,8 @@ descendants:
 - tactile-sensing
 - vision-language-action-models
 - world-models
-sources_7d: 3
-sources_30d: 19
+sources_7d: 1
+sources_30d: 17
 recent_mentions:
 - slug: 2026-10-07-hiphi-a-large-scale-benchmark-for-high-precision-human-motio
   title: 'HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object Interaction'

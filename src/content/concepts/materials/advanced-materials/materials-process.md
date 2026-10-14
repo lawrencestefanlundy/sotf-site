@@ -34,6 +34,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-13-liquid-metal-dealloying-creates-nanoporous-silicon-carbide-a
+  title: Liquid metal dealloying creates nanoporous silicon carbide at just 800°C
+  date: '2026-10-13'
+  kind: web
 - slug: 2026-10-06-lunar-grounding-challenge
   title: Lunar Grounding Challenge
   date: '2026-10-06'
@@ -61,10 +65,6 @@ recent_mentions:
 - slug: 2026-08-07-nasas-lunar-development-and-test-facility-prepares-artemis-h
   title: NASA’s Lunar Development and Test Facility Prepares Artemis Hardware for Moon
   date: '2026-08-07'
-  kind: web
-- slug: 2026-07-31-tb-26-04-webbings-for-use-in-elevated-oxygen-environments
-  title: TB 26-04 Webbings for Use in Elevated Oxygen Environments
-  date: '2026-07-31'
   kind: web
 neighbors: []
 ---

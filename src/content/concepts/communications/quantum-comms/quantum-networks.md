@@ -29,8 +29,8 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 7
-sources_30d: 29
+sources_7d: 5
+sources_30d: 28
 recent_mentions:
 - slug: 2026-08-13-darpa-awards-contract-to-qunnect-to-advance-real-time-polari
   title: DARPA Awards Contract to Qunnect to Advance Real-Time Polarization Compensation for Quantum Networks - Quantum Computing Report

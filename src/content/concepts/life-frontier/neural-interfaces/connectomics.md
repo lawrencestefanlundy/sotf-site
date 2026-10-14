@@ -17,6 +17,7 @@ related_concepts:
 - spatial-transcriptomics
 sources:
 - '[[2026-06-04-bezos-flourish-brain-core-algorithm]]'
+- '[[2026-10-13-tbrc-3d-neuroscience-market-report-mill]]'
 frontier:
 - Does the reconstruction cost per mm3 fall >=10x by 2030 (barcoding + ML proofreading), or does proofreading stay the wall?
 - 'Structural (EM/expansion) vs functional (fMRI/EEG) connectomics: which commercialises first, and for whom?'
@@ -27,10 +28,14 @@ tags:
 - technology
 - connectomics
 - neuroscience
-mention_count: 9
-sources_7d: 0
-sources_30d: 1
+mention_count: 11
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
+- slug: 2026-10-13-tbrc-3d-neuroscience-market-report-mill
+  title: 'TBRC 3D Neuroscience Global Market Report: $1.71B 2026 to $2.95B 2030, 14.5% CAGR (report mill, broader than the wedge)'
+  date: '2026-09-01'
+  kind: web
 - slug: 2026-06-04-bezos-flourish-brain-core-algorithm
   title: Jeff Bezos Is Funding a Wild Hunt for the Brain's 'Core Algorithm'
   date: '2026-06-04'

@@ -32,7 +32,7 @@ tags:
 - technology
 - photonics
 - glass
-mention_count: 9
+mention_count: 10
 sources_7d: 0
 sources_30d: 0
 recent_mentions:

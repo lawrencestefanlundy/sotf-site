@@ -26,7 +26,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 163
-sources_7d: 15
+sources_7d: 14
 sources_30d: 28
 recent_mentions:
 - slug: 2026-10-09-beam-the-great-american-open-model-with-reflectionai-co-foun

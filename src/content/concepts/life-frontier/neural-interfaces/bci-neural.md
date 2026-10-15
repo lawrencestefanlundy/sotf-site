@@ -22,10 +22,12 @@ sources:
 - '[[2023-05-31-three-underrated-technologies-from]]'
 - '[[2026-06-04-bezos-flourish-brain-core-algorithm]]'
 - '[[2018-09-10-brain-computer-interface-allows-for-telepathic-piloting-of-d]]'
+- '[[2025-09-08-363-a-new-frontier-in-neurosurgery-restoring-brain-function-]]'
+- '[[2025-11-13-solving-the-golfers-curse-and-using-space-as-a-heat-sink]]'
 - '[[2026-06-23-inbrain-graphene-first-in-human]]'
 - '[[2020-11-23-connecting-mind-to-machine-university-of-miami-team-moving-f]]'
 - '[[2026-06-19-briefing-chat-testosterone-and-sperm-may-get-a-boost-from-ob]]'
-mention_count: 14
+mention_count: 16
 descendants:
 - non-invasive-neural-recording-modalities
 sources_7d: 0
@@ -43,6 +45,14 @@ recent_mentions:
   title: Jeff Bezos Is Funding a Wild Hunt for the Brain's 'Core Algorithm'
   date: '2026-06-04'
   kind: web
+- slug: 2025-11-13-solving-the-golfers-curse-and-using-space-as-a-heat-sink
+  title: Solving the ‘golfer’s curse’ and using space as a heat sink
+  date: '2025-11-13'
+  kind: web
+- slug: 2025-09-08-363-a-new-frontier-in-neurosurgery-restoring-brain-function-
+  title: '#363 ‒ A new frontier in neurosurgery: restoring brain function with brain-computer interfaces, advancing glioblastoma care, and new hope for devastating brain diseases | Edward Chang, M.D.'
+  date: '2025-09-08'
+  kind: web
 - slug: 2023-09-18-e15-in-conversation-with-wisear-on
   title: '☎️ E15: In Conversation with Wisear on The State of Hearables, Brain Computer Interfaces and Augmented Reality 👂🎧🧠'
   date: '2023-09-18'
@@ -54,10 +64,6 @@ recent_mentions:
 - slug: 2020-11-23-connecting-mind-to-machine-university-of-miami-team-moving-f
   title: 'Connecting Mind to Machine: University of Miami Team Moving Forward on DARPA Project to Revolutionize Non-surgical Brain-Computer Interface - University of Miami News'
   date: '2020-11-23'
-  kind: web
-- slug: 2018-09-10-brain-computer-interface-allows-for-telepathic-piloting-of-d
-  title: Brain-computer Interface Allows for Telepathic Piloting of Drones - sociable.co
-  date: '2018-09-10'
   kind: web
 neighbors:
 - slug: invasive-bci

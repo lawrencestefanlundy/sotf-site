@@ -28,6 +28,18 @@ sources:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-15-us-optical-chip-gyroscope-gets-2000-fold-sensitivity-boost-d
+  title: US optical chip gyroscope gets 2,000-fold sensitivity boost, detects slow rotation
+  date: '2026-10-15'
+  kind: web
+- slug: 2026-10-14-new-chip-scale-gyroscope-measures-rotation-with-unprecedente
+  title: New chip-scale gyroscope measures rotation with unprecedented sensitivity
+  date: '2026-10-14'
+  kind: web
+- slug: 2026-10-14-new-360-degree-air-defense-radar-with-detection-range-exceed
+  title: New 360-degree air defense radar with detection range exceeding 205 miles can transform warfare
+  date: '2026-10-14'
+  kind: web
 - slug: 2026-10-13-new-topological-microscope-tip-reveals-evidence-of-2d-alterm
   title: New topological microscope tip reveals evidence of 2D altermagnetism
   date: '2026-10-13'
@@ -47,18 +59,6 @@ recent_mentions:
 - slug: 2026-10-10-ultraviolet-laser-pulses-engineer-diamond-defects-selectivel
   title: Ultraviolet laser pulses engineer diamond defects selectively, leaving quantum qubits intact
   date: '2026-10-10'
-  kind: web
-- slug: 2026-10-09-exclusive-kapta-space-raises-24m-series-a-to-build-moving-ta
-  title: 'Exclusive: Kapta Space Raises $24M Series A to Build Moving Target Radar Payload'
-  date: '2026-10-09'
-  kind: web
-- slug: 2026-10-08-uae-completes-arab-worlds-first-solo-space-probe-b-band-sets
-  title: UAE completes Arab world's first solo space probe <b>– </b>and sets course for an asteroid
-  date: '2026-10-08'
-  kind: web
-- slug: 2026-10-07-optogenetic-therapy-for-restoring-aspects-of-visual-function
-  title: Optogenetic Therapy for Restoring Aspects of Visual Function
-  date: '2026-10-07'
   kind: web
 neighbors: []
 ---

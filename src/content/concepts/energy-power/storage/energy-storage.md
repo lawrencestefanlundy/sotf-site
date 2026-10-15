@@ -31,7 +31,7 @@ scorecard:
 scorecard_status: draft
 mention_count: 116
 sources_7d: 3
-sources_30d: 7
+sources_30d: 6
 recent_mentions:
 - slug: 2026-05-08-nasa-fuel-cell-tests-pave-way-for-energy-storage-on-moon
   title: NASA Fuel Cell Tests Pave Way for Energy Storage on Moon

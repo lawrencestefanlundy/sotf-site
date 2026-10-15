@@ -7,21 +7,26 @@ parent_concepts:
 - generation
 - energy-power
 related_concepts: []
-sources: []
+sources:
+- '[[2026-10-13-qcells-aims-to-build-a-giant-factory-for-next-gen-tandem-sol]]'
 auto_stub: true
 last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 6
+mention_count: 8
 frontier:
 - What band gaps do the β2SnGeX6 compositions have, and does any halide variant fall in the 1.6-1.8 eV window needed for a top cell over silicon?
 - Can any member of the series be synthesised as a phase-pure thin film, and do measured lattice parameters and elastic moduli match the DFT predictions?
 - Do the Sn(II)/Ge(II) oxidation states survive ambient and operational conditions, or does oxidation dominate degradation as in other tin-based lead-free perovskites?
 - Has any lead-free double perovskite been integrated into a two-terminal tandem stack, and what open-circuit voltage and fill factor result?
-sources_7d: 0
-sources_30d: 1
-recent_mentions: []
+sources_7d: 1
+sources_30d: 2
+recent_mentions:
+- slug: 2026-10-13-qcells-aims-to-build-a-giant-factory-for-next-gen-tandem-sol
+  title: Qcells aims to build a giant factory for next-gen tandem solar
+  date: '2026-10-13'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

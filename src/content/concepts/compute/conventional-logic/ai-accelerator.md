@@ -68,7 +68,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 1
-sources_30d: 3
+sources_30d: 2
 recent_mentions:
 - slug: 2026-10-05-wartsila-to-supply-282-mw-onsite-power-solution-for-a-us-dat
   title: Wärtsilä to supply 282 MW onsite power solution for a U.S. data center as AI growth intensifies demand for reliable power - Latitude Media

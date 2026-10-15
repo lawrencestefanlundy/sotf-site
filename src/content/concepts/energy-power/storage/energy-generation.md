@@ -9,18 +9,23 @@ parent_concepts:
 - energy-power
 - storage
 related_concepts: []
-sources: []
+sources:
+- '[[2025-10-15-unlocking-the-road-to-energy-abundance-with-base-power-ceo-a]]'
 frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 7
+mention_count: 8
 last_reorg_date: '2026-05-14'
 descendants: []
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2025-10-15-unlocking-the-road-to-energy-abundance-with-base-power-ceo-a
+  title: Unlocking the Road to Energy Abundance with Base Power CEO and Co-Founder Zach Dell
+  date: '2025-10-15'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

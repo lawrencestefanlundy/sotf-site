@@ -33,6 +33,14 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-14-mayhem-10-drones-get-upgraded-to-connect-satellite-cellular-
+  title: Mayhem 10 drones get upgraded to connect satellite, cellular and radio simultaneously
+  date: '2026-10-14'
+  kind: web
+- slug: 2026-10-14-new-360-degree-air-defense-radar-with-detection-range-exceed
+  title: New 360-degree air defense radar with detection range exceeding 205 miles can transform warfare
+  date: '2026-10-14'
+  kind: web
 - slug: 2026-10-09-exclusive-kapta-space-raises-24m-series-a-to-build-moving-ta
   title: 'Exclusive: Kapta Space Raises $24M Series A to Build Moving Target Radar Payload'
   date: '2026-10-09'
@@ -56,14 +64,6 @@ recent_mentions:
 - slug: 2026-09-04-why-laser-beams-are-the-hottest-new-tech-in-defense
   title: Why Laser Beams Are the Hottest New Tech in Defense
   date: '2026-09-04'
-  kind: web
-- slug: 2026-09-04-a-23-million-texas-grant-helps-open-an-austin-chip-lab-for-w
-  title: A $23 million Texas grant helps open an Austin chip lab for wireless research - Stock Titan
-  date: '2026-09-04'
-  kind: web
-- slug: 2026-09-01-nasa-selects-blue-origin-as-mars-telecommunications-network-
-  title: NASA Selects Blue Origin as Mars Telecommunications Network Provider
-  date: '2026-09-01'
   kind: web
 neighbors: []
 ---

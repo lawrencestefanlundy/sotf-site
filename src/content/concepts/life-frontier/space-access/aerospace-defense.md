@@ -23,6 +23,26 @@ mention_count: 80
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-14-nasa-to-discuss-artemis-acceleration-status-of-upcoming-moon
+  title: NASA to Discuss Artemis Acceleration, Status of Upcoming Moon Missions
+  date: '2026-10-14'
+  kind: web
+- slug: 2026-10-14-exclusive-in-orbit-aerospace-pivots-from-re-entry-vehicles-t
+  title: 'Exclusive: In Orbit Aerospace Pivots From Re-entry Vehicles to Spacecraft Autonomy'
+  date: '2026-10-14'
+  kind: web
+- slug: 2026-10-14-new-360-degree-air-defense-radar-with-detection-range-exceed
+  title: New 360-degree air defense radar with detection range exceeding 205 miles can transform warfare
+  date: '2026-10-14'
+  kind: web
+- slug: 2026-10-14-how-space-companies-can-prepare-for-a-potential-launch-gap
+  title: How Space Companies Can Prepare for a Potential Launch Gap
+  date: '2026-10-14'
+  kind: web
+- slug: 2026-10-14-reflect-orbital-buys-two-skyroot-aerospace-launches
+  title: Reflect Orbital Buys Two Skyroot Aerospace Launches
+  date: '2026-10-14'
+  kind: web
 - slug: 2026-10-13-new-microwave-weapon-can-zap-drone-swarms-without-burning-th
   title: New microwave weapon can zap drone swarms without burning through missiles
   date: '2026-10-13'
@@ -34,26 +54,6 @@ recent_mentions:
 - slug: 2026-10-13-tyler-bernstein-zeno-power
   title: Tyler Bernstein, Zeno Power
   date: '2026-10-13'
-  kind: web
-- slug: 2026-10-13-transporter-18-smallsats-encapsulation
-  title: Transporter-18 SmallSats Encapsulation
-  date: '2026-10-13'
-  kind: web
-- slug: 2026-10-13-new-drone-interceptor-takes-off-like-a-quadcopter-then-flies
-  title: New drone interceptor takes off like a quadcopter, then flies forward autonomously
-  date: '2026-10-13'
-  kind: web
-- slug: 2026-10-13-nasa-jpl-testing-readies-voyager-technologies-lander-for-moo
-  title: NASA JPL Testing Readies Voyager Technologies Lander for Moon Mission
-  date: '2026-10-13'
-  kind: web
-- slug: 2026-10-13-voyager-technologies-griffin-1-completes-environmental-testi
-  title: Voyager Technologies’ Griffin-1 Completes Environmental Testing at NASA JPL
-  date: '2026-10-13'
-  kind: web
-- slug: 2026-10-12-valkyrie-combat-drone-makes-first-european-flight-with-3100-
-  title: Valkyrie combat drone makes first European flight with 3,100-mile range and Mach 0.8
-  date: '2026-10-12'
   kind: web
 neighbors: []
 ---

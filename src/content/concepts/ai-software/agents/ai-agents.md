@@ -27,7 +27,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 159
+mention_count: 164
 descendants:
 - agent-identity-kya
 - agentic-ai
@@ -37,8 +37,8 @@ descendants:
 - stablecoin-clearing
 - stablecoins
 - x402
-sources_7d: 5
-sources_30d: 30
+sources_7d: 4
+sources_30d: 25
 recent_mentions:
 - slug: 2026-09-25-swarm-scaling
   title: Swarm Scaling
@@ -64,13 +64,13 @@ recent_mentions:
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
   kind: web
+- slug: 2026-08-06-dex-in-the-city-how-claudes-red-teaming-agents-escaped-a-tes
+  title: 'DEX in the City: How Claude''s Red-Teaming Agents Escaped a Test Without Realizing It'
+  date: '2026-08-06'
+  kind: web
 - slug: 2026-08-05-stealthium-gpu-powered-security-intelligence-site-docs-compe
   title: Stealthium — GPU-Powered Security Intelligence (site + docs + competitive context)
   date: '2026-08-05'
-  kind: web
-- slug: 2026-07-26-ai-breach-frequency-autonomous-soc
-  title: AI-enabled attack frequency and autonomous-SOC economics, 2026
-  date: '2026-07-26'
   kind: web
 neighbors: []
 ---

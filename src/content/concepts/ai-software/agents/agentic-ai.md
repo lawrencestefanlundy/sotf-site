@@ -13,6 +13,7 @@ sources:
 - '[[2026-02-13-four-things-friday]]'
 - '[[2026-06-23-semidoped-daily-update]]'
 - '[[2026-03-17-compute-specialisation-equilibrium-aws-rises-to-the-agentic]]'
+- '[[2025-10-04-the-impact-of-ai-from-business-models-to-cybersecurity-with-]]'
 - '[[2025-06-slm-future-agentic-ai-nvidia]]'
 - '[[2026-07-26-postgres-absorption-vector-layer]]'
 - '[[2026-06-18-re-engineering-the-semiconductor-supply-chain-with-intel-ceo]]'
@@ -33,9 +34,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 116
-sources_7d: 3
-sources_30d: 17
+mention_count: 118
+sources_7d: 2
+sources_30d: 16
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)

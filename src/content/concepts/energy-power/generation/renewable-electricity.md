@@ -23,6 +23,10 @@ mention_count: 82
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-14-nuclear-powered-data-centers-its-a-tough-sell-in-utah-coal-c
+  title: Nuclear-powered data centers? It’s a tough sell in Utah coal country.
+  date: '2026-10-14'
+  kind: web
 - slug: 2026-10-13-qcells-aims-to-build-a-giant-factory-for-next-gen-tandem-sol
   title: Qcells aims to build a giant factory for next-gen tandem solar
   date: '2026-10-13'
@@ -49,10 +53,6 @@ recent_mentions:
   kind: web
 - slug: 2026-09-28-in-global-first-a-next-gen-geothermal-plant-goes-live-at-uti
   title: In global first, a next-gen geothermal plant goes live at utility scale
-  date: '2026-09-28'
-  kind: web
-- slug: 2026-09-28-frontier-forum-the-rush-for-clean-on-site-power---latitudeme
-  title: 'Frontier Forum: The rush for clean, on-site power - latitudemedia.com'
   date: '2026-09-28'
   kind: web
 neighbors: []

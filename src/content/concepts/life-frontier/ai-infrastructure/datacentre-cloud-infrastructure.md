@@ -33,6 +33,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-14-nuclear-powered-data-centers-its-a-tough-sell-in-utah-coal-c
+  title: Nuclear-powered data centers? It’s a tough sell in Utah coal country.
+  date: '2026-10-14'
+  kind: web
 - slug: 2026-10-13-texas-oilfield-wastewater-could-help-cool-data-centers-witho
   title: Texas oilfield wastewater could help cool data centers without draining freshwater
   date: '2026-10-13'
@@ -59,10 +63,6 @@ recent_mentions:
   kind: web
 - slug: 2026-10-05-wartsila-to-supply-282-mw-onsite-power-solution-for-a-us-dat
   title: Wärtsilä to supply 282 MW onsite power solution for a U.S. data center as AI growth intensifies demand for reliable power - Latitude Media
-  date: '2026-10-05'
-  kind: web
-- slug: 2026-10-05-virginias-new-energy-plan-make-the-ai-boom-work-for-not-agai
-  title: 'Virginia’s new energy plan: Make the AI boom work for — not against — us'
   date: '2026-10-05'
   kind: web
 neighbors: []

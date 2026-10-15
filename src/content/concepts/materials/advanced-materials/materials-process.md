@@ -34,6 +34,14 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-14-one-sample-many-dimensions-prospects-for-multimodal-nanoscal
+  title: 'One sample, many dimensions: prospects for multimodal nanoscale characterization'
+  date: '2026-10-14'
+  kind: web
+- slug: 2026-10-14-author-correction-wafer-scale-epitaxy-growth-of-high-mobilit
+  title: 'Author Correction: Wafer-scale epitaxy growth of high-mobility p-type boron carbon nitride'
+  date: '2026-10-14'
+  kind: web
 - slug: 2026-10-13-liquid-metal-dealloying-creates-nanoporous-silicon-carbide-a
   title: Liquid metal dealloying creates nanoporous silicon carbide at just 800°C
   date: '2026-10-13'
@@ -57,14 +65,6 @@ recent_mentions:
 - slug: 2026-09-23-as-close-to-carbyne-as-were-probably-going-to-get
   title: As Close to Carbyne As We're Probably Going to Get
   date: '2026-09-23'
-  kind: web
-- slug: 2026-09-03-a-quantum-filter-for-improved-spintronics
-  title: A Quantum Filter for Improved Spintronics
-  date: '2026-09-03'
-  kind: web
-- slug: 2026-08-07-nasas-lunar-development-and-test-facility-prepares-artemis-h
-  title: NASA’s Lunar Development and Test Facility Prepares Artemis Hardware for Moon
-  date: '2026-08-07'
   kind: web
 neighbors: []
 ---

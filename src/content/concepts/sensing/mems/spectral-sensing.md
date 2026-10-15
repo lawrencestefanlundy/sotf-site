@@ -36,6 +36,10 @@ recent_mentions:
   title: Real-time multi-gas sensing
   date: '2026-09-23'
   kind: web
+- slug: 2026-09-21-in-situ-and-operando-optical-microscopy-and-spectroscopy-inv
+  title: 'In situ and operando optical microscopy and spectroscopy: investigating perovskite optoelectronic devices at work'
+  date: '2026-09-21'
+  kind: web
 - slug: 2024-11-14-bringing-lab-testing-to-the-home---mit-news
   title: Bringing lab testing to the home - MIT News
   date: '2024-11-14'

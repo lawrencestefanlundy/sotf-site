@@ -9,7 +9,7 @@ parent_concepts:
 - generation
 related_concepts: []
 sources: []
-mention_count: 13
+mention_count: 14
 sources_7d: 0
 sources_30d: 1
 recent_mentions: []

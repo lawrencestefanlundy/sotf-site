@@ -33,6 +33,14 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-14-lab-in-the-loop-at-compute-speed-ian-quigley-leash-bio
+  title: Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio
+  date: '2026-10-14'
+  kind: web
+- slug: 2026-10-14-exclusive-in-orbit-aerospace-pivots-from-re-entry-vehicles-t
+  title: 'Exclusive: In Orbit Aerospace Pivots From Re-entry Vehicles to Spacecraft Autonomy'
+  date: '2026-10-14'
+  kind: web
 - slug: 2026-10-13-avatar-comes-to-life-hondas-new-robot-mirrors-human-movement
   title: 'Avatar comes to life: Honda’s new robot mirrors human movements to work remotely'
   date: '2026-10-13'
@@ -56,14 +64,6 @@ recent_mentions:
 - slug: 2026-10-12-import-ai-476-creativity-and-rsi-worse-than-china-open-weigh
   title: 'Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space'
   date: '2026-10-12'
-  kind: web
-- slug: 2026-10-10-building-ai-for-reliable-execution-lessons-from-industrial-r
-  title: 'Building AI for Reliable Execution: Lessons From Industrial Robotics'
-  date: '2026-10-10'
-  kind: web
-- slug: 2026-10-09-beam-the-great-american-open-model-with-reflectionai-co-foun
-  title: 'Beam: The Great American Open Model with ReflectionAI Co-Founder and CEO Misha Laskin'
-  date: '2026-10-09'
   kind: web
 neighbors: []
 ---

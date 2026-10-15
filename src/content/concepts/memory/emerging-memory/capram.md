@@ -51,7 +51,7 @@ scorecard:
   verdict: Overrated
 scorecard_status: draft
 sources_7d: 1
-sources_30d: 10
+sources_30d: 9
 recent_mentions: []
 neighbors:
 - slug: memcapacitor

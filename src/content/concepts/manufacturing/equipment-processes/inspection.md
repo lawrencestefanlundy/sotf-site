@@ -22,10 +22,14 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 131
-sources_7d: 4
+mention_count: 132
+sources_7d: 3
 sources_30d: 21
 recent_mentions:
+- slug: 2026-10-13-transporter-18-smallsats-encapsulation
+  title: Transporter-18 SmallSats Encapsulation
+  date: '2026-10-13'
+  kind: web
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
@@ -53,10 +57,6 @@ recent_mentions:
 - slug: 2024-11-12-atomic-energy-can-nuclear-power-our
   title: 'Nuclear Fission: A Primer'
   date: '2024-11-12'
-  kind: substack
-- slug: 2024-10-29-deploy-intelligence-too-cheap-to
-  title: Deploy! Intelligence too cheap to meter @ $0.0001 per million tokens.
-  date: '2024-10-29'
   kind: substack
 neighbors: []
 ---

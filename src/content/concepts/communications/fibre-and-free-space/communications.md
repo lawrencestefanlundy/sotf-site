@@ -78,6 +78,14 @@ descendants:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-14-mayhem-10-drones-get-upgraded-to-connect-satellite-cellular-
+  title: Mayhem 10 drones get upgraded to connect satellite, cellular and radio simultaneously
+  date: '2026-10-14'
+  kind: web
+- slug: 2026-10-12-the-absurd-engineering-behind-the-internet
+  title: The Absurd Engineering Behind the Internet
+  date: '2026-10-12'
+  kind: web
 - slug: 2026-10-08-amazon-builds-1000th-satellite-will-launch-space-internet-se
   title: Amazon builds 1,000th satellite, will launch space internet service by end of year
   date: '2026-10-08'
@@ -101,14 +109,6 @@ recent_mentions:
 - slug: 2026-08-05-spooky-particles-transit-dc-suburbs-a-step-toward-a-quantum-
   title: ‘Spooky’ Particles Transit DC Suburbs, a Step Toward a Quantum Network
   date: '2026-08-05'
-  kind: web
-- slug: 2026-07-24-nasa-announces-new-spacecraft-technology-demonstration-missi
-  title: NASA Announces New Spacecraft Technology Demonstration Mission at Moon
-  date: '2026-07-24'
-  kind: web
-- slug: 2026-07-09-non-cellular-5g-networks-simplified---hacksterio
-  title: Non-Cellular 5G Networks Simplified - Hackster.io
-  date: '2026-07-09'
   kind: web
 neighbors: []
 ---

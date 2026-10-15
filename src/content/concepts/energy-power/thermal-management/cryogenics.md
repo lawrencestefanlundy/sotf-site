@@ -10,20 +10,25 @@ related_concepts: []
 sources:
 - '[[2026-07-24-18b-illinois-chips-act-supports-zero-point-cryogenics-us-ent]]'
 - '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
+- '[[2026-09-24-faster-cryogenics-speeds-up-quantum-testing]]'
 auto_stub: true
 last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 16
+mention_count: 17
 frontier:
 - Does the ferromagnet/superconductor bilayer achieve the predicted 3.75 K operating point experimentally, and at what dark count rate and detection efficiency relative to sub-1 K devices 2026 06 17 hybrid ferromagnet snspds single photon induced order to dis?
 - What cooling power at 1.65 K is required per NiV- node, and how many nodes can a single closed-cycle cooler support once optical and control wiring heat loads are included 2026 07 03 a transition metal qubit in diamond with all optical control?
 - How does the 800 pT Hz^-1/2 room-temperature optomechanical figure compare against cryogenic magnetometers on sensitivity, bandwidth and total system power 2026 06 07 silicon photonic optomechanical magnetometer?
 - What fraction of quantum system capital and operating cost is attributable to cryogenics, and does the 2026 funding into cryogenic control electronics measurably reduce wiring heat load per qubit 2026 07 13 semiengineering startup funding q2 2026?
 sources_7d: 0
-sources_30d: 0
+sources_30d: 1
 recent_mentions:
+- slug: 2026-09-24-faster-cryogenics-speeds-up-quantum-testing
+  title: Faster cryogenics speeds up quantum testing
+  date: '2026-09-24'
+  kind: web
 - slug: 2026-07-24-18b-illinois-chips-act-supports-zero-point-cryogenics-us-ent
   title: $1.8B Illinois Chips Act Supports Zero Point Cryogenics’ U.S. Entry - Quantum Zeitgeist
   date: '2026-07-24'

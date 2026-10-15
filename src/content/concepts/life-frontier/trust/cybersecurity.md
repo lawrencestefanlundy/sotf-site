@@ -22,9 +22,9 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-mention_count: 136
-sources_7d: 3
-sources_30d: 11
+mention_count: 137
+sources_7d: 1
+sources_30d: 9
 recent_mentions:
 - slug: 2026-09-04-why-laser-beams-are-the-hottest-new-tech-in-defense
   title: Why Laser Beams Are the Hottest New Tech in Defense

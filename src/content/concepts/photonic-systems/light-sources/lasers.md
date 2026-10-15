@@ -25,7 +25,7 @@ sources:
 - '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 - '[[2026-07-10-the-next-vc-meme-is]]'
-mention_count: 281
+mention_count: 282
 descendants:
 - external-laser-source
 - laser-display-light-engines
@@ -35,6 +35,10 @@ recent_mentions:
 - slug: 2026-10-08-how-to-arrange-hundreds-of-atoms-between-two-mirrors
   title: How To Arrange Hundreds of Atoms Between Two Mirrors
   date: '2026-10-08'
+  kind: web
+- slug: 2026-09-17-metasurface-optical-device-boosts-nonlinear-frequency-conver
+  title: Metasurface optical device boosts nonlinear frequency conversion
+  date: '2026-09-17'
   kind: web
 - slug: 2026-09-04-why-laser-beams-are-the-hottest-new-tech-in-defense
   title: Why Laser Beams Are the Hottest New Tech in Defense
@@ -59,10 +63,6 @@ recent_mentions:
 - slug: 2026-07-10-the-next-vc-meme-is
   title: The Next VC Meme Is...
   date: '2026-07-10'
-  kind: substack
-- slug: 2026-07-07-the-asml-killer
-  title: The ASML Killer?
-  date: '2026-07-07'
   kind: substack
 neighbors: []
 ---

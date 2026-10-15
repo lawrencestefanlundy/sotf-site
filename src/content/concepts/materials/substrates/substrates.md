@@ -74,7 +74,7 @@ scorecard:
   verdict: Underrated
 scorecard_status: draft
 sources_7d: 2
-sources_30d: 14
+sources_30d: 13
 recent_mentions:
 - slug: 2026-08-31-qcells-tandem-iec-ul-certification-tuv-rheinland
   title: Qcells secures TUV Rheinland certification for perovskite-silicon tandem solar tech (pv magazine, 16 Jul 2026; pv-tech corroborating)

@@ -23,8 +23,8 @@ scorecard:
   verdict: ''
 scorecard_status: draft
 mention_count: 119
-sources_7d: 6
-sources_30d: 20
+sources_7d: 3
+sources_30d: 18
 recent_mentions:
 - slug: 2026-10-12-chip-mediated-manipulation-of-photonic-quantum-skyrmions
   title: Chip-mediated manipulation of photonic quantum skyrmions

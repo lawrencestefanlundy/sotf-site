@@ -50,8 +50,12 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 2
-sources_30d: 11
+sources_30d: 8
 recent_mentions:
+- slug: 2026-10-15-us-optical-chip-gyroscope-gets-2000-fold-sensitivity-boost-d
+  title: US optical chip gyroscope gets 2,000-fold sensitivity boost, detects slow rotation
+  date: '2026-10-15'
+  kind: web
 - slug: 2026-10-12-tiny-pluggable-optical-module-boosts-data-center-bandwidth-4
   title: Tiny pluggable optical module boosts data center bandwidth 4x without extra hardware
   date: '2026-10-12'
@@ -79,10 +83,6 @@ recent_mentions:
 - slug: 2026-06-16-coherent-signs-loi-for-up-to-50m-chips-act-grant-to-expand-t
   title: Coherent signs LOI for up to $50M CHIPS Act grant to expand Texas indium phosphide fab - Dealroom
   date: '2026-06-16'
-  kind: web
-- slug: 2026-06-01-nibras-ucl-chipstart
-  title: UCL EEE ventures selected for national ChipStart programme (incl. Nibras Communications)
-  date: '2026-06-01'
   kind: web
 neighbors: []
 ---

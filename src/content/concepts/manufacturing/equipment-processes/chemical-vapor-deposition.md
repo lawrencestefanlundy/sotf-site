@@ -49,8 +49,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 2
-sources_30d: 11
+sources_7d: 1
+sources_30d: 10
 recent_mentions:
 - slug: 2025-07-01-a-primer-carbon-nanotubes
   title: 'A Primer: Carbon Nanotubes'

@@ -75,16 +75,6 @@ Caveat: none of these is the deal's true SAM. GTM A's real market is the enzyme-
 
 ## Incumbents / comparables
 
-| Company | Segment | What they do | Status |
-|---|---|---|---|
-| **Codexis** | enzyme-eng | CodeEvolver directed evolution; enzymes for Januvia, Paxlovid; ECO Synthesis | Public; FY25 rev ~$64 to 68M; $37.8M Merck deal Oct 2025 |
-| **Ginkgo Bioworks** | platform | Cell-programming foundry, strain/enzyme dev | Public; 2025 rev ~$167 to 187M guide |
-| **Cradle** | enzyme-eng (AI) | Gen-AI enzyme design plus wet lab | $73M Series B (IVP, 2024) |
-| Solugen | biomanufacturing | Evolved enzymes plus catalysis for industrial chemicals | Private |
-| **Advanced Silicon Group** | PAT | Si-nanowire photoelectric biosensor for host-cell-protein, <15 min | MIT spinout, grant-funded; closest GTM-B comparable |
-| Hamilton / Mettler-Toledo / **Sartorius** / Repligen | PAT | Incumbent in-line probes (pH, DO, biomass), Raman/NIR | Public/large |
-| PacBio / Oxford Nanopore | single-molecule (analogy) | SMRT / nanopore instruments | Public; proves single-molecule can be a product, in sequencing not enzymology |
-
 ## Why now
 
 - GTM A: in directed evolution the functional-assay step is the bottleneck and is locked to fluorescence. Droplet sorting hits 1 to 2 kHz; even at a million variants per hour, one year covers under 0.1% of a library, and most droplet assays still need a fluorogenic readout. Meanwhile AI enzyme design (**Cradle**, foundation-model protein work) is demand-pulling for clean functional labels at scale. A label-free turnover read is timely.
@@ -96,8 +86,6 @@ Caveat: none of these is the deal's true SAM. GTM A's real market is the enzyme-
 - The more credible "sense to manufacture" bridge is GTM A. Enzyme-engineering value is captured by licensing or supplying the resulting biocatalyst (**Codexis** monetises CodeEvolver enzymes into named pharma processes). The sensor sits upstream of a proven value-capture model: a better screen gives a better enzyme gives a licensable asset. GTM B (closed-loop control) is the larger but slower sale into a conservative, GxP-validated buyer where value accrues to the manufacturer, not the sensor vendor. Higher enterprise value and faster validation on A; larger but slower, more physics-defensible moat on B.
 
 ## Evidence base
-
-Grounded in six web sources (2026-06-04 pull). Key: industrial enzymes ~$7.9 to 8.4B at 6 to 7% CAGR; PAT ~$4B (2025) to ~$11B (2035) at ~10.7%; droplet screening covers under 0.1% of a library per year and is fluorescence-gated; Debye length ~0.7 nm vs 5 to 10 nm protein explains why charge-based in-broth sensing fails; Advanced Silicon Group is the closest in-broth-sensor comparable. Company name "Six Biosciences" did not surface publicly (only the unrelated Sixfold Bioscience): treat as genuinely stealth and unverified.
 
 ## Connected ideas
 

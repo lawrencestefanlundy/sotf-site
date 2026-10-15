@@ -31,6 +31,7 @@ sources:
 - '[[2025-10-28-ceva-wi-fi-7-client-ip-supports-ai-enabled-iot-devices-and-p]]'
 - '[[2026-04-20-robot-autonomy-destination-bessemer-venture-partners]]'
 - '[[2026-08-06-the-year-ai-science-and-the-physical-ai-industry-came-alive]]'
+- '[[2026-10-13-dyna-2-general-purpose-physical-agents-with-hour-long-autono]]'
 - '[[2026-09-01-chinas-ai-rally-is-real-most-global-investors-are-missing-it]]'
 - '[[2026-04-20-physical-ai-deploys-this-decade-bessemer-predicts-robotics]]'
 - '[[2026-07-01-sensifai-memo-streaming-physical-ai]]'
@@ -52,7 +53,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 120
+mention_count: 122
 descendants:
 - dexterous-manipulation
 - humanoid-robots
@@ -62,9 +63,13 @@ descendants:
 - tactile-sensing
 - vision-language-action-models
 - world-models
-sources_7d: 1
-sources_30d: 17
+sources_7d: 2
+sources_30d: 15
 recent_mentions:
+- slug: 2026-10-13-dyna-2-general-purpose-physical-agents-with-hour-long-autono
+  title: 'Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics'
+  date: '2026-10-13'
+  kind: web
 - slug: 2026-10-07-hiphi-a-large-scale-benchmark-for-high-precision-human-motio
   title: 'HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object Interaction'
   date: '2026-10-07'
@@ -92,10 +97,6 @@ recent_mentions:
 - slug: 2026-09-01-chinas-ai-rally-is-real-most-global-investors-are-missing-it
   title: China’s AI Rally Is Real. Most Global Investors Are Missing It.
   date: '2026-09-01'
-  kind: web
-- slug: 2026-08-06-the-year-ai-science-and-the-physical-ai-industry-came-alive
-  title: The Year AI Science and the Physical AI Industry Came Alive
-  date: '2026-08-06'
   kind: web
 neighbors:
 - slug: humanoid-robots

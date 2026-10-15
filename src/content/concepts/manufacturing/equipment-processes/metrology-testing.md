@@ -34,6 +34,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-14-one-sample-many-dimensions-prospects-for-multimodal-nanoscal
+  title: 'One sample, many dimensions: prospects for multimodal nanoscale characterization'
+  date: '2026-10-14'
+  kind: web
 - slug: 2026-10-13-patterned-x-rays-map-3d-chemical-structures-faster-with-fewe
   title: Patterned X-rays map 3D chemical structures faster with fewer measurements
   date: '2026-10-13'
@@ -50,6 +54,10 @@ recent_mentions:
   title: Rearranging Crystals from Within
   date: '2026-10-05'
   kind: web
+- slug: 2026-09-21-in-situ-and-operando-optical-microscopy-and-spectroscopy-inv
+  title: 'In situ and operando optical microscopy and spectroscopy: investigating perovskite optoelectronic devices at work'
+  date: '2026-09-21'
+  kind: web
 - slug: 2026-08-31-channel-emulator-for-6-g-and-wi-fi-78---31-august-2026---con
   title: Channel emulator for 6 G and Wi-Fi 7/8 - 31 August 2026 - Concilium Technologies - dataweek.co.za
   date: '2026-08-31'
@@ -57,14 +65,6 @@ recent_mentions:
 - slug: 2026-08-12-viavi-introduces-industrys-first-channel-emulator-for-6g-and
   title: VIAVI Introduces Industry's First Channel Emulator for 6G and Wi-Fi 7/8 - barchart.com
   date: '2026-08-12'
-  kind: web
-- slug: 2026-07-22-astera-partnering-with-the-national-science-foundation-to-su
-  title: Astera Partnering with the National Science Foundation to Support Open Science
-  date: '2026-07-22'
-  kind: web
-- slug: 2026-07-10-quantumdiamonds-raises-91m-in-eu-chips-act-first-for-its-dia
-  title: QuantumDiamonds raises €91M in EU Chips Act first for its diamond chip scanner - Dealroom
-  date: '2026-07-10'
   kind: web
 neighbors: []
 ---

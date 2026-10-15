@@ -33,7 +33,7 @@ tags:
 - concept
 - core-concept
 mention_count: 11
-sources_7d: 2
+sources_7d: 1
 sources_30d: 3
 recent_mentions:
 - slug: 2026-07-26-ai-backend-network-optics-2026

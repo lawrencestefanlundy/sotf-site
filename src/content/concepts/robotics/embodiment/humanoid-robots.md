@@ -73,9 +73,9 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Overrated
 scorecard_status: draft
-mention_count: 128
+mention_count: 129
 sources_7d: 15
-sources_30d: 20
+sources_30d: 19
 recent_mentions:
 - slug: 2026-10-11-chinese-ev-giants-31-joint-humanoid-robot-could-soon-greet-y
   title: Chinese EV giant’s 31-joint humanoid robot could soon greet you at the car dealership

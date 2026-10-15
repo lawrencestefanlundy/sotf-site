@@ -33,9 +33,17 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-14-author-correction-wafer-scale-epitaxy-growth-of-high-mobilit
+  title: 'Author Correction: Wafer-scale epitaxy growth of high-mobility p-type boron carbon nitride'
+  date: '2026-10-14'
+  kind: web
 - slug: 2026-10-13-oxygen-based-chipmaking-method-controls-2d-crystal-growth-wi
   title: Oxygen-based chipmaking method controls 2D crystal growth with over 99% success
   date: '2026-10-13'
+  kind: web
+- slug: 2026-09-21-in-situ-and-operando-optical-microscopy-and-spectroscopy-inv
+  title: 'In situ and operando optical microscopy and spectroscopy: investigating perovskite optoelectronic devices at work'
+  date: '2026-09-21'
   kind: web
 - slug: 2026-10-12-ocsial-press-kit-2026
   title: OCSiAl company backgrounder (press kit, English)

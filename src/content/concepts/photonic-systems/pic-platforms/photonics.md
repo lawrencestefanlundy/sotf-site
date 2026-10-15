@@ -51,7 +51,7 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-mention_count: 1206
+mention_count: 1207
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -61,10 +61,22 @@ descendants:
 - optical-frequency-division
 - optoelectronic-oscillator
 sources_7d: 4
-sources_30d: 6
+sources_30d: 5
 recent_mentions:
+- slug: 2026-10-15-us-optical-chip-gyroscope-gets-2000-fold-sensitivity-boost-d
+  title: US optical chip gyroscope gets 2,000-fold sensitivity boost, detects slow rotation
+  date: '2026-10-15'
+  kind: web
+- slug: 2026-10-14-new-chip-scale-gyroscope-measures-rotation-with-unprecedente
+  title: New chip-scale gyroscope measures rotation with unprecedented sensitivity
+  date: '2026-10-14'
+  kind: web
 - slug: 2026-10-12-tiny-pluggable-optical-module-boosts-data-center-bandwidth-4
   title: Tiny pluggable optical module boosts data center bandwidth 4x without extra hardware
+  date: '2026-10-12'
+  kind: web
+- slug: 2026-10-12-the-absurd-engineering-behind-the-internet
+  title: The Absurd Engineering Behind the Internet
   date: '2026-10-12'
   kind: web
 - slug: 2026-10-12-cnt-electronics-market-research
@@ -82,18 +94,6 @@ recent_mentions:
 - slug: 2026-10-07-china-the-fcc-and-the-logic-of-transceivers
   title: China, the FCC, and the Logic of Transceivers
   date: '2026-10-07'
-  kind: web
-- slug: 2026-09-28-nasa-orbit-challenge-2027
-  title: NASA ORBIT Challenge 2027
-  date: '2026-09-28'
-  kind: web
-- slug: 2026-09-03-high-capacity-associative-memory-in-a-quantum-optical-spin-g
-  title: High-capacity associative memory in a quantum-optical spin glass
-  date: '2026-09-03'
-  kind: web
-- slug: 2026-08-24-nist-researchers-supersize-quantum-technology-to-help-detect
-  title: NIST Researchers Supersize Quantum Technology to Help Detect Faint Photons
-  date: '2026-08-24'
   kind: web
 neighbors: []
 ---

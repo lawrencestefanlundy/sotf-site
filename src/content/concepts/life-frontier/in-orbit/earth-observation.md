@@ -44,8 +44,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 3
-sources_30d: 6
+sources_7d: 2
+sources_30d: 5
 recent_mentions:
 - slug: 2026-10-13-brycetech-smallsats-by-the-numbers-2026
   title: 'BryceTech, Smallsats by the Numbers 2026: 4,466 smallsats launched in 2025, 79% LEO broadband megaconstellations'

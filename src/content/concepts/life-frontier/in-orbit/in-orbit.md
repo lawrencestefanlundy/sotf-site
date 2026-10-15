@@ -33,7 +33,7 @@ descendants:
 - sar-satellites
 - space-communications
 sources_7d: 2
-sources_30d: 9
+sources_30d: 8
 recent_mentions:
 - slug: 2026-10-09-europes-space-defenses-fall-just-shy-of-weaponization
   title: Europe’s Space Defenses Fall Just Shy of Weaponization

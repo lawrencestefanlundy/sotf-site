@@ -17,6 +17,7 @@ sources:
 - '[[2026-05-01-state-of-the-future-friday-four-7b7]]'
 - '[[2026-07-01-sensifai-memo-streaming-physical-ai]]'
 - '[[2026-06-10-biohub-the-future-of-biology-is-open-source-with-co-founders]]'
+- '[[2025-02-19-satya-nadella-microsofts-agi-plan-quantum-breakthrough]]'
 frontier:
 - Over what horizon does a learned world model stay accurate enough for closed-loop control on a real process, and does any source yet report that horizon for a physical robot rather than a mesh or a text environment?
 - Can the misprediction attack surface be closed, or is it intrinsic to approximate world modelling as claimed, in which case what supervisory architecture makes an unreliable predictor safe to deploy near people?
@@ -31,7 +32,7 @@ tags:
 - robotics
 - ai
 - world-models
-mention_count: 59
+mention_count: 60
 scorecard:
   viability: 2
   drivers: 3
@@ -41,8 +42,8 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 10
-sources_30d: 17
+sources_7d: 9
+sources_30d: 16
 recent_mentions:
 - slug: 2026-07-01-sensifai-memo-streaming-physical-ai
   title: SensifAI — Purpose-Built Silicon for Streaming Physical AI (funding memo)
@@ -56,6 +57,10 @@ recent_mentions:
   title: 'State of the Future: Friday Four'
   date: '2026-05-01'
   kind: substack
+- slug: 2025-02-19-satya-nadella-microsofts-agi-plan-quantum-breakthrough
+  title: Satya Nadella — Microsoft’s AGI plan & quantum breakthrough
+  date: '2025-02-19'
+  kind: web
 - slug: 2025-02-05-you-like-ai-agents-you-are-gonna
   title: Decentralised AI (Feat. Richard Blythman of Naptha)
   date: '2025-02-05'

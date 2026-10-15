@@ -15,7 +15,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 2
+mention_count: 3
 frontier:
 - Which intermediate and rack-level bus voltages are actually being deployed, and what end-to-end efficiency is measured from grid input to accelerator core rail?
 - How much of the conversion stack moves into or onto the accelerator package, and what does that do to package thermal budgets?

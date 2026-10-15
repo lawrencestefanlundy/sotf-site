@@ -47,13 +47,13 @@ recent_mentions:
   title: Ultrarapid deep 3D histology enables intraoperative mapping of glioma infiltration
   date: '2026-08-03'
   kind: web
+- slug: 2026-07-29-hyperdoped-silicon-photodiode-sets-efficiency-record
+  title: Hyperdoped Silicon Photodiode Sets Efficiency Record
+  date: '2026-07-29'
+  kind: web
 - slug: 2026-06-03-your-phone-can-use-tiny-skin-colour-changes-to-measure-your-
   title: Your phone can use tiny skin-colour changes to measure your heart rate
   date: '2026-06-03'
-  kind: web
-- slug: 2026-01-13-quantum-imaging-startup-diffraqtion-emerges-from-stealth---p
-  title: Quantum Imaging Startup Diffraqtion Emerges from Stealth - Payload Space
-  date: '2026-01-13'
   kind: web
 neighbors: []
 ---

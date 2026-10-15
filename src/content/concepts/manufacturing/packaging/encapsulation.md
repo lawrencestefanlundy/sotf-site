@@ -9,6 +9,7 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2025-02-25-data-driven-vc-is-over]]'
+- '[[2026-10-13-transporter-18-smallsats-encapsulation]]'
 - '[[2026-06-22-tim-approaches-full-sweep]]'
 - '[[2026-06-17-nawah-vacnt-technology]]'
 - '[[2026-05-15-preparing-smile-for-space]]'
@@ -17,7 +18,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 40
+mention_count: 43
 scorecard:
   viability: 4
   drivers: 3
@@ -32,9 +33,13 @@ frontier:
 - What fraction of encapsulated devices meet spec? None of the sources reports yield, and the plasmonic-lattice result shows two nominally similar samples behaving differently 2026 05 15 optimizing strong light matter coupling of plasmonic lattice.
 - Does the ~0.4 A/W potential responsivity of the WSe2-encapsulated graphene detector materialise, and does the bandwidth hold beyond the 110 GHz setup limit 2026 06 05 c band 160 gbs 1 zero bias graphene photodetectors breaking ?
 - Do the 38-year projected implant lifetimes from accelerated aging survive real-time chronic testing, and what is the actual failure mode of the ceramic-polymer stack 2026 06 24 biorxiv a thin film transistor backplane for scalable ?
-sources_7d: 2
-sources_30d: 7
+sources_7d: 4
+sources_30d: 8
 recent_mentions:
+- slug: 2026-10-13-transporter-18-smallsats-encapsulation
+  title: Transporter-18 SmallSats Encapsulation
+  date: '2026-10-13'
+  kind: web
 - slug: 2026-06-22-tim-approaches-full-sweep
   title: TIM approaches — exhaustive in-market + R&D sweep (vendors, classes, startups)
   date: '2026-06-22'

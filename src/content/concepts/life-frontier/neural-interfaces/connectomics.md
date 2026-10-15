@@ -17,6 +17,7 @@ related_concepts:
 - spatial-transcriptomics
 sources:
 - '[[2026-06-04-bezos-flourish-brain-core-algorithm]]'
+- '[[2025-09-08-363-a-new-frontier-in-neurosurgery-restoring-brain-function-]]'
 - '[[2026-10-13-tbrc-3d-neuroscience-market-report-mill]]'
 frontier:
 - Does the reconstruction cost per mm3 fall >=10x by 2030 (barcoding + ML proofreading), or does proofreading stay the wall?
@@ -28,7 +29,7 @@ tags:
 - technology
 - connectomics
 - neuroscience
-mention_count: 11
+mention_count: 13
 sources_7d: 1
 sources_30d: 2
 recent_mentions:
@@ -39,6 +40,10 @@ recent_mentions:
 - slug: 2026-06-04-bezos-flourish-brain-core-algorithm
   title: Jeff Bezos Is Funding a Wild Hunt for the Brain's 'Core Algorithm'
   date: '2026-06-04'
+  kind: web
+- slug: 2025-09-08-363-a-new-frontier-in-neurosurgery-restoring-brain-function-
+  title: '#363 ‒ A new frontier in neurosurgery: restoring brain function with brain-computer interfaces, advancing glioblastoma care, and new hope for devastating brain diseases | Edward Chang, M.D.'
+  date: '2025-09-08'
   kind: web
 neighbors:
 - slug: neuromorphic-computing

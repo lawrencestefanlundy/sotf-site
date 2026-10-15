@@ -11,12 +11,13 @@ related_concepts: []
 sources:
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2026-06-08-semianalysis-unitree-robotics]]'
+- '[[2026-05-20-ai-scientists-promise-to-accelerate-research-how-do-they-wor]]'
 - '[[2026-08-03-spad-single-photon-market-scan]]'
 - '[[2026-04-24-robot-autonomy-destination-photonics-sector-2026-rally]]'
 - '[[2026-05-31-companiesmarketcap]]'
 - '[[2026-06-17-single-photon-detector-market-spad-snspd]]'
 - '[[2026-05-30-companiesmarketcap]]'
-mention_count: 94
+mention_count: 95
 sources_7d: 8
 sources_30d: 15
 recent_mentions:
@@ -39,6 +40,10 @@ recent_mentions:
 - slug: 2026-05-30-companiesmarketcap
   title: companiesmarketcap.com
   date: '2026-05-30'
+  kind: web
+- slug: 2026-05-20-ai-scientists-promise-to-accelerate-research-how-do-they-wor
+  title: AI ‘scientists’ promise to accelerate research — how do they work?
+  date: '2026-05-20'
   kind: web
 - slug: 2026-04-24-robot-autonomy-destination-photonics-sector-2026-rally
   title: 'Photonics Sector 2026 Rally: LiDAR and Sensing Enable AI Robotics Value Chain'

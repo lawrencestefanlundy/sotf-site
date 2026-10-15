@@ -22,6 +22,10 @@ last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-12-the-absurd-engineering-behind-the-internet
+  title: The Absurd Engineering Behind the Internet
+  date: '2026-10-12'
+  kind: web
 - slug: 2025-09-23-the-compute-gradient
   title: The Compute Gradient
   date: '2025-09-23'

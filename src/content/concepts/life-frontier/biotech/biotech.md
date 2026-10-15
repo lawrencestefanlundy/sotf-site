@@ -11,6 +11,8 @@ sources:
 - '[[2023-10-19-e20-the-state-of-privacy-enhancing]]'
 - '[[2025-11-05-consensus-capital]]'
 - '[[2026-04-22-detecting-proteins-in-blood-with]]'
+- '[[2025-11-13-how-ai-will-accelerate-breakthroughs-in-biotechnology-with-b]]'
+- '[[2025-06-26-a-billion-years-of-evolution-in-a-single-afternoon-george-ch]]'
 - '[[2026-08-20-from-restoring-sight-to-reimagining-the-brain-with-max-hodak]]'
 - '[[2026-05-20-watts-wafers-and-the-future-of-ai-infra-gavin-baker]]'
 - '[[2026-05-13-inside-anthropics-100-billion-al-compute-commitment-cfo-kris]]'
@@ -19,7 +21,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 39
+mention_count: 41
 descendants:
 - 3d-bioprinting-platforms
 - 3d-printed-bioscaffolds
@@ -60,7 +62,7 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 1
+sources_7d: 0
 sources_30d: 2
 recent_mentions:
 - slug: 2026-08-20-from-restoring-sight-to-reimagining-the-brain-with-max-hodak
@@ -79,17 +81,21 @@ recent_mentions:
   title: Detecting Proteins in Blood with Photonics w/ Prateek of Proteins1
   date: '2026-04-22'
   kind: substack
+- slug: 2025-11-13-how-ai-will-accelerate-breakthroughs-in-biotechnology-with-b
+  title: How AI Will Accelerate Breakthroughs in Biotechnology with Benchling CEO Sajith Wickramasekara
+  date: '2025-11-13'
+  kind: web
 - slug: 2025-11-05-consensus-capital
   title: Consensus Capital
   date: '2025-11-05'
   kind: substack
+- slug: 2025-06-26-a-billion-years-of-evolution-in-a-single-afternoon-george-ch
+  title: A billion years of evolution in a single afternoon — George Church
+  date: '2025-06-26'
+  kind: web
 - slug: 2023-10-19-e20-the-state-of-privacy-enhancing
   title: Understanding Privacy Enhancing Technology (Feat. Karim Eldefrawy, Confidencial.io)
   date: '2023-10-19'
-  kind: substack
-- slug: 2023-06-15-e04-no10-downing-street-and-vector
-  title: '🔮 E04: No10 Downing Street and Vector Databases (titles you never expect)'
-  date: '2023-06-15'
   kind: substack
 neighbors: []
 ---

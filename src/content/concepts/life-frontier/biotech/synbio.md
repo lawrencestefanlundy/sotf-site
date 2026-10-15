@@ -20,6 +20,7 @@ sources:
 - '[[2023-08-18-e11-in-conversation-with-lux-capital]]'
 - '[[2023-05-24-launching-state-of-the-future]]'
 - '[[2015-12-14-darpa-sbir-injectable-diagnostics-chemical-sensors-synthetic]]'
+- '[[2025-06-26-a-billion-years-of-evolution-in-a-single-afternoon-george-ch]]'
 - '[[2026-07-01-mccarty-synthetic-cell-spudcell]]'
 frontier:
 - Does the >100,000-circuit dataset assembled with NIST LMSF produce ML models that predict integrated circuit behaviour on genuinely unseen designs, or only interpolate within the training library?
@@ -33,7 +34,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - category
-mention_count: 28
+mention_count: 30
 descendants:
 - biocatalysis-enzyme-engineering
 last_reorg_date: '2026-05-13'
@@ -46,12 +47,16 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 5
-sources_30d: 6
+sources_7d: 6
+sources_30d: 7
 recent_mentions:
 - slug: 2026-07-01-mccarty-synthetic-cell-spudcell
   title: Synthetic Cell Eats, Grows, Divides (SpudCell)
   date: '2026-07-01'
+  kind: web
+- slug: 2025-06-26-a-billion-years-of-evolution-in-a-single-afternoon-george-ch
+  title: A billion years of evolution in a single afternoon — George Church
+  date: '2025-06-26'
   kind: web
 - slug: 2023-08-18-e11-in-conversation-with-lux-capital
   title: '☎️ E11: In Conversation with Lux Capital on the State of the Future'

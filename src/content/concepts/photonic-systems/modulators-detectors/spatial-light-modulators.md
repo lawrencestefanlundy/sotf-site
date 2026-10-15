@@ -59,8 +59,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-sources_7d: 3
-sources_30d: 12
+sources_7d: 1
+sources_30d: 10
 recent_mentions:
 - slug: 2026-07-07-the-asml-killer
   title: The ASML Killer?

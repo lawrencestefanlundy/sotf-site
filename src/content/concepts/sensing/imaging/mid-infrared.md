@@ -25,8 +25,8 @@ mention_count: 134
 parent_concepts:
 - imaging
 - sensing
-sources_7d: 3
-sources_30d: 13
+sources_7d: 1
+sources_30d: 12
 recent_mentions: []
 neighbors:
 - slug: spectral-sensing

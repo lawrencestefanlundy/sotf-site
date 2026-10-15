@@ -70,9 +70,6 @@ Unit volumes are not the right metric here; design starts and program wins are. 
 - Margins separate the asset-light from the turnkey model. Pure design/NRE and IP-rich houses earn high margins: Faraday 45.7% gross [7], GUC ~30% gross (NRE higher, wafer lower) [5]. Turnkey houses that resell foundry wafers earn thin product margins: Alchip ~20% gross in FY24 [4]. Broadcom captures the richest margin because it owns the IP and the customer relationship rather than reselling wafers.
 - Who earns the margin: the layer that owns scarce advanced-node design talent and a captive IP library (Broadcom, GUC), not the layer that merely brokers the foundry slot.
 
-## Competitive landscape & value capture
-The moat is talent density plus a proven advanced-node track record plus a captive IP portfolio (SerDes, UCIe, HBM, 3D stacking). It is a relationship-and-reputation business: a hyperscaler will not hand a $1bn tapeout to an unproven house. Value accrues to whoever sits closest to the IP and the customer; it leaks away from anyone who is just a foundry sub-contractor (Alchip's AWS dependence and 20% gross margin shows the fragility of the broker position, sharpened when AWS moved Trainium 2 to Marvell [4]). EU / seed-relevant players exist but are small: EnSilica (AIM:ENSI, ~£28-30m FY25 guided, mixed-signal turnkey [10]), the new independent Dolphin Semiconductor and **NanoXplore**'s acquired Dolphin ASIC business (France/aerospace), and Presto Engineering. Alphawave Semi (UK-rooted, now US-acquired; $307.6m FY24, $515.5m bookings [11]) is the clearest example of a Western connectivity-IP-plus-custom-silicon play.
-
 ## Market drivers, constraints & trends
 Net read on this step's served market (design-services fee pool + the AI-custom-silicon programs it leads): accelerating into 2027-28, then a concentration overhang that decides who keeps the margin.
 

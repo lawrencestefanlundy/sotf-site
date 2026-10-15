@@ -31,10 +31,14 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 413
+mention_count: 416
 sources_7d: 1
-sources_30d: 12
+sources_30d: 11
 recent_mentions:
+- slug: 2026-10-13-faster-molecular-simulations-identify-promising-diamond-defe
+  title: Faster molecular simulations identify promising diamond defects for quantum computers and sensors
+  date: '2026-10-13'
+  kind: web
 - slug: 2026-10-11-ultraviolet-laser-creates-new-defects-in-diamond-without-dis
   title: Ultraviolet laser creates new defects in diamond without disturbing quantum centers
   date: '2026-10-11'
@@ -47,6 +51,10 @@ recent_mentions:
   title: 'Catalyst sweep: AI decoding, new sensing modalities, non-invasive deep stimulation, payment pathways (neuro, Oct 2026)'
   date: '2026-10-07'
   kind: web
+- slug: 2026-08-13-a-neutral-diamond-defect
+  title: A Neutral Diamond Defect
+  date: '2026-08-13'
+  kind: web
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
@@ -58,14 +66,6 @@ recent_mentions:
 - slug: 2026-07-10-quantumdiamonds-raises-91m-in-eu-chips-act-first-for-its-dia
   title: QuantumDiamonds raises €91M in EU Chips Act first for its diamond chip scanner - Dealroom
   date: '2026-07-10'
-  kind: web
-- slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
-  title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
-  date: '2026-07-02'
-  kind: web
-- slug: 2026-06-24-thermal-stack-arms-race-diamond-heat-spreaders-companies-in
-  title: Diamond Heat Spreaders Companies in 2026
-  date: '2026-06-24'
   kind: web
 neighbors:
 - slug: wide-bandgap-semiconductors

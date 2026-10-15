@@ -17,6 +17,7 @@ related_concepts:
 sources:
 - '[[2026-04-17-state-of-the-future-friday-four-67c]]'
 - '[[2025-01-27-ai-for-nuclear-fusion-feat-martin]]'
+- '[[2026-10-13-transporter-18-smallsats-encapsulation]]'
 frontier:
 - Can green monopropellants (e.g. AF-M315E, LMP-103S) fully displace hydrazine in LEO small-sat propulsion?
 - What is the practical Isp ceiling for Hall-effect thrusters at sub-100W power levels for cubesat scale?
@@ -25,12 +26,16 @@ last_updated: 2026-06-02
 tags:
 - concept
 - category
-mention_count: 4
+mention_count: 5
 descendants: []
 last_reorg_date: '2026-05-14'
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
+- slug: 2026-10-13-transporter-18-smallsats-encapsulation
+  title: Transporter-18 SmallSats Encapsulation
+  date: '2026-10-13'
+  kind: web
 - slug: 2026-04-17-state-of-the-future-friday-four-67c
   title: 'State of the Future: Friday Four'
   date: '2026-04-17'

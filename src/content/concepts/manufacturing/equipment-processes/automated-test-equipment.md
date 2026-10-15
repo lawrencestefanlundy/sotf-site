@@ -12,15 +12,20 @@ related_concepts:
 - probe-cards
 - known-good-die-test
 - metrology-testing
-sources: []
+sources:
+- '[[2026-08-12-a-quantum-memory-test]]'
 frontier: []
 last_updated: 2026-06-03
 tags:
 - concept
-mention_count: 2
+mention_count: 3
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-08-12-a-quantum-memory-test
+  title: A Quantum  Memory Test
+  date: '2026-08-12'
+  kind: web
 neighbors:
 - slug: probe-cards
   name: Wafer Probe Cards & Test Interconnect

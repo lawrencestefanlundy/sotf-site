@@ -21,7 +21,8 @@ tags:
 sources:
 - '[[2025-01-15-the-end-of-zero-marginal-costs-the]]'
 - '[[2026-07-09-in-die-microfluidic-cooling-sprint]]'
-mention_count: 20
+- '[[2025-08-14-chips-neoclouds-and-the-quest-for-ai-dominance-with-semianal]]'
+mention_count: 21
 parent_concepts:
 - compute-architecture
 - compute
@@ -45,6 +46,10 @@ recent_mentions:
 - slug: 2026-07-09-in-die-microfluidic-cooling-sprint
   title: In-die microfluidic cooling — cluster research sprint
   date: '2026-07-09'
+  kind: web
+- slug: 2025-08-14-chips-neoclouds-and-the-quest-for-ai-dominance-with-semianal
+  title: Chips, Neoclouds, and the Quest for AI Dominance with SemiAnalysis Founder and CEO Dylan Patel
+  date: '2025-08-14'
   kind: web
 - slug: 2025-01-15-the-end-of-zero-marginal-costs-the
   title: the end of zero-marginal costs + the end of your ai fund

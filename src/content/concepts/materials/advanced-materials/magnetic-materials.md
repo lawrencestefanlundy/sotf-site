@@ -9,7 +9,8 @@ parent_concepts:
 - advanced-materials
 related_concepts:
 - rare-earth-elements
-sources: []
+sources:
+- '[[2026-10-13-optical-skyrmions-can-control-the-motion-of-magnetic-skyrmio]]'
 frontier:
 - Can the ab-initio spin-lattice dynamics framework be run on a rare-earth transition-metal magnet composition, and at what computational cost per property (anisotropy, Curie temperature) rather than per validation case?
 - Does any altermagnetic or PT-symmetric antiferromagnetic effect in this stream survive above room temperature, given that the interfacial signature in RuO2/WSe2 appears only below 55 K?
@@ -19,7 +20,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - material
-mention_count: 47
+mention_count: 48
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 3
@@ -30,9 +31,13 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 3
-sources_30d: 6
+sources_7d: 4
+sources_30d: 7
 recent_mentions:
+- slug: 2026-10-13-optical-skyrmions-can-control-the-motion-of-magnetic-skyrmio
+  title: Optical skyrmions can control the motion of magnetic skyrmions
+  date: '2026-10-13'
+  kind: web
 - slug: 2026-10-12-iea-rare-earth-elements-2026
   title: 'Rare Earth Elements: Executive Summary'
   date: '2026-10-12'

@@ -20,7 +20,7 @@ mention_count: 21
 parent_concepts:
 - flow-rtl-design
 sources_7d: 0
-sources_30d: 3
+sources_30d: 1
 recent_mentions:
 - slug: 2026-05-12-semianalysis-eda-rtl-to-silicon
   title: 'The EDA Primer: From RTL to Silicon'
@@ -48,13 +48,6 @@ Synthesis is the first step where the design is committed to a specific foundry 
 ## Equipment market
 There is no physical equipment at this step. The "tool" market here is the digital design and implementation slice of EDA software. Total EDA (plus IP) was roughly $18B in 2025 and growing at ~13% CAGR, with the broader EDA software market often cited at $14-17B for 2024-2025 and a 9-11% CAGR to the mid-2030s [1][2][3]. Digital design and implementation (synthesis + place-and-route + physical verification) is the largest software sub-segment; IC physical design and verification alone is cited around $4.3B [4]. Standalone logic synthesis is a fraction of that (rough estimate, low-single-digit $B at most as a discrete licence line; it is usually bundled into broader implementation suites, so a clean number is not published).
 
-| Vendor | HQ | Est. share (synthesis) | Notable |
-|--------|-----|------|---------|
-| Synopsys | USA | ~84-85% [5] | Design Compiler (incumbent), Fusion Compiler, DSO.ai (AI-driven optimisation) |
-| Cadence | USA | secondary alternative [5] | Genus Synthesis, Cerebrus (AI flow), pulled through by Innovus P&R |
-| Siemens EDA | Germany/USA | small | Precision RTL synthesis (stronger in FPGA/verification than ASIC synthesis) |
-| YosysHQ | Austria | niche/open-source | Yosys + ABC; FPGA and open-PDK ASIC flows (OpenLane), not used at leading-edge |
-
 Concentration note: synthesis is the most concentrated tool category in EDA. Synopsys Design Compiler is reported at ~84-85% share, a near-monopoly that has held for years; Cadence Genus is the only credible commercial alternative [5]. The Big-3 (Synopsys ~31%, Cadence ~30%, Siemens ~13%) take >90% of all EDA revenue [1][6].
 
 ## Materials & consumables
@@ -62,9 +55,6 @@ No physical consumables. The recurring-revenue analogues are: (1) the foundry st
 
 ## Volumes, revenue, profitability
 "Volume" is design starts, not units: a few thousand serious ASIC/SoC tape-outs per year worldwide, of which leading-edge (sub-7nm) is a few hundred, and Synopsys claims involvement in ~100% of 3nm tape-outs and 2nm test chips [5]. The revenue pool attributable purely to synthesis is modest in absolute terms (rough estimate, low-single-digit $B) but strategically outsized because it anchors the much larger implementation suite. Profitability is exceptional: software gross margins are high (Cadence GAAP gross margin ~86%, Synopsys ~74% blended including IP/hardware), and non-GAAP operating margins are 37% (Synopsys FY2024) to ~42% (Cadence FY2024) [5][7][8]. The margin is earned by the tool vendor, not the foundry or fabless customer; it is among the most profitable software in the semiconductor stack.
-
-## Competitive landscape & value capture
-The moat is methodology lock-in plus correlated tool quality: a customer's golden synthesis scripts, library characterisation and sign-off correlation are tuned to one vendor's engine, and synthesis pulls through that vendor's place-and-route and timing sign-off. Value accrues overwhelmingly to Synopsys, with Cadence the durable number two; this has been stable for over a decade and is reinforced by AI flows that further entangle the design. EU/seed-relevant: the only structural challenger is open-source (Yosys, maintained largely by YosysHQ GmbH in Austria, with the ABC engine), which is real for FPGA and open-PDK/academic ASIC flows but has no foothold at the leading edge where the money is; a seed bet here is a tooling-around-open-source or AI-synthesis play, not a frontal assault. Routing line: the value pool is a high-margin software duopoly compounding at ~13%, so the cleanest exposure is public markets (own SNPS / CDNS directly, holding the synthesis monopoly and the implementation suite it pulls through). Early-stage exposure (Lunar / angel) is only credible via AI-native or open-source-adjacent EDA startups, high-risk because the incumbents absorb AI fast. There is no hardware/materials wedge at this software-only step, so it is orthogonal to a pre-seed deep-tech materials mandate.
 
 ## Market drivers, constraints & trends
 Net read: the synthesis-anchored implementation pool is set to keep compounding faster than its long-run ~10% trend, with a re-rate already underway from AI-priced tools, though China is the offset.

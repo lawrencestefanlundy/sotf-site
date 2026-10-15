@@ -123,6 +123,10 @@ descendants:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-14-nuclear-powered-data-centers-its-a-tough-sell-in-utah-coal-c
+  title: Nuclear-powered data centers? It’s a tough sell in Utah coal country.
+  date: '2026-10-14'
+  kind: web
 - slug: 2026-10-13-texas-oilfield-wastewater-could-help-cool-data-centers-witho
   title: Texas oilfield wastewater could help cool data centers without draining freshwater
   date: '2026-10-13'
@@ -150,10 +154,6 @@ recent_mentions:
 - slug: 2026-10-08-constellation-and-google-go-in-on-nuclear-uprates-to-unlock-
   title: Constellation and Google go in on nuclear uprates to unlock clean power
   date: '2026-10-08'
-  kind: web
-- slug: 2026-10-07-ieee-report-predicts-tech-that-will-transform-lives
-  title: IEEE Report Predicts Tech That Will Transform Lives
-  date: '2026-10-07'
   kind: web
 neighbors: []
 ---

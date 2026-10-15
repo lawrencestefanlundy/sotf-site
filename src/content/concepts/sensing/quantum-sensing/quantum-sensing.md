@@ -34,9 +34,17 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-sources_7d: 1
-sources_30d: 15
+sources_7d: 0
+sources_30d: 14
 recent_mentions:
+- slug: 2026-10-15-us-optical-chip-gyroscope-gets-2000-fold-sensitivity-boost-d
+  title: US optical chip gyroscope gets 2,000-fold sensitivity boost, detects slow rotation
+  date: '2026-10-15'
+  kind: web
+- slug: 2026-10-14-new-chip-scale-gyroscope-measures-rotation-with-unprecedente
+  title: New chip-scale gyroscope measures rotation with unprecedented sensitivity
+  date: '2026-10-14'
+  kind: web
 - slug: 2026-10-13-faster-molecular-simulations-identify-promising-diamond-defe
   title: Faster molecular simulations identify promising diamond defects for quantum computers and sensors
   date: '2026-10-13'
@@ -60,14 +68,6 @@ recent_mentions:
 - slug: 2026-07-21-precision-astrometry-using-optically-independent-spacecraft-
   title: Precision Astrometry Using Optically Independent Spacecraft for Graviational Wave Detection
   date: '2026-07-21'
-  kind: web
-- slug: 2026-07-08-nukes-in-space-orbital-detector-could-sniff-out-warheads
-  title: Nukes in space? Orbital detector could sniff out warheads
-  date: '2026-07-08'
-  kind: web
-- slug: 2026-05-02-arpa-e-expands-quantum-computing-portfolio-with-multi-millio
-  title: ARPA-E Expands Quantum Computing Portfolio with Multi-Million Dollar Awards to LLNL and Infleqtion - Quantum Computing Report
-  date: '2026-05-02'
   kind: web
 neighbors: []
 ---

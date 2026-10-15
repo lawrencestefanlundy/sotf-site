@@ -27,6 +27,7 @@ sources:
 - '[[2025-11-09-openai-urges-trump-administration-to-expand-chips-act-incent]]'
 - '[[2026-06-14-frontier-ai-value-capture]]'
 - '[[2025-09-16-talent-as-constraint-csis-analysis-apprenticeship-programs]]'
+- '[[2025-08-14-chips-neoclouds-and-the-quest-for-ai-dominance-with-semianal]]'
 - '[[2026-05-27-semianalysis-aws-bedrock-margins]]'
 - '[[2026-06-02-frontier-llm-scaling-big-tech-ai-capex-2026-microsoft]]'
 - '[[2026-07-08-why-ai-infrastructure-must-evolve-for-agent-experience-aksha]]'
@@ -47,7 +48,6 @@ sources:
 - '[[2026-03-12-photonics-material-class-war-hyperlight-umc-and-wavetek]]'
 - '[[2026-idc-ai-infrastructure-tracker]]'
 - '[[2026-07-01-the-next-ai-infrastructure-opportunity-is-unlocking-what-we-]]'
-- '[[2026-04-01-ark-ai-infrastructure]]'
 scorecard:
   viability: 4
   drivers: 5
@@ -57,7 +57,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 138
+mention_count: 139
 descendants:
 - ai-grade-datacentre-real-estate
 - ai-infrastructure-scaling
@@ -68,7 +68,7 @@ descendants:
 - moe-all-to-all-collectives
 - prefill-vs-decode
 - sovereign-ai
-sources_7d: 1
+sources_7d: 0
 sources_30d: 6
 recent_mentions:
 - slug: 2026-09-01-eu-taiwan-chip-dialogue-targets-ai-infrastructure-partnershi

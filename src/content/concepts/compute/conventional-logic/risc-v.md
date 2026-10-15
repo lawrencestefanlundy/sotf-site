@@ -38,7 +38,7 @@ scorecard:
 scorecard_status: draft
 mention_count: 120
 sources_7d: 1
-sources_30d: 14
+sources_30d: 13
 recent_mentions:
 - slug: 2026-10-12-cnt-electronics-market-research
   title: 'Carbon nanotube electronics: market, cohort and M&A research (web sweep, 82 sources)'

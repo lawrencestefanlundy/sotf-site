@@ -21,6 +21,7 @@ sources:
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 - '[[2026-07-13-department-of-commerce-announces-direct-funding-agreement-wi]]'
+- '[[2026-10-13-liquid-metal-dealloying-creates-nanoporous-silicon-carbide-a]]'
 - '[[2026-06-12-hku-sic-cryogenic-neuromorphic-chip-10mk]]'
 - '[[2024-06-01-stmicroelectronics-to-build-5bn-silicon-carbide-campus-in-it]]'
 scorecard:
@@ -32,10 +33,14 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 66
-sources_7d: 1
-sources_30d: 8
+mention_count: 68
+sources_7d: 2
+sources_30d: 7
 recent_mentions:
+- slug: 2026-10-13-liquid-metal-dealloying-creates-nanoporous-silicon-carbide-a
+  title: Liquid metal dealloying creates nanoporous silicon carbide at just 800°C
+  date: '2026-10-13'
+  kind: web
 - slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint
   title: 'What actually limits a humanoid to minutes: the thermal cliff, not the battery'
   date: '2026-07-26'
@@ -63,10 +68,6 @@ recent_mentions:
 - slug: 2026-06-22-tim-approaches-full-sweep
   title: TIM approaches — exhaustive in-market + R&D sweep (vendors, classes, startups)
   date: '2026-06-22'
-  kind: web
-- slug: 2026-06-12-hku-sic-cryogenic-neuromorphic-chip-10mk
-  title: HKU world-first cryogenic neuromorphic chip at 10 mK (silicon carbide, impact-ionisation spiking)
-  date: '2026-06-12'
   kind: web
 neighbors:
 - slug: wide-bandgap-semiconductors

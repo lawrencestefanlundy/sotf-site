@@ -6,15 +6,15 @@ const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
 
 // Macro → fill color (same palette as RadialGraph)
 const MACRO_FILLS: Record<string, string> = {
-  "compute":          "#1e293b",
-  "memory":           "#334155",
-  "sensing":          "#475569",
-  "communications":   "#0f766e",
-  "energy-power":     "#57534e",
-  "manufacturing":    "#292524",
-  "materials":        "#78716c",
-  "photonic-systems": "#0f172a",
-  "life-frontier":    "#3f3f46",
+  "compute":          "#2B2119",
+  "memory":           "#4E4034",
+  "sensing":          "#6F6152",
+  "communications":   "#3E5A7A",
+  "energy-power":     "#8A6A2E",
+  "manufacturing":    "#3A2D22",
+  "materials":        "#968A78",
+  "photonic-systems": "#22304A",
+  "life-frontier":    "#5E7F6A",
 };
 const MACRO_NAMES: Record<string, string> = {
   "compute": "Compute",
@@ -139,7 +139,7 @@ const data = {
         ln.setAttribute("y1", l.source.y);
         ln.setAttribute("x2", l.target.x);
         ln.setAttribute("y2", l.target.y);
-        ln.setAttribute("stroke", "#12121214");
+        ln.setAttribute("stroke", "#2B211914");
         ln.setAttribute("stroke-width", "1");
         gEdges.appendChild(ln);
       }
@@ -151,8 +151,8 @@ const data = {
         c.setAttribute("cx", n.x);
         c.setAttribute("cy", n.y);
         c.setAttribute("r", r);
-        c.setAttribute("fill", macroFills[n.macro] || "#334155");
-        c.setAttribute("stroke", "#fff7f4");
+        c.setAttribute("fill", macroFills[n.macro] || "#4E4034");
+        c.setAttribute("stroke", "#F7F2E7");
         c.setAttribute("stroke-width", "1");
         const title = document.createElementNS(NS, "title");
         title.textContent = n.name + " (" + n.macro + ")";
@@ -203,8 +203,8 @@ const data = {
 
   <style>
     #atlas-container {
-      border: 1px solid #1212121f;
-      background: #fff0ea;
+      border: 1px solid #D5C9B0;
+      background: #EEE6D5;
       margin: 1rem 0 2rem;
       position: relative;
     }
@@ -221,8 +221,8 @@ const data = {
       top: 0.6rem;
       right: 0.8rem;
       padding: 0.25rem 0.6rem;
-      background: #fff7f4;
-      border: 1px solid #1212121f;
+      background: #F7F2E7;
+      border: 1px solid #D5C9B0;
       font-size: 0.7rem;
     }
     .atlas-legend {
@@ -230,9 +230,9 @@ const data = {
       flex-wrap: wrap;
       gap: 0.6rem 1.2rem;
       margin: 1rem 0 0.5rem;
-      font-family: "JetBrains Mono", ui-monospace, monospace;
+      font-family: "IBM Plex Mono", ui-monospace, monospace;
       font-size: 0.75rem;
-      color: #12121299;
+      color: #2B211999;
     }
     .legend-chip {
       display: inline-flex;

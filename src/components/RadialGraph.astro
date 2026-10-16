@@ -25,15 +25,15 @@ const n = visible.length;
 
 // Macro → accent colour (slate variants — single teal for centre)
 const MACRO_FILLS: Record<string, string> = {
-  "compute":          "#1e293b",
-  "memory":           "#334155",
-  "sensing":          "#475569",
-  "communications":   "#0f766e",
-  "energy-power":     "#57534e",
-  "manufacturing":    "#292524",
-  "materials":        "#78716c",
-  "photonic-systems": "#0f172a",
-  "life-frontier":    "#3f3f46",
+  "compute":          "#2B2119",
+  "memory":           "#4E4034",
+  "sensing":          "#6F6152",
+  "communications":   "#3E5A7A",
+  "energy-power":     "#8A6A2E",
+  "manufacturing":    "#3A2D22",
+  "materials":        "#968A78",
+  "photonic-systems": "#22304A",
+  "life-frontier":    "#5E7F6A",
 };
 
 // Geometry — laid out on a circle
@@ -56,7 +56,7 @@ function pointOnRing(i: number): { x: number; y: number; angle: number } {
       {/* Spokes — drawn first so they sit under the nodes */}
       {visible.map((_, i) => {
         const p = pointOnRing(i);
-        return <line x1={cx} y1={cy} x2={p.x} y2={p.y} stroke="#1212121f" stroke-width="1" />;
+        return <line x1={cx} y1={cy} x2={p.x} y2={p.y} stroke="#D5C9B0" stroke-width="1" />;
       })}
 
       {/* Neighbour nodes — each is a clickable <a> with a <circle> + label */}
@@ -71,7 +71,7 @@ function pointOnRing(i: number): { x: number; y: number; angle: number } {
         const label = node.name.length > 20 ? node.name.slice(0, 19) + "…" : node.name;
         return (
           <a href={node.path}>
-            <circle cx={p.x} cy={p.y} r={nodeR} fill={MACRO_FILLS[node.macro] ?? "#334155"} />
+            <circle cx={p.x} cy={p.y} r={nodeR} fill={MACRO_FILLS[node.macro] ?? "#4E4034"} />
             <text x={lx} y={ly} text-anchor={anchor} dominant-baseline={baseline}>
               <title>{node.name}</title>
               {label}
@@ -81,7 +81,7 @@ function pointOnRing(i: number): { x: number; y: number; angle: number } {
       })}
 
       {/* Centre node — current concept */}
-      <circle cx={cx} cy={cy} r={centreR} fill="#073429" />
+      <circle cx={cx} cy={cy} r={centreR} fill="#2F4A6E" />
       <text x={cx} y={cy} text-anchor="middle" dominant-baseline="middle" class="centre-label">
         {centre.length > 10 ? centre.slice(0, 9) + "…" : centre}
       </text>
@@ -98,8 +98,8 @@ function pointOnRing(i: number): { x: number; y: number; angle: number } {
   .radial-graph {
     margin: 0 0 1.5rem;
     padding: 0.5rem 0 0.25rem;
-    background: #fff0ea;
-    border: 1px solid #1212121f;
+    background: #EEE6D5;
+    border: 1px solid #D5C9B0;
     max-width: 100%;
     overflow-x: auto;
   }
@@ -112,12 +112,12 @@ function pointOnRing(i: number): { x: number; y: number; angle: number } {
     height: auto;
   }
   .radial-graph svg text {
-    font-family: "JetBrains Mono", ui-monospace, monospace;
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
     font-size: 10px;
-    fill: #121212cc;
+    fill: #2B2119cc;
   }
   .radial-graph svg .centre-label {
-    fill: #fff7f4;
+    fill: #F7F2E7;
     font-size: 9px;
     letter-spacing: 0;
   }
@@ -126,14 +126,14 @@ function pointOnRing(i: number): { x: number; y: number; angle: number } {
   }
   .radial-graph svg a:hover circle {
     r: 9;
-    fill: #073429;
+    fill: #2F4A6E;
   }
   .radial-graph svg a:hover text {
-    fill: #073429;
+    fill: #2F4A6E;
     font-weight: 500;
   }
   .radial-graph figcaption {
     padding: 0.35rem 0.75rem;
-    border-top: 1px solid #1212121f;
+    border-top: 1px solid #D5C9B0;
   }
 </style>

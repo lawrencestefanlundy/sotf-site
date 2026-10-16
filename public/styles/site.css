@@ -1,43 +1,46 @@
-/* State of the Future — public KB site.
-   Visual reference: stateofthefuture.io archive (WorksInProgress-style).
-   Cream-peach bg, hairline borders, EB Garamond serif, JetBrains Mono labels,
-   deep editorial teal accent. */
+/* State of the Future — public KB site, in the brand's v3 "The Loom" (16 Oct 2026).
+   Guidelines: ~/reference/system/design/BRAND.md; values: DESIGN.md. Linen ground, walnut
+   ink, Fraunces for titles, IBM Plex Sans for reading, IBM Plex Mono for labels, one woad
+   indigo accent, and the woven band under the masthead (drawn by loom.js in Base.astro). */
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
 :root {
-  --ink:       #121212;
-  --ink-80:    #121212cc;
-  --ink-60:    #12121299;
-  --ink-50:    #12121280;
-  --ink-25:    #12121240;
-  --rule:      #1212121f;
-  --rule-soft: #12121214;
-  --bg:        #fff7f4;
-  --bg-soft:   #fff0ea;
-  --bg-tint:   #ffefe6;
-  --paper:    #fffaf6;
-  --teal:      #073429;
-  --link:      #121212;
-}
-
-@font-face {
-  font-family: 'EB Garamond';
-  src: local('EB Garamond'), local('EBGaramond-Regular');
-  font-display: swap;
+  /* State of the Future brand v3 "The Loom" (16 Oct 2026): values from
+     ~/reference/system/design/DESIGN.md. Linen ground, walnut ink, one woad indigo accent. */
+  --ink:       #2B2119;
+  --ink-80:    #2B2119cc;
+  --ink-60:    #2B211999;
+  --ink-50:    #2B211980;
+  --ink-25:    #2B211940;
+  --rule:      #D5C9B0;
+  --rule-soft: #2B211914;
+  --bg:        #F7F2E7;
+  --bg-soft:   #EEE6D5;
+  --bg-tint:   #E8E0CE;
+  --paper:     #FBF8F1;
+  --teal:      #2F4A6E;   /* the accent (name kept so existing rules follow) */
+  --accent:    #2F4A6E;
+  --madder:    #A2412D;
+  --indigo:    #22304A;
+  --walnut:    #3A2D22;
+  --link:      #2B2119;
+  --display:   "Fraunces", Georgia, "Times New Roman", serif;
+  --sans:      "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  --mono:      "IBM Plex Mono", ui-monospace, Menlo, monospace;
 }
 
 html { scroll-behavior: smooth; }
 body {
-  font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
+  font-family: var(--sans);
   background: var(--bg);
   color: var(--ink);
   line-height: 1.55;
-  font-size: 17px;
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
 }
-.mono { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace; }
+.mono { font-family: var(--mono); }
 
 a { color: var(--link); text-decoration: none; }
 article a { text-decoration: underline; text-decoration-color: var(--ink-25); text-underline-offset: 3px; }
@@ -57,8 +60,8 @@ main,
 /* ── masthead ────────────────────────────────────────────────── */
 .site-header {
   background: var(--bg);
-  padding: 0.85rem 0 0;
-  border-bottom: 1px solid var(--ink);
+  padding: 0.85rem 0 18px;
+  position: relative;
 }
 .site-header nav {
   display: flex; justify-content: space-between; align-items: end;
@@ -66,7 +69,9 @@ main,
   padding-top: 0; padding-bottom: 0.9rem;
 }
 .site-title {
-  font-family: 'EB Garamond', Georgia, serif;
+  display: inline-flex; align-items: center; gap: 0.6rem;
+  font-variation-settings: "SOFT" 100, "WONK" 1;
+  font-family: var(--display);
   font-size: clamp(1.7rem, 3.2vw, 2.4rem);
   font-weight: 700;
   letter-spacing: -0.025em;
@@ -77,7 +82,7 @@ main,
 .site-nav {
   list-style: none;
   display: flex; gap: 0;
-  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-family: var(--mono);
   font-size: 0.78rem;
 }
 .site-nav a {
@@ -95,7 +100,7 @@ main,
 }
 .site-search input {
   width: 100%;
-  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-family: var(--mono);
   font-size: 0.78rem;
   padding: 0.45rem 0.7rem;
   border: 1px solid var(--ink);
@@ -132,7 +137,7 @@ main,
 .search-results a:focus { background: var(--bg-soft); outline: none; }
 .search-results .r-title {
   display: block;
-  font-family: 'EB Garamond', Georgia, serif;
+  font-family: var(--display);
   font-weight: 700;
   font-size: 1.05rem;
   line-height: 1.2;
@@ -140,7 +145,7 @@ main,
 }
 .search-results .r-excerpt {
   display: block;
-  font-family: 'EB Garamond', Georgia, serif;
+  font-family: var(--sans);
   font-size: 0.92rem;
   color: var(--ink-80);
   line-height: 1.4;
@@ -151,7 +156,7 @@ main,
   font-weight: 500;
 }
 .search-empty {
-  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-family: var(--mono);
   font-size: 0.78rem;
   color: var(--ink-60);
   padding: 0.8rem 0.85rem;
@@ -165,7 +170,7 @@ main,
 /* inline source references */
 sup.ref { font-size: 0.62em; line-height: 0; margin-left: 1px; }
 sup.ref a {
-  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-family: var(--mono);
   color: var(--ink-60);
   text-decoration: none;
   border-bottom: 1px solid var(--ink-25);
@@ -190,14 +195,14 @@ sup.ref a:hover { color: var(--ink); border-bottom-color: var(--ink); }
   margin-bottom: 0.7rem;
 }
 .sc-title {
-  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-family: var(--mono);
   font-size: 0.72rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--ink);
 }
 .sc-flag {
-  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-family: var(--mono);
   font-size: 0.66rem;
   color: var(--ink-60);
 }
@@ -210,7 +215,7 @@ sup.ref a:hover { color: var(--ink); border-bottom-color: var(--ink); }
   padding: 0.3rem 0;
 }
 .sc-row dt {
-  font-family: 'EB Garamond', Georgia, serif;
+  font-family: var(--sans);
   font-size: 1.02rem;
   color: var(--ink);
   cursor: help;
@@ -230,14 +235,14 @@ sup.ref a:hover { color: var(--ink); border-bottom-color: var(--ink); }
 }
 .sc-dot.on { background: var(--ink); border-color: var(--ink); }
 .sc-num {
-  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-family: var(--mono);
   font-size: 0.72rem;
   color: var(--ink-60);
   min-width: 2.2rem;
   text-align: right;
 }
 .sc-unscored {
-  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-family: var(--mono);
   font-size: 0.68rem;
   color: var(--ink-60);
   font-style: normal;
@@ -246,12 +251,12 @@ sup.ref a:hover { color: var(--ink); border-bottom-color: var(--ink); }
   border-top: 1px solid var(--rule);
   margin: 0.7rem 0 0;
   padding-top: 0.6rem;
-  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-family: var(--mono);
   font-size: 0.72rem;
   color: var(--ink-80);
 }
 .sc-foot strong {
-  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-family: var(--mono);
   font-weight: 600;
   color: var(--ink-60);
   margin-right: 0.35rem;
@@ -260,14 +265,14 @@ sup.ref a:hover { color: var(--ink); border-bottom-color: var(--ink); }
 
 /* ── writing archive ─────────────────────────────────────────── */
 .standfirst {
-  font-family: 'EB Garamond', Georgia, serif;
+  font-family: var(--sans);
   font-size: 1.15rem;
   color: var(--ink-80);
   line-height: 1.55;
   margin-bottom: 2rem;
 }
 .year-block h2 {
-  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-family: var(--mono);
   font-size: 0.78rem;
   letter-spacing: 0.06em;
   color: var(--ink-60);
@@ -291,7 +296,7 @@ sup.ref a:hover { color: var(--ink); border-bottom-color: var(--ink); }
 .post-list li[hidden] { display: none; }
 .post-main { display: block; }
 .post-list a {
-  font-family: 'EB Garamond', Georgia, serif;
+  font-family: var(--display);
   font-size: 1.1rem;
   color: var(--ink);
 }
@@ -306,7 +311,7 @@ sup.ref a:hover { color: var(--ink); border-bottom-color: var(--ink); }
   margin-top: 0.28rem;
 }
 .tag {
-  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-family: var(--mono);
   font-size: 0.66rem;
   letter-spacing: 0.03em;
   padding: 0.1rem 0.4rem;
@@ -332,7 +337,7 @@ sup.ref a:hover { color: var(--ink); border-bottom-color: var(--ink); }
   margin-bottom: 0.4rem;
 }
 .filter-label {
-  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-family: var(--mono);
   font-size: 0.7rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -341,7 +346,7 @@ sup.ref a:hover { color: var(--ink); border-bottom-color: var(--ink); }
   flex: 0 0 auto;
 }
 .pill {
-  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-family: var(--mono);
   font-size: 0.72rem;
   padding: 0.25rem 0.6rem;
   border: 1px solid var(--ink-25);
@@ -358,13 +363,13 @@ sup.ref a:hover { color: var(--ink); border-bottom-color: var(--ink); }
   color: var(--bg);
 }
 .filter-count {
-  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-family: var(--mono);
   font-size: 0.7rem;
   color: var(--ink-60);
   margin: 0.25rem 0 0;
 }
 .filter-empty {
-  font-family: 'EB Garamond', Georgia, serif;
+  font-family: var(--sans);
   color: var(--ink-80);
   margin-top: 1.5rem;
 }
@@ -381,7 +386,7 @@ sup.ref a:hover { color: var(--ink); border-bottom-color: var(--ink); }
 
 /* ── breadcrumb ──────────────────────────────────────────────── */
 .breadcrumb {
-  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-family: var(--mono);
   font-size: 0.78rem;
   color: var(--ink-60);
   margin: 1.5rem 0 0.4rem;
@@ -392,7 +397,8 @@ sup.ref a:hover { color: var(--ink); border-bottom-color: var(--ink); }
 
 /* ── headings ────────────────────────────────────────────────── */
 h1, h2, h3, h4 {
-  font-family: 'EB Garamond', Georgia, serif;
+  font-variation-settings: "SOFT" 100, "WONK" 0;
+  font-family: var(--display);
   font-weight: 700;
   letter-spacing: -0.015em;
   color: var(--ink);
@@ -460,7 +466,7 @@ article th, article td {
   vertical-align: top;
 }
 article th {
-  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-family: var(--mono);
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
@@ -471,7 +477,7 @@ article th {
 article tbody tr:hover { background: var(--bg-soft); }
 
 article code {
-  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-family: var(--mono);
   font-size: 14px;
   background: var(--bg-soft);
   padding: 0.1rem 0.35rem;
@@ -497,7 +503,7 @@ article blockquote {
 
 /* ── cross-cuts header pill row ──────────────────────────────── */
 .crosscuts {
-  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-family: var(--mono);
   font-size: 0.78rem;
   color: var(--ink-60);
   margin: 0.8rem 0 1.4rem;
@@ -507,7 +513,7 @@ article blockquote {
   border-top: 1px solid var(--rule);
 }
 .crosscuts strong {
-  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-family: var(--mono);
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-size: 0.7rem;
@@ -515,7 +521,7 @@ article blockquote {
   color: var(--ink-50);
 }
 .crosscuts .pill {
-  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-family: var(--mono);
   font-size: 0.72rem;
   padding: 0.3rem 0.65rem;
   border: 1px solid var(--ink);
@@ -527,7 +533,7 @@ article blockquote {
 .crosscuts .pill:hover { background: var(--ink); color: var(--bg); }
 
 .meta {
-  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-family: var(--mono);
   font-size: 0.72rem;
   color: var(--ink-60);
   letter-spacing: 0.04em;
@@ -558,7 +564,7 @@ article blockquote {
 }
 .card:hover { background: var(--paper); }
 .card h2 {
-  font-family: 'EB Garamond', Georgia, serif;
+  font-family: var(--display);
   font-size: 1.4rem;
   font-weight: 700;
   letter-spacing: -0.015em;
@@ -571,7 +577,7 @@ article blockquote {
   margin-bottom: 0.6rem;
 }
 .card p {
-  font-family: 'EB Garamond', Georgia, serif;
+  font-family: var(--sans);
   font-size: 1rem;
   color: var(--ink-80);
   line-height: 1.5;
@@ -603,7 +609,7 @@ article blockquote {
   margin-bottom: 0.3rem;
 }
 .macro-card-head p {
-  font-family: 'EB Garamond', Georgia, serif;
+  font-family: var(--sans);
   font-size: 1rem;
   color: var(--ink-80);
   line-height: 1.5;
@@ -631,7 +637,7 @@ article blockquote {
 .meso-box:hover { background: var(--ink); color: var(--bg); }
 .meso-box:hover .meta { color: inherit; }
 .meso-box .meso-name {
-  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-family: var(--mono);
   font-size: 0.72rem;
   letter-spacing: 0.02em;
   white-space: nowrap;
@@ -674,7 +680,7 @@ article blockquote {
   gap: 0.75rem;
 }
 .site-footer .subscribe-cta p {
-  font-family: 'EB Garamond', Georgia, serif;
+  font-family: var(--sans);
   font-size: 1.05rem;
   color: var(--ink-80);
   max-width: 52ch;
@@ -684,7 +690,7 @@ article blockquote {
 }
 .subscribe-cta iframe {
   border: 1px solid var(--ink) !important;
-  background: #fff;
+  background: var(--paper);
   max-width: 480px;
 }
 .site-footer > p {
@@ -693,7 +699,7 @@ article blockquote {
   text-align: center;
 }
 .site-footer p {
-  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-family: var(--mono);
   font-size: 0.78rem;
   color: var(--ink-60);
   text-align: left;
@@ -714,7 +720,7 @@ article blockquote {
 .related-list li:last-child, .frontier-list li:last-child { border-bottom: none; }
 .related-list .meta { margin-left: 0.4rem; }
 .frontier-list li {
-  font-family: 'EB Garamond', Georgia, serif;
+  font-family: var(--sans);
   color: var(--ink-80);
 }
 
@@ -722,7 +728,7 @@ article blockquote {
   list-style: none;
   padding-left: 0;
   margin: 0.6rem 0 0;
-  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-family: var(--mono);
   font-size: 13px;
 }
 .recent-mentions li {
@@ -735,7 +741,7 @@ article blockquote {
 }
 .recent-mentions li:last-child { border-bottom: none; }
 .recent-mentions .title {
-  font-family: 'EB Garamond', Georgia, serif;
+  font-family: var(--display);
   font-size: 16px;
   color: var(--ink);
 }
@@ -746,3 +752,12 @@ article blockquote {
 @media (max-width: 700px) {
   .recent-mentions li { grid-template-columns: 1fr; gap: 0.2rem; }
 }
+
+
+/* ── the Loom: woven band under the masthead, the mark in the title ── */
+.site-header::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 18px;
+  border-top: 1px solid var(--walnut);
+  background: var(--loom-band, var(--indigo));
+}
+.site-title .mark { width: 0.95em; height: 0.95em; flex: none; }

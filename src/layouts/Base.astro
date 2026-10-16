@@ -51,14 +51,39 @@ const siteJsonLd = {
     ))}
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..700,0..100,0..1;1,9..144,300..700,0..100,0..1&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" />
     <link rel="stylesheet" href="/styles/site.css" />
     <ClientRouter />
   </head>
   <body data-pagefind-ignore={isMembers ? "all" : undefined}>
     <header class="site-header">
       <nav>
-        <a href={`${BASE}/`} class="site-title">State of the Future</a>
+        <a href={`${BASE}/`} class="site-title"><svg class="mark" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+<rect x="0.5" y="0.5" width="7" height="7" fill="none" stroke="#3A2D22" stroke-width="0.75"/>
+<rect x="2" y="2" width="4" height="4" fill="#A2412D"/>
+<rect x="8.5" y="0.5" width="7" height="7" fill="none" stroke="#3A2D22" stroke-width="0.75"/>
+<rect x="16.5" y="0.5" width="7" height="7" fill="none" stroke="#3A2D22" stroke-width="0.75"/>
+<rect x="24.5" y="0.5" width="7" height="7" fill="none" stroke="#3A2D22" stroke-width="0.75"/>
+<rect x="26" y="2" width="4" height="4" fill="#A2412D"/>
+<rect x="0.5" y="8.5" width="7" height="7" fill="none" stroke="#3A2D22" stroke-width="0.75"/>
+<rect x="8.5" y="8.5" width="7" height="7" fill="none" stroke="#3A2D22" stroke-width="0.75"/>
+<rect x="16.5" y="8.5" width="7" height="7" fill="none" stroke="#3A2D22" stroke-width="0.75"/>
+<rect x="18" y="10" width="4" height="4" fill="#A2412D"/>
+<rect x="24.5" y="8.5" width="7" height="7" fill="none" stroke="#3A2D22" stroke-width="0.75"/>
+<rect x="26" y="10" width="4" height="4" fill="#A2412D"/>
+<rect x="0.5" y="16.5" width="7" height="7" fill="none" stroke="#3A2D22" stroke-width="0.75"/>
+<rect x="8.5" y="16.5" width="7" height="7" fill="none" stroke="#3A2D22" stroke-width="0.75"/>
+<rect x="10" y="18" width="4" height="4" fill="#A2412D"/>
+<rect x="16.5" y="16.5" width="7" height="7" fill="none" stroke="#3A2D22" stroke-width="0.75"/>
+<rect x="18" y="18" width="4" height="4" fill="#A2412D"/>
+<rect x="24.5" y="16.5" width="7" height="7" fill="none" stroke="#3A2D22" stroke-width="0.75"/>
+<rect x="0.5" y="24.5" width="7" height="7" fill="none" stroke="#3A2D22" stroke-width="0.75"/>
+<rect x="2" y="26" width="4" height="4" fill="#A2412D"/>
+<rect x="8.5" y="24.5" width="7" height="7" fill="none" stroke="#3A2D22" stroke-width="0.75"/>
+<rect x="10" y="26" width="4" height="4" fill="#A2412D"/>
+<rect x="16.5" y="24.5" width="7" height="7" fill="none" stroke="#3A2D22" stroke-width="0.75"/>
+<rect x="24.5" y="24.5" width="7" height="7" fill="none" stroke="#3A2D22" stroke-width="0.75"/>
+</svg><span>State of the Future</span></a>
         <ul class="site-nav" data-pagefind-ignore>
           <li><a href={`${BASE}/`}>Now</a></li>
           <li><a href={`${BASE}/tours/`}>Tours</a></li>
@@ -99,6 +124,112 @@ const siteJsonLd = {
       <p>State of the Future — Lawrence Lundy-Bryan · public reference layer, rebuilt nightly from the underlying KB</p>
     </footer>
 
+    <script is:inline>
+/* loom.js — computes the woven textures for the Loom skin (theme_loom.css).
+   Every texture is a real four-shaft weave draft: a threading (which shaft each warp
+   thread passes through), a tie-up (which shafts each treadle lifts) and a treadling
+   (which treadle each pick uses). A cell shows the warp where its shaft is lifted and
+   the weft where it is not. Nothing here is an image file or a generated picture.
+   Textures are published as CSS custom properties on <html>, redrawn on theme change. */
+(function () {
+  "use strict";
+  var THREAD = [0, 1, 2, 3, 2, 1, 0, 3, 0, 1, 2, 3, 0, 1, 2, 1, 0, 3, 2, 1];   // point twill
+  var TREAD  = [0, 1, 2, 3, 0, 1, 2, 3, 2, 1, 0, 3, 2, 1, 0, 1, 2, 3, 0, 1, 2, 3, 2, 1];
+  var TIE    = [[1, 1, 0, 0], [0, 1, 1, 0], [0, 0, 1, 1], [1, 0, 0, 1]];         // 2/2 twill
+
+  function lifted(i, j) { return TIE[THREAD[j % THREAD.length]][TREAD[i % TREAD.length]] === 1; }
+
+  // cols x rows threads at `cell` px; warp(j) / weft(i) return a CSS colour or null
+  function weave(cols, rows, cell, warp, weft, shade) {
+    var c = document.createElement("canvas");
+    // drawn at 1:1 CSS pixels so a thread keeps its size on every screen
+    c.width = cols * cell; c.height = rows * cell;
+    var x = c.getContext("2d");
+    for (var i = 0; i < rows; i++) {
+      for (var j = 0; j < cols; j++) {
+        var up = lifted(i, j), px = j * cell, py = i * cell;
+        var col = up ? warp(j) : weft(i);
+        if (col) {
+          x.fillStyle = col;
+          if (up) x.fillRect(px + cell * 0.1, py, cell * 0.8, cell);
+          else x.fillRect(px, py + cell * 0.1, cell, cell * 0.8);
+        }
+        if (shade) {
+          // the thread's own roundness: dark under one edge, light along the other
+          x.fillStyle = "rgba(0,0,0," + shade + ")";
+          if (up) x.fillRect(px + cell * 0.1, py + cell - 1, cell * 0.8, 1);
+          else x.fillRect(px + cell - 1, py + cell * 0.1, 1, cell * 0.8);
+          x.fillStyle = "rgba(255,255,255," + shade * 0.8 + ")";
+          if (up) x.fillRect(px + cell * 0.1, py, 1, cell);
+          else x.fillRect(px, py + cell * 0.1, cell, 1);
+        }
+      }
+    }
+    return c;
+  }
+
+  function url(c) { return 'url("' + c.toDataURL("image/png") + '")'; }
+  function tok(name) { return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
+
+  function draw() {
+    var root = document.documentElement;
+    var indigo = tok("--indigo") || "#22304A", madder = tok("--madder") || "#A2412D",
+        weld = tok("--weld") || "#CDA434", walnut = tok("--walnut") || "#3A2D22",
+        linen = "#E7DFCC", woad = "#3E5A7A";
+    var dark = getComputedStyle(root).colorScheme.indexOf("dark") > -1;
+
+    // masthead band: indigo and woad warp with a weld stripe every 20 ends; nine picks of
+    // weft, linen at the selvedges and madder through the middle. 40 ends x 9 picks at 2px = 80x18.
+    var band = weave(40, 9, 2,
+      function (j) { var k = j % 40; return (k === 19 || k === 20) ? weld : (k % 20 < 2 ? woad : indigo); },
+      function (i) { return (i >= 2 && i <= 6) ? madder : linen; },
+      0.14);
+    root.style.setProperty("--loom-band", url(band) + " 0 0 / auto repeat-x");
+
+    // shade: the weave structure only, transparent, laid over any dyed fill
+    var shade = weave(20, 24, 2,
+      function () { return "rgba(255,255,255,.14)"; },
+      function () { return "rgba(0,0,0,.14)"; },
+      0.12);
+    root.style.setProperty("--loom-shade", url(shade));
+
+    // ground: plain weave (one up, one down), barely visible
+    var c = document.createElement("canvas"); c.width = c.height = 8;
+    var g = c.getContext("2d");
+    g.fillStyle = dark ? "rgba(255,255,255,.025)" : "rgba(58,45,34,.045)";
+    for (var i = 0; i < 4; i++) for (var j = 0; j < 4; j++) if ((i + j) % 2 === 0) g.fillRect(j * 2, i * 2, 2, 1.2);
+    g.fillStyle = dark ? "rgba(0,0,0,.08)" : "rgba(255,255,255,.35)";
+    for (i = 0; i < 4; i++) for (j = 0; j < 4; j++) if ((i + j) % 2 === 1) g.fillRect(j * 2, i * 2, 1.2, 2);
+    root.style.setProperty("--loom-linen", url(c));
+
+    // draft glyph: the 4x4 tie-up drawn as weaving notation, used beside panel headings
+    var d = document.createElement("canvas"); d.width = d.height = 32;
+    var q = d.getContext("2d");
+    q.strokeStyle = dark ? "rgba(237,229,211,.55)" : "rgba(43,33,25,.5)"; q.lineWidth = 1;
+    for (i = 0; i < 4; i++) for (j = 0; j < 4; j++) {
+      q.strokeRect(j * 8 + 0.5, i * 8 + 0.5, 7, 7);
+      if (TIE[3 - i][j]) { q.fillStyle = madder; q.fillRect(j * 8 + 2, i * 8 + 2, 4, 4); }
+    }
+    root.style.setProperty("--loom-draft", url(d));
+  }
+
+  function safeDraw() {
+    // no 2D canvas (jsdom in render_check.js): keep the flat dye fallback, nothing to report
+    var probe = document.createElement("canvas");
+    if (!probe.getContext || !probe.getContext("2d")) return;
+    try { draw(); }
+    catch (e) { console.warn("loom.js: textures not drawn, flat dye colours used instead", e); }
+  }
+  safeDraw();
+  // redraw when the theme toggle or the OS scheme changes
+  new MutationObserver(safeDraw).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+  if (window.matchMedia) {
+    var mq = window.matchMedia("(prefers-color-scheme: dark)");
+    if (mq.addEventListener) mq.addEventListener("change", safeDraw);
+  }
+})();
+
+    </script>
     <script is:inline>
       // Header search, Pagefind-backed. Bound once and re-armed on every
       // client-side navigation: ClientRouter means DOMContentLoaded fires only

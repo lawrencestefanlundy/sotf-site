@@ -12,12 +12,18 @@ export default defineConfig({
 
   integrations: [sitemap()],
 
+  // Prefetch every link on hover or tap (nav links on sight, see Base.astro). 'viewport' for
+  // all links fetched dozens of pages at once on link-dense pages and competed with the page.
   prefetch: {
     prefetchAll: true,
-    defaultStrategy: 'viewport',
+    defaultStrategy: 'hover',
+  },
+  // Chromium prerenders the hovered page in full (Speculation Rules); other browsers prefetch.
+  experimental: {
+    clientPrerender: true,
   },
   compressHTML: true,
   build: {
-    inlineStylesheets: 'auto',
+    inlineStylesheets: 'always',   // one HTML response paints the page: no render-blocking CSS request
   },
 });

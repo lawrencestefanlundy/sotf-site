@@ -3,6 +3,17 @@
    ink, Fraunces for titles, IBM Plex Sans for reading, IBM Plex Mono for labels, one woad
    indigo accent, and the woven band under the masthead (drawn by loom.js in Base.astro). */
 
+/* Self-hosted, latin-subset woff2 (17 Oct 2026): no third-party font request on the critical path.
+   Fraunces is the static instance (opsz 72, SOFT 100, weight 600), the only display weight used.
+   Plex Sans is preloaded and set to `optional`: used whenever it arrives in the first ~100 ms
+   (and always from cache after), so body text never repaints late; headings keep `swap`. */
+@font-face { font-family: 'Fraunces'; font-style: normal; font-weight: 600; font-display: swap; src: url('/fonts/fraunces-600-soft.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'IBM Plex Sans'; font-style: normal; font-weight: 400; font-display: optional; src: url('/fonts/plex-sans-400.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'IBM Plex Sans'; font-style: normal; font-weight: 600; font-display: optional; src: url('/fonts/plex-sans-600.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'IBM Plex Sans'; font-style: italic; font-weight: 400; font-display: optional; src: url('/fonts/plex-sans-400-italic.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'IBM Plex Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url('/fonts/plex-mono-400.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'IBM Plex Mono'; font-style: normal; font-weight: 500; font-display: swap; src: url('/fonts/plex-mono-500.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
 :root {
@@ -70,10 +81,9 @@ main,
 }
 .site-title {
   display: inline-flex; align-items: center; gap: 0.6rem;
-  font-variation-settings: "SOFT" 100, "WONK" 1;
   font-family: var(--display);
   font-size: clamp(1.7rem, 3.2vw, 2.4rem);
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: -0.025em;
   line-height: 0.95;
   color: var(--ink);
@@ -257,7 +267,7 @@ sup.ref a:hover { color: var(--ink); border-bottom-color: var(--ink); }
 }
 .sc-foot strong {
   font-family: var(--mono);
-  font-weight: 600;
+  font-weight: 500;
   color: var(--ink-60);
   margin-right: 0.35rem;
 }
@@ -397,7 +407,7 @@ sup.ref a:hover { color: var(--ink); border-bottom-color: var(--ink); }
 
 /* ── headings ────────────────────────────────────────────────── */
 h1, h2, h3, h4 {
-  font-variation-settings: "SOFT" 100, "WONK" 0;
+  font-weight: 600;
   font-family: var(--display);
   font-weight: 700;
   letter-spacing: -0.015em;
@@ -693,6 +703,17 @@ article blockquote {
   background: var(--paper);
   max-width: 480px;
 }
+/* Substack loads ~150 scripts (1.6 MB), so the embed is a facade: a plain link that swaps in
+   the iframe only when clicked. Without JavaScript the link opens Substack's own page. */
+.subscribe-btn {
+  display: inline-block;
+  font-family: var(--mono); font-size: 0.8rem; font-weight: 500;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--paper); background: var(--accent);
+  border: 1px solid var(--accent); border-radius: 2px;
+  padding: 0.7rem 1.2rem; text-decoration: none;
+}
+.subscribe-btn:hover, .subscribe-btn:focus-visible { background: var(--indigo); border-color: var(--indigo); }
 .site-footer > p {
   border-top: 1px solid var(--rule);
   padding-top: 1.25rem;
@@ -758,6 +779,7 @@ article blockquote {
 .site-header::after {
   content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 18px;
   border-top: 1px solid var(--walnut);
-  background: var(--loom-band, var(--indigo));
+  /* the woven band: a 2x tile drawn by ~/reference/system/design/loom.py from the brand draft */
+  background: var(--indigo) url("/brand/band-tile@2x.png") repeat-x 0 0 / 80px 18px;
 }
 .site-title .mark { width: 0.95em; height: 0.95em; flex: none; }

@@ -28,12 +28,40 @@ const MACRO_NAMES: Record<string, string> = {
   "life-frontier": "Life & Frontier",
 };
 
-// Inline the atlas data as JSON-script so the client can read without an extra fetch
-const data = {
-  nodes: atlas.nodes,
-  edges: atlas.edges,
-  macroFills: MACRO_FILLS,
-};
+// The force layout runs here, at build time, with a seeded RNG so the map is stable between
+// builds. It is the same algorithm the page used to run in the browser on load: O(n^2)
+// repulsion over 778 nodes x 300 iterations blocked the main thread for ~2 s (17 Oct 2026).
+const W = 1200, H = 800;
+function rng(seed: number) {
+  return () => { seed |= 0; seed = (seed + 0x6D2B79F5) | 0; let t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; };
+}
+const rand = rng(1903);
+type N = { slug: string; name: string; macro: string; path: string; deg: number; x: number; y: number; vx: number; vy: number };
+const nodes: N[] = (atlas.nodes as any[]).map((n) => ({ ...n, x: W / 2 + (rand() - 0.5) * 80, y: H / 2 + (rand() - 0.5) * 80, vx: 0, vy: 0 }));
+const byId: Record<string, N> = Object.fromEntries(nodes.map((n) => [n.slug, n]));
+const links = (atlas.edges as any[]).map((e) => ({ source: byId[e.a], target: byId[e.b] })).filter((l) => l.source && l.target);
+const ITERATIONS = 300, K = 30, REPEL = 800, GRAVITY = 0.02, FRICTION = 0.85;
+for (let it = 0; it < ITERATIONS; it++) {
+  for (let i = 0; i < nodes.length; i++) {
+    for (let j = i + 1; j < nodes.length; j++) {
+      const a = nodes[i], b = nodes[j];
+      const dx = a.x - b.x, dy = a.y - b.y, d2 = dx * dx + dy * dy + 0.01, f = REPEL / d2, d = Math.sqrt(d2);
+      const ux = dx / d, uy = dy / d;
+      a.vx += ux * f; a.vy += uy * f; b.vx -= ux * f; b.vy -= uy * f;
+    }
+  }
+  for (const l of links) {
+    const dx = l.target.x - l.source.x, dy = l.target.y - l.source.y, d = Math.sqrt(dx * dx + dy * dy) + 0.01, f = (d - K) * 0.05;
+    const ux = dx / d, uy = dy / d;
+    l.source.vx += ux * f; l.source.vy += uy * f; l.target.vx -= ux * f; l.target.vy -= uy * f;
+  }
+  for (const n of nodes) {
+    n.vx += (W / 2 - n.x) * GRAVITY; n.vy += (H / 2 - n.y) * GRAVITY;
+    n.vx *= FRICTION; n.vy *= FRICTION; n.x += n.vx; n.y += n.vy;
+  }
+}
+const r1 = (v: number) => Math.round(v * 10) / 10;
 ---
 
 <Base title="Atlas" description="Full corpus interactive map">
@@ -53,151 +81,42 @@ const data = {
   </div>
 
   <div id="atlas-container">
-    <svg id="atlas-svg" viewBox="0 0 1200 800" role="img" aria-label="Concept atlas"></svg>
-    <p id="atlas-status" class="meta">Computing layout…</p>
+    <svg id="atlas-svg" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Concept atlas">
+      <g id="atlas-zoom">
+        <g stroke="#2B211914" stroke-width="1">
+          {links.map((l) => <line x1={r1(l.source.x)} y1={r1(l.source.y)} x2={r1(l.target.x)} y2={r1(l.target.y)} />)}
+        </g>
+        <g stroke="#F7F2E7" stroke-width="1">
+          {nodes.map((n) => (
+            <a href={n.path}><title>{`${n.name} (${n.macro})`}</title><circle cx={r1(n.x)} cy={r1(n.y)} r={r1(Math.min(8, 2 + Math.sqrt(n.deg)))} fill={MACRO_FILLS[n.macro] ?? "#4E4034"} /></a>
+          ))}
+        </g>
+      </g>
+    </svg>
   </div>
-
-  <script type="application/json" id="atlas-data" set:html={JSON.stringify(data)}></script>
 
   <script is:inline>
     (function () {
-      const dataEl = document.getElementById("atlas-data");
-      if (!dataEl) return;
-      const { nodes, edges, macroFills } = JSON.parse(dataEl.textContent || "{}");
+      // Pan and zoom only; the layout is already in the markup.
       const svg = document.getElementById("atlas-svg");
-      const status = document.getElementById("atlas-status");
-      if (!svg || !nodes || nodes.length === 0) return;
-
+      const g = document.getElementById("atlas-zoom");
+      if (!svg || !g || svg.dataset.wired === "1") return;
+      svg.dataset.wired = "1";
       const W = 1200, H = 800;
-
-      // ── Force-directed layout (vanilla, no library) ───────────────────────
-      // Single-component approx: charge repulsion + spring links + gravity to centre.
-      const nodeById = {};
-      for (const n of nodes) {
-        n.x = W / 2 + (Math.random() - 0.5) * 80;
-        n.y = H / 2 + (Math.random() - 0.5) * 80;
-        n.vx = 0; n.vy = 0;
-        nodeById[n.slug] = n;
-      }
-      const links = edges
-        .map(e => ({ source: nodeById[e.a], target: nodeById[e.b] }))
-        .filter(l => l.source && l.target);
-
-      const ITERATIONS = 300;
-      const K = 30;          // spring length
-      const REPEL = 800;     // repulsion strength
-      const GRAVITY = 0.02;
-      const FRICTION = 0.85;
-
-      function step() {
-        // Repulsion
-        for (let i = 0; i < nodes.length; i++) {
-          for (let j = i + 1; j < nodes.length; j++) {
-            const a = nodes[i], b = nodes[j];
-            let dx = a.x - b.x, dy = a.y - b.y;
-            let d2 = dx * dx + dy * dy + 0.01;
-            const f = REPEL / d2;
-            const d = Math.sqrt(d2);
-            const ux = dx / d, uy = dy / d;
-            a.vx += ux * f; a.vy += uy * f;
-            b.vx -= ux * f; b.vy -= uy * f;
-          }
-        }
-        // Spring
-        for (const l of links) {
-          const dx = l.target.x - l.source.x, dy = l.target.y - l.source.y;
-          const d = Math.sqrt(dx * dx + dy * dy) + 0.01;
-          const f = (d - K) * 0.05;
-          const ux = dx / d, uy = dy / d;
-          l.source.vx += ux * f; l.source.vy += uy * f;
-          l.target.vx -= ux * f; l.target.vy -= uy * f;
-        }
-        // Gravity + integration
-        for (const n of nodes) {
-          n.vx += (W / 2 - n.x) * GRAVITY;
-          n.vy += (H / 2 - n.y) * GRAVITY;
-          n.vx *= FRICTION;
-          n.vy *= FRICTION;
-          n.x += n.vx;
-          n.y += n.vy;
-        }
-      }
-      for (let i = 0; i < ITERATIONS; i++) step();
-
-      // ── Render to SVG ─────────────────────────────────────────────────────
-      const NS = "http://www.w3.org/2000/svg";
-      const gEdges = document.createElementNS(NS, "g");
-      const gNodes = document.createElementNS(NS, "g");
-      const gZoom = document.createElementNS(NS, "g");
-      gZoom.appendChild(gEdges);
-      gZoom.appendChild(gNodes);
-      svg.appendChild(gZoom);
-
-      for (const l of links) {
-        const ln = document.createElementNS(NS, "line");
-        ln.setAttribute("x1", l.source.x);
-        ln.setAttribute("y1", l.source.y);
-        ln.setAttribute("x2", l.target.x);
-        ln.setAttribute("y2", l.target.y);
-        ln.setAttribute("stroke", "#2B211914");
-        ln.setAttribute("stroke-width", "1");
-        gEdges.appendChild(ln);
-      }
-      for (const n of nodes) {
-        const a = document.createElementNS(NS, "a");
-        a.setAttribute("href", n.path);
-        const r = Math.min(8, 2 + Math.sqrt(n.deg));
-        const c = document.createElementNS(NS, "circle");
-        c.setAttribute("cx", n.x);
-        c.setAttribute("cy", n.y);
-        c.setAttribute("r", r);
-        c.setAttribute("fill", macroFills[n.macro] || "#4E4034");
-        c.setAttribute("stroke", "#F7F2E7");
-        c.setAttribute("stroke-width", "1");
-        const title = document.createElementNS(NS, "title");
-        title.textContent = n.name + " (" + n.macro + ")";
-        a.appendChild(title);
-        a.appendChild(c);
-        gNodes.appendChild(a);
-      }
-
-      // ── Pan + zoom ───────────────────────────────────────────────────────
-      let zoom = 1;
-      let panX = 0, panY = 0;
-      let dragging = false;
-      let dragStart = { x: 0, y: 0 };
-
-      function applyTransform() {
-        gZoom.setAttribute("transform", `translate(${panX} ${panY}) scale(${zoom})`);
-      }
-
-      svg.addEventListener("wheel", function (e) {
+      let zoom = 1, panX = 0, panY = 0, dragging = false, sx = 0, sy = 0;
+      const apply = () => g.setAttribute("transform", `translate(${panX} ${panY}) scale(${zoom})`);
+      svg.addEventListener("wheel", (e) => {
         e.preventDefault();
-        const factor = e.deltaY < 0 ? 1.1 : 0.9;
-        const rect = svg.getBoundingClientRect();
-        const mx = ((e.clientX - rect.left) / rect.width) * W;
-        const my = ((e.clientY - rect.top) / rect.height) * H;
-        panX = mx - (mx - panX) * factor;
-        panY = my - (my - panY) * factor;
-        zoom *= factor;
-        applyTransform();
+        const f = e.deltaY < 0 ? 1.1 : 0.9, r = svg.getBoundingClientRect();
+        const mx = ((e.clientX - r.left) / r.width) * W, my = ((e.clientY - r.top) / r.height) * H;
+        panX = mx - (mx - panX) * f; panY = my - (my - panY) * f; zoom *= f; apply();
       }, { passive: false });
-
-      svg.addEventListener("mousedown", function (e) {
+      svg.addEventListener("mousedown", (e) => {
         if (e.target.tagName === "circle") return;
-        dragging = true;
-        dragStart.x = e.clientX - panX;
-        dragStart.y = e.clientY - panY;
+        dragging = true; sx = e.clientX - panX; sy = e.clientY - panY;
       });
-      window.addEventListener("mousemove", function (e) {
-        if (!dragging) return;
-        panX = e.clientX - dragStart.x;
-        panY = e.clientY - dragStart.y;
-        applyTransform();
-      });
-      window.addEventListener("mouseup", function () { dragging = false; });
-
-      if (status) status.style.display = "none";
+      window.addEventListener("mousemove", (e) => { if (dragging) { panX = e.clientX - sx; panY = e.clientY - sy; apply(); } });
+      window.addEventListener("mouseup", () => { dragging = false; });
     })();
   </script>
 

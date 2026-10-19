@@ -50,8 +50,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-sources_7d: 1
-sources_30d: 8
+sources_7d: 0
+sources_30d: 4
 recent_mentions: []
 neighbors:
 - slug: chemical-vapor-deposition

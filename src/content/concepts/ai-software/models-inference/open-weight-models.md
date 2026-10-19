@@ -21,7 +21,7 @@ frontier:
 - What is the measured cost per million tokens of self-serving K3 on a 64-plus accelerator supernode, and does it beat the $3/$15 hosted price at realistic utilisation 2026 07 17 the once and future kimi?
 - Does the 95% specialised-token share reported by one serving vendor hold across other serving providers, and does the resulting data flywheel accrue to the serving vendor, the application owner or the model lab 2026 07 18 post training inference loop open weight models are turning?
 - Do open weight releases measurably compress closed-lab pricing or gross margins, which would test the contestability and mediocre-return thesis 2026 07 21 minack dud competition mediocre ai returns?
-sources_7d: 2
+sources_7d: 0
 sources_30d: 2
 recent_mentions:
 - slug: 2026-10-12-import-ai-476-creativity-and-rsi-worse-than-china-open-weigh

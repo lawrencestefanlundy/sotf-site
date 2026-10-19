@@ -33,6 +33,18 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-15-tech-giants-want-clean-energy-in-nc-is-duke-finally-ready-to
+  title: Tech giants want clean energy in N.C. Is Duke finally ready to help?
+  date: '2026-10-15'
+  kind: web
+- slug: 2026-10-15-a-new-class-of-batteries-helps-data-centers-play-nicely-with
+  title: A new class of batteries helps data centers play nicely with the grid
+  date: '2026-10-15'
+  kind: web
+- slug: 2026-10-15-can-the-fossil-gas-supply-handle-the-ai-boom---latitude-medi
+  title: Can the fossil gas supply handle the AI boom? - Latitude Media
+  date: '2026-10-15'
+  kind: web
 - slug: 2026-10-14-nuclear-powered-data-centers-its-a-tough-sell-in-utah-coal-c
   title: Nuclear-powered data centers? It’s a tough sell in Utah coal country.
   date: '2026-10-14'
@@ -52,18 +64,6 @@ recent_mentions:
 - slug: 2026-10-09-beam-the-great-american-open-model-with-reflectionai-co-foun
   title: 'Beam: The Great American Open Model with ReflectionAI Co-Founder and CEO Misha Laskin'
   date: '2026-10-09'
-  kind: web
-- slug: 2026-10-08-constellation-and-google-go-in-on-nuclear-uprates-to-unlock-
-  title: Constellation and Google go in on nuclear uprates to unlock clean power
-  date: '2026-10-08'
-  kind: web
-- slug: 2026-10-07-terawatts-first-product-chief-on-building-the-infrastructure
-  title: Terawatt’s First Product Chief on Building The Infrastructure Behind Autonomous Fleets
-  date: '2026-10-07'
-  kind: web
-- slug: 2026-10-05-wartsila-to-supply-282-mw-onsite-power-solution-for-a-us-dat
-  title: Wärtsilä to supply 282 MW onsite power solution for a U.S. data center as AI growth intensifies demand for reliable power - Latitude Media
-  date: '2026-10-05'
   kind: web
 neighbors: []
 ---

@@ -33,8 +33,28 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-16-conversational-brain-ai-for-adaptive-epilepsy-care
+  title: Conversational brain AI for adaptive epilepsy care
+  date: '2026-10-16'
+  kind: web
+- slug: 2026-10-15-volvo-will-use-nvidias-tech-for-hands-free-point-to-point-dr
+  title: Volvo will use Nvidia’s tech for hands-free, point-to-point driving
+  date: '2026-10-15'
+  kind: web
+- slug: 2026-10-15-can-the-fossil-gas-supply-handle-the-ai-boom---latitude-medi
+  title: Can the fossil gas supply handle the AI boom? - Latitude Media
+  date: '2026-10-15'
+  kind: web
+- slug: 2026-10-15-the-changing-physics-of-cybersecurity-and-drug-development-w
+  title: The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman
+  date: '2026-10-15'
+  kind: web
 - slug: 2026-10-14-lab-in-the-loop-at-compute-speed-ian-quigley-leash-bio
   title: Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio
+  date: '2026-10-14'
+  kind: web
+- slug: 2026-10-14-fusion-digital-twins-from-imperfect-models
+  title: Fusion digital twins from imperfect models
   date: '2026-10-14'
   kind: web
 - slug: 2026-10-14-exclusive-in-orbit-aerospace-pivots-from-re-entry-vehicles-t
@@ -44,26 +64,6 @@ recent_mentions:
 - slug: 2026-10-13-avatar-comes-to-life-hondas-new-robot-mirrors-human-movement
   title: 'Avatar comes to life: Honda’s new robot mirrors human movements to work remotely'
   date: '2026-10-13'
-  kind: web
-- slug: 2026-10-13-in-vivo-engineering-of-car-natural-killer-cells-for-immunoth
-  title: In vivo engineering of CAR natural killer cells for immunotherapy using ligand-directed lipid nanoparticles
-  date: '2026-10-13'
-  kind: web
-- slug: 2026-10-13-dyna-2-general-purpose-physical-agents-with-hour-long-autono
-  title: 'Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics'
-  date: '2026-10-13'
-  kind: web
-- slug: 2026-10-13-i-have-no-mouth-and-i-must-scream
-  title: “I have no mouth and I must scream”
-  date: '2026-10-13'
-  kind: web
-- slug: 2026-10-12-how-anthropics-dynamic-workflows-coordinate-claude-agents
-  title: How Anthropic’s Dynamic Workflows Coordinate Claude Agents
-  date: '2026-10-12'
-  kind: web
-- slug: 2026-10-12-import-ai-476-creativity-and-rsi-worse-than-china-open-weigh
-  title: 'Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space'
-  date: '2026-10-12'
   kind: web
 neighbors: []
 ---

@@ -22,7 +22,7 @@ frontier:
 - Can adaptive orchestration such as CRAWO show measured latency and bandwidth reductions on a deployed heterogeneous city-scale fleet, rather than in a controlled testbed?
 - Will a neuromorphic edge-AI chip reach a named volume commercial design-win (>100k units or a tier-1 OEM) by end-2027 2026 04 01 low power edge compute neuromorphic computing chip patents?
 - At what taxel count and sample rate does a dedicated near-sensor readout IC measurably beat generic edge compute on power per estimate, and does a shipping robotics-skin IC appear at whole-body pilot yield?
-sources_7d: 1
+sources_7d: 0
 sources_30d: 3
 recent_mentions:
 - slug: 2026-06-15-gf-investor-day-2026

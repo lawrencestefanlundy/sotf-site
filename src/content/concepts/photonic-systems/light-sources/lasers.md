@@ -25,13 +25,25 @@ sources:
 - '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 - '[[2026-07-10-the-next-vc-meme-is]]'
-mention_count: 282
+mention_count: 285
 descendants:
 - external-laser-source
 - laser-display-light-engines
-sources_7d: 2
+sources_7d: 1
 sources_30d: 8
 recent_mentions:
+- slug: 2026-10-18-hybrid-diamond-chip-strengthens-interactions-between-light-a
+  title: Hybrid diamond chip strengthens interactions between light and quantum bits
+  date: '2026-10-18'
+  kind: web
+- slug: 2026-10-16-siloton-secures-84m-to-speed-development-of-portable-retinal
+  title: Siloton secures £8.4m to speed development of portable retinal imaging system
+  date: '2026-10-16'
+  kind: web
+- slug: 2026-10-15-boptogenetic-therapy-shows-early-promise-for-treating-retini
+  title: <b>Optogenetic therapy shows early promise for treating retinitis pigmentosa</b>
+  date: '2026-10-15'
+  kind: web
 - slug: 2026-10-08-how-to-arrange-hundreds-of-atoms-between-two-mirrors
   title: How To Arrange Hundreds of Atoms Between Two Mirrors
   date: '2026-10-08'
@@ -51,18 +63,6 @@ recent_mentions:
 - slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
   title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
   date: '2026-07-28'
-  kind: substack
-- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
-  title: 'Startup Funding: Q2 2026'
-  date: '2026-07-13'
-  kind: web
-- slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape
-  title: Neutral PDK / EDA layer for heterogeneous photonic integration — landscape check (Scintil essay correction research)
-  date: '2026-07-11'
-  kind: web
-- slug: 2026-07-10-the-next-vc-meme-is
-  title: The Next VC Meme Is...
-  date: '2026-07-10'
   kind: substack
 neighbors: []
 ---

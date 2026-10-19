@@ -11,6 +11,7 @@ sources:
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 - '[[2026-05-02-self-buffered-bto-epitaxy-on-oxide-insulator-light-sci-app-2]]'
+- '[[2026-10-14-author-correction-wafer-scale-epitaxy-growth-of-high-mobilit]]'
 scorecard:
   viability: 4
   drivers: 3
@@ -20,10 +21,14 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 95
-sources_7d: 3
-sources_30d: 18
+mention_count: 98
+sources_7d: 2
+sources_30d: 14
 recent_mentions:
+- slug: 2026-10-14-author-correction-wafer-scale-epitaxy-growth-of-high-mobilit
+  title: 'Author Correction: Wafer-scale epitaxy growth of high-mobility p-type boron carbon nitride'
+  date: '2026-10-14'
+  kind: web
 - slug: 2026-05-02-self-buffered-bto-epitaxy-on-oxide-insulator-light-sci-app-2
   title: 'Self-buffered BTO epitaxy on oxide insulator (Light: Sci & App 2025)'
   date: '2026-05-02'

@@ -30,7 +30,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 138
+mention_count: 139
 last_reorg_date: '2026-05-13'
 descendants:
 - avalanche-photodiode
@@ -49,9 +49,13 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 2
-sources_30d: 8
+sources_7d: 1
+sources_30d: 6
 recent_mentions:
+- slug: 2026-10-18-hybrid-diamond-chip-strengthens-interactions-between-light-a
+  title: Hybrid diamond chip strengthens interactions between light and quantum bits
+  date: '2026-10-18'
+  kind: web
 - slug: 2026-10-15-us-optical-chip-gyroscope-gets-2000-fold-sensitivity-boost-d
   title: US optical chip gyroscope gets 2,000-fold sensitivity boost, detects slow rotation
   date: '2026-10-15'
@@ -79,10 +83,6 @@ recent_mentions:
 - slug: 2026-07-29-aeluma-secures-loi-for-up-to-30-million-in-chips-act-funding
   title: Aeluma Secures LOI for Up to $30 Million in CHIPS Act Funding to Advance Photonics Semiconductor R&D - Quiver Quantitative
   date: '2026-07-29'
-  kind: web
-- slug: 2026-06-16-coherent-signs-loi-for-up-to-50m-chips-act-grant-to-expand-t
-  title: Coherent signs LOI for up to $50M CHIPS Act grant to expand Texas indium phosphide fab - Dealroom
-  date: '2026-06-16'
   kind: web
 neighbors: []
 ---

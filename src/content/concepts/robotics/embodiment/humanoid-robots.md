@@ -24,6 +24,7 @@ sources:
 - '[[2026-08-31-bullish-on-automation-and-robotics-but-not-humanoid-robots-s]]'
 - '[[2026-10-07-hiphi-a-large-scale-benchmark-for-high-precision-human-motio]]'
 - '[[2026-04-22-robot-autonomy-destination-agility-s-digit-is-the-only]]'
+- '[[2025-03-20-the-robotics-revolution-with-physical-intelligences-cofounde]]'
 - '[[2026-06-10-neura-series-c]]'
 - '[[2026-07-19-humanoid-robot-market-humanoid-robotics-funding-analysis-6]]'
 - '[[2026-07-16-robotics-labour-augmentation-the-us-58-9-billion-humanoid]]'
@@ -73,9 +74,9 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Overrated
 scorecard_status: draft
-mention_count: 129
-sources_7d: 15
-sources_30d: 19
+mention_count: 149
+sources_7d: 19
+sources_30d: 35
 recent_mentions:
 - slug: 2026-10-11-chinese-ev-giants-31-joint-humanoid-robot-could-soon-greet-y
   title: Chinese EV giant’s 31-joint humanoid robot could soon greet you at the car dealership

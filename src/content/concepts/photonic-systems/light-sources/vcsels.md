@@ -16,9 +16,9 @@ related_concepts:
 - lasers
 sources:
 - '[[2026-05-30-intel-optoscribe-acquisition]]'
-mention_count: 33
+mention_count: 34
 sources_7d: 1
-sources_30d: 2
+sources_30d: 3
 recent_mentions:
 - slug: 2026-05-30-intel-optoscribe-acquisition
   title: Intel Acquires Optoscribe (3D glass photonics, Livingston, Scotland)

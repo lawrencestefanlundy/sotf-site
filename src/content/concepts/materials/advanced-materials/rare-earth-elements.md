@@ -58,8 +58,8 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 45
-sources_7d: 14
-sources_30d: 17
+sources_7d: 0
+sources_30d: 16
 recent_mentions:
 - slug: 2026-10-12-iea-rare-earth-elements-2026
   title: 'Rare Earth Elements: Executive Summary'

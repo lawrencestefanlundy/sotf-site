@@ -31,9 +31,9 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 416
-sources_7d: 1
-sources_30d: 11
+mention_count: 423
+sources_7d: 3
+sources_30d: 10
 recent_mentions:
 - slug: 2026-10-13-faster-molecular-simulations-identify-promising-diamond-defe
   title: Faster molecular simulations identify promising diamond defects for quantum computers and sensors

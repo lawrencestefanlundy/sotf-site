@@ -17,7 +17,7 @@ tags:
 - redirect
 mention_count: 4
 sources_7d: 1
-sources_30d: 3
+sources_30d: 2
 recent_mentions: []
 neighbors:
 - slug: chemical-vapor-deposition

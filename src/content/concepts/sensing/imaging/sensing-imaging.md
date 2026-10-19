@@ -22,6 +22,10 @@ mention_count: 116
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-16-siloton-secures-84m-to-speed-development-of-portable-retinal
+  title: Siloton secures £8.4m to speed development of portable retinal imaging system
+  date: '2026-10-16'
+  kind: web
 - slug: 2026-10-14-new-360-degree-air-defense-radar-with-detection-range-exceed
   title: New 360-degree air defense radar with detection range exceeding 205 miles can transform warfare
   date: '2026-10-14'
@@ -49,10 +53,6 @@ recent_mentions:
 - slug: 2026-09-09-watch-flex-and-sentinel-3c-launch-on-vega-c
   title: 'Watch: FLEX and Sentinel-3C launch on Vega-C'
   date: '2026-09-09'
-  kind: web
-- slug: 2026-09-01-diffraqtion-adds-to-pre-seed-round-for-quantum-camera-tech--
-  title: Diffraqtion Adds to Pre-Seed Round for Quantum Camera Tech - Payload Space
-  date: '2026-09-01'
   kind: web
 neighbors: []
 ---

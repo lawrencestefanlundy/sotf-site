@@ -23,16 +23,20 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 84
+mention_count: 87
 descendants:
 - automated-test-equipment
 - ion-implantation
 - known-good-die-test
 - probe-cards
 - wafer-level-burn-in
-sources_7d: 0
-sources_30d: 1
+sources_7d: 2
+sources_30d: 3
 recent_mentions:
+- slug: 2026-10-17-the-case-for-duv-controls
+  title: The Case for DUV Controls
+  date: '2026-10-17'
+  kind: web
 - slug: 2026-10-15-us-urges-chipmakers-to-use-domestic-capacity-as-chips-act-st
   title: US urges chipmakers to use domestic capacity as CHIPS Act strategy shifts from fab subsidies to securing orders - digitimes
   date: '2026-10-15'
@@ -59,10 +63,6 @@ recent_mentions:
   kind: web
 - slug: 2026-09-24-the-hack-ministers-discuss-chips-act-2---euractivcom
   title: 'THE HACK: Ministers discuss Chips Act 2 - euractiv.com'
-  date: '2026-09-24'
-  kind: web
-- slug: 2026-09-24-eu-ministers-push-new-chips-strategy-to-reduce-europes-depen
-  title: EU Ministers Push New Chips Strategy to Reduce Europe’s Dependence on Foreign Semiconductors - eutoday.net
   date: '2026-09-24'
   kind: web
 neighbors: []

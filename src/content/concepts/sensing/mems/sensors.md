@@ -28,8 +28,24 @@ sources:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-16-new-chip-based-tape-measure-for-light-could-revolutionize-mo
+  title: New Chip-Based ‘Tape Measure’ for Light Could Revolutionize Mobile Timekeeping and Enhance National Security
+  date: '2026-10-16'
+  kind: web
+- slug: 2026-10-16-conversational-brain-ai-for-adaptive-epilepsy-care
+  title: Conversational brain AI for adaptive epilepsy care
+  date: '2026-10-16'
+  kind: web
+- slug: 2026-10-15-blacksky-renews-heo-deal-adds-gen-3-imagery-for-space-domain
+  title: BlackSky Renews HEO Deal, Adds Gen-3 Imagery for Space Domain Awareness
+  date: '2026-10-15'
+  kind: web
 - slug: 2026-10-15-us-optical-chip-gyroscope-gets-2000-fold-sensitivity-boost-d
   title: US optical chip gyroscope gets 2,000-fold sensitivity boost, detects slow rotation
+  date: '2026-10-15'
+  kind: web
+- slug: 2026-10-15-jaxa-taps-arkedge-for-two-lunar-navigation-demos
+  title: JAXA Taps ArkEdge for Two Lunar Navigation Demos
   date: '2026-10-15'
   kind: web
 - slug: 2026-10-14-new-chip-scale-gyroscope-measures-rotation-with-unprecedente
@@ -43,22 +59,6 @@ recent_mentions:
 - slug: 2026-10-13-new-topological-microscope-tip-reveals-evidence-of-2d-alterm
   title: New topological microscope tip reveals evidence of 2D altermagnetism
   date: '2026-10-13'
-  kind: web
-- slug: 2026-10-12-from-nonmagnetic-to-magnetic-a-2d-semiconductor-with-electri
-  title: 'From nonmagnetic to magnetic: A 2D semiconductor with electrically tunable magnetism'
-  date: '2026-10-12'
-  kind: web
-- slug: 2026-10-12-21-us-military-satellites-blast-at-15660-mph-to-hunt-missile
-  title: 21 US military satellites blast at 15,660 mph to hunt missile threats from space
-  date: '2026-10-12'
-  kind: web
-- slug: 2026-10-11-ultraviolet-laser-creates-new-defects-in-diamond-without-dis
-  title: Ultraviolet laser creates new defects in diamond without disturbing quantum centers
-  date: '2026-10-11'
-  kind: web
-- slug: 2026-10-10-ultraviolet-laser-pulses-engineer-diamond-defects-selectivel
-  title: Ultraviolet laser pulses engineer diamond defects selectively, leaving quantum qubits intact
-  date: '2026-10-10'
   kind: web
 neighbors: []
 ---

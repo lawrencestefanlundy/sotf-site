@@ -21,7 +21,7 @@ frontier:
 - How do the measured inner-pin temperatures of 0 dB attenuators vary across vendors, mounting geometries and base temperatures, and what heat load per line does this imply at the millikelvin stage 2026 08 10 effectiveness of some 0 db cryogenic microwave attenuators a?
 - Is the proposed 3.75 K operating temperature for ferromagnet-coupled SNSPDs reproducible experimentally at dark-count rates competitive with sub-1 K devices 2026 06 17 hybrid ferromagnet snspds single photon induced order to dis?
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions: []
 neighbors: []
 ---

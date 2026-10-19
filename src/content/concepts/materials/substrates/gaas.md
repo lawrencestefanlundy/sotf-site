@@ -12,7 +12,7 @@ sources:
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 - '[[2026-06-22-thermal-stack-layer-landscape]]'
 - '[[2026-07-11-neutral-pdk-heterogeneous-integration-landscape]]'
-mention_count: 95
+mention_count: 96
 sources_7d: 1
 sources_30d: 8
 recent_mentions:

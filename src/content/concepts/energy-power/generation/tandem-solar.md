@@ -21,7 +21,7 @@ frontier:
 - Do the Sn(II)/Ge(II) oxidation states survive ambient and operational conditions, or does oxidation dominate degradation as in other tin-based lead-free perovskites?
 - Has any lead-free double perovskite been integrated into a two-terminal tandem stack, and what open-circuit voltage and fill factor result?
 sources_7d: 1
-sources_30d: 2
+sources_30d: 1
 recent_mentions:
 - slug: 2026-10-13-qcells-aims-to-build-a-giant-factory-for-next-gen-tandem-sol
   title: Qcells aims to build a giant factory for next-gen tandem solar

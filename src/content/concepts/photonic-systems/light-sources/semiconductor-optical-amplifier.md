@@ -19,7 +19,7 @@ frontier:
 - Can the 89.5% MNIST accuracy at 10 GS/s, obtained in simulation for a 64:64:10 network, be reproduced on fabricated hardware, and what accuracy is achievable on tasks beyond MNIST?
 - What is the measured, rather than modelled, full-system energy per operation for a fabricated multi-layer SOA network, and does the sub-20 pJ/op threshold at 18 synapses per neuron survive real transceiver and control overheads?
 - How does XGM-based activation behave at input counts between the demonstrated 7 WDM channels and the architected 64, in terms of gain saturation, crosstalk and per-channel power budget?
-sources_7d: 1
+sources_7d: 0
 sources_30d: 1
 recent_mentions: []
 neighbors: []

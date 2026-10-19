@@ -17,6 +17,7 @@ sources:
 - '[[2025-07-20-risc-v-open-silicon-share-shd-group-risc-v-market-analysis]]'
 - '[[2024-eu-chips-act-final-text]]'
 - '[[2026-01-23-risc-v-open-silicon-share-risc-v-hits-25-design-share-as]]'
+- '[[2026-10-16-uneec-site]]'
 - '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
 - '[[2025-07-23-nvidia-cuda-on-risc-v]]'
 - '[[2026-06-17-qualcomm-tenstorrent-talks]]'
@@ -36,10 +37,14 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 120
-sources_7d: 1
-sources_30d: 13
+mention_count: 125
+sources_7d: 5
+sources_30d: 16
 recent_mentions:
+- slug: 2026-10-16-uneec-site
+  title: UNEEC Systems GmbH — company site (uneec.eu), incl. imprint
+  date: '2026-10-16'
+  kind: web
 - slug: 2026-10-12-cnt-electronics-market-research
   title: 'Carbon nanotube electronics: market, cohort and M&A research (web sweep, 82 sources)'
   date: '2026-10-12'
@@ -67,10 +72,6 @@ recent_mentions:
 - slug: 2026-05-21-semianalysis-eda-market-primer
   title: EDA Market Primer - Market Dynamics, Cadence, Synopsys, Siemens, China EDA Rise
   date: '2026-05-21'
-  kind: web
-- slug: 2026-04-09-sifive-series-g
-  title: SiFive raises $400M Series G at $3.65B valuation
-  date: '2026-04-09'
   kind: web
 neighbors: []
 ---

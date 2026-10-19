@@ -49,9 +49,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 1093
-sources_7d: 3
-sources_30d: 16
+mention_count: 1095
+sources_7d: 1
+sources_30d: 14
 recent_mentions:
 - slug: 2026-10-07-neuro-catalyst-sweep
   title: 'Catalyst sweep: AI decoding, new sensing modalities, non-invasive deep stimulation, payment pathways (neuro, Oct 2026)'
@@ -60,6 +60,10 @@ recent_mentions:
 - slug: 2026-08-26-we-have-foundation-models-for-language-not-for-physics-anima
   title: 🔬“We have foundation models for language, not for physics” — Anima Anandkumar, Bren Professor of Computing
   date: '2026-08-26'
+  kind: web
+- slug: 2026-07-22-quantum-neural-networks-face-the-hardware-test
+  title: Quantum Neural Networks Face the Hardware Test
+  date: '2026-07-22'
   kind: web
 - slug: 2026-07-06-willdepue-stargate-for-data
   title: A Stargate for Data — will depue (OpenAI) on >$100B/year data spend by 2030
@@ -80,10 +84,6 @@ recent_mentions:
 - slug: 2026-10-13-marketus-ai-materials-discovery-report-mill
   title: 'Market.us AI in Materials Discovery Market: $536.4M 2024 to $5.58B 2034, 26.4% CAGR (report mill, contrast only)'
   date: '2025-11-01'
-  kind: web
-- slug: 2025-08-21-evolution-designed-us-to-die-fast-we-can-change-that-jacob-k
-  title: Evolution designed us to die fast; we can change that — Jacob Kimmel
-  date: '2025-08-21'
   kind: web
 neighbors:
 - slug: physics-ai

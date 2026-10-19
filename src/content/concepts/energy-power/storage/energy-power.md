@@ -123,37 +123,37 @@ descendants:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
-- slug: 2026-10-14-nuclear-powered-data-centers-its-a-tough-sell-in-utah-coal-c
-  title: Nuclear-powered data centers? It’s a tough sell in Utah coal country.
+- slug: 2026-10-17-this-hidden-device-could-free-up-gigawatts-of-grid-power
+  title: This Hidden Device Could Free Up Gigawatts of Grid Power
+  date: '2026-10-17'
+  kind: web
+- slug: 2026-10-15-tech-giants-want-clean-energy-in-nc-is-duke-finally-ready-to
+  title: Tech giants want clean energy in N.C. Is Duke finally ready to help?
+  date: '2026-10-15'
+  kind: web
+- slug: 2026-10-15-a-new-class-of-batteries-helps-data-centers-play-nicely-with
+  title: A new class of batteries helps data centers play nicely with the grid
+  date: '2026-10-15'
+  kind: web
+- slug: 2026-10-15-is-fusion-the-future-of-energy-in-virginia-some-officials-th
+  title: Is fusion the future of energy in Virginia? Some officials think so.
+  date: '2026-10-15'
+  kind: web
+- slug: 2026-10-15-can-the-fossil-gas-supply-handle-the-ai-boom---latitude-medi
+  title: Can the fossil gas supply handle the AI boom? - Latitude Media
+  date: '2026-10-15'
+  kind: web
+- slug: 2026-10-15-what-californias-grid-utilization-move-says-about-energy-aff
+  title: What California’s grid utilization move says about energy affordability - Latitude Media
+  date: '2026-10-15'
+  kind: web
+- slug: 2026-10-14-startorus-magnet-sets-field-change-record
+  title: Startorus magnet sets field change record
   date: '2026-10-14'
   kind: web
-- slug: 2026-10-13-texas-oilfield-wastewater-could-help-cool-data-centers-witho
-  title: Texas oilfield wastewater could help cool data centers without draining freshwater
-  date: '2026-10-13'
-  kind: web
-- slug: 2026-10-13-tyler-bernstein-zeno-power
-  title: Tyler Bernstein, Zeno Power
-  date: '2026-10-13'
-  kind: web
-- slug: 2026-10-12-us-genesis-mission-backs-digital-twin-to-predict-fusion-plas
-  title: US Genesis Mission backs digital twin to predict fusion plasma in under 20 minutes
-  date: '2026-10-12'
-  kind: web
-- slug: 2026-10-12-first-utility-scale-enhanced-geothermal-plant-goes-live
-  title: First Utility-Scale Enhanced Geothermal Plant Goes Live
-  date: '2026-10-12'
-  kind: web
-- slug: 2026-10-11-17-gigawatt-texas-power-project-passes-key-hurdle-for-worlds
-  title: 17-gigawatt Texas power project passes key hurdle for world’s largest private grid
-  date: '2026-10-11'
-  kind: web
-- slug: 2026-10-09-nasa-signs-space-nuclear-pact-says-moon-base-is-ahead-of-sch
-  title: NASA Signs Space Nuclear Pact, Says Moon Base Is Ahead of Schedule
-  date: '2026-10-09'
-  kind: web
-- slug: 2026-10-08-constellation-and-google-go-in-on-nuclear-uprates-to-unlock-
-  title: Constellation and Google go in on nuclear uprates to unlock clean power
-  date: '2026-10-08'
+- slug: 2026-10-14-east-midlands-set-to-benefit-from-25bn-fusion-energy-program
+  title: East Midlands set to benefit from £2.5bn fusion energy programme
+  date: '2026-10-14'
   kind: web
 neighbors: []
 ---

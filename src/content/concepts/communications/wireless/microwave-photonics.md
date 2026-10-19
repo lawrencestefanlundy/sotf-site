@@ -22,14 +22,22 @@ tags:
 descendants:
 - optical-frequency-division
 - optoelectronic-oscillator
-mention_count: 15
+mention_count: 16
 sources_7d: 1
-sources_30d: 2
+sources_30d: 3
 recent_mentions:
+- slug: 2026-10-15-rf-over-fibre-market-sizing
+  title: 'RF-over-fibre market size: analyst consensus (compiled)'
+  date: '2026-10-15'
+  kind: web
 - slug: 2025-12-09-gallium-nitride-photonics-w-james
   title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
   date: '2025-12-09'
   kind: substack
+- slug: 2014-02-01-zinwave-acquired-by-mcwane
+  title: Zinwave (wideband analogue DAS over fibre) acquired by McWane; revenue path to 2019
+  date: '2014-02-01'
+  kind: web
 neighbors:
 - slug: optoelectronic-oscillator
   name: Optoelectronic Oscillator (OEO)

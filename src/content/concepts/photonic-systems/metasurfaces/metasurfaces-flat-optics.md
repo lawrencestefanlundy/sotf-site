@@ -35,9 +35,9 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 163
-sources_7d: 1
-sources_30d: 16
+mention_count: 165
+sources_7d: 2
+sources_30d: 17
 recent_mentions:
 - slug: 2026-07-21-robotically-assembled-electromagnetic-metamaterials-for-long
   title: Robotically Assembled Electromagnetic Metamaterials for Long-Range Space Situational Awareness
@@ -108,8 +108,6 @@ Supply side is clear. The design space is being opened by fabrication capability
 **TLDR: The sources contain no adoption, manufacturing or commercial evidence, so no diffusion judgement is defensible.**
 
 ## Impact (3/5)
-
-The breadth is the argument for impact. Within a single month of literature, metasurfaces are shown performing near-perfect narrowband absorption, refractive-index and absorption-based substance detection, Purcell-enhanced telecom-band emission on a CMOS-compatible substrate, frequency conversion with simultaneous spatial mode shaping, analogue spatial differentiation and edge detection in the optical domain, and strong light-matter coupling architectures for polariton chemistry and transport. If the wireless branch works, the claimed prize is scalable extremely large MIMO apertures and channel diagonalisation performed in the analogue domain.
 
 The constraint on the score is that value is asserted at the component level only. No source reports what a metasurface replaces, at what cost, with what power or size saving, or against what incumbent performance. A Q of 2180 and a Purcell factor of 18 are good numbers in a physics paper; neither tells you the value of the resulting product. There is also no evidence here on the highest-profile flat-optics claim, the substitution of bulk imaging lenses, so that part of the impact case cannot be assessed from this material at all. A 3 records credible, broad, unquantified value.
 

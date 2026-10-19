@@ -33,8 +33,8 @@ frontier:
 - What fraction of encapsulated devices meet spec? None of the sources reports yield, and the plasmonic-lattice result shows two nominally similar samples behaving differently 2026 05 15 optimizing strong light matter coupling of plasmonic lattice.
 - Does the ~0.4 A/W potential responsivity of the WSe2-encapsulated graphene detector materialise, and does the bandwidth hold beyond the 110 GHz setup limit 2026 06 05 c band 160 gbs 1 zero bias graphene photodetectors breaking ?
 - Do the 38-year projected implant lifetimes from accelerated aging survive real-time chronic testing, and what is the actual failure mode of the ceramic-polymer stack 2026 06 24 biorxiv a thin film transistor backplane for scalable ?
-sources_7d: 4
-sources_30d: 8
+sources_7d: 2
+sources_30d: 7
 recent_mentions:
 - slug: 2026-10-13-transporter-18-smallsats-encapsulation
   title: Transporter-18 SmallSats Encapsulation
@@ -62,8 +62,6 @@ neighbors: []
 
 Encapsulation in this context means enclosing an active material inside another material chosen for its inertness, transparency, flatness or dielectric constant. The archetype in two-dimensional electronics is hexagonal boron nitride (hBN): a monolayer semiconductor or graphene sheet is sandwiched between atomically flat hBN crystals, which removes charge and strain disorder from the substrate and shields the layer from air. The same idea appears in several other guises in the current literature: transition metal dichalcogenides used as the encapsulant instead of hBN, graphene caps grown over air-sensitive monolayers, molecules threaded into the hollow core of carbon or boron nitride nanotubes, particles trapped inside rolled-up MXene nanoscrolls, biomolecules held in lipid-coated water-in-oil droplets, and multilayer ceramic-polymer thin films deposited over flexible circuitry.
 
-The mechanism is rarely just a barrier. Encapsulation changes the dielectric environment, and that changes the physics. In graphene photodetectors, a WSe2 encapsulation architecture suppresses out-of-plane energy dissipation, raising the hot-carrier cooling length to about 2.68 µm and breaking the usual trade-off between responsivity and speed, yielding ~0.12 A/W zero-bias responsivity with bandwidth beyond a setup-limited 110 GHz and direct detection at 120 Gb/s NRZ and 160 Gb/s PAM-4. In moiré heterobilayers, including hBN dielectric screening is described as essential to reproduce the experimentally observed intralayer exciton features at all. Encapsulating graphene between two twisted WSe2 monolayers produces pure valley-Zeeman spin-orbit coupling and a symmetry-enforced reordering of Landau levels. In a hybrid waveguide device, the hBN thickness alone determines whether the A exciton simply redshifts or splits into two polariton branches.
-
 The parameters that decide outcomes are: the dielectric constant and thickness of the shell, its atomic flatness and the strain it imposes, chemical compatibility with process solvents, and the fidelity of the interface. All four cut both ways. A plasmonic-lattice study found that hBN encapsulation is necessary for optical quality but that strain and etching-induced surface contamination introduced during the embedding process significantly reduce exciton quality and light-matter coupling strength. A charge-transfer contact study reported a 0.68 ± 0.05 eV valence band shift in WSe2 on RuCl3 but noted the effect depends sensitively on solvent exposure and interface quality.
 
 Note that two of the supplied sources use "encapsulation" in the unrelated cryptographic sense of a key encapsulation mechanism. They are homonyms and carry no weight in this assessment.
@@ -79,8 +77,6 @@ The deduction is for process-induced damage and verification cost. Embedding gol
 ## Drivers (3/5)
 
 Demand is legible in two places. High-speed optical receivers are explicitly framed as targeting energy-efficient interconnects for next-generation and AI-driven data systems. Chronic neural interfaces need encapsulation as a hard requirement rather than an optimisation, since scaling channel counts on flexible substrates is pointless without a barrier that survives in vivo for years. A third, quieter driver is doping stability: encapsulating charge-transfer molecules inside SWCNT cavities is pursued because extrinsic n-type doping is unstable and environmentally sensitive, and endohedral filling leaves the outer surface free for subsequent processing.
-
-On supply, the striking pattern across the corpus is dependence on a single source of high-quality hBN. Kenji Watanabe and Takashi Taniguchi appear as co-authors on the plasmonic lattice, WSe2/graphene, CrCl3, RuCl3 contact and waveguide-polariton papers. The sources do not discuss hBN production capacity or alternatives, so this is an observation about the literature rather than a proven bottleneck, but it is the obvious thing to check before assuming the technique scales.
 
 **TLDR: Clear demand pull from optical interconnects and chronic implants; supply of the key encapsulant material looks narrow.**
 
@@ -119,13 +115,6 @@ The caveat that keeps this from being a straightforward bullish call is that enc
 ## Prediction
 
 ## Evidence base
-
-- 5 May 2026: liquid-phase encapsulation of oligothiophenes and Nile Red in boron nitride nanotubes, screened from ten dyes, gave weakly emissive heterogeneous ensembles with suppressed effective radiative rates rather than clean J- or H-aggregates.
-- 15 May 2026: hBN encapsulation is stated as necessary for monolayer optical quality in plasmonic-lattice polariton devices, yet strain and etching-induced surface contamination from the embedding process significantly reduced exciton quality and coupling strength.
-- 3 June 2026: graphene encapsulated between two parallel twisted WSe2 monolayers produced pure valley-Zeeman spin-orbit coupling and symmetry-enforced Landau level reordering, an experimentally elusive prediction.
-- 5 June 2026: WSe2 encapsulation raised the hot-carrier cooling length to ~2.68 µm, giving zero-bias graphene photodetectors of ~0.12 A/W (potentially ~0.4 A/W) with bandwidth beyond a setup-limited 110 GHz and 120 Gb/s NRZ / 160 Gb/s PAM-4 detection.
-- 24 June 2026: hybrid ceramic-polymer thin-film encapsulation on IGZO/polyimide neural backplanes gave stable operation with projected lifetimes exceeding 38 years under accelerated aging, with acute and chronic in vivo rat validation.
-- 4 August 2026: verification of graphene capping on bismuthene previously required slow ultra-high-vacuum techniques; an ex situ Raman signature at ~122 cm⁻¹ was introduced as a rapid nondestructive substitute.
 
 ## Open questions
 

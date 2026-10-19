@@ -23,6 +23,18 @@ mention_count: 82
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-15-tech-giants-want-clean-energy-in-nc-is-duke-finally-ready-to
+  title: Tech giants want clean energy in N.C. Is Duke finally ready to help?
+  date: '2026-10-15'
+  kind: web
+- slug: 2026-10-15-a-new-class-of-batteries-helps-data-centers-play-nicely-with
+  title: A new class of batteries helps data centers play nicely with the grid
+  date: '2026-10-15'
+  kind: web
+- slug: 2026-10-15-what-californias-grid-utilization-move-says-about-energy-aff
+  title: What California’s grid utilization move says about energy affordability - Latitude Media
+  date: '2026-10-15'
+  kind: web
 - slug: 2026-10-14-nuclear-powered-data-centers-its-a-tough-sell-in-utah-coal-c
   title: Nuclear-powered data centers? It’s a tough sell in Utah coal country.
   date: '2026-10-14'
@@ -42,18 +54,6 @@ recent_mentions:
 - slug: 2026-10-05-virginias-new-energy-plan-make-the-ai-boom-work-for-not-agai
   title: 'Virginia’s new energy plan: Make the AI boom work for — not against — us'
   date: '2026-10-05'
-  kind: web
-- slug: 2026-10-01-vermont-gas-invests-in-geothermal-for-the-first-time---latit
-  title: Vermont Gas invests in geothermal for the first time - Latitude Media
-  date: '2026-10-01'
-  kind: web
-- slug: 2026-09-30-a-data-center-company-signed-a-ppa-for-space-solar-power---l
-  title: A data center company signed a PPA for space solar power - Latitude Media
-  date: '2026-09-30'
-  kind: web
-- slug: 2026-09-28-in-global-first-a-next-gen-geothermal-plant-goes-live-at-uti
-  title: In global first, a next-gen geothermal plant goes live at utility scale
-  date: '2026-09-28'
   kind: web
 neighbors: []
 ---

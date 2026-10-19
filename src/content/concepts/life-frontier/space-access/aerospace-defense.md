@@ -23,6 +23,18 @@ mention_count: 80
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-16-ratlog-wants-to-cut-90-of-a-rocket-engines-parts
+  title: RATLOG Wants to Cut ~90% of a Rocket Engine’s Parts
+  date: '2026-10-16'
+  kind: web
+- slug: 2026-10-15-uksa-taps-clearspace-for-countrys-first-debris-removal-missi
+  title: UKSA Taps ClearSpace for Country’s First Debris Removal Mission
+  date: '2026-10-15'
+  kind: web
+- slug: 2026-10-15-blacksky-renews-heo-deal-adds-gen-3-imagery-for-space-domain
+  title: BlackSky Renews HEO Deal, Adds Gen-3 Imagery for Space Domain Awareness
+  date: '2026-10-15'
+  kind: web
 - slug: 2026-10-14-nasa-to-discuss-artemis-acceleration-status-of-upcoming-moon
   title: NASA to Discuss Artemis Acceleration, Status of Upcoming Moon Missions
   date: '2026-10-14'
@@ -42,18 +54,6 @@ recent_mentions:
 - slug: 2026-10-14-reflect-orbital-buys-two-skyroot-aerospace-launches
   title: Reflect Orbital Buys Two Skyroot Aerospace Launches
   date: '2026-10-14'
-  kind: web
-- slug: 2026-10-13-new-microwave-weapon-can-zap-drone-swarms-without-burning-th
-  title: New microwave weapon can zap drone swarms without burning through missiles
-  date: '2026-10-13'
-  kind: web
-- slug: 2026-10-13-pasha-kravtsov-true-anomaly
-  title: Pasha Kravtsov, True Anomaly
-  date: '2026-10-13'
-  kind: web
-- slug: 2026-10-13-tyler-bernstein-zeno-power
-  title: Tyler Bernstein, Zeno Power
-  date: '2026-10-13'
   kind: web
 neighbors: []
 ---

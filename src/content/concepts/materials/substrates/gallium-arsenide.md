@@ -24,7 +24,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 102
+mention_count: 103
 sources_7d: 1
 sources_30d: 8
 recent_mentions:
@@ -105,8 +105,6 @@ The part that is not now is scalable manufacture. Deterministic emitter position
 **TLDR: GaAs is already the operating material in tier-one metrology and quantum optics experiments; scalable quantum-network deployment is further out.**
 
 ## Overrated or underrated? Fairly rated
-
-GaAs is doing exactly what a mature substrate should do: it is invisible as a headline and load-bearing in practice. Across eighteen sources it appears as the enabling layer for optical clocks, gravitational-wave mirror coatings, quantum light sources, polariton physics in the very strong coupling regime, Rydberg exciton band mixing, and topological analogue simulation. Nobody is overselling it, and nobody needs to; the interesting bets are not on the material but on the process innovations layered onto it.
 
 ## Prediction
 

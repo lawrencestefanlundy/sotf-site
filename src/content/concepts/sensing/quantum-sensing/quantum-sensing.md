@@ -15,7 +15,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 213
+mention_count: 216
 descendants:
 - atomic-clocks
 - nv-diamond-sensing
@@ -34,9 +34,21 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 14
+sources_7d: 1
+sources_30d: 11
 recent_mentions:
+- slug: 2026-10-18-hybrid-diamond-chip-strengthens-interactions-between-light-a
+  title: Hybrid diamond chip strengthens interactions between light and quantum bits
+  date: '2026-10-18'
+  kind: web
+- slug: 2026-10-18-new-monolithic-ion-trap-opens-quantum-simulations-to-more-re
+  title: New monolithic ion trap opens quantum simulations to more researchers
+  date: '2026-10-18'
+  kind: web
+- slug: 2026-10-16-new-chip-based-tape-measure-for-light-could-revolutionize-mo
+  title: New Chip-Based ‘Tape Measure’ for Light Could Revolutionize Mobile Timekeeping and Enhance National Security
+  date: '2026-10-16'
+  kind: web
 - slug: 2026-10-15-us-optical-chip-gyroscope-gets-2000-fold-sensitivity-boost-d
   title: US optical chip gyroscope gets 2,000-fold sensitivity boost, detects slow rotation
   date: '2026-10-15'
@@ -56,18 +68,6 @@ recent_mentions:
 - slug: 2026-09-16-how-to-synchronize-a-long-distance-quantum-network
   title: How to Synchronize a Long-Distance Quantum Network
   date: '2026-09-16'
-  kind: web
-- slug: 2026-08-13-a-neutral-diamond-defect
-  title: A Neutral Diamond Defect
-  date: '2026-08-13'
-  kind: web
-- slug: 2026-08-12-a-quantum-memory-test
-  title: A Quantum  Memory Test
-  date: '2026-08-12'
-  kind: web
-- slug: 2026-07-21-precision-astrometry-using-optically-independent-spacecraft-
-  title: Precision Astrometry Using Optically Independent Spacecraft for Graviational Wave Detection
-  date: '2026-07-21'
   kind: web
 neighbors: []
 ---

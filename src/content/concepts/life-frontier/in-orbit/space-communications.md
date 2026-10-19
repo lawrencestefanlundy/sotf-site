@@ -21,6 +21,7 @@ sources:
 - '[[2026-05-13-20-years-of-space-communications-and-navigation]]'
 - '[[2026-06-05-nasa-concludes-antenna-mishap-investigation-releases-report]]'
 - '[[2026-09-07-teledyne-e2v-data-converters-defence]]'
+- '[[2026-10-15-rf-over-fibre-market-sizing]]'
 frontier:
 - What is the actual quantified gain of NOMA over orthogonal access in a direct-to-cell link budget, including receiver complexity and imperfect successive interference cancellation, rather than a case-study comparison?
 - Do the learned random access gains under 3GPP-compliant LEO simulation survive real Doppler, real preamble collisions and on-board inference constraints in orbit?
@@ -33,7 +34,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - category
-mention_count: 37
+mention_count: 38
 descendants: []
 last_reorg_date: '2026-05-14'
 scorecard:
@@ -45,9 +46,13 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 2
+sources_7d: 1
 sources_30d: 3
 recent_mentions:
+- slug: 2026-10-15-rf-over-fibre-market-sizing
+  title: 'RF-over-fibre market size: analyst consensus (compiled)'
+  date: '2026-10-15'
+  kind: web
 - slug: 2026-10-09-europes-earth-observation-providers-set-their-sights-on-satc
   title: Europe’s Earth Observation Providers Set Their Sights on Satcom
   date: '2026-10-09'

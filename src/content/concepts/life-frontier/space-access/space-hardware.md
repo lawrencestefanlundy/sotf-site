@@ -27,7 +27,7 @@ tags:
 mention_count: 7
 descendants: []
 last_reorg_date: '2026-05-14'
-sources_7d: 1
+sources_7d: 0
 sources_30d: 1
 recent_mentions:
 - slug: 2026-10-12-compositesworld-nasa-cnt-copv-flight-2017

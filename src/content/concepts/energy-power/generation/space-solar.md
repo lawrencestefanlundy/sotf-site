@@ -9,7 +9,7 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2026-09-30-a-data-center-company-signed-a-ppa-for-space-solar-power---l]]'
-mention_count: 7
+mention_count: 8
 sources_7d: 0
 sources_30d: 2
 recent_mentions:

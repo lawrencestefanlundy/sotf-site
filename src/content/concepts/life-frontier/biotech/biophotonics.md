@@ -15,11 +15,19 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 71
+mention_count: 72
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 2
 recent_mentions:
+- slug: 2026-10-16-siloton-secures-84m-to-speed-development-of-portable-retinal
+  title: Siloton secures £8.4m to speed development of portable retinal imaging system
+  date: '2026-10-16'
+  kind: web
+- slug: 2026-10-15-boptogenetic-therapy-shows-early-promise-for-treating-retini
+  title: <b>Optogenetic therapy shows early promise for treating retinitis pigmentosa</b>
+  date: '2026-10-15'
+  kind: web
 - slug: 2026-10-13-kprx-quote-stockanalysis-12-oct-2026
   title: Kiora Pharmaceuticals (KPRX) quote, StockAnalysis, close 12 Oct 2026
   date: '2026-10-12'
@@ -43,14 +51,6 @@ recent_mentions:
 - slug: 2026-08-24-nist-researchers-supersize-quantum-technology-to-help-detect
   title: NIST Researchers Supersize Quantum Technology to Help Detect Faint Photons
   date: '2026-08-24'
-  kind: web
-- slug: 2026-08-20-why-tracing-cyclosporiasis-is-so-tough-and-a-digestible-prob
-  title: Why tracing cyclosporiasis is so tough, and a digestible probe for the microbiome
-  date: '2026-08-20'
-  kind: web
-- slug: 2026-10-13-kiora-ckd-south-korea-kio-301-licence-aug-2026
-  title: Kiora Licenses South Korean Rights to KIO-301 to Chong Kun Dang (8-K Exhibit 99.1)
-  date: '2026-08-19'
   kind: web
 neighbors: []
 ---

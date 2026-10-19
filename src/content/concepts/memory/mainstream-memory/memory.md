@@ -134,12 +134,12 @@ recent_mentions:
   title: Kimi K3 — Moonshot launch post (architecture, quantisation, serving requirements)
   date: '2026-07-15'
   kind: web
-- slug: 2026-07-13-tech-inflation-silicon-shock-ai-intensifies-u-s-inflation
-  title: 'AI intensifies U.S. inflation? Goldman Sachs: Rising prices of memory, electricity, and software may push core PCE up by 0.5 percentage points by the end of the year'
-  date: '2026-07-13'
-  kind: web
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
+  date: '2026-07-13'
+  kind: web
+- slug: 2026-07-13-sk-hynix-record-fall-hbm4-three-supplier
+  title: SK Hynix record one-day fall as HBM4 goes three-supplier
   date: '2026-07-13'
   kind: web
 neighbors: []

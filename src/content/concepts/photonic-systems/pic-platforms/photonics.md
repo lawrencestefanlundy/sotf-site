@@ -51,7 +51,7 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-mention_count: 1207
+mention_count: 1213
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -60,11 +60,27 @@ descendants:
 - optical-frequency-comb
 - optical-frequency-division
 - optoelectronic-oscillator
-sources_7d: 4
+sources_7d: 3
 sources_30d: 5
 recent_mentions:
+- slug: 2026-10-18-hybrid-diamond-chip-strengthens-interactions-between-light-a
+  title: Hybrid diamond chip strengthens interactions between light and quantum bits
+  date: '2026-10-18'
+  kind: web
+- slug: 2026-10-16-new-chip-based-tape-measure-for-light-could-revolutionize-mo
+  title: New Chip-Based ‘Tape Measure’ for Light Could Revolutionize Mobile Timekeeping and Enhance National Security
+  date: '2026-10-16'
+  kind: web
+- slug: 2026-10-16-siloton-secures-84m-to-speed-development-of-portable-retinal
+  title: Siloton secures £8.4m to speed development of portable retinal imaging system
+  date: '2026-10-16'
+  kind: web
 - slug: 2026-10-15-us-optical-chip-gyroscope-gets-2000-fold-sensitivity-boost-d
   title: US optical chip gyroscope gets 2,000-fold sensitivity boost, detects slow rotation
+  date: '2026-10-15'
+  kind: web
+- slug: 2026-10-15-rf-over-fibre-market-sizing
+  title: 'RF-over-fibre market size: analyst consensus (compiled)'
   date: '2026-10-15'
   kind: web
 - slug: 2026-10-14-new-chip-scale-gyroscope-measures-rotation-with-unprecedente
@@ -78,22 +94,6 @@ recent_mentions:
 - slug: 2026-10-12-the-absurd-engineering-behind-the-internet
   title: The Absurd Engineering Behind the Internet
   date: '2026-10-12'
-  kind: web
-- slug: 2026-10-12-cnt-electronics-market-research
-  title: 'Carbon nanotube electronics: market, cohort and M&A research (web sweep, 82 sources)'
-  date: '2026-10-12'
-  kind: web
-- slug: 2026-10-12-chip-mediated-manipulation-of-photonic-quantum-skyrmions
-  title: Chip-mediated manipulation of photonic quantum skyrmions
-  date: '2026-10-12'
-  kind: web
-- slug: 2026-10-09-state-of-the-future-dispatch-9th
-  title: 'State of the Future: Dispatch 9th October 2026'
-  date: '2026-10-09'
-  kind: substack
-- slug: 2026-10-07-china-the-fcc-and-the-logic-of-transceivers
-  title: China, the FCC, and the Logic of Transceivers
-  date: '2026-10-07'
   kind: web
 neighbors: []
 ---

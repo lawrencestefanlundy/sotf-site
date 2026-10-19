@@ -34,6 +34,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-15-simultaneous-high-fidelity-single-qubit-gates-in-a-spin-qubi
+  title: Simultaneous high-fidelity single-qubit gates in a spin qubit array
+  date: '2026-10-15'
+  kind: web
 - slug: 2026-10-09-beam-the-great-american-open-model-with-reflectionai-co-foun
   title: 'Beam: The Great American Open Model with ReflectionAI Co-Founder and CEO Misha Laskin'
   date: '2026-10-09'
@@ -60,10 +64,6 @@ recent_mentions:
   kind: web
 - slug: 2026-09-25-rigetti-computing-rgti-secures-chips-act-support-is-the-upsi
   title: Rigetti Computing (RGTI) Secures CHIPS Act Support, Is The Upside Already Priced In? - simplywall.st
-  date: '2026-09-25'
-  kind: web
-- slug: 2026-09-25-swarm-scaling
-  title: Swarm Scaling
   date: '2026-09-25'
   kind: web
 neighbors: []

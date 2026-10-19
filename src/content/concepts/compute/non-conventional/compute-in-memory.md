@@ -18,8 +18,9 @@ frontier:
 - What is the measured energy per operation and insertion loss penalty of a photonic in-memory compute tile relative to an electronic resistive crossbar of the same weight count?
 - Are the memory materials in these devices compatible with standard silicon photonics back-end thermal budgets and foundry process flows, and at what yield?
 - Does any funded company, rather than an academic group, have a compute-in-memory product shipping into the edge silicon demand identified in Q2 2026?
-sources_7d: 0
-sources_30d: 0
+mention_count: 1
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'

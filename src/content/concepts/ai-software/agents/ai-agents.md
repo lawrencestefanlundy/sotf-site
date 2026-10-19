@@ -27,7 +27,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 164
+mention_count: 172
 descendants:
 - agent-identity-kya
 - agentic-ai
@@ -40,6 +40,10 @@ descendants:
 sources_7d: 4
 sources_30d: 25
 recent_mentions:
+- slug: 2026-10-14-lab-in-the-loop-at-compute-speed-ian-quigley-leash-bio
+  title: Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio
+  date: '2026-10-14'
+  kind: web
 - slug: 2026-09-25-swarm-scaling
   title: Swarm Scaling
   date: '2026-09-25'
@@ -67,10 +71,6 @@ recent_mentions:
 - slug: 2026-08-06-dex-in-the-city-how-claudes-red-teaming-agents-escaped-a-tes
   title: 'DEX in the City: How Claude''s Red-Teaming Agents Escaped a Test Without Realizing It'
   date: '2026-08-06'
-  kind: web
-- slug: 2026-08-05-stealthium-gpu-powered-security-intelligence-site-docs-compe
-  title: Stealthium — GPU-Powered Security Intelligence (site + docs + competitive context)
-  date: '2026-08-05'
   kind: web
 neighbors: []
 ---

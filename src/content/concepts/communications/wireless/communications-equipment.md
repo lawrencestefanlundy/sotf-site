@@ -33,6 +33,14 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-15-das-market-sizing-analyst-consensus
+  title: 'DAS and in-building wireless market size: analyst consensus (compiled)'
+  date: '2026-10-15'
+  kind: web
+- slug: 2026-10-15-das-equipment-vs-installation-cost
+  title: 'DAS cost structure: installation vs equipment, remote-unit prices, optics share of radio-unit cost (compiled)'
+  date: '2026-10-15'
+  kind: web
 - slug: 2026-10-12-tiny-pluggable-optical-module-boosts-data-center-bandwidth-4
   title: Tiny pluggable optical module boosts data center bandwidth 4x without extra hardware
   date: '2026-10-12'
@@ -56,14 +64,6 @@ recent_mentions:
 - slug: 2026-09-29-new-tech-tuesdays-industrial-wi-fi-7-for-factory-connectivit
   title: 'New Tech Tuesdays: Industrial Wi-Fi 7 for Factory Connectivity - Electronic Design'
   date: '2026-09-29'
-  kind: web
-- slug: 2026-09-17-esa-starts-next-phase-of-iris2-evolution-through-low-leo-act
-  title: ESA starts next phase of IRIS² evolution through Low-LEO activities
-  date: '2026-09-17'
-  kind: web
-- slug: 2026-09-05-isar-aerospace-achieves-first-launch-to-orbit-from-continent
-  title: Isar Aerospace achieves first launch to orbit from continental Europe
-  date: '2026-09-05'
   kind: web
 neighbors: []
 ---

@@ -26,9 +26,9 @@ scorecard:
   timing_band: Unclear
   verdict: Overrated
 scorecard_status: draft
-mention_count: 49
-sources_7d: 3
-sources_30d: 7
+mention_count: 50
+sources_7d: 1
+sources_30d: 8
 recent_mentions:
 - slug: 2026-06-05-recursive-until-the-power-bill
   title: Recursive, Until the Power Bill

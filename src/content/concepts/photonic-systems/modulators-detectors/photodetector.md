@@ -22,6 +22,7 @@ related_concepts:
 sources:
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
+- '[[2026-07-29-hyperdoped-silicon-photodiode-sets-efficiency-record]]'
 frontier:
 - What are the yield, throughput and long-term reliability of micro-transfer printing an electronic chiplet onto a silicon photonic IC at production volume, given the 0.06 mm2 BiCMOS demonstration is described as a first of its kind 2026 06 05 a 3d integrated bicmos silicon photonics high speed receiver?
 - Does the 71 fJ/b figure for the 32-channel WDM receiver hold across temperature, process corners and ageing once ring and MZI tuning must track a real data-centre thermal environment 2026 06 07 single chip 1024 tbs optical receiver for high speed optical?
@@ -37,7 +38,7 @@ tags:
 descendants:
 - avalanche-photodiode
 - uni-traveling-carrier-photodiode
-mention_count: 25
+mention_count: 27
 scorecard:
   viability: 5
   drivers: 4
@@ -53,6 +54,10 @@ recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
+  kind: web
+- slug: 2026-07-29-hyperdoped-silicon-photodiode-sets-efficiency-record
+  title: Hyperdoped Silicon Photodiode Sets Efficiency Record
+  date: '2026-07-29'
   kind: web
 - slug: 2026-02-02-photonic-engines-for-data-centers
   title: Photonic "Engines" for Data Centers

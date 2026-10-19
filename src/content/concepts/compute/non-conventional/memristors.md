@@ -20,7 +20,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - material
-mention_count: 19
+mention_count: 20
 last_reorg_date: '2026-05-14'
 scorecard:
   viability: 3
@@ -31,7 +31,7 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
+sources_7d: 1
 sources_30d: 1
 recent_mentions:
 - slug: 2026-08-07-the-memory-trade-isnt-over-weights

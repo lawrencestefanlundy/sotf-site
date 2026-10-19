@@ -60,9 +60,9 @@ recent_mentions:
   title: tRNA Therapy
   date: '2026-09-22'
   kind: web
-- slug: 2026-09-01-live-cell-transcriptomics-with-engineered-virus-like-particl
-  title: Live-cell transcriptomics with engineered virus-like particles
-  date: '2026-09-01'
+- slug: 2026-09-17-toward-autonomous-science-with-agentic-artificial-intelligen
+  title: Toward autonomous science with agentic artificial intelligence
+  date: '2026-09-17'
   kind: web
 neighbors: []
 ---

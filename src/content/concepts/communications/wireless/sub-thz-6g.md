@@ -20,6 +20,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-15-wrc27-agenda-item-1-7-status
+  title: 'WRC-27 agenda item 1.7: IMT in 4.4-4.8 GHz, 7.125-8.4 GHz and 14.8-15.35 GHz (status, Oct 2026)'
+  date: '2026-10-15'
+  kind: web
 - slug: 2026-06-01-photonic-mmwave-generation-research
   title: Photonic mmWave / microwave signal generation — research landscape (2024–2025)
   date: '2026-06-01'

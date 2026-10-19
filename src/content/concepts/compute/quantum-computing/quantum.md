@@ -58,6 +58,30 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-18-hybrid-diamond-chip-strengthens-interactions-between-light-a
+  title: Hybrid diamond chip strengthens interactions between light and quantum bits
+  date: '2026-10-18'
+  kind: web
+- slug: 2026-10-18-a-single-microwave-line-runs-five-silicon-spin-qubits-with-9
+  title: A single microwave line runs five silicon spin qubits with 99.9% accuracy
+  date: '2026-10-18'
+  kind: web
+- slug: 2026-10-18-new-monolithic-ion-trap-opens-quantum-simulations-to-more-re
+  title: New monolithic ion trap opens quantum simulations to more researchers
+  date: '2026-10-18'
+  kind: web
+- slug: 2026-10-15-google-showcases-way-to-fix-quantum-computer-errors-more-eff
+  title: Google showcases way to fix quantum computer errors more efficiently
+  date: '2026-10-15'
+  kind: web
+- slug: 2026-10-15-monolayer-van-der-waals-kagome-lattice-for-high-temperature-
+  title: Monolayer van der Waals kagome lattice for high-temperature flat-band physics
+  date: '2026-10-15'
+  kind: web
+- slug: 2026-10-15-simultaneous-high-fidelity-single-qubit-gates-in-a-spin-qubi
+  title: Simultaneous high-fidelity single-qubit gates in a spin qubit array
+  date: '2026-10-15'
+  kind: web
 - slug: 2026-10-13-engineering-the-unknown-building-vacuum-and-cryogenic-system
   title: 'Engineering the unknown: building vacuum and cryogenic systems for the quantum frontier'
   date: '2026-10-13'
@@ -65,30 +89,6 @@ recent_mentions:
 - slug: 2026-10-13-faster-molecular-simulations-identify-promising-diamond-defe
   title: Faster molecular simulations identify promising diamond defects for quantum computers and sensors
   date: '2026-10-13'
-  kind: web
-- slug: 2026-10-13-carpet-growth-method-yields-long-sought-2d-quantum-material
-  title: '''Carpet'' growth method yields long-sought 2D quantum material'
-  date: '2026-10-13'
-  kind: web
-- slug: 2026-10-13-optical-skyrmions-can-control-the-motion-of-magnetic-skyrmio
-  title: Optical skyrmions can control the motion of magnetic skyrmions
-  date: '2026-10-13'
-  kind: web
-- slug: 2026-10-12-chip-mediated-manipulation-of-photonic-quantum-skyrmions
-  title: Chip-mediated manipulation of photonic quantum skyrmions
-  date: '2026-10-12'
-  kind: web
-- slug: 2026-10-11-ultraviolet-laser-creates-new-defects-in-diamond-without-dis
-  title: Ultraviolet laser creates new defects in diamond without disturbing quantum centers
-  date: '2026-10-11'
-  kind: web
-- slug: 2026-10-10-ultraviolet-laser-pulses-engineer-diamond-defects-selectivel
-  title: Ultraviolet laser pulses engineer diamond defects selectively, leaving quantum qubits intact
-  date: '2026-10-10'
-  kind: web
-- slug: 2026-10-10-quic-whitepaper-calls-for-industrial-scale-up-infrastructure
-  title: QuIC Whitepaper Calls for Industrial Scale-Up Infrastructure in EU Chips Act 2.0 - Quantum Computing Report
-  date: '2026-10-10'
   kind: web
 neighbors:
 - slug: quantum-computing

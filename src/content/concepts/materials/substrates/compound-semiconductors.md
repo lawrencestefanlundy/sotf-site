@@ -39,6 +39,10 @@ descendants:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-16-cambridge-enterprise-contributes-to-162m-series-a-for-paragr
+  title: Cambridge Enterprise contributes to £16.2m Series A for Paragraf - Cambridge Enterprise
+  date: '2026-10-16'
+  kind: web
 - slug: 2026-10-14-author-correction-wafer-scale-epitaxy-growth-of-high-mobilit
   title: 'Author Correction: Wafer-scale epitaxy growth of high-mobility p-type boron carbon nitride'
   date: '2026-10-14'
@@ -67,10 +71,6 @@ recent_mentions:
   title: 'UK Opportunity in AI: Compound Semiconductors'
   date: '2025-09-10'
   kind: substack
-- slug: 2025-06-19-why-chinas-manufacturing-economy-is-dominating-arthur-kroebe
-  title: Why China's manufacturing economy is dominating — Arthur Kroeber
-  date: '2025-06-19'
-  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

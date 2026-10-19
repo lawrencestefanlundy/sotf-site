@@ -12,15 +12,16 @@ related_concepts: []
 sources:
 - '[[2025-09-23-the-compute-gradient]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
+- '[[2026-10-12-the-absurd-engineering-behind-the-internet]]'
 frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 14
+mention_count: 15
 last_reorg_date: '2026-05-14'
 sources_7d: 0
-sources_30d: 0
+sources_30d: 1
 recent_mentions:
 - slug: 2026-10-12-the-absurd-engineering-behind-the-internet
   title: The Absurd Engineering Behind the Internet

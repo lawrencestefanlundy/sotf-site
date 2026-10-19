@@ -15,6 +15,7 @@ sources:
 - '[[2025-02-05-you-like-ai-agents-you-are-gonna]]'
 - '[[2025-01-27-ai-for-nuclear-fusion-feat-martin]]'
 - '[[2026-05-01-state-of-the-future-friday-four-7b7]]'
+- '[[2025-06-05-teaching-ai-to-understand-the-physical-world-with-dr-fei-fei]]'
 - '[[2026-07-01-sensifai-memo-streaming-physical-ai]]'
 - '[[2026-06-10-biohub-the-future-of-biology-is-open-source-with-co-founders]]'
 - '[[2025-02-19-satya-nadella-microsofts-agi-plan-quantum-breakthrough]]'
@@ -32,7 +33,7 @@ tags:
 - robotics
 - ai
 - world-models
-mention_count: 60
+mention_count: 71
 scorecard:
   viability: 2
   drivers: 3
@@ -42,8 +43,8 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 9
-sources_30d: 16
+sources_7d: 11
+sources_30d: 25
 recent_mentions:
 - slug: 2026-07-01-sensifai-memo-streaming-physical-ai
   title: SensifAI — Purpose-Built Silicon for Streaming Physical AI (funding memo)
@@ -57,6 +58,10 @@ recent_mentions:
   title: 'State of the Future: Friday Four'
   date: '2026-05-01'
   kind: substack
+- slug: 2025-06-05-teaching-ai-to-understand-the-physical-world-with-dr-fei-fei
+  title: Teaching AI to Understand the Physical World, with Dr. Fei-Fei Li of World Labs
+  date: '2025-06-05'
+  kind: web
 - slug: 2025-02-19-satya-nadella-microsofts-agi-plan-quantum-breakthrough
   title: Satya Nadella — Microsoft’s AGI plan & quantum breakthrough
   date: '2025-02-19'

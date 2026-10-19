@@ -32,9 +32,9 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 142
-sources_7d: 3
-sources_30d: 16
+mention_count: 144
+sources_7d: 1
+sources_30d: 14
 recent_mentions:
 - slug: 2026-10-08-volatile-eutectics-to-tailor-crystallization-for-perovskite-
   title: Volatile eutectics to tailor crystallization for perovskite optoelectronics
@@ -43,6 +43,10 @@ recent_mentions:
 - slug: 2026-09-23-voltage-switches-exciton-transport-in-2d-hybrid-material
   title: Voltage switches exciton transport in 2D hybrid material
   date: '2026-09-23'
+  kind: web
+- slug: 2026-09-21-in-situ-and-operando-optical-microscopy-and-spectroscopy-inv
+  title: 'In situ and operando optical microscopy and spectroscopy: investigating perovskite optoelectronic devices at work'
+  date: '2026-09-21'
   kind: web
 - slug: 2026-08-31-qcells-tandem-iec-ul-certification-tuv-rheinland
   title: Qcells secures TUV Rheinland certification for perovskite-silicon tandem solar tech (pv magazine, 16 Jul 2026; pv-tech corroborating)

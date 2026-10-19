@@ -34,6 +34,14 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-16-ratlog-wants-to-cut-90-of-a-rocket-engines-parts
+  title: RATLOG Wants to Cut ~90% of a Rocket Engine’s Parts
+  date: '2026-10-16'
+  kind: web
+- slug: 2026-10-15-engineering-ordered-two-dimensional-defect-phases-to-strengt
+  title: Engineering ordered two-dimensional defect phases to strengthen structural alloys
+  date: '2026-10-15'
+  kind: web
 - slug: 2026-10-14-one-sample-many-dimensions-prospects-for-multimodal-nanoscal
   title: 'One sample, many dimensions: prospects for multimodal nanoscale characterization'
   date: '2026-10-14'
@@ -57,14 +65,6 @@ recent_mentions:
 - slug: 2026-09-30-mit-spinout-atlas-turns-single-use-plastics-into-resilient-b
   title: MIT Spinout Atlas Turns Single-Use Plastics Into Resilient Building Materials - CompositesWorld
   date: '2026-09-30'
-  kind: web
-- slug: 2026-09-24-foundries-vs-navigators-lowering-the-cost-of-science
-  title: 'Foundries vs Navigators: Lowering the Cost of Science'
-  date: '2026-09-24'
-  kind: web
-- slug: 2026-09-23-as-close-to-carbyne-as-were-probably-going-to-get
-  title: As Close to Carbyne As We're Probably Going to Get
-  date: '2026-09-23'
   kind: web
 neighbors: []
 ---

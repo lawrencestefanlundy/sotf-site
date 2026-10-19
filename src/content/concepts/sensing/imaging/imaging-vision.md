@@ -23,6 +23,14 @@ mention_count: 70
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-16-siloton-secures-84m-to-speed-development-of-portable-retinal
+  title: Siloton secures £8.4m to speed development of portable retinal imaging system
+  date: '2026-10-16'
+  kind: web
+- slug: 2026-10-15-blacksky-renews-heo-deal-adds-gen-3-imagery-for-space-domain
+  title: BlackSky Renews HEO Deal, Adds Gen-3 Imagery for Space Domain Awareness
+  date: '2026-10-15'
+  kind: web
 - slug: 2026-10-13-patterned-x-rays-map-3d-chemical-structures-faster-with-fewe
   title: Patterned X-rays map 3D chemical structures faster with fewer measurements
   date: '2026-10-13'
@@ -46,14 +54,6 @@ recent_mentions:
 - slug: 2026-08-03-ultrarapid-deep-3d-histology-enables-intraoperative-mapping-
   title: Ultrarapid deep 3D histology enables intraoperative mapping of glioma infiltration
   date: '2026-08-03'
-  kind: web
-- slug: 2026-07-29-hyperdoped-silicon-photodiode-sets-efficiency-record
-  title: Hyperdoped Silicon Photodiode Sets Efficiency Record
-  date: '2026-07-29'
-  kind: web
-- slug: 2026-06-03-your-phone-can-use-tiny-skin-colour-changes-to-measure-your-
-  title: Your phone can use tiny skin-colour changes to measure your heart rate
-  date: '2026-06-03'
   kind: web
 neighbors: []
 ---

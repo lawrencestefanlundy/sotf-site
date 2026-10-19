@@ -49,6 +49,14 @@ recent_mentions:
   title: OCSiAl company backgrounder (press kit, English)
   date: '2026-03-17'
   kind: web
+- slug: 2024-12-12-how-diamond-cooling-could-power-the-future-of-ai-with-akash-
+  title: How Diamond Cooling Could Power the Future of AI, with Akash Systems
+  date: '2024-12-12'
+  kind: web
+- slug: 2024-11-28-leaf-based-computer-chips-and-evidence-that-two-early-human-
+  title: Leaf-based computer chips, and evidence that two early human ancestors coexisted
+  date: '2024-11-28'
+  kind: web
 - slug: 2026-10-12-ocsial-kanat-conductive-primer-automotive
   title: Primers with graphene nanotubes offer a new solution for electrostatic painting of automotive parts
   date: '2021-07-16'

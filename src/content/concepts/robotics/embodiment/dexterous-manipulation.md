@@ -25,9 +25,9 @@ tags:
 - technology
 - robotics
 - manipulation
-mention_count: 7
-sources_7d: 5
-sources_30d: 6
+mention_count: 18
+sources_7d: 11
+sources_30d: 17
 recent_mentions:
 - slug: 2026-05-15-robot-autonomy-destination-rlwrld-releases-rldx-1-a
   title: RLWRLD releases RLDX-1, a dexterity-first foundation model for robot hands

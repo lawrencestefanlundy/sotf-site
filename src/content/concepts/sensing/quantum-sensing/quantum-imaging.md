@@ -31,7 +31,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 2
+sources_30d: 1
 recent_mentions:
 - slug: 2026-01-13-quantum-imaging-startup-diffraqtion-emerges-from-stealth---p
   title: Quantum Imaging Startup Diffraqtion Emerges from Stealth - Payload Space

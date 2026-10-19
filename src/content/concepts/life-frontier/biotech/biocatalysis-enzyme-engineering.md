@@ -32,7 +32,7 @@ tags:
 - biocatalysis
 - markets
 mention_count: 12
-sources_7d: 2
+sources_7d: 0
 sources_30d: 2
 recent_mentions:
 - slug: 2026-06-04-droplet-microfluidics-directed-evolution-throughput

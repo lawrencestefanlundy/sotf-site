@@ -21,8 +21,8 @@ descendants:
 sources:
 - '[[2026-09-03-a-quantum-filter-for-improved-spintronics]]'
 mention_count: 95
-sources_7d: 2
-sources_30d: 13
+sources_7d: 0
+sources_30d: 10
 recent_mentions:
 - slug: 2026-09-23-arxiv-benchmarking-the-generalized-kadanoff-baym-ansatz-and-second
   title: 'Benchmarking the generalized Kadanoff-Baym ansatz and second-order adiabatic expansion using time-dependent spintronic effects: Spin pumping, torque, and inertia'

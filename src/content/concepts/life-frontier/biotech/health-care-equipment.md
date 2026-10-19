@@ -33,6 +33,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-15-boptogenetic-therapy-shows-early-promise-for-treating-retini
+  title: <b>Optogenetic therapy shows early promise for treating retinitis pigmentosa</b>
+  date: '2026-10-15'
+  kind: web
 - slug: 2026-09-29-tech-to-replace-animal-testing-is-almost-ready-scientists-ar
   title: Tech to Replace Animal Testing Is Almost Ready. Scientists Are Not
   date: '2026-09-29'

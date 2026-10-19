@@ -48,10 +48,6 @@ recent_mentions:
   title: ChipAgents Expands Series A Funding to $134 Million as Demand Grows for Agentic AI in Semiconductor Design
   date: '2026-07-29'
   kind: web
-- slug: 2026-06-11-southampton-to-help-expand-uk-chip-design-capabilities---mir
-  title: Southampton To Help Expand UK Chip Design Capabilities - Mirage News
-  date: '2026-06-11'
-  kind: web
 - slug: 2026-06-11-southampton-to-help-expand-uk-chip-design-capabilities---uni
   title: Southampton to help expand UK chip design capabilities - University of Southampton
   date: '2026-06-11'

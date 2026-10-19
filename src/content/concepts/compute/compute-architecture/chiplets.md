@@ -48,10 +48,14 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 141
-sources_7d: 1
+mention_count: 142
+sources_7d: 0
 sources_30d: 5
 recent_mentions:
+- slug: 2026-10-16-uneec-site
+  title: UNEEC Systems GmbH — company site (uneec.eu), incl. imprint
+  date: '2026-10-16'
+  kind: web
 - slug: 2026-09-07-anysilicon-direct-rf-sampling-chiplets
   title: An introduction to direct RF sampling in a world evolving towards chiplets, part 1 (AnySilicon)
   date: '2026-09-07'
@@ -80,10 +84,6 @@ recent_mentions:
   title: 'Europe’s Semiconductor Strategy: Chiplets, Ecosystem Integration, and Chips Act 2.0 in 2026 - News and Statistics - IndexBox'
   date: '2026-05-28'
   kind: web
-- slug: 2026-04-17-state-of-the-future-friday-four-67c
-  title: 'State of the Future: Friday Four'
-  date: '2026-04-17'
-  kind: substack
 neighbors: []
 ---
 **Chiplets replace a single large monolithic die with several smaller dies co-packaged on an interposer or 3D stack, trading a new set of packaging, thermal and tooling problems for better yield, cost and heterogeneity, and the AI architecture literature now treats them as the default substrate for large accelerators.**

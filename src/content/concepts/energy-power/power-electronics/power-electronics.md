@@ -46,9 +46,13 @@ descendants:
 - solid-state-circuit-breakers
 - vertical-gan
 - wireless-power-transfer
-sources_7d: 1
+sources_7d: 0
 sources_30d: 7
 recent_mentions:
+- slug: 2026-10-17-this-hidden-device-could-free-up-gigawatts-of-grid-power
+  title: This Hidden Device Could Free Up Gigawatts of Grid Power
+  date: '2026-10-17'
+  kind: web
 - slug: 2026-09-02-vertical-power-delivery-thermal-limits
   title: 'Vertical power delivery: the thermal limit at the 48V-to-point-of-load stage'
   date: '2026-09-02'
@@ -73,14 +77,10 @@ recent_mentions:
   title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
   date: '2025-12-09'
   kind: substack
-- slug: 2025-09-11-power-electronics-researchers-awarded-15m-to-advance-energy-
-  title: Power electronics researchers awarded $1.5M to advance energy technologies - University of Colorado Boulder
-  date: '2025-09-11'
+- slug: 2025-09-12-scaled-substation-in-a-cable-for-adaptable-low-cost-electric
+  title: 'Scaled: Substation in a cable for adaptable low-cost electrical distribution - Open Access Government'
+  date: '2025-09-12'
   kind: web
-- slug: 2025-09-10-uk-opportunity-in-ai-compound-semiconductors
-  title: 'UK Opportunity in AI: Compound Semiconductors'
-  date: '2025-09-10'
-  kind: substack
 neighbors: []
 ---
 **Power electronics is the switching, conversion and control layer that moves electrical energy between sources and loads, and it has become the binding constraint on both AI datacentre buildout and vehicle electrification: a roughly $45B market in 2024 forecast to reach ~$70B by 2030, with wide-bandgap devices and 800V DC architectures the contested frontier **2024 Omdia Power Electronics Forecast** <sup class="ref"><a href="https://newsletter.semianalysis.com/p/inside-the-800vdc-revolution-part" title="Inside the 800VDC Revolution – Part 1" rel="noopener">ref</a></sup>.**

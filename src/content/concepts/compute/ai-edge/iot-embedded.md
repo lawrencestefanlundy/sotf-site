@@ -47,9 +47,9 @@ recent_mentions:
   title: HMS Networks introduces cost-efficient CAN-FD-to-Ethernet-gateway for scalable industrial networking - Electronics360
   date: '2026-04-10'
   kind: web
-- slug: 2022-12-26-dect-forum-adds-nordic-semiconductor-and-wirepas-to-membersh
-  title: DECT Forum Adds Nordic Semiconductor and Wirepas to Membership - eetasia.com
-  date: '2022-12-26'
+- slug: 2025-03-27-studying-urban-wildfires-and-the-challenges-of-creating-tiny
+  title: Studying urban wildfires, and the challenges of creating tiny AI robots
+  date: '2025-03-27'
   kind: web
 neighbors: []
 ---

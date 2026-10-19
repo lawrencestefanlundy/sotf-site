@@ -52,37 +52,37 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-18-a-single-microwave-line-runs-five-silicon-spin-qubits-with-9
+  title: A single microwave line runs five silicon spin qubits with 99.9% accuracy
+  date: '2026-10-18'
+  kind: web
+- slug: 2026-10-17-the-case-for-duv-controls
+  title: The Case for DUV Controls
+  date: '2026-10-17'
+  kind: web
+- slug: 2026-10-16-cambridge-enterprise-contributes-to-162m-series-a-for-paragr
+  title: Cambridge Enterprise contributes to £16.2m Series A for Paragraf - Cambridge Enterprise
+  date: '2026-10-16'
+  kind: web
 - slug: 2026-10-15-us-urges-chipmakers-to-use-domestic-capacity-as-chips-act-st
   title: US urges chipmakers to use domestic capacity as CHIPS Act strategy shifts from fab subsidies to securing orders - digitimes
+  date: '2026-10-15'
+  kind: web
+- slug: 2026-10-15-gate-tunable-chiral-spin-mode-in-wse2ws2-moire-superlattices
+  title: Gate-tunable chiral spin mode in WSe2/WS2 moiré superlattices
+  date: '2026-10-15'
+  kind: web
+- slug: 2026-10-15-modular-van-der-waals-mosfets-through-layer-by-layer-chalcog
+  title: Modular van der Waals MOSFETs through layer-by-layer chalcogen substitutions
+  date: '2026-10-15'
+  kind: web
+- slug: 2026-10-15-simultaneous-high-fidelity-single-qubit-gates-in-a-spin-qubi
+  title: Simultaneous high-fidelity single-qubit gates in a spin qubit array
   date: '2026-10-15'
   kind: web
 - slug: 2026-10-14-author-correction-wafer-scale-epitaxy-growth-of-high-mobilit
   title: 'Author Correction: Wafer-scale epitaxy growth of high-mobility p-type boron carbon nitride'
   date: '2026-10-14'
-  kind: web
-- slug: 2026-10-13-oxygen-based-chipmaking-method-controls-2d-crystal-growth-wi
-  title: Oxygen-based chipmaking method controls 2D crystal growth with over 99% success
-  date: '2026-10-13'
-  kind: web
-- slug: 2026-10-13-carpet-growth-method-yields-long-sought-2d-quantum-material
-  title: '''Carpet'' growth method yields long-sought 2D quantum material'
-  date: '2026-10-13'
-  kind: web
-- slug: 2026-10-12-from-nonmagnetic-to-magnetic-a-2d-semiconductor-with-electri
-  title: 'From nonmagnetic to magnetic: A 2D semiconductor with electrically tunable magnetism'
-  date: '2026-10-12'
-  kind: web
-- slug: 2026-10-11-17-gigawatt-texas-power-project-passes-key-hurdle-for-worlds
-  title: 17-gigawatt Texas power project passes key hurdle for world’s largest private grid
-  date: '2026-10-11'
-  kind: web
-- slug: 2026-10-08-synthesis-superintelligence-from-semiconductors-to-supercond
-  title: 'Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk'
-  date: '2026-10-08'
-  kind: web
-- slug: 2026-10-08-wafer-scale-low-symmetry-graphene-moire-superlattice-for-int
-  title: Wafer-scale low-symmetry graphene moiré superlattice for integrated quantum rectifiers
-  date: '2026-10-08'
   kind: web
 neighbors:
 - slug: logic
@@ -111,8 +111,6 @@ A semiconductor is a solid with an energy gap between its filled valence states 
 The sources collected here are almost entirely condensed-matter and optics papers from 2024 to 2026, and they map the frontier rather than the industry. A large fraction concerns two-dimensional transition metal dichalcogenides, where the gap depends on layer count: scanning tunnelling spectroscopy on MBE-grown MoS2 from one to five layers shows the gap falling sharply with thickness, to values below the bulk gap, with conduction-band pinning vanishing above four layers. Others deal with organic molecular semiconductors, where crystal packing rather than molecular design governs transport: a previously unrecognised and thermodynamically stable polymorph of the benchmark material DNTT was found coexisting in commercial powders, and it changes the dimensionality of charge transport. Colloidal quantum-dot films, increasingly used in place of bulk semiconductors, were measured at thermal conductivities as low as 0.55 W/m/K because heat moves poorly through close-packed dot solids.
 
 ## Viability (3/5)
-
-There is genuine experimental substance. The MoSe2 nanocavity polariton switch is a measured device with quantified switching energy (~4 fJ) and picosecond response, published in Physical Review Letters. MoS2 layer-dependent gaps were measured in situ by STS on MBE-grown films and cross-checked against DFT and GW. The DNTT polymorph was isolated and its structure resolved by X-ray diffraction, Raman and terahertz spectroscopy. The ScAlN permittivity discrepancy between calculated 11.7 and measured values near 15 is resolved by an analytical model that reproduces experiment across the alloy range. This is a healthy, self-correcting literature.
 
 What is absent is any evidence of scale. Growth is by molecular beam epitaxy or chemical vapour deposition on small substrates; the photovoltaic work is a thermodynamic framework rather than a fabricated stack; and several papers are purely first-principles. A 3 reflects credible laboratory viability of the physics with no demonstrated path, in these sources, to yield, uniformity or wafer scale.
 

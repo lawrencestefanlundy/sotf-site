@@ -10,7 +10,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 sources: []
-mention_count: 7
+mention_count: 8
 frontier:
 - Does fNIRS cross-subject classification performance improve materially beyond AUC ~0.76 in larger, multi-site, prospectively validated cohorts, or is that near the ceiling imposed by between-subject haemodynamic variability?
 - Why did only 13 of 25 patients achieve an analysable pharmacological block, and is the attrition a property of the anaesthesia protocol or of the fNIRS measurement?
@@ -32,8 +32,8 @@ scorecard_status: draft
 parent_concepts:
 - imaging
 - sensing
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions: []
 neighbors:
 - slug: spectral-sensing

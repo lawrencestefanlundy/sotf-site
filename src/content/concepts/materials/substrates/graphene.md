@@ -24,9 +24,9 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 402
+mention_count: 409
 sources_7d: 3
-sources_30d: 21
+sources_30d: 17
 recent_mentions:
 - slug: 2026-10-08-wafer-scale-low-symmetry-graphene-moire-superlattice-for-int
   title: Wafer-scale low-symmetry graphene moiré superlattice for integrated quantum rectifiers
@@ -85,8 +85,6 @@ Every source here is an arXiv physics or materials paper. None reports productio
 ## Novelty (3/5)
 
 The clearest like-for-like comparisons in this set are: graphene coating on alpha-Al2O3(0001) lowers the tangential momentum accommodation coefficient for N2 relative to the bare surface, shifting scattering towards specular reflection, with the effect strengthening up to 900 K and benchmarked against graphite; AC electrochemical AFM lithography is presented as lower cost and electrode-free relative to photolithography and electron-beam lithography for sub-10 nm graphene patterning; and graphene composites cut magnesium grain size to 10-500 nm versus 850 nm for high-pressure-torsion magnesium alone, shifting the rate-controlling step from interfacial reaction to atomic diffusion. The direction of improvement is stated in each case; the magnitude relative to the deployed alternative usually is not.
-
-Graphene is also increasingly a benchmark rather than a frontier. Rhombohedral beta-Cu2Se is proposed as a Dirac semimetal with Fermi velocities potentially exceeding graphene and with topologically protected Fermi arc surface states resilient to back- and side-scattering. Photonic honeycomb slabs and polariton lattices reproduce graphene-like Dirac dispersion in engineered platforms, and graphene-like motifs appear as one component of amorphous monolayer BCN. Where graphene remains genuinely distinctive in these sources is in stacked and twisted form, where Berry curvature can dominate the geometric lower bound on Cooper pair size and give pair sizes comparable to experimentally inferred coherence lengths in rhombohedral graphene.
 
 **TLDR: Real comparative advantages are claimed in several niches, but almost none are quantified against the incumbent.**
 

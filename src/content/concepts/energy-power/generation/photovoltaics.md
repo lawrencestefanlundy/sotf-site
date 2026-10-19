@@ -17,7 +17,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 55
+mention_count: 57
 frontier:
 - 'If bulk point-defect Shockley-Read-Hall recombination cannot explain the efficiency limits of trigonal selenium cells 2026 06 16 defect tolerance in trigonal selenium photovoltaics, what does: interfaces, contacts, grain boundaries or transport?'
 - Can the deep-level defects and mixed cation valences in solution-deposited Bi2FeCrO6 and Bi2MnCrO6 films be suppressed enough to yield a working cell, and what open-circuit voltage does that give 2026 05 06 beyond lead halide perovskites visible light photovoltaics w?
@@ -37,8 +37,8 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 1
-sources_30d: 4
+sources_7d: 3
+sources_30d: 5
 recent_mentions:
 - slug: 2026-10-13-space-solar-array-cost-per-watt
   title: 'Space-qualified solar array cost per watt: Starpath $9.81-11.20/W vs a $75-250/W industry claim; DOE 2035 target <$10/W'

@@ -16,12 +16,13 @@ sources:
 - '[[2026-08-20-from-restoring-sight-to-reimagining-the-brain-with-max-hodak]]'
 - '[[2026-05-20-watts-wafers-and-the-future-of-ai-infra-gavin-baker]]'
 - '[[2026-05-13-inside-anthropics-100-billion-al-compute-commitment-cfo-kris]]'
+- '[[2025-07-03-chai-2-the-ai-model-accelerating-drug-discovery-with-chai-di]]'
 auto_stub: true
 last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 41
+mention_count: 42
 descendants:
 - 3d-bioprinting-platforms
 - 3d-printed-bioscaffolds
@@ -89,14 +90,14 @@ recent_mentions:
   title: Consensus Capital
   date: '2025-11-05'
   kind: substack
+- slug: 2025-07-03-chai-2-the-ai-model-accelerating-drug-discovery-with-chai-di
+  title: 'Chai-2: The AI Model Accelerating Drug Discovery with Chai Discovery Co-Founders Jack Dent and Joshua Meier'
+  date: '2025-07-03'
+  kind: web
 - slug: 2025-06-26-a-billion-years-of-evolution-in-a-single-afternoon-george-ch
   title: A billion years of evolution in a single afternoon — George Church
   date: '2025-06-26'
   kind: web
-- slug: 2023-10-19-e20-the-state-of-privacy-enhancing
-  title: Understanding Privacy Enhancing Technology (Feat. Karim Eldefrawy, Confidencial.io)
-  date: '2023-10-19'
-  kind: substack
 neighbors: []
 ---
 **Biotech is the applied use of biological systems and molecular knowledge to make products (medicines, materials, food, fuels); the sources here cover only a thin slice of it, mostly 2026 US public research grants and the UK/European scale-up problem, and do not support a verdict on the field as a whole.**

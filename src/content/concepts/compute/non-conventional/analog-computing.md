@@ -34,7 +34,7 @@ descendants:
 - near-field-rf-coupling
 last_reorg_date: '2026-05-14'
 sources_7d: 1
-sources_30d: 4
+sources_30d: 3
 recent_mentions:
 - slug: 2026-04-28-making-ai-inference-cheap-with-analog
   title: Making AI inference Cheap with Analog Computing w/ Shwetank Kumar @ EnCharge AI

@@ -23,7 +23,7 @@ frontier:
 - Is DC drift a material property that must be designed around at circuit level, or can buffer-layer and surface engineering eliminate it well enough for multi-year biased operation 2026 06 02 drift free characterization of electro optic tuning efficien?
 - Does the >95% printing yield and 420 nm placement accuracy hold across many wafer lots and outside the originating pilot line 2026 05 29 micro transfer printing of lithium niobate on 200 mm silicon?
 - How far does thin-film lithium tantalate encroach beyond the visible band, given its demonstrated advantage in sustained optical power handling at 532 nm 2026 05 14 robust and active visible light integrated photonics on thin?
-last_updated: '2026-08-31'
+last_updated: '2026-10-15'
 tags:
 - concept
 - material
@@ -39,7 +39,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 18
+sources_30d: 14
 recent_mentions:
 - slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
   title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
@@ -139,12 +139,15 @@ By 31 December 2028, at least one commercial silicon photonics foundry will publ
 
 ## Evidence base
 
+## Analogue RF: a third application stack (added 15 Oct 2026)
+
 ## Open questions
 
 - Can fibre-to-chip and laser-to-chip coupling losses be cut from the 15-16 dB bare-chip figures reported in hybrid TFLN transmitter arrays to link-budget-viable levels, and at what packaging cost?
 - Is DC drift a material property that must be designed around at circuit level, or can buffer-layer and surface engineering eliminate it well enough for multi-year biased operation?
 - Does the >95% printing yield and 420 nm placement accuracy hold across many wafer lots and outside the originating pilot line?
 - How far does thin-film lithium tantalate encroach beyond the visible band, given its demonstrated advantage in sustained optical power handling at 532 nm?
+- Is TFLN the only practical material for on-chip Brillouin RF filtering, or does indium phosphide (now showing large backward Brillouin gain on a foundry platform) match it at lower cost?
 
 ---
 *Assessment drafted 2026-08-31 from up to 18 KB sources using the technology-scorecard framework; scores are a draft read pending review.*

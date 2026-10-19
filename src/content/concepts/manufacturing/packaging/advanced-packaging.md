@@ -35,13 +35,13 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 231
+mention_count: 232
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration
 - micro-transfer-printing
 - osat
-sources_7d: 0
+sources_7d: 1
 sources_30d: 10
 recent_mentions:
 - slug: 2026-10-06-x-fab-breaks-ground-on-chips-act-funded-cleanroom-in-erfurt-
@@ -109,8 +109,6 @@ On supply, the enabling capabilities in evidence are silicon interposers (modell
 ## Novelty (3/5)
 
 The benefits over monolithic integration are stated qualitatively across the corpus: modularity, yield, capacity and performance. No source quantifies the yield or cost delta against a hypothetical single large die, so the central economic claim for advanced packaging is not evidenced here.
-
-Where numbers exist, they are within-domain comparisons and they are substantial. A spoof-surface-plasmon-polariton interconnect on a 50 um oxide layer over silicon achieved 0.015 dB/cm insertion loss, a 10 dB crosstalk reduction within 5 GHz and 2.5x the bandwidth of a standard microstripline of the same footprint, with a fourfold temperature reduction relative to an FR4 substrate, in full-wave simulation. A chiplet-contiguous memory layout cut remote HBM traffic by 13.0x on Qwen 3 30B and 20.7x on Llama 3.1 70B GEMMs versus 4 KB interleaving, and by 3.3x and 3.7x over coarse locality-aware placement, without OS or hardware changes. A fibre delay-line memory concept claims elimination of redundant weight storage across 10,000 accelerators and over 70% lower weight-delivery energy than HBM3e, though this is a case-study evaluation, not hardware. Score of 3 reflects strong local results against a poorly quantified baseline.
 
 **TLDR: Clear quantified gains within the packaging domain; the head-to-head advantage over monolithic dice is asserted rather than measured in these sources.**
 

@@ -35,6 +35,7 @@ sources:
 - '[[2026-07-13-sk-hynix-record-fall-hbm4-three-supplier]]'
 - '[[2026-03-19-compute-specialisation-equilibrium-how-nvidia-s-20-billion]]'
 - '[[2026-stargate-expansion-7gw]]'
+- '[[2026-06-08-how-coreweave-sees-the-market-for-compute-right-now]]'
 scorecard:
   viability: 4
   drivers: 4
@@ -44,7 +45,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 48
+mention_count: 51
 sources_7d: 1
 sources_30d: 3
 recent_mentions:
@@ -52,14 +53,14 @@ recent_mentions:
   title: SK Hynix record one-day fall as HBM4 goes three-supplier
   date: '2026-07-13'
   kind: web
-- slug: 2026-07-10-workload-phase-silicon-sweep
-  title: 'Workload-phase silicon sweep: pre-training / RL / prefill / decode procurement split'
-  date: '2026-07-10'
-  kind: web
 - slug: 2026-07-10-the-next-vc-meme-is
   title: The Next VC Meme Is...
   date: '2026-07-10'
   kind: substack
+- slug: 2026-07-10-workload-phase-silicon-sweep
+  title: 'Workload-phase silicon sweep: pre-training / RL / prefill / decode procurement split'
+  date: '2026-07-10'
+  kind: web
 - slug: 2026-07-05-semianalysis-kyber-nvl144-delayed-2028
   title: 'SemiAnalysis: NVIDIA Kyber NVL144 delayed >12 months to 2028; NVL72x2 cancelled'
   date: '2026-07-05'
@@ -72,14 +73,14 @@ recent_mentions:
   title: Semi Doped — Daily Update, June 23rd 2026
   date: '2026-06-23'
   kind: web
+- slug: 2026-06-08-how-coreweave-sees-the-market-for-compute-right-now
+  title: How CoreWeave Sees the Market for Compute Right Now
+  date: '2026-06-08'
+  kind: web
 - slug: 2026-06-01-hbm-state-of-play
   title: HBM state of play (mid-2026) — technology, supercycle, three-supplier standing
   date: '2026-06-01'
   kind: web
-- slug: 2026-05-14-compute-is-defence-now
-  title: Compute Is Defence Now
-  date: '2026-05-14'
-  kind: substack
 neighbors:
 - slug: hbm
   name: HBM (High-Bandwidth Memory)

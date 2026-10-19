@@ -20,7 +20,11 @@ frontier:
 - Does the proprietary "computational intent" language show a portability or performance advantage over writing directly to MLIR/TVM/Triton, and what is the migration cost for existing HPC codebases?
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-10-16-uneec-site
+  title: UNEEC Systems GmbH — company site (uneec.eu), incl. imprint
+  date: '2026-10-16'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

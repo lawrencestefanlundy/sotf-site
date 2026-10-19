@@ -33,6 +33,22 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-15-wrc27-agenda-item-1-7-status
+  title: 'WRC-27 agenda item 1.7: IMT in 4.4-4.8 GHz, 7.125-8.4 GHz and 14.8-15.35 GHz (status, Oct 2026)'
+  date: '2026-10-15'
+  kind: web
+- slug: 2026-10-15-das-market-sizing-analyst-consensus
+  title: 'DAS and in-building wireless market size: analyst consensus (compiled)'
+  date: '2026-10-15'
+  kind: web
+- slug: 2026-10-15-das-equipment-vs-installation-cost
+  title: 'DAS cost structure: installation vs equipment, remote-unit prices, optics share of radio-unit cost (compiled)'
+  date: '2026-10-15'
+  kind: web
+- slug: 2026-10-15-rf-over-fibre-market-sizing
+  title: 'RF-over-fibre market size: analyst consensus (compiled)'
+  date: '2026-10-15'
+  kind: web
 - slug: 2026-10-14-mayhem-10-drones-get-upgraded-to-connect-satellite-cellular-
   title: Mayhem 10 drones get upgraded to connect satellite, cellular and radio simultaneously
   date: '2026-10-14'
@@ -48,22 +64,6 @@ recent_mentions:
 - slug: 2026-10-06-hawkeye-360-turns-its-rf-sensors-to-orbital-targets
   title: HawkEye 360 Turns its RF-Sensors to Orbital Targets
   date: '2026-10-06'
-  kind: web
-- slug: 2026-10-02-jammertest-pumps-up-the-jam-in-norway
-  title: Jammertest pumps up the jam in Norway
-  date: '2026-10-02'
-  kind: web
-- slug: 2026-10-02-dect-nr-private-5g-for-industrial-iot-networks---wiot-groupc
-  title: 'DECT NR+: Private 5G for Industrial IoT Networks - wiot-group.com'
-  date: '2026-10-02'
-  kind: web
-- slug: 2026-09-17-esa-starts-next-phase-of-iris2-evolution-through-low-leo-act
-  title: ESA starts next phase of IRIS² evolution through Low-LEO activities
-  date: '2026-09-17'
-  kind: web
-- slug: 2026-09-04-why-laser-beams-are-the-hottest-new-tech-in-defense
-  title: Why Laser Beams Are the Hottest New Tech in Defense
-  date: '2026-09-04'
   kind: web
 neighbors: []
 ---

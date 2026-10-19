@@ -284,13 +284,24 @@ def main() -> None:
 
     CACHE.write_text(json.dumps(cache, indent=0, sort_keys=True))
 
-    if OUT.exists():
-        shutil.rmtree(OUT)
-    OUT.mkdir(parents=True)
+    # Build in staging and swap only if the count holds (same guard as
+    # publish_kb.py), so an interrupted or short run can't empty the archive.
+    staged = pk.STAGING / "writing"
+    if staged.exists():
+        shutil.rmtree(staged)
+    staged.mkdir(parents=True)
     for slug, data in posts.items():
         data["title"] = re.sub(r"^State of the Future:\s*", "", data["title"]).strip()
         name = f"{data['published_date']}-{slug}.md"
-        (OUT / name).write_text(f"---\n{pk.serialise_fm(data)}---\n", encoding="utf-8")
+        (staged / name).write_text(f"---\n{pk.serialise_fm(data)}---\n", encoding="utf-8")
+    previous = pk.previous_count(OUT)
+    floor = int(previous * pk.MIN_KEEP_RATIO)
+    if len(posts) == 0 or (len(posts) < floor and "--allow-shrink" not in sys.argv):
+        print(f"ABORT: {len(posts)} writing posts is below {pk.MIN_KEEP_RATIO:.0%} of the "
+              f"previous {previous}. Live archive left untouched; staged output in {staged}.",
+              file=sys.stderr)
+        sys.exit(2)
+    pk.swap_into_place(staged, OUT)
 
     print(f"writing publish: {len(posts)} posts "
           f"({kb_count} verified from KB titles, {added} added from archive, "

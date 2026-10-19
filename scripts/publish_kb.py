@@ -15,15 +15,24 @@ For each concept:
 
 Runs nightly via cron after KB morning-brief, OR manually before a build.
 
+Safety (added 18 Oct 2026): the 16 Oct run wiped the output dir, then the Mac
+restarted 8 minutes in and left 3 of 778 pages on disk. Output is now built in
+STAGING and swapped into place only when the run completes AND the new concept
+count is at least MIN_KEEP_RATIO of the previous one (the larger of the working
+tree and the last commit, so an already-gutted tree can't lower the bar). An
+interrupted or short run leaves the live content untouched.
+
 Usage:
     python publish_kb.py             # filter and emit
     python publish_kb.py --dry-run   # report what would change, no write
+    python publish_kb.py --allow-shrink   # deliberate large removal; skips the count guard
 """
 from __future__ import annotations
 import json
 import os
 import re
 import shutil
+import subprocess
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -32,8 +41,12 @@ import yaml
 KB = Path.home() / "kb"
 KB_CONCEPTS = KB / "concepts"
 KB_COMPANIES = KB / "companies"
-SITE = Path.home() / "projects" / "sotf-site"
+# Resolve from this file, not a hard-coded path, so a run from a git worktree
+# writes into that worktree and never into the main checkout.
+SITE = Path(__file__).resolve().parent.parent
 OUT = SITE / "src" / "content" / "concepts"
+STAGING = SITE / ".publish-staging"
+MIN_KEEP_RATIO = 0.90
 BACK_REFS = KB / "scripts" / "back_refs.json"
 
 # Base path the site is served from. Matches the `base` in astro.config.mjs.
@@ -117,15 +130,20 @@ def load_back_refs() -> dict:
         return {}
 
 
-def public_sources_for_concept(slug: str, limit: int = 8) -> list[dict]:
-    """Return recent public sources mentioning this concept.
+_public_source_index_cache: list[tuple[object, dict]] | None = None
 
-    Reads ~/kb/sources/{public-kinds}/*.md, checks frontmatter
-    concepts_mentioned arrays, filters to those mentioning `slug`.
-    Returns up to `limit` most recent (by date in filename or frontmatter).
-    Each entry: {slug, title, date, kind}
+
+def _public_source_index() -> list[tuple[object, dict]]:
+    """Parse every public source page once: [(concepts_mentioned, entry), ...].
+
+    Previously each of ~780 concepts re-read and re-parsed all ~2,000 public
+    sources, which made the run take ~25 minutes. Same files, same order, same
+    skip rules; only the parsing is shared.
     """
-    matches = []
+    global _public_source_index_cache
+    if _public_source_index_cache is not None:
+        return _public_source_index_cache
+    out: list[tuple[object, dict]] = []
     for kind in PUBLIC_SOURCE_KINDS:
         d = KB / "sources" / kind
         if not d.exists():
@@ -137,21 +155,38 @@ def public_sources_for_concept(slug: str, limit: int = 8) -> list[dict]:
                 if not fm:
                     continue
                 mentioned = fm.get("concepts_mentioned") or []
-                if slug not in mentioned:
-                    continue
                 title = fm.get("title") or p.stem
                 date_str = str(fm.get("date") or "")
                 # Fallback to filename prefix YYYY-MM-DD
                 m = re.match(r"^(\d{4})-(\d{2})-(\d{2})", p.stem)
                 sort_key = date_str or (m.group(0) if m else "")
-                matches.append({
+                out.append((mentioned, {
                     "slug": p.stem,
                     "title": title.strip(),
                     "date": sort_key,
                     "kind": kind,
-                })
+                }))
             except Exception:
                 continue
+    _public_source_index_cache = out
+    return out
+
+
+def public_sources_for_concept(slug: str, limit: int = 8) -> list[dict]:
+    """Return recent public sources mentioning this concept.
+
+    Checks each public source's frontmatter concepts_mentioned for `slug`.
+    Returns up to `limit` most recent (by date in filename or frontmatter).
+    Each entry: {slug, title, date, kind}
+    """
+    matches = []
+    for mentioned, entry in _public_source_index():
+        try:
+            if slug not in mentioned:
+                continue
+        except TypeError:
+            continue
+        matches.append(dict(entry))
     matches.sort(key=lambda x: x["date"], reverse=True)
     return matches[:limit]
 
@@ -633,7 +668,7 @@ def filter_concept(fm: dict, body: str, slug: str) -> tuple[dict, str]:
     return out, new_body
 
 
-def emit_concept(p: Path, dry_run: bool = False) -> dict:
+def emit_concept(p: Path, dry_run: bool = False, out_root: Path = OUT) -> dict:
     """Read a KB concept, apply filter, emit to public site content dir.
 
     Returns a row describing the emission for the summary.
@@ -652,17 +687,17 @@ def emit_concept(p: Path, dry_run: bool = False) -> dict:
         return {"slug": p.stem, "status": "skipped — no frontmatter", "macro": macro}
 
     out_fm, out_body = filter_concept(fm, body, p.stem)
-    out_path = OUT / macro / meso / f"{p.stem}.md"
+    out_path = out_root / macro / meso / f"{p.stem}.md"
 
     if dry_run:
-        return {"slug": p.stem, "status": "would emit", "macro": macro, "meso": meso, "out": str(out_path.relative_to(SITE))}
+        return {"slug": p.stem, "status": "would emit", "macro": macro, "meso": meso, "out": str((OUT / macro / meso / f"{p.stem}.md").relative_to(SITE))}
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(f"---\n{serialise_fm(out_fm)}---\n{out_body}", encoding="utf-8")
     return {"slug": p.stem, "status": "emitted", "macro": macro, "meso": meso, "sources_30d": out_fm.get("sources_30d", 0)}
 
 
-def emit_atlas_data(dry_run: bool = False) -> dict:
+def emit_atlas_data(dry_run: bool = False, atlas_path: Path | None = None) -> dict:
     """Walk all public concepts, build nodes+edges for the full atlas view.
 
     Output JSON shape:
@@ -711,34 +746,89 @@ def emit_atlas_data(dry_run: bool = False) -> dict:
     }
 
     if not dry_run:
-        atlas_path = SITE / "src" / "data" / "atlas.json"
+        atlas_path = atlas_path or SITE / "src" / "data" / "atlas.json"
         atlas_path.parent.mkdir(parents=True, exist_ok=True)
         atlas_path.write_text(json.dumps(out, ensure_ascii=False), encoding="utf-8")
 
     return out
 
 
+def previous_count(live: Path) -> int:
+    """Pages in `live` before this run: the larger of the working tree and HEAD.
+
+    Using HEAD too means a tree already gutted by an interrupted run (16 Oct:
+    3 files left) cannot lower the bar the next run is measured against.
+    """
+    on_disk = sum(1 for _ in live.rglob("*.md")) if live.exists() else 0
+    try:
+        res = subprocess.run(
+            ["git", "-C", str(SITE), "ls-tree", "-r", "--name-only", "HEAD",
+             "--", str(live.relative_to(SITE))],
+            capture_output=True, text=True, check=True,
+        )
+        committed = sum(1 for line in res.stdout.splitlines() if line.endswith(".md"))
+    except (subprocess.CalledProcessError, OSError) as e:
+        print(f"WARN: could not read committed page count from git ({e}); "
+              f"using working tree count {on_disk}", file=sys.stderr)
+        committed = 0
+    return max(on_disk, committed)
+
+
+def swap_into_place(staged: Path, live: Path) -> None:
+    """Replace `live` with `staged` using renames on the same filesystem."""
+    old = staged.parent / f"{live.name}.old"
+    if old.exists():
+        shutil.rmtree(old)
+    live.parent.mkdir(parents=True, exist_ok=True)
+    if live.exists():
+        live.rename(old)
+    staged.rename(live)
+    if old.exists():
+        shutil.rmtree(old)
+
+
 def main():
     dry_run = "--dry-run" in sys.argv
+    allow_shrink = "--allow-shrink" in sys.argv
 
-    # Wipe + recreate output dir for clean slate (no stale files)
+    # Build into a fresh staging dir; the live content dir is not touched until
+    # the run has finished and passed the count guard. A leftover staging dir
+    # is debris from an interrupted run and is safe to discard.
+    staged_concepts = STAGING / "concepts"
+    staged_atlas = STAGING / "atlas.json"
     if not dry_run:
-        if OUT.exists():
-            shutil.rmtree(OUT)
-        OUT.mkdir(parents=True)
+        if STAGING.exists():
+            shutil.rmtree(STAGING)
+        staged_concepts.mkdir(parents=True)
 
     rows = []
     for p in sorted(KB_CONCEPTS.rglob("*.md")):
         if p.name.startswith("_"):
             continue
-        rows.append(emit_concept(p, dry_run=dry_run))
+        rows.append(emit_concept(p, dry_run=dry_run, out_root=staged_concepts))
 
     emitted = sum(1 for r in rows if r["status"] == "emitted" or r["status"] == "would emit")
     skipped_private = sum(1 for r in rows if "private" in r.get("status", ""))
     skipped_other = sum(1 for r in rows if "skipped" in r.get("status", "") and "private" not in r["status"])
 
     # Atlas data — corpus-wide graph for /atlas/
-    atlas = emit_atlas_data(dry_run=dry_run)
+    atlas = emit_atlas_data(dry_run=dry_run, atlas_path=staged_atlas)
+
+    if not dry_run:
+        previous = previous_count(OUT)
+        floor = int(previous * MIN_KEEP_RATIO)
+        print(f"count guard: {emitted} emitted vs {previous} before (floor {floor})")
+        if emitted == 0 or (emitted < floor and not allow_shrink):
+            print(f"ABORT: {emitted} concepts is below {MIN_KEEP_RATIO:.0%} of the previous "
+                  f"{previous}. Live content left untouched; staged output kept in "
+                  f"{STAGING} for inspection. Re-run with --allow-shrink if the drop is deliberate.",
+                  file=sys.stderr)
+            sys.exit(2)
+        swap_into_place(staged_concepts, OUT)
+        atlas_live = SITE / "src" / "data" / "atlas.json"
+        atlas_live.parent.mkdir(parents=True, exist_ok=True)
+        os.replace(staged_atlas, atlas_live)
+        shutil.rmtree(STAGING)
 
     print(f"publish_kb.py summary ({'DRY RUN' if dry_run else 'APPLY'}):")
     print(f"  • {emitted} concepts emitted")

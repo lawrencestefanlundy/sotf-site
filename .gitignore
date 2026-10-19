@@ -36,3 +36,6 @@ node_modules/
 # Python cache
 __pycache__/
 *.pyc
+
+# publish_kb.py builds here, then swaps into src/content/concepts
+.publish-staging/

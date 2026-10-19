@@ -6,13 +6,13 @@ const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
 
 // Macro → fill color (same palette as RadialGraph)
 const MACRO_FILLS: Record<string, string> = {
-  "compute":          "#2B2119",
-  "memory":           "#4E4034",
-  "sensing":          "#6F6152",
+  "compute":          "#1E1B18",
+  "memory":           "#45403A",
+  "sensing":          "#6A645B",
   "communications":   "#3E5A7A",
   "energy-power":     "#8A6A2E",
   "manufacturing":    "#3A2D22",
-  "materials":        "#968A78",
+  "materials":        "#928B80",
   "photonic-systems": "#22304A",
   "life-frontier":    "#5E7F6A",
 };
@@ -83,12 +83,12 @@ const r1 = (v: number) => Math.round(v * 10) / 10;
   <div id="atlas-container">
     <svg id="atlas-svg" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Concept atlas">
       <g id="atlas-zoom">
-        <g stroke="#2B211914" stroke-width="1">
+        <g stroke="#1E1B1814" stroke-width="1">
           {links.map((l) => <line x1={r1(l.source.x)} y1={r1(l.source.y)} x2={r1(l.target.x)} y2={r1(l.target.y)} />)}
         </g>
-        <g stroke="#F7F2E7" stroke-width="1">
+        <g stroke="#F5F1E6" stroke-width="1">
           {nodes.map((n) => (
-            <a href={n.path}><title>{`${n.name} (${n.macro})`}</title><circle cx={r1(n.x)} cy={r1(n.y)} r={r1(Math.min(8, 2 + Math.sqrt(n.deg)))} fill={MACRO_FILLS[n.macro] ?? "#4E4034"} /></a>
+            <a href={n.path}><title>{`${n.name} (${n.macro})`}</title><circle cx={r1(n.x)} cy={r1(n.y)} r={r1(Math.min(8, 2 + Math.sqrt(n.deg)))} fill={MACRO_FILLS[n.macro] ?? "#45403A"} /></a>
           ))}
         </g>
       </g>
@@ -122,8 +122,8 @@ const r1 = (v: number) => Math.round(v * 10) / 10;
 
   <style>
     #atlas-container {
-      border: 1px solid #D5C9B0;
-      background: #EEE6D5;
+      border: 1px solid #CFC5AF;
+      background: #ECE6D7;
       margin: 1rem 0 2rem;
       position: relative;
     }
@@ -140,8 +140,8 @@ const r1 = (v: number) => Math.round(v * 10) / 10;
       top: 0.6rem;
       right: 0.8rem;
       padding: 0.25rem 0.6rem;
-      background: #F7F2E7;
-      border: 1px solid #D5C9B0;
+      background: #F5F1E6;
+      border: 1px solid #CFC5AF;
       font-size: 0.7rem;
     }
     .atlas-legend {
@@ -151,7 +151,7 @@ const r1 = (v: number) => Math.round(v * 10) / 10;
       margin: 1rem 0 0.5rem;
       font-family: "IBM Plex Mono", ui-monospace, monospace;
       font-size: 0.75rem;
-      color: #2B211999;
+      color: #1E1B1899;
     }
     .legend-chip {
       display: inline-flex;

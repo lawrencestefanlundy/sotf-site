@@ -17,25 +17,25 @@
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
 :root {
-  /* State of the Future brand v3 "The Loom" (16 Oct 2026): values from
-     ~/reference/system/design/DESIGN.md. Linen ground, walnut ink, one woad indigo accent. */
-  --ink:       #2B2119;
-  --ink-80:    #2B2119cc;
-  --ink-60:    #2B211999;
-  --ink-50:    #2B211980;
-  --ink-25:    #2B211940;
-  --rule:      #D5C9B0;
-  --rule-soft: #2B211914;
-  --bg:        #F7F2E7;
-  --bg-soft:   #EEE6D5;
-  --bg-tint:   #E8E0CE;
-  --paper:     #FBF8F1;
-  --teal:      #2F4A6E;   /* the accent (name kept so existing rules follow) */
-  --accent:    #2F4A6E;
+  /* State of the Future brand v4 "The Loom: tracing linen" (19 Oct 2026): values from
+     ~/reference/system/design/DESIGN.md. Tracing-linen ground, India ink, one Prussian blue accent. */
+  --ink:       #1E1B18;
+  --ink-80:    #1E1B18cc;
+  --ink-60:    #1E1B1899;
+  --ink-50:    #1E1B1880;
+  --ink-25:    #1E1B1840;
+  --rule:      #CFC5AF;
+  --rule-soft: #1E1B1814;
+  --bg:        #F5F1E6;
+  --bg-soft:   #ECE6D7;
+  --bg-tint:   #EAE4D3;
+  --paper:     #FAF7F1;
+  --teal:      #2F5D73;   /* the accent (name kept so existing rules follow) */
+  --accent:    #2F5D73;
   --madder:    #A2412D;
   --indigo:    #22304A;
   --walnut:    #3A2D22;
-  --link:      #2B2119;
+  --link:      #1E1B18;
   --display:   "Fraunces", Georgia, "Times New Roman", serif;
   --sans:      "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
   --mono:      "IBM Plex Mono", ui-monospace, Menlo, monospace;

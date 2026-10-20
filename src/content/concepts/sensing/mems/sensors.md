@@ -28,6 +28,14 @@ sources:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-20-nanoscale-tech-tracks-proteins-inside-living-neurons-to-guid
+  title: Nanoscale tech tracks proteins inside living neurons to guide Alzheimer's and Parkinson's drug discovery
+  date: '2026-10-20'
+  kind: web
+- slug: 2026-10-19-foxconn-pays-727m-for-half-of-mitsubishi-electrics-car-parts
+  title: Foxconn pays $727M for half of Mitsubishi Electric’s car parts unit in EV push
+  date: '2026-10-19'
+  kind: web
 - slug: 2026-10-16-new-chip-based-tape-measure-for-light-could-revolutionize-mo
   title: New Chip-Based ‘Tape Measure’ for Light Could Revolutionize Mobile Timekeeping and Enhance National Security
   date: '2026-10-16'
@@ -51,14 +59,6 @@ recent_mentions:
 - slug: 2026-10-14-new-chip-scale-gyroscope-measures-rotation-with-unprecedente
   title: New chip-scale gyroscope measures rotation with unprecedented sensitivity
   date: '2026-10-14'
-  kind: web
-- slug: 2026-10-14-new-360-degree-air-defense-radar-with-detection-range-exceed
-  title: New 360-degree air defense radar with detection range exceeding 205 miles can transform warfare
-  date: '2026-10-14'
-  kind: web
-- slug: 2026-10-13-new-topological-microscope-tip-reveals-evidence-of-2d-alterm
-  title: New topological microscope tip reveals evidence of 2D altermagnetism
-  date: '2026-10-13'
   kind: web
 neighbors: []
 ---

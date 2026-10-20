@@ -21,6 +21,7 @@ sources:
 - '[[2026-10-12-mining-tech-china-rare-earth-pause-expiry]]'
 - '[[2026-04-29-deglobalisation-continues-china-s-export-controls-critical]]'
 - '[[2026-10-12-electrek-tesla-cybercab-rare-earth-free-motor]]'
+- '[[2026-10-15-chasing-chinas-monazite-monopoly]]'
 - '[[2026-07-14-artificial-bloom]]'
 - '[[2026-01-27-deglobalisation-continues-rare-earth-supply-bottlenecks-set]]'
 - '[[2026-04-22-deglobalisation-continues-china-s-global-exports-of-rare]]'
@@ -57,10 +58,14 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 45
-sources_7d: 0
-sources_30d: 16
+mention_count: 46
+sources_7d: 1
+sources_30d: 17
 recent_mentions:
+- slug: 2026-10-15-chasing-chinas-monazite-monopoly
+  title: Chasing China’s Monazite Monopoly
+  date: '2026-10-15'
+  kind: web
 - slug: 2026-10-12-iea-rare-earth-elements-2026
   title: 'Rare Earth Elements: Executive Summary'
   date: '2026-10-12'
@@ -88,10 +93,6 @@ recent_mentions:
 - slug: 2026-10-12-rex-heavy-rare-earth-price-gap
   title: 'China Rare Earth Industry Association reports 261.8 index: heavy rare earths expose a fractured global market'
   date: '2026-09-16'
-  kind: web
-- slug: 2026-10-12-electrek-tesla-cybercab-rare-earth-free-motor
-  title: Tesla's new rare-earth-free EV motor is a big deal, but not THAT big a deal
-  date: '2026-09-04'
   kind: web
 neighbors:
 - slug: magnetic-materials

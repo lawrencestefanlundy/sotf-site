@@ -24,6 +24,7 @@ sources:
 - '[[2026-08-31-bullish-on-automation-and-robotics-but-not-humanoid-robots-s]]'
 - '[[2026-10-07-hiphi-a-large-scale-benchmark-for-high-precision-human-motio]]'
 - '[[2026-04-22-robot-autonomy-destination-agility-s-digit-is-the-only]]'
+- '[[2026-10-19-the-robot-i-didnt-expect-to-build]]'
 - '[[2025-03-20-the-robotics-revolution-with-physical-intelligences-cofounde]]'
 - '[[2026-06-10-neura-series-c]]'
 - '[[2026-07-19-humanoid-robot-market-humanoid-robotics-funding-analysis-6]]'
@@ -42,6 +43,7 @@ sources:
 - '[[2026-03-31-worlds-top-researcher-on-ai-llms-and-robot-intelligence]]'
 - '[[2026-10-11-chinese-ev-giants-31-joint-humanoid-robot-could-soon-greet-y]]'
 - '[[2026-06-10-robotics-labour-augmentation-humanoid-robotics-company]]'
+- '[[2024-09-05-the-road-to-autonomous-intelligence-with-andrej-karpathy]]'
 - '[[2026-07-13-robotics-labour-augmentation-global-emerging-robotics]]'
 - '[[2026-07-13-robotics-labour-augmentation-agility-robotics-2-5b-spac]]'
 - '[[2026-04-02-humanoid-robot-market-ubtech-2025-results-humanoid-robot]]'
@@ -55,16 +57,6 @@ sources:
 - '[[2026-07-14-robotics-labour-augmentation-idtechex-forecasts-a-68]]'
 - '[[2026-07-18-robotics-labour-augmentation-humanoid-robots-in-2026-what]]'
 - '[[2025-06-17-humanoid-actuator-supply-chain-sparsh-x-multisensory-touch]]'
-- '[[2026-04-09-robotics-labour-augmentation-china-s-humanoid-robot-output]]'
-- '[[2026-07-18-robotics-labour-augmentation-humanoid-robot-deployment]]'
-- '[[2026-03-31-robot-autonomy-destination-ubtech-robotics-2025-full-year]]'
-- '[[2026-08-15-telekin-call-to-arms]]'
-- '[[2026-05-18-humanoid-actuator-supply-chain-humanoid-robots-in-2026]]'
-- '[[2026-07-13-humanoid-actuator-supply-chain-chinese-dexterous-hands-in]]'
-- '[[2026-06-humanoid-oem-datapoints]]'
-- '[[2026-06-13-physical-ai-deploys-this-decade-humanoid-robotics]]'
-- '[[2026-07-26-unitree-ipo-shipment-and-segment-data]]'
-- '[[2026-09-01-why-humanoid-robots-wont-catch-up-to-human-workers-any-time-]]'
 scorecard:
   viability: 3
   drivers: 4
@@ -74,10 +66,14 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Overrated
 scorecard_status: draft
-mention_count: 149
-sources_7d: 19
-sources_30d: 35
+mention_count: 159
+sources_7d: 27
+sources_30d: 44
 recent_mentions:
+- slug: 2026-10-19-the-robot-i-didnt-expect-to-build
+  title: The Robot I Didn’t Expect to Build
+  date: '2026-10-19'
+  kind: web
 - slug: 2026-10-11-chinese-ev-giants-31-joint-humanoid-robot-could-soon-greet-y
   title: Chinese EV giant’s 31-joint humanoid robot could soon greet you at the car dealership
   date: '2026-10-11'
@@ -105,10 +101,6 @@ recent_mentions:
 - slug: 2026-08-15-telekin-call-to-arms
   title: Telekin — Call to Arms (company thesis + Horatio prototype findings)
   date: '2026-08-15'
-  kind: web
-- slug: 2026-08-06-the-year-ai-science-and-the-physical-ai-industry-came-alive
-  title: The Year AI Science and the Physical AI Industry Came Alive
-  date: '2026-08-06'
   kind: web
 neighbors:
 - slug: vision-language-action-models

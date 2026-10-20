@@ -32,7 +32,7 @@ sources:
 - '[[2026-07-07-the-asml-killer]]'
 - '[[2025-01-06-radiant-acquires-nilt]]'
 mention_count: 35
-sources_7d: 1
+sources_7d: 0
 sources_30d: 3
 recent_mentions:
 - slug: 2026-07-07-the-asml-killer

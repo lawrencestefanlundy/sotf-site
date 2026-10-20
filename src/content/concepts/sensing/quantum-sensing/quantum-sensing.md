@@ -15,7 +15,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 216
+mention_count: 217
 descendants:
 - atomic-clocks
 - nv-diamond-sensing
@@ -34,8 +34,8 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-sources_7d: 1
-sources_30d: 11
+sources_7d: 2
+sources_30d: 12
 recent_mentions:
 - slug: 2026-10-18-hybrid-diamond-chip-strengthens-interactions-between-light-a
   title: Hybrid diamond chip strengthens interactions between light and quantum bits

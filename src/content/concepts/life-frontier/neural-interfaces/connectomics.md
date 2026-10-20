@@ -19,6 +19,7 @@ sources:
 - '[[2026-06-04-bezos-flourish-brain-core-algorithm]]'
 - '[[2025-09-08-363-a-new-frontier-in-neurosurgery-restoring-brain-function-]]'
 - '[[2026-10-13-tbrc-3d-neuroscience-market-report-mill]]'
+- '[[2024-12-09-298-jeff-lichtman-on-the-wiring-diagram-of-the-brain]]'
 frontier:
 - Does the reconstruction cost per mm3 fall >=10x by 2030 (barcoding + ML proofreading), or does proofreading stay the wall?
 - 'Structural (EM/expansion) vs functional (fMRI/EEG) connectomics: which commercialises first, and for whom?'
@@ -29,8 +30,8 @@ tags:
 - technology
 - connectomics
 - neuroscience
-mention_count: 14
-sources_7d: 1
+mention_count: 16
+sources_7d: 0
 sources_30d: 2
 recent_mentions:
 - slug: 2026-10-13-tbrc-3d-neuroscience-market-report-mill
@@ -44,6 +45,10 @@ recent_mentions:
 - slug: 2025-09-08-363-a-new-frontier-in-neurosurgery-restoring-brain-function-
   title: '#363 ‒ A new frontier in neurosurgery: restoring brain function with brain-computer interfaces, advancing glioblastoma care, and new hope for devastating brain diseases | Edward Chang, M.D.'
   date: '2025-09-08'
+  kind: web
+- slug: 2024-12-09-298-jeff-lichtman-on-the-wiring-diagram-of-the-brain
+  title: 298 | Jeff Lichtman on the Wiring Diagram of the Brain
+  date: '2024-12-09'
   kind: web
 neighbors:
 - slug: neuromorphic-computing

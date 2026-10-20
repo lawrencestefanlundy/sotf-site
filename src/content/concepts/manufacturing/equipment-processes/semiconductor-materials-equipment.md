@@ -65,9 +65,9 @@ recent_mentions:
   title: 'Chips Act 2.0 Part 4: Who benefits and who misses out? ... - eenewseurope.com'
   date: '2026-09-09'
   kind: web
-- slug: 2026-09-08-the-myth-of-micron-not-so-american-after-all
-  title: 'The Myth of Micron: Not so American After All'
-  date: '2026-09-08'
+- slug: 2026-09-09-cling-film-helps-stamp-two-dimensional-materials-onto-patter
+  title: Cling film helps stamp two-dimensional materials onto patterned surfaces
+  date: '2026-09-09'
   kind: web
 neighbors: []
 ---

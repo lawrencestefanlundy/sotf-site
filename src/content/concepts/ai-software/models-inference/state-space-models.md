@@ -20,6 +20,7 @@ sources:
 - '[[2025-06-wisconsin-mamba-chiplet-gf22]]'
 - '[[2025-08-emamba-edge-acceleration]]'
 - '[[2026-07-01-sensifai-memo-streaming-physical-ai]]'
+- '[[2024-06-27-state-space-models-and-real-time-intelligence-with-karan-goe]]'
 - '[[2026-03-mamba-3-iclr]]'
 - '[[2026-06-23-on-device-llms-state-of-union-2026]]'
 frontier:
@@ -33,7 +34,7 @@ frontier:
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 28
+mention_count: 30
 scorecard:
   viability: 4
   drivers: 4
@@ -43,8 +44,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 1
-sources_30d: 5
+sources_7d: 2
+sources_30d: 6
 recent_mentions:
 - slug: 2026-07-31-etched-research-sprint
   title: Etched research sprint — tape-out speed, HBM supply, customer orders (4-lane web sweep)

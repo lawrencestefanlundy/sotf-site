@@ -14,12 +14,13 @@ sources:
 - '[[2023-09-24-e16-in-conversation-with-john-waite]]'
 - '[[2023-08-25-e12-nanomechanical-computing-gears]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
+- '[[2025-01-09-erik-bernhardsson-on-creating-tools-that-make-ai-feel-effort]]'
 auto_stub: true
 last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 8
+mention_count: 9
 frontier:
 - At what scale, filter selectivity and write-churn rate does a purpose-built vector engine measurably beat pgvector/pgvectorscale or warehouse-native vector search on recall, tail latency and total cost? No supplied source contains this comparison.
 - What share of the ~$3.73B 2026 vector database market is standalone vendor revenue versus vector features bundled into cloud and data platform contracts?
@@ -49,6 +50,10 @@ recent_mentions:
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
   kind: web
+- slug: 2025-01-09-erik-bernhardsson-on-creating-tools-that-make-ai-feel-effort
+  title: Erik Bernhardsson on Creating Tools That Make AI Feel Effortless
+  date: '2025-01-09'
+  kind: web
 - slug: 2023-09-28-e16-in-conversation-with-shiv-malik
   title: '☎️ E17: In Conversation with Shiv Malik, CEO of Pool.io on the State of Data Unions 🤝₿'
   date: '2023-09-28'
@@ -68,10 +73,6 @@ recent_mentions:
 - slug: 2023-08-31-e13-chiplets-how-chip-lego-is-driving
   title: '🔮 E13: Chiplets - How Chip Lego is Driving AI Progress'
   date: '2023-08-31'
-  kind: substack
-- slug: 2023-08-25-e12-nanomechanical-computing-gears
-  title: '🔮E12: Nanomechanical Computing- Gears of Space War? Old Ideas at New Scales'
-  date: '2023-08-25'
   kind: substack
 neighbors: []
 ---

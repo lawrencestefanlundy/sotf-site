@@ -33,6 +33,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-19-don-wilson-on-the-gpu-markets-trillion-dollar-question
+  title: Don Wilson on the GPU Market's Trillion Dollar Question
+  date: '2026-10-19'
+  kind: web
 - slug: 2026-10-15-tech-giants-want-clean-energy-in-nc-is-duke-finally-ready-to
   title: Tech giants want clean energy in N.C. Is Duke finally ready to help?
   date: '2026-10-15'
@@ -60,10 +64,6 @@ recent_mentions:
 - slug: 2026-10-11-17-gigawatt-texas-power-project-passes-key-hurdle-for-worlds
   title: 17-gigawatt Texas power project passes key hurdle for world’s largest private grid
   date: '2026-10-11'
-  kind: web
-- slug: 2026-10-09-beam-the-great-american-open-model-with-reflectionai-co-foun
-  title: 'Beam: The Great American Open Model with ReflectionAI Co-Founder and CEO Misha Laskin'
-  date: '2026-10-09'
   kind: web
 neighbors: []
 ---

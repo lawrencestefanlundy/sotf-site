@@ -29,7 +29,7 @@ frontier:
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 205
+mention_count: 208
 scorecard:
   viability: 3
   drivers: 3
@@ -49,6 +49,10 @@ recent_mentions:
 - slug: 2026-06-22-beyond-cmos-device-layer-research
   title: Beyond-CMOS device layer — grounded research (MRAM/FeFET beachhead + capture base rate)
   date: '2026-06-22'
+  kind: web
+- slug: 2024-12-05-making-latin-american-science-visible-and-advances-in-coolin
+  title: Making Latin American science visible, and advances in cooling tech
+  date: '2024-12-05'
   kind: web
 - slug: 2024-10-22-state-of-the-future-part-deux
   title: 'An AI Thesis: State of the Future! Part Deux'

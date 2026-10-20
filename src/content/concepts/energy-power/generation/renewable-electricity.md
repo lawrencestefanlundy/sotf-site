@@ -23,6 +23,14 @@ mention_count: 82
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-20-amazon-backs-960-mw-nuclear-plant-proposal-with-12-reactors-
+  title: Amazon backs 960-MW nuclear plant proposal with 12 reactors at former Indiana coal site
+  date: '2026-10-20'
+  kind: web
+- slug: 2026-10-19-this-geothermal-startup-produced-a-tiny-bit-of-power-from-th
+  title: This geothermal startup produced a tiny bit of power from the seafloor
+  date: '2026-10-19'
+  kind: web
 - slug: 2026-10-15-tech-giants-want-clean-energy-in-nc-is-duke-finally-ready-to
   title: Tech giants want clean energy in N.C. Is Duke finally ready to help?
   date: '2026-10-15'
@@ -46,14 +54,6 @@ recent_mentions:
 - slug: 2026-10-13-texas-oilfield-wastewater-could-help-cool-data-centers-witho
   title: Texas oilfield wastewater could help cool data centers without draining freshwater
   date: '2026-10-13'
-  kind: web
-- slug: 2026-10-12-first-utility-scale-enhanced-geothermal-plant-goes-live
-  title: First Utility-Scale Enhanced Geothermal Plant Goes Live
-  date: '2026-10-12'
-  kind: web
-- slug: 2026-10-05-virginias-new-energy-plan-make-the-ai-boom-work-for-not-agai
-  title: 'Virginia’s new energy plan: Make the AI boom work for — not against — us'
-  date: '2026-10-05'
   kind: web
 neighbors: []
 ---

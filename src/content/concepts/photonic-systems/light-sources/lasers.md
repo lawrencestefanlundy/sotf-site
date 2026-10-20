@@ -18,6 +18,7 @@ sources:
 - '[[2024-11-20-nuclear-fusion-the-state-of-play]]'
 - '[[2026-04-14-the-photonic-foundry-fallacy]]'
 - '[[2025-12-19-lfg-for-semiconductors]]'
+- '[[2026-10-16-state-of-the-future-dispatch-16th]]'
 - '[[2026-02-12-how-to-invest-in-ai-sovereignty-sovereign]]'
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2026-07-07-the-asml-killer]]'
@@ -25,17 +26,21 @@ sources:
 - '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 - '[[2026-07-10-the-next-vc-meme-is]]'
-mention_count: 285
+mention_count: 288
 descendants:
 - external-laser-source
 - laser-display-light-engines
 sources_7d: 1
-sources_30d: 8
+sources_30d: 9
 recent_mentions:
 - slug: 2026-10-18-hybrid-diamond-chip-strengthens-interactions-between-light-a
   title: Hybrid diamond chip strengthens interactions between light and quantum bits
   date: '2026-10-18'
   kind: web
+- slug: 2026-10-16-state-of-the-future-dispatch-16th
+  title: 'State of the Future: Dispatch 16th October 2026'
+  date: '2026-10-16'
+  kind: substack
 - slug: 2026-10-16-siloton-secures-84m-to-speed-development-of-portable-retinal
   title: Siloton secures £8.4m to speed development of portable retinal imaging system
   date: '2026-10-16'
@@ -60,10 +65,6 @@ recent_mentions:
   title: Ultrarapid deep 3D histology enables intraoperative mapping of glioma infiltration
   date: '2026-08-03'
   kind: web
-- slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
-  title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
-  date: '2026-07-28'
-  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

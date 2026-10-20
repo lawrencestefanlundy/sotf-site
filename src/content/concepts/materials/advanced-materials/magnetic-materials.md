@@ -31,7 +31,7 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 2
+sources_7d: 1
 sources_30d: 7
 recent_mentions:
 - slug: 2026-10-13-optical-skyrmions-can-control-the-motion-of-magnetic-skyrmio

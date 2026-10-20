@@ -64,6 +64,10 @@ recent_mentions:
   title: Cambridge Enterprise contributes to £16.2m Series A for Paragraf - Cambridge Enterprise
   date: '2026-10-16'
   kind: web
+- slug: 2026-10-15-writing-electronic-phases-into-atomic-layers
+  title: Writing electronic phases into atomic layers
+  date: '2026-10-15'
+  kind: web
 - slug: 2026-10-15-us-urges-chipmakers-to-use-domestic-capacity-as-chips-act-st
   title: US urges chipmakers to use domestic capacity as CHIPS Act strategy shifts from fab subsidies to securing orders - digitimes
   date: '2026-10-15'
@@ -79,10 +83,6 @@ recent_mentions:
 - slug: 2026-10-15-simultaneous-high-fidelity-single-qubit-gates-in-a-spin-qubi
   title: Simultaneous high-fidelity single-qubit gates in a spin qubit array
   date: '2026-10-15'
-  kind: web
-- slug: 2026-10-14-author-correction-wafer-scale-epitaxy-growth-of-high-mobilit
-  title: 'Author Correction: Wafer-scale epitaxy growth of high-mobility p-type boron carbon nitride'
-  date: '2026-10-14'
   kind: web
 neighbors:
 - slug: logic

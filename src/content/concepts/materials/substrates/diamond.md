@@ -31,10 +31,14 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 423
+mention_count: 430
 sources_7d: 3
-sources_30d: 10
+sources_30d: 11
 recent_mentions:
+- slug: 2026-10-18-hybrid-diamond-chip-strengthens-interactions-between-light-a
+  title: Hybrid diamond chip strengthens interactions between light and quantum bits
+  date: '2026-10-18'
+  kind: web
 - slug: 2026-10-13-faster-molecular-simulations-identify-promising-diamond-defe
   title: Faster molecular simulations identify promising diamond defects for quantum computers and sensors
   date: '2026-10-13'
@@ -63,10 +67,6 @@ recent_mentions:
   title: The HuggingFace Incident
   date: '2026-07-24'
   kind: substack
-- slug: 2026-07-10-quantumdiamonds-raises-91m-in-eu-chips-act-first-for-its-dia
-  title: QuantumDiamonds raises €91M in EU Chips Act first for its diamond chip scanner - Dealroom
-  date: '2026-07-10'
-  kind: web
 neighbors:
 - slug: wide-bandgap-semiconductors
   name: Wide-Bandgap Semiconductors

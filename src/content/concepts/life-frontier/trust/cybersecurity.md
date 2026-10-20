@@ -22,10 +22,14 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-mention_count: 139
-sources_7d: 1
-sources_30d: 10
+mention_count: 141
+sources_7d: 2
+sources_30d: 11
 recent_mentions:
+- slug: 2026-10-15-the-changing-physics-of-cybersecurity-and-drug-development-w
+  title: The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman
+  date: '2026-10-15'
+  kind: web
 - slug: 2026-09-04-why-laser-beams-are-the-hottest-new-tech-in-defense
   title: Why Laser Beams Are the Hottest New Tech in Defense
   date: '2026-09-04'
@@ -53,10 +57,6 @@ recent_mentions:
 - slug: 2026-07-06-willdepue-stargate-for-data
   title: A Stargate for Data — will depue (OpenAI) on >$100B/year data spend by 2030
   date: '2026-07-06'
-  kind: web
-- slug: 2026-05-29-silicon-shock-the-macro-of-tech-inflation
-  title: 'Silicon Shock: The Macro of Tech Inflation'
-  date: '2026-05-29'
   kind: web
 neighbors: []
 ---

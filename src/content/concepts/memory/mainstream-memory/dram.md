@@ -29,9 +29,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 226
-sources_7d: 0
-sources_30d: 17
+mention_count: 233
+sources_7d: 4
+sources_30d: 20
 recent_mentions:
 - slug: 2026-08-07-the-memory-trade-isnt-over-weights
   title: 'The Memory Trade Isn''t Over: Weights and KV Cache'
@@ -45,14 +45,14 @@ recent_mentions:
   title: 'Positron AI research sprint: architecture, funding, customers, manufacturing'
   date: '2026-07-31'
   kind: web
-- slug: 2026-07-27-cxmt-star-market-debut
-  title: CXMT's 466% STAR Market debut makes it China's most valuable mainland-listed company
-  date: '2026-07-27'
-  kind: web
 - slug: 2026-07-27-arxiv-dynamic-rowhammer-threshold-managementtemperature-aware-thre
   title: Dynamic Rowhammer Threshold Management:Temperature-Aware Threshold Degradation for In-DRAM Defenses
   date: '2026-07-27'
   kind: paper
+- slug: 2026-07-27-cxmt-star-market-debut
+  title: CXMT's 466% STAR Market debut makes it China's most valuable mainland-listed company
+  date: '2026-07-27'
+  kind: web
 - slug: 2026-07-25-thoughts-on-ai-and-power
   title: Thoughts on AI and power
   date: '2026-07-25'

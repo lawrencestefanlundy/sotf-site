@@ -15,14 +15,14 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 15
+mention_count: 17
 frontier:
 - Can a vascularised or perfused organoid sustain viable tissue beyond the 300 to 500 µm diffusion limit, and what cell count does this reach relative to the stated 10 million neuron target 2023 frontiers organoid intelligence roadmap?
 - Can any published organoid system exceed the 78% eight-class benchmark, or match a silicon baseline on any task at equal or lower total energy including culture maintenance 2023 nature electronics brainoware?
 - Does an interior-addressing I/O method (3D electrode penetration, optical, or DNA-encoded readout) achieve bandwidth beyond surface-only multi-electrode contact?
 - Do batch-to-batch reproducibility metrics exist for organoid generation that would let a training protocol transfer between independently grown organoids 2023 nature electronics brainoware?
-sources_7d: 0
-sources_30d: 1
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
 - slug: 2025-statnews-biocomputing-backlash
   title: Brain organoid pioneers fear backlash over biocomputing

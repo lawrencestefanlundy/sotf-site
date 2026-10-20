@@ -33,6 +33,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-19-warpware-closes-pre-seed-to-bring-agentic-tools-to-flight-so
+  title: WarpWare Closes Pre-Seed to Bring Agentic Tools to Flight Software
+  date: '2026-10-19'
+  kind: web
 - slug: 2026-10-16-conversational-brain-ai-for-adaptive-epilepsy-care
   title: Conversational brain AI for adaptive epilepsy care
   date: '2026-10-16'
@@ -60,10 +64,6 @@ recent_mentions:
 - slug: 2026-10-14-exclusive-in-orbit-aerospace-pivots-from-re-entry-vehicles-t
   title: 'Exclusive: In Orbit Aerospace Pivots From Re-entry Vehicles to Spacecraft Autonomy'
   date: '2026-10-14'
-  kind: web
-- slug: 2026-10-13-avatar-comes-to-life-hondas-new-robot-mirrors-human-movement
-  title: 'Avatar comes to life: Honda’s new robot mirrors human movements to work remotely'
-  date: '2026-10-13'
   kind: web
 neighbors: []
 ---

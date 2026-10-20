@@ -10,16 +10,21 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2023-09-24-e16-in-conversation-with-john-waite]]'
+- '[[2025-01-23-unlocking-green-hydrogen-and-oxygen-deprivation-as-medicine]]'
 frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 7
+mention_count: 8
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2025-01-23-unlocking-green-hydrogen-and-oxygen-deprivation-as-medicine
+  title: Unlocking green hydrogen, and oxygen deprivation as medicine
+  date: '2025-01-23'
+  kind: web
 - slug: 2023-09-24-e16-in-conversation-with-john-waite
   title: '☎️ E16: In Conversation with John Waite, Co-Founder and CEO of Phycobloom and a Breakthrough Energy Fellow on the State of Biofuels and Algae Fuel 🌱⛽'
   date: '2023-09-24'

@@ -12,6 +12,8 @@ sources:
 - '[[2025-01-27-ai-for-nuclear-fusion-feat-martin]]'
 - '[[2024-11-20-nuclear-fusion-the-state-of-play]]'
 - '[[2024-12-04-cubits-in-a-fridge-why-is-nobody]]'
+- '[[2026-10-16-state-of-the-future-dispatch-16th]]'
+- '[[2026-10-14-startorus-magnet-sets-field-change-record]]'
 - '[[2026-07-27-optimal-compute-vega-investor-briefing]]'
 - '[[2026-07-30-tapping-tokamak-turbulence]]'
 frontier: []
@@ -19,12 +21,20 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 13
+mention_count: 16
 descendants: []
 last_reorg_date: '2026-05-14'
-sources_7d: 0
-sources_30d: 1
+sources_7d: 3
+sources_30d: 4
 recent_mentions:
+- slug: 2026-10-16-state-of-the-future-dispatch-16th
+  title: 'State of the Future: Dispatch 16th October 2026'
+  date: '2026-10-16'
+  kind: substack
+- slug: 2026-10-14-startorus-magnet-sets-field-change-record
+  title: Startorus magnet sets field change record
+  date: '2026-10-14'
+  kind: web
 - slug: 2026-07-30-tapping-tokamak-turbulence
   title: Tapping Tokamak Turbulence
   date: '2026-07-30'

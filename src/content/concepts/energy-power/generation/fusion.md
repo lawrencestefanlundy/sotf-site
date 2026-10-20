@@ -12,9 +12,13 @@ sources:
 - '[[2023-04-04-learnings-from-a-deep-tech-horizon]]'
 - '[[2024-11-20-nuclear-fusion-the-state-of-play]]'
 - '[[2023-05-31-three-underrated-technologies-from]]'
+- '[[2026-10-14-east-midlands-set-to-benefit-from-25bn-fusion-energy-program]]'
 - '[[2026-09-29-japans-fusion-energy-startup-to-begin-power-on-tests-at-pilo]]'
+- '[[2026-10-15-west-in-fusion-race-with-china-says-uk-atomic-energy-body]]'
 - '[[2025-03-04-doe-funds-uk-research-on-critical-materials-for-commercial-f]]'
 - '[[2026-09-28-italy-passes-legislation-in-support-of-nuclear-fission-and-f]]'
+- '[[2025-08-20-fusion-energy-gets-a-boost-from-cold-fusion-chemistry]]'
+- '[[2026-10-08-fusion-energy-developer-plans-to-manufacture-in-tri-cities-c]]'
 - '[[2026-09-24-sustainable-nuclear-power-gets-green-light-from-italys-senat]]'
 frontier:
 - Does the precipitate dissolution seen under heavy-ion irradiation and helium implantation reproduce at reactor dose rates, or is it an artefact of accelerated ion irradiation shifting the ballistic mixing versus thermal back-diffusion balance 2026 07 21 cucrzr heat sink irradiation performance reveals new challen?
@@ -25,7 +29,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - category
-mention_count: 23
+mention_count: 27
 descendants: []
 last_reorg_date: '2026-05-14'
 scorecard:
@@ -37,9 +41,21 @@ scorecard:
   timing_band: Distant (10yr+)
   verdict: Overrated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 9
+sources_7d: 2
+sources_30d: 12
 recent_mentions:
+- slug: 2026-10-15-west-in-fusion-race-with-china-says-uk-atomic-energy-body
+  title: West in fusion race with China says UK atomic energy body
+  date: '2026-10-15'
+  kind: web
+- slug: 2026-10-14-east-midlands-set-to-benefit-from-25bn-fusion-energy-program
+  title: East Midlands set to benefit from £2.5bn fusion energy programme
+  date: '2026-10-14'
+  kind: web
+- slug: 2026-10-08-fusion-energy-developer-plans-to-manufacture-in-tri-cities-c
+  title: Fusion energy developer plans to manufacture in Tri-Cities, create 100s of jobs
+  date: '2026-10-08'
+  kind: web
 - slug: 2026-09-29-japans-fusion-energy-startup-to-begin-power-on-tests-at-pilo
   title: Japan’s fusion energy startup to begin power-on tests at pilot machine in 2027
   date: '2026-09-29'
@@ -52,22 +68,14 @@ recent_mentions:
   title: “Sustainable” nuclear power gets green light from Italy’s Senate
   date: '2026-09-24'
   kind: web
+- slug: 2025-08-20-fusion-energy-gets-a-boost-from-cold-fusion-chemistry
+  title: Fusion energy gets a boost from cold fusion chemistry
+  date: '2025-08-20'
+  kind: web
 - slug: 2025-03-04-doe-funds-uk-research-on-critical-materials-for-commercial-f
   title: DOE funds UK research on critical materials for commercial fusion energy - UKNow
   date: '2025-03-04'
   kind: web
-- slug: 2024-11-20-nuclear-fusion-the-state-of-play
-  title: 'Nuclear Fusion: A Primer'
-  date: '2024-11-20'
-  kind: substack
-- slug: 2023-05-31-three-underrated-technologies-from
-  title: '💡E02: Three Underrated Technologies from the Future: Brain Recording; Deep Geothermal; IVF + Updates BCI; Clean Meat; LEO Internet++'
-  date: '2023-05-31'
-  kind: substack
-- slug: 2023-04-04-learnings-from-a-deep-tech-horizon
-  title: 💡(Early) Learnings from a Deep Tech Horizon Scanning Project
-  date: '2023-04-04'
-  kind: substack
 neighbors: []
 ---
 **Fusion energy aims to generate grid electricity by fusing light nuclei, and the 2026 literature suggests its binding constraints are shifting from plasma physics to neutron-damaged structural materials and the licensing consequences of neutron leakage rather than to plasma performance alone.**

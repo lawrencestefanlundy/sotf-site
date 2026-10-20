@@ -8,8 +8,9 @@ parent_concepts:
 - energy-power
 - generation
 related_concepts: []
-sources: []
-mention_count: 15
+sources:
+- '[[2026-09-09-bilayer-approach-ramps-performance-of-all-perovskite-triple-]]'
+mention_count: 16
 sources_7d: 1
 sources_30d: 2
 recent_mentions: []

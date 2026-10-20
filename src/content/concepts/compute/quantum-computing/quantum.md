@@ -58,6 +58,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-19-error-correction-record-pushes-quantum-computers-closer-to-u
+  title: Error-correction record pushes quantum computers closer to usefulness
+  date: '2026-10-19'
+  kind: web
 - slug: 2026-10-18-hybrid-diamond-chip-strengthens-interactions-between-light-a
   title: Hybrid diamond chip strengthens interactions between light and quantum bits
   date: '2026-10-18'
@@ -84,10 +88,6 @@ recent_mentions:
   kind: web
 - slug: 2026-10-13-engineering-the-unknown-building-vacuum-and-cryogenic-system
   title: 'Engineering the unknown: building vacuum and cryogenic systems for the quantum frontier'
-  date: '2026-10-13'
-  kind: web
-- slug: 2026-10-13-faster-molecular-simulations-identify-promising-diamond-defe
-  title: Faster molecular simulations identify promising diamond defects for quantum computers and sensors
   date: '2026-10-13'
   kind: web
 neighbors:

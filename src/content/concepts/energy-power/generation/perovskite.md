@@ -32,7 +32,7 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 144
+mention_count: 145
 sources_7d: 1
 sources_30d: 14
 recent_mentions:
@@ -47,6 +47,10 @@ recent_mentions:
 - slug: 2026-09-21-in-situ-and-operando-optical-microscopy-and-spectroscopy-inv
   title: 'In situ and operando optical microscopy and spectroscopy: investigating perovskite optoelectronic devices at work'
   date: '2026-09-21'
+  kind: web
+- slug: 2026-09-09-bilayer-approach-ramps-performance-of-all-perovskite-triple-
+  title: Bilayer approach ramps performance of all-perovskite triple-junction solar cells
+  date: '2026-09-09'
   kind: web
 - slug: 2026-08-31-qcells-tandem-iec-ul-certification-tuv-rheinland
   title: Qcells secures TUV Rheinland certification for perovskite-silicon tandem solar tech (pv magazine, 16 Jul 2026; pv-tech corroborating)

@@ -23,6 +23,18 @@ mention_count: 80
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-20-368-ton-ex-us-navy-vessel-shows-off-advanced-autonomy-in-hig
+  title: 368-ton ex-US Navy vessel shows off advanced autonomy in high-stakes sea trials
+  date: '2026-10-20'
+  kind: web
+- slug: 2026-10-19-drone-dominance
+  title: Drone Dominance
+  date: '2026-10-19'
+  kind: web
+- slug: 2026-10-19-warpware-closes-pre-seed-to-bring-agentic-tools-to-flight-so
+  title: WarpWare Closes Pre-Seed to Bring Agentic Tools to Flight Software
+  date: '2026-10-19'
+  kind: web
 - slug: 2026-10-16-ratlog-wants-to-cut-90-of-a-rocket-engines-parts
   title: RATLOG Wants to Cut ~90% of a Rocket Engine’s Parts
   date: '2026-10-16'
@@ -41,18 +53,6 @@ recent_mentions:
   kind: web
 - slug: 2026-10-14-exclusive-in-orbit-aerospace-pivots-from-re-entry-vehicles-t
   title: 'Exclusive: In Orbit Aerospace Pivots From Re-entry Vehicles to Spacecraft Autonomy'
-  date: '2026-10-14'
-  kind: web
-- slug: 2026-10-14-new-360-degree-air-defense-radar-with-detection-range-exceed
-  title: New 360-degree air defense radar with detection range exceeding 205 miles can transform warfare
-  date: '2026-10-14'
-  kind: web
-- slug: 2026-10-14-how-space-companies-can-prepare-for-a-potential-launch-gap
-  title: How Space Companies Can Prepare for a Potential Launch Gap
-  date: '2026-10-14'
-  kind: web
-- slug: 2026-10-14-reflect-orbital-buys-two-skyroot-aerospace-launches
-  title: Reflect Orbital Buys Two Skyroot Aerospace Launches
   date: '2026-10-14'
   kind: web
 neighbors: []

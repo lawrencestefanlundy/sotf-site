@@ -22,7 +22,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 118
+mention_count: 119
 descendants: []
 last_reorg_date: '2026-05-13'
 scorecard:
@@ -35,7 +35,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 1
-sources_30d: 16
+sources_30d: 17
 recent_mentions:
 - slug: 2026-06-05-recursive-until-the-power-bill
   title: Recursive, Until the Power Bill

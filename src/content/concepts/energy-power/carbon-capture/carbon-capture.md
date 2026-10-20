@@ -10,7 +10,8 @@ sources:
 - '[[2024-11-20-nuclear-fusion-the-state-of-play]]'
 - '[[2025-04-17-serving-data-center-load-with-carbon-capture---latitude-medi]]'
 - '[[2019-02-21-asu-nau-and-ut-austin-awarded-15m-from-doe-to-transform-ener]]'
-mention_count: 4
+- '[[2022-09-08-austin-vernon---energy-superabundance-starship-missiles-find]]'
+mention_count: 5
 descendants:
 - beccs
 - carbon
@@ -29,6 +30,10 @@ recent_mentions:
   title: 'Nuclear Fusion: A Primer'
   date: '2024-11-20'
   kind: substack
+- slug: 2022-09-08-austin-vernon---energy-superabundance-starship-missiles-find
+  title: Austin Vernon - Energy Superabundance, Starship Missiles, & Finding Alpha
+  date: '2022-09-08'
+  kind: web
 - slug: 2019-02-21-asu-nau-and-ut-austin-awarded-15m-from-doe-to-transform-ener
   title: ASU, NAU and UT Austin awarded $1.5M from DOE to transform energy technology with new carbon capture concept - ASU News
   date: '2019-02-21'

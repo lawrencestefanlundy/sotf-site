@@ -20,7 +20,7 @@ scorecard:
   timing_band: Unclear
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 285
+mention_count: 287
 sources_7d: 1
 sources_30d: 15
 recent_mentions:

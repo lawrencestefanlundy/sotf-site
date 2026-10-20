@@ -22,9 +22,9 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-mention_count: 119
-sources_7d: 0
-sources_30d: 17
+mention_count: 120
+sources_7d: 2
+sources_30d: 19
 recent_mentions:
 - slug: 2026-10-12-chip-mediated-manipulation-of-photonic-quantum-skyrmions
   title: Chip-mediated manipulation of photonic quantum skyrmions

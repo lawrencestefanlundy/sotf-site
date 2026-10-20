@@ -11,6 +11,8 @@ related_concepts: []
 sources:
 - '[[2024-11-20-nuclear-fusion-the-state-of-play]]'
 - '[[2024-12-04-cubits-in-a-fridge-why-is-nobody]]'
+- '[[2026-10-18-a-single-microwave-line-runs-five-silicon-spin-qubits-with-9]]'
+- '[[2026-10-15-simultaneous-high-fidelity-single-qubit-gates-in-a-spin-qubi]]'
 frontier:
 - What two-qubit gate fidelity is achieved on 300 mm foundry-fabricated devices, and how does it vary across dies and wafers rather than within a single hero device?
 - Do the noise-suppression techniques that delivered single-qubit fidelity above 99.6% under a strong field gradient extend to exchange-based two-qubit gates at the same overhead?
@@ -20,7 +22,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 13
+mention_count: 16
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 2
@@ -31,9 +33,17 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 0
+sources_7d: 2
+sources_30d: 2
 recent_mentions:
+- slug: 2026-10-18-a-single-microwave-line-runs-five-silicon-spin-qubits-with-9
+  title: A single microwave line runs five silicon spin qubits with 99.9% accuracy
+  date: '2026-10-18'
+  kind: web
+- slug: 2026-10-15-simultaneous-high-fidelity-single-qubit-gates-in-a-spin-qubi
+  title: Simultaneous high-fidelity single-qubit gates in a spin qubit array
+  date: '2026-10-15'
+  kind: web
 - slug: 2025-11-06-darpa-qbi-stage-b-selection
   title: 'DARPA Quantum Benchmarking Initiative: Stage B selection'
   date: '2025-11-06'

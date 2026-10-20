@@ -17,9 +17,9 @@ frontier:
 - Do the eight sequential DPO iterations (v0 to v7) yield monotonic gains, or does performance saturate or regress after a specific iteration count?
 - How does LoRA at r = 8 compare with full-parameter post-training on the same 27B base, in both task accuracy and compute cost?
 - Does a 6,283-pair preference set generalise beyond the curating institution's data distribution, and how does performance scale with preference-pair count?
-mention_count: 1
-sources_7d: 0
-sources_30d: 0
+mention_count: 2
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
 - slug: 2026-07-20-ai-inference-economics-column
   title: Money Stuff-style column on AI model pricing, open weights and datacentre monetisation

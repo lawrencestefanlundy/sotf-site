@@ -23,9 +23,10 @@ sources:
 - '[[2025-12-18-digital-twins-for-chip-manufacturing-rd-faces-unexpected-set]]'
 - '[[2026-07-27-embedd-bsp-generation]]'
 - '[[2026-08-24-embedd-pre-seed-siliconangle]]'
+- '[[2026-10-14-fusion-digital-twins-from-imperfect-models]]'
 - '[[2025-07-21-intel-18a-details-cost-future-of-dram-4f2-vs-3d-backside-pow]]'
 - '[[2023-01-10-eth-zurich-spin-offs-digital-twins-new-cancer-treatments-and]]'
-mention_count: 98
+mention_count: 101
 scorecard:
   viability: 3
   drivers: 4
@@ -40,9 +41,13 @@ frontier:
 - Does calibration against real measurements or gap-aware robust training win the sim-to-real problem, or does deployment require both, and at what data cost per site 2026 05 28 how to bridge the sim to real gap in digital twin aided tele?
 - Can real-time surrogates preserve enough multi-physics fidelity to replace finite-element analysis in packaging reliability decisions, or is accuracy lost exactly where hot spots and warpage matter 2026 06 05 toward digital twins in 3d ic packaging a critical review of?
 - For biological twins, does reconstruction quality from in vivo imaging reach the topological correctness needed for predictive, rather than merely descriptive, simulation 2026 06 26 biorxiv cerebrovascular imaging to graph reconstructio?
-sources_7d: 2
-sources_30d: 9
+sources_7d: 5
+sources_30d: 12
 recent_mentions:
+- slug: 2026-10-14-fusion-digital-twins-from-imperfect-models
+  title: Fusion digital twins from imperfect models
+  date: '2026-10-14'
+  kind: web
 - slug: 2026-10-12-us-genesis-mission-backs-digital-twin-to-predict-fusion-plas
   title: US Genesis Mission backs digital twin to predict fusion plasma in under 20 minutes
   date: '2026-10-12'
@@ -70,10 +75,6 @@ recent_mentions:
 - slug: 2025-01-27-ai-for-nuclear-fusion-feat-martin
   title: AI for Nuclear Fusion (Feat. Martin Riedmiller, Google DeepMind)
   date: '2025-01-27'
-  kind: substack
-- slug: 2024-11-20-nuclear-fusion-the-state-of-play
-  title: 'Nuclear Fusion: A Primer'
-  date: '2024-11-20'
   kind: substack
 neighbors:
 - slug: datacenter-network-stack

@@ -34,6 +34,7 @@ sources:
 - '[[2023-10-13-e19-trusted-execution-environments]]'
 - '[[2023-05-31-three-underrated-technologies-from]]'
 - '[[2023-11-20-e21-can-we-make-enough-ai-chips]]'
+- '[[2026-10-16-state-of-the-future-dispatch-16th]]'
 - '[[2026-04-28-making-ai-inference-cheap-with-analog]]'
 - '[[2023-07-06-e07-decentralised-ai]]'
 - '[[2025-04-30-has-the-time-come-to-take-mortal]]'
@@ -49,10 +50,14 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 1095
-sources_7d: 1
-sources_30d: 14
+mention_count: 1118
+sources_7d: 4
+sources_30d: 17
 recent_mentions:
+- slug: 2026-10-16-state-of-the-future-dispatch-16th
+  title: 'State of the Future: Dispatch 16th October 2026'
+  date: '2026-10-16'
+  kind: substack
 - slug: 2026-10-07-neuro-catalyst-sweep
   title: 'Catalyst sweep: AI decoding, new sensing modalities, non-invasive deep stimulation, payment pathways (neuro, Oct 2026)'
   date: '2026-10-07'
@@ -80,10 +85,6 @@ recent_mentions:
 - slug: 2026-02-12-rivians-roadmap-to-ai-architecture-and-autonomy-with-founder
   title: Rivian’s Roadmap to AI Architecture and Autonomy with Founder and CEO RJ Scaringe
   date: '2026-02-12'
-  kind: web
-- slug: 2026-10-13-marketus-ai-materials-discovery-report-mill
-  title: 'Market.us AI in Materials Discovery Market: $536.4M 2024 to $5.58B 2034, 26.4% CAGR (report mill, contrast only)'
-  date: '2025-11-01'
   kind: web
 neighbors:
 - slug: physics-ai

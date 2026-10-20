@@ -32,6 +32,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-20-nanoscale-tech-tracks-proteins-inside-living-neurons-to-guid
+  title: Nanoscale tech tracks proteins inside living neurons to guide Alzheimer's and Parkinson's drug discovery
+  date: '2026-10-20'
+  kind: web
 - slug: 2026-10-14-lab-in-the-loop-at-compute-speed-ian-quigley-leash-bio
   title: Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio
   date: '2026-10-14'
@@ -59,10 +63,6 @@ recent_mentions:
 - slug: 2026-09-22-trna-therapy
   title: tRNA Therapy
   date: '2026-09-22'
-  kind: web
-- slug: 2026-09-17-toward-autonomous-science-with-agentic-artificial-intelligen
-  title: Toward autonomous science with agentic artificial intelligence
-  date: '2026-09-17'
   kind: web
 neighbors: []
 ---

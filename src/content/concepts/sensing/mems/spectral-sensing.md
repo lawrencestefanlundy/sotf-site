@@ -28,6 +28,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-20-nanoscale-tech-tracks-proteins-inside-living-neurons-to-guid
+  title: Nanoscale tech tracks proteins inside living neurons to guide Alzheimer's and Parkinson's drug discovery
+  date: '2026-10-20'
+  kind: web
 - slug: 2026-10-13-patterned-x-rays-map-3d-chemical-structures-faster-with-fewe
   title: Patterned X-rays map 3D chemical structures faster with fewer measurements
   date: '2026-10-13'

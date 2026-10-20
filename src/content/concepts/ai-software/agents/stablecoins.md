@@ -30,11 +30,13 @@ sources:
 - '[[2023-04-04-learnings-from-a-deep-tech-horizon]]'
 - '[[2023-07-06-e07-decentralised-ai]]'
 - '[[2026-06-13-agentic-payments-value-capture]]'
+- '[[2026-03-02-haseeb-quereshi-cryptos-not-made-for-humansits-for-ai]]'
 - '[[2026-09-21-amazon-blocks-meta-muse]]'
 - '[[2026-06-19-onchain-agent-volume-tracking]]'
 - '[[2026-09-22-coinbase-full-stack-agent-payments]]'
 - '[[2026-07-21-stablecoin-market-structure]]'
 - '[[2026-06-18-aeon-verification]]'
+- '[[2026-03-23-ethereums-quantum-strategy-with-justin-drake]]'
 - '[[2026-06-23-mastercard-ap4m-launch]]'
 - '[[2026-07-31-4mica-update-verification]]'
 - '[[2026-08-06-4mica-base-mainnet-onchain-verification]]'
@@ -46,9 +48,9 @@ frontier:
 last_updated: 2026-07-21
 tags:
 - concept
-mention_count: 26
-sources_7d: 0
-sources_30d: 3
+mention_count: 29
+sources_7d: 1
+sources_30d: 4
 recent_mentions:
 - slug: 2026-09-22-coinbase-full-stack-agent-payments
   title: Coinbase across the agent/stablecoin payments stack (agentic wallets, Payment APIs, x402, Bedrock AgentCore)

@@ -20,9 +20,9 @@ frontier: []
 last_updated: 2026-06-03
 tags:
 - concept
-mention_count: 5
-sources_7d: 0
-sources_30d: 0
+mention_count: 6
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
 - slug: 2026-07-31-positron-research-sprint
   title: 'Positron AI research sprint: architecture, funding, customers, manufacturing'

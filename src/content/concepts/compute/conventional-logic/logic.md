@@ -34,6 +34,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-19-don-wilson-on-the-gpu-markets-trillion-dollar-question
+  title: Don Wilson on the GPU Market's Trillion Dollar Question
+  date: '2026-10-19'
+  kind: web
 - slug: 2026-10-15-simultaneous-high-fidelity-single-qubit-gates-in-a-spin-qubi
   title: Simultaneous high-fidelity single-qubit gates in a spin qubit array
   date: '2026-10-15'
@@ -61,10 +65,6 @@ recent_mentions:
 - slug: 2026-09-29-adventures-in-chip-design
   title: Adventures in Chip Design
   date: '2026-09-29'
-  kind: web
-- slug: 2026-09-25-rigetti-computing-rgti-secures-chips-act-support-is-the-upsi
-  title: Rigetti Computing (RGTI) Secures CHIPS Act Support, Is The Upside Already Priced In? - simplywall.st
-  date: '2026-09-25'
   kind: web
 neighbors: []
 ---

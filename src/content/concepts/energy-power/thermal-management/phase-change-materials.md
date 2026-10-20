@@ -18,6 +18,7 @@ sources:
 - '[[2024-11-20-nuclear-fusion-the-state-of-play]]'
 - '[[2026-04-14-the-photonic-foundry-fallacy]]'
 - '[[2024-10-29-deploy-intelligence-too-cheap-to]]'
+- '[[2026-10-16-state-of-the-future-dispatch-16th]]'
 - '[[2024-11-12-atomic-energy-can-nuclear-power-our]]'
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2025-04-30-has-the-time-come-to-take-mortal]]'
@@ -35,10 +36,14 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 1139
-sources_7d: 0
-sources_30d: 3
+mention_count: 1155
+sources_7d: 1
+sources_30d: 4
 recent_mentions:
+- slug: 2026-10-16-state-of-the-future-dispatch-16th
+  title: 'State of the Future: Dispatch 16th October 2026'
+  date: '2026-10-16'
+  kind: substack
 - slug: 2026-10-12-cnt-electronics-market-research
   title: 'Carbon nanotube electronics: market, cohort and M&A research (web sweep, 82 sources)'
   date: '2026-10-12'
@@ -67,10 +72,6 @@ recent_mentions:
   title: TIM market sizing refresh — the definitional 2x split and the real addressable slot
   date: '2026-07-31'
   kind: web
-- slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
-  title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
-  date: '2026-07-28'
-  kind: substack
 neighbors: []
 ---
 **Phase-change materials absorb and release heat as latent heat at a fixed transition temperature, buffering thermal transients instead of conducting heat away; the supplied source set contains no direct evidence on thermal PCMs, so this page is largely an assessment of what is missing.**

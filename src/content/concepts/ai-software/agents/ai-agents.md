@@ -27,7 +27,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 172
+mention_count: 181
 descendants:
 - agent-identity-kya
 - agentic-ai
@@ -37,9 +37,13 @@ descendants:
 - stablecoin-clearing
 - stablecoins
 - x402
-sources_7d: 4
-sources_30d: 25
+sources_7d: 7
+sources_30d: 29
 recent_mentions:
+- slug: 2026-10-15-the-changing-physics-of-cybersecurity-and-drug-development-w
+  title: The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman
+  date: '2026-10-15'
+  kind: web
 - slug: 2026-10-14-lab-in-the-loop-at-compute-speed-ian-quigley-leash-bio
   title: Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio
   date: '2026-10-14'
@@ -67,10 +71,6 @@ recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
-  kind: web
-- slug: 2026-08-06-dex-in-the-city-how-claudes-red-teaming-agents-escaped-a-tes
-  title: 'DEX in the City: How Claude''s Red-Teaming Agents Escaped a Test Without Realizing It'
-  date: '2026-08-06'
   kind: web
 neighbors: []
 ---

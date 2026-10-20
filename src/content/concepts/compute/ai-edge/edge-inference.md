@@ -17,7 +17,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 30
+mention_count: 31
 frontier:
 - Does the NVIDIA estimate that 40-70% of agentic LLM queries can be served by specialised small models survive independent replication on production agent traces, or is it an upper bound derived from narrow benchmarks?
 - Can the ReRAM/MRAM hybrid memory approach in QMC be manufactured at edge BOM prices, or does it remain a simulation-and-calibrated-model result?

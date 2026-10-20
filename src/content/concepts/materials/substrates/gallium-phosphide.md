@@ -12,7 +12,8 @@ related_concepts:
 - gallium-arsenide
 - indium-phosphide
 - silicon-nitride
-sources: []
+sources:
+- '[[2026-10-18-hybrid-diamond-chip-strengthens-interactions-between-light-a]]'
 frontier:
 - Can GaP-on-insulator be integrated with standard CMOS at foundry scale without process contamination?
 - Does the χ(2) advantage over silicon nitride translate to competitive link budgets in co-packaged optics at 1550 nm?
@@ -20,10 +21,14 @@ frontier:
 last_updated: '2026-06-02'
 tags:
 - concept
-mention_count: 5
-sources_7d: 1
-sources_30d: 1
-recent_mentions: []
+mention_count: 6
+sources_7d: 2
+sources_30d: 2
+recent_mentions:
+- slug: 2026-10-18-hybrid-diamond-chip-strengthens-interactions-between-light-a
+  title: Hybrid diamond chip strengthens interactions between light and quantum bits
+  date: '2026-10-18'
+  kind: web
 neighbors:
 - slug: gallium-arsenide
   name: Gallium Arsenide (GaAs)

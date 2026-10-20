@@ -35,7 +35,7 @@ tags:
 - pim
 - memory-idm
 - map
-mention_count: 44
+mention_count: 45
 scorecard:
   viability: 3
   drivers: 4
@@ -45,8 +45,8 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 2
+sources_7d: 1
+sources_30d: 3
 recent_mentions:
 - slug: 2026-07-10-the-next-vc-meme-is
   title: The Next VC Meme Is...

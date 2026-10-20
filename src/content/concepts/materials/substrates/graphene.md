@@ -13,6 +13,7 @@ sources:
 - '[[2025-07-01-a-primer-carbon-nanotubes]]'
 - '[[2026-05-29-blairs-been-on-the-tokens-again]]'
 - '[[2024-10-29-deploy-intelligence-too-cheap-to]]'
+- '[[2026-10-16-state-of-the-future-dispatch-16th]]'
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
 scorecard:
@@ -24,10 +25,14 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 409
-sources_7d: 3
-sources_30d: 17
+mention_count: 415
+sources_7d: 4
+sources_30d: 18
 recent_mentions:
+- slug: 2026-10-16-state-of-the-future-dispatch-16th
+  title: 'State of the Future: Dispatch 16th October 2026'
+  date: '2026-10-16'
+  kind: substack
 - slug: 2026-10-08-wafer-scale-low-symmetry-graphene-moire-superlattice-for-int
   title: Wafer-scale low-symmetry graphene moiré superlattice for integrated quantum rectifiers
   date: '2026-10-08'
@@ -35,6 +40,10 @@ recent_mentions:
 - slug: 2026-09-23-as-close-to-carbyne-as-were-probably-going-to-get
   title: As Close to Carbyne As We're Probably Going to Get
   date: '2026-09-23'
+  kind: web
+- slug: 2026-09-09-bilayer-approach-ramps-performance-of-all-perovskite-triple-
+  title: Bilayer approach ramps performance of all-perovskite triple-junction solar cells
+  date: '2026-09-09'
   kind: web
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
@@ -51,14 +60,6 @@ recent_mentions:
 - slug: 2026-06-23-inbrain-graphene-first-in-human
   title: 'InBrain Neuroelectronics: world-first-in-human graphene neural interface study, $50M Series B, FDA Breakthrough Device, Merck KGaA partnership'
   date: '2026-06-23'
-  kind: web
-- slug: 2026-06-22-thermal-stack-arms-race-ai-computing-power-fuels-diamond
-  title: AI Computing Power Fuels 'Diamond Cooling' Multi-Billion-Dollar Race
-  date: '2026-06-22'
-  kind: web
-- slug: 2026-06-22-tim-approaches-full-sweep
-  title: TIM approaches — exhaustive in-market + R&D sweep (vendors, classes, startups)
-  date: '2026-06-22'
   kind: web
 neighbors: []
 ---

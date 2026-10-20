@@ -44,7 +44,7 @@ tags:
 - analog-computing
 - in-memory-computing
 - semron
-mention_count: 43
+mention_count: 44
 last_reorg_date: '2026-05-14'
 descendants:
 - capram
@@ -57,7 +57,7 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 1
+sources_7d: 0
 sources_30d: 3
 recent_mentions:
 - slug: 2026-08-07-the-memory-trade-isnt-over-weights

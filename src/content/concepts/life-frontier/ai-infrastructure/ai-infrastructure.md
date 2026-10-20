@@ -25,6 +25,7 @@ sources:
 - '[[2026-06-23-semidoped-daily-update]]'
 - '[[2026-05-26-techtimes-custom-asic-growth]]'
 - '[[2025-11-09-openai-urges-trump-administration-to-expand-chips-act-incent]]'
+- '[[2025-01-09-erik-bernhardsson-on-creating-tools-that-make-ai-feel-effort]]'
 - '[[2026-06-14-frontier-ai-value-capture]]'
 - '[[2025-09-16-talent-as-constraint-csis-analysis-apprenticeship-programs]]'
 - '[[2025-08-14-chips-neoclouds-and-the-quest-for-ai-dominance-with-semianal]]'
@@ -38,15 +39,12 @@ sources:
 - '[[2026-03-16-ai-capex-financeable-financing-the-ai-infrastructure-boom]]'
 - '[[2026-03-12-optical-displaces-copper-optical-scale-up-consortium]]'
 - '[[2025-10-21-frontier-forum-the-new-power-map-for-ai-infrastructure---lat]]'
+- '[[2024-08-29-cloud-strategy-in-the-ai-era-with-matt-garman-ceo-of-aws]]'
 - '[[2026-09-01-eu-taiwan-chip-dialogue-targets-ai-infrastructure-partnershi]]'
 - '[[2026-06-27-rack-power-delivery-silicon-reed-semiconductor-raises-100]]'
 - '[[2026-04-09-model-commoditises-value-moves-up-the-foundation-model]]'
 - '[[2026-02-12-ai-demand-outruns-expectations-ai-capex-2026-the-690b]]'
 - '[[2026-02-26-how-capital-is-powering-the-ai-infrastructure-buildout-with-]]'
-- '[[2026-06-17-tech-inflation-silicon-shock-federal-reserve-flags-ai]]'
-- '[[2026-06-13-sovereign-electronics-manufacturing-reshoring-digest]]'
-- '[[2026-03-12-photonics-material-class-war-hyperlight-umc-and-wavetek]]'
-- '[[2026-idc-ai-infrastructure-tracker]]'
 scorecard:
   viability: 4
   drivers: 5
@@ -56,7 +54,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 140
+mention_count: 144
 descendants:
 - ai-grade-datacentre-real-estate
 - ai-infrastructure-scaling
@@ -67,8 +65,8 @@ descendants:
 - moe-all-to-all-collectives
 - prefill-vs-decode
 - sovereign-ai
-sources_7d: 1
-sources_30d: 6
+sources_7d: 2
+sources_30d: 7
 recent_mentions:
 - slug: 2026-09-01-eu-taiwan-chip-dialogue-targets-ai-infrastructure-partnershi
   title: EU-Taiwan chip dialogue targets AI infrastructure partnerships under EU Chips Act 2.0 - INSIGHT EU MONITORING

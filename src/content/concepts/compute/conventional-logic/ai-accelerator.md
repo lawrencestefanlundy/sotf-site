@@ -56,7 +56,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 112
+mention_count: 113
 last_reorg_date: '2026-05-14'
 scorecard:
   viability: 4
@@ -68,8 +68,12 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 1
-sources_30d: 2
+sources_30d: 3
 recent_mentions:
+- slug: 2026-10-19-don-wilson-on-the-gpu-markets-trillion-dollar-question
+  title: Don Wilson on the GPU Market's Trillion Dollar Question
+  date: '2026-10-19'
+  kind: web
 - slug: 2026-10-05-wartsila-to-supply-282-mw-onsite-power-solution-for-a-us-dat
   title: Wärtsilä to supply 282 MW onsite power solution for a U.S. data center as AI growth intensifies demand for reliable power - Latitude Media
   date: '2026-10-05'
@@ -97,10 +101,6 @@ recent_mentions:
 - slug: 2026-09-18-the-hidden-power-systems-behind-ai---latitude-media
   title: The hidden power systems behind AI - Latitude Media
   date: '2026-09-18'
-  kind: web
-- slug: 2026-09-10-the-pulse-191-a-new-trend-of-cpu-shortages
-  title: 'The Pulse #191: a new trend of CPU shortages'
-  date: '2026-09-10'
   kind: web
 neighbors: []
 ---

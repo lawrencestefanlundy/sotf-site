@@ -33,9 +33,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 69
+mention_count: 70
 sources_7d: 2
-sources_30d: 8
+sources_30d: 9
 recent_mentions:
 - slug: 2026-10-13-liquid-metal-dealloying-creates-nanoporous-silicon-carbide-a
   title: Liquid metal dealloying creates nanoporous silicon carbide at just 800°C

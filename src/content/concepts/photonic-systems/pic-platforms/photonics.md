@@ -42,6 +42,7 @@ sources:
 - '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 - '[[2026-07-10-the-next-vc-meme-is]]'
+- '[[2026-03-06-state-of-the-future-friday-four]]'
 scorecard:
   viability: null
   drivers: null
@@ -51,7 +52,7 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-mention_count: 1213
+mention_count: 1219
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -60,7 +61,7 @@ descendants:
 - optical-frequency-comb
 - optical-frequency-division
 - optoelectronic-oscillator
-sources_7d: 3
+sources_7d: 0
 sources_30d: 5
 recent_mentions:
 - slug: 2026-10-18-hybrid-diamond-chip-strengthens-interactions-between-light-a

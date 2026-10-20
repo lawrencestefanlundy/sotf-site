@@ -33,6 +33,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-19-foxconn-pays-727m-for-half-of-mitsubishi-electrics-car-parts
+  title: Foxconn pays $727M for half of Mitsubishi Electric’s car parts unit in EV push
+  date: '2026-10-19'
+  kind: web
 - slug: 2026-10-15-wrc27-agenda-item-1-7-status
   title: 'WRC-27 agenda item 1.7: IMT in 4.4-4.8 GHz, 7.125-8.4 GHz and 14.8-15.35 GHz (status, Oct 2026)'
   date: '2026-10-15'
@@ -60,10 +64,6 @@ recent_mentions:
 - slug: 2026-10-09-exclusive-kapta-space-raises-24m-series-a-to-build-moving-ta
   title: 'Exclusive: Kapta Space Raises $24M Series A to Build Moving Target Radar Payload'
   date: '2026-10-09'
-  kind: web
-- slug: 2026-10-06-hawkeye-360-turns-its-rf-sensors-to-orbital-targets
-  title: HawkEye 360 Turns its RF-Sensors to Orbital Targets
-  date: '2026-10-06'
   kind: web
 neighbors: []
 ---

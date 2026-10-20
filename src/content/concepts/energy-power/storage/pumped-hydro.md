@@ -21,7 +21,7 @@ frontier:
 - What is the capital cost per kWh of installed energy capacity for new-build pumped hydro, and how does it scale with head height and reservoir volume?
 - How binding are siting, geology and permitting constraints on the addressable pipeline in the major grids, and what fraction of announced projects reach commissioning?
 - Where does pumped hydro sit against emerging long-duration alternatives for durations beyond 8 hours, on both cost and deployable capacity?
-sources_7d: 1
+sources_7d: 0
 sources_30d: 1
 recent_mentions:
 - slug: 2026-10-13-marketsandmarkets-ldes-market-report-mill

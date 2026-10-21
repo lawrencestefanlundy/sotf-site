@@ -31,6 +31,7 @@ sources:
 - '[[2025-10-28-ceva-wi-fi-7-client-ip-supports-ai-enabled-iot-devices-and-p]]'
 - '[[2024-11-07-nvidias-jensen-huang-on-ai-chip-design-scaling-data-centers-]]'
 - '[[2025-03-20-the-robotics-revolution-with-physical-intelligences-cofounde]]'
+- '[[2026-10-20-reservoir-farms-expands-to-pacific-northwest-to-accelerate-p]]'
 - '[[2026-04-20-robot-autonomy-destination-bessemer-venture-partners]]'
 - '[[2026-08-06-the-year-ai-science-and-the-physical-ai-industry-came-alive]]'
 - '[[2026-10-13-dyna-2-general-purpose-physical-agents-with-hour-long-autono]]'
@@ -55,7 +56,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 134
+mention_count: 139
 descendants:
 - dexterous-manipulation
 - humanoid-robots
@@ -65,9 +66,17 @@ descendants:
 - tactile-sensing
 - vision-language-action-models
 - world-models
-sources_7d: 9
-sources_30d: 19
+sources_7d: 13
+sources_30d: 21
 recent_mentions:
+- slug: 2026-10-20-reservoir-farms-expands-to-pacific-northwest-to-accelerate-p
+  title: Reservoir Farms expands to Pacific Northwest to accelerate physical AI
+  date: '2026-10-20'
+  kind: web
+- slug: 2026-10-15-arxiv-a-vr-training-system-for-robot-assisted-vascular-interventio
+  title: A VR Training System for Robot-Assisted Vascular Intervention with Dual-Mode Control and Model-Based Interaction Response
+  date: '2026-10-15'
+  kind: paper
 - slug: 2026-10-13-dyna-2-general-purpose-physical-agents-with-hour-long-autono
   title: 'Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics'
   date: '2026-10-13'
@@ -91,14 +100,6 @@ recent_mentions:
 - slug: 2026-09-14-bringing-physical-ai-to-a-billion-machines-applied-intuition
   title: Bringing Physical AI to a Billion Machines (Applied Intuition Co-founder Peter Ludwig)
   date: '2026-09-14'
-  kind: web
-- slug: 2026-09-07-microchip-acquires-hailo-jul-2026
-  title: Microchip Technology signs definitive agreement to acquire Hailo (Microchip IR, 24 Jul 2026; CTech; Globes)
-  date: '2026-09-07'
-  kind: web
-- slug: 2026-09-01-chinas-ai-rally-is-real-most-global-investors-are-missing-it
-  title: China’s AI Rally Is Real. Most Global Investors Are Missing It.
-  date: '2026-09-01'
   kind: web
 neighbors:
 - slug: humanoid-robots

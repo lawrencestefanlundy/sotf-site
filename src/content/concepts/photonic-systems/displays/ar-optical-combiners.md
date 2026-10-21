@@ -37,7 +37,7 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 328
+mention_count: 327
 sources_7d: 0
 sources_30d: 8
 recent_mentions:
@@ -65,13 +65,13 @@ recent_mentions:
   title: Q-Memory — company website (q-memory.tech)
   date: '2026-06-04'
   kind: web
-- slug: 2026-05-25-ai-glasses-display-timing-waveguide-display-technology
-  title: Waveguide Display Technology Trends and Outlook 2026
-  date: '2026-05-25'
-  kind: web
 - slug: 2026-04-14-the-photonic-foundry-fallacy
   title: The Photonic Foundry Fallacy
   date: '2026-04-14'
+  kind: substack
+- slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
+  title: Carbon Nanotubes in the Datacentre
+  date: '2025-11-25'
   kind: substack
 neighbors:
 - slug: laser-display-light-engines

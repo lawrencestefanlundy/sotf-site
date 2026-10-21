@@ -36,6 +36,10 @@ recent_mentions:
   title: 'Foundries vs Navigators: Lowering the Cost of Science'
   date: '2026-09-24'
   kind: web
+- slug: 2026-09-03-ai-edas-is-it-real
+  title: 'AI EDAs: Is It Real?'
+  date: '2026-09-03'
+  kind: web
 - slug: 2026-08-25-why-ramp-built-its-own-in-house-coding-agent-inspect
   title: Why Ramp built its own in-house coding agent, Inspect
   date: '2026-08-25'

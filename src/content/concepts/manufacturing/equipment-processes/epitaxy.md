@@ -22,8 +22,8 @@ scorecard:
   verdict: Underrated
 scorecard_status: draft
 mention_count: 98
-sources_7d: 2
-sources_30d: 14
+sources_7d: 1
+sources_30d: 13
 recent_mentions:
 - slug: 2026-10-14-author-correction-wafer-scale-epitaxy-growth-of-high-mobilit
   title: 'Author Correction: Wafer-scale epitaxy growth of high-mobility p-type boron carbon nitride'

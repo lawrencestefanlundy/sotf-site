@@ -21,12 +21,12 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 134
+mention_count: 136
 parent_concepts:
 - imaging
 - sensing
-sources_7d: 0
-sources_30d: 10
+sources_7d: 1
+sources_30d: 9
 recent_mentions: []
 neighbors:
 - slug: spectral-sensing

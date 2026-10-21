@@ -25,9 +25,9 @@ tags:
 - robotics
 - simulation
 - data
-mention_count: 29
-sources_7d: 15
-sources_30d: 25
+mention_count: 33
+sources_7d: 19
+sources_30d: 28
 recent_mentions:
 - slug: 2026-10-07-hiphi-a-large-scale-benchmark-for-high-precision-human-motio
   title: 'HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object Interaction'

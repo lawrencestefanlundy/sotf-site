@@ -22,13 +22,17 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 137
+mention_count: 138
 sources_7d: 2
-sources_30d: 19
+sources_30d: 17
 recent_mentions:
 - slug: 2026-10-13-transporter-18-smallsats-encapsulation
   title: Transporter-18 SmallSats Encapsulation
   date: '2026-10-13'
+  kind: web
+- slug: 2026-10-11-asmls-new-multibeam-inspection-tool-is-familiar
+  title: ASML’s New Multibeam Inspection Tool is Familiar
+  date: '2026-10-11'
   kind: web
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
@@ -54,10 +58,6 @@ recent_mentions:
   title: Compound Semiconductor Inspection Equipment Market (IntelMarketResearch)
   date: '2025-12-31'
   kind: web
-- slug: 2024-11-12-atomic-energy-can-nuclear-power-our
-  title: 'Nuclear Fission: A Primer'
-  date: '2024-11-12'
-  kind: substack
 neighbors: []
 ---
 **Industrial inspection is being rebuilt around two independent fronts, cheap parallel optics plus machine learning on existing instrument data, and exotic photonics that pushes imaging into the mid-infrared at single-photon sensitivity; the first is close to production, the second is still benchtop.**

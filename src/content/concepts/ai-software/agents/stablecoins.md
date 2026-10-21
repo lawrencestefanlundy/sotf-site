@@ -40,6 +40,7 @@ sources:
 - '[[2026-06-23-mastercard-ap4m-launch]]'
 - '[[2026-07-31-4mica-update-verification]]'
 - '[[2026-08-06-4mica-base-mainnet-onchain-verification]]'
+- '[[2026-02-05-ai-on-ethereum-erc-8004-x402-openclaw-and-the-botconomy-aust]]'
 frontier:
 - Does Open USD accumulate real float, or is it a press release with 140 logos and no supply?
 - Does the Circle/Coinbase agreement get repriced at the August 2026 decision point, and at what split?
@@ -48,8 +49,8 @@ frontier:
 last_updated: 2026-07-21
 tags:
 - concept
-mention_count: 29
-sources_7d: 1
+mention_count: 31
+sources_7d: 2
 sources_30d: 4
 recent_mentions:
 - slug: 2026-09-22-coinbase-full-stack-agent-payments

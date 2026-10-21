@@ -42,21 +42,8 @@ sources:
 - '[[2026-07-16-robotics-labour-augmentation-humanoid-robot-bom-cost]]'
 - '[[2026-03-31-worlds-top-researcher-on-ai-llms-and-robot-intelligence]]'
 - '[[2026-10-11-chinese-ev-giants-31-joint-humanoid-robot-could-soon-greet-y]]'
+- '[[2023-04-28-374-robert-playter-boston-dynamics-ceo-on-humanoid-and-legge]]'
 - '[[2026-06-10-robotics-labour-augmentation-humanoid-robotics-company]]'
-- '[[2024-09-05-the-road-to-autonomous-intelligence-with-andrej-karpathy]]'
-- '[[2026-07-13-robotics-labour-augmentation-global-emerging-robotics]]'
-- '[[2026-07-13-robotics-labour-augmentation-agility-robotics-2-5b-spac]]'
-- '[[2026-04-02-humanoid-robot-market-ubtech-2025-results-humanoid-robot]]'
-- '[[2026-01-14-humanoid-actuator-supply-chain-after-ces-spotlight-korean]]'
-- '[[2026-07-26-humanoid-duty-cycle-thermal-constraint]]'
-- '[[2024-goldman-humanoid-robot-tam-38bn]]'
-- '[[2026-09-07-sag-counterpoint-humanoid-shipments-h1-2026]]'
-- '[[2025-12-18-humanoid-actuator-supply-chain-linkerbot-10-000-dexterous]]'
-- '[[2026-07-18-robotics-labour-augmentation-figure-ai-and-agility-robotics]]'
-- '[[2026-06-14-robot-autonomy-destination-humanoid-robot-price-2026-best]]'
-- '[[2026-07-14-robotics-labour-augmentation-idtechex-forecasts-a-68]]'
-- '[[2026-07-18-robotics-labour-augmentation-humanoid-robots-in-2026-what]]'
-- '[[2025-06-17-humanoid-actuator-supply-chain-sparsh-x-multisensory-touch]]'
 scorecard:
   viability: 3
   drivers: 4
@@ -66,9 +53,9 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Overrated
 scorecard_status: draft
-mention_count: 159
-sources_7d: 27
-sources_30d: 44
+mention_count: 174
+sources_7d: 40
+sources_30d: 57
 recent_mentions:
 - slug: 2026-10-19-the-robot-i-didnt-expect-to-build
   title: The Robot I Didn’t Expect to Build

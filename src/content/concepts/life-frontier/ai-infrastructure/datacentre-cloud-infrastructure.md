@@ -33,6 +33,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-20-the-programmable-data-center-evan-conrad-sf-compute
+  title: The Programmable Data Center — Evan Conrad, SF Compute
+  date: '2026-10-20'
+  kind: web
 - slug: 2026-10-19-don-wilson-on-the-gpu-markets-trillion-dollar-question
   title: Don Wilson on the GPU Market's Trillion Dollar Question
   date: '2026-10-19'
@@ -60,10 +64,6 @@ recent_mentions:
 - slug: 2026-10-12-tiny-pluggable-optical-module-boosts-data-center-bandwidth-4
   title: Tiny pluggable optical module boosts data center bandwidth 4x without extra hardware
   date: '2026-10-12'
-  kind: web
-- slug: 2026-10-11-17-gigawatt-texas-power-project-passes-key-hurdle-for-worlds
-  title: 17-gigawatt Texas power project passes key hurdle for world’s largest private grid
-  date: '2026-10-11'
   kind: web
 neighbors: []
 ---

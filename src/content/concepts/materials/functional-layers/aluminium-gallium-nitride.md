@@ -24,7 +24,7 @@ tags:
 - concept
 mention_count: 19
 sources_7d: 1
-sources_30d: 6
+sources_30d: 5
 recent_mentions: []
 neighbors:
 - slug: gallium-nitride

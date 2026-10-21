@@ -25,10 +25,14 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 194
-sources_7d: 21
-sources_30d: 37
+mention_count: 209
+sources_7d: 27
+sources_30d: 42
 recent_mentions:
+- slug: 2026-10-20-glm-53-sometimes-considers-how-train-time-actions-shape-futu
+  title: GLM-5.3 Sometimes Considers How Train-Time Actions Shape Future Behavior
+  date: '2026-10-20'
+  kind: web
 - slug: 2026-10-09-beam-the-great-american-open-model-with-reflectionai-co-foun
   title: 'Beam: The Great American Open Model with ReflectionAI Co-Founder and CEO Misha Laskin'
   date: '2026-10-09'
@@ -56,10 +60,6 @@ recent_mentions:
 - slug: 2024-11-20-nuclear-fusion-the-state-of-play
   title: 'Nuclear Fusion: A Primer'
   date: '2024-11-20'
-  kind: substack
-- slug: 2024-10-29-deploy-intelligence-too-cheap-to
-  title: Deploy! Intelligence too cheap to meter @ $0.0001 per million tokens.
-  date: '2024-10-29'
   kind: substack
 neighbors: []
 ---

@@ -34,7 +34,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 253
+mention_count: 258
 descendants:
 - computational-lithography
 - directed-self-assembly
@@ -52,9 +52,17 @@ descendants:
 - two-photon-polymerization
 - x-ray-lithography
 - xolography
-sources_7d: 0
-sources_30d: 6
+sources_7d: 2
+sources_30d: 8
 recent_mentions:
+- slug: 2026-10-20-the-lithography-lever
+  title: The Lithography Lever
+  date: '2026-10-20'
+  kind: web
+- slug: 2026-09-11-huawei-launches-impossible-chip-inside-folding-phone
+  title: Huawei Launches Impossible Chip Inside Folding Phone
+  date: '2026-09-11'
+  kind: web
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
@@ -79,14 +87,6 @@ recent_mentions:
   title: IBM Debuts World's First Sub-1 Nanometer Chip Technology
   date: '2026-06-25'
   kind: web
-- slug: 2026-06-23-semidoped-daily-update
-  title: Semi Doped — Daily Update, June 23rd 2026
-  date: '2026-06-23'
-  kind: web
-- slug: 2026-06-19-the-housefab-always-wins
-  title: The House/Fab Always Wins
-  date: '2026-06-19'
-  kind: substack
 neighbors: []
 ---
 **Lithography is the set of techniques that define patterns on a substrate, and across the supplied evidence it is the step that sets cost per bit, device uniformity and yield for memory, CMOS qubit arrays, photonics and 3D micro-optics alike.**

@@ -18,7 +18,7 @@ tags:
 mention_count: 86
 last_reorg_date: '2026-05-13'
 sources_7d: 3
-sources_30d: 15
+sources_30d: 14
 recent_mentions:
 - slug: 2022-02-07-atomically-thin-materials-significantly-shrink-qubits
   title: Atomically Thin Materials Significantly Shrink Qubits

@@ -28,9 +28,9 @@ tags:
 - robotics
 - ai
 - foundation-models
-mention_count: 41
-sources_7d: 21
-sources_30d: 33
+mention_count: 48
+sources_7d: 28
+sources_30d: 40
 recent_mentions:
 - slug: 2026-06-23-dataintelo-vla-models-market
   title: 'Dataintelo: Vision-Language-Action Models market report'

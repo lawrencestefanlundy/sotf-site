@@ -27,6 +27,14 @@ recent_mentions:
   title: 368-ton ex-US Navy vessel shows off advanced autonomy in high-stakes sea trials
   date: '2026-10-20'
   kind: web
+- slug: 2026-10-20-nasas-sr-1-freedom-advances-with-progress-on-nuclear-power-m
+  title: NASA’s SR-1 Freedom Advances with Progress on Nuclear Power Module
+  date: '2026-10-20'
+  kind: web
+- slug: 2026-10-20-reaction-dynamics-targets-2031-for-borealis-medium-lift-laun
+  title: Reaction Dynamics Targets 2031 for Borealis Medium-Lift Launch
+  date: '2026-10-20'
+  kind: web
 - slug: 2026-10-19-drone-dominance
   title: Drone Dominance
   date: '2026-10-19'
@@ -46,14 +54,6 @@ recent_mentions:
 - slug: 2026-10-15-blacksky-renews-heo-deal-adds-gen-3-imagery-for-space-domain
   title: BlackSky Renews HEO Deal, Adds Gen-3 Imagery for Space Domain Awareness
   date: '2026-10-15'
-  kind: web
-- slug: 2026-10-14-nasa-to-discuss-artemis-acceleration-status-of-upcoming-moon
-  title: NASA to Discuss Artemis Acceleration, Status of Upcoming Moon Missions
-  date: '2026-10-14'
-  kind: web
-- slug: 2026-10-14-exclusive-in-orbit-aerospace-pivots-from-re-entry-vehicles-t
-  title: 'Exclusive: In Orbit Aerospace Pivots From Re-entry Vehicles to Spacecraft Autonomy'
-  date: '2026-10-14'
   kind: web
 neighbors: []
 ---

@@ -36,7 +36,7 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 1155
+mention_count: 1170
 sources_7d: 1
 sources_30d: 4
 recent_mentions:

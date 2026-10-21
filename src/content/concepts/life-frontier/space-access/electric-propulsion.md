@@ -8,18 +8,23 @@ parent_concepts:
 - life-frontier
 - space-access
 related_concepts: []
-sources: []
+sources:
+- '[[2026-10-20-nasas-sr-1-freedom-advances-with-progress-on-nuclear-power-m]]'
 frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 6
+mention_count: 7
 descendants: []
 last_reorg_date: '2026-05-14'
-sources_7d: 1
-sources_30d: 1
-recent_mentions: []
+sources_7d: 2
+sources_30d: 2
+recent_mentions:
+- slug: 2026-10-20-nasas-sr-1-freedom-advances-with-progress-on-nuclear-power-m
+  title: NASA’s SR-1 Freedom Advances with Progress on Nuclear Power Module
+  date: '2026-10-20'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

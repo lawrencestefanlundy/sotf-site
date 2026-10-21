@@ -37,14 +37,14 @@ recent_mentions:
   title: Hybrid diamond chip strengthens interactions between light and quantum bits
   date: '2026-10-18'
   kind: web
-- slug: 2026-10-16-state-of-the-future-dispatch-16th
-  title: 'State of the Future: Dispatch 16th October 2026'
-  date: '2026-10-16'
-  kind: substack
 - slug: 2026-10-16-siloton-secures-84m-to-speed-development-of-portable-retinal
   title: Siloton secures £8.4m to speed development of portable retinal imaging system
   date: '2026-10-16'
   kind: web
+- slug: 2026-10-16-state-of-the-future-dispatch-16th
+  title: 'State of the Future: Dispatch 16th October 2026'
+  date: '2026-10-16'
+  kind: substack
 - slug: 2026-10-15-boptogenetic-therapy-shows-early-promise-for-treating-retini
   title: <b>Optogenetic therapy shows early promise for treating retinitis pigmentosa</b>
   date: '2026-10-15'

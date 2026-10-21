@@ -52,6 +52,14 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-20-the-lithography-lever
+  title: The Lithography Lever
+  date: '2026-10-20'
+  kind: web
+- slug: 2026-10-20-new-brain-for-galileo
+  title: New brain for Galileo
+  date: '2026-10-20'
+  kind: web
 - slug: 2026-10-18-a-single-microwave-line-runs-five-silicon-spin-qubits-with-9
   title: A single microwave line runs five silicon spin qubits with 99.9% accuracy
   date: '2026-10-18'
@@ -74,14 +82,6 @@ recent_mentions:
   kind: web
 - slug: 2026-10-15-gate-tunable-chiral-spin-mode-in-wse2ws2-moire-superlattices
   title: Gate-tunable chiral spin mode in WSe2/WS2 moiré superlattices
-  date: '2026-10-15'
-  kind: web
-- slug: 2026-10-15-modular-van-der-waals-mosfets-through-layer-by-layer-chalcog
-  title: Modular van der Waals MOSFETs through layer-by-layer chalcogen substitutions
-  date: '2026-10-15'
-  kind: web
-- slug: 2026-10-15-simultaneous-high-fidelity-single-qubit-gates-in-a-spin-qubi
-  title: Simultaneous high-fidelity single-qubit gates in a spin qubit array
   date: '2026-10-15'
   kind: web
 neighbors:

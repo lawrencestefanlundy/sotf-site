@@ -14,7 +14,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 64
+mention_count: 65
 frontier:
 - At 80 kHz spectral rates, what signal-to-noise and detection limits survive for weakly scattering, non-resonant samples, and how do those compare with slower CCD line-scan measurements on the same specimen?
 - Can learned forward models be trained to quantitative rather than qualitative accuracy, and does that require a reference database far larger than the 5,099 materials used by RamanGPT, including amorphous, doped and mixed-phase systems?

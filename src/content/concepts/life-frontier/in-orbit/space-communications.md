@@ -34,7 +34,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - category
-mention_count: 38
+mention_count: 39
 descendants: []
 last_reorg_date: '2026-05-14'
 scorecard:
@@ -46,8 +46,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 1
-sources_30d: 3
+sources_7d: 2
+sources_30d: 4
 recent_mentions:
 - slug: 2026-10-15-rf-over-fibre-market-sizing
   title: 'RF-over-fibre market size: analyst consensus (compiled)'

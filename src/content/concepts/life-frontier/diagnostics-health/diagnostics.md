@@ -22,8 +22,8 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 152
-sources_7d: 4
+mention_count: 153
+sources_7d: 6
 sources_30d: 21
 recent_mentions:
 - slug: 2026-08-03-spad-single-photon-market-scan
@@ -42,10 +42,6 @@ recent_mentions:
   title: Detecting Proteins in Blood with Photonics w/ Prateek of Proteins1
   date: '2026-04-22'
   kind: substack
-- slug: 2026-02-16-chip-scale-bio-instrumentation-lex-diagnostics-receives-fda
-  title: LEX Diagnostics Receives FDA 510(k) Clearance and CLIA Waiver for LEX VELO System
-  date: '2026-02-16'
-  kind: web
 - slug: 2026-01-13-chip-scale-bio-instrumentation-point-of-care-diagnostics
   title: Point-of-Care Diagnostics Market Analysis including CE-IVD POC cardiac biomarkers
   date: '2026-01-13'
@@ -58,6 +54,10 @@ recent_mentions:
   title: '🔮E08: Optical Computing'
   date: '2023-07-14'
   kind: substack
+- slug: 2015-12-14-darpa-sbir-injectable-diagnostics-chemical-sensors-synthetic
+  title: 'DARPA SBIR: Injectable Diagnostics, Chemical Sensors, Synthetic Biology - Global Biodefense'
+  date: '2015-12-14'
+  kind: web
 neighbors: []
 ---
 **"Diagnostics" here is not one technology but a measurement layer that has recently been rebuilt around nonlinear frequency conversion, single-photon silicon detection and machine-learning reconstruction, with strong benchtop results in physics instrumentation and only early, pre-clinical evidence on the health side.**

@@ -70,6 +70,10 @@ scorecard_status: draft
 sources_7d: 1
 sources_30d: 3
 recent_mentions:
+- slug: 2026-10-20-the-programmable-data-center-evan-conrad-sf-compute
+  title: The Programmable Data Center — Evan Conrad, SF Compute
+  date: '2026-10-20'
+  kind: web
 - slug: 2026-10-19-don-wilson-on-the-gpu-markets-trillion-dollar-question
   title: Don Wilson on the GPU Market's Trillion Dollar Question
   date: '2026-10-19'
@@ -96,10 +100,6 @@ recent_mentions:
   kind: web
 - slug: 2026-09-18-why-diffusion-will-win-ai-inference-with-inception-co-founde
   title: Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon
-  date: '2026-09-18'
-  kind: web
-- slug: 2026-09-18-the-hidden-power-systems-behind-ai---latitude-media
-  title: The hidden power systems behind AI - Latitude Media
   date: '2026-09-18'
   kind: web
 neighbors: []

@@ -32,7 +32,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 77
+mention_count: 78
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 3
@@ -43,7 +43,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 3
+sources_7d: 4
 sources_30d: 12
 recent_mentions:
 - slug: 2026-07-10-the-next-vc-meme-is

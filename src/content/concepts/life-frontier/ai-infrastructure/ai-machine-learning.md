@@ -33,6 +33,18 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-21-nasa-backed-lunar-rover-to-test-language-models-laser-mappin
+  title: NASA-backed lunar rover to test language models, laser mapping on Moon with fanless GPU
+  date: '2026-10-21'
+  kind: web
+- slug: 2026-10-20-reservoir-farms-expands-to-pacific-northwest-to-accelerate-p
+  title: Reservoir Farms expands to Pacific Northwest to accelerate physical AI
+  date: '2026-10-20'
+  kind: web
+- slug: 2026-10-20-glm-53-sometimes-considers-how-train-time-actions-shape-futu
+  title: GLM-5.3 Sometimes Considers How Train-Time Actions Shape Future Behavior
+  date: '2026-10-20'
+  kind: web
 - slug: 2026-10-19-warpware-closes-pre-seed-to-bring-agentic-tools-to-flight-so
   title: WarpWare Closes Pre-Seed to Bring Agentic Tools to Flight Software
   date: '2026-10-19'
@@ -52,18 +64,6 @@ recent_mentions:
 - slug: 2026-10-15-the-changing-physics-of-cybersecurity-and-drug-development-w
   title: The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman
   date: '2026-10-15'
-  kind: web
-- slug: 2026-10-14-lab-in-the-loop-at-compute-speed-ian-quigley-leash-bio
-  title: Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio
-  date: '2026-10-14'
-  kind: web
-- slug: 2026-10-14-fusion-digital-twins-from-imperfect-models
-  title: Fusion digital twins from imperfect models
-  date: '2026-10-14'
-  kind: web
-- slug: 2026-10-14-exclusive-in-orbit-aerospace-pivots-from-re-entry-vehicles-t
-  title: 'Exclusive: In Orbit Aerospace Pivots From Re-entry Vehicles to Spacecraft Autonomy'
-  date: '2026-10-14'
   kind: web
 neighbors: []
 ---

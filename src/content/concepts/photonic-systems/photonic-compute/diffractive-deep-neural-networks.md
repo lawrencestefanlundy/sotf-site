@@ -32,9 +32,9 @@ tags:
 - onn
 - d2nn
 last_reorg_date: '2026-05-13'
-mention_count: 7
-sources_7d: 0
-sources_30d: 1
+mention_count: 8
+sources_7d: 1
+sources_30d: 2
 recent_mentions: []
 neighbors:
 - slug: spatial-light-modulators

@@ -54,7 +54,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 144
+mention_count: 142
 descendants:
 - ai-grade-datacentre-real-estate
 - ai-infrastructure-scaling
@@ -65,8 +65,8 @@ descendants:
 - moe-all-to-all-collectives
 - prefill-vs-decode
 - sovereign-ai
-sources_7d: 2
-sources_30d: 7
+sources_7d: 1
+sources_30d: 6
 recent_mentions:
 - slug: 2026-09-01-eu-taiwan-chip-dialogue-targets-ai-infrastructure-partnershi
   title: EU-Taiwan chip dialogue targets AI infrastructure partnerships under EU Chips Act 2.0 - INSIGHT EU MONITORING
@@ -92,13 +92,13 @@ recent_mentions:
   title: Exploring a space-based, scalable AI infrastructure system design
   date: '2026-06-23'
   kind: web
-- slug: 2026-06-17-tech-inflation-silicon-shock-federal-reserve-flags-ai
-  title: Federal Reserve flags AI demand as inflation risk in latest minutes
-  date: '2026-06-17'
-  kind: web
 - slug: 2026-06-14-frontier-ai-value-capture
   title: 'Frontier AI value capture: where the $4T accrues (research synthesis)'
   date: '2026-06-14'
+  kind: web
+- slug: 2026-06-13-sovereign-electronics-manufacturing-reshoring-digest
+  title: 'Western/European electronics manufacturing reshoring (PCB/PCBA): market + why-now digest'
+  date: '2026-06-13'
   kind: web
 neighbors: []
 ---

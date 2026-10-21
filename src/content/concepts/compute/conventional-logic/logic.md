@@ -34,6 +34,14 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-21-nasa-backed-lunar-rover-to-test-language-models-laser-mappin
+  title: NASA-backed lunar rover to test language models, laser mapping on Moon with fanless GPU
+  date: '2026-10-21'
+  kind: web
+- slug: 2026-10-20-the-programmable-data-center-evan-conrad-sf-compute
+  title: The Programmable Data Center — Evan Conrad, SF Compute
+  date: '2026-10-20'
+  kind: web
 - slug: 2026-10-19-don-wilson-on-the-gpu-markets-trillion-dollar-question
   title: Don Wilson on the GPU Market's Trillion Dollar Question
   date: '2026-10-19'
@@ -57,14 +65,6 @@ recent_mentions:
 - slug: 2026-10-02-frontier-chips-for-frontier-ai-labs-with-walter-goodwin-foun
   title: Frontier Chips for Frontier AI Labs, with Walter Goodwin, Founder/CEO of Fractile
   date: '2026-10-02'
-  kind: web
-- slug: 2026-09-29-ainews-amd-buys-world-labs-for-82b-as-atlas-solves-sparse-re
-  title: '[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more'
-  date: '2026-09-29'
-  kind: web
-- slug: 2026-09-29-adventures-in-chip-design
-  title: Adventures in Chip Design
-  date: '2026-09-29'
   kind: web
 neighbors: []
 ---

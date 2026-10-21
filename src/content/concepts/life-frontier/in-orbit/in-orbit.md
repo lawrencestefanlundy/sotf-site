@@ -16,7 +16,7 @@ sources:
 - '[[2026-05-07-nasas-prithvi-becomes-first-ai-geospatial-foundation-model-i]]'
 - '[[2026-10-06-hawkeye-360-turns-its-rf-sensors-to-orbital-targets]]'
 - '[[2026-10-14-exclusive-in-orbit-aerospace-pivots-from-re-entry-vehicles-t]]'
-mention_count: 28
+mention_count: 29
 descendants:
 - atmospheric-sensing
 - direct-to-cell-leo
@@ -40,14 +40,14 @@ recent_mentions:
   title: 'Exclusive: In Orbit Aerospace Pivots From Re-entry Vehicles to Spacecraft Autonomy'
   date: '2026-10-14'
   kind: web
-- slug: 2026-10-09-state-of-the-future-dispatch-9th
-  title: 'State of the Future: Dispatch 9th October 2026'
-  date: '2026-10-09'
-  kind: substack
 - slug: 2026-10-09-europes-space-defenses-fall-just-shy-of-weaponization
   title: Europe’s Space Defenses Fall Just Shy of Weaponization
   date: '2026-10-09'
   kind: web
+- slug: 2026-10-09-state-of-the-future-dispatch-9th
+  title: 'State of the Future: Dispatch 9th October 2026'
+  date: '2026-10-09'
+  kind: substack
 - slug: 2026-10-06-hawkeye-360-turns-its-rf-sensors-to-orbital-targets
   title: HawkEye 360 Turns its RF-Sensors to Orbital Targets
   date: '2026-10-06'

@@ -28,6 +28,14 @@ sources:
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-21-nasa-backed-lunar-rover-to-test-language-models-laser-mappin
+  title: NASA-backed lunar rover to test language models, laser mapping on Moon with fanless GPU
+  date: '2026-10-21'
+  kind: web
+- slug: 2026-10-20-nasa-provides-progress-update-on-moon-base-rovers
+  title: NASA Provides Progress Update on Moon Base Rovers
+  date: '2026-10-20'
+  kind: web
 - slug: 2026-10-20-nanoscale-tech-tracks-proteins-inside-living-neurons-to-guid
   title: Nanoscale tech tracks proteins inside living neurons to guide Alzheimer's and Parkinson's drug discovery
   date: '2026-10-20'
@@ -51,14 +59,6 @@ recent_mentions:
 - slug: 2026-10-15-us-optical-chip-gyroscope-gets-2000-fold-sensitivity-boost-d
   title: US optical chip gyroscope gets 2,000-fold sensitivity boost, detects slow rotation
   date: '2026-10-15'
-  kind: web
-- slug: 2026-10-15-jaxa-taps-arkedge-for-two-lunar-navigation-demos
-  title: JAXA Taps ArkEdge for Two Lunar Navigation Demos
-  date: '2026-10-15'
-  kind: web
-- slug: 2026-10-14-new-chip-scale-gyroscope-measures-rotation-with-unprecedente
-  title: New chip-scale gyroscope measures rotation with unprecedented sensitivity
-  date: '2026-10-14'
   kind: web
 neighbors: []
 ---

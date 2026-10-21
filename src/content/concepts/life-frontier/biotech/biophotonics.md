@@ -15,7 +15,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 74
+mention_count: 75
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 2
@@ -27,6 +27,10 @@ recent_mentions:
 - slug: 2026-10-15-boptogenetic-therapy-shows-early-promise-for-treating-retini
   title: <b>Optogenetic therapy shows early promise for treating retinitis pigmentosa</b>
   date: '2026-10-15'
+  kind: web
+- slug: 2026-10-14-the-secret-to-mind-control---nobel-prize-2026-explained
+  title: The Secret to Mind Control - Nobel Prize 2026 EXPLAINED
+  date: '2026-10-14'
   kind: web
 - slug: 2026-10-13-kprx-quote-stockanalysis-12-oct-2026
   title: Kiora Pharmaceuticals (KPRX) quote, StockAnalysis, close 12 Oct 2026
@@ -47,10 +51,6 @@ recent_mentions:
 - slug: 2026-09-01-live-cell-transcriptomics-with-engineered-virus-like-particl
   title: Live-cell transcriptomics with engineered virus-like particles
   date: '2026-09-01'
-  kind: web
-- slug: 2026-08-24-nist-researchers-supersize-quantum-technology-to-help-detect
-  title: NIST Researchers Supersize Quantum Technology to Help Detect Faint Photons
-  date: '2026-08-24'
   kind: web
 neighbors: []
 ---

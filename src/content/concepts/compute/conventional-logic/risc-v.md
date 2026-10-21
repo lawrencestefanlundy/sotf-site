@@ -37,9 +37,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 127
-sources_7d: 6
-sources_30d: 17
+mention_count: 130
+sources_7d: 7
+sources_30d: 19
 recent_mentions:
 - slug: 2026-10-16-uneec-site
   title: UNEEC Systems GmbH — company site (uneec.eu), incl. imprint

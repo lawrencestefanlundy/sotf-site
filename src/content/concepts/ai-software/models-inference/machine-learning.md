@@ -50,9 +50,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 1118
+mention_count: 1128
 sources_7d: 4
-sources_30d: 17
+sources_30d: 15
 recent_mentions:
 - slug: 2026-10-16-state-of-the-future-dispatch-16th
   title: 'State of the Future: Dispatch 16th October 2026'
@@ -61,6 +61,10 @@ recent_mentions:
 - slug: 2026-10-07-neuro-catalyst-sweep
   title: 'Catalyst sweep: AI decoding, new sensing modalities, non-invasive deep stimulation, payment pathways (neuro, Oct 2026)'
   date: '2026-10-07'
+  kind: web
+- slug: 2026-09-20-scientists-create-brain-implant-to-restore-speech-and-moveme
+  title: Scientists Create Brain Implant To Restore Speech and Movement
+  date: '2026-09-20'
   kind: web
 - slug: 2026-08-26-we-have-foundation-models-for-language-not-for-physics-anima
   title: 🔬“We have foundation models for language, not for physics” — Anima Anandkumar, Bren Professor of Computing
@@ -82,10 +86,6 @@ recent_mentions:
   title: Detecting Proteins in Blood with Photonics w/ Prateek of Proteins1
   date: '2026-04-22'
   kind: substack
-- slug: 2026-02-12-rivians-roadmap-to-ai-architecture-and-autonomy-with-founder
-  title: Rivian’s Roadmap to AI Architecture and Autonomy with Founder and CEO RJ Scaringe
-  date: '2026-02-12'
-  kind: web
 neighbors:
 - slug: physics-ai
   name: Physics AI

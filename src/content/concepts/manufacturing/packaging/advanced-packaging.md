@@ -35,15 +35,19 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 234
+mention_count: 236
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration
 - micro-transfer-printing
 - osat
-sources_7d: 1
-sources_30d: 10
+sources_7d: 2
+sources_30d: 9
 recent_mentions:
+- slug: 2026-10-11-asmls-new-multibeam-inspection-tool-is-familiar
+  title: ASML’s New Multibeam Inspection Tool is Familiar
+  date: '2026-10-11'
+  kind: web
 - slug: 2026-10-06-x-fab-breaks-ground-on-chips-act-funded-cleanroom-in-erfurt-
   title: X-FAB breaks ground on Chips Act-funded cleanroom in Erfurt - Evertiq
   date: '2026-10-06'
@@ -51,6 +55,14 @@ recent_mentions:
 - slug: 2026-10-04-mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richa
   title: Mapping the Gaps in NASA’s Return to the Moon, featuring Richard Spolzino
   date: '2026-10-04'
+  kind: web
+- slug: 2026-09-24-high-bandwidth-flash-is-coming
+  title: High Bandwidth Flash Is Coming
+  date: '2026-09-24'
+  kind: web
+- slug: 2026-09-11-huawei-launches-impossible-chip-inside-folding-phone
+  title: Huawei Launches Impossible Chip Inside Folding Phone
+  date: '2026-09-11'
   kind: web
 - slug: 2026-09-02-vertical-power-delivery-thermal-limits
   title: 'Vertical power delivery: the thermal limit at the 48V-to-point-of-load stage'
@@ -63,18 +75,6 @@ recent_mentions:
 - slug: 2026-07-31-chips-act-equity-deals-us-gains-10-stake-in-intel-874m-for-s
   title: 'CHIPS Act Equity Deals: U.S. Gains 10% Stake in Intel, $874M for Seven Companies - News and Statistics - IndexBox'
   date: '2026-07-31'
-  kind: web
-- slug: 2026-07-31-memory-optics-packaging-chips-act-targets-ais-compute-bottle
-  title: 'Memory, optics, packaging: CHIPS Act targets AI''s compute bottleneck - Electronics360'
-  date: '2026-07-31'
-  kind: web
-- slug: 2026-07-31-tim-market-sizing-refresh
-  title: TIM market sizing refresh — the definitional 2x split and the real addressable slot
-  date: '2026-07-31'
-  kind: web
-- slug: 2026-07-30-commerce-dept-signs-874-million-in-chips-act-incentives-with
-  title: Commerce Dept. Signs $874 Million in CHIPS Act Incentives With Seven Companies - Yahoo Finance
-  date: '2026-07-30'
   kind: web
 neighbors: []
 ---

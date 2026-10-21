@@ -12,7 +12,7 @@ sources:
 - '[[2026-09-09-bilayer-approach-ramps-performance-of-all-perovskite-triple-]]'
 mention_count: 16
 sources_7d: 1
-sources_30d: 2
+sources_30d: 1
 recent_mentions: []
 neighbors: []
 ---

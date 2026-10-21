@@ -46,7 +46,7 @@ descendants:
 - payment-mandates
 - stablecoin-clearing
 - x402
-mention_count: 27
+mention_count: 28
 scorecard:
   viability: 3
   drivers: 3
@@ -56,7 +56,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Overrated
 scorecard_status: draft
-sources_7d: 1
+sources_7d: 2
 sources_30d: 4
 recent_mentions:
 - slug: 2026-09-22-coinbase-full-stack-agent-payments

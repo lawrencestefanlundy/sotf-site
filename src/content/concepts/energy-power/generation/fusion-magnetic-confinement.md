@@ -24,7 +24,7 @@ tags:
 mention_count: 16
 descendants: []
 last_reorg_date: '2026-05-14'
-sources_7d: 3
+sources_7d: 2
 sources_30d: 4
 recent_mentions:
 - slug: 2026-10-16-state-of-the-future-dispatch-16th

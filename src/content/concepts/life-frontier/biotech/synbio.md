@@ -34,7 +34,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - category
-mention_count: 37
+mention_count: 41
 descendants:
 - biocatalysis-enzyme-engineering
 last_reorg_date: '2026-05-13'
@@ -47,8 +47,8 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 7
-sources_30d: 14
+sources_7d: 9
+sources_30d: 18
 recent_mentions:
 - slug: 2026-07-01-mccarty-synthetic-cell-spudcell
   title: Synthetic Cell Eats, Grows, Divides (SpudCell)

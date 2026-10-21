@@ -46,6 +46,10 @@ recent_mentions:
   title: New topological microscope tip reveals evidence of 2D altermagnetism
   date: '2026-10-13'
   kind: web
+- slug: 2026-10-11-asmls-new-multibeam-inspection-tool-is-familiar
+  title: ASML’s New Multibeam Inspection Tool is Familiar
+  date: '2026-10-11'
+  kind: web
 - slug: 2026-10-06-beyond-wiring-diagrams-inside-a-19-million-effort-to-expand-
   title: 'Beyond wiring diagrams: Inside a $19 million effort to expand access to connectome technology'
   date: '2026-10-06'
@@ -54,17 +58,13 @@ recent_mentions:
   title: Rearranging Crystals from Within
   date: '2026-10-05'
   kind: web
+- slug: 2026-10-01-euv-photomasks-are-getting-bigger
+  title: EUV Photomasks Are Getting Bigger
+  date: '2026-10-01'
+  kind: web
 - slug: 2026-09-21-in-situ-and-operando-optical-microscopy-and-spectroscopy-inv
   title: 'In situ and operando optical microscopy and spectroscopy: investigating perovskite optoelectronic devices at work'
   date: '2026-09-21'
-  kind: web
-- slug: 2026-08-31-channel-emulator-for-6-g-and-wi-fi-78---31-august-2026---con
-  title: Channel emulator for 6 G and Wi-Fi 7/8 - 31 August 2026 - Concilium Technologies - dataweek.co.za
-  date: '2026-08-31'
-  kind: web
-- slug: 2026-08-12-viavi-introduces-industrys-first-channel-emulator-for-6g-and
-  title: VIAVI Introduces Industry's First Channel Emulator for 6G and Wi-Fi 7/8 - barchart.com
-  date: '2026-08-12'
   kind: web
 neighbors: []
 ---

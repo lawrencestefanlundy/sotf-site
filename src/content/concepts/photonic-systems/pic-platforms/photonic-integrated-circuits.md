@@ -52,6 +52,10 @@ scorecard_status: draft
 sources_7d: 1
 sources_30d: 6
 recent_mentions:
+- slug: 2026-10-19-light-and-mirrors-move-large-quantum-computers-closer-to-rea
+  title: Light and mirrors move large quantum computers closer to reality
+  date: '2026-10-19'
+  kind: web
 - slug: 2026-10-18-hybrid-diamond-chip-strengthens-interactions-between-light-a
   title: Hybrid diamond chip strengthens interactions between light and quantum bits
   date: '2026-10-18'
@@ -78,10 +82,6 @@ recent_mentions:
   kind: web
 - slug: 2026-07-29-aeluma-signs-letter-of-intent-for-30-million-in-chips-act-fu
   title: Aeluma Signs Letter of Intent for $30 Million in CHIPS Act Funding - marketscreener.com
-  date: '2026-07-29'
-  kind: web
-- slug: 2026-07-29-aeluma-secures-loi-for-up-to-30-million-in-chips-act-funding
-  title: Aeluma Secures LOI for Up to $30 Million in CHIPS Act Funding to Advance Photonics Semiconductor R&D - Quiver Quantitative
   date: '2026-07-29'
   kind: web
 neighbors: []

@@ -52,7 +52,7 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-mention_count: 1219
+mention_count: 1226
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics
@@ -64,6 +64,10 @@ descendants:
 sources_7d: 0
 sources_30d: 5
 recent_mentions:
+- slug: 2026-10-19-light-and-mirrors-move-large-quantum-computers-closer-to-rea
+  title: Light and mirrors move large quantum computers closer to reality
+  date: '2026-10-19'
+  kind: web
 - slug: 2026-10-18-hybrid-diamond-chip-strengthens-interactions-between-light-a
   title: Hybrid diamond chip strengthens interactions between light and quantum bits
   date: '2026-10-18'
@@ -90,10 +94,6 @@ recent_mentions:
   kind: web
 - slug: 2026-10-12-tiny-pluggable-optical-module-boosts-data-center-bandwidth-4
   title: Tiny pluggable optical module boosts data center bandwidth 4x without extra hardware
-  date: '2026-10-12'
-  kind: web
-- slug: 2026-10-12-the-absurd-engineering-behind-the-internet
-  title: The Absurd Engineering Behind the Internet
   date: '2026-10-12'
   kind: web
 neighbors: []

@@ -26,7 +26,7 @@ sources:
 - '[[2026-10-14-fusion-digital-twins-from-imperfect-models]]'
 - '[[2025-07-21-intel-18a-details-cost-future-of-dram-4f2-vs-3d-backside-pow]]'
 - '[[2023-01-10-eth-zurich-spin-offs-digital-twins-new-cancer-treatments-and]]'
-mention_count: 101
+mention_count: 104
 scorecard:
   viability: 3
   drivers: 4
@@ -41,8 +41,8 @@ frontier:
 - Does calibration against real measurements or gap-aware robust training win the sim-to-real problem, or does deployment require both, and at what data cost per site 2026 05 28 how to bridge the sim to real gap in digital twin aided tele?
 - Can real-time surrogates preserve enough multi-physics fidelity to replace finite-element analysis in packaging reliability decisions, or is accuracy lost exactly where hot spots and warpage matter 2026 06 05 toward digital twins in 3d ic packaging a critical review of?
 - For biological twins, does reconstruction quality from in vivo imaging reach the topological correctness needed for predictive, rather than merely descriptive, simulation 2026 06 26 biorxiv cerebrovascular imaging to graph reconstructio?
-sources_7d: 5
-sources_30d: 12
+sources_7d: 7
+sources_30d: 14
 recent_mentions:
 - slug: 2026-10-14-fusion-digital-twins-from-imperfect-models
   title: Fusion digital twins from imperfect models

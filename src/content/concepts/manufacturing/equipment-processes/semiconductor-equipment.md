@@ -33,6 +33,10 @@ descendants:
 sources_7d: 2
 sources_30d: 3
 recent_mentions:
+- slug: 2026-10-20-the-lithography-lever
+  title: The Lithography Lever
+  date: '2026-10-20'
+  kind: web
 - slug: 2026-10-17-the-case-for-duv-controls
   title: The Case for DUV Controls
   date: '2026-10-17'
@@ -40,6 +44,10 @@ recent_mentions:
 - slug: 2026-10-15-us-urges-chipmakers-to-use-domestic-capacity-as-chips-act-st
   title: US urges chipmakers to use domestic capacity as CHIPS Act strategy shifts from fab subsidies to securing orders - digitimes
   date: '2026-10-15'
+  kind: web
+- slug: 2026-10-11-asmls-new-multibeam-inspection-tool-is-familiar
+  title: ASML’s New Multibeam Inspection Tool is Familiar
+  date: '2026-10-11'
   kind: web
 - slug: 2026-10-06-x-fab-breaks-ground-on-chips-act-funded-cleanroom-in-erfurt-
   title: X-FAB breaks ground on Chips Act-funded cleanroom in Erfurt - Evertiq
@@ -53,17 +61,9 @@ recent_mentions:
   title: Mapping the Gaps in NASA’s Return to the Moon, featuring Richard Spolzino
   date: '2026-10-04'
   kind: web
-- slug: 2026-09-30-global-electronics-association-and-fraunhofer-partner-on-eu-
-  title: Global Electronics Association and Fraunhofer Partner on EU Chips Act Pilot Line - Electronics For You BUSINESS
-  date: '2026-09-30'
-  kind: web
-- slug: 2026-09-25-chips-act-20-france-pushes-buy-european---tablebriefings
-  title: 'Chips Act 2.0: France pushes ‘Buy European’ - Table.Briefings'
-  date: '2026-09-25'
-  kind: web
-- slug: 2026-09-24-the-hack-ministers-discuss-chips-act-2---euractivcom
-  title: 'THE HACK: Ministers discuss Chips Act 2 - euractiv.com'
-  date: '2026-09-24'
+- slug: 2026-10-01-euv-photomasks-are-getting-bigger
+  title: EUV Photomasks Are Getting Bigger
+  date: '2026-10-01'
   kind: web
 neighbors: []
 ---

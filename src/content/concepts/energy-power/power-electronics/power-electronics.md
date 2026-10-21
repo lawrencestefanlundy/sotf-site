@@ -49,6 +49,10 @@ descendants:
 sources_7d: 0
 sources_30d: 7
 recent_mentions:
+- slug: 2026-10-20-nasas-sr-1-freedom-advances-with-progress-on-nuclear-power-m
+  title: NASA’s SR-1 Freedom Advances with Progress on Nuclear Power Module
+  date: '2026-10-20'
+  kind: web
 - slug: 2026-10-19-foxconn-pays-727m-for-half-of-mitsubishi-electrics-car-parts
   title: Foxconn pays $727M for half of Mitsubishi Electric’s car parts unit in EV push
   date: '2026-10-19'
@@ -77,10 +81,6 @@ recent_mentions:
   title: The rise of grid power electronics with Drew Baglino - Latitude Media
   date: '2026-02-19'
   kind: web
-- slug: 2025-12-09-gallium-nitride-photonics-w-james
-  title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics
-  date: '2025-12-09'
-  kind: substack
 neighbors: []
 ---
 **Power electronics is the switching, conversion and control layer that moves electrical energy between sources and loads, and it has become the binding constraint on both AI datacentre buildout and vehicle electrification: a roughly $45B market in 2024 forecast to reach ~$70B by 2030, with wide-bandgap devices and 800V DC architectures the contested frontier **2024 Omdia Power Electronics Forecast** <sup class="ref"><a href="https://newsletter.semianalysis.com/p/inside-the-800vdc-revolution-part" title="Inside the 800VDC Revolution – Part 1" rel="noopener">ref</a></sup>.**

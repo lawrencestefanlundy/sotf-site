@@ -15,7 +15,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 31
+mention_count: 32
 frontier:
 - Does the roughly three-orders-of-magnitude variability suppression reported for Ge3.5Te1 CBRAM hold at array sizes far beyond 16x16, and over extended endurance and retention testing 2026 06 05 electrolyte bonding engineering for highly uniform gete base?
 - Can training-side methods such as the temporal-switch framework deliver transfer across chips from different fabrication runs and material families, not just across devices within the studied families 2026 07 07 towards transferable lightweight neuromorphic computing thro?
@@ -35,8 +35,8 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 2
+sources_7d: 1
+sources_30d: 3
 recent_mentions:
 - slug: 2025-03-27-studying-urban-wildfires-and-the-challenges-of-creating-tiny
   title: Studying urban wildfires, and the challenges of creating tiny AI robots

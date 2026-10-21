@@ -22,7 +22,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 16
+mention_count: 17
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 2
@@ -33,8 +33,8 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 2
-sources_30d: 2
+sources_7d: 3
+sources_30d: 3
 recent_mentions:
 - slug: 2026-10-18-a-single-microwave-line-runs-five-silicon-spin-qubits-with-9
   title: A single microwave line runs five silicon spin qubits with 99.9% accuracy

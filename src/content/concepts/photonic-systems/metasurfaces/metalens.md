@@ -30,9 +30,9 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 47
-sources_7d: 0
-sources_30d: 3
+mention_count: 49
+sources_7d: 2
+sources_30d: 4
 recent_mentions:
 - slug: 2026-07-07-the-asml-killer
   title: The ASML Killer?

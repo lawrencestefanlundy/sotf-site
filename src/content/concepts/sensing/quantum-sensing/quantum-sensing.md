@@ -15,7 +15,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 217
+mention_count: 219
 descendants:
 - atomic-clocks
 - nv-diamond-sensing
@@ -34,9 +34,13 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-sources_7d: 2
+sources_7d: 3
 sources_30d: 12
 recent_mentions:
+- slug: 2026-10-19-light-and-mirrors-move-large-quantum-computers-closer-to-rea
+  title: Light and mirrors move large quantum computers closer to reality
+  date: '2026-10-19'
+  kind: web
 - slug: 2026-10-18-hybrid-diamond-chip-strengthens-interactions-between-light-a
   title: Hybrid diamond chip strengthens interactions between light and quantum bits
   date: '2026-10-18'
@@ -64,10 +68,6 @@ recent_mentions:
 - slug: 2026-10-13-new-topological-microscope-tip-reveals-evidence-of-2d-alterm
   title: New topological microscope tip reveals evidence of 2D altermagnetism
   date: '2026-10-13'
-  kind: web
-- slug: 2026-09-16-how-to-synchronize-a-long-distance-quantum-network
-  title: How to Synchronize a Long-Distance Quantum Network
-  date: '2026-09-16'
   kind: web
 neighbors: []
 ---

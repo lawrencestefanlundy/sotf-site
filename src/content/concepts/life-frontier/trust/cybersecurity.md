@@ -24,7 +24,7 @@ scorecard:
 scorecard_status: draft
 mention_count: 141
 sources_7d: 2
-sources_30d: 11
+sources_30d: 10
 recent_mentions:
 - slug: 2026-10-15-the-changing-physics-of-cybersecurity-and-drug-development-w
   title: The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman

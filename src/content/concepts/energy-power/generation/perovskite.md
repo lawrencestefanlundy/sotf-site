@@ -32,9 +32,9 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 145
-sources_7d: 1
-sources_30d: 14
+mention_count: 146
+sources_7d: 2
+sources_30d: 12
 recent_mentions:
 - slug: 2026-10-08-volatile-eutectics-to-tailor-crystallization-for-perovskite-
   title: Volatile eutectics to tailor crystallization for perovskite optoelectronics

@@ -25,8 +25,8 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 415
-sources_7d: 4
+mention_count: 419
+sources_7d: 5
 sources_30d: 18
 recent_mentions:
 - slug: 2026-10-16-state-of-the-future-dispatch-16th

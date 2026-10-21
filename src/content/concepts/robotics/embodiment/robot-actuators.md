@@ -41,7 +41,7 @@ tags:
 - technology
 - robotics
 - actuators
-mention_count: 48
+mention_count: 49
 scorecard:
   viability: 4
   drivers: 4
@@ -51,7 +51,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-sources_7d: 4
+sources_7d: 5
 sources_30d: 7
 recent_mentions:
 - slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint

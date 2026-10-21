@@ -19,7 +19,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 193
+mention_count: 194
 scorecard:
   viability: 5
   drivers: 4
@@ -65,10 +65,10 @@ recent_mentions:
   title: Q-Memory — company website (q-memory.tech)
   date: '2026-06-04'
   kind: web
-- slug: 2026-05-25-ai-glasses-display-timing-waveguide-display-technology
-  title: Waveguide Display Technology Trends and Outlook 2026
-  date: '2026-05-25'
-  kind: web
+- slug: 2026-04-17-state-of-the-future-friday-four-67c
+  title: 'State of the Future: Friday Four'
+  date: '2026-04-17'
+  kind: substack
 neighbors: []
 ---
 **A waveguide is the basic wire of integrated photonics, a channel that confines light (or spin waves, or microwaves) by refractive-index or material contrast, and the current research frontier is no longer whether it works but which material platform, loss figure and crosstalk pitch you can get out of a foundry.**

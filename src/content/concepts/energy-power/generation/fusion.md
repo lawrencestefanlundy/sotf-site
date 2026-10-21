@@ -41,8 +41,8 @@ scorecard:
   timing_band: Distant (10yr+)
   verdict: Overrated
 scorecard_status: draft
-sources_7d: 2
-sources_30d: 12
+sources_7d: 1
+sources_30d: 9
 recent_mentions:
 - slug: 2026-10-15-west-in-fusion-race-with-china-says-uk-atomic-energy-body
   title: West in fusion race with China says UK atomic energy body

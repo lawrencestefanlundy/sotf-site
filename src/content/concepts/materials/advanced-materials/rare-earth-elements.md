@@ -59,7 +59,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 46
-sources_7d: 1
+sources_7d: 0
 sources_30d: 16
 recent_mentions:
 - slug: 2026-10-15-chasing-chinas-monazite-monopoly

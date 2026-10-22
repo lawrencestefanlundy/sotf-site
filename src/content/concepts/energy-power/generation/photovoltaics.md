@@ -37,8 +37,8 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 2
-sources_30d: 5
+sources_7d: 0
+sources_30d: 4
 recent_mentions:
 - slug: 2026-10-13-space-solar-array-cost-per-watt
   title: 'Space-qualified solar array cost per watt: Starpath $9.81-11.20/W vs a $75-250/W industry claim; DOE 2035 target <$10/W'

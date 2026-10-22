@@ -22,9 +22,9 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 138
-sources_7d: 2
-sources_30d: 17
+mention_count: 139
+sources_7d: 0
+sources_30d: 16
 recent_mentions:
 - slug: 2026-10-13-transporter-18-smallsats-encapsulation
   title: Transporter-18 SmallSats Encapsulation

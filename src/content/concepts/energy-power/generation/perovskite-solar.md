@@ -11,9 +11,13 @@ related_concepts: []
 sources:
 - '[[2026-09-09-bilayer-approach-ramps-performance-of-all-perovskite-triple-]]'
 mention_count: 16
-sources_7d: 1
+sources_7d: 0
 sources_30d: 1
-recent_mentions: []
+recent_mentions:
+- slug: 2026-09-09-bilayer-approach-ramps-performance-of-all-perovskite-triple-
+  title: Bilayer approach ramps performance of all-perovskite triple-junction solar cells
+  date: '2026-09-09'
+  kind: web
 neighbors: []
 ---
 hello-tomorrow-follow-up]]'

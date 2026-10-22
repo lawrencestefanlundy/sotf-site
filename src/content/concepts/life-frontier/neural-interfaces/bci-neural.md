@@ -27,7 +27,7 @@ sources:
 - '[[2026-06-23-inbrain-graphene-first-in-human]]'
 - '[[2020-11-23-connecting-mind-to-machine-university-of-miami-team-moving-f]]'
 - '[[2026-06-19-briefing-chat-testosterone-and-sperm-may-get-a-boost-from-ob]]'
-mention_count: 18
+mention_count: 19
 descendants:
 - non-invasive-neural-recording-modalities
 sources_7d: 2

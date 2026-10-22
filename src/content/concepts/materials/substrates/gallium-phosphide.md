@@ -22,7 +22,7 @@ last_updated: '2026-06-02'
 tags:
 - concept
 mention_count: 6
-sources_7d: 2
+sources_7d: 1
 sources_30d: 2
 recent_mentions:
 - slug: 2026-10-18-hybrid-diamond-chip-strengthens-interactions-between-light-a

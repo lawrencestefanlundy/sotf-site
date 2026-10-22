@@ -20,7 +20,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 24
+mention_count: 25
 frontier:
 - Where does the die-cost minimum identified by Walker actually fall for current deck-stacked architectures, and has the industry already passed it at 321 layers?
 - Does positive-threshold engineering, for example ferroelectric layer thinning, raise 3D FeNOR stacking density enough to matter, or does sneak current cap monolithic 3D emerging memory at a commercially uninteresting layer count?

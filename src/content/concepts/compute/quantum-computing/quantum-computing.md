@@ -69,7 +69,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 1
-sources_30d: 11
+sources_30d: 10
 recent_mentions:
 - slug: 2026-10-10-quic-whitepaper-calls-for-industrial-scale-up-infrastructure
   title: QuIC Whitepaper Calls for Industrial Scale-Up Infrastructure in EU Chips Act 2.0 - Quantum Computing Report

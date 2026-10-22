@@ -24,7 +24,7 @@ scorecard:
 scorecard_status: draft
 mention_count: 153
 sources_7d: 6
-sources_30d: 21
+sources_30d: 16
 recent_mentions:
 - slug: 2026-08-03-spad-single-photon-market-scan
   title: SPAD / single-photon detector market scan — incumbent structure and company cohort

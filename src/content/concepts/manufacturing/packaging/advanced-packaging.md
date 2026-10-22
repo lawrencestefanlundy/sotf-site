@@ -35,14 +35,14 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 236
+mention_count: 237
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration
 - micro-transfer-printing
 - osat
-sources_7d: 2
-sources_30d: 9
+sources_7d: 1
+sources_30d: 8
 recent_mentions:
 - slug: 2026-10-11-asmls-new-multibeam-inspection-tool-is-familiar
   title: ASML’s New Multibeam Inspection Tool is Familiar

@@ -17,12 +17,14 @@ sources:
 - '[[2026-03-10-nr-plus-interop-demo-light-building]]'
 - '[[2024-02-21-how-dect-nr-revolutionizes-smart-building-connectivity---ee-]]'
 - '[[2026-08-31-opener-open-sources-dect-nr-for-iot---opensourceforucom]]'
+- '[[2026-10-21-cullen-3-8-4-2-ghz-local-networks-europe]]'
 - '[[2024-02-26-nordic-nrf9151-a-smaller-lte-mnb-iot-and-dect-nr-sip-with-en]]'
 - '[[2024-06-03-conexio-stratus-pro-a-battery-powered-nrf9161-development-ki]]'
 - '[[2024-01-15-nordics-nrf9161-sip-and-dk-add-additional-lte-bands-and-redu]]'
 - '[[2024-05-07-vitec-and-rfmondial-showcase-ultra-low-latency-video-streami]]'
 - '[[2026-06-12-dect-nr-demystified---sennheiser]]'
 - '[[2024-06-03-conexio-stratus-pro---a-battery-powered-nrf9161-development-]]'
+- '[[2026-10-21-machinemaker-silabs-wirepas-10-million-india]]'
 - '[[2024-01-29-nordics-nrf9161-sip-and-dk-support-cellular-iot-and-dect-nr-]]'
 - '[[2026-05-07-stratum-9-launches-first-industrial-grade-dect-nr-gateway---]]'
 - '[[2024-11-15-conexio-stratus-pro-nrf9151-low-power-iot-development-kit-su]]'
@@ -50,9 +52,9 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 37
-sources_7d: 0
-sources_30d: 2
+mention_count: 39
+sources_7d: 2
+sources_30d: 4
 recent_mentions:
 - slug: 2026-10-02-dect-nr-private-5g-for-industrial-iot-networks---wiot-groupc
   title: 'DECT NR+: Private 5G for Industrial IoT Networks - wiot-group.com'
@@ -74,6 +76,10 @@ recent_mentions:
   title: Norik Systems introduces nRF9151-based USB Dongle for DECT NR+ deployments - CNX Software
   date: '2026-07-09'
   kind: web
+- slug: 2026-10-21-cullen-3-8-4-2-ghz-local-networks-europe
+  title: European countries open the 3.8-4.2 GHz band for local 5G networks
+  date: '2026-07-02'
+  kind: web
 - slug: 2026-06-12-dect-nr-demystified---sennheiser
   title: DECT NR+ demystified - Sennheiser
   date: '2026-06-12'
@@ -81,10 +87,6 @@ recent_mentions:
 - slug: 2026-06-10-dect-nr-demystified---sennheiser
   title: DECT NR+ demystified - Sennheiser
   date: '2026-06-10'
-  kind: web
-- slug: 2026-05-07-stratum-9-launches-first-industrial-grade-dect-nr-gateway---
-  title: STRATUM 9 Launches First Industrial-Grade DECT NR+ Gateway - openPR.com
-  date: '2026-05-07'
   kind: web
 neighbors: []
 ---

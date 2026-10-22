@@ -19,7 +19,7 @@ frontier:
 - Are the memory materials in these devices compatible with standard silicon photonics back-end thermal budgets and foundry process flows, and at what yield?
 - Does any funded company, rather than an academic group, have a compute-in-memory product shipping into the edge silicon demand identified in Q2 2026?
 mention_count: 1
-sources_7d: 1
+sources_7d: 0
 sources_30d: 1
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026

@@ -30,7 +30,7 @@ descendants:
 - known-good-die-test
 - probe-cards
 - wafer-level-burn-in
-sources_7d: 2
+sources_7d: 0
 sources_30d: 3
 recent_mentions:
 - slug: 2026-10-20-the-lithography-lever

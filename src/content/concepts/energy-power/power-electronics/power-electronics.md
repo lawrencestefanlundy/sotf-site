@@ -47,7 +47,7 @@ descendants:
 - vertical-gan
 - wireless-power-transfer
 sources_7d: 0
-sources_30d: 7
+sources_30d: 4
 recent_mentions:
 - slug: 2026-10-20-nasas-sr-1-freedom-advances-with-progress-on-nuclear-power-m
   title: NASA’s SR-1 Freedom Advances with Progress on Nuclear Power Module

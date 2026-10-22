@@ -33,7 +33,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 2
+sources_7d: 1
 sources_30d: 4
 recent_mentions:
 - slug: 2026-09-23-arxiv-benchmarking-the-generalized-kadanoff-baym-ansatz-and-second

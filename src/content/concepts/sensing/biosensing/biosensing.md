@@ -21,11 +21,11 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 60
+mention_count: 61
 descendants:
 - biosensors
 sources_7d: 0
-sources_30d: 7
+sources_30d: 6
 recent_mentions:
 - slug: 2026-10-12-cnt-electronics-market-research
   title: 'Carbon nanotube electronics: market, cohort and M&A research (web sweep, 82 sources)'

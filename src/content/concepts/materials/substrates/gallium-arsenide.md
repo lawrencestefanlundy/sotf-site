@@ -25,8 +25,8 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 103
-sources_7d: 1
-sources_30d: 7
+sources_7d: 0
+sources_30d: 5
 recent_mentions:
 - slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
   title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics

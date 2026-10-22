@@ -44,7 +44,6 @@ sources:
 - '[[2026-06-27-rack-power-delivery-silicon-reed-semiconductor-raises-100]]'
 - '[[2026-04-09-model-commoditises-value-moves-up-the-foundation-model]]'
 - '[[2026-02-12-ai-demand-outruns-expectations-ai-capex-2026-the-690b]]'
-- '[[2026-02-26-how-capital-is-powering-the-ai-infrastructure-buildout-with-]]'
 scorecard:
   viability: 4
   drivers: 5
@@ -54,7 +53,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 142
+mention_count: 144
 descendants:
 - ai-grade-datacentre-real-estate
 - ai-infrastructure-scaling
@@ -65,8 +64,8 @@ descendants:
 - moe-all-to-all-collectives
 - prefill-vs-decode
 - sovereign-ai
-sources_7d: 1
-sources_30d: 6
+sources_7d: 2
+sources_30d: 7
 recent_mentions:
 - slug: 2026-09-01-eu-taiwan-chip-dialogue-targets-ai-infrastructure-partnershi
   title: EU-Taiwan chip dialogue targets AI infrastructure partnerships under EU Chips Act 2.0 - INSIGHT EU MONITORING

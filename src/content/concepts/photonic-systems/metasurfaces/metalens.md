@@ -32,7 +32,7 @@ scorecard:
 scorecard_status: draft
 mention_count: 49
 sources_7d: 2
-sources_30d: 4
+sources_30d: 3
 recent_mentions:
 - slug: 2026-07-07-the-asml-killer
   title: The ASML Killer?

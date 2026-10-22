@@ -38,8 +38,8 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 130
-sources_7d: 7
-sources_30d: 19
+sources_7d: 5
+sources_30d: 15
 recent_mentions:
 - slug: 2026-10-16-uneec-site
   title: UNEEC Systems GmbH — company site (uneec.eu), incl. imprint

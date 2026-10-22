@@ -53,8 +53,8 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Overrated
 scorecard_status: draft
-mention_count: 174
-sources_7d: 40
+mention_count: 175
+sources_7d: 22
 sources_30d: 57
 recent_mentions:
 - slug: 2026-10-19-the-robot-i-didnt-expect-to-build

@@ -27,7 +27,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 187
+mention_count: 188
 descendants:
 - agent-identity-kya
 - agentic-ai
@@ -37,8 +37,8 @@ descendants:
 - stablecoin-clearing
 - stablecoins
 - x402
-sources_7d: 9
-sources_30d: 28
+sources_7d: 6
+sources_30d: 24
 recent_mentions:
 - slug: 2026-10-15-the-changing-physics-of-cybersecurity-and-drug-development-w
   title: The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman

@@ -35,7 +35,7 @@ scorecard:
 scorecard_status: draft
 mention_count: 47
 sources_7d: 2
-sources_30d: 9
+sources_30d: 8
 recent_mentions:
 - slug: 2026-10-13-inderes-canatu-quote-eur-5-33-cap-eur-186m
   title: Canatu share price EUR 5.33, market cap EUR 185.58M (Inderes quote page, 13 Oct 2026)

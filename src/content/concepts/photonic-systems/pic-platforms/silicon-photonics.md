@@ -34,12 +34,12 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 198
+mention_count: 200
 descendants:
 - avalanche-photodiode
 - optical-gyroscope
-sources_7d: 1
-sources_30d: 4
+sources_7d: 2
+sources_30d: 5
 recent_mentions:
 - slug: 2026-10-12-cnt-electronics-market-research
   title: 'Carbon nanotube electronics: market, cohort and M&A research (web sweep, 82 sources)'

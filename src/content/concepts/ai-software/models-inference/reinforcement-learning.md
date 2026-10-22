@@ -26,7 +26,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 209
-sources_7d: 27
+sources_7d: 20
 sources_30d: 42
 recent_mentions:
 - slug: 2026-10-20-glm-53-sometimes-considers-how-train-time-actions-shape-futu

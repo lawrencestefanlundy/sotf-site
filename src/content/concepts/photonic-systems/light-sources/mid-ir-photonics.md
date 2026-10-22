@@ -32,7 +32,7 @@ scorecard:
 scorecard_status: draft
 mention_count: 141
 sources_7d: 1
-sources_30d: 9
+sources_30d: 7
 recent_mentions:
 - slug: 2026-06-17-single-photon-detector-market-spad-snspd
   title: Single-photon detector market aggregation — SPAD, SiPM, SNSPD (2024–2035)

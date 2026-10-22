@@ -50,9 +50,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 1128
+mention_count: 1130
 sources_7d: 4
-sources_30d: 15
+sources_30d: 16
 recent_mentions:
 - slug: 2026-10-16-state-of-the-future-dispatch-16th
   title: 'State of the Future: Dispatch 16th October 2026'

@@ -34,7 +34,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 258
+mention_count: 259
 descendants:
 - computational-lithography
 - directed-self-assembly
@@ -53,7 +53,7 @@ descendants:
 - x-ray-lithography
 - xolography
 sources_7d: 2
-sources_30d: 8
+sources_30d: 7
 recent_mentions:
 - slug: 2026-10-20-the-lithography-lever
   title: The Lithography Lever

@@ -56,7 +56,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 139
+mention_count: 140
 descendants:
 - dexterous-manipulation
 - humanoid-robots
@@ -66,7 +66,7 @@ descendants:
 - tactile-sensing
 - vision-language-action-models
 - world-models
-sources_7d: 13
+sources_7d: 10
 sources_30d: 21
 recent_mentions:
 - slug: 2026-10-20-reservoir-farms-expands-to-pacific-northwest-to-accelerate-p

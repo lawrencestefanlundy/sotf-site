@@ -23,8 +23,8 @@ descendants:
 - optical-frequency-division
 - optoelectronic-oscillator
 mention_count: 16
-sources_7d: 1
-sources_30d: 3
+sources_7d: 0
+sources_30d: 2
 recent_mentions:
 - slug: 2026-10-15-rf-over-fibre-market-sizing
   title: 'RF-over-fibre market size: analyst consensus (compiled)'

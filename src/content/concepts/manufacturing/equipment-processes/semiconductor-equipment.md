@@ -33,6 +33,10 @@ descendants:
 sources_7d: 0
 sources_30d: 3
 recent_mentions:
+- slug: 2026-10-21-ai-factories-that-use-less-power-and-water-built-in-days-nvi
+  title: AI Factories That Use Less Power and Water, Built in Days | NVIDIA DSX
+  date: '2026-10-21'
+  kind: web
 - slug: 2026-10-20-the-lithography-lever
   title: The Lithography Lever
   date: '2026-10-20'
@@ -49,6 +53,10 @@ recent_mentions:
   title: ASML’s New Multibeam Inspection Tool is Familiar
   date: '2026-10-11'
   kind: web
+- slug: 2026-10-07-i-sat-down-with-asmls-ceo---heres-what-he-told-me
+  title: I Sat Down With ASML's CEO - Here's What He Told Me
+  date: '2026-10-07'
+  kind: web
 - slug: 2026-10-06-x-fab-breaks-ground-on-chips-act-funded-cleanroom-in-erfurt-
   title: X-FAB breaks ground on Chips Act-funded cleanroom in Erfurt - Evertiq
   date: '2026-10-06'
@@ -56,14 +64,6 @@ recent_mentions:
 - slug: 2026-10-05-630bn-us-semiconductor-megaprojects-in-rush-to-break-ground-
   title: $630bn+ US Semiconductor Megaprojects in Rush to Break Ground before CHIPS Act Deadline - Construction Review
   date: '2026-10-05'
-  kind: web
-- slug: 2026-10-04-mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richa
-  title: Mapping the Gaps in NASA’s Return to the Moon, featuring Richard Spolzino
-  date: '2026-10-04'
-  kind: web
-- slug: 2026-10-01-euv-photomasks-are-getting-bigger
-  title: EUV Photomasks Are Getting Bigger
-  date: '2026-10-01'
   kind: web
 neighbors: []
 ---

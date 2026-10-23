@@ -39,7 +39,7 @@ descendants:
 - avalanche-photodiode
 - optical-gyroscope
 sources_7d: 2
-sources_30d: 5
+sources_30d: 4
 recent_mentions:
 - slug: 2026-10-12-cnt-electronics-market-research
   title: 'Carbon nanotube electronics: market, cohort and M&A research (web sweep, 82 sources)'

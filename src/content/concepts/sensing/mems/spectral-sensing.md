@@ -48,6 +48,10 @@ recent_mentions:
   title: Bringing lab testing to the home - MIT News
   date: '2024-11-14'
   kind: web
+- slug: 2024-01-19-paper-mills-bribe-editors-to-pass-peer-review-and-detecting-
+  title: Paper mills bribe editors to pass peer review, and detecting tumors with a blood draw
+  date: '2024-01-19'
+  kind: web
 neighbors: []
 ---
 **Spectral sensing treats the full distribution of a signal across frequency or wavelength as the measurement itself rather than reducing it to a single number, and across imaging, electrophysiology and chemical sensing it is now the layer where machine learning is extracting clinically useful information.**

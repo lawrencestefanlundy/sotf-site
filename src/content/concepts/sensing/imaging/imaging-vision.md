@@ -47,13 +47,13 @@ recent_mentions:
   title: 'Beyond wiring diagrams: Inside a $19 million effort to expand access to connectome technology'
   date: '2026-10-06'
   kind: web
+- slug: 2026-10-06-the-questions-we-need-to-answer-the-solutions-we-must-find-f
+  title: The Questions We Need To Answer, The Solutions We Must Find for Moon To Mars
+  date: '2026-10-06'
+  kind: web
 - slug: 2026-09-01-diffraqtion-adds-to-pre-seed-round-for-quantum-camera-tech--
   title: Diffraqtion Adds to Pre-Seed Round for Quantum Camera Tech - Payload Space
   date: '2026-09-01'
-  kind: web
-- slug: 2026-08-03-ultrarapid-deep-3d-histology-enables-intraoperative-mapping-
-  title: Ultrarapid deep 3D histology enables intraoperative mapping of glioma infiltration
-  date: '2026-08-03'
   kind: web
 neighbors: []
 ---

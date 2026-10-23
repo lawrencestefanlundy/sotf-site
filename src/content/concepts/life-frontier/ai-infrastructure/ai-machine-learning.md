@@ -33,37 +33,37 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-22-tesla-fires-up-optimus-robot-production-with-musk-eyeing-200
+  title: Tesla fires up Optimus robot production with Musk eyeing 20,000 units per week by 2027
+  date: '2026-10-22'
+  kind: web
+- slug: 2026-10-22-humanoid-robot-cuts-model-processing-delay-8x-with-nvidia-te
+  title: Humanoid robot cuts model processing delay 8x with NVIDIA tech in internal tests
+  date: '2026-10-22'
+  kind: web
+- slug: 2026-10-21-how-lila-sciences-ai-and-automated-labs-help-scientists-disc
+  title: How Lila Sciences’ AI and Automated Labs Help Scientists Discover New Medicines Faster
+  date: '2026-10-21'
+  kind: web
 - slug: 2026-10-21-nasa-backed-lunar-rover-to-test-language-models-laser-mappin
   title: NASA-backed lunar rover to test language models, laser mapping on Moon with fanless GPU
   date: '2026-10-21'
   kind: web
-- slug: 2026-10-20-reservoir-farms-expands-to-pacific-northwest-to-accelerate-p
-  title: Reservoir Farms expands to Pacific Northwest to accelerate physical AI
-  date: '2026-10-20'
+- slug: 2026-10-21-from-prompt-to-walking-robot-with-nvidia-rtx-spark
+  title: From Prompt to Walking Robot With NVIDIA RTX Spark
+  date: '2026-10-21'
   kind: web
-- slug: 2026-10-20-glm-53-sometimes-considers-how-train-time-actions-shape-futu
-  title: GLM-5.3 Sometimes Considers How Train-Time Actions Shape Future Behavior
-  date: '2026-10-20'
+- slug: 2026-10-21-super-ai-agents-for-science-manufacturing-and-engineering-gt
+  title: Super AI Agents for Science, Manufacturing and Engineering  | GTC Berlin 2026 Edition
+  date: '2026-10-21'
   kind: web
-- slug: 2026-10-19-warpware-closes-pre-seed-to-bring-agentic-tools-to-flight-so
-  title: WarpWare Closes Pre-Seed to Bring Agentic Tools to Flight Software
-  date: '2026-10-19'
+- slug: 2026-10-21-introducing-nvidia-openshell-reference-architecture-for-safe
+  title: Introducing NVIDIA OpenShell Reference Architecture for Safer AI Agents
+  date: '2026-10-21'
   kind: web
-- slug: 2026-10-16-conversational-brain-ai-for-adaptive-epilepsy-care
-  title: Conversational brain AI for adaptive epilepsy care
-  date: '2026-10-16'
-  kind: web
-- slug: 2026-10-15-volvo-will-use-nvidias-tech-for-hands-free-point-to-point-dr
-  title: Volvo will use Nvidia’s tech for hands-free, point-to-point driving
-  date: '2026-10-15'
-  kind: web
-- slug: 2026-10-15-can-the-fossil-gas-supply-handle-the-ai-boom---latitude-medi
-  title: Can the fossil gas supply handle the AI boom? - Latitude Media
-  date: '2026-10-15'
-  kind: web
-- slug: 2026-10-15-the-changing-physics-of-cybersecurity-and-drug-development-w
-  title: The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman
-  date: '2026-10-15'
+- slug: 2026-10-21-lucids-25000-bolt-robotaxis-will-run-on-nvidias-self-driving
+  title: Lucid’s 25,000 Bolt robotaxis will run on Nvidia’s self-driving software
+  date: '2026-10-21'
   kind: web
 neighbors: []
 ---

@@ -20,6 +20,10 @@ last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 1
 recent_mentions:
+- slug: 2026-10-21-new-optogenetic-tool-inhibits-activity-in-neurons-and-heart-
+  title: New optogenetic tool inhibits activity in neurons and heart muscle cells
+  date: '2026-10-21'
+  kind: web
 - slug: 2026-10-16-siloton-secures-84m-to-speed-development-of-portable-retinal
   title: Siloton secures £8.4m to speed development of portable retinal imaging system
   date: '2026-10-16'
@@ -47,10 +51,6 @@ recent_mentions:
 - slug: 2026-10-07-holographic-mesoscope-reads-writes-from-different-cortical-r
   title: Holographic mesoscope reads, writes from different cortical regions simultaneously
   date: '2026-10-07'
-  kind: web
-- slug: 2026-09-01-live-cell-transcriptomics-with-engineered-virus-like-particl
-  title: Live-cell transcriptomics with engineered virus-like particles
-  date: '2026-09-01'
   kind: web
 neighbors: []
 ---

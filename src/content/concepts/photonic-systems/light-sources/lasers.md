@@ -30,21 +30,25 @@ mention_count: 288
 descendants:
 - external-laser-source
 - laser-display-light-engines
-sources_7d: 1
-sources_30d: 9
+sources_7d: 0
+sources_30d: 8
 recent_mentions:
+- slug: 2026-10-21-new-optogenetic-tool-inhibits-activity-in-neurons-and-heart-
+  title: New optogenetic tool inhibits activity in neurons and heart muscle cells
+  date: '2026-10-21'
+  kind: web
 - slug: 2026-10-18-hybrid-diamond-chip-strengthens-interactions-between-light-a
   title: Hybrid diamond chip strengthens interactions between light and quantum bits
   date: '2026-10-18'
+  kind: web
+- slug: 2026-10-16-siloton-secures-84m-to-speed-development-of-portable-retinal
+  title: Siloton secures £8.4m to speed development of portable retinal imaging system
+  date: '2026-10-16'
   kind: web
 - slug: 2026-10-16-state-of-the-future-dispatch-16th
   title: 'State of the Future: Dispatch 16th October 2026'
   date: '2026-10-16'
   kind: substack
-- slug: 2026-10-16-siloton-secures-84m-to-speed-development-of-portable-retinal
-  title: Siloton secures £8.4m to speed development of portable retinal imaging system
-  date: '2026-10-16'
-  kind: web
 - slug: 2026-10-15-boptogenetic-therapy-shows-early-promise-for-treating-retini
   title: <b>Optogenetic therapy shows early promise for treating retinitis pigmentosa</b>
   date: '2026-10-15'
@@ -60,10 +64,6 @@ recent_mentions:
 - slug: 2026-09-04-why-laser-beams-are-the-hottest-new-tech-in-defense
   title: Why Laser Beams Are the Hottest New Tech in Defense
   date: '2026-09-04'
-  kind: web
-- slug: 2026-08-03-ultrarapid-deep-3d-histology-enables-intraoperative-mapping-
-  title: Ultrarapid deep 3D histology enables intraoperative mapping of glioma infiltration
-  date: '2026-08-03'
   kind: web
 neighbors: []
 ---

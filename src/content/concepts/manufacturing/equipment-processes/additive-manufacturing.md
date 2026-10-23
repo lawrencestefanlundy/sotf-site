@@ -42,7 +42,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 3
+sources_30d: 2
 recent_mentions:
 - slug: 2026-07-02-fusion-bionic-secures-8m-for-laser-texturing---opticsorg
   title: Fusion Bionic secures €8M for laser texturing - Optics.org

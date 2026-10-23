@@ -38,7 +38,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 2
-sources_30d: 4
+sources_30d: 3
 recent_mentions:
 - slug: 2026-02-13-four-things-friday
   title: Four Things Friday

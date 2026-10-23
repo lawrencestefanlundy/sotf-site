@@ -31,6 +31,18 @@ recent_mentions:
   title: 'New Tech Tuesdays: Industrial Wi-Fi 7 for Factory Connectivity - Electronic Design'
   date: '2026-09-29'
   kind: web
+- slug: 2026-09-28-the-microwatt-chip-race-the-ai-hardware-podcast-s2e11
+  title: The Microwatt Chip Race // The AI Hardware Podcast S2E11
+  date: '2026-09-28'
+  kind: web
+- slug: 2026-09-25-how-low-can-ai-power-go-the-ai-hardware-show-s2e11
+  title: How Low Can AI Power Go? // The AI Hardware Show S2E11
+  date: '2026-09-25'
+  kind: web
+- slug: 2026-09-21-six-chips-fighting-for-the-edge-the-ai-hardware-podcast-s2e1
+  title: Six Chips Fighting for the Edge // The AI Hardware Podcast S2E10
+  date: '2026-09-21'
+  kind: web
 - slug: 2026-08-25-embedd-pre-seed-inelectronics
   title: Embedd raises EUR 2.3m for semiconductor integration software
   date: '2026-08-25'
@@ -38,18 +50,6 @@ recent_mentions:
 - slug: 2026-08-24-embedd-pre-seed-siliconangle
   title: Chip software automation startup Embedd raises $2.7M
   date: '2026-08-24'
-  kind: web
-- slug: 2026-08-12-celona-takes-private-5g-into-the-industrial-wi-fi-fight-with
-  title: Celona takes private 5G into the industrial Wi-Fi fight – with AI in the middle - rcrwireless.com
-  date: '2026-08-12'
-  kind: web
-- slug: 2026-04-10-hms-networks-introduces-cost-efficient-can-fd-to-ethernet-ga
-  title: HMS Networks introduces cost-efficient CAN-FD-to-Ethernet-gateway for scalable industrial networking - Electronics360
-  date: '2026-04-10'
-  kind: web
-- slug: 2025-03-27-studying-urban-wildfires-and-the-challenges-of-creating-tiny
-  title: Studying urban wildfires, and the challenges of creating tiny AI robots
-  date: '2025-03-27'
   kind: web
 neighbors: []
 ---

@@ -38,7 +38,7 @@ scorecard:
   verdict: Underrated
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-06-13-sovereign-electronics-manufacturing-the-achilles-heel-of
   title: The Achilles' heel of European defence—printed circuit board. Why environmental regulations are strangling PCB production in EU

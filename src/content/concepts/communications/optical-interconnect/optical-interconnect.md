@@ -62,6 +62,18 @@ recent_mentions:
   title: China, the FCC, and the Logic of Transceivers
   date: '2026-10-07'
   kind: web
+- slug: 2026-09-29-faster-is-better-the-silicon-notebook-e4
+  title: Faster is Better // The Silicon Notebook E4
+  date: '2026-09-29'
+  kind: web
+- slug: 2026-09-18-using-your-older-ddr4-the-silicon-notebook-e2
+  title: Using Your Older DDR4 // The Silicon Notebook E2
+  date: '2026-09-18'
+  kind: web
+- slug: 2026-09-18-the-next-memory-frontier-the-silicon-notebook-e3
+  title: The Next Memory Frontier // The Silicon Notebook E3
+  date: '2026-09-18'
+  kind: web
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
@@ -74,18 +86,6 @@ recent_mentions:
   title: 'Serenity: GlobalFoundries receives support from the US CHIPS Act, benefiting Sivers and Lumentum - Bitget'
   date: '2026-07-29'
   kind: web
-- slug: 2026-07-26-ai-backend-network-optics-2026
-  title: 'Dell''Oro: AI back-end switching past $100B by 2030, optical transport $16B in 2025'
-  date: '2026-07-26'
-  kind: web
-- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
-  title: 'Startup Funding: Q2 2026'
-  date: '2026-07-13'
-  kind: web
-- slug: 2026-07-07-the-asml-killer
-  title: The ASML Killer?
-  date: '2026-07-07'
-  kind: substack
 neighbors:
 - slug: optical-circuit-switching
   name: Optical Circuit Switching (OCS)

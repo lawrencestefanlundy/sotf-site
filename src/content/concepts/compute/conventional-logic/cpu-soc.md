@@ -33,9 +33,21 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-16-the-fastest-arm-cpu-is-an-ibm-mainframe
+  title: The Fastest Arm CPU Is... An IBM Mainframe?
+  date: '2026-10-16'
+  kind: web
+- slug: 2026-10-09-agentic-ai-and-why-everyone-wants-cpus-again
+  title: Agentic AI and Why Everyone Wants CPUs Again
+  date: '2026-10-09'
+  kind: web
 - slug: 2026-10-02-frontier-chips-for-frontier-ai-labs-with-walter-goodwin-foun
   title: Frontier Chips for Frontier AI Labs, with Walter Goodwin, Founder/CEO of Fractile
   date: '2026-10-02'
+  kind: web
+- slug: 2026-09-16-this-is-why-i-love-my-job
+  title: This is why I love my job
+  date: '2026-09-16'
   kind: web
 - slug: 2026-09-03-redefining-chip-architecture-with-arm-ceo-rene-haas
   title: Redefining Chip Architecture with Arm CEO Rene Haas
@@ -52,18 +64,6 @@ recent_mentions:
 - slug: 2026-05-05-arm-might-be-swallowing-its-own-poison-pill
   title: ARM Might be Swallowing its Own Poison Pill
   date: '2026-05-05'
-  kind: web
-- slug: 2026-04-28-binning-an-old-nvidia-practice-thats-also-behind-sparse-supp
-  title: Binning. An Old Nvidia Practice that’s Also Behind Sparse Supply of Macbook Neo
-  date: '2026-04-28'
-  kind: web
-- slug: 2022-06-15-owner-of-uk-chip-designer-arm-may-float-some-of-firms-shares
-  title: Owner of UK chip designer Arm may float some of firm’s shares in London - The Guardian
-  date: '2022-06-15'
-  kind: web
-- slug: 2019-05-22-uk-chip-designer-arm-suspends-business-with-huawei-to-comply
-  title: UK chip designer ARM suspends business with Huawei to comply with new U.S. rules - ET Telecom
-  date: '2019-05-22'
   kind: web
 neighbors: []
 ---

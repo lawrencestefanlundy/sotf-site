@@ -23,6 +23,10 @@ mention_count: 80
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-22-nasas-moon-mission-with-four-drones-moves-closer-to-spacecra
+  title: NASA’s Moon mission with four drones moves closer to spacecraft production in 2028
+  date: '2026-10-22'
+  kind: web
 - slug: 2026-10-20-368-ton-ex-us-navy-vessel-shows-off-advanced-autonomy-in-hig
   title: 368-ton ex-US Navy vessel shows off advanced autonomy in high-stakes sea trials
   date: '2026-10-20'
@@ -49,10 +53,6 @@ recent_mentions:
   kind: web
 - slug: 2026-10-15-uksa-taps-clearspace-for-countrys-first-debris-removal-missi
   title: UKSA Taps ClearSpace for Country’s First Debris Removal Mission
-  date: '2026-10-15'
-  kind: web
-- slug: 2026-10-15-blacksky-renews-heo-deal-adds-gen-3-imagery-for-space-domain
-  title: BlackSky Renews HEO Deal, Adds Gen-3 Imagery for Space Domain Awareness
   date: '2026-10-15'
   kind: web
 neighbors: []

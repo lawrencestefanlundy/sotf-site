@@ -32,6 +32,10 @@ recent_mentions:
   title: NASA-backed lunar rover to test language models, laser mapping on Moon with fanless GPU
   date: '2026-10-21'
   kind: web
+- slug: 2026-10-21-new-optogenetic-tool-inhibits-activity-in-neurons-and-heart-
+  title: New optogenetic tool inhibits activity in neurons and heart muscle cells
+  date: '2026-10-21'
+  kind: web
 - slug: 2026-10-20-nasa-provides-progress-update-on-moon-base-rovers
   title: NASA Provides Progress Update on Moon Base Rovers
   date: '2026-10-20'
@@ -54,10 +58,6 @@ recent_mentions:
   kind: web
 - slug: 2026-10-15-blacksky-renews-heo-deal-adds-gen-3-imagery-for-space-domain
   title: BlackSky Renews HEO Deal, Adds Gen-3 Imagery for Space Domain Awareness
-  date: '2026-10-15'
-  kind: web
-- slug: 2026-10-15-us-optical-chip-gyroscope-gets-2000-fold-sensitivity-boost-d
-  title: US optical chip gyroscope gets 2,000-fold sensitivity boost, detects slow rotation
   date: '2026-10-15'
   kind: web
 neighbors: []

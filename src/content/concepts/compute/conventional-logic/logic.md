@@ -34,8 +34,28 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-21-hewlett-packard-enterprise-to-send-ai-compute-module-to-the-
+  title: Hewlett Packard Enterprise to Send AI Compute Module to the Moon
+  date: '2026-10-21'
+  kind: web
 - slug: 2026-10-21-nasa-backed-lunar-rover-to-test-language-models-laser-mappin
   title: NASA-backed lunar rover to test language models, laser mapping on Moon with fanless GPU
+  date: '2026-10-21'
+  kind: web
+- slug: 2026-10-21-from-prompt-to-walking-robot-with-nvidia-rtx-spark
+  title: From Prompt to Walking Robot With NVIDIA RTX Spark
+  date: '2026-10-21'
+  kind: web
+- slug: 2026-10-21-nvidia-gtc-berlin-2026-keynote-with-ceo-jensen-huang
+  title: NVIDIA GTC Berlin 2026 Keynote With CEO Jensen Huang
+  date: '2026-10-21'
+  kind: web
+- slug: 2026-10-21-ainews-deepseek-deepinfer-open-source-sota-inference-running
+  title: '[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback'
+  date: '2026-10-21'
+  kind: web
+- slug: 2026-10-21-rfd4-proteina-how-ipd-researchers-and-nvidia-design-new-prot
+  title: 'RFD4-Proteina: How IPD Researchers and NVIDIA Design New Proteins with AI'
   date: '2026-10-21'
   kind: web
 - slug: 2026-10-20-the-programmable-data-center-evan-conrad-sf-compute
@@ -45,26 +65,6 @@ recent_mentions:
 - slug: 2026-10-19-don-wilson-on-the-gpu-markets-trillion-dollar-question
   title: Don Wilson on the GPU Market's Trillion Dollar Question
   date: '2026-10-19'
-  kind: web
-- slug: 2026-10-15-simultaneous-high-fidelity-single-qubit-gates-in-a-spin-qubi
-  title: Simultaneous high-fidelity single-qubit gates in a spin qubit array
-  date: '2026-10-15'
-  kind: web
-- slug: 2026-10-09-beam-the-great-american-open-model-with-reflectionai-co-foun
-  title: 'Beam: The Great American Open Model with ReflectionAI Co-Founder and CEO Misha Laskin'
-  date: '2026-10-09'
-  kind: web
-- slug: 2026-10-08-synthesis-superintelligence-from-semiconductors-to-supercond
-  title: 'Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk'
-  date: '2026-10-08'
-  kind: web
-- slug: 2026-10-05-why-agent-swarms-could-be-the-next-scaling-law
-  title: Why agent swarms could be the next “scaling law”
-  date: '2026-10-05'
-  kind: web
-- slug: 2026-10-02-frontier-chips-for-frontier-ai-labs-with-walter-goodwin-foun
-  title: Frontier Chips for Frontier AI Labs, with Walter Goodwin, Founder/CEO of Fractile
-  date: '2026-10-02'
   kind: web
 neighbors: []
 ---

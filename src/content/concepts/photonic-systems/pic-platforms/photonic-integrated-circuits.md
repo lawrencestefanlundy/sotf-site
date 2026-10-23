@@ -72,16 +72,16 @@ recent_mentions:
   title: Chip-mediated manipulation of photonic quantum skyrmions
   date: '2026-10-12'
   kind: web
+- slug: 2026-09-29-faster-is-better-the-silicon-notebook-e4
+  title: Faster is Better // The Silicon Notebook E4
+  date: '2026-09-29'
+  kind: web
+- slug: 2026-09-18-using-your-older-ddr4-the-silicon-notebook-e2
+  title: Using Your Older DDR4 // The Silicon Notebook E2
+  date: '2026-09-18'
+  kind: web
 - slug: 2026-07-29-globalfoundries-wins-300-million-chips-act-silicon-photonics
   title: GlobalFoundries wins $300 million CHIPS Act silicon photonics award - Yahoo Finance
-  date: '2026-07-29'
-  kind: web
-- slug: 2026-07-29-aeluma-signs-letter-of-intent-for-30m-chips-act-funding---in
-  title: Aeluma signs letter of intent for $30M CHIPS Act funding - Investing.com
-  date: '2026-07-29'
-  kind: web
-- slug: 2026-07-29-aeluma-signs-letter-of-intent-for-30-million-in-chips-act-fu
-  title: Aeluma Signs Letter of Intent for $30 Million in CHIPS Act Funding - marketscreener.com
   date: '2026-07-29'
   kind: web
 neighbors: []

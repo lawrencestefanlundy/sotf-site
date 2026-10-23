@@ -52,6 +52,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-21-superconductivity-and-ferroelectric-orbital-magnetism-in-sem
+  title: Superconductivity and ferroelectric orbital magnetism in semimetallic rhombohedral hexalayer graphene
+  date: '2026-10-21'
+  kind: web
 - slug: 2026-10-20-the-lithography-lever
   title: The Lithography Lever
   date: '2026-10-20'
@@ -68,20 +72,16 @@ recent_mentions:
   title: The Case for DUV Controls
   date: '2026-10-17'
   kind: web
+- slug: 2026-10-16-the-fastest-arm-cpu-is-an-ibm-mainframe
+  title: The Fastest Arm CPU Is... An IBM Mainframe?
+  date: '2026-10-16'
+  kind: web
 - slug: 2026-10-16-cambridge-enterprise-contributes-to-162m-series-a-for-paragr
   title: Cambridge Enterprise contributes to £16.2m Series A for Paragraf - Cambridge Enterprise
   date: '2026-10-16'
   kind: web
 - slug: 2026-10-15-writing-electronic-phases-into-atomic-layers
   title: Writing electronic phases into atomic layers
-  date: '2026-10-15'
-  kind: web
-- slug: 2026-10-15-us-urges-chipmakers-to-use-domestic-capacity-as-chips-act-st
-  title: US urges chipmakers to use domestic capacity as CHIPS Act strategy shifts from fab subsidies to securing orders - digitimes
-  date: '2026-10-15'
-  kind: web
-- slug: 2026-10-15-gate-tunable-chiral-spin-mode-in-wse2ws2-moire-superlattices
-  title: Gate-tunable chiral spin mode in WSe2/WS2 moiré superlattices
   date: '2026-10-15'
   kind: web
 neighbors:

@@ -48,6 +48,10 @@ descendants:
 sources_7d: 0
 sources_30d: 9
 recent_mentions:
+- slug: 2026-10-02-inside-koreas-ai-silicon-the-ai-hardware-show-s2e12
+  title: Inside Korea's AI Silicon // The AI Hardware Show S2E12
+  date: '2026-10-02'
+  kind: web
 - slug: 2026-09-07-mordor-data-converter-market
   title: 'Data Converter Market: size, share & industry analysis (Mordor Intelligence)'
   date: '2026-09-07'
@@ -74,10 +78,6 @@ recent_mentions:
   kind: web
 - slug: 2026-06-17-femtoai-company-profile
   title: femtoAI (formerly Femtosense) — company profile, funding, leadership
-  date: '2026-06-17'
-  kind: web
-- slug: 2026-06-17-femtoai-spu-ces2026
-  title: femtoAI to Highlight its Sparse Processing Unit Edge AI Accelerator at CES 2026
   date: '2026-06-17'
   kind: web
 neighbors: []

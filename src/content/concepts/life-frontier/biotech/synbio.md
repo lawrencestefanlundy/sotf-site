@@ -47,7 +47,7 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 9
+sources_7d: 7
 sources_30d: 18
 recent_mentions:
 - slug: 2026-07-01-mccarty-synthetic-cell-spudcell

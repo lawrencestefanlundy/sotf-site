@@ -33,12 +33,28 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-21-ai-factories-that-use-less-power-and-water-built-in-days-nvi
+  title: AI Factories That Use Less Power and Water, Built in Days | NVIDIA DSX
+  date: '2026-10-21'
+  kind: web
+- slug: 2026-10-21-nvidia-gtc-berlin-2026-keynote-with-ceo-jensen-huang
+  title: NVIDIA GTC Berlin 2026 Keynote With CEO Jensen Huang
+  date: '2026-10-21'
+  kind: web
+- slug: 2026-10-21-ainews-deepseek-deepinfer-open-source-sota-inference-running
+  title: '[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback'
+  date: '2026-10-21'
+  kind: web
 - slug: 2026-10-20-the-programmable-data-center-evan-conrad-sf-compute
   title: The Programmable Data Center — Evan Conrad, SF Compute
   date: '2026-10-20'
   kind: web
 - slug: 2026-10-19-don-wilson-on-the-gpu-markets-trillion-dollar-question
   title: Don Wilson on the GPU Market's Trillion Dollar Question
+  date: '2026-10-19'
+  kind: web
+- slug: 2026-10-19-ai-factories-need-to-respond-when-the-power-grid-needs-relie
+  title: AI factories need to respond when the power grid needs relief.
   date: '2026-10-19'
   kind: web
 - slug: 2026-10-15-tech-giants-want-clean-energy-in-nc-is-duke-finally-ready-to
@@ -48,22 +64,6 @@ recent_mentions:
 - slug: 2026-10-15-a-new-class-of-batteries-helps-data-centers-play-nicely-with
   title: A new class of batteries helps data centers play nicely with the grid
   date: '2026-10-15'
-  kind: web
-- slug: 2026-10-15-can-the-fossil-gas-supply-handle-the-ai-boom---latitude-medi
-  title: Can the fossil gas supply handle the AI boom? - Latitude Media
-  date: '2026-10-15'
-  kind: web
-- slug: 2026-10-14-nuclear-powered-data-centers-its-a-tough-sell-in-utah-coal-c
-  title: Nuclear-powered data centers? It’s a tough sell in Utah coal country.
-  date: '2026-10-14'
-  kind: web
-- slug: 2026-10-13-texas-oilfield-wastewater-could-help-cool-data-centers-witho
-  title: Texas oilfield wastewater could help cool data centers without draining freshwater
-  date: '2026-10-13'
-  kind: web
-- slug: 2026-10-12-tiny-pluggable-optical-module-boosts-data-center-bandwidth-4
-  title: Tiny pluggable optical module boosts data center bandwidth 4x without extra hardware
-  date: '2026-10-12'
   kind: web
 neighbors: []
 ---

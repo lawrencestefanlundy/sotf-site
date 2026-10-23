@@ -37,7 +37,7 @@ descendants:
 - stablecoin-clearing
 - stablecoins
 - x402
-sources_7d: 6
+sources_7d: 5
 sources_30d: 24
 recent_mentions:
 - slug: 2026-10-15-the-changing-physics-of-cybersecurity-and-drug-development-w

@@ -20,7 +20,7 @@ scorecard:
 scorecard_status: draft
 mention_count: 89
 sources_7d: 1
-sources_30d: 9
+sources_30d: 8
 recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'

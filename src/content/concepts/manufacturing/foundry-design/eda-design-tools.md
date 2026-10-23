@@ -32,6 +32,18 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-09-agentic-ai-and-why-everyone-wants-cpus-again
+  title: Agentic AI and Why Everyone Wants CPUs Again
+  date: '2026-10-09'
+  kind: web
+- slug: 2026-09-30-54-the-man-who-built-openais-first-chip
+  title: '[54] The Man Who Built OpenAI''s First Chip'
+  date: '2026-09-30'
+  kind: web
+- slug: 2026-09-29-faster-is-better-the-silicon-notebook-e4
+  title: Faster is Better // The Silicon Notebook E4
+  date: '2026-09-29'
+  kind: web
 - slug: 2026-09-24-foundries-vs-navigators-lowering-the-cost-of-science
   title: 'Foundries vs Navigators: Lowering the Cost of Science'
   date: '2026-09-24'
@@ -51,14 +63,6 @@ recent_mentions:
 - slug: 2026-07-29-chipagents-series-a2-134m
   title: ChipAgents Expands Series A Funding to $134 Million as Demand Grows for Agentic AI in Semiconductor Design
   date: '2026-07-29'
-  kind: web
-- slug: 2026-06-11-southampton-to-help-expand-uk-chip-design-capabilities---uni
-  title: Southampton to help expand UK chip design capabilities - University of Southampton
-  date: '2026-06-11'
-  kind: web
-- slug: 2025-05-30-chip-design-software-firm-synopsys-halts-china-sales-due-to-
-  title: Chip design software firm Synopsys halts China sales due to new US export curbs - The Straits Times
-  date: '2025-05-30'
   kind: web
 neighbors: []
 ---

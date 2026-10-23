@@ -34,7 +34,7 @@ scorecard:
 scorecard_status: draft
 mention_count: 146
 sources_7d: 1
-sources_30d: 11
+sources_30d: 10
 recent_mentions:
 - slug: 2026-10-08-volatile-eutectics-to-tailor-crystallization-for-perovskite-
   title: Volatile eutectics to tailor crystallization for perovskite optoelectronics

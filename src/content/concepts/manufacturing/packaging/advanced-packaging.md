@@ -35,7 +35,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 237
+mention_count: 236
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration
@@ -44,9 +44,17 @@ descendants:
 sources_7d: 1
 sources_30d: 8
 recent_mentions:
+- slug: 2026-10-16-the-fastest-arm-cpu-is-an-ibm-mainframe
+  title: The Fastest Arm CPU Is... An IBM Mainframe?
+  date: '2026-10-16'
+  kind: web
 - slug: 2026-10-11-asmls-new-multibeam-inspection-tool-is-familiar
   title: ASML’s New Multibeam Inspection Tool is Familiar
   date: '2026-10-11'
+  kind: web
+- slug: 2026-10-09-agentic-ai-and-why-everyone-wants-cpus-again
+  title: Agentic AI and Why Everyone Wants CPUs Again
+  date: '2026-10-09'
   kind: web
 - slug: 2026-10-06-x-fab-breaks-ground-on-chips-act-funded-cleanroom-in-erfurt-
   title: X-FAB breaks ground on Chips Act-funded cleanroom in Erfurt - Evertiq
@@ -56,25 +64,17 @@ recent_mentions:
   title: Mapping the Gaps in NASA’s Return to the Moon, featuring Richard Spolzino
   date: '2026-10-04'
   kind: web
-- slug: 2026-09-24-high-bandwidth-flash-is-coming
-  title: High Bandwidth Flash Is Coming
-  date: '2026-09-24'
+- slug: 2026-10-01-more-details-on-broadcoms-beast-xpu
+  title: More Details on Broadcom's Beast XPU
+  date: '2026-10-01'
   kind: web
-- slug: 2026-09-11-huawei-launches-impossible-chip-inside-folding-phone
-  title: Huawei Launches Impossible Chip Inside Folding Phone
-  date: '2026-09-11'
+- slug: 2026-09-30-54-the-man-who-built-openais-first-chip
+  title: '[54] The Man Who Built OpenAI''s First Chip'
+  date: '2026-09-30'
   kind: web
-- slug: 2026-09-02-vertical-power-delivery-thermal-limits
-  title: 'Vertical power delivery: the thermal limit at the 48V-to-point-of-load stage'
-  date: '2026-09-02'
-  kind: web
-- slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
-  title: Chip Industry Week in Review (7 Aug 2026)
-  date: '2026-08-07'
-  kind: web
-- slug: 2026-07-31-chips-act-equity-deals-us-gains-10-stake-in-intel-874m-for-s
-  title: 'CHIPS Act Equity Deals: U.S. Gains 10% Stake in Intel, $874M for Seven Companies - News and Statistics - IndexBox'
-  date: '2026-07-31'
+- slug: 2026-09-29-faster-is-better-the-silicon-notebook-e4
+  title: Faster is Better // The Silicon Notebook E4
+  date: '2026-09-29'
   kind: web
 neighbors: []
 ---

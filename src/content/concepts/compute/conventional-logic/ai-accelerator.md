@@ -70,6 +70,26 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 3
 recent_mentions:
+- slug: 2026-10-22-humanoid-robot-cuts-model-processing-delay-8x-with-nvidia-te
+  title: Humanoid robot cuts model processing delay 8x with NVIDIA tech in internal tests
+  date: '2026-10-22'
+  kind: web
+- slug: 2026-10-21-hewlett-packard-enterprise-to-send-ai-compute-module-to-the-
+  title: Hewlett Packard Enterprise to Send AI Compute Module to the Moon
+  date: '2026-10-21'
+  kind: web
+- slug: 2026-10-21-ai-factories-that-use-less-power-and-water-built-in-days-nvi
+  title: AI Factories That Use Less Power and Water, Built in Days | NVIDIA DSX
+  date: '2026-10-21'
+  kind: web
+- slug: 2026-10-21-nvidia-gtc-berlin-2026-keynote-with-ceo-jensen-huang
+  title: NVIDIA GTC Berlin 2026 Keynote With CEO Jensen Huang
+  date: '2026-10-21'
+  kind: web
+- slug: 2026-10-21-ainews-deepseek-deepinfer-open-source-sota-inference-running
+  title: '[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback'
+  date: '2026-10-21'
+  kind: web
 - slug: 2026-10-20-the-programmable-data-center-evan-conrad-sf-compute
   title: The Programmable Data Center — Evan Conrad, SF Compute
   date: '2026-10-20'
@@ -78,29 +98,9 @@ recent_mentions:
   title: Don Wilson on the GPU Market's Trillion Dollar Question
   date: '2026-10-19'
   kind: web
-- slug: 2026-10-05-wartsila-to-supply-282-mw-onsite-power-solution-for-a-us-dat
-  title: Wärtsilä to supply 282 MW onsite power solution for a U.S. data center as AI growth intensifies demand for reliable power - Latitude Media
-  date: '2026-10-05'
-  kind: web
-- slug: 2026-10-02-frontier-chips-for-frontier-ai-labs-with-walter-goodwin-foun
-  title: Frontier Chips for Frontier AI Labs, with Walter Goodwin, Founder/CEO of Fractile
-  date: '2026-10-02'
-  kind: web
-- slug: 2026-09-29-ainews-amd-buys-world-labs-for-82b-as-atlas-solves-sparse-re
-  title: '[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more'
-  date: '2026-09-29'
-  kind: web
-- slug: 2026-09-25-what-chinas-clean-power-advantage-means-for-the-ai-race---la
-  title: What China’s clean power advantage means for the AI race - latitudemedia.com
-  date: '2026-09-25'
-  kind: web
-- slug: 2026-09-24-ai-evolution-merchants-of-compute
-  title: 'AI Evolution: Merchants of Compute'
-  date: '2026-09-24'
-  kind: web
-- slug: 2026-09-18-why-diffusion-will-win-ai-inference-with-inception-co-founde
-  title: Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon
-  date: '2026-09-18'
+- slug: 2026-10-19-ai-factories-need-to-respond-when-the-power-grid-needs-relie
+  title: AI factories need to respond when the power grid needs relief.
+  date: '2026-10-19'
   kind: web
 neighbors: []
 ---

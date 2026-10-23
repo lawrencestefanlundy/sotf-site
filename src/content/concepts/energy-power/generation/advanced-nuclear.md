@@ -24,7 +24,7 @@ frontier:
 - What was the regulatory basis for the blocked Amazon arrangement, and has that precedent been resolved for behind-the-meter nuclear supply?
 - Did any of the ARPA-E-funded projects reach a construction permit or first criticality, and on what schedule relative to their original claims?
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-09-23-with-federal-funding-windfall-x-energy-advances-small-nuclea
   title: With federal funding windfall, X-energy advances small nuclear reactor

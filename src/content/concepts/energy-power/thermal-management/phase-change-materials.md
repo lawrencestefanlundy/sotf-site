@@ -37,8 +37,8 @@ scorecard:
   verdict: Too early to say
 scorecard_status: draft
 mention_count: 1171
-sources_7d: 1
-sources_30d: 4
+sources_7d: 0
+sources_30d: 3
 recent_mentions:
 - slug: 2026-10-16-state-of-the-future-dispatch-16th
   title: 'State of the Future: Dispatch 16th October 2026'

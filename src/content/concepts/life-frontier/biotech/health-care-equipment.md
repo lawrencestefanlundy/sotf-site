@@ -41,6 +41,10 @@ recent_mentions:
   title: Tech to Replace Animal Testing Is Almost Ready. Scientists Are Not
   date: '2026-09-29'
   kind: web
+- slug: 2026-09-18-speaking-with-the-mind-neuralink
+  title: Speaking With The Mind | Neuralink
+  date: '2026-09-18'
+  kind: web
 - slug: 2026-08-27-making-drugs-in-space-the-man-who-fed-india-and-what-narwhal
   title: Making drugs in space, the man who fed India, and what narwhals can teach us about changing seas
   date: '2026-08-27'
@@ -49,6 +53,10 @@ recent_mentions:
   title: From Restoring Sight to Reimagining the Brain, with Max Hodak
   date: '2026-08-20'
   kind: web
+- slug: 2026-07-24-controlling-a-wheelchair-with-your-mind
+  title: Controlling A Wheelchair With Your Mind
+  date: '2026-07-24'
+  kind: web
 - slug: 2026-06-03-your-phone-can-use-tiny-skin-colour-changes-to-measure-your-
   title: Your phone can use tiny skin-colour changes to measure your heart rate
   date: '2026-06-03'
@@ -56,10 +64,6 @@ recent_mentions:
 - slug: 2025-09-25-salty-permafrosts-role-in-arctic-melting-the-promise-of-cont
   title: Salty permafrost’s role in Arctic melting, the promise of continuous protein monitoring, and death in the ancient world
   date: '2025-09-25'
-  kind: web
-- slug: 2024-11-14-bringing-lab-testing-to-the-home---mit-news
-  title: Bringing lab testing to the home - MIT News
-  date: '2024-11-14'
   kind: web
 neighbors: []
 ---

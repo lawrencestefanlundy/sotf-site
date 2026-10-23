@@ -33,7 +33,7 @@ descendants:
 - electron-scale-metrology
 - stm
 sources_7d: 3
-sources_30d: 15
+sources_30d: 14
 recent_mentions:
 - slug: 2026-10-13-marketus-ai-materials-discovery-report-mill
   title: 'Market.us AI in Materials Discovery Market: $536.4M 2024 to $5.58B 2034, 26.4% CAGR (report mill, contrast only)'

@@ -49,6 +49,10 @@ descendants:
 sources_7d: 0
 sources_30d: 4
 recent_mentions:
+- slug: 2026-10-21-ai-factories-that-use-less-power-and-water-built-in-days-nvi
+  title: AI Factories That Use Less Power and Water, Built in Days | NVIDIA DSX
+  date: '2026-10-21'
+  kind: web
 - slug: 2026-10-20-nasas-sr-1-freedom-advances-with-progress-on-nuclear-power-m
   title: NASA’s SR-1 Freedom Advances with Progress on Nuclear Power Module
   date: '2026-10-20'
@@ -57,9 +61,17 @@ recent_mentions:
   title: Foxconn pays $727M for half of Mitsubishi Electric’s car parts unit in EV push
   date: '2026-10-19'
   kind: web
+- slug: 2026-10-19-ai-factories-need-to-respond-when-the-power-grid-needs-relie
+  title: AI factories need to respond when the power grid needs relief.
+  date: '2026-10-19'
+  kind: web
 - slug: 2026-10-17-this-hidden-device-could-free-up-gigawatts-of-grid-power
   title: This Hidden Device Could Free Up Gigawatts of Grid Power
   date: '2026-10-17'
+  kind: web
+- slug: 2026-09-18-the-next-memory-frontier-the-silicon-notebook-e3
+  title: The Next Memory Frontier // The Silicon Notebook E3
+  date: '2026-09-18'
   kind: web
 - slug: 2026-09-02-vertical-power-delivery-thermal-limits
   title: 'Vertical power delivery: the thermal limit at the 48V-to-point-of-load stage'
@@ -68,18 +80,6 @@ recent_mentions:
 - slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint
   title: 'What actually limits a humanoid to minutes: the thermal cliff, not the battery'
   date: '2026-07-26'
-  kind: web
-- slug: 2026-05-26-semianalysis-800vdc-revolution
-  title: Inside the 800VDC Revolution – Part 1
-  date: '2026-05-26'
-  kind: web
-- slug: 2026-03-08-diamonds-are-semiconductors-best-friend
-  title: Diamonds are Semiconductors' Best Friend 2026
-  date: '2026-03-08'
-  kind: web
-- slug: 2026-02-19-the-rise-of-grid-power-electronics-with-drew-baglino---latit
-  title: The rise of grid power electronics with Drew Baglino - Latitude Media
-  date: '2026-02-19'
   kind: web
 neighbors: []
 ---

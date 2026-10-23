@@ -35,7 +35,7 @@ scorecard:
   verdict: ''
 scorecard_status: draft
 sources_7d: 2
-sources_30d: 10
+sources_30d: 9
 recent_mentions:
 - slug: 2026-10-19-light-and-mirrors-move-large-quantum-computers-closer-to-rea
   title: Light and mirrors move large quantum computers closer to reality

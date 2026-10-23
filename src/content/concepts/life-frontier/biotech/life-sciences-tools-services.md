@@ -32,6 +32,18 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-21-how-lila-sciences-ai-and-automated-labs-help-scientists-disc
+  title: How Lila Sciences’ AI and Automated Labs Help Scientists Discover New Medicines Faster
+  date: '2026-10-21'
+  kind: web
+- slug: 2026-10-21-new-optogenetic-tool-inhibits-activity-in-neurons-and-heart-
+  title: New optogenetic tool inhibits activity in neurons and heart muscle cells
+  date: '2026-10-21'
+  kind: web
+- slug: 2026-10-21-rfd4-proteina-how-ipd-researchers-and-nvidia-design-new-prot
+  title: 'RFD4-Proteina: How IPD Researchers and NVIDIA Design New Proteins with AI'
+  date: '2026-10-21'
+  kind: web
 - slug: 2026-10-20-nanoscale-tech-tracks-proteins-inside-living-neurons-to-guid
   title: Nanoscale tech tracks proteins inside living neurons to guide Alzheimer's and Parkinson's drug discovery
   date: '2026-10-20'
@@ -44,25 +56,13 @@ recent_mentions:
   title: In vivo engineering of CAR natural killer cells for immunotherapy using ligand-directed lipid nanoparticles
   date: '2026-10-13'
   kind: web
+- slug: 2026-10-07-the-human-brain-turned-out-to-be-two-separate-organs
+  title: The Human Brain Turned Out to Be Two Separate Organs
+  date: '2026-10-07'
+  kind: web
 - slug: 2026-10-07-ieee-report-predicts-tech-that-will-transform-lives
   title: IEEE Report Predicts Tech That Will Transform Lives
   date: '2026-10-07'
-  kind: web
-- slug: 2026-10-06-beyond-wiring-diagrams-inside-a-19-million-effort-to-expand-
-  title: 'Beyond wiring diagrams: Inside a $19 million effort to expand access to connectome technology'
-  date: '2026-10-06'
-  kind: web
-- slug: 2026-10-05-inventors-of-optogenetics-win-nobel-prize-in-physiology-or-m
-  title: Inventors of optogenetics win Nobel Prize in Physiology or Medicine
-  date: '2026-10-05'
-  kind: web
-- slug: 2026-09-29-tech-to-replace-animal-testing-is-almost-ready-scientists-ar
-  title: Tech to Replace Animal Testing Is Almost Ready. Scientists Are Not
-  date: '2026-09-29'
-  kind: web
-- slug: 2026-09-22-trna-therapy
-  title: tRNA Therapy
-  date: '2026-09-22'
   kind: web
 neighbors: []
 ---

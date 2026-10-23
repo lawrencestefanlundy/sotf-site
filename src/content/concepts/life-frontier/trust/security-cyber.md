@@ -23,6 +23,10 @@ mention_count: 30
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-21-introducing-nvidia-openshell-reference-architecture-for-safe
+  title: Introducing NVIDIA OpenShell Reference Architecture for Safer AI Agents
+  date: '2026-10-21'
+  kind: web
 - slug: 2026-10-15-the-changing-physics-of-cybersecurity-and-drug-development-w
   title: The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman
   date: '2026-10-15'
@@ -50,10 +54,6 @@ recent_mentions:
 - slug: 2026-08-17-what-the-openai-hugging-face-hack-really-tells-us-about-ai-d
   title: What the OpenAI-Hugging Face Hack Really Tells Us About AI Danger
   date: '2026-08-17'
-  kind: web
-- slug: 2026-08-06-dex-in-the-city-how-claudes-red-teaming-agents-escaped-a-tes
-  title: 'DEX in the City: How Claude''s Red-Teaming Agents Escaped a Test Without Realizing It'
-  date: '2026-08-06'
   kind: web
 neighbors: []
 ---

@@ -26,9 +26,9 @@ tags:
 - robotics
 - data
 - sensors
-mention_count: 3
-sources_7d: 1
-sources_30d: 3
+mention_count: 4
+sources_7d: 2
+sources_30d: 4
 recent_mentions: []
 neighbors:
 - slug: vision-language-action-models

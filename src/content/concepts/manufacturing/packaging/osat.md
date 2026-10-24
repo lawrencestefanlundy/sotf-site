@@ -41,8 +41,6 @@ sources:
 - '[[2025-05-27-datacentre-thermal-power-market-intel-foundry-s-integrated]]'
 - '[[2025-12-28-advanced-packaging-market-tsmc-cowos-capacity-scaling-up]]'
 - '[[2026-09-02-vertical-power-delivery-thermal-limits]]'
-- '[[2025-05-03-datacentre-thermal-power-market-intel-foundry-thermal]]'
-- '[[2025-08-05-taiwan-osat-gains-from-bis-whitelist-fall-short-as-us-grants]]'
 frontier:
 - What share of the $80B-by-2030 advanced-packaging market is booked by outsourced assemblers versus foundries and IDMs, and is that share rising or falling through 2028?
 - Do hybrid bonding and die-to-wafer bonding settle inside wafer fabs, or do OSATs qualify them at volume and on cost?
@@ -56,7 +54,7 @@ tags:
 - category
 - packaging
 - supply-chain
-mention_count: 134
+mention_count: 136
 scorecard:
   viability: 4
   drivers: 4
@@ -66,8 +64,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Overrated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 5
+sources_7d: 2
+sources_30d: 7
 recent_mentions:
 - slug: 2026-09-02-vertical-power-delivery-thermal-limits
   title: 'Vertical power delivery: the thermal limit at the 48V-to-point-of-load stage'

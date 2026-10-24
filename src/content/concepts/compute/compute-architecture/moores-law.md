@@ -15,16 +15,26 @@ related_concepts:
 - backside-power-delivery
 sources:
 - '[[2023-07-27-e10-pushing-moores-law-to-the-limit]]'
+- '[[2026-10-07-i-sat-down-with-asmls-ceo---heres-what-he-told-me]]'
+- '[[2026-10-09-agentic-ai-and-why-everyone-wants-cpus-again]]'
 - '[[2026-05-29-silicon-shock-the-macro-of-tech-inflation]]'
 frontier:
 - When does cost-per-transistor stop improving outright (not just slow), and at which node?
 last_updated: '2026-06-16'
 tags:
 - concept
-mention_count: 16
+mention_count: 18
 sources_7d: 0
-sources_30d: 0
+sources_30d: 2
 recent_mentions:
+- slug: 2026-10-09-agentic-ai-and-why-everyone-wants-cpus-again
+  title: Agentic AI and Why Everyone Wants CPUs Again
+  date: '2026-10-09'
+  kind: web
+- slug: 2026-10-07-i-sat-down-with-asmls-ceo---heres-what-he-told-me
+  title: I Sat Down With ASML's CEO - Here's What He Told Me
+  date: '2026-10-07'
+  kind: web
 - slug: 2026-05-29-silicon-shock-the-macro-of-tech-inflation
   title: 'Silicon Shock: The Macro of Tech Inflation'
   date: '2026-05-29'

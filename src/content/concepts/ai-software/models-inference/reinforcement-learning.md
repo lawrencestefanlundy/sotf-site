@@ -25,10 +25,14 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 209
-sources_7d: 20
-sources_30d: 42
+mention_count: 241
+sources_7d: 27
+sources_30d: 46
 recent_mentions:
+- slug: 2026-10-21-from-prompt-to-walking-robot-with-nvidia-rtx-spark
+  title: From Prompt to Walking Robot With NVIDIA RTX Spark
+  date: '2026-10-21'
+  kind: web
 - slug: 2026-10-20-glm-53-sometimes-considers-how-train-time-actions-shape-futu
   title: GLM-5.3 Sometimes Considers How Train-Time Actions Shape Future Behavior
   date: '2026-10-20'
@@ -56,10 +60,6 @@ recent_mentions:
 - slug: 2025-01-27-ai-for-nuclear-fusion-feat-martin
   title: AI for Nuclear Fusion (Feat. Martin Riedmiller, Google DeepMind)
   date: '2025-01-27'
-  kind: substack
-- slug: 2024-11-20-nuclear-fusion-the-state-of-play
-  title: 'Nuclear Fusion: A Primer'
-  date: '2024-11-20'
   kind: substack
 neighbors: []
 ---

@@ -15,18 +15,27 @@ sources:
 - '[[2026-02-13-four-things-friday]]'
 - '[[2026-01-22-ai-chips-computeram-and-the-future]]'
 - '[[2025-07-20-risc-v-open-silicon-share-shd-group-risc-v-market-analysis]]'
+- '[[2026-05-15-risc-v-open-silicon-share-risc-v-vs-arm-the-ai-iot]]'
 - '[[2024-eu-chips-act-final-text]]'
 - '[[2026-01-23-risc-v-open-silicon-share-risc-v-hits-25-design-share-as]]'
+- '[[2026-06-02-risc-v-open-silicon-share-x86-data-center-dominance-ends]]'
+- '[[2026-10-13-a-new-gpu-from-facebook]]'
 - '[[2026-10-16-uneec-site]]'
 - '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
+- '[[2026-09-18-using-your-older-ddr4-the-silicon-notebook-e2]]'
+- '[[2025-10-30-risc-v-open-silicon-share-iot-analytics-6-iot-semiconductor]]'
 - '[[2025-07-23-nvidia-cuda-on-risc-v]]'
 - '[[2026-06-17-qualcomm-tenstorrent-talks]]'
 - '[[2026-04-09-sifive-series-g]]'
+- '[[2026-10-11-risc-v-open-silicon-share-delaware-judge-questions-risc-v-s]]'
+- '[[2026-04-01-risc-v-open-silicon-share-risc-v-market-analysis-2026]]'
 - '[[2026-06-15-gf-investor-day-2026]]'
 - '[[2025-12-18-risc-v-25pct-penetration]]'
 - '[[2026-02-09-semianalysis-datacenter-cpu-2026]]'
 - '[[2025-10-09-risc-v-open-silicon-share-risc-v-summit-2025-keynote-risc-v]]'
 - '[[2026-10-12-cnt-electronics-market-research]]'
+- '[[2026-08-27-risc-v-open-silicon-share-risc-v-in-2026-25-market-share]]'
+- '[[2026-09-16-this-is-why-i-love-my-job]]'
 - '[[2026-05-21-semianalysis-eda-market-primer]]'
 scorecard:
   viability: 4
@@ -37,7 +46,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 130
+mention_count: 139
 sources_7d: 3
 sources_30d: 14
 recent_mentions:
@@ -45,34 +54,34 @@ recent_mentions:
   title: UNEEC Systems GmbH — company site (uneec.eu), incl. imprint
   date: '2026-10-16'
   kind: web
+- slug: 2026-10-13-a-new-gpu-from-facebook
+  title: A New GPU, From Facebook ?!
+  date: '2026-10-13'
+  kind: web
 - slug: 2026-10-12-cnt-electronics-market-research
   title: 'Carbon nanotube electronics: market, cohort and M&A research (web sweep, 82 sources)'
   date: '2026-10-12'
+  kind: web
+- slug: 2026-10-11-risc-v-open-silicon-share-delaware-judge-questions-risc-v-s
+  title: Delaware Judge Questions RISC-V's Practical Role as Arm and x86 Dominate Enterprise CPUs
+  date: '2026-10-11'
+  kind: web
+- slug: 2026-09-18-using-your-older-ddr4-the-silicon-notebook-e2
+  title: Using Your Older DDR4 // The Silicon Notebook E2
+  date: '2026-09-18'
+  kind: web
+- slug: 2026-09-16-this-is-why-i-love-my-job
+  title: This is why I love my job
+  date: '2026-09-16'
+  kind: web
+- slug: 2026-08-27-risc-v-open-silicon-share-risc-v-in-2026-25-market-share
+  title: 'RISC-V in 2026: 25% Market Share Against x86 and ARM'
+  date: '2026-08-27'
   kind: web
 - slug: 2026-07-17-the-once-and-future-kimi
   title: The Once and Future Kimi
   date: '2026-07-17'
   kind: substack
-- slug: 2026-07-13-semiengineering-startup-funding-q2-2026
-  title: 'Startup Funding: Q2 2026'
-  date: '2026-07-13'
-  kind: web
-- slug: 2026-07-03-thats-a-learning-curve-mate-not-rsi
-  title: That’s a learning curve mate, not RSI
-  date: '2026-07-03'
-  kind: substack
-- slug: 2026-06-17-qualcomm-tenstorrent-talks
-  title: Qualcomm in advanced talks to acquire Tenstorrent at $8-10B (reported)
-  date: '2026-06-17'
-  kind: web
-- slug: 2026-06-15-gf-investor-day-2026
-  title: GlobalFoundries Investor Day 2026 (presentation)
-  date: '2026-06-15'
-  kind: web
-- slug: 2026-05-21-semianalysis-eda-market-primer
-  title: EDA Market Primer - Market Dynamics, Cadence, Synopsys, Siemens, China EDA Rise
-  date: '2026-05-21'
-  kind: web
 neighbors: []
 ---
 **RISC-V is an open, modular instruction set architecture that lets designers strip out, extend or specialise the CPU instruction set for a given workload, and the research literature now shows it fabricated in production nodes (Intel 16 nm, 12 nm FinFET chiplets) as the programmable substrate inside domain-specific accelerators rather than as a drop-in replacement for proprietary high-performance CPUs.**

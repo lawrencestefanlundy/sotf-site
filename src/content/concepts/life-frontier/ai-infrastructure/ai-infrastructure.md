@@ -37,13 +37,13 @@ sources:
 - '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
 - '[[2026-01-08-datacentre-thermal-power-market-data-center-liquid-cooling]]'
 - '[[2026-03-16-ai-capex-financeable-financing-the-ai-infrastructure-boom]]'
+- '[[2026-09-18-using-your-older-ddr4-the-silicon-notebook-e2]]'
 - '[[2026-03-12-optical-displaces-copper-optical-scale-up-consortium]]'
+- '[[2026-10-22-vantage-and-heron-power-electronics-announce-gigawatt-scale-]]'
 - '[[2025-10-21-frontier-forum-the-new-power-map-for-ai-infrastructure---lat]]'
 - '[[2024-08-29-cloud-strategy-in-the-ai-era-with-matt-garman-ceo-of-aws]]'
 - '[[2026-09-01-eu-taiwan-chip-dialogue-targets-ai-infrastructure-partnershi]]'
 - '[[2026-06-27-rack-power-delivery-silicon-reed-semiconductor-raises-100]]'
-- '[[2026-04-09-model-commoditises-value-moves-up-the-foundation-model]]'
-- '[[2026-02-12-ai-demand-outruns-expectations-ai-capex-2026-the-690b]]'
 scorecard:
   viability: 4
   drivers: 5
@@ -53,7 +53,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 144
+mention_count: 147
 descendants:
 - ai-grade-datacentre-real-estate
 - ai-infrastructure-scaling
@@ -64,9 +64,25 @@ descendants:
 - moe-all-to-all-collectives
 - prefill-vs-decode
 - sovereign-ai
-sources_7d: 2
-sources_30d: 7
+sources_7d: 3
+sources_30d: 8
 recent_mentions:
+- slug: 2026-10-22-vantage-and-heron-power-electronics-announce-gigawatt-scale-
+  title: Vantage and Heron Power Electronics announce gigawatt-scale 800 VDC agreement to accelerate AI infrastructure delivery - Latitude Media
+  date: '2026-10-22'
+  kind: web
+- slug: 2026-09-18-using-your-older-ddr4-the-silicon-notebook-e2
+  title: Using Your Older DDR4 // The Silicon Notebook E2
+  date: '2026-09-18'
+  kind: web
+- slug: 2026-09-18-the-next-memory-frontier-the-silicon-notebook-e3
+  title: The Next Memory Frontier // The Silicon Notebook E3
+  date: '2026-09-18'
+  kind: web
+- slug: 2026-09-16-this-is-why-i-love-my-job
+  title: This is why I love my job
+  date: '2026-09-16'
+  kind: web
 - slug: 2026-09-01-eu-taiwan-chip-dialogue-targets-ai-infrastructure-partnershi
   title: EU-Taiwan chip dialogue targets AI infrastructure partnerships under EU Chips Act 2.0 - INSIGHT EU MONITORING
   date: '2026-09-01'
@@ -82,22 +98,6 @@ recent_mentions:
 - slug: 2026-06-27-rack-power-delivery-silicon-reed-semiconductor-raises-100
   title: Reed Semiconductor Raises $100 Million To Scale AI Infrastructure Power Solutions
   date: '2026-06-27'
-  kind: web
-- slug: 2026-06-23-semidoped-daily-update
-  title: Semi Doped — Daily Update, June 23rd 2026
-  date: '2026-06-23'
-  kind: web
-- slug: 2026-06-23-google-project-suncatcher
-  title: Exploring a space-based, scalable AI infrastructure system design
-  date: '2026-06-23'
-  kind: web
-- slug: 2026-06-14-frontier-ai-value-capture
-  title: 'Frontier AI value capture: where the $4T accrues (research synthesis)'
-  date: '2026-06-14'
-  kind: web
-- slug: 2026-06-13-sovereign-electronics-manufacturing-reshoring-digest
-  title: 'Western/European electronics manufacturing reshoring (PCB/PCBA): market + why-now digest'
-  date: '2026-06-13'
   kind: web
 neighbors: []
 ---

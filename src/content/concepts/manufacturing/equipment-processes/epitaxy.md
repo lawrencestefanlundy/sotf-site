@@ -21,9 +21,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 98
-sources_7d: 0
-sources_30d: 10
+mention_count: 101
+sources_7d: 2
+sources_30d: 12
 recent_mentions:
 - slug: 2026-10-14-author-correction-wafer-scale-epitaxy-growth-of-high-mobilit
   title: 'Author Correction: Wafer-scale epitaxy growth of high-mobility p-type boron carbon nitride'

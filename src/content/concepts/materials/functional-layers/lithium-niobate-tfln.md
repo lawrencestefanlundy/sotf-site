@@ -27,7 +27,7 @@ last_updated: '2026-10-15'
 tags:
 - concept
 - material
-mention_count: 202
+mention_count: 209
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 4
@@ -39,7 +39,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 9
+sources_30d: 7
 recent_mentions:
 - slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
   title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
@@ -48,6 +48,14 @@ recent_mentions:
 - slug: 2026-07-13-semiengineering-startup-funding-q2-2026
   title: 'Startup Funding: Q2 2026'
   date: '2026-07-13'
+  kind: web
+- slug: 2026-06-15-photonics-material-class-war-photonic-integrated-circuit
+  title: Photonic integrated circuit technology landscape 2026
+  date: '2026-06-15'
+  kind: web
+- slug: 2026-06-15-photonics-material-class-war-thin-film-lithium-niobate-pic
+  title: Thin Film Lithium Niobate PIC Technology Landscape 2026
+  date: '2026-06-15'
   kind: web
 - slug: 2026-05-02-lightium-tfln-foundry-csem-spin-off
   title: Lightium TFLN Foundry (CSEM spin-off)
@@ -65,14 +73,6 @@ recent_mentions:
   title: 320 Gb/s Unamplified Transmission Using 100 GHz Ge PD and TFLN MZM on a Foundry-Compatible SiPh Platform
   date: '2026-04-22'
   kind: web
-- slug: 2026-04-17-state-of-the-future-friday-four-67c
-  title: 'State of the Future: Friday Four'
-  date: '2026-04-17'
-  kind: substack
-- slug: 2026-04-14-the-photonic-foundry-fallacy
-  title: The Photonic Foundry Fallacy
-  date: '2026-04-14'
-  kind: substack
 neighbors: []
 ---
 **Thin-film lithium niobate is a sub-micron single-crystal Pockels-effect layer bonded onto silicon or oxide wafers, and in 2026 it moved from lab modulators to 200 mm wafer-scale integration with >95% printing yield and 320 Gb/s unamplified links, while simultaneously setting records in integrated quantum optics such as 18 dB of on-chip squeezing <sup class="ref"><a href="https://techxplore.com/news/2026-04-silicon-photonics-gained-powerful-ally.html" title="320 Gb/s Unamplified Transmission Using 100 GHz Ge PD and TFLN MZM on a Foundry-Compatible SiPh Platform" rel="noopener">ref</a></sup>.**

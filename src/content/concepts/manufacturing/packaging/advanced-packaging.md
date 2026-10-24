@@ -35,14 +35,14 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 236
+mention_count: 237
 descendants:
 - 3d-monolithic-integration
 - heterogeneous-integration
 - micro-transfer-printing
 - osat
 sources_7d: 1
-sources_30d: 8
+sources_30d: 7
 recent_mentions:
 - slug: 2026-10-16-the-fastest-arm-cpu-is-an-ibm-mainframe
   title: The Fastest Arm CPU Is... An IBM Mainframe?

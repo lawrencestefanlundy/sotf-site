@@ -18,12 +18,13 @@ sources:
 - '[[2023-07-06-e07-decentralised-ai]]'
 - '[[2022-12-15-unbundling-the-database]]'
 - '[[2023-05-05-interview-rick-hao-partner-at-speedinvest]]'
+- '[[2025-12-01-the-holy-grail-of-crypto-privacy-encrypted-ethereum-fhe-livi]]'
 frontier: []
 last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 20
+mention_count: 21
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: null
@@ -37,6 +38,10 @@ scorecard_status: draft
 sources_7d: 2
 sources_30d: 2
 recent_mentions:
+- slug: 2025-12-01-the-holy-grail-of-crypto-privacy-encrypted-ethereum-fhe-livi
+  title: 'The Holy Grail of Crypto Privacy: Encrypted Ethereum, FHE & Living Forever | Rand Hindi, Zama Co-Founder'
+  date: '2025-12-01'
+  kind: web
 - slug: 2025-10-09-a-specific-theory-of-sovereign-ai
   title: A Specific Theory of Sovereign AI
   date: '2025-10-09'
@@ -64,10 +69,6 @@ recent_mentions:
 - slug: 2023-05-05-interview-rick-hao-partner-at-speedinvest
   title: '☎️ Interview: Rick Hao, Partner at SpeedInvest on the State of Privacy-Enhancing Technologies #005'
   date: '2023-05-05'
-  kind: substack
-- slug: 2022-12-15-unbundling-the-database
-  title: '💡Thesis: Unbundling the Database: Serverless, Edge and Secure'
-  date: '2022-12-15'
   kind: substack
 neighbors: []
 ---

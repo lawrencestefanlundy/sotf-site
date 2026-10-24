@@ -35,14 +35,14 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 126
+mention_count: 128
 descendants:
 - mems
 - nems
 - sensors
 - spectral-sensing
-sources_7d: 0
-sources_30d: 1
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
 - slug: 2026-09-29-tech-to-replace-animal-testing-is-almost-ready-scientists-ar
   title: Tech to Replace Animal Testing Is Almost Ready. Scientists Are Not

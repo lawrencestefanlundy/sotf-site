@@ -14,12 +14,17 @@ sources:
 - '[[2026-06-22-sintered-metal-die-attach-landscape]]'
 - '[[2026-06-01-hbm-state-of-play]]'
 - '[[2026-07-02-semianalysis-ectc2026-advanced-packaging]]'
+- '[[2026-10-01-more-details-on-broadcoms-beast-xpu]]'
 - '[[2026-04-15-semianalysis-isscc-2026]]'
 - '[[2026-06-22-tim-approaches-full-sweep]]'
-mention_count: 25
-sources_7d: 1
-sources_30d: 4
+mention_count: 27
+sources_7d: 2
+sources_30d: 6
 recent_mentions:
+- slug: 2026-10-01-more-details-on-broadcoms-beast-xpu
+  title: More Details on Broadcom's Beast XPU
+  date: '2026-10-01'
+  kind: web
 - slug: 2026-07-16-the-path-to-agi-runs-through-hbm
   title: The Path To AGI Runs Through HBM
   date: '2026-07-16'

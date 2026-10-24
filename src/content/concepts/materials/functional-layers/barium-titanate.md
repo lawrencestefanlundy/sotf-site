@@ -17,6 +17,7 @@ related_concepts:
 sources:
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
+- '[[2026-01-28-photonics-material-class-war-veeco-and-imec-develop-300mm]]'
 - '[[2026-01-27-photonics-material-class-war-veeco-and-imec-develop-300mm]]'
 frontier:
 - Is the gap between bulk r42 above 1200 pm/V and the 154 pm/V effective coefficient measured in devices a fundamental consequence of film domain structure, or can domain-wall engineering capture the predicted local response above 4000 pm/V?
@@ -27,7 +28,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - material
-mention_count: 54
+mention_count: 58
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 4
@@ -38,8 +39,8 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Underrated
 scorecard_status: draft
-sources_7d: 3
-sources_30d: 8
+sources_7d: 6
+sources_30d: 11
 recent_mentions:
 - slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
   title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
@@ -65,6 +66,10 @@ recent_mentions:
   title: Photonic "Engines" for Data Centers
   date: '2026-02-02'
   kind: substack
+- slug: 2026-01-28-photonics-material-class-war-veeco-and-imec-develop-300mm
+  title: Veeco and Imec Develop 300mm Process for Barium Titanate on Silicon Photonics
+  date: '2026-01-28'
+  kind: web
 - slug: 2026-01-27-photonics-material-class-war-veeco-and-imec-develop-300mm
   title: Veeco and imec develop 300mm-compatible process to enable integration of barium titanate on silicon photonics
   date: '2026-01-27'

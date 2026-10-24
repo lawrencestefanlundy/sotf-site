@@ -25,11 +25,13 @@ sources:
 - '[[2026-09-07-mordor-data-converter-market]]'
 - '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
 - '[[2024-02-26-micron-hbm3e-volume-production]]'
+- '[[2025-10-30-risc-v-open-silicon-share-iot-analytics-6-iot-semiconductor]]'
 - '[[2024-yole-advanced-packaging-2024]]'
 - '[[2025-10-15-low-power-edge-compute-neuromorphic-hardware-market-size]]'
 - '[[2026-06-15-gf-investor-day-2026]]'
 - '[[2026-06-17-femtoai-spu-ces2026]]'
 - '[[2026-08-03-perimeter-compute-wants-to-turn-spare-office-power-into-edge]]'
+- '[[2026-09-21-six-chips-fighting-for-the-edge-the-ai-hardware-podcast-s2e1]]'
 - '[[2026-07-10-edge-buyer-kpi-sweep]]'
 - '[[2025-12-09-gpus-tpus-the-economics-of-ai-explained-gavin-baker-intervie]]'
 scorecard:
@@ -41,16 +43,20 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 112
+mention_count: 114
 descendants:
 - hearing-aid-silicon-beachhead
 - nvidia-jetson
 sources_7d: 0
-sources_30d: 9
+sources_30d: 8
 recent_mentions:
 - slug: 2026-10-02-inside-koreas-ai-silicon-the-ai-hardware-show-s2e12
   title: Inside Korea's AI Silicon // The AI Hardware Show S2E12
   date: '2026-10-02'
+  kind: web
+- slug: 2026-09-21-six-chips-fighting-for-the-edge-the-ai-hardware-podcast-s2e1
+  title: Six Chips Fighting for the Edge // The AI Hardware Podcast S2E10
+  date: '2026-09-21'
   kind: web
 - slug: 2026-09-07-mordor-data-converter-market
   title: 'Data Converter Market: size, share & industry analysis (Mordor Intelligence)'
@@ -75,10 +81,6 @@ recent_mentions:
 - slug: 2026-06-18-sensifai-hybrids-deck
   title: SensifAI — Funding Round deck (sensifai.vercel.app/hybrids)
   date: '2026-06-18'
-  kind: web
-- slug: 2026-06-17-femtoai-company-profile
-  title: femtoAI (formerly Femtosense) — company profile, funding, leadership
-  date: '2026-06-17'
   kind: web
 neighbors: []
 ---

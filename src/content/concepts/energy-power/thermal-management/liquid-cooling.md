@@ -30,8 +30,10 @@ sources:
 - '[[2025-07-03-datacentre-thermal-power-market-cooling-is-the-new]]'
 - '[[2026-04-01-ai-power-thermal-binding-market-projection-35-of-new-ai]]'
 - '[[2026-04-02-datacentre-thermal-power-market-goldman-sachs-forecasts]]'
+- '[[2026-10-21-ai-factories-that-use-less-power-and-water-built-in-days-nvi]]'
 - '[[2026-03-25-thermal-stack-arms-race-why-ai-rack-densities-make-liquid]]'
 - '[[2025-05-03-datacentre-thermal-power-market-intel-foundry-thermal]]'
+- '[[2026-09-16-this-is-why-i-love-my-job]]'
 - '[[2026-05-22-ai-power-thermal-binding-goldman-sachs-ai-infrastructure]]'
 - '[[2026-02-15-ai-power-thermal-binding-oracle-announces-direct-to-chip]]'
 frontier:
@@ -43,7 +45,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 35
+mention_count: 37
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 5
@@ -54,9 +56,17 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 1
+sources_7d: 1
+sources_30d: 2
 recent_mentions:
+- slug: 2026-10-21-ai-factories-that-use-less-power-and-water-built-in-days-nvi
+  title: AI Factories That Use Less Power and Water, Built in Days | NVIDIA DSX
+  date: '2026-10-21'
+  kind: web
+- slug: 2026-09-16-this-is-why-i-love-my-job
+  title: This is why I love my job
+  date: '2026-09-16'
+  kind: web
 - slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint
   title: 'What actually limits a humanoid to minutes: the thermal cliff, not the battery'
   date: '2026-07-26'
@@ -80,14 +90,6 @@ recent_mentions:
 - slug: 2026-05-05-thermal-stack-arms-race-ai-datacenter-liquid-cooling-market
   title: AI Datacenter Liquid Cooling Market to Reach USD 17.8 Billion by 2036
   date: '2026-05-05'
-  kind: web
-- slug: 2026-04-29-reiner-pope-the-math-behind-how-llms-are-trained-and-served
-  title: Reiner Pope – The math behind how LLMs are trained and served
-  date: '2026-04-29'
-  kind: web
-- slug: 2026-04-19-datacentre-thermal-power-market-trendforce-liquid-cooling
-  title: TrendForce liquid cooling penetration in AI-focused data centers climbed from 14% to 33%
-  date: '2026-04-19'
   kind: web
 neighbors: []
 ---

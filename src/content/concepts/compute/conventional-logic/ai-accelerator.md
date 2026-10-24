@@ -24,6 +24,7 @@ sources:
 - '[[2026-04-28-thermal-stack-arms-race-global-diamond-heat-spreaders]]'
 - '[[2026-02-21-hyperscaler-asic-profit-pool-nvidia-ai-gpu-market-share]]'
 - '[[2026-01-20-specialisation-beats-generality-global-ai-server-shipments]]'
+- '[[2026-10-16-the-fastest-arm-cpu-is-an-ibm-mainframe]]'
 - '[[2026-04-24-thermal-stack-arms-race-global-thermal-management-market-to]]'
 - '[[2026-04-10-thermal-stack-arms-race-liquid-cooling-for-ai-data-centers]]'
 - '[[2025-12-17-ai-power-thermal-binding-power-availability-remains-the]]'
@@ -56,7 +57,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 113
+mention_count: 114
 last_reorg_date: '2026-05-14'
 scorecard:
   viability: 4
@@ -68,7 +69,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 3
+sources_30d: 4
 recent_mentions:
 - slug: 2026-10-22-humanoid-robot-cuts-model-processing-delay-8x-with-nvidia-te
   title: Humanoid robot cuts model processing delay 8x with NVIDIA tech in internal tests

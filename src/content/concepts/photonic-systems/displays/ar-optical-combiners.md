@@ -37,9 +37,9 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 328
-sources_7d: 0
-sources_30d: 8
+mention_count: 338
+sources_7d: 3
+sources_30d: 10
 recent_mentions:
 - slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
   title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
@@ -57,6 +57,14 @@ recent_mentions:
   title: Trapped-ion quantum computing landscape 2026 (vendors, scale, integrated photonics)
   date: '2026-06-16'
   kind: web
+- slug: 2026-06-15-photonics-material-class-war-photonic-integrated-circuit
+  title: Photonic integrated circuit technology landscape 2026
+  date: '2026-06-15'
+  kind: web
+- slug: 2026-06-15-photonics-material-class-war-thin-film-lithium-niobate-pic
+  title: Thin Film Lithium Niobate PIC Technology Landscape 2026
+  date: '2026-06-15'
+  kind: web
 - slug: 2026-06-13-next-gen-geothermal-research
   title: Next-gen geothermal (EGS / closed-loop / superhot mm-wave) — research sweep (Jun 2026)
   date: '2026-06-13'
@@ -65,14 +73,6 @@ recent_mentions:
   title: Q-Memory — company website (q-memory.tech)
   date: '2026-06-04'
   kind: web
-- slug: 2026-04-14-the-photonic-foundry-fallacy
-  title: The Photonic Foundry Fallacy
-  date: '2026-04-14'
-  kind: substack
-- slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
-  title: Carbon Nanotubes in the Datacentre
-  date: '2025-11-25'
-  kind: substack
 neighbors:
 - slug: laser-display-light-engines
   name: Laser-Based Display Light Engines

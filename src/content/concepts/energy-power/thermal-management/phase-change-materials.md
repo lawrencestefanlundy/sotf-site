@@ -36,9 +36,9 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 1171
+mention_count: 1198
 sources_7d: 0
-sources_30d: 3
+sources_30d: 2
 recent_mentions:
 - slug: 2026-10-16-state-of-the-future-dispatch-16th
   title: 'State of the Future: Dispatch 16th October 2026'
@@ -47,6 +47,10 @@ recent_mentions:
 - slug: 2026-10-12-cnt-electronics-market-research
   title: 'Carbon nanotube electronics: market, cohort and M&A research (web sweep, 82 sources)'
   date: '2026-10-12'
+  kind: web
+- slug: 2026-10-01-more-details-on-broadcoms-beast-xpu
+  title: More Details on Broadcom's Beast XPU
+  date: '2026-10-01'
   kind: web
 - slug: 2026-09-03-space-compute-cheap-launch-rebuild
   title: Space compute rebuilt around the cheap-launch case — what survives the premise
@@ -66,10 +70,6 @@ recent_mentions:
   kind: web
 - slug: 2026-07-31-etched-research-sprint
   title: Etched research sprint — tape-out speed, HBM supply, customer orders (4-lane web sweep)
-  date: '2026-07-31'
-  kind: web
-- slug: 2026-07-31-tim-market-sizing-refresh
-  title: TIM market sizing refresh — the definitional 2x split and the real addressable slot
   date: '2026-07-31'
   kind: web
 neighbors: []

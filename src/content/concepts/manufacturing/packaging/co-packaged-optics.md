@@ -21,8 +21,10 @@ sources:
 - '[[2026-07-28-laser-on-a-chip-w-matt-crowley-scintil]]'
 - '[[2026-07-10-the-next-vc-meme-is]]'
 - '[[2026-03-12-optical-displaces-copper-broadcom-ships-tomahawk-6-world-s]]'
+- '[[2026-09-29-faster-is-better-the-silicon-notebook-e4]]'
 - '[[2026-05-02-co-packaged-optics-2026-2036-idtechex]]'
 - '[[2026-08-07-chip-industry-week-in-review-7-aug-2026]]'
+- '[[2026-09-18-using-your-older-ddr4-the-silicon-notebook-e2]]'
 - '[[2026-07-26-ai-backend-network-optics-2026]]'
 - '[[2026-06-17-sjtu-ge-si-photodetector-110ghz-fowlp]]'
 - '[[2026-06-15-gf-investor-day-2026]]'
@@ -40,10 +42,18 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 86
+mention_count: 88
 sources_7d: 0
 sources_30d: 2
 recent_mentions:
+- slug: 2026-09-29-faster-is-better-the-silicon-notebook-e4
+  title: Faster is Better // The Silicon Notebook E4
+  date: '2026-09-29'
+  kind: web
+- slug: 2026-09-18-using-your-older-ddr4-the-silicon-notebook-e2
+  title: Using Your Older DDR4 // The Silicon Notebook E2
+  date: '2026-09-18'
+  kind: web
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
@@ -68,14 +78,6 @@ recent_mentions:
   title: The Next VC Meme Is...
   date: '2026-07-10'
   kind: substack
-- slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
-  title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
-  date: '2026-07-02'
-  kind: web
-- slug: 2026-06-23-semidoped-daily-update
-  title: Semi Doped — Daily Update, June 23rd 2026
-  date: '2026-06-23'
-  kind: web
 neighbors: []
 ---
 **Co-packaged optics moves the optical transceiver out of the front-panel cage and into the same package as the switch or accelerator die, and after years as a research programme it is now entering commercial switch products, with NVIDIA citing early-2026 availability for Quantum-X InfiniBand CPO and 2H 2026 for Spectrum-X Ethernet CPO <sup class="ref"><a href="https://www.genaitech.net/p/nvidias-4b-cpo-bet-scaleout-first" title="NVIDIA's $4B CPO Bet: Scale-Out First, Scale-Up Later" rel="noopener">ref</a></sup>.**

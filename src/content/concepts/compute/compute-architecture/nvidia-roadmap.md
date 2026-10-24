@@ -34,6 +34,7 @@ sources:
 - '[[2026-openai-titan-custom-chip]]'
 - '[[2026-07-13-sk-hynix-record-fall-hbm4-three-supplier]]'
 - '[[2026-03-19-compute-specialisation-equilibrium-how-nvidia-s-20-billion]]'
+- '[[2026-10-21-ai-factories-that-use-less-power-and-water-built-in-days-nvi]]'
 - '[[2026-stargate-expansion-7gw]]'
 - '[[2026-06-08-how-coreweave-sees-the-market-for-compute-right-now]]'
 scorecard:
@@ -45,10 +46,14 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 51
-sources_7d: 0
-sources_30d: 3
+mention_count: 53
+sources_7d: 2
+sources_30d: 5
 recent_mentions:
+- slug: 2026-10-21-ai-factories-that-use-less-power-and-water-built-in-days-nvi
+  title: AI Factories That Use Less Power and Water, Built in Days | NVIDIA DSX
+  date: '2026-10-21'
+  kind: web
 - slug: 2026-07-13-sk-hynix-record-fall-hbm4-three-supplier
   title: SK Hynix record one-day fall as HBM4 goes three-supplier
   date: '2026-07-13'
@@ -76,10 +81,6 @@ recent_mentions:
 - slug: 2026-06-08-how-coreweave-sees-the-market-for-compute-right-now
   title: How CoreWeave Sees the Market for Compute Right Now
   date: '2026-06-08'
-  kind: web
-- slug: 2026-06-01-hbm-state-of-play
-  title: HBM state of play (mid-2026) — technology, supercycle, three-supplier standing
-  date: '2026-06-01'
   kind: web
 neighbors:
 - slug: hbm

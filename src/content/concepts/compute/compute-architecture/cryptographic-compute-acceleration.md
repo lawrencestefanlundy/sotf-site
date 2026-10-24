@@ -22,7 +22,7 @@ sources:
 - '[[2025-01-15-the-end-of-zero-marginal-costs-the]]'
 - '[[2026-07-09-in-die-microfluidic-cooling-sprint]]'
 - '[[2025-08-14-chips-neoclouds-and-the-quest-for-ai-dominance-with-semianal]]'
-mention_count: 21
+mention_count: 22
 parent_concepts:
 - compute-architecture
 - compute
@@ -40,7 +40,7 @@ frontier:
 - Are these workloads limited by arithmetic throughput or by on-chip capacity and external bandwidth, and does that make the problem a memory-system problem that general-purpose parts will absorb rather than a case for dedicated silicon?
 - Does the post-quantum migration create demand for new accelerator arithmetic, or is it absorbed by existing CPU instruction-set extensions and firmware updates?
 - How much of the design and verification budget for a cryptographic accelerator goes to side-channel and fault resistance, given the argument that heterogeneity and third-party IP have pushed security validation to the forefront of semiconductor design 2026 06 05 emulation based system on chip security verification challen?
-sources_7d: 0
+sources_7d: 1
 sources_30d: 2
 recent_mentions:
 - slug: 2026-07-09-in-die-microfluidic-cooling-sprint

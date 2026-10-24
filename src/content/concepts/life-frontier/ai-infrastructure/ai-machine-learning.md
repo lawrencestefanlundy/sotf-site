@@ -37,6 +37,14 @@ recent_mentions:
   title: Tesla fires up Optimus robot production with Musk eyeing 20,000 units per week by 2027
   date: '2026-10-22'
   kind: web
+- slug: 2026-10-22-ainews-openais-patch-the-planet-program-is-1-of-2-parties-to
+  title: '[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months'
+  date: '2026-10-22'
+  kind: web
+- slug: 2026-10-22-why-ai-compute-comes-in-rectangles-erik-bernhardsson-modal-c
+  title: Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO
+  date: '2026-10-22'
+  kind: web
 - slug: 2026-10-22-humanoid-robot-cuts-model-processing-delay-8x-with-nvidia-te
   title: Humanoid robot cuts model processing delay 8x with NVIDIA tech in internal tests
   date: '2026-10-22'
@@ -55,14 +63,6 @@ recent_mentions:
   kind: web
 - slug: 2026-10-21-super-ai-agents-for-science-manufacturing-and-engineering-gt
   title: Super AI Agents for Science, Manufacturing and Engineering  | GTC Berlin 2026 Edition
-  date: '2026-10-21'
-  kind: web
-- slug: 2026-10-21-introducing-nvidia-openshell-reference-architecture-for-safe
-  title: Introducing NVIDIA OpenShell Reference Architecture for Safer AI Agents
-  date: '2026-10-21'
-  kind: web
-- slug: 2026-10-21-lucids-25000-bolt-robotaxis-will-run-on-nvidias-self-driving
-  title: Lucid’s 25,000 Bolt robotaxis will run on Nvidia’s self-driving software
   date: '2026-10-21'
   kind: web
 neighbors: []

@@ -33,7 +33,6 @@ sources:
 - '[[2026-07-31-inference-silicon-roster-sprint]]'
 - '[[2026-05-13-semianalysis-cerebras-faster-tokens]]'
 - '[[2026-06-03-tendrils-compute]]'
-- '[[2026-09-30-taalas-hc1-next-platform]]'
 scorecard:
   viability: 5
   drivers: 4
@@ -43,9 +42,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 132
-sources_7d: 2
-sources_30d: 12
+mention_count: 135
+sources_7d: 3
+sources_30d: 11
 recent_mentions:
 - slug: 2026-08-14-chip-tail-verification-sweep
   title: 'Chip-comparison tail verification sweep: 37 companies re-verified, consolidation wave confirmed'

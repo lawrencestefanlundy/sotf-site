@@ -23,6 +23,10 @@ mention_count: 30
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-22-ainews-openais-patch-the-planet-program-is-1-of-2-parties-to
+  title: '[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months'
+  date: '2026-10-22'
+  kind: web
 - slug: 2026-10-21-introducing-nvidia-openshell-reference-architecture-for-safe
   title: Introducing NVIDIA OpenShell Reference Architecture for Safer AI Agents
   date: '2026-10-21'
@@ -50,10 +54,6 @@ recent_mentions:
 - slug: 2026-08-21-quantum-hacking-coming-sooner-than-expected
   title: Quantum Hacking Coming Sooner than Expected
   date: '2026-08-21'
-  kind: web
-- slug: 2026-08-17-what-the-openai-hugging-face-hack-really-tells-us-about-ai-d
-  title: What the OpenAI-Hugging Face Hack Really Tells Us About AI Danger
-  date: '2026-08-17'
   kind: web
 neighbors: []
 ---

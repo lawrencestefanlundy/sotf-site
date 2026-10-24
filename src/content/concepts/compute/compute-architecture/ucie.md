@@ -11,6 +11,7 @@ related_concepts: []
 sources:
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
 - '[[2026-03-02-chiplets-architecture-share-rebellions-rebel-100-industry-s]]'
+- '[[2026-09-29-faster-is-better-the-silicon-notebook-e4]]'
 - '[[2026-03-05-chiplets-architecture-share-chiplet-summit-2026-ucie]]'
 - '[[2026-07-02-semianalysis-ectc2026-advanced-packaging]]'
 - '[[2024-yole-advanced-packaging-2024]]'
@@ -24,7 +25,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 18
+mention_count: 19
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 4
@@ -36,8 +37,12 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 0
+sources_30d: 1
 recent_mentions:
+- slug: 2026-09-29-faster-is-better-the-silicon-notebook-e4
+  title: Faster is Better // The Silicon Notebook E4
+  date: '2026-09-29'
+  kind: web
 - slug: 2026-07-02-semianalysis-ectc2026-advanced-packaging
   title: 'ECTC 2026 Roundup: EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More'
   date: '2026-07-02'

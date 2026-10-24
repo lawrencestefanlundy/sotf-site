@@ -47,7 +47,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 846
+mention_count: 839
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 5
@@ -64,6 +64,10 @@ recent_mentions:
 - slug: 2026-10-12-cnt-electronics-market-research
   title: 'Carbon nanotube electronics: market, cohort and M&A research (web sweep, 82 sources)'
   date: '2026-10-12'
+  kind: web
+- slug: 2026-09-29-faster-is-better-the-silicon-notebook-e4
+  title: Faster is Better // The Silicon Notebook E4
+  date: '2026-09-29'
   kind: web
 - slug: 2026-09-21-tsmc-asml-and-high-na-euv
   title: TSMC, ASML, and High NA EUV
@@ -89,10 +93,6 @@ recent_mentions:
   title: 'Inference-silicon roster verification sprint: 10 companies for the competitive-analysis capital map'
   date: '2026-07-31'
   kind: web
-- slug: 2026-07-28-laser-on-a-chip-w-matt-crowley-scintil
-  title: Laser on a Chip w/ Matt Crowley @ Scintil Photonics
-  date: '2026-07-28'
-  kind: substack
 neighbors: []
 ---
 **CoWoS is TSMC's silicon-interposer packaging platform that bolts logic dies and HBM stacks into a single module, and through 2026 it is the physical chokepoint metering how many AI accelerators the world can build <sup class="ref"><a href="https://www.dwarkesh.com/p/dylan-patel" title="SemiAnalysis (Dylan Patel) — the three shifting bottlenecks to scaling AI compute (logic/litho, memory, power)" rel="noopener">ref</a></sup>.**

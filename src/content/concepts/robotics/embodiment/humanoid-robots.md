@@ -22,28 +22,7 @@ sources:
 - '[[2026-06-19-humanoid-actuator-supply-chain-china-s-dexterous-hand-boom]]'
 - '[[2025-10-28-humanoid-robot-market-chinese-humanoid-pricing-collapse-and]]'
 - '[[2026-08-31-bullish-on-automation-and-robotics-but-not-humanoid-robots-s]]'
-- '[[2026-10-07-hiphi-a-large-scale-benchmark-for-high-precision-human-motio]]'
-- '[[2026-04-22-robot-autonomy-destination-agility-s-digit-is-the-only]]'
-- '[[2026-10-19-the-robot-i-didnt-expect-to-build]]'
-- '[[2025-03-20-the-robotics-revolution-with-physical-intelligences-cofounde]]'
-- '[[2026-06-10-neura-series-c]]'
-- '[[2026-07-19-humanoid-robot-market-humanoid-robotics-funding-analysis-6]]'
-- '[[2026-07-16-robotics-labour-augmentation-the-us-58-9-billion-humanoid]]'
-- '[[2026-05-31-nvidia-gtc-taipei-isaac-groot-isaac-teleop]]'
-- '[[2026-06-24-robot-autonomy-destination-morgan-stanley-china-humanoid]]'
-- '[[2025-09-25-humanoid-actuator-supply-chain-ieee-humanoid-study-group]]'
-- '[[2026-02-05-elon-musk-in-36-months-the-cheapest-place-to-put-ai-will-be-]]'
-- '[[2026-06-01-robotics-labour-augmentation-humanoid-robots-2026-figure-vs]]'
-- '[[2026-08-06-the-year-ai-science-and-the-physical-ai-industry-came-alive]]'
-- '[[2026-05-12-humanoid-actuator-supply-chain-humanoid-robotics-in-2026]]'
-- '[[2025-12-18-humanoid-actuator-supply-chain-10-000-dexterous-hands]]'
-- '[[2026-06-21-robot-autonomy-destination-humanoid-robots-in-2026-pilots]]'
-- '[[2026-09-01-chinas-ai-rally-is-real-most-global-investors-are-missing-it]]'
-- '[[2026-07-16-robotics-labour-augmentation-humanoid-robot-bom-cost]]'
-- '[[2026-03-31-worlds-top-researcher-on-ai-llms-and-robot-intelligence]]'
-- '[[2026-10-11-chinese-ev-giants-31-joint-humanoid-robot-could-soon-greet-y]]'
-- '[[2023-04-28-374-robert-playter-boston-dynamics-ceo-on-humanoid-and-legge]]'
-- '[[2026-06-10-robotics-labour-augmentation-humanoid-robotics-company]]'
+- '[[2026-10-22-take-ten-thousand-egocentric-data-collection-for-humanoid-ro]]'
 scorecard:
   viability: 3
   drivers: 4
@@ -53,10 +32,22 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Overrated
 scorecard_status: draft
-mention_count: 173
-sources_7d: 21
-sources_30d: 57
+mention_count: 197
+sources_7d: 42
+sources_30d: 76
 recent_mentions:
+- slug: 2026-10-22-take-ten-thousand-egocentric-data-collection-for-humanoid-ro
+  title: 'Take Ten-Thousand: Egocentric Data Collection for Humanoid Robots'
+  date: '2026-10-22'
+  kind: web
+- slug: 2026-10-22-tesla-fires-up-optimus-robot-production-with-musk-eyeing-200
+  title: Tesla fires up Optimus robot production with Musk eyeing 20,000 units per week by 2027
+  date: '2026-10-22'
+  kind: web
+- slug: 2026-10-22-humanoid-robot-cuts-model-processing-delay-8x-with-nvidia-te
+  title: Humanoid robot cuts model processing delay 8x with NVIDIA tech in internal tests
+  date: '2026-10-22'
+  kind: web
 - slug: 2026-10-19-the-robot-i-didnt-expect-to-build
   title: The Robot I Didn’t Expect to Build
   date: '2026-10-19'
@@ -76,18 +67,6 @@ recent_mentions:
 - slug: 2026-09-01-chinas-ai-rally-is-real-most-global-investors-are-missing-it
   title: China’s AI Rally Is Real. Most Global Investors Are Missing It.
   date: '2026-09-01'
-  kind: web
-- slug: 2026-09-01-why-humanoid-robots-wont-catch-up-to-human-workers-any-time-
-  title: Why humanoid robots won’t catch up to human workers any time soon
-  date: '2026-09-01'
-  kind: web
-- slug: 2026-08-31-bullish-on-automation-and-robotics-but-not-humanoid-robots-s
-  title: Bullish on Automation and Robotics, but not Humanoid Robots | Shahin Farshchi
-  date: '2026-08-31'
-  kind: web
-- slug: 2026-08-15-telekin-call-to-arms
-  title: Telekin — Call to Arms (company thesis + Horatio prototype findings)
-  date: '2026-08-15'
   kind: web
 neighbors:
 - slug: vision-language-action-models

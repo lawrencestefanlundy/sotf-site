@@ -29,7 +29,7 @@ frontier:
 last_updated: '2026-08-31'
 tags:
 - concept
-mention_count: 209
+mention_count: 218
 scorecard:
   viability: 3
   drivers: 3
@@ -39,9 +39,13 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 1
-sources_30d: 5
+sources_7d: 5
+sources_30d: 8
 recent_mentions:
+- slug: 2026-10-21-superconductivity-and-ferroelectric-orbital-magnetism-in-sem
+  title: Superconductivity and ferroelectric orbital magnetism in semimetallic rhombohedral hexalayer graphene
+  date: '2026-10-21'
+  kind: web
 - slug: 2025-26-lapedus-next-gen-ferroelectric-memory
   title: Next-Gen Ferroelectric Memory Still A Work In Progress
   date: '2026-06-23'

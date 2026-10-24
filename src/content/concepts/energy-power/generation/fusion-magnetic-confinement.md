@@ -21,11 +21,11 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 16
+mention_count: 17
 descendants: []
 last_reorg_date: '2026-05-14'
-sources_7d: 1
-sources_30d: 4
+sources_7d: 2
+sources_30d: 5
 recent_mentions:
 - slug: 2026-10-16-state-of-the-future-dispatch-16th
   title: 'State of the Future: Dispatch 16th October 2026'

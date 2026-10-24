@@ -15,10 +15,10 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - material
-mention_count: 86
+mention_count: 89
 last_reorg_date: '2026-05-13'
-sources_7d: 0
-sources_30d: 12
+sources_7d: 3
+sources_30d: 15
 recent_mentions:
 - slug: 2022-02-07-atomically-thin-materials-significantly-shrink-qubits
   title: Atomically Thin Materials Significantly Shrink Qubits

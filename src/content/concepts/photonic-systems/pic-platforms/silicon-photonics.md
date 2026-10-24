@@ -34,12 +34,12 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 200
+mention_count: 204
 descendants:
 - avalanche-photodiode
 - optical-gyroscope
-sources_7d: 2
-sources_30d: 4
+sources_7d: 3
+sources_30d: 5
 recent_mentions:
 - slug: 2026-10-12-cnt-electronics-market-research
   title: 'Carbon nanotube electronics: market, cohort and M&A research (web sweep, 82 sources)'
@@ -61,18 +61,18 @@ recent_mentions:
   title: Semi Doped — Daily Update, June 23rd 2026
   date: '2026-06-23'
   kind: web
+- slug: 2026-06-15-photonics-material-class-war-photonic-integrated-circuit
+  title: Photonic integrated circuit technology landscape 2026
+  date: '2026-06-15'
+  kind: web
 - slug: 2026-06-15-gf-investor-day-2026
   title: GlobalFoundries Investor Day 2026 (presentation)
   date: '2026-06-15'
   kind: web
-- slug: 2026-06-09-photonic-foundry-capacity-silicon-photonics-chips-the
-  title: 'Silicon Photonics Chips: The Foundry War'
-  date: '2026-06-09'
+- slug: 2026-06-15-photonics-material-class-war-thin-film-lithium-niobate-pic
+  title: Thin Film Lithium Niobate PIC Technology Landscape 2026
+  date: '2026-06-15'
   kind: web
-- slug: 2026-06-05-recursive-until-the-power-bill
-  title: Recursive, Until the Power Bill
-  date: '2026-06-05'
-  kind: substack
 neighbors: []
 ---
 **Silicon photonics builds optical circuits in the silicon device layer of CMOS wafers, and is now shipping as commercial foundry platforms whose remaining weaknesses (no Pockels effect, no native laser) are being patched by wafer-scale heterogeneous integration of lithium niobate, III-V and electronic chiplets.**

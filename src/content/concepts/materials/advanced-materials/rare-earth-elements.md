@@ -40,6 +40,7 @@ sources:
 - '[[2026-06-23-rare-earths]]'
 - '[[2026-10-12-uk-vision-2035-critical-minerals-strategy]]'
 - '[[2025-05-13-the-uphill-battle-against-chinas-rare-earths-dominance---lat]]'
+- '[[2026-02-05-this-is-how-the-us-can-become-a-player-in-rare-earth-metals]]'
 - '[[2026-10-12-eu-crma-second-call-46-projects]]'
 - '[[2026-10-12-aem-16m-magnet-free-aluminium-motors]]'
 - '[[2026-04-30-critical-materials-supply-the-perth-critical-minerals]]'

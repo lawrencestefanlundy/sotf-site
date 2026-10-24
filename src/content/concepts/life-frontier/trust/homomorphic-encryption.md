@@ -23,6 +23,7 @@ sources:
 - '[[2026-07-10-the-next-vc-meme-is]]'
 - '[[2023-04-05-interview-stijn-christiaens-ceo-of]]'
 - '[[2023-05-05-interview-rick-hao-partner-at-speedinvest]]'
+- '[[2025-12-01-the-holy-grail-of-crypto-privacy-encrypted-ethereum-fhe-livi]]'
 frontier:
 - Does modified AI silicon actually close the gap? MPX reports 20% extra area for dual-mode operation and more than 1.2x lower polynomial-multiplication latency 2026 06 16 mpx a unified systolic array for matrix and polynomial multi; what total end-to-end speedup do such changes deliver on a full CKKS inference, and would a GPU or TPU vendor accept the area and precision changes proposed in FHECore-style designs 2026 07 29 fhecore rethinking gpu microarchitecture for fully homomorph?
 - How much of the current gap is scheme-inherent versus tooling? With CKKS a decade old and no fifth generation indicated 2026 07 08 libfhe a numba based cuda python library for non rns ckks bg, is there a remaining algorithmic step change, or only compounding engineering at 1.2x-3.9x per layer?
@@ -32,7 +33,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 78
+mention_count: 80
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 3
@@ -43,13 +44,17 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 2
+sources_7d: 3
 sources_30d: 12
 recent_mentions:
 - slug: 2026-07-10-the-next-vc-meme-is
   title: The Next VC Meme Is...
   date: '2026-07-10'
   kind: substack
+- slug: 2025-12-01-the-holy-grail-of-crypto-privacy-encrypted-ethereum-fhe-livi
+  title: 'The Holy Grail of Crypto Privacy: Encrypted Ethereum, FHE & Living Forever | Rand Hindi, Zama Co-Founder'
+  date: '2025-12-01'
+  kind: web
 - slug: 2025-10-09-a-specific-theory-of-sovereign-ai
   title: A Specific Theory of Sovereign AI
   date: '2025-10-09'
@@ -73,10 +78,6 @@ recent_mentions:
 - slug: 2023-07-06-e07-decentralised-ai
   title: '🔮E07: Decentralised AI'
   date: '2023-07-06'
-  kind: substack
-- slug: 2023-06-08-three-overrated-technologies-from
-  title: '💡E03: Three Overrated Technologies from the Future Fusion, Bitcoin & LEO Internet + Ultrasound for Hibernation; Wind Power; Skeletal Editing; Carbon Pricing; & Psychedelics++'
-  date: '2023-06-08'
   kind: substack
 neighbors: []
 ---

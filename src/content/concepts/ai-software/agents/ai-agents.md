@@ -27,7 +27,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 188
+mention_count: 197
 descendants:
 - agent-identity-kya
 - agentic-ai
@@ -37,9 +37,25 @@ descendants:
 - stablecoin-clearing
 - stablecoins
 - x402
-sources_7d: 5
-sources_30d: 24
+sources_7d: 10
+sources_30d: 28
 recent_mentions:
+- slug: 2026-10-21-how-lila-sciences-ai-and-automated-labs-help-scientists-disc
+  title: How Lila Sciences’ AI and Automated Labs Help Scientists Discover New Medicines Faster
+  date: '2026-10-21'
+  kind: web
+- slug: 2026-10-21-from-prompt-to-walking-robot-with-nvidia-rtx-spark
+  title: From Prompt to Walking Robot With NVIDIA RTX Spark
+  date: '2026-10-21'
+  kind: web
+- slug: 2026-10-21-super-ai-agents-for-science-manufacturing-and-engineering-gt
+  title: Super AI Agents for Science, Manufacturing and Engineering  | GTC Berlin 2026 Edition
+  date: '2026-10-21'
+  kind: web
+- slug: 2026-10-21-introducing-nvidia-openshell-reference-architecture-for-safe
+  title: Introducing NVIDIA OpenShell Reference Architecture for Safer AI Agents
+  date: '2026-10-21'
+  kind: web
 - slug: 2026-10-15-the-changing-physics-of-cybersecurity-and-drug-development-w
   title: The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman
   date: '2026-10-15'
@@ -55,22 +71,6 @@ recent_mentions:
 - slug: 2026-09-07-how-genlayer-is-building-a-court-system-for-disputes-between
   title: How GenLayer Is Building a Court System for Disputes Between AI Agents
   date: '2026-09-07'
-  kind: web
-- slug: 2026-08-27-rethinking-legacy-data-infrastructure-with-eon-co-founders-o
-  title: Rethinking Legacy Data Infrastructure with Eon Co-Founders Ofir Ehrlich and Gonen Stein
-  date: '2026-08-27'
-  kind: web
-- slug: 2026-08-24-embedd-pre-seed-siliconangle
-  title: Chip software automation startup Embedd raises $2.7M
-  date: '2026-08-24'
-  kind: web
-- slug: 2026-08-21-arthur-hayes-on-why-ai-agents-will-want-to-transact-in-units
-  title: Arthur Hayes on Why AI Agents Will Want to Transact in Units of Compute
-  date: '2026-08-21'
-  kind: web
-- slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
-  title: Chip Industry Week in Review (7 Aug 2026)
-  date: '2026-08-07'
   kind: web
 neighbors: []
 ---

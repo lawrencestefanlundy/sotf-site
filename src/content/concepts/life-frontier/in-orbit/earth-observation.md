@@ -32,7 +32,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - category
-mention_count: 61
+mention_count: 62
 descendants: []
 last_reorg_date: '2026-05-14'
 scorecard:
@@ -44,7 +44,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 1
+sources_7d: 2
 sources_30d: 5
 recent_mentions:
 - slug: 2026-10-13-brycetech-smallsats-by-the-numbers-2026

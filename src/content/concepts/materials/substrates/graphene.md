@@ -25,10 +25,14 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 419
-sources_7d: 1
-sources_30d: 14
+mention_count: 425
+sources_7d: 2
+sources_30d: 13
 recent_mentions:
+- slug: 2026-10-21-superconductivity-and-ferroelectric-orbital-magnetism-in-sem
+  title: Superconductivity and ferroelectric orbital magnetism in semimetallic rhombohedral hexalayer graphene
+  date: '2026-10-21'
+  kind: web
 - slug: 2026-10-16-state-of-the-future-dispatch-16th
   title: 'State of the Future: Dispatch 16th October 2026'
   date: '2026-10-16'
@@ -56,10 +60,6 @@ recent_mentions:
 - slug: 2026-06-24-thermal-stack-arms-race-diamond-heat-spreaders-companies-in
   title: Diamond Heat Spreaders Companies in 2026
   date: '2026-06-24'
-  kind: web
-- slug: 2026-06-23-inbrain-graphene-first-in-human
-  title: 'InBrain Neuroelectronics: world-first-in-human graphene neural interface study, $50M Series B, FDA Breakthrough Device, Merck KGaA partnership'
-  date: '2026-06-23'
   kind: web
 neighbors: []
 ---

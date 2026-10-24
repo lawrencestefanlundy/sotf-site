@@ -15,17 +15,28 @@ sources:
 - '[[2026-05-02-xolo-applications-optics]]'
 - '[[2024-05-15-photonic-packaging-cpo-sales-of-silicon-photonics-chips]]'
 - '[[2026-05-02-continuous-volumetric-3d-printing-in-flow-adv-materials-2024]]'
+- '[[2026-01-28-photonics-material-class-war-veeco-and-imec-develop-300mm]]'
 - '[[2026-04-03-photonic-packaging-cpo-the-soitec-twin-a-massive]]'
+- '[[2026-06-15-photonics-material-class-war-photonic-integrated-circuit]]'
+- '[[2026-06-15-photonics-material-class-war-thin-film-lithium-niobate-pic]]'
 frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 17
+mention_count: 20
 last_reorg_date: '2026-05-13'
 sources_7d: 1
 sources_30d: 2
 recent_mentions:
+- slug: 2026-06-15-photonics-material-class-war-photonic-integrated-circuit
+  title: Photonic integrated circuit technology landscape 2026
+  date: '2026-06-15'
+  kind: web
+- slug: 2026-06-15-photonics-material-class-war-thin-film-lithium-niobate-pic
+  title: Thin Film Lithium Niobate PIC Technology Landscape 2026
+  date: '2026-06-15'
+  kind: web
 - slug: 2026-05-02-xolography-for-rapid-volumetric-production-adv-materials-202
   title: Xolography for rapid volumetric production (Adv. Materials 2025)
   date: '2026-05-02'
@@ -46,13 +57,9 @@ recent_mentions:
   title: The Soitec Twin? A Massive Undiscovered Foundational Photonics Play & The Fab Nobody Is Watching
   date: '2026-04-03'
   kind: web
-- slug: 2025-03-25-photonic-packaging-cpo-openlight-achieves-successful
-  title: OpenLight achieves successful completion of Telcordia GR-468 qualification for silicon photonics components
-  date: '2025-03-25'
-  kind: web
-- slug: 2024-05-15-photonic-packaging-cpo-sales-of-silicon-photonics-chips
-  title: Sales of Silicon Photonics chips will reach $3 billion by 2029
-  date: '2024-05-15'
+- slug: 2026-01-28-photonics-material-class-war-veeco-and-imec-develop-300mm
+  title: Veeco and Imec Develop 300mm Process for Barium Titanate on Silicon Photonics
+  date: '2026-01-28'
   kind: web
 neighbors: []
 ---

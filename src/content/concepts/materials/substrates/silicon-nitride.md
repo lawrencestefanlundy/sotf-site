@@ -27,9 +27,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 131
-sources_7d: 2
-sources_30d: 9
+mention_count: 136
+sources_7d: 4
+sources_30d: 11
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
@@ -43,6 +43,14 @@ recent_mentions:
   title: Trapped-ion quantum computing landscape 2026 (vendors, scale, integrated photonics)
   date: '2026-06-16'
   kind: web
+- slug: 2026-06-15-photonics-material-class-war-photonic-integrated-circuit
+  title: Photonic integrated circuit technology landscape 2026
+  date: '2026-06-15'
+  kind: web
+- slug: 2026-06-15-photonics-material-class-war-thin-film-lithium-niobate-pic
+  title: Thin Film Lithium Niobate PIC Technology Landscape 2026
+  date: '2026-06-15'
+  kind: web
 - slug: 2026-06-04-q-memory-site
   title: Q-Memory — company website (q-memory.tech)
   date: '2026-06-04'
@@ -55,14 +63,6 @@ recent_mentions:
   title: Hybrid BTO-SiN ultra-low power tuning (ACS Photonics)
   date: '2026-05-02'
   kind: web
-- slug: 2026-04-17-state-of-the-future-friday-four-67c
-  title: 'State of the Future: Friday Four'
-  date: '2026-04-17'
-  kind: substack
-- slug: 2026-04-14-the-photonic-foundry-fallacy
-  title: The Photonic Foundry Fallacy
-  date: '2026-04-14'
-  kind: substack
 neighbors: []
 ---
 **Silicon nitride is the low-loss, CMOS-compatible dielectric that has become the default waveguide layer for integrated photonics, carrying everything from soliton microcombs driving 300 GHz wireless links to 3D optical interposers and quantum photonic meshes.**

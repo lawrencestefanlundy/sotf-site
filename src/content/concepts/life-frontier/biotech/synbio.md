@@ -22,6 +22,7 @@ sources:
 - '[[2015-12-14-darpa-sbir-injectable-diagnostics-chemical-sensors-synthetic]]'
 - '[[2025-06-26-a-billion-years-of-evolution-in-a-single-afternoon-george-ch]]'
 - '[[2026-07-01-mccarty-synthetic-cell-spudcell]]'
+- '[[2023-09-28-if-dna-is-code-can-ai-help-write-it-scaling-cell-programming]]'
 frontier:
 - Does the >100,000-circuit dataset assembled with NIST LMSF produce ML models that predict integrated circuit behaviour on genuinely unseen designs, or only interpolate within the training library?
 - Is the PURE minimal information reporting standard adopted by independent laboratories, and does adoption measurably reduce cross-laboratory variance in cell-free expression?
@@ -34,7 +35,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - category
-mention_count: 41
+mention_count: 43
 descendants:
 - biocatalysis-enzyme-engineering
 last_reorg_date: '2026-05-13'
@@ -47,8 +48,8 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 7
-sources_30d: 18
+sources_7d: 8
+sources_30d: 19
 recent_mentions:
 - slug: 2026-07-01-mccarty-synthetic-cell-spudcell
   title: Synthetic Cell Eats, Grows, Divides (SpudCell)
@@ -57,6 +58,10 @@ recent_mentions:
 - slug: 2025-06-26-a-billion-years-of-evolution-in-a-single-afternoon-george-ch
   title: A billion years of evolution in a single afternoon — George Church
   date: '2025-06-26'
+  kind: web
+- slug: 2023-09-28-if-dna-is-code-can-ai-help-write-it-scaling-cell-programming
+  title: If DNA is Code, Can AI Help Write It? Scaling Cell Programming and Synthetic Biology, with Ginkgo Bioworks Co-founder and CEO Jason Kelly
+  date: '2023-09-28'
   kind: web
 - slug: 2023-08-18-e11-in-conversation-with-lux-capital
   title: '☎️ E11: In Conversation with Lux Capital on the State of the Future'

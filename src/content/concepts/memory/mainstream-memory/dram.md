@@ -29,10 +29,14 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 237
-sources_7d: 5
-sources_30d: 21
+mention_count: 241
+sources_7d: 7
+sources_30d: 20
 recent_mentions:
+- slug: 2026-09-18-using-your-older-ddr4-the-silicon-notebook-e2
+  title: Using Your Older DDR4 // The Silicon Notebook E2
+  date: '2026-09-18'
+  kind: web
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
@@ -61,10 +65,6 @@ recent_mentions:
   title: The Path To AGI Runs Through HBM
   date: '2026-07-16'
   kind: substack
-- slug: 2026-07-15-kimi-k3-launch-moonshot
-  title: Kimi K3 — Moonshot launch post (architecture, quantisation, serving requirements)
-  date: '2026-07-15'
-  kind: web
 neighbors: []
 ---
 **DRAM is the volatile main-memory technology that every computer and AI accelerator depends on, and because its bandwidth has grown roughly 100x while peak compute grew about 60,000x over two decades, it is now the binding constraint on machine learning inference rather than a solved commodity **2024 Gholami Ai And Memory Wall**.**

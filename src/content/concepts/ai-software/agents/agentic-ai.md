@@ -24,8 +24,6 @@ sources:
 - '[[2026-03-25-fog-computing-middleware-agentic-ai-rewriting-the-rules-of]]'
 - '[[2026-03-23-data-value-migrates-to-retrieval-layer-memory-is-the-new]]'
 - '[[2026-04-15-agentic-ai-foundation-linux]]'
-- '[[2026-02-05-semianalysis-claude-code-inflection]]'
-- '[[2026-06-02-agentic-runtime-silicon-necessity]]'
 scorecard:
   viability: 3
   drivers: 4
@@ -35,10 +33,14 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 130
-sources_7d: 5
-sources_30d: 18
+mention_count: 135
+sources_7d: 8
+sources_30d: 19
 recent_mentions:
+- slug: 2026-10-09-agentic-ai-and-why-everyone-wants-cpus-again
+  title: Agentic AI and Why Everyone Wants CPUs Again
+  date: '2026-10-09'
+  kind: web
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
@@ -66,10 +68,6 @@ recent_mentions:
 - slug: 2026-06-18-re-engineering-the-semiconductor-supply-chain-with-intel-ceo
   title: Re-engineering the Semiconductor Supply Chain with Intel CEO Lip-Bu Tan
   date: '2026-06-18'
-  kind: web
-- slug: 2026-06-02-agentic-runtime-silicon-necessity
-  title: Deep-research dossier — does the stateful agent runtime / control-plane layer need a novel silicon primitive?
-  date: '2026-06-02'
   kind: web
 neighbors: []
 ---

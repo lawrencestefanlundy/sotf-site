@@ -22,7 +22,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 88
+mention_count: 89
 last_reorg_date: '2026-05-13'
 descendants: []
 scorecard:
@@ -34,7 +34,7 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
+sources_7d: 1
 sources_30d: 8
 recent_mentions:
 - slug: 2026-10-12-cnt-electronics-market-research

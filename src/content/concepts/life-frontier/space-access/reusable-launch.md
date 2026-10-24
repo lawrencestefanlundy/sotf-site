@@ -8,17 +8,22 @@ parent_concepts:
 - life-frontier
 - space-access
 related_concepts: []
-sources: []
+sources:
+- '[[2025-09-29-starships-tenth-flight-test]]'
 frontier: []
 last_updated: '2026-05-04'
 tags:
 - concept
 - technology
-mention_count: 2
+mention_count: 3
 last_reorg_date: '2026-05-14'
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2025-09-29-starships-tenth-flight-test
+  title: Starship's Tenth Flight Test
+  date: '2025-09-29'
+  kind: web
 neighbors: []
 ---
 ## Physics / mechanism

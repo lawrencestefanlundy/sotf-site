@@ -31,7 +31,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 432
+mention_count: 439
 sources_7d: 1
 sources_30d: 8
 recent_mentions:
@@ -55,6 +55,10 @@ recent_mentions:
   title: 'Catalyst sweep: AI decoding, new sensing modalities, non-invasive deep stimulation, payment pathways (neuro, Oct 2026)'
   date: '2026-10-07'
   kind: web
+- slug: 2026-09-18-the-next-memory-frontier-the-silicon-notebook-e3
+  title: The Next Memory Frontier // The Silicon Notebook E3
+  date: '2026-09-18'
+  kind: web
 - slug: 2026-08-13-a-neutral-diamond-defect
   title: A Neutral Diamond Defect
   date: '2026-08-13'
@@ -63,10 +67,6 @@ recent_mentions:
   title: Chip Industry Week in Review (7 Aug 2026)
   date: '2026-08-07'
   kind: web
-- slug: 2026-07-24-the-huggingface-incident
-  title: The HuggingFace Incident
-  date: '2026-07-24'
-  kind: substack
 neighbors:
 - slug: wide-bandgap-semiconductors
   name: Wide-Bandgap Semiconductors

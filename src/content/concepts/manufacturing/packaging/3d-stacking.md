@@ -15,12 +15,13 @@ sources:
 - '[[2023-09-08-e14-the-real-ai-bottleneck-high-bandwidth]]'
 - '[[2024-yole-emerging-memories-2024]]'
 - '[[2026-01-13-semianalysis-interconnects-beyond-copper]]'
+- '[[2026-10-09-agentic-ai-and-why-everyone-wants-cpus-again]]'
 auto_stub: true
 last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 25
+mention_count: 26
 frontier:
 - Where does the die-cost minimum identified by Walker actually fall for current deck-stacked architectures, and has the industry already passed it at 321 layers?
 - Does positive-threshold engineering, for example ferroelectric layer thinning, raise 3D FeNOR stacking density enough to matter, or does sneak current cap monolithic 3D emerging memory at a commercially uninteresting layer count?
@@ -40,8 +41,12 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 0
+sources_30d: 1
 recent_mentions:
+- slug: 2026-10-09-agentic-ai-and-why-everyone-wants-cpus-again
+  title: Agentic AI and Why Everyone Wants CPUs Again
+  date: '2026-10-09'
+  kind: web
 - slug: 2026-01-13-semianalysis-interconnects-beyond-copper
   title: Interconnects Beyond Copper, 1,000 CFETs, SK Hynix Next-Gen NAND, 2D Materials, and More
   date: '2026-01-13'

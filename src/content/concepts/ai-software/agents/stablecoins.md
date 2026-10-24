@@ -40,6 +40,7 @@ sources:
 - '[[2026-06-23-mastercard-ap4m-launch]]'
 - '[[2026-07-31-4mica-update-verification]]'
 - '[[2026-08-06-4mica-base-mainnet-onchain-verification]]'
+- '[[2025-12-01-the-holy-grail-of-crypto-privacy-encrypted-ethereum-fhe-livi]]'
 - '[[2026-02-05-ai-on-ethereum-erc-8004-x402-openclaw-and-the-botconomy-aust]]'
 frontier:
 - Does Open USD accumulate real float, or is it a press release with 140 logos and no supply?
@@ -49,9 +50,9 @@ frontier:
 last_updated: 2026-07-21
 tags:
 - concept
-mention_count: 31
+mention_count: 32
 sources_7d: 2
-sources_30d: 3
+sources_30d: 2
 recent_mentions:
 - slug: 2026-09-22-coinbase-full-stack-agent-payments
   title: Coinbase across the agent/stablecoin payments stack (agentic wallets, Payment APIs, x402, Bedrock AgentCore)

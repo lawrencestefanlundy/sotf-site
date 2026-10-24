@@ -41,7 +41,7 @@ frontier:
 - Can 100 pm perturbation control be held across a full-aperture array in a repeatable fabrication process, and what is the yield?
 - What is the measured phase and amplitude range per element, and is it sufficient for the claimed holography and photonic neural network applications?
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions: []
 neighbors: []
 ---

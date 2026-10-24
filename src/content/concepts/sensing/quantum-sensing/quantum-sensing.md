@@ -15,7 +15,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 219
+mention_count: 221
 descendants:
 - atomic-clocks
 - nv-diamond-sensing
@@ -34,7 +34,7 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-sources_7d: 2
+sources_7d: 4
 sources_30d: 9
 recent_mentions:
 - slug: 2026-10-19-light-and-mirrors-move-large-quantum-computers-closer-to-rea

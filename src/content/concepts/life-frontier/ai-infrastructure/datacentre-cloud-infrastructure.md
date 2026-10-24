@@ -33,6 +33,10 @@ scorecard_status: draft
 sources_7d: 0
 sources_30d: 0
 recent_mentions:
+- slug: 2026-10-22-why-ai-compute-comes-in-rectangles-erik-bernhardsson-modal-c
+  title: Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO
+  date: '2026-10-22'
+  kind: web
 - slug: 2026-10-21-ai-factories-that-use-less-power-and-water-built-in-days-nvi
   title: AI Factories That Use Less Power and Water, Built in Days | NVIDIA DSX
   date: '2026-10-21'
@@ -59,10 +63,6 @@ recent_mentions:
   kind: web
 - slug: 2026-10-15-tech-giants-want-clean-energy-in-nc-is-duke-finally-ready-to
   title: Tech giants want clean energy in N.C. Is Duke finally ready to help?
-  date: '2026-10-15'
-  kind: web
-- slug: 2026-10-15-a-new-class-of-batteries-helps-data-centers-play-nicely-with
-  title: A new class of batteries helps data centers play nicely with the grid
   date: '2026-10-15'
   kind: web
 neighbors: []

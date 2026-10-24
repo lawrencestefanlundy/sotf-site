@@ -17,6 +17,7 @@ sources:
 - '[[2024-yole-power-gan-2024]]'
 - '[[2026-05-26-semianalysis-800vdc-revolution]]'
 - '[[2024-omdia-power-electronics-forecast]]'
+- '[[2026-10-22-vantage-and-heron-power-electronics-announce-gigawatt-scale-]]'
 - '[[2026-02-19-the-rise-of-grid-power-electronics-with-drew-baglino---latit]]'
 - '[[2026-07-26-humanoid-duty-cycle-thermal-constraint]]'
 - '[[2026-09-02-vertical-power-delivery-thermal-limits]]'
@@ -29,7 +30,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 73
+mention_count: 74
 descendants:
 - ai-power-delivery
 - aluminium-gallium-nitride
@@ -46,9 +47,13 @@ descendants:
 - solid-state-circuit-breakers
 - vertical-gan
 - wireless-power-transfer
-sources_7d: 0
+sources_7d: 1
 sources_30d: 4
 recent_mentions:
+- slug: 2026-10-22-vantage-and-heron-power-electronics-announce-gigawatt-scale-
+  title: Vantage and Heron Power Electronics announce gigawatt-scale 800 VDC agreement to accelerate AI infrastructure delivery - Latitude Media
+  date: '2026-10-22'
+  kind: web
 - slug: 2026-10-21-ai-factories-that-use-less-power-and-water-built-in-days-nvi
   title: AI Factories That Use Less Power and Water, Built in Days | NVIDIA DSX
   date: '2026-10-21'
@@ -76,10 +81,6 @@ recent_mentions:
 - slug: 2026-09-02-vertical-power-delivery-thermal-limits
   title: 'Vertical power delivery: the thermal limit at the 48V-to-point-of-load stage'
   date: '2026-09-02'
-  kind: web
-- slug: 2026-07-26-humanoid-duty-cycle-thermal-constraint
-  title: 'What actually limits a humanoid to minutes: the thermal cliff, not the battery'
-  date: '2026-07-26'
   kind: web
 neighbors: []
 ---

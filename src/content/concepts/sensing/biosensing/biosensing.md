@@ -12,6 +12,9 @@ sources:
 - '[[2026-02-02-photonic-engines-for-data-centers]]'
 - '[[2026-06-04-magnetoresistive-gmr-mtj-biosensor-turbid-samples]]'
 - '[[2026-06-04-tmr-sensors-sub-pt-detectivity-biomagnetic-review]]'
+- '[[2026-01-28-photonics-material-class-war-veeco-and-imec-develop-300mm]]'
+- '[[2026-06-15-photonics-material-class-war-photonic-integrated-circuit]]'
+- '[[2026-06-15-photonics-material-class-war-thin-film-lithium-niobate-pic]]'
 scorecard:
   viability: 3
   drivers: 4
@@ -21,7 +24,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 61
+mention_count: 64
 descendants:
 - biosensors
 sources_7d: 0
@@ -35,6 +38,14 @@ recent_mentions:
   title: That’s a learning curve mate, not RSI
   date: '2026-07-03'
   kind: substack
+- slug: 2026-06-15-photonics-material-class-war-photonic-integrated-circuit
+  title: Photonic integrated circuit technology landscape 2026
+  date: '2026-06-15'
+  kind: web
+- slug: 2026-06-15-photonics-material-class-war-thin-film-lithium-niobate-pic
+  title: Thin Film Lithium Niobate PIC Technology Landscape 2026
+  date: '2026-06-15'
+  kind: web
 - slug: 2026-06-13-pw-consulting-cnt-gas-sensors-market-report-mill
   title: 'PW Consulting: carbon nanotube gas sensors $149.5M 2025, $173M 2026, $447M 2032, 16.9% CAGR (report mill, contrast only)'
   date: '2026-06-13'
@@ -50,10 +61,6 @@ recent_mentions:
 - slug: 2026-02-02-photonic-engines-for-data-centers
   title: Photonic "Engines" for Data Centers
   date: '2026-02-02'
-  kind: substack
-- slug: 2023-07-23-analog-computing-the-once-and-future
-  title: '🔮 E09: Analog Computing: The Once and Future King'
-  date: '2023-07-23'
   kind: substack
 neighbors: []
 ---

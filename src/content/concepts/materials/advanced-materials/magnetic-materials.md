@@ -31,8 +31,8 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 7
+sources_7d: 1
+sources_30d: 8
 recent_mentions:
 - slug: 2026-10-13-optical-skyrmions-can-control-the-motion-of-magnetic-skyrmio
   title: Optical skyrmions can control the motion of magnetic skyrmions

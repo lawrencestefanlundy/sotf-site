@@ -25,6 +25,7 @@ sources:
 - '[[2026-04-24-thermal-stack-arms-race-global-thermal-management-market-to]]'
 - '[[2026-04-10-thermal-stack-arms-race-liquid-cooling-for-ai-data-centers]]'
 - '[[2024-yole-thermal-management-2024]]'
+- '[[2024-05-05-the-extravehicular-activity-eva-suit]]'
 - '[[2026-07-26-humanoid-duty-cycle-thermal-constraint]]'
 - '[[2026-04-01-ai-power-thermal-binding-market-projection-35-of-new-ai]]'
 - '[[2025-08-19-thermal-stack-arms-race-thermal-interface-materials-market]]'
@@ -39,7 +40,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 114
+mention_count: 116
 descendants:
 - ai-thermal-management
 - cryogenic-cooling
@@ -63,7 +64,7 @@ descendants:
 - tim-approach-map
 - two-phase-cooling
 - vapor-chambers
-sources_7d: 1
+sources_7d: 2
 sources_30d: 4
 recent_mentions:
 - slug: 2026-09-02-vertical-power-delivery-thermal-limits

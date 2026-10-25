@@ -34,7 +34,7 @@ sources:
 mention_count: 23
 descendants:
 - non-invasive-neural-recording-modalities
-sources_7d: 2
+sources_7d: 1
 sources_30d: 2
 recent_mentions:
 - slug: 2026-06-23-inbrain-graphene-first-in-human

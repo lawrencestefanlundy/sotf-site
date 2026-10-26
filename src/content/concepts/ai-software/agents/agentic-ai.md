@@ -33,8 +33,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 135
-sources_7d: 8
+mention_count: 134
+sources_7d: 6
 sources_30d: 19
 recent_mentions:
 - slug: 2026-10-09-agentic-ai-and-why-everyone-wants-cpus-again

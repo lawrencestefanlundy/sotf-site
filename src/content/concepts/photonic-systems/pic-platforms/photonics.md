@@ -52,7 +52,7 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-mention_count: 1249
+mention_count: 1250
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics

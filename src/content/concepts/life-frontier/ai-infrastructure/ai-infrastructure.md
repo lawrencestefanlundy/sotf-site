@@ -53,7 +53,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 147
+mention_count: 149
 descendants:
 - ai-grade-datacentre-real-estate
 - ai-infrastructure-scaling
@@ -64,7 +64,7 @@ descendants:
 - moe-all-to-all-collectives
 - prefill-vs-decode
 - sovereign-ai
-sources_7d: 3
+sources_7d: 2
 sources_30d: 8
 recent_mentions:
 - slug: 2026-10-22-vantage-and-heron-power-electronics-announce-gigawatt-scale-

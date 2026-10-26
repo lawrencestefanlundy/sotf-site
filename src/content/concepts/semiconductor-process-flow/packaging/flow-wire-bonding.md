@@ -19,7 +19,7 @@ sources:
 mention_count: 23
 parent_concepts:
 - packaging
-sources_7d: 1
+sources_7d: 0
 sources_30d: 1
 recent_mentions:
 - slug: 2023-08-31-e13-chiplets-how-chip-lego-is-driving

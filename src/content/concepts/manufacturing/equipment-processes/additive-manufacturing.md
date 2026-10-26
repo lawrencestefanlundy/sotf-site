@@ -28,7 +28,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 69
+mention_count: 70
 descendants:
 - metal-additive-manufacturing
 last_reorg_date: '2026-05-13'

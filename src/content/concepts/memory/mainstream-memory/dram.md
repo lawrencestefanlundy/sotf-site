@@ -29,8 +29,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 241
-sources_7d: 7
+mention_count: 242
+sources_7d: 3
 sources_30d: 20
 recent_mentions:
 - slug: 2026-09-18-using-your-older-ddr4-the-silicon-notebook-e2

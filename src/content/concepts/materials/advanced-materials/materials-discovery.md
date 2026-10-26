@@ -32,7 +32,7 @@ descendants:
 - arpes
 - electron-scale-metrology
 - stm
-sources_7d: 5
+sources_7d: 4
 sources_30d: 16
 recent_mentions:
 - slug: 2026-10-13-marketus-ai-materials-discovery-report-mill

@@ -27,7 +27,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 197
+mention_count: 199
 descendants:
 - agent-identity-kya
 - agentic-ai
@@ -37,7 +37,7 @@ descendants:
 - stablecoin-clearing
 - stablecoins
 - x402
-sources_7d: 10
+sources_7d: 7
 sources_30d: 28
 recent_mentions:
 - slug: 2026-10-21-how-lila-sciences-ai-and-automated-labs-help-scientists-disc

@@ -29,7 +29,7 @@ tags:
 - sensing
 - tactile
 mention_count: 18
-sources_7d: 9
+sources_7d: 5
 sources_30d: 12
 recent_mentions:
 - slug: 2026-07-13-humanoid-actuator-supply-chain-chinese-dexterous-hands-in

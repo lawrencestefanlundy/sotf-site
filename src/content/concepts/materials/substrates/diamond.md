@@ -31,8 +31,8 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 439
-sources_7d: 1
+mention_count: 440
+sources_7d: 0
 sources_30d: 8
 recent_mentions:
 - slug: 2026-10-18-hybrid-diamond-chip-strengthens-interactions-between-light-a

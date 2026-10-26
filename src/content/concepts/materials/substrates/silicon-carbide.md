@@ -34,7 +34,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 70
-sources_7d: 1
+sources_7d: 0
 sources_30d: 5
 recent_mentions:
 - slug: 2026-10-13-liquid-metal-dealloying-creates-nanoporous-silicon-carbide-a

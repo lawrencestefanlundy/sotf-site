@@ -27,7 +27,7 @@ tags:
 - data
 - sensors
 mention_count: 4
-sources_7d: 2
+sources_7d: 1
 sources_30d: 4
 recent_mentions: []
 neighbors:

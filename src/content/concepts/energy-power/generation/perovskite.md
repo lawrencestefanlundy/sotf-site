@@ -32,7 +32,7 @@ scorecard:
   timing_band: Later (5-10yr)
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 151
+mention_count: 152
 sources_7d: 6
 sources_30d: 13
 recent_mentions:

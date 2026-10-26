@@ -34,7 +34,7 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-sources_7d: 4
+sources_7d: 3
 sources_30d: 9
 recent_mentions:
 - slug: 2026-10-19-light-and-mirrors-move-large-quantum-computers-closer-to-rea

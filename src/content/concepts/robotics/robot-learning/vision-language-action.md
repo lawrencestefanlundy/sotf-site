@@ -17,7 +17,7 @@ frontier:
 - Can trigger-word backdoors be detected from model weights or activations without access to the training set, and at what false-positive rate?
 - Are targeted misbehaviours (grasping the wrong object, moving to an unsafe pose) achievable at the same poison ratios as denial of service, or do they require more poisoned episodes?
 - What provenance or attestation mechanism for community-contributed episodes on platforms such as LeRobot reduces attack success rate, and by how much?
-sources_7d: 3
+sources_7d: 2
 sources_30d: 3
 recent_mentions: []
 neighbors: []

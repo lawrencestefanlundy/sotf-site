@@ -22,8 +22,8 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-mention_count: 144
-sources_7d: 4
+mention_count: 145
+sources_7d: 3
 sources_30d: 11
 recent_mentions:
 - slug: 2026-10-15-the-changing-physics-of-cybersecurity-and-drug-development-w

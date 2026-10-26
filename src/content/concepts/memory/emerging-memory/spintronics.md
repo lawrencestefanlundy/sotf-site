@@ -21,7 +21,7 @@ descendants:
 sources:
 - '[[2026-09-03-a-quantum-filter-for-improved-spintronics]]'
 mention_count: 104
-sources_7d: 9
+sources_7d: 6
 sources_30d: 15
 recent_mentions:
 - slug: 2026-09-23-arxiv-benchmarking-the-generalized-kadanoff-baym-ansatz-and-second

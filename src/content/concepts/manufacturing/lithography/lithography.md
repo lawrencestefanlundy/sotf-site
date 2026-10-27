@@ -52,7 +52,7 @@ descendants:
 - two-photon-polymerization
 - x-ray-lithography
 - xolography
-sources_7d: 2
+sources_7d: 1
 sources_30d: 6
 recent_mentions:
 - slug: 2026-10-20-the-lithography-lever

@@ -33,7 +33,7 @@ scorecard:
   verdict: Too early to say
 scorecard_status: draft
 mention_count: 152
-sources_7d: 6
+sources_7d: 5
 sources_30d: 13
 recent_mentions:
 - slug: 2026-10-08-volatile-eutectics-to-tailor-crystallization-for-perovskite-

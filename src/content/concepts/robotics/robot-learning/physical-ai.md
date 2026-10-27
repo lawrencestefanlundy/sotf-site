@@ -66,7 +66,7 @@ descendants:
 - tactile-sensing
 - vision-language-action-models
 - world-models
-sources_7d: 13
+sources_7d: 12
 sources_30d: 28
 recent_mentions:
 - slug: 2026-10-20-reservoir-farms-expands-to-pacific-northwest-to-accelerate-p

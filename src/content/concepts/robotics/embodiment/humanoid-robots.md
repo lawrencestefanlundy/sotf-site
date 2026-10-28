@@ -33,7 +33,7 @@ scorecard:
   verdict: Overrated
 scorecard_status: draft
 mention_count: 197
-sources_7d: 33
+sources_7d: 22
 sources_30d: 76
 recent_mentions:
 - slug: 2026-10-22-take-ten-thousand-egocentric-data-collection-for-humanoid-ro

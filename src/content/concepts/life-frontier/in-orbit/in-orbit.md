@@ -33,7 +33,7 @@ descendants:
 - radiation-shielding
 - sar-satellites
 - space-communications
-sources_7d: 2
+sources_7d: 1
 sources_30d: 9
 recent_mentions:
 - slug: 2026-10-14-exclusive-in-orbit-aerospace-pivots-from-re-entry-vehicles-t

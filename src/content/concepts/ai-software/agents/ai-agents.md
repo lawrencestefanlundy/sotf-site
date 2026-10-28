@@ -37,7 +37,7 @@ descendants:
 - stablecoin-clearing
 - stablecoins
 - x402
-sources_7d: 7
+sources_7d: 5
 sources_30d: 28
 recent_mentions:
 - slug: 2026-10-21-how-lila-sciences-ai-and-automated-labs-help-scientists-disc

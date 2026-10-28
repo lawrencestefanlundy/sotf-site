@@ -35,7 +35,7 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-sources_7d: 2
+sources_7d: 0
 sources_30d: 2
 recent_mentions:
 - slug: 2025-12-01-the-holy-grail-of-crypto-privacy-encrypted-ethereum-fhe-livi

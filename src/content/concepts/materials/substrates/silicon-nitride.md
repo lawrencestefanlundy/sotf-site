@@ -28,7 +28,7 @@ scorecard:
   verdict: Underrated
 scorecard_status: draft
 mention_count: 136
-sources_7d: 3
+sources_7d: 2
 sources_30d: 11
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026

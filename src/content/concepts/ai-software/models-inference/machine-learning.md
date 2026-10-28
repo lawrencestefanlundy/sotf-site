@@ -51,7 +51,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 1156
-sources_7d: 3
+sources_7d: 2
 sources_30d: 17
 recent_mentions:
 - slug: 2026-10-16-state-of-the-future-dispatch-16th

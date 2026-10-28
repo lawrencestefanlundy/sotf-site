@@ -19,7 +19,7 @@ frontier:
 - How fast is mode switching between the four jamming modes, in microseconds or pulse repetition intervals, and does the transient betray the jammer to a coherent receiver?
 - Against which specific counter-countermeasure algorithms has the asymmetric time-frequency-coupled waveform been tested, and what reduction in detection or discrimination probability was measured?
 - Does the monolithic chip include the laser, modulators and photodetection on-die, and what are the resulting power consumption, thermal tuning stability and packaged-module volume?
-sources_7d: 1
+sources_7d: 0
 sources_30d: 1
 recent_mentions: []
 neighbors: []

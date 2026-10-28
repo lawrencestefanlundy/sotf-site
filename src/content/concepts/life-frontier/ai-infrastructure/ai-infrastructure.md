@@ -64,7 +64,7 @@ descendants:
 - moe-all-to-all-collectives
 - prefill-vs-decode
 - sovereign-ai
-sources_7d: 2
+sources_7d: 1
 sources_30d: 8
 recent_mentions:
 - slug: 2026-10-22-vantage-and-heron-power-electronics-announce-gigawatt-scale-

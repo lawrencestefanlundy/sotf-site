@@ -18,7 +18,7 @@ sources:
 - '[[2026-04-15-semianalysis-isscc-2026]]'
 - '[[2026-06-22-tim-approaches-full-sweep]]'
 mention_count: 27
-sources_7d: 2
+sources_7d: 1
 sources_30d: 6
 recent_mentions:
 - slug: 2026-10-01-more-details-on-broadcoms-beast-xpu

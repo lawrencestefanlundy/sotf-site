@@ -47,7 +47,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 53
-sources_7d: 2
+sources_7d: 1
 sources_30d: 5
 recent_mentions:
 - slug: 2026-10-21-ai-factories-that-use-less-power-and-water-built-in-days-nvi

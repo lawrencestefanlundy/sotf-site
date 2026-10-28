@@ -17,7 +17,7 @@ tags:
 - concept
 - redirect
 mention_count: 31
-sources_7d: 2
+sources_7d: 1
 sources_30d: 7
 recent_mentions:
 - slug: 2026-05-30-intel-optoscribe-acquisition

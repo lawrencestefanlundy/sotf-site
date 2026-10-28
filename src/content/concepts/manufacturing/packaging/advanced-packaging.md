@@ -41,8 +41,8 @@ descendants:
 - heterogeneous-integration
 - micro-transfer-printing
 - osat
-sources_7d: 1
-sources_30d: 7
+sources_7d: 0
+sources_30d: 6
 recent_mentions:
 - slug: 2026-10-16-the-fastest-arm-cpu-is-an-ibm-mainframe
   title: The Fastest Arm CPU Is... An IBM Mainframe?

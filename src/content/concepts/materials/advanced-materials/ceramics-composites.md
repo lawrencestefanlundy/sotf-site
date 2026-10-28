@@ -62,9 +62,9 @@ recent_mentions:
   title: Surging CNT Capacity Enables Applications Beyond Li-ion Batteries
   date: '2023-11-22'
   kind: web
-- slug: 2021-05-06-weav3d-awarded-nsf-funding-to-further-develop-next-generatio
-  title: WEAV3D awarded NSF funding to further develop next-generation composite forming machine - Design World
-  date: '2021-05-06'
+- slug: 2026-10-12-rice-cnt-fibres-4-2gpa-textile-world
+  title: No Limit Yet For Carbon Nanotube Fibers
+  date: '2021-02-25'
   kind: web
 neighbors:
 - slug: carbon-nanotubes

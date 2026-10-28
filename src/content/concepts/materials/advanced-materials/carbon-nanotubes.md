@@ -34,7 +34,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 48
-sources_7d: 3
+sources_7d: 1
 sources_30d: 8
 recent_mentions:
 - slug: 2026-10-13-inderes-canatu-quote-eur-5-33-cap-eur-186m

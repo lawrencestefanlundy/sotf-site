@@ -26,7 +26,7 @@ scorecard:
   verdict: Too early to say
 scorecard_status: draft
 mention_count: 425
-sources_7d: 2
+sources_7d: 1
 sources_30d: 13
 recent_mentions:
 - slug: 2026-10-21-superconductivity-and-ferroelectric-orbital-magnetism-in-sem

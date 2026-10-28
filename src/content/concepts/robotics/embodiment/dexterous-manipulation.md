@@ -26,7 +26,7 @@ tags:
 - robotics
 - manipulation
 mention_count: 30
-sources_7d: 8
+sources_7d: 5
 sources_30d: 28
 recent_mentions:
 - slug: 2026-05-15-robot-autonomy-destination-rlwrld-releases-rldx-1-a

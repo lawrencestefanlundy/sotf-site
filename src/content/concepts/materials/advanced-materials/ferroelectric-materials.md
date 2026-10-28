@@ -39,7 +39,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 5
+sources_7d: 4
 sources_30d: 8
 recent_mentions:
 - slug: 2026-10-21-superconductivity-and-ferroelectric-orbital-magnetism-in-sem

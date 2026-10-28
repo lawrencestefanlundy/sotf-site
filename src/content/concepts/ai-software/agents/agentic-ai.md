@@ -34,8 +34,8 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 mention_count: 134
-sources_7d: 6
-sources_30d: 19
+sources_7d: 3
+sources_30d: 18
 recent_mentions:
 - slug: 2026-10-09-agentic-ai-and-why-everyone-wants-cpus-again
   title: Agentic AI and Why Everyone Wants CPUs Again

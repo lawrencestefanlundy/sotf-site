@@ -44,7 +44,7 @@ mention_count: 35
 descendants:
 - token-cost-stack
 sources_7d: 1
-sources_30d: 7
+sources_30d: 6
 recent_mentions:
 - slug: 2026-08-14-chip-tail-verification-sweep
   title: 'Chip-comparison tail verification sweep: 37 companies re-verified, consolidation wave confirmed'

@@ -7,13 +7,14 @@ parent_concepts:
 - advanced-materials
 - materials
 related_concepts: []
-sources: []
+sources:
+- '[[2026-03-10-fungible-compute-mortal-computing]]'
 auto_stub: true
 last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 145
+mention_count: 146
 frontier:
 - Can printed metal chalcogenides reach useful carrier mobility with inorganic additives replacing the organic surfactants that leave insulating residues, and what performance penalty remains versus vapour-grown films 2026 05 18 nsf 2542773 career manipulating the interfacial stru?
 - Does geometric confinement actually yield single-crystal 2D semiconductors on amorphous glass, and over what area and with what defect density 2026 07 06 nsf 2544157 career activating glass direct growth of?
@@ -44,6 +45,10 @@ recent_mentions:
   title: A Direct Algebraic Approach to Normal Ordering of Exponential Bosonic Operators with Applications to Two-Dimensional Excitonic Form Factors
   date: '2026-09-15'
   kind: paper
+- slug: 2026-03-10-fungible-compute-mortal-computing
+  title: Fungible Compute, Mortal Computing and Why the IoT won't use Silicon
+  date: '2026-03-10'
+  kind: substack
 neighbors: []
 ---
 **Semiconductor materials is the engineering layer beneath every chip, detector and solar cell, and the 2026 research record shows the active frontier has moved off bulk silicon towards doping-engineered oxides, halide perovskites, atomically thin and printed chalcogenide semiconductors, plus the contact-free metrology and simulation tools needed to qualify them.**

@@ -38,7 +38,7 @@ mention_count: 204
 descendants:
 - avalanche-photodiode
 - optical-gyroscope
-sources_7d: 1
+sources_7d: 0
 sources_30d: 5
 recent_mentions:
 - slug: 2026-10-12-cnt-electronics-market-research

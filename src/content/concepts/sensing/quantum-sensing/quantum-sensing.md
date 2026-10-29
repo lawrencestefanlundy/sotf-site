@@ -15,7 +15,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 221
+mention_count: 224
 descendants:
 - atomic-clocks
 - nv-diamond-sensing
@@ -35,7 +35,7 @@ scorecard:
   verdict: ''
 scorecard_status: draft
 sources_7d: 2
-sources_30d: 9
+sources_30d: 11
 recent_mentions:
 - slug: 2026-10-19-light-and-mirrors-move-large-quantum-computers-closer-to-rea
   title: Light and mirrors move large quantum computers closer to reality

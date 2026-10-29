@@ -9,6 +9,7 @@ parent_concepts:
 related_concepts: []
 sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
+- '[[2026-03-10-fungible-compute-mortal-computing]]'
 - '[[2026-07-07-the-asml-killer]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 auto_stub: true
@@ -16,18 +17,22 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 11
+mention_count: 12
 frontier:
 - What are the measured die-to-chip coupling losses and alignment tolerances for the SPAD-array-to-silica-waveguide interface, and do they hold across a full wafer-scale or pick-and-place assembly run 2026 06 05 hybrid integrated ingaasinp spad arrays for quantum communic?
 - How does hybrid SPAD receiver performance (detection efficiency, dark count rate, secure key rate) compare quantitatively with cryogenic superconducting receiver chips at the same wavelength?
 - What is the end-to-end optical efficiency and steering-angle-dependent loss budget of the PIC-plus-metasurface stack, and how stable is alignment under thermal cycling and vibration?
 - Does ion-implanted gain in silicon nitride scale to output powers and pulse energies competitive with hybrid III-V bonding, and at what implantation dose and waveguide length?
-sources_7d: 1
+sources_7d: 0
 sources_30d: 1
 recent_mentions:
 - slug: 2026-07-07-the-asml-killer
   title: The ASML Killer?
   date: '2026-07-07'
+  kind: substack
+- slug: 2026-03-10-fungible-compute-mortal-computing
+  title: Fungible Compute, Mortal Computing and Why the IoT won't use Silicon
+  date: '2026-03-10'
   kind: substack
 - slug: 2025-12-09-gallium-nitride-photonics-w-james
   title: Gallium Nitride + Photonics w/ James Lee of Wave Photonics

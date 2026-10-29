@@ -42,7 +42,7 @@ descendants:
 - micro-transfer-printing
 - osat
 sources_7d: 0
-sources_30d: 6
+sources_30d: 5
 recent_mentions:
 - slug: 2026-10-16-the-fastest-arm-cpu-is-an-ibm-mainframe
   title: The Fastest Arm CPU Is... An IBM Mainframe?

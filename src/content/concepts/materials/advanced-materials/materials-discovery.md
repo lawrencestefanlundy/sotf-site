@@ -27,13 +27,13 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 80
+mention_count: 81
 descendants:
 - arpes
 - electron-scale-metrology
 - stm
-sources_7d: 2
-sources_30d: 16
+sources_7d: 1
+sources_30d: 17
 recent_mentions:
 - slug: 2026-10-13-marketus-ai-materials-discovery-report-mill
   title: 'Market.us AI in Materials Discovery Market: $536.4M 2024 to $5.58B 2034, 26.4% CAGR (report mill, contrast only)'

@@ -22,8 +22,8 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 160
-sources_7d: 7
+mention_count: 161
+sources_7d: 5
 sources_30d: 18
 recent_mentions:
 - slug: 2026-08-03-spad-single-photon-market-scan

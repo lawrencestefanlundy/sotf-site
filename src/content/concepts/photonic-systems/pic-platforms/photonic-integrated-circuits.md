@@ -9,6 +9,7 @@ parent_concepts:
 - pic-platforms
 related_concepts: []
 sources:
+- '[[2026-03-10-fungible-compute-mortal-computing]]'
 - '[[2025-04-16-the-state-of-photonic-computing]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
@@ -30,7 +31,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 140
+mention_count: 141
 last_reorg_date: '2026-05-13'
 descendants:
 - avalanche-photodiode
@@ -49,7 +50,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 1
+sources_7d: 0
 sources_30d: 6
 recent_mentions:
 - slug: 2026-10-19-light-and-mirrors-move-large-quantum-computers-closer-to-rea

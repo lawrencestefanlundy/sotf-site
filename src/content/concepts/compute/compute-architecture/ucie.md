@@ -37,7 +37,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 1
+sources_30d: 0
 recent_mentions:
 - slug: 2026-09-29-faster-is-better-the-silicon-notebook-e4
   title: Faster is Better // The Silicon Notebook E4

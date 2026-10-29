@@ -16,6 +16,7 @@ sources:
 - '[[2025-10-09-a-specific-theory-of-sovereign-ai]]'
 - '[[2026-04-14-the-photonic-foundry-fallacy]]'
 - '[[2024-10-29-deploy-intelligence-too-cheap-to]]'
+- '[[2026-10-23-black-october]]'
 - '[[2024-11-12-atomic-energy-can-nuclear-power-our]]'
 - '[[2024-10-22-state-of-the-future-part-deux]]'
 - '[[2026-05-01-state-of-the-future-friday-four-7b7]]'
@@ -42,8 +43,6 @@ sources:
 - '[[2026-10-22-vantage-and-heron-power-electronics-announce-gigawatt-scale-]]'
 - '[[2025-10-21-frontier-forum-the-new-power-map-for-ai-infrastructure---lat]]'
 - '[[2024-08-29-cloud-strategy-in-the-ai-era-with-matt-garman-ceo-of-aws]]'
-- '[[2026-09-01-eu-taiwan-chip-dialogue-targets-ai-infrastructure-partnershi]]'
-- '[[2026-06-27-rack-power-delivery-silicon-reed-semiconductor-raises-100]]'
 scorecard:
   viability: 4
   drivers: 5
@@ -53,7 +52,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 149
+mention_count: 151
 descendants:
 - ai-grade-datacentre-real-estate
 - ai-infrastructure-scaling
@@ -64,9 +63,13 @@ descendants:
 - moe-all-to-all-collectives
 - prefill-vs-decode
 - sovereign-ai
-sources_7d: 1
-sources_30d: 8
+sources_7d: 2
+sources_30d: 10
 recent_mentions:
+- slug: 2026-10-23-black-october
+  title: Black October
+  date: '2026-10-23'
+  kind: substack
 - slug: 2026-10-22-vantage-and-heron-power-electronics-announce-gigawatt-scale-
   title: Vantage and Heron Power Electronics announce gigawatt-scale 800 VDC agreement to accelerate AI infrastructure delivery - Latitude Media
   date: '2026-10-22'
@@ -94,10 +97,6 @@ recent_mentions:
 - slug: 2026-07-08-why-ai-infrastructure-must-evolve-for-agent-experience-aksha
   title: Why AI Infrastructure must evolve for Agent Experience — Akshat Bubna, Modal CTO
   date: '2026-07-08'
-  kind: web
-- slug: 2026-06-27-rack-power-delivery-silicon-reed-semiconductor-raises-100
-  title: Reed Semiconductor Raises $100 Million To Scale AI Infrastructure Power Solutions
-  date: '2026-06-27'
   kind: web
 neighbors: []
 ---

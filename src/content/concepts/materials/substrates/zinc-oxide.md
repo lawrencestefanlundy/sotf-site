@@ -13,7 +13,8 @@ related_concepts:
 - zinc-selenide
 - aluminium-oxide
 - piezoelectric
-sources: []
+sources:
+- '[[2026-03-10-fungible-compute-mortal-computing]]'
 frontier:
 - Can Ga2O3 displace ZnO for power electronics entirely, or does ZnO's lower cost and native-substrate advantage preserve a wedge in visible LED and UV sensing?
 - Does transparent conductive ZnO (AZO, GZO) hold its position against ITO alternatives in flexible/large-area displays as indium prices rise — or does PEDOT:PSS or CNT displace both?
@@ -21,10 +22,14 @@ frontier:
 last_updated: '2026-06-02'
 tags:
 - concept
-mention_count: 10
+mention_count: 11
 sources_7d: 0
 sources_30d: 0
-recent_mentions: []
+recent_mentions:
+- slug: 2026-03-10-fungible-compute-mortal-computing
+  title: Fungible Compute, Mortal Computing and Why the IoT won't use Silicon
+  date: '2026-03-10'
+  kind: substack
 neighbors:
 - slug: gallium-oxide
   name: Gallium Oxide (Ga2O3)

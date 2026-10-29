@@ -25,9 +25,9 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 240
-sources_7d: 14
-sources_30d: 46
+mention_count: 259
+sources_7d: 13
+sources_30d: 51
 recent_mentions:
 - slug: 2026-10-21-from-prompt-to-walking-robot-with-nvidia-rtx-spark
   title: From Prompt to Walking Robot With NVIDIA RTX Spark

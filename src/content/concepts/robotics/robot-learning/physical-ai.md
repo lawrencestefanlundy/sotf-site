@@ -56,7 +56,7 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 149
+mention_count: 151
 descendants:
 - dexterous-manipulation
 - humanoid-robots
@@ -66,8 +66,8 @@ descendants:
 - tactile-sensing
 - vision-language-action-models
 - world-models
-sources_7d: 9
-sources_30d: 28
+sources_7d: 5
+sources_30d: 30
 recent_mentions:
 - slug: 2026-10-20-reservoir-farms-expands-to-pacific-northwest-to-accelerate-p
   title: Reservoir Farms expands to Pacific Northwest to accelerate physical AI

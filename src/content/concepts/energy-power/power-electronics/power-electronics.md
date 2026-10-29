@@ -30,7 +30,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Underrated
 scorecard_status: draft
-mention_count: 75
+mention_count: 76
 descendants:
 - ai-power-delivery
 - aluminium-gallium-nitride
@@ -48,7 +48,7 @@ descendants:
 - vertical-gan
 - wireless-power-transfer
 sources_7d: 1
-sources_30d: 4
+sources_30d: 5
 recent_mentions:
 - slug: 2026-10-22-vantage-and-heron-power-electronics-announce-gigawatt-scale-
   title: Vantage and Heron Power Electronics announce gigawatt-scale 800 VDC agreement to accelerate AI infrastructure delivery - Latitude Media

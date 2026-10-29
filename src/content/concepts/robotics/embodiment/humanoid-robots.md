@@ -18,11 +18,6 @@ sources:
 - '[[2026-05-08-consensus-capital-national-ai-stacks]]'
 - '[[2025-04-30-has-the-time-come-to-take-mortal]]'
 - '[[2026-02-20-four-things-friday-575]]'
-- '[[2026-06-08-semianalysis-unitree-robotics]]'
-- '[[2026-06-19-humanoid-actuator-supply-chain-china-s-dexterous-hand-boom]]'
-- '[[2025-10-28-humanoid-robot-market-chinese-humanoid-pricing-collapse-and]]'
-- '[[2026-08-31-bullish-on-automation-and-robotics-but-not-humanoid-robots-s]]'
-- '[[2026-10-22-take-ten-thousand-egocentric-data-collection-for-humanoid-ro]]'
 scorecard:
   viability: 3
   drivers: 4
@@ -32,9 +27,9 @@ scorecard:
   timing_band: Soon (2-5yr)
   verdict: Overrated
 scorecard_status: draft
-mention_count: 197
-sources_7d: 22
-sources_30d: 76
+mention_count: 206
+sources_7d: 20
+sources_30d: 84
 recent_mentions:
 - slug: 2026-10-22-take-ten-thousand-egocentric-data-collection-for-humanoid-ro
   title: 'Take Ten-Thousand: Egocentric Data Collection for Humanoid Robots'

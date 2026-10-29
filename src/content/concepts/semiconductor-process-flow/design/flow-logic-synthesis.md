@@ -14,9 +14,10 @@ tags:
 - semiconductor
 sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
+- '[[2026-03-10-fungible-compute-mortal-computing]]'
 - '[[2025-09-10-uk-opportunity-in-ai-compound-semiconductors]]'
 - '[[2026-05-12-semianalysis-eda-rtl-to-silicon]]'
-mention_count: 21
+mention_count: 22
 parent_concepts:
 - flow-rtl-design
 sources_7d: 0
@@ -26,6 +27,10 @@ recent_mentions:
   title: 'The EDA Primer: From RTL to Silicon'
   date: '2026-05-12'
   kind: web
+- slug: 2026-03-10-fungible-compute-mortal-computing
+  title: Fungible Compute, Mortal Computing and Why the IoT won't use Silicon
+  date: '2026-03-10'
+  kind: substack
 - slug: 2025-11-25-carbon-nanotubes-in-the-datacentre
   title: Carbon Nanotubes in the Datacentre
   date: '2025-11-25'

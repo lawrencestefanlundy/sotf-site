@@ -14,6 +14,7 @@ related_concepts:
 - edge-inference
 sources:
 - '[[2026-08-07-the-memory-trade-isnt-over-weights]]'
+- '[[2026-10-23-black-october]]'
 - '[[2026-07-17-the-once-and-future-kimi]]'
 - '[[2026-07-16-the-path-to-agi-runs-through-hbm]]'
 - '[[2025-10-23-data-value-migrates-to-retrieval-layer-agentic-databases]]'
@@ -36,10 +37,14 @@ frontier:
 last_updated: 2026-07-29
 tags:
 - concept
-mention_count: 102
-sources_7d: 4
+mention_count: 103
+sources_7d: 3
 sources_30d: 25
 recent_mentions:
+- slug: 2026-10-23-black-october
+  title: Black October
+  date: '2026-10-23'
+  kind: substack
 - slug: 2026-08-07-the-memory-trade-isnt-over-weights
   title: 'The Memory Trade Isn''t Over: Weights and KV Cache'
   date: '2026-08-07'
@@ -67,10 +72,6 @@ recent_mentions:
 - slug: 2026-07-07-high-bandwidth-flash-the-full-report
   title: 'High Bandwidth Flash: The Full Report'
   date: '2026-07-07'
-  kind: web
-- slug: 2026-06-18-sensifai-hybrids-deck
-  title: SensifAI — Funding Round deck (sensifai.vercel.app/hybrids)
-  date: '2026-06-18'
   kind: web
 neighbors:
 - slug: inference

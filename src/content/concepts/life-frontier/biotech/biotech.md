@@ -22,7 +22,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 42
+mention_count: 43
 descendants:
 - 3d-bioprinting-platforms
 - 3d-printed-bioscaffolds
@@ -63,8 +63,8 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 2
+sources_7d: 1
+sources_30d: 3
 recent_mentions:
 - slug: 2026-08-20-from-restoring-sight-to-reimagining-the-brain-with-max-hodak
   title: From Restoring Sight to Reimagining the Brain, with Max Hodak

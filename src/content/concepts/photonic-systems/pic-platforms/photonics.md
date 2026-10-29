@@ -21,6 +21,7 @@ sources:
 - '[[2025-11-25-carbon-nanotubes-in-the-datacentre]]'
 - '[[2023-07-14-e08-optical-computing]]'
 - '[[2026-04-22-detecting-proteins-in-blood-with]]'
+- '[[2026-03-10-fungible-compute-mortal-computing]]'
 - '[[2024-12-16-willow-and-the-race-to-quantum-advantage]]'
 - '[[2026-04-14-the-photonic-foundry-fallacy]]'
 - '[[2024-12-04-cubits-in-a-fridge-why-is-nobody]]'
@@ -52,7 +53,7 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-mention_count: 1250
+mention_count: 1252
 descendants:
 - diffractive-deep-neural-network
 - free-space-photonics

@@ -11,6 +11,7 @@ related_concepts: []
 sources:
 - '[[2025-01-07-fund-frontier-expeditions-otherwise]]'
 - '[[2023-05-25-interview-ben-mildenhall-co-inventor]]'
+- '[[2026-03-10-fungible-compute-mortal-computing]]'
 - '[[2026-07-07-the-asml-killer]]'
 - '[[2026-08-03-spad-single-photon-market-scan]]'
 - '[[2026-07-13-semiengineering-startup-funding-q2-2026]]'
@@ -23,7 +24,7 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-mention_count: 34
+mention_count: 35
 descendants:
 - ar-glasses-stack
 - ar-optical-combiners
@@ -41,6 +42,10 @@ recent_mentions:
 - slug: 2026-07-07-the-asml-killer
   title: The ASML Killer?
   date: '2026-07-07'
+  kind: substack
+- slug: 2026-03-10-fungible-compute-mortal-computing
+  title: Fungible Compute, Mortal Computing and Why the IoT won't use Silicon
+  date: '2026-03-10'
   kind: substack
 - slug: 2025-01-07-fund-frontier-expeditions-otherwise
   title: Fund Frontier Expeditions otherwise just buy the "Magnificent Seven"

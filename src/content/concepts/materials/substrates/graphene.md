@@ -25,9 +25,9 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 425
-sources_7d: 1
-sources_30d: 13
+mention_count: 428
+sources_7d: 2
+sources_30d: 14
 recent_mentions:
 - slug: 2026-10-21-superconductivity-and-ferroelectric-orbital-magnetism-in-sem
   title: Superconductivity and ferroelectric orbital magnetism in semimetallic rhombohedral hexalayer graphene

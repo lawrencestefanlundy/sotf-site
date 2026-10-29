@@ -29,7 +29,7 @@ tags:
 - substrate
 - reference
 mention_count: 17
-sources_7d: 2
+sources_7d: 1
 sources_30d: 3
 recent_mentions:
 - slug: 2026-06-02-agentic-runtime-silicon-necessity

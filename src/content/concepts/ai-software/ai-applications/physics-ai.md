@@ -25,9 +25,9 @@ tags:
 - concept
 descendants:
 - neural-operators
-mention_count: 14
-sources_7d: 0
-sources_30d: 0
+mention_count: 15
+sources_7d: 1
+sources_30d: 1
 recent_mentions:
 - slug: 2026-09-01-physics-ai-incumbent-consolidation-and-horizontal-repricing
   title: 'Physics AI: the two structural facts — Synopsys closed Ansys, and PhysicsX repriced at ~$2.4B'

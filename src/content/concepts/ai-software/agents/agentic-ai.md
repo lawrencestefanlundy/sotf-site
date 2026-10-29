@@ -23,7 +23,6 @@ sources:
 - '[[2026-05-01-semianalysis-ai-value-capture-model-labs]]'
 - '[[2026-03-25-fog-computing-middleware-agentic-ai-rewriting-the-rules-of]]'
 - '[[2026-03-23-data-value-migrates-to-retrieval-layer-memory-is-the-new]]'
-- '[[2026-04-15-agentic-ai-foundation-linux]]'
 scorecard:
   viability: 3
   drivers: 4
@@ -33,7 +32,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 134
+mention_count: 135
 sources_7d: 3
 sources_30d: 18
 recent_mentions:

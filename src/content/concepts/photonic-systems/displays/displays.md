@@ -9,6 +9,7 @@ parent_concepts:
 - displays
 related_concepts: []
 sources:
+- '[[2026-03-10-fungible-compute-mortal-computing]]'
 - '[[2026-07-07-the-asml-killer]]'
 - '[[2026-07-10-the-next-vc-meme-is]]'
 - '[[2026-06-15-barry-silverstein-rochester-cxr]]'
@@ -24,7 +25,7 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-mention_count: 138
+mention_count: 140
 descendants:
 - ar-glasses-stack
 - ar-optical-combiners
@@ -38,7 +39,7 @@ descendants:
 - microled
 - oled
 sources_7d: 1
-sources_30d: 7
+sources_30d: 8
 recent_mentions:
 - slug: 2026-08-07-chip-industry-week-in-review-7-aug-2026
   title: Chip Industry Week in Review (7 Aug 2026)
@@ -64,6 +65,10 @@ recent_mentions:
   title: Luminate NY OPI accelerator — terms and structure
   date: '2026-06-15'
   kind: web
+- slug: 2026-03-10-fungible-compute-mortal-computing
+  title: Fungible Compute, Mortal Computing and Why the IoT won't use Silicon
+  date: '2026-03-10'
+  kind: substack
 - slug: 2022-09-13-itzehoe-based-oqmented-developing-tiny-mirrors-for-smart-gla
   title: Itzehoe-based Oqmented developing tiny mirrors for smart glasses - Hamburg Business
   date: '2022-09-13'

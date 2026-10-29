@@ -27,6 +27,7 @@ sources:
 - '[[2023-06-30-e06-the-model-t-moment-for-bits-llms]]'
 - '[[2023-05-25-interview-ben-mildenhall-co-inventor]]'
 - '[[2026-04-22-detecting-proteins-in-blood-with]]'
+- '[[2026-03-10-fungible-compute-mortal-computing]]'
 - '[[2024-11-20-nuclear-fusion-the-state-of-play]]'
 - '[[2024-12-16-willow-and-the-race-to-quantum-advantage]]'
 - '[[2023-07-23-analog-computing-the-once-and-future]]'
@@ -50,9 +51,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 1156
-sources_7d: 2
-sources_30d: 17
+mention_count: 1170
+sources_7d: 1
+sources_30d: 16
 recent_mentions:
 - slug: 2026-10-16-state-of-the-future-dispatch-16th
   title: 'State of the Future: Dispatch 16th October 2026'

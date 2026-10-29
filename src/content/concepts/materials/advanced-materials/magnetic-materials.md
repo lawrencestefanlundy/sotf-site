@@ -20,7 +20,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - material
-mention_count: 49
+mention_count: 50
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 3
@@ -32,7 +32,7 @@ scorecard:
   verdict: Too early to say
 scorecard_status: draft
 sources_7d: 1
-sources_30d: 8
+sources_30d: 9
 recent_mentions:
 - slug: 2026-10-13-optical-skyrmions-can-control-the-motion-of-magnetic-skyrmio
   title: Optical skyrmions can control the motion of magnetic skyrmions

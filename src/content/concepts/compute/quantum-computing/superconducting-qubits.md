@@ -14,8 +14,6 @@ sources:
 - '[[2024-12-04-cubits-in-a-fridge-why-is-nobody]]'
 - '[[2026-01-07-d-wave-acquires-quantum-circuits]]'
 - '[[2022-02-07-atomically-thin-materials-significantly-shrink-qubits]]'
-- '[[2025-09-18-qphox-and-rigetti-awarded-58m-contract-from-afrl-to-enable-o]]'
-- '[[2026-06-12-hku-sic-cryogenic-neuromorphic-chip-10mk]]'
 frontier:
 - Does the superfluid-density dissipation bound represent a genuine floor for transmon coherence, or can material or geometry choices circumvent the trapped-quasiparticle channel it attributes the loss to 2026 05 04 universal bound on microwave dissipation in superconducting ?
 - How common are TLS defects that couple to two or more qubits at once, and do the resulting correlated, non-Markovian error patterns break the independence assumptions of standard error-correction thresholds 2026 05 28 non local and non markovian effects of a microscopic two lev?
@@ -26,7 +24,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 119
+mention_count: 122
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 4
@@ -37,8 +35,8 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 12
+sources_7d: 3
+sources_30d: 15
 recent_mentions:
 - slug: 2026-06-12-hku-sic-cryogenic-neuromorphic-chip-10mk
   title: HKU world-first cryogenic neuromorphic chip at 10 mK (silicon carbide, impact-ionisation spiking)

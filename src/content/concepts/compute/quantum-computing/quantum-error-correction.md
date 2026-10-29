@@ -20,9 +20,9 @@ scorecard:
   timing_band: Unclear
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 293
-sources_7d: 3
-sources_30d: 13
+mention_count: 295
+sources_7d: 2
+sources_30d: 14
 recent_mentions:
 - slug: 2026-07-07-oratomic-300m-series-a
   title: Oratomic raises $300M Series A for fault-tolerant neutral-atom quantum computers

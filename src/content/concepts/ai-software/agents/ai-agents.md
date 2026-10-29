@@ -16,6 +16,7 @@ sources:
 - '[[2025-01-15-the-end-of-zero-marginal-costs-the]]'
 - '[[2026-05-08-consensus-capital-national-ai-stacks]]'
 - '[[2025-05-15-young-people-cant-get-jobs-now-what]]'
+- '[[2026-10-23-black-october]]'
 - '[[2026-02-13-four-things-friday]]'
 - '[[2026-02-20-four-things-friday-575]]'
 scorecard:
@@ -27,7 +28,7 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 199
+mention_count: 203
 descendants:
 - agent-identity-kya
 - agentic-ai
@@ -37,9 +38,13 @@ descendants:
 - stablecoin-clearing
 - stablecoins
 - x402
-sources_7d: 5
-sources_30d: 28
+sources_7d: 6
+sources_30d: 31
 recent_mentions:
+- slug: 2026-10-23-black-october
+  title: Black October
+  date: '2026-10-23'
+  kind: substack
 - slug: 2026-10-21-how-lila-sciences-ai-and-automated-labs-help-scientists-disc
   title: How Lila Sciences’ AI and Automated Labs Help Scientists Discover New Medicines Faster
   date: '2026-10-21'
@@ -67,10 +72,6 @@ recent_mentions:
 - slug: 2026-09-25-swarm-scaling
   title: Swarm Scaling
   date: '2026-09-25'
-  kind: web
-- slug: 2026-09-07-how-genlayer-is-building-a-court-system-for-disputes-between
-  title: How GenLayer Is Building a Court System for Disputes Between AI Agents
-  date: '2026-09-07'
   kind: web
 neighbors: []
 ---

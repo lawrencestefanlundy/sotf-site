@@ -18,6 +18,7 @@ sources:
 - '[[2025-09-23-the-compute-gradient]]'
 - '[[2023-06-23-e05-the-future-of-edge-ai-brain-inspired]]'
 - '[[2026-08-07-the-memory-trade-isnt-over-weights]]'
+- '[[2026-03-10-fungible-compute-mortal-computing]]'
 - '[[2023-07-23-analog-computing-the-once-and-future]]'
 - '[[2026-07-17-the-once-and-future-kimi]]'
 - '[[2026-07-16-the-path-to-agi-runs-through-hbm]]'
@@ -40,7 +41,7 @@ tags:
 - semron
 - memcapacitor
 - product-brand
-mention_count: 68
+mention_count: 69
 scorecard:
   viability: 2
   drivers: 3
@@ -81,9 +82,9 @@ recent_mentions:
   title: 'Compute-in-memory landscape 2026: efficiency claims, the digital-readout shift, IDM PIM'
   date: '2026-06-16'
   kind: web
-- slug: 2025-09-23-the-compute-gradient
-  title: The Compute Gradient
-  date: '2025-09-23'
+- slug: 2026-03-10-fungible-compute-mortal-computing
+  title: Fungible Compute, Mortal Computing and Why the IoT won't use Silicon
+  date: '2026-03-10'
   kind: substack
 neighbors:
 - slug: memcapacitor

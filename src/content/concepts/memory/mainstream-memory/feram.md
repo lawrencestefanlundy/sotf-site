@@ -22,7 +22,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 206
+mention_count: 207
 last_reorg_date: '2026-05-14'
 descendants:
 - fefet
@@ -35,7 +35,7 @@ scorecard:
   timing_band: Unclear
   verdict: Too early to say
 scorecard_status: draft
-sources_7d: 4
+sources_7d: 2
 sources_30d: 8
 recent_mentions:
 - slug: 2026-10-21-superconductivity-and-ferroelectric-orbital-magnetism-in-sem

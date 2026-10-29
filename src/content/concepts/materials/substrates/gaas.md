@@ -15,9 +15,9 @@ sources:
 - '[[2026-07-11-neutral-pdk-heterogeneous-integration-landscape]]'
 - '[[2026-06-15-photonics-material-class-war-photonic-integrated-circuit]]'
 - '[[2026-06-15-photonics-material-class-war-thin-film-lithium-niobate-pic]]'
-mention_count: 100
-sources_7d: 1
-sources_30d: 6
+mention_count: 101
+sources_7d: 2
+sources_30d: 7
 recent_mentions:
 - slug: 2026-07-11-neutral-pdk-heterogeneous-integration-landscape
   title: Neutral PDK / EDA layer for heterogeneous photonic integration — landscape check (Scintil essay correction research)

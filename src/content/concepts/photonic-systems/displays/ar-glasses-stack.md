@@ -39,9 +39,9 @@ sources:
 - '[[2026-10-12-wardsauto-hyperion-cnt-fuel-systems-2002]]'
 - '[[2026-05-12-semianalysis-eda-rtl-to-silicon]]'
 - '[[2026-05-21-semianalysis-eda-market-primer]]'
-mention_count: 32
-sources_7d: 0
-sources_30d: 3
+mention_count: 33
+sources_7d: 1
+sources_30d: 4
 recent_mentions:
 - slug: 2026-07-10-the-next-vc-meme-is
   title: The Next VC Meme Is...

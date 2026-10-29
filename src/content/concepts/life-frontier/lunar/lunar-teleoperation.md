@@ -11,15 +11,20 @@ parent_concepts:
 - lunar
 related_concepts: []
 sources:
+- '[[2026-03-10-fungible-compute-mortal-computing]]'
 - '[[2026-05-30-intel-optoscribe-acquisition]]'
 last_updated: '2026-06-13'
 tags:
 - concept
 - redirect
-mention_count: 31
+mention_count: 32
 sources_7d: 1
 sources_30d: 7
 recent_mentions:
+- slug: 2026-03-10-fungible-compute-mortal-computing
+  title: Fungible Compute, Mortal Computing and Why the IoT won't use Silicon
+  date: '2026-03-10'
+  kind: substack
 - slug: 2026-05-30-intel-optoscribe-acquisition
   title: Intel Acquires Optoscribe (3D glass photonics, Livingston, Scotland)
   date: '2022-01-27'

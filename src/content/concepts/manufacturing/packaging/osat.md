@@ -54,7 +54,7 @@ tags:
 - category
 - packaging
 - supply-chain
-mention_count: 136
+mention_count: 135
 scorecard:
   viability: 4
   drivers: 4

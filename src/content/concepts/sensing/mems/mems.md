@@ -41,7 +41,7 @@ descendants:
 - nems
 - sensors
 - spectral-sensing
-sources_7d: 1
+sources_7d: 0
 sources_30d: 2
 recent_mentions:
 - slug: 2026-09-29-tech-to-replace-animal-testing-is-almost-ready-scientists-ar

@@ -17,6 +17,7 @@ sources:
 - '[[2026-03-26-sotf-interview-dorian-haci-mintneuro]]'
 - '[[2023-08-31-e13-chiplets-how-chip-lego-is-driving]]'
 - '[[2025-11-05-consensus-capital]]'
+- '[[2026-03-10-fungible-compute-mortal-computing]]'
 - '[[2026-04-14-the-photonic-foundry-fallacy]]'
 - '[[2026-05-08-consensus-capital-national-ai-stacks]]'
 - '[[2024-12-04-cubits-in-a-fridge-why-is-nobody]]'
@@ -47,7 +48,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 839
+mention_count: 800
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: 5
@@ -59,7 +60,7 @@ scorecard:
   verdict: Fairly rated
 scorecard_status: draft
 sources_7d: 0
-sources_30d: 2
+sources_30d: 1
 recent_mentions:
 - slug: 2026-10-12-cnt-electronics-market-research
   title: 'Carbon nanotube electronics: market, cohort and M&A research (web sweep, 82 sources)'

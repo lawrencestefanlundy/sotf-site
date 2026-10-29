@@ -11,6 +11,7 @@ related_concepts: []
 sources:
 - '[[2026-05-22-category-3-ai-x-xr-the-glasses-stack]]'
 - '[[2026-04-17-state-of-the-future-friday-four-67c]]'
+- '[[2026-03-10-fungible-compute-mortal-computing]]'
 - '[[2025-10-09-a-specific-theory-of-sovereign-ai]]'
 - '[[2026-05-08-consensus-capital-national-ai-stacks]]'
 - '[[2026-04-28-making-ai-inference-cheap-with-analog]]'
@@ -25,7 +26,7 @@ last_updated: '2026-05-04'
 tags:
 - concept
 - framework
-mention_count: 44
+mention_count: 45
 last_reorg_date: '2026-05-13'
 sources_7d: 0
 sources_30d: 8
@@ -58,10 +59,10 @@ recent_mentions:
   title: 'State of the Future: Friday Four'
   date: '2026-04-17'
   kind: substack
-- slug: 2026-03-08-diamonds-are-semiconductors-best-friend
-  title: Diamonds are Semiconductors' Best Friend 2026
-  date: '2026-03-08'
-  kind: web
+- slug: 2026-03-10-fungible-compute-mortal-computing
+  title: Fungible Compute, Mortal Computing and Why the IoT won't use Silicon
+  date: '2026-03-10'
+  kind: substack
 neighbors: []
 ---
 ## Physics / mechanism

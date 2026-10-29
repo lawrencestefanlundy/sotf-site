@@ -24,7 +24,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - technology
-mention_count: 21
+mention_count: 22
 last_reorg_date: '2026-05-13'
 scorecard:
   viability: null
@@ -35,8 +35,8 @@ scorecard:
   timing_band: Unclear
   verdict: ''
 scorecard_status: draft
-sources_7d: 0
-sources_30d: 2
+sources_7d: 1
+sources_30d: 3
 recent_mentions:
 - slug: 2025-12-01-the-holy-grail-of-crypto-privacy-encrypted-ethereum-fhe-livi
   title: 'The Holy Grail of Crypto Privacy: Encrypted Ethereum, FHE & Living Forever | Rand Hindi, Zama Co-Founder'

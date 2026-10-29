@@ -11,9 +11,9 @@ sources:
 - '[[2025-12-09-gallium-nitride-photonics-w-james]]'
 - '[[2026-06-11-a-new-approach-to-designing-rf-power-amplifiers-for-modern-m]]'
 - '[[2026-06-11-darpa-threads-the-needle-on-thermal-barriers-to-rf-power---d]]'
-mention_count: 14
+mention_count: 15
 sources_7d: 1
-sources_30d: 2
+sources_30d: 3
 recent_mentions:
 - slug: 2026-06-11-a-new-approach-to-designing-rf-power-amplifiers-for-modern-m
   title: A New Approach to Designing RF Power Amplifiers for Modern Military Systems - Tech Briefs

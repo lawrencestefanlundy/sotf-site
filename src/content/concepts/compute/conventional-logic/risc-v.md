@@ -35,8 +35,6 @@ sources:
 - '[[2025-10-09-risc-v-open-silicon-share-risc-v-summit-2025-keynote-risc-v]]'
 - '[[2026-10-12-cnt-electronics-market-research]]'
 - '[[2026-08-27-risc-v-open-silicon-share-risc-v-in-2026-25-market-share]]'
-- '[[2026-09-16-this-is-why-i-love-my-job]]'
-- '[[2026-05-21-semianalysis-eda-market-primer]]'
 scorecard:
   viability: 4
   drivers: 3
@@ -46,9 +44,9 @@ scorecard:
   timing_band: Now (0-2yr)
   verdict: Fairly rated
 scorecard_status: draft
-mention_count: 139
-sources_7d: 0
-sources_30d: 14
+mention_count: 141
+sources_7d: 2
+sources_30d: 16
 recent_mentions:
 - slug: 2026-10-16-uneec-site
   title: UNEEC Systems GmbH — company site (uneec.eu), incl. imprint

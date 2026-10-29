@@ -12,7 +12,7 @@ last_updated: '2026-08-31'
 tags:
 - concept
 - auto-stub
-mention_count: 1
+mention_count: 2
 descendants:
 - 22fdx
 - algorithm-to-silicon
@@ -32,8 +32,8 @@ frontier:
 - Does the trained manifold transfer between foundry rule decks with different minimum feature and spacing values, or must a new generative model be trained per process?
 - Have manifold-derived designs been fabricated and characterised, with measured DRC clean rates and measured versus simulated spectra reported?
 - How does the approach extend beyond planar silicon photonic components to multi-layer stacks, curvilinear rule sets, and non-photonic layouts?
-sources_7d: 0
-sources_30d: 0
+sources_7d: 1
+sources_30d: 1
 recent_mentions: []
 neighbors: []
 ---

@@ -7,6 +7,7 @@
 //   STRIPE_SECRET_KEY   restricted key, read-only Customers + Subscriptions
 //   RESEND_API_KEY
 //   MEMBER_ALLOWLIST    optional, comma-separated emails (author, comped readers)
+//   DIGEST_SECRET       openssl rand -hex 32; the nightly script sends it to trigger the Monday digest
 // See docs/MEMBERS-SETUP.md.
 {
   "$schema": "node_modules/wrangler/config-schema.json",

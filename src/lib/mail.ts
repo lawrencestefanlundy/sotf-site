@@ -1,15 +1,28 @@
 /**
- * Magic-link email via Resend's REST API (no SDK in the Worker bundle).
+ * Email via Resend's REST API (no SDK in the Worker bundle).
  * MAIL_FROM must be on a domain verified in Resend, e.g. members@stateofthefuture.io.
  */
 import type { Env } from "../env";
 
-export async function sendMagicLink(env: Env, to: string, link: string): Promise<boolean> {
+export type Mail = { to: string; subject: string; text: string; html: string; headers?: Record<string, string> };
+
+export async function sendEmail(env: Env, mail: Mail): Promise<boolean> {
   if (!env.RESEND_API_KEY) {
-    console.error("RESEND_API_KEY not set; magic link not sent");
+    console.error("RESEND_API_KEY not set; email not sent");
     return false;
   }
   const from = env.MAIL_FROM ?? "State of the Future <members@stateofthefuture.io>";
+  const res = await fetch("https://api.resend.com/emails", {
+    method: "POST",
+    headers: { Authorization: `Bearer ${env.RESEND_API_KEY}`, "Content-Type": "application/json" },
+    body: JSON.stringify({ from, ...mail }),
+    signal: AbortSignal.timeout(10000),
+  });
+  if (!res.ok) console.error("Resend", res.status, await res.text().catch(() => ""));
+  return res.ok;
+}
+
+export async function sendMagicLink(env: Env, to: string, link: string): Promise<boolean> {
   const text = [
     "Your sign-in link for State of the Future:",
     "",
@@ -28,13 +41,5 @@ export async function sendMagicLink(env: Env, to: string, link: string): Promise
     <p style="font-size:13px;line-height:1.5;word-break:break-all;margin:0 0 22px"><a href="${link}" style="color:#1E1B18">${link}</a></p>
     <p style="font-size:13px;line-height:1.5;color:#1E1B1899;margin:0">If you did not ask for this, ignore it — nobody can sign in without the link.</p>
   </div></body></html>`;
-
-  const res = await fetch("https://api.resend.com/emails", {
-    method: "POST",
-    headers: { Authorization: `Bearer ${env.RESEND_API_KEY}`, "Content-Type": "application/json" },
-    body: JSON.stringify({ from, to, subject: "Your sign-in link — State of the Future", text, html }),
-    signal: AbortSignal.timeout(10000),
-  });
-  if (!res.ok) console.error("Resend", res.status, await res.text().catch(() => ""));
-  return res.ok;
+  return sendEmail(env, { to, subject: "Your sign-in link — State of the Future", text, html });
 }

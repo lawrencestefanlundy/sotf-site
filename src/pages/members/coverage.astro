@@ -1,0 +1,95 @@
+---
+/**
+ * /members/coverage/ — an honest map of the corpus: per macro and meso, how many
+ * concepts are scored, drafted, unscored or stubs, and which unscored concepts
+ * the sources cite most (the scoring queue). Gated by middleware.
+ */
+export const prerender = false;
+
+import Base from "../../layouts/Base.astro";
+import { MACROS, MESOS } from "../../data/taxonomy";
+import { getEnv } from "../../env";
+import { getMemberIndex, type MemberEntry, type Status } from "../../lib/members";
+
+const index = await getMemberIndex(getEnv());
+const all = index?.concepts ?? [];
+const STATUSES: Status[] = ["scored", "draft", "unscored", "stub"];
+
+type Tally = Record<Status, number> & { total: number };
+const tally = (list: MemberEntry[]): Tally => {
+  const t = { scored: 0, draft: 0, unscored: 0, stub: 0, total: list.length } as Tally;
+  for (const c of list) t[c.status]++;
+  return t;
+};
+const overall = tally(all);
+const byMacro = MACROS.map((m) => {
+  const list = all.filter((c) => c.macro === m.slug);
+  const mesos = MESOS.filter((x) => x.macroSlug === m.slug).map((x) => {
+    const l = list.filter((c) => c.meso === x.slug);
+    return { ...x, tally: tally(l), gaps: l.filter((c) => c.status === "unscored" || c.status === "stub") };
+  }).filter((x) => x.tally.total > 0);
+  return { ...m, tally: tally(list), mesos };
+}).filter((m) => m.tally.total > 0);
+
+const queue = all.filter((c) => c.status === "unscored").sort((a, b) => b.sources_30d - a.sources_30d || a.name.localeCompare(b.name)).slice(0, 30);
+const pct = (n: number, d: number) => (d ? Math.round((100 * n) / d) : 0);
+---
+
+<Base title="Coverage — members" noindex={true}>
+  <div class="breadcrumb" data-pagefind-ignore>
+    <a href="/">Now</a> &nbsp;/&nbsp; <a href="/members/" data-astro-prefetch="false">Members</a> &nbsp;/&nbsp; Coverage
+  </div>
+
+  <p class="members-kicker">Members' edition</p>
+  <h1>Coverage</h1>
+  <p class="lede" style="max-width:76ch">{overall.total} concepts: {overall.scored} scored, {overall.draft} draft, {overall.unscored} unscored, {overall.stub} stubs. A scored technology has the full members' edition; a draft is scored but unreviewed; unscored has a reference page and no call yet; a stub is a placeholder. The scoring queue is where the next calls come from.</p>
+
+  <div class="cov-bar" aria-label="Overall coverage">
+    {STATUSES.map((s) => overall[s] > 0 && <span class={`is-${s}`} style={`width:${pct(overall[s], overall.total)}%`} title={`${s}: ${overall[s]}`}></span>)}
+  </div>
+  <p class="meta cov-legend">{STATUSES.map((s) => <span><i class={`swatch is-${s}`}></i>{s} {pct(overall[s], overall.total)}%</span>)}</p>
+
+  <section>
+    <h2>Scoring queue <span class="meta">most-cited unscored concepts</span></h2>
+    <p class="meta" style="margin-bottom:.75rem">Ranked by public sources in the last 30 days. Each name links to the reference page; the line under it says what the page is about.</p>
+    <ol class="queue-list">
+      {queue.map((c) => (
+        <li>
+          <a href={`/${c.path}/`}>{c.name}</a>
+          <span class="meta"> {c.sources_30d} source{c.sources_30d === 1 ? "" : "s"} · 30d</span>
+          {c.summary && <span class="link-blurb">{c.summary}</span>}
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  {byMacro.map((m) => (
+    <section class="cov-macro">
+      <h2>{m.name} <span class="meta">{m.tally.scored + m.tally.draft}/{m.tally.total} scored</span></h2>
+      <div class="cov-bar">
+        {STATUSES.map((s) => m.tally[s] > 0 && <span class={`is-${s}`} style={`width:${pct(m.tally[s], m.tally.total)}%`} title={`${s}: ${m.tally[s]}`}></span>)}
+      </div>
+      <table class="cov-table">
+        <thead><tr><th>Meso</th><th class="is-num">Scored</th><th class="is-num">Draft</th><th class="is-num">Unscored</th><th class="is-num">Stub</th></tr></thead>
+        <tbody>
+          {m.mesos.map((x) => (
+            <>
+              <tr>
+                <td><a href={`/${m.slug}/${x.slug}/`}>{x.name}</a></td>
+                <td class="is-num">{x.tally.scored}</td><td class="is-num">{x.tally.draft}</td>
+                <td class="is-num">{x.tally.unscored}</td><td class="is-num">{x.tally.stub}</td>
+              </tr>
+              {x.gaps.length > 0 && (
+                <tr class="cov-gaps"><td colspan="5">
+                  <details><summary class="meta">{x.gaps.length} without a call</summary>
+                    <ul>{x.gaps.map((c) => <li><a href={`/${c.path}/`}>{c.name}</a> <span class={`badge is-${c.status}`}>{c.status}</span>{c.summary && <span class="link-blurb">{c.summary}</span>}</li>)}</ul>
+                  </details>
+                </td></tr>
+              )}
+            </>
+          ))}
+        </tbody>
+      </table>
+    </section>
+  ))}
+</Base>

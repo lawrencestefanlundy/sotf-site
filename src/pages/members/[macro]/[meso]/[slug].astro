@@ -1,8 +1,9 @@
 ---
 /**
- * /members/[macro]/[meso]/[slug]/ — the members' edition of a concept.
- * Gated by middleware.ts (anonymous → /signin). Content comes from the private
- * R2 bucket at request time; nothing here is in the build output.
+ * /members/[macro]/[meso]/[slug]/ — the members' edition of a concept: the full
+ * note (reasoning, prediction, the call), its score history, who is building it,
+ * the reading list and the author's essays on it. Gated by middleware.ts; content
+ * comes from the private R2 bucket at request time.
  */
 export const prerender = false;
 
@@ -10,7 +11,7 @@ import Base from "../../../../layouts/Base.astro";
 import Scorecard from "../../../../components/Scorecard.astro";
 import { MACROS } from "../../../../data/taxonomy";
 import { getEnv } from "../../../../env";
-import { getMemberConcept, renderMarkdown, validSegments } from "../../../../lib/members";
+import { describeEvent, getMemberConcept, renderMarkdown, validSegments } from "../../../../lib/members";
 
 const { macro, meso, slug } = Astro.params;
 if (!validSegments(macro, meso, slug)) return new Response("Not found", { status: 404 });
@@ -21,6 +22,11 @@ if (!concept) return new Response("Not found", { status: 404 });
 const macroName = MACROS.find((m) => m.slug === macro)?.name ?? macro;
 const mesoName = meso.replace(/-/g, " ");
 const html = renderMarkdown(concept.body_md);
+const history = concept.history ?? [];
+const sources = concept.sources ?? [];
+const essays = concept.essays ?? [];
+const companies = concept.companies ?? [];
+const host = (u: string) => { try { return new URL(u).hostname.replace(/^www\./, ""); } catch { return ""; } };
 ---
 
 <Base title={`${concept.name} — members' edition`} noindex={true} prose={true}>
@@ -50,4 +56,64 @@ const html = renderMarkdown(concept.body_md);
   )}
 
   <article set:html={html} />
+
+  {history.length > 0 && (
+    <section>
+      <h2>Score history</h2>
+      <p class="meta" style="margin-bottom:.6rem">Every change to this concept's scores and calls since the record began.</p>
+      <ul class="event-list">
+        {history.map((e) => (
+          <li><span class="meta ev-date">{e.date}</span><span class="ev-clause">{describeEvent(e)}</span></li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  {companies.length > 0 && (
+    <section>
+      <h2>Who is building it</h2>
+      <p class="meta" style="margin-bottom:.6rem">Public companies and well-known startups tracked against this concept. Each name links to the company's site.</p>
+      <ul class="company-list">
+        {companies.map((c) => (
+          <li>
+            {c.website ? <a href={c.website} rel="noopener">{c.name}</a> : <strong>{c.name}</strong>}
+            {(c.stage || c.hq || c.founded) && <span class="meta"> {[c.stage, c.hq, c.founded ? `founded ${c.founded}` : ""].filter(Boolean).join(" · ")}</span>}
+            {c.blurb && <span class="link-blurb">{c.blurb}</span>}
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  {essays.length > 0 && (
+    <section>
+      <h2>Essays on this</h2>
+      <p class="meta" style="margin-bottom:.6rem">From the newsletter. Each link opens the essay on Substack.</p>
+      <ul class="readlist">
+        {essays.map((s) => (
+          <li>
+            <a href={s.url} rel="noopener">{s.title}</a>
+            <span class="meta"> {s.date}</span>
+            {s.blurb && <span class="link-blurb">{s.blurb}</span>}
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  {sources.length > 0 && (
+    <section>
+      <h2>Reading list <span class="meta">{sources.length} sources</span></h2>
+      <p class="meta" style="margin-bottom:.6rem">Every public source behind this concept, newest first. Each link opens the original; the line under it says what it argues.</p>
+      <ul class="readlist">
+        {sources.map((s) => (
+          <li>
+            {s.url ? <a href={s.url} rel="noopener">{s.title}</a> : <span>{s.title}</span>}
+            <span class="meta"> {s.date}{s.kind ? ` · ${s.kind}` : ""}{s.url && host(s.url) ? ` · ${host(s.url)}` : ""}</span>
+            {s.blurb && <span class="link-blurb">{s.blurb}</span>}
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
 </Base>

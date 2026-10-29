@@ -38,6 +38,33 @@ async function stripeGet(path: string, key: string): Promise<any> {
   return res.json();
 }
 
+/**
+ * Every email with a live subscription, plus the allowlist: the digest's
+ * recipient list. Paginates; a few hundred subscribers is a handful of calls.
+ */
+export async function listSubscriberEmails(env: Env): Promise<string[]> {
+  const emails = new Set<string>(
+    (env.MEMBER_ALLOWLIST ?? "").split(/[,\s;]+/).map((s) => s.trim().toLowerCase()).filter(Boolean),
+  );
+  if (!env.STRIPE_SECRET_KEY) return [...emails];
+  for (const status of ["active", "trialing", "past_due"]) {
+    let after: string | undefined;
+    for (let page = 0; page < 20; page++) {
+      const q = new URLSearchParams({ status, limit: "100" });
+      q.append("expand[]", "data.customer");
+      if (after) q.set("starting_after", after);
+      const res = await stripeGet(`/subscriptions?${q}`, env.STRIPE_SECRET_KEY);
+      for (const s of res.data ?? []) {
+        const email = s.customer?.email;
+        if (typeof email === "string" && email.includes("@")) emails.add(email.trim().toLowerCase());
+        after = s.id;
+      }
+      if (!res.has_more) break;
+    }
+  }
+  return [...emails];
+}
+
 export async function checkEntitlement(email: string, env: Env): Promise<Entitlement> {
   if (allowlisted(email, env)) return { active: true, reason: "allowlist" };
   if (!env.STRIPE_SECRET_KEY) return { active: false, reason: "none" };

@@ -1,0 +1,127 @@
+---
+/**
+ * /members/screener/ — all scored technologies in one table. Filter by macro,
+ * verdict, timing, status and score; sort any column; search by name. Rendered
+ * server-side from index.json; a small inline script filters and sorts in place.
+ */
+export const prerender = false;
+
+import Base from "../../layouts/Base.astro";
+import { MACROS } from "../../data/taxonomy";
+import { getEnv } from "../../env";
+import { DIMS, getMemberIndex } from "../../lib/members";
+
+const index = await getMemberIndex(getEnv());
+const rows = (index?.concepts ?? []).filter((c) => c.status !== "stub");
+const macroName = new Map(MACROS.map((m) => [m.slug, m.name]));
+const verdicts = [...new Set(rows.map((r) => r.verdict).filter(Boolean))].sort();
+const timings = [...new Set(rows.map((r) => r.timing).filter(Boolean))].sort();
+const DIM_SHORT: Record<string, string> = { viability: "V", drivers: "D", novelty: "N", diffusion: "Df", impact: "I" };
+const DIM_TITLE: Record<string, string> = {
+  viability: "Viability — how technically mature is it?", drivers: "Drivers — how powerful are the adoption forces?",
+  novelty: "Novelty — how much better than the alternatives?", diffusion: "Diffusion — how easily will it be adopted?",
+  impact: "Impact — how much value if it works?",
+};
+---
+
+<Base title="Screener — members" noindex={true}>
+  <div class="breadcrumb" data-pagefind-ignore>
+    <a href="/">Now</a> &nbsp;/&nbsp; <a href="/members/" data-astro-prefetch="false">Members</a> &nbsp;/&nbsp; Screener
+  </div>
+
+  <p class="members-kicker">Members' edition</p>
+  <h1>Screener</h1>
+  <p class="lede" style="max-width:76ch">{rows.length} technologies with a score or a draft score. Filter, then click a column to sort. Each name links to the members' edition; the line under it says what the page is about.</p>
+
+  <form class="screener-filters" id="sf" onsubmit="return false">
+    <input type="search" name="q" placeholder="Search names…" aria-label="Search names" />
+    <select name="macro" aria-label="Macro"><option value="">All macros</option>{MACROS.map((m) => <option value={m.slug}>{m.name}</option>)}</select>
+    <select name="verdict" aria-label="Verdict"><option value="">Any call</option>{verdicts.map((v) => <option value={v}>{v}</option>)}</select>
+    <select name="timing" aria-label="Timing"><option value="">Any timing</option>{timings.map((t) => <option value={t}>{t}</option>)}</select>
+    <select name="status" aria-label="Status"><option value="">Scored + draft</option><option value="scored">Scored only</option><option value="draft">Draft only</option><option value="any">Include unscored</option></select>
+    <label>Impact ≥ <select name="impact"><option value="">–</option>{[2,3,4,5].map((n) => <option value={n}>{n}</option>)}</select></label>
+    <label>Viability ≤ <select name="viability"><option value="">–</option>{[1,2,3,4].map((n) => <option value={n}>{n}</option>)}</select></label>
+    <span class="meta" id="sf-count"></span>
+  </form>
+
+  <div class="screener-wrap">
+    <table class="screener" id="screener">
+      <thead>
+        <tr>
+          <th data-sort="name" class="is-sortable">Technology</th>
+          <th data-sort="macro" class="is-sortable">Macro</th>
+          <th data-sort="verdict" class="is-sortable">Call</th>
+          <th data-sort="timing" class="is-sortable">Timing</th>
+          {DIMS.map((d) => <th data-sort={d} class="is-sortable is-num" title={DIM_TITLE[d]}>{DIM_SHORT[d]}</th>)}
+          <th data-sort="sources_30d" class="is-sortable is-num" title="Public sources citing it in the last 30 days">30d</th>
+          <th data-sort="status" class="is-sortable">Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((r) => (
+          <tr data-name={r.name.toLowerCase()} data-macro={r.macro} data-verdict={r.verdict} data-timing={r.timing} data-status={r.status}
+              data-viability={r.scores.viability ?? ""} data-drivers={r.scores.drivers ?? ""} data-novelty={r.scores.novelty ?? ""}
+              data-diffusion={r.scores.diffusion ?? ""} data-impact={r.scores.impact ?? ""} data-sources_30d={r.sources_30d}>
+            <td class="c-name">
+              <a href={r.members ? `/members/${r.path}/` : `/${r.path}/`} data-astro-prefetch="false">{r.name}</a>
+              {r.summary && <span class="link-blurb">{r.summary}</span>}
+            </td>
+            <td class="meta">{macroName.get(r.macro) ?? r.macro}</td>
+            <td>{r.verdict}</td>
+            <td>{r.timing}</td>
+            {DIMS.map((d) => <td class="is-num">{r.scores[d] ?? <span class="meta">–</span>}</td>)}
+            <td class="is-num">{r.sources_30d || <span class="meta">0</span>}</td>
+            <td><span class={`badge is-${r.status}`}>{r.status}</span></td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <script is:inline>
+    (() => {
+      const form = document.getElementById("sf"), table = document.getElementById("screener");
+      if (!form || !table) return;
+      const tbody = table.tBodies[0], count = document.getElementById("sf-count");
+      const rows = [...tbody.rows];
+      const num = (v) => v === "" ? null : Number(v);
+      function apply() {
+        const f = Object.fromEntries(new FormData(form));
+        let shown = 0;
+        for (const tr of rows) {
+          const d = tr.dataset;
+          let ok = true;
+          if (f.q && !d.name.includes(f.q.toLowerCase())) ok = false;
+          if (f.macro && d.macro !== f.macro) ok = false;
+          if (f.verdict && d.verdict !== f.verdict) ok = false;
+          if (f.timing && d.timing !== f.timing) ok = false;
+          if (f.status === "" && !(d.status === "scored" || d.status === "draft")) ok = false;
+          else if (f.status && f.status !== "any" && d.status !== f.status) ok = false;
+          if (f.impact && !(num(d.impact) >= Number(f.impact))) ok = false;
+          if (f.viability && !(num(d.viability) !== null && num(d.viability) <= Number(f.viability))) ok = false;
+          tr.hidden = !ok; if (ok) shown++;
+        }
+        count.textContent = `${shown} shown`;
+      }
+      let sortKey = "name", asc = true;
+      function sort() {
+        const numeric = ["viability","drivers","novelty","diffusion","impact","sources_30d"].includes(sortKey);
+        rows.sort((a, b) => {
+          const x = a.dataset[sortKey], y = b.dataset[sortKey];
+          if (numeric) { const nx = x === "" ? -1 : +x, ny = y === "" ? -1 : +y; return asc ? nx - ny : ny - nx; }
+          return asc ? x.localeCompare(y) : y.localeCompare(x);
+        });
+        for (const tr of rows) tbody.appendChild(tr);
+        for (const th of table.tHead.rows[0].cells) th.classList.toggle("is-sorted", th.dataset.sort === sortKey);
+      }
+      form.addEventListener("input", apply);
+      table.tHead.addEventListener("click", (e) => {
+        const th = e.target.closest("th[data-sort]"); if (!th) return;
+        const k = th.dataset.sort;
+        if (k === sortKey) asc = !asc; else { sortKey = k; asc = !["viability","drivers","novelty","diffusion","impact","sources_30d"].includes(k); }
+        sort();
+      });
+      apply(); sort();
+    })();
+  </script>
+</Base>

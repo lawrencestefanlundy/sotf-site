@@ -61,6 +61,19 @@ export async function readSession(value: string | undefined, secret: string | un
   }
 }
 
+/** Detached HMAC tag for a short value (the digest opt-out link carries the email + this). */
+export async function signValue(value: string, secret: string): Promise<string> {
+  return b64url(await crypto.subtle.sign("HMAC", await hmacKey(secret), enc.encode(value)));
+}
+
+export async function verifyValue(value: string, sig: string, secret: string): Promise<boolean> {
+  try {
+    return await crypto.subtle.verify("HMAC", await hmacKey(secret), unb64url(sig), enc.encode(value));
+  } catch {
+    return false;
+  }
+}
+
 export async function setSessionCookie(cookies: AstroCookies, email: string, secret: string): Promise<void> {
   const now = Math.floor(Date.now() / 1000);
   const value = await signSession({ email, exp: now + SESSION_TTL_S, verified: now }, secret);

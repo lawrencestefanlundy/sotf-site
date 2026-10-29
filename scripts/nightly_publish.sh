@@ -75,6 +75,17 @@ elif [ -z "${R2_ACCESS_KEY_ID:-}" ]; then
   echo "R2_ACCESS_KEY_ID not set (~/.config/kb/env) — members' content NOT synced." >> "$LOG_FILE"
 elif ! python3 "$SITE_DIR/scripts/upload_members.py" >> "$LOG_FILE" 2>&1; then
   echo "MEMBERS SYNC FAILED — public publish continues; /members/ pages may be stale" >> "$LOG_FILE"
+elif [ "$(date +%u)" = 1 ] && [ -n "${DIGEST_SECRET:-}" ]; then
+  # Step 1c: Mondays only — the weekly members' digest, built by the Worker from
+  # the changes feed just synced. The Worker decides whom to send to (Stripe).
+  STEP="weekly digest"
+  # JSON body: Astro rejects form-typed or untyped cross-site POSTs (CSRF guard).
+  if ! curl -fsS -m 120 -X POST -H "Authorization: Bearer $DIGEST_SECRET" \
+        -H "Content-Type: application/json" -d '{}' \
+        "${SITE_URL:-https://stateofthefuture.io}/api/digest/send" >> "$LOG_FILE" 2>&1; then
+    echo "DIGEST SEND FAILED — members' content is live; the email did not go out" >> "$LOG_FILE"
+  fi
+  echo "" >> "$LOG_FILE"
 fi
 
 # Step 2: stage + commit (only if there are real changes; git commit

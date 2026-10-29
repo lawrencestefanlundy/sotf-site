@@ -50,6 +50,11 @@ OUT = SITE / "src" / "content" / "concepts"
 # Worker reads from, so this content never enters the public repo or build.
 MEMBERS_OUT = SITE / ".members-out"
 STAGING = SITE / ".publish-staging"
+# Score ledger: last run's scorecards + every change since, so members get a
+# history per concept and a "what changed" feed. Lives in the KB (backed up with
+# it), never in this public repo. Override with SOTF_MEMBERS_LEDGER.
+LEDGER = Path(os.environ.get("SOTF_MEMBERS_LEDGER") or (KB / "scripts" / "sotf_members_ledger.json"))
+CHANGES_WINDOW_DAYS = 90
 MIN_KEEP_RATIO = 0.90
 BACK_REFS = KB / "scripts" / "back_refs.json"
 
@@ -503,13 +508,19 @@ def _source_meta() -> dict:
             continue
         for f in d.glob("*.md"):
             try:
-                fm, _ = parse_fm(f.read_text(encoding="utf-8", errors="ignore"))
+                fm, body = parse_fm(f.read_text(encoding="utf-8", errors="ignore"))
             except Exception:
                 continue
             if not fm:
                 continue
-            out[f.stem] = (str(fm.get("title") or f.stem),
-                           str(fm.get("url") or "").strip())
+            m = re.match(r"^(\d{4}-\d{2}-\d{2})", f.stem)
+            out[f.stem] = {
+                "title": str(fm.get("title") or f.stem).strip(),
+                "url": str(fm.get("url") or "").strip(),
+                "date": str(fm.get("date") or (m.group(1) if m else ""))[:10],
+                "kind": kind,
+                "blurb": _blurb_from_fm(fm, body),
+            }
     _source_meta_cache = out
     return out
 
@@ -545,7 +556,8 @@ def strip_private_wikilinks(body: str) -> str:
             # unreadable run-ons ("...the post silicon semiconductor era a
             # review of physics synth"), so public sources become a superscript
             # reference link and everything else is dropped outright.
-            title, url = _source_meta().get(slug, ("", ""))
+            sm = _source_meta().get(slug)
+            title, url = (sm["title"], sm["url"]) if sm else ("", "")
             if url.startswith("http"):
                 safe = title.replace('"', "'")[:120]
                 return (f'<sup class="ref"><a href="{url}" title="{safe}" '
@@ -664,8 +676,71 @@ def filter_concept(fm: dict, body: str, slug: str) -> tuple[dict, str]:
     return out, public_body(body)
 
 
-def public_body(body: str) -> str:
-    """The body as the public page shows it: no Cloudberry framing, no private companies."""
+# Sections that are the members' edition: the reasoning and the calls. The public
+# page keeps what a technology is, how it works and who is in it; members get why
+# it scores the way it does, the prediction, and what would change the view.
+# Matched against the heading text, case-insensitive, at any ## depth.
+MEMBER_SECTIONS = re.compile(
+    r"^(?:prediction|predictions|forecast|verdict|"
+    r"overrated or underrated|over-?rated|under-?rated|"
+    r"viability|drivers|novelty|diffusion|impact|timing|"
+    r"what would change (?:my|the) (?:mind|view)|bull case|bear case|"
+    r"investment view|investor view|the call|our view|my view)\b",
+    re.IGNORECASE,
+)
+
+# The fund is never named in either edition. Both strip it; this is the belt to
+# strip_cloudberry_content's braces, applied last so nothing re-introduces it.
+FUND_WORDS = re.compile(r"cloudberry", re.IGNORECASE)
+
+
+def scrub_fund_mentions(body: str) -> str:
+    """Drop every paragraph (and heading) that names the fund."""
+    paragraphs = re.split(r"\n\s*\n", body)
+    kept = [p for p in paragraphs if not FUND_WORDS.search(p)]
+    return re.sub(r"\n{3,}", "\n\n", "\n\n".join(kept))
+
+
+def split_sections(body: str) -> list[tuple[int, str, str]]:
+    """[(level, heading, text)] — level 0 is the preamble before the first heading.
+
+    A section runs to the next heading of the same or a higher level, so a ###
+    inside a ## section stays with its parent.
+    """
+    lines = body.split("\n")
+    out: list[tuple[int, str, list[str]]] = [(0, "", [])]
+    for line in lines:
+        m = re.match(r"^(##+)\s+(.+?)\s*$", line)
+        if m:
+            out.append((len(m.group(1)), m.group(2), [line]))
+        else:
+            out[-1][2].append(line)
+    return [(lvl, h, "\n".join(ls)) for lvl, h, ls in out]
+
+
+def strip_member_sections(body: str) -> str:
+    """Public edition: remove the members' sections and their sub-sections."""
+    kept: list[str] = []
+    skipping_level = 0
+    for level, heading, text in split_sections(body):
+        if skipping_level and level > skipping_level:
+            continue                       # sub-section of a removed section
+        skipping_level = 0
+        if level and MEMBER_SECTIONS.match(heading):
+            skipping_level = level
+            continue
+        kept.append(text)
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(kept)).strip("\n") + "\n"
+
+
+def member_body(body: str) -> str:
+    """The members' edition: the whole note minus everything confidential.
+
+    Stripped for everyone: fund framing (the product stands on its own), Attio-
+    tracked companies (deal flow), private source kinds, deal fields, Dataview
+    debris. What members get that the public page does not is decided by
+    MEMBER_SECTIONS, applied in public_body().
+    """
     body = strip_internal_annotations(body)
     new_body = strip_dataview_blocks(body)
     new_body = strip_external_images(new_body)
@@ -673,28 +748,135 @@ def public_body(body: str) -> str:
     new_body = strip_private_company_paragraphs(new_body)
     new_body = strip_leading_template_noise(new_body)
     new_body = strip_private_wikilinks(new_body)
-    return new_body
+    return scrub_fund_mentions(new_body)
 
 
-def member_body(body: str) -> str:
-    """The members' edition: the same note with the Cloudberry sections kept.
-
-    Everything confidential stays stripped — Attio-tracked companies (deal flow),
-    private source kinds, deal fields — so a paying subscriber sees the investor
-    view of a technology, never the pipeline. The only difference from
-    public_body() is the missing strip_cloudberry_content() pass.
-    """
-    body = strip_internal_annotations(body)
-    new_body = strip_dataview_blocks(body)
-    new_body = strip_external_images(new_body)
-    new_body = strip_private_company_paragraphs(new_body)
-    new_body = strip_leading_template_noise(new_body)
-    new_body = strip_private_wikilinks(new_body)
-    return new_body
+def public_body(body: str) -> str:
+    """The public page: the members' edition minus the reasoning sections."""
+    return strip_member_sections(member_body(body))
 
 
 def _headings(body: str) -> list[str]:
     return [m.group(1).strip() for m in re.finditer(r"^##+\s+([^\n]+)$", body, re.MULTILINE)]
+
+
+def first_sentence(body: str, limit: int = 170) -> str:
+    """One plain sentence for a link blurb: first real paragraph, markdown stripped."""
+    for para in re.split(r"\n\s*\n", body):
+        p = para.strip()
+        if not p or p.startswith(("#", "|", "```", "![", "<!--", "- ", "* ")):
+            continue
+        p = re.sub(r"\[\[([^\]|]+)\|([^\]]+)\]\]", r"\2", p)
+        p = re.sub(r"\[\[([^\]]+)\]\]", r"\1", p)
+        p = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", p)
+        p = re.sub(r"[*_`>#]", "", p)
+        p = re.sub(r"\s+", " ", p).strip()
+        m = re.match(r"^(.+?[.!?])(\s|$)", p)
+        s = m.group(1) if m and len(m.group(1)) >= 40 else p
+        if len(s) > limit:
+            s = s[: limit - 1].rsplit(" ", 1)[0] + "…"
+        return s
+    return ""
+
+
+def _blurb_from_fm(fm: dict, body: str) -> str:
+    """A source page's one-liner: the first of several likely frontmatter fields, else its body."""
+    for key in ("summary", "tldr", "one_liner", "takeaway", "key_takeaway", "description", "abstract"):
+        v = fm.get(key)
+        if isinstance(v, str) and v.strip():
+            return first_sentence(v.strip())
+    return first_sentence(body)
+
+
+def member_sources(source_refs: list) -> list[dict]:
+    """The full public reading list for a concept: every public source, linked, with a blurb."""
+    meta = _source_meta()
+    out = []
+    for s in source_refs or []:
+        ref = str(s).strip("[]").split("|")[0].strip()
+        m = meta.get(ref)
+        if not m:
+            continue                        # private kind or missing: never listed
+        out.append({"slug": ref, **m})
+    out.sort(key=lambda x: x.get("date", ""), reverse=True)
+    return out
+
+
+def member_essays(slug: str) -> list[dict]:
+    """The author's own newsletter pieces that discuss this concept, linked."""
+    meta = _source_meta()
+    out = []
+    for mentioned, entry in _public_source_index():
+        if entry["kind"] != "substack":
+            continue
+        try:
+            if slug not in mentioned:
+                continue
+        except TypeError:
+            continue
+        m = meta.get(entry["slug"], {})
+        if not m.get("url"):
+            continue
+        out.append({"slug": entry["slug"], **m})
+    out.sort(key=lambda x: x.get("date", ""), reverse=True)
+    return out
+
+
+_public_companies_cache: dict[str, dict] | None = None
+
+
+def _public_companies() -> dict[str, dict]:
+    """slug -> safe company card for companies WITHOUT an Attio id.
+
+    Attio-tracked companies are pipeline and never leave the KB. Public companies
+    and well-known startups are fair to list. Field names are read defensively:
+    the company template has varied, and a missing field is simply omitted.
+    """
+    global _public_companies_cache
+    if _public_companies_cache is not None:
+        return _public_companies_cache
+    out: dict[str, dict] = {}
+    if KB_COMPANIES.exists():
+        for p in KB_COMPANIES.glob("*.md"):
+            try:
+                fm, body = parse_fm(p.read_text(encoding="utf-8", errors="ignore"))
+            except Exception:
+                continue
+            if not fm or (fm.get("attio_id") or "").strip():
+                continue
+            card = {"slug": p.stem, "name": fm.get("canonical_name") or fm.get("name") or p.stem}
+            for out_key, keys in (
+                ("website", ("website", "url", "homepage")),
+                ("hq", ("hq", "location", "country")),
+                ("founded", ("founded", "founded_year", "year_founded")),
+                ("stage", ("stage", "company_stage", "status")),
+                ("blurb", ("one_liner", "summary", "description", "tldr")),
+            ):
+                for k in keys:
+                    v = fm.get(k)
+                    if isinstance(v, (str, int)) and str(v).strip():
+                        card[out_key] = str(v).strip()
+                        break
+            if "blurb" not in card:
+                b = first_sentence(scrub_fund_mentions(body))
+                if b:
+                    card["blurb"] = b
+            if "blurb" in card and FUND_WORDS.search(card["blurb"]):
+                del card["blurb"]
+            out[p.stem] = card
+    _public_companies_cache = out
+    return out
+
+
+def member_companies(company_refs: list) -> list[dict]:
+    cards = _public_companies()
+    out = []
+    for c in company_refs or []:
+        ref = str(c).strip("[]").split("|")[0].strip()
+        if ref in cards:
+            out.append(cards[ref])
+    out.sort(key=lambda x: x["name"].lower())
+    return out
 
 
 def _norm(body: str) -> str:
@@ -734,10 +916,24 @@ def emit_concept(p: Path, dry_run: bool = False, out_root: Path = OUT,
 
     m_body = member_body(body)
     has_members = _norm(m_body) != _norm(out_body)
-    extra_sections = [h for h in _headings(m_body) if h not in set(_headings(out_body))]
+    public_heads = set(_headings(out_body))
+    # Top-level members' sections only, for the teaser ("Prediction · Impact (4/5)").
+    extra_sections = [h for lvl, h, _ in split_sections(m_body)
+                      if lvl == 2 and h not in public_heads]
     if has_members:
         out_fm["members"] = True
         out_fm["members_sections"] = extra_sections   # named in the public teaser
+
+    sc = out_fm.get("scorecard") or {}
+    scores = {k: (sc.get(k) if isinstance(sc.get(k), (int, float)) else None)
+              for k in ("viability", "drivers", "novelty", "diffusion", "impact")}
+    words = len(m_body.split())
+    if any(v is not None for v in scores.values()):
+        status = "draft" if out_fm.get("scorecard_status") == "draft" else "scored"
+    elif words < 60 or "Stub leader page" in m_body:
+        status = "stub"
+    else:
+        status = "unscored"
     member_entry = {
         "slug": p.stem,
         "name": out_fm.get("canonical_name") or p.stem,
@@ -745,7 +941,16 @@ def emit_concept(p: Path, dry_run: bool = False, out_root: Path = OUT,
         "meso": meso,
         "path": f"{macro}/{meso}/{p.stem}",
         "last_updated": _iso(out_fm.get("last_updated")),
+        "summary": first_sentence(out_body),          # the sentence under every link to it
         "extra_sections": extra_sections,
+        "members": has_members,
+        "status": status,
+        "scores": scores,
+        "verdict": sc.get("verdict") or "",
+        "timing": sc.get("timing_band") or "",
+        "words": words,
+        "sources_7d": out_fm.get("sources_7d", 0),
+        "sources_30d": out_fm.get("sources_30d", 0),
     }
 
     if dry_run:
@@ -763,13 +968,19 @@ def emit_concept(p: Path, dry_run: bool = False, out_root: Path = OUT,
             **member_entry,
             "scorecard": out_fm.get("scorecard"),
             "scorecard_status": out_fm.get("scorecard_status"),
-            "sources_30d": out_fm.get("sources_30d", 0),
             "body_md": m_body,
+            # Reading list: every public source, linked, one sentence each.
+            "sources": member_sources(fm.get("sources") or []),
+            "essays": member_essays(p.stem),
+            # Who is building it — public companies and well-known startups only.
+            "companies": member_companies(fm.get("companies_using") or []),
+            "recent_mentions": out_fm.get("recent_mentions", []),
         }, ensure_ascii=False), encoding="utf-8")
 
     return {"slug": p.stem, "status": "emitted", "macro": macro, "meso": meso,
             "sources_30d": out_fm.get("sources_30d", 0),
-            "members": has_members, "member_entry": member_entry}
+            "members": has_members, "member_entry": member_entry,
+            "recent_mentions": out_fm.get("recent_mentions", [])}
 
 
 def emit_atlas_data(dry_run: bool = False, atlas_path: Path | None = None) -> dict:
@@ -826,6 +1037,85 @@ def emit_atlas_data(dry_run: bool = False, atlas_path: Path | None = None) -> di
         atlas_path.write_text(json.dumps(out, ensure_ascii=False), encoding="utf-8")
 
     return out
+
+
+def update_ledger(entries: list[dict], today: str) -> tuple[dict, list[dict]]:
+    """Diff today's scorecards against the ledger; return (ledger, today's events).
+
+    The first run only records a snapshot (no 778 "new concept" events). After
+    that every score move, verdict or timing change, first scoring and new
+    concept becomes an event with the date it was seen.
+    """
+    ledger: dict = {"snapshots": {}, "events": [], "bootstrapped": None}
+    if LEDGER.exists():
+        try:
+            ledger = json.loads(LEDGER.read_text(encoding="utf-8"))
+        except Exception as e:
+            print(f"WARN: ledger unreadable ({e}); starting a fresh one", file=sys.stderr)
+    snaps = ledger.setdefault("snapshots", {})
+    first_run = not snaps
+    events: list[dict] = []
+
+    def ev(e: dict, kind: str, field: str = "", old=None, new=None) -> dict:
+        return {"date": today, "slug": e["slug"], "name": e["name"], "path": e["path"],
+                "summary": e.get("summary", ""), "members": bool(e.get("members")),
+                "kind": kind, "field": field, "old": old, "new": new}
+
+    for e in entries:
+        prev = snaps.get(e["slug"])
+        if prev is None:
+            if not first_run:
+                events.append(ev(e, "new"))
+        else:
+            for dim, new in e["scores"].items():
+                old = (prev.get("scores") or {}).get(dim)
+                if old != new and new is not None:
+                    events.append(ev(e, "score", dim, old, new))
+            if e["verdict"] and prev.get("verdict") != e["verdict"]:
+                events.append(ev(e, "verdict", "verdict", prev.get("verdict") or None, e["verdict"]))
+            if e["timing"] and prev.get("timing") != e["timing"]:
+                events.append(ev(e, "timing", "timing", prev.get("timing") or None, e["timing"]))
+            if e["status"] != prev.get("status") and e["status"] in ("scored", "draft"):
+                events.append(ev(e, "status", "status", prev.get("status"), e["status"]))
+        snaps[e["slug"]] = {
+            "name": e["name"], "path": e["path"], "scores": e["scores"],
+            "verdict": e["verdict"], "timing": e["timing"], "status": e["status"],
+            "first_seen": (prev or {}).get("first_seen") or today,
+        }
+
+    if first_run:
+        ledger["bootstrapped"] = today
+    ledger["events"] = (ledger.get("events") or []) + events
+    ledger["updated"] = today
+    return ledger, events
+
+
+def build_changes(ledger: dict, entries: list[dict], today: str) -> dict:
+    """changes.json: the last CHANGES_WINDOW_DAYS of events plus this week's most-cited concepts."""
+    cutoff = (datetime.fromisoformat(today) - timedelta(days=CHANGES_WINDOW_DAYS)).date().isoformat()
+    week = (datetime.fromisoformat(today) - timedelta(days=7)).date().isoformat()
+    events = [e for e in ledger.get("events", []) if e.get("date", "") >= cutoff]
+    events.sort(key=lambda e: (e["date"], e["name"].lower()), reverse=True)
+
+    meta = _source_meta()
+    active = []
+    for e in sorted(entries, key=lambda x: (-x.get("sources_7d", 0), x["name"].lower())):
+        if e.get("sources_7d", 0) <= 0:
+            break
+        mentions = []
+        for m in e.get("recent_mentions", []):
+            if m.get("date", "") < week:
+                continue
+            sm = meta.get(m["slug"], {})
+            mentions.append({"title": m["title"], "date": m["date"], "kind": m["kind"],
+                             "url": sm.get("url", ""), "blurb": sm.get("blurb", "")})
+        active.append({"slug": e["slug"], "name": e["name"], "path": e["path"],
+                       "summary": e.get("summary", ""), "members": bool(e.get("members")),
+                       "sources_7d": e["sources_7d"], "mentions": mentions[:6]})
+        if len(active) >= 15:
+            break
+    return {"generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+            "bootstrapped": ledger.get("bootstrapped"), "events": events, "active": active}
 
 
 def previous_count(live: Path) -> int:
@@ -887,14 +1177,20 @@ def main():
 
     emitted = sum(1 for r in rows if r["status"] == "emitted" or r["status"] == "would emit")
     member_rows = [r for r in rows if r.get("members")]
+    entries = sorted((r["member_entry"] for r in rows if "member_entry" in r),
+                     key=lambda e: (e["macro"], e["meso"], e["name"].lower()))
+    today = datetime.now(timezone.utc).date().isoformat()
 
-    # Members' index — what /members/ lists, and what the uploader syncs.
+    # Members' index — every public concept with its scores and status, so the
+    # screener and coverage map see the whole corpus; `members` marks the ones
+    # with an edition of their own. recent_mentions are needed for the changes
+    # feed only; keep index.json lean.
     if not dry_run:
         (staged_members / "index.json").write_text(json.dumps({
             "generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
             "count": len(member_rows),
-            "concepts": sorted((r["member_entry"] for r in member_rows),
-                               key=lambda e: (e["macro"], e["meso"], e["name"].lower())),
+            "total": len(entries),
+            "concepts": entries,
         }, ensure_ascii=False), encoding="utf-8")
     skipped_private = sum(1 for r in rows if "private" in r.get("status", ""))
     skipped_other = sum(1 for r in rows if "skipped" in r.get("status", "") and "private" not in r["status"])
@@ -912,6 +1208,30 @@ def main():
                   f"{STAGING} for inspection. Re-run with --allow-shrink if the drop is deliberate.",
                   file=sys.stderr)
             sys.exit(2)
+
+        # Guard passed: this run counts. Record scores, emit the changes feed,
+        # and give every members' concept its own history.
+        for r in rows:
+            if "member_entry" in r:
+                r["member_entry"]["recent_mentions"] = r.get("recent_mentions", [])
+        ledger, new_events = update_ledger(entries, today)
+        LEDGER.parent.mkdir(parents=True, exist_ok=True)
+        LEDGER.write_text(json.dumps(ledger, ensure_ascii=False), encoding="utf-8")
+        changes = build_changes(ledger, entries, today)
+        (staged_members / "changes.json").write_text(json.dumps(changes, ensure_ascii=False), encoding="utf-8")
+        by_slug: dict[str, list[dict]] = {}
+        for e in ledger.get("events", []):
+            by_slug.setdefault(e["slug"], []).append(e)
+        for r in member_rows:
+            m_path = staged_members / r["macro"] / r["meso"] / f"{r['slug']}.json"
+            if m_path.exists():
+                data = json.loads(m_path.read_text(encoding="utf-8"))
+                data["history"] = sorted(by_slug.get(r["slug"], []), key=lambda e: e["date"], reverse=True)
+                m_path.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+        print(f"ledger: {len(new_events)} change events today"
+              f"{' (bootstrap run — snapshot only)' if ledger.get('bootstrapped') == today else ''}; "
+              f"{len(changes['active'])} concepts active this week")
+
         swap_into_place(staged_concepts, OUT)
         swap_into_place(staged_members, MEMBERS_OUT)
         atlas_live = SITE / "src" / "data" / "atlas.json"

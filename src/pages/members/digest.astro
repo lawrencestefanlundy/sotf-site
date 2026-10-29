@@ -1,0 +1,30 @@
+---
+/**
+ * /members/digest/ — this week's digest exactly as the email renders it, built
+ * from the live changes feed. Sent Mondays by the nightly script. Gated.
+ */
+export const prerender = false;
+
+import Base from "../../layouts/Base.astro";
+import { getEnv } from "../../env";
+import { buildDigest } from "../../lib/digest";
+import { getChanges, getMemberIndex } from "../../lib/members";
+
+const env = getEnv();
+const [changes, index] = await Promise.all([getChanges(env), getMemberIndex(env)]);
+const site = (env.SITE_URL ?? Astro.url.origin).replace(/\/$/, "");
+const digest = buildDigest(changes, index, site);
+---
+
+<Base title="Digest — members" noindex={true} prose={true}>
+  <div class="breadcrumb" data-pagefind-ignore>
+    <a href="/">Now</a> &nbsp;/&nbsp; <a href="/members/" data-astro-prefetch="false">Members</a> &nbsp;/&nbsp; Digest
+  </div>
+
+  <p class="members-kicker">Members' edition</p>
+  <h1>This week's digest</h1>
+  <p class="lede">Every Monday, paid subscribers get this by email: what moved in the last seven days, each line linked to the concept it concerns. Below is the current draft, built from the live feed. {digest.items === 0 ? "A quiet week sends nothing." : `${digest.items} items so far.`}</p>
+  <p class="meta">Subject: {digest.subject}</p>
+
+  <div class="digest-preview" set:html={digest.inner} />
+</Base>

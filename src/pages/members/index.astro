@@ -1,30 +1,34 @@
 ---
 /**
  * /members/ — the one members route that is not gated. Signed out it is the
- * landing page (what the edition is, sign in, subscribe); signed in it lists
- * every concept that has a members' edition, grouped by macro, from the R2 index.
+ * landing page (what the edition is, sign in, subscribe); signed in it is the
+ * members' home: tools, this week's changes, and every concept with an edition.
  */
 export const prerender = false;
 
 import Base from "../../layouts/Base.astro";
 import { MACROS } from "../../data/taxonomy";
 import { getEnv } from "../../env";
-import { getMemberIndex, type MemberEntry } from "../../lib/members";
+import { conceptHref, describeEvent, getChanges, getMemberIndex, type MemberEntry } from "../../lib/members";
 
 const member = Astro.locals.member;
-const index = member ? await getMemberIndex(getEnv()) : null;
+const env = getEnv();
+const [index, changes] = member ? await Promise.all([getMemberIndex(env), getChanges(env)]) : [null, null];
+const digestFlag = Astro.url.searchParams.get("digest");
 
-const macroName = new Map(MACROS.map((m) => [m.slug, m.name]));
 const byMacro = new Map<string, MemberEntry[]>();
 for (const c of index?.concepts ?? []) {
+  if (!c.members) continue;
   const list = byMacro.get(c.macro) ?? [];
   list.push(c);
   byMacro.set(c.macro, list);
 }
 const macros = MACROS.filter((m) => byMacro.has(m.slug));
+const scored = index?.concepts.filter((c) => c.status === "scored" || c.status === "draft").length ?? 0;
+const latest = (changes?.events ?? []).slice(0, 8);
 ---
 
-<Base title="Members" description="The members' edition of State of the Future: the investor view behind each concept, for paid newsletter subscribers." prose={!member}>
+<Base title="Members" description="The members' edition of State of the Future: the reasoning and the calls behind each scored technology, for paid newsletter subscribers." prose={!member}>
   <div class="breadcrumb" data-pagefind-ignore>
     <a href="/">Now</a> &nbsp;/&nbsp; Members
   </div>
@@ -32,11 +36,13 @@ const macros = MACROS.filter((m) => byMacro.has(m.slug));
   {!member ? (
     <section class="members-landing">
       <h1>The members' edition</h1>
-      <p class="lede">Every concept page on this site is the public half of a note in the research base behind my investing. The other half — where the money is going, which approach I'd back and why, what would change my mind — is the members' edition, for paid subscribers to the newsletter.</p>
+      <p class="lede">Every concept page on this site is the reference half of a note: what the technology is, how it works, who is in it, and a score. The members' edition is the other half — why it scores the way it does, the prediction, the call on whether it is over- or underrated, and what would change the view. Rebuilt nightly from the same research base, for paid subscribers to the newsletter.</p>
       <ul class="members-points">
-        <li><strong>The investor view on every scored technology</strong> — the sections the public page leaves out, kept current by the same nightly rebuild.</li>
-        <li><strong>One subscription.</strong> Paid newsletter subscribers already have access: sign in with the email you subscribe with.</li>
-        <li><strong>No new account, no password.</strong> A one-time link to your inbox, and you stay signed in for a month.</li>
+        <li><strong>The reasoning behind every score</strong> — the sections the public page leaves out, on every scored technology.</li>
+        <li><strong>What changed this week</strong> — a feed of every score, call and timing change, with a weekly email digest.</li>
+        <li><strong>A screener</strong> over all scored technologies: filter by verdict, timing, impact and viability.</li>
+        <li><strong>Reading lists</strong> — every public source behind a concept, linked, one sentence each.</li>
+        <li><strong>One subscription, no new account.</strong> Paid newsletter subscribers already have access: a one-time link to the email you subscribe with.</li>
       </ul>
       <p class="members-actions">
         <a class="subscribe-btn" href="/signin/" data-astro-prefetch="false">Sign in</a>
@@ -45,11 +51,36 @@ const macros = MACROS.filter((m) => byMacro.has(m.slug));
       <p class="meta">Billing stays on Substack. Cancel there and access here ends with it.</p>
     </section>
   ) : (
-    <section class="members-index">
+    <section class="members-home">
       <h1>Members' edition</h1>
-      <p class="meta" style="margin-bottom:1.5rem">
-        {index ? `${index.count} concepts carry a members' edition · rebuilt ${index.generated.slice(0, 10)}` : "The members' index is not available right now."}
+      <p class="meta" style="margin-bottom:1.25rem">
+        {index ? `${index.count} concepts with a members' edition · ${scored} scored · rebuilt ${index.generated.slice(0, 10)}` : "The members' index is not available right now."}
       </p>
+      {digestFlag === "off" && <p class="notice is-ok">The weekly digest is switched off for your address. Your access is unchanged.</p>}
+      {digestFlag === "invalid" && <p class="notice is-err">That digest link was not valid. Use the link in the latest digest email.</p>}
+
+      <nav class="tool-row" aria-label="Members' tools">
+        <a href="/members/changes/" data-astro-prefetch="false"><strong>Changes</strong><span>Every score, call and timing change in the last 90 days.</span></a>
+        <a href="/members/screener/" data-astro-prefetch="false"><strong>Screener</strong><span>Filter all scored technologies by verdict, timing, impact and viability.</span></a>
+        <a href="/members/coverage/" data-astro-prefetch="false"><strong>Coverage</strong><span>What is scored, drafted, unscored or a stub — and what gets scored next.</span></a>
+        <a href="/members/digest/" data-astro-prefetch="false"><strong>Digest</strong><span>This week's email, as it will be sent on Monday.</span></a>
+      </nav>
+
+      {latest.length > 0 && (
+        <section class="members-latest">
+          <h2>Latest changes <a class="meta" href="/members/changes/" data-astro-prefetch="false">all →</a></h2>
+          <ul class="event-list">
+            {latest.map((e) => (
+              <li>
+                <span class="meta ev-date">{e.date}</span>
+                <a href={conceptHref(e)} data-astro-prefetch="false">{e.name}</a>
+                <span class="ev-clause">{describeEvent(e)}</span>
+                {e.summary && <span class="link-blurb">{e.summary}</span>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       {macros.map((m) => (
         <section class="members-macro">
@@ -58,9 +89,8 @@ const macros = MACROS.filter((m) => byMacro.has(m.slug));
             {byMacro.get(m.slug)!.map((c) => (
               <li>
                 <a href={`/members/${c.path}/`} data-astro-prefetch="false">{c.name}</a>
-                {c.extra_sections.length > 0 && (
-                  <span class="meta"> &nbsp;{c.extra_sections.join(" · ")}</span>
-                )}
+                {c.verdict && <span class="meta"> &nbsp;{c.verdict}{c.timing ? ` · ${c.timing}` : ""}</span>}
+                {c.summary && <span class="link-blurb">{c.summary}</span>}
               </li>
             ))}
           </ul>

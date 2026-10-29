@@ -15,6 +15,7 @@ export type Env = {
   STRIPE_SECRET_KEY: string;     // restricted key: Customers + Subscriptions, read
   RESEND_API_KEY: string;
   MEMBER_ALLOWLIST?: string;     // comma-separated emails that bypass Stripe (comps, author)
+  DIGEST_SECRET?: string;        // bearer token the nightly script uses to trigger the weekly digest
   // Vars
   MAIL_FROM?: string;
   SITE_URL?: string;

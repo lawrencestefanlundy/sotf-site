@@ -1,0 +1,78 @@
+---
+/**
+ * /members/changes/ — what moved. Every score, call, timing and status change
+ * the nightly rebuild recorded in the last 90 days, newest first, plus the
+ * concepts the sources talked about most this week. Gated by middleware.
+ */
+export const prerender = false;
+
+import Base from "../../layouts/Base.astro";
+import { getEnv } from "../../env";
+import { conceptHref, describeEvent, getChanges, type ChangeEvent } from "../../lib/members";
+
+const changes = await getChanges(getEnv());
+const byDate = new Map<string, ChangeEvent[]>();
+for (const e of changes?.events ?? []) {
+  const list = byDate.get(e.date) ?? [];
+  list.push(e);
+  byDate.set(e.date, list);
+}
+const days = [...byDate.entries()];
+const KIND_LABEL: Record<ChangeEvent["kind"], string> = {
+  verdict: "call", score: "score", timing: "timing", status: "status", new: "new",
+};
+---
+
+<Base title="Changes — members" noindex={true} prose={true}>
+  <div class="breadcrumb" data-pagefind-ignore>
+    <a href="/">Now</a> &nbsp;/&nbsp; <a href="/members/" data-astro-prefetch="false">Members</a> &nbsp;/&nbsp; Changes
+  </div>
+
+  <p class="members-kicker">Members' edition</p>
+  <h1>What changed</h1>
+  <p class="lede">Every score, call and timing change the nightly rebuild has recorded, newest first. A line is one judgement moving, not a page edit{changes?.bootstrapped ? `; the record starts ${changes.bootstrapped}` : ""}.</p>
+
+  {changes && changes.active.length > 0 && (
+    <section>
+      <h2>Most active this week</h2>
+      <ul class="active-list">
+        {changes.active.map((a) => (
+          <li>
+            <a href={conceptHref(a)} data-astro-prefetch="false">{a.name}</a>
+            <span class="ev-clause">{a.sources_7d} new source{a.sources_7d === 1 ? "" : "s"}</span>
+            {a.summary && <span class="link-blurb">{a.summary}</span>}
+            {a.mentions.length > 0 && (
+              <ul class="mention-list">
+                {a.mentions.map((m) => (
+                  <li>
+                    {m.url ? <a href={m.url} rel="noopener">{m.title}</a> : <span>{m.title}</span>}
+                    <span class="meta"> {m.date} · {m.kind}</span>
+                    {m.blurb && <span class="link-blurb">{m.blurb}</span>}
+                  </li>
+                ))}
+              </ul>
+            )}
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  {days.length === 0 ? (
+    <p class="notice">No recorded changes yet. The feed fills from the first nightly rebuild after the ledger starts.</p>
+  ) : days.map(([date, events]) => (
+    <section class="change-day">
+      <h2>{date} <span class="meta">{events.length} change{events.length === 1 ? "" : "s"}</span></h2>
+      <ul class="event-list">
+        {events.map((e) => (
+          <li>
+            <span class={`ev-kind is-${e.kind}`}>{KIND_LABEL[e.kind]}</span>
+            <a href={conceptHref(e)} data-astro-prefetch="false">{e.name}</a>
+            <span class="ev-clause">{describeEvent(e)}</span>
+            {e.summary && <span class="link-blurb">{e.summary}</span>}
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</Base>

@@ -59,13 +59,13 @@ Mondays, after the R2 sync, `nightly_publish.sh` POSTs to `/api/digest/send` wit
 2. Open [API keys](https://resend.com/api-keys) and create one with *Sending access* only. Copy `re_…`.
 
 ### 3. Cloudflare
-1. [Sign up](https://dash.cloudflare.com/sign-up) if you have no account — the free plan is enough. Note the **Account ID** (right-hand column of the Workers & Pages overview).
+1. [Sign up](https://dash.cloudflare.com/sign-up) if you have no account — the free plan is enough. The **Account ID** (right-hand column of the Workers & Pages overview) goes in `wrangler.jsonc` as `account_id`; it is not sensitive.
 2. Open [R2](https://dash.cloudflare.com/?to=/:account/r2) and **Create bucket** `sotf-members`, location automatic. Then **Manage API tokens → Create**: *Object Read & Write*, scoped to this bucket. Copy the Access Key ID and Secret — these go on your Mac (step 6), not GitHub.
 3. Open [Account API Tokens](https://dash.cloudflare.com/?to=/:account/api-tokens) — tokens that let tools act on your account — and **Create Token → Edit Cloudflare Workers** template. Add *Workers KV Storage: Edit* and *Workers R2 Storage: Edit* if missing. Copy it.
 
 ### 4. GitHub
 Open the repo's [Actions secrets and variables](https://github.com/lawrencestefanlundy/sotf-site/settings/secrets/actions) — where workflows read credentials.
-- Secrets: `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`.
+- Secret: `CLOUDFLARE_API_TOKEN`.
 - Variable: `CLOUDFLARE_DEPLOY` = `true`.
 
 Then open [Actions → Deploy to Cloudflare](https://github.com/lawrencestefanlundy/sotf-site/actions/workflows/deploy-cloudflare.yml) and **Run workflow**. The first run provisions the KV namespaces and deploys the Worker at `sotf-site.<your-subdomain>.workers.dev`. If it fails on a KV namespace without an `id`, run `npx wrangler kv namespace create AUTH_KV` locally and paste the id into `wrangler.jsonc`.

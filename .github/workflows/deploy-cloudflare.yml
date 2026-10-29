@@ -3,10 +3,10 @@
 #
 # Inert until the repository variable CLOUDFLARE_DEPLOY is set to "true", so the
 # nightly pushes keep deploying to GitHub Pages (deploy.yml) until the Cloudflare
-# side is set up. Steps in docs/MEMBERS-SETUP.md. Needs secrets:
+# side is set up. Steps in docs/MEMBERS-SETUP.md. Needs one secret:
 #   CLOUDFLARE_API_TOKEN   (Workers Scripts: Edit, Workers KV Storage: Edit,
 #                           Workers R2 Storage: Edit, Account Settings: Read)
-#   CLOUDFLARE_ACCOUNT_ID
+# The account id is in wrangler.jsonc (it is not sensitive).
 name: Deploy to Cloudflare
 
 on:
@@ -46,5 +46,4 @@ jobs:
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: deploy -c dist/server/wrangler.json

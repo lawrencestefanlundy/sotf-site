@@ -12,6 +12,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "sotf-site",
+  "account_id": "28ccbb326e35a782d4b5ef28ebcd4915",
   "compatibility_date": "2026-01-01",
   // disable_nodejs_process_v2 is load-bearing: with the v2 `process` shim (default
   // from late-2025 dates) Astro 6 mistakes workerd for Node, streams pages as an

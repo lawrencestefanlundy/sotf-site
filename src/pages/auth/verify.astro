@@ -1,0 +1,54 @@
+---
+/**
+ * /auth/verify?t=… — the magic link.
+ *
+ * GET only checks the token still exists and renders a page that POSTs it
+ * straight back (auto-submitted; a button for no-JS). Mail scanners and link
+ * previewers follow GETs, and on a GET-consumes design they would burn the
+ * token before the reader clicks. POST consumes it, re-checks the subscription
+ * and sets the session cookie.
+ */
+export const prerender = false;
+
+import Base from "../../layouts/Base.astro";
+import { getEnv } from "../../env";
+import { safeNext, setSessionCookie } from "../../lib/auth";
+import { checkEntitlement } from "../../lib/stripe";
+
+const env = getEnv();
+const TOKEN = /^[A-Za-z0-9_-]{40,50}$/;
+
+let token = "";
+if (Astro.request.method === "POST") {
+  const form = await Astro.request.formData();
+  token = String(form.get("t") ?? "");
+} else {
+  token = Astro.url.searchParams.get("t") ?? "";
+}
+if (!TOKEN.test(token) || !env.AUTH_KV) return Astro.redirect("/signin/?error=expired", 303);
+
+const key = `ml:${token}`;
+const raw = await env.AUTH_KV.get(key);
+if (!raw) return Astro.redirect("/signin/?error=expired", 303);
+
+if (Astro.request.method === "POST") {
+  await env.AUTH_KV.delete(key);                       // single use
+  const { email, next } = JSON.parse(raw) as { email: string; next?: string };
+  const ent = await checkEntitlement(email, env);
+  if (!ent.active) return Astro.redirect(`/signin/?error=nosub&email=${encodeURIComponent(email)}`, 303);
+  await setSessionCookie(Astro.cookies, email, env.SESSION_SECRET);
+  return Astro.redirect(safeNext(next), 303);
+}
+---
+
+<Base title="Signing you in" noindex={true} prose={true}>
+  <section class="signin">
+    <h1>Signing you in…</h1>
+    <form method="post" action="/auth/verify/" class="signin-form" id="verify" data-astro-reload>
+      <input type="hidden" name="t" value={token} />
+      <noscript><p class="lede">Press the button to finish signing in.</p></noscript>
+      <button type="submit" class="subscribe-btn">Continue to the members' edition</button>
+    </form>
+  </section>
+  <script is:inline>document.getElementById("verify").submit();</script>
+</Base>

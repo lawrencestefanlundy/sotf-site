@@ -12,6 +12,8 @@ interface Props {
 const { title, description, jsonLd, noindex, prose } = Astro.props;
 // Members pages must never enter the public Pagefind index.
 const isMembers = Astro.url.pathname.startsWith("/members");
+// Set by middleware on the on-demand routes only; undefined on prerendered pages.
+const member = (Astro.locals as App.Locals | undefined)?.member ?? null;
 const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
 const metaDescription = description ?? "State of the Future — Lawrence Lundy-Bryan's deep-tech reference";
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
@@ -89,6 +91,7 @@ const siteJsonLd = {
           <li><a data-astro-prefetch="viewport" href={`${BASE}/writing/`}>Writing</a></li>
           <li><a href={`${BASE}/atlas/`}>Atlas</a></li>
           <li><a data-astro-prefetch="viewport" href={`${BASE}/about/`}>About</a></li>
+          {__MEMBERS_ENABLED__ && <li><a data-astro-prefetch="false" href={`${BASE}/members/`}>Members</a></li>}
         </ul>
         <div class="site-search" data-pagefind-ignore>
           <input
@@ -102,6 +105,12 @@ const siteJsonLd = {
           <div id="site-search-results" class="search-results" hidden></div>
         </div>
       </nav>
+      {member && (
+        <div class="member-bar" data-pagefind-ignore>
+          <span>Signed in as {member.email}</span>
+          <a href="/auth/signout/" data-astro-prefetch="false" data-astro-reload>Sign out</a>
+        </div>
+      )}
     </header>
     <main class={prose ? "prose-main" : ""}>
       <slot />

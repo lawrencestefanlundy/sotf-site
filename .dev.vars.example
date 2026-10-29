@@ -1,0 +1,7 @@
+# Copy to .dev.vars (gitignored) for `npm run dev:members`. Same names as the
+# production secrets (`npx wrangler secret put <NAME>`).
+SESSION_SECRET=replace-with-openssl-rand-hex-32
+STRIPE_SECRET_KEY=rk_test_...
+RESEND_API_KEY=re_...
+# Emails that bypass the Stripe check — yourself, comped readers.
+MEMBER_ALLOWLIST=lawrence@example.com

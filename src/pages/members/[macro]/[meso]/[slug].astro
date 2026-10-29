@@ -1,0 +1,53 @@
+---
+/**
+ * /members/[macro]/[meso]/[slug]/ — the members' edition of a concept.
+ * Gated by middleware.ts (anonymous → /signin). Content comes from the private
+ * R2 bucket at request time; nothing here is in the build output.
+ */
+export const prerender = false;
+
+import Base from "../../../../layouts/Base.astro";
+import Scorecard from "../../../../components/Scorecard.astro";
+import { MACROS } from "../../../../data/taxonomy";
+import { getEnv } from "../../../../env";
+import { getMemberConcept, renderMarkdown, validSegments } from "../../../../lib/members";
+
+const { macro, meso, slug } = Astro.params;
+if (!validSegments(macro, meso, slug)) return new Response("Not found", { status: 404 });
+
+const concept = await getMemberConcept(getEnv(), macro, meso, slug);
+if (!concept) return new Response("Not found", { status: 404 });
+
+const macroName = MACROS.find((m) => m.slug === macro)?.name ?? macro;
+const mesoName = meso.replace(/-/g, " ");
+const html = renderMarkdown(concept.body_md);
+---
+
+<Base title={`${concept.name} — members' edition`} noindex={true} prose={true}>
+  <div class="breadcrumb" data-pagefind-ignore>
+    <a href="/">Now</a> &nbsp;/&nbsp;
+    <a href="/members/" data-astro-prefetch="false">Members</a> &nbsp;/&nbsp;
+    <a href={`/${macro}/`}>{macroName}</a> &nbsp;/&nbsp;
+    <a href={`/${macro}/${meso}/`}>{mesoName}</a> &nbsp;/&nbsp;
+    {concept.name}
+  </div>
+
+  <p class="members-kicker">Members' edition</p>
+  <h1>{concept.name}</h1>
+
+  <div class="meta" style="margin-bottom: 1rem;">
+    {concept.last_updated && `last updated ${concept.last_updated}`}
+    {(concept.sources_30d ?? 0) > 0 && ` · +${concept.sources_30d} sources in last 30d`}
+    {" · "}<a href={`/${concept.path}/`}>public page</a>
+  </div>
+
+  {concept.extra_sections.length > 0 && (
+    <p class="members-extra">In this edition and not the public page: {concept.extra_sections.join(" · ")}</p>
+  )}
+
+  {concept.scorecard && (
+    <Scorecard scorecard={concept.scorecard} status={concept.scorecard_status ?? undefined} />
+  )}
+
+  <article set:html={html} />
+</Base>

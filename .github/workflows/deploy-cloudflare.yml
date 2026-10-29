@@ -1,0 +1,50 @@
+# Build and deploy the site to Cloudflare Workers (public pages as static assets,
+# /members + auth routes in the Worker).
+#
+# Inert until the repository variable CLOUDFLARE_DEPLOY is set to "true", so the
+# nightly pushes keep deploying to GitHub Pages (deploy.yml) until the Cloudflare
+# side is set up. Steps in docs/MEMBERS-SETUP.md. Needs secrets:
+#   CLOUDFLARE_API_TOKEN   (Workers Scripts: Edit, Workers KV Storage: Edit,
+#                           Workers R2 Storage: Edit, Account Settings: Read)
+#   CLOUDFLARE_ACCOUNT_ID
+name: Deploy to Cloudflare
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cloudflare
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    name: Build and deploy
+    if: ${{ vars.CLOUDFLARE_DEPLOY == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build with Astro + Pagefind (members on)
+        run: npm run build:members
+
+      - name: Deploy Worker + assets
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: deploy -c dist/server/wrangler.json

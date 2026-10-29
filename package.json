@@ -7,15 +7,22 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && pagefind --site dist",
+    "dev:members": "MEMBERS_ENABLED=1 astro dev",
+    "build": "astro build && pagefind --site dist/client",
+    "build:members": "MEMBERS_ENABLED=1 npm run build",
     "preview": "astro preview",
+    "deploy": "npm run build:members && wrangler deploy -c dist/server/wrangler.json",
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/cloudflare": "^13.7.0",
     "@astrojs/sitemap": "^3.7.3",
-    "astro": "^6.3.1"
+    "astro": "^6.3.1",
+    "marked": "^18.1.2"
   },
   "devDependencies": {
-    "pagefind": "^1.5.2"
+    "@cloudflare/workers-types": "^5.20261029.1",
+    "pagefind": "^1.5.2",
+    "wrangler": "^4.155.0"
   }
 }

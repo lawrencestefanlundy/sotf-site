@@ -39,3 +39,12 @@ __pycache__/
 
 # publish_kb.py builds here, then swaps into src/content/concepts
 .publish-staging/
+
+# Members' edition of the concepts — paywalled, synced to R2 by upload_members.py.
+# Must never be committed: this repo is public.
+.members-out/
+
+# Cloudflare
+.wrangler/
+.dev.vars
+worker-configuration.d.ts

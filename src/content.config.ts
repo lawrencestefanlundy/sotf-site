@@ -63,6 +63,10 @@ const concepts = defineCollection({
       last_reorg_date: z.union([z.string(), z.date()]).optional(),
       mention_count: z.number().optional(),
       tags: z.array(z.string()).default([]),
+      // Set by publish_kb.py when the members' edition (R2) carries sections the
+      // public page does not; the page shows the teaser and names them.
+      members: z.boolean().default(false),
+      members_sections: z.array(z.string()).default([]),
     })
     .passthrough(),
 });

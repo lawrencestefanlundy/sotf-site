@@ -1,0 +1,56 @@
+---
+/**
+ * Members' sign-in: email → one-time link. No passwords, no second account —
+ * the email is checked against the Stripe subscriptions Substack bills through.
+ */
+export const prerender = false;
+
+import Base from "../layouts/Base.astro";
+import { safeNext } from "../lib/auth";
+
+const next = safeNext(Astro.url.searchParams.get("next"));
+if (Astro.locals.member) return Astro.redirect(next, 302);
+
+const sent = Astro.url.searchParams.get("sent") === "1";
+const error = Astro.url.searchParams.get("error") ?? "";
+const email = Astro.url.searchParams.get("email") ?? "";
+
+const MESSAGES: Record<string, string> = {
+  nosub: "No active paid subscription for that address. If you subscribe under a different email, try that one; otherwise subscribe below and come straight back.",
+  expired: "That link has expired or was already used. Request a fresh one.",
+  invalid: "That doesn't look like an email address.",
+  ratelimit: "A link was sent less than a minute ago — check your inbox (and spam) before asking for another.",
+  mail: "The email couldn't be sent just now. Try again in a minute.",
+  stripe: "Couldn't reach the subscription records just now. Try again in a minute.",
+  config: "Sign-in isn't configured on this deployment yet.",
+};
+---
+
+<Base title="Sign in" description="Members' sign-in for State of the Future" noindex={true} prose={true}>
+  <div class="breadcrumb" data-pagefind-ignore>
+    <a href="/">Now</a> &nbsp;/&nbsp; <a href="/members/">Members</a> &nbsp;/&nbsp; Sign in
+  </div>
+
+  <section class="signin">
+    <h1>Members' sign-in</h1>
+
+    {sent ? (
+      <>
+        <p class="notice is-ok">A one-time sign-in link is on its way to <strong>{email}</strong>. It works once and expires in 15 minutes.</p>
+        <p class="meta">Nothing after a couple of minutes? Check spam, then <a href={`/signin/?next=${encodeURIComponent(next)}`}>request another</a>.</p>
+      </>
+    ) : (
+      <>
+        <p class="lede">The members' edition is for paid subscribers to the newsletter. Enter the email you subscribe with on Substack and a sign-in link comes to your inbox.</p>
+        {error && <p class="notice is-err">{MESSAGES[error] ?? "Something went wrong. Try again."}</p>}
+        <form method="post" action="/api/auth/request" class="signin-form" data-astro-reload>
+          <input type="hidden" name="next" value={next} />
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required autocomplete="email" autofocus value={email} placeholder="you@example.com" />
+          <button type="submit" class="subscribe-btn">Send sign-in link</button>
+        </form>
+        <p class="meta">Not a paid subscriber yet? <a href="https://stateofthefuture.substack.com/subscribe" rel="noopener">Subscribe on Substack</a>, then sign in here with the same email — access is immediate.</p>
+      </>
+    )}
+  </section>
+</Base>

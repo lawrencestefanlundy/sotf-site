@@ -1,0 +1,39 @@
+// Cloudflare Worker config for the site. @astrojs/cloudflare reads this at build
+// and writes a deploy-ready copy next to the built worker; `wrangler deploy`
+// (see .github/workflows/deploy-cloudflare.yml) uses that.
+//
+// Secrets are NOT here — set them once with `npx wrangler secret put <NAME>`:
+//   SESSION_SECRET      openssl rand -hex 32
+//   STRIPE_SECRET_KEY   restricted key, read-only Customers + Subscriptions
+//   RESEND_API_KEY
+//   MEMBER_ALLOWLIST    optional, comma-separated emails (author, comped readers)
+// See docs/MEMBERS-SETUP.md.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "sotf-site",
+  "compatibility_date": "2026-01-01",
+  // disable_nodejs_process_v2 is load-bearing: with the v2 `process` shim (default
+  // from late-2025 dates) Astro 6 mistakes workerd for Node, streams pages as an
+  // async iterable, and every on-demand page body renders as "[object Object]".
+  // Verified locally 29 Oct 2026 with wrangler 4.155 / astro 6.3.1 / adapter 13.7.
+  "compatibility_flags": ["nodejs_compat", "disable_nodejs_process_v2"],
+  "observability": { "enabled": true },
+
+  // Magic-link tokens + per-email rate limits. No `id`: wrangler provisions the
+  // namespace on first deploy and writes the id back here. If your wrangler
+  // version refuses, create it (`npx wrangler kv namespace create AUTH_KV`) and
+  // paste the id.
+  "kv_namespaces": [
+    { "binding": "AUTH_KV" }
+  ],
+
+  // The members' edition of the concepts, synced nightly by scripts/upload_members.py.
+  "r2_buckets": [
+    { "binding": "MEMBERS_BUCKET", "bucket_name": "sotf-members" }
+  ],
+
+  "vars": {
+    "SITE_URL": "https://stateofthefuture.io",
+    "MAIL_FROM": "State of the Future <members@stateofthefuture.io>"
+  }
+}

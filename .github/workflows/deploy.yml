@@ -34,10 +34,13 @@ jobs:
       - name: Build with Astro + Pagefind
         run: npm run build
 
+      # The Cloudflare adapter splits the build: static pages in dist/client, the
+      # Worker in dist/server. Pages gets the static half only (no /members here;
+      # see deploy-cloudflare.yml). Delete this workflow once DNS points at Cloudflare.
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: dist/client
 
   deploy:
     name: Deploy

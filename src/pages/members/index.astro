@@ -1,0 +1,71 @@
+---
+/**
+ * /members/ — the one members route that is not gated. Signed out it is the
+ * landing page (what the edition is, sign in, subscribe); signed in it lists
+ * every concept that has a members' edition, grouped by macro, from the R2 index.
+ */
+export const prerender = false;
+
+import Base from "../../layouts/Base.astro";
+import { MACROS } from "../../data/taxonomy";
+import { getEnv } from "../../env";
+import { getMemberIndex, type MemberEntry } from "../../lib/members";
+
+const member = Astro.locals.member;
+const index = member ? await getMemberIndex(getEnv()) : null;
+
+const macroName = new Map(MACROS.map((m) => [m.slug, m.name]));
+const byMacro = new Map<string, MemberEntry[]>();
+for (const c of index?.concepts ?? []) {
+  const list = byMacro.get(c.macro) ?? [];
+  list.push(c);
+  byMacro.set(c.macro, list);
+}
+const macros = MACROS.filter((m) => byMacro.has(m.slug));
+---
+
+<Base title="Members" description="The members' edition of State of the Future: the investor view behind each concept, for paid newsletter subscribers." prose={!member}>
+  <div class="breadcrumb" data-pagefind-ignore>
+    <a href="/">Now</a> &nbsp;/&nbsp; Members
+  </div>
+
+  {!member ? (
+    <section class="members-landing">
+      <h1>The members' edition</h1>
+      <p class="lede">Every concept page on this site is the public half of a note in the research base behind my investing. The other half — where the money is going, which approach I'd back and why, what would change my mind — is the members' edition, for paid subscribers to the newsletter.</p>
+      <ul class="members-points">
+        <li><strong>The investor view on every scored technology</strong> — the sections the public page leaves out, kept current by the same nightly rebuild.</li>
+        <li><strong>One subscription.</strong> Paid newsletter subscribers already have access: sign in with the email you subscribe with.</li>
+        <li><strong>No new account, no password.</strong> A one-time link to your inbox, and you stay signed in for a month.</li>
+      </ul>
+      <p class="members-actions">
+        <a class="subscribe-btn" href="/signin/" data-astro-prefetch="false">Sign in</a>
+        <a class="subscribe-btn is-secondary" href="https://stateofthefuture.substack.com/subscribe" rel="noopener">Subscribe on Substack</a>
+      </p>
+      <p class="meta">Billing stays on Substack. Cancel there and access here ends with it.</p>
+    </section>
+  ) : (
+    <section class="members-index">
+      <h1>Members' edition</h1>
+      <p class="meta" style="margin-bottom:1.5rem">
+        {index ? `${index.count} concepts carry a members' edition · rebuilt ${index.generated.slice(0, 10)}` : "The members' index is not available right now."}
+      </p>
+
+      {macros.map((m) => (
+        <section class="members-macro">
+          <h2>{m.name} <span class="meta">{byMacro.get(m.slug)!.length}</span></h2>
+          <ul class="members-list">
+            {byMacro.get(m.slug)!.map((c) => (
+              <li>
+                <a href={`/members/${c.path}/`} data-astro-prefetch="false">{c.name}</a>
+                {c.extra_sections.length > 0 && (
+                  <span class="meta"> &nbsp;{c.extra_sections.join(" · ")}</span>
+                )}
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </section>
+  )}
+</Base>

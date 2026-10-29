@@ -45,6 +45,10 @@ KB_COMPANIES = KB / "companies"
 # writes into that worktree and never into the main checkout.
 SITE = Path(__file__).resolve().parent.parent
 OUT = SITE / "src" / "content" / "concepts"
+# Members' edition of each concept (the investor-view sections the public page
+# strips). Gitignored: upload_members.py syncs it to the private R2 bucket the
+# Worker reads from, so this content never enters the public repo or build.
+MEMBERS_OUT = SITE / ".members-out"
 STAGING = SITE / ".publish-staging"
 MIN_KEEP_RATIO = 0.90
 BACK_REFS = KB / "scripts" / "back_refs.json"
@@ -657,6 +661,11 @@ def filter_concept(fm: dict, body: str, slug: str) -> tuple[dict, str]:
     out["neighbors"] = neighbors[:20]  # cap for the radial
 
     # Strip noise + Cloudberry + private-company paragraphs + leading template lines + private wikilinks
+    return out, public_body(body)
+
+
+def public_body(body: str) -> str:
+    """The body as the public page shows it: no Cloudberry framing, no private companies."""
     body = strip_internal_annotations(body)
     new_body = strip_dataview_blocks(body)
     new_body = strip_external_images(new_body)
@@ -664,12 +673,46 @@ def filter_concept(fm: dict, body: str, slug: str) -> tuple[dict, str]:
     new_body = strip_private_company_paragraphs(new_body)
     new_body = strip_leading_template_noise(new_body)
     new_body = strip_private_wikilinks(new_body)
+    return new_body
 
-    return out, new_body
+
+def member_body(body: str) -> str:
+    """The members' edition: the same note with the Cloudberry sections kept.
+
+    Everything confidential stays stripped — Attio-tracked companies (deal flow),
+    private source kinds, deal fields — so a paying subscriber sees the investor
+    view of a technology, never the pipeline. The only difference from
+    public_body() is the missing strip_cloudberry_content() pass.
+    """
+    body = strip_internal_annotations(body)
+    new_body = strip_dataview_blocks(body)
+    new_body = strip_external_images(new_body)
+    new_body = strip_private_company_paragraphs(new_body)
+    new_body = strip_leading_template_noise(new_body)
+    new_body = strip_private_wikilinks(new_body)
+    return new_body
 
 
-def emit_concept(p: Path, dry_run: bool = False, out_root: Path = OUT) -> dict:
+def _headings(body: str) -> list[str]:
+    return [m.group(1).strip() for m in re.finditer(r"^##+\s+([^\n]+)$", body, re.MULTILINE)]
+
+
+def _norm(body: str) -> str:
+    return re.sub(r"\s+", " ", body).strip()
+
+
+def _iso(v) -> str:
+    """Frontmatter dates arrive as str or datetime.date; JSON wants a string."""
+    return "" if v is None else str(v)[:10]
+
+
+def emit_concept(p: Path, dry_run: bool = False, out_root: Path = OUT,
+                 members_root: Path | None = None) -> dict:
     """Read a KB concept, apply filter, emit to public site content dir.
+
+    When the members' edition carries content the public page does not, the
+    public frontmatter gets `members: true` (the page shows the teaser) and the
+    full members' note is written as JSON under `members_root`.
 
     Returns a row describing the emission for the summary.
     """
@@ -689,12 +732,44 @@ def emit_concept(p: Path, dry_run: bool = False, out_root: Path = OUT) -> dict:
     out_fm, out_body = filter_concept(fm, body, p.stem)
     out_path = out_root / macro / meso / f"{p.stem}.md"
 
+    m_body = member_body(body)
+    has_members = _norm(m_body) != _norm(out_body)
+    extra_sections = [h for h in _headings(m_body) if h not in set(_headings(out_body))]
+    if has_members:
+        out_fm["members"] = True
+        out_fm["members_sections"] = extra_sections   # named in the public teaser
+    member_entry = {
+        "slug": p.stem,
+        "name": out_fm.get("canonical_name") or p.stem,
+        "macro": macro,
+        "meso": meso,
+        "path": f"{macro}/{meso}/{p.stem}",
+        "last_updated": _iso(out_fm.get("last_updated")),
+        "extra_sections": extra_sections,
+    }
+
     if dry_run:
-        return {"slug": p.stem, "status": "would emit", "macro": macro, "meso": meso, "out": str((OUT / macro / meso / f"{p.stem}.md").relative_to(SITE))}
+        return {"slug": p.stem, "status": "would emit", "macro": macro, "meso": meso,
+                "out": str((OUT / macro / meso / f"{p.stem}.md").relative_to(SITE)),
+                "members": has_members, "member_entry": member_entry}
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(f"---\n{serialise_fm(out_fm)}---\n{out_body}", encoding="utf-8")
-    return {"slug": p.stem, "status": "emitted", "macro": macro, "meso": meso, "sources_30d": out_fm.get("sources_30d", 0)}
+
+    if has_members and members_root is not None:
+        m_path = members_root / macro / meso / f"{p.stem}.json"
+        m_path.parent.mkdir(parents=True, exist_ok=True)
+        m_path.write_text(json.dumps({
+            **member_entry,
+            "scorecard": out_fm.get("scorecard"),
+            "scorecard_status": out_fm.get("scorecard_status"),
+            "sources_30d": out_fm.get("sources_30d", 0),
+            "body_md": m_body,
+        }, ensure_ascii=False), encoding="utf-8")
+
+    return {"slug": p.stem, "status": "emitted", "macro": macro, "meso": meso,
+            "sources_30d": out_fm.get("sources_30d", 0),
+            "members": has_members, "member_entry": member_entry}
 
 
 def emit_atlas_data(dry_run: bool = False, atlas_path: Path | None = None) -> dict:
@@ -795,19 +870,32 @@ def main():
     # the run has finished and passed the count guard. A leftover staging dir
     # is debris from an interrupted run and is safe to discard.
     staged_concepts = STAGING / "concepts"
+    staged_members = STAGING / "members"
     staged_atlas = STAGING / "atlas.json"
     if not dry_run:
         if STAGING.exists():
             shutil.rmtree(STAGING)
         staged_concepts.mkdir(parents=True)
+        staged_members.mkdir(parents=True)
 
     rows = []
     for p in sorted(KB_CONCEPTS.rglob("*.md")):
         if p.name.startswith("_"):
             continue
-        rows.append(emit_concept(p, dry_run=dry_run, out_root=staged_concepts))
+        rows.append(emit_concept(p, dry_run=dry_run, out_root=staged_concepts,
+                                 members_root=staged_members))
 
     emitted = sum(1 for r in rows if r["status"] == "emitted" or r["status"] == "would emit")
+    member_rows = [r for r in rows if r.get("members")]
+
+    # Members' index — what /members/ lists, and what the uploader syncs.
+    if not dry_run:
+        (staged_members / "index.json").write_text(json.dumps({
+            "generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+            "count": len(member_rows),
+            "concepts": sorted((r["member_entry"] for r in member_rows),
+                               key=lambda e: (e["macro"], e["meso"], e["name"].lower())),
+        }, ensure_ascii=False), encoding="utf-8")
     skipped_private = sum(1 for r in rows if "private" in r.get("status", ""))
     skipped_other = sum(1 for r in rows if "skipped" in r.get("status", "") and "private" not in r["status"])
 
@@ -825,6 +913,7 @@ def main():
                   file=sys.stderr)
             sys.exit(2)
         swap_into_place(staged_concepts, OUT)
+        swap_into_place(staged_members, MEMBERS_OUT)
         atlas_live = SITE / "src" / "data" / "atlas.json"
         atlas_live.parent.mkdir(parents=True, exist_ok=True)
         os.replace(staged_atlas, atlas_live)
@@ -832,6 +921,7 @@ def main():
 
     print(f"publish_kb.py summary ({'DRY RUN' if dry_run else 'APPLY'}):")
     print(f"  • {emitted} concepts emitted")
+    print(f"  • {len(member_rows)} with a members' edition → {MEMBERS_OUT.relative_to(SITE)}/")
     print(f"  • {skipped_private} skipped (private macro — frameworks/markets)")
     print(f"  • {skipped_other} skipped (other)")
     print(f"  • atlas: {len(atlas['nodes'])} nodes, {len(atlas['edges'])} edges")

@@ -1,4 +1,10 @@
 User-agent: *
 Allow: /
+Allow: /members/$
+# Paywalled and auth routes: never crawled, never cached by a search engine.
+Disallow: /members/
+Disallow: /signin/
+Disallow: /auth/
+Disallow: /api/
 
 Sitemap: https://stateofthefuture.io/sitemap-index.xml

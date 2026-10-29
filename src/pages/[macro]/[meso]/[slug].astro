@@ -152,6 +152,22 @@ const jsonLd = [
     <Content />
   </article>
 
+  {__MEMBERS_ENABLED__ && concept.data.members && (
+    <aside class="members-teaser" data-pagefind-ignore>
+      <p class="members-kicker">Members' edition</p>
+      <p>
+        The investor view of {concept.data.canonical_name}
+        {concept.data.members_sections.length > 0 && <> — {concept.data.members_sections.join(", ")} — </>}
+        {concept.data.members_sections.length === 0 && " "}
+        is in the members' edition, for paid subscribers to the newsletter. Same nightly rebuild, the half this page leaves out.
+      </p>
+      <p class="members-actions">
+        <a class="subscribe-btn" href={`${BASE}/members/${macro}/${meso}/${slug}/`} data-astro-prefetch="false">Read the members' edition</a>
+        <a class="meta" href="https://stateofthefuture.substack.com/subscribe" rel="noopener">Not a subscriber? Subscribe on Substack</a>
+      </p>
+    </aside>
+  )}
+
   {concept.data.recent_mentions && concept.data.recent_mentions.length > 0 && (
     <section>
       <h2>Recent mentions</h2>

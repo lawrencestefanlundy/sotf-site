@@ -65,6 +65,18 @@ python3 "$SITE_DIR/scripts/publish_kb.py" >> "$LOG_FILE" 2>&1
 STEP="publish_writing.py"
 python3 "$SITE_DIR/scripts/publish_writing.py" >> "$LOG_FILE" 2>&1
 
+# Step 1b: members' edition → private R2 bucket. This IS the members' deploy
+# (the Worker reads R2 on request), so it is skipped on --no-push like the git
+# push is. Failure here must not block the public publish: log loudly, carry on.
+STEP="upload_members.py"
+if [ "$NO_PUSH" = 1 ]; then
+  echo "--no-push: skipping members' R2 sync." >> "$LOG_FILE"
+elif [ -z "${R2_ACCESS_KEY_ID:-}" ]; then
+  echo "R2_ACCESS_KEY_ID not set (~/.config/kb/env) — members' content NOT synced." >> "$LOG_FILE"
+elif ! python3 "$SITE_DIR/scripts/upload_members.py" >> "$LOG_FILE" 2>&1; then
+  echo "MEMBERS SYNC FAILED — public publish continues; /members/ pages may be stale" >> "$LOG_FILE"
+fi
+
 # Step 2: stage + commit (only if there are real changes; git commit
 #   --allow-empty=NO will exit 1 if nothing to commit — we treat that as success).
 cd "$SITE_DIR"

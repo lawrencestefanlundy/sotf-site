@@ -783,3 +783,67 @@ article blockquote {
   background: var(--indigo) url("/brand/band-tile@2x.png") repeat-x 0 0 / 80px 18px;
 }
 .site-title .mark { width: 0.95em; height: 0.95em; flex: none; }
+
+/* ── members: teaser, sign-in, landing, member bar ───────────── */
+.members-kicker {
+  font-family: var(--mono); font-size: 0.72rem; font-weight: 500;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--accent); margin: 0 0 0.35rem;
+}
+.members-teaser {
+  max-width: 76ch;
+  margin: 2.25rem 0 0;
+  padding: 1.4rem 1.5rem 1.3rem;
+  border: 1px solid var(--ink);
+  background: var(--paper);
+}
+.members-teaser p { font-size: 1.02rem; line-height: 1.55; color: var(--ink-80); margin: 0 0 1rem; }
+.members-teaser p:last-child { margin-bottom: 0; }
+.members-actions {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem;
+}
+.members-actions a.meta { text-decoration: underline; text-underline-offset: 3px; }
+.subscribe-btn.is-secondary {
+  background: transparent; color: var(--ink); border-color: var(--ink);
+}
+.subscribe-btn.is-secondary:hover, .subscribe-btn.is-secondary:focus-visible {
+  background: var(--ink); color: var(--paper); border-color: var(--ink);
+}
+.members-extra {
+  font-family: var(--mono); font-size: 0.8rem; color: var(--ink-60);
+  margin: 0 0 1.25rem;
+}
+
+.signin, .members-landing { max-width: 60ch; }
+.lede { font-size: 1.1rem; line-height: 1.55; color: var(--ink-80); margin: 0.75rem 0 1.5rem; }
+.signin-form { display: flex; flex-direction: column; gap: 0.5rem; margin: 1.25rem 0 1.5rem; max-width: 420px; }
+.signin-form label {
+  font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-60);
+}
+.signin-form input[type="email"] {
+  font: inherit; font-size: 1.05rem; padding: 0.7rem 0.85rem;
+  border: 1px solid var(--ink); border-radius: 2px; background: var(--paper); color: var(--ink);
+}
+.signin-form input[type="email"]:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+.signin-form .subscribe-btn { align-self: flex-start; margin-top: 0.4rem; cursor: pointer; font: inherit; font-family: var(--mono); font-size: 0.8rem; font-weight: 500; }
+.notice { padding: 0.85rem 1rem; border: 1px solid var(--ink); background: var(--paper); font-size: 1rem; line-height: 1.5; margin: 0 0 1.25rem; }
+.notice.is-err { border-color: var(--madder); }
+.notice.is-ok { border-color: var(--accent); }
+
+.members-points { list-style: none; padding: 0; margin: 0 0 1.75rem; }
+.members-points li { padding: 0.8rem 0; border-top: 1px solid var(--rule); font-size: 1.02rem; line-height: 1.5; color: var(--ink-80); }
+.members-points li:last-child { border-bottom: 1px solid var(--rule); }
+.members-landing .members-actions { margin: 0 0 1rem; }
+
+.members-index h2 .meta { font-size: 0.78rem; margin-left: 0.5rem; }
+.members-list { list-style: none; padding: 0; margin: 0; columns: 2; column-gap: 2.5rem; }
+.members-list li { break-inside: avoid; padding: 0.35rem 0; border-bottom: 1px solid var(--rule-soft); font-size: 1rem; }
+@media (max-width: 700px) { .members-list { columns: 1; } }
+
+.member-bar {
+  max-width: 1360px; width: 100%; margin: 0 auto;
+  padding: 0.35rem clamp(1rem, 2.5vw, 2.25rem) 0;
+  display: flex; justify-content: flex-end; gap: 1rem;
+  font-family: var(--mono); font-size: 0.72rem; color: var(--ink-60);
+}
+.member-bar a { text-decoration: underline; text-underline-offset: 3px; color: var(--ink-80); }
